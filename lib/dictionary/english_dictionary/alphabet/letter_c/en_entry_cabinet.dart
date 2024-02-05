@@ -291,7 +291,7 @@ class EnglishEntrycabinet extends StatelessWidget {
                                             "I looked for a cotton swab in the bathroom cabinet."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ گوێ‌پاککەرەوەیەک گەڕام لە سندووقی حەمامەکە."),
+                                            "بۆ گوێ‌پاککەرەوەیەک گەڕام لە سنووقی حەمامەکە."),
                                   ],
                                 ),
                               ),

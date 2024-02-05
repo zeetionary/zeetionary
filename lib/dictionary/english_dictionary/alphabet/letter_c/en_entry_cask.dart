@@ -3,86 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "ballot box" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace ballot box - replace EnglishEntryballotbox
-
-// replace speakBallotbox - /ˈbælət bɒks/
 
 enum TtsState { playing }
 
-class EnglishEntryballotbox extends StatelessWidget {
-// blank divider
-  EnglishEntryballotbox({super.key});
-// blank divider
+class EnglishEntrycask extends StatelessWidget {
+  // blank divider
+  EnglishEntrycask({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBallotbox(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcask(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ballot box"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cask"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs1(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks1(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The voters cast their ballots into the ballot box one by one."); // DOPSUM: CHANGE TEXT
+        "The celebration featured a traditional drink served directly from a beautifully decorated cask."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs2(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks2(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The people make their wishes known through the ballot box."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasks22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs3(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks3(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasks33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs4(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks4(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs5(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks5(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs6(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks6(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs7(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcasks7(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasks77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasks8(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasks88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasks9(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasks99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasks10(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasks1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasks11(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasks1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasks12(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasks1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasks13(String languageCode) async {
+    // DOPSUM: CHANGE speakcask
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasks1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,29 +149,22 @@ class EnglishEntryballotbox extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ballot box"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "cask"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbælət bɒks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /kɑːsk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBallotbox("en-GB"),
+                              onPressed: () => speakcask("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbælət bɑːks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /kæsk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallotbox("en-US"),
+                              onPressed: () => speakcask("en-US"),
                             ),
                           ],
                         ),
@@ -140,7 +177,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -154,7 +191,9 @@ class EnglishEntryballotbox extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) سنووقی دەنگدان"""),
+کوردی: پیپ، بۆشکە، کۆس، کووپەدارینە، کووپەی لەدار، کەمۆڵە، بەرمیل (لە دار)
+
+١. (ناو) بەرمیلێکی دارینی کە شلەی تێدا هەڵدەگیردرێت، بەتایبەتی خواردنەوەی کحولی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -162,76 +201,39 @@ class EnglishEntryballotbox extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The voters cast their ballots into the ballot box one by one."),
+                                            "The celebration featured a traditional drink served directly from a beautifully decorated cask."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سنووقی دەنگدانەکەوە."),
+                                            "ئاهەنگگێڕانەکە خواردنەوەیەکی تێدابوو کە ڕاستەوخۆ لە پیپێکی جوان ڕازاندراوەوە تێدەکرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cask", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallotboxs1("en-GB"),
+                                    onPressed: () => speakcasks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBallotboxs1(// REPLACE: ballot box
-                                            "en-US"),
+                                    onPressed: () => speakcasks1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) سیستەمی دەنگدان لە ھەڵبژاردنێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The people make their wishes known through the ballot box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBallotboxs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBallotboxs2(// REPLACE: ballot box
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -239,6 +241,13 @@ class EnglishEntryballotbox extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -294,8 +303,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ballot box (derived forms: ballot boxes)
-1. A box where voters deposit their ballots
+- Noun: cask (Derived forms: casks)
+1. A cylindrical container that holds liquids (= barrel)
+ 
+2. The quantity a cask will hold (= caskful)
 """,
   );
 
@@ -324,12 +335,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/AMXS7Og_phc?t=',
+    startSeconds: 6,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0sazcZ8wwZc',
-    startSeconds: 350,
+    videoId: 'https://youtu.be/28xXlrxPepc?t=',
+    startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -353,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UJZY8e1rKGQ',
-    startSeconds: 763,
+    videoId: 'https://youtu.be/b5qySRqfS_Y?t=',
+    startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oUeXaPaKF50',
-    startSeconds: 337,
+    videoId: 'https://youtu.be/dRIesVn3AUU?t=',
+    startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ha7iWECm_8E',
-    startSeconds: 377,
+    videoId: 'https://youtu.be/CgjOzZ0EE9Y?t=',
+    startSeconds: 529,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'jdLf3SbBH9Q',
-    startSeconds: 23,
+    videoId: 'https://youtu.be/ugYPoWShl6k?t=',
+    startSeconds: 1621,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YdVhOBv5pcc',
-    startSeconds: 45,
+    videoId: 'https://youtu.be/mqZS-hEPE6k?t=',
+    startSeconds: 502,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +514,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bGURPuoXgW4',
-    startSeconds: 24,
+    videoId: 'https://youtu.be/Ulhu86IIkt4?t=',
+    startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,31 +535,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Z8f1jz55tZo',
-    startSeconds: 301,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end ballot box // TODO Implement this library.
+// end WORD_WEB

@@ -171,7 +171,7 @@ class EnglishEntryattic extends StatelessWidget {
                                             "I've got boxes of old clothes in the attic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک سندووقی جلی کۆنم لەژێر زەمینەکەیە."),
+                                            "ژمارەیەک سنووقی جلی کۆنم لەژێر زەمینەکەیە."),
                                   ],
                                 ),
                               ),

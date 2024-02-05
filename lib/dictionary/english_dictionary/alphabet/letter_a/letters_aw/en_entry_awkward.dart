@@ -297,7 +297,7 @@ class EnglishEntryawkward extends StatelessWidget {
                                             "This box is very awkward for one person to carry."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم سندووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
+                                            "ئەم سنووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
                                   ],
                                 ),
                               ),

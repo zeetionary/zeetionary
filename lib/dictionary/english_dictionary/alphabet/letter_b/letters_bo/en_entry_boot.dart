@@ -217,7 +217,7 @@ class EnglishEntryboot extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Did you lock the boot?"),
                                     ExampleSentenceKurdish(
-                                        text: "سندووقەکەت قوفڵ کرد؟"),
+                                        text: "سنووقەکەت قوفڵ کرد؟"),
                                   ],
                                 ),
                               ),

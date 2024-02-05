@@ -191,7 +191,7 @@ class EnglishEntrybin extends StatelessWidget {
                                             "All their toys are kept in plastic storage bins under the bed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لەژێر جێخەوەکەدا."),
+                                            "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سنووقی پلاستیکی لەژێر جێخەوەکەدا."),
                                   ],
                                 ),
                               ),

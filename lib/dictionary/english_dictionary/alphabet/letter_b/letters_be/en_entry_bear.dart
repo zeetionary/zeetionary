@@ -42,7 +42,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The pain was almost more than he could bear.The pain was almost more than he could bear."); // DOPSUM: CHANGE TEXT
+        "The pain was almost more than he could bear."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBears3(String languageCode) async {
@@ -389,7 +389,7 @@ class EnglishEntrybear extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The pain was almost more than he could bear.The pain was almost more than he could bear."),
+                                            "The pain was almost more than he could bear."),
                                     ExampleSentenceKurdish(
                                         text:
                                             "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت."),

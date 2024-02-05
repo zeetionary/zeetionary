@@ -3,86 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "ballot box" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace ballot box - replace EnglishEntryballotbox
-
-// replace speakBallotbox - /ˈbælət bɒks/
 
 enum TtsState { playing }
 
-class EnglishEntryballotbox extends StatelessWidget {
-// blank divider
-  EnglishEntryballotbox({super.key});
-// blank divider
+class EnglishEntrycassava extends StatelessWidget {
+  // blank divider
+  EnglishEntrycassava({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBallotbox(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassava(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ballot box"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cassava"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs1(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas1(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The voters cast their ballots into the ballot box one by one."); // DOPSUM: CHANGE TEXT
+        "During the cooking class, the chef demonstrated how to prepare a delicious stew using cassava as a key ingredient."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs2(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas2(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The people make their wishes known through the ballot box."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcassavas22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs3(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas3(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcassavas33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs4(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas4(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcassavas44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs5(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas5(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcassavas55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs6(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas6(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcassavas66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallotboxs7(String languageCode) async {
-    // DOPSUM: CHANGE speakBallotbox
+  Future<void> speakcassavas7(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallotboxs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcassavas77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcassavas8(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcassavas88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcassavas9(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcassavas99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcassavas10(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcassavas1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcassavas11(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcassavas1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcassavas12(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcassavas1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcassavas13(String languageCode) async {
+    // DOPSUM: CHANGE speakcassava
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcassavas1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,29 +149,22 @@ class EnglishEntryballotbox extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ballot box"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "cassava"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbælət bɒks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /kəˈsɑːvə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBallotbox("en-GB"),
+                              onPressed: () => speakcassava("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbælət bɑːks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /kəˈsɑːvə/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallotbox("en-US"),
+                              onPressed: () => speakcassava("en-US"),
                             ),
                           ],
                         ),
@@ -140,7 +177,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -154,7 +191,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) سنووقی دەنگدان"""),
+١. (ناو) ڕووەکێکی خولگەیی کە لقی زۆر و ڕیشکی درێژی هەیە و دەکرێت بخوردرێت، یان ڕەگەکەی کە دەکرێت بکوڵێندرێت، ببرژێندرێت، یان بکرێت بە ئارد"""),
                           Row(
                             children: [
                               const Expanded(
@@ -162,76 +199,39 @@ class EnglishEntryballotbox extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The voters cast their ballots into the ballot box one by one."),
+                                            "During the cooking class, the chef demonstrated how to prepare a delicious stew using cassava as a key ingredient."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سنووقی دەنگدانەکەوە."),
+                                            "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارهێنانی کساڤە وەک ڕەچەتەی سەرەکی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cassava", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallotboxs1("en-GB"),
+                                    onPressed: () => speakcassavas1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBallotboxs1(// REPLACE: ballot box
-                                            "en-US"),
+                                    onPressed: () => speakcassavas1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) سیستەمی دەنگدان لە ھەڵبژاردنێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The people make their wishes known through the ballot box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBallotboxs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBallotboxs2(// REPLACE: ballot box
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -239,6 +239,13 @@ class EnglishEntryballotbox extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -294,8 +301,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ballot box (derived forms: ballot boxes)
-1. A box where voters deposit their ballots
+- Noun: cassava (Derived forms: cassavas)
+1. Any of several plants of the genus Manihot having fleshy roots yielding a nutritious starch (= casava)
+ 
+2. Cassava root eaten as a staple food after drying and leaching; source of tapioca (= manioc)
+ 
+3. A starch made by leaching and drying the root of the cassava plant; the source of tapioca; a staple food in the tropics (= cassava starch, manioc, manioca)
 """,
   );
 
@@ -324,12 +335,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/zVtlR4cwqRs?t=',
+    startSeconds: 49,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0sazcZ8wwZc',
-    startSeconds: 350,
+    videoId: 'https://youtu.be/hZ2GkxHePpk?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -353,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UJZY8e1rKGQ',
-    startSeconds: 763,
+    videoId: 'https://youtu.be/UdJAL7J7w6w?t=',
+    startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oUeXaPaKF50',
-    startSeconds: 337,
+    videoId: 'https://youtu.be/-Pq0Sa2zMMM?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ha7iWECm_8E',
-    startSeconds: 377,
+    videoId: 'https://youtu.be/JUR7_EmUy1k?t=',
+    startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'jdLf3SbBH9Q',
-    startSeconds: 23,
+    videoId: 'https://youtu.be/m4jJsseY2Ic?t=',
+    startSeconds: 665,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YdVhOBv5pcc',
-    startSeconds: 45,
+    videoId: 'https://youtu.be/XwsFCagEKrc?t=',
+    startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +514,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bGURPuoXgW4',
-    startSeconds: 24,
+    videoId: 'https://youtu.be/hY-rU-pj_4g?t=',
+    startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,31 +535,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Z8f1jz55tZo',
-    startSeconds: 301,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end ballot box // TODO Implement this library.
+// end WORD_WEB

@@ -49,7 +49,7 @@ class KurdishHistoryScreen extends StatelessWidget {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
           textDirection: TextDirection.rtl,
-          child: Text('پاککرایەوە'),
+          child: Text('مێژوو پاککرایەوە'),
         ),
       ));
     }

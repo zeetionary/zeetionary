@@ -228,7 +228,7 @@ class EnglishEntryastride extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) بە ھەر قاچێک لە لایەکەوە، یان بە لاق بڵاوی"""),
+٢. (ھاوەڵکار) بە ھەر قاچێک لە لایەکەوە، یان بە لاق‌بڵاوی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryastride extends StatelessWidget {
                                         text: "He stood there, legs astride."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەوێ وەستابوو بە لاق بڵاوییەوە."),
+                                            "لەوێ وەستابوو بە لاق‌بڵاوییەوە."),
                                   ],
                                 ),
                               ),

@@ -282,7 +282,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                             "The conveyor belt carried the boxes to the loading dock."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قایشە گوازەرەوەکە سندووقی دەگواستەوە بۆ جێگەی بارکردنەکە."),
+                                            "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە."),
                                   ],
                                 ),
                               ),

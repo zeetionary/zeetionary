@@ -250,7 +250,7 @@ class EnglishEntrybass extends StatelessWidget {
                                         text:
                                             "Fresh sea bass is a great delicacy."),
                                     ExampleSentenceKurdish(
-                                        text: "ماسی تازە لەززەتێکی تایبەتە."),
+                                        text: "ماسی تازە لەزەتێکی تایبەتە."),
                                   ],
                                 ),
                               ),

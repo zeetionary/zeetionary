@@ -118,7 +118,9 @@ class _KurdishFavouritesScreenState extends State<KurdishFavouritesScreen> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('Favourites cleared'),
+            content: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text('هەموو وشە دڵخوازەکان سڕدرانەوە')),
           ),
         );
       }

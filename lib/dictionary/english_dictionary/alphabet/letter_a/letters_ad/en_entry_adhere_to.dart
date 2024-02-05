@@ -121,7 +121,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                             "For ten months he adhered to a no-fat low-salt diet."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ."),
+                                            "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی چەور و کەم خوێ."),
                                   ],
                                 ),
                               ),

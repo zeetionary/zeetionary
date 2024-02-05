@@ -3,281 +3,439 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "black" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
-
-// replace black - /blæk/
 
 enum TtsState { playing }
 
-class EnglishEntryblack extends StatelessWidget {
-// blank divider
-  EnglishEntryblack({super.key});
-// blank divider
+class EnglishEntrycast extends StatelessWidget {
+  // blank divider
+  EnglishEntrycast({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblack(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcast(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("black"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cast"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks1(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had curly black hair and blue eyes."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks2(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I wanted a simple black dress, nothing fancy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks3(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The zebra is a wild African horse with black and white stripes."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks4(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My head banged on a rock and everything went black."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks5(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Through the black night came the sound of thunder."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks6(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's seen as a role model for young Black men."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks7(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There's a large Black community living in this area."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks8(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Two black coffees, please."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks9(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Go and wash your hands; they're absolutely black!"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks10(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's been in a really black mood all day."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks11(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts1(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The future looks pretty black."); // DOPSUM: CHANGE TEXT
+        .speak("I cast an angry look at him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks12(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts2(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Everyone at the funeral was dressed in black."); // DOPSUM: CHANGE TEXT
+        "She cast a quick look in the rear mirror."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks13(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She often dresses in black."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblacks14(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts3(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The museum exhibit featured portraits of influential blacks who shaped history."); // DOPSUM: CHANGE TEXT
+        "The moon had cast a silvery light on the huts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks15(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts4(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The countries have blacked all imports from Russia."); // DOPSUM: CHANGE TEXT
+        "The setting sun cast an orange glow over the mountains."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks16(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts5(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The artist decided to black out the background to emphasize the central figure."); // DOPSUM: CHANGE TEXT
+        "This latest evidence casts serious doubt on his version of events."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks17(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts6(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The entire economic future of the islands was cast into doubt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks18(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts7(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He refused to cast a vote for either candidate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks19(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts8(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The play is being cast in both the US and Britain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks20(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts9(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has cast her as an ambitious lawyer in his latest movie."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks21(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts10(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He cast himself as the innocent victim of a hate campaign."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks22(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts11(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He cast the line to the middle of the river."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks23(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts12(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The priceless treasures had been cast into the Nile."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks24(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts13(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The whole cast performs/perform brilliantly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks25(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts14(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The film has a great cast."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks26(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts15(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The colours he wore emphasized the olive cast of his skin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks27(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts16(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her leg's in a cast."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks28(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts17(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasts1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks29(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts18(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasts1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacks30(String languageCode) async {
-    // DOPSUM: CHANGE speakblack
+  Future<void> speakcasts19(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacks3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcasts1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts20(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts21(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts22(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts23(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts24(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts25(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts26(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2626"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts27(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2727"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts28(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2828"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts29(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts2929"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts30(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3030"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts31(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3131"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts32(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3232"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts33(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3333"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts34(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3434"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts35(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3535"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts36(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3636"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts37(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3737"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts38(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3838"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts39(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts3939"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts40(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4040"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts41(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4141"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts42(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4242"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts43(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4343"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts44(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4444"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts45(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4545"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts46(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4646"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts47(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4747"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts48(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4848"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts49(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts4949"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcasts50(String languageCode) async {
+    // DOPSUM: CHANGE speakcast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcasts5050"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -300,22 +458,22 @@ class EnglishEntryblack extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "black"),
+                            EntryTitle(word: "cast"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blæk/"),
+                            const IPAofEnglish(text: "IpaUK: /kɑːst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblack("en-GB"),
+                              onPressed: () => speakcast("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blæk/"),
+                            const IPAofEnglish(text: "IpaUS: /kæst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblack("en-US"),
+                              onPressed: () => speakcast("en-US"),
                             ),
                           ],
                         ),
@@ -328,7 +486,7 @@ class EnglishEntryblack extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -342,38 +500,35 @@ class EnglishEntryblack extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕەش، تەواو ڕەش، ڕەشی ڕەش، تاریک، ئەنگوستەچاو، بێ‌ڕووناکی، (سەربە) ڕەش‌پێستەکان، بێ‌شیر (قاوە و چایی)، پیس، چڵکن، گڵاو، چەپەڵ، ڕق‌ھەستاو، تووڕە، ھیوابڕ، ناھومێدکەر، خراپ، ڕەش، بەد، دڵپڕ، کز، خەمبار، بەزیان، بەوەی، بەزەڕ، ڕەشی، سیان، قورم، ڕەنگی ڕەش، ڕەش‌پێست، چەرم‌ڕەش، بەرگی ڕەش، بەرگ یان جلی ماتەم
+کوردی: خستن، هاویشتن، حەوادان، تووڕدان، دەستەی هونەرمەند و ئەکتەران، گەچ (شکستەبەندی)، شتی ڕژاو یان داڕێژراو، داڕژاوە، داڕشتە، داڕێژگە، قاڵب، شێوە، بیچم، ڕووکەش، تەرح، تیراوێژ، بەرتیر، ماوەبڕ، لێکدانەوە، مەزندە، مۆرەهەڵخستن، مۆرەهاویشتن، کەراژ، کەراژەمار، جۆر، چەشن، ئاوا، خێلی (کەمێ)، بنەڕەنگ، سووکەڕەنگ
 
-١. (ھاوەڵناو) ڕەنگی ڕەش"""),
+١. (کردار) سەیرکردن، پێکەنین، هتد بە ئاراستەیەکی دیاریکراودا"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "She had curly black hair and blue eyes."),
+                                        text: "I cast an angry look at him."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "قژی ڕەشی لوول و چاوی شینی ھەبوو."),
+                                        text: "نیگایەکی ڕقاویم لێکرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cast", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks1("en-GB"),
+                                    onPressed: () => speakcasts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks1("en-US"),
+                                    onPressed: () => speakcasts1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -381,10 +536,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I wanted a simple black dress, nothing fancy."),
+                                            "She cast a quick look in the rear mirror."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنھا جلێکی ڕەشی سادەم دەویست، شتێکی دڵبەر نا."),
+                                            "سەیرێکی خێرای ئاوێنەی پشتەوەی کرد."),
                                   ],
                                 ),
                               ),
@@ -392,110 +547,19 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks2("en-GB"),
+                                    onPressed: () => speakcasts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks2("en-US"),
+                                    onPressed: () => speakcasts2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The zebra is a wild African horse with black and white stripes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەرەکێوی ئەسپێکی کێویی ئەفریقییە بە خەتی ڕەش و سپییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) تەواو تاریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My head banged on a rock and everything went black."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرم دای بە بەردێکدا و ھەموو شتێک تاریک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Through the black night came the sound of thunder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدرێژایی شەوە تاریکەکە دەنگی ھەورەگرمە دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) پەیوەندیدار بە کەسانی ڕەشپێست، زیاتر ئەوانەی بە ڕەچەڵەک ئەفریقین"),
+                                  "٢. (کردار) دەرخستنی ڕۆشنایی، سێبەر، هتد لەسەر شوێنێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -503,10 +567,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He's seen as a role model for young Black men."),
+                                            "The moon had cast a silvery light on the huts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک نموونەیەک سەیر دەکرێت بۆ پیاوانی ڕەشپێستی گەنج."),
+                                            "مانگ شەوقێکی زیوینی خستبووە سەر کوخەکان."),
                                   ],
                                 ),
                               ),
@@ -514,17 +578,15 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks6("en-GB"),
+                                    onPressed: () => speakcasts3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks6("en-US"),
+                                    onPressed: () => speakcasts3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                           const DividerSentences(),
                           Row(
                             children: [
@@ -533,10 +595,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "There's a large Black community living in this area."),
+                                            "The setting sun cast an orange glow over the mountains."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمەڵگەیەکی گەورەی کەسانی ڕەشپێست ھەیە لەم ناوچە."),
+                                            "خۆرەئاوابووەکە ڕوناکییەکی پرتەقاڵی خستبووە سەر شاخەکان."),
                                   ],
                                 ),
                               ),
@@ -544,48 +606,19 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks7("en-GB"),
+                                    onPressed: () => speakcasts4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks7("en-US"),
+                                    onPressed: () => speakcasts4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ھاوەڵناو) چا و قاوەی بێ شیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Two black coffees, please."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو قاوەی بێ شیر بێ زەحمەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (ھاوەڵناو) زۆر پیس"),
+                              text:
+                                  "٣. (کردار) وتن، پێشنیازکردن، یان کردنی شتێک کە گومان دەخاتە سەر شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -593,10 +626,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Go and wash your hands; they're absolutely black!"),
+                                            "This latest evidence casts serious doubt on his version of events."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بچۆ و دەستت بشۆرە، تەواو گەنیاون."),
+                                            "ئەم بەڵگەیەی دوایی گومانی توند دەخاتە سەر گێڕانەوەی ئەو بۆ ڕووداوەکان."),
                                   ],
                                 ),
                               ),
@@ -604,107 +637,15 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks9("en-GB"),
+                                    onPressed: () => speakcasts5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks9("en-US"),
+                                    onPressed: () => speakcasts5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. (ھاوەڵناو) پڕ لە ڕق و تووڕەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been in a really black mood all day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکە لە کەشێکی تووڕەیی بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٧. (ھاوەڵناو) زۆر بێزار و نائومێدکەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The future looks pretty black."),
-                                    ExampleSentenceKurdish(
-                                        text: "داھاتوو زۆر بێ ھیوابڕ دیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٨. (ناو) ڕەنگی ڕەش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone at the funeral was dressed in black."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەوانەی لە مەراسیمی ناشتنەکە بوون جلی ڕەشیان پۆشیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacks12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                           const DividerSentences(),
                           Row(
                             children: [
@@ -713,9 +654,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She often dresses in black (= in black clothes)."),
+                                            "The entire economic future of the islands was cast into doubt."),
                                     ExampleSentenceKurdish(
-                                        text: "زۆرجار ڕەنگی ڕەش دەپۆشێت."),
+                                        text:
+                                            "تەواوی داهاتووی ئابووریی دوورگەکە خرایە ژێر گومانەوە."),
                                   ],
                                 ),
                               ),
@@ -723,20 +665,49 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks13("en-GB"),
+                                    onPressed: () => speakcasts6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks13("en-US"),
+                                    onPressed: () => speakcasts6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (کردار) دەنگدان بە کەسێک یان شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He refused to cast a vote for either candidate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەتیکردەوە دەنگ بە هیچ یەک لە دوو کاندیدەکە بدات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ناو) کەسانی ڕەشپێست (بەکارھێنانی وشەکە بەم واتایە وەک ناو باش نییە. باشترە وەک ھاوەڵناو بەکاربێت)"),
+                                  "٥. (کردار) هەڵبژرادنی ئەکتەرێک بۆ بینینی ڕۆڵێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -744,10 +715,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The museum exhibit featured portraits of influential blacks who shaped history."),
+                                            "The play is being cast in both the US and Britain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێشانگای مۆزەخانەکە ژمارەیەک وێنەی کەسانی کاریگەری ڕەشپێست نمایش دەکات کە کاریگەرییان لەسەر مێژوو ھەبووە."),
+                                            "ئەکتەرانی شانۆکە لە ئەمریکا و بەریتانیاوە دەستنیشان دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -755,20 +726,47 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks14("en-GB"),
+                                    onPressed: () => speakcasts8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks14("en-US"),
+                                    onPressed: () => speakcasts8("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has cast her as an ambitious lawyer in his latest movie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆڵی پارێزەرێکی تەماحبازی پێدابوو لە دواترین فیلمیدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (کردار) رەتکردنەوەی مامەڵە لەگەڵ کەسێک وەک ناڕەزایی سیاسی"),
+                                  "٦. (کردار) ناساندنی کەسێک، شتێک، هتد بەشێوەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -776,10 +774,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The countries have blacked all imports from Russia."),
+                                            "He cast himself as the innocent victim of a hate campaign."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وڵاتەکان ھەموو ھاوردەیەکیان لە ڕووسیاوە ڕاگرتووە."),
+                                            "خۆی وەک قوربانیی بێ‌تاوانی کەمپینە ڕقاوییەکە پیشاندا."),
                                   ],
                                 ),
                               ),
@@ -787,19 +785,19 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks15("en-GB"),
+                                    onPressed: () => speakcasts10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks15("en-US"),
+                                    onPressed: () => speakcasts10("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١١. (کردار) ڕەشکردنی شتێک"),
+                              text:
+                                  "٧. (کردار) فڕێدانی سەرێکی قولابی ماسی بۆ ناو ئاو"),
                           Row(
                             children: [
                               const Expanded(
@@ -807,10 +805,10 @@ class EnglishEntryblack extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The artist decided to black out the background to emphasize the central figure."),
+                                            "He cast the line to the middle of the river."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھونەرمەندەکە بڕیاری دا پشتەوە ڕەش بکاتەوە بۆ ئەوەی سەرنج بخاتە سەر ئەو کەسەی لە ناوەڕاست بوو."),
+                                            "قولابەکەی فڕێدایە ناوەڕاستی ڕووبارەکە."),
                                   ],
                                 ),
                               ),
@@ -818,17 +816,163 @@ class EnglishEntryblack extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacks16("en-GB"),
+                                    onPressed: () => speakcasts11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacks16("en-US"),
+                                    onPressed: () => speakcasts11("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (کردار) فڕێدانی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The priceless treasures had been cast into the Nile."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەنجینە بەهادارەکان فڕێدرابوونە ناو ڕووباری نیلەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (ناو) هەموو ئەو کەسانەی کە بەژداری لە فیلمێک، شانۆیەک، هتد دەکەن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The whole cast performs/perform brilliantly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی دەستەکە بلیمەتانە ڕۆڵ دەبینن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The film has a great cast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە ژمارەیەک ئەکتەری ناوازەی هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (ناو) شێوازی دەرکەوتنی کەسێک یان شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The colours he wore emphasized the olive cast of his skin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ڕەنگانەی لەبەری دەکردن زەیتوونی دەرکەوتنی پێستی دەردەخست."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١١. (ناو) پلاستەرێک کە لە ئێسکی شکاو دەبەسترێت و دەیپارێزێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her leg's in a cast."),
+                                    ExampleSentenceKurdish(
+                                        text: "لاقی لە پلاستەردایە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasts16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasts16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -839,22 +983,23 @@ class EnglishEntryblack extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        YoutubeEmbeddedthirteen(),
-                        YoutubeEmbeddeddfourteen(),
-                        YoutubeEmbeddedfifteen(),
-                        YoutubeEmbeddeddsixteen(),
-                        YoutubeEmbeddeddseventeen(),
-                        YoutubeEmbeddeddeighteen(),
-                        YoutubeEmbeddeddnineteen(),
-                        YoutubeEmbeddedtwenty(),
+                        YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -910,68 +1055,56 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: black (derived forms: blackest, blacker)
-1. Being of the achromatic colour of maximum darkness; having little or no hue owing to absorption of almost all incident light
-"black leather jackets"; "as black as coal"; "rich black soil"
+- Verb: cast (Derived forms: casts, cast, casting)
+1. Put or send forth (= project, contrive, throw)
+"cast a spell"; "cast a warm light";
  
-2. Of or belonging to a racial group especially of sub-Saharan African origin
-"a great people--a black people--...injected new meaning and dignity into the veins of civilization"
+2. Deposit
+"cast a vote"; "cast a ballot"
  
-3. Marked by anger, resentment or hostility
-"black looks"; "black words"
+3. (performing arts) select to play, sing, or dance a part in a play, movie, musical, opera, or ballet
+"He cast a young woman in the role of Desdemona"
  
-4. Offering little or no hope (= bleak, dim)
-"the future looked black";
+4. Throw forcefully (= hurl, hurtle)
  
-5. Stemming from evil characteristics or forces; wicked or dishonourable (= dark, sinister)
-"black deeds"; "a black lie"; "his black heart has concocted yet another black deed";
+5. Assign the roles of (a movie or a play) to actors
+"Who cast this beautiful movie?"
  
-6. (of events) having extremely unfortunate or dire consequences; bringing ruin (= calamitous, disastrous, fatal, fateful)
-"the stock market crashed on Black Friday";
+6. Move about aimlessly or without any fixed destination (= roll, wander, swan [informal], stray, tramp, roam, ramble, rove, range, drift, vagabond [archaic])
+"They cast from town to town";
+ 
+7. Form by pouring (e.g., wax or hot metal) into a cast or mould (= mold [N. Amer], mould [Brit, Cdn])
+"cast a bronze sculpture";
 
-7. (of the face) made black especially as with suffused blood (= blackened)
-"a face black with fury";
+8. To remove (= shed, cast off, shake off, throw, throw off, throw away, drop, lose)
+"he cast his image as a pushy boss";
+ 
+9. Choose at random (= draw)
+"cast lots";
+ 
+10. Formulate in a particular style or language (= frame, redact, put, couch)
+"She cast her request in very polite language";
 
-8. Extremely dark (= pitch-black, pitch-dark)
-"a black moonless night"; "through the pitch-black woods";
+- Noun: cast (Derived forms: casts) 
+1. The actors in a play (= cast of characters, dramatis personae)
  
-9. Harshly ironic or sinister (= grim, mordant)
-"black humour";
-
-10. (of intelligence operations) deliberately misleading
-"black propaganda"
+2. Container into which liquid is poured to create a given shape when it hardens (= mold [N. Amer], mould [Brit, Cdn])
  
-11. Distributed or sold illicitly (= bootleg, black-market, contraband, smuggled)
-"the black economy pays no taxes";
-
-12. (used of conduct or character) deserving or bringing disgrace or shame (= disgraceful, ignominious, inglorious, opprobrious, shameful)
-"Man...has written one of his blackest records as a destroyer on the oceanic islands";
+3. The distinctive form in which a thing is made (= mold [N. Amer], mould [Brit, Cdn], stamp)
+"pottery of this cast was found throughout the region";
  
-13. (of coffee) without cream or sugar
+4. The visual appearance of something or someone (= form, shape)
+"the delicate cast of his features";
  
-14. Soiled with dirt or soot (= smutty)
-"his shirt was black within an hour"; "with feet black from playing outdoors";
-
-- Noun: black (derived forms: blacks)
-1. The quality or state of the achromatic colour of least lightness (bearing the least resemblance to white) (= blackness, inkiness)
+5. Bandage consisting of a firm covering (often made of plaster of Paris) that immobilizes broken bones while they heal (= plaster cast, plaster bandage)
  
-2. Total absence of light (= total darkness, lightlessness, blackness, pitch blackness)
-"in the black of night";
-
-3. (board games) the darker pieces
+6. Object formed by a mould (= casting)
  
-4. Black clothing (worn as a sign of mourning)
-"the widow wore black"
-
-- Verb: black (derived forms: blacked, blacks, blacking)
-1. Make or become black (= blacken, melanize, melanise [Brit], nigrify [archaic])
-
-- Noun: Black (derived forms: Blacks)
-1. Popular child actress of the 1930's (1928-2014) (= Shirley Temple Black, Shirley Temple)
+7. The act of throwing dice (= roll)
  
-2. A person with African ancestry (= African-American, Negro, African American, Afro-American)
+8. The act of throwing a fishing line out over the water by means of a rod and reel (= casting)
  
-3. British chemist who identified carbon dioxide and who formulated the concepts of specific heat and latent heat (1728-1799) (= Joseph Black)
+9. A violent throw (= hurl)
 """,
   );
 
@@ -1000,12 +1133,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/hwFJyldqaIs?t=',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rPe4yziWiOg',
-    startSeconds: 324,
+    videoId: 'https://youtu.be/2HH9tBqY4XY?t=',
+    startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1029,8 +1187,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VrKW58MS12g',
-    startSeconds: 476,
+    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    startSeconds: 215,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1054,8 +1212,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hS2x1zl4rn0',
-    startSeconds: 886,
+    videoId: 'https://youtu.be/pNCOA8AUxdw?t=',
+    startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1079,8 +1237,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'P8m-KThvtxA',
-    startSeconds: 186,
+    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    startSeconds: 1424,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1104,8 +1262,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PXsZntwnArQ',
-    startSeconds: 73,
+    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    startSeconds: 1256,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1129,8 +1287,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'uN84HhcdIws',
-    startSeconds: 44,
+    videoId: 'https://youtu.be/Rzd0mLf366I?t=',
+    startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1154,8 +1312,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0zXfDafyyao',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/_45zjnjrFOA?t=',
+    startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1179,8 +1337,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'E991yX1WiEI',
-    startSeconds: 388,
+    videoId: 'https://youtu.be/anbBwpoI9TI?t=',
+    startSeconds: 526,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1200,304 +1358,4 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'wB8CTs4AD6g',
-    startSeconds: 17,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9-QsT-U2d4k',
-    startSeconds: 194,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JLkCaBwRrVo',
-    startSeconds: 53,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Mde2q7GFCrw',
-    startSeconds: 5103,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'H9mtCLL8rI0',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Qa6R58-L3Ds',
-    startSeconds: 34,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lawvkcCTNjA',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-_wQv4Vq1qE',
-    startSeconds: 19,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nKN-VK0B-18',
-    startSeconds: 84,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WxB1gB6K-2A',
-    startSeconds: 280,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kAG39jKi0lI',
-    startSeconds: 33,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'we-F0Gi0Lqs',
-    startSeconds: 2418,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end black// TODO Implement this library.
+// end WORD_WEB

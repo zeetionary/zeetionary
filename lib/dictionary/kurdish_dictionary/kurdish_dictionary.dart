@@ -582,9 +582,9 @@ class ListTileKurdish extends ConsumerWidget {
         ),
         trailing: IconButton(
           icon: isKurdishFavouriteed
-              ? Icon(Icons.star,
+              ? Icon(Icons.bookmark,
                   color: Theme.of(context).primaryColor.withOpacity(0.9))
-              : Icon(Icons.star_border,
+              : Icon(Icons.bookmark_border,
                   color: Theme.of(context).primaryColor.withOpacity(0.5)),
           onPressed: () => onKurdishFavourite?.call(),
         ),

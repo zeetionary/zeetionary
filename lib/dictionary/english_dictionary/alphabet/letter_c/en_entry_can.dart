@@ -845,7 +845,7 @@ class EnglishEntrycan extends StatelessWidget {
                                         text: "Can you help me with this box?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت لە ھەڵگرتنی ئەم سندووقە یارمەتیم بدەیت؟"),
+                                            "دەتوانیت لە ھەڵگرتنی ئەم سنووقە یارمەتیم بدەیت؟"),
                                   ],
                                 ),
                               ),

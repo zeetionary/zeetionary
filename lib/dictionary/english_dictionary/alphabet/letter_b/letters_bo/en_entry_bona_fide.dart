@@ -109,7 +109,7 @@ class EnglishEntrybonafide extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: //ˌbəʊnə ˈfaɪdi//"),
+                                text: "IpaUK: /ˌbəʊnə ˈfaɪdi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbonafide("en-GB"),
                             ),
@@ -118,7 +118,7 @@ class EnglishEntrybonafide extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: //ˌbəʊnə ˈfaɪdi//"),
+                                text: "IpaUS: /ˌbəʊnə ˈfaɪdi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbonafide("en-US"),
                             ),

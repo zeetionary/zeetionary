@@ -303,11 +303,11 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
+speakdopsum1
+EnglishEntrydopsum1
 WORD_WEB
 dopsum1
-WORD_WEB 
 haʊʊʊʊʊʊʊ4
-WORD_WEB
 """,
   );
 

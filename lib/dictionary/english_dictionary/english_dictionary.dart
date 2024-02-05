@@ -2559,111 +2559,111 @@ class _DictionaryScreenEnglishState
     "car park",
     "carafe",
     "caramel",
-    // "carat",
-    // "caravan",
-    // "carbohydrate",
-    // "carbon",
-    // "carbon copy",
-    // "carbon dioxide",
-    // "carbon footprint",
-    // "carbon monoxide",
-    // "carbon offset",
-    // "carbon paper",
-    // "carbuncle",
-    // "carburettor",
-    // "carcass",
-    // "card",
-    // "cardboard",
-    // "cardiac",
-    // "cardigan",
-    // "cardinal",
-    // "care",
-    // "carefree",
-    // "careful",
-    // "carefulness",
-    // "careless",
-    // "carelessly",
-    // "carelessness",
-    // "career",
-    // "caress",
-    // "caretaker",
-    // "cargo",
-    // "caricature",
-    // "carnage",
-    // "carnal",
-    // "carnation",
-    // "carnival",
-    // "carnivore",
-    // "carnivorous",
-    // "carol",
-    // "carp",
-    // "carpenter",
-    // "carpet",
-    // "carriage",
-    // "carriageway",
-    // "carrier",
-    // "carrier bag",
-    // "carrot",
-    // "carry",
-    // "cart",
-    // "carthorse",
-    // "cartwheel",
-    // "carte blanche",
-    // "cartilage",
-    // "carton",
-    // "cartoonist",
-    // "cartridge",
-    // "carve",
-    // "carving",
-    // "carving knife",
-    // "cascade",
-    // "case",
-    // "case history",
-    // "casement",
-    // "cash",
-    // "cashback",
-    // "cash cow",
-    // "cash crop",
-    // "cash dispenser",
-    // "cash machine",
-    // "cash register",
-    // "cashew",
-    // "cashier",
-    // "cashmere",
-    // "casing",
-    // "cask",
-    // "casino",
-    // "casket",
-    // "cassava",
-    // "casserole",
-    // "cassette",
-    // "cassock",
-    // "cast",
-    // "casting",
-    // "casting vote",
-    // "cast iron",
-    // "cast-iron",
-    // "cast-off",
-    // "castanets",
-    // "castaway",
-    // "caste",
-    // "caster sugar",
-    // "castigate",
-    // "castle",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "castor sugar",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "carat",
+    "caravan",
+    "carbohydrate",
+    "carbon",
+    "carbon copy",
+    "carbon dioxide",
+    "carbon footprint",
+    "carbon monoxide",
+    "carbon offset",
+    "carbon paper",
+    "carbuncle",
+    "carburettor",
+    "carcass",
+    "card",
+    "cardboard",
+    "cardiac",
+    "cardigan",
+    "cardinal",
+    "care",
+    "carefree",
+    "careful",
+    "carefulness",
+    "careless",
+    "carelessly",
+    "carelessness",
+    "career",
+    "caress",
+    "caretaker",
+    "cargo",
+    "caricature",
+    "carnage",
+    "carnal",
+    "carnation",
+    "carnival",
+    "carnivore",
+    "carnivorous",
+    "carol",
+    "carp",
+    "carpenter",
+    "carpet",
+    "carriage",
+    "carriageway",
+    "carrier",
+    "carrier bag",
+    "carrot",
+    "carry",
+    "cart",
+    "carthorse",
+    "cartwheel",
+    "carte blanche",
+    "cartilage",
+    "carton",
+    "cartoonist",
+    "cartridge",
+    "carve",
+    "carving",
+    "carving knife",
+    "cascade",
+    "case",
+    "case history",
+    "casement",
+    "cash",
+    "cashback",
+    "cash cow",
+    "cash crop",
+    "cash dispenser",
+    "cash machine",
+    "cash register",
+    "cashew",
+    "cashier",
+    "cashmere",
+    "casing",
+    "cask",
+    "casino",
+    "casket",
+    "cassava",
+    "casserole",
+    "cassette",
+    "cassock",
+    "cast",
+    "casting",
+    "casting vote",
+    "cast iron",
+    "cast-iron",
+    "cast-off",
+    "castanets",
+    "castaway",
+    "caste",
+    "caster",
+    "caster sugar",
+    "castigate",
+    "castle",
+    "castor",
+    "castor oil",
+    "castor sugar",
+    "castrate",
+    "castration",
+    "casual",
+    "casually",
+    "casualty",
+    "cat",
+    "cat burglar",
+    "catcall",
+    "catacombs",
+    // "catalogue",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2960,7 +2960,8 @@ class _DictionaryScreenEnglishState
   void _loadEnglishFavourites() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      englishfavourites = prefs.getStringList('english favourites')?.toSet() ?? {};
+      englishfavourites =
+          prefs.getStringList('english favourites')?.toSet() ?? {};
     });
   }
 
@@ -2986,7 +2987,8 @@ class _DictionaryScreenEnglishState
   // Function to handle updating favourites
   void _updateEnglishFavourites() async {
     final prefs = await SharedPreferences.getInstance();
-    final englishFavouritesList = prefs.getStringList('english favourites')?.toSet() ?? {};
+    final englishFavouritesList =
+        prefs.getStringList('english favourites')?.toSet() ?? {};
 
     setState(() {
       englishfavourites = englishFavouritesList;
@@ -2997,7 +2999,8 @@ class _DictionaryScreenEnglishState
     final prefs = await SharedPreferences.getInstance();
 
     setState(() {
-      final englishFavouritesList = prefs.getStringList('english favourites')?.toSet() ?? {};
+      final englishFavouritesList =
+          prefs.getStringList('english favourites')?.toSet() ?? {};
 
       final wordWithoutTimestamp = word.split('-').first;
 
@@ -3396,7 +3399,7 @@ class _DictionaryScreenEnglishState
           ),
           // Tags for filtering
           // AnimatedContainer(
-        //   duration: const Duration(milliseconds: 180),
+          //   duration: const Duration(milliseconds: 180),
           //   height: isFilterExpanded ? 40 : 0,
           //   child: Row(
           //     mainAxisAlignment: MainAxisAlignment.center,
@@ -13457,433 +13460,433 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-caramel");
                   }
-                  // if (wordsEnglish == "carat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carat");
-                  // }
-                  // if (wordsEnglish == "caravan") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caravan");
-                  // }
-                  // if (wordsEnglish == "carbohydrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbohydrate");
-                  // }
-                  // if (wordsEnglish == "carbon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon");
-                  // }
-                  // if (wordsEnglish == "carbon copy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon-copy");
-                  // }
-                  // if (wordsEnglish == "carbon dioxide") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon-dioxide");
-                  // }
-                  // if (wordsEnglish == "carbon footprint") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon-footprint");
-                  // }
-                  // if (wordsEnglish == "carbon monoxide") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon-monoxide");
-                  // }
-                  // if (wordsEnglish == "carbon offset") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon-offset");
-                  // }
-                  // if (wordsEnglish == "carbon paper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbon-paper");
-                  // }
-                  // if (wordsEnglish == "carbuncle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carbuncle");
-                  // }
-                  // if (wordsEnglish == "carburettor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carburettor");
-                  // }
-                  // if (wordsEnglish == "carcass") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carcass");
-                  // }
-                  // if (wordsEnglish == "card") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-card");
-                  // }
-                  // if (wordsEnglish == "cardboard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cardboard");
-                  // }
-                  // if (wordsEnglish == "cardiac") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cardiac");
-                  // }
-                  // if (wordsEnglish == "cardigan") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cardigan");
-                  // }
-                  // if (wordsEnglish == "cardinal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cardinal");
-                  // }
-                  // if (wordsEnglish == "care") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-care");
-                  // }
-                  // if (wordsEnglish == "carefree") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carefree");
-                  // }
-                  // if (wordsEnglish == "careful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-careful");
-                  // }
-                  // if (wordsEnglish == "carefulness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carefulness");
-                  // }
-                  // if (wordsEnglish == "careless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-careless");
-                  // }
-                  // if (wordsEnglish == "carelessly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carelessly");
-                  // }
-                  // if (wordsEnglish == "carelessness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carelessness");
-                  // }
-                  // if (wordsEnglish == "career") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-career");
-                  // }
-                  // if (wordsEnglish == "caress") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caress");
-                  // }
-                  // if (wordsEnglish == "caretaker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caretaker");
-                  // }
-                  // if (wordsEnglish == "cargo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cargo");
-                  // }
-                  // if (wordsEnglish == "caricature") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caricature");
-                  // }
-                  // if (wordsEnglish == "carnage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carnage");
-                  // }
-                  // if (wordsEnglish == "carnal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carnal");
-                  // }
-                  // if (wordsEnglish == "carnation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carnation");
-                  // }
-                  // if (wordsEnglish == "carnival") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carnival");
-                  // }
-                  // if (wordsEnglish == "carnivore") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carnivore");
-                  // }
-                  // if (wordsEnglish == "carnivorous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carnivorous");
-                  // }
-                  // if (wordsEnglish == "carol") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carol");
-                  // }
-                  // if (wordsEnglish == "carp") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carp");
-                  // }
-                  // if (wordsEnglish == "carpenter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carpenter");
-                  // }
-                  // if (wordsEnglish == "carpet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carpet");
-                  // }
-                  // if (wordsEnglish == "carriage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carriage");
-                  // }
-                  // if (wordsEnglish == "carriageway") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carriageway");
-                  // }
-                  // if (wordsEnglish == "carrier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carrier");
-                  // }
-                  // if (wordsEnglish == "carrier bag") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carrier-bag");
-                  // }
-                  // if (wordsEnglish == "carrot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carrot");
-                  // }
-                  // if (wordsEnglish == "carry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carry");
-                  // }
-                  // if (wordsEnglish == "cart") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cart");
-                  // }
-                  // if (wordsEnglish == "carthorse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carthorse");
-                  // }
-                  // if (wordsEnglish == "cartwheel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cartwheel");
-                  // }
-                  // if (wordsEnglish == "carte blanche") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carte-blanche");
-                  // }
-                  // if (wordsEnglish == "cartilage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cartilage");
-                  // }
-                  // if (wordsEnglish == "carton") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carton");
-                  // }
-                  // if (wordsEnglish == "cartoonist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cartoonist");
-                  // }
-                  // if (wordsEnglish == "cartridge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cartridge");
-                  // }
-                  // if (wordsEnglish == "carve") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carve");
-                  // }
-                  // if (wordsEnglish == "carving") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carving");
-                  // }
-                  // if (wordsEnglish == "carving knife") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carving knife");
-                  // }
-                  // if (wordsEnglish == "cascade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cascade");
-                  // }
-                  // if (wordsEnglish == "case") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-case");
-                  // }
-                  // if (wordsEnglish == "case history") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-case-history");
-                  // }
-                  // if (wordsEnglish == "casement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casement");
-                  // }
-                  // if (wordsEnglish == "cash") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash");
-                  // }
-                  // if (wordsEnglish == "cashback") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cashback");
-                  // }
-                  // if (wordsEnglish == "cash cow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-cow");
-                  // }
-                  // if (wordsEnglish == "cash crop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-crop");
-                  // }
-                  // if (wordsEnglish == "cash machine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-machine");
-                  // }
-                  // if (wordsEnglish == "bank machine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-machine");
-                  // }
-                  // if (wordsEnglish == "ABM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-machine");
-                  // }
-                  // if (wordsEnglish == "cash dispenser") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-machine");
-                  // }
-                  // if (wordsEnglish == "cash register") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cash-register");
-                  // }
-                  // if (wordsEnglish == "cashew") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cashew");
-                  // }
-                  // if (wordsEnglish == "cashier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cashier");
-                  // }
-                  // if (wordsEnglish == "cashmere") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cashmere");
-                  // }
-                  // if (wordsEnglish == "casing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casing");
-                  // }
-                  // if (wordsEnglish == "cask") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cask");
-                  // }
-                  // if (wordsEnglish == "casino") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casino");
-                  // }
-                  // if (wordsEnglish == "casket") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casket");
-                  // }
-                  // if (wordsEnglish == "cassava") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cassava");
-                  // }
-                  // if (wordsEnglish == "casserole") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casserole");
-                  // }
-                  // if (wordsEnglish == "cassette") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cassette");
-                  // }
-                  // if (wordsEnglish == "cassock") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cassock");
-                  // }
-                  // if (wordsEnglish == "cast") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cast");
-                  // }
-                  // if (wordsEnglish == "casting") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casting");
-                  // }
-                  // if (wordsEnglish == "casting vote") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-casting-vote");
-                  // }
-                  // if (wordsEnglish == "cast iron") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cast-iron");
-                  // }
-                  // if (wordsEnglish == "cast-iron") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cast-iron-two");
-                  // }
-                  // if (wordsEnglish == "cast-off") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cast-off");
-                  // }
-                  // if (wordsEnglish == "castanets") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-castanets");
-                  // }
-                  // if (wordsEnglish == "castaway") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-castaway");
-                  // }
-                  // if (wordsEnglish == "caste") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caste");
-                  // }
-                  // if (wordsEnglish == "caster sugar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caster-sugar");
-                  // }
-                  // if (wordsEnglish == "castor sugar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caster-sugar");
-                  // }
-                  // if (wordsEnglish == "castigate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-castigate");
-                  // }
-                  // if (wordsEnglish == "castle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-castle");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  if (wordsEnglish == "carat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carat");
+                  }
+                  if (wordsEnglish == "caravan") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caravan");
+                  }
+                  if (wordsEnglish == "carbohydrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbohydrate");
+                  }
+                  if (wordsEnglish == "carbon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon");
+                  }
+                  if (wordsEnglish == "carbon copy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon-copy");
+                  }
+                  if (wordsEnglish == "carbon dioxide") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon-dioxide");
+                  }
+                  if (wordsEnglish == "carbon footprint") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon-footprint");
+                  }
+                  if (wordsEnglish == "carbon monoxide") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon-monoxide");
+                  }
+                  if (wordsEnglish == "carbon offset") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon-offset");
+                  }
+                  if (wordsEnglish == "carbon paper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbon-paper");
+                  }
+                  if (wordsEnglish == "carbuncle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carbuncle");
+                  }
+                  if (wordsEnglish == "carburettor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carburettor");
+                  }
+                  if (wordsEnglish == "carcass") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carcass");
+                  }
+                  if (wordsEnglish == "card") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-card");
+                  }
+                  if (wordsEnglish == "cardboard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cardboard");
+                  }
+                  if (wordsEnglish == "cardiac") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cardiac");
+                  }
+                  if (wordsEnglish == "cardigan") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cardigan");
+                  }
+                  if (wordsEnglish == "cardinal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cardinal");
+                  }
+                  if (wordsEnglish == "care") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-care");
+                  }
+                  if (wordsEnglish == "carefree") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carefree");
+                  }
+                  if (wordsEnglish == "careful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-careful");
+                  }
+                  if (wordsEnglish == "carefulness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carefulness");
+                  }
+                  if (wordsEnglish == "careless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-careless");
+                  }
+                  if (wordsEnglish == "carelessly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carelessly");
+                  }
+                  if (wordsEnglish == "carelessness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carelessness");
+                  }
+                  if (wordsEnglish == "career") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-career");
+                  }
+                  if (wordsEnglish == "caress") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caress");
+                  }
+                  if (wordsEnglish == "caretaker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caretaker");
+                  }
+                  if (wordsEnglish == "cargo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cargo");
+                  }
+                  if (wordsEnglish == "caricature") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caricature");
+                  }
+                  if (wordsEnglish == "carnage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carnage");
+                  }
+                  if (wordsEnglish == "carnal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carnal");
+                  }
+                  if (wordsEnglish == "carnation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carnation");
+                  }
+                  if (wordsEnglish == "carnival") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carnival");
+                  }
+                  if (wordsEnglish == "carnivore") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carnivore");
+                  }
+                  if (wordsEnglish == "carnivorous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carnivorous");
+                  }
+                  if (wordsEnglish == "carol") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carol");
+                  }
+                  if (wordsEnglish == "carp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carp");
+                  }
+                  if (wordsEnglish == "carpenter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carpenter");
+                  }
+                  if (wordsEnglish == "carpet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carpet");
+                  }
+                  if (wordsEnglish == "carriage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carriage");
+                  }
+                  if (wordsEnglish == "carriageway") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carriageway");
+                  }
+                  if (wordsEnglish == "carrier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carrier");
+                  }
+                  if (wordsEnglish == "carrier bag") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carrier-bag");
+                  }
+                  if (wordsEnglish == "carrot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carrot");
+                  }
+                  if (wordsEnglish == "carry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carry");
+                  }
+                  if (wordsEnglish == "cart") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cart");
+                  }
+                  if (wordsEnglish == "carthorse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carthorse");
+                  }
+                  if (wordsEnglish == "cartwheel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cartwheel");
+                  }
+                  if (wordsEnglish == "carte blanche") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carte-blanche");
+                  }
+                  if (wordsEnglish == "cartilage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cartilage");
+                  }
+                  if (wordsEnglish == "carton") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carton");
+                  }
+                  if (wordsEnglish == "cartoonist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cartoonist");
+                  }
+                  if (wordsEnglish == "cartridge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cartridge");
+                  }
+                  if (wordsEnglish == "carve") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carve");
+                  }
+                  if (wordsEnglish == "carving") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carving");
+                  }
+                  if (wordsEnglish == "carving knife") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carving knife");
+                  }
+                  if (wordsEnglish == "cascade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cascade");
+                  }
+                  if (wordsEnglish == "case") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-case");
+                  }
+                  if (wordsEnglish == "case history") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-case-history");
+                  }
+                  if (wordsEnglish == "casement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casement");
+                  }
+                  if (wordsEnglish == "cash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash");
+                  }
+                  if (wordsEnglish == "cashback") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cashback");
+                  }
+                  if (wordsEnglish == "cash cow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-cow");
+                  }
+                  if (wordsEnglish == "cash crop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-crop");
+                  }
+                  if (wordsEnglish == "cash machine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-machine");
+                  }
+                  if (wordsEnglish == "bank machine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-machine");
+                  }
+                  if (wordsEnglish == "ABM") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-machine");
+                  }
+                  if (wordsEnglish == "cash dispenser") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-machine");
+                  }
+                  if (wordsEnglish == "cash register") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cash-register");
+                  }
+                  if (wordsEnglish == "cashew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cashew");
+                  }
+                  if (wordsEnglish == "cashier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cashier");
+                  }
+                  if (wordsEnglish == "cashmere") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cashmere");
+                  }
+                  if (wordsEnglish == "casing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casing");
+                  }
+                  if (wordsEnglish == "cask") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cask");
+                  }
+                  if (wordsEnglish == "casino") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casino");
+                  }
+                  if (wordsEnglish == "casket") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casket");
+                  }
+                  if (wordsEnglish == "cassava") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cassava");
+                  }
+                  if (wordsEnglish == "casserole") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casserole");
+                  }
+                  if (wordsEnglish == "cassette") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cassette");
+                  }
+                  if (wordsEnglish == "cassock") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cassock");
+                  }
+                  if (wordsEnglish == "cast") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cast");
+                  }
+                  if (wordsEnglish == "casting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casting");
+                  }
+                  if (wordsEnglish == "casting vote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casting-vote");
+                  }
+                  if (wordsEnglish == "cast iron") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cast-iron");
+                  }
+                  if (wordsEnglish == "cast-iron") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cast-iron-two");
+                  }
+                  if (wordsEnglish == "cast-off") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cast-off");
+                  }
+                  if (wordsEnglish == "castanets") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castanets");
+                  }
+                  if (wordsEnglish == "castaway") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castaway");
+                  }
+                  if (wordsEnglish == "caste") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caste");
+                  }
+                  if (wordsEnglish == "caster sugar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caster-sugar");
+                  }
+                  if (wordsEnglish == "castor sugar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caster-sugar");
+                  }
+                  if (wordsEnglish == "castigate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castigate");
+                  }
+                  if (wordsEnglish == "castle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castle");
+                  }
+                  if (wordsEnglish == "castor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castor");
+                  }
+                  if (wordsEnglish == "caster") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castor");
+                  }
+                  if (wordsEnglish == "castor oil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castor-oil");
+                  }
+                  if (wordsEnglish == "castrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castrate");
+                  }
+                  if (wordsEnglish == "castration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-castration");
+                  }
+                  if (wordsEnglish == "casual") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casual");
+                  }
+                  if (wordsEnglish == "casually") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casually");
+                  }
+                  if (wordsEnglish == "casualty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-casualty");
+                  }
+                  if (wordsEnglish == "cat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cat");
+                  }
+                  if (wordsEnglish == "cat burglar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cat-burglar");
+                  }
+                  if (wordsEnglish == "catcall") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catcall");
+                  }
+                  if (wordsEnglish == "catacombs") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catacombs");
+                  }
+                  // if (wordsEnglish == "catalogue") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push("/english-catalogue");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
@@ -18982,8 +18985,8 @@ class EnglishDictionary extends StatelessWidget {
           onTap: () {
             onTapWord(words[index]);
           },
-          onEnglishFavourite: () =>
-              onEnglishFavourite(words[index]), // Use the passed value for favouriting
+          onEnglishFavourite: () => onEnglishFavourite(
+              words[index]), // Use the passed value for favouriting
           isFavouriteed: englishfavourites.contains(words[index]),
         );
       },

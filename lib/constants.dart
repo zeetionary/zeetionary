@@ -209,7 +209,7 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
     super.initState();
 
     _controller = AnimationController(
-      duration: const Duration(milliseconds: 500),
+      duration: const Duration(milliseconds: 800),
       vsync: this,
     );
 
@@ -230,7 +230,7 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
         // Your indicator widget content here
         Text('Next Video',
             style: TextStyle(
-              color: Theme.of(context).primaryColor.withOpacity(0.2),
+              color: Theme.of(context).primaryColor.withOpacity(0.1),
             )),
         AnimatedBuilder(
           animation: _animation,
@@ -240,7 +240,7 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
               child: Icon(
                 Icons.swipe_up_rounded,
                 // color: Colors.blue,
-                color: Theme.of(context).primaryColor.withOpacity(0.2),
+                color: Theme.of(context).primaryColor.withOpacity(0.1),
                 size: 18.0, // Set the size of the icon
               ),
             );
@@ -861,7 +861,7 @@ class ExampleSentenceEnglish extends ConsumerWidget {
           alignment: Alignment.topLeft,
           child: Text(
             text,
-            style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w300),
+            style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
             textDirection: TextDirection.ltr,
             textAlign: TextAlign.left,
           ),

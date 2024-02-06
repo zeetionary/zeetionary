@@ -3,85 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "awayday" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace awayday - replace EnglishEntryawayday
-
-// replace speakAwayday - /əˈweɪdeɪ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawayday extends StatelessWidget {
+class EnglishEntrycaterpillar extends StatelessWidget {
   // blank divider
-  EnglishEntryawayday({super.key});
+  EnglishEntrycaterpillar({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwayday(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillar(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awayday"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("caterpillar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The management are having an away day to discuss strategy."); // DOPSUM: CHANGE TEXT
+        "I found a gorgeous green caterpillar munching on leaves in my garden."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaterpillars22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaterpillars33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaterpillars44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaterpillars55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaterpillars66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaterpillars7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaterpillars77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaterpillars8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaterpillars88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaterpillars9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaterpillars99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaterpillars10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaterpillars1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaterpillars11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaterpillars1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaterpillars12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaterpillars1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaterpillars13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaterpillar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaterpillars1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -104,28 +149,22 @@ class EnglishEntryawayday extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "awayday"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "caterpillar"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkætəpɪlə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwayday("en-GB"),
+                              onPressed: () => speakcaterpillar("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkætərpɪlər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwayday("en-US"),
+                              onPressed: () => speakcaterpillar("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +177,7 @@ class EnglishEntryawayday extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,7 +191,9 @@ class EnglishEntryawayday extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ڕۆژێک کە کۆمەڵێک کارمەند پێکەوەبەسەری دەبەن بۆ باسکردنی پلان و بیرۆکەکانیان"""),
+کوردی: تەتڵەمیران، تەتەڵەمیران، دەروێشەمارە، کرمەدار، کایە، کرمی دار، کرماسۆرک، کرمی مێروو یان پەپوولە
+
+١. (ناو) گیانلەبەرێکی بچووک کە وەک کرم وایە و قاچی هەیە، کە گەشە دەکات دەبێت بە پەپوولە یان مۆرانە، و گەڵای دار دەخوات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -160,43 +201,41 @@ class EnglishEntryawayday extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The management are having an away day to discuss strategy."),
+                                            "I found a gorgeous green caterpillar munching on leaves in my garden."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
+                                            "کرمەپەپوولەیەکی جوانی سەوزم دۆزییەوە گەڵای داری دەخوارد لە باخچەکەم."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "caterpillar", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwaydays1("en-GB"),
+                                    onPressed: () =>
+                                        speakcaterpillars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwaydays1(// REPLACE: awayday
-                                            "en-US"),
+                                        speakcaterpillars1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -204,6 +243,13 @@ class EnglishEntryawayday extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -259,9 +305,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: awayday (derived forms: awaydays)
-Usage: Brit
-1. A day business meeting or event that takes place away from the normal office
+- Noun: caterpillar (Derived forms: caterpillars)
+1. A wormlike and often brightly coloured and hairy or spiny larva of a butterfly or moth
+
+- Noun: Caterpillar
+1. (trademark) a large tracked vehicle that is propelled by two endless metal belts; frequently used for moving earth in construction and farm work (= cat)
 """,
   );
 
@@ -290,12 +338,37 @@ Usage: Brit
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/VTUCTT6I1TU?t=',
+    startSeconds: 25,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9--hV_nfSjs',
-    startSeconds: 268,
+    videoId: 'https://youtu.be/ZLwownxz_60?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -319,8 +392,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CLNT3m6KJDE',
-    startSeconds: 144,
+    videoId: 'https://youtu.be/r-8NzNW6mXs?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -344,8 +417,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9BDyONbHqYA',
-    startSeconds: 436,
+    videoId: 'https://youtu.be/uK_iZZ4Bx2o?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +442,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8CuHiaxz8eA',
-    startSeconds: 616,
+    videoId: 'https://youtu.be/el_lPd2oFV4?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +467,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mnaHLToHK30',
-    startSeconds: 1048,
+    videoId: 'https://youtu.be/d81e8p3AkkM?t=',
+    startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +492,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BktMJzjf7xs',
-    startSeconds: 891,
+    videoId: 'https://youtu.be/A1MGq-SNYpU?t=',
+    startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +517,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1SYGCAoPSyI',
-    startSeconds: 1639,
+    videoId: 'https://youtu.be/UHBErW9YYyI?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -459,12 +532,10 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
 
-// end
-
-// end awayday // TODO Implement this library.
+// end WORD_WEB

@@ -3,85 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "awayday" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace awayday - replace EnglishEntryawayday
-
-// replace speakAwayday - /əˈweɪdeɪ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawayday extends StatelessWidget {
+class EnglishEntrycathedral extends StatelessWidget {
   // blank divider
-  EnglishEntryawayday({super.key});
+  EnglishEntrycathedral({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwayday(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedral(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awayday"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cathedral"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals1(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The management are having an away day to discuss strategy."); // DOPSUM: CHANGE TEXT
+        "I was woken up by the chimes of the cathedral bells."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals2(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcathedrals22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals3(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcathedrals33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals4(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcathedrals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals5(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcathedrals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals6(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcathedrals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcathedrals7(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcathedrals77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcathedrals8(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcathedrals88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcathedrals9(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcathedrals99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcathedrals10(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcathedrals1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcathedrals11(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcathedrals1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcathedrals12(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcathedrals1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcathedrals13(String languageCode) async {
+    // DOPSUM: CHANGE speakcathedral
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcathedrals1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -104,28 +149,22 @@ class EnglishEntryawayday extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "awayday"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "cathedral"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /kəˈθiːdrəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwayday("en-GB"),
+                              onPressed: () => speakcathedral("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /kəˈθiːdrəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwayday("en-US"),
+                              onPressed: () => speakcathedral("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +177,7 @@ class EnglishEntryawayday extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,7 +191,7 @@ class EnglishEntryawayday extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ڕۆژێک کە کۆمەڵێک کارمەند پێکەوەبەسەری دەبەن بۆ باسکردنی پلان و بیرۆکەکانیان"""),
+١. (ناو) کڵێسای سەرەکیی ناوچەیەک کە لەژێر چاودێری قەشەیەکی باڵایە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -160,43 +199,39 @@ class EnglishEntryawayday extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The management are having an away day to discuss strategy."),
+                                            "I was woken up by the chimes of the cathedral bells."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
+                                            "لە خەو هەستام بە دەنگی زەنگەکانی کڵێسا گەورەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cathedral", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwaydays1("en-GB"),
+                                    onPressed: () => speakcathedrals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAwaydays1(// REPLACE: awayday
-                                            "en-US"),
+                                    onPressed: () => speakcathedrals1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -204,6 +239,13 @@ class EnglishEntryawayday extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -259,9 +301,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: awayday (derived forms: awaydays)
-Usage: Brit
-1. A day business meeting or event that takes place away from the normal office
+- Noun: cathedral (Derived forms: cathedrals)
+1. Any large and important church
+ 
+2. The principal Christian church building of a bishop's diocese (= duomo)
+
+- Adjective: cathedral 
+1. Relating to or containing or issuing from a bishop's office or throne
+"a cathedral church"
 """,
   );
 
@@ -290,12 +337,37 @@ Usage: Brit
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/YfW7SCBbxUk?t=',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9--hV_nfSjs',
-    startSeconds: 268,
+    videoId: 'https://youtu.be/akKU0zg-qaw?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -319,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CLNT3m6KJDE',
-    startSeconds: 144,
+    videoId: 'https://youtu.be/fSwOnBKVPSQ?t=',
+    startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -344,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9BDyONbHqYA',
-    startSeconds: 436,
+    videoId: 'https://youtu.be/Lg9-sGOeXfI?t=',
+    startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8CuHiaxz8eA',
-    startSeconds: 616,
+    videoId: 'https://youtu.be/XpFIRNGjWgA?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mnaHLToHK30',
-    startSeconds: 1048,
+    videoId: 'https://youtu.be/lOi1NXk-rU8?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BktMJzjf7xs',
-    startSeconds: 891,
+    videoId: 'https://youtu.be/wlQCKsXEWS4?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +516,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1SYGCAoPSyI',
-    startSeconds: 1639,
+    videoId: 'https://youtu.be/iTHXP0ojdoQ?t=',
+    startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -459,12 +531,10 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
 
-// end
-
-// end awayday // TODO Implement this library.
+// end WORD_WEB

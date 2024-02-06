@@ -3,85 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "awayday" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace awayday - replace EnglishEntryawayday
-
-// replace speakAwayday - /əˈweɪdeɪ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawayday extends StatelessWidget {
+class EnglishEntrycater extends StatelessWidget {
   // blank divider
-  EnglishEntryawayday({super.key});
+  EnglishEntrycater({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwayday(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcater(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awayday"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cater"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters1(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The management are having an away day to discuss strategy."); // DOPSUM: CHANGE TEXT
+        "Most of our work now involves catering for weddings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters2(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Who will be catering the wedding?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters3(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaters33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters4(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaters44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters5(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaters55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters6(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaters66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwaydays7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwayday
+  Future<void> speakcaters7(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwaydays77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaters77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaters8(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaters88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaters9(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaters99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaters10(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaters1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaters11(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaters1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaters12(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaters1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaters13(String languageCode) async {
+    // DOPSUM: CHANGE speakcater
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaters1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -104,28 +150,22 @@ class EnglishEntryawayday extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "awayday"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "cater"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkeɪtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwayday("en-GB"),
+                              onPressed: () => speakcater("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkeɪtər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwayday("en-US"),
+                              onPressed: () => speakcater("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +178,7 @@ class EnglishEntryawayday extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,7 +192,9 @@ class EnglishEntryawayday extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ڕۆژێک کە کۆمەڵێک کارمەند پێکەوەبەسەری دەبەن بۆ باسکردنی پلان و بیرۆکەکانیان"""),
+کوردی: پێخۆر پێگەیاندن، تفاق پێگەیاندن، خزمەت پێگەیاندن
+
+١. (کردار) پێشکەشکردنی خواردن و خواردنەوە بە بۆنەیەکی تایبەت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -160,10 +202,38 @@ class EnglishEntryawayday extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The management are having an away day to discuss strategy."),
+                                            "Most of our work now involves catering for weddings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
+                                            "زۆرینەی کارەکانمان لە ئێستادا بریتیین لە پێشکەشکردنی خواردن بە بۆنەی هاوسەرگیری."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // Define the word "cater", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaters1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who will be catering the wedding?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێ خزمەتگوزاری پێشکەش دەکات لە ئاهەنگەکە؟"),
                                   ],
                                 ),
                               ),
@@ -171,32 +241,28 @@ class EnglishEntryawayday extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwaydays1("en-GB"),
+                                    onPressed: () => speakcaters2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAwaydays1(// REPLACE: awayday
-                                            "en-US"),
+                                    onPressed: () => speakcaters2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -204,6 +270,13 @@ class EnglishEntryawayday extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -259,9 +332,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: awayday (derived forms: awaydays)
-Usage: Brit
-1. A day business meeting or event that takes place away from the normal office
+- Verb: cater (Derived forms: catering, caters, catered)
+1. Give what is desired or needed, especially support, food or sustenance (= provide, supply, ply)
+"The hostess catered lunch for all the guests";
+
+2. Supply food ready to eat; for parties and banquets
 """,
   );
 
@@ -290,12 +365,37 @@ Usage: Brit
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/VyEf4EBXe8o?t=',
+    startSeconds: 314,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9--hV_nfSjs',
-    startSeconds: 268,
+    videoId: 'https://youtu.be/kcUFSapjVqk?t=',
+    startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -319,8 +419,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CLNT3m6KJDE',
-    startSeconds: 144,
+    videoId: 'https://youtu.be/nedusgCUZC4?t=',
+    startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -344,8 +444,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9BDyONbHqYA',
-    startSeconds: 436,
+    videoId: 'https://youtu.be/yH2FPSupO6c?t=',
+    startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +469,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8CuHiaxz8eA',
-    startSeconds: 616,
+    videoId: 'https://youtu.be/m3MgAOe2zSs?t=',
+    startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +494,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mnaHLToHK30',
-    startSeconds: 1048,
+    videoId: 'https://youtu.be/h_OeMVcol1g?t=',
+    startSeconds: 1252,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +519,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BktMJzjf7xs',
-    startSeconds: 891,
+    videoId: 'https://youtu.be/Hw1X5oFPgro?t=',
+    startSeconds: 1286,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +544,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1SYGCAoPSyI',
-    startSeconds: 1639,
+    videoId: 'https://youtu.be/at-xZA5U1ps?t=',
+    startSeconds: 1324,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -459,12 +559,10 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
 
-// end
-
-// end awayday // TODO Implement this library.
+// end WORD_WEB

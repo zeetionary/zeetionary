@@ -3,88 +3,138 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "blanket" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
-
-// replace blanket - /ˈblæŋkɪt/
 
 enum TtsState { playing }
 
-class EnglishEntryblanket extends StatelessWidget {
-// blank divider
-  EnglishEntryblanket({super.key});
-// blank divider
+class EnglishEntrycaution extends StatelessWidget {
+  // blank divider
+  EnglishEntrycaution({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblanket(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcaution(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blanket"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("caution"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblankets1(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcautions1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It’s cold tonight—can I have another blanket?"); // DOPSUM: CHANGE TEXT
+        "Statistics should be treated with caution."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblankets2(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The baby was wrapped in a blanket."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblankets3(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcautions2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sun was breaking through the blanket of mist."); // DOPSUM: CHANGE TEXT
+        "The information on the website should be treated with some caution."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblankets4(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcautions3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The trial was conducted under a blanket of secrecy."); // DOPSUM: CHANGE TEXT
+        "The utmost caution must be exercised when handling explosives."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblankets5(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcautions4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "What I object to most is the blanket opposition to change."); // DOPSUM: CHANGE TEXT
+        "As a first offender, she got off with a caution."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblankets6(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcautions5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ground was soon blanketed with snow."); // DOPSUM: CHANGE TEXT
+        "Some cautions must be mentioned—for example good tools are essential to do the job well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblankets7(String languageCode) async {
-    // DOPSUM: CHANGE speakblanket
+  Future<void> speakcautions6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankets77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I would caution against getting too involved."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Sam cautioned him against making a hasty decision."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Suspects must be cautioned before any questions are asked."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She wasn't sent to the court; instead she was cautioned."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcautions1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcautions1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcautions1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcautions13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcautions1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -107,22 +157,22 @@ class EnglishEntryblanket extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blanket"),
+                            EntryTitle(word: "caution"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblæŋkɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɔːʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblanket("en-GB"),
+                              onPressed: () => speakcaution("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblæŋkɪt/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɔːʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblanket("en-US"),
+                              onPressed: () => speakcaution("en-US"),
                             ),
                           ],
                         ),
@@ -135,7 +185,7 @@ class EnglishEntryblanket extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -149,9 +199,9 @@ class EnglishEntryblanket extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پەتۆ، فانیلە، پێخەف، بەتانیە، بەڕە (تەشکەبەرە: بەڕەی درێژۆکە)، توێ، چین، گەرداڵ، توێژاڵ، (وڵاخ) جل، ھەمووگر، گشتگیر، گشت‌لایەنە، دیاری‌نەکراو، گشتی، بێ‌ئاوارتە
+کوردی: هۆشیاری، پارێز، ئاگادارکردنەوە، وریاکردنەوە، بەگوێ‌دادادن، هۆشداری، دوابینی، تێبینی
 
-١. (ناو) داپۆشەرێکی گەورە کە لەکاتی خەودا دەدرێت بە خۆدا"""),
+١. (ناو) هۆشیارییەک کە دەیگریتە بەر بۆ ئەوەی لە مەترسی و هەڵە دووربیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -159,27 +209,26 @@ class EnglishEntryblanket extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It’s cold tonight—can I have another blanket?"),
+                                            "Statistics should be treated with caution."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمشەو ساردە، دەکرێت بەتانییەکی ترم بۆ بێنیت؟"),
+                                            "ئامارەکان دەبێت بە پارێزەەو وەربگیردرێن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "caution", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblankets1("en-GB"),
+                                    onPressed: () => speakcautions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets1("en-US"),
+                                    onPressed: () => speakcautions1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
                           const DividerSentences(),
                           Row(
                             children: [
@@ -188,10 +237,10 @@ class EnglishEntryblanket extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The baby was wrapped in a blanket."),
+                                            "The information on the website should be treated with some caution."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکە لە بەتانییەکدا پێچرابوویەوە."),
+                                            "زانیاری سەر وێبسایتەکە دەبێت بە وریاییەوە وەربگیردرێت."),
                                   ],
                                 ),
                               ),
@@ -199,10 +248,47 @@ class EnglishEntryblanket extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblankets2("en-GB"),
+                                    onPressed: () => speakcautions2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets2("en-US"),
+                                    onPressed: () => speakcautions2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The utmost caution must be exercised when handling explosives."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەوپەڕی وریایی دەبێت بگیردرێتەبەر لەکاتی مامەڵە لەگەڵ تەقەمەنیدا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcautions3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcautions3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -211,7 +297,7 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) توێژاڵ یان چینێکی ئەستوور لە شتێک"),
+                                  "٢. (ناو) ئاگادارییەک کە لەلایەن پۆلیسەوە دەدرێت بە کەسێک کە تاوانێکی سووکی کردووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -219,10 +305,10 @@ class EnglishEntryblanket extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The sun was breaking through the blanket of mist."),
+                                            "As a first offender, she got off with a caution."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆر دەدرەوشایەوە بە چینێک لە تەمدا."),
+                                            "وەک یەکەم تاوانباریی، بە ئاگادارکردنەوەیەک ڕزگاری بوو."),
                                   ],
                                 ),
                               ),
@@ -230,16 +316,77 @@ class EnglishEntryblanket extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblankets3("en-GB"),
+                                    onPressed: () => speakcautions4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets3("en-US"),
+                                    onPressed: () => speakcautions4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ئاگادارکردنەوەیەک یان ڕاوێژێک سەبارەت بە مەترسییەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some cautions must be mentioned—for example good tools are essential to do the job well."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەندێک هۆشداری دەبێت بگیردرێتەبەر، بح نموونە ئامرازی باش بنچینەیین بۆ کردنی کارەکە بەباشی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcautions5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcautions5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) ئاگادارکردنەوەی کەسێک سەبارەت بە مەترسی یان کێشەکانی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I would caution against getting too involved."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هۆشداری دەدەم دژ بە زۆر تێوەگلان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcautions6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcautions6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerSentences(),
                           Row(
                             children: [
@@ -248,10 +395,10 @@ class EnglishEntryblanket extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The trial was conducted under a blanket of secrecy."),
+                                            "Sam cautioned him against making a hasty decision."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارھێنانی خوازراو) دادگاییەکە ئەنجامدرا لە تەمومژێکی نھێنیدا."),
+                                            "سام هۆشداری پێدا دژ بە بڕیاردانی بەپەلە."),
                                   ],
                                 ),
                               ),
@@ -259,10 +406,10 @@ class EnglishEntryblanket extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblankets4("en-GB"),
+                                    onPressed: () => speakcautions7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets4("en-US"),
+                                    onPressed: () => speakcautions7("en-US"),
                                   ),
                                 ],
                               ),
@@ -271,7 +418,7 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) خاسیەتی ھەبوونی کاریگەری یان گرتنەخۆی ھەموو کەیسەکان، دۆخ، و خەڵکی"),
+                                  "٥. (کردار) بە فەرمی هۆشداریدان بە کەسێک کە هەرچی بڵێت دەکرێت لە دادگا دژی بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -279,10 +426,10 @@ class EnglishEntryblanket extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "What I object to most is the blanket opposition to change."),
+                                            "Suspects must be cautioned before any questions are asked."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەوەی زیاتر لە ھەموو شتێک دژیم دژبەری کوێرانەیە بۆ گۆڕانکاری."),
+                                            "گومان‌لێ‌کراوان دەبێت وریابکرێنەوە پێش ئەوەی هیچ پرسیارێک بکردرێت."),
                                   ],
                                 ),
                               ),
@@ -290,10 +437,10 @@ class EnglishEntryblanket extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblankets5("en-GB"),
+                                    onPressed: () => speakcautions8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets5("en-US"),
+                                    onPressed: () => speakcautions8("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,7 +449,7 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) داپۆشینی شتێک بە چینێکی ئەستوور"),
+                                  "٦. (کردار) ئاگادارکردنەوەی کەسێک کە سزا دەدرێت ئەگەر تاوانێکی دیکە بکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -310,10 +457,10 @@ class EnglishEntryblanket extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The ground was soon blanketed with snow."),
+                                            "She wasn't sent to the court; instead she was cautioned."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زەوییەکە ھەرزوو داپۆشرا بە بەفر."),
+                                            "نەبردرا بۆ دادگا، لە جیاتیدا هۆشداری پێدرا."),
                                   ],
                                 ),
                               ),
@@ -321,17 +468,15 @@ class EnglishEntryblanket extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblankets6("en-GB"),
+                                    onPressed: () => speakcautions9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets6("en-US"),
+                                    onPressed: () => speakcautions9("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -342,15 +487,15 @@ class EnglishEntryblanket extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        YoutubeEmbeddedthirteen(),
-                        YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
                         // YoutubeEmbeddeddsixteen(),
                         // YoutubeEmbeddeddseventeen(),
@@ -358,6 +503,7 @@ class EnglishEntryblanket extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -413,24 +559,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: blanket (derived forms: blanketed, blankets, blanketing)
-1. Bedding that keeps a person warm in bed (= cover)
-"he pulled the blankets over his head and went to sleep";
- 
-2. Anything that covers (= mantle)
-"there was a blanket of snow";
- 
-3. A layer of lead surrounding the highly reactive core of a nuclear reactor
+- Verb: caution (Derived forms: cautioned, cautions, cautioning)
+1. Warn strongly; put on guard (= admonish, monish)
 
-- Verb: blanket
-1. Cover as if with a blanket
-"snow blanketed the fields"
- 
-2. Form a blanket-like cover (over)
+- Noun: caution (Derived forms: cautions)
+1. The trait of being cautious; being attentive to possible danger (= cautiousness, carefulness)
+"a man of caution";
 
-- Adjective: blanket
-1. Broad in scope or content (= across-the-board, all-embracing, all-encompassing, all-inclusive, broad, encompassing, extensive, panoptic, wide)
-"blanket sanctions against human-rights violators";
+2. A warning against certain acts (= caveat)
+"a caution against unfair practices";
+ 
+3. Judiciousness in avoiding harm or danger (= precaution, care, forethought)
+"he exercised caution in opening the door";
+ 
+4. The trait of being circumspect and prudent (= circumspection)
 """,
   );
 
@@ -459,12 +601,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/bFl3_J2gBu4?t=',
+    startSeconds: 147,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pNH6P5FaoZA',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/9GR3XSuInYE?t=',
+    startSeconds: 864,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +655,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QaiLSKHse58',
-    startSeconds: 75,
+    videoId: 'https://youtu.be/NWGVFi-213w?t=',
+    startSeconds: 285,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,8 +680,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YDA2Y8O7XgI',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/dxqYDrELD_E?t=',
+    startSeconds: 284,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -538,8 +705,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LylEWbxAhA4',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
+    startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -563,8 +730,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'saMq36vh9ls',
-    startSeconds: 10,
+    videoId: 'https://youtu.be/1uNpjqH-mQQ?t=',
+    startSeconds: 500,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -588,8 +755,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TtXmuARqg38',
-    startSeconds: 19,
+    videoId: 'https://youtu.be/qtlPTE-UmY4?t=',
+    startSeconds: 553,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -613,8 +780,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Tg3ImN2-9_8',
-    startSeconds: 135,
+    videoId: 'https://youtu.be/VTzKIs19eZE?t=',
+    startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -634,179 +801,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'odE2IkwaRsk',
-    startSeconds: 18,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LnHAtQlXlY0',
-    startSeconds: 808,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eKcyjHqOUkE',
-    startSeconds: 44,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5G-O4ZtKQP0',
-    startSeconds: 311,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W8FyilDVOoU',
-    startSeconds: 713,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'A_ESR5zoGYQ',
-    startSeconds: 367,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'p1Zb90MFf20',
-    startSeconds: 5173,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end blanket// TODO Implement this library.
+// end WORD_WEB

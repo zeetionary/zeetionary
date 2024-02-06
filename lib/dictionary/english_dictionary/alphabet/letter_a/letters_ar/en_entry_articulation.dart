@@ -244,7 +244,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                                             "The articulation of the pieces of the puzzle was perfect."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
+                                            "پێکەوەبەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
                                   ],
                                 ),
                               ),

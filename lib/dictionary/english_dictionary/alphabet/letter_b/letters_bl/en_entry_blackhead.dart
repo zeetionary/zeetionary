@@ -157,7 +157,7 @@ class EnglishEntryblackhead extends StatelessWidget {
                                             "Teenagers often struggle with blackheads during puberty due to increased oil production."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووستبوونی چەوری."),
+                                            "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووست بوونی چەوری."),
                                   ],
                                 ),
                               ),

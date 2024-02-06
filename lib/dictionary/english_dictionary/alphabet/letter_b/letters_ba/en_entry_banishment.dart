@@ -167,7 +167,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                                             "A period of peace followed the successful banishment of the warlords from the country."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
+                                            "سەردەمێک لە ئارامی درووست بوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
                                   ],
                                 ),
                               ),

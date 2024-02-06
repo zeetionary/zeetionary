@@ -264,7 +264,7 @@ class EnglishEntryappearance extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) ساتی درووستبوون یان دەرکەوتنی شتێک"""),
+٣. (ناو) ساتی درووست بوون یان دەرکەوتنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

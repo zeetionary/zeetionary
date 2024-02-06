@@ -167,7 +167,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                             "An understanding of human anatomy is important to a dancer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
+                                            "تێگەشتن لە پێکھاتەی درووست بوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
                                   ],
                                 ),
                               ),

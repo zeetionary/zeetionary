@@ -190,7 +190,7 @@ class EnglishEntrycancerous extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شێرپەنجەیی، شێرپەنجەگرتوو
 
-١. (ھاوەڵناو) تووشبوو یان درووستبوو بەھۆی شێرپەنجەوە"""),
+١. (ھاوەڵناو) تووشبوو یان درووست بوو بەھۆی شێرپەنجەوە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -369,7 +369,7 @@ class EnglishEntryborn extends StatelessWidget {
                                             "She acted with a courage born (out) of desperation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووستبووبوو."),
+                                            "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووست بووبوو."),
                                   ],
                                 ),
                               ),

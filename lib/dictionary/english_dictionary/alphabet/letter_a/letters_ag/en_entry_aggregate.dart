@@ -176,7 +176,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ھاوەڵناو) درووستبوو بە تێکڕای کۆمەڵە ژمارەیەک"""),
+٣. (ھاوەڵناو) درووست بوو بە تێکڕای کۆمەڵە ژمارەیەک"""),
                           Row(
                             children: [
                               const Expanded(

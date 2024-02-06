@@ -219,7 +219,7 @@ class EnglishEntryawake extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) درووستبوونی یان درووستکردنی ھەستێک"""),
+٣. (کردار) درووست بوونی یان درووستکردنی ھەستێک"""),
                           Row(
                             children: [
                               const Expanded(

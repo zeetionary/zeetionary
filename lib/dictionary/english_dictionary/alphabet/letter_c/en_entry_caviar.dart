@@ -3,86 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "awaken" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace awaken - replace EnglishEntryawaken
-
-// replace speakAwaken - /əˈweɪkən/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawaken extends StatelessWidget {
+class EnglishEntrycaviar extends StatelessWidget {
   // blank divider
-  EnglishEntryawaken({super.key});
+  EnglishEntrycaviar({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwaken(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviar(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awaken"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("caviar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We awakened to find the others gone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Caspian Sea and Black Sea are historically renowned for their caviar production."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dream awakened terrible memories."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaviars22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwakens33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaviars33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwakens44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaviars44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwakens55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaviars55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwakens66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaviars66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwaken
+  Future<void> speakcaviars7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwakens77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaviars77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaviars8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaviars88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaviars9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaviars99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaviars10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaviars1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaviars11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaviars1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaviars12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaviars1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaviars13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaviar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaviars1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,28 +149,22 @@ class EnglishEntryawaken extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "awaken"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "caviar"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweɪkən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkæviɑː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwaken("en-GB"),
+                              onPressed: () => speakcaviar("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈweɪkən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkæviɑːr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwaken("en-US"),
+                              onPressed: () => speakcaviar("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +177,7 @@ class EnglishEntryawaken extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -153,7 +191,7 @@ class EnglishEntryawaken extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) درووست بوونی یان درووستکردنی ھەستێک"""),
+١. (ناو) هێلکەی هەندێک ماسی، بە تایبەتی ستێرجن، کە لە خوێدادەپاێزرێن و دەخوردرێن وەک خواردنێکی زۆر تایبەت و گران‌بەها"""),
                           Row(
                             children: [
                               const Expanded(
@@ -161,50 +199,53 @@ class EnglishEntryawaken extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The dream awakened terrible memories."),
+                                            "The Caspian Sea and Black Sea are historically renowned for their caviar production."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە."),
+                                            "دەریای قەزوین و ڕەش لە مێژوودا ناسراوبوونە بۆ بەرهەمی خاویاریان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "caviar", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwakens2("en-GB"),
+                                    onPressed: () => speakcaviars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAwakens2(// REPLACE: awaken
-                                            "en-US"),
+                                    onPressed: () => speakcaviars1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -260,14 +301,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: awaken (derived forms: awakening, awakened, awakens)
-1. Cause to become awake or conscious (= wake, waken, rouse, wake up, arouse)
- 
-2. Stop sleeping (= wake up, awake, arouse, wake, come alive, waken)
-"She awakened to the sound of the alarm clock";
- 
-3. Make aware
-"They were awakened to the sad facts"
+- Noun: caviar (Derived forms: caviars)
+1. Salted roe of sturgeon or other large fish; usually served as an hors d'oeuvre (= caviare)
 """,
   );
 
@@ -296,12 +331,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/f_KynzsMRWs?t=',
+    startSeconds: 666,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JcpboMScfIY',
-    startSeconds: 1073,
+    videoId: 'https://youtu.be/Q1pXxfPDqp0?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -325,8 +385,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kBdfcR-8hEY',
-    startSeconds: 1434,
+    videoId: 'https://youtu.be/HRNoT_WEr8E?t=',
+    startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -350,8 +410,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-8jjTVuev_s',
-    startSeconds: 181,
+    videoId: 'https://youtu.be/ZWmp3a_lQBc?t=',
+    startSeconds: 454,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -375,8 +435,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NGbSR29wy30',
-    startSeconds: 29,
+    videoId: 'https://youtu.be/JFhmq6q8yng?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +460,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tTKX6P4g20U',
-    startSeconds: 331,
+    videoId: 'https://youtu.be/wrTyutmrmuo',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +485,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GoAA0sYkLI0',
-    startSeconds: 172,
+    videoId: 'https://youtu.be/FbBcbUob76U?t=',
+    startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +510,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rhzgUq-lDVU',
-    startSeconds: 162,
+    videoId: 'https://youtu.be/38E9pqjTHv4?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,56 +531,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eGIkGo-lGm0',
-    startSeconds: 1806,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oJLA8iNUV-0',
-    startSeconds: 322,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end awaken // TODO Implement this library.
+// end WORD_WEB

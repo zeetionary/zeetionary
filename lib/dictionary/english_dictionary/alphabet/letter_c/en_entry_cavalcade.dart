@@ -154,7 +154,8 @@ class EnglishEntrycavalcade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkævlˈkeɪd/,  /ˈkævlkeɪd/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˌkævlˈkeɪd/,  /ˈkævlkeɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcavalcade("en-GB"),
                             ),
@@ -162,7 +163,8 @@ class EnglishEntrycavalcade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌkævlˈkeɪd/,  /ˈkævlkeɪd/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkævlˈkeɪd/,  /ˈkævlkeɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcavalcade("en-US"),
                             ),
@@ -236,7 +238,7 @@ class EnglishEntrycavalcade extends StatelessWidget {
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),

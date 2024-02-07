@@ -2623,12 +2623,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centenarian.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centenary.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centennial.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centimetre.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centipede.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_central.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_central_heating.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centrally.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centralize.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6192,12 +6192,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-centenarian": (_) => MaterialPage(child: EnglishEntrycentenarian()),
   "/english-centenary": (_) => MaterialPage(child: EnglishEntrycentenary()),
   "/english-centennial": (_) => MaterialPage(child: EnglishEntrycentennial()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-centimetre": (_) => MaterialPage(child: EnglishEntrycentimetre()),
+  "/english-centipede": (_) => MaterialPage(child: EnglishEntrycentipede()),
+  "/english-central": (_) => MaterialPage(child: EnglishEntrycentral()),
+  "/english-central-heating": (_) => MaterialPage(child: EnglishEntrycentralheating()),
+  "/english-centrally": (_) => MaterialPage(child: EnglishEntrycentrally()),
+  "/english-centralize": (_) => MaterialPage(child: EnglishEntrycentralize()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

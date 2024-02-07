@@ -3,94 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// replace EnglishEntryAdopsummm - replace speakArmoury
-
-// replace armoury - /ˈɑːməri/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarmoury extends StatelessWidget {
+class EnglishEntrycc extends StatelessWidget {
   // blank divider
-  EnglishEntryarmoury({super.key});
+  EnglishEntrycc({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmoury(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakcc(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cc"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury631(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several guns had been stolen from the palace armoury."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArmoury635(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakccs1(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Doctors have an armoury of drugs available."); // DOPSUM: CHANGE TEXT
+        "Please be aware that the monthly meeting has been rescheduled to next Tuesday at 10:00 AM. Agenda items have been updated accordingly. To all attendees, cc Janet Gold."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury646(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakccs2(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The syringe held 5 cc of medication."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakccs3(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two countries signed an agreement to reduce their nuclear armouries."); // DOPSUM: CHANGE TEXT
+        "Her message was sent to the company president and cc'd to us."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakccs4(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs44"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakccs5(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakccs6(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakccs7(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs77"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakccs8(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakccs9(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakccs10(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakccs11(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakccs12(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakccs13(String languageCode) async {
+    // DOPSUM: CHANGE speakcc
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakccs1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -112,27 +151,22 @@ class EnglishEntryarmoury extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "armoury"), // Find /ˈɑːməri/
-                            // divvviiider
+                            EntryTitle(word: "cc"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɑːməri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌsiː ˈsiː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmoury("en-GB"),
+                              onPressed: () => speakcc("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɑːrməri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌsiː ˈsiː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmoury("en-US"),
+                              onPressed: () => speakcc("en-US"),
                             ),
                           ],
                         ),
@@ -145,7 +179,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -159,9 +193,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جبەخانە، عەمباری چەک‌وچۆڵ، قۆڕخانە، چەکەمەنی، کارخانەی چەک، چەک‌سازی، (ئەمریکا) شوێنی کە ھێزی نیمچەلەشکری مەشق دەبینن
-
-١. (ناو) کۆگای چەک و تەقەمەنی"""),
+١. (کورتکراوە) کورتکراو بۆ carbon copy (to)؛ لە نامە و ئیمەیڵی بازرگانیدا بەکاردێت بۆ وتنی ئەوەی کۆپییەک دەنێردرێت بۆ کەسێکی دیکە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -169,35 +201,29 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Several guns had been stolen from the palace armoury."),
+                                            "Please be aware that the monthly meeting has been rescheduled to next Tuesday at 10:00 AM. Agenda items have been updated accordingly. To all attendees, cc Janet Gold."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
+                                            "تکایە ئاگاداربن کە چاوپێکەوتنی مانگانە دووبارە ڕێکخراوەتەوە بۆ سێشەممەی داهاتوو لە کاتژمێر ١٠. بابەتەکانی ئەجێندا بەگوێرەی ئەوە نوێکراونەتەوە. بۆ تەواوی بەژداربووان، و کۆپییەک بۆ جانێت گۆڵد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cc", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury631("en-GB"),
+                                    onPressed: () => speakccs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury631(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakccs1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) بینایەک کە تێیدا ئەو سەربازانەی کارامە نین ڕاھێنانیان پێ‌دەکرێت"""),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) ئەو شتانەی کە کەسێک ھەیەتی بۆ یارمەتیدانی لە بەدەستھێنانی شتێک"""),
+                          const DefinitionKurdish(
+                              text: "٢. (کورتکراوە) سەنتیمەتر سێ‌جا"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,10 +231,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Doctors have an armoury of drugs available."),
+                                            "The syringe held 5 cc of medication."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
+                                            "سەرنجەکە ٥ سەنتیمەتر سێ‌جا دەرمانی تێدایە."),
                                   ],
                                 ),
                               ),
@@ -216,21 +242,19 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury635("en-GB"),
+                                    onPressed: () => speakccs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury635(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakccs2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) تەواوی چەک و کەرەستەی سەربازیی وڵاتێک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) ناردنی کۆپپیەکی ئیمەیڵێک کە بۆ کەسێکی دیکەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,10 +262,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The two countries signed an agreement to reduce their nuclear armouries."),
+                                            "Her message was sent to the company president and cc'd to us."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
+                                            "نامەکە نێردرا بۆ سەرۆکی کۆمپانیاکە و کۆپییەکیشی بۆ ئێمە نێردرا."),
                                   ],
                                 ),
                               ),
@@ -249,39 +273,42 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury646("en-GB"),
+                                    onPressed: () => speakccs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury646(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakccs3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -337,16 +364,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: armoury (derived forms: armouries)
-Usage: Brit, Cdn (US: armory)
-1. A collection of resources (= armory [US], inventory)
-"he dipped into his intellectual armoury to find an answer";
+- Noun: cc (Derived forms: ccs)
+1. [Brit] A metric unit of volume equal to one thousandth of a litre (= milliliter [US], millilitre [Brit, Cdn], mil, ml, cubic centimeter [US], cubic centimetre [Brit, Cdn])
  
-2. All the weapons and equipment that a country has (= arsenal, armory [US])
- 
-3. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= arsenal, armory [US])
- 
-4. A place where arms are manufactured (= armory [US], arsenal)
+2. Used in an e-mail or other communication to send copies to people other than the main recipient (= carbon copy)
+
+- Adjective: cc 
+1. Being ten more than one hundred ninety (= two hundred, 200)
+
+- Verb: cc (Derived forms: cc's, cc'd cc'ing)
+1. Send a copy to (someone) as well as the main recipient (= carbon copy)
+"I am not subscribed to the list, please send cc's to me";
+
+- Noun: CC
+1. Subtitle text for a television or other program that can be optionally displayed by the viewer (= closed caption)
 """,
   );
 
@@ -375,12 +406,37 @@ Usage: Brit, Cdn (US: armory)
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/rqndh-c-yBw?t=',
+    startSeconds: 91,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '64Dndm4WsZc',
-    startSeconds: 569,
+    videoId: 'https://youtu.be/g1dmSxrabYw?t=',
+    startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -404,8 +460,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SLDw6i1D52U',
-    startSeconds: 1006,
+    videoId: 'https://youtu.be/uC9yKXI2A-Q?t=',
+    startSeconds: 268,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -429,8 +485,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8LVWNGRjD0g',
-    startSeconds: 224,
+    videoId: 'https://youtu.be/X5UOqZn43gY?t=',
+    startSeconds: 518,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -454,8 +510,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XY_RldJvCWs',
-    startSeconds: 756,
+    videoId: 'https://youtu.be/h-uAcFczh_I?t=',
+    startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -479,8 +535,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pQVBFhVMbY8',
-    startSeconds: 1126,
+    videoId: 'https://youtu.be/auojtsHPIM8?t=',
+    startSeconds: 2805,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,8 +560,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZeOmxxOJFoE',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/EVGvP3gpnNw?t=',
+    startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -529,8 +585,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5GpKGePUr_Q',
-    startSeconds: 69,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,129 +606,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tsxmyL7TUJg',
-    startSeconds: 607,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 's36hrId0rOo',
-    startSeconds: 602,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ri2Aj44PA8E',
-    startSeconds: 829,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CJo3aRHOh6o',
-    startSeconds: 659,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'saoRXwFAzDU',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

@@ -3,130 +3,135 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycache extends StatelessWidget {
-// blank divider
-  EnglishEntrycache({super.key});
-// blank divider
+class EnglishEntrycelebrate extends StatelessWidget {
+  // blank divider
+  EnglishEntrycelebrate({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcache(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrate(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cache"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("celebrate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches1(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The squirrel stored nuts in a cache beneath the tree."); // DOPSUM: CHANGE TEXT
+        "Jake's passed his exams. We're going out to celebrate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches2(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The browser stores frequently visited sites in a cache."); // DOPSUM: CHANGE TEXT
+        "We celebrated our 25th wedding anniversary in Florence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches3(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Pirates cached treasures in a beachside."); // DOPSUM: CHANGE TEXT
+        "How do people celebrate New Year in your country?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches4(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Modern browsers cache images for faster loading."); // DOPSUM: CHANGE TEXT
+        "He made the trip home to celebrate Christmas with his family."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches5(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The competition has millions of fans and national winners are celebrated as heroes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches6(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Children’s Day has been celebrated in Japan for hundreds of years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches7(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches8(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches9(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches10(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches11(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches12(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaches13(String languageCode) async {
-    // DOPSUM: CHANGE speakcache
+  Future<void> speakcelebrates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaches1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcelebrates1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +154,22 @@ class EnglishEntrycache extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cache"),
+                            EntryTitle(word: "celebrate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kæʃ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈselɪbreɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcache("en-GB"),
+                              onPressed: () => speakcelebrate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kæʃ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈselɪbreɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcache("en-US"),
+                              onPressed: () => speakcelebrate("en-US"),
                             ),
                           ],
                         ),
@@ -177,7 +182,7 @@ class EnglishEntrycache extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -191,9 +196,9 @@ class EnglishEntrycache extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: عەمباری نھێنی، نھێنگە، ھەڵگرتنگە، پەناگە، حەشارگە (نھێنی)، کۆگا یان عەمباری کاتی (چەک‌وچۆڵ، خۆراک و ھتد)، (کامپیوتێڕ) یادگەی نھێنی، حەشارگە
+کوردی: جەژن‌گێڕان، ڕێزلێنان، پیرۆزبایی کردن
 
-١. (ناو) حەشارگەی نھێنی، بۆ نموونە بۆ چەک"""),
+١. (کردار) ئەنجامدانی شتی تایبەت بۆ پیشاندانی ئەوەی ڕۆژێک یان بۆنەیەک گرنگە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,21 +206,146 @@ class EnglishEntrycache extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The squirrel stored nuts in a cache beneath the tree."),
+                                            "Jake's passed his exams. We're going out to celebrate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا."),
+                                            "جەیک تاقیکردنەوەکەی تێپەڕاند. دەچینە دەرەوە بۆ جەژن‌گێڕان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cache", follow LX strictly
+                              const CustomSizedBoxForTTS(), // Define the word "celebrate", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcaches1("en-GB"),
+                                    onPressed: () => speakcelebrates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches1("en-US"),
+                                    onPressed: () => speakcelebrates1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We celebrated our 25th wedding anniversary in Florence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "٢٥هەمین ساڵیادی هاوسەرگیرییەکەمان لە فلۆرنس پیرۆزکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcelebrates2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcelebrates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "How do people celebrate New Year in your country?"),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "خەڵکی چۆن سەری ساڵ پیرۆز دەکەن لە وڵاتەکەت؟"),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcelebrates3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcelebrates3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He made the trip home to celebrate Christmas with his family."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "گەشتەکەی بۆ ماڵەوە ئەنجامدا بۆ پیرۆزکردنی کریسمس لەگەڵ خێزانەکەی."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcelebrates4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcelebrates4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Children’s Day has been celebrated in Japan for hundreds of years."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ڕۆژی منداڵان بۆ سەدان ساڵە لە ژاپۆن پیرۆز دەکرێت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcelebrates6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcelebrates6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -223,8 +353,7 @@ class EnglishEntrycache extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێکی یادگەی کۆمپیوتەرێک کە زانیاری کۆگا دەکات کە زۆرجار پێویستن لە کاتێکدا پڕۆگرامەکە کار دەکات"),
+                              text: "٢. (کردار) پەسندانی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -232,10 +361,10 @@ class EnglishEntrycache extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The browser stores frequently visited sites in a cache."),
+                                            "The competition has millions of fans and national winners are celebrated as heroes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "براوزەرەکە ئەو وێبسایتانەی کە زووزوو سەردانکراون لە یادگەیەک کۆگا دەکات."),
+                                            "پێشبڕکێیەکە ملیۆنان هەواداری لە جیهانەوە هەیە و براوە نیشتیمانییەکان وەک پاڵەوان ناوزەند دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -243,70 +372,10 @@ class EnglishEntrycache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcaches2("en-GB"),
+                                    onPressed: () => speakcelebrates5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (کردار) شاردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pirates cached treasures in a beachside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەتەکان گەنجینەیان لە کەنار دەریایەک شاردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaches3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) ھەڵگرتنی داتا لە یادگەی کۆمپیوتەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Modern browsers cache images for faster loading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە ھەڵدەگرن بۆ خێرا کردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaches4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches4("en-US"),
+                                    onPressed: () => speakcelebrates5("en-US"),
                                   ),
                                 ],
                               ),
@@ -322,11 +391,11 @@ class EnglishEntrycache extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -338,6 +407,7 @@ class EnglishEntrycache extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -393,18 +463,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cache (derived forms: caches)
-1. A hidden storage space (for money, provisions or weapons)
- 
-2. A secret store of valuables or money (= hoard, stash)
- 
-3. (computing) RAM memory that is set aside as a specialized buffer storage that is continually updated; used to optimize data transfers between system elements with different characteristics (= memory cache)
+- Verb: celebrate (Derived forms: celebrated, celebrates, celebrating)
+1. Behave as expected during holidays or rites (= observe, keep)
+"celebrate Christmas";
 
-- Verb: cache (derived forms: caching, caches, cached, cacheing)
-1. Save up as for future use (= hoard, stash, lay away, hive up, squirrel away [informal], sock away [N. Amer, informal])
+2. Have a celebration (= fete, fête)
+"After the exam, the students were celebrating";
  
-2. (computer) store temporarily in memory or disk for quick re-use later
-"web pages are often cached for quick retrieval the next time they are needed"
+3. Assign great social importance to (= lionize, lionise [Brit])
+"The film director was celebrated all over Hollywood";
 """,
   );
 
@@ -433,12 +500,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/57hF4Nnpkho?t=',
+    startSeconds: 12,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3DxMSufIIqY',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/7XOBxNqNl3o?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -462,8 +554,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'evvVtqmvE5w',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/SpPGbITSwHQ?t=',
+    startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -487,8 +579,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'f8euUepDo5w',
-    startSeconds: 394,
+    videoId: 'https://youtu.be/zB3I3QJWPj8?t=',
+    startSeconds: 1144,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -512,8 +604,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-obKX-mqjXQ',
-    startSeconds: 83,
+    videoId: 'https://youtu.be/WXbyhlDK_CM',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -537,8 +629,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tlezBUdD53w',
-    startSeconds: 236,
+    videoId: 'https://youtu.be/gsypsUlsqN4',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -562,8 +654,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8F1xmbYucec',
-    startSeconds: 88,
+    videoId: 'https://youtu.be/CV-XsznwFMw?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -587,8 +679,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2XcRZIMgqKU',
-    startSeconds: 65,
+    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    startSeconds: 1113,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -603,81 +695,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'e4rw3d7mu28',
-    startSeconds: 43,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7nPknkgc-Ps',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'O1jpck31Ask',
-    startSeconds: 167,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

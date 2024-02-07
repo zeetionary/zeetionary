@@ -3,86 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "barn" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
-
-// replace barn - replace EnglishEntrybarn
-
-// replace speakBarn - /bɑːn/
 
 enum TtsState { playing }
 
-class EnglishEntrybarn extends StatelessWidget {
-// blank divider
-  EnglishEntrybarn({super.key});
-// blank divider
+class EnglishEntrycellar extends StatelessWidget {
+  // blank divider
+  EnglishEntrycellar({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarn(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellar(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cellar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns1(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars1(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sheep were penned in behind the barn."); // DOPSUM: CHANGE TEXT
+        "We keep onions and apples in the cellar."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns2(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars2(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They live in a great barn of a house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellars22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns3(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars3(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarns33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellars33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns4(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars4(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarns44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellars44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns5(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars5(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarns55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellars55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns6(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars6(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarns66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellars66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarns7(String languageCode) async {
-    // DOPSUM: CHANGE speakBarn
+  Future<void> speakcellars7(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarns77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellars77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcellars8(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcellars88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcellars9(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcellars99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcellars10(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcellars1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcellars11(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcellars1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcellars12(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcellars1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcellars13(String languageCode) async {
+    // DOPSUM: CHANGE speakcellar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcellars1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +149,22 @@ class EnglishEntrybarn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "barn"),
+                            EntryTitle(word: "cellar"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɑːn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈselə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarn("en-GB"),
+                              onPressed: () => speakcellar("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɑːrn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈselər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarn("en-US"),
+                              onPressed: () => speakcellar("en-US"),
                             ),
                           ],
                         ),
@@ -133,7 +177,7 @@ class EnglishEntrybarn extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -147,9 +191,9 @@ class EnglishEntrybarn extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کادێن، مەرەک، تێولە، تەویلە، ئاخوڕ، پشتێر، گەوڕ (لە کێڵگەدا)، عەمبار، عەمباری، خەلەدان، دەغڵدان
+کوردی: ژێرخان، ناویس، وارنشین، ژێرزەمین؛ عەمباری مەی
 
-١. (ھاوەڵناو) گەوڕێکی گەورە بۆ ھەڵگرتنی گەنم، یان بەخێوکردنی ئاژەڵ"""),
+١. (ناو) ژوورێکی ژێر زەمینی بۆ کۆگاکردنی شت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -157,58 +201,25 @@ class EnglishEntrybarn extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The sheep were penned in behind the barn."),
+                                            "We keep onions and apples in the cellar."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "مەڕەکان لە پشتەوەی گەوڕەکە خڕکرانەوە."),
+                                        text: "پیاز و سێو دەخەینە ژێرخانەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cellar", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarns1("en-GB"),
+                                    onPressed: () => speakcellars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarns1("en-US"),
+                                    onPressed: () => speakcellars1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) بینایەکی گەورە و ناشرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They live in a great barn of a house."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە خانوویەکی قەبەدا دەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBarns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBarns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -219,16 +230,23 @@ class EnglishEntrybarn extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -284,10 +302,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: barn (derived forms: barns)
-1. An outlying farm building for storing grain or animal feed, or housing farm animals
+- Noun: cellar (Derived forms: cellars)
+1. The lowermost portion of a structure partly or wholly below ground level; often used for storage (= basement)
  
-2. (physics) a unit of nuclear cross section; the effective circular area that one particle presents to another as a target for an encounter (= b)
+2. An excavation where root vegetables are stored (= root cellar)
+ 
+3. Storage space where wines are stored (= wine cellar)
+
+- Verb: cellar (Derived forms: cellars)
+1. Store (wine etc.) in a cellar
 """,
   );
 
@@ -316,12 +339,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/tpvL3ulcDs8',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AAGIi62-sAU',
-    startSeconds: 111,
+    videoId: 'https://youtu.be/kFMbvQ_TV5M',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -345,8 +393,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6wAPCumZ1oU',
-    startSeconds: 241,
+    videoId: 'https://youtu.be/ls45yelmXKY?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -370,8 +418,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sV6uuMAnJUE',
-    startSeconds: 1260,
+    videoId: 'https://youtu.be/qYzMK4Xyj6Q?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -395,8 +443,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a9m3GD0DbPY',
-    startSeconds: 1407,
+    videoId: 'https://youtu.be/kwi11T9hImU?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -420,8 +468,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IlU-zDU6aQ0',
-    startSeconds: 2809,
+    videoId: 'https://youtu.be/ot7ecyvxuVA?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -445,8 +493,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'v3ohyHjJy3M',
-    startSeconds: 447,
+    videoId: 'https://youtu.be/_JZxFm4MXMI?t=',
+    startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -470,8 +518,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HGsjNOOaRXg',
-    startSeconds: 523,
+    videoId: 'https://youtu.be/IrX2bYIa2qY?t=',
+    startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -491,104 +539,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LkEVKw66Xf0',
-    startSeconds: 333,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TwPCoWgKtZI',
-    startSeconds: 46,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'wVeLGKbeFkw',
-    startSeconds: 24,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y2K-_RwbMYc',
-    startSeconds: 72,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end barn// TODO Implement this library.
+// end WORD_WEB

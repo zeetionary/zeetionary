@@ -3,94 +3,135 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// replace EnglishEntryAdopsummm - replace speakArmoury
-
-// replace armoury - /ˈɑːməri/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarmoury extends StatelessWidget {
+class EnglishEntryceiling extends StatelessWidget {
   // blank divider
-  EnglishEntryarmoury({super.key});
+  EnglishEntryceiling({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmoury(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakceiling(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ceiling"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury631(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several guns had been stolen from the palace armoury."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArmoury635(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakceilings1(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Doctors have an armoury of drugs available."); // DOPSUM: CHANGE TEXT
+        "The walls and ceiling were painted white."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury646(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakceilings2(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two countries signed an agreement to reduce their nuclear armouries."); // DOPSUM: CHANGE TEXT
+        "A large chandelier hangs from the ceiling."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakceilings3(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The government has decided to lift price ceilings on bread and milk."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakceilings4(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The reality is the economy is hitting the ceiling and the growth rate must slow."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakceilings5(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They were travelling in an aircraft with a ceiling of 20 000 feet."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakceilings6(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakceilings7(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakceilings8(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakceilings9(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakceilings10(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakceilings11(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakceilings12(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakceilings13(String languageCode) async {
+    // DOPSUM: CHANGE speakceiling
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakceilings1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -112,27 +153,22 @@ class EnglishEntryarmoury extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "armoury"), // Find /ˈɑːməri/
-                            // divvviiider
+                            EntryTitle(word: "ceiling"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɑːməri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈsiːlɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmoury("en-GB"),
+                              onPressed: () => speakceiling("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɑːrməri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈsiːlɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmoury("en-US"),
+                              onPressed: () => speakceiling("en-US"),
                             ),
                           ],
                         ),
@@ -145,7 +181,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -159,9 +195,9 @@ class EnglishEntryarmoury extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جبەخانە، عەمباری چەک‌وچۆڵ، قۆڕخانە، چەکەمەنی، کارخانەی چەک، چەک‌سازی، (ئەمریکا) شوێنی کە ھێزی نیمچەلەشکری مەشق دەبینن
+کوردی: بنبان، میچ، بن‌میچ، سەراپیتە، زۆرترین، زۆرینە، ئەوپەڕ، هەرەسەروو
 
-١. (ناو) کۆگای چەک و تەقەمەنی"""),
+١. (ناو) بەشی سەرەوەی ڕووی ناوەوەی خانوویەک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -169,35 +205,27 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Several guns had been stolen from the palace armoury."),
+                                            "The walls and ceiling were painted white."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
+                                            "دیوارەکان و بنبانەکە بە سپی بۆیە کران."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "ceiling", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury631("en-GB"),
+                                    onPressed: () => speakceilings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury631(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakceilings1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) بینایەک کە تێیدا ئەو سەربازانەی کارامە نین ڕاھێنانیان پێ‌دەکرێت"""),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) ئەو شتانەی کە کەسێک ھەیەتی بۆ یارمەتیدانی لە بەدەستھێنانی شتێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -205,10 +233,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Doctors have an armoury of drugs available."),
+                                            "A large chandelier hangs from the ceiling."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
+                                            "چلچرایەکی گەورە لە بنبانەکەوە شۆڕبووەتەوە."),
                                   ],
                                 ),
                               ),
@@ -216,21 +244,18 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury635("en-GB"),
+                                    onPressed: () => speakceilings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury635(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakceilings2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) تەواوی چەک و کەرەستەی سەربازیی وڵاتێک"""),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) زۆرترین بڕی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,10 +263,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The two countries signed an agreement to reduce their nuclear armouries."),
+                                            "The government has decided to lift price ceilings on bread and milk."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
+                                            "حکومەت بڕیاری داوە نرخی دیاریکردنی نرخ لەسەر نان و شیر لاببات."),
                                   ],
                                 ),
                               ),
@@ -249,39 +274,101 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury646("en-GB"),
+                                    onPressed: () => speakceilings3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury646(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakceilings3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The reality is the economy is hitting the ceiling and the growth rate must slow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاستی ئەوەیە کە ئابووری گەشتووەتە ئەوپەڕی و گەشەکردن دەبێت هێواش ببێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakceilings4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakceilings4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ئەوپەڕی بەرزایی کە فڕۆکەیەکی دیاریکراو دەتوانێت تێیدا بفڕێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were travelling in an aircraft with a ceiling of 20 000 feet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە فڕۆکەیەک گەشتیان دەکرد کە تا ئەوپەڕی بەرزی ٢٠٠٠٠ پێ دەچوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakceilings5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakceilings5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -337,16 +424,22 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: armoury (derived forms: armouries)
-Usage: Brit, Cdn (US: armory)
-1. A collection of resources (= armory [US], inventory)
-"he dipped into his intellectual armoury to find an answer";
+- Noun: ceiling (Derived forms: ceilings)
+1. The overhead upper surface of a covered space
+"he hated painting the ceiling"
  
-2. All the weapons and equipment that a country has (= arsenal, armory [US])
+2. (meteorology) altitude of the lowest layer of clouds
  
-3. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= arsenal, armory [US])
+3. An upper limit on what is allowed (= roof, cap)
+"he put a ceiling on the number of women who worked for him";
  
-4. A place where arms are manufactured (= armory [US], arsenal)
+4. Maximum altitude at which a plane can fly (under specified conditions)
+
+- Verb: ceil (Derived forms: ceilings)
+Usage: archaic
+1. To line or finish a surface, as of a wall, with plaster, stucco, thin boards, or the like
+ 
+2. To overlay or cover the inner side of the roof of; to furnish with a ceiling; as, to ceil a room
 """,
   );
 
@@ -375,12 +468,37 @@ Usage: Brit, Cdn (US: armory)
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/orakE9t1tpo?t=',
+    startSeconds: 48,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '64Dndm4WsZc',
-    startSeconds: 569,
+    videoId: 'https://youtu.be/yBjnRvh7Adk?t=',
+    startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -404,8 +522,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SLDw6i1D52U',
-    startSeconds: 1006,
+    videoId: 'https://youtu.be/HOEyGLMc0pk?t=',
+    startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -429,8 +547,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8LVWNGRjD0g',
-    startSeconds: 224,
+    videoId: 'https://youtu.be/NXmArky3qm4?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -454,8 +572,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XY_RldJvCWs',
-    startSeconds: 756,
+    videoId: 'https://youtu.be/Oh6cDGGfdBU?t=',
+    startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -479,8 +597,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pQVBFhVMbY8',
-    startSeconds: 1126,
+    videoId: 'https://youtu.be/VXOok5J_M3M?t=',
+    startSeconds: 950,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,8 +622,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZeOmxxOJFoE',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/KPqxH6uoJXY?t=',
+    startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -529,8 +647,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5GpKGePUr_Q',
-    startSeconds: 69,
+    videoId: 'https://youtu.be/gRlh_CA8ZzY?t=',
+    startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,129 +668,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tsxmyL7TUJg',
-    startSeconds: 607,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 's36hrId0rOo',
-    startSeconds: 602,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ri2Aj44PA8E',
-    startSeconds: 829,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CJo3aRHOh6o',
-    startSeconds: 659,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'saoRXwFAzDU',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

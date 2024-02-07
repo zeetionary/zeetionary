@@ -665,7 +665,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "The roof was leaking and I had to use a bucket to catch the drips."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "میچەکە تکەی دەکرد و پێویست بوو سەتڵێک بەکاربێنم بۆ گرتنی تکەکانی."),
+                                            "بنبانەکە تکەی دەکرد و پێویست بوو سەتڵێک بەکاربێنم بۆ گرتنی تکەکانی."),
                                   ],
                                 ),
                               ),

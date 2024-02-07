@@ -3,94 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// replace EnglishEntryAdopsummm - replace speakArmoury
-
-// replace armoury - /ˈɑːməri/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarmoury extends StatelessWidget {
+class EnglishEntrycavity extends StatelessWidget {
   // blank divider
-  EnglishEntryarmoury({super.key});
+  EnglishEntrycavity({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmoury(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakcavity(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cavity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury631(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several guns had been stolen from the palace armoury."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArmoury635(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakcavitys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Doctors have an armoury of drugs available."); // DOPSUM: CHANGE TEXT
+        "The gold was hidden in a secret cavity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury646(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoury
+  Future<void> speakcavitys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two countries signed an agreement to reduce their nuclear armouries."); // DOPSUM: CHANGE TEXT
+        "The abdominal cavity houses organs like the stomach and intestines."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcavitys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Most dentists fill cavities right away."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcavitys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys44"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcavitys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcavitys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArmoury(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArmoury
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcavitys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcavitys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcavitys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcavitys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcavitys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcavitys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcavitys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcavity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcavitys1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -112,27 +151,22 @@ class EnglishEntryarmoury extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "armoury"), // Find /ˈɑːməri/
-                            // divvviiider
+                            EntryTitle(word: "cavity"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɑːməri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkævəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmoury("en-GB"),
+                              onPressed: () => speakcavity("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɑːrməri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkævəti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmoury("en-US"),
+                              onPressed: () => speakcavity("en-US"),
                             ),
                           ],
                         ),
@@ -145,7 +179,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -159,9 +193,9 @@ class EnglishEntryarmoury extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جبەخانە، عەمباری چەک‌وچۆڵ، قۆڕخانە، چەکەمەنی، کارخانەی چەک، چەک‌سازی، (ئەمریکا) شوێنی کە ھێزی نیمچەلەشکری مەشق دەبینن
+کوردی: کەلێن، چاڵ، قووڵکە، کرمێ‌بوون، کرم‌خواردن، ڕەش‌بوونەوە (ددان)، کلۆر، بۆشایی، ڤاڵایی
 
-١. (ناو) کۆگای چەک و تەقەمەنی"""),
+١. (ناو) چاڵێک یان بۆشاییەک لەناو شتێکی ڕەقدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -169,35 +203,27 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Several guns had been stolen from the palace armoury."),
+                                            "The gold was hidden in a secret cavity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
+                                            "زێڕەکە لەناو کەلێنێکی نهێنیدا دۆزرایەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cavity", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury631("en-GB"),
+                                    onPressed: () => speakcavitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury631(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakcavitys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) بینایەک کە تێیدا ئەو سەربازانەی کارامە نین ڕاھێنانیان پێ‌دەکرێت"""),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) ئەو شتانەی کە کەسێک ھەیەتی بۆ یارمەتیدانی لە بەدەستھێنانی شتێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -205,10 +231,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Doctors have an armoury of drugs available."),
+                                            "The abdominal cavity houses organs like the stomach and intestines."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
+                                            "چاڵی سک ئەندامەکانی وەک گەدە و ڕیخۆڵەی تێدایە."),
                                   ],
                                 ),
                               ),
@@ -216,21 +242,18 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury635("en-GB"),
+                                    onPressed: () => speakcavitys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury635(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakcavitys2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) تەواوی چەک و کەرەستەی سەربازیی وڵاتێک"""),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) چاڵێک لە دداندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,10 +261,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The two countries signed an agreement to reduce their nuclear armouries."),
+                                            "Most dentists fill cavities right away."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
+                                            "زۆر پزیشکی ددان کەلێن بەزووی پڕدەکەنەوە."),
                                   ],
                                 ),
                               ),
@@ -249,39 +272,42 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury646("en-GB"),
+                                    onPressed: () => speakcavitys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury646(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
+                                    onPressed: () => speakcavitys3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -337,16 +363,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: armoury (derived forms: armouries)
-Usage: Brit, Cdn (US: armory)
-1. A collection of resources (= armory [US], inventory)
-"he dipped into his intellectual armoury to find an answer";
+- Noun: cavity (Derived forms: cavities)
+1. A sizeable hole (usually in the ground) (= pit)
+"they dug a cavity to bury the body";
  
-2. All the weapons and equipment that a country has (= arsenal, armory [US])
+2. Space that is surrounded by something (= enclosed space)
  
-3. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= arsenal, armory [US])
+3. Soft decayed area in a tooth; progressive decay can lead to the death of the tooth (= caries, dental caries, tooth decay)
  
-4. A place where arms are manufactured (= armory [US], arsenal)
+4. (anatomy) a natural hollow or sinus within the body (= bodily cavity, cavum)
 """,
   );
 
@@ -375,12 +400,37 @@ Usage: Brit, Cdn (US: armory)
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/gy65bL_zNtE?t=',
+    startSeconds: 6,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '64Dndm4WsZc',
-    startSeconds: 569,
+    videoId: 'https://youtu.be/fhdm-QQDX44?t=',
+    startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -404,8 +454,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SLDw6i1D52U',
-    startSeconds: 1006,
+    videoId: 'https://youtu.be/HEe1N0g5yK8?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -429,8 +479,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8LVWNGRjD0g',
-    startSeconds: 224,
+    videoId: 'https://youtu.be/0XnxMtMguTE?t=',
+    startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -454,8 +504,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XY_RldJvCWs',
-    startSeconds: 756,
+    videoId: 'https://youtu.be/Oit8UEyBRe4?t=',
+    startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -479,8 +529,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pQVBFhVMbY8',
-    startSeconds: 1126,
+    videoId: 'https://youtu.be/o9UuXmQH1fo?t=',
+    startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,8 +554,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZeOmxxOJFoE',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/fQQj4y8pSxA?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -529,8 +579,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5GpKGePUr_Q',
-    startSeconds: 69,
+    videoId: 'https://youtu.be/oA3ookNNztk?t=',
+    startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,129 +600,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tsxmyL7TUJg',
-    startSeconds: 607,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 's36hrId0rOo',
-    startSeconds: 602,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ri2Aj44PA8E',
-    startSeconds: 829,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CJo3aRHOh6o',
-    startSeconds: 659,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'saoRXwFAzDU',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

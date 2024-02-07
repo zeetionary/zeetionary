@@ -395,7 +395,7 @@ class EnglishEntryburst extends StatelessWidget {
                                                     "The words burst from her in an angry rush."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "وشە لە دەمییەوە دەھاتە خوارەوە  لە تووڕەییدا."),
+                                                    "وشە لە دەمییەوە دەھاتە خوارەوە لە تووڕەییدا."),
                                           ],
                                         ),
                                       ),

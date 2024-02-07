@@ -2663,96 +2663,94 @@ class _DictionaryScreenEnglishState
     "cat burglar",
     "catcall",
     "catacombs",
-    // "catalogue",
-    // "catalyst",
-    // "catalytic converter",
-    // "catapult",
-    // "cataract",
-    // "catarrh",
-    // "catastrophe",
-    // "catastrophic",
-    // "catch",
-    // "catching",
-    // "catchment area",
-    // "catchphrase",
-    // "catchy",
-    // "categorical",
-    // "categorically",
-    // "category",
-    // "categorize",
-    // "cater",
-    // "caterer",
-    // "caterpillar",
-    // "catgut",
-    // "cathedral",
-    // "cathode",
-    // "catholic",
-    // "Catholicism",
-    // "cattle",
-    // "catty",
-    // "cauldron",
-    // "cauliflower",
-    // "cause",
-    // "causeway",
-    // "caustic",
-    // "caustically",
-    // "caution",
-    // "cautionary",
-    // "cautious",
-    // "cautiously",
-    // "cavalcade",
-    // "cavalry",
-    // "cave",-
-    // "cavern",
-    // "cavernous",
-    // "caviar",
-    // "caving",
-    // "cavity",
-    // "cayenne",
-    // "CB",
-    // "cc",
-    // "CCTV",
-    // "CD",
-    // "CD-ROM",
-    // "cease",
-    // "ceasefire",
-    // "ceaseless",
-    // "ceaselessly",
-    // "cedar",
-    // "ceiling",
-    // "celebrate",
-    // "celebrated",
-    // "celebration",
-    // "celebrity",
-    // "celery",
-    // "celestial",
-    // "celibate",
-    // "celibacy",
-    // "cell",
-    // "cellar",
-    // "cello",
-    // "cellist",
-    // "Cellophane",
-    // "cellphone",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "cellular phone",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "catalogue",
+    "catalyst",
+    "catalytic converter",
+    "catapult",
+    "cataract",
+    "catarrh",
+    "catastrophe",
+    "catastrophic",
+    "catch",
+    "catching",
+    "catchment area",
+    "catchphrase",
+    "catchy",
+    "categorical",
+    "categorically",
+    "category",
+    "categorize",
+    "cater",
+    "caterer",
+    "caterpillar",
+    "catgut",
+    "cathedral",
+    "cathode",
+    "catholic",
+    "Catholicism",
+    "cattle",
+    "catty",
+    "cauldron",
+    "cauliflower",
+    "cause",
+    "causeway",
+    "caustic",
+    "caustically",
+    "caution",
+    "cautionary",
+    "cautious",
+    "cautiously",
+    "cavalcade",
+    "cavalry",
+    "cave",
+    "cavern",
+    "cavernous",
+    "caviar",
+    "caving",
+    "cavity",
+    "cayenne",
+    "CB",
+    "cc",
+    "CCTV",
+    "CD",
+    "CD-ROM",
+    "cease",
+    "ceasefire",
+    "ceaseless",
+    "ceaselessly",
+    "cedar",
+    "ceiling",
+    "celebrate",
+    "celebrated",
+    "celebration",
+    "celebrity",
+    "celery",
+    "celestial",
+    "celibate",
+    "celibacy",
+    "cell",
+    "cellar",
+    "cello",
+    "cellist",
+    "Cellophane",
+    "cellphone",
+    "cellular",
+    "cellular phone",
+    "cellulite",
+    "Celsius",
+    "cement",
+    "cemetery",
+    "cenotaph",
+    "censor",
+    "censorship",
+    "censure",
+    "census",
+    "cent",
+    "centaur",
+    "centenarian",
+    "centenary",
+    "centennial",
+    "centigrade",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -3063,8 +3061,8 @@ class _DictionaryScreenEnglishState
   //   });
   // }
 
+  // (zee) https://chat.openai.com/c/540ea8e2-6b2a-4f94-8ed1-1d25cdf3ce8c
   void filterResults(String query) {
-    // (zee) https://chat.openai.com/c/540ea8e2-6b2a-4f94-8ed1-1d25cdf3ce8c
     setState(() {
       if (query.isEmpty) {
         // If the query is empty, show all words
@@ -3177,11 +3175,6 @@ class _DictionaryScreenEnglishState
     });
   }
 
-// Normalize the string by removing hyphens and converting to lowercase
-  String _normalizeString(String input) {
-    return input.replaceAll('-', ' ').toLowerCase();
-  }
-
 // Check if the word is an exact match without prefixes or suffixes
   bool _isExactMatch(String word, String query) {
     word = _normalizeString(word);
@@ -3189,6 +3182,28 @@ class _DictionaryScreenEnglishState
 
     // Check if the word is the exact match without prefixes or suffixes
     return word == query;
+  }
+
+  // Normalize the string by removing hyphens, converting to lowercase,
+// and handling common spelling differences between American and British English
+  String _normalizeString(String input) {
+    // Handle spelling differences between American and British English
+    input = input.replaceAll('ise', 'ize'); // Convert 'ise' to 'ize'
+    input = input.replaceAll('tre', 'ter'); // Convert 'tre' to 'ter'
+    input = input.replaceAll('our', 'or');
+    input = input.replaceAll('lling', 'ling');
+    input = input.replaceAll('yse', 'yze');
+    input = input.replaceAll('ourite', 'orite');
+    input = input.replaceAll('ce', 'se');
+    input = input.replaceAll('sation', 'zation');
+    input = input.replaceAll('amme', 'am');
+    input = input.replaceAll('ogue', 'og');
+    input = input.replaceAll('llery', 'lry');
+    input = input.replaceAll('nes', 'ns');
+    input = input.replaceAll('nium', 'num');
+
+    // Remove hyphens and convert to lowercase
+    return input.replaceAll('-', ' ').toLowerCase();
   }
 
 // Count consecutive character matches between two strings
@@ -13883,362 +13898,363 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-catacombs");
                   }
-                  // if (wordsEnglish == "catalogue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catalogue");
-                  // }
-                  // if (wordsEnglish == "catalyst") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catalyst");
-                  // }
-                  // if (wordsEnglish == "catalytic converter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catalytic-converter");
-                  // }
-                  // if (wordsEnglish == "catapult") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catapult");
-                  // }
-                  // if (wordsEnglish == "cataract") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cataract");
-                  // }
-                  // if (wordsEnglish == "catarrh") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catarrh");
-                  // }
-                  // if (wordsEnglish == "catastrophe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catastrophe");
-                  // }
-                  // if (wordsEnglish == "catastrophic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catastrophic");
-                  // }
-                  // if (wordsEnglish == "catch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catch");
-                  // }
-                  // if (wordsEnglish == "catching") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catching");
-                  // }
-                  // if (wordsEnglish == "catchment area") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catchment-area");
-                  // }
-                  // if (wordsEnglish == "catchphrase") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catchphrase");
-                  // }
-                  // if (wordsEnglish == "catchy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catchy");
-                  // }
-                  // if (wordsEnglish == "categorical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-categorical");
-                  // }
-                  // if (wordsEnglish == "categorically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-categorically");
-                  // }
-                  // if (wordsEnglish == "category") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-category");
-                  // }
-                  // if (wordsEnglish == "categorize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-categorize");
-                  // }
-                  // if (wordsEnglish == "cater") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cater");
-                  // }
-                  // if (wordsEnglish == "caterer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caterer");
-                  // }
-                  // if (wordsEnglish == "caterpillar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caterpillar");
-                  // }
-                  // if (wordsEnglish == "catgut") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catgut");
-                  // }
-                  // if (wordsEnglish == "cathedral") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cathedral");
-                  // }
-                  // if (wordsEnglish == "cathode") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cathode");
-                  // }
-                  // if (wordsEnglish == "catholic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catholic");
-                  // }
-                  // if (wordsEnglish == "Catholicism") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catholicism");
-                  // }
-                  // if (wordsEnglish == "cattle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cattle");
-                  // }
-                  // if (wordsEnglish == "catty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-catty");
-                  // }
-                  // if (wordsEnglish == "cauldron") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cauldron");
-                  // }
-                  // if (wordsEnglish == "cauliflower") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cauliflower");
-                  // }
-                  // if (wordsEnglish == "cause") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cause");
-                  // }
-                  // if (wordsEnglish == "causeway") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-causeway");
-                  // }
-                  // if (wordsEnglish == "caustic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caustic");
-                  // }
-                  // if (wordsEnglish == "caustically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caustically");
-                  // }
-                  // if (wordsEnglish == "caution") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caution");
-                  // }
-                  // if (wordsEnglish == "cautionary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cautionary");
-                  // }
-                  // if (wordsEnglish == "cautious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cautious");
-                  // }
-                  // if (wordsEnglish == "cautiously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cautiously");
-                  // }
-                  // if (wordsEnglish == "cavalcade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cavalcade");
-                  // }
-                  // if (wordsEnglish == "cavalry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cavalry");
-                  // }
-                  // if (wordsEnglish == "cave") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cave");
-                  // }
-                  // if (wordsEnglish == "cavern") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cavern");
-                  // }
-                  // if (wordsEnglish == "cavernous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cavernous");
-                  // }
-                  // if (wordsEnglish == "caviar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caviar");
-                  // }
-                  // if (wordsEnglish == "caving") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caving");
-                  // }
-                  // if (wordsEnglish == "cavity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cavity");
-                  // }
-                  // if (wordsEnglish == "cayenne") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cayenne");
-                  // }
-                  // if (wordsEnglish == "CB") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-citizens-band");
-                  // }
-                  // if (wordsEnglish == "cc") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cc");
-                  // }
-                  // if (wordsEnglish == "CCTV") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cctv");
-                  // }
-                  // if (wordsEnglish == "CD") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cd");
-                  // }
-                  // if (wordsEnglish == "CD-ROM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cd-rom");
-                  // }
-                  // if (wordsEnglish == "cease") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cease");
-                  // }
-                  // if (wordsEnglish == "ceasefire") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ceasefire");
-                  // }
-                  // if (wordsEnglish == "ceaseless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ceaseless");
-                  // }
-                  // if (wordsEnglish == "ceaselessly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ceaselessly");
-                  // }
-                  // if (wordsEnglish == "cedar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cedar");
-                  // }
-                  // if (wordsEnglish == "ceiling") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ceiling");
-                  // }
-                  // if (wordsEnglish == "celebrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celebrate");
-                  // }
-                  // if (wordsEnglish == "celebrated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celebrated");
-                  // }
-                  // if (wordsEnglish == "celebration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celebration");
-                  // }
-                  // if (wordsEnglish == "celebrity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celebrity");
-                  // }
-                  // if (wordsEnglish == "celery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celery");
-                  // }
-                  // if (wordsEnglish == "celestial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celestial");
-                  // }
-                  // if (wordsEnglish == "celibate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celibate");
-                  // }
-                  // if (wordsEnglish == "celibacy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-celibacy");
-                  // }
-                  // if (wordsEnglish == "cell") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cell");
-                  // }
-                  // if (wordsEnglish == "cellar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cellar");
-                  // }
-                  // if (wordsEnglish == "cello") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cello");
-                  // }
-                  // if (wordsEnglish == "cellist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cellist");
-                  // }
-                  // if (wordsEnglish == "Cellophane") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cellophane");
-                  // }
-                  // if (wordsEnglish == "cellphone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cellphone");
-                  // }
-                  // if (wordsEnglish == "mobile phone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cellphone");
-                  // }
-                  // if (wordsEnglish == "cellular phone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cellphone");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "catalogue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catalogue");
+                  }
+                  if (wordsEnglish == "catalyst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catalyst");
+                  }
+                  if (wordsEnglish == "catalytic converter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context)
+                        .push("/english-catalytic-converter");
+                  }
+                  if (wordsEnglish == "catapult") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catapult");
+                  }
+                  if (wordsEnglish == "cataract") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cataract");
+                  }
+                  if (wordsEnglish == "catarrh") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catarrh");
+                  }
+                  if (wordsEnglish == "catastrophe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catastrophe");
+                  }
+                  if (wordsEnglish == "catastrophic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catastrophic");
+                  }
+                  if (wordsEnglish == "catch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catch");
+                  }
+                  if (wordsEnglish == "catching") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catching");
+                  }
+                  if (wordsEnglish == "catchment area") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catchment-area");
+                  }
+                  if (wordsEnglish == "catchphrase") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catchphrase");
+                  }
+                  if (wordsEnglish == "catchy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catchy");
+                  }
+                  if (wordsEnglish == "categorical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-categorical");
+                  }
+                  if (wordsEnglish == "categorically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-categorically");
+                  }
+                  if (wordsEnglish == "category") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-category");
+                  }
+                  if (wordsEnglish == "categorize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-categorize");
+                  }
+                  if (wordsEnglish == "cater") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cater");
+                  }
+                  if (wordsEnglish == "caterer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caterer");
+                  }
+                  if (wordsEnglish == "caterpillar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caterpillar");
+                  }
+                  if (wordsEnglish == "catgut") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catgut");
+                  }
+                  if (wordsEnglish == "cathedral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cathedral");
+                  }
+                  if (wordsEnglish == "cathode") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cathode");
+                  }
+                  if (wordsEnglish == "catholic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catholic");
+                  }
+                  if (wordsEnglish == "Catholicism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catholicism");
+                  }
+                  if (wordsEnglish == "cattle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cattle");
+                  }
+                  if (wordsEnglish == "catty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-catty");
+                  }
+                  if (wordsEnglish == "cauldron") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cauldron");
+                  }
+                  if (wordsEnglish == "cauliflower") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cauliflower");
+                  }
+                  if (wordsEnglish == "cause") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cause");
+                  }
+                  if (wordsEnglish == "causeway") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-causeway");
+                  }
+                  if (wordsEnglish == "caustic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caustic");
+                  }
+                  if (wordsEnglish == "caustically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caustically");
+                  }
+                  if (wordsEnglish == "caution") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caution");
+                  }
+                  if (wordsEnglish == "cautionary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cautionary");
+                  }
+                  if (wordsEnglish == "cautious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cautious");
+                  }
+                  if (wordsEnglish == "cautiously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cautiously");
+                  }
+                  if (wordsEnglish == "cavalcade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cavalcade");
+                  }
+                  if (wordsEnglish == "cavalry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cavalry");
+                  }
+                  if (wordsEnglish == "cave") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cave");
+                  }
+                  if (wordsEnglish == "cavern") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cavern");
+                  }
+                  if (wordsEnglish == "cavernous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cavernous");
+                  }
+                  if (wordsEnglish == "caviar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caviar");
+                  }
+                  if (wordsEnglish == "caving") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caving");
+                  }
+                  if (wordsEnglish == "cavity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cavity");
+                  }
+                  if (wordsEnglish == "cayenne") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cayenne");
+                  }
+                  if (wordsEnglish == "CB") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-citizens-band");
+                  }
+                  if (wordsEnglish == "cc") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cc");
+                  }
+                  if (wordsEnglish == "CCTV") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cctv");
+                  }
+                  if (wordsEnglish == "CD") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cd");
+                  }
+                  if (wordsEnglish == "CD-ROM") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cd-rom");
+                  }
+                  if (wordsEnglish == "cease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cease");
+                  }
+                  if (wordsEnglish == "ceasefire") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceasefire");
+                  }
+                  if (wordsEnglish == "ceaseless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceaseless");
+                  }
+                  if (wordsEnglish == "ceaselessly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceaselessly");
+                  }
+                  if (wordsEnglish == "cedar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cedar");
+                  }
+                  if (wordsEnglish == "ceiling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceiling");
+                  }
+                  if (wordsEnglish == "celebrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celebrate");
+                  }
+                  if (wordsEnglish == "celebrated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celebrated");
+                  }
+                  if (wordsEnglish == "celebration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celebration");
+                  }
+                  if (wordsEnglish == "celebrity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celebrity");
+                  }
+                  if (wordsEnglish == "celery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celery");
+                  }
+                  if (wordsEnglish == "celestial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celestial");
+                  }
+                  if (wordsEnglish == "celibate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celibate");
+                  }
+                  if (wordsEnglish == "celibacy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celibacy");
+                  }
+                  if (wordsEnglish == "cell") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cell");
+                  }
+                  if (wordsEnglish == "cellar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellar");
+                  }
+                  if (wordsEnglish == "cello") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cello");
+                  }
+                  if (wordsEnglish == "cellist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellist");
+                  }
+                  if (wordsEnglish == "Cellophane") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellophane");
+                  }
+                  if (wordsEnglish == "cellphone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellphone");
+                  }
+                  if (wordsEnglish == "mobile phone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellphone");
+                  }
+                  if (wordsEnglish == "cellular phone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellphone");
+                  }
+                  if (wordsEnglish == "cellular") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellular");
+                  }
+                  if (wordsEnglish == "cellulite") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cellulite");
+                  }
+                  if (wordsEnglish == "Celsius") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celsius");
+                  }
+                  if (wordsEnglish == "centigrade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-celsius");
+                  }
+                  if (wordsEnglish == "cement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cement");
+                  }
+                  if (wordsEnglish == "cemetery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cemetery");
+                  }
+                  if (wordsEnglish == "cenotaph") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cenotaph");
+                  }
+                  if (wordsEnglish == "censor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-censor");
+                  }
+                  if (wordsEnglish == "censorship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-censorship");
+                  }
+                  if (wordsEnglish == "censure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-censure");
+                  }
+                  if (wordsEnglish == "census") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-census");
+                  }
+                  if (wordsEnglish == "cent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cent");
+                  }
+                  if (wordsEnglish == "centaur") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centaur");
+                  }
+                  if (wordsEnglish == "centenarian") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centenarian");
+                  }
+                  if (wordsEnglish == "centenary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centenary");
+                  }
+                  if (wordsEnglish == "centennial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centennial");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

@@ -29,8 +29,8 @@ class EnglishEntrycellphone extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "speakcellphones111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I talked to her on my cell phone."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcellphones2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycellphone extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcellphones22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The use of cellular phones is not permitted on most aircraft."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcellphones3(String languageCode) async {
@@ -154,7 +155,8 @@ class EnglishEntrycellphone extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(word: "also mobile phone, cellular phone"),
+                            AlsoEnglish(
+                                word: "also mobile phone, cellular phone"),
                           ],
                         ),
                         Row(
@@ -196,9 +198,7 @@ class EnglishEntrycellphone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
-
-١. (ھاوەڵناو) پێنناسە"""),
+١. (ناو) تەلەفۆنێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا هەڵیبگریت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -206,9 +206,9 @@ class EnglishEntrycellphone extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakcellphones111111111111111111111111111111111"),
+                                            "I talked to her on my cell phone."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text: "بە موبایلەکەم قسەم لەگەڵ کرد."),
                                   ],
                                 ),
                               ),
@@ -220,6 +220,34 @@ class EnglishEntrycellphone extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcellphones1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The use of cellular phones is not permitted on most aircraft."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکارهێنانی موبایل لەسەر فڕۆکە ڕێگە پێنەدراوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcellphones2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcellphones2("en-US"),
                                   ),
                                 ],
                               ),
@@ -237,11 +265,11 @@ class EnglishEntrycellphone extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),

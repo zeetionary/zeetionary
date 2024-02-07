@@ -1,82 +1,141 @@
-// replace these: EnglishEntryabsorb - speakAbsorb - absorb - /əbˈzɔːb/
-
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
-class EnglishEntryabsorb extends StatelessWidget {
-  EnglishEntryabsorb({super.key});
+class EnglishEntrycensure extends StatelessWidget {
+  // blank divider
+  EnglishEntrycensure({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbsorb(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
+  Future<void> speakcensure(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absorb"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("censure"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3959(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His work absorbed him completely."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA2768(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
+  Future<void> speakcensures1(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It took me several days to absorb the fact of her death."); // DOPSUM: CHANGE TEXT
+        "He could face censure from his colleagues."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6731(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
+  Future<void> speakcensures2(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This tennis racket absorbs shock on impact."); // DOPSUM: CHANGE TEXT
+        "Her dishonest behaviour came under severe censure."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6981(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
+  Future<void> speakcensures3(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Black walls absorb a lot of heat during the day."); // DOPSUM: CHANGE TEXT
+        "He was censured for leaking information to the press."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2136(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
+  Future<void> speakcensures4(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Let the rice cook until it has absorbed all the water."); // DOPSUM: CHANGE TEXT
+        "The manager was severely censured for negligence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3257(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsorb
+  Future<void> speakcensures5(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Plants absorb carbon dioxide from the air."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcensures55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures6(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures7(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures8(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures9(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures10(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures11(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures12(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcensures13(String languageCode) async {
+    // DOPSUM: CHANGE speakcensure
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcensures1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -93,25 +152,22 @@ class EnglishEntryabsorb extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "absorb"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "censure"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /əbˈzɔːb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsenʃə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsorb("en-GB"),
+                              onPressed: () => speakcensure("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əbˈzɔːrb/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /ˈsenʃər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsorb("en-US"),
+                              onPressed: () => speakcensure("en-US"),
                             ),
                           ],
                         ),
@@ -138,9 +194,9 @@ class EnglishEntryabsorb extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مژین، ھەڵمژین، ئاوگرتن، شێگرتن، ئاوکێشان
+کوردی: ڕەخنە (توند)، سەرکۆنە، کۆران، ڤەچفیان، بیراز، بەگژداهاتن، عەیب‌لێ‌دۆزینەوە، بەسەرداهاتن، سەرکۆنەی فەرمی
 
-١. (کردار) ھەڵمژینی مادەی شل، گاس، یان تەنی دیکە لە ھەوادا"""),
+١. (ناو) ڕەخنەی توند"""),
                           Row(
                             children: [
                               const Expanded(
@@ -148,21 +204,21 @@ class EnglishEntryabsorb extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Plants absorb carbon dioxide from the air."),
+                                            "He could face censure from his colleagues."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن."),
+                                            "دەکرێت ڕووبڕووی سەرکۆنە ببێتەوە لە هاوکارەکانییەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "censure", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA3257("en-GB"),
+                                    onPressed: () => speakcensures1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA3257("en-US"),
+                                    onPressed: () => speakcensures1("en-US"),
                                   ),
                                 ],
                               ),
@@ -176,10 +232,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Let the rice cook until it has absorbed all the water."),
+                                            "Her dishonest behaviour came under severe censure."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت."),
+                                            "هەڵسوکەوتە فریودەرانەکەی ڕووبەڕووی سەرکۆنەی توند بووەوە."),
                                   ],
                                 ),
                               ),
@@ -187,18 +243,19 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2136("en-GB"),
+                                    onPressed: () => speakcensures2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2136("en-US"),
+                                    onPressed: () => speakcensures2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. ھەڵمژینی گەرمی، ڕۆشنایی، وزە، و دەنگ لە جیاتی دانەوەیان """),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) سەرکۆنەی کەسێک بەهۆی ئەوەی شتێکی هەڵەی کردووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,10 +263,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Black walls absorb a lot of heat during the day."),
+                                            "He was censured for leaking information to the press."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت."),
+                                            "سەرکۆنە کرا بۆ دزەکردنی زانیاری بۆ میدیا."),
                                   ],
                                 ),
                               ),
@@ -217,18 +274,16 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA6981("en-GB"),
+                                    onPressed: () => speakcensures3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA6981("en-US"),
+                                    onPressed: () => speakcensures3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (کردار) کەمکردنەوەی کاریگەریی بەرکەوتن لەلایەن تەنێکی فیزیاییەوە"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -236,10 +291,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "This tennis racket absorbs shock on impact."),
+                                            "The manager was severely censured for negligence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت."),
+                                            "بەڕێوبەرەکە بە توندی سەرزەنشت کرا بۆ کەم‌تەرخەمی."),
                                   ],
                                 ),
                               ),
@@ -247,70 +302,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA6731("en-GB"),
+                                    onPressed: () => speakcensures4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA6731("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (کردار) وەرگرتنی زانیاری و تێگەشتن لێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took me several days to absorb the fact of her death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ڕۆژێکی پێچوو بۆم تا بە مردنەکەی ڕابێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakA2768("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakA2768("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (کردار) وا لە کەسێک بکەیت بە تەواوی ھەموو بیرکردنەوەیت پێ بدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His work absorbed him completely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی بە تەواوی ھەموو ھۆش و بیری بردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakA3959("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakA3959("en-US"),
+                                    onPressed: () => speakcensures4("en-US"),
                                   ),
                                 ],
                               ),
@@ -327,9 +322,24 @@ class EnglishEntryabsorb extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
                         YoutubeEmbeddedend(),
                       ],
-                    ), // DOPSUM: FROM YOUTUBE BELOW
+                    ),
                   ],
                 ),
               ),
@@ -383,32 +393,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: absorb (derived forms: absorbed, absorbing, absorbs)
-1. Take in, also metaphorically (= suck, imbibe, soak up, sop up, suck up, draw, take in, take up)
-"The sponge absorbs water well";
+- Noun: censure (Derived forms: censures)
+1. Harsh criticism or disapproval (= animadversion)
  
-2. (chemistry) become imbued
-"The liquids, light, and gases absorb"
- 
-3. Take up mentally (= assimilate, ingest, take in)
-"he absorbed the knowledge or beliefs of his tribe";
- 
-4. Take up, as of debts or payments (= take over)
-"absorb the costs for something";
- 
-5. Cause to become one with
-"The sales tax is absorbed into the state income tax"
- 
-6. Suck or take up or in (= take in)
-"A black star absorbs all matter";
- 
-7. Devote (oneself) fully to (= steep, immerse, engulf, plunge, engross, soak up, ingulf [archaic])
- 
-8. Assimilate or take in
-"The immigrants were quickly absorbed into society"
- 
-9. Consume all of one's attention or time (= engross, engage, occupy)
-"Her interest in butterflies absorbs her completely";
+2. The state of being excommunicated (= excommunication, exclusion)
+
+- Verb: censure (Derived forms: censuring, censures, censured)
+1. Rebuke formally (= reprimand, criminate)
 """,
   );
 
@@ -437,12 +428,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/eD65S5V6x2E',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DTvS9lvRxZ8',
-    startSeconds: 916,
+    videoId: 'https://youtu.be/CNYsmP6uJb0?t=',
+    startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -466,8 +482,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GcdB5bFwio4',
-    startSeconds: 405,
+    videoId: 'https://youtu.be/JTfzEM7THiY?t=',
+    startSeconds: 586,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -491,8 +507,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZAxhEUfpSss',
-    startSeconds: 885,
+    videoId: 'https://youtu.be/9KvoIDkEsiw?t=',
+    startSeconds: 906,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -516,8 +532,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lex6USTugUU',
-    startSeconds: 597,
+    videoId: 'https://youtu.be/JTfzEM7THiY?t=',
+    startSeconds: 586,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -541,8 +557,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-cPdImejxEQ',
-    startSeconds: 196,
+    videoId: 'https://youtu.be/YZAibo7eiik?t=',
+    startSeconds: 911,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -566,8 +582,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GYk4ymtQ1WM',
-    startSeconds: 1296,
+    videoId: 'https://youtu.be/jndnJCGryK0?t=',
+    startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -587,12 +603,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'X3TAROotFfM',
-    startSeconds: 655,
+    videoId: 'https://youtu.be/oRlCj-qaeD4?t=',
+    startSeconds: 565,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -606,10 +622,10 @@ class YoutubeEmbeddedend extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
 
-// end
+// end WORD_WEB

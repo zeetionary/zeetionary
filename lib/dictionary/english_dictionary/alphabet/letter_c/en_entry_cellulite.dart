@@ -3,127 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycap extends StatelessWidget {
-// blank divider
-  EnglishEntrycap({super.key});
-// blank divider
+class EnglishEntrycellulite extends StatelessWidget {
+  // blank divider
+  EnglishEntrycellulite({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcap(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulite(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cellulite"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps1(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites1(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He wore a cap to help shielding his face from the sun's glare."); // DOPSUM: CHANGE TEXT
+        "Having cellulite is normal and doesn't affect your overall health."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps2(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites2(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps3(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites3(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps4(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites4(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps5(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites5(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps6(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites6(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps7(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites7(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps8(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites8(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps9(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites9(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps10(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites10(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps11(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites11(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps12(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites12(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps13(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcellulites13(String languageCode) async {
+    // DOPSUM: CHANGE speakcellulite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcellulites1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +149,22 @@ class EnglishEntrycap extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cap"),
+                            EntryTitle(word: "cellulite"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kæp/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcap("en-GB"),
+                              onPressed: () => speakcellulite("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kæp/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcap("en-US"),
+                              onPressed: () => speakcellulite("en-US"),
                             ),
                           ],
                         ),
@@ -174,7 +177,7 @@ class EnglishEntrycap extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -188,9 +191,7 @@ class EnglishEntrycap extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کڵاو، جۆرێ کڵاو بە یان بێ شەپکە، تەقیلە، تەپڵە، کڵاوی شانازی یان زانکۆیی، دەزگا، دیافڕاگم (ژنان)، سەر، درگا، کڵاوە، قەپاخ، سەرپۆش، سەرقاپ، تۆقتۆقە، کڵاوە، بەشی سەرووی تەختی، کارگ یان، کڵاوە: تاج یان ڕووپۆشی دەستکرد بۆ ددانێ، زۆرترین، زۆرینە، ئەوپەڕ، ھەرەسەروو، دوایین ڕادە، (وەک خەرج و بار)، نیشانەی ∩، ئاماژە بە ھاوبڕی، دوو کۆمەڵە یان دەستە، (زۆرتر لە بریتانیا) جۆیێ کڵاو کە دەبەخشرێتە ئەندامانی تیپێکی وەرزشی، بەتایبەت تیپێکی نیشتمانی، ھێشووە گەردێ 
-
-١. (ناو) کڵاوێک کە لە پێشەوە بەشێکی ڕەقی چەماوەی ھەیە"""),
+١. (ناو) چەوری ژێر پێست کە وادەکات پێست ساف و لووس دەرنەکەوێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -198,21 +199,21 @@ class EnglishEntrycap extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He wore a cap to help shielding his face from the sun's glare."),
+                                            "Having cellulite is normal and doesn't affect your overall health."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کڵاوێکی لەسەر کرد بۆ پاراستنی ڕووخساری لە تیشکی خۆر."),
+                                            "هەبوونی خانۆچکە ئاساییە و کاریگەری نییە لەسەر تەندرووستیت بە گشتی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cap", follow LX strictly
+                              const CustomSizedBoxForTTS(), // Define the word "cellulite", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcaps1("en-GB"),
+                                    onPressed: () => speakcellulites1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcaps1("en-US"),
+                                    onPressed: () => speakcellulites1("en-US"),
                                   ),
                                 ],
                               ),
@@ -228,11 +229,11 @@ class EnglishEntrycap extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -244,6 +245,7 @@ class EnglishEntrycap extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -299,40 +301,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cap (derived forms: caps, capping, capped)
-1. A close-fitting hat, either without a brim or with a peak
- 
-2. A top (as for a bottle)
- 
-3. A mechanical or electrical explosive device or a small amount of explosive; can be used to initiate the reaction of a disrupting explosive (= detonator, detonating device)
- 
-4. Something serving as a cover or protection
- 
-5. A fruiting structure resembling an umbrella or a cone that forms the top of a stalked fleshy fungus such as a mushroom (= pileus)
- 
-6. A protective covering that is part of a plant (= hood)
- 
-7. An upper limit on what is allowed (= ceiling, roof)
-"they established a cap for prices";
- 
-8. (dentistry) dental appliance consisting of an artificial crown for a broken or decayed tooth (= crown, crownwork, jacket, jacket crown)
-"tomorrow my dentist will fit me for a cap";
-
-9. The upper part of a column that supports the entablature (= capital, chapiter)
-
-- Verb: cap (derived forms: caps, capping, capped)
-1. Lie at the top of (= crest)
-"Snow capped the mountains";
- 
-2. Restrict the number or amount of
-"We had to cap the number of people we can accept into our club"
- 
-3. Finish or complete, as with some decisive action (= cap off)
-"he capped off the meeting with a radical proposal";
- 
-4. Top or seal with a cover; put a cap on
- 
-5. Surpass or outdo
+- Noun: cellulite (Derived forms: cellulites)
+1. Lumpy deposits of body fat especially on women's thighs etc.
 """,
   );
 
@@ -361,12 +331,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/MvbUPKZzf9c?t=',
+    startSeconds: 63,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qdslTdBxBeA',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/89yCssqMqYM',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +385,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dPq-jhj1ARE',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/qlQ8764Epx0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +410,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QpVbiWHQyaQ',
-    startSeconds: 92,
+    videoId: 'https://youtu.be/ln2Di_dcDDs?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +435,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sJC4ngQvQNY',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/AfRf6Cc4rzg?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -465,8 +460,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hELKgWjv1w0',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/c2JOYvBB_qw?t=',
+    startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -490,8 +485,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LTn9LpjDvdo',
-    startSeconds: 9,
+    videoId: 'https://youtu.be/eNIFVNiYxXg',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -515,8 +510,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'jaRcbpN_KlM',
-    startSeconds: 1735,
+    videoId: 'https://youtu.be/MvbUPKZzf9c?t=',
+    startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -540,8 +535,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AHgU10z9LNA',
-    startSeconds: 47,
+    videoId: 'https://youtu.be/ShUsGvTpr6Q',
+    // startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -556,56 +551,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4DkSn9uDDWU',
-    startSeconds: 13,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gxwi-Xu24xE',
-    startSeconds: 6,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

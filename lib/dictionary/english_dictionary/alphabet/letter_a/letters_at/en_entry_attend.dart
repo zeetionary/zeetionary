@@ -177,7 +177,7 @@ class EnglishEntryattend extends StatelessWidget {
                                             "We'd like as many people as possible to attend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزدەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
+                                            "حەز دەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
                                   ],
                                 ),
                               ),

@@ -294,7 +294,7 @@ class EnglishEntryburning extends StatelessWidget {
                                             "People enjoy basking under the burning sun at the beach."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکی حەزدەکەن بە ڕاکشان لە خۆرە گەرمەکەدا لە کەناراوەکە."),
+                                            "خەڵکی حەز دەکەن بە ڕاکشان لە خۆرە گەرمەکەدا لە کەناراوەکە."),
                                   ],
                                 ),
                               ),

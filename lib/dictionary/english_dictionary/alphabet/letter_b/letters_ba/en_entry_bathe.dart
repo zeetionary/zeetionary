@@ -223,7 +223,7 @@ class EnglishEntrybathe extends StatelessWidget {
                                             "We love to go bathe in the ocean whenever we visit the beach."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
+                                            "حەز دەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
                                   ],
                                 ),
                               ),

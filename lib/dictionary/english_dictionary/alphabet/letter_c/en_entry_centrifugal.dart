@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycentralize extends StatelessWidget {
+class EnglishEntrycentrifugal extends StatelessWidget {
   // blank divider
-  EnglishEntrycentralize({super.key});
+  EnglishEntrycentrifugal({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcentralize(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugal(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("centralize"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("centrifugal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes1(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals1(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The law centralized control over the banking industry."); // DOPSUM: CHANGE TEXT
+        "When a car rounds a curve, centrifugal force pushes the passengers to the side."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes2(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals2(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes3(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals3(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes4(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals4(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes5(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals5(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes6(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals6(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes7(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals7(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes8(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals8(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes9(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals9(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes10(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals10(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes11(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals11(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes12(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals12(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcentralizes13(String languageCode) async {
-    // DOPSUM: CHANGE speakcentralize
+  Future<void> speakcentrifugals13(String languageCode) async {
+    // DOPSUM: CHANGE speakcentrifugal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralizes1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentrifugals1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,24 @@ class EnglishEntrycentralize extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "centralize"),
+                            EntryTitle(word: "centrifugal"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsentrəlaɪz/"),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˌsentrɪˈfjuːɡl/,  /senˈtrɪfjəɡl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcentralize("en-GB"),
+                              onPressed: () => speakcentrifugal("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsentrəlaɪz/"),
+                            const IPAofEnglish(text: "IpaUS: /senˈtrɪfjəɡl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcentralize("en-US"),
+                              onPressed: () => speakcentrifugal("en-US"),
                             ),
                           ],
                         ),
@@ -191,9 +193,9 @@ class EnglishEntrycentralize extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لە ناوەند کۆ کردنەوە، لە ناوەند چڕکردن
+کوردی: ناوەندڕەوێن، ناوەندڕادەر، چەق‌ڕەوێن، ناوەنددەرپەڕێن، چەق‌دوورخەرە
 
-١. (کردار) پێدانی دەسەڵاتی وڵاتێک یان دامەزراوەیەک بە گرووپێک لە یەک شوێنەوە وەک ئەوەی دەسەڵات دابەشکراو بێت"""),
+١. (ھاوەڵناو) جوڵان بۆ دوور لە چەق"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,21 +203,23 @@ class EnglishEntrycentralize extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The law centralized control over the banking industry."),
+                                            "When a car rounds a curve, centrifugal force pushes the passengers to the side."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاساکە پیشەسازی بانکداری لە ناوەندێکدا چڕکردەوە."),
+                                            "کە ئۆتۆمبێلێک لە چەماوەیەکدا پێچدەکاتەوە، هێزی ناوەندڕەوێن سەرنشینەکان بۆ لا پاڵدەدات."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "centralize", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "centrifugal", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcentralizes1("en-GB"),
+                                    onPressed: () =>
+                                        speakcentrifugals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcentralizes1("en-US"),
+                                    onPressed: () =>
+                                        speakcentrifugals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,9 +307,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: centralize (Derived forms: centralized, centralizes, centralizing)
-1. Make central (= centralise [Brit], concentrate)
-"The Russian government centralized the distribution of food";
+- Adjective: centrifugal 
+1. Tending away from centralization, as of authority
+"the division of Europe into warring blocs produces ever-increasing centrifugal stress"
+ 
+2. Conveying information to the muscles from the CNS (= motor)
+"centrifugal nerves";
+ 
+3. Tending to move away from a centre
+"centrifugal force"
 """,
   );
 
@@ -338,7 +348,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xM9-FSU5MoY?t=',
+    videoId: 'https://youtu.be/j_m7vqsF2xM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -363,8 +373,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ht7MNqZT_hU?t=',
-    startSeconds: 379,
+    videoId: 'https://youtu.be/DLgy6rVV-08?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +398,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9SKuFe2SERs?t=',
-    startSeconds: 283,
+    videoId: 'https://youtu.be/tYKSLX9UQvg?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +423,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TBhEuik14dg?t=',
-    startSeconds: 351,
+    videoId: 'https://youtu.be/vCupMMZqwpE?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +448,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHkUdA68YNI?t=',
-    startSeconds: 1013,
+    videoId: 'https://youtu.be/toVfvRhWbj8?t=',
+    startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +473,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XKuPfZpzEHg?t=',
-    startSeconds: 51,
+    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +498,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AIqxfBhlwx0?t=',
-    startSeconds: 1061,
+    videoId: 'https://youtu.be/oBcxuzdP3rs?t=',
+    startSeconds: 590,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,8 +523,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rtmhv5qEBg0?t=',
-    startSeconds: 288,
+    videoId: 'https://youtu.be/SDpCzJw2xm4?t=',
+    startSeconds: 562,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

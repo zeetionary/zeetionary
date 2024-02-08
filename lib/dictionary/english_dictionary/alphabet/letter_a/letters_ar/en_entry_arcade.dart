@@ -171,7 +171,7 @@ class EnglishEntryarcade extends StatelessWidget {
                                             "Families like to spend time together at the shopping arcade on weekends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
+                                            "خێزانەکان حەز دەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
                                   ],
                                 ),
                               ),

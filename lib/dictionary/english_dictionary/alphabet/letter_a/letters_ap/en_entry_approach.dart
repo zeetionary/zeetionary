@@ -567,7 +567,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                             "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزدەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
+                                            "حەز دەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
                                   ],
                                 ),
                               ),

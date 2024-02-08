@@ -189,7 +189,7 @@ class EnglishEntrybedside extends StatelessWidget {
                                             "I like to keep a glass of water by my bedside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزدەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت."),
+                                            "حەز دەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت."),
                                   ],
                                 ),
                               ),

@@ -186,7 +186,7 @@ class EnglishEntryboss extends StatelessWidget {
                                         text:
                                             "I like being my own boss (= working for myself and making my own decisions)."),
                                     ExampleSentenceKurdish(
-                                        text: "حەزدەکەم سەرکاری خۆم بم."),
+                                        text: "حەز دەکەم سەرکاری خۆم بم."),
                                   ],
                                 ),
                               ),

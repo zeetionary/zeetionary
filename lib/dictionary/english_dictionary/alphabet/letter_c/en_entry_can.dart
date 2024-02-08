@@ -902,7 +902,7 @@ class EnglishEntrycan extends StatelessWidget {
                                             "We can eat in a restaurant, if you like."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر حەزدەکەیت لە چێشتخانەیەک نان دەخۆین."),
+                                            "ئەگەر حەز دەکەیت لە چێشتخانەیەک نان دەخۆین."),
                                   ],
                                 ),
                               ),

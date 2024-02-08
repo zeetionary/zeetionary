@@ -203,7 +203,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                             "Many people feel a great curiosity to find out about their antecedents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن."),
+                                            "زۆر کەس حەز دەکەن زانیاری لەسەر باپیرانیان بزانن."),
                                   ],
                                 ),
                               ),

@@ -270,7 +270,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                             "People like to ascribe human feelings to animals."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکی حەزدەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە."),
+                                            "خەڵکی حەز دەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە."),
                                   ],
                                 ),
                               ),

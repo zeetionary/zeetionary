@@ -3,281 +3,242 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "begin" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
-
-// replace begin - replace EnglishEntrybegin
-
-// replace speakBegin - /bɪˈɡɪn/
 
 enum TtsState { playing }
 
-class EnglishEntrybegin extends StatelessWidget {
-// blank divider
-  EnglishEntrybegin({super.key});
-// blank divider
+class EnglishEntrycentre extends StatelessWidget {
+  // blank divider
+  EnglishEntrycentre({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBegin(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentre(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("begin"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("centre"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins1(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let's begin at page 9."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins2(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'd like to begin with a simple question."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins3(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres1(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("We began work on the project in May."); // DOPSUM: CHANGE TEXT
+        .speak("He walked to the centre of the circle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins4(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres2(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There was a long table in the centre of the room."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcentres3(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The statue is in the very centre of the temple."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcentres4(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Aristotle believed that the Earth was at the centre of the universe."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcentres5(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("When does the concert begin?"); // DOPSUM: CHANGE TEXT
+        .speak("We both work in the city centre."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins5(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins55"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins6(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The lecture begins at 8pm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins7(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Their troubles are only beginning."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins8(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Where does Europe end and Asia begin?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins9(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres6(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Use ‘an’ before words beginning with a vowel."); // DOPSUM: CHANGE TEXT
+        "We've bought a flat in the very centre of Cambridge."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins10(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The path begins at Livingston village."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins11(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres7(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The school began in 1920, with only ten pupils."); // DOPSUM: CHANGE TEXT
+        "At that time Winchester was still a major centre of population."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins12(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres8(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He began a new magazine on post-war architecture."); // DOPSUM: CHANGE TEXT
+        "The university is a leading centre for scientific research."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins13(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres9(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He began as an actor, before starting to direct films."); // DOPSUM: CHANGE TEXT
+        "The company has recently opened a new training centre."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins14(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres10(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "‘Ladies and gentlemen,’ he began, ‘welcome to the concert.’"); // DOPSUM: CHANGE TEXT
+        "The university is recognized as an international centre of excellence for training dentists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins15(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I can't begin to thank you enough."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBegins16(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres11(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He didn't even begin to understand my problem."); // DOPSUM: CHANGE TEXT
+        "Children like to be the centre of attention."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins17(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres12(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He could never doubt that he was the centre of her world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins18(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres13(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Politically, she is considered to be slightly left of centre."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins19(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres14(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "State occasions always centred around the king."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins20(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres15(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The debate centred on an important political issue."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins21(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres16(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most of the fighting was centred in the north of the capital."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins22(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres17(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Centre all the headings in this document."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins23(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres18(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins24(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres19(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins25(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres20(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins26(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres21(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins27(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres22(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins28(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres23(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins29(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres24(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBegins30(String languageCode) async {
-    // DOPSUM: CHANGE speakBegin
+  Future<void> speakcentres25(String languageCode) async {
+    // DOPSUM: CHANGE speakcentre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBegins3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2525"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -300,22 +261,22 @@ class EnglishEntrybegin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "begin"),
+                            EntryTitle(word: "centre"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɪˈɡɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsentə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBegin("en-GB"),
+                              onPressed: () => speakcentre("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɪˈɡɪn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsentər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBegin("en-US"),
+                              onPressed: () => speakcentre("en-US"),
                             ),
                           ],
                         ),
@@ -328,7 +289,7 @@ class EnglishEntrybegin extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -342,34 +303,36 @@ class EnglishEntrybegin extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) دەستپێکردنی کردنی شتێک"""),
+کوردی: ناوەند، نێوەند، چەق، ناوچە، مەڵبەند، هەلێر، کورەک، ناوچەق، نێوەڕاست، ناڤین، نێوان، دڵ، جەرگە، یاریزانی نێوەڕاست، باڵی نەرم‌ڕەو، نێوەڕاستی، ناوەندی، ناوینی، نەرم‌ڕەو، باڵی نەرم‌ڕەو 
+
+١. (ناو) ناوەڕاستی شتێک"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Let's begin at page 9."),
+                                        text:
+                                            "He walked to the centre of the circle."),
                                     ExampleSentenceKurdish(
-                                        text: "با لە پەڕەی نۆوە دەستپێ‌بکەین."),
+                                        text: "ڕۆیشتە چەقی بازنەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "centre", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins1("en-GB"),
+                                    onPressed: () => speakcentres1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins1("en-US"),
+                                    onPressed: () => speakcentres1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -377,10 +340,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'd like to begin with a simple question."),
+                                            "There was a long table in the centre of the room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەز دەکەم بە پرسیارێکی سادە دەستپێ‌بکەم."),
+                                            "مێزێکی درێژ هەبوو لە ناوەڕاستی ژوورەکەدا."),
                                   ],
                                 ),
                               ),
@@ -388,103 +351,86 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins2("en-GB"),
+                                    onPressed: () => speakcentres2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins2("en-US"),
+                                    onPressed: () => speakcentres2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
+                          Column(
                             children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We began work on the project in May."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە مایس دەستمانکرد بە کارکردن لە پڕۆژەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
+                              MyExpansionTile(
                                 children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBegins3("en-GB"),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The statue is in the very centre of the temple."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پەیکەرەکە لە ناوەندی پەرستگاکەیە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcentres3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcentres3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins3("en-US"),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Aristotle believed that the Earth was at the centre of the universe."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەرستۆ باوەڕی وابوو زەوی لە چەقی گەردوونە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcentres4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcentres4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) دەستپێکردنی شتێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "When does the concert begin?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆنسێرتەکە کەی دەستپێ‌دەکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBegins5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The lecture begins at 8pm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وانەکە لە کاتژمێر ٨ دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBegins6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) بەشێکی شار یان شارۆچکەیەک کە لە ناوەندە و قەرەباڵغە"),
                           Row(
                             children: [
                               const Expanded(
@@ -492,9 +438,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Their troubles are only beginning."),
+                                            "We both work in the city centre."),
                                     ExampleSentenceKurdish(
-                                        text: "کێشەکان جارێ سەرەتایانە."),
+                                        text:
+                                            "هەردووکمان لە سەنتەری شار کار دەکەین."),
                                   ],
                                 ),
                               ),
@@ -502,19 +449,47 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins7("en-GB"),
+                                    onPressed: () => speakcentres5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins7("en-US"),
+                                    onPressed: () => speakcentres5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've bought a flat in the very centre of Cambridge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فلاتێکمان کڕیوە لە چەقی کامبریجدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcentres6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcentres6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (کردار) ھەبوونی خاڵێک یان بەشێک وەک دەستپێکی شتێک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) شوێنێک یان ناوچەیەک کە خەڵکی زۆر تێیدا دەژین"),
                           Row(
                             children: [
                               const Expanded(
@@ -522,10 +497,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Where does Europe end and Asia begin?"),
+                                            "At that time Winchester was still a major centre of population."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کوێوە ئەورووپا تەواو دەبێت و ئاسیا دەستپێ‌دەکات؟"),
+                                            "ئەوکات وینچستەر هێشتا ناوەندێکی گرنگی دانیشتوان بوو."),
                                   ],
                                 ),
                               ),
@@ -533,17 +508,16 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins8("en-GB"),
+                                    onPressed: () => speakcentres7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins8("en-US"),
+                                    onPressed: () => speakcentres7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -551,10 +525,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Use ‘an’ before words beginning with a vowel."),
+                                            "The university is a leading centre for scientific research."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وشەی ‘an’ بەکاربێنە لە پێش ئەو وشانەی کە بە بزوێن دەستپێ‌دەکەن."),
+                                            "زانکۆکە ناوەندی سەرەکی توێژینەوەی زانستییە."),
                                   ],
                                 ),
                               ),
@@ -562,17 +536,109 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins9("en-GB"),
+                                    onPressed: () => speakcentres8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins9("en-US"),
+                                    onPressed: () => speakcentres8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) بینایەک یان شێنێک کە بۆ مەبەستێک یان چالاکییەک بەکاردێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company has recently opened a new training centre."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە تازەگی ناوەندێکی ڕاهێنانی کردووەتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcentres9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcentres9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) شوێنێک کە کارێکی دیاریکراو زۆر بە باشی تێیدا دەکرێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university is recognized as an international centre of excellence for training dentists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە ناسراوە وەک ناوەندی نایابی جیهانی بۆ ڕاهێنانی پزیشکانی ددان ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcentres10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcentres10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) ئەو خاڵەی کە خەڵکی سەرنج دەخەنە سەری"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children like to be the centre of attention."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان حەز دەکەن ناوەندی سەرنج بن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcentres11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcentres11("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -580,10 +646,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The path begins at Livingston village."),
+                                            "He could never doubt that he was the centre of her world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێگاکە لە گوندی لیڤینگستنەوە دەستپێ‌دەکات."),
+                                            "هەرگیز گومانی لەوە نەبوو کە لە ناوجەرگەی جیهانی ئەودایە."),
                                   ],
                                 ),
                               ),
@@ -591,19 +657,19 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins10("en-GB"),
+                                    onPressed: () => speakcentres12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins10("en-US"),
+                                    onPressed: () => speakcentres12("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (کردار) دەستپێکردن یان کردنی شتێک بۆ یەکەم جار"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) ئایدۆلۆژیای سیاسی کە لە نێوان چەپ و ڕاستدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -611,10 +677,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The school began in 1920, with only ten pupils."),
+                                            "Politically, she is considered to be slightly left of centre."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قوتابخانەکە لە ساڵی ١٩٢٠ کرایەوە بە تەنھا ١٠ خوێندکارەوە"),
+                                            "لە ڕووی سیاسییەوە، وا دادەنرێت کەمێک لە چەپی نەرم‌ڕەوی بێت."),
                                   ],
                                 ),
                               ),
@@ -622,17 +688,47 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins11("en-GB"),
+                                    onPressed: () => speakcentres13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins11("en-US"),
+                                    onPressed: () => speakcentres13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٨. (کردار) بوون بەو کەسە یان شتەی کە زۆرینەی چالاکییەکان لە دەوریدا ڕوودەدات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "State occasions always centred around the king."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆنە نەتەوەییەکان هەمیشە لە دەوری پاشا دەخولانەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcentres14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcentres14("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -640,10 +736,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He began a new magazine on post-war architecture."),
+                                            "The debate centred on an important political issue."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڤارێکی تازەی دامەزراند لەسەر بیناسازی دوای جەنگ"),
+                                            "دیبەیتەکە لەسەر کێشیەکی سیاسی گرنگ بوو."),
                                   ],
                                 ),
                               ),
@@ -651,19 +747,19 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins12("en-GB"),
+                                    onPressed: () => speakcentres15("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins12("en-US"),
+                                    onPressed: () => speakcentres15("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (کردار) بوون بە شتێک لە پێش شتێکی تر"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (کردار) يوودان بەشێوەیەکی سەرەکی لەو شوێنەی کە باسکراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -671,10 +767,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He began as an actor, before starting to direct films."),
+                                            "Most of the fighting was centred in the north of the capital."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک ئەکتەرێک دەستیپێ‌کرد، پێش ئەوەی دەرھێنان بۆ فیلم بکات"),
+                                            "زۆرینەی شەڕەکە لە باکووری پایتەخت چڕبوویەوە."),
                                   ],
                                 ),
                               ),
@@ -682,19 +778,19 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins13("en-GB"),
+                                    onPressed: () => speakcentres16("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins13("en-US"),
+                                    onPressed: () => speakcentres16("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٦. (کردار) دەستکردن بە قسەکردن"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (کردار) جوڵانی شتێک و دانانی لە چەقی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -702,10 +798,10 @@ class EnglishEntrybegin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "‘Ladies and gentlemen,’ he began, ‘welcome to the concert.’"),
+                                            "Centre (= put at equal distances from the left and right sides of the page) all the headings in this document."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستیپێکرد بە وتنی 'خانمان و بەڕێزان، بەخێربێن بۆ کۆنسێرتەکە'"),
+                                            "تەواوی سەرەبابەتەکان لەم پەڕەیە بخە ناوەڕاستەوە."),
                                   ],
                                 ),
                               ),
@@ -713,77 +809,15 @@ class EnglishEntrybegin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBegins14("en-GB"),
+                                    onPressed: () => speakcentres17("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins14("en-US"),
+                                    onPressed: () => speakcentres17("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٧. (کردار) نەدانی ھیچ ھەوڵێک بۆ کردنی شتێک، یان نەبوونی توانا یان شانس بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't begin to thank you enough."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم ھێندەی پێویست سوپاست بکەم (ھەرچی بکەم ھەر کەمە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBegins15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He didn't even begin to understand my problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر ھەوڵیشی نەدا لە کێشەکەم تێ بگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBegins16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBegins16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -794,22 +828,23 @@ class EnglishEntrybegin extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        YoutubeEmbeddedthirteen(),
-                        YoutubeEmbeddeddfourteen(),
-                        YoutubeEmbeddedfifteen(),
-                        YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
                         // YoutubeEmbeddeddseventeen(),
                         // YoutubeEmbeddeddeighteen(),
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -865,39 +900,73 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: begin (derived forms: beginning, begins, begun)
-1. Take the first step or steps in carrying out an action (= get down, get, start out, start, set about, set out, commence)
-"We began working at dawn"; "The first tourists began to arrive in Cambodia"; "He began early in the day";
+- Noun: centre (Derived forms: centres)
+Usage: Brit, Cdn (US: center)
+1. An area that is approximately central within some larger region (= center [US], middle, heart [Brit], eye)
+"it is in the centre of town";
  
-2. Have a beginning, in a temporal, spatial, or evaluative sense (= start)
-"The DMZ begins right over the hill"; "The second movement begins after the Allegro";
- 
-3. Set in motion, cause to start (= lead off, start, commence)
-"The Iraqis began hostilities"; "begin a new chapter in your life";
- 
-4. Start speaking or saying
-"'Now listen, friends', he began"
- 
-5. Be the first item or point, constitute the beginning or start, come first in a series
-"The number 'one' begins the sequence"; "A terrible murder begins the novel"; "The convocation ceremony officially begins the semester"
- 
-6. Have a beginning, of a temporal event
-"WW II began in 1939 when Hitler marched into Poland"; "The company's Asia tour begins next month"
- 
-7. Have a beginning characterized in some specified way (= start)
-"My property begins with the three maple trees"; "Her day begins with a workout"; "The semester begins with a convocation ceremony"; "The novel begins with a murder";
- 
-8. Begin an event that is implied and limited by the nature or inherent function of the direct object (= start)
-"begin a cigar";
- 
-9. Achieve or accomplish in the least degree, usually used in the negative
-"This economic measure doesn't even begin to deal with the problem of inflation"; "You cannot even begin to understand the problem we had to deal with during the war"
- 
-10. Begin to speak, understand, read, and write a language
-"She began Russian at an early age"; "we began French in fourth grade"
+2. The piece of ground in the outfield directly ahead of the catcher (= center field [US], centerfield [US], center [US], centre field [Brit, Cdn])
+"he hit the ball to deep centre";
 
-- Noun: Begin
-1. Israeli statesman (born in Russia) who (as prime minister of Israel) negotiated a peace treaty with Anwar Sadat (then the president of Egypt) (1913-1992) (= Menachem Begin)
+3. A building dedicated to a particular activity (= center [US])
+"they were raising money to build a new centre for research";
+ 
+4. A point equidistant from the ends of a line or the extremities of a figure (= center [US], midpoint)
+ 
+5. The choicest or most essential or most vital part of some idea or experience (= kernel, substance, core, center [US], essence, gist, heart, heart and soul, inwardness, marrow, meat, nub, pith, sum, nitty-gritty)
+"the centre of the prosecutor's argument";
+
+5. The object upon which interest and attention focuses (= center [US], center of attention [US], centre of attention [Brit, Cdn])
+"his stories made him the centre of the party";
+ 
+6. A cluster of nerve cells governing a specific bodily process (= center [US], nerve center [US], nerve centre [Brit, Cdn])
+"in most people the speech centre is in the left hemisphere";
+ 
+7. (military) the middle of a military or naval formation (= center [US])
+"they had to reinforce the centre";
+ 
+8. (basketball) the person who plays centre on a basketball team (= center [US])
+ 
+9. (football) the person who plays centre on the line of scrimmage and snaps the ball to the quarterback (= center [US], snapper)
+"the centre fumbled the handoff";
+
+10. A place where some particular activity is concentrated (= center [US])
+"they received messages from several centres";
+ 
+11. Politically moderate persons; centrists (= center [US])
+ 
+12. (ice hockey) the person who plays centre on a hockey team (= center [US])
+ 
+13. The sweet central portion of a piece of candy that is enclosed in chocolate or some other covering (= center [US])
+ 
+14. Mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace (= plaza, mall [Brit], center [US], shopping mall, shopping center [US], shopping centre [Brit, Cdn])
+"a good centre should have a movie house"; "a good shopping centre should have a movie house"; "a good centre should have a movie house";
+ 
+15. The position on a hockey team of the player who participates in the face off at the beginning of the game (= center [US])
+ 
+16. (American football) the position of the player on the line of scrimmage who puts the ball in play (= center [US])
+"it is a centre's responsibility to get the football to the quarterback";
+ 
+17. A position on a basketball team of the player who participates in the jump that starts the game (= center [US])
+
+- Verb: centre (Derived forms: centred, centres, centring)
+Usage: Brit, Cdn (US: center)
+1. Centre upon (= focus on, center on [US], revolve around, revolve about, concentrate on, center [US], centre on [Brit, Cdn])
+"Her entire attention centred on her children";
+ 
+2. Hold attention and exert mental effort on something (= concentrate, focus, center [US], pore, rivet, pore over)
+ 
+3. Move into the centre (= center [US])
+"That vase in the picture is not centred";
+
+- Adjective: centre 
+Usage: Brit, Cdn (US: center)
+1. Equally distant from the extremes (= center [US], halfway, middle, midway)
+ 
+2. Of or belonging to neither the right nor the left politically or intellectually (= center [US])
+
+- Noun: Centre
+1. A low-lying region in central France (= Centre-Val de Loire)
 """,
   );
 
@@ -926,12 +995,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/w3QW-9ggyDE?t=',
+    startSeconds: 8,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VrKW58MS12g',
-    startSeconds: 519,
+    videoId: 'https://youtu.be/yMoV2aEurUQ?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -955,8 +1049,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_spuxXnul0U',
-    startSeconds: 78,
+    videoId: 'https://youtu.be/0ga1NDTQZGc?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -980,8 +1074,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4J0xFUyz1nw',
-    startSeconds: 25,
+    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    startSeconds: 339,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1005,8 +1099,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '44HXLCsdIk8',
-    startSeconds: 110,
+    videoId: 'https://youtu.be/qQ01eLt_bxo?t=',
+    startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1030,8 +1124,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MnExgQ81fhU',
-    startSeconds: 377,
+    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1055,8 +1149,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y1sF6ZeASU0',
-    startSeconds: 683,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 1463,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1080,8 +1174,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Wsije1KetVw',
-    startSeconds: 131,
+    videoId: 'https://youtu.be/R0wa9IlCA_w?t=',
+    startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1101,229 +1195,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dqcSk-EDrRo',
-    startSeconds: 377,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kVwp-BfarxI',
-    startSeconds: 728,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dXt1ftcdxNg',
-    startSeconds: 388,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'wir7jmefyec',
-    startSeconds: 32,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aCSlNrI4nhY',
-    startSeconds: 202,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Up4Y5Lx0HNg',
-    startSeconds: 459,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eJf42cpqY-w',
-    startSeconds: 124,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NHZL2Kk_EwE',
-    startSeconds: 733,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Zb3F5WE6KBI',
-    startSeconds: 1211,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end begin// TODO Implement this library.
+// end WORD_WEB

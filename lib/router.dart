@@ -2629,9 +2629,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_central_heating.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centrally.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centralize.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centralization.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centre.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centrifugal.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6198,9 +6198,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-central-heating": (_) => MaterialPage(child: EnglishEntrycentralheating()),
   "/english-centrally": (_) => MaterialPage(child: EnglishEntrycentrally()),
   "/english-centralize": (_) => MaterialPage(child: EnglishEntrycentralize()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-centralization": (_) => MaterialPage(child: EnglishEntrycentralization()),
+  "/english-centre": (_) => MaterialPage(child: EnglishEntrycentre()),
+  "/english-centrifugal": (_) => MaterialPage(child: EnglishEntrycentrifugal()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

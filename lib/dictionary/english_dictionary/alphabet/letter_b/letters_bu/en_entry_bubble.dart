@@ -348,7 +348,7 @@ class EnglishEntrybubble extends StatelessWidget {
                                             "The children like to have bubbles in their bath."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان حەزدەکەن کەف لە حەوزەکەیاندا بێت."),
+                                            "منداڵەکان حەز دەکەن کەف لە حەوزەکەیاندا بێت."),
                                   ],
                                 ),
                               ),

@@ -402,10 +402,9 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
                 onChanged: filterResults,
                 decoration: InputDecoration(
                   // labelText: "Search here",
+                  prefixIcon: Icon(Icons.search, size: textSize + 5),
                   hintText: "Search here",
                   hintStyle: TextStyle(fontSize: textSize),
-
-                  prefixIcon: const Icon(Icons.search),
                   // suffixIcon: IconButton(
                   //   icon: Icon(
                   //     isFilterExpanded
@@ -423,7 +422,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
                     children: [
                       if (_searchController.text.isNotEmpty)
                         IconButton(
-                          icon: const Icon(Icons.clear),
+                          icon: Icon(Icons.clear, size: textSize + 5),
                           onPressed: clearSearch,
                         ),
                       IconButton(
@@ -431,13 +430,14 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
                           isFilterExpanded
                               ? Icons.arrow_drop_up
                               : Icons.arrow_drop_down,
+                          size: textSize + 5, // Adjust the size as needed
                         ),
                         onPressed: () {
                           setState(() {
                             isFilterExpanded = !isFilterExpanded;
                           });
                         },
-                      ),
+                      )
                     ],
                   ),
                   border: const OutlineInputBorder(),

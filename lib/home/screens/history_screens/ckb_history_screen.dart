@@ -2,18 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-class KurdishHistoryScreen extends StatefulWidget {
+class KurdishHistoryScreen extends ConsumerStatefulWidget {
   const KurdishHistoryScreen({super.key});
 
   @override
-  // _KurdishHistoryScreenState createState() => _KurdishHistoryScreenState();
-
-  State<KurdishHistoryScreen> createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _KurdishHistoryScreenState();
 }
 
-class _KurdishHistoryScreenState extends State<KurdishHistoryScreen> {
+class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
+  _KurdishHistoryScreenState();
 
   Future<void> clearKurdishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -70,6 +71,7 @@ class _KurdishHistoryScreenState extends State<KurdishHistoryScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 2;
     return Material(
       child: Directionality(
         textDirection: TextDirection.rtl,
@@ -150,7 +152,12 @@ class _KurdishHistoryScreenState extends State<KurdishHistoryScreen> {
                   itemBuilder: (context, index) {
                     final word = kurdishhistory.elementAt(index);
                     return ListTile(
-                      title: Text(word),
+                      title: Text(
+                        word,
+                        style: TextStyle(
+                          fontSize: textSize, // Set your desired font size
+                        ),
+                      ),
                       trailing: const Icon(Icons.arrow_forward),
                       onTap: () => navigateToScreen(context, word),
                     );

@@ -438,10 +438,10 @@ class _DictionaryScreenKurdishState
                         ? ''
                         : shuffledWords[_shuffleCurrentIndex],
                     hintStyle: TextStyle(fontSize: textSize),
-                    prefixIcon: const Icon(Icons.search),
+                    prefixIcon: Icon(Icons.search, size: textSize + 5),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(
-                            icon: const Icon(Icons.clear),
+                            icon: Icon(Icons.clear, size: textSize + 5),
                             onPressed: clearSearch,
                           )
                         : null,
@@ -584,7 +584,7 @@ class ListTileKurdish extends ConsumerWidget {
           icon: isKurdishFavouriteed
               ? Icon(Icons.favorite,
                   color: Theme.of(context).primaryColor.withOpacity(0.7))
-                  // color: Colors.red.shade300.withOpacity(0.99))
+              // color: Colors.red.shade300.withOpacity(0.99))
               : Icon(Icons.favorite_border,
                   color: Theme.of(context).primaryColor.withOpacity(0.7)),
           onPressed: () => onKurdishFavourite?.call(),

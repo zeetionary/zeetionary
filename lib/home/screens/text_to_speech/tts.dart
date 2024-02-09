@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/theme/pallete.dart';
 
 class TTSPage extends ConsumerStatefulWidget {
@@ -38,6 +39,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider);
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
@@ -70,7 +72,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                         child: Icon(
                           Icons.clear,
                           color: Theme.of(context).primaryColor,
-                          size: 9.0,
+                          size: textSize,
                         ),
                       ),
                       onPressed: () {
@@ -79,7 +81,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                         });
                       },
                     ),
-                    CustomIconButtonBritish(
+                    CustomIconButtonBritishTTS(
                       onPressed: () {
                         setState(() {
                           showPauseButton = true;
@@ -87,7 +89,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                         speakText("en-GB");
                       },
                     ),
-                    CustomIconButtonAmerican(
+                    CustomIconButtonAmericanTTS(
                       onPressed: () {
                         setState(() {
                           showPauseButton = true;
@@ -122,7 +124,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                             Icons.pause,
                             color: Theme.of(context).primaryColor,
                             // color: Theme.of(context).primaryColor,
-                            size: 9.0,
+                            size: textSize,
                           ),
                         ),
                         onPressed: () {
@@ -167,6 +169,67 @@ class _TTSPageState extends ConsumerState<TTSPage> {
           ],
         ),
       ),
+    );
+  }
+}
+
+class CustomIconButtonBritishTTS extends ConsumerWidget {
+  final VoidCallback? onPressed;
+
+  const CustomIconButtonBritishTTS({
+    super.key,
+    this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return IconButton(
+      // iconSize: 18,
+      icon: Container(
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          border: Border.all(color: Colors.blue, width: 1.0),
+        ),
+        padding: const EdgeInsets.all(6.0),
+        child: Icon(
+          Icons.record_voice_over,
+          color: Colors.blue,
+          size: textSize, // Adjust size as needed
+        ),
+      ),
+      onPressed: onPressed,
+    );
+  }
+}
+
+class CustomIconButtonAmericanTTS extends ConsumerWidget {
+  final VoidCallback? onPressed;
+
+  const CustomIconButtonAmericanTTS({
+    super.key,
+    this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return IconButton(
+      // iconSize: 18,
+      icon: Container(
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          border: Border.all(
+              color: const Color.fromARGB(182, 255, 0, 0), width: 1.0),
+        ),
+        padding: const EdgeInsets.all(6.0),
+        child: Icon(
+          Icons.record_voice_over,
+          color: const Color.fromARGB(182, 255, 0, 0),
+          size: textSize, // Adjust size as needed
+        ),
+      ),
+      onPressed: onPressed,
     );
   }
 }

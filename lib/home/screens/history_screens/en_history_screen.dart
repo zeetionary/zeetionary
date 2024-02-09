@@ -2,17 +2,28 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-class EnglishHistoryScreen extends StatefulWidget {
+// class EnglishHistoryScreen extends StatefulWidget {
+//   const EnglishHistoryScreen({super.key});
+
+//   @override
+//   // _EnglishHistoryScreenState createState() => _EnglishHistoryScreenState();
+//   State<EnglishHistoryScreen> createState() =>
+//       _EnglishHistoryScreenState();
+// }
+
+class EnglishHistoryScreen extends ConsumerStatefulWidget {
   const EnglishHistoryScreen({super.key});
 
   @override
-  // _EnglishHistoryScreenState createState() => _EnglishHistoryScreenState();
-  State<EnglishHistoryScreen> createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _EnglishHistoryScreenState();
 }
 
-class _EnglishHistoryScreenState extends State<EnglishHistoryScreen> {
+class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
+  _EnglishHistoryScreenState();
 
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -55,7 +66,7 @@ class _EnglishHistoryScreenState extends State<EnglishHistoryScreen> {
 
       // Update the state to trigger a rebuild
       setState(() {});
-      
+
       // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
@@ -68,6 +79,7 @@ class _EnglishHistoryScreenState extends State<EnglishHistoryScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 2;
     return Material(
       child: Scaffold(
         body: FutureBuilder<Set<String>>(
@@ -88,7 +100,12 @@ class _EnglishHistoryScreenState extends State<EnglishHistoryScreen> {
                 itemBuilder: (context, index) {
                   final word = englishhistory.elementAt(index);
                   return ListTile(
-                    title: Text(word),
+                    title: Text(
+                      word,
+                      style: TextStyle(
+                        fontSize: textSize, // Set your desired font size
+                      ),
+                    ),
                     trailing: const Icon(Icons.arrow_forward),
                     onTap: () => navigateToScreen(context, word),
                   );

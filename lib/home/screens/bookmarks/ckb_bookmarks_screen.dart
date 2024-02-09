@@ -2,8 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-class KurdishFavouritesScreen extends StatefulWidget {
+class KurdishFavouritesScreen extends ConsumerStatefulWidget {
   // Callback function to notify the parent when favourites are cleared
   final void Function()? onClearKurdishFavourites;
 
@@ -11,12 +13,13 @@ class KurdishFavouritesScreen extends StatefulWidget {
   const KurdishFavouritesScreen({super.key, this.onClearKurdishFavourites});
 
   @override
-  // _KurdishFavouritesScreenState createState() => _KurdishFavouritesScreenState();
-  State<KurdishFavouritesScreen> createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _KurdishFavouritesScreenState();
 }
 
-class _KurdishFavouritesScreenState extends State<KurdishFavouritesScreen> {
+class _KurdishFavouritesScreenState
+    extends ConsumerState<KurdishFavouritesScreen> {
+  _KurdishFavouritesScreenState();
   List<String> kurdishfavourites = [];
 
   void Function()? onClearKurdishFavourites;
@@ -47,6 +50,8 @@ class _KurdishFavouritesScreenState extends State<KurdishFavouritesScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 2;
+
     return Scaffold(
       body: ListView(
         children: kurdishfavourites.reversed.map(
@@ -55,7 +60,12 @@ class _KurdishFavouritesScreenState extends State<KurdishFavouritesScreen> {
             return Directionality(
               textDirection: TextDirection.rtl,
               child: ListTile(
-                title: Text(displayTitle),
+                title: Text(
+                  displayTitle,
+                  style: TextStyle(
+                    fontSize: textSize, // Set your desired font size
+                  ),
+                ),
                 trailing: const Icon(Icons.arrow_forward),
                 onTap: () => navigateToScreen(context, kurdishfavourite),
               ),

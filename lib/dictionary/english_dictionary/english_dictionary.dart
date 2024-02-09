@@ -3368,10 +3368,10 @@ class _DictionaryScreenEnglishState
                       ? ''
                       : shuffledWords[_shuffleCurrentIndex],
                   hintStyle: TextStyle(fontSize: textSize),
+                  prefixIcon: Icon(Icons.search, size: textSize + 5),
                   // labelText: shuffledWords.isEmpty
                   //     ? ''
                   //     : shuffledWords[_shuffleCurrentIndex],
-                  prefixIcon: const Icon(Icons.search),
                   // suffixIcon: IconButton(
                   //   icon: Icon(
                   //     isFilterExpanded
@@ -3389,7 +3389,7 @@ class _DictionaryScreenEnglishState
                     children: [
                       if (_searchController.text.isNotEmpty)
                         IconButton(
-                          icon: const Icon(Icons.clear),
+                          icon: Icon(Icons.clear, size: textSize + 5),
                           onPressed: clearSearch,
                         ),
                       IconButton(
@@ -3397,6 +3397,7 @@ class _DictionaryScreenEnglishState
                           isFilterExpanded
                               ? Icons.arrow_drop_up
                               : Icons.arrow_drop_down,
+                          size: textSize + 5,
                         ),
                         onPressed: () {
                           setState(() {

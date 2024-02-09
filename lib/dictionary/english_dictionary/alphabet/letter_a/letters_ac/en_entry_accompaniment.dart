@@ -124,7 +124,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                         text:
                                             "a song with piano accompaniment"),
                                     ExampleSentenceKurdish(
-                                        text: "گۆرانییەک بە میوزیکوە لەگەڵی."),
+                                        text: "گۆرانییەک بە میوزیکەوە لەگەڵی."),
                                   ],
                                 ),
                               ),

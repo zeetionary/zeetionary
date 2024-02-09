@@ -2,8 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-class EnglishfavouritesScreen extends StatefulWidget {
+class EnglishfavouritesScreen extends ConsumerStatefulWidget {
   // Callback function to notify the parent when favourites are cleared
   final void Function()? onClearEnglishfavourites;
 
@@ -11,12 +13,13 @@ class EnglishfavouritesScreen extends StatefulWidget {
   const EnglishfavouritesScreen({super.key, this.onClearEnglishfavourites});
 
   @override
-  // _EnglishfavouritesScreenState createState() => _EnglishfavouritesScreenState();
-  State<EnglishfavouritesScreen> createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _EnglishfavouritesScreenState();
 }
 
-class _EnglishfavouritesScreenState extends State<EnglishfavouritesScreen> {
+class _EnglishfavouritesScreenState
+    extends ConsumerState<EnglishfavouritesScreen> {
+  _EnglishfavouritesScreenState();
   List<String> englishfavourites = [];
 
   void Function()? onClearEnglishfavourites;
@@ -47,13 +50,20 @@ class _EnglishfavouritesScreenState extends State<EnglishfavouritesScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 2;
+
     return Scaffold(
       body: ListView(
         children: englishfavourites.reversed.map(
           (englishfavourite) {
             final displayTitle = englishfavourite.split('-').first;
             return ListTile(
-              title: Text(displayTitle),
+              title: Text(
+                displayTitle,
+                style: TextStyle(
+                  fontSize: textSize, // Set your desired font size
+                ),
+              ),
               trailing: const Icon(Icons.arrow_forward),
               onTap: () => navigateToScreen(context, englishfavourite),
             );

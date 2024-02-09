@@ -42,30 +42,108 @@ class ThemeNotifier extends StateNotifier<ThemeMode> {
   }
 }
 
-// class UniversalTextSize extends ConsumerWidget {
-//   // ignore: use_super_parameters
-//   const UniversalTextSize({Key? key, required this.text}) : super(key: key);
+// control text size
+// control text size
+// control text size
+// control text size
+// control text size
+// control text size
+// control text size
 
-//   final String text;
+// Key for storing text size in SharedPreferences
+const String textSizeKey = 'textSize';
 
-//   // (zee)  https://bard.google.com/chat/9a338e9ac8e0ad22
+class TextSizeState extends StateNotifier<double> {
+  TextSizeState() : super(15.0); // Default text size
 
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     final textSize =
-//         ref.watch(textSizeProvider) + 5; // Add 5 to the base text size
-//     return Text(text, style: TextStyle(fontSize: textSize));
-//   }
-// }
+  void updateTextSize(double newSize) {
+    state = newSize;
+    _saveTextSize(newSize); // Save text size to SharedPreferences
+  }
 
-// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+  // Load text size from SharedPreferences
+  Future<void> loadTextSize() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final stringValue = prefs.getString(textSizeKey);
 
-final textSizeProvider =
-    StateProvider<double>((ref) => 15.0); // Default value now 16
+      if (stringValue != null) {
+        state = double.parse(stringValue);
+      } else {
+        // If the saved value is null, use the default text size
+        state = 15.0;
+      }
+    } catch (error) {
+      // If an error occurs, print it and set the state to the default text size
+      // ignore: avoid_print
+      print('Error loading text size: $error');
+      state = 15.0;
+    }
+  }
+
+  // Save text size to SharedPreferences
+  Future<void> _saveTextSize(double size) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(textSizeKey, size.toString());
+  }
+}
+
+// Default value for text size
+final textSizeProvider = StateNotifierProvider<TextSizeState, double>((ref) {
+  final textSizeState = TextSizeState();
+  textSizeState.loadTextSize(); // Load text size from SharedPreferences
+  return textSizeState;
+});
 
 // Function to update text size
 void updateTextSize(WidgetRef ref, double newSize) {
-  ref.read(textSizeProvider.notifier).state = newSize;
+  final textSizeState = ref.read(textSizeProvider.notifier);
+  textSizeState.updateTextSize(newSize);
+}
+
+class TextSizeSlider extends StatefulWidget {
+  final double value;
+  final ValueChanged<double> onChanged;
+
+  const TextSizeSlider({
+    super.key,
+    required this.value,
+    required this.onChanged,
+  });
+
+  @override
+  // _TextSizeSliderState createState() => _TextSizeSliderState();
+  State<TextSizeSlider> createState() => _TextSizeSliderState();
+}
+
+class _TextSizeSliderState extends State<TextSizeSlider> {
+  late double _value;
+
+  @override
+  void initState() {
+    super.initState();
+    _value = widget.value;
+  }
+
+  void setValue(double newValue) {
+    setState(() {
+      _value = newValue;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Slider(
+      value: _value,
+      min: 12,
+      max: 18,
+      divisions: 14,
+      onChanged: (newValue) {
+        widget.onChanged(newValue);
+        setValue(newValue);
+      },
+    );
+  }
 }
 
 class SettingsPage extends ConsumerWidget {
@@ -77,18 +155,24 @@ class SettingsPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider);
+    // final textSize = ref.watch(textSizeProvider);
     final isSliderExpanded = ref.watch(isSliderExpandedProvider);
     final isLogoutExpanded = ref.watch(isLogoutExpandedProvider);
     final themeNotifier = ref.read(themeProvider.notifier);
     final themeMode = ref.watch(themeProvider);
+    final textSize = ref.watch(textSizeProvider);
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
       body: Column(
         children: [
           ExpansionTile(
-            title: const Text('Text Size'),
+            title: Text(
+              'Text Size',
+              style: TextStyle(
+                fontSize: textSize + 2,
+              ),
+            ),
             initiallyExpanded: isSliderExpanded,
             onExpansionChanged: (expanded) =>
                 ref.read(isSliderExpandedProvider.notifier).state = expanded,
@@ -101,20 +185,13 @@ class SettingsPage extends ConsumerWidget {
                   activeTrackColor: Colors.blue.withOpacity(0.8),
                   inactiveTrackColor:
                       Theme.of(context).primaryColor.withOpacity(0.3),
-                  // thumbColor: Colors.blue,
                   thumbColor: Theme.of(context).primaryColor.withOpacity(0.7),
-                  // overlayColor: Colors.blue.withOpacity(0.2),
                   overlayColor: Theme.of(context).primaryColor.withOpacity(0.6),
                   thumbShape:
                       const RoundSliderThumbShape(enabledThumbRadius: 8),
                 ),
-                child: Slider(
-                  value: textSize,
-                  min: 10,
-                  max: 20,
-                  divisions: 20, // Add divisions for numbered marks
-                  label: textSize
-                      .toStringAsFixed(0), // Show current value as a label
+                child: TextSizeSlider(
+                  value: ref.watch(textSizeProvider),
                   onChanged: (newSize) => updateTextSize(ref, newSize),
                 ),
               ),
@@ -124,8 +201,11 @@ class SettingsPage extends ConsumerWidget {
           //   height: 20,
           // ),
           ExpansionTile(
-            title: const Text(
+            title: Text(
               'Select Theme',
+              style: TextStyle(
+                fontSize: textSize + 2,
+              ),
               // style: TextStyle(
               //   color: Theme.of(context).primaryColor.withOpacity(0.9),
               // ),
@@ -153,6 +233,7 @@ class SettingsPage extends ConsumerWidget {
                       child: Text(
                         _getThemeDisplayName(mode),
                         style: TextStyle(
+                          fontSize: textSize - 2,
                           color:
                               Theme.of(context).primaryColor.withOpacity(0.9),
                         ),
@@ -171,9 +252,12 @@ class SettingsPage extends ConsumerWidget {
               Icons.logout,
               color: Colors.red,
             ),
-            title: const Text(
+            title: Text(
               'Log Out',
-              style: TextStyle(color: Colors.red),
+              style: TextStyle(
+                fontSize: textSize + 2,
+                color: Colors.red,
+              ),
             ),
             initiallyExpanded: isLogoutExpanded,
             onExpansionChanged: (expanded) =>
@@ -183,10 +267,10 @@ class SettingsPage extends ConsumerWidget {
                 height: 10,
               ),
               ListTile(
-                title: const Text(
+                title: Text(
                   'Tap to log out',
                   style: TextStyle(
-                    fontSize: 16,
+                    fontSize: textSize,
                     color: Colors.red,
                   ),
                 ),

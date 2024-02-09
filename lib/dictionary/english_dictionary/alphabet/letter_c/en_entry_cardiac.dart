@@ -205,7 +205,7 @@ class EnglishEntrycardiac extends StatelessWidget {
                                             "The patient had a history of cardiac disease."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەخۆشەکە پێشینەیەکی لە نەخۆشی دڵ ھەبوو."),
+                                            "نەخۆشەکە پێشینەیەکی لەگەڵ نەخۆشی دڵ ھەبوو."),
                                   ],
                                 ),
                               ),

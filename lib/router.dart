@@ -2632,18 +2632,18 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centralization.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centre.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_centrifugal.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_century.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_ceramic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cereal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_ceremonial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_ceremonially.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_ceremoniously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_ceremonious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_ceremony.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_certain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_certainly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_certainty.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_certificate.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6201,18 +6201,18 @@ final loggedInRoute = RouteMap(routes: {
   "/english-centralization": (_) => MaterialPage(child: EnglishEntrycentralization()),
   "/english-centre": (_) => MaterialPage(child: EnglishEntrycentre()),
   "/english-centrifugal": (_) => MaterialPage(child: EnglishEntrycentrifugal()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-century": (_) => MaterialPage(child: EnglishEntrycentury()),
+  "/english-ceramic": (_) => MaterialPage(child: EnglishEntryceramic()),
+  "/english-cereal": (_) => MaterialPage(child: EnglishEntrycereal()),
+  "/english-ceremonial": (_) => MaterialPage(child: EnglishEntryceremonial()),
+  "/english-ceremonially": (_) => MaterialPage(child: EnglishEntryceremonially()),
+  "/english-ceremoniously": (_) => MaterialPage(child: EnglishEntryceremoniously()),
+  "/english-ceremonious": (_) => MaterialPage(child: EnglishEntryceremonious()),
+  "/english-ceremony": (_) => MaterialPage(child: EnglishEntryceremony()),
+  "/english-certain": (_) => MaterialPage(child: EnglishEntrycertain()),
+  "/english-certainly": (_) => MaterialPage(child: EnglishEntrycertainly()),
+  "/english-certainty": (_) => MaterialPage(child: EnglishEntrycertainty()),
+  "/english-certificate": (_) => MaterialPage(child: EnglishEntrycertificate()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

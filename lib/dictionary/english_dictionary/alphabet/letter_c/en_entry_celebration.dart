@@ -38,7 +38,8 @@ class EnglishEntrycelebration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("As part of the celebrations, the school is planning an open day for the public."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "As part of the celebrations, the school is planning an open day for the public."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcelebrations3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycelebration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They were among the crowd that attended the celebration."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They were among the crowd that attended the celebration."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcelebrations4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycelebration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They held a special celebration in his honour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They held a special celebration in his honour."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcelebrations5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntrycelebration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her triumph was a cause for celebration."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her triumph was a cause for celebration."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcelebrations6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntrycelebration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The city's annual celebration of Caribbean culture kicks off on June 4."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The city's annual celebration of Caribbean culture kicks off on June 4."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcelebrations7(String languageCode) async {
@@ -191,7 +196,7 @@ class EnglishEntrycelebration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جەژن، جێژن، سوور(ان)، ئاهەنگ‌گێڕان، بەڕێوەبردن، لەدارخستن، پەسن، پیاهەڵوتن، تاریف
+کوردی: جەژن، جێژن، سوور(ان)، ئاھەنگ‌گێڕان، بەڕێوەبردن، لەدارخستن، پەسن، پیاھەڵوتن، تاریف
 
 ١. (ناو) بۆنەیەکی تایبەت کە ڕێکدەخرێت بۆ پیرۆزکردنی شتێک"""),
                           Row(
@@ -203,7 +208,8 @@ class EnglishEntrycelebration extends StatelessWidget {
                                         text:
                                             "I hope you'll join in the Christmas celebrations."),
                                     ExampleSentenceKurdish(
-                                        text: "هیوادارم پەیوەندی بکەیت بە ئاهەنگگێڕانی کریسمسەوە."),
+                                        text:
+                                            "ھیوادارم پەیوەندی بکەیت بە ئاھەنگگێڕانی کریسمسەوە."),
                                   ],
                                 ),
                               ),
@@ -211,10 +217,12 @@ class EnglishEntrycelebration extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcelebrations1("en-GB"),
+                                    onPressed: () =>
+                                        speakcelebrations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebrations1("en-US"),
+                                    onPressed: () =>
+                                        speakcelebrations1("en-US"),
                                   ),
                                 ],
                               ),
@@ -222,139 +230,155 @@ class EnglishEntrycelebration extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "As part of the celebrations, the school is planning an open day for the public."),
-                          ExampleSentenceKurdish(
-                          text: "وەک بەشێک لە ئاهەنگگێڕانەکە، قوتابخانەکە پلانی هەیە ڕۆژێک بە ڕووی خەڵکیدا بکرێتەوە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcelebrations2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcelebrations2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "They were among the crowd that attended the celebration."),
-                          ExampleSentenceKurdish(
-                          text: "لە ناو ئەو جەماوەرە بوون کە بەژداری ئاهەنگگێڕانەکەیان کرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcelebrations3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcelebrations3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As part of the celebrations, the school is planning an open day for the public."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک بەشێک لە ئاھەنگگێڕانەکە، قوتابخانەکە پلانی ھەیە ڕۆژێک بە ڕووی خەڵکیدا بکرێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcelebrations2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcelebrations2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "They held a special celebration in his honour."),
-                          ExampleSentenceKurdish(
-                          text: "بۆنەیەکی تایبەتیان ڕێکخست وەک ڕێز بۆی."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were among the crowd that attended the celebration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ناو ئەو جەماوەرە بوون کە بەژداری ئاھەنگگێڕانەکەیان کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcelebrations3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcelebrations3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcelebrations4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcelebrations4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They held a special celebration in his honour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆنەیەکی تایبەتیان ڕێکخست وەک ڕێز بۆی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcelebrations4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcelebrations4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) کرداری ئاهەنگگێڕانی شتێک"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) کرداری ئاھەنگگێڕانی شتێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Her triumph was a cause for celebration."),
-                          ExampleSentenceKurdish(
-                          text: "بەدەستهێنانەکەی مایەی ئاهەنگگێڕان بوو."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcelebrations5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcelebrations5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her triumph was a cause for celebration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدەستھێنانەکەی مایەی ئاھەنگگێڕان بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcelebrations5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcelebrations5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The city's annual celebration of Caribbean culture kicks off on June 4."),
-                          ExampleSentenceKurdish(
-                          text: "ئاهەنگگێڕانی ساڵانەی شارەکە بۆ کەلتووری کاریبی لە ٤ی حوزەیران دەستپێ دەکات."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcelebrations6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcelebrations6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city's annual celebration of Caribbean culture kicks off on June 4."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاھەنگگێڕانی ساڵانەی شارەکە بۆ کەلتووری کاریبی لە ٤ی حوزەیران دەستپێ دەکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcelebrations6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcelebrations6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -368,11 +392,11 @@ class EnglishEntrycelebration extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -477,7 +501,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uyq66PLCvvY?t=',
+    videoId: 'Uyq66PLCvvY',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +526,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2-bQnjgUiUs?t=',
+    videoId: '2-bQnjgUiUs',
     startSeconds: 457,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +551,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pPJHdfzZ5rU?t=',
+    videoId: 'pPJHdfzZ5rU',
     startSeconds: 355,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +576,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AJWpvoXP5d4?t=',
+    videoId: 'AJWpvoXP5d4',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +601,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 751,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +626,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KM51eWi_kSE?t=',
+    videoId: 'KM51eWi_kSE',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -627,7 +651,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/POtNzR94CEc?t=',
+    videoId: 'POtNzR94CEc',
     startSeconds: 337,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -652,7 +676,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vb0gJi_QOrA?t=',
+    videoId: 'vb0gJi_QOrA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

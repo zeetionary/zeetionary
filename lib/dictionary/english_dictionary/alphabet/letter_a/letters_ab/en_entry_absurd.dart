@@ -143,7 +143,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                                             "Of course it's not true, what an absurd idea."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە."),
+                                            "بە دڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە."),
                                   ],
                                 ),
                               ),

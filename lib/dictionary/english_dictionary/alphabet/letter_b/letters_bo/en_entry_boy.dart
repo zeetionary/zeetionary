@@ -856,7 +856,7 @@ class EnglishEntryboy extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Boy, it sure is hot!"),
                                     ExampleSentenceKurdish(
-                                        text: "وەی، بەدڵنیاییەوە توونە!"),
+                                        text: "وەی، بە دڵنیاییەوە توونە!"),
                                   ],
                                 ),
                               ),

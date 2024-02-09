@@ -195,7 +195,7 @@ class EnglishEntrycentral extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ناوەندی، نێوەندی، ناوچەیی، چەقی، ناڤینی، نێوەڕاستی، بنەڕەتی، سەرەکی، بنگەهی، هەرەگرنگ، بنچینەیی
+کوردی: ناوەندی، نێوەندی، ناوچەیی، چەقی، ناڤینی، نێوەڕاستی، بنەڕەتی، سەرەکی، بنگەھی، ھەرەگرنگ، بنچینەیی
 
 ١. (ھاوەڵناو) لە ناوەڕاستی ناوچەیەک یان شوێنێک"""),
                           Row(
@@ -208,7 +208,7 @@ class EnglishEntrycentral extends StatelessWidget {
                                             "There will be rain later in central and eastern parts of the country."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دواتر باران بارین دەبێت لە ناوەڕاست و ڕۆژهەڵاتی وڵاتەکە."),
+                                            "دواتر باران بارین دەبێت لە ناوەڕاست و ڕۆژھەڵاتی وڵاتەکە."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntrycentral extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) شتێک کە بە ئاسانی دەست پێی دەگات لە هەموو لایەکەوە"),
+                                  "٢. (ھاوەڵناو) شتێک کە بە ئاسانی دەست پێی دەگات لە ھەموو لایەکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -296,7 +296,7 @@ class EnglishEntrycentral extends StatelessWidget {
                                             "The central issue is that of widespread racism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بابەتی هەرە گرنگ ڕەگەزپەرستیی بەرفراوانە."),
+                                            "بابەتی ھەرە گرنگ ڕەگەزپەرستیی بەرفراوانە."),
                                   ],
                                 ),
                               ),
@@ -324,7 +324,7 @@ class EnglishEntrycentral extends StatelessWidget {
                                             "The gap between rich and poor is becoming a central theme of the election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جیاوازی نێوان دەوڵەمەند و هەژار بووە بە بابەتێکی گرنگی هەڵبژاردن."),
+                                            "جیاوازی نێوان دەوڵەمەند و ھەژار بووە بە بابەتێکی گرنگی ھەڵبژاردن."),
                                   ],
                                 ),
                               ),
@@ -464,7 +464,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lPD9fx8fK1k?t=',
+    videoId: 'lPD9fx8fK1k',
     startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1482,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 596,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D_Y18GEjfNY?t=',
+    videoId: 'D_Y18GEjfNY',
     startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 666,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BZbChKzedEk?t=',
+    videoId: 'BZbChKzedEk',
     startSeconds: 473,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +614,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W8uXhQnWgj4?t=',
+    videoId: 'W8uXhQnWgj4',
     startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -639,7 +639,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gv4Af83KFrE?t=',
+    videoId: 'Gv4Af83KFrE',
     startSeconds: 1511,
     autoPlay: true,
     params: const YoutubePlayerParams(

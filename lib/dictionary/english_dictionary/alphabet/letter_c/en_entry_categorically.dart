@@ -233,7 +233,7 @@ class EnglishEntrycategorically extends StatelessWidget {
                                             "The company categorically denied any wrongdoing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە بەڕوونی کردنی هەر کارێکی هەڵەی ڕەتکردەوە."),
+                                            "کۆمپانیاکە بەڕوونی کردنی ھەر کارێکی ھەڵەی ڕەتکردەوە."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NNnIGh9g6fA?t=',
+    videoId: 'NNnIGh9g6fA',
     startSeconds: 929,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/spr5smxuO5E?t=',
+    videoId: 'spr5smxuO5E',
     startSeconds: 950,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kBdfcR-8hEY?t=',
+    videoId: 'kBdfcR-8hEY',
     startSeconds: 884,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/74tZ-yOOPy0?t=',
+    videoId: '74tZ-yOOPy0',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uRAoQOLUw-w?t=',
+    videoId: 'uRAoQOLUw-w',
     startSeconds: 425,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wSNYgHiB-N4?t=',
+    videoId: 'wSNYgHiB-N4',
     startSeconds: 608,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2OQu9q70YkE?t=',
+    videoId: '2OQu9q70YkE',
     startSeconds: 938,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DkS1pkKpILY?t=',
+    videoId: 'DkS1pkKpILY',
     startSeconds: 6482,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -160,7 +160,7 @@ class EnglishEntrybegrudge extends StatelessWidget {
                                             "You surely don't begrudge him his happiness?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەدڵنیاییەوە ناڕەحەت نیت بە دڵخۆشییەکەی؟"),
+                                            "بە دڵنیاییەوە ناڕەحەت نیت بە دڵخۆشییەکەی؟"),
                                   ],
                                 ),
                               ),

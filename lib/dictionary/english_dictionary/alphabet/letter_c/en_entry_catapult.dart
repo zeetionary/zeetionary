@@ -38,7 +38,8 @@ class EnglishEntrycatapult extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In the past, armies used catapults to hurl heavy stones at enemy fortifications."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the past, armies used catapults to hurl heavy stones at enemy fortifications."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcatapults3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycatapult extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was catapulted out of the car as it hit the wall."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was catapulted out of the car as it hit the wall."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcatapults4(String languageCode) async {
@@ -191,9 +193,9 @@ class EnglishEntrycatapult extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دارلاسیق، قۆچەقانی، کەفکانی، بەرەقانی، قاڵماسک، چەکچەکی، کەهنیک، قۆزک، مەنجەنیک، هێلکال، هێلکان، بەردهاوێژ، دەزگای خستن، هەڵدەرە
+کوردی: دارلاسیق، قۆچەقانی، کەفکانی، بەرەقانی، قاڵماسک، چەکچەکی، کەھنیک، قۆزک، مەنجەنیک، ھێلکال، ھێلکان، بەردھاوێژ، دەزگای خستن، ھەڵدەرە
 
-١. (ناو) دارێک کە لە شێوەی پیتی Y دایە و بەکاردێت بۆ بەرد هاویشتن"""),
+١. (ناو) دارێک کە لە شێوەی پیتی Y دایە و بەکاردێت بۆ بەرد ھاویشتن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +205,8 @@ class EnglishEntrycatapult extends StatelessWidget {
                                         text:
                                             "He used a catapult made from a tree branch and rubber band to launch acorns at the squirrels."),
                                     ExampleSentenceKurdish(
-                                        text: "قۆچەقانی بەکارهێنا کە لە لقی درەختێک و لاستیک درووستکرابوو بۆ هاویشتنی بەڕوو بۆ سمۆرەکە."),
+                                        text:
+                                            "قۆچەقانی بەکارھێنا کە لە لقی درەختێک و لاستیک درووستکرابوو بۆ ھاویشتنی بەڕوو بۆ سمۆرەکە."),
                                   ],
                                 ),
                               ),
@@ -221,60 +224,66 @@ class EnglishEntrycatapult extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) چەکێک کە لە کۆندا بەکاردەهات بۆ هاویشتنی بەردی گەورە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) چەکێک کە لە کۆندا بەکاردەھات بۆ ھاویشتنی بەردی گەورە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "In the past, armies used catapults to hurl heavy stones at enemy fortifications."),
-                          ExampleSentenceKurdish(
-                          text: "لە کۆندا سوپاکان مەنجەنیقیان بەکاردەهێنا بۆ هاویشتنی بەردی قورس لە شووراکانی دووژمن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcatapults2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcatapults2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the past, armies used catapults to hurl heavy stones at enemy fortifications."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆندا سوپاکان مەنجەنیقیان بەکاردەھێنا بۆ ھاویشتنی بەردی قورس لە شووراکانی دووژمن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcatapults2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcatapults2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (کردار) هاویشتنی شتێک یان کەسێک بە توندی بۆ ئاسمان"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) ھاویشتنی شتێک یان کەسێک بە توندی بۆ ئاسمان"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She was catapulted out of the car as it hit the wall."),
-                          ExampleSentenceKurdish(
-                          text: "لە ئۆتۆمبێلەکە فڕێدرایە دەرەوە کە لە دیوارەکەی دا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcatapults3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcatapults3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was catapulted out of the car as it hit the wall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئۆتۆمبێلەکە فڕێدرایە دەرەوە کە لە دیوارەکەی دا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcatapults3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcatapults3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -288,11 +297,11 @@ class EnglishEntrycatapult extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -402,7 +411,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7lrrXsXXgok?t=',
+    videoId: '7lrrXsXXgok',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +436,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFxeVO3AfaA?t=',
+    videoId: 'EFxeVO3AfaA',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +461,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iIf9q58cAuQ?t=',
+    videoId: 'iIf9q58cAuQ',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +486,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6BpMf9869v4',
+    videoId: '6BpMf9869v4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +511,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ibxtFX49Kc?t=',
+    videoId: '0ibxtFX49Kc',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +536,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I36PqCUSW7M?t=',
+    videoId: 'I36PqCUSW7M',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +561,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rsQZs1T1ZlA?t=',
+    videoId: 'rsQZs1T1ZlA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +586,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GD-ecjAPUwE?t=',
+    videoId: 'GD-ecjAPUwE',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(

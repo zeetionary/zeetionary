@@ -2751,28 +2751,28 @@ class _DictionaryScreenEnglishState
     "centenary",
     "centennial",
     "centigrade",
-    // "centimetre",
-    // "centipede",
-    // "central",
-    // "central heating",
-    // "centrally",
-    // "central processing unit",
-    // "centralize",
-    // "centralization",
-    // "centre",
-    // "centrifugal",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "centimetre",
+    "centipede",
+    "central",
+    "central heating",
+    "centrally",
+    "central processing unit",
+    "centralize",
+    "centralization",
+    "centre",
+    "centrifugal",
+    "century",
+    "ceramic",
+    "cereal",
+    "ceremonial",
+    "ceremonially",
+    "ceremonious",
+    "ceremoniously",
+    "ceremony",
+    "certain",
+    // "certainly",
+    // "certainty",
+    // "certificate",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -14255,93 +14255,93 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-centennial");
                   }
-                  // if (wordsEnglish == "centimetre") {
+                  if (wordsEnglish == "centimetre") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centimetre");
+                  }
+                  if (wordsEnglish == "centipede") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centipede");
+                  }
+                  if (wordsEnglish == "central") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-central");
+                  }
+                  if (wordsEnglish == "central heating") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-central-heating");
+                  }
+                  if (wordsEnglish == "centrally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centrally");
+                  }
+                  if (wordsEnglish == "central processing unit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cpu");
+                  }
+                  if (wordsEnglish == "centralize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centralize");
+                  }
+                  if (wordsEnglish == "centralization") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centralization");
+                  }
+                  if (wordsEnglish == "centre") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centre");
+                  }
+                  if (wordsEnglish == "centrifugal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-centrifugal");
+                  }
+                  if (wordsEnglish == "century") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-century");
+                  }
+                  if (wordsEnglish == "ceramic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceramic");
+                  }
+                  if (wordsEnglish == "cereal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cereal");
+                  }
+                  if (wordsEnglish == "ceremonial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceremonial");
+                  }
+                  if (wordsEnglish == "ceremonially") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceremonially");
+                  }
+                  if (wordsEnglish == "ceremoniously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceremoniously");
+                  }
+                  if (wordsEnglish == "ceremonious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceremonious");
+                  }
+                  if (wordsEnglish == "ceremony") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ceremony");
+                  }
+                  if (wordsEnglish == "certain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-certain");
+                  }
+                  // if (wordsEnglish == "certainly") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centimetre");
+                  //   Routemaster.of(context).push("/english-certainly");
                   // }
-                  // if (wordsEnglish == "centipede") {
+                  // if (wordsEnglish == "certainty") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centipede");
+                  //   Routemaster.of(context).push("/english-certainty");
                   // }
-                  // if (wordsEnglish == "central") {
+                  // if (wordsEnglish == "certificate") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-central");
-                  // }
-                  // if (wordsEnglish == "central heating") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-central-heating");
-                  // }
-                  // if (wordsEnglish == "centrally") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centrally");
-                  // }
-                  // if (wordsEnglish == "central processing unit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cpu");
-                  // }
-                  // if (wordsEnglish == "centralize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centralize");
-                  // }
-                  // if (wordsEnglish == "centralization") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centralization");
-                  // }
-                  // if (wordsEnglish == "centre") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centre");
-                  // }
-                  // if (wordsEnglish == "centrifugal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-centrifugal");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-certificate");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

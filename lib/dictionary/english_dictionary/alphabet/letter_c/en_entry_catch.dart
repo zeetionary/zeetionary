@@ -749,7 +749,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "She caught the rope with both hands as she fell."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەبلەکەی گرت بە هەردوو دەست کە کەوت."),
+                                            "حەبلەکەی گرت بە ھەردوو دەست کە کەوت."),
                                   ],
                                 ),
                               ),
@@ -769,7 +769,7 @@ class EnglishEntrycatch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) ئامادەبوون لە کاتی خۆیدا بۆ چوونە ناو پاس، شەمەندەفەر، فڕۆکە، هتد"),
+                                  "٤. (کردار) ئامادەبوون لە کاتی خۆیدا بۆ چوونە ناو پاس، شەمەندەفەر، فڕۆکە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -808,7 +808,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "I must go—I have a train to catch."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت بچم، شەمەندەفەرێک هەیە پێیدا بگەم."),
+                                            "دەبێت بچم، شەمەندەفەرێک ھەیە پێیدا بگەم."),
                                   ],
                                 ),
                               ),
@@ -828,7 +828,7 @@ class EnglishEntrycatch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) گرتنی کەسێک یان ئاژەڵێک کە هەوڵ دەدات هەڵبێت"),
+                                  "٥. (کردار) گرتنی کەسێک یان ئاژەڵێک کە ھەوڵ دەدات ھەڵبێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -837,7 +837,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The murderer was never caught."),
                                     ExampleSentenceKurdish(
-                                        text: "بکووژەکە هەرگیز نەگیردرا."),
+                                        text: "بکووژەکە ھەرگیز نەگیردرا."),
                                   ],
                                 ),
                               ),
@@ -949,7 +949,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "I think I must have caught this cold from you."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێم‌وایە دەبێت ئەم هەڵامەتەم لە تۆوە گرتبێت."),
+                                            "پێم‌وایە دەبێت ئەم ھەڵامەتەم لە تۆوە گرتبێت."),
                                   ],
                                 ),
                               ),
@@ -1008,7 +1008,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "There was one story in particular that caught her interest."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەک چیرۆک بەتایبەت هەبوو کە خولیای ڕاکێشا."),
+                                            "یەک چیرۆک بەتایبەت ھەبوو کە خولیای ڕاکێشا."),
                                   ],
                                 ),
                               ),
@@ -1028,7 +1028,7 @@ class EnglishEntrycatch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) هەستکردن بە شتێک تەنها بۆ ساتێک"),
+                                  "٨. (کردار) ھەستکردن بە شتێک تەنھا بۆ ساتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1157,7 +1157,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "You wouldn't catch me working (= I would never work) on a Sunday!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز نامبینی لە ڕۆژانی یەکشەماندا کار بکەم."),
+                                            "ھەرگیز نامبینی لە ڕۆژانی یەکشەماندا کار بکەم."),
                                   ],
                                 ),
                               ),
@@ -1218,7 +1218,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                                     "You've caught me at a bad time (= at a time when I am busy)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لەکاتێکی خراپ هاتوویت بۆ لام."),
+                                                    "لەکاتێکی خراپ ھاتوویت بۆ لام."),
                                           ],
                                         ),
                                       ),
@@ -1244,7 +1244,7 @@ class EnglishEntrycatch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (کردار) ئامادەبوون لە کاتی خۆی بۆ کردنی شتێک، قسەکردن لەگەڵ کەسێک، هتد"),
+                                  "١١. (کردار) ئامادەبوون لە کاتی خۆی بۆ کردنی شتێک، قسەکردن لەگەڵ کەسێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1255,7 +1255,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "I caught him just as he was leaving the building."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێی ڕاگەیشتم کە بیناکەی جێدەهێشت."),
+                                            "پێی ڕاگەیشتم کە بیناکەی جێدەھێشت."),
                                   ],
                                 ),
                               ),
@@ -1282,7 +1282,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                         text:
                                             "I was hoping to catch you at home (= to see you at home when you were there)."),
                                     ExampleSentenceKurdish(
-                                        text: "هیواداربووم لە ماڵەوە بتبینم."),
+                                        text: "ھیواداربووم لە ماڵەوە بتبینم."),
                                   ],
                                 ),
                               ),
@@ -1720,7 +1720,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                         text:
                                             "You've caught the sun on the back of your neck."),
                                     ExampleSentenceKurdish(
-                                        text: "پشتەملت ڕەشهەڵگەڕاوە."),
+                                        text: "پشتەملت ڕەشھەڵگەڕاوە."),
                                   ],
                                 ),
                               ),
@@ -1751,7 +1751,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "The artist has caught her smile perfectly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هونەرمەندەکە بێ‌خەوشانە بزەکەیی وێناکردووە."),
+                                            "ھونەرمەندەکە بێ‌خەوشانە بزەکەیی وێناکردووە."),
                                   ],
                                 ),
                               ),
@@ -1782,7 +1782,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "Roger made some brilliant catches at today's game."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆجەر ئەمڕۆ هەندێک گرتنەوەی بلیمەتانەی ئەنجامدا."),
+                                            "ڕۆجەر ئەمڕۆ ھەندێک گرتنەوەی بلیمەتانەی ئەنجامدا."),
                                   ],
                                 ),
                               ),
@@ -1902,7 +1902,7 @@ class EnglishEntrycatch extends StatelessWidget {
                                             "It sounds too good. There must be a catch."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئێجگار باش دیارە. دەبێت گێرەوکێشەیەک هەبێت."),
+                                            "ئێجگار باش دیارە. دەبێت گێرەوکێشەیەک ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -2148,7 +2148,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r86fjEtxPgY?t=',
+    videoId: 'r86fjEtxPgY',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2173,7 +2173,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x5RTQZGtkI8?t=',
+    videoId: 'x5RTQZGtkI8',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2198,7 +2198,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eCVA-5w0Mf8?t=',
+    videoId: 'eCVA-5w0Mf8',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2223,7 +2223,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    videoId: 'hS2x1zl4rn0',
     startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2248,7 +2248,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2273,7 +2273,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kXShLPXfWZA?t=',
+    videoId: 'kXShLPXfWZA',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2298,7 +2298,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rsaLUIeurZ8?t=',
+    videoId: 'rsaLUIeurZ8',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2323,7 +2323,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/99i-Uo7rIpw?t=',
+    videoId: '99i-Uo7rIpw',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -70,7 +70,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                         child: Icon(
                           Icons.clear,
                           color: Theme.of(context).primaryColor,
-                          size: 15.0,
+                          size: 9.0,
                         ),
                       ),
                       onPressed: () {
@@ -122,7 +122,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                             Icons.pause,
                             color: Theme.of(context).primaryColor,
                             // color: Theme.of(context).primaryColor,
-                            size: 15.0,
+                            size: 9.0,
                           ),
                         ),
                         onPressed: () {

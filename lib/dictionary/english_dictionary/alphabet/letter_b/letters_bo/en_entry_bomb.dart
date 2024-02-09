@@ -621,7 +621,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                             "The exam was very hard! I definitely bombed it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تاقیکردنەوەکە زۆر سەخت بوو! بەدڵنیاییەوە دەکەوم."),
+                                            "تاقیکردنەوەکە زۆر سەخت بوو! بە دڵنیاییەوە دەکەوم."),
                                   ],
                                 ),
                               ),

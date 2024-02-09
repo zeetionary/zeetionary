@@ -198,7 +198,7 @@ class EnglishEntrycement extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سارووج، سیمێنت، سمیت، سیمان، چیمەنتۆ، چەسپ، نێوپڕ 
 
-١. (ناو) هاڕاوەیەکی خۆڵەمێشی کە لەگەڵ ئاو و خۆڵ تێکەڵ دەکرێت بۆ درووستکردنی چیمەنتۆ، یان لەگەڵ ئاو و خۆڵ و زیخ بۆ درووستکردنی کۆنکریت"""),
+١. (ناو) ھاڕاوەیەکی خۆڵەمێشی کە لەگەڵ ئاو و خۆڵ تێکەڵ دەکرێت بۆ درووستکردنی چیمەنتۆ، یان لەگەڵ ئاو و خۆڵ و زیخ بۆ درووستکردنی کۆنکریت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntrycement extends StatelessWidget {
                                             "A concrete floor is a common choice for basements, garages, and industrial spaces."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەرزی چیمەنتۆ هەڵبژاردەیەکی باوە بۆ ژێرزەمین، گەراج، و شوێنە پیشەسازییەکان."),
+                                            "ئەرزی چیمەنتۆ ھەڵبژاردەیەکی باوە بۆ ژێرزەمین، گەراج، و شوێنە پیشەسازییەکان."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntrycement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شتێک کە خەڵکی پێکەوە گرێ دەدات لە بەرژەوەندیی هاوبەشدا"),
+                                  "٤. (ناو) شتێک کە خەڵکی پێکەوە گرێ دەدات لە بەرژەوەندیی ھاوبەشدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -302,7 +302,7 @@ class EnglishEntrycement extends StatelessWidget {
                                             "Community engagement strengthens societal cement."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تێکەڵبوونی کۆمەڵگە پێکەوەبەندیی کۆمەڵایەتی بەهێز دەکات."),
+                                            "تێکەڵبوونی کۆمەڵگە پێکەوەبەندیی کۆمەڵایەتی بەھێز دەکات."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ class EnglishEntrycement extends StatelessWidget {
                                             "She used strong glue to cement the wooden panels in place."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چەسپی بەهێزی بەکارهێنا بۆ دانانی چوارچێوە دارینەکان لە شوێنی خۆیان."),
+                                            "چەسپی بەھێزی بەکارھێنا بۆ دانانی چوارچێوە دارینەکان لە شوێنی خۆیان."),
                                   ],
                                 ),
                               ),
@@ -352,7 +352,7 @@ class EnglishEntrycement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) بەهێزکردنی پەیوەندییەک، ڕێککەوتنێک، هتد"),
+                                  "٦. (کردار) بەھێزکردنی پەیوەندییەک، ڕێککەوتنێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -363,7 +363,7 @@ class EnglishEntrycement extends StatelessWidget {
                                             "The president's visit was intended to cement the alliance between the two countries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەردانەکەی سەرۆک مەبەست لێی ئەوە بوو کە هاوپەیمانی نێوان دوو وڵاتەکە بەهێز بکات."),
+                                            "سەردانەکەی سەرۆک مەبەست لێی ئەوە بوو کە ھاوپەیمانی نێوان دوو وڵاتەکە بەھێز بکات."),
                                   ],
                                 ),
                               ),
@@ -513,7 +513,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/heDKi42CD1A?t=',
+    videoId: 'heDKi42CD1A',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Llxg17jOLIU?t=',
+    videoId: 'Llxg17jOLIU',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/09meiYkTsBo?t=',
+    videoId: '09meiYkTsBo',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/asLWBGtAhZk?t=',
+    videoId: 'asLWBGtAhZk',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_8ONmhbW0Vg?t=',
+    videoId: '_8ONmhbW0Vg',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -638,7 +638,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vz7oem-DqlA?t=',
+    videoId: 'vz7oem-DqlA',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -663,7 +663,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n5x7GLl-mMo?t=',
+    videoId: 'n5x7GLl-mMo',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -688,7 +688,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
+    videoId: 'fn--IVarumw',
     startSeconds: 1011,
     autoPlay: true,
     params: const YoutubePlayerParams(

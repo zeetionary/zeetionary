@@ -199,9 +199,9 @@ class EnglishEntrycaution extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هۆشیاری، پارێز، ئاگادارکردنەوە، وریاکردنەوە، بەگوێ‌دادادن، هۆشداری، دوابینی، تێبینی
+کوردی: ھۆشیاری، پارێز، ئاگادارکردنەوە، وریاکردنەوە، بەگوێ‌دادادن، ھۆشداری، دوابینی، تێبینی
 
-١. (ناو) هۆشیارییەک کە دەیگریتە بەر بۆ ئەوەی لە مەترسی و هەڵە دووربیت"""),
+١. (ناو) ھۆشیارییەک کە دەیگریتە بەر بۆ ئەوەی لە مەترسی و ھەڵە دووربیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -339,7 +339,7 @@ class EnglishEntrycaution extends StatelessWidget {
                                             "Some cautions must be mentioned—for example good tools are essential to do the job well."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک هۆشداری دەبێت بگیردرێتەبەر، بح نموونە ئامرازی باش بنچینەیین بۆ کردنی کارەکە بەباشی."),
+                                            "ھەندێک ھۆشداری دەبێت بگیردرێتەبەر، بح نموونە ئامرازی باش بنچینەیین بۆ کردنی کارەکە بەباشی."),
                                   ],
                                 ),
                               ),
@@ -370,7 +370,7 @@ class EnglishEntrycaution extends StatelessWidget {
                                             "I would caution against getting too involved."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هۆشداری دەدەم دژ بە زۆر تێوەگلان."),
+                                            "ھۆشداری دەدەم دژ بە زۆر تێوەگلان."),
                                   ],
                                 ),
                               ),
@@ -398,7 +398,7 @@ class EnglishEntrycaution extends StatelessWidget {
                                             "Sam cautioned him against making a hasty decision."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سام هۆشداری پێدا دژ بە بڕیاردانی بەپەلە."),
+                                            "سام ھۆشداری پێدا دژ بە بڕیاردانی بەپەلە."),
                                   ],
                                 ),
                               ),
@@ -418,7 +418,7 @@ class EnglishEntrycaution extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) بە فەرمی هۆشداریدان بە کەسێک کە هەرچی بڵێت دەکرێت لە دادگا دژی بەکاردێت"),
+                                  "٥. (کردار) بە فەرمی ھۆشداریدان بە کەسێک کە ھەرچی بڵێت دەکرێت لە دادگا دژی بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -429,7 +429,7 @@ class EnglishEntrycaution extends StatelessWidget {
                                             "Suspects must be cautioned before any questions are asked."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گومان‌لێ‌کراوان دەبێت وریابکرێنەوە پێش ئەوەی هیچ پرسیارێک بکردرێت."),
+                                            "گومان‌لێ‌کراوان دەبێت وریابکرێنەوە پێش ئەوەی ھیچ پرسیارێک بکردرێت."),
                                   ],
                                 ),
                               ),
@@ -460,7 +460,7 @@ class EnglishEntrycaution extends StatelessWidget {
                                             "She wasn't sent to the court; instead she was cautioned."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەبردرا بۆ دادگا، لە جیاتیدا هۆشداری پێدرا."),
+                                            "نەبردرا بۆ دادگا، لە جیاتیدا ھۆشداری پێدرا."),
                                   ],
                                 ),
                               ),
@@ -605,7 +605,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bFl3_J2gBu4?t=',
+    videoId: 'bFl3_J2gBu4',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9GR3XSuInYE?t=',
+    videoId: '9GR3XSuInYE',
     startSeconds: 864,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -655,7 +655,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NWGVFi-213w?t=',
+    videoId: 'NWGVFi-213w',
     startSeconds: 285,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -680,7 +680,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dxqYDrELD_E?t=',
+    videoId: 'dxqYDrELD_E',
     startSeconds: 284,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -705,7 +705,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
+    videoId: 'l2FuvKTyRMQ',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -730,7 +730,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1uNpjqH-mQQ?t=',
+    videoId: '1uNpjqH-mQQ',
     startSeconds: 500,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -755,7 +755,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qtlPTE-UmY4?t=',
+    videoId: 'qtlPTE-UmY4',
     startSeconds: 553,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -780,7 +780,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VTzKIs19eZE?t=',
+    videoId: 'VTzKIs19eZE',
     startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(

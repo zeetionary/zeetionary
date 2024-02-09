@@ -194,9 +194,9 @@ class EnglishEntrycell extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خانە، ژوورە، سلول، باتری، پیل، هێزە، بەند، ژوورۆچکە (تاکەکەسی، زیندان)، چەق، ناوک، نێوک، ناوەند
+کوردی: خانە، ژوورە، سلول، باتری، پیل، ھێزە، بەند، ژوورۆچکە (تاکەکەسی، زیندان)، چەق، ناوک، نێوک، ناوەند
 
-١. (ناو) بچووکتری یەکەی تەنی زیندوو کە دەتوانێت بە سەربەخۆیی بژی. هەموو ڕووەک و ئاژەڵەکان لە خانە پێکهاتوون"""),
+١. (ناو) بچووکتری یەکەی تەنی زیندوو کە دەتوانێت بە سەربەخۆیی بژی. ھەموو ڕووەک و ئاژەڵەکان لە خانە پێکھاتوون"""),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntrycell extends StatelessWidget {
                                             "DNA is stored in the nucleus of a cell."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "DNA لە ناوکی خانەدا هەڵدەگیرێت."),
+                                            "DNA لە ناوکی خانەدا ھەڵدەگیرێت."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycell extends StatelessWidget {
                                             "Terrorist cells operate in secrecy to avoid detection and apprehension by authorities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شانە تیرۆریستییەکان بە نهێنی کار دەکەن بۆ دووربوون لە پێ‌زانین و دەستگیرکردن لەلایەن دەسەڵاتدارانەوە."),
+                                            "شانە تیرۆریستییەکان بە نھێنی کار دەکەن بۆ دووربوون لە پێ‌زانین و دەستگیرکردن لەلایەن دەسەڵاتدارانەوە."),
                                   ],
                                 ),
                               ),
@@ -316,7 +316,7 @@ class EnglishEntrycell extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) موبایلێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا هەڵیبگریت"),
+                                  "٤. (ناو) موبایلێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا ھەڵیبگریت"),
                           Row(
                             children: [
                               const Expanded(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/juK9c8zgUvU?t=',
+    videoId: 'juK9c8zgUvU',
     startSeconds: 480,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F73w_WGXq3E',
+    videoId: 'F73w_WGXq3E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/npZF5gJHhZM?t=',
+    videoId: 'npZF5gJHhZM',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KmL0zZg0Zyo?t=',
+    videoId: 'KmL0zZg0Zyo',
     startSeconds: 1683,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 958,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FT3ODSg1GFE?t=',
+    videoId: 'FT3ODSg1GFE',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dn3eNoxQdL0',
+    videoId: 'Dn3eNoxQdL0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -648,7 +648,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jsDxw63QqK0?t=',
+    videoId: 'jsDxw63QqK0',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(

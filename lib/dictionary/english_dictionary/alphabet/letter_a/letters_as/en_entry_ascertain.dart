@@ -203,7 +203,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                             "I ascertained that the driver was not badly hurt."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                                            "دڵنیاییم کردەوە کە شۆفێرەکە بەخراپی ئازاری پێنەگەشتبوو."),
                                   ],
                                 ),
                               ),

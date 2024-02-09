@@ -103,7 +103,7 @@ class EnglishEntryaboundwith extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The lakes abound with fish."),
                                     ExampleSentenceKurdish(
-                                        text: "دەریاچەکە پڕە لە ماسی."),
+                                        text: "دەریاچەکان پڕن لە ماسی."),
                                   ],
                                 ),
                               ),

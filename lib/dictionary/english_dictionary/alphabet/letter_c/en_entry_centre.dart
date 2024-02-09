@@ -303,7 +303,7 @@ class EnglishEntrycentre extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ناوەند، نێوەند، چەق، ناوچە، مەڵبەند، هەلێر، کورەک، ناوچەق، نێوەڕاست، ناڤین، نێوان، دڵ، جەرگە، یاریزانی نێوەڕاست، باڵی نەرم‌ڕەو، نێوەڕاستی، ناوەندی، ناوینی، نەرم‌ڕەو، باڵی نەرم‌ڕەو 
+کوردی: ناوەند، نێوەند، چەق، ناوچە، مەڵبەند، ھەلێر، کورەک، ناوچەق، نێوەڕاست، ناڤین، نێوان، دڵ، جەرگە، یاریزانی نێوەڕاست، باڵی نەرم‌ڕەو، نێوەڕاستی، ناوەندی، ناوینی، نەرم‌ڕەو، باڵی نەرم‌ڕەو 
 
 ١. (ناو) ناوەڕاستی شتێک"""),
                           Row(
@@ -343,7 +343,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "There was a long table in the centre of the room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێزێکی درێژ هەبوو لە ناوەڕاستی ژوورەکەدا."),
+                                            "مێزێکی درێژ ھەبوو لە ناوەڕاستی ژوورەکەدا."),
                                   ],
                                 ),
                               ),
@@ -441,7 +441,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "We both work in the city centre."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردووکمان لە سەنتەری شار کار دەکەین."),
+                                            "ھەردووکمان لە سەنتەری شار کار دەکەین."),
                                   ],
                                 ),
                               ),
@@ -500,7 +500,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "At that time Winchester was still a major centre of population."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەوکات وینچستەر هێشتا ناوەندێکی گرنگی دانیشتوان بوو."),
+                                            "ئەوکات وینچستەر ھێشتا ناوەندێکی گرنگی دانیشتوان بوو."),
                                   ],
                                 ),
                               ),
@@ -559,7 +559,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "The company has recently opened a new training centre."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە تازەگی ناوەندێکی ڕاهێنانی کردووەتەوە."),
+                                            "کۆمپانیاکە تازەگی ناوەندێکی ڕاھێنانی کردووەتەوە."),
                                   ],
                                 ),
                               ),
@@ -590,7 +590,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "The university is recognized as an international centre of excellence for training dentists."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زانکۆکە ناسراوە وەک ناوەندی نایابی جیهانی بۆ ڕاهێنانی پزیشکانی ددان ."),
+                                            "زانکۆکە ناسراوە وەک ناوەندی نایابی جیھانی بۆ ڕاھێنانی پزیشکانی ددان ."),
                                   ],
                                 ),
                               ),
@@ -649,7 +649,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "He could never doubt that he was the centre of her world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز گومانی لەوە نەبوو کە لە ناوجەرگەی جیهانی ئەودایە."),
+                                            "ھەرگیز گومانی لەوە نەبوو کە لە ناوجەرگەی جیھانی ئەودایە."),
                                   ],
                                 ),
                               ),
@@ -711,7 +711,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "State occasions always centred around the king."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆنە نەتەوەییەکان هەمیشە لە دەوری پاشا دەخولانەوە."),
+                                            "بۆنە نەتەوەییەکان ھەمیشە لە دەوری پاشا دەخولانەوە."),
                                   ],
                                 ),
                               ),
@@ -999,7 +999,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w3QW-9ggyDE?t=',
+    videoId: 'w3QW-9ggyDE',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1024,7 +1024,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yMoV2aEurUQ?t=',
+    videoId: 'yMoV2aEurUQ',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1049,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ga1NDTQZGc?t=',
+    videoId: '0ga1NDTQZGc',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1074,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    videoId: 'rEdl2Uetpvo',
     startSeconds: 339,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1099,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qQ01eLt_bxo?t=',
+    videoId: 'qQ01eLt_bxo',
     startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1124,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1149,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1463,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1174,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R0wa9IlCA_w?t=',
+    videoId: 'R0wa9IlCA_w',
     startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -193,9 +193,9 @@ class EnglishEntrycensor extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بژارەوان، چاودێر، پشکێنەر، سێنسۆر، بەرهەم‌دۆز، بژارگەر
+کوردی: بژارەوان، چاودێر، پشکێنەر، سێنسۆر، بەرھەم‌دۆز، بژارگەر
 
-١. (ناو) کەسێک کە کاری وایە چاو لە کتێبێک، فیلمێک، هتد بکات و ئەو بەشانە ببسڕێتەوە کە نەگونجاون یان مەترسی سیاسییان هەیە"""),
+١. (ناو) کەسێک کە کاری وایە چاو لە کتێبێک، فیلمێک، ھتد بکات و ئەو بەشانە ببسڕێتەوە کە نەگونجاون یان مەترسی سیاسییان ھەیە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycensor extends StatelessWidget {
                                             "Military censors prevented the publication of some details."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاودێرانی سەربازی ڕێگریان لە بڵاوبوونەوەی هەندێک وردەکاری کرد."),
+                                            "چاودێرانی سەربازی ڕێگریان لە بڵاوبوونەوەی ھەندێک وردەکاری کرد."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrycensor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) سڕینەوەی ئەو بەشانەی کتێبێک، فیلمێک، هتد کە نەگونجاون یان مەترسی سیاسییان هەیە"),
+                                  "٢. (کردار) سڕینەوەی ئەو بەشانەی کتێبێک، فیلمێک، ھتد کە نەگونجاون یان مەترسی سیاسییان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycensor extends StatelessWidget {
                                             "The news reports had been heavily censored."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاپۆرتە هەواڵییەکان بە تەواوی سانسۆر کراون."),
+                                            "ڕاپۆرتە ھەواڵییەکان بە تەواوی سانسۆر کراون."),
                                   ],
                                 ),
                               ),
@@ -406,7 +406,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gqFiHwgGG9E?t=',
+    videoId: 'gqFiHwgGG9E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -431,7 +431,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EdDLE8NpK5c?t=',
+    videoId: 'EdDLE8NpK5c',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VVoHf_Ro1Vw?t=',
+    videoId: 'VVoHf_Ro1Vw',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1662,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ugYPoWShl6k?t=',
+    videoId: 'ugYPoWShl6k',
     startSeconds: 1024,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    videoId: '0sazcZ8wwZc',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V2ec7EE0pB8?t=',
+    videoId: 'V2ec7EE0pB8',
     startSeconds: 2049,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hDNiNdsPHNA?t=',
+    videoId: 'hDNiNdsPHNA',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -159,7 +159,7 @@ class EnglishEntrybeady extends StatelessWidget {
                                             "I shall certainly keep a beady eye on his behaviour."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەدڵنیاییەوە بە زەقی چاودێری دەکەم."),
+                                            "بە دڵنیاییەوە بە زەقی چاودێری دەکەم."),
                                   ],
                                 ),
                               ),

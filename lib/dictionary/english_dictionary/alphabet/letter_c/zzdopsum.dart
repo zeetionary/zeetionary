@@ -207,7 +207,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "dopsum1", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "dopsum1", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(

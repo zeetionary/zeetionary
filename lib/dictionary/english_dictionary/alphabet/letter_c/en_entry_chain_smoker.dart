@@ -10,124 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychainreaction extends StatelessWidget {
+class EnglishEntrychainsmoker extends StatelessWidget {
   // blank divider
-  EnglishEntrychainreaction({super.key});
+  EnglishEntrychainsmoker({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchainreaction(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmoker(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chain reaction"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chain-smoker"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions1(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers1(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In nuclear physics, a chain reaction occurs when one nuclear reaction triggers additional reactions, releasing large amounts of energy."); // DOPSUM: CHANGE TEXT
+        "He used to be a chain-smoker, but he has now given up smoking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions2(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers2(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The accident caused a chain reaction in which seven trucks piled up on the bridge."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions3(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers3(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions4(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers4(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions5(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers5(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions6(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers6(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions7(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers7(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions8(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers8(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions9(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers9(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions10(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers10(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions11(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers11(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions12(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers12(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchainreactions13(String languageCode) async {
-    // DOPSUM: CHANGE speakchainreaction
+  Future<void> speakchainsmokers13(String languageCode) async {
+    // DOPSUM: CHANGE speakchainsmoker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainreactions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchainsmokers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +149,23 @@ class EnglishEntrychainreaction extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chain reaction"),
+                            EntryTitle(word: "chain-smoker"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌtʃeɪn riˈækʃn/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈtʃeɪn sməʊkə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchainreaction("en-GB"),
+                              onPressed: () => speakchainsmoker("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌtʃeɪn riˈækʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃeɪn sməʊkər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchainreaction("en-US"),
+                              onPressed: () => speakchainsmoker("en-US"),
                             ),
                           ],
                         ),
@@ -192,7 +192,7 @@ class EnglishEntrychainreaction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) گۆڕانێکی کیمیایی یان ناوەکی کە جۆرە بەرهەم یان گۆڕانێکی دیکە درووست دەکات کە بەرهەم و گۆڕانی دیکە درووست دەکەن"""),
+١. (ناو) کەسێک کە یەک لەدوای یەک جگەرە دەکێشێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -200,56 +200,23 @@ class EnglishEntrychainreaction extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "In nuclear physics, a chain reaction occurs when one nuclear reaction triggers additional reactions, releasing large amounts of energy."),
+                                            "He used to be a chain-smoker, but he has now given up smoking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە فیزیای ناوەکیدا، کارلێکی زنجیری ڕوودەدات کە یەک کارلێکی ناوەکی کارلێکی دیکە درووست دەکات، و وزەی زۆر دەردەپەڕێنێت."),
+                                            "پێشووتر ئاڵوودەی جگەرە بوو، بەڵام لە ئێستادا تەرکی کردووە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "chain reaction", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "chain-smoker", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakchainreactions1("en-GB"),
+                                        speakchainsmokers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakchainreactions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) زنجیرە ڕووداوێک، بە تایبەتی کە یەکێکیان دەبێتە هۆکاری ئەوەی دواتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accident caused a chain reaction in which seven trucks piled up on the bridge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادانەکە زنجیرە ڕووداوێکی لێکەوتەوە کە تێیدا حەوت بارهەڵگر سەریەک کەوتن لەسەر پردەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchainreactions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchainreactions2("en-US"),
+                                        speakchainsmokers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -337,10 +304,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chain reaction (Derived forms: chain reactions)
-1. A series of chemical reactions in which the product of one is a reactant in the next
- 
-2. A self-sustaining nuclear reaction; a series of nuclear fissions in which neutrons released by splitting one atom leads to the splitting of others
+- Noun: chain-smoker (Derived forms: chain-smokers)
+1. A heavy smoker (usually of cigarettes) who lights one off of another
 """,
   );
 
@@ -373,8 +338,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OK7_ReXhVaQ?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/QmOF0crdyRU?t=',
+    startSeconds: 2576,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -398,8 +363,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vblk7RIwa4A?t=',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/uRAoQOLUw-w?t=',
+    startSeconds: 976,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -423,8 +388,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/atnBbYZYl7I?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/GIFV_Z7Y9_w?t=',
+    startSeconds: 1687,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -448,8 +413,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6npNnhEa4s?t=',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/GMOyNgLSX2g?t=',
+    startSeconds: 4672,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -473,8 +438,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3GkaNg6S0H4?t=',
-    startSeconds: 30,
+    videoId: 'https://youtu.be/SCpgKvZB_VQ?t=',
+    startSeconds: 457,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +463,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uhB5mMyEJFA?t=',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/oF7Olp-urPc?t=',
+    startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +488,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wBrNbbAIAFo',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/JgXSy8CK9fc?t=',
+    startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -548,8 +513,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rsQZs1T1ZlA',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/oiHCJyG_mds?t=',
+    startSeconds: 3825,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

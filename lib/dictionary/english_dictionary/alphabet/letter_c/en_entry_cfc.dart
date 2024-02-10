@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycertainly extends StatelessWidget {
+class EnglishEntrycfc extends StatelessWidget {
   // blank divider
-  EnglishEntrycertainly({super.key});
+  EnglishEntrycfc({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcertainly(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFC(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("certainly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("CFC"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs1(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Without treatment, she will almost certainly die."); // DOPSUM: CHANGE TEXT
+        "CFCs cause damage to the ozone layer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs2(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm certainly never going there again."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs2."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs3(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("‘May I see your passport, Mr Scott?’ ‘Certainly.’"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs3."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs4(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys4."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs4."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs5(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys5."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs5."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs6(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys6."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs6."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs7(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys7."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs7."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs8(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys8."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs8."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs9(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys9."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs9."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs10(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys10."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs10."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs11(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys11."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs11."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs12(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys12."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs12."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakCFCs13(String languageCode) async {
+    // DOPSUM: CHANGE speakCFC
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys13."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCFCs13."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycertainly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "certainly"),
+                            EntryTitle(word: "CFC"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːtnli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌsiː ef ˈsiː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcertainly("en-GB"),
+                              onPressed: () => speakCFC("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrtnli/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌsiː ef ˈsiː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcertainly("en-US"),
+                              onPressed: () => speakCFC("en-US"),
                             ),
                           ],
                         ),
@@ -191,9 +191,7 @@ class EnglishEntrycertainly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بێ‌گومان، بێ‌شک، بە دڵنیایی‌یەوە، ئەی، هەڵبەت (لە وەڵام‌دانەوەدا)
-
-١. (ھاوەڵکار) بێ گومان"""),
+١. (ناو) کلۆرۆفلۆرۆکاربۆن؛ جۆرە گازێک کە پێشتر لەو بەرهەمانەدا بەکاردەهات کە شلەیان لە پەستانی بەرزدا تێدایە، و زانراوە کە زیانبەخشە بپ چینی ئۆزۆن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,80 +199,20 @@ class EnglishEntrycertainly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Without treatment, she will almost certainly die."),
+                                            "CFCs cause damage to the ozone layer."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت."),
+                                        text: "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "certainly", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "CFC", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys1("en-GB"),
+                                    onPressed: () => speakCFCs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm certainly never going there again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵنیایی‌یەوە ئیتر ناچمەوە ئەوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵکار) لە وەڵامی پرسیاردا بەکاردێت بۆ وتنی ئەوەی بە دڵنیاییەوە ڕازیت یان شتێک دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘May I see your passport, Mr Scott?’ ‘Certainly.’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'دەکرێت پاسپۆرتەکەم ببینم، بەڕێز سکۆت' 'بە دڵنیاییەوە'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys3("en-US"),
+                                    onPressed: () => speakCFCs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -292,11 +230,11 @@ class EnglishEntrycertainly extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(), // 
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -362,12 +300,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: certainly 
-1. Definitely or positively (= surely, sure, for sure, for certain, sure enough, sure as shooting)
-"she certainly is a hard worker";
-
-- Interjection: certainly 
-1. Indicates an affirmative response (= ay [dialect], aye [dialect], sure [informal], uh-huh [informal], yah [UK, informal], yea [informal], yeah [informal], yep [informal], yes, yup [informal], ya [S.Africa, informal])
+- Noun: CFC (Derived forms: CFCs)
+1. A fluorocarbon with chlorine; formerly used as a refrigerant and as a propellant in aerosol cans (= chlorofluorocarbon)
+"the chlorine in CFCs causes depletion of atmospheric ozone";
 """,
   );
 
@@ -400,8 +335,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bRVueBoZjEA?t=',
-    startSeconds: 46,
+    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    startSeconds: 1934,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +360,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AFS6saV981Q?t=',
-    startSeconds: 2238,
+    videoId: 'https://youtu.be/CaLOiGEDPJQ?t=',
+    startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +385,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BNPPMs9CvDQ?t=',
-    startSeconds: 515,
+    videoId: 'https://youtu.be/A5GAaCTwc9s?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +410,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vb-p--iRFew?t=',
-    startSeconds: 572,
+    videoId: 'https://youtu.be/0g_qyI8BT14?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +435,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
-    startSeconds: 1235,
+    videoId: 'https://youtu.be/2horH-IeurA?t=',
+    startSeconds: 575,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +460,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fbVRnlR_6BM?t=',
-    startSeconds: 279,
+    videoId: 'https://youtu.be/c3dDagZMALQ?t=',
+    startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +485,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IOuFE-6Awos?t=',
-    startSeconds: 187,
+    videoId: 'https://youtu.be/7zrx-b2sLUs?t=',
+    startSeconds: 1424,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +510,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 269,
+    videoId: 'https://youtu.be/0ZfBgjUnXIs?t=',
+    startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycertainly extends StatelessWidget {
+class EnglishEntrychador extends StatelessWidget {
   // blank divider
-  EnglishEntrycertainly({super.key});
+  EnglishEntrychador({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcertainly(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchador(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("certainly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chador"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors1(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Without treatment, she will almost certainly die."); // DOPSUM: CHANGE TEXT
+        "For many women, wearing a chador is a way to express their faith and cultural identity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors2(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm certainly never going there again."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The wearing of chadors can spark discussions about women's rights and religious freedom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors3(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("‘May I see your passport, Mr Scott?’ ‘Certainly.’"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors3."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors4(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys4."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors4."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors5(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys5."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors5."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors6(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys6."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors6."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors7(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys7."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors7."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors8(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys8."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors8."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors9(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys9."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors9."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors10(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys10."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors10."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors11(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys11."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors11."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors12(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys12."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors12."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakchadors13(String languageCode) async {
+    // DOPSUM: CHANGE speakchador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys13."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchadors13."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycertainly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "certainly"),
+                            EntryTitle(word: "chador"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːtnli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɑːdɔː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcertainly("en-GB"),
+                              onPressed: () => speakchador("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrtnli/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɑːdɔːr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcertainly("en-US"),
+                              onPressed: () => speakchador("en-US"),
                             ),
                           ],
                         ),
@@ -191,9 +191,7 @@ class EnglishEntrycertainly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بێ‌گومان، بێ‌شک، بە دڵنیایی‌یەوە، ئەی، هەڵبەت (لە وەڵام‌دانەوەدا)
-
-١. (ھاوەڵکار) بێ گومان"""),
+١. (ناو) چارشێو؛ پارچە جلێکی گەورە کە ژنان دەیپۆشن بەشێوەیەک تەنها ڕووخساریان دیارە، و بەتایبەتی لەلایەن ژنانی موسڵمانەوە لەبەردەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,21 +199,21 @@ class EnglishEntrycertainly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Without treatment, she will almost certainly die."),
+                                            "For many women, wearing a chador is a way to express their faith and cultural identity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت."),
+                                            "بۆ زۆر ژن، لەبەرکردنی چارشێوێک ڕێگایەکە بۆ پیشاندانی ئایین و ناسنامەی نەتەوەیی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "certainly", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "chador", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys1("en-GB"),
+                                    onPressed: () => speakchadors1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys1("en-US"),
+                                    onPressed: () => speakchadors1("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +227,10 @@ class EnglishEntrycertainly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'm certainly never going there again."),
+                                            "The wearing of chadors can spark discussions about women's rights and religious freedom."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە دڵنیایی‌یەوە ئیتر ناچمەوە ئەوێ."),
+                                            "لەبەرکردنی چارشێو دەکرێت مشتومڕی مافەکانی ژنان ئازادیی ئایینی بێنێتە ئاراوە."),
                                   ],
                                 ),
                               ),
@@ -240,41 +238,10 @@ class EnglishEntrycertainly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys2("en-GB"),
+                                    onPressed: () => speakchadors2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵکار) لە وەڵامی پرسیاردا بەکاردێت بۆ وتنی ئەوەی بە دڵنیاییەوە ڕازیت یان شتێک دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘May I see your passport, Mr Scott?’ ‘Certainly.’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'دەکرێت پاسپۆرتەکەم ببینم، بەڕێز سکۆت' 'بە دڵنیاییەوە'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys3("en-US"),
+                                    onPressed: () => speakchadors2("en-US"),
                                   ),
                                 ],
                               ),
@@ -362,12 +329,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: certainly 
-1. Definitely or positively (= surely, sure, for sure, for certain, sure enough, sure as shooting)
-"she certainly is a hard worker";
-
-- Interjection: certainly 
-1. Indicates an affirmative response (= ay [dialect], aye [dialect], sure [informal], uh-huh [informal], yah [UK, informal], yea [informal], yeah [informal], yep [informal], yes, yup [informal], ya [S.Africa, informal])
+- Noun: chador (Derived forms: chadors)
+1. A cloth used as a head covering (and veil and shawl) by Muslim and Hindu women (= chadar, chaddar, chuddar)
 """,
   );
 
@@ -400,8 +363,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bRVueBoZjEA?t=',
-    startSeconds: 46,
+    videoId: 'https://youtu.be/CYoa9hI3CXg?t=',
+    startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +388,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AFS6saV981Q?t=',
-    startSeconds: 2238,
+    videoId: 'https://youtu.be/k3ChZBW2ORg?t=',
+    startSeconds: 318,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +413,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BNPPMs9CvDQ?t=',
-    startSeconds: 515,
+    videoId: 'https://youtu.be/tETp0Pg_k0c?t=',
+    startSeconds: 1731,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +438,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vb-p--iRFew?t=',
-    startSeconds: 572,
+    videoId: 'https://youtu.be/YFjqxbPO2VE?t=',
+    startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +463,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
-    startSeconds: 1235,
+    videoId: 'https://youtu.be/aVmwg9rftCc?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +488,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fbVRnlR_6BM?t=',
-    startSeconds: 279,
+    videoId: 'https://youtu.be/Zv_3YIGHNTk?t=',
+    startSeconds: 349,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +513,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IOuFE-6Awos?t=',
-    startSeconds: 187,
+    videoId: 'https://youtu.be/7YeHCZlZ3rg?t=',
+    startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +538,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 269,
+    videoId: 'https://youtu.be/it9Vr5VHsdo?t=',
+    startSeconds: 845,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

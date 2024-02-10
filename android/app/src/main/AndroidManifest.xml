@@ -8,7 +8,7 @@
     </queries>
 
     <application
-        android:label="zeetionary"
+        android:label="Zeetionary"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

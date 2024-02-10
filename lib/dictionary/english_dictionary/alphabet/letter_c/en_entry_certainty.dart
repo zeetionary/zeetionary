@@ -38,7 +38,7 @@ class EnglishEntrycertainty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertaintys2."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I can't say with any certainty where I'll be next week."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertaintys3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrycertainty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertaintys3."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her return to the team now seems a certainty."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertaintys4(String languageCode) async {

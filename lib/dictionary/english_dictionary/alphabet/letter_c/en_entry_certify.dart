@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycertainly extends StatelessWidget {
+class EnglishEntrycertify extends StatelessWidget {
   // blank divider
-  EnglishEntrycertainly({super.key});
+  EnglishEntrycertify({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcertainly(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertify(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("certainly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("certify"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Without treatment, she will almost certainly die."); // DOPSUM: CHANGE TEXT
+        "He handed her a piece of paper certifying (that) she was in good health."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm certainly never going there again."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was certified dead upon arrival at the hospital."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("‘May I see your passport, Mr Scott?’ ‘Certainly.’"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was certified as a teacher in 2009."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys4."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("As a young man, he had been certified and sent to a hospital for the mentally ill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys5."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys5."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys6."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys6."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys7."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys7."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys8."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys8."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys9."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys9."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys10."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys10."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys11."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys11."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys12."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys12."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcertainlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcertainly
+  Future<void> speakcertifys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcertify
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcertainlys13."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcertifys13."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycertainly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "certainly"),
+                            EntryTitle(word: "certify"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːtnli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɜːtɪfaɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcertainly("en-GB"),
+                              onPressed: () => speakcertify("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrtnli/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrtɪfaɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcertainly("en-US"),
+                              onPressed: () => speakcertify("en-US"),
                             ),
                           ],
                         ),
@@ -191,9 +191,9 @@ class EnglishEntrycertainly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بێ‌گومان، بێ‌شک، بە دڵنیایی‌یەوە، ئەی، هەڵبەت (لە وەڵام‌دانەوەدا)
+کوردی: پشتڕاستکردنەوە، مسۆگەرکردن بڕوانامە پێدان، گەواهی پێدان
 
-١. (ھاوەڵکار) بێ گومان"""),
+١. (کردار) بە فەرمی گوتنی ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,21 +201,21 @@ class EnglishEntrycertainly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Without treatment, she will almost certainly die."),
+                                            "He handed her a piece of paper certifying (that) she was in good health."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت."),
+                                            "پارچە کاغەزێکی پێدا کە پشتڕاستیکردەوە کە کچەکە لە تەندرووستییەکی باشدایە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "certainly", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "certify", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys1("en-GB"),
+                                    onPressed: () => speakcertifys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys1("en-US"),
+                                    onPressed: () => speakcertifys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrycertainly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'm certainly never going there again."),
+                                            "He was certified dead upon arrival at the hospital."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە دڵنیایی‌یەوە ئیتر ناچمەوە ئەوێ."),
+                                            "بە مردوو دەنرا هەرکە گەشتە نەخۆشخانەکە."),
                                   ],
                                 ),
                               ),
@@ -240,10 +240,10 @@ class EnglishEntrycertainly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys2("en-GB"),
+                                    onPressed: () => speakcertifys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys2("en-US"),
+                                    onPressed: () => speakcertifys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -252,7 +252,7 @@ class EnglishEntrycertainly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵکار) لە وەڵامی پرسیاردا بەکاردێت بۆ وتنی ئەوەی بە دڵنیاییەوە ڕازیت یان شتێک دەکەیت"),
+                                  "٢. (کردار) پێدانی بەڵگەنامەیەک بە کەسێک کە پیشانی دەدات کەوا لێوەشاوەیە بۆ کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -260,10 +260,10 @@ class EnglishEntrycertainly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "‘May I see your passport, Mr Scott?’ ‘Certainly.’"),
+                                            "I was certified as a teacher in 2009."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "'دەکرێت پاسپۆرتەکەم ببینم، بەڕێز سکۆت' 'بە دڵنیاییەوە'."),
+                                            "ساڵی ٢٠٠٩ وەک مامۆستا متمانەم پێدرا."),
                                   ],
                                 ),
                               ),
@@ -271,10 +271,41 @@ class EnglishEntrycertainly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys3("en-GB"),
+                                    onPressed: () => speakcertifys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys3("en-US"),
+                                    onPressed: () => speakcertifys3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) بە فەرمی دانانی کەسێک لە ڕووی یاساوە وەک نەخۆش، بەتایبەتی وەک شێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As a young man, he had been certified and sent to a hospital for the mentally ill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک گەنجێک، وەک نەخۆش دانرابوو و نێردرا بۆ نەخۆشخانەیەک کە بۆ کەسانی ناتەواو بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcertifys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcertifys4("en-US"),
                                   ),
                                 ],
                               ),
@@ -362,12 +393,18 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: certainly 
-1. Definitely or positively (= surely, sure, for sure, for certain, sure enough, sure as shooting)
-"she certainly is a hard worker";
-
-- Interjection: certainly 
-1. Indicates an affirmative response (= ay [dialect], aye [dialect], sure [informal], uh-huh [informal], yah [UK, informal], yea [informal], yeah [informal], yep [informal], yes, yup [informal], ya [S.Africa, informal])
+- Verb: certify (Derived forms: certifying, certifies, certified)
+1. Provide evidence for; stand as proof of; show by one's behaviour, attitude, or external attributes (= attest, manifest, demonstrate, evidence)
+ 
+2. Guarantee payment on; of checks
+ 
+3. Authorize officially (= license, licence [Brit, Cdn])
+"I am certified to practice law in this state";
+ 
+4. Guarantee as meeting a certain standard (= endorse, indorse)
+"certified grade AAA meat";
+ 
+5. Declare legally insane
 """,
   );
 
@@ -400,8 +437,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bRVueBoZjEA?t=',
-    startSeconds: 46,
+    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    startSeconds: 2513,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +462,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AFS6saV981Q?t=',
-    startSeconds: 2238,
+    videoId: 'https://youtu.be/LJ0Hfc8hvpE?t=',
+    startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +487,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BNPPMs9CvDQ?t=',
-    startSeconds: 515,
+    videoId: 'https://youtu.be/Gjo1hlIey9g?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +512,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vb-p--iRFew?t=',
-    startSeconds: 572,
+    videoId: 'https://youtu.be/JIgFepXPoT0?t=',
+    startSeconds: 930,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +537,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
-    startSeconds: 1235,
+    videoId: 'https://youtu.be/ek9bmIlDens?t=',
+    startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +562,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fbVRnlR_6BM?t=',
-    startSeconds: 279,
+    videoId: 'https://youtu.be/XwqAInN9HWI?t=',
+    startSeconds: 875,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +587,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IOuFE-6Awos?t=',
-    startSeconds: 187,
+    videoId: 'https://youtu.be/ibWJO02nNsY?t=',
+    startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +612,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 269,
+    videoId: 'https://youtu.be/335DsLpMy-k?t=',
+    startSeconds: 852,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

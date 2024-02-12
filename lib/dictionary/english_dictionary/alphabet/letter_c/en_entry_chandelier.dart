@@ -10,136 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
+class EnglishEntrychandelier extends StatelessWidget {
   // blank divider
-  EnglishEntrychancelloroftheexchequer({super.key});
+  EnglishEntrychandelier({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakChancelloroftheExchequer(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandelier(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Chancellor of the Exchequer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chandelier"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers1(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers1(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Chancellor of the Exchequer presented the annual budget to Parliament."); // DOPSUM: CHANGE TEXT
+        "Guests admired the sparkling crystals hanging from the chandelier in the dining room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers2(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers2(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers3(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers3(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers4(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers4(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers5(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers5(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers6(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers6(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers7(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers7(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers8(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers8(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers9(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers9(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers10(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers10(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers11(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers11(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers12(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers12(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakChancelloroftheExchequers13(String languageCode) async {
-    // DOPSUM: CHANGE speakChancelloroftheExchequer
+  Future<void> speakchandeliers13(String languageCode) async {
+    // DOPSUM: CHANGE speakchandelier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakChancelloroftheExchequers1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchandeliers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -162,27 +149,22 @@ class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Chancellor of the Exchequer"),
+                            EntryTitle(word: "chandelier"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌtʃɑːnsələr əv ði ɪksˈtʃekə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌʃændəˈlɪə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakChancelloroftheExchequer("en-GB"),
+                              onPressed: () => speakchandelier("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌtʃænsələr əv ði ɪksˈtʃekər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌʃændəˈlɪr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () =>
-                                  speakChancelloroftheExchequer("en-US"),
+                              onPressed: () => speakchandelier("en-US"),
                             ),
                           ],
                         ),
@@ -209,7 +191,9 @@ class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) وەزیری دارایی بەریتانیا"""),
+کوردی: چلچرا، ئاوێزە، لالە، لووستر
+
+١. (ناو) لایتێکی جوانکاری کە لە بنبانێکەوە شۆڕدەبێتەوە و ژمارەیەک لقی هەیە کە گڵۆپان پێوەیە، یان لە ڕابردوودا مۆمیان پێوە بوو"""),
                           Row(
                             children: [
                               const Expanded(
@@ -217,25 +201,21 @@ class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The Chancellor of the Exchequer presented the annual budget to Parliament."),
+                                            "Guests admired the sparkling crystals hanging from the chandelier in the dining room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەزیری دارایی بودجەی ساڵانەی بە پەرلەمان پێشکەشکرد."),
+                                            "میوانەکان سەرسام بوون بە کریستاڵە درەوشاوەکە کە لە چلچراکەوە شۆڕبووبوونەوە لە ژووری نان‌خواردنەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Chancellor of the Exchequer", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "chandelier", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakChancelloroftheExchequers1(
-                                            "en-GB"),
+                                    onPressed: () => speakchandeliers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakChancelloroftheExchequers1(
-                                            "en-US"),
+                                    onPressed: () => speakchandeliers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -323,8 +303,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: Chancellor of the Exchequer
-1. The British cabinet minister responsible for finance (= Chancellor)
+- Noun: chandelier (Derived forms: chandeliers)
+1. Branched lighting fixture; often ornate; hangs from the ceiling (= pendant, pendent)
+"enjoyed a luxurious suite with a crystal chandelier and thick oriental rugs";
 """,
   );
 
@@ -357,8 +338,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2DkyahZplFo?t=',
-    startSeconds: 212,
+    videoId: 'https://youtu.be/OA4CMmFRj5o?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -382,8 +363,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VG4Rt51ZzSc?t=',
-    startSeconds: 191,
+    videoId: 'https://youtu.be/mjcywm3qZQE?t=',
+    startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -407,8 +388,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kHC52FFJjfg?t=',
-    startSeconds: 233,
+    videoId: 'https://youtu.be/a_BakAX7M7s?t=',
+    startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -432,8 +413,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v-8t0EfLzQo?t=',
-    startSeconds: 592,
+    videoId: 'https://youtu.be/VzU50UQHSlA?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -457,8 +438,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HJyrY3bRTn4?t=',
-    startSeconds: 168,
+    videoId: 'https://youtu.be/MtvkHQHK4X0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -482,8 +463,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uCC4NxG74i8?t=',
-    startSeconds: 392,
+    videoId: 'https://youtu.be/L0xFaQ94VbE?t=',
+    startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -507,8 +488,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HEszMDXzWsk?t=',
-    startSeconds: 3106,
+    videoId: 'https://youtu.be/PqpCeiYycVM?t=',
+    startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -532,8 +513,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nfmJzU7iObE?t=',
-    startSeconds: 45,
+    videoId: 'https://youtu.be/Axg27gwEqCE?t=',
+    startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

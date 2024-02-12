@@ -837,70 +837,264 @@ class DefinitionKurdish extends ConsumerWidget {
   }
 }
 
-class ExampleSentenceEnglish extends ConsumerWidget {
-  // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
-  final String text;
+// class ExampleSentenceEnglish extends ConsumerWidget {
+//   // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
+//   final String text;
 
-  const ExampleSentenceEnglish({super.key, required this.text});
+//   const ExampleSentenceEnglish({super.key, required this.text});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final textSize = ref.watch(textSizeProvider) + 1;
+
+//     return Padding(
+//       padding: const EdgeInsets.symmetric(horizontal: 4.0),
+//       child: GestureDetector(
+//         // Wrap Text with GestureDetector
+//         onLongPress: () {
+//           Clipboard.setData(ClipboardData(text: text));
+//           ScaffoldMessenger.of(context).showSnackBar(
+//             const SnackBar(content: Text('English sentence copied')),
+//           );
+//         },
+//         child: Align(
+//           alignment: Alignment.topLeft,
+//           child: Text(
+//             text,
+//             style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
+//             textDirection: TextDirection.ltr,
+//             textAlign: TextAlign.left,
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+class ExampleSentenceEnglish extends ConsumerStatefulWidget {
+  final String text;
+  final String? note;
+  // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
+
+  const ExampleSentenceEnglish({super.key, required this.text, this.note});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _ExampleSentenceEnglishState();
+}
+
+class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
+    with SingleTickerProviderStateMixin {
+  bool _showNote = false;
+
+  @override
+  // Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider) + 1;
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: GestureDetector(
-        // Wrap Text with GestureDetector
-        onLongPress: () {
-          Clipboard.setData(ClipboardData(text: text));
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('English sentence copied')),
-          );
-        },
-        child: Align(
-          alignment: Alignment.topLeft,
-          child: Text(
-            text,
-            style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
-            textDirection: TextDirection.ltr,
-            textAlign: TextAlign.left,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisSize: MainAxisSize.max, // Ensure Row takes minimum width
+            children: [
+              Expanded(
+                child: GestureDetector(
+                  // Wrap Text with GestureDetector
+                  onLongPress: () {
+                    Clipboard.setData(ClipboardData(text: widget.text));
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('English sentence copied')),
+                    );
+                  },
+                  child: Text(
+                    widget.text,
+                    style: TextStyle(
+                      fontSize: textSize,
+                      fontWeight: FontWeight.w400,
+                    ),
+                    textDirection: TextDirection.ltr,
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+              ),
+              if (widget.note != null && widget.note!.isNotEmpty)
+                IconButton(
+                  padding: EdgeInsets.zero,
+                  iconSize: 16.0, // Optional: Adjust size for flush appearance
+                  onPressed: () {
+                    setState(() {
+                      _showNote = !_showNote;
+                    });
+                  },
+                  icon: Icon(_showNote ? Icons.expand_less : Icons.expand_more),
+                ),
+            ],
           ),
-        ),
+          if (_showNote && widget.note != null && widget.note!.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).primaryColor.withOpacity(0.01),
+                  border: Border.all(
+                    color: Theme.of(context).primaryColor.withOpacity(0.18),
+                    width: 1.0,
+                  ),
+                  borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Note: ${widget.note}',
+                    textDirection: TextDirection.ltr,
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+              ),
+            ),
+        ],
       ),
     );
   }
 }
 
-class ExampleSentenceKurdish extends ConsumerWidget {
-  final String text;
+// class ExampleSentenceKurdish extends ConsumerWidget {
+//   final String text;
 
-  const ExampleSentenceKurdish({super.key, required this.text});
+//   const ExampleSentenceKurdish({super.key, required this.text});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final textSize = ref.watch(textSizeProvider) + 1;
+
+//     return Align(
+//       alignment: Alignment.topRight,
+//       child: GestureDetector(
+//         // Wrap Text with GestureDetector
+//         onLongPress: () {
+//           Clipboard.setData(ClipboardData(text: text));
+//           ScaffoldMessenger.of(context).showSnackBar(
+//             const SnackBar(
+//               content: Directionality(
+//                 textDirection: TextDirection.rtl,
+//                 child: Text('ڕستەی کوردی لەبەرگیرایەوە'),
+//               ),
+//             ),
+//           );
+//         },
+//         child: Text(
+//           text,
+//           style: TextStyle(fontSize: textSize),
+//           textDirection: TextDirection.rtl,
+//           textAlign: TextAlign.right,
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+class ExampleSentenceKurdish extends ConsumerStatefulWidget {
+  final String text;
+  final String? note;
+  // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
+
+  const ExampleSentenceKurdish({super.key, required this.text, this.note});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _ExampleSentenceKurdishState();
+}
+
+class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
+    with SingleTickerProviderStateMixin {
+  bool _showNote = false;
+
+  @override
+  // Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider) + 1;
 
-    return Align(
-      alignment: Alignment.topRight,
-      child: GestureDetector(
-        // Wrap Text with GestureDetector
-        onLongPress: () {
-          Clipboard.setData(ClipboardData(text: text));
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Directionality(
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisSize: MainAxisSize.max, // Ensure Row takes minimum width
+            children: [
+              if (widget.note != null && widget.note!.isNotEmpty)
+                IconButton(
+                  padding: EdgeInsets.zero,
+                  iconSize: 16.0, // Optional: Adjust size for flush appearance
+                  onPressed: () {
+                    setState(() {
+                      _showNote = !_showNote;
+                    });
+                  },
+                  icon: Icon(_showNote ? Icons.expand_less : Icons.expand_more),
+                ),
+              Expanded(
+                child: Align(
+                  alignment: Alignment.topRight,
+                  child: GestureDetector(
+                    // Wrap Text with GestureDetector
+                    onLongPress: () {
+                      Clipboard.setData(ClipboardData(text: widget.text));
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Directionality(
+                            textDirection: TextDirection.rtl,
+                            child: Text('ڕستەی کوردی لەبەرگیرایەوە'),
+                          ),
+                        ),
+                      );
+                    },
+                    child: Text(
+                      widget.text,
+                      style: TextStyle(
+                        fontSize: textSize,
+                        fontWeight: FontWeight.w400,
+                      ),
+                      textDirection: TextDirection.rtl,
+                      textAlign: TextAlign.right,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          if (_showNote && widget.note != null && widget.note!.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Directionality(
                 textDirection: TextDirection.rtl,
-                child: Text('ڕستەی کوردی لەبەرگیرایەوە'),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor.withOpacity(0.01),
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.18),
+                      width: 1.0,
+                    ),
+                    borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Directionality(
+                      textDirection: TextDirection.rtl,
+                      child: Text(
+                        'تێبینی: ${widget.note}',
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
-          );
-        },
-        child: Text(
-          text,
-          style: TextStyle(fontSize: textSize),
-          textDirection: TextDirection.rtl,
-          textAlign: TextAlign.right,
-        ),
+        ],
       ),
     );
   }

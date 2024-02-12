@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ceramic (Derived forms: ceramics)
+- Noun: ceramic (derived forms: ceramics)
 1. (ceramics) an artifact made of hard brittle material produced from nonmetallic minerals by firing at high temperatures
 
 - Adjective: ceramic 

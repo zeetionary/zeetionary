@@ -290,7 +290,7 @@ class EnglishEntrybabble extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (کردار) درووستکردنی ئەو دەنگەی کە ئاو درووستی‌داکات کە بەسەر بەرددا تێدەپەڕێت"""),
+٥. (کردار) درووستکردنی ئەو دەنگەی کە ئاو درووستی دەکات کە بەسەر بەرددا تێدەپەڕێت"""),
                           Row(
                             children: [
                               const Expanded(

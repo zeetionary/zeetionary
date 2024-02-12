@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cattle (Derived forms: cattle)
+- Noun: cattle (derived forms: cattle)
 1. Domesticated bovine animals as a group regardless of sex or age (= cows, kine [archaic], oxen, Bos taurus)
 "so many head of cattle";
 """,

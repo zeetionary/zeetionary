@@ -48,7 +48,7 @@ class EnglishEntrychalk extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("A message was chalked on the door.0"); // DOPSUM: CHANGE TEXT
+        .speak("A message was chalked on the door."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchalks4(String languageCode) async {
@@ -206,7 +206,7 @@ class EnglishEntrychalk extends StatelessWidget {
                                             "The artist used chalk to create sculptures in the park."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هونەرمەندەکە گەچی بەکارهێنا بۆ درووستکردنی پەیکەر لە پارکەکە."),
+                                            "ھونەرمەندەکە گەچی بەکارھێنا بۆ درووستکردنی پەیکەر لە پارکەکە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrychalk extends StatelessWidget {
                                             "The teacher used chalk to write on the blackboard during the lesson."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستاکە تەباشیری بەکارهێنا بۆ نووسین لەسەر تەختەڕەشەکە لە وانەکەدا."),
+                                            "مامۆستاکە تەباشیری بەکارھێنا بۆ نووسین لەسەر تەختەڕەشەکە لە وانەکەدا."),
                                   ],
                                 ),
                               ),
@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chalk (Derived forms: chalks)
+- Noun: chalk (derived forms: chalks)
 1. A piece of calcite or a similar substance, usually in the shape of a crayon, that is used to write or draw on blackboards or other flat surfaces
  
 2. A soft whitish calcite
@@ -373,7 +373,7 @@ ${englishMeaningConst.text}
  
 4. [informal] An amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant (= methamphetamine, methamphetamine hydrochloride, Methedrine, meth [informal], deoxyephedrine, crank [informal], glass [informal], ice [informal], shabu [Asia, informal], trash [informal], gak [informal], crystal meth)
 
-- Verb: chalk (Derived forms: chalks, chalked, chalking)
+- Verb: chalk (derived forms: chalks, chalked, chalking)
 1. Write, draw, or trace with chalk
 """,
   );
@@ -407,7 +407,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2SPPoW5G54Q?t=',
+    videoId: '2SPPoW5G54Q',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZOY5Y9wAdic?t=',
+    videoId: 'ZOY5Y9wAdic',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aDsdOUgR7g4',
+    videoId: 'aDsdOUgR7g4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PhNUjg9X4g8',
+    videoId: 'PhNUjg9X4g8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ixT69MD__y4?t=',
+    videoId: 'ixT69MD__y4',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8P1ZUKOc3-8?t=',
+    videoId: '8P1ZUKOc3-8',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z7gMD54ixuU?t=',
+    videoId: 'z7gMD54ixuU',
     startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IqHUO4h8tZY?t=',
+    videoId: 'IqHUO4h8tZY',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

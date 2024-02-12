@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catchphrase (Derived forms: catchphrases, catch phrases)
+- Noun: catchphrase (derived forms: catchphrases, catch phrases)
 1. A phrase that has become a catchword (= catch phrase)
 """,
   );

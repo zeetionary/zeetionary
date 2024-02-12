@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chamber of commerce (Derived forms: chambers of commerce)
+- Noun: chamber of commerce (derived forms: chambers of commerce)
 1. An association of businessmen to protect and promote business interests
 """,
   );
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uj1R-jGQ-ac',
+    videoId: 'uj1R-jGQ-ac',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JbF41olilTQ?t=',
+    videoId: 'JbF41olilTQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQS_ZPIETUE?t=',
+    videoId: 'FQS_ZPIETUE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tF231jhUeVQ?t=',
+    videoId: 'tF231jhUeVQ',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FK1yY-R-NsM',
+    videoId: 'FK1yY-R-NsM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gmjd6Zad1Ag?t=',
+    videoId: 'Gmjd6Zad1Ag',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oL0umpPPe-8?t=',
+    videoId: 'oL0umpPPe-8',
     startSeconds: 1017,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k58GhBzPJz4?t=',
+    videoId: 'k58GhBzPJz4',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(

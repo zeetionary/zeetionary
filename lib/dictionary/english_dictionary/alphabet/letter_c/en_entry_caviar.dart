@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caviar (Derived forms: caviars)
+- Noun: caviar (derived forms: caviars)
 1. Salted roe of sturgeon or other large fish; usually served as an hors d'oeuvre (= caviare)
 """,
   );

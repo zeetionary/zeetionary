@@ -221,7 +221,7 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                                             "Do you believe that your government could be bloody-minded enough to kill 300 innocent civilians?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باوەڕت وایە حکونەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟"),
+                                            "باوەڕت وایە حکومەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟"),
                                   ],
                                 ),
                               ),

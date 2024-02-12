@@ -976,7 +976,7 @@ class EnglishEntrycarry extends StatelessWidget {
                                             "The charge carries a maximum sentence of ten years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تاوانەکە سزای زیندانی ئەوپەڕی بۆ ١٠ ساڵی لەسەرە ."),
+                                            "تاوانەکە سزای زیندانی ئەوپەڕی بۆ ١٠ ساڵی لەسەرە."),
                                   ],
                                 ),
                               ),

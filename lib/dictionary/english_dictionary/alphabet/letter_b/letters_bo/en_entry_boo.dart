@@ -156,7 +156,7 @@ class EnglishEntryboo extends StatelessWidget {
                                             "The speech was greeted with loud boos from the audience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتارەکە بە ھاواری بەرزەوە لەلایەن جەماوەرەکەوە پێشوازی لێکرا ."),
+                                            "وتارەکە بە ھاواری بەرزەوە لەلایەن جەماوەرەکەوە پێشوازی لێکرا."),
                                   ],
                                 ),
                               ),

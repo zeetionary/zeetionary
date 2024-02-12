@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cellulite (Derived forms: cellulites)
+- Noun: cellulite (derived forms: cellulites)
 1. Lumpy deposits of body fat especially on women's thighs etc.
 """,
   );

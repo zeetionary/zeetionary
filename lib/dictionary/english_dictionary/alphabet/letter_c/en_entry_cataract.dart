@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cataract (Derived forms: cataracts)
+- Noun: cataract (derived forms: cataracts)
 1. An eye disease that involves the clouding or opacification of the natural lens of the eye
  
 2. A large waterfall; violent rush of water over a precipice

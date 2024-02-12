@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: catchy (Derived forms: catchiest, catchier)
+- Adjective: catchy (derived forms: catchiest, catchier)
 1. Having concealed difficulty (= tricky)
 "a catchy question";
  

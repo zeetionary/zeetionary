@@ -300,7 +300,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cauliflower (Derived forms: cauliflowers)
+- Noun: cauliflower (derived forms: cauliflowers)
 1. A plant having a large edible head of crowded white flower buds (= Brassica oleracea botrytis)
  
 2. Compact head of white undeveloped flowers

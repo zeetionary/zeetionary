@@ -387,14 +387,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cease (Derived forms: ceasing, ceased, ceases)
+- Verb: cease (derived forms: ceasing, ceased, ceases)
 1. Put an end to a state or an activity (= discontinue, stop, give up, quit, lay off, surcease [archaic])
 "cease teasing your little brother";
  
 2. Have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical (= end, stop, finish, terminate)
 "My property ceases by the bushes";
 
-- Noun: cease (Derived forms: ceases)
+- Noun: cease (derived forms: ceases)
 1. ('cease' is a noun only in the phrase 'without cease') end
 """,
   );

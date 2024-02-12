@@ -193,7 +193,7 @@ class EnglishEntrychambermaid extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: خزمەت‌کاری ژن، کارەکەر
 
-١. (ناو) ژنە خزمەتکارێک کە کاری پاککردنەوەی ژووری نووستن دەکات، بەتایبەتی لە هوتێلدا"""),
+١. (ناو) ژنە خزمەتکارێک کە کاری پاککردنەوەی ژووری نووستن دەکات، بەتایبەتی لە ھوتێلدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrychambermaid extends StatelessWidget {
                                             "The diligent chambermaid takes pride in keeping the hotel rooms clean and comfortable."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژنە کارەکەرە زەحمەتکێشەکە شانازی دەکات بە ڕاگرتنی ژوورەکانی هوتێلەکە بە پاکی و ئاسوودەبەخشی ."),
+                                            "ژنە کارەکەرە زەحمەتکێشەکە شانازی دەکات بە ڕاگرتنی ژوورەکانی ھوتێلەکە بە پاکی و ئاسوودەبەخشی."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chambermaid (Derived forms: chambermaids)
+- Noun: chambermaid (derived forms: chambermaids)
 1. A maid who is employed to clean and care for bedrooms (now primarily in hotels) (= fille de chambre)
 """,
   );
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Tpnr6sKtccg?t=',
+    videoId: 'Tpnr6sKtccg',
     startSeconds: 727,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WdFMCxaxVOo?t=',
+    videoId: 'WdFMCxaxVOo',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PLS6K4uVIvc?t=',
+    videoId: 'PLS6K4uVIvc',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W7S_d3qa6so?t=',
+    videoId: 'W7S_d3qa6so',
     startSeconds: 786,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ck5NUPMFHAk?t=',
+    videoId: 'Ck5NUPMFHAk',
     startSeconds: 285,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yZ8wzG0J6NY?t=',
+    videoId: 'yZ8wzG0J6NY',
     startSeconds: 861,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wXuhbH-zveE?t=',
+    videoId: 'wXuhbH-zveE',
     startSeconds: 133,
     autoPlay: true,
     params: const YoutubePlayerParams(

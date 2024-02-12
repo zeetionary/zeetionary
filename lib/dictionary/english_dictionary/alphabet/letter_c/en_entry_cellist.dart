@@ -201,7 +201,8 @@ class EnglishEntrycellist extends StatelessWidget {
                                         text:
                                             "He was principal cellist of the Atlanta Symphony Orchestra."),
                                     ExampleSentenceKurdish(
-                                        text: "چەلۆژەنی سەرەکی ئۆرکێسترای سیمفۆنیای ئەتلانتا بوو."),
+                                        text:
+                                            "چەلۆژەنی سەرەکی ئۆرکێسترای سیمفۆنیای ئەتلانتا بوو."),
                                   ],
                                 ),
                               ),
@@ -230,11 +231,11 @@ class EnglishEntrycellist extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -301,7 +302,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: cellist 
-1. Someone who plays a violoncello (= Derived forms: cellists)
+1. Someone who plays a violoncello (= derived forms: cellists)
 """,
   );
 

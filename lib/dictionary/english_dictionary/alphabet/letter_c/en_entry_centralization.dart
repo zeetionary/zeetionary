@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: centralization (Derived forms: centralizations)
+- Noun: centralization (derived forms: centralizations)
 1. The act of consolidating power under a central control (= centralisation [Brit])
  
 2. Gathering to a centre (= centralisation [Brit])

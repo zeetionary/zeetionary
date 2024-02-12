@@ -2001,7 +2001,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: catch (Derived forms: caught, catches, catching)
+- Verb: catch (derived forms: caught, catches, catching)
 1. Take hold of so as to seize, restrain or stop the motion of (= grab, take hold of)
 "Catch the ball!";
 
@@ -2089,7 +2089,7 @@ ${englishMeaningConst.text}
 29. (baseball) be the catcher
 "Who is catching?"
 
-- Noun: catch (Derived forms: catches)
+- Noun: catch (derived forms: catches)
 1. A drawback or difficulty that is not readily evident
 "it sounds good but what's the catch?"
  

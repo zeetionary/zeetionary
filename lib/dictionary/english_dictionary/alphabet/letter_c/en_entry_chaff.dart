@@ -206,7 +206,7 @@ class EnglishEntrychaff extends StatelessWidget {
                                             "While not directly consumed, chaff has various uses, including animal feed and bedding."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەرچی ڕاستەوخۆ بەکارنایەت، بەڵام سۆس ژمارەیەک بەکارهێنانی هەیە، وەک بۆ ئالیکی ئاژەڵ و جێگەی نووستنیان، ."),
+                                            "ئەگەرچی ڕاستەوخۆ بەکارنایەت، بەڵام سۆس ژمارەیەک بەکارھێنانی ھەیە، وەک بۆ ئالیکی ئاژەڵ و جێگەی نووستنیان."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrychaff extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) گەڵتەکردن بە کەسێک بەشێوەیەکی هاوڕێیانە"),
+                                  "٣. (کردار) گەڵتەکردن بە کەسێک بەشێوەیەکی ھاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,7 +268,7 @@ class EnglishEntrychaff extends StatelessWidget {
                                             "Colleagues chaffed the new employee about his first presentation, but it was all in good fun."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوکارەکان توانجیان دا لە کارمەندە تازەکە لەسەر یەکەم پریزێنتەیشنی، بەڵام هەموو بە گاڵتەوە بوو."),
+                                            "ھاوکارەکان توانجیان دا لە کارمەندە تازەکە لەسەر یەکەم پریزێنتەیشنی، بەڵام ھەموو بە گاڵتەوە بوو."),
                                   ],
                                 ),
                               ),
@@ -367,12 +367,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chaff (Derived forms: chaffs)
+- Noun: chaff (derived forms: chaffs)
 1. Material consisting of seed coverings and small pieces of stem or leaves that have been separated from the seeds (= husk, shuck [N. Amer], stalk, straw, stubble)
  
 2. Foil in thin strips; ejected into the air as a radar countermeasure
 
-- Verb: chaff (Derived forms: chaffed, chaffs, chaffing)
+- Verb: chaff (derived forms: chaffed, chaffs, chaffing)
 1. Be silly or tease one another (= kid [informal], jolly [informal], josh [informal], banter)
 "After we relaxed, we just chaffed around";
 """,
@@ -407,7 +407,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q8vNtLhdvqM?t=',
+    videoId: 'Q8vNtLhdvqM',
     startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3E17wr77ffM?t=',
+    videoId: '3E17wr77ffM',
     startSeconds: 742,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sY8aFSY2zv4?t=',
+    videoId: 'sY8aFSY2zv4',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/clupWNtyksE?t=',
+    videoId: 'clupWNtyksE',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rsnnmlIqS2M?t=',
+    videoId: 'rsnnmlIqS2M',
     startSeconds: 752,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Yz78dFgjKQ?t=',
+    videoId: '-Yz78dFgjKQ',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8wAgaNPRnbU?t=',
+    videoId: '8wAgaNPRnbU',
     startSeconds: 515,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nf3maJWJgSo?t=',
+    videoId: 'nf3maJWJgSo',
     startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(

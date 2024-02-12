@@ -203,7 +203,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەرەنگاری، بەرەنگارخوازی، بەرەنگاربوونەوە، بەگژداچوون(ەوە)، تێخوڕین، لەڕووداوێستان، بەرپەرچ‌دانەوە، بانگ‌کردن بۆ شەڕ یان پێشبڕکێ، هاڕەوگیفە خۆهەڵکێشی، دژایەتی، ناکۆکی،	دەستوور یان فەرمانی وێستان
+کوردی: بەرەنگاری، بەرەنگارخوازی، بەرەنگاربوونەوە، بەگژداچوون(ەوە)، تێخوڕین، لەڕووداوێستان، بەرپەرچ‌دانەوە، بانگ‌کردن بۆ شەڕ یان پێشبڕکێ، ھاڕەوگیفە خۆھەڵکێشی، دژایەتی، ناکۆکی،	دەستوور یان فەرمانی وێستان
 
 ١. (ناو) ئەرکێکی قورس کە توانا و شارەزایی کەسێک تاقیدەکاتەوە"""),
                           Row(
@@ -216,7 +216,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "The role will be the biggest challenge of his acting career."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆڵەکە دەبێتە قورسترین بەرەنگاریی کاری هونەریی."),
+                                            "ڕۆڵەکە دەبێتە قورسترین بەرەنگاریی کاری ھونەریی."),
                                   ],
                                 ),
                               ),
@@ -244,7 +244,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "She still faces many challenges (= has to deal with them)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا ڕووبەڕووی زۆر سەختی دەبێتەوە."),
+                                            "ھێشتا ڕووبەڕووی زۆر سەختی دەبێتەوە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                                     "The greatest challenge facing the region is unemployment."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "گەورەترین دژواری ژە ڕووبەڕووی هەرێمەکە بووەتەوە بێ‌کارییە."),
+                                                    "گەورەترین دژواری ژە ڕووبەڕووی ھەرێمەکە بووەتەوە بێ‌کارییە."),
                                           ],
                                         ),
                                       ),
@@ -331,7 +331,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پێشنیار یان بانگهێشتی کەسێک بۆ چوونە ناو پێشبڕکێیەک، شەڕێک، هتد"),
+                                  "٢. (ناو) پێشنیار یان بانگھێشتی کەسێک بۆ چوونە ناو پێشبڕکێیەک، شەڕێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -342,7 +342,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "She accepted his challenge to a debate on the issue."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاڵنجی ئەوی بۆ هەبوونی دیبەیت لەسەر کێشەکە پەسەندکرد."),
+                                            "چاڵنجی ئەوی بۆ ھەبوونی دیبەیت لەسەر کێشەکە پەسەندکرد."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) وتەیەک یان کردارێک کە پیشانی دەدات کە کەسێک ڕەتی‌دەکاتەوە شتێک پەسەند بکات و گومانی هەیە کە ڕاست، یاسایی، هتد بێت"),
+                                  "٣. (ناو) وتەیەک یان کردارێک کە پیشانی دەدات کە کەسێک ڕەتی‌دەکاتەوە شتێک پەسەند بکات و گومانی ھەیە کە ڕاست، یاسایی، ھتد بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -373,7 +373,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "Their legal challenge was unsuccessful."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەڵستییە یاساییەکەیان شکستخواردوو بوو."),
+                                            "بەرھەڵستییە یاساییەکەیان شکستخواردوو بوو."),
                                   ],
                                 ),
                               ),
@@ -401,7 +401,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "It was a direct challenge to the president's authority."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەڵستی ڕاستەوخۆی دەسەڵاتەکانی سەرۆک بوو."),
+                                            "بەرھەڵستی ڕاستەوخۆی دەسەڵاتەکانی سەرۆک بوو."),
                                   ],
                                 ),
                               ),
@@ -431,7 +431,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "His legal team immediately sought to challenge the decision."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمە یاساییەکەی دەستبەجێ ویستیان بەرهەڵستی بڕیارەکە بکەن."),
+                                            "تیمە یاساییەکەی دەستبەجێ ویستیان بەرھەڵستی بڕیارەکە بکەن."),
                                   ],
                                 ),
                               ),
@@ -459,7 +459,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "She does not like anyone challenging her authority."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزی بە هیچ کەس نییە بەرهەڵستی دەسەڵاتەکانی بکات."),
+                                            "حەزی بە ھیچ کەس نییە بەرھەڵستی دەسەڵاتەکانی بکات."),
                                   ],
                                 ),
                               ),
@@ -490,7 +490,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "The opposition leader challenged the prime minister to call an election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرۆکی ئۆپۆزسیۆن تەحەدای سەرۆک وەزیرانی کرد بڕیاری هەڵبژاردن بدات."),
+                                            "سەرۆکی ئۆپۆزسیۆن تەحەدای سەرۆک وەزیرانی کرد بڕیاری ھەڵبژاردن بدات."),
                                   ],
                                 ),
                               ),
@@ -510,7 +510,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) چوونە پێشبڕکێیەکەوە دژ بە کەسێک بۆ بەدەستهێنانی  شتێک یان بردنی شتێک لێیان"),
+                                  "٦. (کردار) چوونە پێشبڕکێیەکەوە دژ بە کەسێک بۆ بەدەستھێنانی  شتێک یان بردنی شتێک لێیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -552,7 +552,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                                             "No one has seriously challenged the champion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ کەس بەرەنگاری نەبووە وەک پاڵەوانێک."),
+                                            "ھیچ کەس بەرەنگاری نەبووە وەک پاڵەوانێک."),
                                   ],
                                 ),
                               ),
@@ -682,7 +682,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: challenge (Derived forms: challenging, challenges, challenged)
+- Verb: challenge (derived forms: challenging, challenges, challenged)
 1. Question the truth or validity of; take exception to (= dispute, gainsay)
 "She challenged his claims";
  
@@ -694,7 +694,7 @@ ${englishMeaningConst.text}
  
 4. (law) raise a formal objection in a court of law (= take exception)
 
-- Noun: challenge (Derived forms: challenges)
+- Noun: challenge (derived forms: challenges)
 1. A demanding or stimulating situation
 "they reacted irrationally to the challenge of Russian power"
  
@@ -738,7 +738,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QhjY1u8scAk?t=',
+    videoId: 'QhjY1u8scAk',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -763,7 +763,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RsFb2DubRDI?t=',
+    videoId: 'RsFb2DubRDI',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -788,7 +788,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UedulOcGomw?t=',
+    videoId: 'UedulOcGomw',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -813,7 +813,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q2hxlxWYTN0?t=',
+    videoId: 'Q2hxlxWYTN0',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -838,7 +838,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -863,7 +863,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    videoId: 'lVoGZiL-kns',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -888,7 +888,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 95,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -913,7 +913,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 927,
     autoPlay: true,
     params: const YoutubePlayerParams(

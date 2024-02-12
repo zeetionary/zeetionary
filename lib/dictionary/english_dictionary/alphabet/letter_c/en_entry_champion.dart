@@ -235,7 +235,7 @@ class EnglishEntrychampion extends StatelessWidget {
                                             "The reigning champion will defend her title tonight."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قارەمانی هەنووکە ئەمشەو پارێزگاری لە پێگەکەی دەکات."),
+                                            "قارەمانی ھەنووکە ئەمشەو پارێزگاری لە پێگەکەی دەکات."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntrychampion extends StatelessWidget {
                                             "He has championed constitutional reform for many years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ چەندین ساڵە پاڵپشتی لە هەمواری دەستوور کردووە."),
+                                            "بۆ چەندین ساڵە پاڵپشتی لە ھەمواری دەستوور کردووە."),
                                   ],
                                 ),
                               ),
@@ -396,7 +396,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: champion (Derived forms: champions)
+- Noun: champion (derived forms: champions)
 1. Someone who has won first place in a competition (= champ [informal], title-holder)
  
 2. Someone who fights for a cause (= fighter, hero, paladin [archaic])
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
  
 4. Someone who is dazzlingly skilled in any field (= ace [informal], adept, sensation, maven [US, informal], mavin [US, informal], virtuoso, genius, hotshot [informal], star, superstar, whiz [informal], whizz [informal], wizard [informal], wiz [informal], megastar [informal])
 
-- Verb: champion (Derived forms: champions, championing, championed)
+- Verb: champion (derived forms: champions, championing, championed)
 1. Protect or fight for as a champion (= defend)
 
 - Adjective: champion 
@@ -444,7 +444,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UK6DOkdmP_Y?t=',
+    videoId: 'UK6DOkdmP_Y',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KNlp4KKzqt0?t=',
+    videoId: 'KNlp4KKzqt0',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qrfv23ekrfQ?t=',
+    videoId: 'Qrfv23ekrfQ',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4tYFPbEUV-M?t=',
+    videoId: '4tYFPbEUV-M',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1774,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ea4Tq7HB7kU?t=',
+    videoId: 'ea4Tq7HB7kU',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EtgxTKuN018?t=',
+    videoId: 'EtgxTKuN018',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jFk-L7Wcg0g?t=',
+    videoId: 'jFk-L7Wcg0g',
     startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(

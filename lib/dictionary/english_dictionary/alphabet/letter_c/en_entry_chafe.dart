@@ -38,7 +38,8 @@ class EnglishEntrychafe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Young people often go through a phase of chafing under parental control."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Young people often go through a phase of chafing under parental control."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchafes3(String languageCode) async {
@@ -193,7 +194,7 @@ class EnglishEntrychafe extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پێست‌داماڵکان، تۆخ‌داماڵکان، داماڵکاوی، ڕووشان، برین
 
-١. (کردار) هەبوونی ئازار یان ئازارپێ‌گەیاندن بەهۆی ئەوەی شتێک پێیدا دەڕووشێت"""),
+١. (کردار) ھەبوونی ئازار یان ئازارپێ‌گەیاندن بەھۆی ئەوەی شتێک پێیدا دەڕووشێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -224,7 +225,7 @@ class EnglishEntrychafe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بێزار سەبارەت بە شتێک، بەتایبەتی بەهۆی ئەوەی جوڵەت سنووردار دەکات"),
+                                  "٢. (کردار) بێزار سەبارەت بە شتێک، بەتایبەتی بەھۆی ئەوەی جوڵەت سنووردار دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +236,7 @@ class EnglishEntrychafe extends StatelessWidget {
                                             "Young people often go through a phase of chafing under parental control."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەسانی گەنج زۆرجار تێپەڕدەبن بە ماوەیەک لە بێزاری بەهۆی جڵەوگرتنی دایک و باوکەوە."),
+                                            "کەسانی گەنج زۆرجار تێپەڕدەبن بە ماوەیەک لە بێزاری بەھۆی جڵەوگرتنی دایک و باوکەوە."),
                                   ],
                                 ),
                               ),
@@ -334,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chafe (Derived forms: chafing, chafed, chafes)
+- Verb: chafe (derived forms: chafing, chafed, chafes)
 1. Become or make sore by or as if by rubbing (= gall, fret)
  
 2. Feel extreme irritation or anger
@@ -351,7 +352,7 @@ ${englishMeaningConst.text}
  
 6. Warm by rubbing, as with the hands
 
-- Noun: chafe (Derived forms: chafes)
+- Noun: chafe (derived forms: chafes)
 1. Soreness and warmth caused by friction
 "he had a nasty chafe on his knee"
  
@@ -388,7 +389,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DHLRj1LaPiQ?t=',
+    videoId: 'DHLRj1LaPiQ',
     startSeconds: 1331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +414,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-74PvYSeQ4E?t=',
+    videoId: '-74PvYSeQ4E',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +439,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J5J7o5sJ5f8?t=',
+    videoId: 'J5J7o5sJ5f8',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +464,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EaDWQqmuC4g?t=',
+    videoId: 'EaDWQqmuC4g',
     startSeconds: 1958,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +489,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oIoriVDjtSI?t=',
+    videoId: 'oIoriVDjtSI',
     startSeconds: 449,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +514,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DWbxIFC0Q2o?t=',
+    videoId: 'DWbxIFC0Q2o',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +539,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-_PU0cRZ9wg?t=',
+    videoId: '-_PU0cRZ9wg',
     startSeconds: 1217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +564,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TDMd40a-A4c?t=',
+    videoId: 'TDMd40a-A4c',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -373,7 +373,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catchment area (Derived forms: catchment areas)
+- Noun: catchment area (derived forms: catchment areas)
 1. The entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet (= river basin, basin, watershed, drainage basin, catchment basin, drainage area)
 "flood control in the Missouri catchment area";
 """,

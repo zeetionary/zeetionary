@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cemetery (Derived forms: cemeteries)
+- Noun: cemetery (derived forms: cemeteries)
 1. A tract of land used for burials (= graveyard, burial site, burial ground, burying ground, memorial park, necropolis, boneyard [informal])
 """,
   );

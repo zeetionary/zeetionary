@@ -205,7 +205,7 @@ class EnglishEntrychamois extends StatelessWidget {
                                             "The chamois's keen sense of balance allows it to traverse narrow ledges and cliffs with ease."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی تیژی هاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت ."),
+                                            "ھەستی تیژی ھاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت."),
                                   ],
                                 ),
                               ),
@@ -225,7 +225,7 @@ class EnglishEntrychamois extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پارچەیەکی نەرم کە لە پێستی بزن، مەڕ، هتد درووستکراوە و بۆ پاککردنەوە بەکاردێت"),
+                                  "٢. (ناو) پارچەیەکی نەرم کە لە پێستی بزن، مەڕ، ھتد درووستکراوە و بۆ پاککردنەوە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrychamois extends StatelessWidget {
                                             "After washing the windows, the cleaner used a chamois to wipe away streaks and spots."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەدوای شۆردنی پەنجەرەکان، پاککەرەوەکە تیمانجێکی بەکارهێنا بۆ سڕینی هێڵ و خاڵەکان."),
+                                            "لەدوای شۆردنی پەنجەرەکان، پاککەرەوەکە تیمانجێکی بەکارھێنا بۆ سڕینی ھێڵ و خاڵەکان."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chamois (Derived forms: chamois)
+- Noun: chamois (derived forms: chamois)
 
 1. A soft suede leather formerly from the skin of the chamois antelope but now from sheepskin (= chamois leather, chammy, chammy leather, shammy, shammy leather) 
  
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1jNOGxTNHhw?t=',
+    videoId: '1jNOGxTNHhw',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D-dN47z8S4Q?t=',
+    videoId: 'D-dN47z8S4Q',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SbqVQbPrHqo',
+    videoId: 'SbqVQbPrHqo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hH2n1MX2rzg?t=',
+    videoId: 'hH2n1MX2rzg',
     startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ary5gNCeKPY?t=',
+    videoId: 'ary5gNCeKPY',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zop_r7w2flM?t=',
+    videoId: 'Zop_r7w2flM',
     startSeconds: 522,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4uMBINlVubQ?t=',
+    videoId: '4uMBINlVubQ',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SlJpGqUBvSA?t=',
+    videoId: 'SlJpGqUBvSA',
     startSeconds: 308,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wzsoRrR7CdE?t=',
+    videoId: 'wzsoRrR7CdE',
     startSeconds: 1825,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TX9f2u6tUWw?t=',
+    videoId: 'TX9f2u6tUWw',
     startSeconds: 244,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-hvDiJIp8O4?t=',
+    videoId: '-hvDiJIp8O4',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -647,7 +647,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CbABrFZ6s0Q?t=',
+    videoId: 'CbABrFZ6s0Q',
     startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(

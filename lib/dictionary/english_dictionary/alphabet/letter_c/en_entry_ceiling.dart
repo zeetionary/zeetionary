@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ceiling (Derived forms: ceilings)
+- Noun: ceiling (derived forms: ceilings)
 1. The overhead upper surface of a covered space
 "he hated painting the ceiling"
  
@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
  
 4. Maximum altitude at which a plane can fly (under specified conditions)
 
-- Verb: ceil (Derived forms: ceilings)
+- Verb: ceil (derived forms: ceilings)
 Usage: archaic
 1. To line or finish a surface, as of a wall, with plaster, stucco, thin boards, or the like
  

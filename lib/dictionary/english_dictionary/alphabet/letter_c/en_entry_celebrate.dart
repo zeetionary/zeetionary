@@ -463,7 +463,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: celebrate (Derived forms: celebrated, celebrates, celebrating)
+- Verb: celebrate (derived forms: celebrated, celebrates, celebrating)
 1. Behave as expected during holidays or rites (= observe, keep)
 "celebrate Christmas";
 

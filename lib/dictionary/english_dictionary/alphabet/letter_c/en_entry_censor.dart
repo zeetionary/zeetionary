@@ -364,12 +364,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: censor (Derived forms: censors)
+- Noun: censor (derived forms: censors)
 1. Someone who censures or condemns
  
 2. A person who is authorized to read publications or correspondence or to watch theatrical performances and suppress in whole or in part anything considered obscene or politically unacceptable
 
-- Verb: censor (Derived forms: censored, censoring, censors)
+- Verb: censor (derived forms: censored, censoring, censors)
 1. Forbid the public distribution of (a movie or a newspaper) (= ban)
  
 2. Subject to political, religious, or moral censorship

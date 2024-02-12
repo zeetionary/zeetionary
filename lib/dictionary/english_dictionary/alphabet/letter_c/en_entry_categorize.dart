@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: categorize (Derived forms: categorized, categorizes, categorizing)
+- Verb: categorize (derived forms: categorized, categorizes, categorizing)
 1. Place into or assign to a category (= categorise [Brit])
 "Children learn early on to categorize";
 """,

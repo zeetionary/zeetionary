@@ -650,7 +650,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "The car has an impressive range of features and superb build quality."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکە ژمارەیەکی سەرنجڕاکێش لە تایبەتمەندی و کوالێتییەکی ناوازەی بەرھەمھێنانی ھەیە ."),
+                                            "ئۆتۆمبێلەکە ژمارەیەکی سەرنجڕاکێش لە تایبەتمەندی و کوالێتییەکی ناوازەی بەرھەمھێنانی ھەیە."),
                                   ],
                                 ),
                               ),

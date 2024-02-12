@@ -38,7 +38,8 @@ class EnglishEntrychador extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The wearing of chadors can spark discussions about women's rights and religious freedom."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The wearing of chadors can spark discussions about women's rights and religious freedom."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchadors3(String languageCode) async {
@@ -191,7 +192,7 @@ class EnglishEntrychador extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) چارشێو؛ پارچە جلێکی گەورە کە ژنان دەیپۆشن بەشێوەیەک تەنها ڕووخساریان دیارە، و بەتایبەتی لەلایەن ژنانی موسڵمانەوە لەبەردەکرێت"""),
+١. (ناو) چارشێو؛ پارچە جلێکی گەورە کە ژنان دەیپۆشن بەشێوەیەک تەنھا ڕووخساریان دیارە، و بەتایبەتی لەلایەن ژنانی موسڵمانەوە لەبەردەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -329,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chador (Derived forms: chadors)
+- Noun: chador (derived forms: chadors)
 1. A cloth used as a head covering (and veil and shawl) by Muslim and Hindu women (= chadar, chaddar, chuddar)
 """,
   );
@@ -363,7 +364,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CYoa9hI3CXg?t=',
+    videoId: 'CYoa9hI3CXg',
     startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +389,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k3ChZBW2ORg?t=',
+    videoId: 'k3ChZBW2ORg',
     startSeconds: 318,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +414,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tETp0Pg_k0c?t=',
+    videoId: 'tETp0Pg_k0c',
     startSeconds: 1731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +439,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YFjqxbPO2VE?t=',
+    videoId: 'YFjqxbPO2VE',
     startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +464,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aVmwg9rftCc?t=',
+    videoId: 'aVmwg9rftCc',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +489,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zv_3YIGHNTk?t=',
+    videoId: 'Zv_3YIGHNTk',
     startSeconds: 349,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +514,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7YeHCZlZ3rg?t=',
+    videoId: '7YeHCZlZ3rg',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +539,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/it9Vr5VHsdo?t=',
+    videoId: 'it9Vr5VHsdo',
     startSeconds: 845,
     autoPlay: true,
     params: const YoutubePlayerParams(

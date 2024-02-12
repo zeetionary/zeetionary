@@ -430,7 +430,7 @@ ${englishMeaningConst.text}
 2. Serving as an essential component (= cardinal, fundamental, key, primal)
 "the central cause of the problem";
 
-- Noun: central (Derived forms: centrals)
+- Noun: central (derived forms: centrals)
 1. A workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication (= telephone exchange, exchange)
 """,
   );

@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: centralize (Derived forms: centralized, centralizes, centralizing)
+- Verb: centralize (derived forms: centralized, centralizes, centralizing)
 1. Make central (= centralise [Brit], concentrate)
 "The Russian government centralized the distribution of food";
 """,

@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: censorship (Derived forms: censorships)
+- Noun: censorship (derived forms: censorships)
 1. Counterintelligence achieved by banning or deleting any information of value to the enemy (= censoring, security review)
  
 2. Deleting parts of publications, correspondence or theatrical performances (= censoring)

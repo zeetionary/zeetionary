@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cenotaph (Derived forms: cenotaphs)
+- Noun: cenotaph (derived forms: cenotaphs)
 1. A monument built to honour people whose remains are interred elsewhere or whose remains cannot be recovered (= empty tomb00)
 """,
   );

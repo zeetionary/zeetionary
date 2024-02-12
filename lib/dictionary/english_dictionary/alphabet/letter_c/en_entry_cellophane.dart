@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: Cellophane (Derived forms: Cellophanes)
+- Noun: Cellophane (derived forms: Cellophanes)
 1. A transparent paperlike product that is impervious to moisture and used to wrap candy or cigarettes etc.
 """,
   );

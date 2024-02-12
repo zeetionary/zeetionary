@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 1. Made of grain or relating to grain or the plants that produce it
 "a cereal beverage"; "cereal grasses"
 
-- Noun: cereal (Derived forms: cereals)
+- Noun: cereal (derived forms: cereals)
 1. Grass whose starchy grains are used as food: wheat; rice; rye; oats; maize; buckwheat; millet (= cereal grass)
  
 2. Foodstuff prepared from the starchy grains of cereal grasses (= grain, food grain)

@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cathode (Derived forms: cathodes)
+- Noun: cathode (derived forms: cathodes)
 1. A negatively charged electrode that is the source of electrons entering an electrical device (= kathode [archaic])
  
 2. The positively charged terminal of a voltaic cell or storage battery that supplies current (= kathode [archaic])

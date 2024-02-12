@@ -393,12 +393,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: censure (Derived forms: censures)
+- Noun: censure (derived forms: censures)
 1. Harsh criticism or disapproval (= animadversion)
  
 2. The state of being excommunicated (= excommunication, exclusion)
 
-- Verb: censure (Derived forms: censuring, censures, censured)
+- Verb: censure (derived forms: censuring, censures, censured)
 1. Rebuke formally (= reprimand, criminate)
 """,
   );

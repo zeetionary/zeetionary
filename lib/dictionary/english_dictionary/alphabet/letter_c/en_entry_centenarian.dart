@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
 - Adjective: centenarian
 1. Being at least 100 years old
 
-- Noun: centenarian (Derived forms: centenarians)
+- Noun: centenarian (derived forms: centenarians)
 1. Someone who is at least 100 years old
 """,
   );

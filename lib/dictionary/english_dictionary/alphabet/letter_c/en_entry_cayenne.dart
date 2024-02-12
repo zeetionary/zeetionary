@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cayenne (Derived forms: cayennes)
+- Noun: cayenne (derived forms: cayennes)
 1. Plant bearing very hot and finely tapering long peppers; usually red (= cayenne pepper, chili pepper [N. Amer], chilli pepper [Brit], long pepper, jalapeño, Capsicum annuum longum)
  
 2. Ground pods and seeds of pungent red peppers of the genus Capsicum (= cayenne pepper, red pepper)

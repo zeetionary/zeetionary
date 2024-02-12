@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catgut (Derived forms: catguts)
+- Noun: catgut (derived forms: catguts)
 1. Perennial subshrub of eastern North America having downy leaves yellowish and rose flowers and; source of rotenone (= goat's rue, wild sweet pea, Tephrosia virginiana)
  
 2. A strong cord made from the intestines of sheep and used in surgery (= gut)

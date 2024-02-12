@@ -270,7 +270,7 @@ class EnglishEntrybrighten extends StatelessWidget {
                                             "A personal letter will usually brighten up a person's day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەیەکی کەسی زۆرجار ڕۆژی کەسێک گەشدەکاتەوە ."),
+                                            "نامەیەکی کەسی زۆرجار ڕۆژی کەسێک گەشدەکاتەوە."),
                                   ],
                                 ),
                               ),

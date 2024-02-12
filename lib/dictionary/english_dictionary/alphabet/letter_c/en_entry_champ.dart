@@ -38,7 +38,8 @@ class EnglishEntrychamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamps200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Scottish champs celebrate victory!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchamps3(String languageCode) async {
@@ -233,7 +234,7 @@ class EnglishEntrychamp extends StatelessWidget {
                                             "Scottish champs celebrate victory!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاڵەوانە سکۆتلەندییەکان ئاهەنگی بردنەوەیان گێڕا!"),
+                                            "پاڵەوانە سکۆتلەندییەکان ئاھەنگی بردنەوەیان گێڕا!"),
                                   ],
                                 ),
                               ),
@@ -332,14 +333,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: champ (Derived forms: champed, champs, champing)
+- Verb: champ (derived forms: champed, champs, champing)
 1. Chafe at the bit, like horses
  
 2. Chew noisily or vigorously (= chomp)
  
 3. [informal] Be impatient to start or do something (= champ at the bit [informal])
 
-- Noun: champ (Derived forms: champs)
+- Noun: champ (derived forms: champs)
 1. [informal] Someone who has won first place in a competition (= champion, title-holder)
  
 2. Mashed potato with spring onions
@@ -375,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_mUvG6x53VM',
+    videoId: '_mUvG6x53VM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bNRAtztPbsQ?t=',
+    videoId: 'bNRAtztPbsQ',
     startSeconds: 4100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QMcuj0PuAIc?t=',
+    videoId: 'QMcuj0PuAIc',
     startSeconds: 974,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_bfXZEF0qG0?t=',
+    videoId: '_bfXZEF0qG0',
     startSeconds: 750,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mvK0qJdg2Nc?t=',
+    videoId: 'mvK0qJdg2Nc',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NEcZmT0fiNM?t=',
+    videoId: 'NEcZmT0fiNM',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TnkdoEZhTbc?t=',
+    videoId: 'TnkdoEZhTbc',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +551,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5NjFuS_24v8?t=',
+    videoId: '5NjFuS_24v8',
     startSeconds: 451,
     autoPlay: true,
     params: const YoutubePlayerParams(

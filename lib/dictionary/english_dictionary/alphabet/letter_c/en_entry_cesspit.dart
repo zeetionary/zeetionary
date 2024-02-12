@@ -38,7 +38,8 @@ class EnglishEntrycesspit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The internet can be a cesspit of misinformation and negativity if not used responsibly."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The internet can be a cesspit of misinformation and negativity if not used responsibly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcesspits3(String languageCode) async {
@@ -339,7 +340,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cesspit (Derived forms: cesspits)
+- Noun: cesspit (derived forms: cesspits)
 1. A covered cistern; waste water and sewage flow into it (= cesspool, sink, sump)
 """,
   );
@@ -373,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/itwotkBzZGQ?t=',
+    videoId: 'itwotkBzZGQ',
     startSeconds: 1744,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aDavFlg0HYc?t=',
+    videoId: 'aDavFlg0HYc',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TaSrf2DNy5w?t=',
+    videoId: 'TaSrf2DNy5w',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ti62EYoII48?t=',
+    videoId: 'Ti62EYoII48',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 421,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qqZ_SH9N3Xo?t=',
+    videoId: 'qqZ_SH9N3Xo',
     startSeconds: 962,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sew4rctKghY?t=',
+    videoId: 'Sew4rctKghY',
     startSeconds: 385,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +549,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z56d4f1uT3k?t=',
+    videoId: 'z56d4f1uT3k',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(

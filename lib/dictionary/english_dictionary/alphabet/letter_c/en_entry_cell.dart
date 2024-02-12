@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cell (Derived forms: cells)
+- Noun: cell (derived forms: cells)
 1. Any small compartment
 "the cells of a honeycomb"
  

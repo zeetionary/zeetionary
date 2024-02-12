@@ -202,7 +202,7 @@ class EnglishEntrycentaur extends StatelessWidget {
                                             "In Greek mythology, Chiron was a wise and noble centaur known for his teachings and healing abilities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئەفسانەی یۆنانیدا، کایرۆن مرۆسپێکی بیرمەند و دەوڵەمەند بوو کە ناسراو بوو بۆ توانای وانەگوتنەوەی و چارەسەرکردنی ."),
+                                            "لە ئەفسانەی یۆنانیدا، کایرۆن مرۆسپێکی بیرمەند و دەوڵەمەند بوو کە ناسراو بوو بۆ توانای وانەگوتنەوەی و چارەسەرکردنی."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: centaur (Derived forms: centaurs)
+- Noun: centaur (derived forms: centaurs)
 1. (classical mythology) a mythical being that is half man and half horse
 
 - Noun: Centaur

@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: celebrity (Derived forms: celebrities)
+- Noun: celebrity (derived forms: celebrities)
 1. A widely known person (= famous person, celeb [informal])
 "he was a baseball celebrity";
  

@@ -38,7 +38,8 @@ class EnglishEntrycave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We took shelter in a dark cave."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We took shelter in a dark cave."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcaves3(String languageCode) async {
@@ -203,7 +204,8 @@ class EnglishEntrycave extends StatelessWidget {
                                         text:
                                             "The area contains vast underground cave systems."),
                                     ExampleSentenceKurdish(
-                                        text: "ناوچەکە سیستەمی گەورەی ئەشکەوتی ژێرزەوی لەخۆدەگرێت."),
+                                        text:
+                                            "ناوچەکە سیستەمی گەورەی ئەشکەوتی ژێرزەوی لەخۆدەگرێت."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycave extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "We took shelter in a dark cave."),
-                          ExampleSentenceKurdish(
-                          text: "پەناگەم دەستخست لە ئەشکەوتێکی تاریک."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcaves2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcaves2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We took shelter in a dark cave."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەناگەم دەستخست لە ئەشکەوتێکی تاریک."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaves2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaves2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -259,11 +262,11 @@ class EnglishEntrycave extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,10 +332,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cave (Derived forms: caves)
+- Noun: cave (derived forms: caves)
 1. A geological formation consisting of an underground enclosure with access from the surface of the ground or from the sea
 
-- Verb: cave (Derived forms: caved, caving, caves)
+- Verb: cave (derived forms: caved, caving, caves)
 1. Hollow out as if making a cave or opening (= undermine)
 "The river was caving the banks";
  

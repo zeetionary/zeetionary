@@ -370,7 +370,7 @@ ${englishMeaningConst.text}
 1. Abstaining from sexual intercourse (= continent)
 "celibate priests";
 
-- Noun: celibate (Derived forms: celibates)
+- Noun: celibate (derived forms: celibates)
 1. An unmarried person who has taken a religious vow of chastity
 """,
   );

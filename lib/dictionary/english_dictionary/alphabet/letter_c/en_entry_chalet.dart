@@ -191,9 +191,9 @@ class EnglishEntrychalet extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کۆخی هەوار، کۆخەوار، کۆختەی کوێستانی، شەلێی، خانووەدارینی سویسی
+کوردی: کۆخی ھەوار، کۆخەوار، کۆختەی کوێستانی، شەلێی، خانووەدارینی سویسی
 
-١. (ناو) خانوویەک یان کوخێکی بچووک، بەتایبەتی خانوویەکی دارین کە سەربانێکی لێژی هەیە و زۆرجار لە چیاکان درووست دەکرێت، بە تایبەتی لە سویسرا"""),
+١. (ناو) خانوویەک یان کوخێکی بچووک، بەتایبەتی خانوویەکی دارین کە سەربانێکی لێژی ھەیە و زۆرجار لە چیاکان درووست دەکرێت، بە تایبەتی لە سویسرا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chalet (Derived forms: chalets)
+- Noun: chalet (derived forms: chalets)
 1. A Swiss house with a sloping roof and wide eaves or a house built in this style
 """,
   );
@@ -337,7 +337,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DNOg6wnpqE4?t=',
+    videoId: 'DNOg6wnpqE4',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +362,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yKvWHdxQ0r4?t=',
+    videoId: 'yKvWHdxQ0r4',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +387,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WyJ7HMwillw',
+    videoId: 'WyJ7HMwillw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +412,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9bPIaHg11mI?t=',
+    videoId: '9bPIaHg11mI',
     startSeconds: 844,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RGmjBECOYP4?t=',
+    videoId: 'RGmjBECOYP4',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IQzfprW0Yl0?t=',
+    videoId: 'IQzfprW0Yl0',
     startSeconds: 1558,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6nPsqsx33lM?t=',
+    videoId: '6nPsqsx33lM',
     startSeconds: 148,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iT7rmzM2B4Y?t=',
+    videoId: 'iT7rmzM2B4Y',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(

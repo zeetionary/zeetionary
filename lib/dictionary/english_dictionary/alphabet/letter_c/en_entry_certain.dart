@@ -341,7 +341,7 @@ class EnglishEntrycertain extends StatelessWidget {
                                             "The climbers face certain death if the rescue today is unsuccessful."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیاھەڵگژان ڕووبەڕووی مردنی مسۆگەر دەبنەوە ئەگەر هەوڵی ڕزگارکردنەکە ناسەرکەوتوو بێت."),
+                                            "پیاھەڵگژان ڕووبەڕووی مردنی مسۆگەر دەبنەوە ئەگەر ھەوڵی ڕزگارکردنەکە ناسەرکەوتوو بێت."),
                                   ],
                                 ),
                               ),

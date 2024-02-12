@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cellphone (Derived forms: cellphones)
+- Noun: cellphone (derived forms: cellphones)
 1. A portable telephone that connects with the telephone network using radio waves (= cellular telephone, cellular phone, cell [N. Amer], mobile phone, mobile [Brit], cellular [N. Amer], mobe [informal])
 
 - Verb: cell phone

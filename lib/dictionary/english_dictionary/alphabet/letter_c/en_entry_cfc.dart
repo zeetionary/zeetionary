@@ -29,8 +29,8 @@ class EnglishEntrycfc extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "CFCs cause damage to the ozone layer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("CFCs cause damage to the ozone layer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakCFCs2(String languageCode) async {
@@ -191,7 +191,7 @@ class EnglishEntrycfc extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کلۆرۆفلۆرۆکاربۆن؛ جۆرە گازێک کە پێشتر لەو بەرهەمانەدا بەکاردەهات کە شلەیان لە پەستانی بەرزدا تێدایە، و زانراوە کە زیانبەخشە بپ چینی ئۆزۆن"""),
+١. (ناو) کلۆرۆفلۆرۆکاربۆن؛ جۆرە گازێک کە پێشتر لەو بەرھەمانەدا بەکاردەھات کە شلەیان لە پەستانی بەرزدا تێدایە، و زانراوە کە زیانبەخشە بپ چینی ئۆزۆن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,8 @@ class EnglishEntrycfc extends StatelessWidget {
                                         text:
                                             "CFCs cause damage to the ozone layer."),
                                     ExampleSentenceKurdish(
-                                        text: "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن."),
+                                        text:
+                                            "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن."),
                                   ],
                                 ),
                               ),
@@ -230,11 +231,11 @@ class EnglishEntrycfc extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -300,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: CFC (Derived forms: CFCs)
+- Noun: CFC (derived forms: CFCs)
 1. A fluorocarbon with chlorine; formerly used as a refrigerant and as a propellant in aerosol cans (= chlorofluorocarbon)
 "the chlorine in CFCs causes depletion of atmospheric ozone";
 """,
@@ -335,7 +336,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 1934,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -360,7 +361,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaLOiGEDPJQ?t=',
+    videoId: 'CaLOiGEDPJQ',
     startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -385,7 +386,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A5GAaCTwc9s?t=',
+    videoId: 'A5GAaCTwc9s',
     startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -410,7 +411,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0g_qyI8BT14?t=',
+    videoId: '0g_qyI8BT14',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +436,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2horH-IeurA?t=',
+    videoId: '2horH-IeurA',
     startSeconds: 575,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +461,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c3dDagZMALQ?t=',
+    videoId: 'c3dDagZMALQ',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +486,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7zrx-b2sLUs?t=',
+    videoId: '7zrx-b2sLUs',
     startSeconds: 1424,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +511,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ZfBgjUnXIs?t=',
+    videoId: '0ZfBgjUnXIs',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(

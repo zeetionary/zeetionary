@@ -269,7 +269,7 @@ class EnglishEntrychair extends StatelessWidget {
                                                     "He sighed and leaned back in his chair."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەناسەیەکی هەڵکێشا و پاڵیدا بە کورسییەکەیەوە."),
+                                                    "ھەناسەیەکی ھەڵکێشا و پاڵیدا بە کورسییەکەیەوە."),
                                           ],
                                         ),
                                       ),
@@ -480,7 +480,7 @@ class EnglishEntrychair extends StatelessWidget {
                                             "She takes the chair in all our meetings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەموو کۆبوونەوەکانماندا سەرکۆڕە."),
+                                            "لە ھەموو کۆبوونەوەکانماندا سەرکۆڕە."),
                                   ],
                                 ),
                               ),
@@ -530,7 +530,7 @@ class EnglishEntrychair extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) کورسییەکی کارەبایی بەهێز، بە تایبەتی لە ئەمریکادا، کە بەکاردێت بۆ کوشتنی تاوانباران"),
+                                  "٤. (ناو) کورسییەکی کارەبایی بەھێز، بە تایبەتی لە ئەمریکادا، کە بەکاردێت بۆ کوشتنی تاوانباران"),
                           Row(
                             children: [
                               const Expanded(
@@ -561,7 +561,7 @@ class EnglishEntrychair extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) سەرپەرشتیکردنی کۆبوونەوەیەک، چاوپێکەوتنێک، هتد"),
+                                  "٥. (کردار) سەرپەرشتیکردنی کۆبوونەوەیەک، چاوپێکەوتنێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -571,7 +571,7 @@ class EnglishEntrychair extends StatelessWidget {
                                         text: "Who's chairing the meeting?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کێ سەرپەرشتی چاوپێکەوتنەکە داکات؟"),
+                                            "کێ سەرپەرشتی چاوپێکەوتنەکە دەکات؟"),
                                   ],
                                 ),
                               ),
@@ -670,7 +670,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chair (Derived forms: chairs)
+- Noun: chair (derived forms: chairs)
 1. A seat for one person, with a support for the back
 "he put his coat over the back of the chair and sat down"
  
@@ -686,7 +686,7 @@ ${englishMeaningConst.text}
 5. A particular seat in an orchestra
 "he is second chair violin"
 
-- Verb: chair (Derived forms: chairs, chairing, chaired)
+- Verb: chair (derived forms: chairs, chairing, chaired)
 1. Act or preside as chair, as of an academic department in a university (= chairman)
 "She chaired the department for many years";
 
@@ -724,7 +724,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lrNcx2D_FZI?t=',
+    videoId: 'lrNcx2D_FZI',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -749,7 +749,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zmEv7vTOQGE?t=',
+    videoId: 'zmEv7vTOQGE',
     startSeconds: 1030,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -774,7 +774,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pto9L7kjuSM?t=',
+    videoId: 'Pto9L7kjuSM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -799,7 +799,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DEHJ8vVP324?t=',
+    videoId: 'DEHJ8vVP324',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -824,7 +824,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yWmeBoVXwrE?t=',
+    videoId: 'yWmeBoVXwrE',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -849,7 +849,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fXW-QjBsruE?t=',
+    videoId: 'fXW-QjBsruE',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -874,7 +874,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FHJ3CMWnVxY?t=',
+    videoId: 'FHJ3CMWnVxY',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -899,7 +899,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4qNMxjxr70s?t=',
+    videoId: '4qNMxjxr70s',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(

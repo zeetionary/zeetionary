@@ -266,7 +266,7 @@ class EnglishEntrychain extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Let the dog off its chain."),
                                     ExampleSentenceKurdish(
-                                        text: "زبجیرەکە لە سەگەکە بکەوە."),
+                                        text: "زنجیرەکە لە سەگەکە بکەوە."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntrychain extends StatelessWidget {
                                             "Volunteers formed a human chain (= line of people) to rescue precious items from the burning house."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆبەخشان ڕیزێک لە مرۆڤیان درووستکردبوو بۆ ڕزگارکردنی کەرەستەی بەهادار لە ماڵە سووتاوەکە."),
+                                            "خۆبەخشان ڕیزێک لە مرۆڤیان درووستکردبوو بۆ ڕزگارکردنی کەرەستەی بەھادار لە ماڵە سووتاوەکە."),
                                   ],
                                 ),
                               ),
@@ -325,7 +325,7 @@ class EnglishEntrychain extends StatelessWidget {
                                             "It's important to make sure the chain of communication is not broken."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گرنگە دڵنیایی بکرێتەوە کە هێڵی پەیوەندی ناپچڕێت."),
+                                            "گرنگە دڵنیایی بکرێتەوە کە ھێڵی پەیوەندی ناپچڕێت."),
                                   ],
                                 ),
                               ),
@@ -345,7 +345,7 @@ class EnglishEntrychain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ژمارەیەک شت، بۆ نموونە سوپەرمارکێت یان هوتێل، کە لەلایەن یەک کۆمپانیاوە خاوەنداری دەکرێن"),
+                                  "٣. (ناو) ژمارەیەک شت، بۆ نموونە سوپەرمارکێت یان ھوتێل، کە لەلایەن یەک کۆمپانیاوە خاوەنداری دەکرێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -356,7 +356,7 @@ class EnglishEntrychain extends StatelessWidget {
                                             "This hotel is part of a large chain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم هوتێلە بەشێکە لە زنجیرەیەکی گەورە."),
+                                            "ئەم ھوتێلە بەشێکە لە زنجیرەیەکی گەورە."),
                                   ],
                                 ),
                               ),
@@ -417,7 +417,7 @@ class EnglishEntrychain extends StatelessWidget {
                                             "The doors were always locked and chained."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەرگاکان هەموو کات قفڵ و زنجیر کرابوون."),
+                                            "دەرگاکان ھەموو کات قفڵ و زنجیر کرابوون."),
                                   ],
                                 ),
                               ),
@@ -572,7 +572,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chain (Derived forms: chains)
+- Noun: chain (derived forms: chains)
 1. A series of things depending on each other as if linked together (= concatenation)
 "the chain of command";
 
@@ -595,7 +595,7 @@ ${englishMeaningConst.text}
 9. A necklace made by stringing objects together (= string, strand)
 "a chain of beads";
 
-- Verb: chain (Derived forms: chained, chaining, chains)
+- Verb: chain (derived forms: chained, chaining, chains)
 1. Connect or arrange into a chain by linking
  
 2. Fasten or secure with chains
@@ -635,7 +635,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uhdu_vMe9Pg?t=',
+    videoId: 'uhdu_vMe9Pg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -660,7 +660,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9pT04M5iGH8?t=',
+    videoId: '9pT04M5iGH8',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -685,7 +685,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3mf6qRY0Syo?t=',
+    videoId: '3mf6qRY0Syo',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -710,7 +710,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/88tDcVvS7mU?t=',
+    videoId: '88tDcVvS7mU',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -735,7 +735,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nGvfeoJJnVE?t=',
+    videoId: 'nGvfeoJJnVE',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -760,7 +760,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rPe4yziWiOg?t=',
+    videoId: 'rPe4yziWiOg',
     startSeconds: 438,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -785,7 +785,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    videoId: 'pFEB0chiuJA',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -810,7 +810,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W0zW71lW62E?t=',
+    videoId: 'W0zW71lW62E',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -835,7 +835,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P4tDxQby99A?t=',
+    videoId: 'P4tDxQby99A',
     startSeconds: 328,
     autoPlay: true,
     params: const YoutubePlayerParams(

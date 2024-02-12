@@ -963,7 +963,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cause (Derived forms: caused, causing, causes)
+- Verb: cause (derived forms: caused, causing, causes)
 1. Give rise to; cause to happen or occur, not always intentionally (= do, make, engender)
 "cause a commotion"; "cause an accident";
 

@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catarrh (Derived forms: catarrhs)
+- Noun: catarrh (derived forms: catarrhs)
 1. Inflammation of the nose and throat with increased production of mucus
 """,
   );

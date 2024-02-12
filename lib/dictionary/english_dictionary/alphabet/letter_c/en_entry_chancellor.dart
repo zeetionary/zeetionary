@@ -38,7 +38,8 @@ class EnglishEntrychancellor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("MPs waited for the chancellor's announcement."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "MPs waited for the chancellor's announcement."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchancellors3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrychancellor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The prime minister was shown around the university by the chancellor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The prime minister was shown around the university by the chancellor."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchancellors4(String languageCode) async {
@@ -201,7 +203,8 @@ class EnglishEntrychancellor extends StatelessWidget {
                                         text:
                                             "The talks were headed by Germany’s Chancellor Merkel."),
                                     ExampleSentenceKurdish(
-                                        text: "گفتوگۆکان لەلایەن مێرکڵی ڕاوێژکاری ئەڵمانیاوە سەرکردایەتی دەکرا."),
+                                        text:
+                                            "گفتوگۆکان لەلایەن مێرکڵی ڕاوێژکاری ئەڵمانیاوە سەرکردایەتی دەکرا."),
                                   ],
                                 ),
                               ),
@@ -219,60 +222,65 @@ class EnglishEntrychancellor extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) وەزیری دارایی بەریتانیا"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) وەزیری دارایی بەریتانیا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "MPs waited for the chancellor's announcement."),
-                          ExampleSentenceKurdish(
-                          text: "ئەندامانی پەرلەمان چاوەڕوانی گەشتنی وەزیری دارایی بوون."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakchancellors2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakchancellors2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "MPs waited for the chancellor's announcement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامانی پەرلەمان چاوەڕوانی گەشتنی وەزیری دارایی بوون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchancellors2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchancellors2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) سەرۆکی زانکۆیەک لە بەریتانیا و و هەندێک شوێنی ئەمریکا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) سەرۆکی زانکۆیەک لە بەریتانیا و و ھەندێک شوێنی ئەمریکا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The prime minister was shown around the university by the chancellor."),
-                          ExampleSentenceKurdish(
-                          text: "سەرۆک وەزیران لەلایەن سەرۆکەکەوە زانکۆکەی پیشاندرا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakchancellors3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakchancellors3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prime minister was shown around the university by the chancellor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک وەزیران لەلایەن سەرۆکەکەوە زانکۆکەی پیشاندرا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchancellors3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchancellors3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -286,11 +294,11 @@ class EnglishEntrychancellor extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -356,7 +364,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chancellor (Derived forms: chancellors, Chancellors)
+- Noun: chancellor (derived forms: chancellors, Chancellors)
 1. The person who is head of government (in several countries) (= premier, prime minister)
  
 2. [Brit] The honorary or titular head of a university
@@ -395,7 +403,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rtu7UcC_I_g?t=',
+    videoId: 'rtu7UcC_I_g',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +428,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-vqjbLedCmQ?t=',
+    videoId: '-vqjbLedCmQ',
     startSeconds: 365,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +453,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FD9WM7MR3Yc',
+    videoId: 'FD9WM7MR3Yc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +478,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +503,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-fUDIucr2eo',
+    videoId: '-fUDIucr2eo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +528,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b3Ysh6IQ6dc?t=',
+    videoId: 'b3Ysh6IQ6dc',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +553,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LjieOlWXwTw?t=',
+    videoId: 'LjieOlWXwTw',
     startSeconds: 556,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +578,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iMiQeS1XywA?t=',
+    videoId: 'iMiQeS1XywA',
     startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(

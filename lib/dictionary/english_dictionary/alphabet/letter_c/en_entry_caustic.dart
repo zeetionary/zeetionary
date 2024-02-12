@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
  
 2. Of a substance, especially a strong acid; capable of destroying or eating away by chemical action (= corrosive, erosive, vitriolic, mordant)
 
-- Noun: caustic (Derived forms: caustics)
+- Noun: caustic (derived forms: caustics)
 1. Any chemical substance that burns or destroys living tissue
  
 2. The envelope of light rays reflected or refracted by a curved surface or object

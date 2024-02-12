@@ -590,7 +590,7 @@ class EnglishEntrycentre extends StatelessWidget {
                                             "The university is recognized as an international centre of excellence for training dentists."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زانکۆکە ناسراوە وەک ناوەندی نایابی جیھانی بۆ ڕاھێنانی پزیشکانی ددان ."),
+                                            "زانکۆکە ناسراوە وەک ناوەندی نایابی جیھانی بۆ ڕاھێنانی پزیشکانی ددان."),
                                   ],
                                 ),
                               ),
@@ -900,7 +900,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: centre (Derived forms: centres)
+- Noun: centre (derived forms: centres)
 Usage: Brit, Cdn (US: center)
 1. An area that is approximately central within some larger region (= center [US], middle, heart [Brit], eye)
 "it is in the centre of town";
@@ -949,7 +949,7 @@ Usage: Brit, Cdn (US: center)
  
 17. A position on a basketball team of the player who participates in the jump that starts the game (= center [US])
 
-- Verb: centre (Derived forms: centred, centres, centring)
+- Verb: centre (derived forms: centred, centres, centring)
 Usage: Brit, Cdn (US: center)
 1. Centre upon (= focus on, center on [US], revolve around, revolve about, concentrate on, center [US], centre on [Brit, Cdn])
 "Her entire attention centred on her children";

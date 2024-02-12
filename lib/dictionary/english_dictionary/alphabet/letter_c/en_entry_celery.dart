@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: celery (Derived forms: celeries)
+- Noun: celery (derived forms: celeries)
 1. Widely cultivated herb with aromatic leaf stalks that are eaten raw or cooked (= cultivated celery, Apium graveolens dulce)
  
 2. Stalks eaten raw, cooked or used as seasoning

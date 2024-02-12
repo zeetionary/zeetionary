@@ -153,7 +153,7 @@ class EnglishEntrybreastbone extends StatelessWidget {
                                             "The surgeon carefully incised the breastbone during the heart surgery."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا ."),
+                                            "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا."),
                                   ],
                                 ),
                               ),

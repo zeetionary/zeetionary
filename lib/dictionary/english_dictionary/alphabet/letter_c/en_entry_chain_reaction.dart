@@ -192,7 +192,7 @@ class EnglishEntrychainreaction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) گۆڕانێکی کیمیایی یان ناوەکی کە جۆرە بەرهەم یان گۆڕانێکی دیکە درووست دەکات کە بەرهەم و گۆڕانی دیکە درووست دەکەن"""),
+١. (ناو) گۆڕانێکی کیمیایی یان ناوەکی کە جۆرە بەرھەم یان گۆڕانێکی دیکە درووست دەکات کە بەرھەم و گۆڕانی دیکە درووست دەکەن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -225,7 +225,7 @@ class EnglishEntrychainreaction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) زنجیرە ڕووداوێک، بە تایبەتی کە یەکێکیان دەبێتە هۆکاری ئەوەی دواتر"),
+                                  "٢. (ناو) زنجیرە ڕووداوێک، بە تایبەتی کە یەکێکیان دەبێتە ھۆکاری ئەوەی دواتر"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrychainreaction extends StatelessWidget {
                                             "The accident caused a chain reaction in which seven trucks piled up on the bridge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکدادانەکە زنجیرە ڕووداوێکی لێکەوتەوە کە تێیدا حەوت بارهەڵگر سەریەک کەوتن لەسەر پردەکە."),
+                                            "پێکدادانەکە زنجیرە ڕووداوێکی لێکەوتەوە کە تێیدا حەوت بارھەڵگر سەریەک کەوتن لەسەر پردەکە."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chain reaction (Derived forms: chain reactions)
+- Noun: chain reaction (derived forms: chain reactions)
 1. A series of chemical reactions in which the product of one is a reactant in the next
  
 2. A self-sustaining nuclear reaction; a series of nuclear fissions in which neutrons released by splitting one atom leads to the splitting of others
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OK7_ReXhVaQ?t=',
+    videoId: 'OK7_ReXhVaQ',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vblk7RIwa4A?t=',
+    videoId: 'vblk7RIwa4A',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/atnBbYZYl7I?t=',
+    videoId: 'atnBbYZYl7I',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6npNnhEa4s?t=',
+    videoId: 'v6npNnhEa4s',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3GkaNg6S0H4?t=',
+    videoId: '3GkaNg6S0H4',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uhB5mMyEJFA?t=',
+    videoId: 'uhB5mMyEJFA',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wBrNbbAIAFo',
+    videoId: 'wBrNbbAIAFo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rsQZs1T1ZlA',
+    videoId: 'rsQZs1T1ZlA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -239,7 +239,7 @@ class EnglishEntrychamber extends StatelessWidget {
                                             "Under Senate rules, the chamber must vote on the bill by this Friday."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەپێی یاساکانی ئەنجوومەنی پیران، جڤاتەکە دەبێت دەنگ لەسەر پڕۆژە یاساکە بدات تاوەکو هەینی."),
+                                            "بەپێی یاساکانی ئەنجوومەنی پیران، جڤاتەکە دەبێت دەنگ لەسەر پڕۆژە یاساکە بدات تاوەکو ھەینی."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrychamber extends StatelessWidget {
                                             "The burial chamber of the pharaoh was filled with treasures and hieroglyphs depicting scenes from the afterlife."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئارامگای فیرعەونەکە پڕ بوو لە گەنجینە و نووسینی هیرۆگلیفی کە دیمەنی ژیانی دوایی پیشان دەدا."),
+                                            "ئارامگای فیرعەونەکە پڕ بوو لە گەنجینە و نووسینی ھیرۆگلیفی کە دیمەنی ژیانی دوایی پیشان دەدا."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntrychamber extends StatelessWidget {
                                         text:
                                             "The human heart has four chambers."),
                                     ExampleSentenceKurdish(
-                                        text: "دڵی مرۆڤ چوار کەلێنی هەیە."),
+                                        text: "دڵی مرۆڤ چوار کەلێنی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -348,7 +348,7 @@ class EnglishEntrychamber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) بۆشایی ژێر زەوی کە لە هەموو لایەکەوە گیردراوە"),
+                                  "٥. (ناو) بۆشایی ژێر زەوی کە لە ھەموو لایەکەوە گیردراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -458,7 +458,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chamber (Derived forms: chambers)
+- Noun: chamber (derived forms: chambers)
 1. A natural or artificial enclosed space
  
 2. An enclosed volume in the body
@@ -473,7 +473,7 @@ ${englishMeaningConst.text}
  
 6. The part of a firearm that holds the ammunition and charge
 
-- Verb: chamber (Derived forms: chambering, chambered, chambers)
+- Verb: chamber (derived forms: chambering, chambered, chambers)
 1. Place in a chamber
 """,
   );
@@ -507,7 +507,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HguJqS_SW_Y?t=',
+    videoId: 'HguJqS_SW_Y',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wj0KM_j0TLY?t=',
+    videoId: 'wj0KM_j0TLY',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nGPwt5SonWg?t=',
+    videoId: 'nGPwt5SonWg',
     startSeconds: 673,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YxX959-JaBU?t=',
+    videoId: 'YxX959-JaBU',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +607,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LK3lN-TuncU?t=',
+    videoId: 'LK3lN-TuncU',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -632,7 +632,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dK4mb1yS0dY?t=',
+    videoId: 'dK4mb1yS0dY',
     startSeconds: 1051,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -657,7 +657,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Fjn4GRw8qE?t=',
+    videoId: '7Fjn4GRw8qE',
     startSeconds: 683,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -682,7 +682,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(

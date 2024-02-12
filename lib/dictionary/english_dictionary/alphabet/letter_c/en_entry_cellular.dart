@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cellular (Derived forms: cellulars)
+- Adjective: cellular (derived forms: cellulars)
 1. (biology) relating to cells
 "cellular walls"; "cellular physiology"
  

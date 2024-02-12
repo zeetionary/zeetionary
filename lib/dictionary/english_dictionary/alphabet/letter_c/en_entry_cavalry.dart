@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cavalry (Derived forms: cavalries)
+- Noun: cavalry (derived forms: cavalries)
 1. (military) troops trained to fight on horseback (= horse cavalry, horse)
 "500 cavalry led the attack";
  

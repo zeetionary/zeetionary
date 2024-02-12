@@ -38,7 +38,8 @@ class EnglishEntrycessation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Mexico called for an immediate cessation of hostilities."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Mexico called for an immediate cessation of hostilities."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcessations3(String languageCode) async {
@@ -191,7 +192,7 @@ class EnglishEntrycessation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دابڕان، پچڕان، وێستان، وەستان، ڕاگیران، دوایی‌پێهێنان، ئاگربەست، شەڕبەندان، شەڕڕاگرتن
+کوردی: دابڕان، پچڕان، وێستان، وەستان، ڕاگیران، دوایی‌پێھێنان، ئاگربەست، شەڕبەندان، شەڕڕاگرتن
 
 ١. (ناو) وەستان یان ناوبڕ خستنە شتێک"""),
                           Row(
@@ -331,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cessation (Derived forms: cessations)
+- Noun: cessation (derived forms: cessations)
 1. A stopping (= surcease [archaic])
 "a cessation of the thunder";
 """,
@@ -366,7 +367,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ELA7puUQt1I?t=',
+    videoId: 'ELA7puUQt1I',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +392,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rdk9mpedwNk?t=',
+    videoId: 'Rdk9mpedwNk',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +417,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TZmy-HseMCE?t=',
+    videoId: 'TZmy-HseMCE',
     startSeconds: 9018,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +442,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wTBSGgbIvsY?t=',
+    videoId: 'wTBSGgbIvsY',
     startSeconds: 8070,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +467,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GMOyNgLSX2g?t=',
+    videoId: 'GMOyNgLSX2g',
     startSeconds: 4758,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +492,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4tBXTnDPpiA?t=',
+    videoId: '4tBXTnDPpiA',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +517,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zx4ByQpIMBE?t=',
+    videoId: 'Zx4ByQpIMBE',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +542,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/27Rlcu1C9HE?t=',
+    videoId: '27Rlcu1C9HE',
     startSeconds: 231,
     autoPlay: true,
     params: const YoutubePlayerParams(

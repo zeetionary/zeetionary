@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cathedral (Derived forms: cathedrals)
+- Noun: cathedral (derived forms: cathedrals)
 1. Any large and important church
  
 2. The principal Christian church building of a bishop's diocese (= duomo)

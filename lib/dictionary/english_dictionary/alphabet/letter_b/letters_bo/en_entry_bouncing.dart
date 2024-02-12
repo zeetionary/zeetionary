@@ -158,7 +158,7 @@ class EnglishEntrybouncing extends StatelessWidget {
                                             "We've got two grandchildren - a three-year-old girl and a bouncing baby boy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو نەوەمان ھەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست ."),
+                                            "دوو نەوەمان ھەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست."),
                                   ],
                                 ),
                               ),

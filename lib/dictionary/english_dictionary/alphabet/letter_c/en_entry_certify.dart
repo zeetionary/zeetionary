@@ -38,7 +38,8 @@ class EnglishEntrycertify extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was certified dead upon arrival at the hospital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was certified dead upon arrival at the hospital."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertifys3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycertify extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I was certified as a teacher in 2009."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I was certified as a teacher in 2009."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertifys4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycertify extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("As a young man, he had been certified and sent to a hospital for the mentally ill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "As a young man, he had been certified and sent to a hospital for the mentally ill."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertifys5(String languageCode) async {
@@ -191,7 +194,7 @@ class EnglishEntrycertify extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پشتڕاستکردنەوە، مسۆگەرکردن بڕوانامە پێدان، گەواهی پێدان
+کوردی: پشتڕاستکردنەوە، مسۆگەرکردن بڕوانامە پێدان، گەواھی پێدان
 
 ١. (کردار) بە فەرمی گوتنی ئەوەی شتێک ڕاستە"""),
                           Row(
@@ -232,7 +235,7 @@ class EnglishEntrycertify extends StatelessWidget {
                                             "He was certified dead upon arrival at the hospital."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە مردوو دەنرا هەرکە گەشتە نەخۆشخانەکە."),
+                                            "بە مردوو دەنرا ھەرکە گەشتە نەخۆشخانەکە."),
                                   ],
                                 ),
                               ),
@@ -393,7 +396,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: certify (Derived forms: certifying, certifies, certified)
+- Verb: certify (derived forms: certifying, certifies, certified)
 1. Provide evidence for; stand as proof of; show by one's behaviour, attitude, or external attributes (= attest, manifest, demonstrate, evidence)
  
 2. Guarantee payment on; of checks
@@ -437,7 +440,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    videoId: '4IaOeVgZ-wc',
     startSeconds: 2513,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +465,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJ0Hfc8hvpE?t=',
+    videoId: 'LJ0Hfc8hvpE',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +490,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gjo1hlIey9g?t=',
+    videoId: 'Gjo1hlIey9g',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +515,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JIgFepXPoT0?t=',
+    videoId: 'JIgFepXPoT0',
     startSeconds: 930,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +540,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ek9bmIlDens?t=',
+    videoId: 'ek9bmIlDens',
     startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +565,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XwqAInN9HWI?t=',
+    videoId: 'XwqAInN9HWI',
     startSeconds: 875,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +590,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ibWJO02nNsY?t=',
+    videoId: 'ibWJO02nNsY',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +615,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/335DsLpMy-k?t=',
+    videoId: '335DsLpMy-k',
     startSeconds: 852,
     autoPlay: true,
     params: const YoutubePlayerParams(

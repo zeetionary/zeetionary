@@ -191,7 +191,7 @@ class EnglishEntrychancy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دووبەختەکی، دووبەختی، شانسی، هات‌ونەهات، ئەگەرونەگەر، پێشبینی‌نەکراو، مەترسی‌دار،	نەڕوون، نادیار،	ڕێکەوتی، هەڵکەوتی، هات‌ونەهات
+کوردی: دووبەختەکی، دووبەختی، شانسی، ھات‌ونەھات، ئەگەرونەگەر، پێشبینی‌نەکراو، مەترسی‌دار،	نەڕوون، نادیار،	ڕێکەوتی، ھەڵکەوتی، ھات‌ونەھات
 
 ١. (ھاوەڵناو) شتێک کە مەترسی و دڵەخورپەی تێدایە"""),
                           Row(
@@ -204,7 +204,7 @@ class EnglishEntrychancy extends StatelessWidget {
                                             "Working for yourself can be a chancy business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارکردن بۆ خۆت (هەبوونی کاری خۆت) دەکرێت بازرگانییەکی هات‌ونەهات بێت."),
+                                            "کارکردن بۆ خۆت (ھەبوونی کاری خۆت) دەکرێت بازرگانییەکی ھات‌ونەھات بێت."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chancy (Derived forms: chanciest, chancier)
+- Adjective: chancy (derived forms: chanciest, chancier)
 1. Of uncertain outcome; especially fraught with risk (= chanceful [archaic], dicey, dodgy [Brit, informal])
 "an extremely chancy future on a brave new world of liquid nitrogen, tar, and smog";
  
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jM5Jl3n7iP8?t=',
+    videoId: 'jM5Jl3n7iP8',
     startSeconds: 215,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EVcRxg7teOM?t=',
+    videoId: 'EVcRxg7teOM',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/twZkRynDENw?t=',
+    videoId: 'twZkRynDENw',
     startSeconds: 4380,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I9gMwWK_Zko?t=',
+    videoId: 'I9gMwWK_Zko',
     startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fb9DGoCXmOE?t=',
+    videoId: 'fb9DGoCXmOE',
     startSeconds: 2000,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R0hhtDLTt8s?t=',
+    videoId: 'R0hhtDLTt8s',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7pNDnWcUw60?t=',
+    videoId: '7pNDnWcUw60',
     startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yIjhoClGeA0?t=',
+    videoId: 'yIjhoClGeA0',
     startSeconds: 219,
     autoPlay: true,
     params: const YoutubePlayerParams(

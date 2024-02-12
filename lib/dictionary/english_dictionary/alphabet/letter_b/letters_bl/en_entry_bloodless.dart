@@ -159,7 +159,7 @@ class EnglishEntrybloodless extends StatelessWidget {
                                             "The rebel soldiers seized power in a bloodless coup."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەربازە ھەڵگەڕاوەکان دەستیان بەسەر دەسەڵاتدا گرت لە کودەتایەکی بێ خوێن ڕژاندا ."),
+                                            "سەربازە ھەڵگەڕاوەکان دەستیان بەسەر دەسەڵاتدا گرت لە کودەتایەکی بێ خوێن ڕژاندا."),
                                   ],
                                 ),
                               ),

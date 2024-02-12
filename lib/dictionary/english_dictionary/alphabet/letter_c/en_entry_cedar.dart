@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cedar (Derived forms: cedars)
+- Noun: cedar (derived forms: cedars)
 1. A conifer of the family Cupressaceae (= cedar tree)
  
 2. An Old World conifer of the genus Cedrus (= cedar tree, true cedar)

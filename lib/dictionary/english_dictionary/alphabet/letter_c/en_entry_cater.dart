@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cater (Derived forms: catering, caters, catered)
+- Verb: cater (derived forms: catering, caters, catered)
 1. Give what is desired or needed, especially support, food or sustenance (= provide, supply, ply)
 "The hostess catered lunch for all the guests";
 

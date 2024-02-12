@@ -162,7 +162,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                             "The students were involved in a range of extracurricular activities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد."),
+                                            "خوێندکاران ژمارەیەک چالاکییان لە دەرەوەی بەرنامەی خوێندنیان کرد."),
                                   ],
                                 ),
                               ),

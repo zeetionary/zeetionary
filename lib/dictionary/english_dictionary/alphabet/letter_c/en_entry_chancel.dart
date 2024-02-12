@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chancel (Derived forms: chancels)
+- Noun: chancel (derived forms: chancels)
 1. Area around the altar of a church for the clergy and choir; often enclosed by a lattice or railing (= sanctuary, bema)
 """,
   );
@@ -335,7 +335,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LyoqvoX-b-w?t=',
+    videoId: 'LyoqvoX-b-w',
     startSeconds: 2904,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -360,7 +360,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9apHooK3PPE?t=',
+    videoId: '9apHooK3PPE',
     startSeconds: 688,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -385,7 +385,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gcXx1txxm2I?t=',
+    videoId: 'gcXx1txxm2I',
     startSeconds: 418,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -410,7 +410,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/26b9GKYfoJY?t=',
+    videoId: '26b9GKYfoJY',
     startSeconds: 744,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l9ifju4tu9o?t=',
+    videoId: 'l9ifju4tu9o',
     startSeconds: 5183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6IHxgbRmo4o?t=',
+    videoId: '6IHxgbRmo4o',
     startSeconds: 750,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XKLYGTnaFvw?t=',
+    videoId: 'XKLYGTnaFvw',
     startSeconds: 1622,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6-sgVGVeSYU?t=',
+    videoId: '6-sgVGVeSYU',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: celibacy (Derived forms: celibacies)
+- Noun: celibacy (derived forms: celibacies)
 1. An unmarried status
  
 2. (religion) abstaining from sexual relations (as because of religious vows) (= chastity, sexual abstention)

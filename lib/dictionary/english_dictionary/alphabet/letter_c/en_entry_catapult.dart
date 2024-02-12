@@ -367,14 +367,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catapult (Derived forms: catapults) 
+- Noun: catapult (derived forms: catapults) 
 1. A plaything consisting of a Y-shaped stick with elastic between the arms; used to propel small stones (= slingshot, sling)
  
 2. A device that launches aircraft from a warship (= launcher)
  
 3. An engine that provided medieval artillery used during sieges; a heavy war engine for hurling large stones and other missiles
 
-- Verb: catapult (Derived forms: catapulted, catapulting, catapults)
+- Verb: catapult (derived forms: catapulted, catapulting, catapults)
 1. Shoot forth or launch, as if from a catapult
 "the enemy catapulted rocks towards the fort"
  

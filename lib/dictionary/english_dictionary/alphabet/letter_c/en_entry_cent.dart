@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cent (Derived forms: cents)
+- Noun: cent (derived forms: cents)
 1. A fractional monetary unit of several countries
  
 2. A coin worth one-hundredth of the value of the basic unit (= penny, centime)

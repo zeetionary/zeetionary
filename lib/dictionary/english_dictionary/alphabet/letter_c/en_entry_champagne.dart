@@ -191,7 +191,7 @@ class EnglishEntrychampagne extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) جۆرێکی مەی کە سپی درەوشاوەیە و لە هەرێمی شامپەینی فەرەنسا بەرهەم دێت"""),
+١. (ناو) جۆرێکی مەی کە سپی درەوشاوەیە و لە ھەرێمی شامپەینی فەرەنسا بەرھەم دێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrychampagne extends StatelessWidget {
                                             "There are a number of fine champagnes (= types of champagne) available at very reasonable prices."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک جۆری جیاوازی شامپەین هەیە بە نرخی گونجاو."),
+                                            "ژمارەیەک جۆری جیاوازی شامپەین ھەیە بە نرخی گونجاو."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: champagne (Derived forms: champagnes)
+- Noun: champagne (derived forms: champagnes)
 1. A white sparkling wine either produced in Champagne or resembling that produced there (= bubbly, champers [Brit, informal])
  
 2. A very pale brownish-gold colour, similar to that of champagne
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CzOJkpNRFWw?t=',
+    videoId: 'CzOJkpNRFWw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ur_nvNZbn6Y?t=',
+    videoId: 'Ur_nvNZbn6Y',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RkU-lg8zCB4',
+    videoId: 'RkU-lg8zCB4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fJ5RK_RtgsE?t=',
+    videoId: 'fJ5RK_RtgsE',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6QyiFyI-QMo?t=',
+    videoId: '6QyiFyI-QMo',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JlZcIcKEA4k?t=',
+    videoId: 'JlZcIcKEA4k',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p0dJvJBDGRg?t=',
+    videoId: 'p0dJvJBDGRg',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2IR0kRzZPdA?t=',
+    videoId: '2IR0kRzZPdA',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -425,7 +425,7 @@ class EnglishEntrycapital extends StatelessWidget {
                                             "Education creates intellectual capital to convert into economic rewards."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەروەردە سەرنایەیەکی بیرمەندانە درووست دەکات کە دەکرێت بکرێت بە پاداشتی ئابووری ."),
+                                            "پەروەردە سەرنایەیەکی بیرمەندانە درووست دەکات کە دەکرێت بکرێت بە پاداشتی ئابووری."),
                                   ],
                                 ),
                               ),

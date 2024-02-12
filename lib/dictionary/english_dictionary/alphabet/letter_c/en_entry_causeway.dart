@@ -301,10 +301,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: causeway (Derived forms: causeways)
+- Noun: causeway (derived forms: causeways)
 1. A road that is raised above water, marshland or sand
 
-- Verb: causeway (Derived forms: causewayed, causewaying, causeways)
+- Verb: causeway (derived forms: causewayed, causewaying, causeways)
 1. Provide with a causeway
 "A causewayed swamp"
  

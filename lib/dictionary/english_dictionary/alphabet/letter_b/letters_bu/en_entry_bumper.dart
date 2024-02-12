@@ -261,7 +261,7 @@ class EnglishEntrybumper extends StatelessWidget {
                                             "Farmers have been celebrating bumper crops this year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ ."),
+                                            "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ."),
                                   ],
                                 ),
                               ),

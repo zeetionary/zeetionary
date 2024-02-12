@@ -202,7 +202,7 @@ class EnglishEntrycd extends StatelessWidget {
                                             "His albums are available on CD and online."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەلبومەکانی لەسەر سی‌دی و بە ئۆنلاین بەردەستن ."),
+                                            "ئەلبومەکانی لەسەر سی‌دی و بە ئۆنلاین بەردەستن."),
                                   ],
                                 ),
                               ),
@@ -304,10 +304,10 @@ ${englishMeaningConst.text}
 - Adjective: cd 
 1. Being one hundred more than three hundred (= four hundred, 400)
 
-- Noun: cd (Derived forms: cds) 
+- Noun: cd (derived forms: cds) 
 1. The basic unit of luminous intensity adopted under the Système International d'Unités; equal to 1/60 of the luminous intensity per square centimetre of a black body radiating at the temperature of 2,046 degrees Kelvin (= candle, candela, standard candle)
 
-- Noun: CD (Derived forms: CDs)
+- Noun: CD (derived forms: CDs)
 1. A digitally encoded recording on an optical disk that is smaller than a phonograph record; played back by a laser (= compact disk, compact disc)
  
 2. A debt instrument issued by a bank; usually pays interest (= certificate of deposit)

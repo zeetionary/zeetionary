@@ -302,14 +302,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cellar (Derived forms: cellars)
+- Noun: cellar (derived forms: cellars)
 1. The lowermost portion of a structure partly or wholly below ground level; often used for storage (= basement)
  
 2. An excavation where root vegetables are stored (= root cellar)
  
 3. Storage space where wines are stored (= wine cellar)
 
-- Verb: cellar (Derived forms: cellars)
+- Verb: cellar (derived forms: cellars)
 1. Store (wine etc.) in a cellar
 """,
   );

@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catalytic converter (Derived forms: catalytic converters)
+- Noun: catalytic converter (derived forms: catalytic converters)
 1. A converter that uses a platinum-iridium catalyst to oxidize pollutants and carbon monoxide into carbon dioxide and water; an antipollution device on an automotive exhaust system
 """,
   );

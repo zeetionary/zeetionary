@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cello (Derived forms: cellos)
+- Noun: cello (derived forms: cellos)
 1. A large stringed instrument; seated player holds it upright while playing (= violoncello)
 """,
   );

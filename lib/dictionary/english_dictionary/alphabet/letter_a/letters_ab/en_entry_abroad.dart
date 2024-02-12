@@ -123,7 +123,7 @@ class EnglishEntryabroad extends StatelessWidget {
                                         text: "She worked abroad for a year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دەروەی وڵات بۆ ساڵێک کاری کرد."),
+                                            "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد."),
                                   ],
                                 ),
                               ),
@@ -151,7 +151,7 @@ class EnglishEntryabroad extends StatelessWidget {
                                             "He was famous, both at home and abroad."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو."),
+                                            "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو."),
                                   ],
                                 ),
                               ),

@@ -455,7 +455,7 @@ class EnglishEntrychance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەخت، چارە، چانس، شانس، ڕێکەوت، هەڵکەوت، شیمانە، ئەگەر، هەل، بوار، پەردێژ، دەرفەت، ئەختان، دەلیڤە،	دووبەختەکی، دووبەختی، ڕیسک، بەختەکی، تووشی، ڕێکەوتی، هەڵکەوتی، شانسی
+کوردی: بەخت، چارە، چانس، شانس، ڕێکەوت، ھەڵکەوت، شیمانە، ئەگەر، ھەل، بوار، پەردێژ، دەرفەت، ئەختان، دەلیڤە،	دووبەختەکی، دووبەختی، ڕیسک، بەختەکی، تووشی، ڕێکەوتی، ھەڵکەوتی، شانسی
 
 ١. (ناو) ئەگەری ڕوودانی شتێک"""),
                           Row(
@@ -468,7 +468,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "Is there any chance of getting tickets for tonight?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ شانسێکی دەستکەوتنی بلیت هەیە بۆ ئەمشەو؟"),
+                                            "ھیچ شانسێکی دەستکەوتنی بلیت ھەیە بۆ ئەمشەو؟"),
                                   ],
                                 ),
                               ),
@@ -496,7 +496,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "She only has a slim chance of passing the exam."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها کەمێک شانسی دەرچوونی لە تاقیکردنەوەکە هەیە."),
+                                            "تەنھا کەمێک شانسی دەرچوونی لە تاقیکردنەوەکە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -527,7 +527,7 @@ class EnglishEntrychance extends StatelessWidget {
                                                     "There's a good chance that he'll be back in time."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەگەرێکی باش هەیە کە لە کاتی خۆیدا بگەڕێتەوە."),
+                                                    "ئەگەرێکی باش ھەیە کە لە کاتی خۆیدا بگەڕێتەوە."),
                                           ],
                                         ),
                                       ),
@@ -557,7 +557,7 @@ class EnglishEntrychance extends StatelessWidget {
                                                     "What chance is there of anybody being found alive?"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "چەندە شانس هەیە کە هیچ کەسێک بە زیندووی بدۆزرێتەوە؟"),
+                                                    "چەندە شانس ھەیە کە ھیچ کەسێک بە زیندووی بدۆزرێتەوە؟"),
                                           ],
                                         ),
                                       ),
@@ -587,7 +587,7 @@ class EnglishEntrychance extends StatelessWidget {
                                                     "We believe the plan has a good chance for success."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "باوەڕمان وایە پلانەکە ئەگەری زۆری سەرکەوتنی هەیە."),
+                                                    "باوەڕمان وایە پلانەکە ئەگەری زۆری سەرکەوتنی ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -652,7 +652,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "Jeff deceived me once already—I won't give him a second chance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جێف پێشوەختە جارێک فریوی داوم، هەلی دووەمی پێ نادەم."),
+                                            "جێف پێشوەختە جارێک فریوی داوم، ھەلی دووەمی پێ نادەم."),
                                   ],
                                 ),
                               ),
@@ -749,7 +749,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "When installing electrical equipment don't take any chances. A mistake could kill."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کاتی دانانی ئامێری کارەبایی، هیچ کەمتەرخەمی مەنوێنە. یەک هەڵە دەکرێت بتکوژێت."),
+                                            "لە کاتی دانانی ئامێری کارەبایی، ھیچ کەمتەرخەمی مەنوێنە. یەک ھەڵە دەکرێت بتکوژێت."),
                                   ],
                                 ),
                               ),
@@ -797,7 +797,7 @@ class EnglishEntrychance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) شێوازی ڕوودانی شتێک بەبێ هیچ هۆیەک کە بیبینیت یان لێی تێ بگەیت"),
+                                  "٣. (ناو) شێوازی ڕوودانی شتێک بەبێ ھیچ ھۆیەک کە بیبینیت یان لێی تێ بگەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -893,7 +893,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "You'd be a fool to chance your life savings on a single investment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەمژە دەبیت کە پاشەکەوتی ژیانت بخەیتە یەک وەبەرهێنانەوە."),
+                                            "گەمژە دەبیت کە پاشەکەوتی ژیانت بخەیتە یەک وەبەرھێنانەوە."),
                                   ],
                                 ),
                               ),
@@ -923,7 +923,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "If I do chance to find out where she is, I'll inform you immediately."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر شانسی ئەوەم هەبوو بزانم لە کوێیە، دەستبەجێ ئاگادارت دەکەم."),
+                                            "ئەگەر شانسی ئەوەم ھەبوو بزانم لە کوێیە، دەستبەجێ ئاگادارت دەکەم."),
                                   ],
                                 ),
                               ),
@@ -951,7 +951,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "They chanced to be staying at the same hotel."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێکەوتی کرد کە لە هەمان هوتێل مانەوە."),
+                                            "ڕێکەوتی کرد کە لە ھەمان ھوتێل مانەوە."),
                                   ],
                                 ),
                               ),
@@ -981,7 +981,7 @@ class EnglishEntrychance extends StatelessWidget {
                                             "A chance encounter with another artist changed her life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوپێکەوتنی بەڕێکەوتی لەگەڵ هونەرمەندێکی دیکە ژیانی گۆڕی."),
+                                            "چاوپێکەوتنی بەڕێکەوتی لەگەڵ ھونەرمەندێکی دیکە ژیانی گۆڕی."),
                                   ],
                                 ),
                               ),
@@ -1080,7 +1080,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chance (Derived forms: chances)
+- Noun: chance (derived forms: chances)
 1. A possibility due to a favourable combination of circumstances (= opportunity)
 "now is your chance";
 
@@ -1100,7 +1100,7 @@ ${englishMeaningConst.text}
 1. Occurring, appearing or singled out by chance (= casual)
 "a chance occurrence";
 
-- Verb: chance (Derived forms: chanced, chances, chancing)
+- Verb: chance (derived forms: chanced, chances, chancing)
 1. Take a risk in the hope of a favourable outcome (= gamble, risk, hazard, take chances, adventure, run a risk, take a chance)
 "When you buy these stocks you are chancing";
  
@@ -1138,7 +1138,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QMFPtCSekxM?t=',
+    videoId: 'QMFPtCSekxM',
     startSeconds: 338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1163,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XBVMjVXAMYw?t=',
+    videoId: 'XBVMjVXAMYw',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1188,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EHJDttt9etc',
+    videoId: 'EHJDttt9etc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1213,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 960,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1238,7 +1238,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
+    videoId: 'Cxqca4RQd_M',
     startSeconds: 602,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1263,7 +1263,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1456,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1288,7 +1288,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1313,7 +1313,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 1331,
     autoPlay: true,
     params: const YoutubePlayerParams(

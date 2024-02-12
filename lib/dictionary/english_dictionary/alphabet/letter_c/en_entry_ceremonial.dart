@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 1. Marked by pomp, ceremony or formality
 "a ceremonial occasion"; "ceremonial garb"
 
-- Noun: ceremonial (Derived forms: ceremonials)
+- Noun: ceremonial (derived forms: ceremonials)
 1. A formal event performed on a special occasion (= ceremony, ceremonial occasion, observance)
 "a ceremonial occasion commemorating Pearl Harbor";
 """,

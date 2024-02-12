@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ceasefire (Derived forms: cease-fires, ceasefires)
+- Noun: ceasefire (derived forms: cease-fires, ceasefires)
 1. A state of peace agreed to between opponents so they can discuss peace terms (= armistice, cease-fire, truce)
 "The stock market soared after the ceasefire was announced";
 """,

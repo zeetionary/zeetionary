@@ -271,7 +271,7 @@ class EnglishEntrycement extends StatelessWidget {
                                             "Dentists use cement to hold crowns and bridges in place."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پزیشکانی ددان ناوپڕ بەکاردێنن بۆ دانانی تاج و پرد لە شوێنی خۆیان ."),
+                                            "پزیشکانی ددان ناوپڕ بەکاردێنن بۆ دانانی تاج و پرد لە شوێنی خۆیان."),
                                   ],
                                 ),
                               ),
@@ -462,7 +462,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cement (Derived forms: cements) 
+- Noun: cement (derived forms: cements) 
 1. A building material that is a powder made of a mixture of calcined limestone and clay; used with water and sand or gravel to make concrete and mortar
  
 2. Something that hardens to act as adhesive material
@@ -474,7 +474,7 @@ ${englishMeaningConst.text}
 5. Concrete pavement is sometimes referred to as cement
 "they stood on the grey cement beside the pool"
 
-- Verb: cement (Derived forms: cemented, cementing, cements)
+- Verb: cement (derived forms: cemented, cementing, cements)
 1. Make fast as if with cement
 "We cemented our friendship"
  

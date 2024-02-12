@@ -201,7 +201,8 @@ class EnglishEntrycentennial extends StatelessWidget {
                                         text:
                                             "The year 1889 was the centennial of the inauguration of George Washington."),
                                     ExampleSentenceKurdish(
-                                        text: "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو."),
+                                        text:
+                                            "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو."),
                                   ],
                                 ),
                               ),
@@ -230,11 +231,11 @@ class EnglishEntrycentennial extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -304,7 +305,7 @@ ${englishMeaningConst.text}
 1. Of or relating to or completing a period of 100 years (= centenary)
 "centennial celebration";
 
-- Noun: centennial (Derived forms: centennials)
+- Noun: centennial (derived forms: centennials)
 1. The 100th anniversary (or the celebration of it) (= centenary)
 """,
   );

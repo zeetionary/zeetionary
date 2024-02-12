@@ -392,7 +392,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ceremony (Derived forms: ceremonies)
+- Noun: ceremony (derived forms: ceremonies)
 1. A formal event performed on a special occasion (= ceremonial, ceremonial occasion, observance)
 "a ceremony commemorating Pearl Harbor";
  

@@ -84,6 +84,7 @@ class EnglishEntryaborigine extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 ١. (ناو) بنەنشین یا دانیشتووی ڕەسەنی ئەوسترالیا"""),
+                          DividerDefinition(),
                           DefinitionKurdish(text: """
 ٢. (ناو) بنەنشین یا دانیشتووی ڕەسەنی وڵاتێک"""),
                         ],

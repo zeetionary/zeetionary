@@ -2770,49 +2770,49 @@ class _DictionaryScreenEnglishState
     "ceremoniously",
     "ceremony",
     "certain",
-    // "certainly",
-    // "certainty",
-    // "certificate",
-    // "certify",
-    // "cessation",
-    // "cesspit",
-    // "cesspool", // goes to cesspit
-    // "CFC",
-    // "chador",
-    // "chafe",
-    // "chaff",
-    // "chain",
-    // "chain reaction",
-    // "chain-smoke",
-    // "chain-smoker",
-    // "chain store",
-    // "chair",
-    // "chairman",
-    // "chairwoman",
-    // "chairperson",
-    // "chalet",
-    // "chalk",
-    // "chalky",
-    // "challenge",
-    // "challenger",
-    // "challenging",
-    // "chamber",
-    // "chambermaid",
-    // "chamber music",
-    // "Chamber of Commerce",
-    // "chameleon",
-    // "chamois",
-    // "champ (1)",
-    // "champagne",
-    // "champion",
-    // "championship",
-    // "chance",
-    // "chancy",
-    // "chancel",
-    // "chancellor",
-    // "Chancellor of the Exchequer",
-    // "chandelier",
-    // "change",
+    "certainly",
+    "certainty",
+    "certificate",
+    "certify",
+    "cessation",
+    "cesspit",
+    "cesspool", // goes to cesspit
+    "CFC",
+    "chador",
+    "chafe",
+    "chaff",
+    "chain",
+    "chain reaction",
+    "chain-smoke",
+    "chain-smoker",
+    "chain store",
+    "chair",
+    "chairman",
+    "chairwoman",
+    "chairperson",
+    "chalet",
+    "chalk",
+    "chalky",
+    "challenge",
+    "challenger",
+    "challenging",
+    "chamber",
+    "chambermaid",
+    "chamber music",
+    "Chamber of Commerce",
+    "chameleon",
+    "chamois",
+    "champ (1)",
+    "champagne",
+    "champion",
+    "championship",
+    "chance",
+    "chancy",
+    "chancel",
+    "chancellor",
+    "Chancellor of the Exchequer",
+    "chandelier",
+    "change",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -14332,186 +14332,186 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-certain");
                   }
-                  // if (wordsEnglish == "certainly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-certainly");
-                  // }
-                  // if (wordsEnglish == "certainty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-certainty");
-                  // }
-                  // if (wordsEnglish == "certificate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-certificate");
-                  // }
-                  // if (wordsEnglish == "certify") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-certify");
-                  // }
-                  // if (wordsEnglish == "cessation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cessation");
-                  // }
-                  // if (wordsEnglish == "cesspit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cesspit");
-                  // }
-                  // if (wordsEnglish == "cesspool") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cesspit");
-                  // }
-                  // if (wordsEnglish == "CFC") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cfc");
-                  // }
-                  // if (wordsEnglish == "chlorofluorocarbon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cfc");
-                  // }
-                  // if (wordsEnglish == "chador") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chador");
-                  // }
-                  // if (wordsEnglish == "chafe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chafe");
-                  // }
-                  // if (wordsEnglish == "chaff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chaff");
-                  // }
-                  // if (wordsEnglish == "chain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chain");
-                  // }
-                  // if (wordsEnglish == "chain reaction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chain-reaction");
-                  // }
-                  // if (wordsEnglish == "chain-smoke") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chain-smoke");
-                  // }
-                  // if (wordsEnglish == "chain-smoker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chain-smoker");
-                  // }
-                  // if (wordsEnglish == "chain store") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chain-store");
-                  // }
-                  // if (wordsEnglish == "chair") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chair");
-                  // }
-                  // if (wordsEnglish == "chairman") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chairman");
-                  // }
-                  // if (wordsEnglish == "chairwoman") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chairman");
-                  // }
-                  // if (wordsEnglish == "chairperson") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chairman");
-                  // }
-                  // if (wordsEnglish == "chalet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chalet");
-                  // }
-                  // if (wordsEnglish == "chalk") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chalk");
-                  // }
-                  // if (wordsEnglish == "chalky") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chalky");
-                  // }
-                  // if (wordsEnglish == "challenge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-challenge");
-                  // }
-                  // if (wordsEnglish == "challenger") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-challenger");
-                  // }
-                  // if (wordsEnglish == "challenging") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-challenging");
-                  // }
-                  // if (wordsEnglish == "chamber") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chamber");
-                  // }
-                  // if (wordsEnglish == "chambermaid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chambermaid");
-                  // }
-                  // if (wordsEnglish == "chamber music") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chamber-music");
-                  // }
-                  // if (wordsEnglish == "Chamber of Commerce") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chamber-of-commerce");
-                  // }
-                  // if (wordsEnglish == "chameleon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chameleon");
-                  // }
-                  // if (wordsEnglish == "chamois") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chamois");
-                  // }
-                  // if (wordsEnglish == "champ (1)") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-champ");
-                  // }
-                  // if (wordsEnglish == "champ (2)") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-champion");
-                  // }
-                  // if (wordsEnglish == "champagne") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-champagne");
-                  // }
-                  // if (wordsEnglish == "champion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-champion");
-                  // }
-                  // if (wordsEnglish == "championship") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-championship");
-                  // }
-                  // if (wordsEnglish == "chance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chance");
-                  // }
-                  // if (wordsEnglish == "chancy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chancy");
-                  // }
-                  // if (wordsEnglish == "chancel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chancel");
-                  // }
-                  // if (wordsEnglish == "chancellor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chancellor");
-                  // }
-                  // if (wordsEnglish == "Chancellor of the Exchequer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chancellor-of-the-exchequer");
-                  // }
-                  // if (wordsEnglish == "chandelier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-chandelier");
-                  // }
-                  // if (wordsEnglish == "change") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-change");
-                  // }
+                  if (wordsEnglish == "certainly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-certainly");
+                  }
+                  if (wordsEnglish == "certainty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-certainty");
+                  }
+                  if (wordsEnglish == "certificate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-certificate");
+                  }
+                  if (wordsEnglish == "certify") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-certify");
+                  }
+                  if (wordsEnglish == "cessation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cessation");
+                  }
+                  if (wordsEnglish == "cesspit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cesspit");
+                  }
+                  if (wordsEnglish == "cesspool") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cesspit");
+                  }
+                  if (wordsEnglish == "CFC") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cfc");
+                  }
+                  if (wordsEnglish == "chlorofluorocarbon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cfc");
+                  }
+                  if (wordsEnglish == "chador") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chador");
+                  }
+                  if (wordsEnglish == "chafe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chafe");
+                  }
+                  if (wordsEnglish == "chaff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chaff");
+                  }
+                  if (wordsEnglish == "chain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chain");
+                  }
+                  if (wordsEnglish == "chain reaction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chain-reaction");
+                  }
+                  if (wordsEnglish == "chain-smoke") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chain-smoke");
+                  }
+                  if (wordsEnglish == "chain-smoker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chain-smoker");
+                  }
+                  if (wordsEnglish == "chain store") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chain-store");
+                  }
+                  if (wordsEnglish == "chair") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chair");
+                  }
+                  if (wordsEnglish == "chairman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chairman");
+                  }
+                  if (wordsEnglish == "chairwoman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chairman");
+                  }
+                  if (wordsEnglish == "chairperson") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chairman");
+                  }
+                  if (wordsEnglish == "chalet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chalet");
+                  }
+                  if (wordsEnglish == "chalk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chalk");
+                  }
+                  if (wordsEnglish == "chalky") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chalky");
+                  }
+                  if (wordsEnglish == "challenge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-challenge");
+                  }
+                  if (wordsEnglish == "challenger") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-challenger");
+                  }
+                  if (wordsEnglish == "challenging") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-challenging");
+                  }
+                  if (wordsEnglish == "chamber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chamber");
+                  }
+                  if (wordsEnglish == "chambermaid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chambermaid");
+                  }
+                  if (wordsEnglish == "chamber music") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chamber-music");
+                  }
+                  if (wordsEnglish == "Chamber of Commerce") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chamber-of-commerce");
+                  }
+                  if (wordsEnglish == "chameleon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chameleon");
+                  }
+                  if (wordsEnglish == "chamois") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chamois");
+                  }
+                  if (wordsEnglish == "champ (1)") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-champ");
+                  }
+                  if (wordsEnglish == "champ (2)") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-champion");
+                  }
+                  if (wordsEnglish == "champagne") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-champagne");
+                  }
+                  if (wordsEnglish == "champion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-champion");
+                  }
+                  if (wordsEnglish == "championship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-championship");
+                  }
+                  if (wordsEnglish == "chance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chance");
+                  }
+                  if (wordsEnglish == "chancy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chancy");
+                  }
+                  if (wordsEnglish == "chancel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chancel");
+                  }
+                  if (wordsEnglish == "chancellor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chancellor");
+                  }
+                  if (wordsEnglish == "Chancellor of the Exchequer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chancellor-of-the-exchequer");
+                  }
+                  if (wordsEnglish == "chandelier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-chandelier");
+                  }
+                  if (wordsEnglish == "change") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-change");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

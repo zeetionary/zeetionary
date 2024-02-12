@@ -303,10 +303,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: census (Derived forms: censuses)
+- Noun: census (derived forms: censuses)
 1. A periodic count of the population (= nose count, nosecount)
 - Verb: census 
-1. Conduct a census (Derived forms: censused, censuses, censusing)
+1. Conduct a census (derived forms: censused, censuses, censusing)
 "They censused the deer in the forest"
 """,
   );

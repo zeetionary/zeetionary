@@ -462,7 +462,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: celebration (Derived forms: celebrations)
+- Noun: celebration (derived forms: celebrations)
 1. A joyful occasion for special festivities to mark some happy event (= jubilation)
  
 2. Any joyous diversion (= festivity)

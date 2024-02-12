@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cc (Derived forms: ccs)
+- Noun: cc (derived forms: ccs)
 1. [Brit] A metric unit of volume equal to one thousandth of a litre (= milliliter [US], millilitre [Brit, Cdn], mil, ml, cubic centimeter [US], cubic centimetre [Brit, Cdn])
  
 2. Used in an e-mail or other communication to send copies to people other than the main recipient (= carbon copy)
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
 - Adjective: cc 
 1. Being ten more than one hundred ninety (= two hundred, 200)
 
-- Verb: cc (Derived forms: cc's, cc'd cc'ing)
+- Verb: cc (derived forms: cc's, cc'd cc'ing)
 1. Send a copy to (someone) as well as the main recipient (= carbon copy)
 "I am not subscribed to the list, please send cc's to me";
 

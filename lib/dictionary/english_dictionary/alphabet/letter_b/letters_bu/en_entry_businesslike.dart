@@ -228,7 +228,7 @@ class EnglishEntrybusinesslike extends StatelessWidget {
                           // text:
                           // "Wearing the suit made him feel more businesslike."),
                           // ExampleSentenceKurdish(
-                          // text: "لەبەرکردنی دەستە جلەکە ."),
+                          // text: "لەبەرکردنی دەستە جلەکە."),
                           // const CustomSizedBoxForTTS(),
                           // Column(
                           // children: [

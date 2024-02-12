@@ -448,7 +448,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: century (Derived forms: centuries)
+- Noun: century (derived forms: centuries)
 1. A period of 100 years
  
 2. Ten 10s (= hundred, 100, C, one C)

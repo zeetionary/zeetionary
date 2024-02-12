@@ -38,7 +38,8 @@ class EnglishEntrycertificate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This certificate is an important document. Keep it in a safe place."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This certificate is an important document. Keep it in a safe place."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertificates3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycertificate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A certificate of completion will be issued to all who complete the course."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A certificate of completion will be issued to all who complete the course."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertificates4(String languageCode) async {
@@ -191,7 +193,7 @@ class EnglishEntrycertificate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەنەد، گەواهی، بڕوانامە، باوەڕنامە، تەسیق، شاتنامە
+کوردی: سەنەد، گەواھی، بڕوانامە، باوەڕنامە، تەسیق، شاتنامە
 
 ١. (ناو) بەڵگەنامە کە دەکرێت بەکاربێت بۆ پشتڕاستکردنەوەی زانیارییەکانی سەری"""),
                           Row(
@@ -204,7 +206,7 @@ class EnglishEntrycertificate extends StatelessWidget {
                                             "Everyone entering the country needs to show a health certificate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرکەس کە دێتە وڵاتەکەوە دەبێت بڕوانامەی تەندرووستی پیشان بدات."),
+                                            "ھەرکەس کە دێتە وڵاتەکەوە دەبێت بڕوانامەی تەندرووستی پیشان بدات."),
                                   ],
                                 ),
                               ),
@@ -267,7 +269,7 @@ class EnglishEntrycertificate extends StatelessWidget {
                                             "A certificate of completion will be issued to all who complete the course."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بڕوانامەیەکی تەواوکردن دەدرێت بە هەموو ئەوانەی کە کۆرسەکە تەواو دەکەن."),
+                                            "بڕوانامەیەکی تەواوکردن دەدرێت بە ھەموو ئەوانەی کە کۆرسەکە تەواو دەکەن."),
                                   ],
                                 ),
                               ),
@@ -368,13 +370,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: certificate (Derived forms: certificates)
+- Noun: certificate (derived forms: certificates)
 1. A document attesting to the truth of certain stated facts (= certification, credential, credentials, bona fides)
  
 2. A formal declaration that documents a fact of relevance to finance and investment; the holder has a right to receive interest or dividends (= security)
 "he held several valuable certificates";
 
-- Verb: certificate (Derived forms: certificating, certificates, certificated)
+- Verb: certificate (derived forms: certificating, certificates, certificated)
 1. Present someone with a certificate
  
 2. Authorize by certificate
@@ -410,7 +412,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7zVCn-9IYws?t=',
+    videoId: '7zVCn-9IYws',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +437,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4DlsTsqpY84?t=',
+    videoId: '4DlsTsqpY84',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +462,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l98-BcB3UIE?t=',
+    videoId: 'l98-BcB3UIE',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +487,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_DVVNOGYtmU?t=',
+    videoId: '_DVVNOGYtmU',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +512,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gdgPAetNY5U?t=',
+    videoId: 'gdgPAetNY5U',
     startSeconds: 548,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +537,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EtgxTKuN018?t=',
+    videoId: 'EtgxTKuN018',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +562,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Oz9zw7-_vhM?t=',
+    videoId: 'Oz9zw7-_vhM',
     startSeconds: 642,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +587,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhh_An7FGek?t=',
+    videoId: 'Uhh_An7FGek',
     startSeconds: 1664,
     autoPlay: true,
     params: const YoutubePlayerParams(

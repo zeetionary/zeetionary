@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caterpillar (Derived forms: caterpillars)
+- Noun: caterpillar (derived forms: caterpillars)
 1. A wormlike and often brightly coloured and hairy or spiny larva of a butterfly or moth
 
 - Noun: Caterpillar

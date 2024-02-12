@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catalyst (Derived forms: catalysts)
+- Noun: catalyst (derived forms: catalysts)
 1. (chemistry) a substance that initiates or accelerates a chemical reaction without itself being affected (= accelerator)
  
 2. Something that causes an important event to happen

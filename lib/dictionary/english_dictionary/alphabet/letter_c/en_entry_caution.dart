@@ -559,10 +559,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: caution (Derived forms: cautioned, cautions, cautioning)
+- Verb: caution (derived forms: cautioned, cautions, cautioning)
 1. Warn strongly; put on guard (= admonish, monish)
 
-- Noun: caution (Derived forms: cautions)
+- Noun: caution (derived forms: cautions)
 1. The trait of being cautious; being attentive to possible danger (= cautiousness, carefulness)
 "a man of caution";
 

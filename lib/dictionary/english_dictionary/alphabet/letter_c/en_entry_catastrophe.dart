@@ -400,7 +400,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catastrophe (Derived forms: catastrophes)
+- Noun: catastrophe (derived forms: catastrophes)
 1. An event resulting in great loss and misfortune (= calamity, disaster, tragedy, cataclysm)
 "the whole city was affected by the irremediable catastrophe";
  

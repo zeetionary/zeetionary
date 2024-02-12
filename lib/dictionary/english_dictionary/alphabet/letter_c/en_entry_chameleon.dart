@@ -204,7 +204,7 @@ class EnglishEntrychameleon extends StatelessWidget {
                                             "Predators often struggle to spot chameleons as they hide among branches and foliage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاوکەران زۆرجار کێشەیان هەیە لەگەڵ دۆزینەوەی ڕۆژپەرستان هەیە بەهۆی ئەوەی خۆیان لەناو لق و پۆپەکان دەشارنەوە."),
+                                            "ڕاوکەران زۆرجار کێشەیان ھەیە لەگەڵ دۆزینەوەی ڕۆژپەرستان ھەیە بەھۆی ئەوەی خۆیان لەناو لق و پۆپەکان دەشارنەوە."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chameleon (Derived forms: chameleons) 
+- Noun: chameleon (derived forms: chameleons) 
 1. A changeable or inconstant person
  
 2. Lizard of Africa and Madagascar able to change skin colour and having a projectile tongue (= chamaeleon)
@@ -342,7 +342,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RAoMdTXye8M?t=',
+    videoId: 'RAoMdTXye8M',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -367,7 +367,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g72eJAdlI88?t=',
+    videoId: 'g72eJAdlI88',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -392,7 +392,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PCbxUUX19UU?t=',
+    videoId: 'PCbxUUX19UU',
     startSeconds: 172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +417,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/89Xxn6dC-6A?t=',
+    videoId: '89Xxn6dC-6A',
     startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +442,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/91vMHoXumDI?t=',
+    videoId: '91vMHoXumDI',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8MtbfrCGRm8?t=',
+    videoId: '8MtbfrCGRm8',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9lk7QB5T9NU?t=',
+    videoId: '9lk7QB5T9NU',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0LZ2K44LIxM?t=',
+    videoId: '0LZ2K44LIxM',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(

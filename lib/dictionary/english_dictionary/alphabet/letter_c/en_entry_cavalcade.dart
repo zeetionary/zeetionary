@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cavalcade (Derived forms: cavalcades)
+- Noun: cavalcade (derived forms: cavalcades)
 1. A procession of people travelling on horseback
 """,
   );

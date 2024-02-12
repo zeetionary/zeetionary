@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
 1. Free from provincial prejudices or attachments
 "catholic in one's tastes"
 
-- Noun: Catholic (Derived forms: Catholics)
+- Noun: Catholic (derived forms: Catholics)
 1. A member of a Catholic church
 
 - Adjective: Catholic 

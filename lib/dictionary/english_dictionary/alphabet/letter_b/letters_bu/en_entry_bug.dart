@@ -249,7 +249,7 @@ class EnglishEntrybug extends StatelessWidget {
                                             "My computer's really slow at the moment—it must be some kind of bug."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی ."),
+                                            "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی."),
                                   ],
                                 ),
                               ),

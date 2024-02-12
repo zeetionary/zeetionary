@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cavity (Derived forms: cavities)
+- Noun: cavity (derived forms: cavities)
 1. A sizeable hole (usually in the ground) (= pit)
 "they dug a cavity to bury the body";
  

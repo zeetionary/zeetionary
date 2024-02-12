@@ -193,7 +193,7 @@ class EnglishEntrychandelier extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: چلچرا، ئاوێزە، لالە، لووستر
 
-١. (ناو) لایتێکی جوانکاری کە لە بنبانێکەوە شۆڕدەبێتەوە و ژمارەیەک لقی هەیە کە گڵۆپان پێوەیە، یان لە ڕابردوودا مۆمیان پێوە بوو"""),
+١. (ناو) لایتێکی جوانکاری کە لە بنبانێکەوە شۆڕدەبێتەوە و ژمارەیەک لقی ھەیە کە گڵۆپان پێوەیە، یان لە ڕابردوودا مۆمیان پێوە بوو"""),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chandelier (Derived forms: chandeliers)
+- Noun: chandelier (derived forms: chandeliers)
 1. Branched lighting fixture; often ornate; hangs from the ceiling (= pendant, pendent)
 "enjoyed a luxurious suite with a crystal chandelier and thick oriental rugs";
 """,
@@ -338,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OA4CMmFRj5o?t=',
+    videoId: 'OA4CMmFRj5o',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -363,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mjcywm3qZQE?t=',
+    videoId: 'mjcywm3qZQE',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_BakAX7M7s?t=',
+    videoId: 'a_BakAX7M7s',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VzU50UQHSlA?t=',
+    videoId: 'VzU50UQHSlA',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MtvkHQHK4X0',
+    videoId: 'MtvkHQHK4X0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L0xFaQ94VbE?t=',
+    videoId: 'L0xFaQ94VbE',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PqpCeiYycVM?t=',
+    videoId: 'PqpCeiYycVM',
     startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Axg27gwEqCE?t=',
+    videoId: 'Axg27gwEqCE',
     startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(

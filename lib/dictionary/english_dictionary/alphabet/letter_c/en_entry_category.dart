@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: category (Derived forms: categories)
+- Noun: category (derived forms: categories)
 1. A collection of things sharing a common attribute (= class, family)
 "there are two categories of detergents";
  

@@ -301,13 +301,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cavern (Derived forms: caverns)
+- Noun: cavern (derived forms: caverns)
 1. Any large dark enclosed space
 "his eyes were dark caverns"
  
 2. A large cave or a large chamber in a cave
 
-- Verb: cavern (Derived forms: caverns, caverning, caverned)
+- Verb: cavern (derived forms: caverns, caverning, caverned)
 1. Hollow out as if making a cavern (= cavern out)
 """,
   );

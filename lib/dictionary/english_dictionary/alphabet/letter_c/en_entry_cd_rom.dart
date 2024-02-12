@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: CD-ROM (Derived forms: CD-ROMs)
+- Noun: CD-ROM (derived forms: CD-ROMs)
 1. A compact disk that is used with a computer (rather than with an audio system); a large amount of digital information can be stored and accessed but it cannot be altered by the user (= compact disc read-only memory)
 """,
   );

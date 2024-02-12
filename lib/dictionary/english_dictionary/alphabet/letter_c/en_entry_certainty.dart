@@ -38,7 +38,8 @@ class EnglishEntrycertainty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I can't say with any certainty where I'll be next week."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I can't say with any certainty where I'll be next week."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertaintys3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycertainty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her return to the team now seems a certainty."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her return to the team now seems a certainty."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcertaintys4(String languageCode) async {
@@ -204,7 +206,7 @@ class EnglishEntrycertainty extends StatelessWidget {
                                             "There is no certainty that the president's removal would end the civil war."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ دڵنیایی نییە لەوەی کە لادانی سەرۆک کۆتایی بە شەڕی ناوخۆ بهێنێت."),
+                                            "ھیچ دڵنیایی نییە لەوەی کە لادانی سەرۆک کۆتایی بە شەڕی ناوخۆ بھێنێت."),
                                   ],
                                 ),
                               ),
@@ -232,7 +234,7 @@ class EnglishEntrycertainty extends StatelessWidget {
                                             "I can't say with any certainty where I'll be next week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم بە هیچ دڵنیاییەکەوە بڵێم کە هەفتەی داهاتوو لە کوێ دەبم."),
+                                            "ناتوانم بە ھیچ دڵنیاییەکەوە بڵێم کە ھەفتەی داھاتوو لە کوێ دەبم."),
                                   ],
                                 ),
                               ),
@@ -361,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: certainty (Derived forms: certainties)
+- Noun: certainty (derived forms: certainties)
 1. The state of being certain
 "his certainty reassured the others"
  
@@ -399,7 +401,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ofTb57aZHZs?t=',
+    videoId: 'ofTb57aZHZs',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +426,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7XLd9zX6PqU?t=',
+    videoId: '7XLd9zX6PqU',
     startSeconds: 274,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +451,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kElsSj8hky4?t=',
+    videoId: 'kElsSj8hky4',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +476,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 1470,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +501,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IwJzsE8CvzQ?t=',
+    videoId: 'IwJzsE8CvzQ',
     startSeconds: 1007,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +526,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sa-oXDAnD_Q?t=',
+    videoId: 'Sa-oXDAnD_Q',
     startSeconds: 923,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +551,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aN5zrInczus?t=',
+    videoId: 'aN5zrInczus',
     startSeconds: 1072,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +576,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hkSOOB3MYMY?t=',
+    videoId: 'hkSOOB3MYMY',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(

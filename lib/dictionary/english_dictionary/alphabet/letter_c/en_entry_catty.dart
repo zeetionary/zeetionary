@@ -303,14 +303,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: catty (Derived forms: cattiest, cattier)
+- Adjective: catty (derived forms: cattiest, cattier)
 1. Marked by or arising from malice (= bitchy [informal], cattish)
 "a catty remark";
  
 2. Of, relating to, resembling or smelling of cats
 "a catty smell"
 
-- Noun: catty (Derived forms: catties)
+- Noun: catty (derived forms: catties)
 1. Any of various units of weight used in southeastern Asia (especially a Chinese measure equal to 500 grams) (= cattie)
 """,
   );

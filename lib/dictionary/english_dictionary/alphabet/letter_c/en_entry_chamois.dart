@@ -3,98 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "assembly" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryassembly - replace speakAssembly
-
-// replace assembly - /əˈsembli/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryassembly extends StatelessWidget {
+class EnglishEntrychamois extends StatelessWidget {
   // blank divider
-  EnglishEntryassembly({super.key});
+  EnglishEntrychamois({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssembly(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchamois(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chamois"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly940(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Power has been handed over to provincial and regional assemblies."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAssembly943(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchamoiss1(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a whole school assembly every Friday morning."); // DOPSUM: CHANGE TEXT
+        "The chamois's keen sense of balance allows it to traverse narrow ledges and cliffs with ease."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly946(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchamoiss2(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was to address a public assembly on the issue."); // DOPSUM: CHANGE TEXT
+        "After washing the windows, the cleaner used a chamois to wipe away streaks and spots."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly950(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchamoiss3(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The deputy head was taking (= leading) school assembly that day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchamoiss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly952(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchamoiss4(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Putting the bookcase together should be a simple assembly job."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchamoiss400"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssembly(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssembly
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchamoiss5(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAssembly(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssembly
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchamoiss6(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAssembly(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssembly
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchamoiss7(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchamoiss8(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchamoiss9(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchamoiss10(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchamoiss11(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchamoiss12(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchamoiss13(String languageCode) async {
+    // DOPSUM: CHANGE speakchamois
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchamoiss1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -116,27 +150,22 @@ class EnglishEntryassembly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "assembly"), // Find /əˈsembli/
-                            // divvviiider
+                            EntryTitle(word: "chamois"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈsembli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈʃæmwɑː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssembly("en-GB"),
+                              onPressed: () => speakchamois("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈsembli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈʃæmwɑː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssembly("en-US"),
+                              onPressed: () => speakchamois("en-US"),
                             ),
                           ],
                         ),
@@ -149,7 +178,7 @@ class EnglishEntryassembly extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -163,9 +192,9 @@ class EnglishEntryassembly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئەنجوومەن، جڤات، جەرگە، کۆڕ، کۆبوونەوە، دانیشتن، کۆمبین، گۆبەند، سواریەک‌کردن، بەستنەوە، کۆکردنەوە، سەریەک‌خستن، تەپڵی (دەنگ) کۆکردنەوە (سەربازەکان)
+کوردی: بزن‌ئاسک، بزنەکێوی، تیمانج، تیماج، پێستە
 
-١. (ناو) گرووپێک لە خەڵکی کە ھەڵبژێردراون بۆ ئەوەی بەشێوەی بەردەوام کۆببنەوە و بڕیار و یاسا بۆ ناوچەیەک دەربکەن"""),
+١. (ھاوەڵناو) ئاژەڵێک کە وەک ئاسکێکی بچووک وایە و لە چیاکانی ئەورووپا و ئاسیا دەژی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -173,63 +202,30 @@ class EnglishEntryassembly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Power has been handed over to provincial and regional assemblies."),
+                                            "The chamois's keen sense of balance allows it to traverse narrow ledges and cliffs with ease."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
+                                            "هەستی تیژی هاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت ."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chamois", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly940("en-GB"),
+                                    onPressed: () => speakchamoiss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly940(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                    onPressed: () => speakchamoiss1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a whole school assembly every Friday morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly943("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly943(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) گردبوونەوەی کۆمەڵە کەسێک بۆ ھۆکارێکی دیاریکراو"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) پارچەیەکی نەرم کە لە پێستی بزن، مەڕ، هتد درووستکراوە و بۆ پاککردنەوە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,10 +233,10 @@ class EnglishEntryassembly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He was to address a public assembly on the issue."),
+                                            "After washing the windows, the cleaner used a chamois to wipe away streaks and spots."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
+                                            "لەدوای شۆردنی پەنجەرەکان، پاککەرەوەکە تیمانجێکی بەکارهێنا بۆ سڕینی هێڵ و خاڵەکان."),
                                   ],
                                 ),
                               ),
@@ -248,105 +244,42 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly946("en-GB"),
+                                    onPressed: () => speakchamoiss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly946(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                    onPressed: () => speakchamoiss2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) کۆبوونەوەی مامۆستایان و خوێندکاران لە سەرەتای ڕۆژدا بۆباسکردنی مەراسیمەکانی خوێندنگە، پێدانی زانیاری، یان وتنەوەی سروود سروود و نزا خوێندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The deputy head was taking (= leading) school assembly that day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly950(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) پێکەوەنانی پارچەکانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Putting the bookcase together should be a simple assembly job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly952(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -402,21 +335,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: assembly (derived forms: assemblies)
-1. A group of machine parts that fit together to form a self-contained unit
+- Noun: chamois (Derived forms: chamois)
+
+1. A soft suede leather formerly from the skin of the chamois antelope but now from sheepskin (= chamois leather, chammy, chammy leather, shammy, shammy leather) 
  
-2. The act of constructing something (as a piece of machinery) (= fabrication)
- 
-3. A public facility to meet for open discussion (= forum, meeting place)
- 
-4. A group of persons who are gathered together for a common purpose
- 
-5. A unit consisting of components that have been fitted together
- 
-6. The social act of assembling (= assemblage, gathering)
-"they demanded the right of assembly";
- 
-7. A low-level programing language; close approximation to machine language (= assembly language)
+2. Hoofed mammal of mountains of Eurasia having upright horns with backward-hooked tips (= Rupicapra rupicapra)
 """,
   );
 
@@ -445,12 +368,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/1jNOGxTNHhw?t=',
+    startSeconds: 58,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VrKW58MS12g',
-    startSeconds: 1309,
+    videoId: 'https://youtu.be/D-dN47z8S4Q?t=',
+    startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cqbleas1mmo',
-    startSeconds: 944,
+    videoId: 'https://youtu.be/SbqVQbPrHqo',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7EnWiGYT1g4',
-    startSeconds: 80,
+    videoId: 'https://youtu.be/hH2n1MX2rzg?t=',
+    startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kTaYet07Ioo',
-    startSeconds: 1221,
+    videoId: 'https://youtu.be/ary5gNCeKPY?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'b1reY72ktEc',
-    startSeconds: 944,
+    videoId: 'https://youtu.be/Zop_r7w2flM?t=',
+    startSeconds: 522,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'q7JDYiLz9Mo',
-    startSeconds: 271,
+    videoId: 'https://youtu.be/4uMBINlVubQ?t=',
+    startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KbNRvWfndjA',
-    startSeconds: 351,
+    videoId: 'https://youtu.be/SlJpGqUBvSA?t=',
+    startSeconds: 308,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +572,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'C_7tn_oGHI0',
-    startSeconds: 1314,
+    videoId: 'https://youtu.be/wzsoRrR7CdE?t=',
+    startSeconds: 1825,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -649,8 +597,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'T1W4KLi0ClU',
-    startSeconds: 112,
+    videoId: 'https://youtu.be/TX9f2u6tUWw?t=',
+    startSeconds: 244,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -674,8 +622,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DvDwlyGthtY',
-    startSeconds: 58,
+    videoId: 'https://youtu.be/-hvDiJIp8O4?t=',
+    startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -699,8 +647,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9zX2BQFZ_BI',
-    startSeconds: 296,
+    videoId: 'https://youtu.be/CbABrFZ6s0Q?t=',
+    startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -724,8 +672,8 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vojsscI61Sk',
-    startSeconds: 1072,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -739,12 +687,35 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
 
-// end
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  YoutubeEmbeddedthirteen({super.key});
 
-// end // TODO Implement this library.
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+// end WORD_WEB

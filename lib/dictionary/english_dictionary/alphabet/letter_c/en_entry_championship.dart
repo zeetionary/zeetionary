@@ -3,98 +3,134 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "assembly" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryassembly - replace speakAssembly
-
-// replace assembly - /əˈsembli/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryassembly extends StatelessWidget {
+class EnglishEntrychampionship extends StatelessWidget {
   // blank divider
-  EnglishEntryassembly({super.key});
+  EnglishEntrychampionship({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssembly(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchampionship(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("championship"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly940(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Power has been handed over to provincial and regional assemblies."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAssembly943(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchampionships1(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a whole school assembly every Friday morning."); // DOPSUM: CHANGE TEXT
+        "He won a silver medal at the European Championships."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly946(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchampionships2(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was to address a public assembly on the issue."); // DOPSUM: CHANGE TEXT
+        "She has won four major championships in the last five years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly950(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchampionships3(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The deputy head was taking (= leading) school assembly that day."); // DOPSUM: CHANGE TEXT
+        "They've held the championship for the past two years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly952(String languageCode) async {
-    // DOPSUM: CHANGE speakAssembly
+  Future<void> speakchampionships4(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Putting the bookcase together should be a simple assembly job."); // DOPSUM: CHANGE TEXT
+        "She managed to retain the championship."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssembly(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssembly
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchampionships5(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAssembly(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssembly
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchampionships6(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAssembly(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssembly
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchampionships7(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchampionships8(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchampionships9(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchampionships10(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchampionships11(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchampionships12(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchampionships13(String languageCode) async {
+    // DOPSUM: CHANGE speakchampionship
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchampionships1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -116,27 +152,22 @@ class EnglishEntryassembly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "assembly"), // Find /əˈsembli/
-                            // divvviiider
+                            EntryTitle(word: "championship"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈsembli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃæmpiənʃɪp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssembly("en-GB"),
+                              onPressed: () => speakchampionship("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈsembli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃæmpiənʃɪp/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssembly("en-US"),
+                              onPressed: () => speakchampionship("en-US"),
                             ),
                           ],
                         ),
@@ -149,7 +180,7 @@ class EnglishEntryassembly extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -163,9 +194,9 @@ class EnglishEntryassembly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئەنجوومەن، جڤات، جەرگە، کۆڕ، کۆبوونەوە، دانیشتن، کۆمبین، گۆبەند، سواریەک‌کردن، بەستنەوە، کۆکردنەوە، سەریەک‌خستن، تەپڵی (دەنگ) کۆکردنەوە (سەربازەکان)
+کوردی: پێشبڕکێ قارەمانی یان پاڵەوانی‌یەکان، پاڵەوانی، قارەمانی، پۆست یان پلەوپایەی قارمانێتی، پلەی پاڵەوانێتی، پشتیوانی، بەرگری، لەسەرکردنەوە، پشتگیری، داکۆکی
 
-١. (ناو) گرووپێک لە خەڵکی کە ھەڵبژێردراون بۆ ئەوەی بەشێوەی بەردەوام کۆببنەوە و بڕیار و یاسا بۆ ناوچەیەک دەربکەن"""),
+١. (ناو) پێشبڕکێیەک بۆ زانینی باشترین کەس یان تیم لە وەرزشێکدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -173,30 +204,29 @@ class EnglishEntryassembly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Power has been handed over to provincial and regional assemblies."),
+                                            "He won a silver medal at the European Championships."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
+                                            "مەدالیای زیوی بردەوە لە پاڵەوانێتی ئەورووپادا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "championship", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly940("en-GB"),
+                                    onPressed: () =>
+                                        speakchampionships1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly940(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakchampionships1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -204,10 +234,10 @@ class EnglishEntryassembly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "There is a whole school assembly every Friday morning."),
+                                            "She has won four major championships in the last five years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
+                                            "چوار پاڵەوانێتی گرنگی بردووەتەوە لە پێنج ساڵی ڕابردوودا."),
                                   ],
                                 ),
                               ),
@@ -215,21 +245,20 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly943("en-GB"),
+                                    onPressed: () =>
+                                        speakchampionships2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly943(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakchampionships2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) گردبوونەوەی کۆمەڵە کەسێک بۆ ھۆکارێکی دیاریکراو"""),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) بوون لە پێگەی پاڵەوانیدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,10 +266,10 @@ class EnglishEntryassembly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He was to address a public assembly on the issue."),
+                                            "They've held the championship for the past two years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
+                                            "بۆ دوو ساڵی ڕابردوو لە پێگەی پاڵەوانێتیدا بوونە."),
                                   ],
                                 ),
                               ),
@@ -248,21 +277,18 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly946("en-GB"),
+                                    onPressed: () =>
+                                        speakchampionships3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly946(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakchampionships3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) کۆبوونەوەی مامۆستایان و خوێندکاران لە سەرەتای ڕۆژدا بۆباسکردنی مەراسیمەکانی خوێندنگە، پێدانی زانیاری، یان وتنەوەی سروود سروود و نزا خوێندن"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -270,10 +296,10 @@ class EnglishEntryassembly extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The deputy head was taking (= leading) school assembly that day."),
+                                            "She managed to retain the championship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
+                                            "توانی پێگەی پاڵەوانێتی بپارێزێت."),
                                   ],
                                 ),
                               ),
@@ -281,72 +307,44 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly950("en-GB"),
+                                    onPressed: () =>
+                                        speakchampionships4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly950(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakchampionships4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) پێکەوەنانی پارچەکانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Putting the bookcase together should be a simple assembly job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly952(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -402,21 +400,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: assembly (derived forms: assemblies)
-1. A group of machine parts that fit together to form a self-contained unit
+- Noun: championship (Derived forms: championships)
+1. The status of being a champion (= title)
+"he held the championship for two years";
  
-2. The act of constructing something (as a piece of machinery) (= fabrication)
+2. A competition at which a champion is chosen
  
-3. A public facility to meet for open discussion (= forum, meeting place)
- 
-4. A group of persons who are gathered together for a common purpose
- 
-5. A unit consisting of components that have been fitted together
- 
-6. The social act of assembling (= assemblage, gathering)
-"they demanded the right of assembly";
- 
-7. A low-level programing language; close approximation to machine language (= assembly language)
+3. The act of providing approval and support (= backing, backup, patronage)
+"his vigorous championship of the conservatives got him in trouble with progressives";
 """,
   );
 
@@ -445,12 +436,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VrKW58MS12g',
-    startSeconds: 1309,
+    videoId: 'https://youtu.be/QhMdXKc0a6U?t=',
+    startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +490,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cqbleas1mmo',
-    startSeconds: 944,
+    videoId: 'https://youtu.be/rmpFtK_5g98?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +515,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7EnWiGYT1g4',
-    startSeconds: 80,
+    videoId: 'https://youtu.be/-HfyDaFb6ok?t=',
+    startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +540,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kTaYet07Ioo',
-    startSeconds: 1221,
+    videoId: 'https://youtu.be/jFk-L7Wcg0g?t=',
+    startSeconds: 386,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +565,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'b1reY72ktEc',
-    startSeconds: 944,
+    videoId: 'https://youtu.be/U38i32CpYow?t=',
+    startSeconds: 1260,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +590,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'q7JDYiLz9Mo',
-    startSeconds: 271,
+    videoId: 'https://youtu.be/-r_l-cTcWsE?t=',
+    startSeconds: 474,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +615,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KbNRvWfndjA',
-    startSeconds: 351,
+    videoId: 'https://youtu.be/BuaKzm7Kq9Q?t=',
+    startSeconds: 564,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -620,131 +636,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'C_7tn_oGHI0',
-    startSeconds: 1314,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'T1W4KLi0ClU',
-    startSeconds: 112,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DvDwlyGthtY',
-    startSeconds: 58,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9zX2BQFZ_BI',
-    startSeconds: 296,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vojsscI61Sk',
-    startSeconds: 1072,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end // TODO Implement this library.
+// end WORD_WEB

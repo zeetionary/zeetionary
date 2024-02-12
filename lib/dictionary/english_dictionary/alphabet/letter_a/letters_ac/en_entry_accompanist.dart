@@ -94,7 +94,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. کەسێک کە ئامێرێکی موسیقی دەژەنێت لە کاتێکدا کەسێکی تر بەشە گرنگەکەی گۆرانییەکە دەڵێت"""),
+١. کەسێک کە ئامێرێکی میوزیکی دەژەنێت لە کاتێکدا کەسێکی تر بەشە گرنگەکەی گۆرانییەکە دەڵێت"""),
                           Row(
                             children: [
                               const Expanded(

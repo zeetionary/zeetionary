@@ -165,7 +165,7 @@ class EnglishEntrybacker extends StatelessWidget {
                                             "The project receives its money from European backers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پڕۆژەکە پارە بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),
+                                            "پڕۆژەکە پارەی بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),
                                   ],
                                 ),
                               ),

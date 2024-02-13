@@ -2815,7 +2815,7 @@ class _DictionaryScreenEnglishState
     "change",
     "changeable",
     // "changeover",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "channel",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -14454,7 +14454,8 @@ class _DictionaryScreenEnglishState
                   }
                   if (wordsEnglish == "Chamber of Commerce") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-chamber-of-commerce");
+                    Routemaster.of(context)
+                        .push("/english-chamber-of-commerce");
                   }
                   if (wordsEnglish == "chameleon") {
                     saveToHistory(wordsEnglish);
@@ -14502,7 +14503,8 @@ class _DictionaryScreenEnglishState
                   }
                   if (wordsEnglish == "Chancellor of the Exchequer") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-chancellor-of-the-exchequer");
+                    Routemaster.of(context)
+                        .push("/english-chancellor-of-the-exchequer");
                   }
                   if (wordsEnglish == "chandelier") {
                     saveToHistory(wordsEnglish);
@@ -14520,9 +14522,9 @@ class _DictionaryScreenEnglishState
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-changeover");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "channel") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-channel");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

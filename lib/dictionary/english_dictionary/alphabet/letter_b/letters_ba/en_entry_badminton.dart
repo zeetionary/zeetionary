@@ -163,7 +163,7 @@ class EnglishEntrybadminton extends StatelessWidget {
                                             "I enjoyed watching the badminton tournament, even though I didn't understand all the rules."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
+                                            "چێژم بینی لە سەیرکردنی یارییە بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
                                   ],
                                 ),
                               ),

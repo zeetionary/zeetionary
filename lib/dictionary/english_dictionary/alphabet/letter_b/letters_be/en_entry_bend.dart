@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace bend - replace EnglishEntrybend
 
-// replace speakBend - /bend/
+// replace speakbend - /bend/
 
 enum TtsState { playing }
 
@@ -19,24 +19,24 @@ class EnglishEntrybend extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBend(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbend(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("bend"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends1(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends1(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("He bent and kissed her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends2(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends2(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,8 +44,8 @@ class EnglishEntrybend extends StatelessWidget {
         "She bent forward to pick up the newspaper."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends3(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends3(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,8 +53,8 @@ class EnglishEntrybend extends StatelessWidget {
         .speak("Lie flat and let your knees bend."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends4(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends4(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,8 +62,8 @@ class EnglishEntrybend extends StatelessWidget {
         "Mark the pipe where you want to bend it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends5(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends5(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,8 +71,8 @@ class EnglishEntrybend extends StatelessWidget {
         .speak("The road bent sharply to the right."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends6(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends6(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,13 +80,167 @@ class EnglishEntrybend extends StatelessWidget {
         "He lost control on a bend and crashed into a tree."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBends7(String languageCode) async {
-    // DOPSUM: CHANGE speakBend
+  Future<void> speakbends7(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "On the way up, divers stop at various depths in order to prevent the bends."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends8(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("You took that bend very fast!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends9(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He lost control on a bend and crashed into a tree."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends10(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends11(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends12(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends13(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends14(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends15(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends16(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends17(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends18(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends19(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends1900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends20(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends21(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends22(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends23(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends24(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends25(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbends26(String languageCode) async {
+    // DOPSUM: CHANGE speakbend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbends2600"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -116,7 +270,7 @@ class EnglishEntrybend extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bend/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBend("en-GB"),
+                              onPressed: () => speakbend("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +278,7 @@ class EnglishEntrybend extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bend/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBend("en-US"),
+                              onPressed: () => speakbend("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +324,10 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends1("en-GB"),
+                                    onPressed: () => speakbends1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends1("en-US"),
+                                    onPressed: () => speakbends1("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,10 +353,10 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends2("en-GB"),
+                                    onPressed: () => speakbends2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends2("en-US"),
+                                    onPressed: () => speakbends2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +383,10 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends3("en-GB"),
+                                    onPressed: () => speakbends3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends3("en-US"),
+                                    onPressed: () => speakbends3("en-US"),
                                   ),
                                 ],
                               ),
@@ -260,10 +414,10 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends4("en-GB"),
+                                    onPressed: () => speakbends4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends4("en-US"),
+                                    onPressed: () => speakbends4("en-US"),
                                   ),
                                 ],
                               ),
@@ -291,10 +445,10 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends5("en-GB"),
+                                    onPressed: () => speakbends5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends5("en-US"),
+                                    onPressed: () => speakbends5("en-US"),
                                   ),
                                 ],
                               ),
@@ -322,10 +476,10 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends6("en-GB"),
+                                    onPressed: () => speakbends6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends6("en-US"),
+                                    onPressed: () => speakbends6("en-US"),
                                   ),
                                 ],
                               ),
@@ -353,17 +507,73 @@ class EnglishEntrybend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBends7("en-GB"),
+                                    onPressed: () => speakbends7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBends7("en-US"),
+                                    onPressed: () => speakbends7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) پێچێک، بۆ نموونە لە ڕووبارێک یان ڕێگایەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You took that bend very fast!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر بە خێرایی بەو پێچەدا چوویت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbends8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbends8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lost control on a bend and crashed into a tree."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پێچەکەدا کۆنترۆڵی لەدەستدا و کێشای بە دارێکدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbends9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbends9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),

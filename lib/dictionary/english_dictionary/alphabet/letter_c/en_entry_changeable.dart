@@ -3,83 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bloodshot" and provide five 10-words or less long example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
-// replace bloodshot - /ˈblʌdʃɒt/
 
 enum TtsState { playing }
 
-class EnglishEntrybloodshot extends StatelessWidget {
-// blank divider
-  EnglishEntrybloodshot({super.key});
-// blank divider
+class EnglishEntrychangeable extends StatelessWidget {
+  // blank divider
+  EnglishEntrychangeable({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbloodshot(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeable(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bloodshot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("changeable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots1(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables1(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After the long flight, her eyes were visibly bloodshot."); // DOPSUM: CHANGE TEXT
+        "The weather is very changeable at this time of year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots2(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables2(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodshots22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I called and asked if our tickets were changeable and what time the next flight was."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots3(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables3(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodshots33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchangeables300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots4(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables4(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodshots44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchangeables400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots5(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables5(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodshots55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchangeables500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots6(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables6(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodshots66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchangeables600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodshots7(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodshot
+  Future<void> speakchangeables7(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodshots77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchangeables700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchangeables8(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchangeables800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchangeables9(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchangeables900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchangeables10(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchangeables1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchangeables11(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchangeables1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchangeables12(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchangeables1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchangeables13(String languageCode) async {
+    // DOPSUM: CHANGE speakchangeable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchangeables1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +150,22 @@ class EnglishEntrybloodshot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bloodshot"),
+                            EntryTitle(word: "changeable"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblʌdʃɒt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃeɪndʒəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbloodshot("en-GB"),
+                              onPressed: () => speakchangeable("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblʌdʃɑːt/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃeɪndʒəbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbloodshot("en-US"),
+                              onPressed: () => speakchangeable("en-US"),
                             ),
                           ],
                         ),
@@ -130,7 +178,7 @@ class EnglishEntrybloodshot extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -144,9 +192,9 @@ class EnglishEntrybloodshot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: (چاو) سوور، سوورەوەبوو، خوێن‌تێزاو
+کوردی: بگۆڕ، لەگۆڕان‌هاتوو، دەقەندووق
 
-١. (ھاوەڵناو) چاوێک کە ئەو بەشەی زۆر جار سپییە پڕ بێت لە ھێڵی سوور"""),
+١. (ھاوەڵناو) شتێک کە ئەگەری زۆرە بگۆڕێت و پێشبینی‌نەکراوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -154,10 +202,43 @@ class EnglishEntrybloodshot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "After the long flight, her eyes were visibly bloodshot."),
+                                            "The weather is very changeable at this time of year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دوای فڕینە ماوە درێژەکە، چاوەکانی بە ئاشکرایی سووربووبوونەوە."),
+                                            "کەشوهەوا زۆر پێشبینی‌نەکراوە لەم کاتەی ساڵدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "changeable", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchangeables1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchangeables1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) شتێک کە دەکرێت بگۆڕدرێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                      text:
+                                          "I called and asked if our tickets were changeable and what time the next flight was.",
+                                      note:
+                                          "Changeable tickets is one that you have the flexibility to change the date, time or location of your trip prior to departure.",
+                                    ),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندیم کرد و پرسیم کە ئایا بلیتەکەمان بگۆڕ بوو، و گەشتی دواتر لە چی کاتێکدا بوو."),
                                   ],
                                 ),
                               ),
@@ -165,10 +246,10 @@ class EnglishEntrybloodshot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbloodshots1("en-GB"),
+                                    onPressed: () => speakchangeables2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodshots1("en-US"),
+                                    onPressed: () => speakchangeables2("en-US"),
                                   ),
                                 ],
                               ),
@@ -184,10 +265,10 @@ class EnglishEntrybloodshot extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
@@ -200,6 +281,7 @@ class EnglishEntrybloodshot extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -255,9 +337,18 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: bloodshot
-1. (of an eye) reddened as a result of locally congested blood vessels; inflamed
-"bloodshot eyes"
+- Adjective: changeable 
+1. Capable of or tending to change in form or quality or nature (= mutable)
+"a changeable substance";
+ 
+2. Such that alteration is possible; having a marked tendency to change (= changeful)
+"changeable moods";
+ 
+3. Subject to change (= uncertain, unsettled)
+"a changeable climate";
+ 
+4. Varying in colour when seen in different lights or from different angles (= chatoyant, iridescent, shot)
+"changeable taffeta";
 """,
   );
 
@@ -286,12 +377,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/YOZi-7V11k8?t=',
+    startSeconds: 517,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YiM9oosSvNg',
-    startSeconds: 688,
+    videoId: 'https://youtu.be/B15irru4EMk?t=',
+    startSeconds: 651,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -315,8 +431,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HLedllETYD4',
-    startSeconds: 870,
+    videoId: 'https://youtu.be/hHXn3aFIGwY?t=',
+    startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -340,8 +456,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XAtzfJcuHjY',
-    startSeconds: 961,
+    videoId: 'https://youtu.be/hlCc_TA7gw8?t=',
+    startSeconds: 2923,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -365,8 +481,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JYJq02OTdSs',
-    startSeconds: 183,
+    videoId: 'https://youtu.be/-mU7rEpAe10?t=',
+    startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +506,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eaa5onIXG_0',
-    startSeconds: 1445,
+    videoId: 'https://youtu.be/DiIt72vYUQ8?t=',
+    startSeconds: 1203,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +531,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DkaJ6iK2CJc',
-    startSeconds: 137,
+    videoId: 'https://youtu.be/OyV8LELM_HM?t=',
+    startSeconds: 435,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +556,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PdC5AGuacbg',
-    startSeconds: 719,
+    videoId: 'https://youtu.be/eri4XpuD5yA?t=',
+    startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -461,54 +577,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Wp9HVeOdmSM',
-    startSeconds: 115,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kUrwRrhslRU',
-    startSeconds: 1359,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bloodshot
+// end WORD_WEB

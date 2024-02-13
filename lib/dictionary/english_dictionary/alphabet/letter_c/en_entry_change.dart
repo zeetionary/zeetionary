@@ -305,7 +305,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We're hoping for a change in the weather."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges33(String languageCode) async {
@@ -313,7 +314,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was no change in the patient's condition overnight."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges34(String languageCode) async {
@@ -321,7 +323,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I need to make some major changes in my life."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges35(String languageCode) async {
@@ -329,7 +332,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We need to inform you of significant changes to the tax system."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges36(String languageCode) async {
@@ -337,7 +341,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Let's get away for the weekend. A change of scene will do you good."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges37(String languageCode) async {
@@ -345,7 +350,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There will be a crew change when we land at Dubai."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges38(String languageCode) async {
@@ -353,7 +359,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He made a rapid gear change as he approached the bend."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges39(String languageCode) async {
@@ -361,7 +368,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I made a couple of minor changes to my opening paragraph."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges40(String languageCode) async {
@@ -369,7 +377,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It makes a change to read some good news for once."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges41(String languageCode) async {
@@ -377,7 +386,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It made a pleasant change not having to work."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges42(String languageCode) async {
@@ -385,7 +395,7 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't forget your change!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges43(String languageCode) async {
@@ -393,7 +403,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The ticket machine doesn't give change."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges44(String languageCode) async {
@@ -401,7 +412,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I have two dollars in change."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges45(String languageCode) async {
@@ -409,7 +421,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I keep a change of shoes in the car."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges46(String languageCode) async {
@@ -417,7 +430,8 @@ class EnglishEntrychange extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchanges4600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The journey involved three changes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchanges47(String languageCode) async {
@@ -949,7 +963,7 @@ class EnglishEntrychange extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) گۆڕینی شتێک، کەسێک، خزمەتگوزارییەک بە یەکێکی جیاوازتر یان تازەتر"),
+                                  "٥. (کردار) گۆڕینی شتێک، کەسێک، خزمەتگوزارییەک بە یەکێکی جیاوازتر یان تازەتر"),
                           Row(
                             children: [
                               const Expanded(
@@ -1414,6 +1428,463 @@ class EnglishEntrychange extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakchanges31("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٤. (ناو) گۆڕان"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We're hoping for a change in the weather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە هیوای گۆڕانێکین لە کەشوهەوادا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges32("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges32("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was no change in the patient's condition overnight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە درێژایی شەو هیچ گۆڕانێک لە دۆخی نەخۆشەکە نەبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges33("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges33("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I need to make some major changes in my life."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پێویستە هەندێک گۆڕانکاری گەورە بکەم لە ژیانمدا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchanges34("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchanges34("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We need to inform you of significant changes to the tax system."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دەبێت ئاگادارت بکەینەوە لە گۆڕانی گەورە لە سیستەمی باجدان."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchanges35("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchanges35("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٥. (ناو) پڕۆسەی شوێنگرتنەوەی شتێک بە شتێکی تازە یان جیاواز"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's get away for the weekend. A change of scene (= time in a different place) will do you good."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با دووربکەوینەوە بۆ کۆتایی هەفتە. گۆڕانێکی دەورووبەر باش دەبێت بۆت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges36("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges36("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "There will be a crew change when we land at Dubai."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "گۆڕانێک لە تیمەکە دەبێت کە لە دووبەی دەنیشینەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchanges37("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchanges37("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He made a rapid gear change as he approached the bend."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە خێرایی گێڕی گۆڕی کە گەشتە پێچەکە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchanges38("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchanges38("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I made a couple of minor changes to my opening paragraph."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هەندێک گۆڕانکاری بچووکم لە پەرەگرافی یەکەمم ئەنجامدا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchanges39("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchanges39("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٦. (ناو) جیاوازبوونی دۆخێک، شوێنێک، یان ئەزموونێک و ئەمە وابکات خۆش یان سەرنجڕاکێش بێت بێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It makes a change to read some good news for once."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆڕانێک دەبێت کە هەواڵێکی باش بۆ جارێک بخوێنمەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges40("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges40("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It made a pleasant change not having to work."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەسێکی خۆش بوو کە کار نەبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges41("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges41("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٧. (ناو) ئەو پارەیەی وەریدەگریتەوە کاتێک پارەی زیادت داوە بۆ شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't forget your change!"),
+                                    ExampleSentenceKurdish(
+                                        text: "باقییەکەتت بیرنەچێت!"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges42("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges42("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ticket machine doesn't give change."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئامێری بلیتەکە باقی ناداتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges43("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges43("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٨. (ناو) پارەی سکە نەک کاغەز"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have two dollars in change (= coins that together are worth two dollars)."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو دۆلارم بە سکە هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges44("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges44("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٩. (ناو) دەستەیەک لە شتێکی زیادە، بۆ نموونە جلی زیادە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I keep a change of shoes in the car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جووتێک پێڵاوی زیادە لە ئۆتۆمبێلەکە دادەنێم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges45("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges45("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢٠. (ناو) گواستنەوە لە پاسێک، شەمەندەفەرێک، یان فڕۆکەیەک بۆ یەکێکی دیکە لا کاتی گەشتێکدا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The journey involved three changes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشتەکە سێ گواستنەوەی تێدا بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchanges46("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchanges46("en-US"),
                                   ),
                                 ],
                               ),

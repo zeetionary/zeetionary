@@ -3,86 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "banner" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace banner - replace EnglishEntrybanner
-
-// replace speakBanner - /ˈbænər/
 
 enum TtsState { playing }
 
-class EnglishEntrybanner extends StatelessWidget {
-// blank divider
-  EnglishEntrybanner({super.key});
-// blank divider
+class EnglishEntrychant extends StatelessWidget {
+  // blank divider
+  EnglishEntrychant({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanner(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchant(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("banner"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners1(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants1(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Protesters carried a banner reading ‘Save our Wildlife’."); // DOPSUM: CHANGE TEXT
+        "The crowd broke into chants of ‘Out! Out!’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners2(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants2(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They put up a website banner advising customers to order early."); // DOPSUM: CHANGE TEXT
+        "The monks gathered in the temple to perform a Buddhist chant."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners3(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants3(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The crowd chanted their hero's name."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners4(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants4(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We could hear the monks chanting."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners5(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants5(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchants500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners6(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants6(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchants600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners7(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchants7(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchants700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchants8(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchants800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchants9(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchants900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchants10(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchants1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchants11(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchants1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchants12(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchants1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchants13(String languageCode) async {
+    // DOPSUM: CHANGE speakchant
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchants1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,28 +152,22 @@ class EnglishEntrybanner extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "banner"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "chant"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbænər/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /tʃɑːnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBanner("en-GB"),
+                              onPressed: () => speakchant("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbænər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /tʃænt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBanner("en-US"),
+                              onPressed: () => speakchant("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +180,7 @@ class EnglishEntrybanner extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -153,9 +194,9 @@ class EnglishEntrybanner extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پڵاکارد، ئاڵا، بەیداخ، درووشم، ناو، ناونیشان
+کوردی: درووشم،	هەوا، بەستە، بەند، ستران، گۆرانی، (لە دین‌دا یان بۆ کلێسە) سرود، مناجات
 
-١. (ناو) پارچەیەک کە بە دوو ستوون ھەڵدەگیرێت و درووشمێکی لەسەرە وەک پشتیوانی بۆ شتێک"""),
+١. (ناو) چەند وشەیەک کە کۆمەڵێک کەس دووبارە و دووبارە دەیڵێنەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -163,32 +204,30 @@ class EnglishEntrybanner extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Protesters carried a banner reading ‘Save our Wildlife’."),
+                                            "The crowd broke into chants of ‘Out! Out!’"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'."),
+                                            "گرووپەکە دەستیان کرد بە درووشمی 'دەرەوە! دەرەوە!'"),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chant", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanners1("en-GB"),
+                                    onPressed: () => speakchants1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBanners1(// REPLACE: banner
-                                            "en-US"),
+                                    onPressed: () => speakchants1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) ناونیشانێک یان ڕیکلامێک لەسەروە، خوارەوە، یان تەنیشتەکانی پەڕەیەکی ئینتەرنێت """),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) گۆرانییەک یان نزایەکی ئایینی کە چەند دێڕێکە و دووبارە و دووبارە دەکرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -196,10 +235,10 @@ class EnglishEntrybanner extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They put up a website banner advising customers to order early."),
+                                            "The monks gathered in the temple to perform a Buddhist chant."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن."),
+                                            "ڕەبەنەکان لە پەرستگاکە کۆبوونەوە بۆ ئەنجامدانی موناجاتێکی بودیزیم."),
                                   ],
                                 ),
                               ),
@@ -207,39 +246,103 @@ class EnglishEntrybanner extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanners2("en-GB"),
+                                    onPressed: () => speakchants2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBanners2(// REPLACE: banner
-                                            "en-US"),
+                                    onPressed: () => speakchants2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) وتنەوەی درووشم"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The crowd chanted their hero's name."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەماوەرەکە ناوی پاڵەوانەکەیان دەوتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchants3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchants3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) وتنەوەی گۆرانییەک یان نزایەکی ئایینی کە تەنها چەند دێڕێکە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We could hear the monks chanting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێمان لە ڕەبەنەکان بوو موناجاتیان دەخوێند."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchants4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchants4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -295,21 +398,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: banner (derived forms: banners)
-1. Long strip of cloth or paper used for decoration or advertising (= streamer)
- 
-2. A newspaper headline that runs across the full page (= streamer)
- 
-3. Any distinctive flag (= standard)
- 
-4. A notional title or justification
-"They usually make their case under the banner of environmentalism"
- 
-5. An advertisement on a web page or on television taking the form of a graphic or animation above or alongside the main content
+- Verb: chant (Derived forms: chanted, chanting, chants)
+1. Recite with musical intonation; recite as a chant or a psalm (= intone, intonate, cantillate [rare])
+"The rabbi chanted a prayer";
 
-- Adjective: banner
-1. Unusually good; outstanding
-"a banner year for the company"
+2. Utter monotonously and repetitively and rhythmically (= tone, intone)
+"The students chanted the same slogan over and over again";
+
+- Noun: chant 
+1. A repetitive song in which as many syllables as necessary are assigned to a single tone
 """,
   );
 
@@ -338,12 +435,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/GvWp0B4IBpU?t=',
+    startSeconds: 176,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LqU9CdPs6ek',
-    startSeconds: 66,
+    videoId: 'https://youtu.be/fOVmbD9cGXA',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -367,8 +489,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'yGzJZhtQ9NE',
-    startSeconds: 478,
+    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -392,8 +514,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Ihoys69G56U',
-    startSeconds: 333,
+    videoId: 'https://youtu.be/Zj-dUiYYH64?t=',
+    startSeconds: 783,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -417,8 +539,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'G0SpzIIHEaE',
-    startSeconds: 582,
+    videoId: 'https://youtu.be/XSkH-djDU-k?t=',
+    startSeconds: 496,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -442,8 +564,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ugYPoWShl6k',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/OPEh7UWmfDc?t=',
+    startSeconds: 523,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,8 +589,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 's3YTfhJmh1I',
-    startSeconds: 496,
+    videoId: 'https://youtu.be/6MIGnee5PPU?t=',
+    startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -492,8 +614,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'm7aR5ovHEWM',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/FNEvLr7Cdu4?t=',
+    startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,77 +635,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NG4Ws74RV04',
-    startSeconds: 109,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'L-BN9Db5QhY',
-    startSeconds: 77,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Uo58B6rYVQU',
-    startSeconds: 162,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
+// end WORD_WEB

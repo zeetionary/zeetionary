@@ -3,97 +3,135 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "attribute" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attribute - replace EnglishEntryattribute
-
-// replace speakAttribute - /əˈtrɪbjuːt/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryattribute extends StatelessWidget {
+class EnglishEntrychaos extends StatelessWidget {
   // blank divider
-  EnglishEntryattribute({super.key});
+  EnglishEntrychaos({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttribute(String languageCode) async {
-    // DOPSUM: CHANGE speakAttribute
+  Future<void> speakchaos(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chaos"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttribute1100(String languageCode) async {
-    // DOPSUM: CHANGE speakAttribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She attributes her success to hard work and a little luck."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAttribute1110(String languageCode) async {
-    // DOPSUM: CHANGE speakAttribute
+  Future<void> speakchaoss1(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This play is usually attributed to Shakespeare."); // DOPSUM: CHANGE TEXT
+        "Heavy snow has caused total chaos on the roads."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttribute1112(String languageCode) async {
-    // DOPSUM: CHANGE speakAttribute
+  Future<void> speakchaoss2(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The committee refused to attribute blame without further information."); // DOPSUM: CHANGE TEXT
+        "The house was in chaos after the party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttribute1114(String languageCode) async {
-    // DOPSUM: CHANGE speakAttribute
+  Future<void> speakchaoss3(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Patience is one of the most important attributes in a teacher."); // DOPSUM: CHANGE TEXT
+        "The country was thrown/plunged into chaos by the president's death."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttribute(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttribute
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchaoss4(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Chaos broke out when the fire started."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAttribute(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttribute
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchaoss5(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We are on the brink of chaos, economically speaking."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAttribute(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttribute
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchaoss6(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAttribute(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttribute
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchaoss7(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaoss8(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaoss9(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaoss10(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaoss11(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaoss12(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaoss13(String languageCode) async {
+    // DOPSUM: CHANGE speakchaos
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaoss1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -115,28 +153,22 @@ class EnglishEntryattribute extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "attribute"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "chaos"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtrɪbjuːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkeɪɒs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttribute("en-GB"),
+                              onPressed: () => speakchaos("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtrɪbjuːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkeɪɑːs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttribute("en-US"),
+                              onPressed: () => speakchaos("en-US"),
                             ),
                           ],
                         ),
@@ -149,7 +181,7 @@ class EnglishEntryattribute extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -163,9 +195,9 @@ class EnglishEntryattribute extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تایبەتمەندی، ڕەوشت، نیشانە، بەرژەنگ، درووشم، نموونە، ھێما، جیانیشانە، درف، تایبەت‌نیشان(ـە)
+کوردی: ئاژاوە، پشێوی، ئاڵۆزی، پاشاگەردانی، گەڕەلاوژە، شێواوی، گۆبەن، دێوەزمەی پێش پێکهآتنی گەردوون، ئاژاوەی بێ‌سەرەتایی یان ئەزەلی
 
-١. (کردار) باوەڕبوون یان وتنی ئەوەی شتێک دەرئەنجامی شتێکی ترە """),
+١. (ناو) دۆخێک کە پڕ لە ئاڵۆزی و شپرزەییە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -173,33 +205,27 @@ class EnglishEntryattribute extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She attributes her success to hard work and a little luck."),
+                                            "Heavy snow has caused total chaos on the roads."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت."),
+                                            "بەفربارینی سەخت بووە بەهۆی شپرزەیی تەواو لەسەر ڕێگاکان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chaos", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAttribute1100("en-GB"),
+                                    onPressed: () => speakchaoss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAttribute1100(// REPLACE: attribute
-                                            "en-US"),
+                                    onPressed: () => speakchaoss1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) وتنی ئەوەی کەسێک بەرپرسی شتێکە، زۆرجار ئەوەی کە شتێکی وتووە، نووسیوە، یان کێشاوە """),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -207,10 +233,10 @@ class EnglishEntryattribute extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "This play is usually attributed to Shakespeare."),
+                                            "The house was in chaos after the party."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر."),
+                                            "خانووەکە شپرزە بوو لە دوای ئاهەنگەکە."),
                                   ],
                                 ),
                               ),
@@ -218,22 +244,15 @@ class EnglishEntryattribute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAttribute1110("en-GB"),
+                                    onPressed: () => speakchaoss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAttribute1110(// REPLACE: attribute
-                                            "en-US"),
+                                    onPressed: () => speakchaoss2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (کردار) گەڕاندنەوەی شتێک، بۆ نموونە تایبەتمەندییەک یان خاسیەتێک، بۆ کەسێک/شتێک """),
                           Row(
                             children: [
                               const Expanded(
@@ -241,10 +260,10 @@ class EnglishEntryattribute extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The committee refused to attribute blame without further information."),
+                                            "The country was thrown/plunged into chaos by the president's death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر."),
+                                            "وڵاتەکە کەوتە ناو پاشاگەردانییەوە لە دوای مردنی سەرۆک."),
                                   ],
                                 ),
                               ),
@@ -252,22 +271,16 @@ class EnglishEntryattribute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAttribute1112("en-GB"),
+                                    onPressed: () => speakchaoss3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAttribute1112(// REPLACE: attribute
-                                            "en-US"),
+                                    onPressed: () => speakchaoss3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) تایبەتمەندی یان خاسیەت """),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -275,10 +288,10 @@ class EnglishEntryattribute extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Patience is one of the most important attributes in a teacher."),
+                                            "Chaos broke out when the fire started."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا."),
+                                            "پشێوی دەستیپێکرد کە ئاگرەکە دەستیپێکرد."),
                                   ],
                                 ),
                               ),
@@ -286,40 +299,70 @@ class EnglishEntryattribute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAttribute1114("en-GB"),
+                                    onPressed: () => speakchaoss4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAttribute1114(// REPLACE: attribute
-                                            "en-US"),
+                                    onPressed: () => speakchaoss4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are on the brink of chaos, economically speaking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە لایەنی ئابوورییەوە قسەبکەین، لەسەر لێواری داڕووخانین."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchaoss5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchaoss5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -375,18 +418,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: attribute (derived forms: attributing, attributes, attributed)
-1. Associate ownership or authorship with (= impute, ascribe, assign)
-"We attributed this quotation to Shakespeare";
+- Noun: chaos (Derived forms: chaoses)
+1. A state of extreme confusion and disorder (= pandemonium, bedlam, topsy-turvydom [informal], topsy-turvyness [informal], madhouse [informal], tohubohu [US])
  
-2. Decide as to where something belongs in a scheme (= assign)
-"The biologist attributed the mushroom to the proper class";
+2. The formless and disordered state of matter before the creation of the cosmos
+ 
+3. (physics) a dynamical system that is extremely sensitive to its initial conditions
 
-- Noun: attribute (derived forms: attributes)
-1. A construct whereby objects or individuals can be distinguished (= property, dimension)
-"self-confidence is not an endearing attribute";
- 
-2. An abstraction belonging to or characteristic of an entity
+- Noun: Chaos
+1. (Greek mythology) the most ancient of gods; the personification of the infinity of space preceding creation of the universe
 """,
   );
 
@@ -415,12 +455,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/r_5shyQGIeA?t=',
+    startSeconds: 26,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_OCFXfFwHX8',
-    startSeconds: 349,
+    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +509,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Tr1FHd_n2_0',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/JFBkN9M_Tk0?t=',
+    startSeconds: 373,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +534,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y4DTW4B3Sjs',
-    startSeconds: 682,
+    videoId: 'https://youtu.be/AAGIi62-sAU?t=',
+    startSeconds: 964,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +559,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'zJtJH46dyDE',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,8 +584,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7h1kDYFMCVA',
-    startSeconds: 194,
+    videoId: 'https://youtu.be/ngTcyNtDjE8?t=',
+    startSeconds: 608,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,8 +609,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '380Zqbi9luo',
-    startSeconds: 396,
+    videoId: 'https://youtu.be/f7imyUw1z6s?t=',
+    startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -569,8 +634,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Yql-9LHorTo',
-    startSeconds: 248,
+    videoId: 'https://youtu.be/GVsUOuSjvcg?t=',
+    startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -590,131 +655,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4QDDxmtbUsw',
-    startSeconds: 56,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WK_AtW66XI0',
-    startSeconds: 138,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OLSjK2jE4pA',
-    startSeconds: 788,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'p-L0WIQsi5o',
-    startSeconds: 677,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gQmiqmxJMtA',
-    startSeconds: 8850,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end attribute// TODO Implement this library.
+// end WORD_WEB

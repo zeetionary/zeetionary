@@ -3,86 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "banner" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace banner - replace EnglishEntrybanner
-
-// replace speakBanner - /ˈbænər/
 
 enum TtsState { playing }
 
-class EnglishEntrybanner extends StatelessWidget {
-// blank divider
-  EnglishEntrybanner({super.key});
-// blank divider
+class EnglishEntrychap extends StatelessWidget {
+  // blank divider
+  EnglishEntrychap({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanner(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchap(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("banner"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chap"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners1(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps1(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Protesters carried a banner reading ‘Save our Wildlife’."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He isn't such a bad chap really."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners2(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps2(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They put up a website banner advising customers to order early."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Come on, chaps, let’s go for a drink!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners3(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps3(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His skin is very dry and chaps easily."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners4(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps4(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchaps400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners5(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps5(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchaps500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners6(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps6(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchaps600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners7(String languageCode) async {
-    // DOPSUM: CHANGE speakBanner
+  Future<void> speakchaps7(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanners77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchaps700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaps8(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaps800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaps9(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaps900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaps10(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaps1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaps11(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaps1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaps12(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaps1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchaps13(String languageCode) async {
+    // DOPSUM: CHANGE speakchap
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchaps1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,28 +151,22 @@ class EnglishEntrybanner extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "banner"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "chap"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbænər/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /tʃæp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBanner("en-GB"),
+                              onPressed: () => speakchap("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbænər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /tʃæp/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBanner("en-US"),
+                              onPressed: () => speakchap("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +179,7 @@ class EnglishEntrybanner extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -153,9 +193,9 @@ class EnglishEntrybanner extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پڵاکارد، ئاڵا، بەیداخ، درووشم، ناو، ناونیشان
+کوردی: کوڕ، پیاو، بنیادەم، زەلام
 
-١. (ناو) پارچەیەک کە بە دوو ستوون ھەڵدەگیرێت و درووشمێکی لەسەرە وەک پشتیوانی بۆ شتێک"""),
+١. (ناو) بۆ ناوهێنانی پیاوێک بە شێوەیەکی هاوڕێیانە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -163,10 +203,38 @@ class EnglishEntrybanner extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Protesters carried a banner reading ‘Save our Wildlife’."),
+                                            "He isn't such a bad chap really."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'."),
+                                            "لە ڕاستیدا هێندە زەلامێکی خراپ نییە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "chap", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchaps1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchaps1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Come on, chaps, let’s go for a drink!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەڵا، کوڕینە، با بچین بخۆینەوە!"),
                                   ],
                                 ),
                               ),
@@ -174,21 +242,19 @@ class EnglishEntrybanner extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanners1("en-GB"),
+                                    onPressed: () => speakchaps2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBanners1(// REPLACE: banner
-                                            "en-US"),
+                                    onPressed: () => speakchaps2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) ناونیشانێک یان ڕیکلامێک لەسەروە، خوارەوە، یان تەنیشتەکانی پەڕەیەکی ئینتەرنێت """),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) پێست یان لێو ڕەق و وشک و بەئازار دەبێت، زۆرجار بەهۆی با یان هەوای ساردەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -196,10 +262,10 @@ class EnglishEntrybanner extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They put up a website banner advising customers to order early."),
+                                            "His skin is very dry and chaps easily."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن."),
+                                            "پێستی زۆر وشکە و بە ئاسانی دەتەرەکێت."),
                                   ],
                                 ),
                               ),
@@ -207,39 +273,42 @@ class EnglishEntrybanner extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanners2("en-GB"),
+                                    onPressed: () => speakchaps3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBanners2(// REPLACE: banner
-                                            "en-US"),
+                                    onPressed: () => speakchaps3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -295,21 +364,19 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: banner (derived forms: banners)
-1. Long strip of cloth or paper used for decoration or advertising (= streamer)
+- Noun: chap (Derived forms: chaps)
+1. [Brit, informal] A boy or man (= fellow, feller [non-standard], fella [informal], lad [informal], gent [informal], blighter [Brit, informal], cuss [informal], bloke [Brit, informal], boyo [UK, Ireland], bucko [informal], dog [informal])
+"that chap is your host"; "you lucky chap";
  
-2. A newspaper headline that runs across the full page (= streamer)
+2. A long narrow depression in a surface (= crevice, cranny, crack, fissure)
  
-3. Any distinctive flag (= standard)
+3. A crack in a lip caused usually by cold
  
-4. A notional title or justification
-"They usually make their case under the banner of environmentalism"
- 
-5. An advertisement on a web page or on television taking the form of a graphic or animation above or alongside the main content
+4. (usually in the plural) leather leggings without a seat; joined by a belt; often have flared outer flaps; worn over trousers by cowboys to protect their legs
 
-- Adjective: banner
-1. Unusually good; outstanding
-"a banner year for the company"
+- Verb: chap (Derived forms: chapped, chaps, chapping)
+1. Crack due to dehydration
+"My lips chap in this dry weather"
 """,
   );
 
@@ -338,12 +405,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    startSeconds: 955,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LqU9CdPs6ek',
-    startSeconds: 66,
+    videoId: 'https://youtu.be/sf7NfCe3_5Y?t=',
+    startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -367,8 +459,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'yGzJZhtQ9NE',
-    startSeconds: 478,
+    videoId: 'https://youtu.be/qJl1p0W5-y4?t=',
+    startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -392,8 +484,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Ihoys69G56U',
-    startSeconds: 333,
+    videoId: 'https://youtu.be/93A1ryc-WW0?t=',
+    startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -417,8 +509,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'G0SpzIIHEaE',
-    startSeconds: 582,
+    videoId: 'https://youtu.be/AMg4ooa0U-U?t=',
+    startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -442,8 +534,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ugYPoWShl6k',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/Rw2C9-6N6t8?t=',
+    startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,8 +559,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 's3YTfhJmh1I',
-    startSeconds: 496,
+    videoId: 'https://youtu.be/VeHW3mYWIGw?t=',
+    startSeconds: 644,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -492,8 +584,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'm7aR5ovHEWM',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/0O97z9rNt1s?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,77 +605,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NG4Ws74RV04',
-    startSeconds: 109,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'L-BN9Db5QhY',
-    startSeconds: 77,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Uo58B6rYVQU',
-    startSeconds: 162,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
+// end WORD_WEB

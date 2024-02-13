@@ -164,7 +164,8 @@ class EnglishEntrychannel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchannels1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The band were dressed in 1960s outfits and seemed to be channelling the Beatles."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchannels17(String languageCode) async {
@@ -851,6 +852,37 @@ class EnglishEntrychannel extends StatelessWidget {
                                         ],
                                       ),
                                     ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) لاسایی‌کردنەوەی کەسێک یان شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The band were dressed in 1960s outfits and seemed to be channelling the Beatles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باندەکە جلی ١٩٦٠ ەکانیان لەبەربوو و وادیاربوو کە لاسایی باندی بیتڵز دەکەنەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchannels16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchannels16("en-US"),
                                   ),
                                 ],
                               ),

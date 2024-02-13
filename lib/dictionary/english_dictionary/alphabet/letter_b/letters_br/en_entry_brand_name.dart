@@ -147,7 +147,7 @@ class EnglishEntrybrandname extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نیشانک، ماڕک، نیشانەی بازرگانی، دروشمی بازرگانی
+کوردی: نیشانک، ماڕک، نیشانەی بازرگانی، درووشمی بازرگانی
 
 ١. (ناو) ئەو ناوەی کە دەدرێت بۆ بەرھەمێک لەلایەن کۆمپانیای بەرھەمھێنەوە"""),
                           Row(

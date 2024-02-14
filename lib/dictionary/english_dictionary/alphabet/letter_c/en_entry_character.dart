@@ -29,8 +29,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "speakcharacters111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Who plays the main character?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The writers killed off her character when she got cancer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The two lead actors inhabit their characters fully."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The main character is played by Nicole Kidman."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has developed a skill set from his character work in film, TV and stage."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Generosity is part of the American character."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters7(String languageCode) async {
@@ -78,7 +83,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His scruffy appearance does not reflect his character."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters8(String languageCode) async {
@@ -86,7 +92,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It's not in his character to be so secretive."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters9(String languageCode) async {
@@ -94,7 +101,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Everyone admires her strength of character and determination for success."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters10(String languageCode) async {
@@ -102,7 +110,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The team showed great character in coming back to win."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters11(String languageCode) async {
@@ -110,7 +119,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The character of the neighbourhood hasn't changed at all."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters12(String languageCode) async {
@@ -118,7 +128,8 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police pointed out the illegal character of the protest action."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharacters13(String languageCode) async {
@@ -126,7 +137,164 @@ class EnglishEntrycharacter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The restaurant is cheap and full of character."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters14(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Who's that suspicious character hanging around outside?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters15(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She's a character!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters16(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He left his job without a stain on his character."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters17(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was prepared to sue for defamation of character."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters18(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "These are the Chinese characters meaning ‘wind’ and ‘water’."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters19(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters1900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters20(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters21(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters22(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters23(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters24(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters25(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters26(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters27(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters28(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters29(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters2900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters30(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters3000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters31(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters3100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacters32(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacters3200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -191,19 +359,19 @@ class EnglishEntrycharacter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: کەسایەتی، کەسێتی، خوو، خوو و ڕەوشت، کریار، تایبەتمەندی، ڕەوشت، سروشت، جیانیشان، تایبەتمەندی جیاکەەروە، خەسڵەت، توانایی مێنتاڵ یان هۆشی، لێهاتوویی، کەش، کەش‌وهەوا، بار، ڕەوش، پیت، تیپ، نیشانە، هێما، بەرژەنگ، جۆر، چەشن، ئاوا،	نێوبانگ، ناوودەنگ،	ڕۆڵ،	ئابڕوو، ناوی باش،	پلە، پلەوپایە،	کەس، مرۆ، پیاو، بنیادەم، مرۆی نائاسایی، پیاوی سەیر،	ڕابووری، پێشینە،	(کۆمپیوتەر) نیشانە
 
-١. (ھاوەڵناو) پێنناسە"""),
+١. (ناو) کەسێک یان شتێک لە شانۆیەک، فیلمێک، یان کتێبێک"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "speakcharacters111111111111111111111111111111111"),
+                                        text: "Who plays the main character?"),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "کێ ڕۆڵی کەسایەتی سەرەکی دەبینێت؟"),
                                   ],
                                 ),
                               ),
@@ -220,23 +388,532 @@ class EnglishEntrycharacter extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The writers killed off her character when she got cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسەرەکان کۆتییان بە کارەکتەرەکەی هێنا کە تووشی شێرپەنجە بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The two lead actors inhabit their characters fully."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دوو ئەکتەرە سەرەکییەکە بە تەواوی ڕۆدەچنە ناو کارەکتەرەکانیان."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharacters3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharacters3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The main character is played by Nicole Kidman."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کارەکتەری سەرەکی لەلایەن نیکۆڵ کیدمانەوە ڕۆڵی دەبینرێت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharacters4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharacters4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کەسێکی دیاریکراو کە فیلمێک، شانۆیەک، یان زنجیرە درامایەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has developed a skill set from his character work in film, TV and stage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەزاییەکی بەدەستهێناوە کە سەرچاوەی گرتووە لە کارە کارەکتەرییەکانی لە فیلم، تەلەفیزیۆن، و تەختەی شانۆوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) تەواوی خاسیەت و تایبەتمەندی کەسێک کە وادەکات جیاواز بێت لە کەسانی دیکە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Generosity is part of the American character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخشندەیی بەشێکە لە سرووشتی ئەمریکا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His scruffy appearance does not reflect his character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرکەوتنە شڕوشپرزەکەی پێناسەی کەسایەتیی ناکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's not in his character to be so secretive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کەسایەتییدا نییە کە نهێنی‌پارێز بێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) خاسیەتی کەسیی بەهێز، بۆ نموونە وەک توانای مامەڵەکردن لەگەڵ دۆخی مەترسیدار و سەخت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everyone admires her strength of character and determination for success."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەمووان سەرسامی بەهێزیی کەسایەتیی و ویستی بۆ سەرکەوتن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team showed great character in coming back to win."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە لێهاتوویی گەورەی پیشاندا لە گەڕانەوە بۆ بردنەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) خاسیەتێکی دیاریکراو یان تایبەتمەندییەک کە شتێک، بۆنەیەک، یان شوێنێک هەیەتی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The character of the neighbourhood hasn't changed at all."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕواڵەتی گەڕەکەکە هیچ نەگۆڕاوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police pointed out the illegal character of the protest action."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس خەسڵەتی نایاسایی‌بوونی ناڕەزایی دەربڕینەکەی خستەبەرچاو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) خاسیەتی سەرنجڕاکێش یان نامۆی شتێک یان کەسێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The restaurant is cheap and full of character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چێشتخانەکە هەرزان و پڕ لە تایبەتمەندییە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) کەسێک، بەتایبەتی کەسێک نامۆ و خراپ"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who's that suspicious character hanging around outside?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کەسە گوماناوییە کێیە کە لە دەرەوە دەسووڕێتەوە؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (ناو) کەسێکی سەرنجڕاکێش و نامۆ"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's a character!"),
+                                    ExampleSentenceKurdish(
+                                        text: "کچێکی سەرنجڕاکێشە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٩. (ناو) بۆچوونی خەڵکی لەسەرت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He left his job without a stain on his character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکەی جێهێشت بەبێ هیچ لەکەیەک لەسەر کەسایەتیی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was prepared to sue for defamation of character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادەبوو بۆ شکاتکردن بۆ لەکەدارکردنی کەسایەتیی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters17("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (ناو) پیتێک، ئاماژەیەک، نیشانەیەک، یان سمبولێک کە لە نووسین، چاپ، و کۆمپیوتەردا بەکاردێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These are the Chinese characters meaning ‘wind’ and ‘water’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئەو هێما چینییانەن کە بە واتار 'با' و 'ئاو' دێن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharacters18("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharacters18("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        // YoutubeEmbeddedone(),
-                        // YoutubeEmbeddedtwo(),
-                        // YoutubeEmbeddedthree(),
-                        // YoutubeEmbeddedfour(),
-                        // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // speakcharacters111111111111111111111111111111111
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -363,8 +1040,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/OR2gpBMHI9I?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +1065,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/ZVS1YrH_Lfc?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +1090,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/nQ-Ua6NYago?t=',
+    startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +1115,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/R0wa9IlCA_w?t=',
+    startSeconds: 354,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +1140,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Jk7NYEhai0g?t=',
+    startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +1165,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/xoyLYumj7tI?t=',
+    startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,8 +1190,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/a3WnvDtDD2M?t=',
+    startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -538,8 +1215,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    startSeconds: 204,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

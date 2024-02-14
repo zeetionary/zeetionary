@@ -3,86 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "boot" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace boot - /buːt/
 
 enum TtsState { playing }
 
-class EnglishEntryboot extends StatelessWidget {
-// blank divider
-  EnglishEntryboot({super.key});
-// blank divider
+class EnglishEntrycharade extends StatelessWidget {
+  // blank divider
+  EnglishEntrycharade({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboot(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharade(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charade"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots1(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She wore black knee-high boots."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakboots2(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharades1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'm going to christen my new walking boots on Saturday."); // DOPSUM: CHANGE TEXT
+        "Their whole marriage had been a charade—they had never loved each other."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots3(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharades2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Did you lock the boot?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I suggest you give up this little charade of yours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots4(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharades3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He gave the ball a tremendous boot."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's play charades."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots5(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharades4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They booted him in the head."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharades400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots6(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharades5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboots66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharades500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots7(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharades6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboots77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharades600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharades13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharade
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharades1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +150,22 @@ class EnglishEntryboot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boot"),
+                            EntryTitle(word: "charade"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buːt/"),
+                            const IPAofEnglish(text: "IpaUK: /ʃəˈrɑːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboot("en-GB"),
+                              onPressed: () => speakcharade("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buːt/"),
+                            const IPAofEnglish(text: "IpaUS: /ʃəˈreɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboot("en-US"),
+                              onPressed: () => speakcharade("en-US"),
                             ),
                           ],
                         ),
@@ -133,7 +178,7 @@ class EnglishEntryboot extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -147,9 +192,9 @@ class EnglishEntryboot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: چەکمە، لاپچین، پۆتین، لەقە، شەق، شەپ، تێھەڵدان، سنووقی پشتەوەی ماشێن، دەرکردن، تەکاندنەوە، سوود، قازانج، کەڵک، (کۆمپیوتەر) بووت، خستنەڕێ، (مێژوویی) ئامێرێکی ئەشکەنجە بۆ شکاندنی پێ، سەرەڕای ئەمەش، سەرباری ئەمەش، لەگەڵ ئەمەش‌دا
+کوردی: خۆبەگەوج‌نواندن، خۆبەگەوج‌نیشاندان، خۆگێل‌کردن، قەبڵێن، فشە، درۆ
 
-١. (ناو) پێڵاوێکی بەھێز کە پێ و لاق دادەپۆشێت"""),
+١. (ناو) دۆخێک کە خەڵکی وادادەنێن کە شتێک ڕاستە لەکاتێکدا ئاشکرایە کە وانییە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -157,21 +202,21 @@ class EnglishEntryboot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She wore black knee-high boots."),
+                                            "Their whole marriage had been a charade—they had never loved each other."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆتینی ڕەشی تا ئەژنۆ بەرزی لەپێکردبوو."),
+                                            "تەواوی هاوسەرگیرییەکەیان درۆ بوو، هەرگیز یەکیان خۆشنەویست."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "charade", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots1("en-GB"),
+                                    onPressed: () => speakcharades1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots1("en-US"),
+                                    onPressed: () => speakcharades1("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,10 +230,10 @@ class EnglishEntryboot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'm going to christen my new walking boots on Saturday."),
+                                            "I suggest you give up this little charade of yours."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژی شەممە لاپچینەکانم بۆ یەکەمجار بەکاردێنم."),
+                                            "داوادەکەم واز لەم خۆبەگەوج‌نیشاندانەت بێنیت."),
                                   ],
                                 ),
                               ),
@@ -196,10 +241,10 @@ class EnglishEntryboot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots2("en-GB"),
+                                    onPressed: () => speakcharades2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots2("en-US"),
+                                    onPressed: () => speakcharades2("en-US"),
                                   ),
                                 ],
                               ),
@@ -208,16 +253,16 @@ class EnglishEntryboot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پشتەوەی ئۆتۆمبێل کە شتی تێدەخەیت"),
+                                  "٢. (ناو) یارییەک کە تێیدا کەسێک هەوڵ دەدات بڕگەیەک یان وشەیەک بە نواندن بە کەسی هاوکاری بڵێت بۆ ئەوەی وەڵامەکە هەڵبێنێت"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Did you lock the boot?"),
+                                        text: "Let's play charades."),
                                     ExampleSentenceKurdish(
-                                        text: "سنووقەکەت قوفڵ کرد؟"),
+                                        text: "با یاری قەبڵێن بکەین."),
                                   ],
                                 ),
                               ),
@@ -225,68 +270,10 @@ class EnglishEntryboot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots3("en-GB"),
+                                    onPressed: () => speakcharades3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) لێدانێکی بەھێز و خێرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave the ball a tremendous boot."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەپێکی بەھێزی لە تۆپەکە دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) لەقەدان لە شتێک یان کەسێک بە بەھێزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They booted him in the head."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەقەیەکیان کێشا بە سەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots5("en-US"),
+                                    onPressed: () => speakcharades3("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,12 +289,12 @@ class EnglishEntryboot extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -318,6 +305,7 @@ class EnglishEntryboot extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -373,25 +361,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: boot (derived forms: boots)
-1. Footwear that covers the whole foot and lower leg
+- Noun: charade (Derived forms: charades)
+1. Making a false outward show (= masquerade)
  
-2. Protective casing for something that resembles a leg
- 
-3. An instrument of torture that is used to heat or crush the foot and leg (= the boot, iron boot, iron heel)
- 
-4. A form of foot torture in which the feet are encased in iron and slowly crushed
- 
-5. [informal] The act of delivering a blow with the foot (= kick, kicking)
-"he gave the ball a powerful boot";
-
-- Verb: boot (derived forms: boots, booting, booted)
-1. Kick; give a boot to
- 
-2. Cause to load (an operating system) and start the initial processes (= reboot, bring up)
-"boot your computer";
- 
-3. (computing) start a computer, reloading all software ready for use (= boot up, bootstrap)
+2. A word acted out in an episode of the game of charades
 """,
   );
 
@@ -420,12 +393,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/BL4GdFh4FZk?t=',
+    startSeconds: 6,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Aj7FrvupKWE',
-    startSeconds: 159,
+    videoId: 'https://youtu.be/d_zt3kGW1NM?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -449,8 +447,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lsFPbgK1v9I',
-    startSeconds: 270,
+    videoId: 'https://youtu.be/jdcKtbEEYMc?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +472,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dJzTse9Dsaw',
-    startSeconds: 175,
+    videoId: 'https://youtu.be/TRGHIN2PGIA?t=',
+    startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +497,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'M0wpTx6kUPE',
-    startSeconds: 783,
+    videoId: 'https://youtu.be/XEZfGlyLQnA?t=',
+    startSeconds: 421,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +522,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a1vlNaj5ah4',
-    startSeconds: 601,
+    videoId: 'https://youtu.be/qXH1dVI8Jic',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +547,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kVwp-BfarxI',
-    startSeconds: 415,
+    videoId: 'https://youtu.be/AVce1rk_f-w?t=',
+    startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +572,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'L6QJS8djygk',
-    startSeconds: 300,
+    videoId: 'https://youtu.be/tqIXjSjmE78?t=',
+    startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -595,104 +593,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kAG39jKi0lI',
-    startSeconds: 130,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nEDgG5MKndo',
-    startSeconds: 311,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W3OXnUnxUsM',
-    startSeconds: 2603,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LYmRyVaX3rQ',
-    startSeconds: 319,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end boot
+// end WORD_WEB

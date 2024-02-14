@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/theme/pallete.dart';
 // import 'package:zeetionary/constants.dart';
 
@@ -62,6 +63,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider);
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
@@ -98,12 +100,12 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                     Text(
                         '${userAnswers.where((answer) => answer == false).length}',
                         style:
-                            const TextStyle(fontSize: 20, color: Colors.red)),
+                            TextStyle(fontSize: textSize, color: Colors.red)),
                     const Icon(Icons.check, color: Colors.green),
                     Text(
                         '${userAnswers.where((answer) => answer == true).length}',
                         style:
-                            const TextStyle(fontSize: 20, color: Colors.green)),
+                            TextStyle(fontSize: textSize, color: Colors.green)),
                   ],
                 ),
               ),
@@ -115,6 +117,8 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
   }
 
   void checkAnswer(String selectedAnswer) {
+    final textSize = ref.watch(textSizeProvider) + 2;
+
     bool isCorrect = questions[currentIndex].correctAnswer == selectedAnswer;
     userAnswers.add(isCorrect);
 
@@ -123,31 +127,31 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
       builder: (context) {
         return AlertDialog(
           title: isCorrect
-              ? const Text(
+              ? Text(
                   'بژیت 👍',
-                  style: TextStyle(fontSize: 26),
+                  style: TextStyle(fontSize: textSize),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                 )
-              : const Text(
+              : Text(
                   'بەداخەوە 😥',
-                  style: TextStyle(fontSize: 26),
+                  style: TextStyle(fontSize: textSize),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                 ),
           content: isCorrect
-              ? const Icon(Icons.check, color: Colors.green, size: 50)
-              : const Icon(Icons.close, color: Colors.red, size: 50),
+              ? Icon(Icons.check, color: Colors.green, size: textSize)
+              : Icon(Icons.close, color: Colors.red, size: textSize),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
                 moveToNextQuestion();
               },
-              child: const Center(
+              child: Center(
                 child: Text(
                   'پرسیاری دواتر',
-                  style: TextStyle(fontSize: 24),
+                  style: TextStyle(fontSize: textSize),
                   textAlign: TextAlign.center,
                   textDirection: TextDirection.rtl,
                 ),
@@ -197,6 +201,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 2;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -212,7 +217,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
             child: Text(
               widget.question.questionText,
               style: TextStyle(
-                  fontSize: 18,
+                  fontSize: textSize,
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).primaryColor),
               textAlign: TextAlign.center,
@@ -252,7 +257,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                       child: Text(
                         option,
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: textSize,
                           color: Theme.of(context).primaryColor,
                         ),
                       ),

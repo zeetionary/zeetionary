@@ -87,26 +87,50 @@ class _KurdishFavouritesScreenState
     bool confirmed = await showDialog(
       context: context,
       builder: (BuildContext context) {
+        final textSize = ref.watch(textSizeProvider) + 2;
         return AlertDialog(
-          title: const Directionality(
-              textDirection: TextDirection.rtl, child: Text('دڵنیایی کردنەوە')),
-          content: const Directionality(
-              textDirection: TextDirection.rtl,
-              child: Text('دەتەوێت هەموو وشە دڵخوازەکان بسڕیتەوە؟')),
+          title: Directionality(
+            textDirection: TextDirection.rtl,
+            child: Text(
+              'دڵنیایی کردنەوە',
+              style: TextStyle(
+                fontSize: textSize,
+              ),
+            ),
+          ),
+          content: Directionality(
+            textDirection: TextDirection.rtl,
+            child: Text(
+              'دەتەوێت هەموو وشە دڵخوازەکان بسڕیتەوە؟',
+              style: TextStyle(
+                fontSize: textSize,
+              ),
+            ),
+          ),
           actions: <Widget>[
             TextButton(
               onPressed: () {
                 Navigator.of(context)
                     .pop(false); // Dismiss the dialog and return false
               },
-              child: const Text('نەخێر'),
+              child: Text(
+                'نەخێر',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context)
                     .pop(true); // Dismiss the dialog and return true
               },
-              child: const Text('بەڵێ'),
+              child: Text(
+                'بەڵێ',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
             ),
           ],
         );

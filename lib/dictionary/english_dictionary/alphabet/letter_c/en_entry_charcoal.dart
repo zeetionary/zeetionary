@@ -3,87 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryannoy - replace speakAnnoy - replace annoy - /əˈnɔɪ/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryannoy extends StatelessWidget {
+class EnglishEntrycharcoal extends StatelessWidget {
   // blank divider
-  EnglishEntryannoy({super.key});
+  EnglishEntrycharcoal({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnoy(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnoy
+  Future<void> speakcharcoal(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charcoal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnoy716(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnoy
+  Future<void> speakcharcoals1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I’m sure she does it just to annoy me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I prefer sketching in charcoal to pencil."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The uniform is charcoal (grey) and red."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals300"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals400"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals700"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharcoals8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharcoals9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharcoals10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharcoals11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharcoals12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharcoals13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharcoal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharcoals1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -105,27 +150,22 @@ class EnglishEntryannoy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "annoy"), // Find /əˈnɔɪ/
-                            // divvviiider
+                            EntryTitle(word: "charcoal"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈnɔɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɑːkəʊl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnoy("en-GB"),
+                              onPressed: () => speakcharcoal("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈnɔɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɑːrkəʊl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnoy("en-US"),
+                              onPressed: () => speakcharcoal("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +178,7 @@ class EnglishEntryannoy extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,9 +192,9 @@ class EnglishEntryannoy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ناڕەحەت‌کردن، بێزارکردن، وەڕەس‌کردن
+کوردی: ڕەژی، ڕەژوو، خەڵووز (دار)، (ڕەنگ) بۆری تۆخ، خەڵووزی
 
-١. (کردار) کەمێک کەسێک بێزار بکەیت"""),
+١. (ناو) مادەیەکی ڕەش کە درووست دەبێت بە هێواش سوتاندنی دار لە شوێنێک کە کەم هەوای تێدایە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -162,10 +202,40 @@ class EnglishEntryannoy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I’m sure she does it just to annoy me."),
+                                            "I prefer sketching in charcoal to pencil."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),
+                                            "پێم باشترە بە خەڵووز نەخشاندن بکەم وەک لە پێنووس."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "charcoal", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharcoals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharcoals1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) ڕەنگێکی خەڵووزی زۆر تاریک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The uniform is charcoal (grey) (= dark grey) and red."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکە ڕەنگێکی بۆری تاریک و سوورە."),
                                   ],
                                 ),
                               ),
@@ -173,39 +243,42 @@ class EnglishEntryannoy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnoy716("en-GB"),
+                                    onPressed: () => speakcharcoals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAnnoy716(// REPLACE: annoy /əˈnɔɪ/
-                                            "en-US"),
+                                    onPressed: () => speakcharcoals2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -261,9 +334,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: annoy (derived forms: annoyed, annoys, annoying)
-1. Cause annoyance in; disturb, especially by minor irritations (= rag, get to, bother, get at [informal], irritate, rile, nark [Brit, slang], nettle, gravel [US], vex, chafe, devil, tick off [informal], roil [N. Amer])
-"Mosquitoes buzzing in my ear really annoys me";
+- Noun: charcoal (Derived forms: charcoals)
+1. A carbonaceous material obtained by heating wood or other organic matter in the absence of air (= wood coal)
+ 
+2. A stick of black carbon material used for drawing (= fusain)
+ 
+3. A very dark grey colour (= charcoal grey [Brit, Cdn], charcoal gray [US], oxford grey [Brit, Cdn], oxford gray [US])
+ 
+4. A drawing made with a stick of black carbon material
+
+- Verb: charcoal (Derived forms: charcoaling, charcoaled, charcoals)
+1. (art) draw, trace, or represent with charcoal
+
+- Adjective: charcoal 
+1. Of a very dark grey (= charcoal-grey [Brit, Cdn], charcoal-gray [US])
 """,
   );
 
@@ -292,12 +376,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/9E4MUWpoNh4?t=',
+    startSeconds: 13,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Kd2lC_ziajQ',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/prnFUG81KGA?t=',
+    startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -321,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '78cMUThuifg',
+    videoId: 'https://youtu.be/1PGpp5v5OyE?t=',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -346,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KgoW8Dvedq4',
+    videoId: 'https://youtu.be/DaCmvJ-fSDY?t=',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -371,8 +480,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'O2Fb5N2-xjA',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/_g6Q7RmxG0I',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +505,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'n_1TdVBQLRI',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/TDxDS4j4mdY?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +530,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3kmgqA59wgo',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/Oizf7pG7AN0?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +555,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Wb28RQgeY9c',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/hIyosan009o?t=',
+    startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,129 +576,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'raHRPtIk6fU',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0oOUbSbAmgc',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lex6USTugUU',
-    startSeconds: 466,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ljl4sjHnxxE',
-    startSeconds: 591,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nMuepMTnIow',
-    startSeconds: 191,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

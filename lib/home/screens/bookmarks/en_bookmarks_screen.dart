@@ -84,23 +84,45 @@ class _EnglishfavouritesScreenState
     bool confirmed = await showDialog(
       context: context,
       builder: (BuildContext context) {
+        final textSize = ref.watch(textSizeProvider) + 2;
+
         return AlertDialog(
-          title: const Text('Confirmation'),
-          content: const Text('Do you really want to clear all favourites?'),
+          title: Text(
+            'Confirmation',
+            style: TextStyle(
+              fontSize: textSize,
+            ),
+          ),
+          content: Text(
+            'Do you really want to clear all favourites?',
+            style: TextStyle(
+              fontSize: textSize,
+            ),
+          ),
           actions: <Widget>[
             TextButton(
               onPressed: () {
                 Navigator.of(context)
                     .pop(false); // Dismiss the dialog and return false
               },
-              child: const Text('No'),
+              child: Text(
+                'No',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context)
                     .pop(true); // Dismiss the dialog and return true
               },
-              child: const Text('Yes'),
+              child: Text(
+                'Yes',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
             ),
           ],
         );

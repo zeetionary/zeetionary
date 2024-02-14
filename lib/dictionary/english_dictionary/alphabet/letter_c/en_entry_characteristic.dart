@@ -3,86 +3,135 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "boot" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace boot - /buːt/
 
 enum TtsState { playing }
 
-class EnglishEntryboot extends StatelessWidget {
-// blank divider
-  EnglishEntryboot({super.key});
-// blank divider
+class EnglishEntrycharacteristic extends StatelessWidget {
+  // blank divider
+  EnglishEntrycharacteristic({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboot(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristic(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("characteristic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots1(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She wore black knee-high boots."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakboots2(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristics1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'm going to christen my new walking boots on Saturday."); // DOPSUM: CHANGE TEXT
+        "All human languages share some common characteristics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots3(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristics2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Did you lock the boot?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The two groups of children have quite different characteristics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots4(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristics3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He gave the ball a tremendous boot."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Personal characteristics, such as age and sex are taken into account."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots5(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristics4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They booted him in the head."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The need to communicate is a key characteristic of human society."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots6(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristics5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboots66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This is just one example of the rudeness that was so characteristic of him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboots7(String languageCode) async {
-    // DOPSUM: CHANGE speakboot
+  Future<void> speakcharacteristics6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboots77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "With the hospitality so characteristic of these people, they opened their house to over 50 guests."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristics13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharacteristics1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +154,24 @@ class EnglishEntryboot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boot"),
+                            EntryTitle(word: "characteristic"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buːt/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˌkærəktəˈrɪstɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboot("en-GB"),
+                              onPressed: () => speakcharacteristic("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buːt/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkærəktəˈrɪstɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboot("en-US"),
+                              onPressed: () => speakcharacteristic("en-US"),
                             ),
                           ],
                         ),
@@ -133,7 +184,7 @@ class EnglishEntryboot extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -147,9 +198,9 @@ class EnglishEntryboot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: چەکمە، لاپچین، پۆتین، لەقە، شەق، شەپ، تێھەڵدان، سنووقی پشتەوەی ماشێن، دەرکردن، تەکاندنەوە، سوود، قازانج، کەڵک، (کۆمپیوتەر) بووت، خستنەڕێ، (مێژوویی) ئامێرێکی ئەشکەنجە بۆ شکاندنی پێ، سەرەڕای ئەمەش، سەرباری ئەمەش، لەگەڵ ئەمەش‌دا
+کوردی: تایبەتی، نەمازە، تایبەتمەندی، نیشانەی تایبەتی، ڕەوشت، خەسڵەت
 
-١. (ناو) پێڵاوێکی بەھێز کە پێ و لاق دادەپۆشێت"""),
+١. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک/کەسێک هەیەتی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -157,21 +208,23 @@ class EnglishEntryboot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She wore black knee-high boots."),
+                                            "All human languages share some common characteristics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆتینی ڕەشی تا ئەژنۆ بەرزی لەپێکردبوو."),
+                                            "هەموو زمانەکانی مرۆڤ هەندێک تایبەتمەندی هاوبەشیان هەیە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "characteristic", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots1("en-GB"),
+                                    onPressed: () =>
+                                        speakcharacteristics1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots1("en-US"),
+                                    onPressed: () =>
+                                        speakcharacteristics1("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,10 +238,10 @@ class EnglishEntryboot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'm going to christen my new walking boots on Saturday."),
+                                            "The two groups of children have quite different characteristics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژی شەممە لاپچینەکانم بۆ یەکەمجار بەکاردێنم."),
+                                            "هەردوو گرووپە منداڵەکە خاسیەتی تەواو جیاوازیان هەیە."),
                                   ],
                                 ),
                               ),
@@ -196,10 +249,79 @@ class EnglishEntryboot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots2("en-GB"),
+                                    onPressed: () =>
+                                        speakcharacteristics2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots2("en-US"),
+                                    onPressed: () =>
+                                        speakcharacteristics2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Personal characteristics, such as age and sex are taken into account."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "خاسیەتی کەسی وەک تەمەن و ڕەگەز لەبەرچاو دەگیرێن."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharacteristics3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharacteristics3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The need to communicate is a key characteristic of human society."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پێویستی گفتوگۆکردن خاسیەتێکی گرنگی کۆمەڵگەی مرۆڤە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharacteristics4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharacteristics4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -208,35 +330,7 @@ class EnglishEntryboot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پشتەوەی ئۆتۆمبێل کە شتی تێدەخەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Did you lock the boot?"),
-                                    ExampleSentenceKurdish(
-                                        text: "سنووقەکەت قوفڵ کرد؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) لێدانێکی بەھێز و خێرا"),
+                                  "٢. (ھاوەڵناو) بەشێوەیەک کە لە شتێک یان کەسێک پێشبینی دەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -244,9 +338,10 @@ class EnglishEntryboot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He gave the ball a tremendous boot."),
+                                            "This is just one example of the rudeness that was so characteristic of him."),
                                     ExampleSentenceKurdish(
-                                        text: "شەپێکی بەھێزی لە تۆپەکە دا."),
+                                        text:
+                                            "ئەمە تەنها یەک نموونەی بێچاووڕوویی بوو کە تایبەتمەندییەکێتی."),
                                   ],
                                 ),
                               ),
@@ -254,28 +349,29 @@ class EnglishEntryboot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots4("en-GB"),
+                                    onPressed: () =>
+                                        speakcharacteristics5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots4("en-US"),
+                                    onPressed: () =>
+                                        speakcharacteristics5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) لەقەدان لە شتێک یان کەسێک بە بەھێزی"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "They booted him in the head."),
+                                        text:
+                                            "With the hospitality so characteristic of these people, they opened their house to over 50 guests."),
                                     ExampleSentenceKurdish(
-                                        text: "لەقەیەکیان کێشا بە سەریدا."),
+                                        text:
+                                            "بە مرۆڤدۆستییان کە تایبەتییەکی ئەم خەڵکەیە، ماڵەکەیان بەڕووی ٥٠ کەسدا کردەوە."),
                                   ],
                                 ),
                               ),
@@ -283,10 +379,12 @@ class EnglishEntryboot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboots5("en-GB"),
+                                    onPressed: () =>
+                                        speakcharacteristics6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboots5("en-US"),
+                                    onPressed: () =>
+                                        speakcharacteristics6("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,12 +400,12 @@ class EnglishEntryboot extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -318,6 +416,7 @@ class EnglishEntryboot extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -373,25 +472,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: boot (derived forms: boots)
-1. Footwear that covers the whole foot and lower leg
+- Noun: characteristic (Derived forms: characteristics)
+1. A prominent attribute or aspect of something (= feature)
+"generosity is one of his best characteristics";
  
-2. Protective casing for something that resembles a leg
+2. A distinguishing quality; a feature that can be used to identify something
  
-3. An instrument of torture that is used to heat or crush the foot and leg (= the boot, iron boot, iron heel)
+3. The integer part (positive or negative) of the representation of a logarithm; in the expression log 643 = 2.808 the characteristic is 2
  
-4. A form of foot torture in which the feet are encased in iron and slowly crushed
- 
-5. [informal] The act of delivering a blow with the foot (= kick, kicking)
-"he gave the ball a powerful boot";
+4. (electronics) any measurable property of a device measured under closely specified conditions (= device characteristic)
 
-- Verb: boot (derived forms: boots, booting, booted)
-1. Kick; give a boot to
- 
-2. Cause to load (an operating system) and start the initial processes (= reboot, bring up)
-"boot your computer";
- 
-3. (computing) start a computer, reloading all software ready for use (= boot up, bootstrap)
+- Adjective: characteristic 
+1. Typical or distinctive
+"heard my friend's characteristic laugh"; "red and gold are the characteristic colours of autumn"; "stripes characteristic of the zebra"
+
 """,
   );
 
@@ -420,12 +514,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/fZSLl5QpsN0',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Aj7FrvupKWE',
-    startSeconds: 159,
+    videoId: 'https://youtu.be/9xnWDB0Z1Ew?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -449,8 +568,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lsFPbgK1v9I',
-    startSeconds: 270,
+    videoId: 'https://youtu.be/2tEOFuIEyzc?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +593,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dJzTse9Dsaw',
-    startSeconds: 175,
+    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +618,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'M0wpTx6kUPE',
-    startSeconds: 783,
+    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +643,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a1vlNaj5ah4',
-    startSeconds: 601,
+    videoId: 'https://youtu.be/QWz07MktCKg?t=',
+    startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +668,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kVwp-BfarxI',
-    startSeconds: 415,
+    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    startSeconds: 1045,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +693,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'L6QJS8djygk',
-    startSeconds: 300,
+    videoId: 'https://youtu.be/pTk9HnIwEYU?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -595,104 +714,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kAG39jKi0lI',
-    startSeconds: 130,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nEDgG5MKndo',
-    startSeconds: 311,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W3OXnUnxUsM',
-    startSeconds: 2603,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LYmRyVaX3rQ',
-    startSeconds: 319,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end boot
+// end WORD_WEB

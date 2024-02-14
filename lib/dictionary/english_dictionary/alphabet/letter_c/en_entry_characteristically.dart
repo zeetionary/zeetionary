@@ -3,87 +3,143 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryannoy - replace speakAnnoy - replace annoy - /əˈnɔɪ/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryannoy extends StatelessWidget {
+class EnglishEntrycharacteristically extends StatelessWidget {
   // blank divider
-  EnglishEntryannoy({super.key});
+  EnglishEntrycharacteristically({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnoy(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnoy
+  Future<void> speakcharacteristically(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("characteristically"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnoy716(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnoy
+  Future<void> speakcharacteristicallys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Characteristically, Helen paid for everyone."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristicallys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Parkinson's disease characteristically occurs in old age."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristicallys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I’m sure she does it just to annoy me."); // DOPSUM: CHANGE TEXT
+        .speak("speakcharacteristicallys300"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys400"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys700"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys800"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys900"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnoy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnoy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annoy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcharacteristicallys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristicallys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristicallys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharacteristicallys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharacteristically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("speakcharacteristicallys1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -105,27 +161,24 @@ class EnglishEntryannoy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "annoy"), // Find /əˈnɔɪ/
-                            // divvviiider
+                            EntryTitle(word: "characteristically"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈnɔɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌkærəktəˈrɪstɪkli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnoy("en-GB"),
+                              onPressed: () => speakcharacteristically("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈnɔɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˌkærəktəˈrɪstɪkli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnoy("en-US"),
+                              onPressed: () => speakcharacteristically("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +191,7 @@ class EnglishEntryannoy extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,9 +205,9 @@ class EnglishEntryannoy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ناڕەحەت‌کردن، بێزارکردن، وەڕەس‌کردن
+کوردی: وەک(وو) هەمیشە، تایبەتمەندانە، بەتایبەت
 
-١. (کردار) کەمێک کەسێک بێزار بکەیت"""),
+١. (ھاوەڵکار) بەشێوەیەک کە ئەوەیە کە لە کەسێک یان شتێک پێشبینی دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -162,10 +215,40 @@ class EnglishEntryannoy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I’m sure she does it just to annoy me."),
+                                            "Characteristically, Helen paid for everyone."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),
+                                            "وەک هەمیشە، هێلین پارەی هەمووانی دا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "characteristically", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcharacteristicallys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcharacteristicallys1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Parkinson's disease characteristically occurs in old age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشی پارکینسن بەشێوەی ئاسایی لە تەمەنی پیریدا ڕوودەدات."),
                                   ],
                                 ),
                               ),
@@ -173,39 +256,44 @@ class EnglishEntryannoy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnoy716("en-GB"),
+                                    onPressed: () =>
+                                        speakcharacteristicallys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAnnoy716(// REPLACE: annoy /əˈnɔɪ/
-                                            "en-US"),
+                                        speakcharacteristicallys2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -261,9 +349,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: annoy (derived forms: annoyed, annoys, annoying)
-1. Cause annoyance in; disturb, especially by minor irritations (= rag, get to, bother, get at [informal], irritate, rile, nark [Brit, slang], nettle, gravel [US], vex, chafe, devil, tick off [informal], roil [N. Amer])
-"Mosquitoes buzzing in my ear really annoys me";
+- Adverb: characteristically 
+1. In a usual or expected way; in characteristic manner
+"he arrived characteristically late"
 """,
   );
 
@@ -292,12 +380,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/iKhQYYSqhgc?t=',
+    startSeconds: 198,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Kd2lC_ziajQ',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/E1z55dYHv8c?t=',
+    startSeconds: 250,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -321,8 +434,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '78cMUThuifg',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/leD3jExiP2Y?t=',
+    startSeconds: 877,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -346,8 +459,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KgoW8Dvedq4',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/k0pddroJqt8?t=',
+    startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -371,8 +484,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'O2Fb5N2-xjA',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/77IoP9r4hOI?t=',
+    startSeconds: 630,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +509,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'n_1TdVBQLRI',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/4_Eb-jz52sY?t=',
+    startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +534,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3kmgqA59wgo',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/BtGsjkj9DgM?t=',
+    startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +559,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Wb28RQgeY9c',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/4VZxJliN_UQ?t=',
+    startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,129 +580,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'raHRPtIk6fU',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0oOUbSbAmgc',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lex6USTugUU',
-    startSeconds: 466,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ljl4sjHnxxE',
-    startSeconds: 591,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nMuepMTnIow',
-    startSeconds: 191,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

@@ -24,14 +24,21 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
+        final textSize = ref.watch(textSizeProvider) + 2;
         return AlertDialog(
-          title: const Text(
+          title: Text(
             'دڵنیایی‌ کردنەوە',
+            style: TextStyle(
+              fontSize: textSize,
+            ),
             textDirection: TextDirection.rtl,
           ),
           // content: const Text(''),
-          content: const Text(
+          content: Text(
             'دەتەوێت ھەموو گەڕانەکانی پێشوو بسڕیتەوە؟',
+            style: TextStyle(
+              fontSize: textSize,
+            ),
             textDirection: TextDirection.rtl,
           ),
           actions: <Widget>[
@@ -39,13 +46,23 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
               onPressed: () {
                 Navigator.of(context).pop(false);
               },
-              child: const Text('نەخێر'),
+              child: Text(
+                'نەخێر',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop(true);
               },
-              child: const Text('بەڵێ'),
+              child: Text(
+                'بەڵێ',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
             ),
           ],
         );

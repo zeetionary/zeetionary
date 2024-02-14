@@ -110,7 +110,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئەلگۆریتم، لۆگاریتم (بەتایبەت کامپیوتێر)
+کوردی: ئەلگۆریتم، لۆگاریتم (بەتایبەت کۆمپیوتەر)
 
 ١. (ناو) کۆمەڵە یاسایەک یان ڕێنماییەک کە دەدرێت بە کۆمپیوتەرێک بۆ ئەوەی کارێک بکات بە پشتبەستن پێی"""),
                           Row(

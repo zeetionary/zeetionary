@@ -138,7 +138,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Stop bagging her (out) - she's doing her best."); // DOPSUM: CHANGE TEXT
+        "Stop bagging her out - she's doing her best."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBags14(String languageCode) async {

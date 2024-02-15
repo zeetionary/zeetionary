@@ -705,7 +705,7 @@ class EnglishEntrybig extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "We need to think big."),
                                     ExampleSentenceKurdish(
-                                        text: "دەبێت گەورە بیربکەینەوە'."),
+                                        text: "دەبێت گەورە بیربکەینەوە."),
                                   ],
                                 ),
                               ),

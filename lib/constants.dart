@@ -1375,12 +1375,10 @@ class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       border: Border.all(
-                          color:
-                              Theme.of(context).primaryColor.withOpacity(0.01),
-                          width: 1.0),
+                          color: Theme.of(context).primaryColor, width: 1.0),
                     ),
                     padding: const EdgeInsets.all(6.0),
-                    child: Icon(Icons.pause, size: textSize)),
+                    child: Icon(Icons.pause, size: textSize - 6)),
                 onPressed: () {
                   widget.onStopPressed();
                   updateSpeakingState(false);

@@ -10,124 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychariot extends StatelessWidget {
+class EnglishEntrycharitably extends StatelessWidget {
   // blank divider
-  EnglishEntrychariot({super.key});
+  EnglishEntrycharitably({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchariot(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitably(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chariot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charitably"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots1(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The warriors rode into battle in a chariot."); // DOPSUM: CHANGE TEXT
+        "Try to think about him a little more charitably."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots2(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In ancient Rome, chariot races were a popular form of entertainment."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The school is charitably funded."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots3(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots4(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots5(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots6(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots7(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots8(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots9(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots10(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots11(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots12(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots13(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharitablys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharitably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharitablys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +150,22 @@ class EnglishEntrychariot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chariot"),
+                            EntryTitle(word: "charitably"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃæriət/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃærətəbli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchariot("en-GB"),
+                              onPressed: () => speakcharitably("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃæriət/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃærətəbli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchariot("en-US"),
+                              onPressed: () => speakcharitably("en-US"),
                             ),
                           ],
                         ),
@@ -191,12 +191,8 @@ class EnglishEntrychariot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: ئەڕابە، عەرەبانە، گالیسکە
-"""),
                           const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) ئەڕابە کە بە ئەسپ ڕادەکێشرێت و لە کۆندا لە جەنگدا یان بۆ پێشبڕکێ بەکاردەهات """),
+                              text: "١. (ھاوەڵکار) بە بەخشندەییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,27 +200,30 @@ class EnglishEntrychariot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The warriors rode into battle in a chariot."),
+                                            "Try to think about him a little more charitably."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەنگاوەرەکان چوونە جەنگەوە بە ئەڕابە."),
+                                            "هەوڵ بدە هەندێک بەخشندانە بیری لێ بکەیەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chariot", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "charitably", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchariots1("en-GB"),
+                                    onPressed: () => speakcharitablys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchariots1("en-US"),
+                                    onPressed: () => speakcharitablys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵکار) درووستکراو لەلایەن ڕێکخراوێکی خێرخوازییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -232,10 +231,10 @@ class EnglishEntrychariot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "In ancient Rome, chariot races were a popular form of entertainment."),
+                                            "The school is charitably funded."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ڕۆمی کۆندا، پێشبڕکێی ئەڕابە جۆرێکی بەناوبانگی چێژبەخشین بوو."),
+                                            "قوتابخانەکە بە خێرخوازی خەرجی بۆکراوە."),
                                   ],
                                 ),
                               ),
@@ -243,10 +242,10 @@ class EnglishEntrychariot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchariots2("en-GB"),
+                                    onPressed: () => speakcharitablys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchariots2("en-US"),
+                                    onPressed: () => speakcharitablys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -334,15 +333,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chariot (Derived forms: chariots)
-1. A light four-wheel horse-drawn ceremonial carriage
- 
-2. A two-wheeled horse-drawn battle vehicle; used in war and races in ancient Egypt and Greece and Rome
-
-- Verb: chariot (Derived forms: chariots, charioting, charioted)
-1. Transport in a chariot
- 
-2. Ride in a chariot
+- Adverb: charitably 
+1. In a charitable manner
+"she treated him charitably"
 """,
   );
 
@@ -375,8 +368,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q6w9yrKT_NU?t=',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/hSNWkRw53Jo?t=',
+    startSeconds: 424,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +393,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dw_7nYDjHnw',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/kWqLxTatndU?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +418,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kfWKn7hpUZ4?t=',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/6nuEgc2RVWo?t=',
+    startSeconds: 328,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +443,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H3_mVryqXpU?t=',
-    startSeconds: 442,
+    videoId: 'https://youtu.be/O85OWBJ2ayo?t=',
+    startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +468,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
-    startSeconds: 397,
+    videoId: 'https://youtu.be/U7smj1dzYjo?t=',
+    startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +493,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_TWbD3MKfMI?t=',
-    startSeconds: 252,
+    videoId: 'https://youtu.be/VAm-ZAPfDFQ?t=',
+    startSeconds: 387,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +518,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YkS1U5lfSRw?t=',
-    startSeconds: 196,
+    videoId: 'https://youtu.be/qvNXPn4ptJM?t=',
+    startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +543,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2o9Qm0Eo1vo?t=',
-    startSeconds: 333,
+    videoId: 'https://youtu.be/yZ8wzG0J6NY?t=',
+    startSeconds: 1671,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,124 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychariot extends StatelessWidget {
+class EnglishEntrycharisma extends StatelessWidget {
   // blank divider
-  EnglishEntrychariot({super.key});
+  EnglishEntrycharisma({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchariot(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharisma(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chariot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charisma"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots1(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The warriors rode into battle in a chariot."); // DOPSUM: CHANGE TEXT
+        "The President has great personal charisma."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots2(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In ancient Rome, chariot races were a popular form of entertainment."); // DOPSUM: CHANGE TEXT
+        "How did a man of so little personal charisma get to be prime minister?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots3(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots4(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots5(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots6(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots7(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots8(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots9(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots10(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots11(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots12(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchariots13(String languageCode) async {
-    // DOPSUM: CHANGE speakchariot
+  Future<void> speakcharismas13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharisma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchariots1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharismas1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +150,22 @@ class EnglishEntrychariot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chariot"),
+                            EntryTitle(word: "charisma"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃæriət/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈrɪzmə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchariot("en-GB"),
+                              onPressed: () => speakcharisma("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃæriət/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈrɪzmə/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchariot("en-US"),
+                              onPressed: () => speakcharisma("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +192,11 @@ class EnglishEntrychariot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئەڕابە، عەرەبانە، گالیسکە
+کوردی: سەرهێزی، کاریزما، فەڕ، بەهرە، جەوهەر،	جادوو، سام 
 """),
                           const DefinitionKurdish(
                               text:
-                                  """١. (ناو) ئەڕابە کە بە ئەسپ ڕادەکێشرێت و لە کۆندا لە جەنگدا یان بۆ پێشبڕکێ بەکاردەهات """),
+                                  "١. (ناو) تایبەتمەندیی بەهێزی کەسایەتی هەندێک کەس کە هەیانە بۆ سەرنجڕاکێشانی کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,21 +204,21 @@ class EnglishEntrychariot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The warriors rode into battle in a chariot."),
+                                            "The President has great personal charisma."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەنگاوەرەکان چوونە جەنگەوە بە ئەڕابە."),
+                                            "سەرۆک کاریزمای کەسی گەورەی هەیە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chariot", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "charisma", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchariots1("en-GB"),
+                                    onPressed: () => speakcharismas1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchariots1("en-US"),
+                                    onPressed: () => speakcharismas1("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrychariot extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "In ancient Rome, chariot races were a popular form of entertainment."),
+                                            "How did a man of so little personal charisma get to be prime minister?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ڕۆمی کۆندا، پێشبڕکێی ئەڕابە جۆرێکی بەناوبانگی چێژبەخشین بوو."),
+                                            "چۆن کەسێکی هێندە بێ‌بەهرە توانی ببێت بە سەرۆک وەزیران؟"),
                                   ],
                                 ),
                               ),
@@ -243,10 +243,10 @@ class EnglishEntrychariot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchariots2("en-GB"),
+                                    onPressed: () => speakcharismas2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchariots2("en-US"),
+                                    onPressed: () => speakcharismas2("en-US"),
                                   ),
                                 ],
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrychariot extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -334,15 +334,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chariot (Derived forms: chariots)
-1. A light four-wheel horse-drawn ceremonial carriage
+- Noun: charisma (Derived forms: charismas)
+1. A personal attractiveness or interestingness that enables you to influence others (= personal appeal, personal magnetism, personality)
  
-2. A two-wheeled horse-drawn battle vehicle; used in war and races in ancient Egypt and Greece and Rome
-
-- Verb: chariot (Derived forms: chariots, charioting, charioted)
-1. Transport in a chariot
- 
-2. Ride in a chariot
+2. (Christianity) an extraordinary power granted by the Holy Spirit
 """,
   );
 
@@ -375,8 +370,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q6w9yrKT_NU?t=',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/3PX2d3Zwutg?t=',
+    startSeconds: 897,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +395,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dw_7nYDjHnw',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    startSeconds: 666,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +420,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kfWKn7hpUZ4?t=',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/hS2emKDlGmE?t=',
+    startSeconds: 841,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +445,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H3_mVryqXpU?t=',
-    startSeconds: 442,
+    videoId: 'https://youtu.be/7eM7pb5M5DU?t=',
+    startSeconds: 2075,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +470,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
-    startSeconds: 397,
+    videoId: 'https://youtu.be/1jm3K9cm3vI?t=',
+    startSeconds: 619,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +495,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_TWbD3MKfMI?t=',
-    startSeconds: 252,
+    videoId: 'https://youtu.be/qqZ_SH9N3Xo?t=',
+    startSeconds: 486,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +520,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YkS1U5lfSRw?t=',
-    startSeconds: 196,
+    videoId: 'https://youtu.be/Slfh4kjPLyQ?t=',
+    startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +545,33 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2o9Qm0Eo1vo?t=',
-    startSeconds: 333,
+    videoId: 'https://youtu.be/cTozcxvFDtM?t=',
+    startSeconds: 475,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/mUpzRwfRzoU?t=',
+    startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

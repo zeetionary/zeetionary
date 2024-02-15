@@ -154,8 +154,10 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مایەپووچی، مایەبۆشی، نابووتی، لاتی، سەرنەکەوتوویی، تێشکان
-
-١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری"),
                           Row(
                             children: [
                               const Expanded(

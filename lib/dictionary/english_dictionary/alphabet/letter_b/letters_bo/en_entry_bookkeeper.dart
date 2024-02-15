@@ -145,8 +145,10 @@ class EnglishEntrybookkeeper extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: حساب‌ڕاگر، ھەژمارنووس، ھەژمارڕاگر، حساب‌نووس، سەرحیساب
-
-١. (ناو) کەسێک کە کاری تۆمارکردنی پارەی وەرگیراو و خەرجکراوە لە کۆمپانیایەک یان دامەزراوەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری تۆمارکردنی پارەی وەرگیراو و خەرجکراوە لە کۆمپانیایەک یان دامەزراوەیەک"),
                           Row(
                             children: [
                               const Expanded(

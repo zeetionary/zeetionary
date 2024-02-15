@@ -147,8 +147,9 @@ class EnglishEntrybeery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیرەئاسا، بە بۆنی بیرەوە، بۆنی ئاوجۆیی، بە مەزە یان تامی ئاوجۆوە
-
-١. (ھاوەڵناو) ھەبوونی بۆنی بیرە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ھەبوونی بۆنی بیرە"),
                           Row(
                             children: [
                               const Expanded(

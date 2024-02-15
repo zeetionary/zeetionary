@@ -146,8 +146,10 @@ class EnglishEntryblanch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەنگ‌پەڕین، سپی ھەڵگەڕان
-
-١. (کردار) ڕەنگپەڕین بەھۆی ئەوەی شۆک بویتە یان ترساویت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ڕەنگپەڕین بەھۆی ئەوەی شۆک بویتە یان ترساویت"),
                           Row(
                             children: [
                               const Expanded(

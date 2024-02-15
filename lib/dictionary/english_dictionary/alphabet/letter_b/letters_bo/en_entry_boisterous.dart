@@ -146,8 +146,10 @@ class EnglishEntryboisterous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕدەنگەدەنگ، پڕھەراوھوریا، شلوق، بەگەرم‌وگوڕ، لەجۆش، سەری‌حاڵ، پڕوزە، لەگوڕ، بەگوڕ، بەکەیف، جۆش‌سەندوو، لەشەوق، زریاناوی، پڕبا، سەخت، توند، ڕەشەبا
-
-١. (ھاوەڵناو) ڕەفتاری مرۆڤ و ئاژەڵ کە پڕ لە قاڵەقاڵ و جۆشوخرۆشی و وزەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕەفتاری مرۆڤ و ئاژەڵ کە پڕ لە قاڵەقاڵ و جۆشوخرۆشی و وزەیە"),
                           Row(
                             children: [
                               const Expanded(

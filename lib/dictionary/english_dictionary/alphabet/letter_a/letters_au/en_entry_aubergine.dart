@@ -161,8 +161,11 @@ class EnglishEntryaubergine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باینجانەڕەشە، کەدووەڕەشە، ڕووەک یان پنجی باینجانەڕەشە یا کەدووەڕەشە
-
-١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

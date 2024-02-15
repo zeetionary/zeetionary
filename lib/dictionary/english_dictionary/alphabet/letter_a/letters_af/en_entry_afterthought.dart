@@ -110,8 +110,11 @@ class EnglishEntryafterthought extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاشەبیر، بیرۆکەی دواتر، بیرکردنەوەی لەکارترازاو
-
-١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

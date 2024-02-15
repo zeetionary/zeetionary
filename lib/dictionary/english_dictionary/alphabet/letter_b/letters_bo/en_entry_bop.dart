@@ -146,8 +146,9 @@ class EnglishEntrybop extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەما، ھەڵپەڕکێ
-
-١. (ناو) سەما لەگەڵ میوزیکی پۆپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) سەما لەگەڵ میوزیکی پۆپ"),
                           Row(
                             children: [
                               const Expanded(

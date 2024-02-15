@@ -160,8 +160,11 @@ class EnglishEntryassassin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاوکوژ (پیشەیی)، بکوژ، تروریست، کوشتن‌کار، ڕەشەکوژ
-
-١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

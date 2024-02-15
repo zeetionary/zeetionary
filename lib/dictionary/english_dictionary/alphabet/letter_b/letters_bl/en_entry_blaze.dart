@@ -257,8 +257,10 @@ class EnglishEntryblaze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گڕ، گڵ، گڵپە، کڵپە، بڵێسە، سۆڵە، زمانە، سنجر، نێرگە، ئاگر، ئاور، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، داگیرسان، ھەڵبوون، سوورەوەبوون، ھەڵچوون، بریقەدانەوە، تیشک‌دانەوە، درەوشانەوە، چروسان، شەوق‌دانەوە، ورشانەوە، ڕووناکی، شەوق
-
-١. (کردار) سووتان بە ڕووناکی زۆر و گوڕەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) سووتان بە ڕووناکی زۆر و گوڕەوە"),
                           Row(
                             children: [
                               const Expanded(

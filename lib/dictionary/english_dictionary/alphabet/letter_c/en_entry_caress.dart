@@ -193,8 +193,10 @@ class EnglishEntrycaress extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەسبەسەرداھێنان، دەس‌پیاھێنان، ناز، لە باوەش‌گرتن، ماچ‌ومووچ کردن، بە قوربان و سەدەقە بوون، لاواندنەوە
-
-١. (کردار) دەستھێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) دەستھێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"),
                           Row(
                             children: [
                               const Expanded(

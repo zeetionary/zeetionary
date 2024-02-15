@@ -158,8 +158,9 @@ class EnglishEntryaptitude extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەھرە، توانایی، ئامادەیی، لێھاتوویی، تواناداری، زووتێگەیشتوویی، زووفێربوون، زیرەکی 
-
-١. (ناو) توانای سرووشتی بۆ کردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) توانای سرووشتی بۆ کردنی شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

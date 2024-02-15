@@ -149,8 +149,10 @@ class EnglishEntryblunt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کول، پەخ، لەساوچوو، سوو (دەمەسوو)، تەڤلار، نەبڕ، بێساو (بەتایبەت بۆ داس)، بێ‌پەردە، قسەلەڕوو، ڕەپ‌وڕاست
-
-١. (ھاوەڵناو) کول؛ شتێک کە دەمەکەی تیژ نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کول؛ شتێک کە دەمەکەی تیژ نییە"),
                           Row(
                             children: [
                               const Expanded(

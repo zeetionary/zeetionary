@@ -112,8 +112,11 @@ class EnglishEntryable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توانا، بەتوانا، توانادار، خورت، لێوەشاو، لێھاتوو، بەکارھاتوو، ژێھاتی، شارەزا
-
-١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

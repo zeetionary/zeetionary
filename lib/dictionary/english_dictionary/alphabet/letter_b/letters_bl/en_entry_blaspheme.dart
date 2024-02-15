@@ -146,8 +146,10 @@ class EnglishEntryblaspheme extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کفر کردن، بێڕێزی پێکردن، سوکایەتی پێکردن
-
-١. (کردار) ناوھێنانی خودا یان پیرۆزی دیکەی ئایینی بەشێوەیەک کە لە ڕووی ئایینییەوە پەسەندنەکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ناوھێنانی خودا یان پیرۆزی دیکەی ئایینی بەشێوەیەک کە لە ڕووی ئایینییەوە پەسەندنەکراوە"),
                           Row(
                             children: [
                               const Expanded(

@@ -190,8 +190,10 @@ class EnglishEntrycamper extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەمپ‌نشین، نیشتەجێ یان دانیشتووی کەمپ
-
-١. (ناو) کەسێک کە لە خێوەتێک یان بینایەک دەمێنێتەوە کە بۆ ئەو کەسانەیە کە پشوو وەردەگرن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە لە خێوەتێک یان بینایەک دەمێنێتەوە کە بۆ ئەو کەسانەیە کە پشوو وەردەگرن"),
                           Row(
                             children: [
                               const Expanded(

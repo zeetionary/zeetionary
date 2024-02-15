@@ -126,8 +126,9 @@ class EnglishEntryafloat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەراوکەوتە، سواراو، لەسەرئاو، بەسەر ئاوەوە، لەسەراو، بە حەواوە، لە حەوادا، ڕۆییو، ڕۆیندە، لەجووڵەدا، باو، سەرزمان‌کەوتوو، لە دەریا (دا)، لەسەر کەشتی یان گەمی، پارەی تەواوی ھەیە بۆ دانەوەی قەرزەکان
-
-١. (ھاوەڵناو) سەرئاوکەوتوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) سەرئاوکەوتوو" ""),
                           Row(
                             children: [
                               const Expanded(

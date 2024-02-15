@@ -109,8 +109,11 @@ class EnglishEntryageism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەمەن‌گەری، پیرئازاری، بۆپیرخراپی
-
-١. (ناو) مامەڵەی خراپ لەگەڵ کەسانی بەتەمەن، زۆرجار لە شوێنی کارکردن، بەھۆی ئەوەی پیرن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مامەڵەی خراپ لەگەڵ کەسانی بەتەمەن، زۆرجار لە شوێنی کارکردن، بەھۆی ئەوەی پیرن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntryblase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێزراو، کەمتەرخەم، لامسەرلا، گوێ‌پێنەدەر
-
-١. (ھاوەڵناو) شتێک کە پێی سەرسام یان نیگەران نابیت چونکە زۆرجار دیوتە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە پێی سەرسام یان نیگەران نابیت چونکە زۆرجار دیوتە"),
                           Row(
                             children: [
                               const Expanded(

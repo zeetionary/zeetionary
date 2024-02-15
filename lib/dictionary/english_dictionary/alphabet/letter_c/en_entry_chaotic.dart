@@ -193,8 +193,9 @@ class EnglishEntrychaotic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شێواو، ئاڵۆز، تێکەولێکە، ناڕێک، شڵەژاو، پڕئاژاوە، ئاژاوەمەند
-
-١. (ھاوەڵناو) دۆخێکی شێواو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) دۆخێکی شێواو"),
                           Row(
                             children: [
                               const Expanded(

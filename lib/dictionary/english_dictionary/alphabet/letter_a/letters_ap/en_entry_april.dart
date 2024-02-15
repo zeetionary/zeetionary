@@ -158,8 +158,11 @@ class EnglishEntryapril extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاپریل، ئاڤریل، ئاوریل، ئێیپریل، نوێڕۆژ، نیسان، خاکەلێوە، چوارەمین مانگی زایینی
-
-١. (ناو) چوارەمین مانگی ساڵ کە دەکەوێتە نێوان ئادار و مایس"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چوارەمین مانگی ساڵ کە دەکەوێتە نێوان ئادار و مایس"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

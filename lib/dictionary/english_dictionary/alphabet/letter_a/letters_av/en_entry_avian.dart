@@ -153,8 +153,9 @@ class EnglishEntryavian extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باڵندە، مەل، پەلەوەر، سەربە باڵندەکان، پێوەندی بە باڵندەکانەوە ھەیە
-
-١. (ھاوەڵناو) پەیوەندیدار بە باڵندە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە باڵندە" ""),
                           Row(
                             children: [
                               const Expanded(

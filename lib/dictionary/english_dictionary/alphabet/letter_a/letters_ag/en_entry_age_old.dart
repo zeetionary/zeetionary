@@ -109,8 +109,10 @@ class EnglishEntryageold extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەمێژینە، دێرین، بە تەمەنێک پێشینە، کۆن
-
-١. (ھاوەڵناو) شتێک کە لەمێژە بوونی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە لەمێژە بوونی ھەیە" ""),
                           Row(
                             children: [
                               const Expanded(

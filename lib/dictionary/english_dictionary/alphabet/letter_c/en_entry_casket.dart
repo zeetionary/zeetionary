@@ -193,8 +193,10 @@ class EnglishEntrycasket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مجری، سنووق، قوتو، دارتەرم، تابوت
-
-١. (ناو) سنووقێکی ڕازێنراوە بۆ ھەڵگرتنی خشڵ و شتی گران‌بەھا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) سنووقێکی ڕازێنراوە بۆ ھەڵگرتنی خشڵ و شتی گران‌بەھا"),
                           Row(
                             children: [
                               const Expanded(

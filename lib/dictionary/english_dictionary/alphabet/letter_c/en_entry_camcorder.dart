@@ -189,8 +189,10 @@ class EnglishEntrycamcorder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووربین یان کامێرای ڤیدیۆیی (دەستی)
-
-١. (ناو) کامێرایەکی ڤیدیۆیی کە وێنە و دەنگ تۆمار دەکات و دەستییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کامێرایەکی ڤیدیۆیی کە وێنە و دەنگ تۆمار دەکات و دەستییە"),
                           Row(
                             children: [
                               const Expanded(

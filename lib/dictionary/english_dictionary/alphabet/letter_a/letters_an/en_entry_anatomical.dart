@@ -153,8 +153,11 @@ class EnglishEntryanatomical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاناتۆمیکاڵ، یەکاڵاکردنەوەیی، توێکاری‌یانە
-
-١. (ھاوەڵناو) پەیوەندیدار بە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

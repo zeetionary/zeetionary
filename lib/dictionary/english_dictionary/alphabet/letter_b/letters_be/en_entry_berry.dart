@@ -147,8 +147,10 @@ class EnglishEntryberry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توو، نێوک، ناوک، کاکڵ، دەنک، دان، میوە یان بەری توویی یان بۆڵی، گەرای ماسی
-
-١. (ناو) میوەیەکی بچووک کە لە بنجێکدا سەوز دەبێت و ھەندێک جۆری دەخورێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) میوەیەکی بچووک کە لە بنجێکدا سەوز دەبێت و ھەندێک جۆری دەخورێت"),
                           Row(
                             children: [
                               const Expanded(

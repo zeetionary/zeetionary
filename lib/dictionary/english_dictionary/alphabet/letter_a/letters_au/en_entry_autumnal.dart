@@ -153,8 +153,9 @@ class EnglishEntryautumnal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاییزی، پاییزە، پاییزانە
-
-١. (ھاوەڵناو) پەیوەندیدار بە پاییز"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە پاییز" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,9 @@ class EnglishEntrycapsize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەرگەڕان، قڵپ بوون، ئاوەژوو کردن
-
-١. (کردار) وەرگەڕان لە ئاودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) وەرگەڕان لە ئاودا"),
                           Row(
                             children: [
                               const Expanded(

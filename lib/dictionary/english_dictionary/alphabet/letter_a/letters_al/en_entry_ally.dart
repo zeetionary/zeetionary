@@ -112,8 +112,11 @@ class EnglishEntryally extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (وڵات) یەک‌گرتوو، ھەڤ‌گرتوو، یەک‌کەوتوو، ھاوپەیمان، پشتیوان، یار، یاوەر
-
-١. (ناو) ھاوپەیمان، دوو لایەن کە یارمەتی یەکدی دەدەن، بەتایبەت لە کاتی جەنگ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھاوپەیمان، دوو لایەن کە یارمەتی یەکدی دەدەن، بەتایبەت لە کاتی جەنگ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

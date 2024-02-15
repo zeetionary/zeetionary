@@ -193,8 +193,9 @@ class EnglishEntrycastirontwo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پۆڵایین، سەخت، تۆکمە، نەگۆڕاو، پتەو، مکوم، قایم، ڕەختە
-
-١. (ناو) درووستکراو لە ئاسنی سەخت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) درووستکراو لە ئاسنی سەخت"),
                           Row(
                             children: [
                               const Expanded(

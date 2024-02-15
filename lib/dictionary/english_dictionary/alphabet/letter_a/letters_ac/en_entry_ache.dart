@@ -127,8 +127,11 @@ class EnglishEntryache extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژان، ئێش، ئازار، سوێ
-
-١. (کردار) ھەستکردن بە ئێشێکی زۆر کە بە ئازار نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ھەستکردن بە ئێشێکی زۆر کە بە ئازار نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

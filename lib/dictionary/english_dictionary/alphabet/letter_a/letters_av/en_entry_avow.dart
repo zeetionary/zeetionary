@@ -153,8 +153,11 @@ class EnglishEntryavow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەزر کردن، سوێند خواردن
-
-١. (کردار) بەڕوونی و فەرمی دەربڕینی بۆچوونت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بەڕوونی و فەرمی دەربڕینی بۆچوونت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

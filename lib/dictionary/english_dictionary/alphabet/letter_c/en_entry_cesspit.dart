@@ -198,8 +198,10 @@ class EnglishEntrycesspit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاڵە مستەڕا، چاڵەپیساو، چاڵپیس، شوێنی گەنیو یان پیس، مەکۆی خراپە، جێی پیس
-
-١. (ناو) چاڵێک یان کاسەیەک کە پاشەڕۆی بینایەکی تێدا کۆدەکرێتەوە، بە تایبەتی بۆ پیسایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چاڵێک یان کاسەیەک کە پاشەڕۆی بینایەکی تێدا کۆدەکرێتەوە، بە تایبەتی بۆ پیسایی"),
                           Row(
                             children: [
                               const Expanded(

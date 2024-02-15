@@ -146,8 +146,10 @@ class EnglishEntrybloodstream extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆیشتنی خوێن، خۆین‌ڕۆیین، سووڕان یا ڕەوتی خوێن
-
-١. (ناو) ئەو خوێنەی بە جەستەدا سووڕدەخوات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو خوێنەی بە جەستەدا سووڕدەخوات"),
                           Row(
                             children: [
                               const Expanded(

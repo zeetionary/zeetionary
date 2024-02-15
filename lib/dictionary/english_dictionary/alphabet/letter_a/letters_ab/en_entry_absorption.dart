@@ -113,8 +113,11 @@ class EnglishEntryabsorption extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕوومژی، مژڕوویی، مژین، ھەڵمژین، ھەڵچنین، داچەکان، (لەخۆ)گرتن، مژۆکی، سەرنج ڕاکێشان، دڵبەستە بوون، دڵ‌پێدان
-
-١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

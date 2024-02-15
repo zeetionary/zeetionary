@@ -144,8 +144,9 @@ class EnglishEntryahead extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێش، بەر، پێش‌تر، زووتر لە، لەپێش، لە بەردەم، لەوەپێش، لە پێش، بەرلە، لە پێشەوە
-
-١. (ھاوەڵکار) پێشوەختە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) پێشوەختە" ""),
                           Row(
                             children: [
                               const Expanded(

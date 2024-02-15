@@ -153,8 +153,11 @@ class EnglishEntryaxiom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنەما یان پڕەنسیپی بەڵگەنەویست، بنچینەی پەسندکراو، دیار، دیتبار، ئاشکرا، سەلماندن‌نەویست، ڕێسا یان بنەمایێکی جێگیر و دامەزراو
-
-١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

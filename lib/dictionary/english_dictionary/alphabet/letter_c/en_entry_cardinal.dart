@@ -195,8 +195,10 @@ class EnglishEntrycardinal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنگەھی، بنچینەیی، بنەڕەتی، سەرەکی، بناخەیی، گرنگ، بەرکەفتی، سوورەسەیرە، سەیرەی سوور، ژمارەی بنەڕەتی (1، 2، 3، 4، ھتد)
-
-١. (ناو) باڵاترین قەشەی کڵێسای کاسۆلیکی ڕۆم کە بەرپرسن لە ھەڵبژاردنی پاپا و ڕاوێژ پێدانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) باڵاترین قەشەی کڵێسای کاسۆلیکی ڕۆم کە بەرپرسن لە ھەڵبژاردنی پاپا و ڕاوێژ پێدانی"),
                           Row(
                             children: [
                               const Expanded(

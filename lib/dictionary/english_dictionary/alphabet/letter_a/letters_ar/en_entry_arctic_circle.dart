@@ -160,8 +160,11 @@ class EnglishEntryarcticcircle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سووڕگەی باکووران، خولگەی جەمسەری باکووری
-
-١. (ناو) ھێڵی درێژی سەروو ٧٠ پلەی باکوور کە دەوری خولگەی جەمسەری باکوور دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھێڵی درێژی سەروو ٧٠ پلەی باکوور کە دەوری خولگەی جەمسەری باکوور دەدات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,9 @@ class EnglishEntryblackice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توێیەکی سەھۆڵ بەسەر ڕێگاوە، سەھۆڵەڕەشە، بەستوویی
-
-١. (ناو) توێژی باریکی سەھۆڵ لەسەر ڕێگا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) توێژی باریکی سەھۆڵ لەسەر ڕێگا"),
                           Row(
                             children: [
                               const Expanded(

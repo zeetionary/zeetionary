@@ -176,8 +176,11 @@ class EnglishEntryamok extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆپێ‌ڕانەگیران، شێتی، بەربوون، ھەوسار پساندن (بەتایبەت لە شوێنە گشتی‌یەکان‌دا)، وەک شێت و ھار
-
-١. (ھاوەڵکار) لەناکاو توڕەبوون یان تووشی خرۆشان، و ڕەفتارکردن بە توندوتیژانە، بەتایبەتی لە شوێنێکی گشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) لەناکاو توڕەبوون یان تووشی خرۆشان، و ڕەفتارکردن بە توندوتیژانە، بەتایبەتی لە شوێنێکی گشتی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

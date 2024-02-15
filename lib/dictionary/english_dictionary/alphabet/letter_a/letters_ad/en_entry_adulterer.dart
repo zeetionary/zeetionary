@@ -110,8 +110,9 @@ class EnglishEntryadulterer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مرد) زیناکار، داوێن‌تەڕ، داوێن‌پیس، شەڵوارپیس، بێ‌نامووس
-
-١. (ناو) کەسێک کە زینا دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە زینا دەکات" ""),
                           Row(
                             children: [
                               const Expanded(

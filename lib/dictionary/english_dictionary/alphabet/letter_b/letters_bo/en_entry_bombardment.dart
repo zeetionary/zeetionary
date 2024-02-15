@@ -146,8 +146,10 @@ class EnglishEntrybombardment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆمباران، بۆردومان، ئاگرباران، ڕێژنە، ڕەھێڵە
-
-١. (ناو) ھێرشێک کە تێیدا چەکی قورس ئاراستەی شوێنێک دەکرێت یان بۆمب بەسەریدا بەردەدرێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھێرشێک کە تێیدا چەکی قورس ئاراستەی شوێنێک دەکرێت یان بۆمب بەسەریدا بەردەدرێتەوە"),
                           Row(
                             children: [
                               const Expanded(

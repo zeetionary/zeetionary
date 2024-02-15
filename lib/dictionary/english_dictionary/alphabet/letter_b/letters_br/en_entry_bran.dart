@@ -143,8 +143,10 @@ class EnglishEntrybran extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سۆست، سۆ، سۆس، زبرە، کرپک، کەڵپ، درشتەی ئارد، کەپەک، پاژینە، ئەسپرزە، پشی، پنس
-
-١. (ناو) توێکڵی گەنم کە لێ‌دەکرێتەوە کاتێک گەنمەکە دەکرێت بە ئارد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) توێکڵی گەنم کە لێ‌دەکرێتەوە کاتێک گەنمەکە دەکرێت بە ئارد"),
                           Row(
                             children: [
                               const Expanded(

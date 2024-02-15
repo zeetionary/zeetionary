@@ -143,8 +143,10 @@ class EnglishEntrybreathless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەناسکەبڕکێ، ھاسکەھاسک، لەھەناسەکەوتوو، تامەزرۆ، بەپەرۆش
-
-١. (ھاوەڵناو) ھەبوونی سەختی لە ھەناسەداندا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی سەختی لە ھەناسەداندا"),
                           Row(
                             children: [
                               const Expanded(

@@ -161,8 +161,11 @@ class EnglishEntryarraignment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بانگ‌کردن، تاوانبار کردن، گوناھبار کردن، بەدواکەوتن، بەشوێن‌کەوتن
-
-١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -149,8 +149,10 @@ class EnglishEntrybiodegradable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژینگەدۆست، زیندەلێک‌ھەڵوەشان‌ھاتوو، بایۆلێک‌ھەڵوەشان‌ھاتوو
-
-١. (ھاوەڵناو) شتێک کە بە بەکتریا ھەڵدەوەشێت و بە تێپەڕبوونی کات و زیانی بۆ ژینگە نابێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە بە بەکتریا ھەڵدەوەشێت و بە تێپەڕبوونی کات و زیانی بۆ ژینگە نابێت"),
                           Row(
                             children: [
                               const Expanded(

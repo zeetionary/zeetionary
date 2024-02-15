@@ -148,8 +148,8 @@ class EnglishEntrybeautify extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوان کردن، ڕازاندن، خەملاندن
-
-١. (کردار) جوانکردن"""),
+"""),
+                          const DefinitionKurdish(text: "١. (کردار) جوانکردن"),
                           Row(
                             children: [
                               const Expanded(

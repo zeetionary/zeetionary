@@ -191,8 +191,10 @@ class EnglishEntrycanal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوەڕێ، ئاودڕ، ئاودڕکە، نۆکەند، کەنداو، دڕناڵ، دڕگە، ڕەھەنداو، کارێز، ، زێ، چۆمەڵ، جۆ، جۆگە، (ڕووەک‌ناسی و توێکاری) جۆگە، لوولە 
-
-١. (ناو) ڕێگایەکی ڕاست و درێژ کە پڕکراوە لە ئاو بۆ ئەوەی بەلەم و کەشتی پێیدا بڕۆن """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێگایەکی ڕاست و درێژ کە پڕکراوە لە ئاو بۆ ئەوەی بەلەم و کەشتی پێیدا بڕۆن "),
                           Row(
                             children: [
                               const Expanded(

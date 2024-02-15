@@ -153,8 +153,9 @@ class EnglishEntrybackless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌پشت، پشت‌ئاواڵە، پشت‌پێوەنەبوو (کراس)
-
-١. (ھاوەڵناو) جلێک کە پشتەوە داناپۆشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) جلێک کە پشتەوە داناپۆشێت"),
                           Row(
                             children: [
                               const Expanded(

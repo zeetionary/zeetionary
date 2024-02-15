@@ -149,8 +149,10 @@ class EnglishEntryblink extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تروکە، ترپاندن، تروکەتروک، زریوەزریو، چاوەتروسکێ، چاولێکنان، تروکەی چاو
-
-١. (کردار) چاو ترپاندن؛ داخستن و کردنەوەی چاو بەخێرایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) چاو ترپاندن؛ داخستن و کردنەوەی چاو بەخێرایی"),
                           Row(
                             children: [
                               const Expanded(

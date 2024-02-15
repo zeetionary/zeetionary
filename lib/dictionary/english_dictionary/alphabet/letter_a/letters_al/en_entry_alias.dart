@@ -111,8 +111,11 @@ class EnglishEntryalias extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرزەنێو، ناوی خواستەمەنی، ناوی خواستراو، زڕەناو، ناوی تر، ناسراو بە، نازناو، ناوی خوازیار، خوازناو
-
-١. (ناو) ناوێکی تر کە ناوی ڕاستی کەسێک نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوێکی تر کە ناوی ڕاستی کەسێک نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

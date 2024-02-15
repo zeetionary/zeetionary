@@ -153,8 +153,9 @@ class EnglishEntryanomalous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نائاسایی، سەیر، ڕیزپەڕ، بێ‌ڕێسا، ناڕێک، شپرزە، ئاڵۆز
-
-١. (ھاوەڵناو) شتێکی نائاسایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێکی نائاسایی" ""),
                           Row(
                             children: [
                               const Expanded(

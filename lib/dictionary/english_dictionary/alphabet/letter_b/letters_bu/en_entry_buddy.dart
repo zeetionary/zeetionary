@@ -143,8 +143,8 @@ class EnglishEntrybuddy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاکە، دۆست، ھاوڕێ، ھەڤاڵ
-
-١. (ناو) ھاوڕێ"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) ھاوڕێ"),
                           Row(
                             children: [
                               const Expanded(

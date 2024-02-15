@@ -280,8 +280,10 @@ class EnglishEntrybranch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لک، لق، تا، لپ، فاق، تاقیشک، قەڵبە، لەژگ، نیھال، قیت، گلم، شاخ(ە)، لک، لق، بەش، پشک، کەرت
-
-١. (ناو) لقی دار؛ ئەو بەشەی کە لە قەدەکەوە دەردەچێت و گەڵا و میوە و گوڵ لەسەری گەشە دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لقی دار؛ ئەو بەشەی کە لە قەدەکەوە دەردەچێت و گەڵا و میوە و گوڵ لەسەری گەشە دەکات"),
                           Row(
                             children: [
                               const Expanded(

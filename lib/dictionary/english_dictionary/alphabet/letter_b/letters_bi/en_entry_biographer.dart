@@ -147,8 +147,10 @@ class EnglishEntrybiographer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژیان‌نامەنووس، سەربوردنامەنووس
-
-١. (ناو) کەسێک کە ژیاننامەی کەسانی تر دەنووسێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ژیاننامەی کەسانی تر دەنووسێت"),
                           Row(
                             children: [
                               const Expanded(

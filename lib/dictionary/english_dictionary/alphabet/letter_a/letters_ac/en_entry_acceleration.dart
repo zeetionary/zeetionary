@@ -104,8 +104,11 @@ class EnglishEntryacceleration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاودان، لەزاندن، پەلاندن، زوواندن، زووپێ‌کردن
-
-١. (ناو) ڕێژەی زیادبوونی خێرایی شتێک؛ تاودان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێژەی زیادبوونی خێرایی شتێک؛ تاودان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

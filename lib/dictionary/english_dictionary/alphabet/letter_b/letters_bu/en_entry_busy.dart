@@ -198,8 +198,8 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خەریکی، سەرقاڵی، سەرقاڵ، پڕکار، پژگاڵ، پڕ لە چالاکی، پڕکار، نەپەژراو، پڕجم‌وجۆڵ، (سەر)شلوق، (تەلەفۆن) گیراو، خەریک‌قسە 
-
-١. (ھاوەڵناو) سەرقاڵ"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ھاوەڵناو) سەرقاڵ"),
                           Row(
                             children: [
                               const Expanded(

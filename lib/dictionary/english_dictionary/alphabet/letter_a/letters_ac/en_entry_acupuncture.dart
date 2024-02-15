@@ -111,8 +111,11 @@ class EnglishEntryacupuncture extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکیوپەنکچێر، نۆژداری بە دەرزی، دەرزی‌ئاژنینی نەخۆش، دەرزی‌ئاژنی، چارەسەرکردن بە دەرزی
-
-١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

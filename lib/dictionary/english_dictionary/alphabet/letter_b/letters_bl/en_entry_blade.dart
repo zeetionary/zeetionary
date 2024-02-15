@@ -149,8 +149,10 @@ class EnglishEntryblade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تیغ، گوێزان، تیغە، تیخ، ڕوونە، دەم، مەودا، دم، پەڕە، شمشێر، شیر، بەشی پانایی سەول، دەمەسەوڵ، بێڵە، پانایی یان بەرینایی گەڵا، ئێسکی پان، ئێسکی شان، گەنجی بەکار و پڕجم‌وجۆڵ
-
-١. (ناو) دەمی چەقۆیەک یان ئامێرێک کە بەکاردێت بۆ بڕین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دەمی چەقۆیەک یان ئامێرێک کە بەکاردێت بۆ بڕین"),
                           Row(
                             children: [
                               const Expanded(

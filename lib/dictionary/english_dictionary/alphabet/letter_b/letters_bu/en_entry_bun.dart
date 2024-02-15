@@ -191,8 +191,10 @@ class EnglishEntrybun extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەیک، (جۆرێ) کولیچە (خڕ و شیرین)، نانی خڕ، قوتکەقژ (تۆپە قژی قوتی دواوە)، پاشڵ، کنگ، سمت
-
-١. (ناو) کێک یان نانێکی بچووکی خڕ و شیرین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کێک یان نانێکی بچووکی خڕ و شیرین"),
                           Row(
                             children: [
                               const Expanded(

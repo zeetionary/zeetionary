@@ -103,8 +103,11 @@ class EnglishEntryabdicate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێھێشتنی تەختی شاھانە
-
-١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

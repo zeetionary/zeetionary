@@ -107,8 +107,11 @@ class EnglishEntryacrobat extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: تەناف‌باز، جامباز
-
-١. (ناو) کەسێک کە نمایشی گیانبازی دەکات، زۆرجار لە گرووپێکی سێرکس"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە نمایشی گیانبازی دەکات، زۆرجار لە گرووپێکی سێرکس"
+                                  ""),
                         ],
                       ),
                     ),

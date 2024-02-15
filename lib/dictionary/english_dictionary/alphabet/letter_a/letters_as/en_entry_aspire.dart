@@ -160,8 +160,9 @@ class EnglishEntryaspire extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئارزوو ھەبوون، ھیوا خواستن، ھەبوونی ھەستی بەرزە فڕی
-
-١. (کردار) ئاوات‌خواستن بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ئاوات‌خواستن بە شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

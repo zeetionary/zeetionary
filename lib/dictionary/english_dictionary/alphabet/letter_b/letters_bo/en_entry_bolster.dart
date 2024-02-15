@@ -146,8 +146,9 @@ class EnglishEntrybolster extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاڵپشت، باڵشت، بالنج، پشتی، (بیناسازی) پاڵپشت(ـە)، ئەسکەنەی قورسی دابڕینی خشت
-
-١. (کردار) بەھێزکردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) بەھێزکردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(

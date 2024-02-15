@@ -112,8 +112,11 @@ class EnglishEntryaccusation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاوانبار کردن، گوناھبار کردن، گومان لێ‌کردن، تۆمەت، بوختان‌پێ‌کردن
-
-١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

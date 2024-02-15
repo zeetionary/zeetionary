@@ -192,8 +192,10 @@ class EnglishEntrycasement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەنجێرەی لاولاوەدار، دوودەری، ئاڤدا، پەنجەرەی درگایی
-
-١. (ناو) پەنجەرەیەک کە وەک دەرگا دەکرێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پەنجەرەیەک کە وەک دەرگا دەکرێتەوە"),
                           Row(
                             children: [
                               const Expanded(

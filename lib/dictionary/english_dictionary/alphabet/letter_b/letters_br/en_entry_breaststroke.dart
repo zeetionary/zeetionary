@@ -142,8 +142,10 @@ class EnglishEntrybreaststroke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆقەمەلێ، بۆقەمەلە
-
-١. (ناو) جۆرە مەلەیەک کە لەسەر سنگت دەیکەیت، دەستەکان و قاچەکانت بۆ دوور لە جەستەت دەجوڵێنیت و دواتر بە بازنەیەک بەرەو جەستەت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جۆرە مەلەیەک کە لەسەر سنگت دەیکەیت، دەستەکان و قاچەکانت بۆ دوور لە جەستەت دەجوڵێنیت و دواتر بە بازنەیەک بەرەو جەستەت"),
                           Row(
                             children: [
                               const Expanded(

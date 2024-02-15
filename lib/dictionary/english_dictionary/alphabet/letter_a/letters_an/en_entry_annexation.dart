@@ -154,8 +154,11 @@ class EnglishEntryannexation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داگیرکردن، دەس‌بەسەراگرتن، گرتن، زەوت‌کردن، لکاندن، خستنەپاڵ، دانەدەم، خستنەسەر، پاشکۆ، سەرخستە
-
-١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

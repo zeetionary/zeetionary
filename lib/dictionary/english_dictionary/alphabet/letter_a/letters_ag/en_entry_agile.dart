@@ -111,8 +111,11 @@ class EnglishEntryagile extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاک، گورج، ھەڵسووڕ، چاپک، مەزبووت، گورج‌وگۆڵ، توندوتۆڵ، زرنگ، زیرەک، زووبیرکەرەوە
-
-١. (ھاوەڵناو) ھەبوونی توانای خێرا و ئاسان جوڵان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی توانای خێرا و ئاسان جوڵان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

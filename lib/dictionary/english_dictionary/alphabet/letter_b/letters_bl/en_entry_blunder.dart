@@ -146,8 +146,9 @@ class EnglishEntryblunder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێ‌ھەڵقڵیشان، شاشی زەق، ھەڵەی زەق یان گەوجانە
-
-١. (ھاوەڵناو) ھەڵەیەکی گەمژانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ھەڵەیەکی گەمژانە"),
                           Row(
                             children: [
                               const Expanded(

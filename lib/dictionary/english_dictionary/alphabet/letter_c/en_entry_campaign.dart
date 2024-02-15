@@ -196,8 +196,10 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زنجیرە کردارێکی شەڕی، کردار (شەڕ)، ھێرش، پەلامار، شاڵاو، ھەڵمەت، خەبات، چالاکی، ستراتێژی
-
-١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستھێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستھێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"),
                           Row(
                             children: [
                               const Expanded(

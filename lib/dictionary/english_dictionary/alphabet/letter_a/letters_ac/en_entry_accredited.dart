@@ -104,8 +104,11 @@ class EnglishEntryaccredited extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێ‌باوەڕ، باوەڕپێ‌کراو، پشت‌پێ‌بەستراو، ڕێگەدراو، ڕێدراو، دەستووردراو، دەستوورلەسەر، دەسەڵات‌دار، باوەڕلەسەر، قانوونی، فەرمی
-
-١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

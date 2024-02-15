@@ -144,8 +144,9 @@ class EnglishEntrybreakage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شکاندن، وردوخاش‌کردن، شکان، بڕ یان ڕادەی شکاوی، شتە شکاوەکان (یان شکستەکان)، زیان و زەرەی شکان
-
-١. (ناو) شتێکی شکاو، یان شکانی شت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شتێکی شکاو، یان شکانی شت"),
                           Row(
                             children: [
                               const Expanded(

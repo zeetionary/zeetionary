@@ -153,8 +153,9 @@ class EnglishEntrybacker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشتیوان، ڕاگر، لایەنگر، پاڵپشت
-
-١. (ناو) کەسێک کە یارمەت پێشکەش دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە یارمەت پێشکەش دەکات"),
                           Row(
                             children: [
                               const Expanded(

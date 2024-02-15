@@ -194,8 +194,9 @@ class EnglishEntrycertainty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بابەتی مسۆگەر، شتی مسۆگەر، شتی دیار،	بێ‌چەندوچۆنی، دیاری‌کراوی، ڕاستی، گومان‌لێنەکراوی، بێ‌ئەملاوئەولایی، مسۆگەری، بڕاوەیی، خاترجەمی، دڵنیایی، ئارخایەنی، متمانە، باوەڕپێکراوی
-
-١. (ھاوەڵکار) دڵنیایی لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) دڵنیایی لە شتێک"),
                           Row(
                             children: [
                               const Expanded(

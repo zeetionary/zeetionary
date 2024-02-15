@@ -147,8 +147,10 @@ class EnglishEntrybedraggled extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شێواو، ئاڵۆزاو، شپرزە، پیس، قوڕاوی
-
-١. (ھاوەڵناو) تەڕ و پیس بەھۆی باران و لیتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) تەڕ و پیس بەھۆی باران و لیتەوە"),
                           Row(
                             children: [
                               const Expanded(

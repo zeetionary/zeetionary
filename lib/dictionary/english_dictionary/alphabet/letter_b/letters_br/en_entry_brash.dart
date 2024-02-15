@@ -144,8 +144,9 @@ class EnglishEntrybrash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌شەرم، ڕوودار، ڕووھەڵماڵراو، نەترس، ئازا، بەپەلە، بەپڕتاو 
-
-١. (ھاوەڵناو) نەترس و متمانەبەخۆبوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) نەترس و متمانەبەخۆبوو"),
                           Row(
                             children: [
                               const Expanded(

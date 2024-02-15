@@ -193,8 +193,10 @@ class EnglishEntryceremonial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەریتی، سروتی، داب‌ودەستووری‌یانە، ئایینی، داب‌ودەستوور، ڕێ‌وڕەسم، ئاھەنگ
-
-١. (ھاوەڵناو) پەیوەندیدار بە بۆنەیەک، یان زیاتر بۆ مەبەستی بۆنەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە بۆنەیەک، یان زیاتر بۆ مەبەستی بۆنەکان"),
                           Row(
                             children: [
                               const Expanded(

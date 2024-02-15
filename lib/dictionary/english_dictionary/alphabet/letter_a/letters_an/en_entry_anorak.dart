@@ -153,8 +153,11 @@ class EnglishEntryanorak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەنورەک، باڵتە، باگیر، باگێڕەوە
-
-١. (ناو) پاڵتاوێکی کورت لەگەڵ کڵاوێک بۆ پاراستن لە باران"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پاڵتاوێکی کورت لەگەڵ کڵاوێک بۆ پاراستن لە باران"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

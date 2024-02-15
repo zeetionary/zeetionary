@@ -194,8 +194,9 @@ class EnglishEntrycentrifugal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناوەندڕەوێن، ناوەندڕادەر، چەق‌ڕەوێن، ناوەنددەرپەڕێن، چەق‌دوورخەرە
-
-١. (ھاوەڵناو) جوڵان بۆ دوور لە چەق"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) جوڵان بۆ دوور لە چەق"),
                           Row(
                             children: [
                               const Expanded(

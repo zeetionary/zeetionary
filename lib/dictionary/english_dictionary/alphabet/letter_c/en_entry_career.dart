@@ -200,8 +200,10 @@ class EnglishEntrycareer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کار، پیشە، ئیش، خەبات، شوول
-
-١. (ناو) زنجیرە کارێک کە کەسێک ھەیەتی لە بەشێکی دیاریکراوی کارێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زنجیرە کارێک کە کەسێک ھەیەتی لە بەشێکی دیاریکراوی کارێکدا"),
                           Row(
                             children: [
                               const Expanded(

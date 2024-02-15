@@ -145,8 +145,10 @@ class EnglishEntryblackeye extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاوی ڕەش، شینایی دەوری چاو، ڕووڕەشی، ناوزڕاوی، نەنگ، بێ‌ئابڕوویی
-
-١. (ناو) ناوچەیەکی دەوری چاو کە شیندەبێتەوە لە کاتی لێدان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوچەیەکی دەوری چاو کە شیندەبێتەوە لە کاتی لێدان"),
                           Row(
                             children: [
                               const Expanded(

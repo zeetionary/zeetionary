@@ -143,8 +143,9 @@ class EnglishEntrybroody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەکڕ، بەکڕک، لەبیروخەم‌دا، دڵتەنگ، کز، مات، خەمبار، (ژن) بە مەراقی و ئارەزووی مناڵەوە
-
-١. (ھاوەڵناو) حەزی زۆر بۆ بوونی منداڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) حەزی زۆر بۆ بوونی منداڵ"),
                           Row(
                             children: [
                               const Expanded(

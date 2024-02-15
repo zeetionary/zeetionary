@@ -193,8 +193,10 @@ class EnglishEntrycharcoal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەژی، ڕەژوو، خەڵووز (دار)، (ڕەنگ) بۆری تۆخ، خەڵووزی
-
-١. (ناو) مادەیەکی ڕەش کە درووست دەبێت بە هێواش سوتاندنی دار لە شوێنێک کە کەم هەوای تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی ڕەش کە درووست دەبێت بە هێواش سوتاندنی دار لە شوێنێک کە کەم هەوای تێدایە"),
                           Row(
                             children: [
                               const Expanded(

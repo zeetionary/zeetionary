@@ -109,8 +109,11 @@ class EnglishEntryadjoin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێکەڵ بوون، پێکھێنان، نزیک بوون
-
-١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

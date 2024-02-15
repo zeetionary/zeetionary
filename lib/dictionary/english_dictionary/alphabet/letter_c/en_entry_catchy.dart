@@ -193,8 +193,10 @@ class EnglishEntrycatchy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرنج‌ڕاکێش، خۆش، زووفێربوو، بالکێش
-
-١. (ھاوەڵناو) میوزیک یان وشە کە سەرنجڕاکێشە و بە ئاسانی لەبەردەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) میوزیک یان وشە کە سەرنجڕاکێشە و بە ئاسانی لەبەردەکرێت"),
                           Row(
                             children: [
                               const Expanded(

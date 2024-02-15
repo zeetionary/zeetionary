@@ -157,8 +157,11 @@ class EnglishEntryantiquated extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆن، قەدیمی، لەباوکەوتوو، بێ‌بڕەو، بێ‌باو، سوواو
-
-١. (ھاوەڵناو) شتێکی کۆن کە چی‌تر گونجاو نییە بۆ ئەم سەردەمە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێکی کۆن کە چی‌تر گونجاو نییە بۆ ئەم سەردەمە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

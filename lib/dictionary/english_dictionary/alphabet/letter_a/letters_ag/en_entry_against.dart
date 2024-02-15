@@ -130,8 +130,9 @@ class EnglishEntryagainst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دژی، بە دژی، بەرانبەر، بەرامبەر، ھەڤبەر، لە بەرامبەر، پێچەوانە، بە زیانی، بە زەرەری، بەرەوڕووی، بەرامبەری، ڕووبەرووی، لەسەر، بە، لەگەڵ
-
-١. (ئامراز) دژ بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ئامراز) دژ بە شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

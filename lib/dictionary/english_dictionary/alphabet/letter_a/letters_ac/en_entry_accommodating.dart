@@ -95,8 +95,11 @@ class EnglishEntryaccommodating extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سازاو، گونجاو، دڵسۆز، بەبەزەیی، بەتەنگ خەڵکەوەبوو، یاریدەدەر
-
-١. (ھاوەڵناو) کەسێک کە یارمەتیی کەسانی تر دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە یارمەتیی کەسانی تر دەدات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -94,8 +94,11 @@ class EnglishEntryabolition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سڕینەوە، ھەڵوەشانەوە، ھەڵوەشاندنەوە، پووکاندنەوە، پووچ‌کردنەوە بەتاڵ‌کردنەوە، ھەڵگرتن، نەھێشتن، لە بڕەوخستن، پووچەڵ کردنەوە
-
-١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

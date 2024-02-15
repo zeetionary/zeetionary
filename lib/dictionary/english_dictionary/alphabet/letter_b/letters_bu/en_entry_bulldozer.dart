@@ -141,8 +141,10 @@ class EnglishEntrybulldozer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕادەر، خاکماڵ، ڕاماڵە
-
-١. (ناو) ئامێرێکی بەھێز کە دەمێکی پانی ھەیە و بەکاردێت بۆ ڕاماڵینی خۆڵ یان ڕووخاندنی خانوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئامێرێکی بەھێز کە دەمێکی پانی ھەیە و بەکاردێت بۆ ڕاماڵینی خۆڵ یان ڕووخاندنی خانوو"),
                           Row(
                             children: [
                               const Expanded(

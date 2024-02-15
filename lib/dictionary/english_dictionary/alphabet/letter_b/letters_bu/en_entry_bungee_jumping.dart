@@ -191,8 +191,10 @@ class EnglishEntrybungeejumping extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆھەڵدان، لە بەرزایی‌یەوە بازدان
-
-١. (ناو) خۆھەڵدان لە بەرزاییەوە بە تەنافێکەوە کە کێشی دێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خۆھەڵدان لە بەرزاییەوە بە تەنافێکەوە کە کێشی دێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -147,8 +147,10 @@ class EnglishEntrybaseless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌بنچینە، بێ‌بنەما، درۆ، بێ‌بناخە، بێ‌بنیات، بێھوودە
-
-١. (ھاوەڵناو) شتێک کە ھیچ بەڵگەیەکی لە پشتەوە نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە ھیچ بەڵگەیەکی لە پشتەوە نییە"),
                           Row(
                             children: [
                               const Expanded(

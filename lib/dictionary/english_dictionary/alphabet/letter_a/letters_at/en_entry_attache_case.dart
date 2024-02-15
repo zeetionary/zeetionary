@@ -162,8 +162,11 @@ class EnglishEntryattachecase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ساک، کیف، جانتا
-
-١. (ناو) جانتایەکی فلاتی بەھێزی بچووک بۆ دۆکیومێنتی کارکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جانتایەکی فلاتی بەھێزی بچووک بۆ دۆکیومێنتی کارکردن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

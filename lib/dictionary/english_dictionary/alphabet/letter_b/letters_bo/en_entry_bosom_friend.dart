@@ -151,8 +151,9 @@ class EnglishEntrybosomfriend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دۆستی گەرم‌وگوڕ، گیانی‌ بە‌ گیانی یان گیانی‌گیانی
-
-١. (ناو) ھاوڕێیەکی زۆر نزیک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھاوڕێیەکی زۆر نزیک"),
                           Row(
                             children: [
                               const Expanded(

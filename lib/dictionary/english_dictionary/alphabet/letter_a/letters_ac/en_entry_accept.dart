@@ -148,8 +148,9 @@ class EnglishEntryaccept extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەسەندکردن، قبوڵکردن
-
-١. (کردار) ڕازیبوون بە وەرگرتنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ڕازیبوون بە وەرگرتنی شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycelibacy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەنیایی، بێ‌ھاوسەری، بێ‌جووتی، سەڵتی، زگوردی، ڕەبەنی 
-
-١. (ناو) دۆخی زگوردی و دووربوون لە سێکس، بەتایبەتی بۆ مەبەستی ئایینی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆخی زگوردی و دووربوون لە سێکس، بەتایبەتی بۆ مەبەستی ئایینی"),
                           Row(
                             children: [
                               const Expanded(

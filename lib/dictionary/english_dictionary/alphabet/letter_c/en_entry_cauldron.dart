@@ -192,8 +192,10 @@ class EnglishEntrycauldron extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەنجەڵ، قازان، دست، برۆش، خەزگان، نقرە
-
-١. (ناو) قاپێکی قووڵ بۆ کوڵاندنی شلە یان لێنانی خواردن لەسەر ئاگر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) قاپێکی قووڵ بۆ کوڵاندنی شلە یان لێنانی خواردن لەسەر ئاگر"),
                           Row(
                             children: [
                               const Expanded(

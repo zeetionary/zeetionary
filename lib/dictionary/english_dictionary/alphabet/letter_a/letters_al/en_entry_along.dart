@@ -163,8 +163,10 @@ class EnglishEntryalong extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێشەوە، پێشێ، ڕوولەپێشێ، بەرەوپێشەوە، بەدرێژایی، بەدرێژی، لە سەرانسەری، لەگەڵ
-
-١. (ئامراز) لەلایەکی شتێک بۆ لاکەی تری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ئامراز) لەلایەکی شتێک بۆ لاکەی تری" ""),
                           Row(
                             children: [
                               const Expanded(

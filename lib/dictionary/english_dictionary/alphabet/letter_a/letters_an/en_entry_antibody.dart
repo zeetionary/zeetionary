@@ -154,8 +154,11 @@ class EnglishEntryantibody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەھێڵەلەش، ئەنتی‌بادی، دژەتەن، دژەتەن
-
-١. (ناو) مادەیەک کە لەش درووستی دەکات لە خوێندا، یان وەک کاردانەوە دژ بە شتێک کە دەخرێتە لەشەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەک کە لەش درووستی دەکات لە خوێندا، یان وەک کاردانەوە دژ بە شتێک کە دەخرێتە لەشەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

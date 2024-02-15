@@ -149,8 +149,9 @@ class EnglishEntryalready extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە پێشان، جارێ، لەوەپێش، زووتر، پێش ئێستا، بەری نھا، ئێستا، ھەر ئێستا، تا ئێستاش، بەم زووانە، ھەروا زوو
-
-١. (ھاوەڵکار) پێش کاتێک لە ڕابردوودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) پێش کاتێک لە ڕابردوودا" ""),
                           Row(
                             children: [
                               const Expanded(

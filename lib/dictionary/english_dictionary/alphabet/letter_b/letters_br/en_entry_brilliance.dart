@@ -142,8 +142,10 @@ class EnglishEntrybrilliance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: درەوشانەوە، ورشانەوە، بریقەدانەوە، پڕشنگدانەوە، بریسکەدانەوە، زیرەکی، ھەڵکەوتوویی، بلیمەتی، شارەزایی، مامۆستایی، ھیواداری، ھومێدەواری، سەرکەوتوویی
-
-١. (ناو) خاسیەتی ھەبوونی یان زیرەکی تەواو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خاسیەتی ھەبوونی یان زیرەکی تەواو"),
                           Row(
                             children: [
                               const Expanded(

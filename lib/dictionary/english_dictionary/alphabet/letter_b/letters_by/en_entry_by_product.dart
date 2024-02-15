@@ -190,8 +190,10 @@ class EnglishEntrybyproduct extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لابەرھەم، بەرھەمی لاوەکی، دەم‌بەرھەم، ئەنجامی لاوەکی، لائەنجام، کاریگەری لاتەنیشتی یا لاوەکی، لاکەریگەری
-
-١. (ناو) شتێک کە درووست دەبێت لە ئەنجامی درووستکردن یان لەناوبردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە درووست دەبێت لە ئەنجامی درووستکردن یان لەناوبردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(

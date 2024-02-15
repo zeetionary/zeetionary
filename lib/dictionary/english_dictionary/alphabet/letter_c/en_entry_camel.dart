@@ -189,8 +189,10 @@ class EnglishEntrycamel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وشتر، دەڤە، سارە
-
-١. (ناو) وشتر؛ ئاژەڵێک کە ملی درێژە و دوو کۆپارەی ھەیە لەسەر پشتی. وشتر لە وڵاتانی بیابانی بەکاردێت بۆ سواری و بارگواستنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وشتر؛ ئاژەڵێک کە ملی درێژە و دوو کۆپارەی ھەیە لەسەر پشتی. وشتر لە وڵاتانی بیابانی بەکاردێت بۆ سواری و بارگواستنەوە"),
                           Row(
                             children: [
                               const Expanded(

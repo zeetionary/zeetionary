@@ -111,8 +111,11 @@ class EnglishEntryalcove extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شانشین، تاقە، گەنجینە، ئەلکۆڤ
-
-١. (ناو) تاق؛ بەشێکی دیوارێک کە لە دواتر درووستکراوە وەک لە بەشەکانی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تاق؛ بەشێکی دیوارێک کە لە دواتر درووستکراوە وەک لە بەشەکانی تر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrychangeover extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆڕان، شێواز گۆڕان، ڕێچکە گۆڕان، گەڕانەوە، ڕاگوێستن، گوێزانەوە
-
-١. (ناو) گۆڕان لە سیستەم یان ڕێگایەکی کارکردنەوە بۆ یەکێکی دیکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گۆڕان لە سیستەم یان ڕێگایەکی کارکردنەوە بۆ یەکێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(

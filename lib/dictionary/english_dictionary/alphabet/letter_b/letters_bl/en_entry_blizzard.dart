@@ -147,8 +147,10 @@ class EnglishEntryblizzard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کڕێوە، گیت، تۆف، باوبۆران، تۆف‌وبەند، بادەوە، باکوت، پەلەتاتە
-
-١. (ناو) بەفربارینێکی زۆر لەگەڵ بای بەھێزدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەفربارینێکی زۆر لەگەڵ بای بەھێزدا"),
                           Row(
                             children: [
                               const Expanded(

@@ -103,8 +103,9 @@ class EnglishEntryabundant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆر، زۆر و زەبەند، زیاد، فرە، فراوان، بەون، بێ‌ژمار، بۆش، فت‌وفراوان، بەپیت، بەبەرەکەت، فەرێح، فت‌وفراوان، گەلێک، پڕ، لێواولێو، پڕاوپڕ، زیاتر لە پێویست
-
-١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -103,8 +103,11 @@ class EnglishEntryaccessory extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەدەکی، پارچەی زیادە، لەگەڵ، شت‌ومەکی لاوەکی
-
-١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

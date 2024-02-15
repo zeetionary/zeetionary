@@ -110,8 +110,11 @@ class EnglishEntryagility extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاکی، گورجی، پڕجم‌وجوڵی، توندوتۆڵی
-
-١. (ناو) ھەبوونی توانای جوڵاندنی جەستە بەخێرایی و ئاسانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەبوونی توانای جوڵاندنی جەستە بەخێرایی و ئاسانی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

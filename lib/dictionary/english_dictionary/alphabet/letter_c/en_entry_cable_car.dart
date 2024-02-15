@@ -189,8 +189,10 @@ class EnglishEntrycablecar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەلەفریک، تەلەکابین، تێلەکابین، تێلێ‌کابین
-
-١. (ناو) گوازەرەوەیەک کە ھەڵواسراوە و خەڵکی دەگوازێتەوە بۆ سەر بەرزایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گوازەرەوەیەک کە ھەڵواسراوە و خەڵکی دەگوازێتەوە بۆ سەر بەرزایی"),
                           Row(
                             children: [
                               const Expanded(

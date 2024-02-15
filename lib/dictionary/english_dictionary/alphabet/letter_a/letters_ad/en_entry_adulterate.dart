@@ -110,8 +110,11 @@ class EnglishEntryadulterate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێکەڵ‌دار، تێکەڵ، تراو، تراوێنراو
-
-١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

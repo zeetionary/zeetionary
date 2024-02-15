@@ -143,8 +143,10 @@ class EnglishEntryboxnumber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژمارەی سنووقی پۆستی
-
-١. (ناو) ژمارەیەک کە بەکاریدێنیت بۆ ئەوەی خەڵکی پەیوەندیت پێوە بکات لە جیاتی ئەوەی ناونیشان بدەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژمارەیەک کە بەکاریدێنیت بۆ ئەوەی خەڵکی پەیوەندیت پێوە بکات لە جیاتی ئەوەی ناونیشان بدەیت"),
                           Row(
                             children: [
                               const Expanded(

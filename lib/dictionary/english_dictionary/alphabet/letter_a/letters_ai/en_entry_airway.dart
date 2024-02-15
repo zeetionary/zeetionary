@@ -111,8 +111,9 @@ class EnglishEntryairway extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێگای گەیشتنی ھەوا بۆ سی‌یەکان، ھەواڕێ؛ لوولەی ھەوا لە کاتی تەنگەتاوی سی‌یەکان‌دا، (کان) ھەواکێش، ئاسمانەڕێ، ڕێ یان ھێڵی ئاسمانی، ھەواڕێ
-
-١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان" ""),
                           Row(
                             children: [
                               const Expanded(

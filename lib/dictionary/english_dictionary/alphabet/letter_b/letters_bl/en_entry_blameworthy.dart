@@ -145,8 +145,10 @@ class EnglishEntryblameworthy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاوی سەرکۆنە، گوناھبار، خەتابار
-
-١. (ھاوەڵناو) شایەنی سەرکۆنە و کۆمە بەھۆی کردنی شتێکی خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شایەنی سەرکۆنە و کۆمە بەھۆی کردنی شتێکی خراپ"),
                           Row(
                             children: [
                               const Expanded(

@@ -110,8 +110,9 @@ class EnglishEntryadvocate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لایەنگر، لاگیر، داژدار، پشتیوان، دەستە، داکۆکی‌کار، پارێزەر، ئاووکات، بەرەڤانی‌کار
-
-١. (ناو) لایەنگر و داکۆکیکاری شتێک """),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) لایەنگر و داکۆکیکاری شتێک " ""),
                           Row(
                             children: [
                               const Expanded(

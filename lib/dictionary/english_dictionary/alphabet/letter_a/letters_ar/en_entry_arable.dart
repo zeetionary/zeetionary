@@ -158,8 +158,10 @@ class EnglishEntryarable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەپیت، کێڵڕاو، شیاوی چاندن یان کێڵان، کێڵگە، زەوی گونجاو بۆ کێڵان، زەوی جووتیاری
-
-١. (ھاوەڵناو) زەوییەک کە بەپیتە بۆ کشتوکاڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زەوییەک کە بەپیتە بۆ کشتوکاڵ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

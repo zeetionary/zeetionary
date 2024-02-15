@@ -145,8 +145,11 @@ class EnglishEntrybaritone extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: بن‌گڕ، ژێربۆڕ یان ژێرگڕ، بەریتۆن
-
-١. (ناو) کەسێک کە تۆنی دەنگی نزمە، بەڵام زۆر نزم نا"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە تۆنی دەنگی نزمە، بەڵام زۆر نزم نا"
+                                  ""),
                           // Row(
                           //   children: [
                           //     const ExampleSentenceEnglish(

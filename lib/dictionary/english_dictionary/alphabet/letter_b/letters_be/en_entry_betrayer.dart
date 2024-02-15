@@ -147,8 +147,9 @@ class EnglishEntrybetrayer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناپاک، خایین، خەیانەت‌کار
-
-١. (ناو) کەسێکی خیانەتکار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێکی خیانەتکار"),
                           Row(
                             children: [
                               const Expanded(

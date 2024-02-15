@@ -94,8 +94,9 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
-
-١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ" ""),
                           Row(
                             children: [
                               const Expanded(

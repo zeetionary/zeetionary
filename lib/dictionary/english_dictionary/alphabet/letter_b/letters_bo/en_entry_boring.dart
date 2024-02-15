@@ -144,8 +144,10 @@ class EnglishEntryboring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەکەت‌کەر، وەڕەس‌کەر، عاجزکەر، ماندووکەر، ناخۆش، قۆڕ، ھیچ
-
-١. (ھاوەڵناو) شتێک کە بێزارکەرە و شەکەت و پشووت ناھیڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە بێزارکەرە و شەکەت و پشووت ناھیڵێت"),
                           Row(
                             children: [
                               const Expanded(

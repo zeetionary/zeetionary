@@ -130,8 +130,10 @@ class EnglishEntryablaze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گڕگرتوو، داگیرساو، ئاورگرتوو، ئاورتێبەربوو، کڵپەکردوو، ھەڵبوو، سوورەوەبوو، تووڕە، بریقەدار، ڕۆشن، ڕووناک، بەشەوق
-
-١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی" ""),
                           Row(
                             children: [
                               const Expanded(

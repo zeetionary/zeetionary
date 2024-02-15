@@ -153,8 +153,10 @@ class EnglishEntrybarbarous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڕندە، دڕ، کێوی، ھۆڤ، دڕندانە، بێ‌بەزەیی، دڵڕەق، زۆردار، زاڵم، توندوتیژ، بەزەبروزەنگ، بێگانە، بیانی، ناشارستانی، بێ‌فەرھەنگ، بێ‌ڕەوشت، بێ‌تۆرە، ناڕۆشنبیر، بەدەنگ‌وھەرا، پڕ لە زەنازەنا، سەر زمان‌نەکەوتوو
-
-١. (ھاوەڵناو) پڕ لە دڕندەیی کە تووشی شۆکت بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پڕ لە دڕندەیی کە تووشی شۆکت بکات"),
                           Row(
                             children: [
                               const Expanded(

@@ -152,8 +152,9 @@ class EnglishEntrybaffle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەپۆل‌بەست، شەپۆل‌بەند، پەردە، پێلگر، بەربەست، نەھێڵەشەپۆل، دەزگا یان کەرستەیێ بۆ دابین‌کردنی ڕژانی شلە، گاز یان ماک و مەتریاڵی شل یان بۆ بەرگرتن لە بڵاوبوونەوەی دەنگ و ڕووناکی لە ئاست یان لا و ڕێڕەوێکی تایبەتی‌دا
-
-١. (کردار) شتێک کە ئاڵۆزە بۆ تێگەشتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) شتێک کە ئاڵۆزە بۆ تێگەشتن"),
                           Row(
                             children: [
                               const Expanded(

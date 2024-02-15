@@ -161,8 +161,9 @@ class EnglishEntryastonish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرسام کردن، حەپەساندن، گێژ کردن
-
-١. (کردار) سەرسامکردنی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) سەرسامکردنی زۆر" ""),
                           Row(
                             children: [
                               const Expanded(

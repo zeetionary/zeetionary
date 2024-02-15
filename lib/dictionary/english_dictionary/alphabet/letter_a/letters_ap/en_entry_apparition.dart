@@ -158,8 +158,9 @@ class EnglishEntryapparition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەرکەوتن، پەیدابوون، ھاتنەڕوو، سەرھەڵدان (سەیر یان چاوەڕوان‌نەکراو)، خێو، تارمایی، ڕۆح، تاپۆ
-
-١. (ھاوەڵناو) تارمایی کەسێکی مردوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تارمایی کەسێکی مردوو" ""),
                           Row(
                             children: [
                               const Expanded(

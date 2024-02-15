@@ -190,8 +190,9 @@ class EnglishEntrycalmness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سرەوت، ھێمنی، ئارامی، سەیوەت، ئۆخژن، ھێوری، خامۆشی
-
-١. (ناو) ئارامی و ھێمنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ئارامی و ھێمنی"),
                           Row(
                             children: [
                               const Expanded(

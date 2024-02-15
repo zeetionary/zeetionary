@@ -147,8 +147,9 @@ class EnglishEntrybistro extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چایی‌خانە، خواردنگەی بچوک، کافە
-
-١. (ناو) چێشتخانەیەکی بچووک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) چێشتخانەیەکی بچووک"),
                           Row(
                             children: [
                               const Expanded(

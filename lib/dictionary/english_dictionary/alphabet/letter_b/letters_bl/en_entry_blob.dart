@@ -146,8 +146,10 @@ class EnglishEntryblob extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تکە، دڵۆپ، تنۆک، تۆپەڵ، پەڵە، لکە
-
-١. (ناو) ڕێژەیەکی کەم لە شتێک، بەتایبەتی شلە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێژەیەکی کەم لە شتێک، بەتایبەتی شلە"),
                           Row(
                             children: [
                               const Expanded(

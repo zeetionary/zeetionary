@@ -143,8 +143,10 @@ class EnglishEntryboxer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆکسێر، مشت‌باز، شەڕەمشت‌کار، مستەوان
-
-١. (ناو) کەسێک کە شەڕەمشت دەکات، بە تایبەتی وەک پیشەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە شەڕەمشت دەکات، بە تایبەتی وەک پیشەیەک"),
                           Row(
                             children: [
                               const Expanded(

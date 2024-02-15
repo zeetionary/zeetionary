@@ -93,8 +93,9 @@ class EnglishEntryabysmal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەکجار خراپ، شپرزە، ترسناک، ھیچ، بازاڕی، ئایەخ، ستانداردنزم
-
-١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت" ""),
                           Row(
                             children: [
                               const Expanded(

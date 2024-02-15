@@ -149,8 +149,10 @@ class EnglishEntrybra extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەمک‌بەند، سوخمە، سینەبەند، شاماکی
-
-١. (ناو) پارچە جلێکی ژێرەوە ژنان کە لەبەر دەکرێت بۆ داپۆشین و بەرزکردنەوەی مەمک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە جلێکی ژێرەوە ژنان کە لەبەر دەکرێت بۆ داپۆشین و بەرزکردنەوەی مەمک"),
                           Row(
                             children: [
                               const Expanded(

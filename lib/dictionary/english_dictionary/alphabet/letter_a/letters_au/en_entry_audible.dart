@@ -161,8 +161,11 @@ class EnglishEntryaudible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاوی بیستن، ڕوون، ڕەوان
-
-١. (ھاوەڵناو) دەنگێک کە ھێندە بەرزە ببیسترێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دەنگێک کە ھێندە بەرزە ببیسترێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

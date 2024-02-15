@@ -145,8 +145,10 @@ class EnglishEntrybookingoffice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بلیت‌فرۆشی، تیکێت‌فرۆشی
-
-١. (ناو) شوێنێک کە دەتوانی بلیت بکڕیت لە وێستگەیەکی پاس یان شەمەندەفەر، یان لە سینەمایەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شوێنێک کە دەتوانی بلیت بکڕیت لە وێستگەیەکی پاس یان شەمەندەفەر، یان لە سینەمایەک"),
                           Row(
                             children: [
                               const Expanded(

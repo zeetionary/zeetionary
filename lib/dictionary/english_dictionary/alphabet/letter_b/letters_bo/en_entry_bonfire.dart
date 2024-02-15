@@ -145,8 +145,10 @@ class EnglishEntrybonfire extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاگرەخۆشە، ئاھەنگی ئاور، ئاگرەسوورە، پەڵۆختە، ئاورێن، دەمەرقاچان (لە بنەڕەتا ئاماژە بە ئاورێ بۆ سووتاندنی ئێسک یان کافران)
-
-١. (ناو) ئاگرێکی گەورە لە دەرەوە بۆ سووتاندنی پاشماوە یان ئاھەنگ گێڕان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئاگرێکی گەورە لە دەرەوە بۆ سووتاندنی پاشماوە یان ئاھەنگ گێڕان"),
                           Row(
                             children: [
                               const Expanded(

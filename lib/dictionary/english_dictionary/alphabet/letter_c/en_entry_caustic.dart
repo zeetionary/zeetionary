@@ -193,8 +193,10 @@ class EnglishEntrycaustic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سووتێنەر، توێنەر، تاڵ، ناخۆش، ڕەق، توند، توندوتیژ 
-
-١. (ھاوەڵناو) مادەیەکی کیمیایی کە توانای تواندنەوەی مادەکانی دیکەی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) مادەیەکی کیمیایی کە توانای تواندنەوەی مادەکانی دیکەی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

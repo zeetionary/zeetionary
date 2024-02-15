@@ -161,8 +161,11 @@ class EnglishEntryatoll extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوڕگەی شیلانی، شیلانەدوڕگە، شیلانی بازنەیی
-
-١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

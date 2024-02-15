@@ -108,8 +108,10 @@ class EnglishEntryaeronautics extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: فڕینەوانی، زانستی فڕین، زانستی ئاسمان‌گەڕی
-
-١. (ناو) زانستی درووستکردن و فڕاندنی فڕۆکە"""),
+"""),
+                          DefinitionKurdish(
+                              text: "١. (ناو) زانستی درووستکردن و فڕاندنی فڕۆکە"
+                                  ""),
                         ],
                       ),
                     ),

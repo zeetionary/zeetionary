@@ -137,8 +137,11 @@ class EnglishEntryallowance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بڕانە، مووچە، جیرە، ڕۆژانە، مانگانە، خەرج، بەش، پشک، ڕێدان، ڕێ‌پێدان، ڕێگەپێدان، بواردان، ھێڵان، ھێشتن، خەرجی، پووڵ یان پارەی گیرفانی، لێ‌دەرکردن، لێ‌داشکاندن، بڕانە
-
-١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycautiously extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وشیارانە، بە وریاییەوە
-
-١. (ھاوەڵکار) بە وریاییەوە، بەتایبەتی بۆ دووربوون لە ھەڵە و مەترسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) بە وریاییەوە، بەتایبەتی بۆ دووربوون لە ھەڵە و مەترسی"),
                           Row(
                             children: [
                               const Expanded(

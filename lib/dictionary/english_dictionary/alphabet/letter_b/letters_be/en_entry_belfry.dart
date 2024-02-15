@@ -147,8 +147,9 @@ class EnglishEntrybelfry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قوللە یان برجی زەنگ، کەلوو یان تاوێری زەنگ، زەنگ‌خانە
-
-١. (ھاوەڵناو) قوللەیەک کە زەنگی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) قوللەیەک کە زەنگی تێدایە"),
                           Row(
                             children: [
                               const Expanded(

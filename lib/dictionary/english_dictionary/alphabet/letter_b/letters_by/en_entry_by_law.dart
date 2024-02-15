@@ -190,8 +190,10 @@ class EnglishEntrybylaw extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەستوور، فەرمان، فەروار، بڕیار، چارەنووس، خوانووس
-
-١. (ناو) یاسایەک کە لە لایەن حکومەتێکی خۆجێییەوە دەردەکرێت و تەنھا بەسەر ناوچەیەکدا دەچەسپێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) یاسایەک کە لە لایەن حکومەتێکی خۆجێییەوە دەردەکرێت و تەنھا بەسەر ناوچەیەکدا دەچەسپێت"),
                           Row(
                             children: [
                               const Expanded(

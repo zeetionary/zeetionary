@@ -145,8 +145,10 @@ class EnglishEntrybloc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بلاک، بلوک، یەکێتی، بەرە، ئەنی
-
-١. (ناو) لۆمەڵە وڵاتێک کە پێکەوە کار دەکەن چونکە بەرژەوەندی سیاسی ھاوبەشیان ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لۆمەڵە وڵاتێک کە پێکەوە کار دەکەن چونکە بەرژەوەندی سیاسی ھاوبەشیان ھەیە"),
                           Row(
                             children: [
                               const Expanded(

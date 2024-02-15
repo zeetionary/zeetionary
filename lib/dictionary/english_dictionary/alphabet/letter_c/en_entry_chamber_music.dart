@@ -194,8 +194,10 @@ class EnglishEntrychambermusic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: میوزیکی دیوەخانی، کۆڕی یان مەجلیسی
-
-١. (ناو) میوزیکی کلاسیکی کە بۆ ژمارەیەکی کەم ئامێر نووسراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) میوزیکی کلاسیکی کە بۆ ژمارەیەکی کەم ئامێر نووسراوە"),
                           Row(
                             children: [
                               const Expanded(

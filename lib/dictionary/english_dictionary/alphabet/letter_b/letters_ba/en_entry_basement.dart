@@ -147,8 +147,9 @@ class EnglishEntrybasement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژێرخان، ژێرزەوی، ژێرزەمین، ناویس، وارنشین، 
-
-١. (ناو) ژێرزەمینی بینایەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ژێرزەمینی بینایەک"),
                           Row(
                             children: [
                               const Expanded(

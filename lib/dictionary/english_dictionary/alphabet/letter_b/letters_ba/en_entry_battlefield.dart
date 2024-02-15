@@ -148,8 +148,10 @@ class EnglishEntrybattlefield extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕگە، گۆڕەپان یا مەیدانی شەڕ یا جەنگ، قاداشەڕ، ڕەزمگا، ھێڵ
-
-١. (ناو) شوێنی ڕوودانی شەڕی نێوان دوو سوپا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شوێنی ڕوودانی شەڕی نێوان دوو سوپا"),
                           Row(
                             children: [
                               const Expanded(
@@ -180,9 +182,9 @@ class EnglishEntrybattlefield extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-
-                          const DefinitionKurdish(text: """
-٢. (ناو) دۆخێک یان بابەتێک کە تێیدا خەڵکی دژ بە یەکن"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) دۆخێک یان بابەتێک کە تێیدا خەڵکی دژ بە یەکن"),
                           Row(
                             children: [
                               const Expanded(

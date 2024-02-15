@@ -113,8 +113,11 @@ class EnglishEntryamalgamation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێک‌خستن، تێک‌ھەڵکێشان، تێکەڵ‌کردن، تێک‌وەردان، یەکخستن، لێک‌دان، داڕشتن، ئەمەلگاندن
-
-١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

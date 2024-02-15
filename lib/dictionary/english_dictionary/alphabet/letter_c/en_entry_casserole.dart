@@ -193,8 +193,10 @@ class EnglishEntrycasserole extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (کاسە) پیرێکس، دیزە، تیلکە، قابلمەمە، کەسێرۆل
-
-١. (ناو) ژەمە خواردنێکی گەرم کە لە گۆشت و سەوزە، ھتد و بە ھێواشی لە شلەدا لە فڕنێک لێ دەنرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژەمە خواردنێکی گەرم کە لە گۆشت و سەوزە، ھتد و بە ھێواشی لە شلەدا لە فڕنێک لێ دەنرێت"),
                           Row(
                             children: [
                               const Expanded(

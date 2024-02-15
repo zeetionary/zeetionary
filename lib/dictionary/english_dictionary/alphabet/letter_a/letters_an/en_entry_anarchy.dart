@@ -153,8 +153,11 @@ class EnglishEntryanarchy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌حکومەتی، بێ‌قانوونی، ئاڵۆزی، پاشاگەردانی، پشێوی، ناڕێکی، ئاژاوە، گەڕەلاوژە، حکومەت‌نەویستی
-
-١. (ناو) پاشاگەردانی؛ بارودۆخێک کە تێیدا کەس‌بە‌کەس نییە و حکومەت بوونی نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پاشاگەردانی؛ بارودۆخێک کە تێیدا کەس‌بە‌کەس نییە و حکومەت بوونی نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

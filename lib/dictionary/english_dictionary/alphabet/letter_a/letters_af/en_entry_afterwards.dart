@@ -109,8 +109,9 @@ class EnglishEntryafterwards extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاشان، دوایی، ئەمجار، دوا، لە پاشا، دوای ئەوە
-
-١. (ھاوەڵکار) لە کاتێکی دواتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) لە کاتێکی دواتر" ""),
                           Row(
                             children: [
                               const Expanded(

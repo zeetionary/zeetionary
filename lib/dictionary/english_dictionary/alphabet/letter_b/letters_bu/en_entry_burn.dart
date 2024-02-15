@@ -350,8 +350,9 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سووتان، چزان، برژانەوە، سووتانەوە، کووزیان، سفت‌وسۆ، سفت‌وسوێ، کزانەوە، چووزانەوە، تۆزانەوە
-
-١. (کردار) درووستکردنی بڵێسە و گەرمی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) درووستکردنی بڵێسە و گەرمی"),
                           Row(
                             children: [
                               const Expanded(

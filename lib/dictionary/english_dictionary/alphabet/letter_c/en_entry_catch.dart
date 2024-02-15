@@ -531,8 +531,10 @@ class EnglishEntrycatch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گرتن، گیرخستن، چنگ‌پێوەگرتن، دەس‌لێ‌گیرکردن، گیرکردن، قولاپ، گیرگە، گیرە، چەفت، قوفڵ، ڕاو، بەرەڕاو، کێشە، گرفتاری، گیر، گێرەوکێشە، درووشم، وشەی بەرچاو، مەتەڵ
-
-١. (کردار) وەستان و گرتنی شتێک یان کەسێک بە دەستت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) وەستان و گرتنی شتێک یان کەسێک بە دەستت"),
                           Row(
                             children: [
                               const Expanded(

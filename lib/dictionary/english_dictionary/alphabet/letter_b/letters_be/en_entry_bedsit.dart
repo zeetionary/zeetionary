@@ -147,8 +147,10 @@ class EnglishEntrybedsit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژووری بەکرێ‌گیراو، دیوی بەکرێ
-
-١. (ناو) ژوورێک کەسێک بە کرێ دەیگرێت وەک شوێنی مانەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژوورێک کەسێک بە کرێ دەیگرێت وەک شوێنی مانەوە"),
                           Row(
                             children: [
                               const Expanded(

@@ -158,8 +158,11 @@ class EnglishEntryappalling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ترسێنەر، ترسناک، دڵتەزێن، جەرگبڕ، جێی‌داخ، زۆر شپرزە، یەکجار خراپ
-
-١. (ھاوەڵناو) ئێجگار خراپ، بەتایبەتی لەلایەنی ئەخلاقییەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ئێجگار خراپ، بەتایبەتی لەلایەنی ئەخلاقییەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -161,8 +161,11 @@ class EnglishEntryassassination extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تیرۆر، کوشتن، پیاوکوژی، ڕەشەکوژی 
-
-١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -146,8 +146,9 @@ class EnglishEntryboredom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماندوویی، شەکەتی، بێ‌تاقەتی، وەڕەسی
-
-١. (ناو) ھەستی بێزاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھەستی بێزاری"),
                           Row(
                             children: [
                               const Expanded(

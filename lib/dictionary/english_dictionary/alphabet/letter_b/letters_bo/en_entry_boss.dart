@@ -147,8 +147,10 @@ class EnglishEntryboss extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرۆک، گەورە، سەرکار، سەرکرێکار، بەڕێوەبەر، ساحەب‌کار، سەرپەرشت، (لە بانگ‌کردن‌دا) بەڕێز، جەناب
-
-١. (ناو) کەسێک کە بەرپرسی کەسانی دیکەیە لەسەر کار و پێیان دەڵێت چی بکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە بەرپرسی کەسانی دیکەیە لەسەر کار و پێیان دەڵێت چی بکەن"),
                           Row(
                             children: [
                               const Expanded(

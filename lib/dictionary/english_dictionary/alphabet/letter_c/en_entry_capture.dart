@@ -204,8 +204,10 @@ class EnglishEntrycapture extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دیلی، گیراوی، یەخسیری، گرتن، دەس‌بەسەری، گل‌دانەوە، بنچاڤ‌کردن، داگیرکردن، گرتن، نێچیر، دەسکەوت، (فیزیک) مژین، گرتن، ھەڵچنین
-
-١. (کردار) گرتنی کەسێک یان ئاژەڵێک وەک دیل"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) گرتنی کەسێک یان ئاژەڵێک وەک دیل"),
                           Row(
                             children: [
                               const Expanded(

@@ -196,8 +196,10 @@ class EnglishEntrycarve extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵکۆڵین، تاشین، کۆڵین
-
-١. (کردار) درووستکردنی ئامراز و کەرەستە بە داتاشین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) درووستکردنی ئامراز و کەرەستە بە داتاشین"),
                           Row(
                             children: [
                               const Expanded(

@@ -131,8 +131,9 @@ class EnglishEntryalignment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێڵ، ڕیز، ڕێکە، ڕێکخستن، میزان‌کردن، تەرازاندن، ڕیزاندن، ڕیزبەندی، ڕیزکردن
-
-١. (ناو) ڕێک لەسەر ھێڵێکی ڕاست"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕێک لەسەر ھێڵێکی ڕاست" ""),
                           Row(
                             children: [
                               const Expanded(

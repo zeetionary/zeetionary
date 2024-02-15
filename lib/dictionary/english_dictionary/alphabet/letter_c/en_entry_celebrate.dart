@@ -197,8 +197,10 @@ class EnglishEntrycelebrate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جەژن‌گێڕان، ڕێزلێنان، پیرۆزبایی کردن
-
-١. (کردار) ئەنجامدانی شتی تایبەت بۆ پیشاندانی ئەوەی ڕۆژێک یان بۆنەیەک گرنگە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ئەنجامدانی شتی تایبەت بۆ پیشاندانی ئەوەی ڕۆژێک یان بۆنەیەک گرنگە"),
                           Row(
                             children: [
                               const Expanded(

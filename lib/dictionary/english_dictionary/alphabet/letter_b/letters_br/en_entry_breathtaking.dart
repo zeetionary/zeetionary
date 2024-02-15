@@ -142,8 +142,9 @@ class EnglishEntrybreathtaking extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرسووڕھێنەر، ورووژێنەر، سەرسام‌کەر، ھەژێنەر، سەیر، بێ‌ھاوتا
-
-١. (ھاوەڵناو) زۆر سەرنجڕاکێش و ناوازە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر سەرنجڕاکێش و ناوازە"),
                           Row(
                             children: [
                               const Expanded(

@@ -109,8 +109,11 @@ class EnglishEntryactivate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاکێنردن، گورج‌کردن
-
-١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

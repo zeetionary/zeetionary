@@ -195,8 +195,10 @@ class EnglishEntrycarrier extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵگر، کۆڵکێش، کۆمپانی گوێزانەوە، ناوکۆیی ڕاگوێستن، ڕاگوێزەر (نەخۆشی)، نامەبەر، ـھەڵگر، ـبەر، کەشتی فڕۆکەھەڵگر، (دووچەرخە) پاشتەرک، (ماشێن) باربەست، باربەند، کەل‌وپەل‌ھەڵگر
-
-١. (ناو) کۆمپانیای گواستنەوە، بەتایبەتی بە فڕۆکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆمپانیای گواستنەوە، بەتایبەتی بە فڕۆکە"),
                           Row(
                             children: [
                               const Expanded(

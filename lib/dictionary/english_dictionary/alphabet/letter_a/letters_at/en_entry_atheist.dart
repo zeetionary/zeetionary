@@ -161,8 +161,11 @@ class EnglishEntryatheist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌دین، دیندڕ، لادین، ناخوداباوەڕ، بێ‌خودا، زەندیق، ماڕس
-
-١. (ناو) کەسێک کە باوەڕی بە بوونی خودا نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە باوەڕی بە بوونی خودا نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -195,8 +195,10 @@ class EnglishEntrychampion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قارەمان، پاڵەوان، براوە، بەزێنەر، بردووەوە، پشتیوان، لایەنگر، پارێزەر، داکۆکی‌کار، داژدار 
-
-١. (ناو) کەسێک یان تیمێک کە پێشبڕکێیەکی بردووەتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک یان تیمێک کە پێشبڕکێیەکی بردووەتەوە"),
                           Row(
                             children: [
                               const Expanded(

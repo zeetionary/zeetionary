@@ -144,8 +144,9 @@ class EnglishEntrybulldoze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: عەرز ھەڵکەندن، زەوی ھەڵکەندن
-
-١. (کردار) ڕووخاندن بە خاکماڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ڕووخاندن بە خاکماڵ"),
                           Row(
                             children: [
                               const Expanded(

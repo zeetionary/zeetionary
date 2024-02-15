@@ -146,8 +146,9 @@ class EnglishEntrybleat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باڕە، کاڕە، باقە، ما، باقەباق، باڕەباڕ، بالەبال، بۆڵە
-
-١. (ناو) دەنگی مەڕ یان بزن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دەنگی مەڕ یان بزن"),
                           Row(
                             children: [
                               const Expanded(

@@ -147,8 +147,10 @@ class EnglishEntryblessed extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیرۆز، پاکژ، ھەزەخ، ئاسمانی، مەبارەک، بەختەوەر، بەھرەوەر، بەختیار، بەزیادنەبوو 
-
-١. (ھاوەڵناو) شتێک کە بە پیرۆز سەیر دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە بە پیرۆز سەیر دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

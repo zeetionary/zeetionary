@@ -144,8 +144,10 @@ class EnglishEntrybrag extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: حەیت‌وحووت، ھاڕەوگیفە، لاف‌وگاف، لافاندن، فڕوفیشاڵ(کردن)، فیز، خۆھەڵکێش، لەخۆفشین
-
-١. (کردار) قسەکردن بە شانازییەوە لەسەر شتێک کە ھەتە یان کردووتە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) قسەکردن بە شانازییەوە لەسەر شتێک کە ھەتە یان کردووتە"),
                           Row(
                             children: [
                               const Expanded(

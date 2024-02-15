@@ -146,8 +146,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پرۆگرام، بەرنامە، بڵاوکردنەوە، وەشان، بەرنامەی تەلەفزیۆنی یان ڕادیۆیی
-
-١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"),
                           Row(
                             children: [
                               const Expanded(

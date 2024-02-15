@@ -147,8 +147,10 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خاڵی کوڵان، ھەڵچوون، تووڕەیی توندوتیژانە، خاڵی تەقینەوە
-
-١. (ناو) ئەو پلەی گەرمییەی کە تێیدا شلە دەکوڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو پلەی گەرمییەی کە تێیدا شلە دەکوڵێت"),
                           Row(
                             children: [
                               const Expanded(

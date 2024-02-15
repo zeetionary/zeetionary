@@ -154,8 +154,10 @@ class EnglishEntrybackgammon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یاری تەختەنەرد، نەردێن، تاوڵە
-
-١. (ناو) یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە سێگۆشەی باریک و درێژی لەسەرە. یاریزانەکان زارێک فڕێدەدەن و پارچەکانیان دەجوڵێنن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە سێگۆشەی باریک و درێژی لەسەرە. یاریزانەکان زارێک فڕێدەدەن و پارچەکانیان دەجوڵێنن"),
                           Row(
                             children: [
                               const Expanded(

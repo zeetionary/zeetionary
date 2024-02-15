@@ -111,8 +111,10 @@ class EnglishEntryadverse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خراپ، ناخۆش، نالەبار، شپرزە، زیاناوی، دژ، دژبەر، نەیار، ڕکەبەر
-
-١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

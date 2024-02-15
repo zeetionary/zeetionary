@@ -146,8 +146,9 @@ class EnglishEntrybouncing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ساغ، بەکەیف، بەکار، لەشەوق، پڕجم‌وجۆڵ، چالاک، لەش‌ساخ، تەندروست
-
-١. (ھاوەڵناو) تەندرووست و پڕ لە وزە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تەندرووست و پڕ لە وزە"),
                           Row(
                             children: [
                               const Expanded(

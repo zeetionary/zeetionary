@@ -159,8 +159,11 @@ class EnglishEntryarbitration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دادوەری، داوەری، نێوگژیوانی، ناوبژیوانی، بەریڤانی
-
-١. (ناو) پڕۆسەی دادوەری‌کردن لە ناکۆکی نێوان دوو لایەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پڕۆسەی دادوەری‌کردن لە ناکۆکی نێوان دوو لایەن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

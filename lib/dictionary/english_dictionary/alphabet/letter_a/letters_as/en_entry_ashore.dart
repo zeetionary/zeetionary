@@ -160,8 +160,9 @@ class EnglishEntryashore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە کەنار، لە گوێئاو، لە دەمئاو، بەرەو کەنار، تا کەنار، تا بەستێن
-
-١. (ھاوەڵکار) لە ئاوەوە بۆ سەر وشکانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) لە ئاوەوە بۆ سەر وشکانی" ""),
                           Row(
                             children: [
                               const Expanded(

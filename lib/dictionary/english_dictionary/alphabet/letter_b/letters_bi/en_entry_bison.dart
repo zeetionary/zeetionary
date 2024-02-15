@@ -147,8 +147,10 @@ class EnglishEntrybison extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بایسێن، بیزۆن، جۆرێ گامێش، گای ئەمریکی 
-
-١. (ناو) ئاژەڵێکی گەورەیە کە جۆرێکی مانگایە و ئەورووپی و ئەمریکای باکووریی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئاژەڵێکی گەورەیە کە جۆرێکی مانگایە و ئەورووپی و ئەمریکای باکووریی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

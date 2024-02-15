@@ -149,8 +149,10 @@ class EnglishEntryblessing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نزا، دۆعا، درود، ڕێژەن، نێعمەت، خوداداوە، بەھرە، پیت، بەەرکەت، پەسندکردن، پشتگیری، پشتیوانی، دۆعای بەر لە نان خواردن
-
-١. (ناو) داواکردن لە خودا بۆ یارمەتی و پاراستن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) داواکردن لە خودا بۆ یارمەتی و پاراستن"),
                           Row(
                             children: [
                               const Expanded(

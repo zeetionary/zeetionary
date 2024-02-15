@@ -145,8 +145,8 @@ class EnglishEntrybum extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی:  سمت، پاشڵ، کنگ، ڕوونەک، کۆم، سواڵکەر، مفتەخۆر، ئاوارە، بێ‌ماڵ‌وحاڵ، تەرە، ھەڵوەدا، کەسێکی تەمەڵ و بێکارە، ئاوارەیی، ھەڵوەدایی، تەرەیی، بێ‌ماڵ‌وحاڵی، بێ‌قازانج، بەکارنەھاتوو، ئایەخ، خراپ، بێ‌کەڵک، سەرەندەرنەکردوو
-
-١. (ناو) سمت"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) سمت"),
                           Row(
                             children: [
                               const Expanded(

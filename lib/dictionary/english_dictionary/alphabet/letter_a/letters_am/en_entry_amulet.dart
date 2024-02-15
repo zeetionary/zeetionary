@@ -152,8 +152,11 @@ class EnglishEntryamulet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دۆعا، تەلەسم، دێوبەند، چاوەزار، نووشتە
-
-١. (ناو) خشڵێک کە کەسێک دەیبەستێت‌ لەخۆی چونکە باوەڕی وایە لە خراپە دەیپارێزێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خشڵێک کە کەسێک دەیبەستێت‌ لەخۆی چونکە باوەڕی وایە لە خراپە دەیپارێزێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

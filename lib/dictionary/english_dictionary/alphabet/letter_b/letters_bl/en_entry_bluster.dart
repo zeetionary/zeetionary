@@ -147,8 +147,10 @@ class EnglishEntrybluster extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گژە، گڤە، گژەگژ (دەنگی بای توند)، بای توند یان سەخت، شات‌وشووت، ھاڕەوگیفە، خۆھەڵکێشان، فڕوفیشاڵ، ھەڕەشە، گڤەلێ‌کردن، ھەڕەشە و گوڕەشە
-
-١. (کردار) قسەکردن بە توندی و ھەڕەشەوە بەڵام بەبێ لێکەوتە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) قسەکردن بە توندی و ھەڕەشەوە بەڵام بەبێ لێکەوتە"),
                           Row(
                             children: [
                               const Expanded(

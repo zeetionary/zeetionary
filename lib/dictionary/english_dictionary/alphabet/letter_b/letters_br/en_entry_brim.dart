@@ -145,8 +145,10 @@ class EnglishEntrybrim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێو، لێواری کڵاو، شەپکە
-
-١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(

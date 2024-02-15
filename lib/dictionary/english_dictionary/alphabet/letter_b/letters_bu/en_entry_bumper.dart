@@ -191,8 +191,10 @@ class EnglishEntrybumper extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پارێزە، سپەر، (لە مۆتۆر سیکلێت‌دا) زەمبەلەک یان فەنەری زەربەگێڕەوە، زەربەگێڕەوە، پیاڵە یان لیوانی پڕ، زەلام، گەورە، زەبەلاح، قەبە، زۆر، زەبەند، فراوان
-
-١. (ناو) پارچەیەک کە لە ئۆتۆمبێل دەبەسترێت بۆ کەمکردنەوەی زیانی پێکدادان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچەیەک کە لە ئۆتۆمبێل دەبەسترێت بۆ کەمکردنەوەی زیانی پێکدادان"),
                           Row(
                             children: [
                               const Expanded(

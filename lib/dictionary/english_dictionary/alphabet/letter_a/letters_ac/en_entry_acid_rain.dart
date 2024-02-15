@@ -109,8 +109,11 @@ class EnglishEntryacidrain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بارانی ترشەڵۆکی، ترشەباران
-
-١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

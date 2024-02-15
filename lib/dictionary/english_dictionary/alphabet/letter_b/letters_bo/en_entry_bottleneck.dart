@@ -146,8 +146,10 @@ class EnglishEntrybottleneck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەنگە، تەسکەڕێ، باریکەڕێ، باریکان، ھۆکاری خاوکەرەوە، ڕێبەست، ڕێبەند، تەنگانە
-
-١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە ھاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە ھاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"),
                           Row(
                             children: [
                               const Expanded(

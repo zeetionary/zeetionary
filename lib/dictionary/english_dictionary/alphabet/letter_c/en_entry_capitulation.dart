@@ -190,8 +190,9 @@ class EnglishEntrycapitulation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (پەیمان‌نامە) بەدەستەوەدان، ڕادەست(کردن، بە مەرجەوە)، کورتە، تایبەت‌مافی بیانی، پەیمان‌نامە
-
-١. (ناو) پەسەندکردنی شکست"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) پەسەندکردنی شکست"),
                           Row(
                             children: [
                               const Expanded(

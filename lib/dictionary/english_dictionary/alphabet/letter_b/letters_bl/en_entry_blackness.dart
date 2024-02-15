@@ -147,8 +147,9 @@ class EnglishEntryblackness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەشی، ڕەشپێستی، تاریکی، تاریکایی
-
-١. (ناو) ڕەشی یان تاریکی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕەشی یان تاریکی"),
                           Row(
                             children: [
                               const Expanded(

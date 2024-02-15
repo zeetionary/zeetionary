@@ -112,8 +112,11 @@ class EnglishEntryalarmclock extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەعاتی زەنگی، کات‌ژمێری زەنگ‌دار
-
-١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

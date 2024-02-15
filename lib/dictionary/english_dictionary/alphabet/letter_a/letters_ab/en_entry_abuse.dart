@@ -150,8 +150,10 @@ class EnglishEntryabuse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەوت یان خراپ بەکارھێنان، خراپ جووڵانەوە، ھەڵس‌وکەوتی خراپ، بە توندوتیژی جووڵانەوە، جنێو، دەم‌چەوتی، ڕەف، سخێف، دەس‌درێژی (ڕەگەزی)، ئەشکەنجەی لەشی/جەستەیی
-
-١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

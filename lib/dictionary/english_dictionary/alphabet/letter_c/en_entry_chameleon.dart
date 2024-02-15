@@ -192,8 +192,10 @@ class EnglishEntrychameleon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (گیانەوەرناسی) زەردەقۆڕە، تێڕتێڕە، ڕۆژپەرست، خۆرپەرست، کەرپەسە
-
-١. (ناو) مارمێلکەیەکی بچووک کە ڕەنگی دەگۆڕێت بەپێی دەورووبەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مارمێلکەیەکی بچووک کە ڕەنگی دەگۆڕێت بەپێی دەورووبەری"),
                           Row(
                             children: [
                               const Expanded(

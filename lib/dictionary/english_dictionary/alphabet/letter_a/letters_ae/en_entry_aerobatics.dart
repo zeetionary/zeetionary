@@ -110,8 +110,11 @@ class EnglishEntryaerobatics extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاسمان‌بازی، ئێرۆباتیکس
-
-١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -146,8 +146,10 @@ class EnglishEntrybooth extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژوور، دیو، چاوە، بۆتکە، دەکە، ژوورۆچکە، دووکانۆچکە
-
-١. (ناو) شوێنێک کە دیوار بە دەوریدایە و دەتوانیت شتێکی تایبەت بکەیت، بۆ نموونە پەیوەندیی تەلەفۆنی یان دەنگدان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شوێنێک کە دیوار بە دەوریدایە و دەتوانیت شتێکی تایبەت بکەیت، بۆ نموونە پەیوەندیی تەلەفۆنی یان دەنگدان"),
                           Row(
                             children: [
                               const Expanded(

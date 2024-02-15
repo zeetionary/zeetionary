@@ -147,8 +147,10 @@ class EnglishEntrybirthrate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕادەی لەدایک‌بوون، ڕێژەی لەدایک‌بووان
-
-١. (ناو) پێناسەڕێژەی لەدایکبوون لە شوێنێکدا بۆ ھەر ١٠٠٠ کەس لە ساڵێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پێناسەڕێژەی لەدایکبوون لە شوێنێکدا بۆ ھەر ١٠٠٠ کەس لە ساڵێکدا"),
                           Row(
                             children: [
                               const Expanded(

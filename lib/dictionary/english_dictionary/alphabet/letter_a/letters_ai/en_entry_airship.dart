@@ -111,8 +111,11 @@ class EnglishEntryairship extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەشتی ئاسمانی یا ھەوایی، ھەواکەشتی
-
-١. (ناو) فڕۆکەیەکی گەورەی بێ باڵ کە پڕ لە گازی سووکتر لە ھەوایە و بەمەش دەفڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) فڕۆکەیەکی گەورەی بێ باڵ کە پڕ لە گازی سووکتر لە ھەوایە و بەمەش دەفڕێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

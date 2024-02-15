@@ -164,8 +164,9 @@ class EnglishEntryalive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زیندوو، لەژیان‌دا، نەمردوو، بەکەیف، بەگوڕ، بەدەماخ، بەجم‌وجوڵ، ھەڵسووڕ، چالاک، بزۆر، ئاگادار، بەخەبەر، ھەڵبوو، داگیرساو، کڵپەکردوو، پڕ (لە)
-
-١. (ھاوەڵناو) زیندوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زیندوو" ""),
                           Row(
                             children: [
                               const Expanded(

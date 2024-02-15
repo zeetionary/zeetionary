@@ -155,8 +155,11 @@ class EnglishEntryantibiotic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دژەزیندە، ئانتی‌بیوتیک، زیندەدژ، دژەبەکتریا (بەتایبەت پێنی‌سیلین)
-
-١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

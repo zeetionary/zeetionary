@@ -192,8 +192,10 @@ class EnglishEntrycastoroil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆنە کڕنگ، ڕۆنە گەرچەک، شیرە، گەنەگەرچەک
-
-١. (ناو) ڕۆنێکی زەرد کە لە ڕووەکێکی خولگەیی دەردەھێنرێت و لا ڕابردوودا وەک دەرمان بەکاردەھات، بەتایبەتی بۆ بەتاڵکردنی ڕیخۆڵە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕۆنێکی زەرد کە لە ڕووەکێکی خولگەیی دەردەھێنرێت و لا ڕابردوودا وەک دەرمان بەکاردەھات، بەتایبەتی بۆ بەتاڵکردنی ڕیخۆڵە"),
                           Row(
                             children: [
                               const Expanded(

@@ -113,8 +113,11 @@ class EnglishEntryambivalent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوودڵ، دڕدۆنگ، بەشک، ڕاڕا، وازی‌وازی، تاوتاو، دڵاودڵ، دژبەیەک، پێک‌ناکۆک، پێک‌دژ، یەک‌نەگرەوە، دوولا(یەنە)گەر
-
-١. (ھاوەڵناو) دوودڵ، ھەبوونی ھەستی ئەرێنی و ەرێنی لە یەک کاتدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دوودڵ، ھەبوونی ھەستی ئەرێنی و ەرێنی لە یەک کاتدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

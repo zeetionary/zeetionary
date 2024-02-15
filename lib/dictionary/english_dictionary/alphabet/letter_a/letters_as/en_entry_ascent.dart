@@ -161,8 +161,9 @@ class EnglishEntryascent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرکەوتن، ژووربوونەوە، سەرووبوونەوە، ھەڵکشان، چوونەسەرەوە، پیاھەڵچوون، پێشکەوتن، ڕێگای سەرەوژووری، سەرەوژووری، ھەوراز، تەلان
-
-١. (ناو) کرداری سەرکەوتن بە شوێنێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کرداری سەرکەوتن بە شوێنێکدا" ""),
                           Row(
                             children: [
                               const Expanded(

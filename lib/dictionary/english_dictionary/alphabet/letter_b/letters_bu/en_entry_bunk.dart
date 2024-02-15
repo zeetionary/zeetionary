@@ -190,8 +190,10 @@ class EnglishEntrybunk extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی:  تەختی دیواری، تەختی دوونھۆم، قسەی ھیچەکە، ھەڵیت‌وپڵیت، درۆ و دەلەسە، تێ‌قووچاندن، بۆی دەرچوون، تێ‌تەقاندن، پێ‌پێوەنان
-
-١. (ناو) جێگەی نووستن کە بە دیوارێکەوە لکاوە، بۆ نموونە لەسەر شەمەندەفەر، یان دوو نھۆمی بۆ منداڵان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جێگەی نووستن کە بە دیوارێکەوە لکاوە، بۆ نموونە لەسەر شەمەندەفەر، یان دوو نھۆمی بۆ منداڵان"),
                           Row(
                             children: [
                               const Expanded(

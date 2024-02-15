@@ -109,8 +109,11 @@ class EnglishEntryaggrieved extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەوسێنراو، زۆرلێ‌کراو، زوڵم‌لێ‌کراو، ماف‌خوراو، جەوردیتوو، ڕەنج‌کێشاو، ڕەنجێنراو، کوێرەوەری‌دیتوو، بەخەم، خەمین، ناڕەحەت، دەسەوئەژنۆ
-
-١. (ھاوەڵناو) ھەستکردن بەوەی بەخراپی مامەڵەت لەگەڵ کراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەستکردن بەوەی بەخراپی مامەڵەت لەگەڵ کراوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -109,8 +109,11 @@ class EnglishEntryadapt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سازکردن، گونجاندن
-
-١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

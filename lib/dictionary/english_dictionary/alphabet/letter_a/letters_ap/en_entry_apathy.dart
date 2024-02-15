@@ -159,8 +159,11 @@ class EnglishEntryapathy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەمتەرخەمی، بێ‌دەربەستی، بێ‌ھەستی، بێ‌تاقەتی، دڵ‌مردوویی، ساردوسڕی، خەمساری، ناھومێدی، دڵساردی، ناھۆگری، ناتامەزرۆیی، بێ‌ھیوایی
-
-١. (ناو) نەبوونی تامەزرۆیی یان حەز بپ شتێک، یان ھەموو شتێک بە گشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نەبوونی تامەزرۆیی یان حەز بپ شتێک، یان ھەموو شتێک بە گشتی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

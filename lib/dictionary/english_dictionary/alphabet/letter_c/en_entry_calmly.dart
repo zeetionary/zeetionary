@@ -190,8 +190,9 @@ class EnglishEntrycalmly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بە ھێوری، بە ئارامی
-
-١. (ھاوەڵکار) بە ئارامی و لەسەرخۆیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بە ئارامی و لەسەرخۆیی"),
                           Row(
                             children: [
                               const Expanded(

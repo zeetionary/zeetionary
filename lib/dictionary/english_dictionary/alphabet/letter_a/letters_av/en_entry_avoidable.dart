@@ -153,8 +153,10 @@ class EnglishEntryavoidable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەتوانرێ دووری لێ‌کرێ، دووری لێ‌دەکرێ، شیاوی خۆ(لێ)لادان، شیاوی پرینگانەوە، لەتەکینەوەھاتوو
-
-١. (ھاوەڵناو) کە دەتوانرێت ڕێگری لێ بکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کە دەتوانرێت ڕێگری لێ بکرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

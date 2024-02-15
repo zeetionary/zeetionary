@@ -190,8 +190,10 @@ class EnglishEntrybusily extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاکانە، گورج، گورجانە، بێ‌وچان، شێلگیرانە
-
-١. (ھاوەڵکار) بەسەربردنی کاتێکی زۆر بە شتێکەوە کە پێویستی بە تەواوی سەرنجتە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) بەسەربردنی کاتێکی زۆر بە شتێکەوە کە پێویستی بە تەواوی سەرنجتە"),
                           Row(
                             children: [
                               const Expanded(

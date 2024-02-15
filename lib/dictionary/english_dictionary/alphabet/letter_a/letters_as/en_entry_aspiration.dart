@@ -162,8 +162,9 @@ class EnglishEntryaspiration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ، ئاوات، ھێڤی، مەراق، ئارەزوو، ھەڵمژین، بین‌کێشان، ھەناسەدان 
-
-١. (ناو) خواست و ئارەزوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خواست و ئارەزوو" ""),
                           Row(
                             children: [
                               const Expanded(

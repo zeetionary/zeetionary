@@ -192,8 +192,10 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوانۆکسیدی کاربۆن، دی‌ئۆکسایدی کاربۆن، گازی کاربۆنیک CO2
-
-١. (ناو) گازێک کە لەلایەن مرۆڤ و ئاژەڵەکانەوە دەدرێتەوە یان کە درووست دەبێت کە کاربۆن دەسووتێنرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گازێک کە لەلایەن مرۆڤ و ئاژەڵەکانەوە دەدرێتەوە یان کە درووست دەبێت کە کاربۆن دەسووتێنرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +205,8 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                                         text:
                                             "Trees absorb carbon dioxide and produce oxygen."),
                                     ExampleSentenceKurdish(
-                                        text: "درەختەکان دوانۆکسیدی کاربۆن دەمژن و ئۆکسجین دەدەنەوە."),
+                                        text:
+                                            "درەختەکان دوانۆکسیدی کاربۆن دەمژن و ئۆکسجین دەدەنەوە."),
                                   ],
                                 ),
                               ),
@@ -211,10 +214,12 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarbondioxides1("en-GB"),
+                                    onPressed: () =>
+                                        speakcarbondioxides1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarbondioxides1("en-US"),
+                                    onPressed: () =>
+                                        speakcarbondioxides1("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,11 +237,11 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),

@@ -109,8 +109,10 @@ class EnglishEntryagony extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەشکەنجە، ئازار، ڕەنج، ئێش، مەینەتی، بەڵا، ژان، دەرد، سوێ، گیانەڵا، ئاویلکە، ھەوزینگ، حەول، ھەوڵ، تەقەلا
-
-١. (ناو) ئازاری زۆری جەستەیی یان دەروونی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ئازاری زۆری جەستەیی یان دەروونی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

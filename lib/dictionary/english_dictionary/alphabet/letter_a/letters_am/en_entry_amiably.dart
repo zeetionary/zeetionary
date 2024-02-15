@@ -176,8 +176,9 @@ class EnglishEntryamiably extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووخۆشانە، بە ڕوو خۆشی‌یەوە، دەم‌بەپێکەنینانە
-
-١. (ھاوەڵناو) بەشێوەیەکی ھاوڕێیانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بەشێوەیەکی ھاوڕێیانە" ""),
                           Row(
                             children: [
                               const Expanded(

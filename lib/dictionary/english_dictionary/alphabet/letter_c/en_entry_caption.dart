@@ -194,8 +194,10 @@ class EnglishEntrycaption extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نێونیشان، سەردێڕ، لێدوان، ڕوون‌کردنەوە، سەرباس، باس‌کردن (فیلم، وێنە یان سەر پەردە)، دەستوور یا بڕیاری گرتن 
-
-١. (ناو) نووسراوێک کە لە ژێر وێنەیەک، کارتۆنێک، ھتد کە ڕوونکردنەوە دەدەن بەدەستەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نووسراوێک کە لە ژێر وێنەیەک، کارتۆنێک، ھتد کە ڕوونکردنەوە دەدەن بەدەستەوە"),
                           Row(
                             children: [
                               const Expanded(

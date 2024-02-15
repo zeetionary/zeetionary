@@ -148,8 +148,9 @@ class EnglishEntrybeware extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەری بوون، دوور بوون، وشیار بوون، ئاگادار بوون
-
-١. (کردار) ئاگادارکردنەوە لە مەترسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ئاگادارکردنەوە لە مەترسی"),
                           Row(
                             children: [
                               const Expanded(

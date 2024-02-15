@@ -94,8 +94,11 @@ class EnglishEntryAbattoir extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەساب‌خانە، کوشتارگا، کوشتنگا، کوشتارخانە
-
-١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

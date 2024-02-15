@@ -158,8 +158,9 @@ class EnglishEntryapathetic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەمتەرخەم، نادەربەست، بێ‌دەربەست، دڵسارد، ساردوسڕ، دڵ‌مردوو، بێ‌تاقەت، خەمسار، ناھومێد، بێ‌ھیوا، بێ‌ھەست
-
-١. (ھاوەڵناو) نەبوونی حەز و تامەزرۆیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) نەبوونی حەز و تامەزرۆیی" ""),
                           Row(
                             children: [
                               const Expanded(

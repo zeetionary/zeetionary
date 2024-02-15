@@ -147,8 +147,10 @@ class EnglishEntrybellows extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەمە، مووشەدەمە، نەپاخ، کوورک (مووشەدەمەی مسگەران)
-
-١. (ناو) ئامێرێک کە بۆ پاڵنانی ھەوا بەکاردێت، بەتایبەتی بۆ خۆشکردنی ئاگر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئامێرێک کە بۆ پاڵنانی ھەوا بەکاردێت، بەتایبەتی بۆ خۆشکردنی ئاگر"),
                           Row(
                             children: [
                               const Expanded(

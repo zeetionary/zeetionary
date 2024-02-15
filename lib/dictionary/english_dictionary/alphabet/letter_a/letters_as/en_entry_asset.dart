@@ -161,8 +161,11 @@ class EnglishEntryasset extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سامان، دارایی، ماڵ، مایە، خوداپێداوی، خوداگەیاندە، نێعمەت، چاوگی ھێز، سەرچاوە یان ژێدەری ھێز، سەرچاوەی دەسەڵات
-
-١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک/شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

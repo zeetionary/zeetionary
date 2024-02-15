@@ -153,8 +153,11 @@ class EnglishEntryavoidance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووری، دووری‌لێ‌کردن، پرینگانەوە، تەکینەوە، گورێز، خۆدوورگرتن، خۆپاراستن، خۆپەرێزگرتن، توخن‌نەکەوتن، نزیک‌نەبوونەوە، خۆ(لێ)لادان، خۆلادان، دوورەپەرێزی، ھەڵوەشاندنەوە، پووچ‌کردنەوە
-
-١. (ناو) دوورکەوتنەوە یان خۆدزینەوە لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دوورکەوتنەوە یان خۆدزینەوە لە شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycarnal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جەستەیی، لەشی،	شەھوانی، ئاڵۆشی، زایەندی، ڕەگەزی، سێکشواڵ
-
-١. (ھاوەڵناو) پەیوەندیدار بە جەستە و سێکس"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە جەستە و سێکس"),
                           Row(
                             children: [
                               const Expanded(

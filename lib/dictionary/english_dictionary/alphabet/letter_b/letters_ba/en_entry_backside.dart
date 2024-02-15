@@ -153,8 +153,8 @@ class EnglishEntrybackside extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سمت، کنگ، ھێت، پاشوو، دواوە، پشتەوە
-
-١. (ناو) سمت"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) سمت"),
                           Row(
                             children: [
                               const Expanded(

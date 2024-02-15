@@ -122,8 +122,11 @@ class EnglishEntryacceptance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەرگرتن، قەبووڵ(کردن)، پەسندکردن، پەژراندن
-
-١. (ناو) کرداری پەسەندکردنی دیارییەک، میواندارییەک، یان پێشنیارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کرداری پەسەندکردنی دیارییەک، میواندارییەک، یان پێشنیارێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

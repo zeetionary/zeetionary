@@ -110,8 +110,11 @@ class EnglishEntryadjournment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دواخستن، پاش‌خستن، خستنەدواوە، ڕاگرتن، ڕاوێستاندن (بۆ ماوەیێ)، پشوو، وچان، ماوەی پشوو
-
-١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

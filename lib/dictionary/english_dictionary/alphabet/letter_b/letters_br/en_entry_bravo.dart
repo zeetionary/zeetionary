@@ -143,8 +143,10 @@ class EnglishEntrybravo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بژی، باریکەڵڵا، ماشەڵڵا، ئافەرین، زۆرباشە، زارخۆش، دەم‌خۆش
-
-١. (سەرسوڕمان) بەکاردێت بۆ دەربڕینی دەستخۆشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (سەرسوڕمان) بەکاردێت بۆ دەربڕینی دەستخۆشی"),
                           Row(
                             children: [
                               const Expanded(

@@ -103,8 +103,11 @@ class EnglishEntryabhor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕق‌لێ‌بوون، بێزکردنەوە،
-
-١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

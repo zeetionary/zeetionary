@@ -95,8 +95,9 @@ class EnglishEntryabbreviation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
-
-١. (ناو) شێوەی کورتکراوەی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شێوەی کورتکراوەی شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

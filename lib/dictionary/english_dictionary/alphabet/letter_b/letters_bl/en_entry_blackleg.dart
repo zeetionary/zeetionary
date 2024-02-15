@@ -145,8 +145,10 @@ class EnglishEntryblackleg extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مانبڕ، مانشکێن، درێژەبەکاردەر، ماندڕ، پاڕەشە (جۆرێ نەخۆشی ماڵات، لاقیان ڕەش دادەگەڕا، بەھۆی بەکتریایێکی خاکی)
-
-١. (ناو) کەسێک کە بەردەوامە لە کارکردن لە کاتێکدا ھاوکارەکانی مانیان گرتووە لە کارکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە بەردەوامە لە کارکردن لە کاتێکدا ھاوکارەکانی مانیان گرتووە لە کارکردن"),
                           Row(
                             children: [
                               const Expanded(

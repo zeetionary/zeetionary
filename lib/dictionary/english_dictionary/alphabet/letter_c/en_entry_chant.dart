@@ -195,8 +195,10 @@ class EnglishEntrychant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: درووشم،	هەوا، بەستە، بەند، ستران، گۆرانی، (لە دین‌دا یان بۆ کلێسە) سرود، مناجات
-
-١. (ناو) چەند وشەیەک کە کۆمەڵێک کەس دووبارە و دووبارە دەیڵێنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چەند وشەیەک کە کۆمەڵێک کەس دووبارە و دووبارە دەیڵێنەوە"),
                           Row(
                             children: [
                               const Expanded(

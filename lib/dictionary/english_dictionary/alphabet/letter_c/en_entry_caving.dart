@@ -192,8 +192,9 @@ class EnglishEntrycaving extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەشکەوتەوانی، ئەشکەوت‌گەڕی
-
-١. (ناو) وەرزشی گەڕان بە ئەشکەوتدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) وەرزشی گەڕان بە ئەشکەوتدا"),
                           Row(
                             children: [
                               const Expanded(

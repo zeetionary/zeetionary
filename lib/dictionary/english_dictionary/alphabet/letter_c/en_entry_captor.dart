@@ -192,8 +192,10 @@ class EnglishEntrycaptor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێوەکەر، بەدیل‌گر، یەخسیرگر، دیل‌گر، یەخسیرکەر
-
-١. (ناو) کەسێک کە کەسێک یان ئاژەڵێک بە دیل دەگرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کەسێک یان ئاژەڵێک بە دیل دەگرێت"),
                           Row(
                             children: [
                               const Expanded(

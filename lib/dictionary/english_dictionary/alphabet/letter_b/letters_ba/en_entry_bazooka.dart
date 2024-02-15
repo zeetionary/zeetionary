@@ -147,8 +147,10 @@ class EnglishEntrybazooka extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەزووکا، بازووکا، تانک‌شکێن، دژەتانک
-
-١. (ناو) چەکێکی درێژ کە شیوەی لوولەیی ھەیە و دەخرێتە سەر شان بۆ ھاویشتنی دژ بە تانک و ئۆتۆمبێلی سەربازی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چەکێکی درێژ کە شیوەی لوولەیی ھەیە و دەخرێتە سەر شان بۆ ھاویشتنی دژ بە تانک و ئۆتۆمبێلی سەربازی"),
                           Row(
                             children: [
                               const Expanded(

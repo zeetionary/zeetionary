@@ -93,8 +93,9 @@ class EnglishEntryabdominal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
-
-١. (ھاوەڵناو) پەیوەندیدار بە سک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە سک" ""),
                           Row(
                             children: [
                               const Expanded(

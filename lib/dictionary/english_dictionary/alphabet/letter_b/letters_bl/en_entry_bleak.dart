@@ -148,8 +148,10 @@ class EnglishEntrybleak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناھومێدکەر، ھیوابڕ، ورەبەزێن، دڵساردکەرەوە، دڵتەنگ، خەمبار، سارد، چۆڵ، بێ‌پەنا، بەدەرەوە، ئاواڵە، لەبەربا
-
-١. (ھاوەڵناو) دۆخێک کە ھیچ ھۆکارێک نییە ئومێدت پێی ھەبێت یان چاوەڕێی ھیچی باشی لێ بکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دۆخێک کە ھیچ ھۆکارێک نییە ئومێدت پێی ھەبێت یان چاوەڕێی ھیچی باشی لێ بکەیت"),
                           Row(
                             children: [
                               const Expanded(

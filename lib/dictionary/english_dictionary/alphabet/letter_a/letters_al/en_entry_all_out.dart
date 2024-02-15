@@ -111,8 +111,11 @@ class EnglishEntryallout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بە دڵ و گیانەوە، بە گیانەوە، بە تەواو ھێزەوە، بە سەروبەرەوە، بە ئەوپەڕی تێکۆشان و حەولەوە، بەتەواوەتی
-
-١. (ھاوەڵناو) بە بەکارھێنانی ھەموو ئەوەی بەردەستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بە بەکارھێنانی ھەموو ئەوەی بەردەستە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

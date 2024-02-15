@@ -153,8 +153,11 @@ class EnglishEntryanode extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژوورک(ە)، جەمسەری ئەرێنی، جەمسەری گەرم، ئانۆد، گەرمەجەمسەر
-
-١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

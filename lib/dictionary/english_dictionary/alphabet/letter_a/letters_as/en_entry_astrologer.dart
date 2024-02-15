@@ -162,8 +162,11 @@ class EnglishEntryastrologer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فەلەکناس، ئەستێرەبین، ئەستێرەژمێر
-
-١. (ھاوەڵناو) کەسێک کە لە شوێنی ئەستێرە و جوڵەی ھەسارەکان دەکۆڵێتەوە بۆ پێشبینی ڕووداوەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە لە شوێنی ئەستێرە و جوڵەی ھەسارەکان دەکۆڵێتەوە بۆ پێشبینی ڕووداوەکان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

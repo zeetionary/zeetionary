@@ -233,8 +233,10 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەدایک‌بوون، ھاتنەدونیا، بەتوانا، توانا، بەھرەدار، بەبەھرە، لێھاتوو، شارەزا
-
-١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"),
                           Row(
                             children: [
                               const Expanded(

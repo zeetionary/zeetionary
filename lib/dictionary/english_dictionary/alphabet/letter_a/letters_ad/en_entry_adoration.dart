@@ -109,8 +109,9 @@ class EnglishEntryadoration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەرستن، پەرستشت، دڵ‌پێدان، دڵ‌تێچوون، ھۆگری، دڵبەستەیی، پیاھەڵوتن، ستایشت
-
-١. (ناو) ھەستی خۆشەویستییەکی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھەستی خۆشەویستییەکی زۆر" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntryblustery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زریاناوی، توند، ئاڵۆز، پڕبا، ڕەشەبالێ‌ھەڵکردوو
-
-١. (ھاوەڵناو) کەشوھەوایەک کە بای توندی لەگەڵە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەشوھەوایەک کە بای توندی لەگەڵە"),
                           Row(
                             children: [
                               const Expanded(

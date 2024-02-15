@@ -143,8 +143,10 @@ class EnglishEntrybuffet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێدان، پیاکێشان، سیخورمە، مستەکۆڵە، کولم، نقورچ، جەزرەبە، مشت، بووفە، واگۆنی بووفە، دۆڵاب، قەفەسە
-
-١. (ناو) ژەمە خواردنێک کە خەڵکئ لەسەر مێزێک خواردنی خۆیان تێ‌دەکەن و لە شوێنێکی تردا دەیخۆن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژەمە خواردنێک کە خەڵکئ لەسەر مێزێک خواردنی خۆیان تێ‌دەکەن و لە شوێنێکی تردا دەیخۆن"),
                           Row(
                             children: [
                               const Expanded(

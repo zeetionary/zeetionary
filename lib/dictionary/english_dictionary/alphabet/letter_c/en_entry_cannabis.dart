@@ -190,8 +190,10 @@ class EnglishEntrycannabis extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیابەنگ، حەشیشە، مەریوانە، گوڵەلێوە
-
-١. (ناو) ڕووەکێکی درێژ کە بەکاردێت بۆ درووستکردنی ڕیشاڵیک کە حەبل و جلی پێ درووست دەکرێت، و بۆ درووستکردنی مادەی ھۆشبەر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووەکێکی درێژ کە بەکاردێت بۆ درووستکردنی ڕیشاڵیک کە حەبل و جلی پێ درووست دەکرێت، و بۆ درووستکردنی مادەی ھۆشبەر"),
                           Row(
                             children: [
                               const Expanded(

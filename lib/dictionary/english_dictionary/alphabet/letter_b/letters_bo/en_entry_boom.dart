@@ -168,8 +168,10 @@ class EnglishEntryboom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆربوونی کت‌وپڕ، بووژانەوە، تۆقینەوە، سەروبەند یان قۆناخی گەشە(کردن)، ھەڵدان، ئاوەدانی، گەشەونەشە، زرمە، زرم، گرمە، نەڕە، قۆڕە، قیڕە
-
-١. (ناو) زیادبوونێکی لەناکاوی زیادبوونی چالاکیی بازرگانی و ئابووری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زیادبوونێکی لەناکاوی زیادبوونی چالاکیی بازرگانی و ئابووری"),
                           Row(
                             children: [
                               const Expanded(

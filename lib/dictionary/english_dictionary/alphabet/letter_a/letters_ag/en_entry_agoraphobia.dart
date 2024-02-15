@@ -110,8 +110,11 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەگۆراترسی، لە ئەگۆراتۆقیوی
-
-١. (ناو) ترسی بوون لە شوێنی گشتی و قەرەباڵغ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ترسی بوون لە شوێنی گشتی و قەرەباڵغ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

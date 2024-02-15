@@ -198,8 +198,10 @@ class EnglishEntrychapter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (سەر)بەش، بەند، پار، پاژ (کتێب)، دابەش‌کردنی سەرەکی کتێب، ماوە، قۆناخ، سەردەم، کوبوونەوەی گشتی، کۆمەڵی ڕەبەنەکانی دەیر، قەشە یان ئەندامانی کلێسەی کاتێدراڵ، لقی خۆجێیی 
-
-١. (ناو) بەشێکی جیاوازی کتێبێک کە ژمارەیەک یان ناونیشانێکی هەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشێکی جیاوازی کتێبێک کە ژمارەیەک یان ناونیشانێکی هەیە"),
                           Row(
                             children: [
                               const Expanded(

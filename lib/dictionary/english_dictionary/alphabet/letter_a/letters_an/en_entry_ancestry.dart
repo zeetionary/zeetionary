@@ -153,8 +153,9 @@ class EnglishEntryancestry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەچەڵەک، ڕەگەز، پێشینیان، بەرینان، جسنات، بڕبڕە، ئەژداد، تان‌وپۆ
-
-١. (ناو) ڕەچەڵەکی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕەچەڵەکی کەسێک" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -155,8 +155,11 @@ class EnglishEntryantic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەفتار یان ھەڵس‌وکەوتی سەیر، شانۆی گاڵتەجاڕ
-
-١. (ناو) ڕەفتاری سەیر یان گاڵتەجاڕی بەشێوەیەک کە خەڵکی حەزیان لێیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕەفتاری سەیر یان گاڵتەجاڕی بەشێوەیەک کە خەڵکی حەزیان لێیە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

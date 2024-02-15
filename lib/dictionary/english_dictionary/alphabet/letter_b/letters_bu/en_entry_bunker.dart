@@ -192,8 +192,10 @@ class EnglishEntrybunker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خەڵووزدان، عەمباری سووتەمەنی یان خەڵووز (لە کەشتی‌دا)، پەناگە (ژێرزەمینی)، شوێنی ھەڵگرتن، عەمبار، کۆگە، قوڵکە، چاڵ (بە زیخ پڕ کراوەتەوە، لە یاری گۆڵف‌دا)، (میلیتاری) بوودڕی تەقەمەنی
-
-١. (ناو) پەناگەیەکی بەھێزی سەربازی بۆ سەرباز یان تەقەمەنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پەناگەیەکی بەھێزی سەربازی بۆ سەرباز یان تەقەمەنی"),
                           Row(
                             children: [
                               const Expanded(

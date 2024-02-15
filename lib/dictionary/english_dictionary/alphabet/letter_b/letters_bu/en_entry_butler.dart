@@ -189,8 +189,10 @@ class EnglishEntrybutler extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەورەی کارکەرەکان، سەربەردەست، سەرنۆکەر، سفرەباشی، سەرکارکەر
-
-١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"),
                           Row(
                             children: [
                               const Expanded(

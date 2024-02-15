@@ -109,8 +109,9 @@ class EnglishEntryaimless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌مەبەست، بێ‌ئامانج، بێھوودە، لەخۆوە
-
-١. (ھاوەڵناو) بێ پلان و ئاراستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بێ پلان و ئاراستە" ""),
                           Row(
                             children: [
                               const Expanded(

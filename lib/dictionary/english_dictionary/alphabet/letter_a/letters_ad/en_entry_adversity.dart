@@ -109,8 +109,9 @@ class EnglishEntryadversity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەدبەختی، کڵۆڵی، کوڵۆڵی، ڕۆژەڕەشی، قوڕبەسەری، کوێرەوەری، لێ‌قەومان، نەھاتی، سەختی، ناخۆشی، مەینەتی
-
-١. (ناو) دۆخێکی سەخت و ناخۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دۆخێکی سەخت و ناخۆش" ""),
                           Row(
                             children: [
                               const Expanded(

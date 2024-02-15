@@ -129,8 +129,9 @@ class EnglishEntryalike extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەکیەک، ھاوشێوە، لێکچوو، میناھەڤ، وەکوویەک، وەکیەک، یەکسان، بە یەک شێوە، یەک جۆر
-
-١. (ھاوەڵکار) وەک یەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) وەک یەک" ""),
                           Row(
                             children: [
                               const Expanded(

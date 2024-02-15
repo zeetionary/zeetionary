@@ -310,8 +310,10 @@ class EnglishEntrybounce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەڕانەوە، زڤرین، باز یان پەڕینی کت‌وپڕ، قەڵبەز، ھەڵبەزینەوە، ھەڵپەڕوداپەڕ، ھەڵبەزودابەز، چالاکی، جم‌وجۆڵ، بەکەیفی، سەرخۆشی، بەگوڕی، سەرشادی، بەپەرۆشی، لێدانی بەھێز و کت‌وپڕ
-
-١. (کردار) کێشان بە ڕوویەک و ھەڵبەزینەوە لێی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) کێشان بە ڕوویەک و ھەڵبەزینەوە لێی"),
                           Row(
                             children: [
                               const Expanded(

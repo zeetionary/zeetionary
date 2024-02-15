@@ -111,8 +111,9 @@ class EnglishEntryageing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیری، کۆن، قەدیمی، ڕوولەپیری، بەرەوپیری
-
-١. (ناو) پڕۆسەی پیربوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) پڕۆسەی پیربوون" ""),
                           Row(
                             children: [
                               const Expanded(

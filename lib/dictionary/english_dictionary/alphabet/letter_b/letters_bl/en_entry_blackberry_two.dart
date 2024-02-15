@@ -145,8 +145,10 @@ class EnglishEntryblackberrytwo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توودڕک، تووترک، دوودلقی، تووەڕەشە
-
-١. (ناو) میوەیەکی نەرمی ڕەشی بچووک کە لەسەر ھێشوویەک دەڕوێت لە باخچەیەکدا """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) میوەیەکی نەرمی ڕەشی بچووک کە لەسەر ھێشوویەک دەڕوێت لە باخچەیەکدا "),
                           Row(
                             children: [
                               const Expanded(

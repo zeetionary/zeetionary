@@ -193,8 +193,10 @@ class EnglishEntrycattle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گاڕان، ڕەشەوڵاغ، گاگەل، مێگەڵە وڵاخ، ناخر، پاتاڵ، ئاژەڵ، دەوڵەت
-
-١. (ناو) مانگا و نێرەگا کە وەک ئاژەڵی کێڵگە بەخێودەکرێن بۆ شیر و گۆشتەکەیان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مانگا و نێرەگا کە وەک ئاژەڵی کێڵگە بەخێودەکرێن بۆ شیر و گۆشتەکەیان"),
                           Row(
                             children: [
                               const Expanded(

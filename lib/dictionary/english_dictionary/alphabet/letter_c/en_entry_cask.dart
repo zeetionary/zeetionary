@@ -192,8 +192,10 @@ class EnglishEntrycask extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیپ، بۆشکە، کۆس، کووپەدارینە، کووپەی لەدار، کەمۆڵە، بەرمیل (لە دار)
-
-١. (ناو) بەرمیلێکی دارینی کە شلەی تێدا ھەڵدەگیردرێت، بەتایبەتی خواردنەوەی کحولی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەرمیلێکی دارینی کە شلەی تێدا ھەڵدەگیردرێت، بەتایبەتی خواردنەوەی کحولی"),
                           Row(
                             children: [
                               const Expanded(

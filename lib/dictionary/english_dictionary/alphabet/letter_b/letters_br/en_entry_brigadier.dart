@@ -141,8 +141,9 @@ class EnglishEntrybrigadier extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرتیپ، سەرلیوا
-
-١. (ناو) ئەفسەرێکی پلە باڵا لە سوپادا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ئەفسەرێکی پلە باڵا لە سوپادا"),
                           Row(
                             children: [
                               const Expanded(

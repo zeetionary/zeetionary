@@ -193,8 +193,9 @@ class EnglishEntrycarefree extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌خەم، ئاسوودە، (خەیاڵ)تەخت، بێ‌ئەندێشە، بێ‌دەربەست، سەرسووک، بێ‌خەیاڵ، مێشک‌ساف
-
-١. (ھاوەڵناو) کەسێک کە ئەرک و خەمی نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کەسێک کە ئەرک و خەمی نییە"),
                           Row(
                             children: [
                               const Expanded(

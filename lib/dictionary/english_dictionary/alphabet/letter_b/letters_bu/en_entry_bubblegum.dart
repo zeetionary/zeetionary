@@ -141,8 +141,9 @@ class EnglishEntrybubblegum extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنێشتی تۆقلەدار یان تۆقلەھەڵدەر
-
-١. (ناو) جۆرە بنێشتێک کە گڵۆپی پێ دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) جۆرە بنێشتێک کە گڵۆپی پێ دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

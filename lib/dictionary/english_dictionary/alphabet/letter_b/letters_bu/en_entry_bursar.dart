@@ -189,8 +189,10 @@ class EnglishEntrybursar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەنجینەوان، سنووق‌دار
-
-١. (ناو) کەسێک کە کاری دارایی زانکۆ یان قوتابخانە بەڕێوەدەبات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری دارایی زانکۆ یان قوتابخانە بەڕێوەدەبات"),
                           Row(
                             children: [
                               const Expanded(

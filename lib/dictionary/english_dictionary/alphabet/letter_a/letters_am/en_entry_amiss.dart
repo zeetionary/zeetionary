@@ -177,8 +177,10 @@ class EnglishEntryamiss extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵە، شاش، چەوت، خراپ، ناڕاست، نادروست، نالەبار، بێجێ، بە ھەڵە، خراپ
-
-١. (ھاوەڵناو) ھەڵە، نامۆ؛ جیاواز لە ئاسایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ھەڵە، نامۆ؛ جیاواز لە ئاسایی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

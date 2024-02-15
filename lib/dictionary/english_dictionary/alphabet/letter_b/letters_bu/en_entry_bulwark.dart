@@ -142,8 +142,10 @@ class EnglishEntrybulwark extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شوورە، دیوار (بەرگری)، سەنگەر، بەربەستی بەرگری، پەنا، مەترسی‌گێڕەوە، پارێزەر، پارێزکار، پشتیوان، لایەنگر، نۆبەدار، کەڵبەرە، کەلەرە، شەپۆل‌ڕەوێن
-
-١. (ناو) کەسێک/شتێک کە پارێزگاری یان بەرگری لە شتێک دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک/شتێک کە پارێزگاری یان بەرگری لە شتێک دەکات"),
                           Row(
                             children: [
                               const Expanded(

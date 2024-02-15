@@ -193,8 +193,10 @@ class EnglishEntrycater extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێخۆر پێگەیاندن، تفاق پێگەیاندن، خزمەت پێگەیاندن
-
-١. (کردار) پێشکەشکردنی خواردن و خواردنەوە بە بۆنەیەکی تایبەت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پێشکەشکردنی خواردن و خواردنەوە بە بۆنەیەکی تایبەت"),
                           Row(
                             children: [
                               const Expanded(

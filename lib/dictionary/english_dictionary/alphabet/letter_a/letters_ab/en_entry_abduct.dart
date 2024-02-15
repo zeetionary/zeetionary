@@ -94,8 +94,10 @@ class EnglishEntryabduct extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مرۆڤ ڕفاندن، مرۆ(ڤ)دزی، ھەڵگرتن، فڕاندن، ڕفاندن
-
-١. (کردار) بردنی کەسێک بەزۆر و نایاسایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بردنی کەسێک بەزۆر و نایاسایی" ""),
                           Row(
                             children: [
                               const Expanded(

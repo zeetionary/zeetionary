@@ -148,8 +148,10 @@ class EnglishEntrybowel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕیخۆڵە، ناو زگ
-
-١. (ناو) ئەو جۆگەیەی کە خواردن پێیدا دەچێت بۆ کۆم لە دوای جێھێشتنی گەدە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو جۆگەیەی کە خواردن پێیدا دەچێت بۆ کۆم لە دوای جێھێشتنی گەدە"),
                           Row(
                             children: [
                               const Expanded(

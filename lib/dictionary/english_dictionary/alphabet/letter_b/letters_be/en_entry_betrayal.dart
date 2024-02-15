@@ -149,8 +149,9 @@ class EnglishEntrybetrayal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناپاکی، خۆفرۆشی، خەیانەت، لەگیرخستن، بەگیردان، لەقاودان، ڕاستی‌لێ‌وتن، گێڕانەوە
-
-١. (ناو) خیانەتکردن، خیانەت‌لێ‌کردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خیانەتکردن، خیانەت‌لێ‌کردن"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrybuoy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەنگەرە، بۆیە، توپەی سەراوکەوتە، تۆپەی (یان تۆپی) سواراو، خڕۆکەی سەراوکە
-
-١. (ناو) پارچە شتێک کە سەرئاو دەکەوێت و وەک ئاماژە بەکاردێت کە کوێی ئاوەکە مەترسیدارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە شتێک کە سەرئاو دەکەوێت و وەک ئاماژە بەکاردێت کە کوێی ئاوەکە مەترسیدارە"),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntryblithe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرسەرەکی، مێشک ساف، فشە، دڵخۆش، بێ‌خەم، کەمتەرخەم، نادەربەست، ئاسوودە، بێ‌خەیاڵ، دڵشاد، خۆش، شاد، نانیگەران، بێ‌دڵەڕاوکێ
-
-١. (ھاوەڵناو) پیشاندانی ئەوەی گرنگی نادەیت یان نیگەران نیت سەبارەت بەوەی دەیکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پیشاندانی ئەوەی گرنگی نادەیت یان نیگەران نیت سەبارەت بەوەی دەیکەیت"),
                           Row(
                             children: [
                               const Expanded(

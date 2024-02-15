@@ -192,8 +192,10 @@ class EnglishEntrycayenne extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیبەری سوور، بیبەرەسوورە، ھاڕاوەی بیبەرەسوورە
-
-١. (ناو) بیبەرێکی سوور کە لە خواردن‌لێناندا بەکاردێت بۆ پێدانی تامێکی توون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بیبەرێکی سوور کە لە خواردن‌لێناندا بەکاردێت بۆ پێدانی تامێکی توون"),
                           Row(
                             children: [
                               const Expanded(

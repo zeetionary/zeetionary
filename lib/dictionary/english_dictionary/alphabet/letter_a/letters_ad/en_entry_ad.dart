@@ -110,8 +110,11 @@ class EnglishEntryad extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لاتین) زایینی، دوای زایین، پاش‌زایین، بانگەواز، دانەزانین، ئاگاداری
-
-١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

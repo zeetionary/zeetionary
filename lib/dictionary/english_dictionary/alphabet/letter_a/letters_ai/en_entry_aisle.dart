@@ -111,8 +111,9 @@ class EnglishEntryaisle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێڕەو، ڕێڕەو (لەنێوان کورسی‌یەکان لە کلیسا، شانۆ، شەمەندەفەر و فڕۆکە، یان ڕەفەکانی سوپەرمارکێت...)، تەنیشت، کەنار
-
-١. (ناو) نێوانی ڕیزە کورسی یان شتی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) نێوانی ڕیزە کورسی یان شتی تر" ""),
                           Row(
                             children: [
                               const Expanded(

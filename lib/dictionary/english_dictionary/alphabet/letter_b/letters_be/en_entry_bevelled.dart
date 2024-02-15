@@ -147,8 +147,10 @@ class EnglishEntrybevelled extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێوارلار، پەخ‌دار، پەخ، لێوارپەخ، خوار، لاپێ‌دار
-
-١. (ھاوەڵناو) ھەبوونی لێوارێک یان ڕوویەک کە لێژی تێدایە (بۆ نموونە تیژ نییە)"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی لێوارێک یان ڕوویەک کە لێژی تێدایە (بۆ نموونە تیژ نییە)"),
                           Row(
                             children: [
                               const Expanded(

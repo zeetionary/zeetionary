@@ -109,8 +109,9 @@ class EnglishEntryadjacent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نزیک، دراوسێ، ھاوسێ، دیواربەدیوار، تەنیشت‌بەتەنیشت، ئاوماڵ، لێک‌نزیک، لەپاڵیەک
-
-١. (ھاوەڵناو) نزیک لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) نزیک لە شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

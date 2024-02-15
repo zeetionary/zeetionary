@@ -147,8 +147,9 @@ class EnglishEntrybloodless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌خوێن، کەم‌خوێن، زەرد، ڕەنگ‌زەرد، ڕەنگ‌پەڕیو، ھەڵبزرکاو، سپی‌ھەڵگەڕاو، سارد، دڵ‌مردوو، بێ‌ھەست، بە بێ خوێن‌ڕێژی
-
-١. (ھاوەڵناو) بەبێ کووشتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بەبێ کووشتن"),
                           Row(
                             children: [
                               const Expanded(

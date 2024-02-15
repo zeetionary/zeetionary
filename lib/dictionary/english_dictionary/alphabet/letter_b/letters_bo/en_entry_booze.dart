@@ -146,8 +146,9 @@ class EnglishEntrybooze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خواردنەوە، ئارق‌خواردنەوە، ئارەق‌خۆری (بەتایبەت زۆرخۆری کردن)
-
-١. (ناو) خواردنەوەی کحولی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خواردنەوەی کحولی"),
                           Row(
                             children: [
                               const Expanded(

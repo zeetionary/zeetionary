@@ -233,8 +233,11 @@ class EnglishEntryalright extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قایلکەر، باش، چاک، ڕاست، دروست، بێ‌گومان، حەتمەن، تا ڕادەیێ باش، باشە، بەڵێ
-
-١. (سەرسوڕمان) بۆ زانینی ئەوەی کەسێک ڕازییە یان تێگەشتووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (سەرسوڕمان) بۆ زانینی ئەوەی کەسێک ڕازییە یان تێگەشتووە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

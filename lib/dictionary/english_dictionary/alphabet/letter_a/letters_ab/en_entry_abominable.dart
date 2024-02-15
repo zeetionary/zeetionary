@@ -113,8 +113,9 @@ class EnglishEntryabominable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێزاوی، قێزەون، ناپەسند، پیس، یەکجار ناخۆش
-
-١. (ھاوەڵناو) زۆر قێزەون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر قێزەون" ""),
                           Row(
                             children: [
                               const Expanded(

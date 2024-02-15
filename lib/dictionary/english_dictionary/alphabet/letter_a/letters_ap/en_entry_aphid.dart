@@ -158,8 +158,11 @@ class EnglishEntryaphid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شۆکە، شەتە، مێشوولە، مێش‌گەزۆ، سوون، شیلەمژە
-
-١. (ناو) مێروویەکی زۆر بچووک کە زەرەرمەندە بۆ ڕووەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مێروویەکی زۆر بچووک کە زەرەرمەندە بۆ ڕووەک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

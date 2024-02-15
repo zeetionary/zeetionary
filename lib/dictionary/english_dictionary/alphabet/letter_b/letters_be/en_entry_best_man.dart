@@ -147,8 +147,10 @@ class EnglishEntrybestman extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: برازاوا، شۆشبان، برازاڤا
-
-١. (ناو) کەسێک کە ھاوڕێ یان خزمی زاوایە لە ئاھەنگێکدا کە یارمەتی دەدا لەکاتی ئاھەنگەکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ھاوڕێ یان خزمی زاوایە لە ئاھەنگێکدا کە یارمەتی دەدا لەکاتی ئاھەنگەکە"),
                           Row(
                             children: [
                               const Expanded(

@@ -191,8 +191,9 @@ class EnglishEntrycapability extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توانایی، توانست، خورتی، لێھاتوویی، لێوەشاوەیی، شیان، تواناداری، ھێز
-
-١. (ناو) توانای پێویست بۆ کردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) توانای پێویست بۆ کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(

@@ -146,8 +146,9 @@ class EnglishEntrybrighten extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕوون کردن، ڕووناک کردن
-
-١. (کردار) ڕۆشنکردنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ڕۆشنکردنەوە"),
                           Row(
                             children: [
                               const Expanded(

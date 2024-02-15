@@ -109,8 +109,11 @@ class EnglishEntryaffidavit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سوێندنامە، نامەی سوێند (وەک بەڵگەیێ لە دادگا)
-
-١. (ناو) پارچە نووسراوێک کە سوێند دەخۆیت ڕاستە و لە دادگا دەکرێت وەک بەڵگە بەکاربێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە نووسراوێک کە سوێند دەخۆیت ڕاستە و لە دادگا دەکرێت وەک بەڵگە بەکاربێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

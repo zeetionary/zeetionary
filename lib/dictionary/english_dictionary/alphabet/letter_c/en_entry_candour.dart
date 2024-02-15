@@ -194,8 +194,9 @@ class EnglishEntrycandour extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قسەلەڕوویی، سەرڕاستی، ڕاست‌ڕۆیشتوویی، لانەگری، بەدادی
-
-١. (ناو) وتنی ئەوەی لە دڵتە وەک خۆی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) وتنی ئەوەی لە دڵتە وەک خۆی"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycelestial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاسمانی، بەھەشتی، خودایی
-
-١. (ھاوەڵناو) پەیوەندیدار بە ئاسمان و بەھەشت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە ئاسمان و بەھەشت"),
                           Row(
                             children: [
                               const Expanded(

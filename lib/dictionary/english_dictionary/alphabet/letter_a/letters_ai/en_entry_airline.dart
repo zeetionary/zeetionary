@@ -109,8 +109,11 @@ class EnglishEntryairline extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێڵی ئاسمانی، کۆمپانی ھێڵی ئاسمانی، ھێڵی لوولە (بۆ گواستنەوەی ئاو یان ھەوا)
-
-١. (ناو) ھێڵی ئاسمانی؛ کۆمپانیایەک کە گەشتی ئاسمانی ڕێکدەخات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھێڵی ئاسمانی؛ کۆمپانیایەک کە گەشتی ئاسمانی ڕێکدەخات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -158,8 +158,11 @@ class EnglishEntryaromatic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆن‌خوش، بەبۆن و بەرامە
-
-١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

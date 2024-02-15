@@ -111,8 +111,11 @@ class EnglishEntryactual extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: واقعی، بوویەری، ڕاستەقینە، ڕاست، ھەنووکەیی، ئێستا، سەرەکی، بنگەھی
-
-١. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە ڕاستییەتی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە ڕاستییەتی شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

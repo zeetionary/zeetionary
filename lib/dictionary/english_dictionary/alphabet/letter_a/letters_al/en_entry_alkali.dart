@@ -111,8 +111,11 @@ class EnglishEntryalkali extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەلکالای، ئەلکالی، تفت، قەڵیە، قەلیە
-
-١. (ناو) مادەیەکی کیمیایی کە لەگەڵ ترشەڵۆک کارلێک دەکات بۆ درووستکردنی خوێ و ڕەنووسی ھایدرۆجینی بەرزتر دەبێت لە حەوت کە لە ئاودا دەتوێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی کیمیایی کە لەگەڵ ترشەڵۆک کارلێک دەکات بۆ درووستکردنی خوێ و ڕەنووسی ھایدرۆجینی بەرزتر دەبێت لە حەوت کە لە ئاودا دەتوێتەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

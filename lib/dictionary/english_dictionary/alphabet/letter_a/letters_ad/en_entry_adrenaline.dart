@@ -109,8 +109,11 @@ class EnglishEntryadrenaline extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئادرێنالین، ئادرناڵین، ئەدرینالین
-
-١. (ھاوەڵناو) مادەیەک کە لە جەستەدا بەرھەم دێت کاتێک خرۆشاویت، ترساویت یان توڕەیت. وا دەکات دڵ خێراتر لێبدات و وزە و توانای جوڵەی خێرات زیاد دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) مادەیەک کە لە جەستەدا بەرھەم دێت کاتێک خرۆشاویت، ترساویت یان توڕەیت. وا دەکات دڵ خێراتر لێبدات و وزە و توانای جوڵەی خێرات زیاد دەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -188,8 +188,9 @@ class EnglishEntrybye extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خوات لەگەڵ
-
-١. (سەرسوڕمان) بۆ ماڵاوایی کردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (سەرسوڕمان) بۆ ماڵاوایی کردن"),
                           Row(
                             children: [
                               const Expanded(

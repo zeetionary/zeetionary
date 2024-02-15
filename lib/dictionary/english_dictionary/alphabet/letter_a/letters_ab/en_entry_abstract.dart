@@ -121,8 +121,11 @@ class EnglishEntryabstract extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووت، ھەڵماڵراو، ئابستراکت، مانایی، ئایدیاڵ، خەیاڵی، ئەندێشەیی، ناکرداری، ناکۆنکرێت، بیردۆزی، تیۆریک
-
-١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

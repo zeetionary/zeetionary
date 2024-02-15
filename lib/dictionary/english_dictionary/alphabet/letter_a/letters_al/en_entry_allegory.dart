@@ -111,8 +111,11 @@ class EnglishEntryallegory extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چیروکی ھێمایی، ھێماچیرۆک، چیرۆما (چیرۆک + ھێما)، ھێرۆک (ھێما + چیرۆک)، ھێما، نیشانە، خوازە
-
-١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

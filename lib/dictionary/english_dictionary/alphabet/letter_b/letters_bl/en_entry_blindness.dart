@@ -146,8 +146,8 @@ class EnglishEntryblindness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کوێری، کۆری، نەبینی، نابینایی، نەفامی، بێ‌ئەقڵی، گەوجێتی
-
-١. (ناو) نابینایی"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) نابینایی"),
                           Row(
                             children: [
                               const Expanded(

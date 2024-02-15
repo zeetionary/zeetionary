@@ -146,8 +146,9 @@ class EnglishEntrybluish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شینکار، شینکی، شینباو، ئاماڵ‌شین، مەیلەوشین
-
-١. (ھاوەڵناو) ڕەنگێک کە تا ڕادەیەک شینە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ڕەنگێک کە تا ڕادەیەک شینە"),
                           Row(
                             children: [
                               const Expanded(

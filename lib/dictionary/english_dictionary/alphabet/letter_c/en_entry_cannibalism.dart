@@ -189,8 +189,10 @@ class EnglishEntrycannibalism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاوخۆری، مرۆخۆری، خۆخۆری، ھاوڕەگەزخۆری، ھاوجۆرخۆر
-
-١. (ناو) کردەی خواردنی مرۆڤ، یان خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی ھاوجۆری خۆی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کردەی خواردنی مرۆڤ، یان خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی ھاوجۆری خۆی"),
                           Row(
                             children: [
                               const Expanded(

@@ -177,8 +177,11 @@ class EnglishEntryage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەمەن، عومر، سن، سێرە، ڕستی ساڵ، ساڵ، کۆنی، کەڤناتی، پیری، کۆنەساڵی، بەساڵاچوویی، قۆناخ، چەرخ، چاخ، ڕۆژگار، زەمانە، سەردەم
-
-١. (ناو) ژمارەی ئەو ساڵانەی کەسێک ژیاوە یان شتێک بوونی ھەبووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژمارەی ئەو ساڵانەی کەسێک ژیاوە یان شتێک بوونی ھەبووە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

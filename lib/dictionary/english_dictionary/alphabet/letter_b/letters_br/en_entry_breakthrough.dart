@@ -146,8 +146,9 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دزە، چوونەنێو، ڕەخنە، پێشکەوتن، پێشڤەچوون، پەرەسەندن، سەرکەوتن، پەرەسەندن یان دۆزینەوەی گرنگ
-
-١. (ناو) ڕووداو یان دۆزینەوەیەکی گەورە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕووداو یان دۆزینەوەیەکی گەورە"),
                           Row(
                             children: [
                               const Expanded(

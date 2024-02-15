@@ -146,8 +146,10 @@ class EnglishEntryborough extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناوچە، مەڵبەند (لە دابەشاندنی شاردا)، بارێ (ھەر یەک لە پێنج ناوچە
-
-١. (ناو) شارۆچکەیەک یان بەشێکی شارێک کە حکومەتی خۆجێیی خۆی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شارۆچکەیەک یان بەشێکی شارێک کە حکومەتی خۆجێیی خۆی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

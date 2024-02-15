@@ -196,8 +196,10 @@ class EnglishEntrychaos extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاژاوە، پشێوی، ئاڵۆزی، پاشاگەردانی، گەڕەلاوژە، شێواوی، گۆبەن، دێوەزمەی پێش پێکهآتنی گەردوون، ئاژاوەی بێ‌سەرەتایی یان ئەزەلی
-
-١. (ناو) دۆخێک کە پڕ لە ئاڵۆزی و شپرزەییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆخێک کە پڕ لە ئاڵۆزی و شپرزەییە"),
                           Row(
                             children: [
                               const Expanded(

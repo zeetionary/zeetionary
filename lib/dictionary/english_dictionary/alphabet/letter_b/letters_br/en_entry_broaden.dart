@@ -142,8 +142,9 @@ class EnglishEntrybroaden extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پان کردن، بەرفراوان کردن، بەرین کردن
-
-١. (کردار) پانبوون، فراوانبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) پانبوون، فراوانبوون"),
                           Row(
                             children: [
                               const Expanded(

@@ -143,8 +143,9 @@ class EnglishEntrybubbly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆقلاوی، پڕتۆقلە، بڵقەبڵق، ھەڵقوڵیو، پڕجم‌وجۆڵ، ھەڵسووڕ، لەجۆش، بەگوڕ، تۆقلەیی، شامپاین
-
-١. (ھاوەڵناو) پڕ لە بڵق یان کەف"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پڕ لە بڵق یان کەف"),
                           Row(
                             children: [
                               const Expanded(

@@ -162,8 +162,9 @@ class EnglishEntryauthenticity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەسەنایەتی، دروستی، ڕاست‌بوون، جێی‌باوەڕبوون، باوەڕمەندی، باوەڕپێکراوی
-
-١. (ناو) ڕاستی و درووستی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕاستی و درووستی شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

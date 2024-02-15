@@ -110,8 +110,9 @@ class EnglishEntryadnauseam extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بە ڕادەی ڕشانەوە یان بێز لێ‌کردنەوە
-
-١. (ھاوەڵکار) تا ئاستێکی بێزارکەر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) تا ئاستێکی بێزارکەر" ""),
                           Row(
                             children: [
                               const Expanded(

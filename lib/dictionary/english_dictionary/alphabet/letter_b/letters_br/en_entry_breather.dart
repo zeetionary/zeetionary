@@ -142,8 +142,9 @@ class EnglishEntrybreather extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشوو، وچان، سانەوە، شەکەت‌دەرکردن، ھەناسەکێش، بین‌کێش، گەڕان، ھەواخۆری
-
-١. (ھاوەڵناو) پشوویەکی کورت بۆ حاسەناوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پشوویەکی کورت بۆ حاسەناوە"),
                           Row(
                             children: [
                               const Expanded(

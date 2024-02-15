@@ -154,8 +154,11 @@ class EnglishEntryantifreeze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەبەست، نەھێڵەبەست، دژبەست، دژەبەست
-
-١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

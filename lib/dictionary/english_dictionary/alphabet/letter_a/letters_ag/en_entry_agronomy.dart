@@ -109,8 +109,11 @@ class EnglishEntryagronomy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کشتوکاڵناسی، زانستی کشت‌وکاڵ، ئەندازیارێتی کشت‌وکاڵ یان کشت‌وکاڵی
-
-١. (ناو) زانستی گرێدانی کشتوکاڵ و ژینگە پێکەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زانستی گرێدانی کشتوکاڵ و ژینگە پێکەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

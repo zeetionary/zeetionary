@@ -148,8 +148,10 @@ class EnglishEntrybooster extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەھێزکەر، ھێزدەر، دەزگای زۆرکردنی ھێز یا ڤۆڵتاژ، لایەنگر، ئالیگر، پشتیوان، کوتان یان دەرزی‌لێدانی بەھێزکەر یا توانایی‌پێدەر
-
-١. (ناو) مووشەکێک کە ھێزی زیاتر دەدات بە کەشتییەکی ئاسمانی لە کاتی جێھێشتنی زەوی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مووشەکێک کە ھێزی زیاتر دەدات بە کەشتییەکی ئاسمانی لە کاتی جێھێشتنی زەوی"),
                           Row(
                             children: [
                               const Expanded(

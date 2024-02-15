@@ -94,8 +94,11 @@ class EnglishEntryabiding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێگیر، ھەمیشەیی، نەگۆڕ، سەقامگیر، بەردەوام، چەقبەستوو
-
-١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

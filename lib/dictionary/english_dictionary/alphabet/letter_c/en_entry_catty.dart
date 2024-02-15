@@ -192,8 +192,10 @@ class EnglishEntrycatty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕیایی‌باز، دووڕوو، ڕووبین، کیناوی، ڕقاوی، بوغزاوی، فێڵاوی، پیس، لەبنەوەبڕ
-
-١. (ھاوەڵناو) وتنی قسەی ڕەق بە کەسانی دیکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) وتنی قسەی ڕەق بە کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(

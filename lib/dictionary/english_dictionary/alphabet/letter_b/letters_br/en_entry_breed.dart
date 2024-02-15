@@ -147,8 +147,9 @@ class EnglishEntrybreed extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەگەز، نژاد، نفش، بەرە، نەوە، جۆر، چەشن، ئاوا، پۆل، سینف، دەست
-
-١. (کردار) جووتبوون و وەچەخستنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) جووتبوون و وەچەخستنەوە"),
                           Row(
                             children: [
                               const Expanded(

@@ -110,8 +110,9 @@ class EnglishEntryaffront extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌ڕێزی، بێ‌حورمەتی، سووکایەتی، ئابڕووبردن
-
-١. (ناو) قسەیەک کە بێڕێزی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) قسەیەک کە بێڕێزی تێدایە" ""),
                           Row(
                             children: [
                               const Expanded(

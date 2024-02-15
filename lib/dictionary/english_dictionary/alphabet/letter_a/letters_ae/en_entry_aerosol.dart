@@ -109,8 +109,11 @@ class EnglishEntryaerosol extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕژێنە، پڕژێنەک، پژێنە، پژپژە، (کیمیا) ڕاگرتنی (پارچۆلکەکانی) شلە یان تەنێ لە ھەوا یا لە گازدا (دووکەڵ و تەم و مژ ئێرۆسۆلن)
-
-١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntryblackboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەختەڕەشە، سابوورە
-
-١. (ناو) تەختەیەکی ڕەش یان سەوزی تۆخ کە مامۆستا شتی لەسەر دەنووسێت بە تەباشیر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تەختەیەکی ڕەش یان سەوزی تۆخ کە مامۆستا شتی لەسەر دەنووسێت بە تەباشیر"),
                           Row(
                             children: [
                               const Expanded(

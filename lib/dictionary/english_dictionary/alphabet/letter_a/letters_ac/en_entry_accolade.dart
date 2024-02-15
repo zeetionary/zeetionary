@@ -94,8 +94,11 @@ class EnglishEntryaccolade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاھەڵوتن، پەسن(دان)، ڕێ‌وڕەسمی پێدانی پلەوپایەی شۆڕەسواری (کە لەودا سووک شمشێر بەسەر شانا دەھێنرێ)
-
-١. (ناو) ستایش یان خەڵاتکردنی کەسێک بەھۆی دەستکەوتەکانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ستایش یان خەڵاتکردنی کەسێک بەھۆی دەستکەوتەکانی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

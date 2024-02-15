@@ -94,8 +94,9 @@ class EnglishEntryabsentee extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (کەس) نادیار، نائامادە، نەھاتە، ناپەیدا، نالێرە، نەھاتوو
-
-١. (ناو) کەسێکی نائامادە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێکی نائامادە" ""),
                           Row(
                             children: [
                               const Expanded(

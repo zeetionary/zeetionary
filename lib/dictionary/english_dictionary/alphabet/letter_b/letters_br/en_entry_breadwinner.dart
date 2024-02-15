@@ -143,8 +143,10 @@ class EnglishEntrybreadwinner extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەخێوکەر، کۆست، نان‌پەیداکەر، گەورەی ماڵ
-
-١. (ناو) کەسێک کە خێزانێک بەڕێوە دەبات بەو پارەیەی پەیدای دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە خێزانێک بەڕێوە دەبات بەو پارەیەی پەیدای دەکات"),
                           Row(
                             children: [
                               const Expanded(

@@ -150,8 +150,10 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەتۆ، فانیلە، پێخەف، بەتانیە، بەڕە (تەشکەبەرە: بەڕەی درێژۆکە)، توێ، چین، گەرداڵ، توێژاڵ، (وڵاخ) جل، ھەمووگر، گشتگیر، گشت‌لایەنە، دیاری‌نەکراو، گشتی، بێ‌ئاوارتە
-
-١. (ناو) داپۆشەرێکی گەورە کە لەکاتی خەودا دەدرێت بە خۆدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) داپۆشەرێکی گەورە کە لەکاتی خەودا دەدرێت بە خۆدا"),
                           Row(
                             children: [
                               const Expanded(

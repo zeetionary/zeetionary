@@ -189,8 +189,10 @@ class EnglishEntrycanyon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دۆڵاو، خەلەند، تەنگژە، دەربەند، کانیۆن
-
-١. (ناو) دۆڵێکی قووڵ کە قەدپاڵەکانی ڕاستن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆڵێکی قووڵ کە قەدپاڵەکانی ڕاستن"),
                           Row(
                             children: [
                               const Expanded(

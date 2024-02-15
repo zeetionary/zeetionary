@@ -143,8 +143,10 @@ class EnglishEntrybravado extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بوێری، خۆھەڵکێشی، فڕوفیشاڵ کردن، لاف‌لێدان، خۆ بە ئازا نیشان‌دان
-
-١. (ناو) ھەڵسوکەوت کردن بە متمانەوە بۆ ئەوەی سەرنجی خەڵکی ڕابکێشی، زۆرجار بە کردنی شتێک کە پێویست ناکات بیکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەڵسوکەوت کردن بە متمانەوە بۆ ئەوەی سەرنجی خەڵکی ڕابکێشی، زۆرجار بە کردنی شتێک کە پێویست ناکات بیکەیت"),
                           Row(
                             children: [
                               const Expanded(

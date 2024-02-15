@@ -146,8 +146,10 @@ class EnglishEntryblacklist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لیستی ڕەش، ڕەشەلیست
-
-١. (ناو) لیستی کەسانێک، ژمارەیەک کۆمپانیا، بەرھەم، یان وڵات کە دامەزراوەیەک یان حکومەتێک کە بەدڵیانی نییە و لییان دووردەکەوێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لیستی کەسانێک، ژمارەیەک کۆمپانیا، بەرھەم، یان وڵات کە دامەزراوەیەک یان حکومەتێک کە بەدڵیانی نییە و لییان دووردەکەوێتەوە"),
                           Row(
                             children: [
                               const Expanded(

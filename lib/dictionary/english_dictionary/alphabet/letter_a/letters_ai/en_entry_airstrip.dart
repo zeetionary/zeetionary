@@ -111,8 +111,11 @@ class EnglishEntryairstrip extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باندی نیشتنەوە، باریکەی ھەستان و نیشتنەوە
-
-١. (ناو) پارچە زەوییەک کە فڕۆکە دەتوانێت لەسەری بنیشێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە زەوییەک کە فڕۆکە دەتوانێت لەسەری بنیشێتەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

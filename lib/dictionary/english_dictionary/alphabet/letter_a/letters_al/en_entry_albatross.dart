@@ -112,8 +112,11 @@ class EnglishEntryalbatross extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئالباتراس، ئالباتروس: جۆرێ باڵندەی دەریایی، کێشەنەرەوە، مڵۆزم، مزاحیم، مایەی سەرێشە
-
-١. (ناو) باڵندەیەک کە باڵی درێژی ھەیە و لە زەریای ھێمن و زەریاکانی باشوور دەژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) باڵندەیەک کە باڵی درێژی ھەیە و لە زەریای ھێمن و زەریاکانی باشوور دەژی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

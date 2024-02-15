@@ -145,8 +145,10 @@ class EnglishEntrybloodshot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (چاو) سوور، سوورەوەبوو، خوێن‌تێزاو
-
-١. (ھاوەڵناو) چاوێک کە ئەو بەشەی زۆر جار سپییە پڕ بێت لە ھێڵی سوور"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) چاوێک کە ئەو بەشەی زۆر جار سپییە پڕ بێت لە ھێڵی سوور"),
                           Row(
                             children: [
                               const Expanded(

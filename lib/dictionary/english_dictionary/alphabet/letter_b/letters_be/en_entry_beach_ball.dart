@@ -147,8 +147,10 @@ class EnglishEntrybeachball extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆپەبا، فوودانەی گەورە
-
-١. (ناو) تۆپێکی گەورەی سووک و ڕەنگین کە بەکاردێت بۆ یاری لە کەناراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تۆپێکی گەورەی سووک و ڕەنگین کە بەکاردێت بۆ یاری لە کەناراو"),
                           Row(
                             children: [
                               const Expanded(

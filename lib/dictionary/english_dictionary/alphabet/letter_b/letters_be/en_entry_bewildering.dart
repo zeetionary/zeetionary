@@ -147,8 +147,10 @@ class EnglishEntrybewildering extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەشۆکێنەر، سەرسووڕھێنەر، گێژکەر
-
-١. (ھاوەڵناو) شتێک کە سەرسامت دەکات بەھۆی ئەوەی ھەڵبژاردەی زۆری ھەیە، یان گرانە بۆ تێگەشتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە سەرسامت دەکات بەھۆی ئەوەی ھەڵبژاردەی زۆری ھەیە، یان گرانە بۆ تێگەشتن"),
                           Row(
                             children: [
                               const Expanded(

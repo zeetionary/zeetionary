@@ -193,8 +193,9 @@ class EnglishEntrycardiac extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵی، سەربە دڵ، ھەڵکەوتوو نزیک بە دڵ
-
-١. (ھاوەڵناو) پەیوەندیدار بە دڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە دڵ"),
                           Row(
                             children: [
                               const Expanded(

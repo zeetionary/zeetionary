@@ -145,8 +145,10 @@ class EnglishEntrybogus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: درۆ، ساختە، درۆزنە، ھەڵبەستە، زڕە، ناڕاستەقینە، خۆدەرخەرانە
-
-١. (ھاوەڵناو) واپیشاندانی ئەوەی کە ڕاست و درووستە بەڵام وانییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) واپیشاندانی ئەوەی کە ڕاست و درووستە بەڵام وانییە"),
                           Row(
                             children: [
                               const Expanded(

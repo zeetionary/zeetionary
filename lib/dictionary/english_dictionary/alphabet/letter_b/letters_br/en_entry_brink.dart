@@ -144,8 +144,10 @@ class EnglishEntrybrink extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێوار، قەراخ، سنوور، لێوار، سەردەر، سەردەرانە
-
-١. (ناو) لە دۆخێکدا کە مەترسیدار، تازە، بزوێنەرە؛ ئاستێک کە لەوە زیاتر گۆڕان درووست دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لە دۆخێکدا کە مەترسیدار، تازە، بزوێنەرە؛ ئاستێک کە لەوە زیاتر گۆڕان درووست دەکات"),
                           Row(
                             children: [
                               const Expanded(

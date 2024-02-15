@@ -192,8 +192,10 @@ class EnglishEntrychandelier extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چلچرا، ئاوێزە، لالە، لووستر
-
-١. (ناو) لایتێکی جوانکاری کە لە بنبانێکەوە شۆڕدەبێتەوە و ژمارەیەک لقی ھەیە کە گڵۆپان پێوەیە، یان لە ڕابردوودا مۆمیان پێوە بوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لایتێکی جوانکاری کە لە بنبانێکەوە شۆڕدەبێتەوە و ژمارەیەک لقی ھەیە کە گڵۆپان پێوەیە، یان لە ڕابردوودا مۆمیان پێوە بوو"),
                           Row(
                             children: [
                               const Expanded(

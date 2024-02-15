@@ -153,8 +153,10 @@ class EnglishEntrybacklash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاردانەوە(توند)، بەرپەرچ‌دانەوە (لە لایەن ژمارەیێکی زۆری خەڵکەوە)، گەڕانەوە، ئاڵۆسکان، تێک‌ئاڵان، لێک‌ئاڵان
-
-١. (ناو) کاردانەوەی توندی کۆمەڵێک خەڵک بەرامبەر شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاردانەوەی توندی کۆمەڵێک خەڵک بەرامبەر شتێک"),
                           Row(
                             children: [
                               const Expanded(

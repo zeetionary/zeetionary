@@ -156,8 +156,11 @@ class EnglishEntryanvil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگا، سندان، زیندان، مێخ‌سندان، ئێسکی دەزگا(یی)، ئێسکۆلکەی دەزگایی
-
-١. (ناو) پارچە ئاسنێک کە ئاسنگەرێک پارچە کانزا دادەنا و بە چەکوش لێیان دەدات بۆ ڕێکخستنی شێوەکەیان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە ئاسنێک کە ئاسنگەرێک پارچە کانزا دادەنا و بە چەکوش لێیان دەدات بۆ ڕێکخستنی شێوەکەیان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

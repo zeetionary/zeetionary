@@ -147,8 +147,10 @@ class EnglishEntrybeady extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چکۆلە و خڕ، زەنگیانەیی، مورووئاسا، موروویی، کونەدەرزی، کونەسووژن
-
-١. (ھاوەڵناو) چاوی بچووک و خڕ و درەوشاوە؛ سەیرکردنی ھەموو شتێکی بە چاوێکی بز و زەقەوە چونکە گومانت ھەیە شتێکی ھەڵە و خراپ ڕوودەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) چاوی بچووک و خڕ و درەوشاوە؛ سەیرکردنی ھەموو شتێکی بە چاوێکی بز و زەقەوە چونکە گومانت ھەیە شتێکی ھەڵە و خراپ ڕوودەدات"),
                           Row(
                             children: [
                               const Expanded(

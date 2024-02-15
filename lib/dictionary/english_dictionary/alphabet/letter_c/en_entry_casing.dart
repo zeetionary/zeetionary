@@ -193,8 +193,9 @@ class EnglishEntrycasing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرگ، کیف، ڕووپۆش، قەباخ، ڕووکێش، چوارچێوە
-
-١. (ناو) بەرگێک کە شتێک دەپارێزێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەرگێک کە شتێک دەپارێزێت"),
                           Row(
                             children: [
                               const Expanded(

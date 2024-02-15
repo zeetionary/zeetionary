@@ -109,8 +109,9 @@ class EnglishEntryaffluent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵقوڵیو، گوڕبوو، لێشاو، زۆروزەبەند، دەوڵەمەند، خۆش‌گوزەران
-
-١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران" ""),
                           Row(
                             children: [
                               const Expanded(

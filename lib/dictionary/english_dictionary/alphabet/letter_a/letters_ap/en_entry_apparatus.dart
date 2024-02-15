@@ -158,8 +158,11 @@ class EnglishEntryapparatus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگا، کەرەسە، ئامێر، ڕەخت، ئامراز، کەل‌وپەل، دام‌ودەزگا، داوودەزگا
-
-١. (ناو) ئەو کەرەستانەی کە پێویستن بۆ چالاکییەک یان ئەرکێکی دیاریکراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو کەرەستانەی کە پێویستن بۆ چالاکییەک یان ئەرکێکی دیاریکراو"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

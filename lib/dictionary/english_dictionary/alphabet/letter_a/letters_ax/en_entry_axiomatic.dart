@@ -153,8 +153,11 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڵگەنەویست، (خۆ)دیار، بەرچاو، مسۆگەر، لەسەر بنچینەی بنەما یان پڕەنسیپی بەڵگەنەویست(ـەکان)
-
-١. (ھاوەڵناو) ھێندە ڕاست کە پێویستی بە بەڵگە نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھێندە ڕاست کە پێویستی بە بەڵگە نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

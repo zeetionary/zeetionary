@@ -147,8 +147,9 @@ class EnglishEntrybounty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەخشندەیی، بەدەھندەیی، دڵاوایی، دەسکراوەیی، چاوتێری، بەدەس‌ودڵی، بەخشین، یارمەتی، پیتاک، کۆمەک، ڕێژەن، پیت، بەرەکەت، بەرە، پیت و بەرەکەت، بەروبووم، نێعمەت، خەڵات (میری یان حکومەت)، پاداشت، دیاری، بەروبوو، بەرھەم
-
-١. (ھاوەڵناو) بەخشندەیی و دەستکراوەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بەخشندەیی و دەستکراوەیی"),
                           Row(
                             children: [
                               const Expanded(

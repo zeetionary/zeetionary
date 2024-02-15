@@ -104,8 +104,9 @@ class EnglishEntryabstention extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆبواردن، خودداری(کردن)، خۆڕاگرتن، نەکردن، لەخۆگرتنەوە، پێش‌خۆگرتن
-
-١. (ناو) بەژاداری نەکردن لە دەنگدان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەژاداری نەکردن لە دەنگدان" ""),
                           Row(
                             children: [
                               const Expanded(

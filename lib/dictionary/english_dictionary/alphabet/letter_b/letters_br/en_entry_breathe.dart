@@ -253,8 +253,10 @@ class EnglishEntrybreathe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەناسەدان، ھەناسە کێشان، نەفەس کێشان
-
-١. (کردار) ھەڵکێشانی ھەوا بۆ ناو سینەت و دانەوەی لە ڕێگەی دەم یان لووتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ھەڵکێشانی ھەوا بۆ ناو سینەت و دانەوەی لە ڕێگەی دەم یان لووتەوە"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,9 @@ class EnglishEntrycartoonist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاریکاتۆرکێش، کاریکاتۆریست
-
-١. (ناو) کەسێک کە کارتۆن دەکێشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە کارتۆن دەکێشێت"),
                           Row(
                             children: [
                               const Expanded(

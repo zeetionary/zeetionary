@@ -160,8 +160,11 @@ class EnglishEntryartefact extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەس‌کار، دەس‌کرد، دەس‌ساز 
-
-١. (ناو) پارچەیەکی دەستکرد کە لەلایەن کەسێکەوە درووست‌کراوە، بەتایبەتی شتێک کە گرنگی مێژوویی یان کەلتووری ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچەیەکی دەستکرد کە لەلایەن کەسێکەوە درووست‌کراوە، بەتایبەتی شتێک کە گرنگی مێژوویی یان کەلتووری ھەیە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

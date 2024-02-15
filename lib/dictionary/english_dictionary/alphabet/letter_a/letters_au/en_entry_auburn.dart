@@ -161,8 +161,10 @@ class EnglishEntryauburn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (قژ) ڕەنگی قاوەیی ئاماڵ سوور، خورمایی
-
-١. (ھاوەڵناو) ڕەنگی قاوەیی مەیلەو سوور"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕەنگی قاوەیی مەیلەو سوور" ""),
                           Row(
                             children: [
                               const Expanded(

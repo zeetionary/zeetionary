@@ -142,8 +142,10 @@ class EnglishEntrybrothel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قاحبەخانە، قەحبەخانە، حیزخانە، جندەخانە
-
-١. (ناو) شوێنێک کە خەڵکی تێدا سێکس دەکەن بە پارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شوێنێک کە خەڵکی تێدا سێکس دەکەن بە پارە"),
                           Row(
                             children: [
                               const Expanded(

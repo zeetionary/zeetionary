@@ -111,8 +111,9 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەس‌درێژی، دەساوێژی، شەڕان‌خوویی، دڕی
-
-١. (ناو) شەڕەنخوازی و توندوتیژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شەڕەنخوازی و توندوتیژی" ""),
                           Row(
                             children: [
                               const Expanded(

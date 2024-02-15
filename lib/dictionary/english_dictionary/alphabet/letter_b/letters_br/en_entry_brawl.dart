@@ -145,8 +145,10 @@ class EnglishEntrybrawl extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕوشۆڕ، شەڕەشەق، زرم‌وکوت، لێک‌سرەواندن، لێکدان، تێکبەربوون، ھەراوھوریا، چەق‌ولوور، قاڵمەقاڵ، چڕەوگوڕە، ھەرا
-
-١. (ناو) شەڕی نێوان گرووپێک لە خەڵکی، زۆرجار لە شوێنێکی گشتیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شەڕی نێوان گرووپێک لە خەڵکی، زۆرجار لە شوێنێکی گشتیدا"),
                           Row(
                             children: [
                               const Expanded(

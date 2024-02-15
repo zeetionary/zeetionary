@@ -153,8 +153,10 @@ class EnglishEntrybackhand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشت‌دەستی، پشدەستی، پشدەستە (لە تێنیس و ھتد)
-
-١. (ناو) بەشێوەیەک کە پشتەدەست ڕووی لەو ئاراستەیە کە تۆپەکەی بۆ دەھاوێژرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشێوەیەک کە پشتەدەست ڕووی لەو ئاراستەیە کە تۆپەکەی بۆ دەھاوێژرێت"),
                           Row(
                             children: [
                               const Expanded(

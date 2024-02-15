@@ -195,8 +195,10 @@ class EnglishEntrycertify extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشتڕاستکردنەوە، مسۆگەرکردن بڕوانامە پێدان، گەواھی پێدان
-
-١. (کردار) بە فەرمی گوتنی ئەوەی شتێک ڕاستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بە فەرمی گوتنی ئەوەی شتێک ڕاستە"),
                           Row(
                             children: [
                               const Expanded(

@@ -146,8 +146,10 @@ class EnglishEntrybonus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خەڵات، دەس‌خۆشانە، پاداشت، زیادی، سەرخراوە، سەربار، شتی زیادی، خاڵ
-
-١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"),
                           Row(
                             children: [
                               const Expanded(

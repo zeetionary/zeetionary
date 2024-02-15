@@ -148,8 +148,10 @@ class EnglishEntryblossom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خونچە، گوڵ، ول، چرۆ، کلووک، پژک(ووژ)، پشکۆژ، ھەڕاڵە، پۆخ(ڵە)، دۆخ یا ماوەی گوڵ‌کردن، ھەڕەت، جەنگە، تاف 
-
-١. (ناو) گوڵێک یان ژۆمەڵە گوڵێک، بەتایبەتی لەسەر رووەکێک کە میوە دەگرێت یان بنجدارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گوڵێک یان ژۆمەڵە گوڵێک، بەتایبەتی لەسەر رووەکێک کە میوە دەگرێت یان بنجدارە"),
                           Row(
                             children: [
                               const Expanded(

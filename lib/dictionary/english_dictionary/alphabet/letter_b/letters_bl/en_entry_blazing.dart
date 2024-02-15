@@ -146,8 +146,9 @@ class EnglishEntryblazing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گڕگرتوو، کڵپەکردوو، سووتێنەر، یەکجار گەرم، داگیرساو، درەوشاوە، بریقەدار، ورشن، ھەڵبوو، سوورەوەبوو، ئاشکرا، بەرچاو، توند
-
-١. (ھاوەڵناو) زۆر گەرم و ڕۆشن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر گەرم و ڕۆشن"),
                           Row(
                             children: [
                               const Expanded(

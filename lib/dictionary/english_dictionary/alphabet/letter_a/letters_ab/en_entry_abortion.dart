@@ -112,8 +112,11 @@ class EnglishEntryabortion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەباربردن، ھەڵکەندن، بەرخستن، بەرپێ‌خستن، بەراویتن، بەراویتە بوون
-
-١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

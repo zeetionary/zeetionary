@@ -110,8 +110,9 @@ class EnglishEntryacquisitive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەدەست‌ھێنەر، بەدەست‌خەر، زۆرخواز
-
-١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە" ""),
                           Row(
                             children: [
                               const Expanded(

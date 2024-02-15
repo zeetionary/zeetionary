@@ -147,8 +147,10 @@ class EnglishEntrybog extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەلکاو، زۆنگاو، گەناو، گەنگاو، ڕەشاو، تاڵاو، لیتاو، ئاودەس‌خانە 
-
-١. (ناو) ناوچەیەکی زەوی نەرم کە درووست بووە لە ڕووەکی خراپ بوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوچەیەکی زەوی نەرم کە درووست بووە لە ڕووەکی خراپ بوو"),
                           Row(
                             children: [
                               const Expanded(

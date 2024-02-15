@@ -155,8 +155,10 @@ class EnglishEntrybanishment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوورخستنەوە، شاربەدەرکردن، تاراندن
-
-١. (ناو) کرداری دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کرداری دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"),
                           Row(
                             children: [
                               const Expanded(

@@ -143,8 +143,10 @@ class EnglishEntrybrevity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کورت‌ماوەیی، تیژپەڕی، کەمدوو، نابەردەوامی، کورتی، پوختی
-
-١. (ناو) بەکارھێنانی وشەی کەم لە قسەکردندا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەکارھێنانی وشەی کەم لە قسەکردندا"),
                           Row(
                             children: [
                               const Expanded(

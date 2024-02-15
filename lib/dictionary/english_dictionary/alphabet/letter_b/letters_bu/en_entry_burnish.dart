@@ -190,8 +190,10 @@ class EnglishEntryburnish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زاخاو، مشت‌وماڵ، سیوسیوە، بریسکانەوە، درەوشانەوە، ورشە، بریق‌وھۆڕ
-
-١. (کردار) پاککردنەوە تا ئەوەندەی لووس و درەوشاوە بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پاککردنەوە تا ئەوەندەی لووس و درەوشاوە بێت"),
                           Row(
                             children: [
                               const Expanded(

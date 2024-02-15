@@ -254,8 +254,9 @@ class EnglishEntrybrave extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەزات، بەجەرگ، چاوسوور، وەند، ئازا، پۆڵاخۆر، شێرکرۆژ، نەبەرد، بوێر، دلێر، مێرخاس، بێ‌باک، مەرد، نەترس، ئازایانە، نەترسانە، بەشکۆ، بەرز 
-
-١. (ھاوەڵناو) ئازا و چاونەترس"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ئازا و چاونەترس"),
                           Row(
                             children: [
                               const Expanded(

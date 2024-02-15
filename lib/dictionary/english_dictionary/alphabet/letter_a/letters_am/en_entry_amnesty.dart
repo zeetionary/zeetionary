@@ -177,8 +177,11 @@ class EnglishEntryamnesty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێ‌بوردن، بەخشین، لێ‌خۆشبوون (گشتی)، تەنگەتاوی، موڵەت، دەرفەت
-
-١. (ناو) لێبوردن لە زیندانیان یان ئەو کەسانەی تاوانیان کردووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لێبوردن لە زیندانیان یان ئەو کەسانەی تاوانیان کردووە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

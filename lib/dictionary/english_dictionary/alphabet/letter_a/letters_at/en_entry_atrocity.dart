@@ -161,8 +161,11 @@ class EnglishEntryatrocity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌بەزەییێتی، ھۆڤیگەری، دڵڕەقی، دڕندەیی، خوێن‌ڕێژی، زەبروزەنگ، توندوتیژی، کردەوەی دڕندانە
-
-١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

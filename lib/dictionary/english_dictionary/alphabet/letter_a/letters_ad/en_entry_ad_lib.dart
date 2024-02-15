@@ -110,8 +110,11 @@ class EnglishEntryadlib extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆوێژی، سەرپێیی، بێ‌ئامادەبوون، بێ‌ئامادەیی، بێ‌بیر لێ‌کردنەوە، ئازادانە، بێ‌ھیچ بەربەستێ، ھەر ئەندازە، بێ‌بەربەستانە
-
-١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

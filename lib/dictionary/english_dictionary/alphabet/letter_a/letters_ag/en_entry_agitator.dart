@@ -110,8 +110,11 @@ class EnglishEntryagitator extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شاڵاوکار، ھەڵمەتیار، ڕاگەیێنەر، ھاندەر، بزوێنەر، ئاژاوەگێڕ، پشێوی‌نەرەوە، ئاگرنەرەوە، شارشێوێن، (ئامێر) شڵەقێنە(ر)
-
-١. (ناو) کەسێک کە ھەوڵ دەدات خەڵکی ڕازی بکات بەژداری ناڕەزایی بکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ھەوڵ دەدات خەڵکی ڕازی بکات بەژداری ناڕەزایی بکەن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

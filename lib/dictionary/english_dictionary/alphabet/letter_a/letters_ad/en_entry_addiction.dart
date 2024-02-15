@@ -109,8 +109,9 @@ class EnglishEntryaddiction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیرۆدەیی، خووگرتن، ئالوودەیی، فێربوون
-
-١. (ناو) ئاڵوودەیی بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ئاڵوودەیی بە شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

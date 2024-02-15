@@ -198,8 +198,10 @@ class EnglishEntrycelsius extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سیلیزی، سەدی، سانتی‌گراد، بەپێی سانتی‌گراد، سەدپلەیی
-
-١. (ناو) پێوەرێکی پلەی گەرمی کە تێیدا ئاو لە ٠ پلە دەیبەستێت و لە ١٠٠ پلە دەکوڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پێوەرێکی پلەی گەرمی کە تێیدا ئاو لە ٠ پلە دەیبەستێت و لە ١٠٠ پلە دەکوڵێت"),
                           Row(
                             children: [
                               const Expanded(

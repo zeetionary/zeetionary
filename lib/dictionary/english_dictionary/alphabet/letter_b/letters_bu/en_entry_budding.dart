@@ -142,8 +142,10 @@ class EnglishEntrybudding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ساوا، کۆرپە، تازەکوورە، تازەپشکوتوو
-
-١. (ھاوەڵناو) لە سەرەتای تەمەن یان سەرکەوتندا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) لە سەرەتای تەمەن یان سەرکەوتندا"),
                           Row(
                             children: [
                               const Expanded(

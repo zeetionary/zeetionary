@@ -159,8 +159,11 @@ class EnglishEntryappendicitis extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەلەڕیخۆڵە ئاوسان، ئاوسانی پەلەڕیخۆڵە، پەلەڕیخۆڵەئاوسێ، ھەوکردنی پەلەڕیخۆڵە
-
-١. (ناو) دۆخێکی تەندرووستی کە تێیدا پەلەڕیخۆڵە تووشی ئازار و ھەوکردن دەبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆخێکی تەندرووستی کە تێیدا پەلەڕیخۆڵە تووشی ئازار و ھەوکردن دەبێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

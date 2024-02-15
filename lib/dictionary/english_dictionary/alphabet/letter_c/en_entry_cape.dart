@@ -189,8 +189,10 @@ class EnglishEntrycape extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆڵوانە، چارەکە، چارۆکە، تەرگە
-
-١. (ناو) جلێکی فش کە قۆڵی نییە و دەدرێت بەسەر شاندا، وەک عەبا وایە بەڵام کورتترە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جلێکی فش کە قۆڵی نییە و دەدرێت بەسەر شاندا، وەک عەبا وایە بەڵام کورتترە"),
                           Row(
                             children: [
                               const Expanded(

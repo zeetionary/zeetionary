@@ -146,8 +146,10 @@ class EnglishEntrybony extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئێسک‌وپروسک، ئێسکن، ئێسک‌ئاسا، لاواز، ڕەقەڵ، پڕلەدڕوو (ماسی)
-
-١. (ھاوەڵناو) کەسێک زۆر باریک کو ئێسکەکانی لەژێر پێستی دەبینرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک زۆر باریک کو ئێسکەکانی لەژێر پێستی دەبینرێت"),
                           Row(
                             children: [
                               const Expanded(

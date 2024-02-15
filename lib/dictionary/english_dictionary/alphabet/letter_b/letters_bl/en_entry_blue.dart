@@ -303,8 +303,10 @@ class EnglishEntryblue extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شین، کەو، نیلی، ھەش، ئاسمانی، مات، خەمبار، کز، دڵتەنگ، پیس، ناشیرین، ھەرزە، (نافەرمی، بریتانیا، لە باری سیاسی‌یەوە) کۆنەپارێز، ڕەنگی شین، بەرگی شین، دەریا، زەریا، ئاسمان
-
-١. (ھاوەڵناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"),
                           Row(
                             children: [
                               const Expanded(

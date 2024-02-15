@@ -304,8 +304,9 @@ class EnglishEntrybump extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێک‌کەوتن، لێک‌کەوتن (سووک)، لێدان، مشت، چەپۆکە، پەنەمان، ماس، ماسین، ھەڵماسین، ھەڵتۆقان، دەرپەڕیوی، ھەڵتۆقیوی، چاڵی‌وچۆڵی، ناڕێکی، تەکان یان جووڵەی کت‌وپڕ (لە فڕۆکەدا)، دەنگی بامب، لەناکاو، لەپڕێکدا، کت‌وپڕانە
-
-١. (کردار) لێدان لە شتێک بە ڕێکەوت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) لێدان لە شتێک بە ڕێکەوت"),
                           Row(
                             children: [
                               const Expanded(

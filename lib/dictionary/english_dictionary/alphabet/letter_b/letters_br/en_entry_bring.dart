@@ -334,8 +334,9 @@ class EnglishEntrybring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێنان، گەیاندن، بوون بە ھۆ (ھۆکار)
-
-١. (کردار) ھێنانی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ھێنانی شتێک"),
                           Row(
                             children: [
                               const Expanded(

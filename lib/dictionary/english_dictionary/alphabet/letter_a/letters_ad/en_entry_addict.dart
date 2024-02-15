@@ -110,8 +110,11 @@ class EnglishEntryaddict extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (بنیادەمی) گیرۆدە، خووپێ‌گرتوو، ئالوودە، فێر، سەوداسەر، دیل، ھۆگر، گیرۆدە
-
-١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

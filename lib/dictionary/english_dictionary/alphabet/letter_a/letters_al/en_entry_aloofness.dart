@@ -111,8 +111,10 @@ class EnglishEntryaloofness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆشەگیری، لاتەریکی، لە خەڵک پرینگانەوە، دوورەپەرێزی
-
-١. (ھاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

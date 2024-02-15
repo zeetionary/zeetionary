@@ -149,8 +149,10 @@ class EnglishEntrybodily extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەشی، جەستەیی، تەنی، تەنانی، بەتەواوەتی، یەک‌تەکان، یەک‌پارچە، بەگشتی
-
-١. (ھاوەڵناو) پەیوەندیدار بە جەستەی مرۆڤەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە جەستەی مرۆڤەوە"),
                           Row(
                             children: [
                               const Expanded(

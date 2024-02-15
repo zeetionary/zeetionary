@@ -112,8 +112,11 @@ class EnglishEntryairtoair extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاسمان بۆ ئاسمان، ھەوا بە ھەوا، فڕۆکە بە فڕۆکە
-
-١. (ھاوەڵناو) موشەکێک کە لە ئاسمانەوە دەھاوءژرێت بۆ ئامانجێک کە لە ئاسمانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) موشەکێک کە لە ئاسمانەوە دەھاوءژرێت بۆ ئامانجێک کە لە ئاسمانە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

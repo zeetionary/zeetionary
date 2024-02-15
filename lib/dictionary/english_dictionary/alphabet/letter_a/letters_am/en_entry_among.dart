@@ -178,8 +178,11 @@ class EnglishEntryamong extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لە) نێوان، لەنێو، لەنێوەڕاست، ل ئۆرتا، لە ڕێزەی، یەکێ لە
-
-١. (ئامراز) دەوردراو بە کەسێک/شتێک، لە ناوەڕاستی کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ئامراز) دەوردراو بە کەسێک/شتێک، لە ناوەڕاستی کەسێک/شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

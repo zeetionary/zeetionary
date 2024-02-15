@@ -147,8 +147,10 @@ class EnglishEntrybeard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕیش، ڕدێن، قەڵتاس، قەڵپنگ، داسوو، بژ، پژ، قژی گەنمەشامی، خوڵامانە، بسکۆڵ، کاکۆڵ
-
-١. (ناو) ڕیش؛ مووی چەناگە و لایەکانی ڕووخساری کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕیش؛ مووی چەناگە و لایەکانی ڕووخساری کەسێک"),
                           Row(
                             children: [
                               const Expanded(

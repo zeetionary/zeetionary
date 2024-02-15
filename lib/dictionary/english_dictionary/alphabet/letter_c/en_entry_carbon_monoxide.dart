@@ -194,8 +194,10 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاکۆکساید یان یەکۆکسایدی کاربۆن CO
-
-١. (ناو) مادەیەکی ژەھراوی کە درووست دەبێت کە کاربۆن کەمێک دەسووتێت بەڵام بە تەواوی نا. درووست دەبێت کە بەنزین لە بزوێنەری ئۆتۆمبێلدا دەسووتێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی ژەھراوی کە درووست دەبێت کە کاربۆن کەمێک دەسووتێت بەڵام بە تەواوی نا. درووست دەبێت کە بەنزین لە بزوێنەری ئۆتۆمبێلدا دەسووتێت"),
                           Row(
                             children: [
                               const Expanded(

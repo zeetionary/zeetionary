@@ -146,8 +146,10 @@ class EnglishEntrybodyguard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پارێزکار یان دەستەی پارێزکاران، پارێزەر یان پاسەوانی کەسێ
-
-١. (ناو) کەسێک یان کۆمەڵە کەسێک کە کاریان پاراستنی کەسێکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک یان کۆمەڵە کەسێک کە کاریان پاراستنی کەسێکە"),
                           Row(
                             children: [
                               const Expanded(

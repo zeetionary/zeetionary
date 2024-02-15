@@ -145,8 +145,10 @@ class EnglishEntryblotch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لکە، لەکە، پەڵە، تەوقن
-
-١. (ناو) نیشانەیەک کە شێوەی دیاریکراوی نییە لەسەر پێست، ڕووەک، یان مادەی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نیشانەیەک کە شێوەی دیاریکراوی نییە لەسەر پێست، ڕووەک، یان مادەی تر"),
                           Row(
                             children: [
                               const Expanded(

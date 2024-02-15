@@ -113,8 +113,9 @@ class EnglishEntryalienation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیانێتی، بێگانەیی، نامۆیی، لاتەریکی، گۆشەگیری، تەنیایی، لەخونامۆبوون، خۆلێ‌گۆڕان، لەخۆبوونەوە، بێ‌خۆیی، ڕاگوێستن، بەنێوکردن، فرۆشتن، (دەروون‌ناسی) شێتی
-
-١. (ناو) دوورەپەرێزبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دوورەپەرێزبوون" ""),
                           Row(
                             children: [
                               const Expanded(

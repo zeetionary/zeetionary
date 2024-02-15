@@ -147,8 +147,10 @@ class EnglishEntrybenchmark extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێوەر، پێودانگ، ئەندازە، پێوانە، ھەڵسەنگێنە، (لە خانووسازی‌دا) نیشان، نیشانە
-
-١. (ناو) شتێک کە دەکرێت وەک پێوەری ستاندارد بەکاربێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە دەکرێت وەک پێوەری ستاندارد بەکاربێت"),
                           Row(
                             children: [
                               const Expanded(

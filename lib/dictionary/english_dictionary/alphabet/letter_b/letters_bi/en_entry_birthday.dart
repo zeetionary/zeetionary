@@ -147,8 +147,9 @@ class EnglishEntrybirthday extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆژەزا، ڕۆژی لەدایک‌بوون، زا(د)ڕۆژ، جەژن یان ئاھەنگی لە دایک‌بوون، زاسووران
-
-١. (ناو) ڕۆژی لەدایکبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕۆژی لەدایکبوون"),
                           Row(
                             children: [
                               const Expanded(

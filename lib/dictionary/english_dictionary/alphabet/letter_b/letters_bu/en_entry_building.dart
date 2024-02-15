@@ -147,8 +147,10 @@ class EnglishEntrybuilding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خانووبەرە، بنیات، بنیاد، دەزگا، خانی، ماڵ، باڵاخانە، خانەسازی، قوڕەکاری، خانوو دروست‌کردن
-
-١. (ناو) بینایەک، بۆ نموونە خانوو یان قوتابخانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بینایەک، بۆ نموونە خانوو یان قوتابخانە"),
                           Row(
                             children: [
                               const Expanded(

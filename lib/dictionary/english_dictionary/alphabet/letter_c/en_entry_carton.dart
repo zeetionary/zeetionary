@@ -194,8 +194,10 @@ class EnglishEntrycarton extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاریکاتۆر، کارتۆن، نەخشە 
-
-١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و ھەواڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و ھەواڵ"),
                           Row(
                             children: [
                               const Expanded(

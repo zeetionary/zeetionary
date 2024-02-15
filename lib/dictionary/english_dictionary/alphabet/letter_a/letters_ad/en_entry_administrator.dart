@@ -113,8 +113,11 @@ class EnglishEntryadministrator extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڕێوەبەر، کارگێڕ، سەرۆک، ھەڵسووڕینەر، ڕێڤەبەر، ڕێکخەر، سەرپەرشت، سەرپەرست
-
-١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

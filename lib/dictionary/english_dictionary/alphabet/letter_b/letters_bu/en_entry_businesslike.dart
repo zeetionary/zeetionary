@@ -190,8 +190,10 @@ class EnglishEntrybusinesslike extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەکار، سوور، ڕشت، ڕێک‌وپێک، لێھاتوو، کاریگەر، سیستماتیک
-
-١. (ھاوەڵناو) کەسێک کە بە ڕێکخراوی و بەبێ کات بەفیڕۆدان کاردەکات بەبێ بیرکردنەوە لە بابەتی کەسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە بە ڕێکخراوی و بەبێ کات بەفیڕۆدان کاردەکات بەبێ بیرکردنەوە لە بابەتی کەسی"),
                           Row(
                             children: [
                               const Expanded(

@@ -94,8 +94,10 @@ class EnglishEntryAbbess extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دایکە سەرۆکی دەیر، سەردەیر، (ژنە)ڕەبەنی مەزن
-
-١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

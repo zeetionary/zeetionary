@@ -113,8 +113,11 @@ class EnglishEntryaluminium extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فافۆن، ئاڵومینیۆم
-
-١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

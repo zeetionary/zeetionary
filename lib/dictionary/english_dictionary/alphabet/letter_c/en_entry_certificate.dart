@@ -194,8 +194,10 @@ class EnglishEntrycertificate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەنەد، گەواھی، بڕوانامە، باوەڕنامە، تەسیق، شاتنامە
-
-١. (ناو) بەڵگەنامە کە دەکرێت بەکاربێت بۆ پشتڕاستکردنەوەی زانیارییەکانی سەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەڵگەنامە کە دەکرێت بەکاربێت بۆ پشتڕاستکردنەوەی زانیارییەکانی سەری"),
                           Row(
                             children: [
                               const Expanded(

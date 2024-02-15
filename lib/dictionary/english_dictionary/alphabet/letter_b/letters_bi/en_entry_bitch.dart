@@ -148,8 +148,8 @@ class EnglishEntrybitch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دێڵ، دێڵەسەگ، مێ یان دێڵی گورگ، ڕێوی، سمۆری ئاوی، سکاڵا، پرتەوبۆڵە، کێشەنەرەوە، بێ‌حەیا، ژنی ھەرزە و لەش‌فرۆش، سەڵیتە
-
-١. (ناو) سەگی مێینە"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) سەگی مێینە"),
                           Row(
                             children: [
                               const Expanded(

@@ -154,8 +154,9 @@ class EnglishEntrybadtempered extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەدخوو، بەدڕەفتار، بەدفەڕ، ناجسن، ڕووتاڵ
-
-١. (ھاوەڵناو) زۆرجار تووڕە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆرجار تووڕە"),
                           Row(
                             children: [
                               const Expanded(

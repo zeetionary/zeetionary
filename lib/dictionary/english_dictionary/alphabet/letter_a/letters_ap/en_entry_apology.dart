@@ -159,8 +159,11 @@ class EnglishEntryapology extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داوای لێبوردن، لێبوردن‌خوازی، عوزرمایی، عوزرخوازی
-
-١. (ناو) داوای لێبووردن کردن، دەربڕینی پەشیمانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) داوای لێبووردن کردن، دەربڕینی پەشیمانی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

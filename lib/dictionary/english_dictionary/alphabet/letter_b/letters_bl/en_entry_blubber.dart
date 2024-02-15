@@ -146,8 +146,10 @@ class EnglishEntryblubber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیو، بەز، چەوری (گیانەوەر دەریایی‌یەکان)، ھەنسک، لووشکە، خرینگی، (لێو) ئەستوور، کولێرەیی
-
-١. (ناو) چەوری نەھەنگ و گیانلەبەرە دەریاییەکانی دیکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چەوری نەھەنگ و گیانلەبەرە دەریاییەکانی دیکە"),
                           Row(
                             children: [
                               const Expanded(

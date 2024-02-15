@@ -511,8 +511,10 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەلای، نزیکی، لەپاڵ، لەتەنیشت، لەکن، ل نک، لە قەراخ، لە، لەڕێگای، بەڕێگای، بەھۆی، لەلایەن، لەگەڵ، بە، بەپێی، بەگوێرەی، بەدرێژایی، بەدرێژی، لەباری، لەبواری، لە دەوروبەری، لە پێشەوە
-
-١. (ئامراز) بۆ پیشاندانی ئەوەی چۆن یان بە چی شێوەیەک شتێک دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ئامراز) بۆ پیشاندانی ئەوەی چۆن یان بە چی شێوەیەک شتێک دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

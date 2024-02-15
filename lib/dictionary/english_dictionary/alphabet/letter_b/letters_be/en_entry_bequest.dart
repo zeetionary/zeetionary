@@ -147,8 +147,10 @@ class EnglishEntrybequest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: میرات، بەش، بۆماوە، کەلەپوور، بەجێ‌ھێشتنی میرات یان کەلەپوور
-
-١. (ھاوەڵناو) سەروەت و سامان کە داوا دەکەیت بدرێت کەسێک لە دوای مردنت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) سەروەت و سامان کە داوا دەکەیت بدرێت کەسێک لە دوای مردنت"),
                           Row(
                             children: [
                               const Expanded(

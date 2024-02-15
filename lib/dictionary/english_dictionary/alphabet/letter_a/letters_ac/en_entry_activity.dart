@@ -120,8 +120,11 @@ class EnglishEntryactivity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاکی، گورجێتی، سووربوون، شێلگیری، بەڕشتی، ئازایی، بەکاری، بزاوت، بزووتنەوە، جم‌وجۆڵ، کردەوە، کردار، سەرقاڵی، سەرگەرمی، چالاکی، ڕابواردن
-
-١. (ناو) شتێک کە دەیکەیت لەبەرئەوەی حەزی لێیە یان چێژی لێ دەبینی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە دەیکەیت لەبەرئەوەی حەزی لێیە یان چێژی لێ دەبینی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

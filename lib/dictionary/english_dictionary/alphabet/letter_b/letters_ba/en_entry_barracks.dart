@@ -147,8 +147,10 @@ class EnglishEntrybarracks extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەربازخانە، بنکە، سەربازگە، سپاخانە
-
-١. (ھاوەڵناو) بینایەک یان کۆمەڵە بینایەکی گەورە بۆ ئەوەی سەرباز تێیدا بژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بینایەک یان کۆمەڵە بینایەکی گەورە بۆ ئەوەی سەرباز تێیدا بژی"),
                           Row(
                             children: [
                               const Expanded(

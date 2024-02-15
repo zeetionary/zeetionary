@@ -342,8 +342,9 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مێشک، مێژەڵاک، مەژی، مێژی، مۆخ، دەماخ، عەقڵ، ئاوەز، ھۆش، تێگەیشتن، مرۆی زیرەک و بەھۆش، بیریار، ھزرڤان، مێشک، مەغز (بۆ خواردن)، ڕێکخەری سەرەکی، زیرەک
-
-١. (ناو) مێشکی مرۆڤ و ئاژەڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) مێشکی مرۆڤ و ئاژەڵ"),
                           Row(
                             children: [
                               const Expanded(

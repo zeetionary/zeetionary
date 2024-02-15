@@ -158,8 +158,11 @@ class EnglishEntryaqueduct extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوبارە، بۆت، بۆتک، قەمتەرە، کەتوو، ئاوەڕۆ، جۆگاو، (توێکاری) جۆگە، بۆری، شلەڕۆ
-
-١. (ناو) بینایەک کە لە شێوەی پردێکدایە و ئاو دەگوازێتەوە بەسەر دۆڵێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بینایەک کە لە شێوەی پردێکدایە و ئاو دەگوازێتەوە بەسەر دۆڵێکدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

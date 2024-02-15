@@ -159,8 +159,10 @@ class EnglishEntryarchipelago extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆدورگە، کۆمەڵە دورگە، کۆمەڵە گرئاڤ
-
-١. (ناو) کۆمەڵە دوورگەیەک لە ناو ئاودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆمەڵە دوورگەیەک لە ناو ئاودا" ""),
                           Row(
                             children: [
                               const Expanded(

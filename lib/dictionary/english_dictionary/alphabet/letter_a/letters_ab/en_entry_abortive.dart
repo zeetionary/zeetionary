@@ -103,8 +103,9 @@ class EnglishEntryabortive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێھوودە، بێ‌ئەنجام، سەرنەکەوتوو، تێ‌شکاو، بەفیڕۆ، بێ‌بەر، سەرنەگرتوو، نەزۆک، ھەڵنەداو، پەرەنەسەندوو، ڕاگیراو لە پەرەسەندن یان گەشەسەندن‌دا
-
-١. (ھاوەڵناو) کارێکی شکستخواردوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کارێکی شکستخواردوو" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -94,8 +94,11 @@ class EnglishEntryabyss extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قووڵایی، بێ‌بنی، چاڵی بێ‌بن، یەکجار قووڵ، کەندڕ، نغرۆ؟، کەندەڵان، کەلێن (زۆر قووڵ)
-
-١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

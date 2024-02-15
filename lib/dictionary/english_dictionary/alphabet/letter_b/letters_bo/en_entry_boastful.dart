@@ -145,8 +145,10 @@ class EnglishEntryboastful extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆھەڵێکش، بەھاڕەوگیفە، بەلاف‌وگەزاف، لەخۆبایی، فیزن، تڕزل، پێوەنازیو، بەتڕوتۆپ
-
-١. (ھاوەڵناو) قسەکردن لەسەر خۆت بە شانازی و فیزەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) قسەکردن لەسەر خۆت بە شانازی و فیزەوە"),
                           Row(
                             children: [
                               const Expanded(

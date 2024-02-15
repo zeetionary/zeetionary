@@ -198,8 +198,10 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژووری کارداری یان بازرگانی
-
-١. (ناو) دامەزراوەی کۆمەڵە بازرگانێک کە پێکەوە کار دەکەن بۆ گەشەپێدانی و بازرگانی و مامەڵە لە ناوچەیەکی دیاریکراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دامەزراوەی کۆمەڵە بازرگانێک کە پێکەوە کار دەکەن بۆ گەشەپێدانی و بازرگانی و مامەڵە لە ناوچەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(

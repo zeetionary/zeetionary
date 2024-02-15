@@ -113,8 +113,9 @@ class EnglishEntryadhesive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێوەنووساو، چەسپۆک، زووپێوەنووساو، مەتریاڵی پێوەنووساو، مادەی چەسپیو یان لیچق، لەزگە، چەسپ
-
-١. (ناو) مادەیەک کە دەلکێت بە شتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) مادەیەک کە دەلکێت بە شتەوە" ""),
                           Row(
                             children: [
                               const Expanded(

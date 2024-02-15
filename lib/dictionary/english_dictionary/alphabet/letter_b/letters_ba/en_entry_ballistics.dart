@@ -154,8 +154,10 @@ class EnglishEntryballistics extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوێژەناسی، زانستی ھاوێژەمەنی، زانستی بزوانی شتە ھاوێژراوەکان؛ تایبەتمەندی فڕینی ھاوێژەکان
-
-١. (ناو) لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک"),
                           Row(
                             children: [
                               const Expanded(

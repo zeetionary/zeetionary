@@ -193,8 +193,10 @@ class EnglishEntrycarelessness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتەنگەوەنەبوون، گوێ‌پێنەدان، بێ‌سەرنجێتی، سەرچڵی، کەترەیی، ھەڵەشەیی، لامسەرلایی، کەمتەرخەمی
-
-١. (ناو) کەمی سەرنج و گرنگیدان لەوەی دەیکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەمی سەرنج و گرنگیدان لەوەی دەیکەیت"),
                           Row(
                             children: [
                               const Expanded(

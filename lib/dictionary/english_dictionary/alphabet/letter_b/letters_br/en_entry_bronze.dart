@@ -145,8 +145,10 @@ class EnglishEntrybronze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەفرغ، تونج، مەفرەخ، شتی مەفرەخی، شوێنەواری مەفرەخی (وەکوو پەیکەر)، زەردی قاوەیی، قاوەیی سوورباو، مەفرەخی
-
-١. (ناو) کانزایەکی سووری قاوەیی باو درووست دەکرێت بە تێکەڵکردنی مس و قەڵای"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کانزایەکی سووری قاوەیی باو درووست دەکرێت بە تێکەڵکردنی مس و قەڵای"),
                           Row(
                             children: [
                               const Expanded(

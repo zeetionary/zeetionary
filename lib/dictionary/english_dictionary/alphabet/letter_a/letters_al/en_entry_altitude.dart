@@ -110,8 +110,9 @@ class EnglishEntryaltitude extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرزایی، بەرزی، بڵیندایی، گڤاندە
-
-١. (ناو) بەرزایی لە سەروو ئاستی دەریا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەرزایی لە سەروو ئاستی دەریا" ""),
                           Row(
                             children: [
                               const Expanded(

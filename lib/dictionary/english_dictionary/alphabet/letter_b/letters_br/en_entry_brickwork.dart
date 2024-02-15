@@ -141,8 +141,10 @@ class EnglishEntrybrickwork extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خشت‌کاری، انووبەرەی خشتی، خشتکرد
-
-١. (ناو) ئەو خشتانەی بەکارھێنراون بۆ درووستکردنی بینایەک، دیوارێک، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو خشتانەی بەکارھێنراون بۆ درووستکردنی بینایەک، دیوارێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(

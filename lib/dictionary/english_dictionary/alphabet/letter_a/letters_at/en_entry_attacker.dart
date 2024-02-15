@@ -161,8 +161,9 @@ class EnglishEntryattacker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێرش‌بەر، پەلاماردەر
-
-١. (ناو) کەسێکی ھێرشکار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێکی ھێرشکار" ""),
                           Row(
                             children: [
                               const Expanded(

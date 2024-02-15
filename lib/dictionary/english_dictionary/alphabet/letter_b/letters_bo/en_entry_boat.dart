@@ -148,8 +148,10 @@ class EnglishEntryboat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەمی، لۆتکە، بەلەم، ناوە، کەشتی (چکۆلە)
-
-١. (ناو) ئامرازێکی گواستنەوە کە گەشت دەکات لەسەر ئاو و دەجوڵێندرێت بە سەوڵ، چارۆکە، یان بزوێنەرێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئامرازێکی گواستنەوە کە گەشت دەکات لەسەر ئاو و دەجوڵێندرێت بە سەوڵ، چارۆکە، یان بزوێنەرێک"),
                           Row(
                             children: [
                               const Expanded(

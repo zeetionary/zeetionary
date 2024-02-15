@@ -144,8 +144,10 @@ class EnglishEntrybrass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەرد، برنج، کالان، کەل‌وپەل یان شت‌ومەکی لە زەرد، ئامێرە زەردەکان، پارە، پووڵ، ڕووداری، بێ‌شەرمی
-
-١. (ناو) کانزایەکی ڕۆشنی زەرد کە لە مس و زینک درووست بووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کانزایەکی ڕۆشنی زەرد کە لە مس و زینک درووست بووە"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycache extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: عەمباری نھێنی، نھێنگە، ھەڵگرتنگە، پەناگە، حەشارگە (نھێنی)، کۆگا یان عەمباری کاتی (چەک‌وچۆڵ، خۆراک و ھتد)، (کامپیوتێڕ) یادگەی نھێنی، حەشارگە
-
-١. (ناو) حەشارگەی نھێنی، بۆ نموونە بۆ چەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) حەشارگەی نھێنی، بۆ نموونە بۆ چەک"),
                           Row(
                             children: [
                               const Expanded(

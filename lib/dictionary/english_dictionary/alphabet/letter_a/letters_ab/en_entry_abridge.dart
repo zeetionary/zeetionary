@@ -94,8 +94,11 @@ class EnglishEntryabridge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کورتکردنەوە، زەوتکردن
-
-١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -159,8 +159,11 @@ class EnglishEntryappreciable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەست‌پێکراو، بینراو، شیاوی نرخاندن، بەرچاو، دیار، گەورە
-
-١. (ھاوەڵناو) بەشی ھێندە گەورە بێت کە ببینرێت یان بە گرنگ دابنرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بەشی ھێندە گەورە بێت کە ببینرێت یان بە گرنگ دابنرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

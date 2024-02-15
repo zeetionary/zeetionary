@@ -147,8 +147,10 @@ class EnglishEntrybenediction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دۆعا، نزا
-
-١. (ناو) نزای داواکردن لە خودا بۆ پاراستنی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نزای داواکردن لە خودا بۆ پاراستنی کەسێک"),
                           Row(
                             children: [
                               const Expanded(

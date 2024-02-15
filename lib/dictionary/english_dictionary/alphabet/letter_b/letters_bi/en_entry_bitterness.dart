@@ -147,8 +147,10 @@ class EnglishEntrybitterness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توندی، تاڵی، ناخۆشی، سەختی
-
-١. (ناو) ھەستی تووڕەیی و دڵتەنگی بەھۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەستی تووڕەیی و دڵتەنگی بەھۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"),
                           Row(
                             children: [
                               const Expanded(

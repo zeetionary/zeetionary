@@ -109,8 +109,9 @@ class EnglishEntryafraid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆقیو، ترساو، ترس‌لێ‌نیشتوو، سڵ‌کەر، دڵ‌لەدوا، نیگەران
-
-١. (ھاوەڵناو) ترساو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ترساو" ""),
                           Row(
                             children: [
                               const Expanded(

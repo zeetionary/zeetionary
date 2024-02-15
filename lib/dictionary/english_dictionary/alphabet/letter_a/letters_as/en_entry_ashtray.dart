@@ -160,8 +160,11 @@ class EnglishEntryashtray extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژێرسیگاری، تەپڵەک، ژێر سێغاری، ژێرجگەرە، جێ سووتوو
-
-١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

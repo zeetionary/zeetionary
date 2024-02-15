@@ -154,8 +154,11 @@ class EnglishEntryamphetamine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئامفێتامین، ئامفیتامین، ئەمفێتامین
-
-١. (ناو) دەرمانێ کە وات لێ‌دەکا ھەست بە ورووژان و ھێز و وزەیەکی زۆر بکەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دەرمانێ کە وات لێ‌دەکا ھەست بە ورووژان و ھێز و وزەیەکی زۆر بکەی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

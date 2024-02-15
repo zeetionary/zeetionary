@@ -160,8 +160,9 @@ class EnglishEntryapproximately extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نزیکەی، بە مەزندە، لە دەوروبەری، بڵێین، تەقریبەن، تا ئەندازەیێ، بەلای نزیکی‌یەوە
-
-١. (ھاوەڵکار) بەنزیکەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بەنزیکەیی" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -194,8 +194,10 @@ class EnglishEntrycavity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەلێن، چاڵ، قووڵکە، کرمێ‌بوون، کرم‌خواردن، ڕەش‌بوونەوە (ددان)، کلۆر، بۆشایی، ڤاڵایی
-
-١. (ناو) چاڵێک یان بۆشاییەک لەناو شتێکی ڕەقدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چاڵێک یان بۆشاییەک لەناو شتێکی ڕەقدا"),
                           Row(
                             children: [
                               const Expanded(

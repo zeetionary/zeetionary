@@ -153,8 +153,11 @@ class EnglishEntryannuity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بڕانەی ساڵانە، ساڵانە، بیمەی مووچەی ساڵانە، حەق و مافی وەرگرتنی بڕانەی ساڵانە
-
-١. (ناو) بڕە پارەیەکی دیاریکراو کە دەدرێت بە کەسێک تا مردنی، زۆرجار وەک بەشێک لە بیمەنامەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بڕە پارەیەکی دیاریکراو کە دەدرێت بە کەسێک تا مردنی، زۆرجار وەک بەشێک لە بیمەنامەیەک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

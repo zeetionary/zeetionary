@@ -190,8 +190,10 @@ class EnglishEntrybuzzard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی:  شمقار، باشوو، داڵ(ەکەرخۆر)، تاسکەچەلە، سیسارگ، سەرگەڕ، گەوج، کەر
-
-١. (ناو) باڵندەیەکی ڕاوکەری ئەورووپی لە خێزانی باز"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) باڵندەیەکی ڕاوکەری ئەورووپی لە خێزانی باز"),
                           Row(
                             children: [
                               const Expanded(

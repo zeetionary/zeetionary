@@ -328,8 +328,9 @@ class EnglishEntrybrush extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فڵچە، بڕۆس، پەڕەمووچ، کلکی ڕێوی، دەوەن، دارۆکە، بێشە، دڕوو، سێرت، دڕک، جاڕەدەوەن، وشکەڵ، لق‌وپۆپی بڕاو یان شکاو، ورکەدار، لقی شکاو یا بڕاو، شەڕوشۆڕ، تێکھەڵچوون، لێکدان، سڕین، فڵچەکاری، فڵچەلێدان، (ئەوسترالیا) کچ یان ژنی لەبار
-
-١. (کردار) پاککردنەوە بە فڵچە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) پاککردنەوە بە فڵچە"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrybypass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێگای پشتێنەی شار، ڕێگای کەمەربەندی، لاڕێ، ڕێگای لابڕ، جۆگەی لاوەکی، لوولەی لاوەکی، لالوولە، لابۆری، بایپاس
-
-١. (ناو) ڕێگایەک کە بە دەوری شارۆچکەیەک یان شارێکدا دەڕوات وەک ئەوەی بەناویدا بچێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێگایەک کە بە دەوری شارۆچکەیەک یان شارێکدا دەڕوات وەک ئەوەی بەناویدا بچێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -103,8 +103,11 @@ class EnglishEntryabsence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەبوون، نەبوونی، نائامادەیی، نالێرەیی، نەھاتن، دووری، دیارنەبوون، بزرێتی، ناپەیدایی، نادیاری، نەھاتوویی، دژی
-
-١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -159,8 +159,9 @@ class EnglishEntryapex extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەر، تەوق، نووچکە، نووک، چڵوک، چڵەپۆپە، ترۆپک، لووتکە
-
-١. (ناو) لە بەرزترین ئاستدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) لە بەرزترین ئاستدا" ""),
                           Row(
                             children: [
                               const Expanded(

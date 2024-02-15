@@ -192,8 +192,10 @@ class EnglishEntrycarteblanche extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئازادی یان دەسەڵاتی، ڕەھا، تەواو، یان ڕەبەق
-
-١. (ناو) ئازادی و دەسەڵاتی تەواو بۆ کردنی ئەوەی دەتەوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئازادی و دەسەڵاتی تەواو بۆ کردنی ئەوەی دەتەوێت"),
                           Row(
                             children: [
                               const Expanded(

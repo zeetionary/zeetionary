@@ -147,8 +147,9 @@ class EnglishEntrybountiful extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆر، فراوان،	بەدەھندە، بەنان، دڵاوا، دەس‌ودڵ‌باز، دەسکراوانە، بەخشندانە
-
-١. (ھاوەڵناو) بە ئاستێکی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بە ئاستێکی زۆر"),
                           Row(
                             children: [
                               const Expanded(

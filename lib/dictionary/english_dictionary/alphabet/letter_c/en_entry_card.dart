@@ -199,8 +199,10 @@ class EnglishEntrycard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کارت، پسوولە، پەڕ (ھی یاری)، کارتی پیرۆزبایی، کەسێکی نائاسایی یان پێکەنینی، شانە، شیکەنە، شانە، دەفە، شیکەنە
-
-١. (ناو) کاغەزێکی ئەستوور و پتەو بۆ نووسین لەسەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاغەزێکی ئەستوور و پتەو بۆ نووسین لەسەری"),
                           Row(
                             children: [
                               const Expanded(

@@ -176,8 +176,11 @@ class EnglishEntryamnesia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لە) بیرچوونەوە، فەرامۆشی، بیرنەمایی
-
-١. (ناو) بارێکی تەندرووستی کە تێیدا کەسێک بەشێک یان تەواوی بیروھۆشی لەدەستدەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بارێکی تەندرووستی کە تێیدا کەسێک بەشێک یان تەواوی بیروھۆشی لەدەستدەدات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

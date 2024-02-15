@@ -111,8 +111,9 @@ class EnglishEntryaloof extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوور، جیا، ساردوسڕ، گۆشەگیر، لاتەریک، خۆدوورگر، دوورەپەرێز
-
-١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر" ""),
                           Row(
                             children: [
                               const Expanded(

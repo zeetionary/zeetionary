@@ -154,8 +154,11 @@ class EnglishEntryantenatal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆرپەلەیی، ئاوەڵمەیی، پێش لە دایک‌بوون، پێش‌بوون، سەربە ژنانی سکپڕ، تێ‌ڕوانینی قۆناخی سکپڕی، تێ‌ڕوانینی پزشکی لەسەر ژنانی سکپڕ، تێ‌ڕوانینی پزشکی سەردەمی سکپڕی
-
-١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

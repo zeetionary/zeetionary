@@ -161,8 +161,11 @@ class EnglishEntryaspirin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەسپیرین، حەبی ژانەسەر، حەبی سەرێشە
-
-١. (ناو) دەرمانی کەمکردنەوەی ئازار و تا و ھەوکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دەرمانی کەمکردنەوەی ئازار و تا و ھەوکردن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

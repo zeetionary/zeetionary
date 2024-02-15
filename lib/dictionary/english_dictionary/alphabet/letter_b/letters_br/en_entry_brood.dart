@@ -145,8 +145,10 @@ class EnglishEntrybrood extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرەڕاوکە، جووجەڵە پێکەوەبووەکان، دەستە، کۆمەڵ، گروپە جۆر، چەشن، زاروزێچ یان فرزەند و منداڵانی خێزانێ، کرمۆکە یان لارڤەکانی ھەنگ یان ھەنگەژاڵە 
-
-١. (کردار) بیرکردنەوەی زۆر لە شتێک کە وا دەکات بێزار، دوودڵ، یان خەمبار بیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بیرکردنەوەی زۆر لە شتێک کە وا دەکات بێزار، دوودڵ، یان خەمبار بیت"),
                           Row(
                             children: [
                               const Expanded(

@@ -154,8 +154,11 @@ class EnglishEntryantidote extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژاربەر، دژەژار، ژارڕەوێن، دژی ژار، ژارکوژ، دەرمان، دەرمانەژار، نۆژداروو، خەم‌ڕەوێن، شتێ کە کاریگەری ناخۆشی کەم دەکاتەوە
-
-١. (ھاوەڵناو) مادەیەک کە کۆنترۆڵی نەخۆشی یان ژەھر دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) مادەیەک کە کۆنترۆڵی نەخۆشی یان ژەھر دەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

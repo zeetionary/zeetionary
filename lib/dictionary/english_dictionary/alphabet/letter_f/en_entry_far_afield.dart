@@ -111,8 +111,9 @@ class EnglishEntryfarafield extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە دەشت، دوور، دوور لە، لە دوورەوە، لە ڕێگای دوورەوە، دوورەدەست، چەپەک، دوور لە نیشتیمان
-
-١. (ئیدیەم) لە دوورییەکی زۆرەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ئیدیەم) لە دوورییەکی زۆرەوە" ""),
                           Row(
                             children: [
                               const Expanded(

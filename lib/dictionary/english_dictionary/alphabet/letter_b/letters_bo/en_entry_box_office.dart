@@ -144,8 +144,10 @@ class EnglishEntryboxoffice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (شوێنی) بلیت یان تیکێت‌فرۆشی
-
-١. (ناو) شوێنێک لە ھۆڵی شانۆ، سینەما، ھتد کە بلیتی تێدا دەفرۆشرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شوێنێک لە ھۆڵی شانۆ، سینەما، ھتد کە بلیتی تێدا دەفرۆشرێت"),
                           Row(
                             children: [
                               const Expanded(

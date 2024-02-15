@@ -152,8 +152,11 @@ class EnglishEntryankle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قولەپێ، قولاپە، قولەپا، گوێزینگ، گۆزینک، قول
-
-١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

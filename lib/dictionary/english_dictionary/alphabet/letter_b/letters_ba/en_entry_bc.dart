@@ -147,8 +147,10 @@ class EnglishEntrybc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێشزایین، بەر لە لەدایکبوونی مەسیح
-
-١. (ناو) لە ڕحژژمێری زاییندا بەکاردێت بۆ پیشاندانی ساڵی پێش ئەو کاتەی کە باوەڕوایە پێغەمبەر عیسا لەدایکبووبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لە ڕحژژمێری زاییندا بەکاردێت بۆ پیشاندانی ساڵی پێش ئەو کاتەی کە باوەڕوایە پێغەمبەر عیسا لەدایکبووبێت"),
                           Row(
                             children: [
                               const Expanded(

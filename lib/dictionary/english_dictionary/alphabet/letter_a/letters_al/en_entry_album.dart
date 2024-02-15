@@ -112,8 +112,10 @@ class EnglishEntryalbum extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاڵبۆم، وێنەدان، جێ‌وێنە، جێ‌پوول، پوول‌دان، ئاڵبومی میوزیک
-
-١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت" ""),
                           Row(
                             children: [
                               const Expanded(

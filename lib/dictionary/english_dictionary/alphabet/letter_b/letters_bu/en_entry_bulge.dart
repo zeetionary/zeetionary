@@ -145,8 +145,9 @@ class EnglishEntrybulge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵتۆقیوی، ھەڵقوڵتاوی، زگ‌دان، نوھۆم، تەپڵک، ھەڵتۆقیوی، پەڵمان، ورگ‌دان، گووپ‌دان، پەنەمیان، دەرپۆقیوی، دەرپۆقین، ماسین، باکردن، ھەڵماسین، ھەڵماسیوی، گوپ، دەرپەڕیوی، بلۆق، کیس، تۆقینەوە، زۆربوونی ناکاو و کاتی
-
-١. (کردار) تەواو پڕبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) تەواو پڕبوون"),
                           Row(
                             children: [
                               const Expanded(

@@ -152,8 +152,11 @@ class EnglishEntryangst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لە ئاڵمانی‌یەوە بە واتای "ترس.") نگەرانی، ترس، دەروون‌تەنگی، ئارام‌لێ‌ھەڵگیراوی، دڵەڕاوکێ، ناڕەحەتی (بەتایبەت لە ڕەوش و بارودۆخی جیھان‌دا)
-
-١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

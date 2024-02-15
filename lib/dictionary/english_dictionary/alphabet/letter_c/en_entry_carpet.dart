@@ -197,8 +197,10 @@ class EnglishEntrycarpet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فەرش، مافوور، قاڵی، بەڕە، گەوە، ڕایەخ، ژێرەخەرە
-
-١. (ناو) فەرش کە لە شوێنێکدا دادەخرێت بۆ داپۆشینی زەوییەکەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) فەرش کە لە شوێنێکدا دادەخرێت بۆ داپۆشینی زەوییەکەی"),
                           Row(
                             children: [
                               const Expanded(

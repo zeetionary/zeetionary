@@ -147,8 +147,9 @@ class EnglishEntrybedstead extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەخت، تەختەبەند، چرپایە، چوارپایە
-
-١. (ناو) چوارچێوەی جێگەی خەوی کۆن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) چوارچێوەی جێگەی خەوی کۆن"),
                           Row(
                             children: [
                               const Expanded(

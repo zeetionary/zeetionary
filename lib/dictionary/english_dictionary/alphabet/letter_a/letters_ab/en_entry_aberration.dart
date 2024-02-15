@@ -104,8 +104,11 @@ class EnglishEntryaberration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لادان، ڕێ‌ھەڵەکردن، لاڕێیی، لەرێ دەرچوون، ھەڵچوون، گومڕایی، خریایی‌بوون، گرفت، تێکچوون، کێشە، کەم‌وکوڕی
-
-١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

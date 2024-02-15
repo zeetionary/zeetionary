@@ -103,8 +103,9 @@ class EnglishEntryaccession extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دانیشتن، لەسەر تەخت دانیشتن، پێگەیشتن، گەیشتن (بە پۆست، سەروکایەتی یان ڕێبەراتی وڵاتی)، بەرزبوونەوە، بوونە کاربەدەست، بەدەس‌ھێنان، دەس‌خستن، گیرخستن، بە دەس‌گرتن، پێگەیشتن، خستنەسەر، پێوەنان، خستنەپاڵ، دانەدەم، پێوەنراو، زیادکراو، شتی زیادکراو یان سەرخراو
-
-١. (ناو) گەشتن بە پلەیەکی باڵا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) گەشتن بە پلەیەکی باڵا" ""),
                           Row(
                             children: [
                               const Expanded(

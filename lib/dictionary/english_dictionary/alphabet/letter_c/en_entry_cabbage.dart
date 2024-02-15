@@ -189,8 +189,10 @@ class EnglishEntrycabbage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ڕووەک‌ناسی) کەلەم، کەلەرم، لانە، تۆپەکەلەم، لەھەن
-
-١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"),
                           Row(
                             children: [
                               const Expanded(

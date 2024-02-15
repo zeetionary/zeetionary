@@ -109,8 +109,11 @@ class EnglishEntryaground extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (کەشتی) لەقوڕچەقیو، لەکەنار، زەوی‌کێش
-
-١. (ھاوەڵکار) کاتێک کەشتییەک بنکەکەی لە بنی دەریا دەدات بەھۆی ئەوەی قووڵی کەمە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) کاتێک کەشتییەک بنکەکەی لە بنی دەریا دەدات بەھۆی ئەوەی قووڵی کەمە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -110,8 +110,11 @@ class EnglishEntryagrochemical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەتریاڵی کیمیایی کە لە بواری کشت‌وکاڵ‌دا بەکاردێنرێ، مادە یا ماکێکی کشت‌وکاڵی
-
-١. (ناو) مادەی کیمیایی کە بەکاردێت لە کشتوکاڵدا بەکاردێت بۆ کوشتنی مێروو یان باشترکردنی گەشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەی کیمیایی کە بەکاردێت لە کشتوکاڵدا بەکاردێت بۆ کوشتنی مێروو یان باشترکردنی گەشە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

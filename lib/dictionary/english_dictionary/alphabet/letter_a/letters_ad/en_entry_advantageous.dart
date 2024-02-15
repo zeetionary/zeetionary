@@ -110,8 +110,10 @@ class EnglishEntryadvantageous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باش، بەکەڵک، بەسوود، بەبەھرە، بەقازانج، پڕمەفا، بەخێر، بەخێروبێر، خێردەرەوە، قازانج‌پێگەیێن
-
-١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی" ""),
                           Row(
                             children: [
                               const Expanded(

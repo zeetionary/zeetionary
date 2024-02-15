@@ -255,8 +255,10 @@ class EnglishEntryboth extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەردووک، ھەردک، ھەرتک، ھەردوو، ھەم... ھەم، ھەردووکیان
-
-١. (پێشناو، جێناو) لەگەڵ ناوی کۆ بەکاردێت بۆ ئاماژە بە دوو شت، یان بە شتێک و شتێکی تریش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (پێشناو، جێناو) لەگەڵ ناوی کۆ بەکاردێت بۆ ئاماژە بە دوو شت، یان بە شتێک و شتێکی تریش"),
                           Row(
                             children: [
                               const Expanded(

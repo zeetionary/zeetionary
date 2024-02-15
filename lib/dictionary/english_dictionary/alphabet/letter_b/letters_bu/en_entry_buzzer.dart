@@ -190,8 +190,10 @@ class EnglishEntrybuzzer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەنگ، گیزەون، زڕە، فڕە، ڤڕە، ویزویزە، ویزە
-
-١. (ناو) زەنگێک کە دەنگێکی وەک گیزەگیزی ھەنگ دەردەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زەنگێک کە دەنگێکی وەک گیزەگیزی ھەنگ دەردەکات"),
                           Row(
                             children: [
                               const Expanded(

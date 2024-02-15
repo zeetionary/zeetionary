@@ -111,8 +111,9 @@ class EnglishEntryale extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئێیل، ئەیل(= جۆرێ بیرە)، ئەیل‌خۆران، فێستیڤاڵێکی ئینگلتەرە، ئەڵمانی بنەڕەت)
-
-١. (ناو) جۆرە بیرەیەک کە بڵقی نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) جۆرە بیرەیەک کە بڵقی نییە" ""),
                           Row(
                             children: [
                               const Expanded(

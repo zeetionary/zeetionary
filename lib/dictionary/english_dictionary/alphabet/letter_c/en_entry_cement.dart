@@ -197,8 +197,10 @@ class EnglishEntrycement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سارووج، سیمێنت، سمیت، سیمان، چیمەنتۆ، چەسپ، نێوپڕ 
-
-١. (ناو) ھاڕاوەیەکی خۆڵەمێشی کە لەگەڵ ئاو و خۆڵ تێکەڵ دەکرێت بۆ درووستکردنی چیمەنتۆ، یان لەگەڵ ئاو و خۆڵ و زیخ بۆ درووستکردنی کۆنکریت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھاڕاوەیەکی خۆڵەمێشی کە لەگەڵ ئاو و خۆڵ تێکەڵ دەکرێت بۆ درووستکردنی چیمەنتۆ، یان لەگەڵ ئاو و خۆڵ و زیخ بۆ درووستکردنی کۆنکریت"),
                           Row(
                             children: [
                               const Expanded(

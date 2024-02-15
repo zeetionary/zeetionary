@@ -112,8 +112,11 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاپ‌بۆردی وشک‌کەرەوەی جل، دۆڵابی بەرگ وشک‌کەرەوە، دۆڵابی بەرگ وشک‌کردنەوە
-
-١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

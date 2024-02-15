@@ -93,8 +93,11 @@ class EnglishEntryabbey extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دێر، دەیر، کلێسەی نێو دەیر، جێگەی عیبادەتی مەسیحییەکان، کلێسا، کەنیسە، کنیسە
-
-١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

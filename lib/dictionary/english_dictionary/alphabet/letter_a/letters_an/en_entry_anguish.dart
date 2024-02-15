@@ -153,8 +153,11 @@ class EnglishEntryanguish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵەڕاوکێ، نیگەرانی، دڵتەنگی، دڵەخورپێ، شڵەژاوی، ئازار، ژان، دەرد، ئەشکەنجە
-
-١. (ناو) ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

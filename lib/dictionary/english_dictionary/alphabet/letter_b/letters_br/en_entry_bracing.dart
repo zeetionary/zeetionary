@@ -144,8 +144,10 @@ class EnglishEntrybracing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆش، سازگار، بەجۆش‌ھێنەر، شادی‌ھێن، بەگوڕێنەر، بووژێنەر
-
-١. (ھاوەڵناو) کەشێکی سارد و پڕبا کە وزەبەخشە، یان چالاکییەک کە لە کەشێکی وەھادا دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەشێکی سارد و پڕبا کە وزەبەخشە، یان چالاکییەک کە لە کەشێکی وەھادا دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

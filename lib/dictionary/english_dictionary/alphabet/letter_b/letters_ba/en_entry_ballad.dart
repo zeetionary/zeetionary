@@ -153,8 +153,10 @@ class EnglishEntryballad extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەیت، لاوژە، چیرۆکی ھۆنراوە، چامە، بەستە، ستران، گۆرانی
-
-١. (ناو) گۆرانییەک یان ھۆنراوەیەک کە چیرۆکێک دەڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گۆرانییەک یان ھۆنراوەیەک کە چیرۆکێک دەڵێت"),
                           Row(
                             children: [
                               const Expanded(

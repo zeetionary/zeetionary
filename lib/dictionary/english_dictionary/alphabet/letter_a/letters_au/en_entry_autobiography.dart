@@ -162,8 +162,11 @@ class EnglishEntryautobiography extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆژیان‌نامە، خۆژین‌نامە، سەربردەی خۆ
-
-١. (ناو) کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

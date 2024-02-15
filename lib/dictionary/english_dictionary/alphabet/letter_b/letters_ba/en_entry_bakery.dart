@@ -153,8 +153,10 @@ class EnglishEntrybakery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نانەواخانە، نانەوایی، سەرتەنوور
-
-١. (ناو) نانەواخانە؛ شوێنێک کە نان و کێکی تێدا درووست دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نانەواخانە؛ شوێنێک کە نان و کێکی تێدا درووست دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

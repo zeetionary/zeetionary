@@ -529,8 +529,8 @@ class EnglishEntrychange extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆڕان، ھەڵگەڕان، گۆھارتن، گۆڕین، گۆڕینەوە، بازاڕی ئاڵ‌وگۆڕ، جۆربەجۆری، جۆراوجۆری، فرەجۆری، پووڵەوردە، قەرەپووڵ، پاشماوەی پووڵ، باقی پووڵ، دەستی زیادی، گۆڕاو، گۆھارتی
-
-١. (کردار) گۆڕان"""),
+"""),
+                          const DefinitionKurdish(text: "١. (کردار) گۆڕان"),
                           Row(
                             children: [
                               const Expanded(

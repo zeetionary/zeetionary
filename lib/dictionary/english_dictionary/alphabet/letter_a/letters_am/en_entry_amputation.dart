@@ -153,8 +153,11 @@ class EnglishEntryamputation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەل‌کردن، لێ‌کردنەوە، بڕینەوە، قەڵخ‌کردن، قەڵخاندن، ئەندام‌بڕی
-
-١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

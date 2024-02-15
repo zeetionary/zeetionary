@@ -147,8 +147,10 @@ class EnglishEntrybedspread extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرگەجێخەو، بەرگەنوێن، ڕوونوێن، بەرگەتەخت
-
-١. (ناو) ڕووپۆشێکی جوان کە دەدرێت بەسەر پێخەف و داپۆشەرەکانی دیکەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووپۆشێکی جوان کە دەدرێت بەسەر پێخەف و داپۆشەرەکانی دیکەدا"),
                           Row(
                             children: [
                               const Expanded(

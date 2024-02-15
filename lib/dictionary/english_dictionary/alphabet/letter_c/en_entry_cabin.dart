@@ -191,8 +191,9 @@ class EnglishEntrycabin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کابین (لەسەر کەشتی، فڕۆکە یان کەشتی ئاسمانی)، ژوور، دیو، چاوە، ژوورۆچکە، خانووچکە، کۆلیت، قۆختە، سەرپەنا، کۆخ (زۆرتر لە دار)
-
-١. (ناو) ژوورێکی بچووکی سەر کەشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ژوورێکی بچووکی سەر کەشتی"),
                           Row(
                             children: [
                               const Expanded(

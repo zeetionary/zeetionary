@@ -147,8 +147,10 @@ class EnglishEntrybenefactor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاکەکار، خێرخواز، خێرۆمەند، خێرەومەند
-
-١. (ناو) کەسێک کە پارە یان شتومەک دەبەخشێت بە کەسێک یان دامەزراوەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە پارە یان شتومەک دەبەخشێت بە کەسێک یان دامەزراوەیەک"),
                           Row(
                             children: [
                               const Expanded(

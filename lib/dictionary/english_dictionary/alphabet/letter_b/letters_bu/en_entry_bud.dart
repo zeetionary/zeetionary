@@ -143,8 +143,10 @@ class EnglishEntrybud extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چرۆ، گۆپکە، گۆپیتە، تووز، خونچە، غونچە، چم، سۆلینە، شکۆفە، فنچقە، (گیانەوەرناسی) لاقێکی سەرەتایی 
-
-١. (ھاوەڵناو) خونچەی ڕووەکێک کە دواتر دەبێتە گوڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) خونچەی ڕووەکێک کە دواتر دەبێتە گوڵ"),
                           Row(
                             children: [
                               const Expanded(

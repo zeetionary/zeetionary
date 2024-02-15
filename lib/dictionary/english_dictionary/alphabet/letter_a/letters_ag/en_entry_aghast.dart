@@ -109,8 +109,9 @@ class EnglishEntryaghast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: واق‌وڕماو، سەرسووڕماو، ترساو، تۆقیو
-
-١. (ھاوەڵناو) تۆقاو و سەرسوڕماو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تۆقاو و سەرسوڕماو" ""),
                           Row(
                             children: [
                               const Expanded(

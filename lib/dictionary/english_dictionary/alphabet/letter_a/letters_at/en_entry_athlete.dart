@@ -161,8 +161,10 @@ class EnglishEntryathlete extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەرزشەوان، وەرزش‌کار، قارەمان، پاڵەوان 
-
-١. (ناو) کەسێک کە ڕکابەری لە وەرزشدا دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە ڕکابەری لە وەرزشدا دەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

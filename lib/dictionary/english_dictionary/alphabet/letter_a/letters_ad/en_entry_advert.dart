@@ -109,8 +109,11 @@ class EnglishEntryadvert extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بانگەواز، دانەزانین، ئاگاداری
-
-١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

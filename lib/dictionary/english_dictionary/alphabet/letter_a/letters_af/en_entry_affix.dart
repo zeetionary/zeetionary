@@ -109,8 +109,9 @@ class EnglishEntryaffix extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ڕێزمان) نێوگر، بەند، ناوبەند، نێوبەند
-
-١. (کردار) لکاندنی شتێک بە شتێکەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) لکاندنی شتێک بە شتێکەوە" ""),
                           Row(
                             children: [
                               const Expanded(

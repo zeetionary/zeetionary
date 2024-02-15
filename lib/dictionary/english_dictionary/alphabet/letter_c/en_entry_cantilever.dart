@@ -189,8 +189,10 @@ class EnglishEntrycantilever extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ستوون یان کۆڵەکەی سەرئازاد (یەک‌سەری ئازادە)
-
-١. (ھاوەڵناو) پارچە تەختە، ئاسن، یان کاری ئەندازیاری کە تەنھا لە یەک لاوە ڕاگیراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پارچە تەختە، ئاسن، یان کاری ئەندازیاری کە تەنھا لە یەک لاوە ڕاگیراوە"),
                           Row(
                             children: [
                               const Expanded(

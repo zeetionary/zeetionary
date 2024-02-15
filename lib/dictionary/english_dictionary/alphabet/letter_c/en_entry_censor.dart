@@ -194,8 +194,10 @@ class EnglishEntrycensor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بژارەوان، چاودێر، پشکێنەر، سێنسۆر، بەرھەم‌دۆز، بژارگەر
-
-١. (ناو) کەسێک کە کاری وایە چاو لە کتێبێک، فیلمێک، ھتد بکات و ئەو بەشانە ببسڕێتەوە کە نەگونجاون یان مەترسی سیاسییان ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری وایە چاو لە کتێبێک، فیلمێک، ھتد بکات و ئەو بەشانە ببسڕێتەوە کە نەگونجاون یان مەترسی سیاسییان ھەیە"),
                           Row(
                             children: [
                               const Expanded(

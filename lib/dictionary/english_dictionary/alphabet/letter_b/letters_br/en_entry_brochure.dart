@@ -141,8 +141,10 @@ class EnglishEntrybrochure extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نامیلکە، برۆشور
-
-١. (ناو) گۆڤارێک یان کتێبێک کە وێنە و زانیاری تێدایە سەبارەت بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گۆڤارێک یان کتێبێک کە وێنە و زانیاری تێدایە سەبارەت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(

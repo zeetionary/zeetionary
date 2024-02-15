@@ -152,8 +152,11 @@ class EnglishEntryanguished extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئارام‌لێ‌ھەڵگیراو، نیگەران، بەدڵەخورپێ
-
-١. (ھاوەڵناو) پیشاندانی ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پیشاندانی ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -158,8 +158,11 @@ class EnglishEntryarcher extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تیراوێژ، تیرھاوێژ، تیرخەر، کەوانەوان
-
-١. (ھاوەڵناو) کەسێک کە تیر و کەوان بەکاردێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە تیر و کەوان بەکاردێنێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

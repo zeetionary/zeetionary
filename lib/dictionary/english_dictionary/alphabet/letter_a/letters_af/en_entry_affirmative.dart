@@ -111,8 +111,9 @@ class EnglishEntryaffirmative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لۆژیک) ئەرێنی، ئەرێتی، پۆزیتیڤ، وەڵامی ئەرێنی یا ئەرێ
-
-١. (ھاوەڵناو) وەڵامێکی ئەرێنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) وەڵامێکی ئەرێنی" ""),
                           Row(
                             children: [
                               const Expanded(

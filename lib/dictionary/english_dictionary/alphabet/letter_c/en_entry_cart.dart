@@ -199,8 +199,10 @@ class EnglishEntrycart extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گاریە، ھێلی، ھێلینگە (چوارچەرخ)، داشقە، فەڕغوون، عەرەبانە، دەستەبەر
-
-١. (ناو) عەرەبانەیەک کە دوو یان چوار ویلی ھەیە و ئەسپێک ڕایدەکێشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) عەرەبانەیەک کە دوو یان چوار ویلی ھەیە و ئەسپێک ڕایدەکێشێت"),
                           Row(
                             children: [
                               const Expanded(

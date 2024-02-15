@@ -147,8 +147,10 @@ class EnglishEntrybatten extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەسکەتەختە، تەختەباریک، تەختە (بۆ ڕاخستن لەژێر عەرزی ژوور و ھتد)، بەستی دارین یان لەدار
-
-١. (ناو) پارچە تەختەیەک کە بۆ ھەڵواسینی شتی تر بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە تەختەیەک کە بۆ ھەڵواسینی شتی تر بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

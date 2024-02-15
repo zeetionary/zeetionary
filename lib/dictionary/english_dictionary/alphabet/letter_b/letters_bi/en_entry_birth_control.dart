@@ -148,8 +148,10 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زاوزێ ڕاگرتن، مەھار یا کۆنتڕۆڵی زاوزێ، مەنع، بەرگیری (لە سکپڕی)
-
-١. (ناو) کردەی کۆنترۆڵکردنی ژمارەی ئەو منداڵانەی کەسێک ھەیەتی بە بەکارھێنانی ژمارەیەک ڕێگای بەرگیری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کردەی کۆنترۆڵکردنی ژمارەی ئەو منداڵانەی کەسێک ھەیەتی بە بەکارھێنانی ژمارەیەک ڕێگای بەرگیری"),
                           Row(
                             children: [
                               const Expanded(

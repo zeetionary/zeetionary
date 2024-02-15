@@ -143,8 +143,10 @@ class EnglishEntrybridal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بووکێنی، بووک، سەربە شایی یان زەماوەند، زەماوەندی، زەماوەند، شایی، گۆڤەند
-
-١. (ھاوەڵناو) پەیوەندیدار بە بووک یان شایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە بووک یان شایی"),
                           Row(
                             children: [
                               const Expanded(

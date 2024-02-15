@@ -111,8 +111,10 @@ class EnglishEntryamazement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەم‌داچەقاندن، واق‌وڕمان، سەرسامی، سەرسووڕمان
-
-١. (ناو) ھەستی باوەڕنەکردن بەوەی ڕوویداوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھەستی باوەڕنەکردن بەوەی ڕوویداوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -94,8 +94,9 @@ class EnglishEntryabject extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێی بەزەیی، گوناح، زۆر خراپ، ناخۆش، سووک، نزم، چروک، ناکەس، تەرەس، ھیچ، تڕۆ، ملکەچ، خوێڕی، سەرشۆڕ
-
-١. (ھاوەڵناو) خراپ و بەبێ ھیوا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) خراپ و بەبێ ھیوا" ""),
                           Row(
                             children: [
                               const Expanded(

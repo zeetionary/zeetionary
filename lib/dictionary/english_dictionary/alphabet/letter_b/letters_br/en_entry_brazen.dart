@@ -144,8 +144,9 @@ class EnglishEntrybrazen extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەردکرد، (دروست‌کراو لە) زەرد، زەردە، کالانی، زەردین، زرنگانەوەی زەرد، ناخۆش، گڕ (دەنگ)، چوختی، بێ‌شەرم، چەقاوەسوو، ڕوودار، چوختی
-
-١. (ھاوەڵناو) ئاشکرا و بێ‌شەرمانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ئاشکرا و بێ‌شەرمانە"),
                           Row(
                             children: [
                               const Expanded(

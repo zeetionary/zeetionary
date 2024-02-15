@@ -143,8 +143,10 @@ class EnglishEntrybrainstorming extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چارەسەرکردنی بەکۆمەڵ، گەلەچارەسەری، شێواز یان مێتۆدی چارەسەرکردنی بەکۆمەڵ
-
-١. (ناو) بیرکردنەوەی بە کۆمەڵی ژمارەیەک خەڵک کە پێکەوە دادەنیشن بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بیرکردنەوەی بە کۆمەڵی ژمارەیەک خەڵک کە پێکەوە دادەنیشن بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"),
                           Row(
                             children: [
                               const Expanded(

@@ -112,8 +112,11 @@ class EnglishEntryaccident extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێک‌دان، پێکاکێشان، لێک‌کەوتن، ڕووداو، قەومین، بەڵا(ی کت‌وپڕ)، بوویەر، تووش، ڕێکەوت، ھەڵکەوت
-
-١. (ناو) ڕووداوێکی ناخۆش، زۆرجار ڕووداوی ھاتوچۆ، کە قوربانی لێدەکەوێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووداوێکی ناخۆش، زۆرجار ڕووداوی ھاتوچۆ، کە قوربانی لێدەکەوێتەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

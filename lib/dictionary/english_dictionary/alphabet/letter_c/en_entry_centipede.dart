@@ -192,8 +192,10 @@ class EnglishEntrycentipede extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەزارپێ، سەدپێ، سەدپا، گوەسم، دولگە، شەفار، خشکە
-
-١. (ناو) گیانلەبەرێکی بچووک کە جەستەیەکی باریک و درێژی ھەیە لەگەڵ پێی زۆردا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گیانلەبەرێکی بچووک کە جەستەیەکی باریک و درێژی ھەیە لەگەڵ پێی زۆردا"),
                           Row(
                             children: [
                               const Expanded(

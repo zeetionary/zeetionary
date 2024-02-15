@@ -154,8 +154,10 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەوێن، گەردەی ھەوێن، ئامیان، گەردە یا ھاڕاوەی نان‌کردن
-
-١. (ناو) تێکەڵەیەکی ژمارەیەک ھاڕاوە کە بەکاردێن بۆ ئەوەی وابکات کێک بەرزببێتەوە و بدرەوشێتەوە لە کاتی برژاندن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تێکەڵەیەکی ژمارەیەک ھاڕاوە کە بەکاردێن بۆ ئەوەی وابکات کێک بەرزببێتەوە و بدرەوشێتەوە لە کاتی برژاندن"),
                           Row(
                             children: [
                               const Expanded(

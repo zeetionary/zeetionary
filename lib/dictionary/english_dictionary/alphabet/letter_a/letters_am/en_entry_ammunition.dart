@@ -177,8 +177,8 @@ class EnglishEntryammunition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەقەمەنی، جبەخانە، بەھانە، پەڵپ، بیانوو
-
-١. (ناو) تەقەمەنی"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) تەقەمەنی" ""),
                           Row(
                             children: [
                               const Expanded(

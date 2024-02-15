@@ -95,8 +95,11 @@ class EnglishEntryaccidental extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێکەوت، بەڕێکەوت، بەھەڵکەوت، ھەڵکەوتی، تووشی، پلان‌دانەنراو، چاوەڕوان‌نەکراو، پێش‌بینی‌نەکراو
-
-١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

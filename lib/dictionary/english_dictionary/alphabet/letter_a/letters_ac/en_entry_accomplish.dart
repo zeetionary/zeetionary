@@ -95,8 +95,11 @@ class EnglishEntryaccomplish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەدەستھێنان، دەستکەوتن
-
-١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

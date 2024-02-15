@@ -113,8 +113,11 @@ class EnglishEntryaccessible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەس‌پێ‌ڕاگەیشتوو، لە گەیشتن‌ھاتوو، لە تێگەیشتن‌ھاتوو، ئاسان، دەس دەکەوێ، لە دەسکەوتن‌ھاتوو
-
-١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

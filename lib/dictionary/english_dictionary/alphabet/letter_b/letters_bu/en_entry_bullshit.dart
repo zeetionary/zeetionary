@@ -141,8 +141,10 @@ class EnglishEntrybullshit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قسەی ھیچەکە، ھەڵیت‌وپڵیت، فڵتە
-
-١. (ناو) بیرۆکە، باوەڕ، یان قسە کە پێتوایە گەمژانەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بیرۆکە، باوەڕ، یان قسە کە پێتوایە گەمژانەیە"),
                           Row(
                             children: [
                               const Expanded(

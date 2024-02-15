@@ -160,8 +160,9 @@ class EnglishEntryassorted extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جۆراوجۆر، جۆربەجۆر، جەستەجەستە، ھەمەڕەنگ، ھەمەچەشنە
-
-١. (ھاوەڵناو) ژمارەیەک جۆری ھەمەچەشن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ژمارەیەک جۆری ھەمەچەشن" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycartwheel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەحەلەق، خۆھەڵگێڕانەوە
-
-١. (ناو) جوڵەیەکی جەستەیی خێرا کە تێیدا دەست دەخەیتە سەر زەوی و قاچەکانت بە نۆرە بەسەر سەرتدا دەبەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جوڵەیەکی جەستەیی خێرا کە تێیدا دەست دەخەیتە سەر زەوی و قاچەکانت بە نۆرە بەسەر سەرتدا دەبەیت"),
                           Row(
                             children: [
                               const Expanded(

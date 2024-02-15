@@ -194,8 +194,10 @@ class EnglishEntrycelibate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەنیا، بێ‌ھاوسەر، سەڵت، زگورد، ڕەبەن
-
-١. (ھاوەڵناو) نەبوون لە پەیوەندی ھاوسەریدا و دووربوون لە سێکس"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) نەبوون لە پەیوەندی ھاوسەریدا و دووربوون لە سێکس"),
                           Row(
                             children: [
                               const Expanded(

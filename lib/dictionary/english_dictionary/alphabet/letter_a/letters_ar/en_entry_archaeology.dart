@@ -159,8 +159,11 @@ class EnglishEntryarchaeology extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شوێنەوارناسی، باستان‌ناسی، کۆنەوارناسی، باستانەوانی
-
-١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

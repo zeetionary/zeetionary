@@ -96,8 +96,11 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سفر یان ھیچی ڕەھا (273/15 پلەی سانتی‌گراد)
-
-١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

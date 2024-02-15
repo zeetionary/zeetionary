@@ -189,8 +189,8 @@ class EnglishEntrybuttock extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕان، سمت، لاقوون
-
-١. (ناو) سمت"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) سمت"),
                           Row(
                             children: [
                               const Expanded(

@@ -196,8 +196,10 @@ class EnglishEntrycanker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: برین (لێو، دەم و ھتد)، تامیسک، تێمیسک، خشرۆک، خۆرە، مێمڵ، ئافەت (دار)، لاڕەشە، سندان، بەڵا، کاریگەری خراپ، ئاسێو، پەتا، سەرەتان
-
-١. (ناو) نەخۆشییەک لە ڕووەک و درەختدا کە داری ڕووی دەرەوەی قەد و لقەکەی لەناودەبات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نەخۆشییەک لە ڕووەک و درەختدا کە داری ڕووی دەرەوەی قەد و لقەکەی لەناودەبات"),
                           Row(
                             children: [
                               const Expanded(

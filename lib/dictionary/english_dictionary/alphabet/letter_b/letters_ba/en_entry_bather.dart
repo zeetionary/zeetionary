@@ -147,8 +147,10 @@ class EnglishEntrybather extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەلێکەر، خۆشۆر (لە دەریا، ڕووبار و ھتد)
-
-١. (ناو) کەسێک کە لە دەریا یان ڕووباردا مەلە دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە لە دەریا یان ڕووباردا مەلە دەکات"),
                           Row(
                             children: [
                               const Expanded(

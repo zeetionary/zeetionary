@@ -142,8 +142,10 @@ class EnglishEntrybridegroom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زاوا، تازەزاوا
-
-١. (ناو) پیاوێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پیاوێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"),
                           Row(
                             children: [
                               const Expanded(

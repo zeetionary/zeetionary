@@ -109,8 +109,11 @@ class EnglishEntryaglow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ورشن، گەش، بریقەدار، درەوشاوە، ڕووناک، سورەوەبوو
-
-١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

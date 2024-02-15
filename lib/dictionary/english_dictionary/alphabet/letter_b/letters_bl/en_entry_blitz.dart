@@ -149,8 +149,9 @@ class EnglishEntryblitz extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێرشی کت‌وپڕ، ھێرشی میلیتاری خەست‌وخۆڵی ناکاو، پەلامار، حەولێکی ھاوبەش و کوت‌وپڕ
-
-١. (ناو) ھێرشی لەناکاو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھێرشی لەناکاو"),
                           Row(
                             children: [
                               const Expanded(

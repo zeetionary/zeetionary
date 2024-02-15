@@ -145,8 +145,10 @@ class EnglishEntrybulk extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەورەیی، زلەیی، زەلامی، زلی، قەبەیی، بڕێکی زۆر، ھەیکەل، قیافە، بارستە، ئەندازە، بارستایی، بەشی سەرەکی، پشکی بنگەھی، کەل‌وپەل یان شمەکی ھەڵڕژاو، ھەڕەمە، گۆترە
-
-١. (ناو) بەشی سەرەکیی شتێک؛ گرنگترین بەشی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشی سەرەکیی شتێک؛ گرنگترین بەشی شتێک"),
                           Row(
                             children: [
                               const Expanded(

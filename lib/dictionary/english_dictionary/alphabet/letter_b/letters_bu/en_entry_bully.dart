@@ -144,8 +144,10 @@ class EnglishEntrybully extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەڵەگا، ملھوڕ، زەبوون‌کوژ. وەی‌گێڕ
-
-١. (ناو) کەسێک کە ھێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ھێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"),
                           Row(
                             children: [
                               const Expanded(

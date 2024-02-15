@@ -145,8 +145,10 @@ class EnglishEntryborrower extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرزگر، قەرزوەرگر، قەرزکەر، وام‌گر
-
-١. (ناو) کەسێک یان دامەزراوەیەک کە پارە قەرز دەکات، بەتایبەتی لە بانکێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک یان دامەزراوەیەک کە پارە قەرز دەکات، بەتایبەتی لە بانکێک"),
                           Row(
                             children: [
                               const Expanded(

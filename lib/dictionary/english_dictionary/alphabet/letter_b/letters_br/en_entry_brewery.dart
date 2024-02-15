@@ -141,8 +141,10 @@ class EnglishEntrybrewery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (کۆمپانیا) بیرەسازی، ئاوجۆدروست‌کردن، بیرەنانەوە
-
-١. (ناو) کۆمپانیایەک یان کارگەیەک کە بیرە درووست دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆمپانیایەک یان کارگەیەک کە بیرە درووست دەکات"),
                           Row(
                             children: [
                               const Expanded(

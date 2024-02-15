@@ -192,8 +192,9 @@ class EnglishEntrycarbuncle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شێرپەنجە، موو، دمەڵ، کوان، گەوھەری شەوچرا، جەواھێری سوور
-
-١. (ناو) ھاڵاوسانێکی گەورەی بەئازار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھاڵاوسانێکی گەورەی بەئازار"),
                           Row(
                             children: [
                               const Expanded(

@@ -109,8 +109,11 @@ class EnglishEntryacrimony extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توندی، تاڵی، ناخۆشی، ڕەقی، توندوتیژی، تیژی، ڕەنجان، زیزی
-
-١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

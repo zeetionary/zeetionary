@@ -110,8 +110,9 @@ class EnglishEntryafflict extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیرۆدەبوون، توش‌بوون، پێوەبوون، لێقەومان، بەڵاگیربوون
-
-١. (کردار) تووشبوون بە شتێکی خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) تووشبوون بە شتێکی خراپ" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntryblacksheep extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مایەی ئابڕووچوون یان سەرشۆڕی خێزان، مایەی ڕووڕەشی، نەنگ
-
-١. (ناو) کەسێک کە جیاوازە لە ئەندامانی دیکەی خێزانەکەی و بە خراپ و مایەی ئابڕووچوون و شەرمەزاری دادەنرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە جیاوازە لە ئەندامانی دیکەی خێزانەکەی و بە خراپ و مایەی ئابڕووچوون و شەرمەزاری دادەنرێت"),
                           Row(
                             children: [
                               const Expanded(

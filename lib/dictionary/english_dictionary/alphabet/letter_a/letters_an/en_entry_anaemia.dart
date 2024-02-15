@@ -152,8 +152,11 @@ class EnglishEntryanaemia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەم‌خوێنی، زەردەڵی، بێ‌خوێنی، لاوازی
-
-١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی "
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

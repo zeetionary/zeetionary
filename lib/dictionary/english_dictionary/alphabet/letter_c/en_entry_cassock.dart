@@ -192,8 +192,10 @@ class EnglishEntrycassock extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جبە یا باڵاپۆشی قەشەکان، عەبا
-
-١. (ناو) جلیکی درێژ کە زۆرجار سپی یان سوورە و لەلایەن ھەندێک قەشەی مەسیحی و کەسانی دیکەی کڵێسا لەبەر دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جلیکی درێژ کە زۆرجار سپی یان سوورە و لەلایەن ھەندێک قەشەی مەسیحی و کەسانی دیکەی کڵێسا لەبەر دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

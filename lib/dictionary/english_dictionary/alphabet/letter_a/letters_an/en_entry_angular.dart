@@ -152,8 +152,11 @@ class EnglishEntryangular extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆشەیی، گۆشەدار، بەسووچ، کز، داڵگۆشت، ڕەقەڵ، نووک‌تیژ
-
-١. (ھاوەڵناو) کەسێک کە ھێندە زەعیفە ماسولکەکانی لەژێر پێستییەوە دیارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە ھێندە زەعیفە ماسولکەکانی لەژێر پێستییەوە دیارە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

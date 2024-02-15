@@ -148,8 +148,9 @@ class EnglishEntrybarefoot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێ‌پەتی، پێ‌خاوسی، خواس، بە پێی پەتی
-
-١. (ھاوەڵناو) بەبێ لەپێکردنی ھیچ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بەبێ لەپێکردنی ھیچ"),
                           Row(
                             children: [
                               const Expanded(

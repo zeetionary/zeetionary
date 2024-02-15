@@ -193,8 +193,10 @@ class EnglishEntrychafe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێست‌داماڵکان، تۆخ‌داماڵکان، داماڵکاوی، ڕووشان، برین
-
-١. (کردار) ھەبوونی ئازار یان ئازارپێ‌گەیاندن بەھۆی ئەوەی شتێک پێیدا دەڕووشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ھەبوونی ئازار یان ئازارپێ‌گەیاندن بەھۆی ئەوەی شتێک پێیدا دەڕووشێت"),
                           Row(
                             children: [
                               const Expanded(

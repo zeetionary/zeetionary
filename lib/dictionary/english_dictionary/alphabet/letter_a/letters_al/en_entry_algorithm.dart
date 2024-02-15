@@ -111,8 +111,11 @@ class EnglishEntryalgorithm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەلگۆریتم، لۆگاریتم (بەتایبەت کۆمپیوتەر)
-
-١. (ناو) کۆمەڵە یاسایەک یان ڕێنماییەک کە دەدرێت بە کۆمپیوتەرێک بۆ ئەوەی کارێک بکات بە پشتبەستن پێی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆمەڵە یاسایەک یان ڕێنماییەک کە دەدرێت بە کۆمپیوتەرێک بۆ ئەوەی کارێک بکات بە پشتبەستن پێی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

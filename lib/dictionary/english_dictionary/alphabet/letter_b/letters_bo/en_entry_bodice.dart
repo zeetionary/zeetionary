@@ -145,8 +145,10 @@ class EnglishEntrybodice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ژنانە) سیخمە، سوخمە، کۆڵۆنجە، مەمک‌بەند
-
-١. (ناو) بەشی سەرەوەی جلی ژنانە، لە کەمەرەوە بۆ مل"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشی سەرەوەی جلی ژنانە، لە کەمەرەوە بۆ مل"),
                           Row(
                             children: [
                               const Expanded(

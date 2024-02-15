@@ -110,8 +110,11 @@ class EnglishEntryactor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆڵ‌گێڕ، دەورگێڕ، ئەکتەر، ئەکتێر
-
-١. (ناو) کەسێک کە لە شانۆ یان فیلم ڕۆڵدەگێڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە لە شانۆ یان فیلم ڕۆڵدەگێڕێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -194,8 +194,9 @@ class EnglishEntrycancel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پووچەڵ کردن، بەتاڵ کردن، ھەڵوەشاندنەوە
-
-١. (کردار) ھەڵوەشاندنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ھەڵوەشاندنەوە"),
                           Row(
                             children: [
                               const Expanded(

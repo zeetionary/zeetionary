@@ -109,8 +109,11 @@ class EnglishEntryacreage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکرپێوی، پێوانی ڕووبەر بەپێی ئەکر یان گاوەخان
-
-١. (ناو) پارچە زەوییەک کە بە گاوەخان پێوراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە زەوییەک کە بە گاوەخان پێوراوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

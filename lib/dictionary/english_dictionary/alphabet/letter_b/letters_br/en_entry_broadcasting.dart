@@ -141,8 +141,10 @@ class EnglishEntrybroadcasting extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بڵاوکردنەوە، وەشان
-
-١. (ناو) کاری بەرھەمھێنان و پەخشی پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاری بەرھەمھێنان و پەخشی پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی"),
                           Row(
                             children: [
                               const Expanded(

@@ -199,8 +199,9 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناشتن، ناژتن، ژێرگڵ کردن
-
-١. (کردار) ناشتنی کەسێکی مردوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ناشتنی کەسێکی مردوو"),
                           Row(
                             children: [
                               const Expanded(

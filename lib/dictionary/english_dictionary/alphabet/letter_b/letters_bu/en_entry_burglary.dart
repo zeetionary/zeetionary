@@ -190,8 +190,10 @@ class EnglishEntryburglary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دزی، دزین، بڕین، چەتەیی، ماڵبڕی
-
-١. (ناو) تاوانی بە نایاسایی چوونە ناو بینایەک و دزیکردن لێی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تاوانی بە نایاسایی چوونە ناو بینایەک و دزیکردن لێی"),
                           Row(
                             children: [
                               const Expanded(

@@ -158,8 +158,11 @@ class EnglishEntryarchive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڵگەخانە، بەڵگار، ئەرکیڤ، ئارشیڤ
-
-١. (ناو) کۆمەڵە دۆکیومێنتێکی مێژوویی یان تۆماری حکومەت، خێزانێک، جێگایەک، یان دامەزراوەیەک؛ ئەو شوێنەی ئەم تۆمارانەی تێدا ھەڵدەگیرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆمەڵە دۆکیومێنتێکی مێژوویی یان تۆماری حکومەت، خێزانێک، جێگایەک، یان دامەزراوەیەک؛ ئەو شوێنەی ئەم تۆمارانەی تێدا ھەڵدەگیرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

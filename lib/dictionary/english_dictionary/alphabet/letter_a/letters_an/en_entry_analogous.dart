@@ -153,8 +153,9 @@ class EnglishEntryanalogous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوشێوە، لێکچوو، ھاوتا، وەکیەک، ھاوچەشن، شیاوی ھەڵسەنگاندن، ھاوتەریب
-
-١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

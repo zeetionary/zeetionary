@@ -143,8 +143,10 @@ class EnglishEntrybreadcrumbs extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وردەنان، ورکەنان، ڕێزەنان
-
-١. (ناو) وردەنانی زۆر بچووک کە دەکرێت لە درووستکردنی خواردندا بەکاربێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وردەنانی زۆر بچووک کە دەکرێت لە درووستکردنی خواردندا بەکاربێت"),
                           Row(
                             children: [
                               const Expanded(

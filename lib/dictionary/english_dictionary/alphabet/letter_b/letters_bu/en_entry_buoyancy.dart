@@ -192,8 +192,10 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەراوکەوتوویی، سەرکەوتەیی، مەلەونی، سەراوکی، سەراوکەیی، سووکی، سواراوی، توانایی سەراوکەوتەیی، بەکەیفی، خۆشحاڵی، بەگوڕی، دڵخۆشی، شادی
-
-١. (ناو) دۆخێک کە تێیدا نرخ یان چالاکی وەک خۆی دەمێنێتەوە یان زیاد دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دۆخێک کە تێیدا نرخ یان چالاکی وەک خۆی دەمێنێتەوە یان زیاد دەکات"),
                           Row(
                             children: [
                               const Expanded(

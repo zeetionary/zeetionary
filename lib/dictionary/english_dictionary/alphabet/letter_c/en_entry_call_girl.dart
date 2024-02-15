@@ -189,8 +189,10 @@ class EnglishEntrycallgirl extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کچی تەلەفونی، لەش‌فرۆشی تەلەفونی
-
-١. (ناو) ژنێک کە کاری لەشفرۆشی دەکات لە ڕێگەی موبایل و ئینتەرنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژنێک کە کاری لەشفرۆشی دەکات لە ڕێگەی موبایل و ئینتەرنێت"),
                           Row(
                             children: [
                               const Expanded(

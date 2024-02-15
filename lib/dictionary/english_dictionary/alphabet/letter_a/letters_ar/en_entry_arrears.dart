@@ -161,8 +161,10 @@ class EnglishEntryarrears extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرزی کۆن، قەرزی سەری وەخت‌نەدراو، قەرزی دواکەوتوو یان پاشکەوتوو، کاری دواکەوتوو، کاری جێبەجێ‌نەکراو، کاری نیوەچڵ
-
-١. (ناو) قەرزێک کە ماوەی دانەوەی بەسەرچووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) قەرزێک کە ماوەی دانەوەی بەسەرچووە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -195,8 +195,10 @@ class EnglishEntrycatastrophe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڵا، کارەسات، مەینەتی، چارە ڕشی
-
-١. (ناو) ڕووداوێکی لەناکاو کە دەبێتەھۆی ناڕەحەتی بۆ زۆر کەس"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووداوێکی لەناکاو کە دەبێتەھۆی ناڕەحەتی بۆ زۆر کەس"),
                           Row(
                             children: [
                               const Expanded(

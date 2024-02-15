@@ -196,8 +196,10 @@ class EnglishEntryceiling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنبان، میچ، بن‌میچ، سەراپیتە، زۆرترین، زۆرینە، ئەوپەڕ، ھەرەسەروو
-
-١. (ناو) بەشی سەرەوەی ڕووی ناوەوەی خانوویەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشی سەرەوەی ڕووی ناوەوەی خانوویەک"),
                           Row(
                             children: [
                               const Expanded(

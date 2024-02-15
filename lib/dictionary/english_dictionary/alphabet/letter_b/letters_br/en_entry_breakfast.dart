@@ -148,8 +148,8 @@ class EnglishEntrybreakfast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژەمی بەیانی، نان‌وچا، بەرقلیان، بەیانی‌یانە، نانی بەیانی، بەرچایی
-
-١. (ناو) نانی بەیانی"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) نانی بەیانی"),
                           Row(
                             children: [
                               const Expanded(

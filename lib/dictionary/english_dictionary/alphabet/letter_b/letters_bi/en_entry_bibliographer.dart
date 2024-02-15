@@ -149,8 +149,10 @@ class EnglishEntrybibliographer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیبلیۆگڕافێر، چاوگنامەنووس، کتێب‌ناس
-
-١. (ناو) کەسێک کە مێژووی کتێب و بەرھەمھێنانیان دەخوێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە مێژووی کتێب و بەرھەمھێنانیان دەخوێنێت"),
                           Row(
                             children: [
                               const Expanded(

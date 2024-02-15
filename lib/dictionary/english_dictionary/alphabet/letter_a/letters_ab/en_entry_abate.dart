@@ -94,8 +94,9 @@ class EnglishEntryabate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دامرکان، داکوژان، ئارام‌گرتن
-
-١. (کردار) لەدەستدانی ھێز و لاوازبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) لەدەستدانی ھێز و لاوازبوون" ""),
                           Row(
                             children: [
                               const Expanded(

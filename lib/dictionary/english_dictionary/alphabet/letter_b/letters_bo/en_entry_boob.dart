@@ -224,8 +224,10 @@ class EnglishEntryboob extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێ‌داقڵیشان، خەتا یان ھەڵەی گەوجانە، مرۆی گەوج، مەمک، بەرومەمک، بەردوویک، مەمکۆڵان، سنگ‌وبەرۆکی ژن
-
-١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"),
                           Row(
                             children: [
                               const Expanded(

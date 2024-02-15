@@ -149,8 +149,10 @@ class EnglishEntrybob extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵبەزودابەز، تەکان، لەقین، ڕاوەشان، جووڵە، داھاتنەوە، کوڕنش (کەم)، شێوازێکی داھێنانی قژی ژنان، قاش‌کردن، قورسایی، سەنگ، قورسە، شاقوڵ، شاغوڵ، گوڵنگ، گووفک، کلکی بڕاو، کلکی کوڵ (ئەسپ)، ھێشوو، بۆڵ
-
-١. (کردار) جوڵان یان جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) جوڵان یان جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە"),
                           Row(
                             children: [
                               const Expanded(

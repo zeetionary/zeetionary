@@ -190,8 +190,10 @@ class EnglishEntryburner extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گڕ، بڵێسە، سۆڵە، سۆڵەچرا، سووتێنەر، چرا
-
-١. (ناو) ئەو بەشەی گازی گەرمکەرەوە کە ئاگر درووست دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو بەشەی گازی گەرمکەرەوە کە ئاگر درووست دەکات"),
                           Row(
                             children: [
                               const Expanded(

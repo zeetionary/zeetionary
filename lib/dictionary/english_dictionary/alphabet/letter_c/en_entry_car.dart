@@ -199,8 +199,8 @@ class EnglishEntrycar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئۆتۆمبێل، ماشێن، مەکینە
-
-١. (ناو) ئۆتۆمبێل"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) ئۆتۆمبێل"),
                           Row(
                             children: [
                               const Expanded(

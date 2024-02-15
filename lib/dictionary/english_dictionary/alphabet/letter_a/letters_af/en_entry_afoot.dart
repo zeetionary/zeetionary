@@ -109,8 +109,9 @@ class EnglishEntryafoot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەسەرپێ، بەپێوە، لە پەرەسەندن‌دا، لە پێشکەوتن‌دا، لە ئامادەبوون‌دا، لە حاڵی کردن‌دا، لە جووڵەدا، بەڕێگاوە، نزیک، ھاکاھات
-
-١. (ھاوەڵناو) شتێک کە لە پلاندایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێک کە لە پلاندایە" ""),
                           Row(
                             children: [
                               const Expanded(

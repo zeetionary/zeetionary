@@ -147,8 +147,10 @@ class EnglishEntrybiochemist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بایۆکێمیست، زیندەکیمیازان، پسپۆڕی زیندەکیمیا
-
-١. (ھاوەڵناو) کەسێک کە لێکۆڵینەوە لە زانستی پێکھاتە و ڕەفتاری کیمیایی زیندەوەران دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە لێکۆڵینەوە لە زانستی پێکھاتە و ڕەفتاری کیمیایی زیندەوەران دەکات"),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,9 @@ class EnglishEntrycarpenter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دارتاش، مەرەنگۆز، چێوتاش، نەجاڕ
-
-١. (ناو) کەسێک کە کاری دارتاشی دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە کاری دارتاشی دەکات"),
                           Row(
                             children: [
                               const Expanded(

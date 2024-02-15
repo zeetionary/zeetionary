@@ -111,8 +111,10 @@ class EnglishEntryairworthy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆفڕین‌ئامادە، ئامادە یان ساز بۆ فڕین، باش بۆ فڕین، بێ‌مەترسی بۆ فڕین
-
-١. (ھاوەڵناو) فڕۆکەیەک کە گونجاوە بۆ فڕین"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) فڕۆکەیەک کە گونجاوە بۆ فڕین"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

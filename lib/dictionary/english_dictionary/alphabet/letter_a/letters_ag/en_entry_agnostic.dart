@@ -110,8 +110,11 @@ class EnglishEntryagnostic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نازانم‌بێژ، نازانم‌باوەڕ (= کەسێ کە پێی‌وایە ھیچ شتێ ناتوانرێ دەربارەی بوون یان سروشتی خوداوە (یان دوایین ھۆ) بزانرێ (و لە زانینیش نایەن) بێجگەلە شتە مادی‌یەکان)
-
-١. (ناو) کەسێک کە باوەڕی وایە ناتوانرێت بزانرێت خودا بوونی ھەیە یان نا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە باوەڕی وایە ناتوانرێت بزانرێت خودا بوونی ھەیە یان نا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

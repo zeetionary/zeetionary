@@ -199,8 +199,10 @@ class EnglishEntrychairman extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرۆک، سەرکۆڕ، سەرۆکی کۆبوونەوە، سەرۆکی لیژنە، سەرلیژنە، سەرلێژنە، سەرۆکی کۆمیتە
-
-١. (ناو) کەسێک کە سەرپەرشتی چاوپێکەوتنێک دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە سەرپەرشتی چاوپێکەوتنێک دەکات"),
                           Row(
                             children: [
                               const Expanded(

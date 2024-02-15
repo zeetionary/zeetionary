@@ -143,8 +143,10 @@ class EnglishEntrybrackish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەمێ سوێر، کەم‌سوێر، دەمی سوێری ھەیە، تاڵ، (تام) ناخۆش، بێ‌تام، بێ‌مەزە
-
-١. (ھاوەڵناو) ئاوێک کە خوێی تێدایە و تامێکی سوێری ناخۆشی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ئاوێک کە خوێی تێدایە و تامێکی سوێری ناخۆشی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

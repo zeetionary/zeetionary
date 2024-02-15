@@ -136,8 +136,11 @@ class EnglishEntryagent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نوێنەر، بریکار، دەڵاڵ، (ڕێزمان) کارا، بکەر، ھۆکار، بکەر، ئەنجام‌دەر، سیخوڕ، ئامێر، ئامراز، کەرەسە، ھۆ، (کیمیا) کارا (= ماک یان مادەیێ کە دەبێتە ھۆی کاردانەوەی کیمیایی)
-
-١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

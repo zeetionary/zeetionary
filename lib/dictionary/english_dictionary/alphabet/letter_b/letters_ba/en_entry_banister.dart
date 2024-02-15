@@ -153,8 +153,10 @@ class EnglishEntrybanister extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: محەجەرە، نەردە، لاجامە، چاغ، ستوونۆکەی نەردە، دەسەگیرە یان دەسکی پلیکان
-
-١. (ناو) محەجەرەی پلەکانە کە دەستی پێوە دەگری لە کاتی سەرکەوتن یان دابەزین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) محەجەرەی پلەکانە کە دەستی پێوە دەگری لە کاتی سەرکەوتن یان دابەزین"),
                           Row(
                             children: [
                               const Expanded(

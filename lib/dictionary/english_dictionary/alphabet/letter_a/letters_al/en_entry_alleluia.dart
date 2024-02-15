@@ -111,8 +111,11 @@ class EnglishEntryalleluia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سپاس بۆ خودا، شوکر بۆ خودا، خوایە شوکرت
-
-١. (ناو) وشەیەک بۆ دەربڕینی سوپاسگوزاری بۆ خودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وشەیەک بۆ دەربڕینی سوپاسگوزاری بۆ خودا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

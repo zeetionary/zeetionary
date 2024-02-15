@@ -147,8 +147,10 @@ class EnglishEntrybedpan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاسە، تاس، لەگەن
-
-١. (ناو) کاسەیەک کە نەخۆشێک وەک تەوالێت بەکاریدێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاسەیەک کە نەخۆشێک وەک تەوالێت بەکاریدێنێت"),
                           Row(
                             children: [
                               const Expanded(

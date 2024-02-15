@@ -192,8 +192,10 @@ class EnglishEntrycensorship extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بژارەوانی، چاودێری، پشکێنەری، بەرھەم‌دۆزی، بژارگەری
-
-١. (ناو) کردار یان سیاسەتی لابردنی ئەو بەشانەی کتێبێک، فیلمێک، ھتد کە نەگونجاون یان مەترسی سیاسییان ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کردار یان سیاسەتی لابردنی ئەو بەشانەی کتێبێک، فیلمێک، ھتد کە نەگونجاون یان مەترسی سیاسییان ھەیە"),
                           Row(
                             children: [
                               const Expanded(

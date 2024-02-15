@@ -141,8 +141,9 @@ class EnglishEntrybulrush extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قامیش، چیت، ژاژ، لەقەل، لەبان، لەوەن، جگەن، سێسوو؟، گیاحەسیر، پیزاڵ، پیزڵ
-
-١. (ناو) قامیش؛ ڕووەکێکی بەرز کە گەڵای """),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) قامیش؛ ڕووەکێکی بەرز کە گەڵای "),
                           Row(
                             children: [
                               const Expanded(

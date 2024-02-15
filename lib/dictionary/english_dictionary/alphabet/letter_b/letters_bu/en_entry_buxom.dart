@@ -189,8 +189,10 @@ class EnglishEntrybuxom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەیکەلی، جوان‌چاک، بەقەڵافەت، مەمک‌قوت
-
-١. (ھاوەڵناو) گەورە بەشێوەیەکی جوان و لەگەڵ مەمکی گەورەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) گەورە بەشێوەیەکی جوان و لەگەڵ مەمکی گەورەدا"),
                           Row(
                             children: [
                               const Expanded(

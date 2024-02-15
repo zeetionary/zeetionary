@@ -110,8 +110,9 @@ class EnglishEntryailing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەخۆش، ناساخ، سیسەڵە، دەردەدار، لاواز، بێ‌بازاڕ
-
-١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون" ""),
                           Row(
                             children: [
                               const Expanded(

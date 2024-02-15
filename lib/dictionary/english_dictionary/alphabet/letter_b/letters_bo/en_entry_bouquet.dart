@@ -146,8 +146,10 @@ class EnglishEntrybouquet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەزم، میوانی، بانگێشتن
-
-١. (ناو) ژەمە خواردنێکی گەورە بۆ ژمارەیەکی زۆر خەڵک، بە تایبەتی بۆ بۆنەی تایبەتی کە تێیدا وتار پێشکەش دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژەمە خواردنێکی گەورە بۆ ژمارەیەکی زۆر خەڵک، بە تایبەتی بۆ بۆنەی تایبەتی کە تێیدا وتار پێشکەش دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

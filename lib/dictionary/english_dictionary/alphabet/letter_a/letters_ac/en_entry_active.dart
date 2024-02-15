@@ -210,8 +210,9 @@ class EnglishEntryactive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاک، خەبات‌کار، گورج، ئازا، لەش‌سووک، کارا، بەکار، بەجم‌وجوڵ، نەسرەوتوو، بزۆز، (ڕێزمان) دیار یان زانراو، کاریگەر، بەباندۆر، ڕشت، شێلگیر
-
-١. (ھاوەڵناو) سەرقاڵ بە کارکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) سەرقاڵ بە کارکردن" ""),
                           Row(
                             children: [
                               const Expanded(

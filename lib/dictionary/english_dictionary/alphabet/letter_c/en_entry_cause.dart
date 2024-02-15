@@ -430,8 +430,10 @@ class EnglishEntrycause extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھۆ، ھۆکار، ئەگەر، سەدەم، مایە، ماک، بنەما، دۆز، کێشە، بەڵگە، ئامانج، مەبەست، (ماف) داواکاری، دادخوازی
-
-١. (ناو) کەسێک یان شتێک وادەکات شتێک ڕووبدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک یان شتێک وادەکات شتێک ڕووبدات"),
                           Row(
                             children: [
                               const Expanded(

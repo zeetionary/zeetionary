@@ -111,8 +111,10 @@ class EnglishEntryallin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەمەلایەنە، گشت‌لایەنە، گشتگیر
-
-١. (ھاوەڵناو) لەخۆگرتنی تەواوی خەرجییەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) لەخۆگرتنی تەواوی خەرجییەکان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

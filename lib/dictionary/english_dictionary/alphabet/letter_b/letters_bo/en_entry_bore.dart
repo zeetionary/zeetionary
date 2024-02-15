@@ -148,8 +148,10 @@ class EnglishEntrybore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قوڵکە، چاڵ، کون، مێمڵ، ڕیوڵ، ژیرەژاو، مرۆی وەڕەس‌کەر یان گەوج‌کەر، وشترە، وشتراو، قەڵبەزە
-
-١. (ناو) بێزارکردنی کەسێک، بەتایبەی بە قسەی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بێزارکردنی کەسێک، بەتایبەی بە قسەی زۆر"),
                           Row(
                             children: [
                               const Expanded(

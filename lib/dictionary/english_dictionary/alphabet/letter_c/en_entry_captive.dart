@@ -194,8 +194,9 @@ class EnglishEntrycaptive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دیل، گیراو، یەخسیر، زیندانی، بەندی، گیرۆدە، لەبەند، دڵبەستە، شەیدا، سەوداسەر، پێکراو
-
-١. (ھاوەڵناو) دیل یان ئەسیر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) دیل یان ئەسیر"),
                           Row(
                             children: [
                               const Expanded(

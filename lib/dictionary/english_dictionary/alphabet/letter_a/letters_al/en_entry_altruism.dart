@@ -111,8 +111,11 @@ class EnglishEntryaltruism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەخۆبردوویی، گیان‌بازی، ئەویدی‌خوازی، فەداکاری، مرۆڤ‌دۆستی، (گیانەوەرناسی) ئەویدی‌خوازی: ھەڵس‌وکەوتی گیانەوەرێ بە سوودی یەکێکی تر تا خۆی
-
-١. (ناو) یارمەتیدانی خۆنەویستانەی کەسانی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) یارمەتیدانی خۆنەویستانەی کەسانی تر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

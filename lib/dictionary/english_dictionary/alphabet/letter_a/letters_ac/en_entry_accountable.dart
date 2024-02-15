@@ -95,8 +95,11 @@ class EnglishEntryaccountable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرپرس، لێپرسراو
-
-١. (ھاوەڵناو) دانانی کەسێک بە بەرپرس بۆ قسە و کردارەکانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دانانی کەسێک بە بەرپرس بۆ قسە و کردارەکانی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

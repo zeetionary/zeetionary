@@ -109,8 +109,10 @@ class EnglishEntryairborne extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە حەوادا، لە ئاسمان‌دا، لە (حاڵی) فڕین‌دا، بە ڕێگای ھەوا یا ئاسمان‌دا، بە ڕێگای ھەوا یان ئاسمان ڕاگوێزراو
-
-١. (ھاوەڵناو) بوونی توانای جوڵان لە ھەوادا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بوونی توانای جوڵان لە ھەوادا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

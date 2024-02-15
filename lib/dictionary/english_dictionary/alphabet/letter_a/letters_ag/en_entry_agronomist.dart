@@ -110,8 +110,11 @@ class EnglishEntryagronomist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جووتیار، جووت‌بەندە، وەرزێر، کشت‌کار، ئەندازیاری کشت‌وکاڵ، شارەزای کشت‌وکاڵ، ئەگرۆنۆمیست
-
-١. (ناو) شارەزایەکی کە زانستی کە کاردەکات لەسەر پەیوەندی نێوان کشتوکاڵ و ژینگە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شارەزایەکی کە زانستی کە کاردەکات لەسەر پەیوەندی نێوان کشتوکاڵ و ژینگە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

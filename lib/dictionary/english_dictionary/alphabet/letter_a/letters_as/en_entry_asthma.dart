@@ -160,8 +160,11 @@ class EnglishEntryasthma extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕبۆ، ڕەبوو، ھەناسەسواری، تەنگەھەناسە، ھەناسەتەنگی، بەرھەنگ، گژم، پشووسواری
-
-١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

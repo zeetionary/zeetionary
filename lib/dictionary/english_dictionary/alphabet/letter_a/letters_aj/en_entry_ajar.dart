@@ -110,8 +110,9 @@ class EnglishEntryajar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیوەکراوە، درزپێ‌دراو، قەڵەش‌پێ‌دراو (درگا و پەنجێرە)
-
-١. (ھاوەڵناو) کەمێک کراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کەمێک کراوە" ""),
                           Row(
                             children: [
                               const Expanded(

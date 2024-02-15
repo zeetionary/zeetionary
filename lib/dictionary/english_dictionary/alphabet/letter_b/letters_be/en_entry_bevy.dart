@@ -147,8 +147,10 @@ class EnglishEntrybevy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەل، دەستە، خێڵ، لەشکر، جەماعەت، کۆمەڵ، تاقم، پۆل
-
-١. (ناو) ژمارەیەکی زۆر لە خەڵکی یان شتی ھەمان جۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژمارەیەکی زۆر لە خەڵکی یان شتی ھەمان جۆر"),
                           Row(
                             children: [
                               const Expanded(

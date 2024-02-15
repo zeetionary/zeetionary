@@ -112,8 +112,9 @@ class EnglishEntryadulthood extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەمەنی پێگەیشتن، کامڵی، باڵق بوون، گەورەساڵی
-
-١. (ھاوەڵناو) تەمەنی پێگەیشتووی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تەمەنی پێگەیشتووی" ""),
                           Row(
                             children: [
                               const Expanded(

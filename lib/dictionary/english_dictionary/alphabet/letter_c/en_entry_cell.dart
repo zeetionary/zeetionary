@@ -195,8 +195,10 @@ class EnglishEntrycell extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خانە، ژوورە، سلول، باتری، پیل، ھێزە، بەند، ژوورۆچکە (تاکەکەسی، زیندان)، چەق، ناوک، نێوک، ناوەند
-
-١. (ناو) بچووکتری یەکەی تەنی زیندوو کە دەتوانێت بە سەربەخۆیی بژی. ھەموو ڕووەک و ئاژەڵەکان لە خانە پێکھاتوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بچووکتری یەکەی تەنی زیندوو کە دەتوانێت بە سەربەخۆیی بژی. ھەموو ڕووەک و ئاژەڵەکان لە خانە پێکھاتوون"),
                           Row(
                             children: [
                               const Expanded(

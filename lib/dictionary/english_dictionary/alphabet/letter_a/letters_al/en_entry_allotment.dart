@@ -112,8 +112,11 @@ class EnglishEntryallotment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەرخان‌دان، تایبەتی‌دان، دابەش‌کردن، دابەشاندن، بەشینەوە، بەش، پشک، پار
-
-١. (ناو) پارچە زەوییەکی بچووک کە کەسێک بە کرێی دەگرێت بە مەبەستی چاندن لەسەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە زەوییەکی بچووک کە کەسێک بە کرێی دەگرێت بە مەبەستی چاندن لەسەری"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

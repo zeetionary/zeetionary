@@ -148,8 +148,10 @@ class EnglishEntryboundary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سنوور، تخوب، سەرحەد، مەرز، پشتێنە، سەرحەد، کەرخ، ڕادە، ھێڵی جیاکەرەوە
-
-١. (ھاوەڵناو) سنوور؛ ھێڵێکی خەیاڵی یان ڕاستی کە سنووری شتێک دیاری دەکات و جیای دەکاتەوە لە شتێکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) سنوور؛ ھێڵێکی خەیاڵی یان ڕاستی کە سنووری شتێک دیاری دەکات و جیای دەکاتەوە لە شتێکی تر"),
                           Row(
                             children: [
                               const Expanded(

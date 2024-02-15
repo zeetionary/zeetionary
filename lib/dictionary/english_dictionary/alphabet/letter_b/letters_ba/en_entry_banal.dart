@@ -153,8 +153,10 @@ class EnglishEntrybanal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاسایی، ڕەمەکی، سەرپێیی، ناسەرنج‌ڕاکێش، ھیچەکە، ناگرنگ، ئایەخ
-
-١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە"),
                           Row(
                             children: [
                               const Expanded(

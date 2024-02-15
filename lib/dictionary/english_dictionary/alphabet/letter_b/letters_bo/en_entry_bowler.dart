@@ -144,8 +144,10 @@ class EnglishEntrybowler extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یاریزانی بۆلینگ، بۆلینگ‌باز
-
-١. (ناو) کەسێک کە تۆپ فڕێ دەدات، بەتایبەتی لە یاری بۆوڵینگ و کریکیتدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە تۆپ فڕێ دەدات، بەتایبەتی لە یاری بۆوڵینگ و کریکیتدا"),
                           Row(
                             children: [
                               const Expanded(

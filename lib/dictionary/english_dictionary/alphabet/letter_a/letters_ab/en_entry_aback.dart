@@ -92,8 +92,11 @@ class EnglishEntryaback extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
-
-١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

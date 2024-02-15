@@ -104,8 +104,11 @@ class EnglishEntryaboriginal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مرۆڤ، ڕووەک یان گیانەوەر) ڕەسەن، بوومی، خۆجێیی، ناوچەیی، خۆماڵی، سەرەتانشین، دانیشتووانی ڕەسەنی ئەوسترالیا، 
-
-١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

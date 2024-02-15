@@ -145,8 +145,10 @@ class EnglishEntryblasphemous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کفربێژانە، کفراوی، خودادڕی‌یانە
-
-١. (ھاوەڵناو) ڕەفتارێک یان قسەکردنێک کە لەلایەنی ئایینییەوە پەسەندنەکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕەفتارێک یان قسەکردنێک کە لەلایەنی ئایینییەوە پەسەندنەکراوە"),
                           Row(
                             children: [
                               const Expanded(

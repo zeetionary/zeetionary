@@ -114,8 +114,11 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەخۆشی ئالزایمێر، ئەلزەھایمەر، نەخۆشی لەبیرچوونەوە
-
-١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

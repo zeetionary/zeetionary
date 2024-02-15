@@ -94,8 +94,11 @@ class EnglishEntryabbot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرۆکی دەیر (دێر، کڵێسا)، پیری دەیر، گەورەی دەیر
-
-١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

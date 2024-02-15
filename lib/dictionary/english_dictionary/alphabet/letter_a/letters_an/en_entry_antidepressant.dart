@@ -156,8 +156,11 @@ class EnglishEntryantidepressant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (دەرمانی) دژەدڵتەنگی یان دژی خەمۆکی، دڵتەنگی‌ڕەوێن
-
-١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

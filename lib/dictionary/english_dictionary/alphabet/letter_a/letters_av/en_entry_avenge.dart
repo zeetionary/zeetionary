@@ -153,8 +153,9 @@ class EnglishEntryavenge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕق ھەڵگرتن، تۆڵە کردنەوە
-
-١. (کرادر) تۆڵەکردنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کرادر) تۆڵەکردنەوە" ""),
                           Row(
                             children: [
                               const Expanded(

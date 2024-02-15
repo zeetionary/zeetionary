@@ -145,8 +145,10 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مۆخی ئێسک، ئێسکەمۆخ، مەغزی ئێسقان
-
-١. (ناو) مادەیەکی نەرم کە بۆشاییەکانی ئێسک پڕدەکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی نەرم کە بۆشاییەکانی ئێسک پڕدەکاتەوە"),
                           Row(
                             children: [
                               const Expanded(

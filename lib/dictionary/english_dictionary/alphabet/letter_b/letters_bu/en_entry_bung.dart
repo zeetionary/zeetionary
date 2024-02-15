@@ -192,8 +192,10 @@ class EnglishEntrybung extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: درگا، سەر، بان، تۆپەوانە، زارئاخن، زاربێن، زمانە (بەرمیل، شووشە و ھتد)، بەرتیل، دەم‌شیرینی، بەکارنەھاتوو، خراپ، کاول، وێران
-
-١. (کردار) دانان یان فڕێدانی شتێک بۆ شوێنێک بەخێرایی و کەمتەرخەمییەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) دانان یان فڕێدانی شتێک بۆ شوێنێک بەخێرایی و کەمتەرخەمییەوە"),
                           Row(
                             children: [
                               const Expanded(

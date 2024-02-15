@@ -154,8 +154,11 @@ class EnglishEntryamphibious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووژینە، وشکاوەکی، وشکاوی، (کرداری لەشکری) زەمینی-دەریایی، وشکانی-ئاوی
-
-١. (ھاوەڵناو) گیانەوەرێک کە توانای ھەیە لە وشکانی و ئاودا بژێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) گیانەوەرێک کە توانای ھەیە لە وشکانی و ئاودا بژێ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

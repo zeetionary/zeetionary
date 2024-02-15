@@ -199,8 +199,10 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تایبەتی، نەمازە، تایبەتمەندی، نیشانەی تایبەتی، ڕەوشت، خەسڵەت
-
-١. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک/کەسێک هەیەتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک/کەسێک هەیەتی"),
                           Row(
                             children: [
                               const Expanded(

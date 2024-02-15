@@ -147,8 +147,10 @@ class EnglishEntryalone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەنیا، تەنێ، تاک و تەنیا، بێ‌ھاوتا، بێ‌وێنە، بەتەنیایی، فەقەت
-
-١. (ھاوەڵناو) بە تەنھا و بەبێ خەڵکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بە تەنھا و بەبێ خەڵکی تر" ""),
                           Row(
                             children: [
                               const Expanded(

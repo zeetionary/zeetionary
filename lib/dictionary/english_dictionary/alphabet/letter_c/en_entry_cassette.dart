@@ -193,8 +193,10 @@ class EnglishEntrycassette extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەنگبەند، کاسێت، نەوار، شریت، زەفت
-
-١. (ناو) چوارچێوەیەکی پلاستیکی تەخت کە شریتی تێدایە و دەنگ و میوزیکی پێ لێدەدرێت، یان بۆ لێدانی فیلم لەسەر کامێرا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چوارچێوەیەکی پلاستیکی تەخت کە شریتی تێدایە و دەنگ و میوزیکی پێ لێدەدرێت، یان بۆ لێدانی فیلم لەسەر کامێرا"),
                           Row(
                             children: [
                               const Expanded(

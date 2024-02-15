@@ -153,8 +153,10 @@ class EnglishEntrybandit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێگر، ڕێبڕ، چەتە، کەلەشە، دزی چەکدار، (بە زمانی لەشکری) فڕۆکەی دوژمن
-
-١. (ناو) ڕێگر؛ ئەندامێکی گرووپێک لە دز کە ھێرش دەکەنە سەر گەشتیاران"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێگر؛ ئەندامێکی گرووپێک لە دز کە ھێرش دەکەنە سەر گەشتیاران"),
                           Row(
                             children: [
                               const Expanded(

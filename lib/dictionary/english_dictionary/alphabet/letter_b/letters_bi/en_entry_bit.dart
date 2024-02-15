@@ -340,8 +340,9 @@ class EnglishEntrybit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەنچک، کوت، لەت، پارچە، نەختێ، تۆزقاڵێ، کەمێ، پشکێ، بڕێ، ماوەیێ، بڕێکی زۆر، لۆدە، کۆما، بەش، پشک، سکە، کۆین، تا ئەندازەیێ، تا ڕادەیێ، لەغاو، ئاوخۆری، لغاڤ (ئەسپ)، سەرمەتە، سەرەمەتە، سەرەسمۆ، سمۆ، تیغە، دەم (ڕەندە یان سمۆ)
-
-١. (ناو) ھەندێک، کەمێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھەندێک، کەمێک"),
                           Row(
                             children: [
                               const Expanded(

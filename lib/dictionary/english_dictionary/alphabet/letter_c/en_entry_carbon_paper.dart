@@ -194,8 +194,10 @@ class EnglishEntrycarbonpaper extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاغزی کۆپی، لەبەرگرتنەوە، یان ھەڵگرتنەوە
-
-١. (ناو) پەڕەیەک کە کە لایەکی ڕەشە و دەخرێتە نێوان دوو پەڕە بۆ لەبەرگرتنەوەی نووسین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پەڕەیەک کە کە لایەکی ڕەشە و دەخرێتە نێوان دوو پەڕە بۆ لەبەرگرتنەوەی نووسین"),
                           Row(
                             children: [
                               const Expanded(

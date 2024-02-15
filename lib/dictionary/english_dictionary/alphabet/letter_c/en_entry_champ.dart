@@ -193,8 +193,10 @@ class EnglishEntrychamp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاوێژ، کاوێژ کردن، جووتن، قارەمان، پاڵەوان
-
-١. (ناو) خواردن یان قەپگرتن بە دەنگەدەنگەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خواردن یان قەپگرتن بە دەنگەدەنگەوە"),
                           Row(
                             children: [
                               const Expanded(

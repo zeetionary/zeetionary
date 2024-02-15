@@ -144,8 +144,11 @@ class EnglishEntryaffair extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کار، کردە، شت، کاروبار (کۆ)، پرس، دۆز، بابەت، مژار، بوویەر، ڕووداو، کاروباری بازرگانی یان دارایی، پێوەندی سێکسی، دڵداری، حەزلێ‌کردوویی، تێکەڵ‌بوونی ژن و پیاوێ
-
-١. (ناو) ئەو بابەتانەی کە خەڵکی گرنگیان پێدەدات، یان مژاری سیاسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو بابەتانەی کە خەڵکی گرنگیان پێدەدات، یان مژاری سیاسی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

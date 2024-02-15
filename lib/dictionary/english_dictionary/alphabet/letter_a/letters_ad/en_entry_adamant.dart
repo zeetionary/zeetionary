@@ -109,8 +109,11 @@ class EnglishEntryadamant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەللەڕەق، لاسار، کوڕڕە، یەکبڕیار، سەرڕەق، سوور، بڕا
-
-١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

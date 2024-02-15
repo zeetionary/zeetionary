@@ -277,8 +277,9 @@ class EnglishEntrybrilliant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕشنگدار، بریسکەدار، ورشن، درەوشەر، ڕووناک، ڕۆشن، درەوشاوە، بریقەدار، شارەزا، شارەزایانە، وەستایانە، مامۆستا، بەھۆش، زیرەک، ھەڵکەوتوو، بلیمەت، ھیوادار، ھومێدەوار، سەرکەوتوو، زۆرباش، یەکجار چاک
-
-١. (ھاوەڵناو) تەواو زیرەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تەواو زیرەک"),
                           Row(
                             children: [
                               const Expanded(

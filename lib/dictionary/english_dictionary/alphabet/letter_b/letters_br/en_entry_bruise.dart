@@ -146,8 +146,10 @@ class EnglishEntrybruise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شین‌بوونەوە، کەووبوون، ڕەش‌بوونەوە، خوێن‌تێزان، لکە، لەکە، شینکە 
-
-١. (ناو) نیشانەیەکی شین، قاوەیی، یان مۆر لەسەر پێست لە دوای کەوتن یان لێدان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نیشانەیەکی شین، قاوەیی، یان مۆر لەسەر پێست لە دوای کەوتن یان لێدان"),
                           Row(
                             children: [
                               const Expanded(

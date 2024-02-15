@@ -141,8 +141,10 @@ class EnglishEntrybreastbone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ئێسک) چۆڵەمە، کۆڵەی سنگ، تەڵەمە
-
-١. (ناو) ئێسکێکی درێژی ستوونییە دەکەوێتە ناوەڕاستی سنگ و ئێسکەکانی پەراسوو لە پێشەوە پێوەی لکاون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئێسکێکی درێژی ستوونییە دەکەوێتە ناوەڕاستی سنگ و ئێسکەکانی پەراسوو لە پێشەوە پێوەی لکاون"),
                           Row(
                             children: [
                               const Expanded(

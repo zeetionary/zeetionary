@@ -191,8 +191,10 @@ class EnglishEntrycandid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاشکاو، قسەلەڕوو، بێ‌لەڕوودامان، بێ‌قەلەودەلە، بێ‌گرێ و قۆرت، بێ‌شێلەوبێلە، پاک‌وباراشی، ڕێک‌وڕاست، لانەگرانە، واقع‌بین، (وێنە یان فیلم) شاراوە، نادیار 
-
-١. (ھاوەڵناو) وتنی ئەوەی کە دەتەوێت بە ڕاستگۆیی و کراوەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) وتنی ئەوەی کە دەتەوێت بە ڕاستگۆیی و کراوەیی"),
                           Row(
                             children: [
                               const Expanded(

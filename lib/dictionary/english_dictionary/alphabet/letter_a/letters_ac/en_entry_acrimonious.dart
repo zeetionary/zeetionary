@@ -110,8 +110,11 @@ class EnglishEntryacrimonious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توند، تاڵ، ناخۆش، ڕەق، تیژ
-
-١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

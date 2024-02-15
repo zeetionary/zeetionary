@@ -162,8 +162,11 @@ class EnglishEntryauthorize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھیز پێدان، ئیزن پێدان، دەسەڵات پێدان، پەسەند کردن
-
-١. (کردار) پێدانی مۆڵەتی فەرمی بۆ شتێک، یان بە کەسێک بۆ کردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پێدانی مۆڵەتی فەرمی بۆ شتێک، یان بە کەسێک بۆ کردنی شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

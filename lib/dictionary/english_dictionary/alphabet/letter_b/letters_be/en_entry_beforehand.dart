@@ -148,8 +148,9 @@ class EnglishEntrybeforehand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێشتر، زووتر، پێشەکی، لەوەپێش، لەپێشانا، لەپێشا
-
-١. (ھاوەڵکار) پێشوەختە؛ پێش ڕوودانی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) پێشوەختە؛ پێش ڕوودانی شتێک"),
                           Row(
                             children: [
                               const Expanded(

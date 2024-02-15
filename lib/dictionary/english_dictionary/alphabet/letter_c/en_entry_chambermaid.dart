@@ -192,8 +192,10 @@ class EnglishEntrychambermaid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خزمەت‌کاری ژن، کارەکەر
-
-١. (ناو) ژنە خزمەتکارێک کە کاری پاککردنەوەی ژووری نووستن دەکات، بەتایبەتی لە ھوتێلدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژنە خزمەتکارێک کە کاری پاککردنەوەی ژووری نووستن دەکات، بەتایبەتی لە ھوتێلدا"),
                           Row(
                             children: [
                               const Expanded(

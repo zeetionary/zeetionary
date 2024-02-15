@@ -109,8 +109,11 @@ class EnglishEntryacoustics extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەنگ‌ناسی، زانستی دەنگ، بار یان چۆنیەتی دەنگی
-
-١. (ناو) گونجانی دیزاینی بینایەک لەگەڵ گواستنەوەی دەنگ بەناویدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گونجانی دیزاینی بینایەک لەگەڵ گواستنەوەی دەنگ بەناویدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

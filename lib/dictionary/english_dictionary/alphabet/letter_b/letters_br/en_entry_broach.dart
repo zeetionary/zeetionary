@@ -142,8 +142,10 @@ class EnglishEntrybroach extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بابەت، تەوەر، مژار، کردنەوەی باسێک
-
-١. (کردار) قسەکردن لەسەر شتێک کە سەختە زۆرجار بەھۆی ئەوەی خەڵکی پێی شەرمەزار دەبن یان ناکۆکی ھەیە لەسەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) قسەکردن لەسەر شتێک کە سەختە زۆرجار بەھۆی ئەوەی خەڵکی پێی شەرمەزار دەبن یان ناکۆکی ھەیە لەسەری"),
                           Row(
                             children: [
                               const Expanded(

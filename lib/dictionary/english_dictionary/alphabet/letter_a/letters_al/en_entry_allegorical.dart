@@ -112,8 +112,11 @@ class EnglishEntryallegorical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێمایی، نیشانەیی، مەجازی، ڕازمەند، ڕەمزی، خوازەیی
-
-١. (ھاوەڵناو) چیرۆکێک کە ھەر کارەکتەرێک تێیدا سمبولە بۆ چەمکێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) چیرۆکێک کە ھەر کارەکتەرێک تێیدا سمبولە بۆ چەمکێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

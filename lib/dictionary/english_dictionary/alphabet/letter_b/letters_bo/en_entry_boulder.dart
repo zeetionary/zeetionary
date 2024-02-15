@@ -145,8 +145,9 @@ class EnglishEntryboulder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خڕانکە، تاوێر، خڕۆڵکە، بەرد، کەڤر، تەختەبەرد، گاشەبەرد، گڕەبەرد، تاشەبەرد، گابەرد
-
-١. (ناو) بەردێکی گەورە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەردێکی گەورە"),
                           Row(
                             children: [
                               const Expanded(

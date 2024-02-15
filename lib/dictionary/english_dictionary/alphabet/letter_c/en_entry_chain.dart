@@ -200,8 +200,8 @@ class EnglishEntrychain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زنجیر، زریزە، کۆت‌وبەند، کۆت‌وزنجیر، کۆت‌وپێوەند، زنجیرە، لیزگە، بەندەڵەبەند، ڕەچە، ڕست، ڕیزە، پاوەن، پێوەن، پێبەن، زنجیری ڕووپێوی
-
-١. (ناو) زنجیر"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) زنجیر"),
                           Row(
                             children: [
                               const Expanded(

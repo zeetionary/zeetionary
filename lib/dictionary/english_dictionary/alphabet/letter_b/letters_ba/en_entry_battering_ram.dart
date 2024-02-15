@@ -147,8 +147,10 @@ class EnglishEntrybatteringram extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەلەبەران، درگاشکێن، شوورەڕووخێن، قەڵاڕووخێن، دیوارشکێن، قەڵاڕمێن (ئامێرێکی شەڕی کۆنە)
-
-١. (ھاوەڵناو) پارچە دارێکی گەورە کە لە کۆندا بەکاردەھات بۆ شکاندنی دەرگا و دیوار"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پارچە دارێکی گەورە کە لە کۆندا بەکاردەھات بۆ شکاندنی دەرگا و دیوار"),
                           Row(
                             children: [
                               const Expanded(

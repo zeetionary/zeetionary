@@ -344,8 +344,8 @@ class EnglishEntrybody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەش، تەن، جەستە، ئەندام، گیان، قەلبەند، کەلەخ، کەلاک، جەندەک، تەرم، لاشە، بەشی سەرەکی، (ماشێن) بەدەنە، لاشە، گروپ، دەستە، تیپ، تاقم، کۆمەڵە، کۆمەڵ، کۆما، کۆگا، لۆدەتەن، ژمارە، چۆنیەتی، باشی، بنیادەم، پیاو، مرۆ، (مەی) خەستی
-
-١. (ناو) لەش، جەستە"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) لەش، جەستە"),
                           Row(
                             children: [
                               const Expanded(

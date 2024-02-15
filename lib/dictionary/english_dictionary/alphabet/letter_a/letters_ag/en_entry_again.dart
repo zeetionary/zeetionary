@@ -146,8 +146,9 @@ class EnglishEntryagain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دیسان، جارێکی تر، دووبارە، ھەمیسان، سەرلەنوێ، لە سەرەتاوە، سەرەڕای ئەوەش، لەگەڵ ئەوەش، تر، دی، دیسانیش
-
-١. (ھاوەڵکار) جارێکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) جارێکی تر" ""),
                           Row(
                             children: [
                               const Expanded(

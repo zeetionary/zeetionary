@@ -198,8 +198,9 @@ class EnglishEntrycash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەختینە، نەغدینە، پارە
-
-١. (ناو) پارەی دراو یان کاغەز"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) پارەی دراو یان کاغەز"),
                           Row(
                             children: [
                               const Expanded(

@@ -147,8 +147,10 @@ class EnglishEntrybomber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (فڕۆکە) بۆمب‌خەر، بۆمباوێژ، بۆمب‌چن، بۆمب‌دانەر، بۆمب‌نەرەوە
-
-١. (ناو) فڕۆکەیەک کە بۆمب ھەڵدەگرێت و بەری دەداتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) فڕۆکەیەک کە بۆمب ھەڵدەگرێت و بەری دەداتەوە"),
                           Row(
                             children: [
                               const Expanded(

@@ -190,8 +190,10 @@ class EnglishEntrycandy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەباتاو، نەبات، شیرینی، نوقڵ، چاکڵیت، شۆکۆلات
-
-١. (ناو) شیرینی کە لە شەکر و چکلێت درووست دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شیرینی کە لە شەکر و چکلێت درووست دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

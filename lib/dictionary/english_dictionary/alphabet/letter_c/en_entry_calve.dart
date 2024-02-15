@@ -190,8 +190,9 @@ class EnglishEntrycalve extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زان، گوێلک بوون
-
-١. (کردار) زانی مانگا بە گوێرەکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) زانی مانگا بە گوێرەکە"),
                           Row(
                             children: [
                               const Expanded(

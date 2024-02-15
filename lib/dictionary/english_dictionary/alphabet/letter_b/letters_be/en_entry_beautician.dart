@@ -147,8 +147,10 @@ class EnglishEntrybeautician extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوان‌کار، جوان‌کەر، ڕازێنەر
-
-١. (ناو) کەسێک کە کاری جوانکاری بۆ ڕووخسار و جەستە دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری جوانکاری بۆ ڕووخسار و جەستە دەکات"),
                           Row(
                             children: [
                               const Expanded(

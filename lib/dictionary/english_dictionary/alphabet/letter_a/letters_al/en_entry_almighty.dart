@@ -122,8 +122,9 @@ class EnglishEntryalmighty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتوانا، توانا، خودای بەتوانا یان توانا، بەتوانای ڕەبەق، گەورە، بێ‌ئەندازە، لەرادەبەدەر، توند، سەخت
-
-١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو" ""),
                           Row(
                             children: [
                               const Expanded(

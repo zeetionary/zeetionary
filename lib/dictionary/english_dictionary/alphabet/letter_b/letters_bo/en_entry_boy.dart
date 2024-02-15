@@ -332,8 +332,8 @@ class EnglishEntryboy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پس، کوڕ، لاو، بەچە، کوڕیژگە، مناڵکار، کوڕەکان، شاگرد، بەردەست، نۆکەر، شا، تەح، ئاخ، وەی، پیاح
-
-١. (ناو) کوڕ"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) کوڕ"),
                           Row(
                             children: [
                               const Expanded(

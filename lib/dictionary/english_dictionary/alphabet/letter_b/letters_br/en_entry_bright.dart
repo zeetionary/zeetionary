@@ -338,8 +338,9 @@ class EnglishEntrybright extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕشنگدار، درەوشاوە، ڕووناک، ڕوون، پڕتیشک، زەڕقی، ورشن، ڕۆشن، گەش، ڕۆھن، بریقەدار، بەشەوق، شاد، دڵخۆش، خۆشحاڵ، بەگوڕ، گەش، بەکەیف، زیرەک، زووفێر، وریا، بەھۆش، زیت، سەرکەوتوو، ھیوادار، دڵ‌گەرم، تازە، نەو، (دەنگ) گڕ، زوڵاڵ
-
-١. (ھاوەڵناو) ڕۆشن و درەوشاوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ڕۆشن و درەوشاوە"),
                           Row(
                             children: [
                               const Expanded(

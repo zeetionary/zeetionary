@@ -153,8 +153,11 @@ class EnglishEntryawning extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سێبەر(ە)، سابات، چەتر، چادر، سەیوان، پەنا
-
-١. (ناو) پارچە چادرێک کە دەدرێت بەسەر دەرگایەکدا بۆ ڕێگری لە تیشکی خۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە چادرێک کە دەدرێت بەسەر دەرگایەکدا بۆ ڕێگری لە تیشکی خۆر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

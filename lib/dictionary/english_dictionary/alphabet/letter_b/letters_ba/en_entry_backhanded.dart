@@ -154,8 +154,10 @@ class EnglishEntrybackhanded extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناڕوون، لێڵ، تەژمە، بەپێچ‌وپەنا، ناڕاستەوخۆ، تەماوی
-
-١. (ھاوەڵناو) شتێک کە دەکرێت واتایەکی شاراوەی ھەبێت کە پێچەوانەی واتا ڕوونەکەی بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە دەکرێت واتایەکی شاراوەی ھەبێت کە پێچەوانەی واتا ڕوونەکەی بێت"),
                           Row(
                             children: [
                               const Expanded(

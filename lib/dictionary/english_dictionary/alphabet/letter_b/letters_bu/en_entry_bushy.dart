@@ -190,8 +190,9 @@ class EnglishEntrybushy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕ، جەگەنی، جگەن‌ئاسا، پڕدارو دەوەن، دەوەناوی، چڕ، پڕدەوەن، تیسکن، تووکن
-
-١. (ھاوەڵناو) قژ یان فەرووی پڕ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) قژ یان فەرووی پڕ"),
                           Row(
                             children: [
                               const Expanded(

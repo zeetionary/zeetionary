@@ -140,8 +140,11 @@ class EnglishEntryalien extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاووڵاتی بیانی یان بێگانە، بیانی، دەرەکی، بێگانە، ئاوەکی، نامۆ، نەناس، لاوە، غەریب، غەوارە، نائاسایی، پەسندنەکراو، جیاواز، دژ، (سەربە) بوونەوەری جیھانەکانی تر
-
-١. (ناو) کەسێک کە خەڵکی ئەو وڵاتە نییە کە تێیدا دەژی یان کاردەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە خەڵکی ئەو وڵاتە نییە کە تێیدا دەژی یان کاردەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

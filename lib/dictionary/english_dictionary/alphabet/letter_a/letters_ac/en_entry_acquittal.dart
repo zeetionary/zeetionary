@@ -109,8 +109,11 @@ class EnglishEntryacquittal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌تاوانبار ناسران، پاک‌دەرچوون، بەردران، پاکانە، پاک‌بوونەوە، لێخۆشبوون
-
-١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

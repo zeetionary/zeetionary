@@ -148,8 +148,10 @@ class EnglishEntrybeliever extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەبڕوا، بەئیمان، بەباوەڕ، باوەڕمەند، باوەڕدار، بڕوامەند، لایەنگر، ئالیگر
-
-١. (ناو) کەسێک کە باوەڕی بە بوون یان ڕاستییەتی شتێک ھەیە، بەتایبەتی یەکێک کە باوەڕی بە بوونی خودا یان ئایینێک ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە باوەڕی بە بوون یان ڕاستییەتی شتێک ھەیە، بەتایبەتی یەکێک کە باوەڕی بە بوونی خودا یان ئایینێک ھەیە"),
                           Row(
                             children: [
                               const Expanded(

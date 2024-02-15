@@ -141,8 +141,10 @@ class EnglishEntrybriefcase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کیف یان جانتای دەستی (پیاوانە)
-
-١. (ناو) جانتایەکی تەخت کە بۆ ھەڵگرتنی کاغەز و بەڵگەنامە بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جانتایەکی تەخت کە بۆ ھەڵگرتنی کاغەز و بەڵگەنامە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

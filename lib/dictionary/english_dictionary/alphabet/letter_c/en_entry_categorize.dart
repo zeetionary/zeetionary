@@ -192,8 +192,10 @@ class EnglishEntrycategorize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پۆڵێن کردن، دەستە بەندی کردن، پۆلپۆل کردن
-
-١. (کردار) دابەشکردنی خەڵک یان شت بۆ گرووپی جیاواز بەپێی ئەوەی ھەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) دابەشکردنی خەڵک یان شت بۆ گرووپی جیاواز بەپێی ئەوەی ھەن"),
                           Row(
                             children: [
                               const Expanded(

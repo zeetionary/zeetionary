@@ -113,8 +113,11 @@ class EnglishEntryallocation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دابەش‌کردن، دابەشاندن، بەشینەوە، تەرخان‌دان، بۆبڕینەوە، تایبەتی‌دان، دیاری‌کردن، دەست‌نیشان‌کردن، بەش، پشک، تەرخانە، گوژمە، بودجە
-
-١. (ناو) بڕێک لە شتێک، زۆرجار پارە، کە تەرخان دەکرێت بۆ مەبەستێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بڕێک لە شتێک، زۆرجار پارە، کە تەرخان دەکرێت بۆ مەبەستێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

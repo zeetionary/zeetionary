@@ -152,8 +152,11 @@ class EnglishEntryampersand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: «وە»نیشان، ئەمپێرساند (نیشانەی & = بەواتای «وە»)
-
-١. (ناو) نیشانەی & کە بە واتای «و» بەکاردێت """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نیشانەی & کە بە واتای «و» بەکاردێت "
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

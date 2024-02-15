@@ -145,8 +145,10 @@ class EnglishEntrybotanist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووەک‌ناس، گیاناس
-
-١. (ناو) زانایاک کە لێکۆڵینەوە لە ڕووەک دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زانایاک کە لێکۆڵینەوە لە ڕووەک دەکات"),
                           Row(
                             children: [
                               const Expanded(

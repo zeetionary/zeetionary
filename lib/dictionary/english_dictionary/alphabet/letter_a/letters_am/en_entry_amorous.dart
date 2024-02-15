@@ -176,8 +176,11 @@ class EnglishEntryamorous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەویندار، دڵبەستە، ئاشق، دڵدار، دڵدارانە، خۆشەویستی، ڕۆمانتیک
-
-١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

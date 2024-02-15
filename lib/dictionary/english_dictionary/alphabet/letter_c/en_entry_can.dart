@@ -485,8 +485,10 @@ class EnglishEntrycan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قوتو، تەنەکە، پووتی، چەلەنگ، پیپ، زیندان، بەندیخانە، دەس‌بەئاو
-
-١. (کاری مۆداڵ) بۆ دەربڕینی توانای کرنی شتێک لە لایەن کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کاری مۆداڵ) بۆ دەربڕینی توانای کرنی شتێک لە لایەن کەسێک/شتێک"),
                           Row(
                             children: [
                               const Expanded(

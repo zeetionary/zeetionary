@@ -147,8 +147,9 @@ class EnglishEntrybestial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیانەوەری، ئاژەڵی، ھۆڤ، دڕندە، بێ‌بەزەیی، گیانەوەرخوو، وەکوو حەیوان، بێ‌بەزەیی‌یانە، دڵڕەقانە، نامرۆڤانە 
-
-١. (ھاوەڵناو) دڕندە و ترسناک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) دڕندە و ترسناک"),
                           Row(
                             children: [
                               const Expanded(

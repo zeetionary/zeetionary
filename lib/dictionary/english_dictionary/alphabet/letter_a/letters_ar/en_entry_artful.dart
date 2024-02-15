@@ -160,8 +160,11 @@ class EnglishEntryartful extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فێڵباز، گزیکار، فێڵاوی، دەس‌ڕەنگین، شارەزا، کارامە، زیرەک، پڕفێڵ، بە فێڵەوە 
-
-١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، زۆرجار بە بەکارھێنانی درۆ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، زۆرجار بە بەکارھێنانی درۆ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

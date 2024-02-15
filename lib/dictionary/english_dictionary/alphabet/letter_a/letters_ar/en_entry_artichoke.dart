@@ -162,8 +162,11 @@ class EnglishEntryartichoke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ڕووەک‌ناسی) ئارتیشۆک، شەکرۆکە، دڕەبا
-
-١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

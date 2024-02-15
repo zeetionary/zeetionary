@@ -158,8 +158,11 @@ class EnglishEntryarduous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەخت، گران، تاقەت‌پڕوقێن، چەتوون، ئاسێ، پڕزەحمەت، قورس، دژوار، لێژ، سەرەوخوار، تەلان، لاپێ، سینەکێش
-
-١. (ھاوەڵناو) شتێک کە ھەوڵ و ماندووبوونی زۆری دەوێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە ھەوڵ و ماندووبوونی زۆری دەوێ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

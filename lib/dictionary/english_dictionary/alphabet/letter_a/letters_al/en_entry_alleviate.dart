@@ -112,8 +112,9 @@ class EnglishEntryalleviate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دامرکاندنەوە، ھێورکردنەوە، سوککردن
-
-١. (کردار) سەختی شتێک کەمبکەیتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) سەختی شتێک کەمبکەیتەوە" ""),
                           Row(
                             children: [
                               const Expanded(

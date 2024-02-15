@@ -161,8 +161,11 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خنکان، تاسەنە، پشوولێ‌بڕان، ھەناسە‌لێ‌بڕان
-
-١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

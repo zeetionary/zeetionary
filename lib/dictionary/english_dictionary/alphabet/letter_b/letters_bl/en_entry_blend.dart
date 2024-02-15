@@ -150,8 +150,9 @@ class EnglishEntryblend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێکەڵە، ئاوێتە، ئامێتە، وشەی تێکەڵ یان لێکدراو، تێکەڵ‌وشە
-
-١. (کردار) تێکەڵکردنی دوو مادە یان زیاتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) تێکەڵکردنی دوو مادە یان زیاتر"),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntrybooklet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کتێبۆکە، کتێب‌چە، نامیلکە، سیپارە
-
-١. (ناو) کتێبێکی بچووک کە زانیاریی لەسەر بابەتێکی دیاریکراوی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کتێبێکی بچووک کە زانیاریی لەسەر بابەتێکی دیاریکراوی تێدایە"),
                           Row(
                             children: [
                               const Expanded(

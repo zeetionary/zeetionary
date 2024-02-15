@@ -149,8 +149,10 @@ class EnglishEntryblood extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خوێن، خێن، ھوون، ڕەسەن، نژاد، ڕەگەز، ڕەچەڵەک، بنەچەک، جوانی شۆخ‌وشەنگ، خوو
-
-١. (ناو) خوێن؛ شلەی سوور کە بە لەشی مرۆڤ و ئاژەڵدا دەچێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خوێن؛ شلەی سوور کە بە لەشی مرۆڤ و ئاژەڵدا دەچێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -149,8 +149,10 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زیندەفرەجۆری، زیندەھەمەچەشنی
-
-١. (ھاوەڵناو) بوونی ژمارەیەکی زۆر لە گیانلەبەر و ڕووەک کە ھاوسەنگی ژینگە ڕادەگرن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بوونی ژمارەیەکی زۆر لە گیانلەبەر و ڕووەک کە ھاوسەنگی ژینگە ڕادەگرن"),
                           Row(
                             children: [
                               const Expanded(

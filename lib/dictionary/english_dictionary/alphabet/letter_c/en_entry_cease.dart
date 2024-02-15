@@ -195,8 +195,9 @@ class EnglishEntrycease extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پچڕان، پسان، دابڕان، قەتیان، ھەڵوەستە، وێستان
-
-١. (کردار) وەستان لە ڕوودان یان ھەبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) وەستان لە ڕوودان یان ھەبوون"),
                           Row(
                             children: [
                               const Expanded(

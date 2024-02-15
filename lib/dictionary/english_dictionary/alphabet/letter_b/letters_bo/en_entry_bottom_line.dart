@@ -146,8 +146,9 @@ class EnglishEntrybottomline extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەنجام، ئاکام، پێ‌ئاژۆ، خاڵی بنچینەیی، ھۆکاری دیاری‌کەر، قازانج و زیان، خێر و زەرەر، پوختەی قسە، دواوتە
-
-١. (ناو) خاڵی سەرەکیی گفتوگۆیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خاڵی سەرەکیی گفتوگۆیەک"),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrycardboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کارتۆن، مقەبا، دەستکرد، ناڕاست، درۆ، ناسروشتی، فشە، فیشاڵی
-
-١. (ناو) مادەیەکی پتەو کە وەک کاغەزی ئەستوور وایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەکی پتەو کە وەک کاغەزی ئەستوور وایە"),
                           Row(
                             children: [
                               const Expanded(

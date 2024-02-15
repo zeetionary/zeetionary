@@ -148,8 +148,10 @@ class EnglishEntrybasics extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنەماکان، بنچینەکان، ڕاست‌یە پێویست و گرنگەکان، سەرەتاکان، کەل‌وپەلە سەرەکی‌یان، کەل‌وپەلی سەرەکی
-
-١. (ناو) گرنگترین و پێویسترین زانیاری، شارەزایی، بیرۆکە، ھتد کە شتی تر لێیانەوە پەرەدەسێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گرنگترین و پێویسترین زانیاری، شارەزایی، بیرۆکە، ھتد کە شتی تر لێیانەوە پەرەدەسێنێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -110,8 +110,9 @@ class EnglishEntryagriculture extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کشت‌وکاڵ، کشت، جووت‌بەندەیی، وەرز، وەرزێری
-
-١. (ناو) زانست یان کاری کشتوکاڵ """),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) زانست یان کاری کشتوکاڵ " ""),
                           Row(
                             children: [
                               const Expanded(

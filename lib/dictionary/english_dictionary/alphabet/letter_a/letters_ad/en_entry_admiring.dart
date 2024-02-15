@@ -110,8 +110,11 @@ class EnglishEntryadmiring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاھەڵدەرانە، پەسن‌دەرانە
-
-١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -143,8 +143,9 @@ class EnglishEntrybrutal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڕندە، ھۆڤ، بێ‌بەزەیی، نەپارێز، دڵڕەق، گیانەوەرخوو، دڵڕەش، توندوتیژ، زۆردار، زاڵم، بەزەبروزەنگ، دڕندانە، بێ‌بەزەیی‌یانە، ناخۆش، تاڵ
-
-١. (ھاوەڵناو) توندوتیژ و دڕندانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) توندوتیژ و دڕندانە"),
                           Row(
                             children: [
                               const Expanded(

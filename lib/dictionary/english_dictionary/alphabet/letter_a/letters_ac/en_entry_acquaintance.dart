@@ -111,8 +111,11 @@ class EnglishEntryacquaintance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناسیاوی، ناس، شناسی، ئاشنایی، (کەس) ناسیاو، شناس، ئاشنا (کۆ: ئاشنا و ڕۆشنا)
-
-١. (ناو) کەسێک کە ناسیاویت لەگەڵی ھەیە بەڵام ھاوڕێی نزیکت نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ناسیاویت لەگەڵی ھەیە بەڵام ھاوڕێی نزیکت نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

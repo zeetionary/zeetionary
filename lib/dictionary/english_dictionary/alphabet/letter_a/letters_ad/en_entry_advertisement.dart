@@ -111,8 +111,11 @@ class EnglishEntryadvertisement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بانگەواز، ڕاگەیاندن، جاڕدان، ڕاگەیێنی، ئاگاداری، ئاگایی، دانەزانین، جاڕ، بڵاوک، بڵاونامە، بانگەشە، بڵاوکاری، ھەواڵ
-
-١. (ناو) بڵاونامەیەک کە ئاگادارییەک، وێنەیەک، یان ڤیدیۆیەکە کە بانگەشە بۆ شتێک دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بڵاونامەیەک کە ئاگادارییەک، وێنەیەک، یان ڤیدیۆیەکە کە بانگەشە بۆ شتێک دەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

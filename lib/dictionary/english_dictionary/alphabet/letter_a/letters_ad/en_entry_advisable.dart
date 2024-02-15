@@ -109,8 +109,9 @@ class EnglishEntryadvisable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باش، چاک، ژیرانە، بەجێ، جێی بەرژەوەندی
-
-١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش" ""),
                           Row(
                             children: [
                               const Expanded(

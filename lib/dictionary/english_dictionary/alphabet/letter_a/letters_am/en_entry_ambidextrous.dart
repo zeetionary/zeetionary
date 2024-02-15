@@ -112,8 +112,11 @@ class EnglishEntryambidextrous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوودەستە، جووت‌دەستە، دووڕوو، ڕیایی‌باز
-
-١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

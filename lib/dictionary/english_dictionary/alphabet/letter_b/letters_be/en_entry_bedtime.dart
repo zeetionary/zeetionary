@@ -148,8 +148,8 @@ class EnglishEntrybedtime extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کات یان وەختی خەو، خەوتنان
-
-١. (ناو) کاتی خەو"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) کاتی خەو"),
                           Row(
                             children: [
                               const Expanded(

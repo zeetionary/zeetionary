@@ -148,8 +148,10 @@ class EnglishEntryblindfold extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاوبەست، بەچاوبەستراوی‌یەوە، چاوبەستراوانە، کوێرانە
-
-١. (ناو) شتێک کە لە سەر چاو دادەنریت بۆ ئەوەی نەبینێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە لە سەر چاو دادەنریت بۆ ئەوەی نەبینێت"),
                           Row(
                             children: [
                               const Expanded(

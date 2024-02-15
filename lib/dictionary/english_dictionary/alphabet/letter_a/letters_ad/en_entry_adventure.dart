@@ -110,8 +110,11 @@ class EnglishEntryadventure extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووداو، سەرکێش، سەربردە، (بە)سەرھات، جەربەزەیی، سەروردی، کێشەخوازی، مەترسی‌کاری، سەرەڕۆیی، سەرلەکێشەخوران، مەترسی، کاری مەترسی‌دار یان خەتەر، کاری سەیر
-
-١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

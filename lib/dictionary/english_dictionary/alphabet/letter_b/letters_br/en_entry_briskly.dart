@@ -144,8 +144,9 @@ class EnglishEntrybriskly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توندوتۆڵانە، گورجانە، بەچوستی، بە گورجی
-
-١. (ھاوەڵکار) بەخێرایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بەخێرایی"),
                           Row(
                             children: [
                               const Expanded(

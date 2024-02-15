@@ -145,8 +145,10 @@ class EnglishEntryblackmailer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باج‌سێن، خاوەگر، کەڵەگا، وەیگێڕ
-
-١. (ناو) کەسێک کە ھەوڵی وەرگرتنی پارە دەدات لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە ھەوڵی وەرگرتنی پارە دەدات لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت"),
                           Row(
                             children: [
                               const Expanded(

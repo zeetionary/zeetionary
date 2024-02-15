@@ -153,8 +153,9 @@ class EnglishEntryannoy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناڕەحەت‌کردن، بێزارکردن، وەڕەس‌کردن
-
-١. (کردار) کەمێک کەسێک بێزار بکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) کەمێک کەسێک بێزار بکەیت" ""),
                           Row(
                             children: [
                               const Expanded(

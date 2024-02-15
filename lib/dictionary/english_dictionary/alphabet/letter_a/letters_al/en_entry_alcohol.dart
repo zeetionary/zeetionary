@@ -112,8 +112,11 @@ class EnglishEntryalcohol extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەلکحول، ئەڵکۆڵ، ئەڵکوھۆل، ئارەق
-
-١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

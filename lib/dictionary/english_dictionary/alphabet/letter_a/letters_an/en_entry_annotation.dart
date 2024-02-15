@@ -154,8 +154,11 @@ class EnglishEntryannotation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕوون‌کردنەوە، لێکدانەوە، ڕاڤەکردن، پەراوێز، پەراوێزنووسی
-
-١. (ناو) تێبینییەک کە زیاد دەکرێت بۆ کتێبێک، نووسراوێک، یان شتێک کە ڕوونکردنەوەی لەسەر دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تێبینییەک کە زیاد دەکرێت بۆ کتێبێک، نووسراوێک، یان شتێک کە ڕوونکردنەوەی لەسەر دەدات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

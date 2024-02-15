@@ -192,8 +192,10 @@ class EnglishEntrycarpark extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەراج، پارکینگ، شوێنی ڕاگرتنی ماشێن، ڕاگرتنگا
-
-١. (ناو) ناوچەیەک کە خەڵکی ئۆتۆمبێلەکانیان ڕادەگرن تێیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوچەیەک کە خەڵکی ئۆتۆمبێلەکانیان ڕادەگرن تێیدا"),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntrybooktoken extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توکێنی کتێب، کۆپین یان کۆپۆنی کتێب
-
-١. (ناو) کاردێک کە وەک دیاری دەبەخشرێت و نرخێکی دیاریکراوی ھەیە، و دەتوانرێت بەکاربھێندرێت تەنھا بۆ کڕینی کتێب"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاردێک کە وەک دیاری دەبەخشرێت و نرخێکی دیاریکراوی ھەیە، و دەتوانرێت بەکاربھێندرێت تەنھا بۆ کڕینی کتێب"),
                           Row(
                             children: [
                               const Expanded(

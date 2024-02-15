@@ -153,8 +153,9 @@ class EnglishEntrybackache extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشتێشە، ژانەپشت، پشت‌ئێشە، کەمەرئێشە
-
-١. (ناو) ئێش لە پشتدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ئێش لە پشتدا"),
                           Row(
                             children: [
                               const Expanded(

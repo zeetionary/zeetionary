@@ -153,8 +153,11 @@ class EnglishEntryanonymity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەناسراوی، بێ‌ناونیشانی، بێ‌ناوی، گومی، نەناس‌مانەوە، نەناسران، ناودەرنەکردوویی
-
-١. (ناو) باری نەناسراوی‌بوون بۆ زۆرینەی کەسانی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) باری نەناسراوی‌بوون بۆ زۆرینەی کەسانی تر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

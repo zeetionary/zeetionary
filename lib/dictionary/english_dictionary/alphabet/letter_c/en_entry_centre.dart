@@ -304,8 +304,9 @@ class EnglishEntrycentre extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناوەند، نێوەند، چەق، ناوچە، مەڵبەند، ھەلێر، کورەک، ناوچەق، نێوەڕاست، ناڤین، نێوان، دڵ، جەرگە، یاریزانی نێوەڕاست، باڵی نەرم‌ڕەو، نێوەڕاستی، ناوەندی، ناوینی، نەرم‌ڕەو، باڵی نەرم‌ڕەو 
-
-١. (ناو) ناوەڕاستی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ناوەڕاستی شتێک"),
                           Row(
                             children: [
                               const Expanded(

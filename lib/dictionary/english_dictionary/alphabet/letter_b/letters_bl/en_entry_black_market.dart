@@ -146,8 +146,10 @@ class EnglishEntryblackmarket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەشەبازاڕ، بازاڕی ڕەش
-
-١. (ناو) شێوەی نایاسایی بازرگانی کە تێیدا پارەی بیانی یان ئەو کەلوپەلانەی ئاسان دەستناکەون کڕین و فرۆشتنیان پێوە دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شێوەی نایاسایی بازرگانی کە تێیدا پارەی بیانی یان ئەو کەلوپەلانەی ئاسان دەستناکەون کڕین و فرۆشتنیان پێوە دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -162,8 +162,10 @@ class EnglishEntryatom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەردیلە، ئەتۆم، تۆزە، کەمووسکە، نەختە 
-
-١. (ناو) بچووکترین یەکەی توخمێکی کیمیایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بچووکترین یەکەی توخمێکی کیمیایی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

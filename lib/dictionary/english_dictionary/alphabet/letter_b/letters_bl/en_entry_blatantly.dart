@@ -146,8 +146,10 @@ class EnglishEntryblatantly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌شەرمانە، بە ئاشکرایی
-
-١. (ھاوەڵکار) بە ئاشکرایی بەبێ گرنگیدان بەوەی خەڵکی شۆک دەبن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) بە ئاشکرایی بەبێ گرنگیدان بەوەی خەڵکی شۆک دەبن"),
                           Row(
                             children: [
                               const Expanded(

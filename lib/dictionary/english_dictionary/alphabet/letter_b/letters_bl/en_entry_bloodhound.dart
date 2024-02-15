@@ -145,8 +145,10 @@ class EnglishEntrybloodhound extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەگی پۆلیس، سەگی ڕاو یان تانجی، سەگی شوێن‌ھەڵگر
-
-١. (ناو) سەگێکی گەورە کە توانای بۆنکردنی تیژی ھەیە و بەکاردێت بۆ شوێنکەوتن یان گەڕان بە شوێن خەڵکیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) سەگێکی گەورە کە توانای بۆنکردنی تیژی ھەیە و بەکاردێت بۆ شوێنکەوتن یان گەڕان بە شوێن خەڵکیدا"),
                           Row(
                             children: [
                               const Expanded(

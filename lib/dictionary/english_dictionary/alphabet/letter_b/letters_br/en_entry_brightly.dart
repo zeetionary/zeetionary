@@ -141,8 +141,9 @@ class EnglishEntrybrightly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەشێوەیەکی ڕووناک، بەشەوقانە، بەگوڕەوە، بە خۆشحاڵی‌یەوە
-
-١. (ھاوەڵکار) بەدرەوشاوەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بەدرەوشاوەیی"),
                           Row(
                             children: [
                               const Expanded(

@@ -113,8 +113,11 @@ class EnglishEntryambassador extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باڵوێز، باڵیۆز، نێردە، نێردراو، نوێنەری دەسەڵات‌پێدراو یان دەسەڵات‌بەدەست
-
-١. (ناو) باڵیۆز؛ نوێنەری وڵاتێک لە وڵاتێکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) باڵیۆز؛ نوێنەری وڵاتێک لە وڵاتێکی تر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

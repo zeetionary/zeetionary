@@ -193,8 +193,10 @@ class EnglishEntrycautious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھۆشیار، ئاگادار، دەس‌پارێز، پاشبین، دوابین، وریا، تێبین، ئاگادارانە
-
-١. (ھاوەڵناو) کەسێک کە ھۆشیار و وریاییە دەربارەی ئەوەی دەیڵێت بۆ ئەوەی لە ھەڵە و مەترسی دوور بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە ھۆشیار و وریاییە دەربارەی ئەوەی دەیڵێت بۆ ئەوەی لە ھەڵە و مەترسی دوور بێت"),
                           Row(
                             children: [
                               const Expanded(

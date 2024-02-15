@@ -158,8 +158,11 @@ class EnglishEntryappetizing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئیشتیاکەرەوە، دڵبژۆک، ئارەزووھێن
-
-١. (ھاوەڵناو) خواردنێک کە بۆنەکەی یان تامەکەی سەرجڕاکێشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) خواردنێک کە بۆنەکەی یان تامەکەی سەرجڕاکێشە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

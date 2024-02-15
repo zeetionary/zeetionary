@@ -195,8 +195,10 @@ class EnglishEntrycat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشیلە، پسیک، پسک، پش، پشی، دھلک، کتک، تیرەپشیلە
-
-١. (ناو) ئاژەڵێکی بچووک کە فەرووی نەرمی ھەیە و خەڵک زۆرجار وەک ماڵی ڕایدەگرن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئاژەڵێکی بچووک کە فەرووی نەرمی ھەیە و خەڵک زۆرجار وەک ماڵی ڕایدەگرن"),
                           Row(
                             children: [
                               const Expanded(

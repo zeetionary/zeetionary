@@ -141,8 +141,10 @@ class EnglishEntrybrine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خوێئاوک، خوێواوک، ئاووخوێ، ئاوی دەریا، سوێراو، سوێراوک
-
-١. (ناو) ئاوێک کە خوێی زۆری تێدایە، زۆرجار بۆ پاراستنی خواردن لە ناویدا بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئاوێک کە خوێی زۆری تێدایە، زۆرجار بۆ پاراستنی خواردن لە ناویدا بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -160,8 +160,11 @@ class EnglishEntryappeasement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دامرکاندن، دڵ‌دانەوە، ئارام‌کردنەوە، نیشاندنەوە، ھێورکردنەوە، ژیرکردنەوە، ڕازی‌کردن، قایل‌کردن، ڕێک‌کەوتن، سازان، بۆش‌کردن
-
-١. (ناو) ئارامکردنەوە یان ڕێگری لە ناکۆکی بە پێدانی ئەوەی کەسێک دەیەوێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئارامکردنەوە یان ڕێگری لە ناکۆکی بە پێدانی ئەوەی کەسێک دەیەوێ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

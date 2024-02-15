@@ -168,8 +168,9 @@ class EnglishEntryartiste extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھونەرمەند، دەس‌ڕەنگین
-
-١. (ناو) ھونەرمەندێکی پڕۆفیشناڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھونەرمەندێکی پڕۆفیشناڵ" ""),
                           Row(
                             children: [
                               const Expanded(

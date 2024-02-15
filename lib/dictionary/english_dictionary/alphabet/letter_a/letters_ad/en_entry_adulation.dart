@@ -109,8 +109,9 @@ class EnglishEntryadulation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زمان‌لووس، پیاھەڵدانی زمان‌لووسانە، ڕووپامایی، نەرمەبڕی، کلکەسووتێ، ڕیایی‌بازی، تەشی‌ڕێسی، مەرایی، ڕووبینی، بەبەراھەڵخوێندن، دەمتەڕی
-
-١. (ناو) پیاھەڵدانی زیاد لە پێویست"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) پیاھەڵدانی زیاد لە پێویست" ""),
                           Row(
                             children: [
                               const Expanded(

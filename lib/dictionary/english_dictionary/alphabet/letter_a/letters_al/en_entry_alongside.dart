@@ -113,8 +113,10 @@ class EnglishEntryalongside extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەپاڵ، لەتەنیشت، لەلای، پێکەوە لەگەڵ، تەنیشت بە تەنیشت، پاڵ بە پاڵی، شان بە شان
-
-١. (ھاوەڵکار) شان بە شان یان لە تەنیشت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) شان بە شان یان لە تەنیشت" ""),
                           Row(
                             children: [
                               const Expanded(

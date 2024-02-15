@@ -145,8 +145,9 @@ class EnglishEntryblowup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: 
-
-١. (ھاوەڵناو) پێنناسە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(

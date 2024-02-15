@@ -92,8 +92,11 @@ class EnglishEntryabashed extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تریقەوەبوو، بەخۆداشکاو، شەرم‌داگرتوو، خەجاڵەتبار، شەرمەزار، ڕووزەرد، سەرلێ‌شێواو، تاساو، پەشۆکاو، دەس(ە)پاچە، عەبەسراو، واق‌وڕماو
-
-١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

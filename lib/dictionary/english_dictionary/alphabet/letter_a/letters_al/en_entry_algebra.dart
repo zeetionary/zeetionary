@@ -111,8 +111,11 @@ class EnglishEntryalgebra extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (بیرکاری) ئەلجیبرا، جەبر
-
-١. (ناو) جۆرێکی بیرکاری کە تێیدا ژمارە و ھێماکان بڕ پیشان دەدەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جۆرێکی بیرکاری کە تێیدا ژمارە و ھێماکان بڕ پیشان دەدەن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -190,8 +190,9 @@ class EnglishEntrybuyer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کڕیار، سەنیار، مشتەری، کڕین‌کار، کەل‌وپەل‌کڕ، بەرپرسی کڕین
-
-١. (ناو) کڕیار؛ کەسێک کە شتێک دەکڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کڕیار؛ کەسێک کە شتێک دەکڕێت"),
                           Row(
                             children: [
                               const Expanded(

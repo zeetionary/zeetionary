@@ -143,8 +143,10 @@ class EnglishEntrybracelet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بازنە، دەزبێن، دەسبێن، دەزبەند، بازۆڵەبەند، خڕخاڵ، دەست‌بەند
-
-١. (ناو) خشڵێک کە لە مەچەک و باڵ دەبەسترێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خشڵێک کە لە مەچەک و باڵ دەبەسترێت"),
                           Row(
                             children: [
                               const Expanded(

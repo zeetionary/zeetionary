@@ -144,8 +144,10 @@ class EnglishEntrybuddhism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بوداییزم، بوداباوەڕی
-
-١. (ناو) بودیزم؛ ئاینێکی ھندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بودیزم؛ ئاینێکی ھندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"),
                           Row(
                             children: [
                               const Expanded(

@@ -146,8 +146,10 @@ class EnglishEntryBSE extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەخۆشی ھاری یان شێتی گایی 
-
-١. (ناو) نەخۆشییەک کە تووشی مێشکی مانگا دەبێت و دەیکوژێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نەخۆشییەک کە تووشی مێشکی مانگا دەبێت و دەیکوژێت"),
                           Row(
                             children: [
                               const Expanded(

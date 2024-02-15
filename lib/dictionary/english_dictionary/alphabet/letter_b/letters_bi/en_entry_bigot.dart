@@ -147,8 +147,10 @@ class EnglishEntrybigot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەمارگرژ، پاشبڕۆ، کۆنەپەرست
-
-١. (ناو) کەسێک کە باوەڕی توند و نابەجێی ھەیە لەسەر ڕەگەز و ئایین و سیاسەت، و بۆچوونی کەسانی دیکە قبووڵ ناکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە باوەڕی توند و نابەجێی ھەیە لەسەر ڕەگەز و ئایین و سیاسەت، و بۆچوونی کەسانی دیکە قبووڵ ناکات"),
                           Row(
                             children: [
                               const Expanded(

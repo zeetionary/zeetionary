@@ -144,8 +144,9 @@ class EnglishEntrybravely extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەترسانە، وەندانە، مەردانە، نەبەردانە، ئازایانە، پیاوانە
-
-١. (ھاوەڵکار) بەشێوەیەکی ئازایانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بەشێوەیەکی ئازایانە"),
                           Row(
                             children: [
                               const Expanded(

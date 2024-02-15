@@ -158,8 +158,9 @@ class EnglishEntryaptness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گونجاوی، لەباری، لێوەشاوی، توانایی، بەبەھرەیی
-
-١. (ناو) گونجاوی و شیاوی لە دۆخێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) گونجاوی و شیاوی لە دۆخێکدا" ""),
                           Row(
                             children: [
                               const Expanded(

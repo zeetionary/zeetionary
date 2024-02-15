@@ -143,8 +143,10 @@ class EnglishEntrybrainchild extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیر، ھزر، بیرۆکە، ئایدیا، داھێنان
-
-١. (ھاوەڵناو) بیرۆکە یان داھێنانی کەسێک یان گرووپێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بیرۆکە یان داھێنانی کەسێک یان گرووپێک"),
                           Row(
                             children: [
                               const Expanded(

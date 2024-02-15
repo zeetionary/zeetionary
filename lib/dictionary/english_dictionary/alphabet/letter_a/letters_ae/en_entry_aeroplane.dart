@@ -111,8 +111,8 @@ class EnglishEntryaeroplane extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فڕۆکە، باڵافڕ، تەیارە
-
-١. (ناو) فڕۆکە"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) فڕۆکە" ""),
                           Row(
                             children: [
                               const Expanded(

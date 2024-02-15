@@ -193,8 +193,10 @@ class EnglishEntrycashregister extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (دەزگا) پارەنووس، سنووق
-
-١. (ناو) دەزگایەک لە کە لە فرۆشگایەک، چێشتخانەیەک، ھتد دادەنرێت و پارەی تێدەخرێت و نرخی ئەو شتانە پیشان دەدات کە فرۆشراون و تۆماریان دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دەزگایەک لە کە لە فرۆشگایەک، چێشتخانەیەک، ھتد دادەنرێت و پارەی تێدەخرێت و نرخی ئەو شتانە پیشان دەدات کە فرۆشراون و تۆماریان دەکات"),
                           Row(
                             children: [
                               const Expanded(

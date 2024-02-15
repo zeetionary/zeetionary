@@ -202,7 +202,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakdopsum1s111111111111111111111111111111111"),
+                                            "11speakdopsum1s111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
                                         text: "رستە_رستە_رستە_رستە."),
                                   ],

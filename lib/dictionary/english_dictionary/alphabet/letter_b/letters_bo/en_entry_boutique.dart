@@ -146,8 +146,10 @@ class EnglishEntryboutique extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فرۆشگای پۆشاک، بووتیک، دووکان
-
-١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"),
                           Row(
                             children: [
                               const Expanded(

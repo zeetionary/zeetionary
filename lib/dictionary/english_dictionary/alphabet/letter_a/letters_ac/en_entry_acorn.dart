@@ -107,8 +107,9 @@ class EnglishEntryacorn extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: (بەر یان دەنکەکەی) بەڕوو، کۆپەک
-
-١. (ھاوەڵناو) کاکڵەی بچووکی دار بەڕوو"""),
+"""),
+                          DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کاکڵەی بچووکی دار بەڕوو" ""),
                         ],
                       ),
                     ),

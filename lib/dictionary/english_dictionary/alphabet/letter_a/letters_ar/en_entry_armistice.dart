@@ -158,8 +158,11 @@ class EnglishEntryarmistice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕڕاگرتن، ئاگربەست، شەڕوێستاندن، چەک‌دانان 
-
-١. (ناو) ڕێککەوتنێکی فەرمی لە کاتی جەنگدا بۆ کۆتایی ھێنان بە جەنگ و دەستپێ‌کردنی گفروگۆی ئاشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێککەوتنێکی فەرمی لە کاتی جەنگدا بۆ کۆتایی ھێنان بە جەنگ و دەستپێ‌کردنی گفروگۆی ئاشتی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

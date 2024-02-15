@@ -176,8 +176,11 @@ class EnglishEntryammonia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئێمۆنیا، ئەمۆنیا، ئەمۆنیاو
-
-١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

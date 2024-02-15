@@ -147,8 +147,10 @@ class EnglishEntrybigoted extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیرتەسک، دەمارگرژ، بیرکۆن، کۆنەپەرست، چەق‌بەستوو
-
-١. (ھاوەڵناو) ھەبوونی باوەڕی توند و نابەجێ، و ڕەتی بکەیتەوە کە بیانگۆڕی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی باوەڕی توند و نابەجێ، و ڕەتی بکەیتەوە کە بیانگۆڕی"),
                           Row(
                             children: [
                               const Expanded(

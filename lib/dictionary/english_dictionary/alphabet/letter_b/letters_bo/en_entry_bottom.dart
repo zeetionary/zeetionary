@@ -350,8 +350,9 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خوارترین بەش، بن، ژێر، خوارەوە، بنک، تەرک، بندین، تەختاو، بنکاو، بنڕەخ، قووڵایی، سەرچاوە، بنەما، ماک، بنەڕەت، چاوگ، پشتەوە، دواوە، کنگ، پاشوو، پاشڵ، سمت، کۆتایی، دوایی، دووماھی، بنی کەشتی، لاشە یان پەیکەرەی کەشتی، ئاخرین، دوایین، ھەرەخواروو، بنەڕەتی، بنچینەیی، سەرەکی
-
-١. (ناو) بەشی خوارەوەی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەشی خوارەوەی شتێک"),
                           Row(
                             children: [
                               const Expanded(

@@ -111,8 +111,9 @@ class EnglishEntryalacrity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەف‌وکوڵ، تاووتین، جۆش‌وخرۆش، بەپەرۆشی، تامەزرۆیی، ویست، شادی و خۆشی، چابکی، ھەڵسووڕی، گورج‌وگۆڵی، توندوتۆڵی
-
-١. (ناو) شادی و جۆشوخرۆشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شادی و جۆشوخرۆشی" ""),
                           Row(
                             children: [
                               const Expanded(

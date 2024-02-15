@@ -147,8 +147,10 @@ class EnglishEntrybasil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێحان، ڕیحانە، ئەسپەرەم
-
-١. (ھاوەڵناو) ڕووەکێک کە گەڵای درەوشاوەی سەوزی ھەیە، بۆنێکی خۆشی ھەیە، و لە خواردن درووستکردندا بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕووەکێک کە گەڵای درەوشاوەی سەوزی ھەیە، بۆنێکی خۆشی ھەیە، و لە خواردن درووستکردندا بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -143,8 +143,10 @@ class EnglishEntrybrowser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵدەرەوە، گەڕانچی، وێب‌گەڕۆک
-
-١. (ناو) پڕۆگرامێکی کۆمپیوتەری کە بەکاردێت بۆ گيران بە ئینتەرنێت و خوێندنەوە تێیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پڕۆگرامێکی کۆمپیوتەری کە بەکاردێت بۆ گيران بە ئینتەرنێت و خوێندنەوە تێیدا"),
                           Row(
                             children: [
                               const Expanded(

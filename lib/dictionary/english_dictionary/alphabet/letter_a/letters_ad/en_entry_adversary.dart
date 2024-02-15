@@ -109,8 +109,9 @@ class EnglishEntryadversary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمن، نەیار، ھەڤرک، گاڤبەر، ناحەز، ڕقەبەر، دژبەر، دژەون، بەرھەڵست، ڕکەبەر
-
-١. (ناو) کەسێک کە دوژمن یان ڕکابەرتە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە دوژمن یان ڕکابەرتە" ""),
                           Row(
                             children: [
                               const Expanded(

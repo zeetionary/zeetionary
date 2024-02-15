@@ -146,8 +146,10 @@ class EnglishEntryborderline extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سنوور، تخوب، ھێڵی جیاکەرەوە، لەنێوەڕاست، لەمابەین، لەناوین
-
-١. (ھاوەڵناو) لە نێوان دوو حاڵەتدا بەبێ ئەوەی بە تەواوی بۆ یەکێکیان بگەڕێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) لە نێوان دوو حاڵەتدا بەبێ ئەوەی بە تەواوی بۆ یەکێکیان بگەڕێتەوە"),
                           Row(
                             children: [
                               const Expanded(

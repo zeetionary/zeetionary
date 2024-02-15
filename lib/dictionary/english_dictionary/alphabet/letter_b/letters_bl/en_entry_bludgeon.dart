@@ -146,8 +146,10 @@ class EnglishEntrybludgeon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆپاڵ، گورز، تێڵا، داردەست، کوتەک
-
-١. (کردار) لێدانی کەسێک چەند جارێک بە شتێکی قوورس"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) لێدانی کەسێک چەند جارێک بە شتێکی قوورس"),
                           Row(
                             children: [
                               const Expanded(

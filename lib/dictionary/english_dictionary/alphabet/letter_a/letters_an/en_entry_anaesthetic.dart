@@ -153,8 +153,11 @@ class EnglishEntryanaesthetic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەرمانی بێ‌ھۆشی یان بێ‌ھەستی یان سڕی، بێ‌ھۆش‌داڕوو، بەنگ، بەنج، بێ‌ھۆش‌کەر
-
-١. (ناو) بەنج؛ دەرمانێک کە وا دەکات بەشێک یان تەواوی جەستەی کەسێک ھەست بە ھیچ نەکات، بەتایبەتی ئازار"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەنج؛ دەرمانێک کە وا دەکات بەشێک یان تەواوی جەستەی کەسێک ھەست بە ھیچ نەکات، بەتایبەتی ئازار"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

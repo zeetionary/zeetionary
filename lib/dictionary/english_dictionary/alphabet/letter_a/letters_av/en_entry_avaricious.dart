@@ -154,8 +154,11 @@ class EnglishEntryavaricious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماڵ‌پەرست، بەتەماح، چاوبرسی، چاوچنۆک، پیسکە، بەھەڵپە
-
-١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

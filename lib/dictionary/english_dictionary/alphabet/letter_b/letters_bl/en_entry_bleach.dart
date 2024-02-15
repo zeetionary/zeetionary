@@ -146,8 +146,10 @@ class EnglishEntrybleach extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەرەسەی ڕەنگ‌بەر، مەتریاڵی سپی‌کەرەوە
-
-١. (کردار) سپی بوون بە پڕۆسەی کیمیایی یان بەرکەوتن بە خۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) سپی بوون بە پڕۆسەی کیمیایی یان بەرکەوتن بە خۆر"),
                           Row(
                             children: [
                               const Expanded(

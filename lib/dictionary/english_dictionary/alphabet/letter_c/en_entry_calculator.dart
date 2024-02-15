@@ -191,8 +191,10 @@ class EnglishEntrycalculator extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگای یان ئامێری ژماردن، ژمێرەک، ژمێرەر
-
-١. (ناو) ئامێرێکی بچووکی ئەلیکترۆنی یان ئەپێکی موبایل یان کۆمپیوتەر کە نۆ لێکدانەوەی ژمارە بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئامێرێکی بچووکی ئەلیکترۆنی یان ئەپێکی موبایل یان کۆمپیوتەر کە نۆ لێکدانەوەی ژمارە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

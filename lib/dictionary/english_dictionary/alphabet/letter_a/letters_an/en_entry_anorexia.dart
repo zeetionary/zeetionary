@@ -153,8 +153,11 @@ class EnglishEntryanorexia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵ‌نەبردن، بێ‌ئیشتیایی، بێ‌ئیشتیایی دەروونی
-
-١. (ناو) نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

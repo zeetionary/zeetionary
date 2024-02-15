@@ -190,8 +190,10 @@ class EnglishEntryburial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناشتن، ڤەشارتن، بنئاخ‌کردن، بنگڵ‌کردن، بەخاک‌سپاردن، ڕێ‌وڕەسمی ناشتن یان بەخاک‌سپاردن، (کۆنەوارناسی) گۆڕ یان پاشماوەی نێوی
-
-١. (ناو) کردار یان مەراسیمی ناشتنی جەستەیەکی مردوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کردار یان مەراسیمی ناشتنی جەستەیەکی مردوو"),
                           Row(
                             children: [
                               const Expanded(

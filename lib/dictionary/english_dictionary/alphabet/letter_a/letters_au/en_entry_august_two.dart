@@ -161,8 +161,11 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەشکۆ، مەزن، پایەبەرز، گەورە، بەئەندێش، بەسام، بەشەوکەت
-
-١. (ھاوەڵناو) ھەبوونی گرنگی زۆر و لە بەرزترین ئاستی کۆمەڵگە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی گرنگی زۆر و لە بەرزترین ئاستی کۆمەڵگە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

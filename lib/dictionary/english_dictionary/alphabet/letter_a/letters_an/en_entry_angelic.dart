@@ -152,8 +152,11 @@ class EnglishEntryangelic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فریشتەئاسا، فریشتەیی، ئاسمانی
-
-١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

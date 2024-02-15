@@ -160,8 +160,11 @@ class EnglishEntryasparagus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ڕووەک‌ناسی) گەوڵەزەر؟، بەنارۆمی؟، مارچێوە، ترچک
-
-١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -144,8 +144,9 @@ class EnglishEntrybreakup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جیابوونەوە، دابەش‌بوون، لێک‌بوونەوە، داقڵیشان، ھەرەس‌ھێنان، لێک‌ھەڵوەشان، ڕووخان، ھەڕەمیان، داڕووخان، کوتایی‌پێھاتن، تەواوبوون، دوایی‌پێھاتن، پارچەپارچەبوون، شیتاڵ‌شیتاڵ‌بوون، کەرت‌بوون
-
-١. (ناو) کۆتایی ھاتنی پەیوەندی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کۆتایی ھاتنی پەیوەندی"),
                           Row(
                             children: [
                               const Expanded(

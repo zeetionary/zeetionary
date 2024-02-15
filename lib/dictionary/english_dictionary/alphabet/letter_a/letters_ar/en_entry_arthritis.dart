@@ -160,8 +160,11 @@ class EnglishEntryarthritis extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوسانی جومگە، بای جومگە، جومگەماسێ یان ئاوسێ
-
-١. (ناو) ھەڵئاوسانی جومگەیەک یان زیاتری جەستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەڵئاوسانی جومگەیەک یان زیاتری جەستە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

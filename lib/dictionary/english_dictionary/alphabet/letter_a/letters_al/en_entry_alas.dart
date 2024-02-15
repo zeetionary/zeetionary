@@ -111,8 +111,9 @@ class EnglishEntryalas extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (وێژەیی یان بە شۆخی) حەیف، بەداخەوە، واخ، داخ، وای، ھەی‌ڕۆ، وەی‌ڕۆ، ئاھـ، مخابن، فەلەک داد، داخی بە جەرگم
-
-١. (سەرسوڕمان) بۆ دەربڕینی نیگەرانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (سەرسوڕمان) بۆ دەربڕینی نیگەرانی" ""),
                           Row(
                             children: [
                               const Expanded(

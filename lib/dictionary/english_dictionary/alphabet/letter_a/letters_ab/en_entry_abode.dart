@@ -94,8 +94,9 @@ class EnglishEntryabode extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماڵ، خانوو، بنکە، ئێورگە، ھێورگە، مەکۆ، جێگا، جێ، شوێن، جێ‌وڕێ، زێد، ئارا، ڕێ‌وشوێن
-
-١. (ناو) شوێنی ژیانی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شوێنی ژیانی کەسێک" ""),
                           Row(
                             children: [
                               const Expanded(

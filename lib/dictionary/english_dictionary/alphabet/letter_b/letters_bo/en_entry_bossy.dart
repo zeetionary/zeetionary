@@ -146,8 +146,10 @@ class EnglishEntrybossy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆردار، ملھوڕ، کەڵەگا، دیکتاتۆڕ، دەسەڵات‌خواز، سەردەست، باڵادەست
-
-١. (ھاوەڵناو) ھەمیشە بە خەڵکی بڵێن چی بکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەمیشە بە خەڵکی بڵێن چی بکەن"),
                           Row(
                             children: [
                               const Expanded(

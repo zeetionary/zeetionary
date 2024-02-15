@@ -121,8 +121,11 @@ class EnglishEntryaccurate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاست، دروست، بێ‌ھەڵە، ساغ، ورد
-
-١. (ھاوەڵناو) ڕاست و درووست لە ھەموو لایەکەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕاست و درووست لە ھەموو لایەکەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

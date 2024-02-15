@@ -192,8 +192,9 @@ class EnglishEntrychallenging extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەخت، دژوار، ئاسیھـ، چەتوون، پڕئەرک، نەنگواز، پڕزەحمەت
-
-١. (ھاوەڵناو) پێنناسە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(

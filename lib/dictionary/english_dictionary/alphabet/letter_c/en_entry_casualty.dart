@@ -196,8 +196,10 @@ class EnglishEntrycasualty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قوربانی، بریندار و کوژراو، پێکراوان، ئەنگاوتە، بەشی فریاکەوتن، بەشی تەنگەتاوی یان بەشی ڕووداوەکان
-
-١. (ناو) کەسێک کە لە ڕووداو یان جەنگدا بریندار بووە یان گیانی لەدەستداوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە لە ڕووداو یان جەنگدا بریندار بووە یان گیانی لەدەستداوە"),
                           Row(
                             children: [
                               const Expanded(

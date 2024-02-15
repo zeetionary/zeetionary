@@ -141,8 +141,10 @@ class EnglishEntrybugler extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەیپوورژەن، کەڕەنا. شەیپوورچی، بۆری‌ژەن
-
-١. (ناو) کەسێک کە زوڕنایەک لێدەدات کە لەلایەن سوپاوە بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە زوڕنایەک لێدەدات کە لەلایەن سوپاوە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

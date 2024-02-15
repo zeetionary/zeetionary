@@ -109,8 +109,11 @@ class EnglishEntryacquaint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناساندن، ئاشناکردن
-
-١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

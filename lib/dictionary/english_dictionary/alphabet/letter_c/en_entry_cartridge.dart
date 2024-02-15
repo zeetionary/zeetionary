@@ -192,8 +192,10 @@ class EnglishEntrycartridge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فیشەک، گوللە، نێوە، نێوک، کارتریج، کاسێت، سەری پیکاپ، جێگای دەرزی (قەوان)
-
-١. (ناو) قەباغێکی لوولەیی کە لە مادەی تەقەمەنی و سەرێک پێکھاتووە کە دەتەقێندرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) قەباغێکی لوولەیی کە لە مادەی تەقەمەنی و سەرێک پێکھاتووە کە دەتەقێندرێت"),
                           Row(
                             children: [
                               const Expanded(

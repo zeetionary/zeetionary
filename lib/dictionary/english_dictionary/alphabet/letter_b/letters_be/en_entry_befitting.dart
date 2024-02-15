@@ -148,8 +148,9 @@ class EnglishEntrybefitting extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێوەشاو، گونجاو، شیاو، لێ‌کاڵاو، پێ‌کەوتوو، باش، لەبار
-
-١. (ھاوەڵناو) گونجاو بۆ کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) گونجاو بۆ کەسێک/شتێک"),
                           Row(
                             children: [
                               const Expanded(

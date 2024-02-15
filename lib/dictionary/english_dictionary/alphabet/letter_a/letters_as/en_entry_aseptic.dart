@@ -160,8 +160,9 @@ class EnglishEntryaseptic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (پزشکی) خاوێنەوەبوو، پاکژەوەبوو، خاوێنەوەکراو، پاکژکراو، خاوێن، خاوێن لە ھەر بەکتریایێکی بەزیان یان زیان‌بار
-
-١. (ھاوەڵناو) بەبێ ھیچ بەکتریایەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بەبێ ھیچ بەکتریایەک" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrycaste extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێکخستە یان سیستمی چینایەتی، پێگە یان بایەخی کۆمەڵایەتی
-
-١. (ناو) یەکێک لە چوار چینە کۆمەڵایەتییەکەی ئایینی ھیندۆزی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) یەکێک لە چوار چینە کۆمەڵایەتییەکەی ئایینی ھیندۆزی"),
                           Row(
                             children: [
                               const Expanded(

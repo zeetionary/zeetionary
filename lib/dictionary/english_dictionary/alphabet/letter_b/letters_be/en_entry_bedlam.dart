@@ -147,8 +147,10 @@ class EnglishEntrybedlam extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شێت‌خانە، ھەرچی و پەرچی، تێکەولێکە، شلوق‌بازاڕی، دەنگ‌وھەرا، حەمامی ژنان
-
-١. (ھاوەڵناو) دیمەنێکی پڕ لە جەنجاڵی و ھەراوھوریا """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) دیمەنێکی پڕ لە جەنجاڵی و ھەراوھوریا "),
                           Row(
                             children: [
                               const Expanded(

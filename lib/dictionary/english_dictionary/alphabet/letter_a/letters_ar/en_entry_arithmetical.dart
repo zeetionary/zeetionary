@@ -159,8 +159,11 @@ class EnglishEntryarithmetical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەربە ژمێرە، ژمێرەیی
-
-١. (ھاوەڵناو) پەیوەندیدار بە کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، ھتد. لە بیرکاریدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، ھتد. لە بیرکاریدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

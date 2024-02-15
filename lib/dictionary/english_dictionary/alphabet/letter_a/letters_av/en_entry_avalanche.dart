@@ -154,8 +154,11 @@ class EnglishEntryavalanche extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕنوو، کڵێڵە، کلیلە، کەویەبەفر، سلخە، شاپە، شیپ، ھەرەس، سیپان، ئاشووت، لێشاو، کۆما، لۆدە، کەڵەک، (فیزیک) ھەرەسە: ڕەوت یا پرۆسەیێکی کەڵەکەبوو
-
-١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

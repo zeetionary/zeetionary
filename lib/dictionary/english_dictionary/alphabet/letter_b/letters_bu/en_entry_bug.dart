@@ -147,8 +147,9 @@ class EnglishEntrybug extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مێرووناسی) جانەوەر، بەچکەمێروو، مێرووچکە، میکڕۆب، ڤایرۆس، کێشە، گیر، ئیرۆر، گرفت 
-
-١. (ناو) ھەر مێروویەکی بچووک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ھەر مێروویەکی بچووک"),
                           Row(
                             children: [
                               const Expanded(

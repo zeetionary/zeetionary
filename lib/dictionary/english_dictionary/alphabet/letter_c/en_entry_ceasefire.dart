@@ -194,8 +194,10 @@ class EnglishEntryceasefire extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕڕاگرتن، ئاگربەست
-
-١. (ناو) کاتێک کە دوژمن دەوەستن لە شەڕکردن، بەزۆری بۆ ئەوەی ڕێگایەک بدۆزنەوە بۆ ئەوەی شەڕ بە تەواوی بوەستێنن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کاتێک کە دوژمن دەوەستن لە شەڕکردن، بەزۆری بۆ ئەوەی ڕێگایەک بدۆزنەوە بۆ ئەوەی شەڕ بە تەواوی بوەستێنن"),
                           Row(
                             children: [
                               const Expanded(

@@ -94,8 +94,11 @@ class EnglishEntryabsurdity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕوپووچێتی، ناژیرانەیی، نالۆژیکی، ھیچێتی، ھیچەکەیی، بێ‌واتایی، بێ‌مانایی، قسەی ھیچەکە، بێھوودەیی
-
-١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -109,8 +109,9 @@ class EnglishEntryafar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوور، لە دوور، دوورادوور، دووراودوور
-
-١. (ئیدیەم) لە دوورەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ئیدیەم) لە دوورەوە" ""),
                           Row(
                             children: [
                               const Expanded(

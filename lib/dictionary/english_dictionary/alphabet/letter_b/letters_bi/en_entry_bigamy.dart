@@ -147,8 +147,10 @@ class EnglishEntrybigamy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووھاوسەری، دووژنی، دوومێردی، دووژن‌ومێردی
-
-١. (ناو) تاوانی ھاوسەرگیری لەگەڵ کەسێک لە کاتێکدا ھاوسەرێکی دیکەت ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) تاوانی ھاوسەرگیری لەگەڵ کەسێک لە کاتێکدا ھاوسەرێکی دیکەت ھەیە"),
                           Row(
                             children: [
                               const Expanded(

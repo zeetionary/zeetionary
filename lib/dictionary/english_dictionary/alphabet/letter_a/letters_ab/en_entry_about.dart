@@ -172,8 +172,9 @@ class EnglishEntryabout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نزیکەی، لە دەوروبەری، بە مەزندە، سەرلە، لەبارەی، لەمەڕ، دەوروبەر، دەوروپشت، دۆرمادۆر، بە ھەر لا، لێرە و لەوێ، خەریکی، سەرقاڵی، مژولی، خەریک، پێچەوانەی، بەرڤاژی، 
-
-١. (ئامراز) دەربارەی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ئامراز) دەربارەی شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

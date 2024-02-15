@@ -143,8 +143,10 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەلەرمی سەوز، کەلەمە دوگمە، کەلەم‌فندقی، کەلەمی ڕاسێلی، کەلەمی برۆکسێلی
-
-١. (ناو) سەوزەیەکی خڕی بچووکی سەوز کە وەک کەلەرمێکی بچووکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) سەوزەیەکی خڕی بچووکی سەوز کە وەک کەلەرمێکی بچووکە"),
                           Row(
                             children: [
                               const Expanded(

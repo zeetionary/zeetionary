@@ -162,8 +162,11 @@ class EnglishEntryauctioneer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەڵاڵی مەزات یان ھەڕاج، ھەڕاج‌گەر
-
-١. (ناو) کەسێک کە لە زیادکردنی ئاشکرادا شت دەفرۆشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە لە زیادکردنی ئاشکرادا شت دەفرۆشێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

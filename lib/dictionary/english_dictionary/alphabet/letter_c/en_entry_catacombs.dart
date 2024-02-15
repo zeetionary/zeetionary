@@ -192,8 +192,10 @@ class EnglishEntrycatacombs extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆڕستان یان قەبرستانی ژێرزەوی
-
-١. (ناو) زنجیرەیەک لە تونێلی ژێر زەوی کە بۆ ناشتنی مردوو بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) زنجیرەیەک لە تونێلی ژێر زەوی کە بۆ ناشتنی مردوو بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

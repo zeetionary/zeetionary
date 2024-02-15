@@ -137,8 +137,9 @@ class EnglishEntryamidst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەنێوەڕاستی، لەنێوان، ل ناڤبەرا، لە میانەی، لە جەنگەی، لە ھەڕەتی
-
-١. (ئامراز) لەناوەڕاستی کاتێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ئامراز) لەناوەڕاستی کاتێکدا" ""),
                           Row(
                             children: [
                               const Expanded(

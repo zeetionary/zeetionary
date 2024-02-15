@@ -189,8 +189,10 @@ class EnglishEntrycanter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چوارناڵەی ھێواش، نەرمەغار، وێرغە
-
-١. (ناو) جوڵەی ئەسپ کە بەخێراییەک کە زۆرە، بەڵام زۆر زۆر نا کە غاردان بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جوڵەی ئەسپ کە بەخێراییەک کە زۆرە، بەڵام زۆر زۆر نا کە غاردان بێت"),
                           Row(
                             children: [
                               const Expanded(

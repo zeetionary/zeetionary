@@ -146,8 +146,9 @@ class EnglishEntrybrew extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیرە، دەم‌کراو، دەم‌کردە، کوڵاندوو، تێکەڵە
-
-١. (کردار) درووستکردنی بیرە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) درووستکردنی بیرە"),
                           Row(
                             children: [
                               const Expanded(

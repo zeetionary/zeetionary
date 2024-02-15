@@ -144,8 +144,10 @@ class EnglishEntrybrainless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەوج، بێ‌مێشک، بێ‌مەژگ، پەڵحە، دەبەنگ
-
-١. (ھاوەڵناو) کەسێک گەمژە کە نازانێت ژیرانە بیربکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک گەمژە کە نازانێت ژیرانە بیربکاتەوە"),
                           Row(
                             children: [
                               const Expanded(

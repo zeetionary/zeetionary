@@ -111,8 +111,9 @@ class EnglishEntryallowable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەوا، ڕێدراو، دەستوورلەسەر، زاگۆنی، قانوونی، جێی‌پەسند، دەستوورپێدراو
-
-١. (ھاوەڵناو) ڕێگەپێدراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ڕێگەپێدراو" ""),
                           Row(
                             children: [
                               const Expanded(

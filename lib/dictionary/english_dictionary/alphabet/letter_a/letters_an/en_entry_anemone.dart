@@ -152,8 +152,11 @@ class EnglishEntryanemone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوڵەنیسان، گوڵاڵە، باتینۆک، گاگرۆ، گوڵ‌بەھار
-
-١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

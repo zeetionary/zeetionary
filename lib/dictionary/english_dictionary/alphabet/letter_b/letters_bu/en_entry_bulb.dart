@@ -150,8 +150,9 @@ class EnglishEntrybulb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیواز، پیاز، پێواز، سەلک، بن، کڵاوە، بەندک، گڵۆپ
-
-١. (ناو) بەشی شووشەی ڕۆشنکەرەوەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەشی شووشەی ڕۆشنکەرەوەیەک"),
                           Row(
                             children: [
                               const Expanded(

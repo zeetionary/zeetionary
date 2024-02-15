@@ -142,8 +142,10 @@ class EnglishEntrybrooch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەرزی (سەر) سنگ، سەرسنگە (خشڵێ بۆ جلی ژنان)
-
-١. (ناو) پارچە خشڵێک کە لە پشتەوە دەرزییەکی پێوەیە و دەبەسترێت بە جلوبەرگەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە خشڵێک کە لە پشتەوە دەرزییەکی پێوەیە و دەبەسترێت بە جلوبەرگەوە"),
                           Row(
                             children: [
                               const Expanded(

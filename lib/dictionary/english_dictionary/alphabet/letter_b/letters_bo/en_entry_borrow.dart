@@ -233,8 +233,10 @@ class EnglishEntryborrow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرز، قەرز کردن، قەرز وەرگرتن
-
-١. (کردار) بردنی شتی کەسێکی تر بۆ بەکارھێنان و ھێنانەوەی لە کاتێکی تردا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بردنی شتی کەسێکی تر بۆ بەکارھێنان و ھێنانەوەی لە کاتێکی تردا"),
                           Row(
                             children: [
                               const Expanded(

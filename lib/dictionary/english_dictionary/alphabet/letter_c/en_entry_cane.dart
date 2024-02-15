@@ -192,8 +192,10 @@ class EnglishEntrycane extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەوەن، قامیش، چیت، ژاژ، نەی، نەیجە، حەسیر، گۆچان، داردەست، تووڵ، شووڵ، دار، خامە، شووڵک، قامیشی شەکر
-
-١. (ناو) قەدی ناوبۆشی ژمارەیەک ڕووە، بۆ نموونە بامبوو و شەکر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) قەدی ناوبۆشی ژمارەیەک ڕووە، بۆ نموونە بامبوو و شەکر"),
                           Row(
                             children: [
                               const Expanded(

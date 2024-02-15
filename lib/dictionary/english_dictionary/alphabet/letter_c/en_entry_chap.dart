@@ -194,8 +194,10 @@ class EnglishEntrychap extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کوڕ، پیاو، بنیادەم، زەلام
-
-١. (ناو) بۆ ناوهێنانی پیاوێک بە شێوەیەکی هاوڕێیانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بۆ ناوهێنانی پیاوێک بە شێوەیەکی هاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,9 @@ class EnglishEntryburning extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سووتێنەر، پڕووکێنەر، گەرم، پڕووزە، گڕگرتوو، کڵپەکردوو، ئاورگرتوو، سوورەوەبوو، ھەڵبوو، تۆزێنەر، لەڕادەبەدەر، یەکجار، پێویست، گرنگ، توند، مەسەلەیەکی گرنگ و پێویست، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، شەوەتان
-
-١. (ھاوەڵناو) ئێجگار زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ئێجگار زۆر"),
                           Row(
                             children: [
                               const Expanded(

@@ -109,8 +109,11 @@ class EnglishEntryadviser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاوێژکار، ڕاوێژەر، شیرەتڤان، ئامۆژگار، بەپرس‌وڕا
-
-١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

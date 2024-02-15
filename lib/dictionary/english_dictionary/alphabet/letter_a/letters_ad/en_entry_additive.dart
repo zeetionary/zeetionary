@@ -109,8 +109,11 @@ class EnglishEntryadditive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مەتریاڵ) سەرخراو یان سەرخستە، کۆوەبوو
-
-١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

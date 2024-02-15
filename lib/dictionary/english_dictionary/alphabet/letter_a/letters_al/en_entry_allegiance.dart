@@ -111,8 +111,9 @@ class EnglishEntryallegiance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەفاداری، دڵسۆزی، بەئەمەکی، پشتیوانی، داژداری، لایەنگری، ئالیگری، داکۆکی، پەیمان، بەڵێن، سۆز، گفت، لایەنگر، پشتیوان
-
-١. (ناو) دڵسۆزی و وەفاداری"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دڵسۆزی و وەفاداری" ""),
                           Row(
                             children: [
                               const Expanded(

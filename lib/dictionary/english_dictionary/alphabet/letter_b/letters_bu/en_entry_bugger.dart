@@ -146,8 +146,10 @@ class EnglishEntrybugger extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نێرباز، کەسێکی ھیچ یان قێزەون، بارگین
-
-١. (ناو) وشەیەک بۆ پیشاندانی تووڕەیی و بێزاری لە کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وشەیەک بۆ پیشاندانی تووڕەیی و بێزاری لە کەسێک"),
                           Row(
                             children: [
                               const Expanded(

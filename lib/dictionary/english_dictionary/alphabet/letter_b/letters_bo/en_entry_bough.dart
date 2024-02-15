@@ -145,8 +145,9 @@ class EnglishEntrybough extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەل، تای، گەورەلق، شالق
-
-١. (ناو) لقێکی گەورەی دارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) لقێکی گەورەی دارێک"),
                           Row(
                             children: [
                               const Expanded(

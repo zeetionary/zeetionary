@@ -193,8 +193,10 @@ class EnglishEntrycatholic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرین، بەرفرەھـ، بەربڵاو، گشت‌لایەنە، گشتی، ھەمەلایەنە، گشتگیر، گەلەمپەری، جۆراوجۆر، بیرکراوە، کراوە، بیرفرەھـ
-
-١. (ھاوەڵناو) سەر بەو مەزھەبەی ئایینی مەسیحییەت کە پاپا ڕابەرێتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) سەر بەو مەزھەبەی ئایینی مەسیحییەت کە پاپا ڕابەرێتی"),
                           Row(
                             children: [
                               const Expanded(

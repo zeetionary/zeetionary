@@ -189,8 +189,10 @@ class EnglishEntrybusker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: میوزیکژەنی گەڕۆک، گەڕۆک‌ژەن
-
-١. (ناو) کەسێک کە لەسەر شەقام میوزیک دەژەنێت و ڕێبواران دەتوانن پارەی پێ‌بدەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە لەسەر شەقام میوزیک دەژەنێت و ڕێبواران دەتوانن پارەی پێ‌بدەن"),
                           Row(
                             children: [
                               const Expanded(

@@ -147,8 +147,9 @@ class EnglishEntrybarmy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شێت، دەلوو، گەوج، کەر
-
-١. (ھاوەڵناو) کەمێک بێزار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کەمێک بێزار"),
                           Row(
                             children: [
                               const Expanded(

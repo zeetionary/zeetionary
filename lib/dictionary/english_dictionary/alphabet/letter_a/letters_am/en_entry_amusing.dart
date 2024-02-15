@@ -152,8 +152,9 @@ class EnglishEntryamusing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێکەنینی، خۆش، گاڵتەجاڕ
-
-١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین" ""),
                           Row(
                             children: [
                               const Expanded(

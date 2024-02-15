@@ -144,8 +144,10 @@ class EnglishEntrybrick extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خشت، کەرپووچ، تابووگ، ئاجور 
-
-١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"),
                           Row(
                             children: [
                               const Expanded(

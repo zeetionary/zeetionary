@@ -145,8 +145,9 @@ class EnglishEntrybizarre extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەیر، نائاسایی، باوەڕپێ‌نەکراو، سەیروسەمەرە
-
-١. (ھاوەڵناو) نامۆ و نائاسایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) نامۆ و نائاسایی"),
                           Row(
                             children: [
                               const Expanded(

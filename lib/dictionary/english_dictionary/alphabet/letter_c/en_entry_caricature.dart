@@ -197,8 +197,10 @@ class EnglishEntrycaricature extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاریکاتۆڕ، وێنەی گاڵتەجاڕ، کاریکاتۆڕکێشی، ھونەری کاریکاتۆر
-
-١. (ناو) وێنەیەک یان وێنەیەکی کێشراوی کەسێک کە وەک گاڵتەجاڕی دەردەکەوێت بە گەورەکردنی ھەندێک ڕووخسار و جەستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وێنەیەک یان وێنەیەکی کێشراوی کەسێک کە وەک گاڵتەجاڕی دەردەکەوێت بە گەورەکردنی ھەندێک ڕووخسار و جەستە"),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrycelebrated extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەناوبانگ، نێوبەدەرەوە، ناسراو، بەنێو، ناودار، بەنامیە
-
-١. (ھاوەڵناو) ناسراو بۆ ھەبوونی خاسیەتی باش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ناسراو بۆ ھەبوونی خاسیەتی باش"),
                           Row(
                             children: [
                               const Expanded(

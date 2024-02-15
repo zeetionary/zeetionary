@@ -328,8 +328,8 @@ class EnglishEntrybreath extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەناسە، بین، پشوو، دەم، فوو، مڵەما، نەز، شنە، سریوە، نیشانە، شەقڵ، شوێن، دەم، سات
-
-١. (ناو) ھەناسە"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) ھەناسە"),
                           Row(
                             children: [
                               const Expanded(

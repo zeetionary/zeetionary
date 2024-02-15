@@ -109,8 +109,11 @@ class EnglishEntryaffable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووخۆش، خۆش‌خوڵک، ئێسک‌سووک، دەم‌بەپێکەنین، دۆستانە
-
-١. (ھاوەڵناو) کەسێکی ڕووخۆش و ئێسکسووک کە ئاسانە قسەی لەگەڵ بکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێکی ڕووخۆش و ئێسکسووک کە ئاسانە قسەی لەگەڵ بکرێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

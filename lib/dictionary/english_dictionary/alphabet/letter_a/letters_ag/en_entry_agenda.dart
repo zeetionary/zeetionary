@@ -110,8 +110,11 @@ class EnglishEntryagenda extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کارنامە، بەرنامەی کار، بابەت‌نامەی کۆبوونەوە
-
-١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -111,8 +111,11 @@ class EnglishEntryairport extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فڕۆکەخانە، باڵافڕگە، فڕینگە
-
-١. (ناو) فڕۆکەخانە؛ شوێنێک کە تێیدا فڕۆکە دەفڕن و دەنیشنەوە بۆ گواستنەوەی گەشتیاران"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) فڕۆکەخانە؛ شوێنێک کە تێیدا فڕۆکە دەفڕن و دەنیشنەوە بۆ گواستنەوەی گەشتیاران"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

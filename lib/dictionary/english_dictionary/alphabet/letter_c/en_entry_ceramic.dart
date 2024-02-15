@@ -193,8 +193,10 @@ class EnglishEntryceramic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سێرامیک، سەرامیک، گڵێنە، ھەڕگینە، کڕیچی
-
-١. (ناو) شتێک کە لە قوڕ درووست کراوە و بۆ ھەمیشەیی بە گەرمی ڕەقکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە لە قوڕ درووست کراوە و بۆ ھەمیشەیی بە گەرمی ڕەقکراوە"),
                           Row(
                             children: [
                               const Expanded(

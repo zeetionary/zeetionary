@@ -197,8 +197,10 @@ class EnglishEntrycatalogue extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاتەلۆگ، پێرست، ڕیزە، لیست، فیرست
-
-١. (ناو) لیستێکی تەواوی کۆمەڵە شتێک، بۆ نموونە شتانێک کە خەڵکی دەتوانن سەیری بکەن یان بیکڕن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لیستێکی تەواوی کۆمەڵە شتێک، بۆ نموونە شتانێک کە خەڵکی دەتوانن سەیری بکەن یان بیکڕن"),
                           Row(
                             children: [
                               const Expanded(

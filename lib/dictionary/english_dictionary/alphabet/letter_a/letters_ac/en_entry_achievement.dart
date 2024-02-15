@@ -111,8 +111,11 @@ class EnglishEntryachievement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرھەم، دەسکەوت، دەست‌پێ‌ڕاگەیشتن، پێشکەوتن، پێشوەچوون، جێبەجێ‌بوون، بەدیھاتن
-
-١. (ناو) شتێک کە کەسێک بە ھەوڵ و ماندییبیینی بە سەرکەوتووانە کردوویەتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە کەسێک بە ھەوڵ و ماندییبیینی بە سەرکەوتووانە کردوویەتی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

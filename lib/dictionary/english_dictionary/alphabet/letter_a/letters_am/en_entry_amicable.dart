@@ -176,8 +176,10 @@ class EnglishEntryamicable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاشتی‌خوازانە، دۆستانە، بەتەباورەبا، لاشەڕ، بەگەرم‌وگوڕ، گەرم
-
-١. (ھاوەڵناو) بە ھاوڕێیانە و بێ‌مشتومڕ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بە ھاوڕێیانە و بێ‌مشتومڕ" ""),
                           Row(
                             children: [
                               const Expanded(

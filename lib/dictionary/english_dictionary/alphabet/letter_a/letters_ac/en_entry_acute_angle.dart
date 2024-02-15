@@ -108,8 +108,11 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: گۆشەی تیژ یان توند یان ڕژد (کەم‌تر لە ٩٠ پلە بێ)
-
-١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە"
+                                  ""),
                         ],
                       ),
                     ),

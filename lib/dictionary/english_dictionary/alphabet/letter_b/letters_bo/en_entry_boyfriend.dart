@@ -145,8 +145,10 @@ class EnglishEntryboyfriend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دۆستی کوڕ، ڕفێقی کوڕ، گراو، یار
-
-١. (ناو) پیاوێک یان کوڕێک کە کەسێک پەیوەندی ڕۆمانسی یان سێکسی لەگەڵی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پیاوێک یان کوڕێک کە کەسێک پەیوەندی ڕۆمانسی یان سێکسی لەگەڵی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

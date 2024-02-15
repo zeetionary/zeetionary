@@ -109,8 +109,9 @@ class EnglishEntryadoptive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵبژێردراو، پەسندکراو، ڕەچاوکراو، وەرگیراو، ھەڵبژاردە، (دەربارەی منداڵ یان باوانێ) پێوەندی‌دار بە مناڵ‌ھەڵگرتنەوە، یەکێ کە مناڵی ھەڵگرتبێتەوە
-
-١. (ھاوەڵناو) دایک و باوکی ھەڵگرەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) دایک و باوکی ھەڵگرەوە" ""),
                           Row(
                             children: [
                               const Expanded(

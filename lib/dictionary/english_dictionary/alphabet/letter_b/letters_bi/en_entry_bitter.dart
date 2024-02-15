@@ -222,8 +222,9 @@ class EnglishEntrybitter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاڵ، توند، تیژ، ناخۆش،  ناخۆش و زۆرسارد (ھەوا)، ڕق‌ھەستاو، تووڕە، ناڕەحەت، ئاوجۆی تاڵ، بیرەی خەست، سەختی، کوێرەوەری، کڵۆڵی، مەینەتی، بەدبەختی
-
-١. (ھاوەڵناو) تاڵ؛ تامێکی توندی ناخۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تاڵ؛ تامێکی توندی ناخۆش"),
                           Row(
                             children: [
                               const Expanded(

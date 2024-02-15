@@ -150,8 +150,9 @@ class EnglishEntryboiling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەکجار گەرم، سووتێنەر، پیشێنەر، پڕووکێنەر، داغ، جۆش‌سەندوو، ھەڵچوو، ورووژاو، خرۆشاو
-
-١. (ھاوەڵناو) زۆر گەرم"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر گەرم"),
                           Row(
                             children: [
                               const Expanded(

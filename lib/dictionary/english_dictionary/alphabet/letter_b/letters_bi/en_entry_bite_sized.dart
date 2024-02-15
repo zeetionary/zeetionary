@@ -146,8 +146,10 @@ class EnglishEntrybitesized extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕبەدەم، دەمبەر، پڕدەم
-
-١. (ھاوەڵناو) ھێندە بچووک کە بە یەکجار بخرێتە دەم و بخورێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھێندە بچووک کە بە یەکجار بخرێتە دەم و بخورێت"),
                           Row(
                             children: [
                               const Expanded(

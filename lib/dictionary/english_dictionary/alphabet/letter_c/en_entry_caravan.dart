@@ -194,8 +194,10 @@ class EnglishEntrycaravan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاروان، قەتار، عەڕەبانە، کارڤان، قافڵە
-
-١. (ناو) عەرەبانەیەک کە بە ئۆتۆمبێلێک ڕادەکێشرێت و خەڵکی تێیدا دەژین و دەخەون لەکاتی گەشتدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) عەرەبانەیەک کە بە ئۆتۆمبێلێک ڕادەکێشرێت و خەڵکی تێیدا دەژین و دەخەون لەکاتی گەشتدا"),
                           Row(
                             children: [
                               const Expanded(

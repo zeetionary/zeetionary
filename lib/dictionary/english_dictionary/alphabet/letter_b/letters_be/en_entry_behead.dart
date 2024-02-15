@@ -147,8 +147,10 @@ class EnglishEntrybehead extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەر بڕین، مل لێدان، مل پەڕاندن
-
-١. (کردار) سەربڕینی کەسێک، زۆرجار وەک سزا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) سەربڕینی کەسێک، زۆرجار وەک سزا"),
                           Row(
                             children: [
                               const Expanded(

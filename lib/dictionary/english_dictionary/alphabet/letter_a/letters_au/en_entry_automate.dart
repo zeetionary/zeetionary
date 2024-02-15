@@ -161,8 +161,11 @@ class EnglishEntryautomate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆبەکاربەرین، بە خۆکارکردن، کۆمپیوتەریکردن، ماشینیکردن
-
-١. (کردار) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی کار لە جیاتی مرۆڤ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی کار لە جیاتی مرۆڤ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

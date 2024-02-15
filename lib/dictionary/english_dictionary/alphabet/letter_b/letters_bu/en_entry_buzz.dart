@@ -199,8 +199,10 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ویزەویز، گیزەگیز، (دەزگا) فڕەفڕ، ڤڕەڤڕ، زرنگانەوە، دەنگەدەنگ، ھەراوھوریا، قیژەقیژ، دەنگۆ، قسەڵۆک، دەنگی بوزێر (یان تەلەفۆن)، زەنگ یان زڕەی تەلەفۆن، ھەستی وروژان یان خۆشی
-
-١. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"),
                           Row(
                             children: [
                               const Expanded(

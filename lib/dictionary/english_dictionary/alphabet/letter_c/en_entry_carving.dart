@@ -193,8 +193,10 @@ class EnglishEntrycarving extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەیکەری جوانی، ھەڵکۆڵین، کاردۆژە، دارتاشی، تاشینگەری، پەیکەرتاشی، بەردتاشی
-
-١. (ناو) شتێک یان شێوەیەک کە بە ھۆڵکۆڵین یان داتاشین درووست دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک یان شێوەیەک کە بە ھۆڵکۆڵین یان داتاشین درووست دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

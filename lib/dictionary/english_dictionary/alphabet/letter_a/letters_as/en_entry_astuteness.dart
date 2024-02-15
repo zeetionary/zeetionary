@@ -162,8 +162,9 @@ class EnglishEntryastuteness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زرینگی، زیرەکی، مدریکی، وریایی، ڕەندی، بەرژەوەندبینی
-
-١. (ناو) زیرەک و خێرا لە تێگەشتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) زیرەک و خێرا لە تێگەشتن" ""),
                           Row(
                             children: [
                               const Expanded(

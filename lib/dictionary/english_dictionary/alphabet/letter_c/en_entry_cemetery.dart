@@ -192,8 +192,10 @@ class EnglishEntrycemetery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرقەبران، قەبران، گۆڕستان، قەبرستان
-
-١. (ناو) ناوچەیەک کە بەکاردێت بۆ ناشتنی مردوو، بەتایبەتی یەکێک کە لە نزیک کڵێسایەک نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوچەیەک کە بەکاردێت بۆ ناشتنی مردوو، بەتایبەتی یەکێک کە لە نزیک کڵێسایەک نییە"),
                           Row(
                             children: [
                               const Expanded(

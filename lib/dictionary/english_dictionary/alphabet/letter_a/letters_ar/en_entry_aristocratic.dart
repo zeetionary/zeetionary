@@ -159,8 +159,11 @@ class EnglishEntryaristocratic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەریستۆکراتیک، سەربە چینی گەوران
-
-١. (ھاوەڵناو) پەیوەندیدار بە چینی باڵای کۆمەڵگە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە چینی باڵای کۆمەڵگە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

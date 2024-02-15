@@ -192,8 +192,8 @@ class EnglishEntrycarafe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سوراحی، دۆڵکە، تونگە، شووشەمەسینە، شووەتۆنگە، پارچ، پڕتۆنگەیێ، تۆنگەبەر
-
-١. (ناو) پێنناسە"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(

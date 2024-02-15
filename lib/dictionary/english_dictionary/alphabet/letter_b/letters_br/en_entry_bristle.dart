@@ -144,8 +144,8 @@ class EnglishEntrybristle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: موو یان قژی زبر، تووک، فڵچە، موو (قژی فرچە، ددان‌شۆر و ھتد)
-
-١. (ناو) تاڵە قژێک"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) تاڵە قژێک"),
                           Row(
                             children: [
                               const Expanded(

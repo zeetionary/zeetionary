@@ -153,8 +153,11 @@ class EnglishEntryamplifier extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (دەزگا) دەنگ‌پێدەر، ئەمپلیفایەر
-
-١. (ناو) پارچەیەکی ئەلیکترۆنی کە دەنگ بەرزدەکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچەیەکی ئەلیکترۆنی کە دەنگ بەرزدەکاتەوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

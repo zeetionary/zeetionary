@@ -145,8 +145,9 @@ class EnglishEntryboneidle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەمەڵ، کارنەکەر، تەڕاڵ، ترال، خوێڕی، کەتوەر، بێکارە، نەکرکار، کنگ‌گران، گێرەنەکەر، مەرشۆ، لەش‌گران، کەم‌جم‌وجۆڵ، تەپ، تەپلۆس، تەوەزەل، ھێواش، (خاو)وخلیچک
-
-١. (ھاوەڵناو) زۆر تەمەڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر تەمەڵ"),
                           Row(
                             children: [
                               const Expanded(

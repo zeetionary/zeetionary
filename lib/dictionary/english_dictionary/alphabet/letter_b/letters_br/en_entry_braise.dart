@@ -143,8 +143,10 @@ class EnglishEntrybraise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەرم داھێنان، کوڵاندن، برژاندن
-
-١. (کردار) لێنانی گۆشت و سەوزە زۆر بەھێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) لێنانی گۆشت و سەوزە زۆر بەھێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"),
                           Row(
                             children: [
                               const Expanded(

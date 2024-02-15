@@ -103,8 +103,11 @@ class EnglishEntryaccord extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێک‌کەوتن یان پێک‌ھاتنی فەرمی (حکومی یان ڕێکخراویی)، پەیمان، بڕیار، سازان، پێک‌ھاتن، کۆکی، ڕێک‌کەوتن، گونجان، مەیل، ویست
-
-١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

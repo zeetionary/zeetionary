@@ -154,8 +154,11 @@ class EnglishEntryanthem extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سرود؛ سرودی نیشتمانی، مارشی نەتەوەیی
-
-١. (ناو) گۆرانییەک کە تایبەتمەندییەکی گرنگی ھەیە وڵاتێک، ڕێکخراوێک، یان کۆمەڵە کەسێک و لە بۆنە تایبەتەکاندا دەوترێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گۆرانییەک کە تایبەتمەندییەکی گرنگی ھەیە وڵاتێک، ڕێکخراوێک، یان کۆمەڵە کەسێک و لە بۆنە تایبەتەکاندا دەوترێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

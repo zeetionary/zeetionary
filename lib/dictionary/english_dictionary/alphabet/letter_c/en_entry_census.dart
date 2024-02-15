@@ -192,8 +192,10 @@ class EnglishEntrycensus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرژمێری، ئامار، سەرژماری، مرۆژمێری
-
-١. (ناو) پڕۆسەی ژماردنی شتێک، بە تایبەتی دانیشتوانی وڵاتێک، تۆمارکردنی ژمارەیەک ڕاستی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پڕۆسەی ژماردنی شتێک، بە تایبەتی دانیشتوانی وڵاتێک، تۆمارکردنی ژمارەیەک ڕاستی"),
                           Row(
                             children: [
                               const Expanded(

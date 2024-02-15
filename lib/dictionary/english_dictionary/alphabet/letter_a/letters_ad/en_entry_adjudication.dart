@@ -110,8 +110,10 @@ class EnglishEntryadjudication extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دادوەری، دادگەری، شەرع‌کردن، نێوگژیوانی، ناوبەری، نێوبژیوانی
-
-١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

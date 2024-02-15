@@ -154,8 +154,11 @@ class EnglishEntryantagonist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمن، نەیار، ھەڤڕک، ناکۆک، پێک‌دژ، بەرھەڵست، دژ، دژبەر
-
-١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

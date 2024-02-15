@@ -109,8 +109,9 @@ class EnglishEntryagreeable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆش، وەش، باش، بەردڵ، چاک، ڕێک‌کەوتوو، دڵ‌ساز، سازاو، کۆک، ساز
-
-١. (ھاوەڵناو) شتێکی خۆش و دڵگیر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێکی خۆش و دڵگیر" ""),
                           Row(
                             children: [
                               const Expanded(

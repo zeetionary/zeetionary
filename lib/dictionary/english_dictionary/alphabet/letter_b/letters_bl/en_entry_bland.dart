@@ -147,8 +147,10 @@ class EnglishEntrybland extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەرم، نیان، خۆش، بێ‌تام، بێ‌بۆن‌وچێژ، بێ‌خوێ، لەسەرەخۆ، ھێمن، ھێدی، ئارام، ناخۆش، بێ‌تام، بێ‌تایبەتمەندی، بێ‌سەنگ‌وڕەنگ، ناسەرنج‌ڕاکیش
-
-١. (ھاوەڵناو) نەبوونی تام یان کەسایەتیی بەھێز، یان بەتاڵ لە مەیل و وزە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) نەبوونی تام یان کەسایەتیی بەھێز، یان بەتاڵ لە مەیل و وزە"),
                           Row(
                             children: [
                               const Expanded(

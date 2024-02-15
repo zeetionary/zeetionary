@@ -112,8 +112,11 @@ class EnglishEntryalbino extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زاڵ، کەور، ئەلبینۆ: گیانەوەر یان کەسێ کە پیگمێنتی لە پێست، موو و چاوەکانی‌دا نییە (و زۆرتر پەمەیین)
-
-١. (ھاوەڵناو) کەسێک یان ئاژەڵێک کە ڕەنگ لە پێستی یان قژی نییە و سپی دەردەکەون، یان لە چاوەکانی کە پەمەیی دەردەکەون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک یان ئاژەڵێک کە ڕەنگ لە پێستی یان قژی نییە و سپی دەردەکەون، یان لە چاوەکانی کە پەمەیی دەردەکەون"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

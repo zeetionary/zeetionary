@@ -190,8 +190,10 @@ class EnglishEntryburglar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەودز، دز، چەتە، دەوال 
-
-١. (ناو) کەسێک کە بە نایاسایی دەچێتە بینایەکەوە بۆ دزیکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە بە نایاسایی دەچێتە بینایەکەوە بۆ دزیکردن"),
                           Row(
                             children: [
                               const Expanded(

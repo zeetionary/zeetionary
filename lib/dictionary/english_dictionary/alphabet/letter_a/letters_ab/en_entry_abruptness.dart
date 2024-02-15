@@ -95,8 +95,9 @@ class EnglishEntryabruptness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کتوپڕی، لەناکاوی
-
-١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ" ""),
                           Row(
                             children: [
                               const Expanded(

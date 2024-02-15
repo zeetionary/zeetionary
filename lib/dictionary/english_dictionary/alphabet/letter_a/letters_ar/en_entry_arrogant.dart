@@ -160,8 +160,11 @@ class EnglishEntryarrogant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەخودەرچوو، لووت‌بەرز، دفن‌بلند، بەھەوا، بادی‌ھەوا، فیزن، بەتڕوتۆپ، بەدەمار، بەفیز، خۆبەزلزان، لووت بەرز، قوڕدەماغ
-
-١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەکی ناشرین و بەفیزانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەکی ناشرین و بەفیزانە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

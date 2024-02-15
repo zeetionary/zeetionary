@@ -112,8 +112,9 @@ class EnglishEntryamble extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەنگاوی بەھێواشی، نەرمەھەنگاو، وێرغە، نەرمەڕەوت
-
-١. (کردار) ڕێکردن بەھێواشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ڕێکردن بەھێواشی" ""),
                           Row(
                             children: [
                               const Expanded(

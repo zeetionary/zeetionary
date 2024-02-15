@@ -194,8 +194,8 @@ class EnglishEntrycarrot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گێزەر، یارکۆک، بنەگێزەر، بنجی گێزەر، خەڵات، پاداشت 
-
-١. (ناو) گێزەر"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) گێزەر"),
                           Row(
                             children: [
                               const Expanded(

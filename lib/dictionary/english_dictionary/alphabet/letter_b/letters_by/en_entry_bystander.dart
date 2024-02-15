@@ -189,8 +189,10 @@ class EnglishEntrybystander extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەیرکەر، بینەر، تەماشاڤان، چاودێر، چاولێکەر
-
-١. (ناو) کەسێک کە شتێک دەبینێت ڕووددات بەڵام بەشێک نییە لێی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە شتێک دەبینێت ڕووددات بەڵام بەشێک نییە لێی"),
                           Row(
                             children: [
                               const Expanded(

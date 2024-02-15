@@ -148,8 +148,9 @@ class EnglishEntryblame extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوناھـ، خەتا، سووچ، سەرکۆنەم، بەرپرسایەتی (بۆ ھەڵە یان گوناھێ)
-
-١. (کردار) لۆمەکردنی کەسێک بە شتێکی خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) لۆمەکردنی کەسێک بە شتێکی خراپ"),
                           Row(
                             children: [
                               const Expanded(

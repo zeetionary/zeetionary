@@ -148,8 +148,9 @@ class EnglishEntrybeastly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیان‌لەبەری، دڕندانە، بێ‌بەزەیی‌یانە، دڵڕەقانە، ناخۆش، پیس
-
-١. (ھاوەڵناو) ناخۆش، ناشرین"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ناخۆش، ناشرین"),
                           Row(
                             children: [
                               const Expanded(

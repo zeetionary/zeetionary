@@ -146,8 +146,10 @@ class EnglishEntrybread extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نان، خۆراک، ڕۆزی، ژەمەن، ڕزق، زەواد، بژیو، داژیار، پارە، پەرە، پووڵ
-
-١. (ناو) نان؛ خواردنێک کە لە ئارد و ئاو و ھەندێک جار خومرە درووست دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نان؛ خواردنێک کە لە ئارد و ئاو و ھەندێک جار خومرە درووست دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

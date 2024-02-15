@@ -113,8 +113,9 @@ class EnglishEntryaccelerate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ١- تاودان، لەزپێدان، خێراکردن، گوڕپێدان ٢- تاوسەندن، لەزگرتن، گوڕگرتن
-
-١. (کردار) شتێک خێراتر ڕووبدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) شتێک خێراتر ڕووبدات" ""),
                           Row(
                             children: [
                               const Expanded(

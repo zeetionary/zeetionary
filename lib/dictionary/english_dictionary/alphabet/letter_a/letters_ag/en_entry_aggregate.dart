@@ -111,8 +111,10 @@ class EnglishEntryaggregate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆوەبوو، کەڵەکەکراو، کەڵەکەبەند، (لە) سەرجەم، لە کۆدا، کۆ، سەرجەم، تێکڕایی، گشتی، کۆمەڵە، دەستە، گروپ، ئاپۆرە، کۆمەڵکە، کۆما، کۆگا، تۆپەڵکە، ورکەبەرد (لە ڕێگاوبان و خانووبەرەدا
-
-١. (ناو) کۆی گشتی چەند یەکەیەکی بچووکتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆی گشتی چەند یەکەیەکی بچووکتر" ""),
                           Row(
                             children: [
                               const Expanded(

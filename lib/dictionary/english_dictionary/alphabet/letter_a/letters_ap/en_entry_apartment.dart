@@ -157,8 +157,11 @@ class EnglishEntryapartment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەستەژوور، دەستەخانوو، باڵاخانە، وارخان، ژوور، دیو
-
-١. (ناو) ژمارەیەک ژوور بۆ ژیان تێیدا، زۆرجار لە نھۆمێکی بینایەکی گەورە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژمارەیەک ژوور بۆ ژیان تێیدا، زۆرجار لە نھۆمێکی بینایەکی گەورە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

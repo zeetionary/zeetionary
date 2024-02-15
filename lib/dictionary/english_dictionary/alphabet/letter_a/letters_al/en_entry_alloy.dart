@@ -111,8 +111,11 @@ class EnglishEntryalloy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داڕشتە، ئامێژەن، ئەمێژین، عەیار، بار، ڕێژە، ڕادە
-
-١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

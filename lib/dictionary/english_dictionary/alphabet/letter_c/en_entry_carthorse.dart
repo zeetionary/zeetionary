@@ -192,8 +192,9 @@ class EnglishEntrycarthorse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: 
-
-١. (ھاوەڵناو) پێنناسە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +237,7 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),

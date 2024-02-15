@@ -113,8 +113,10 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناسینەوە، پێ‌زانین، سپاس(کردن)، پێ‌لێنان، دان‌پیانان، درکاندن، ڕاگەیاندن، پەسندکردن، سەلماندن، مۆرکردن، وەرگرتن، وەڵام، ھەواڵی گەیشتن (نامە)
-
-١. (ناو) داننان بە بوون یان ڕاستی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) داننان بە بوون یان ڕاستی شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

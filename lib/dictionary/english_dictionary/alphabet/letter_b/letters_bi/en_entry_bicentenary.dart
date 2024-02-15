@@ -148,8 +148,10 @@ class EnglishEntrybicentenary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووسەد ساڵە، دووسەدەمین ساڵ، ئاھەنگی دووسەد ساڵە
-
-١. (ناو) ساڵێک یان ڕۆژێک کە ئاھەنگی ڕووداوێک دەگێڕیت کە ٢٠٠ ساڵ بەسەریدا تێپەڕیوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ساڵێک یان ڕۆژێک کە ئاھەنگی ڕووداوێک دەگێڕیت کە ٢٠٠ ساڵ بەسەریدا تێپەڕیوە"),
                           Row(
                             children: [
                               const Expanded(

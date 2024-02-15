@@ -153,8 +153,10 @@ class EnglishEntryaviary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئیڤیەری، باڵندەخانە، مەلگە، شوێنی باڵندەکان (قەفەسێکی گەورە بۆ ڕاگرتنی باڵندەکان، بۆ نموونە لە باخچەی ئاژەڵان‌دا)
-
-١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

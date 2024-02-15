@@ -108,8 +108,7 @@ class EnglishEntrybonafide extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˌbəʊnə ˈfaɪdi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌbəʊnə ˈfaɪdi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbonafide("en-GB"),
                             ),
@@ -117,8 +116,7 @@ class EnglishEntrybonafide extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌbəʊnə ˈfaɪdi/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌbəʊnə ˈfaɪdi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbonafide("en-US"),
                             ),
@@ -148,8 +146,9 @@ class EnglishEntrybonafide extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاست، دروست، بێ‌فروفێڵ، بێ‌گەرد، بێ‌خەوش، ڕاستەقینە، ڕەسەن، قانوونی، ڕاستینە
-
-١. (ناو) ڕاستی، یاسایی، درووست"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕاستی، یاسایی، درووست"),
                           Row(
                             children: [
                               const Expanded(

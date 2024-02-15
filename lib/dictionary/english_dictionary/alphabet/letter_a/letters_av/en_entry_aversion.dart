@@ -153,8 +153,9 @@ class EnglishEntryaversion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێزاری، خۆش‌نەویستن، قین‌لێ‌بوون، ڕق(لێ‌بوون)، بێزەون، مایەی بێزاری، دژایەتی
-
-١. (ناو) ڕقێکی زۆر بۆ شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕقێکی زۆر بۆ شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

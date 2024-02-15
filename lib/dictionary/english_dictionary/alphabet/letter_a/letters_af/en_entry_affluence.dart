@@ -110,8 +110,10 @@ class EnglishEntryaffluence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵقوڵین، گوڕبوون، فرەیی، زۆری، زەبەندی، سامان، ماڵی دنیا، دەوڵەت، ناز و نێعمەت، خۆشی (و بەھرە)
-
-١. (ناو) بوونی پارەی زۆر و گوزەرانی باش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بوونی پارەی زۆر و گوزەرانی باش" ""),
                           Row(
                             children: [
                               const Expanded(

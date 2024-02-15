@@ -148,8 +148,9 @@ class EnglishEntrybefit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاو بوون، شایان بوون، ھاوشان بوون، گونجان
-
-١. (کردار) گونجاو بۆ کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) گونجاو بۆ کەسێک/شتێک"),
                           Row(
                             children: [
                               const Expanded(

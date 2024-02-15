@@ -193,8 +193,10 @@ class EnglishEntrychamois extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بزن‌ئاسک، بزنەکێوی، تیمانج، تیماج، پێستە
-
-١. (ھاوەڵناو) ئاژەڵێک کە وەک ئاسکێکی بچووک وایە و لە چیاکانی ئەورووپا و ئاسیا دەژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ئاژەڵێک کە وەک ئاسکێکی بچووک وایە و لە چیاکانی ئەورووپا و ئاسیا دەژی"),
                           Row(
                             children: [
                               const Expanded(

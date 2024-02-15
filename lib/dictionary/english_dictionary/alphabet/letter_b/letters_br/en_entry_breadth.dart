@@ -146,8 +146,8 @@ class EnglishEntrybreadth extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پانایی، پانی، ھەراوی، کشان، بەرینی، بەربڵاوی، پانتایی، بەرینایی، ڕاخستە
-
-١. (ناو) پانی شتێک"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) پانی شتێک"),
                           Row(
                             children: [
                               const Expanded(

@@ -191,8 +191,10 @@ class EnglishEntrycapitulate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆ بە دەستەوە دان، ڕادەست بوون، کۆڵدان، ملدان
-
-١. (کردار) ڕازی بوون بە کردنی شتێک کە بۆ ماوەیەکی زۆر ڕەتتکردووتەوە بیکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ڕازی بوون بە کردنی شتێک کە بۆ ماوەیەکی زۆر ڕەتتکردووتەوە بیکەیت"),
                           Row(
                             children: [
                               const Expanded(

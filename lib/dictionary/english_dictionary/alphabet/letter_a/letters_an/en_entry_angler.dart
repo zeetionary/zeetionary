@@ -152,8 +152,9 @@ class EnglishEntryangler extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماسیگر، ڕاوچی (ماسی)
-
-١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی" ""),
                           Row(
                             children: [
                               const Expanded(

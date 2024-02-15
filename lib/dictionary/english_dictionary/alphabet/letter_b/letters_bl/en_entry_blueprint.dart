@@ -146,8 +146,10 @@ class EnglishEntryblueprint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەخشە، بەرنامەی کار، پلان، چاپی شین
-
-١. (ناو) کۆپییەکی وێنەیی پلانێک بۆ بینایەک یان ئامێرێک کە ھێڵی سپی لەسەرە و پشتەوەی شینە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کۆپییەکی وێنەیی پلانێک بۆ بینایەک یان ئامێرێک کە ھێڵی سپی لەسەرە و پشتەوەی شینە"),
                           Row(
                             children: [
                               const Expanded(

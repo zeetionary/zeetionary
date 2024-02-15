@@ -130,8 +130,11 @@ class EnglishEntryacademic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاکادێمیک، پەروەردەیی، سەربە خوێندن، فێرکاری‌یانە، تیۆریک، بیردۆزی، ناکرداری، زانستی
-
-١. (ھاوەڵناو) پەیوەندیدار لەگەڵ پەروەردە، بەتایبەت خوێندنی خوێندنگە و زانکۆ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار لەگەڵ پەروەردە، بەتایبەت خوێندنی خوێندنگە و زانکۆ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

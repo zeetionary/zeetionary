@@ -150,8 +150,10 @@ class EnglishEntrybloodgroup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆمەڵە یان تیپی خوێن
-
-١. (ناو) جۆرەکانی خوێنی مرۆڤ کە بۆ مەبەستی پزیشکی جیاکراونەتەوە """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) جۆرەکانی خوێنی مرۆڤ کە بۆ مەبەستی پزیشکی جیاکراونەتەوە "),
                           Row(
                             children: [
                               const Expanded(

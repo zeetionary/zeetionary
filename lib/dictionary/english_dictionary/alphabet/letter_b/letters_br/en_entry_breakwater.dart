@@ -143,8 +143,10 @@ class EnglishEntrybreakwater extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەپۆل‌ڕەوێن، کەلەڕە، کەڵبەرە، شەپۆل‌شکێن، کەنارپارێز، شەپۆلەدیوار
-
-١. (ناو) دیوارێک کە بەرەو ناو دەریا درووست دەکرێت بۆ پاراستنی کەنار و بەندەر لە شەپۆل"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دیوارێک کە بەرەو ناو دەریا درووست دەکرێت بۆ پاراستنی کەنار و بەندەر لە شەپۆل"),
                           Row(
                             children: [
                               const Expanded(

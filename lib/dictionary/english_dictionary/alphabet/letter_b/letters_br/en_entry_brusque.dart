@@ -143,8 +143,10 @@ class EnglishEntrybrusque extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌ڕەوشت، بێ‌ڕەوشتانە، بێ‌ماریفەت، بەپەلە، بێ‌تاقەت، بەھەشتاو، توند، توند و کت‌وپڕ (قسەکردن)
-
-١. (ھاوەڵناو) بەکارھێنانی وشەی کەم و بەشێوەیەک دەرکەوتن کە بێ‌شەرم"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بەکارھێنانی وشەی کەم و بەشێوەیەک دەرکەوتن کە بێ‌شەرم"),
                           Row(
                             children: [
                               const Expanded(

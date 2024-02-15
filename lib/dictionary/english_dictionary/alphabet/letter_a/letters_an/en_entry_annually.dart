@@ -153,8 +153,10 @@ class EnglishEntryannually extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە ساڵ‌دا، ساڵ‌بەساڵ، ھەر ساڵە، ساڵانە
-
-١. (ھاوەڵکار) ئەنجامدانی شتێک ساڵی جارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) ئەنجامدانی شتێک ساڵی جارێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

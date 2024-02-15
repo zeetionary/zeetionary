@@ -144,8 +144,10 @@ class EnglishEntrybull extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوانەگا، وەرزا، وەرزە، جەل، بەرجووت، کەڵ، کەڵەگا، نێرەگا، نێرەفیل، نێرەنەھەنگ (گیانەوەرە زلەکانی تریش)، (ڕەمەکی) پاسەبان، پۆلیس، ئاژان
-
-١. (ناو) نێرینەی ھەر ئاژەڵێک کە مانگا بێت، یان نێرینەی فیل، قرش، یان ئاژەڵە گەورەکانی دیکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نێرینەی ھەر ئاژەڵێک کە مانگا بێت، یان نێرینەی فیل، قرش، یان ئاژەڵە گەورەکانی دیکە"),
                           Row(
                             children: [
                               const Expanded(

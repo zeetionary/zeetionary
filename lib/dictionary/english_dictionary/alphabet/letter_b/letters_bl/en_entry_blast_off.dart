@@ -145,8 +145,10 @@ class EnglishEntryblastoff extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵدان، بەردان، کاتی ھەڵدان یان بەردان
-
-١. (ناو) ساتەوەختی ھەڵدانی کەشتییەکی ئاسمانی بۆ بۆشایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ساتەوەختی ھەڵدانی کەشتییەکی ئاسمانی بۆ بۆشایی"),
                           Row(
                             children: [
                               const Expanded(

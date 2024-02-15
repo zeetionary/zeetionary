@@ -152,8 +152,10 @@ class EnglishEntryancestral extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باپیرەگەورەیی، باووباپیری، پێشینەیی، ڕەچەڵەکی، سەرەتایی، یەکەمین، دەسپێک
-
-١. (ھاوەڵناو) پەیوەندیدار بە باوانی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە باوانی کەسێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

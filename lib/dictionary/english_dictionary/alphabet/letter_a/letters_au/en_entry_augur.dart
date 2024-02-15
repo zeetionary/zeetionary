@@ -161,8 +161,11 @@ class EnglishEntryaugur extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لە ڕۆمی کۆن‌دا) فاڵگرەوە، گێرزان، پێشزان
-
-١. (کردار) بوون بە ئاماژەیەک بەوەی شتێک سەرکەوتوو دەبێت یان نا لە داھاتوودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بوون بە ئاماژەیەک بەوەی شتێک سەرکەوتوو دەبێت یان نا لە داھاتوودا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

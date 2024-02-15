@@ -204,8 +204,10 @@ class EnglishEntrychallenge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرەنگاری، بەرەنگارخوازی، بەرەنگاربوونەوە، بەگژداچوون(ەوە)، تێخوڕین، لەڕووداوێستان، بەرپەرچ‌دانەوە، بانگ‌کردن بۆ شەڕ یان پێشبڕکێ، ھاڕەوگیفە خۆھەڵکێشی، دژایەتی، ناکۆکی،	دەستوور یان فەرمانی وێستان
-
-١. (ناو) ئەرکێکی قورس کە توانا و شارەزایی کەسێک تاقیدەکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەرکێکی قورس کە توانا و شارەزایی کەسێک تاقیدەکاتەوە"),
                           Row(
                             children: [
                               const Expanded(

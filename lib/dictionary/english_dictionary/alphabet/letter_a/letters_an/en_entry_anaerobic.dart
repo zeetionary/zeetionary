@@ -152,8 +152,9 @@ class EnglishEntryanaerobic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌ھەواژی، ھەوانەویست، ئۆکسیژێن‌نەویست
-
-١. (ھاوەڵناو) ناپێویست بە ئۆکسجین"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ناپێویست بە ئۆکسجین" ""),
                           Row(
                             children: [
                               const Expanded(

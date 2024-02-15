@@ -153,8 +153,8 @@ class EnglishEntrybaggy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەراو، دەڵب، فش، گوشاد، نەتەنگ، توورەکەیی، توورکەئاسا، داھۆڕ
-
-١. (ھاوەڵناو) جلی فش"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ھاوەڵناو) جلی فش"),
                           Row(
                             children: [
                               const Expanded(

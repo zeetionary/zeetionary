@@ -196,8 +196,10 @@ class EnglishEntrycaptain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرکردە، فەرماندەر، سەردەستە، سەرتیپ، سەرتیم (تیمێکی وەرزشی)، ڕێبەر، سەرۆک، کاپیتان، کەشتیوان، خەفتان، فڕۆکەوان، ئەفسەرێ لە ھێزی دەریایی بریتانیا، لە نێوان commander و admiral دا، ئەفسەرێ لە ئەرتەشی بریتانیا لە نێوان lieutenant و major دا
-
-١. (ناو) کەسێک کە بەڕێوبەری کەشتییەک یان فڕۆکەیەکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە بەڕێوبەری کەشتییەک یان فڕۆکەیەکە"),
                           Row(
                             children: [
                               const Expanded(

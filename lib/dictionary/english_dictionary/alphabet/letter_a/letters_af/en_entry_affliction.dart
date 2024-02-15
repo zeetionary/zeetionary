@@ -109,8 +109,11 @@ class EnglishEntryaffliction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەینەتی، بەدبەختی، سەختی، پەژارە، خەم، ڕەنج، ئێش، ژان، سوێ، ئازار، بەڵا، ئاسێو، دەرد
-
-١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

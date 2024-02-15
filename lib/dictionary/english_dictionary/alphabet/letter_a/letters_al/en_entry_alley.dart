@@ -111,8 +111,11 @@ class EnglishEntryalley extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆڵان، کووچە، ڕێگا، گوزەر، جێڕەو، ڕەوگە، شەقام
-
-١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

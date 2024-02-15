@@ -113,8 +113,11 @@ class EnglishEntryambition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرزەفڕی، بەرز(ە)خوازی، ھێزخوازی، ئارەزوو، ئامانج، ئاوات
-
-١. (ناو) شتێک کە دەتەوێت بیکەیت یان بە دەستی بھێنیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە دەتەوێت بیکەیت یان بە دەستی بھێنیت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

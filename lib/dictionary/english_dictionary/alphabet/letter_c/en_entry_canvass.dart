@@ -193,8 +193,10 @@ class EnglishEntrycanvass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاگەیاندن، بوارڕەخسان، گڵاڵەبوون، بۆ ھەڵکەوتن، ڕاپرسی
-
-١. (ناو) پڕۆسەی گەڕان بە ناوچەیەکدا و قسەکردن لەگەڵ خەڵکی، بەتایبەتی بۆ داواکردنی پشتگیری بۆ کەسێکی دیاریکراو، پارتێکی سیاسی، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پڕۆسەی گەڕان بە ناوچەیەکدا و قسەکردن لەگەڵ خەڵکی، بەتایبەتی بۆ داواکردنی پشتگیری بۆ کەسێکی دیاریکراو، پارتێکی سیاسی، ھتد"),
                           Row(
                             children: [
                               const Expanded(

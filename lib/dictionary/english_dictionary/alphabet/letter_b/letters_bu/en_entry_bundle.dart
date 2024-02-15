@@ -197,8 +197,9 @@ class EnglishEntrybundle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گورزە، تاخە، دەستە، بەند، دەستەوارە، چەپک، بوخچە، پرێسکە، بەستە. تۆپەڵ، کەڵەکە، کۆما، لۆدەپووڵ، کۆماپارە، بڕێکی یەکجار زۆری پارە
-
-١. (ناو) ژمارەیەک شت کە پێکەوە گرێدراون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ژمارەیەک شت کە پێکەوە گرێدراون"),
                           Row(
                             children: [
                               const Expanded(

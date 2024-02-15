@@ -159,8 +159,11 @@ class EnglishEntryapprehensive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نگەران، دڵ‌لەدوا، بێ‌ئارام، ئۆقرەلێھەڵگیراو، زووتێگەیشتوو، زیرەک
-
-١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

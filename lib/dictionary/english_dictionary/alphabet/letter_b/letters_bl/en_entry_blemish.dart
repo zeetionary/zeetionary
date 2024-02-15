@@ -147,8 +147,10 @@ class EnglishEntryblemish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەرد، لکە، عەیب، خەوش، زەدە، پینە، شکستی، کەم‌وکوڕی، شوێنی بڕین یان برین، گرێ
-
-١. (ناو) نیشانەیەک لەسەر پێست یان شتێک کە لە جوانی کەم دەکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نیشانەیەک لەسەر پێست یان شتێک کە لە جوانی کەم دەکاتەوە"),
                           Row(
                             children: [
                               const Expanded(

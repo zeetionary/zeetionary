@@ -161,8 +161,9 @@ class EnglishEntryaudacious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاونەترس، ئازا، بوێر، سڵ‌نەکەر، بێ‌باک، ، ڕوودار، بێ‌شەرم، ڕووشە، بێ‌حەیا، ڕووھەڵماڵراو، ئازایانە، چاونەترسانە
-
-١. (ھاوەڵناو) بوێرانە و چاونەترس"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بوێرانە و چاونەترس" ""),
                           Row(
                             children: [
                               const Expanded(

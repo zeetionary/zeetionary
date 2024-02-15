@@ -109,8 +109,11 @@ class EnglishEntryactress extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆڵ‌گێڕ، دەورگێڕ، ئەکتێر، ئەکتەر (ژن)
-
-١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

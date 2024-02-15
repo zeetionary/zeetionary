@@ -197,8 +197,10 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوڕێژگە، ئاوڕێژ، ڕێژگە، مەڵبەندی خزمەت‌گوزاری
-
-١. (ناو) ناوچەیەک کە خوێندنگە بەرپرسە لە وەرگرتنی خوێندکار لێوەی، یان نەخۆشخانە دەبێت نەخۆشی لێوە وەربگرێت """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوچەیەک کە خوێندنگە بەرپرسە لە وەرگرتنی خوێندکار لێوەی، یان نەخۆشخانە دەبێت نەخۆشی لێوە وەربگرێت "),
                           Row(
                             children: [
                               const Expanded(

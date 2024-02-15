@@ -153,8 +153,9 @@ class EnglishEntrybandy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لاق‌چەوێڵ، پێ‌چەوێڵ، لاق یان پێی کەوانەیی
-
-١. (ھاوەڵناو) لاق چەماوە و بڵاو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) لاق چەماوە و بڵاو"),
                           Row(
                             children: [
                               const Expanded(

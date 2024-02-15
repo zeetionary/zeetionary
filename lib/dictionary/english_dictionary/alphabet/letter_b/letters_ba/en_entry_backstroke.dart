@@ -154,8 +154,10 @@ class EnglishEntrybackstroke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشتەمەلێ، پشتەمەلە(ی باسکە)
-
-١. (ھاوەڵناو) جۆرە مەلەکردنێک کە لەسەر پشتت پاڵ دەکەویت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) جۆرە مەلەکردنێک کە لەسەر پشتت پاڵ دەکەویت"),
                           Row(
                             children: [
                               const Expanded(

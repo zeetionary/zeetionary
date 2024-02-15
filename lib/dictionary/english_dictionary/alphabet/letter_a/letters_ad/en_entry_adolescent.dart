@@ -109,8 +109,9 @@ class EnglishEntryadolescent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیمچەجەحێڵ، مێرمناڵ، مێرمنداڵ، تازەلاو، نۆجوان، ھەرزەکار، بزەڵە
-
-١. (ھاوەڵناو) کەسێکی ھەرزەکار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) کەسێکی ھەرزەکار" ""),
                           Row(
                             children: [
                               const Expanded(

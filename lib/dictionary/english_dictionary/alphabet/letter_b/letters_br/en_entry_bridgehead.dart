@@ -141,8 +141,10 @@ class EnglishEntrybridgehead extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرپرد، سەرەتا، شوێن یان خاڵی دەسپێک، شوێنی پتەو، ڕەوشی باش، ھەل‌ومەرجی لەبار
-
-١. (ناو) شوێنێکی بەھێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دوژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شوێنێکی بەھێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دوژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"),
                           Row(
                             children: [
                               const Expanded(

@@ -149,8 +149,10 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەک‌وچۆلی میکڕۆبی یان بایۆلۆژیکی
-
-١. (ناو) چەکێکی جەنگی کە نەخۆشی بڵاودەکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چەکێکی جەنگی کە نەخۆشی بڵاودەکاتەوە"),
                           Row(
                             children: [
                               const Expanded(

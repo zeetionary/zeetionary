@@ -144,8 +144,9 @@ class EnglishEntrybrook extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جۆگە، جۆگاو، جۆبار، نیرە
-
-١. (ناو) ڕووبارێکی بچووک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕووبارێکی بچووک"),
                           Row(
                             children: [
                               const Expanded(

@@ -198,8 +198,9 @@ class EnglishEntrycastersugar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وردەشەکر، شەکری نەرم
-
-١. (ناو) شەکر بە دەنکی زۆر ورد"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شەکر بە دەنکی زۆر ورد"),
                           Row(
                             children: [
                               const Expanded(

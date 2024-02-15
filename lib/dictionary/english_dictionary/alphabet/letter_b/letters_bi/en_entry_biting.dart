@@ -146,8 +146,9 @@ class EnglishEntrybiting extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتەزوو، تەزوودار، بەتەز، ئێسک‌بڕ، زۆرسارد و ناخۆش، توند، ڕەق، ناخۆش، تاڵ
-
-١. (ھاوەڵناو) زۆر سارد و ناخۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) زۆر سارد و ناخۆش"),
                           Row(
                             children: [
                               const Expanded(

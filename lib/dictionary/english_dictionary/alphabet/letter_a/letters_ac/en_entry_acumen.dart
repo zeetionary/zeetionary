@@ -109,8 +109,11 @@ class EnglishEntryacumen extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زیرەکی، وریایی، زرینگی، بیرتیژی، زووتێگەیشتوویی، ھۆش
-
-١. (ناو) توانای تێگەشتن و بڕیاردان بە خێرایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) توانای تێگەشتن و بڕیاردان بە خێرایی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

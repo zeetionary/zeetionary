@@ -144,8 +144,9 @@ class EnglishEntryboyhood extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (قۆناخ یان سەردەمی) مناڵی، کوڕێتی، کوڕێنی
-
-١. (ناو) سەردەمی کوڕێتی ژیانی پیاوێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) سەردەمی کوڕێتی ژیانی پیاوێک"),
                           Row(
                             children: [
                               const Expanded(

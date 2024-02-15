@@ -194,8 +194,8 @@ class EnglishEntrychalk extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گڵەسپی، گەچی نووسین، تەباشیر، درووشم، نیشانە، درف
-
-١. (ناو) گەچ"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) گەچ"),
                           Row(
                             children: [
                               const Expanded(

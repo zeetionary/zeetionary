@@ -146,8 +146,8 @@ class EnglishEntrybucket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەتڵ، مەڕدۆش، مانگادۆش، دۆڵ، دۆلکە، دۆڵکە، دۆڵچە، ئاڤدانک، پەقرەچ
-
-١. (ناو) سەتڵ"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) سەتڵ"),
                           Row(
                             children: [
                               const Expanded(

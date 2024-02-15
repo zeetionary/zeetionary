@@ -161,8 +161,9 @@ class EnglishEntryaudacity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەترسی، ئازایەتی، بێ‌باکی، چاونەترسی، مەترسی‌کاری، ، ڕووشەیی، ڕووداری، ڕووھەڵمالراوی، بێ‌شەرمی
-
-١. (ناو) بوێری و جەربەزەیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بوێری و جەربەزەیی" ""),
                           Row(
                             children: [
                               const Expanded(

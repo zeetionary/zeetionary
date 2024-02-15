@@ -148,8 +148,8 @@ class EnglishEntryblowout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەقینی پێچکە یان تایە، کون‌بوونێ تایە، پەنچەری، سووتان یان دەرپەڕینی فیوز، فیشقە، ھەڵچوون، کوفارە (چاڵە نەوت یان گاز)، میوانی‌یەکی گەورە یان بۆنەیەکی کۆمەڵایەتی، سەرکەوتنی ئاسان
-
-١. (ناو) تەقینی تایە"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) تەقینی تایە"),
                           Row(
                             children: [
                               const Expanded(

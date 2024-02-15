@@ -113,8 +113,11 @@ class EnglishEntryamateurish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تازەکارانە، ناشارەزایانە، خراپ، شپرزە
-
-١. (ھاوەڵناو) شتێک کە لە کردنیدا ئەزموون و شارەزایی نەبووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە لە کردنیدا ئەزموون و شارەزایی نەبووە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

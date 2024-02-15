@@ -195,8 +195,10 @@ class EnglishEntrycharacterize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناساندن، پێناسە کردن، دیاری کردن، تاریف کردن، وێناکردن، پیشاندان
-
-١. (کردار) بوون بەو شتەی کە لە شتێک، کەسێک، یان شوینک پێشبینی دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بوون بەو شتەی کە لە شتێک، کەسێک، یان شوینک پێشبینی دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

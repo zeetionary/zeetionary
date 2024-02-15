@@ -148,8 +148,9 @@ class EnglishEntrybewilder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مات و وڕ کردن، ون کردن، بزر کردن
-
-١. (کردار) سەرلێشێواندن لە کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) سەرلێشێواندن لە کەسێک"),
                           Row(
                             children: [
                               const Expanded(

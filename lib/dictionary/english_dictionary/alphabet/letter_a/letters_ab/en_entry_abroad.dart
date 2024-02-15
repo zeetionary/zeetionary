@@ -112,8 +112,10 @@ class EnglishEntryabroad extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەندەران، دەرەوە، لە دەرەوەی وڵات، بەربڵاوانە، ھەموو جێیێ، گشت شوێنێ
-
-١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

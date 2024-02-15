@@ -149,8 +149,10 @@ class EnglishEntrybored extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماندوو، شەکەت، بێ‌تاقەت، بێزار، عاجز، وەڕەس، جاڕز
-
-١. (ھاوەڵناو) ھەستکردن بە ماندووی و نەمانی پشوودرێژیبەھۆی ئەوەی حەزت بۆ شتێک یان کەسێک نەماوە یان بەھۆی ئەوەی ھیچ نییە بیکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەستکردن بە ماندووی و نەمانی پشوودرێژیبەھۆی ئەوەی حەزت بۆ شتێک یان کەسێک نەماوە یان بەھۆی ئەوەی ھیچ نییە بیکەیت"),
                           Row(
                             children: [
                               const Expanded(

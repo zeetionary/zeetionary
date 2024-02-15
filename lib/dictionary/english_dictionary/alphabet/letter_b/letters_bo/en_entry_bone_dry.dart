@@ -145,8 +145,9 @@ class EnglishEntrybonedry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وشکی وشک، وشک‌وبرینگ، بەتەواوەتی وشک
-
-١. (ھاوەڵناو) تەواو وشک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تەواو وشک"),
                           Row(
                             children: [
                               const Expanded(

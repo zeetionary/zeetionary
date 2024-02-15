@@ -194,8 +194,10 @@ class EnglishEntrycavalcade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پۆلەسوار، تیپی سوارەکان، دەستەسوار، ڕیزی سوارەکان، سوارە
-
-١. (ناو) ڕیزێک لە خەڵک کە لەسەر ئەسپن یان لە ئۆتۆمبێلن و بەشێکی مەراسیمێکن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕیزێک لە خەڵک کە لەسەر ئەسپن یان لە ئۆتۆمبێلن و بەشێکی مەراسیمێکن"),
                           Row(
                             children: [
                               const Expanded(

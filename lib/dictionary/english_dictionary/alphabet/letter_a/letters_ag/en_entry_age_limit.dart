@@ -109,8 +109,11 @@ class EnglishEntryagelimit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سنوورداری یان بەرتەنگی تەمەنی
-
-١. (ناو) کەمترین یان زۆرترین تەمەن کە کەسێک دەتوانێت شتێک بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەمترین یان زۆرترین تەمەن کە کەسێک دەتوانێت شتێک بکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

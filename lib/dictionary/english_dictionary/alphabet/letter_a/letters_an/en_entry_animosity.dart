@@ -153,8 +153,9 @@ class EnglishEntryanimosity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمنی، دوژمنایەتی، نەیاری، ڕق‌وکینە، قینەبەرایەتی، ڕقەبەرایەتی
-
-١. (ناو) ڕق‌وکینە بەرامبەر کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕق‌وکینە بەرامبەر کەسێک" ""),
                           Row(
                             children: [
                               const Expanded(

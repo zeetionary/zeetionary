@@ -190,8 +190,9 @@ class EnglishEntrybusstop extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وێسگەی پاس، وێستگەی پاس، ئێسگەی پاس، وێزگەی پاس
-
-١. (ھاوەڵناو) پێنناسە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(

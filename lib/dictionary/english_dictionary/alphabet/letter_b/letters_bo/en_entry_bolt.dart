@@ -226,8 +226,9 @@ class EnglishEntrybolt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قفڵ، قوفڵ، کلۆم، (بەرە)زمانەی قفڵ، چەفت، پێچ، کێلۆن، بورغی، بورغوو، چەخماخە، ھەورەتریشقە، دەرچوون، ڕەڤیان، ھەڵاتن، (کەوان) تیر، تاقە، تۆپ، ڕاست، قیت، شەق، ڕەپ
-
-١. (ناو) کێلۆنە دەرگا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کێلۆنە دەرگا"),
                           Row(
                             children: [
                               const Expanded(

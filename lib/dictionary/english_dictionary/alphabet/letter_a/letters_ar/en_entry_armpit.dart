@@ -158,8 +158,10 @@ class EnglishEntryarmpit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بن‌ھەنگڵ، بەرەنگڵ، بن‌باڵ، بن‌پیل، بن‌باخڵ، کڵێشە، خەرک
-
-١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

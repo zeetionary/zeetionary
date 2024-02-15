@@ -194,8 +194,10 @@ class EnglishEntrycatapult extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دارلاسیق، قۆچەقانی، کەفکانی، بەرەقانی، قاڵماسک، چەکچەکی، کەھنیک، قۆزک، مەنجەنیک، ھێلکال، ھێلکان، بەردھاوێژ، دەزگای خستن، ھەڵدەرە
-
-١. (ناو) دارێک کە لە شێوەی پیتی Y دایە و بەکاردێت بۆ بەرد ھاویشتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دارێک کە لە شێوەی پیتی Y دایە و بەکاردێت بۆ بەرد ھاویشتن"),
                           Row(
                             children: [
                               const Expanded(

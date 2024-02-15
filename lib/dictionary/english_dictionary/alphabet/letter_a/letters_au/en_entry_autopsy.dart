@@ -153,8 +153,9 @@ class EnglishEntryautopsy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەکاڵاکردنەوە، توێکاری مردوو، لەش‌دانەوە (جەستە و ھۆی زانینی مردن)
-
-١. (ناو) توێکاری لەشی مردوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) توێکاری لەشی مردوو" ""),
                           Row(
                             children: [
                               const Expanded(

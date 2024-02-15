@@ -126,8 +126,9 @@ class EnglishEntryace extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (پەڕێن) تەک، تەکخاڵ، تاک، تاق، ئاس، یەکجارباش، بێ‌وێنە، بێ‌ھاوتا، عال، تۆزێ، نەختێ، نیسکێ
-
-١. (کردار) سەرکەوتووبوون لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) سەرکەوتووبوون لە شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

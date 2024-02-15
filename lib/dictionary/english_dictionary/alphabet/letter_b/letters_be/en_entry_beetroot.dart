@@ -147,8 +147,10 @@ class EnglishEntrybeetroot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەوەندەر، چۆندەر، سەلکەچەوەندەر، سەلکەبزووت
-
-١. (ناو) ڕووەکێکە کە ڕەگێکی سووری تۆخی ھەیە کە دەکوڵێنرێت و وەک سەوزە دەخورێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕووەکێکە کە ڕەگێکی سووری تۆخی ھەیە کە دەکوڵێنرێت و وەک سەوزە دەخورێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrycarnage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆکوژی، کوشت‌وکشتار، کوشت‌وبڕ، کوشتن‌کاری
-
-١. (ناو) کوشتنی دڕندانەی ژمارەیەکی زۆر لە خەڵک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کوشتنی دڕندانەی ژمارەیەکی زۆر لە خەڵک"),
                           Row(
                             children: [
                               const Expanded(

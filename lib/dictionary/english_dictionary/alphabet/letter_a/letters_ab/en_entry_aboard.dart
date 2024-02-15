@@ -103,8 +103,11 @@ class EnglishEntryaboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە، لەنێو، لەژوور، سوار (ی)، لەسەر، لەبان (کەشتی، فڕۆکە، شەمەندەفەر و ھتد)
-
-١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

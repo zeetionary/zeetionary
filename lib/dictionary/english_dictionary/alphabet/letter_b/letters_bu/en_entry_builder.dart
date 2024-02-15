@@ -142,8 +142,10 @@ class EnglishEntrybuilder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆنتراکت‌کار، بڕکار، سازەر، سازێنەر، دروسکەر، پێکھێنەر، بنیاتنەر، (لە لێکدان‌دا) ـ ساز یان دروسکەر، ـچی
-
-١. (ناو) کەسێک یان کۆمپانیایەک کە کاری درووستنکردن یان چاککردنەوەی خانوو و بینا دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک یان کۆمپانیایەک کە کاری درووستنکردن یان چاککردنەوەی خانوو و بینا دەکات"),
                           Row(
                             children: [
                               const Expanded(

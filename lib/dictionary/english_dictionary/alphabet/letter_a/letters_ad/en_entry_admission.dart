@@ -128,8 +128,9 @@ class EnglishEntryadmission extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەسند، قەبووڵ، وەرگرتن، وەرگیران، چوونەنێو(ەوە)، چوونەژوورێ، ماف یان دەستووری چوونەژوورەوە، ژوورانە، دەرکانە، پارەی چوونەژوورەوە، درگانە، دان‌پیانان، چوونەژێر، پێ‌ناسین، پێ‌لێنان، ڕاستی وتن، سەلماندن
-
-١. (ناو) وەرگرتنی کەسێک لە شوێنێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) وەرگرتنی کەسێک لە شوێنێک" ""),
                           Row(
                             children: [
                               const Expanded(

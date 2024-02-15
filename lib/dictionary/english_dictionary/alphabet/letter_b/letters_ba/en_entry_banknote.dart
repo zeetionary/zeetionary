@@ -153,8 +153,9 @@ class EnglishEntrybanknote extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پارە، پارەی درشت، پارەی کاغەز
-
-١. (ھاوەڵناو) یەک پارچە پارەی کاغەز"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) یەک پارچە پارەی کاغەز"),
                           Row(
                             children: [
                               const Expanded(

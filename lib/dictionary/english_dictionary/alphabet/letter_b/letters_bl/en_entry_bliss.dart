@@ -146,8 +146,9 @@ class EnglishEntrybliss extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەختەوەری، بەختیاری، خۆشی، شاگەشکەیی، شادی، دڵشادی
-
-١. (ناو) خۆشبەختیی تەواو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خۆشبەختیی تەواو"),
                           Row(
                             children: [
                               const Expanded(

@@ -146,8 +146,10 @@ class EnglishEntrybluntness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قسەلەڕوویی، بێ‌پەردەیی، کولی، پەخی، نەبڕی، سوویی
-
-١. (ناو) شێوازی قسەکردنێک کە چی لە دڵت بووێ دەیڵێیت بەبێ ھەوڵدان بۆ ئەوەی بەڕێز بیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شێوازی قسەکردنێک کە چی لە دڵت بووێ دەیڵێیت بەبێ ھەوڵدان بۆ ئەوەی بەڕێز بیت"),
                           Row(
                             children: [
                               const Expanded(

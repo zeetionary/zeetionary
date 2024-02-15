@@ -282,8 +282,9 @@ class EnglishEntrybosom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەمک، سینگ، بەر، بەرۆک، باوەش، ئامێز، باخەڵ، خەرک، دڵ، جەرگە، نێوەڕاست، نزیک، گەرم‌وگوڕ، دۆستانە
-
-١. (ناو) سنگ یان مەمکی ژن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) سنگ یان مەمکی ژن"),
                           Row(
                             children: [
                               const Expanded(

@@ -144,8 +144,10 @@ class EnglishEntrybribe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرتیل، خاوە، ھبوودی
-
-١. (ناو) بڕە پارەیەک کە دەیدەیت بە کەسێک بۆ ئەوەی شتێکبۆ بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بڕە پارەیەک کە دەیدەیت بە کەسێک بۆ ئەوەی شتێکبۆ بکات"),
                           Row(
                             children: [
                               const Expanded(

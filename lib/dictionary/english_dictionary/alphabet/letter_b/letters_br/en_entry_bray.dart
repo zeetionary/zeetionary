@@ -145,8 +145,9 @@ class EnglishEntrybray extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەڕە، زەڕەزەڕ، سەڕە، سەڕەسەڕ، وڕڕە، وڕە وڕ، زەڕاندن
-
-١. (ناو) سەڕەی گوێدرێژ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) سەڕەی گوێدرێژ"),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,9 @@ class EnglishEntrycarcass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لاشە، لاک، کەلاک، جەندەک، کەلەخ، کەلەش، تاڤێر، (مریشک) ئێسک‌وپروسک، لاشە، چوارچێوە، بەدەنە، پەیکەر، بەرماوە، پاشماوە
-
-١. (ناو) لاشەی ئاژەڵێکی مردوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) لاشەی ئاژەڵێکی مردوو"),
                           Row(
                             children: [
                               const Expanded(

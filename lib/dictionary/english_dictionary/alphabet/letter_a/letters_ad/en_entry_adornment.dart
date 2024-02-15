@@ -110,8 +110,9 @@ class EnglishEntryadornment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوان‌کردن، خەمڵاندن، ڕازاندنەوە، نەخشاندن، ئاڕایشت، خەمڵ، خشڵ، زەنبەر، شتی ڕازاندنەوە، سەروپۆتلاک
-
-١. (ناو) خشڵ و ئارایشتە جوانکاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خشڵ و ئارایشتە جوانکاری" ""),
                           Row(
                             children: [
                               const Expanded(

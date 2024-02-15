@@ -103,8 +103,9 @@ class EnglishEntryabsurd extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناژیرانە، بێ‌ئەقڵانە، پڕوپووچ، بێجێ، نالۆژیکی، گاڵتەجاڕ، پێکەنیناوی، بێ‌واتا، بێ‌مانا، نەشیاو، ھیچ‌وپووچ، گەوجانە، پووچەکە، 
-
-١. (ھاوەڵناو) شتێکی گاڵتەجاڕانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێکی گاڵتەجاڕانە" ""),
                           Row(
                             children: [
                               const Expanded(

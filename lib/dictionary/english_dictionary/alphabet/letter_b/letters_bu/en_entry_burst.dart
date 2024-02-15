@@ -199,8 +199,8 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەقینەوە، تەق، لێک‌بوونەوە، پەقین، دەربوون، ترەکین، درگاکردن، بڵاوبوونەوە، تەنینەوە، تەشەنە، ھەڵچوون، فیشقەکردن، گوڕبوون، لە پڕمەدان (گریان یان پێکەنین)، گوللەخستن، تەقاندن، پێوەنان، دەسپێک یان دەرکەوتنی ناکاو، جووڵانی توند و کت‌وپڕ، گڕ، سۆڵە، ڕەھێڵە، ڕێژنە
-
-١. (کردار) تەقین"""),
+"""),
+                          const DefinitionKurdish(text: "١. (کردار) تەقین"),
                           Row(
                             children: [
                               const Expanded(

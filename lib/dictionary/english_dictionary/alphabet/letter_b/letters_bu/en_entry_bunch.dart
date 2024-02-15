@@ -195,8 +195,10 @@ class EnglishEntrybunch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەسک، دەستک، چەپک، گورزە، ھووێزی، تاخە، لاگوێل، گولکم، دەستە، کۆمەڵ، جەماعەت، کۆمەڵە، کۆما، کۆگا، ھێشوو، بۆڵ
-
-١. (ناو) ژمارەیەک شتی ھەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژمارەیەک شتی ھەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"),
                           Row(
                             children: [
                               const Expanded(

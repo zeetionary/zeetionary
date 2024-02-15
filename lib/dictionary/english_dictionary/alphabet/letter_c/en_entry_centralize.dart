@@ -192,8 +192,10 @@ class EnglishEntrycentralize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە ناوەند کۆ کردنەوە، لە ناوەند چڕکردن
-
-١. (کردار) پێدانی دەسەڵاتی وڵاتێک یان دامەزراوەیەک بە گرووپێک لە یەک شوێنەوە وەک ئەوەی دەسەڵات دابەشکراو بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پێدانی دەسەڵاتی وڵاتێک یان دامەزراوەیەک بە گرووپێک لە یەک شوێنەوە وەک ئەوەی دەسەڵات دابەشکراو بێت"),
                           Row(
                             children: [
                               const Expanded(

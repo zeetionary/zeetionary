@@ -130,8 +130,9 @@ class EnglishEntryalight extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داگیرساو، گڕگرتوو، ھەڵبوو، بریقەدار، درەوشاوە، ڕووناک، خۆشحاڵ، بەکەیف، شاد
-
-١. (ھاوەڵناو) ئاگرگرتوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ئاگرگرتوو" ""),
                           Row(
                             children: [
                               const Expanded(

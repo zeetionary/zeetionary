@@ -192,8 +192,10 @@ class EnglishEntrycarvingknife extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سیکارد، کارد یا کێردی گۆشت، گۆشت‌بڕ
-
-١. (ناو) چەقۆیەکی گەورەی تیژ کە بۆ بڕینی گۆشت بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چەقۆیەکی گەورەی تیژ کە بۆ بڕینی گۆشت بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntrybreadline extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕیزی خێروەرگران، ھەژاری، نەداری، دەستەنگی
-
-١. (ناو) کەمترین بڕی داھات کە ژیان پێی بەڕێوەدەچێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەمترین بڕی داھات کە ژیان پێی بەڕێوەدەچێت"),
                           Row(
                             children: [
                               const Expanded(

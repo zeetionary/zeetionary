@@ -110,8 +110,10 @@ class EnglishEntryadvertising extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بانگەشە، ئاگاداری، ئاگادارکردنەوە، پیشەسازی بانگەشە یان ڕاگەیاندن، پیشەگەری بانگەشە، پیشەی پلان‌دانان و داڕشتن و نووسینی بانگەشەکان
-
-١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن" ""),
                           Row(
                             children: [
                               const Expanded(

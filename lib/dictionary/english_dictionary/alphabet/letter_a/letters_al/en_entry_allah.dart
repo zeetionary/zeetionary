@@ -110,8 +110,9 @@ class EnglishEntryallah extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەڵڵا، اللە، خودا، تەنیا خودای لای مسوڵمانەکان
-
-١. (ناو) ناوی خودا لای مسوڵمانان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ناوی خودا لای مسوڵمانان" ""),
                           Row(
                             children: [
                               const Expanded(

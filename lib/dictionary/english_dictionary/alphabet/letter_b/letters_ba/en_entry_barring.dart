@@ -148,8 +148,10 @@ class EnglishEntrybarring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەگەر ئەوەی کە، بێجگەلە، جگە
-
-١. (ھاوەڵناو) بەکاردێت بۆ وتنی ئەوەی شتێک ڕوودەدات مەگەر ئەوەی شتێکی ڕووبدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بەکاردێت بۆ وتنی ئەوەی شتێک ڕوودەدات مەگەر ئەوەی شتێکی ڕووبدات"),
                           Row(
                             children: [
                               const Expanded(

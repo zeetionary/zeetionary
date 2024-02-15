@@ -143,8 +143,10 @@ class EnglishEntrybroom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گ(ـە)سک (دەسک‌درێژ)، جاڕوو
-
-١. (ناو) گەسک کە بە دەسکێکەوەیە و بۆ پاککردنەوە بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گەسک کە بە دەسکێکەوەیە و بۆ پاککردنەوە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

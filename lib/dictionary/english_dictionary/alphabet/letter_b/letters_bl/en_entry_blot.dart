@@ -148,8 +148,10 @@ class EnglishEntryblot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لکە، لەکە، پەڵە، نەنگ، پینە، نێوزڕاوی، پەڵە جەوھەر، کەم‌وکوڕی، عەیب، خەوش، گەرد، (زیندەکیمیا) لەکە، پەڵە
-
-١. (کردار) وشککردنەوەی شوێنێکی تەڕ، نووسین بە بۆیە، یان سووراو، بە دانانی شتێکی نەرم لەسەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) وشککردنەوەی شوێنێکی تەڕ، نووسین بە بۆیە، یان سووراو، بە دانانی شتێکی نەرم لەسەری"),
                           Row(
                             children: [
                               const Expanded(

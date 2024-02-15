@@ -144,8 +144,9 @@ class EnglishEntrybrandnew extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەوی نەو، ھەرەتازە، لاک‌ومۆر، نوون‌تیانەبوو، بێ‌نوون
-
-١. (ھاوەڵناو) تەواو تازە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) تەواو تازە"),
                           Row(
                             children: [
                               const Expanded(

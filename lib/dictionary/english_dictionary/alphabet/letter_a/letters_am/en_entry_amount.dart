@@ -157,8 +157,9 @@ class EnglishEntryamount extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرجەم، کۆ، تێکڕا، بڕ، ھێند، ھەند، ئەندازە
-
-١. (ناو) ڕێژە یان بڕ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕێژە یان بڕ" ""),
                           Row(
                             children: [
                               const Expanded(

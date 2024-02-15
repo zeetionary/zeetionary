@@ -153,8 +153,11 @@ class EnglishEntryavocado extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاڤۆکادۆ، میوەی ئاڤۆکادۆ (ھەرمێ‌ئاسا)، ڕەنگی سەوزی گەش (بە ڕەنگی توێکڵی ئەڤۆکادۆ)
-
-١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

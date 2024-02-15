@@ -192,8 +192,10 @@ class EnglishEntrycapable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتوانا، توانا، توانادار، خورت، لێھاتوو، ژێھاتی، لێوەشاو، بەکارھاتوو، بەرژەوەند، شیاو، بەشیان
-
-١. (ھاوەڵناو) بوونی توانای پێویست بۆ کردنی کارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) بوونی توانای پێویست بۆ کردنی کارێک"),
                           Row(
                             children: [
                               const Expanded(

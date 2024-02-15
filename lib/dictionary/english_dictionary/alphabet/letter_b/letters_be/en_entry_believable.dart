@@ -147,8 +147,9 @@ class EnglishEntrybelievable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەسندکراو، جێی‌باوەڕ، باوەڕپێکراو، باوەڕمەند، لێ‌ڕابینراو، جێی متمانە
-
-١. (ھاوەڵناو) شتێک کە جێگەی باوەڕە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) شتێک کە جێگەی باوەڕە"),
                           Row(
                             children: [
                               const Expanded(

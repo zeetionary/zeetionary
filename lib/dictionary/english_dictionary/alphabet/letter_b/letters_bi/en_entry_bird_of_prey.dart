@@ -148,8 +148,10 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باڵندەی ڕاو یان ڕاوی (بەتایبەت ھەڵۆ، باز و کوندە)
-
-١. (ھاوەڵناو) باڵندەیەک کە گیانلەبەری تر دەکوژێت و دەیخوات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) باڵندەیەک کە گیانلەبەری تر دەکوژێت و دەیخوات"),
                           Row(
                             children: [
                               const Expanded(

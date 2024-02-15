@@ -142,8 +142,10 @@ class EnglishEntrybreezy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سریوەزۆر، کزەبایێکی لێوەدێ، پڕکزە، پڕکزەبا، فێنک، باگر، بەگوڕ، خۆشحاڵ، ئێسک‌سووک
-
-١. (ھاوەڵناو) کەشێک کە ھەوایەکی بەھێز بەڵام خۆشی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کەشێک کە ھەوایەکی بەھێز بەڵام خۆشی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

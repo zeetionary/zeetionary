@@ -153,8 +153,11 @@ class EnglishEntryanniversary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ساڵ‌گەڕانەوە، ساڵ‌وەگەر، ساڵیاد، ساڵەوەختینە، ساڵگەڕ، ساڵ‌ڕۆژ
-
-١. (ھاوەڵناو) ساڵیاد؛ بەروارێک کە تێیدا ڕێژەیەکی دیاریکراو ساڵی تەواو بەسەر ڕووداوێک تێ‌پەڕیوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ساڵیاد؛ بەروارێک کە تێیدا ڕێژەیەکی دیاریکراو ساڵی تەواو بەسەر ڕووداوێک تێ‌پەڕیوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

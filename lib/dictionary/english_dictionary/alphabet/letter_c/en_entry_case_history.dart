@@ -192,8 +192,9 @@ class EnglishEntrycasehistory extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەربردە، ژیان‌نامە
-
-١. (ناو) ڕابردووی کەسێک یان نەخۆشێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ڕابردووی کەسێک یان نەخۆشێک"),
                           Row(
                             children: [
                               const Expanded(

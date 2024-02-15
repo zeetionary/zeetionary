@@ -112,8 +112,10 @@ class EnglishEntryalign extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوڕێکی، ھاوھێڵی، ھاوتەختی، لاڕێککردن، لاگرتن (ڕێکخستنی دەق، وێنە، ھتد، بۆ لای ڕاست، ناوەڕاست یان چەپ.)
-
-١. (کردار) ھاوتەریب یان ھاوئاراستەکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) ھاوتەریب یان ھاوئاراستەکردن" ""),
                           Row(
                             children: [
                               const Expanded(

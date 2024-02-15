@@ -154,8 +154,10 @@ class EnglishEntrybackbiting extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: غەیبەت، قسەی پاشملە، زەم، غەیبەت کردن
-
-١. (ناو) قسەی خراپ لەسەر کەسێک کە ئامادە نییە لەو شوێنە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) قسەی خراپ لەسەر کەسێک کە ئامادە نییە لەو شوێنە"),
                           Row(
                             children: [
                               const Expanded(

@@ -147,8 +147,10 @@ class EnglishEntrybib extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرسینگ (مناڵ)، بەرلیکە، بەروانکە
-
-١. (ناو) پارچەیەک کە لە ملی منداڵ دەبەسترێت لەکاتی خواردن بۆ ئەوەی جلەکانی پیس نەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچەیەک کە لە ملی منداڵ دەبەسترێت لەکاتی خواردن بۆ ئەوەی جلەکانی پیس نەکات"),
                           Row(
                             children: [
                               const Expanded(

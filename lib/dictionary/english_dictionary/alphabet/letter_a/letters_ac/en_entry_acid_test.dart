@@ -109,8 +109,11 @@ class EnglishEntryacidtest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێوەر یان پێوانەی دیاری‌کەر، بەردی مەحەک، تاقی‌کردنەوەی سەخت
-
-١. (ناو) ڕێگای دیاریکردنی ئەوەی کەسێک/شتێک سەرکەوتووە یان نا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕێگای دیاریکردنی ئەوەی کەسێک/شتێک سەرکەوتووە یان نا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

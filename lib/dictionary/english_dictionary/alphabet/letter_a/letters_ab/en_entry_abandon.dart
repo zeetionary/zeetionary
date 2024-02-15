@@ -123,8 +123,9 @@ class EnglishEntryabandon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێھێنان، وەلانان
-
-١. (کردار) جێھێشتنی کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) جێھێشتنی کەسێک/شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

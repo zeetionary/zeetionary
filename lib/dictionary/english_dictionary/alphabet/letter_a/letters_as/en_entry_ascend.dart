@@ -163,8 +163,9 @@ class EnglishEntryascend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چوونە سەر، بڵێند بوون، بەرز کردن
-
-١. (کردار) بەرزبوونەوە و سەرکەوتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) بەرزبوونەوە و سەرکەوتن" ""),
                           Row(
                             children: [
                               const Expanded(

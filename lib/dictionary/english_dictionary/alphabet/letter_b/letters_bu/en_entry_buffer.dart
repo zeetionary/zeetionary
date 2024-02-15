@@ -146,8 +146,9 @@ class EnglishEntrybuffer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەربەگێڕەوە، زەبرگر، کوت‌بەند، کوت‌گیر، لێدانگر، پارێزە، زەربەخۆر، جیاکەرەوە، ناوبڕە، نێوان‌گر، پارێزەک، بافێر، کوت‌بەند، کوت‌گیر
-
-١. (ناو) شتێک کە وەک پارێزەر کاردەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شتێک کە وەک پارێزەر کاردەکات"),
                           Row(
                             children: [
                               const Expanded(

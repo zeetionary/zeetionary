@@ -143,8 +143,10 @@ class EnglishEntrybulletin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاگاداری، ھایداری، ھەواڵ‌نامە، پەیام‌نامە، نامیلکەی پەیامەکان، بەلاڤۆک، ڕاپۆرتەھەواڵ
-
-١. (ناو) کورتە ھەواڵ لەسەر ڕادیۆ یان تەلەفیزیۆن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کورتە ھەواڵ لەسەر ڕادیۆ یان تەلەفیزیۆن"),
                           Row(
                             children: [
                               const Expanded(

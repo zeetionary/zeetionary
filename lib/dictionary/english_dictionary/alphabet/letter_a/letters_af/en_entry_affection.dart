@@ -110,8 +110,9 @@ class EnglishEntryaffection extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆشەویستی، دڵ‌تێچوون، دڵ‌پێدان، دڵ‌بەستەیی، ئەڤینداری، میر، حەز، ویست، مەیل، ئارەزوو، ھۆگری، سۆز، سۆزداری، نەخۆشی، تووش‌بوون، (پیا)پیاکران، گرتن، دوچار بوون، پێوەبوون، کارتێ‌کردن، کارلێ‌کردن، کارتێ‌کران
-
-١. (ناو) سۆز و خۆشەویستی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) سۆز و خۆشەویستی" ""),
                           Row(
                             children: [
                               const Expanded(

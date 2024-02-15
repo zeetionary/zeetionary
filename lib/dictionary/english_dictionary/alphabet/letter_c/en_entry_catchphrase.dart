@@ -193,8 +193,10 @@ class EnglishEntrycatchphrase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وێردی سەرزمان، سەرزمانە
-
-١. (ھاوەڵناو) وشەیەک یان زاراوەیەک کە ئەکتەرێک، سیاسەتمەدارێک، یان کەسێکی تری گەرنگ بەکاریھێناوە و ناساندویەتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) وشەیەک یان زاراوەیەک کە ئەکتەرێک، سیاسەتمەدارێک، یان کەسێکی تری گەرنگ بەکاریھێناوە و ناساندویەتی"),
                           Row(
                             children: [
                               const Expanded(

@@ -194,8 +194,10 @@ class EnglishEntrychaff extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شۆخی، سۆس، سۆست، توێخ، چەڵتووک، پۆرگ (توێکڵی برنج)، سەرکۆزەر، کۆتەڵ، کۆزەرە، گیا، تفاق، ئالیک، کا، پووش، پوار
-
-١. (ناو) توێکڵی دانەوێڵە، بۆ نموونە گەنم، کە لێ‌دەکرێتەوە پێش خواردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) توێکڵی دانەوێڵە، بۆ نموونە گەنم، کە لێ‌دەکرێتەوە پێش خواردن"),
                           Row(
                             children: [
                               const Expanded(

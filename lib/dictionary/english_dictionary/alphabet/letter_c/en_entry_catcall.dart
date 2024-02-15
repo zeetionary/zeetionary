@@ -192,8 +192,10 @@ class EnglishEntrycatcall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فیکە، قیژە، ھووھا، ھۆ 
-
-١. (ناو) ھاوارکردن کە لە کەسێک دەکرێت کە لە شوێنێکی گشتیدا نمایش یان قسە دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھاوارکردن کە لە کەسێک دەکرێت کە لە شوێنێکی گشتیدا نمایش یان قسە دەکات"),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrycellular extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خانەیی، سەربە ژوورە، سەربە خانە یان سلول، کون‌کون، کونیلەدار، دیودیو، ژوورژوور، خانەخانە
-
-١. (ھاوەڵناو) پەیوەندیدار یان پێکھاتوو لە خانەی ڕووەک و ئاژەڵەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار یان پێکھاتوو لە خانەی ڕووەک و ئاژەڵەکان"),
                           Row(
                             children: [
                               const Expanded(

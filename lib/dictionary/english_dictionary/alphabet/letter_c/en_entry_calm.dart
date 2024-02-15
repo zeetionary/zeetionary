@@ -305,8 +305,9 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێمن، سرەوتوو، ئارام، ھێدی، ھێور، ئەھۆن، ھۆن، سرەوت، شێنەیی، سەیوەت، ھێمنی، ئارامی، ئۆخژن 
-
-١. (ھاوەڵناو) ئارام و لەسەرخۆ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ئارام و لەسەرخۆ"),
                           Row(
                             children: [
                               const Expanded(

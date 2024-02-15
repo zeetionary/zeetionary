@@ -340,8 +340,8 @@ class EnglishEntryborder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەخ، لێوار، قەراخ، زێوار، کەنار، کەنارە، شیرازە، تیلماسک، تێرنج، پەراوێز، زێ، دەور، دەورە، سنوور، تخوب، سەرحەد، باوەڕ، کەوشەن، مەرز، تاڵخ
-
-١. (ناو) سنوور"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) سنوور"),
                           Row(
                             children: [
                               const Expanded(

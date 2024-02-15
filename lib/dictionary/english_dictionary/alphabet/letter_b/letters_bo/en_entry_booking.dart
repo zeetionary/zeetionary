@@ -148,8 +148,10 @@ class EnglishEntrybooking extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێ‌ڕاگرتن، جێ‌گرتنەوە، پێش‌ترگرتنەوە
-
-١. (ھاوەڵناو) ئامادەکارییەک کە پێشوەختە دەیکەیت بۆ گەشتکردن، چوون بۆ سینەما، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ئامادەکارییەک کە پێشوەختە دەیکەیت بۆ گەشتکردن، چوون بۆ سینەما، ھتد"),
                           Row(
                             children: [
                               const Expanded(

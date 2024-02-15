@@ -143,8 +143,9 @@ class EnglishEntrybudge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بزاوتن، جووڵان، تەکان دان
-
-١. (کردار) جوڵان بە کەمی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) جوڵان بە کەمی"),
                           Row(
                             children: [
                               const Expanded(

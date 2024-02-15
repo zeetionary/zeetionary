@@ -164,8 +164,9 @@ class EnglishEntryacross extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێدا، پیا، لەم‌بەر بۆ ئەوبەر، لە لایەکەوە، لەم سەر بۆ ئەوسەر، بۆ لایەکی تر، لە لایەکەوە بۆ لایەکی تر، ئەوبەر، لەسەر، لەژوور، لەبانی، بەنێو، لەنێوان، یەکتربڕ،  بەرەوڕووی، بەرامبەری، ھەمبەری، سەرانسەر، سەرتاسەر
-
-١. (ئامراز) لەلایەک بۆ لەیەکی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ئامراز) لەلایەک بۆ لەیەکی تر" ""),
                           Row(
                             children: [
                               const Expanded(

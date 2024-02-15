@@ -141,8 +141,10 @@ class EnglishEntrybroth extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سوپی تراو، ئاووگۆشت، شۆرباوگۆشت، گۆشتاو، مەرگە (شۆربای مریشک)
-
-١. (ناو) شۆربایەک کە درووستکراوە بەوەی گۆشت، ماسی، یان سەوزەی تێکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شۆربایەک کە درووستکراوە بەوەی گۆشت، ماسی، یان سەوزەی تێکراوە"),
                           Row(
                             children: [
                               const Expanded(

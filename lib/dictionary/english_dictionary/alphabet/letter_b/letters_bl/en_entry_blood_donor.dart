@@ -145,8 +145,9 @@ class EnglishEntryblooddonor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خوێن‌دەر، خوێن‌بەخش، خوێن‌پێدەر
-
-١. (ناو) کەسێک کە خوێن دەبەخشێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە خوێن دەبەخشێت"),
                           Row(
                             children: [
                               const Expanded(

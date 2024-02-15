@@ -158,8 +158,11 @@ class EnglishEntryarchery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تیراوێژی، تیرخەری، کەوانەوانی
-
-١. (ھاوەڵناو) ھونەر یان وەرزشی ھاویشتنی تیر بە کەوان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھونەر یان وەرزشی ھاویشتنی تیر بە کەوان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

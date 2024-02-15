@@ -142,8 +142,9 @@ class EnglishEntrybroke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نابووت (بوو)، لات‌کەوتوو، مایەپووت، بەرشکست
-
-١. (ھاوەڵناو) بێ پارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بێ پارە"),
                           Row(
                             children: [
                               const Expanded(

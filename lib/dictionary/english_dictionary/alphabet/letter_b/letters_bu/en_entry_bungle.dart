@@ -189,8 +189,9 @@ class EnglishEntrybungle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گووکاری، فشەکاری، کارپیسی، تێڕیان، تڕەکەڵەک، کاری سەرسەرەکی، کاری فشە
-
-١. (کردار) کردنی شتێک بەخراپی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) کردنی شتێک بەخراپی"),
                           Row(
                             children: [
                               const Expanded(

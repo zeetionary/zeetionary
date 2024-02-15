@@ -147,8 +147,10 @@ class EnglishEntrybelongings extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەل‌وپەل، شت‌ومەک، دارونەدار، ھەیە و نییە، جڕوجیازی، ھەبوو و نەبوو، بوون و نەبوون، شتەکان، شت‌ومت، ئەنوا، دارایی، ماڵ‌وحاڵ
-
-١. (ناو) ئەو شتانەی کە ھەتن و دەکرێت بگوێزرێنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئەو شتانەی کە ھەتن و دەکرێت بگوێزرێنەوە"),
                           Row(
                             children: [
                               const Expanded(

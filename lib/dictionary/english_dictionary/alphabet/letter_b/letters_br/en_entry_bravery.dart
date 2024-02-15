@@ -143,8 +143,8 @@ class EnglishEntrybravery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەزاتی، چاوسووری، ئازایەتی، نەبەردی، نەبەردایەتی، مەردایەتی، شێرکرۆژی، بوێری
-
-١. (ناو) ئازایەتی"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) ئازایەتی"),
                           Row(
                             children: [
                               const Expanded(

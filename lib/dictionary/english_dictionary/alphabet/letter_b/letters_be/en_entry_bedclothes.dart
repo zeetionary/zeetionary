@@ -147,8 +147,10 @@ class EnglishEntrybedclothes extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نوێن، پێخەف، متێل
-
-١. (ناو) پێخەف و بەشەکانی تری جێگەی نووستن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پێخەف و بەشەکانی تری جێگەی نووستن"),
                           Row(
                             children: [
                               const Expanded(

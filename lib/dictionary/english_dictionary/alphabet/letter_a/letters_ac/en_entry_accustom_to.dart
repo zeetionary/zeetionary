@@ -111,8 +111,10 @@ class EnglishEntryaccustomto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاھاتن، گونجان، خووگرتن، ئالوودەبوون، ھۆگربوون، گیرۆدەبوون
-
-١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک" ""),
                           Row(
                             children: [
                               const Expanded(

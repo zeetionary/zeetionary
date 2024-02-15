@@ -147,8 +147,10 @@ class EnglishEntrybottomless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌بن، بێ‌پەی، قووڵ، کوور، لەڕادەبەدەر، بێ‌ئەندازە، بێ‌ڕادە
-
-١. (ھاوەڵناو) زۆر قووڵ وەک ئەوەی کۆتایی نەبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) زۆر قووڵ وەک ئەوەی کۆتایی نەبێت"),
                           Row(
                             children: [
                               const Expanded(

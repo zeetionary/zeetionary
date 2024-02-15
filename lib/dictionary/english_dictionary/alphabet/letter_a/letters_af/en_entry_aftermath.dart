@@ -112,8 +112,9 @@ class EnglishEntryaftermath extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەنجام، پێ‌ئاژۆ، ئاکام، قۆناخی دوای کارەساتێ یان ڕووداوی ناخۆش، (کشت‌وکاڵ) بەر یان چینی دووھەم
-
-١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ" ""),
                           Row(
                             children: [
                               const Expanded(

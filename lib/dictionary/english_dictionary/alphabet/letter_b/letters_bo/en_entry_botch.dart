@@ -146,8 +146,9 @@ class EnglishEntrybotch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەفشە سەریەک‌خستن، کاری تڕەکەڵەک یان سەرسەرەکی، کاری خراپ‌کراو، گەندەڵکاری، گووکاری، کەڵەک‌شەیتان، تێڕیان، گووتێکردن، خراپ‌کردن، کارپیسی
-
-١. (کردار) کردنی شتێک بە خراپی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) کردنی شتێک بە خراپی"),
                           Row(
                             children: [
                               const Expanded(

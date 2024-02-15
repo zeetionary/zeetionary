@@ -195,8 +195,8 @@ class EnglishEntrycensure extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەخنە (توند)، سەرکۆنە، کۆران، ڤەچفیان، بیراز، بەگژداھاتن، عەیب‌لێ‌دۆزینەوە، بەسەرداھاتن، سەرکۆنەی فەرمی
-
-١. (ناو) ڕەخنەی توند"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) ڕەخنەی توند"),
                           Row(
                             children: [
                               const Expanded(

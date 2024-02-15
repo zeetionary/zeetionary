@@ -146,8 +146,10 @@ class EnglishEntryblockage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیران، داخران، ڕێبەندان، ڕێبەستان، ڕێگیران، نەھێشتن، پێش‌گیری، بەرگیری، ھەڵوێستە
-
-١. (ناو) شتێک کە جوڵە دەوەستێنێت، بۆ نموونە جوڵەی شلە لە شوێنێکی تەسکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) شتێک کە جوڵە دەوەستێنێت، بۆ نموونە جوڵەی شلە لە شوێنێکی تەسکدا"),
                           Row(
                             children: [
                               const Expanded(

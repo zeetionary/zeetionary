@@ -152,8 +152,9 @@ class EnglishEntryamply extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەزیادەوە، بەدوورودرێژی، بە تێروتەسەلی، بەلێشاو
-
-١. (ناو) بەپێی پێویست یان زیاتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەپێی پێویست یان زیاتر" ""),
                           Row(
                             children: [
                               const Expanded(

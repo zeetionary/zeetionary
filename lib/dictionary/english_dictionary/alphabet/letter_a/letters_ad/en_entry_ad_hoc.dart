@@ -109,8 +109,11 @@ class EnglishEntryadhoc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پلان‌بۆدانەنراو، بێ‌بنچینە
-
-١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

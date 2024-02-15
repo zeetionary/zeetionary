@@ -111,8 +111,10 @@ class EnglishEntryairtight extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌کون، کیپ، ھەوابڕ، ھەوانەکێش، مووبڕ، بێ‌بابوێر، بێ‌عەیب، بێ‌ئەملاوئەولا، یەکلایی‌یەوەبوو، بێ‌چەندوچۆن
-
-١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

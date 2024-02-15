@@ -139,8 +139,11 @@ class EnglishEntryaccess extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەس‌پێ‌ڕاگەیشتن، دەسکەوتن، دەسباری، گەیشتن، ڕێگای گەیشتن، ڕێگای چوونەناو، ڕێگای ژوورەوە، دەروازە، ژوورگە، ڕێگا، مافی چوونەژوورێ، دەستوور، ڕێدان، زۆربوون، ھەڵدان، گەشەکردن
-
-١. (ناو) ھەل یان مافی بینینی کەسێک، یان بەکارھێنانی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ھەل یان مافی بینینی کەسێک، یان بەکارھێنانی شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

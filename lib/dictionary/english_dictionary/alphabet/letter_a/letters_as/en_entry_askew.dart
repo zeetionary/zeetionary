@@ -160,8 +160,10 @@ class EnglishEntryaskew extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خواروخێچ، بەدگونیا، لارەولار، بەلایەکەوە، لابەلا، لار، گەڕاو، خوار، خێسەخێس، مۆنەمۆن
-
-١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

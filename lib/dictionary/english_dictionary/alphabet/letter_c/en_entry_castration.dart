@@ -192,8 +192,10 @@ class EnglishEntrycastration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خەساندن، ئێختەکردن، یەختەکردن، خواجەکردن، باتوودەرکێشی
-
-١. (ناو) کرداری لادانی گونی نێرینەی ئاژەڵێک یان مرۆڤێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کرداری لادانی گونی نێرینەی ئاژەڵێک یان مرۆڤێک"),
                           Row(
                             children: [
                               const Expanded(

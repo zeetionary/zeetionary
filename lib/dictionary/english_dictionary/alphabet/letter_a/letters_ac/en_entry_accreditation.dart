@@ -95,8 +95,11 @@ class EnglishEntryaccreditation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باوەڕنامە، بڕوانامە، پەسندنامە
-
-١. (ناو) باوەڕنامەیەک کە دەدرێت بە ڕێکخراوێک وەک ئاماژە بەوەی کە جێگەی باوەڕن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) باوەڕنامەیەک کە دەدرێت بە ڕێکخراوێک وەک ئاماژە بەوەی کە جێگەی باوەڕن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

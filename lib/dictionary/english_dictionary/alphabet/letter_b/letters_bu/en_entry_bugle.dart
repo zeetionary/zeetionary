@@ -141,8 +141,10 @@ class EnglishEntrybugle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زوڕنا، شەیپوور، کەڕەنا
-
-١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا وایە و لە سوپادا بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا وایە و لە سوپادا بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -145,8 +145,10 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێکچوونی ھۆشی و بیری، شڵەژانی دەروونی، شێتی کورت‌ماوە و ناکاو، بیری نوێ، فکری تازە
-
-١. (کردار) بیرکردنەوەی کۆمەڵێک کەس پێکەوە لە یەک کاتدا بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بیرکردنەوەی کۆمەڵێک کەس پێکەوە لە یەک کاتدا بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"),
                           Row(
                             children: [
                               const Expanded(

@@ -152,8 +152,9 @@ class EnglishEntrybettor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گرێوکەر، گرێوکار، گرێوباز، گرێوچی
-
-١. (ناو) کەسێک کە گرەو دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە گرەو دەکات"),
                           Row(
                             children: [
                               const Expanded(

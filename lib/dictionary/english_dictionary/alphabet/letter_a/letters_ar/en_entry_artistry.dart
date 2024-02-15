@@ -160,8 +160,9 @@ class EnglishEntryartistry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھونەرمەندی، وەستایی، مامۆستایی، کارامەیی، شارەزایی، دەس‌ڕەنگینی، داھێنەری ھونەری، مرخ یان چێژی ھونەری
-
-١. (ناو) شارەزایی ھونەرمەندێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) شارەزایی ھونەرمەندێک" ""),
                           Row(
                             children: [
                               const Expanded(

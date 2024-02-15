@@ -143,8 +143,9 @@ class EnglishEntrybuckle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوزوونە، ئاغزۆنە، ئاوزوونگە، ئاوزێنە، پزیم، سێر، بەرەزمانە، بەلەزوانە، قولاپ، لاری، خواری، بادران، پێچ‌خواردن، چەمانەوە، داھاتنەوە، گەڕان 
-
-١. (کردار) بەستن بە ئاوزوونە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) بەستن بە ئاوزوونە"),
                           Row(
                             children: [
                               const Expanded(

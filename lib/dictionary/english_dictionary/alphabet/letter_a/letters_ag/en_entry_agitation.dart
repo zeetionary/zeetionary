@@ -110,8 +110,9 @@ class EnglishEntryagitation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیگەرانی، ناڕەحەتی، دڵەڕاوکێ، شڵەژان، ورووژان، ھەژان، پەشۆکاوی، پشێوی، ئاڵۆزی، شۆر، ئاژاوە، شاڵاو، ھەڵمەت، ڕاگەیاندن، ڕاتڵەکان، شڵەقاندن، شێواندن، لێکدان، تەکان‌دان
-
-١. (ناو) ناڕەحەتی و نیگەرانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ناڕەحەتی و نیگەرانی" ""),
                           Row(
                             children: [
                               const Expanded(

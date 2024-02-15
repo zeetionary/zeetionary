@@ -152,8 +152,9 @@ class EnglishEntryawhile extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماوەیەکی کەم، بڕێ، نەختێ، چەند چرکەیێ، تاوێ، سەرەتێ، کەمێ، تا ماوەیێ
-
-١. (ھاوەڵکار) بۆ ماوەیەکی کەم"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) بۆ ماوەیەکی کەم" ""),
                           Row(
                             children: [
                               const Expanded(

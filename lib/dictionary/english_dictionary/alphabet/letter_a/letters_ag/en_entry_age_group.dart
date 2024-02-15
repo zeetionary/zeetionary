@@ -109,8 +109,9 @@ class EnglishEntryagegroup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆمەڵ یان دەستەی تەمەنی یان ھاوتەمەن
-
-١. (ناو) کۆمەڵە کەسێکی ھاوتەمەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کۆمەڵە کەسێکی ھاوتەمەن" ""),
                           Row(
                             children: [
                               const Expanded(

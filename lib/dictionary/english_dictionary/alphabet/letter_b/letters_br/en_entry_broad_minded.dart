@@ -144,8 +144,10 @@ class EnglishEntrybroadminded extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێبوردە، ھەڵکردە، ڕۆشنبیر، ڕووناکبیر، بیرفراوان، بیرفرە، تێگەیشتوو
-
-١. (ھاوەڵناو) ئامادە بۆ گوێگرتن لە کەسانی تر و قبووڵکردنی ھەڵسوکەوت کە جیاوازە لە ھی خۆت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ئامادە بۆ گوێگرتن لە کەسانی تر و قبووڵکردنی ھەڵسوکەوت کە جیاوازە لە ھی خۆت"),
                           Row(
                             children: [
                               const Expanded(

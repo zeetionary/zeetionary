@@ -146,8 +146,10 @@ class EnglishEntrybookcase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێ‌کتێب، کتێب‌خانە، قەفەسە
-
-١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

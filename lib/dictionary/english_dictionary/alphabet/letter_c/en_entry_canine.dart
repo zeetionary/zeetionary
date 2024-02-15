@@ -191,8 +191,9 @@ class EnglishEntrycanine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەسەگ‌چوو، شێوەسەگ، سەگسار، سەگ‌تیرە، سەگی، سەربە سەگ، ددانی پێشەوە، کەڵپە، کەڵبە 
-
-١. (ھاوەڵناو) پەیوەندیدار بە سەگ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە سەگ"),
                           Row(
                             children: [
                               const Expanded(

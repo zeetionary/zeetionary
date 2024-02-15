@@ -456,8 +456,9 @@ class EnglishEntrychance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەخت، چارە، چانس، شانس، ڕێکەوت، ھەڵکەوت، شیمانە، ئەگەر، ھەل، بوار، پەردێژ، دەرفەت، ئەختان، دەلیڤە،	دووبەختەکی، دووبەختی، ڕیسک، بەختەکی، تووشی، ڕێکەوتی، ھەڵکەوتی، شانسی
-
-١. (ناو) ئەگەری ڕوودانی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ئەگەری ڕوودانی شتێک"),
                           Row(
                             children: [
                               const Expanded(

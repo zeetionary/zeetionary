@@ -197,8 +197,10 @@ class EnglishEntrychamber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەنجوومەن، دیوەخان، خەوتنگە، جێ‌خەو، دیو، ژوور، کەلێن، چاڵ، قوڵکە، بۆشایی، فیشەک‌خۆر 
-
-١. (ناو) دیوەخانێک لە بینایەکی گشتی کە بۆ کۆبوونەوەی گشتی بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دیوەخانێک لە بینایەکی گشتی کە بۆ کۆبوونەوەی گشتی بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

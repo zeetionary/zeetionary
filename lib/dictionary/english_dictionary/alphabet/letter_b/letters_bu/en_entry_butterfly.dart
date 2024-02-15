@@ -190,8 +190,10 @@ class EnglishEntrybutterfly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەپوولە (ی ڕۆژگەڕ، لەچاو پەپوولەی شەوگەڕ moth)، پەرینانگ، پەروانە، پەلپەلیسک، پەرپەرک، تەیرۆک، نمنمۆک، دڵەتەپە، دڵەکوتێ، دڵەڕاوکێ
-
-١. (ناو) پەپوولە؛ مێروویەکی فڕیو کە جەستەیەکی باریکی ھەیە لەگەڵ چوار باڵ کە زۆرجار ڕەنگاوڕەنگن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پەپوولە؛ مێروویەکی فڕیو کە جەستەیەکی باریکی ھەیە لەگەڵ چوار باڵ کە زۆرجار ڕەنگاوڕەنگن"),
                           Row(
                             children: [
                               const Expanded(

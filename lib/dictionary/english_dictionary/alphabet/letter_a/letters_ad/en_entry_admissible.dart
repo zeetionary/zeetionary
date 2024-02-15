@@ -109,8 +109,11 @@ class EnglishEntryadmissible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێی‌پەسند، وەرگیراو، پەسندکراو، پەسند، جێی‌باوەڕ، ڕەوا، ڕێ‌پێدراو، بەجێ، دادگاپەسند
-
-١. (ھاوەڵناو) شتێک کە پەسەند دەکرێت، زۆرجار لە دادگا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە پەسەند دەکرێت، زۆرجار لە دادگا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

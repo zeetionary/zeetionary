@@ -160,8 +160,11 @@ class EnglishEntryarchitectural extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەربە سازەوانی یان مێعماری، سەربە بیناسازی
-
-١. (ھاوەڵناو) پەیوەندیدار بە بینا و بیناسازی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە بینا و بیناسازی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

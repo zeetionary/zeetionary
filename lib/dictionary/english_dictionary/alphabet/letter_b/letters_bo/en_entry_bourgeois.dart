@@ -151,8 +151,9 @@ class EnglishEntrybourgeois extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بورژوا، دووکان‌دار، کاسب‌کار، بازاڕی، سەوداگەر، سەرمایەدار، باژێری، سەرمایەداری، بورژوایی، ئەندامی چینی نێوەڕاست، ژین‌فرەھـ، خۆش‌گوزەران
-
-١. (ناو) کەسێک کە لە چینی ناوەڕاستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) کەسێک کە لە چینی ناوەڕاستە"),
                           Row(
                             children: [
                               const Expanded(

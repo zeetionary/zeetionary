@@ -198,8 +198,9 @@ class EnglishEntrybusinessman extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاردار، بازرگان، تاجر، سەوداگەر، شارەزای کاروباری کارداری
-
-١. (ناو) بازرگان/ژنە بازرگان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بازرگان/ژنە بازرگان"),
                           Row(
                             children: [
                               const Expanded(

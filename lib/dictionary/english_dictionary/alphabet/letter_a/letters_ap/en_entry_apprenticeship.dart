@@ -159,8 +159,11 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شاگردی، فێرخوازی، تازەکاری، پیشەشاگردی، نۆفێری، بەروەستایی
-
-١. (ناو) ماوەیەک کە تێیدا کەسێک وەک شاگردێک کاردەکات بۆ فێربوونی پیشەیەک، زۆرجار بە پارەیەکی کەم"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ماوەیەک کە تێیدا کەسێک وەک شاگردێک کاردەکات بۆ فێربوونی پیشەیەک، زۆرجار بە پارەیەکی کەم"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

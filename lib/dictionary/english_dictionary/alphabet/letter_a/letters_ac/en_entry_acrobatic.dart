@@ -108,8 +108,11 @@ class EnglishEntryacrobatic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاکرۆباتیک، گورج، چالاک
-
-١. (ھاوەڵناو) لەخۆگرتنی کردنی نمایشی قوورس بە جەستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) لەخۆگرتنی کردنی نمایشی قوورس بە جەستە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

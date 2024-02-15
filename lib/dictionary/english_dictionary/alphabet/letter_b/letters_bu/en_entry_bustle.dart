@@ -191,8 +191,10 @@ class EnglishEntrybustle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژاوە، ھەراوھوریا، قاووقیژ، شلوقی، پەلەپچڕکێ، پەلەپڕووزە، پەلەپەل، جم‌وجۆڵ، زەمبەلەک یا تێلی داوێن 
-
-١. (کردار) پەلەپەلکردن و ھاتووچۆ بە ئاراستەیەکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) پەلەپەلکردن و ھاتووچۆ بە ئاراستەیەکدا"),
                           Row(
                             children: [
                               const Expanded(

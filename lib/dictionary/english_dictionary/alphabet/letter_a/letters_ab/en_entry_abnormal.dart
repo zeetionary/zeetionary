@@ -112,8 +112,11 @@ class EnglishEntryabnormal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نائاسایی، سەیر، ڕیزپەڕ، ناسروشتی، ناعەدەتی، ناوازە، ناوێزە، کاوش
-
-١. (ھاوەڵناو) شتێک کە جیاوازە لە شێوازی ئاسایی، بەتایبەت شتێک کە جێگەی نیگەرانییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە جیاوازە لە شێوازی ئاسایی، بەتایبەت شتێک کە جێگەی نیگەرانییە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

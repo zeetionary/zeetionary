@@ -153,8 +153,10 @@ class EnglishEntrybaddy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مرۆی خراپ، کەسێتی یان کەسایەتی خراپ (لە فیلم، شانۆ و کتێب و...)
-
-١. (ناو) کارەکتەرێکی خراپ لە فیلمێک، کتێبێک، شانۆیەک، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کارەکتەرێکی خراپ لە فیلمێک، کتێبێک، شانۆیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(

@@ -190,8 +190,10 @@ class EnglishEntrybuttress extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرەیلاخ، بەرھەڵێخ، پاڵەوانە، پشت‌بەست، خەرپشت، پاڵپشت، پشتیوانە، پشتیوان، پشت، پارێزکار
-
-١. (ناو) پێکھاتەیەک کە لە بەرد یان خشت درووستکراوە بۆ ڕاگرتنی دیوارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پێکھاتەیەک کە لە بەرد یان خشت درووستکراوە بۆ ڕاگرتنی دیوارێک"),
                           Row(
                             children: [
                               const Expanded(

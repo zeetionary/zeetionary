@@ -109,8 +109,9 @@ class EnglishEntryacre extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکر، گاوەخان (= یەکەی پێوانی زەوی، بەرامبەر بە ٤.٨٤ یاردی چوارگۆشە و ٤.٠٥٠ میتری چوارگۆشە یان ٠.٤٠٥ ھێکتار
-
-١. (ناو) یەکەی پێوانی زەوی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) یەکەی پێوانی زەوی" ""),
                           Row(
                             children: [
                               const Expanded(

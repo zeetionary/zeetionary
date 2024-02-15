@@ -113,8 +113,9 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆئەندامی ھەرس، بۆری یا جۆگەی ھەرس
-
-١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم" ""),
                           Row(
                             children: [
                               const Expanded(

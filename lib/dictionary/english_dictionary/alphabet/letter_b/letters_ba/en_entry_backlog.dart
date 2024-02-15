@@ -153,8 +153,10 @@ class EnglishEntrybacklog extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەوتنەسەریەک، کەڵەکەبوون، کاری کەڵەکەبوو، کاری دواکەوتوو یان سەریەک‌کەوتوو
-
-١. (ناو) ژمارەیەک کار کە دەبوو پێشتر بکرابان، بەڵام ھێشتا نەکراون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژمارەیەک کار کە دەبوو پێشتر بکرابان، بەڵام ھێشتا نەکراون"),
                           Row(
                             children: [
                               const Expanded(

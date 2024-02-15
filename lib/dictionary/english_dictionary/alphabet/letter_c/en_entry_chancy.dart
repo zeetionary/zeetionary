@@ -192,8 +192,10 @@ class EnglishEntrychancy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووبەختەکی، دووبەختی، شانسی، ھات‌ونەھات، ئەگەرونەگەر، پێشبینی‌نەکراو، مەترسی‌دار،	نەڕوون، نادیار،	ڕێکەوتی، ھەڵکەوتی، ھات‌ونەھات
-
-١. (ھاوەڵناو) شتێک کە مەترسی و دڵەخورپەی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە مەترسی و دڵەخورپەی تێدایە"),
                           Row(
                             children: [
                               const Expanded(

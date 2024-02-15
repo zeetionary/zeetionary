@@ -103,8 +103,9 @@ class EnglishEntryabusive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕلەجنێو، دەم‌ھەراش، پڕ لە قسەی ساردوسووک، توندوتیژانە، دەم‌شڕ، دەم‌پیس، دەم‌چەوت، دەم‌دڕاو، زمان‌شڕ، جنێوفرۆش، دەم‌بەجنێو، زمان‌درێژ
-
-١. (ھاوەڵناو) بێ ڕێز و توندوتیژ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) بێ ڕێز و توندوتیژ" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -193,8 +193,10 @@ class EnglishEntrycatching extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بگرەوە، گیرۆ، پەتا، دڵڕفێن
-
-١. (ھاوەڵناو) نەخۆشییەک کە بە ئاسانی دەگوێزرێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) نەخۆشییەک کە بە ئاسانی دەگوێزرێتەوە"),
                           Row(
                             children: [
                               const Expanded(

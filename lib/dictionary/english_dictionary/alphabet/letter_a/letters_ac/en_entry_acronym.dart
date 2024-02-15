@@ -107,8 +107,11 @@ class EnglishEntryacronym extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: سەروشە، سەرناو، نووکەناو
-
-١. (ناو) وشەیەک کە تەنھا لە چەند پیتی سەرەتای وشەیەک پێکھاتووە."""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  "١. (ناو) وشەیەک کە تەنھا لە چەند پیتی سەرەتای وشەیەک پێکھاتووە."
+                                  ""),
                         ],
                       ),
                     ),

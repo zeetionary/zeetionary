@@ -161,8 +161,11 @@ class EnglishEntryaural extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوێیی، سەربە گوێ، پێوەندی بە گوێ‌یەوە ھەیە، سەربە ھەستی بیستن یان ژنەفتن
-
-١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

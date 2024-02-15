@@ -147,8 +147,10 @@ class EnglishEntrybinoculars extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووربینی دووچاوی یان دووچاوە
-
-١. (ناو) دووربین؛ ئامێرێک کە کە وەک دوو تەلیسکۆبی بچووکی بەستراو بە یەک وایە لە ڕێگەیەوە سەیری شتی دوور دەکەیت و نزیکی دەکاتەوە """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دووربین؛ ئامێرێک کە کە وەک دوو تەلیسکۆبی بچووکی بەستراو بە یەک وایە لە ڕێگەیەوە سەیری شتی دوور دەکەیت و نزیکی دەکاتەوە "),
                           Row(
                             children: [
                               const Expanded(

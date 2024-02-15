@@ -111,8 +111,11 @@ class EnglishEntryalluring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرنجڕاکێش، دڵڕفێن، فریودەر
-
-١. (ھاوەڵناو) جوان و سەرنجڕاکێش بەشێوەیەکی سیحراوی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) جوان و سەرنجڕاکێش بەشێوەیەکی سیحراوی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

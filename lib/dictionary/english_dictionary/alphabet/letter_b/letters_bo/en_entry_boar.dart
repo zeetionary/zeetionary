@@ -145,8 +145,10 @@ class EnglishEntryboar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەکانە، تاکانە، بڕەک، بەرازی نێر، نێرەبەراز، خرس، بەڵخە، تاک
-
-١. (ناو) بەرازێکی نێرە کە بۆ زاوزێ بەکاردێت لە کێڵگەیەکدا، یان بەرازێکی کێوی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەرازێکی نێرە کە بۆ زاوزێ بەکاردێت لە کێڵگەیەکدا، یان بەرازێکی کێوی"),
                           Row(
                             children: [
                               const Expanded(

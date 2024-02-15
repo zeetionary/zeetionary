@@ -142,8 +142,9 @@ class EnglishEntrybribery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرتیل‌دان، بەرتیل‌خۆری، دەمکوت‌کردن
-
-١. (ناو) پێدان یان وەرگرتنی بەرتیل"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) پێدان یان وەرگرتنی بەرتیل"),
                           Row(
                             children: [
                               const Expanded(

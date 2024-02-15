@@ -162,8 +162,9 @@ class EnglishEntryastonishment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرسامی، سەرسووڕمان، واق‌وڕمان، واق‌وڕی، حەپەسان، عەبەسران، تاسان، بەگیروەستان، دۆشدامان
-
-١. (ناو) سەرسامیی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) سەرسامیی زۆر" ""),
                           Row(
                             children: [
                               const Expanded(

@@ -191,8 +191,10 @@ class EnglishEntrybyword extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وتە یان زاراوەیەکی ئاسایی یان باو، نموونە، ھێما، میناک، پەند، وتەی سەرزار، مایەی ئابڕووچوون، مایەی شوورەیی، مایەی نێوزڕان
-
-١. (ناو) کەسێک/شتێک کە زۆر باش ناسراوە و نموونەی بەرچاوی شتێکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک/شتێک کە زۆر باش ناسراوە و نموونەی بەرچاوی شتێکە"),
                           Row(
                             children: [
                               const Expanded(

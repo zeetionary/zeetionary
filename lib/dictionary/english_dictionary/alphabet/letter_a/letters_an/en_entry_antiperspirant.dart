@@ -158,8 +158,11 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (دەرمانی) بۆن‌بەر، دژەئارەق، نەھێڵەئارەق
-
-١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

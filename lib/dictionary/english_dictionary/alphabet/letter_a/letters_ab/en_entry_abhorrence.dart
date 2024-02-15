@@ -95,8 +95,11 @@ class EnglishEntryabhorrence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕق‌لێ‌بوون، بێزاری، قین‌لێ‌بوون، بێزلێ‌ھاتنەوە، بێزکردن، بێزراوی، نەفرین
-
-١. (ناو) ڕقێک کە ھەتە بۆ شتێک بەھۆی ئەوەی نەگونجاوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ڕقێک کە ھەتە بۆ شتێک بەھۆی ئەوەی نەگونجاوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -198,8 +198,9 @@ class EnglishEntrycascade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیمچەتاڤگە، نیمچەڕێژاو، ڕێژاوک، زنجیرە یان ڕیزەتاڤگەی چکۆلە، (جل‌وبەرگ) چین، ھەڕەمە
-
-١. (ناو) تاڤگەیەکی بچووک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) تاڤگەیەکی بچووک"),
                           Row(
                             children: [
                               const Expanded(

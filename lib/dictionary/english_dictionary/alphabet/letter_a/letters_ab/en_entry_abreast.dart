@@ -94,8 +94,11 @@ class EnglishEntryabreast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەپاڵ‌یەک، شان‌بەشان، مل‌بەمل، پێ‌بەپێ، پێک‌نزیک، تەنشیت‌بەتەنیشت، ڕێک
-
-١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

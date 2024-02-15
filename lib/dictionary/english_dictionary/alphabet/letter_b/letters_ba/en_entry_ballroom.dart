@@ -153,8 +153,10 @@ class EnglishEntryballroom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەماخانە، خانەی ھەڵپەڕکێ، ھۆڵی ھەڵپەڕکێ یان سەما
-
-١. (ناو) ژوورێکی گەورە کە بۆ سەماکردن بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ژوورێکی گەورە کە بۆ سەماکردن بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(

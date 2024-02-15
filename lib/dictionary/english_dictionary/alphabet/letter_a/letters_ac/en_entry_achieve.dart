@@ -120,8 +120,11 @@ class EnglishEntryachieve extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەدیھێنان، بەدەستھێنان، بردنەوە
-
-١. (کردار) بەدەستھێنانی شتێک لە دوای ھەوڵێکی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) بەدەستھێنانی شتێک لە دوای ھەوڵێکی زۆر"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

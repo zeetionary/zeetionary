@@ -147,8 +147,10 @@ class EnglishEntrybetrothed extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگیران، دەسگیران، دەزووران (پاگیرە: کچی دەزگیران‌دار)
-
-١. (ناو) کەسێک کە بەڵێنی ھاوسەرگیری پێدراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە بەڵێنی ھاوسەرگیری پێدراوە"),
                           Row(
                             children: [
                               const Expanded(

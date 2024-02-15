@@ -197,8 +197,8 @@ class EnglishEntrycentury extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەدە، چەرخ، چاخ
-
-١. (ناو) ١٠٠ ساڵ"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) ١٠٠ ساڵ"),
                           Row(
                             children: [
                               const Expanded(

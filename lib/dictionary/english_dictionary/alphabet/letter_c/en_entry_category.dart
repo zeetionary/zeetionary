@@ -194,8 +194,10 @@ class EnglishEntrycategory extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بابەت، دەست، دەستە، پۆل، پۆلێن
-
-١. (ناو) گرووپێک لە شت یان خەڵک کە خاڵی ھاوبەشیان ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گرووپێک لە شت یان خەڵک کە خاڵی ھاوبەشیان ھەیە"),
                           Row(
                             children: [
                               const Expanded(

@@ -109,8 +109,9 @@ class EnglishEntryailment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەخۆشی (سووک)، ناساخی، ناسازی، دەردەداری
-
-١. (ناو) نەخۆشییەکی سووک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) نەخۆشییەکی سووک" ""),
                           Row(
                             children: [
                               const Expanded(

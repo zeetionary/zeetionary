@@ -109,8 +109,11 @@ class EnglishEntryadjustable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاوی ڕێکخستن، لەگونجان‌ھاتوو، لەمیزان‌ھاتوو، میزان دەکرێ، سازاو، گۆڕا، لەرێک‌ھاتوو
-
-١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

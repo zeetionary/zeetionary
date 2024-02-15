@@ -154,8 +154,11 @@ class EnglishEntryanalyse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیتەڵاندن، شیتەڵ‌کردن، شی‌کردنەوە، شیکاری‌کردن، تاوتوێ‌کردن، لێکدانەوە، بڕگاندن (ڕێزمان)
-
-١. (ھاوەڵناو) لێکۆڵینەوە لە شتێک و شیتەڵ‌کردنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) لێکۆڵینەوە لە شتێک و شیتەڵ‌کردنی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

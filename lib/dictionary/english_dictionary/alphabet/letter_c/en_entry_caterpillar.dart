@@ -192,8 +192,10 @@ class EnglishEntrycaterpillar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەتڵەمیران، تەتەڵەمیران، دەروێشەمارە، کرمەدار، کایە، کرمی دار، کرماسۆرک، کرمی مێروو یان پەپوولە
-
-١. (ناو) گیانلەبەرێکی بچووک کە وەک کرم وایە و قاچی ھەیە، کە گەشە دەکات دەبێت بە پەپوولە یان مۆرانە، و گەڵای دار دەخوات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) گیانلەبەرێکی بچووک کە وەک کرم وایە و قاچی ھەیە، کە گەشە دەکات دەبێت بە پەپوولە یان مۆرانە، و گەڵای دار دەخوات"),
                           Row(
                             children: [
                               const Expanded(

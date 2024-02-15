@@ -193,8 +193,10 @@ class EnglishEntrycatalyst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھۆکاری ھاندەر یان تاودەر، تاودەرە، فاکتێری تاودەر، مەتریاڵی ھاندەر، ھاندەرە، تاودەرە، کەسێ یان شتێ کە دەبێتە ھۆ و مایەی گۆڕان
-
-١. (ناو) لە کیمیادا مادەیەکە کە کارلێکێکی کیمیایی خێراتر دەکات بەبێ ئەوەی خۆی گۆڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لە کیمیادا مادەیەکە کە کارلێکێکی کیمیایی خێراتر دەکات بەبێ ئەوەی خۆی گۆڕێت"),
                           Row(
                             children: [
                               const Expanded(

@@ -192,8 +192,10 @@ class EnglishEntrycavalry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سوارە، ھێزی زرێیی یا زرێپۆش، زرێپۆش
-
-١. (ناو) لە کۆندا ئەو بەشەی سوپا بوو کە ئەسپسواربوون، لە سوپا سەردەمییەکندا ئەو بەشەن ئۆتۆمبێل و کەرەستەی پێڕۆی دیکەی سەربازییان پێیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) لە کۆندا ئەو بەشەی سوپا بوو کە ئەسپسواربوون، لە سوپا سەردەمییەکندا ئەو بەشەن ئۆتۆمبێل و کەرەستەی پێڕۆی دیکەی سەربازییان پێیە"),
                           Row(
                             children: [
                               const Expanded(

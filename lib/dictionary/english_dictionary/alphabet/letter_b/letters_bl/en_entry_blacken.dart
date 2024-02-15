@@ -146,8 +146,9 @@ class EnglishEntryblacken extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەش کردن، سووک کردن، ناو زڕاندن
-
-١. (کردار) ڕەشکردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ڕەشکردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(

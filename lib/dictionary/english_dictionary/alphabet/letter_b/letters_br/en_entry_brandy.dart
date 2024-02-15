@@ -142,8 +142,10 @@ class EnglishEntrybrandy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: براندی، براندی‌خۆری، لیوانی براندی
-
-١. (ناو) خواردنەوەیەکی توندی کحوولی کە لە شەراب درووست دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خواردنەوەیەکی توندی کحوولی کە لە شەراب درووست دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

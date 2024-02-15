@@ -150,8 +150,11 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێلی ڕاستەوخۆ، ھێڵی یەکسەر، یەکسەرە چوون بە دوای (کەس یان شتێ)
-
-١. (ئیدیەم) بەخێرایی ڕۆشتن بەرەو کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ئیدیەم) بەخێرایی ڕۆشتن بەرەو کەسێک/شتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

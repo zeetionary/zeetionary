@@ -153,8 +153,11 @@ class EnglishEntryanalyst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیکار، شی‌کەرەوە، لێکدەرەوە، لێکۆڵەرەوە، دەروون‌شیکار
-
-١. (ناو) کەسێک کە کاری لێکۆڵینەوە و توێژینەوەیە بۆ تێگەشتن لە بابەتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری لێکۆڵینەوە و توێژینەوەیە بۆ تێگەشتن لە بابەتێک"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

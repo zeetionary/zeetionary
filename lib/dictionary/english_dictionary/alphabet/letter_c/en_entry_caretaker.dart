@@ -195,8 +195,10 @@ class EnglishEntrycaretaker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرپەرشت، سەخبێر، بەسەرڕاگەیشتوو، چاودێر، زێرەڤان
-
-١. (ناو) کەسێک کە کاری چاودێریکردنی بینایەکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کاری چاودێریکردنی بینایەکە"),
                           Row(
                             children: [
                               const Expanded(

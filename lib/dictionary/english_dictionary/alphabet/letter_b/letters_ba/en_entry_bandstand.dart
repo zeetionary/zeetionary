@@ -153,8 +153,10 @@ class EnglishEntrybandstand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەکۆ یان جێگەی دەستەی موزیک
-
-١. (ناو) ستەیجێک کە باندی میوزیکی لەسەری دەوەستن و گۆرانی دەڵێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ستەیجێک کە باندی میوزیکی لەسەری دەوەستن و گۆرانی دەڵێن"),
                           Row(
                             children: [
                               const Expanded(

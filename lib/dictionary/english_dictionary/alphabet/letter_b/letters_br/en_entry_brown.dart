@@ -145,8 +145,9 @@ class EnglishEntrybrown extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قاوەیی، خورمایی، پێست‌قاوەیی، ڕەشتاڵە، سەوزە، جل‌وبەرگی قاوەیی، ڕەنگی قاوەیی یان خورمایی
-
-١. (ھاوەڵناو) ڕەنگی خاک یان قاوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) ڕەنگی خاک یان قاوە"),
                           Row(
                             children: [
                               const Expanded(

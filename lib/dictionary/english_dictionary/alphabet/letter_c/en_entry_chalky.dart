@@ -192,8 +192,10 @@ class EnglishEntrychalky extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەچی، گەچ‌ئاسا، گڵەسپی تیایە
-
-١. (ھاوەڵناو) شتێک کە گەچی تێدایە یان شێوەی لە گەچ دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) شتێک کە گەچی تێدایە یان شێوەی لە گەچ دەکات"),
                           Row(
                             children: [
                               const Expanded(

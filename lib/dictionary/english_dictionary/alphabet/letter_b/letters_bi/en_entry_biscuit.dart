@@ -153,8 +153,8 @@ class EnglishEntrybiscuit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: غوڕابی، تۆشە، جۆرێ نانی نەرم، ڕەنگی قاوەیی کاڵ یان ڕۆشن، ڕەنگی قاوەیی مەیلەو زەرد، گڵێنەی بێ‌لیاو یان بێ‌لۆعاب
-
-١. (ناو) بسکیت"""),
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) بسکیت"),
                           Row(
                             children: [
                               const Expanded(

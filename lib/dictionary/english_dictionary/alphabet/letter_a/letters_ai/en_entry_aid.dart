@@ -163,8 +163,11 @@ class EnglishEntryaid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یارمەتی، ئاری، ئالی‌کاری، ھاری‌کاری، دەس‌گرتن، دەس‌گیرۆیی، کۆمەک، ھەداری، بەھاناچوون، فریاکەوتن، شت‌ومەک یان کەرەسەی یارمەتی
-
-١. (ناو) خواردن و کەلوپەل کە وەک یارمەتی دابەش دەکرێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) خواردن و کەلوپەل کە وەک یارمەتی دابەش دەکرێن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

@@ -108,8 +108,11 @@ class EnglishEntryacrylic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکریلیک، سەربە یان لە ترشەڵۆکی ئەکریلیک وەرگیراوە، لە ئەکریلیک دروست کراوە یان پێکھاتووە
-
-١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

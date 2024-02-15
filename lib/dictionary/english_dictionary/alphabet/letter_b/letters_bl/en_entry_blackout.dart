@@ -148,8 +148,9 @@ class EnglishEntryblackout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاریکی، چراکوژانەوە، لە ھۆش‌چوون یان لەبیرچوونەوەی کاتی، سانسۆڕ
-
-١. (ناو) ماوەی تاریکی بەھۆی بێ کارەبایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) ماوەی تاریکی بەھۆی بێ کارەبایی"),
                           Row(
                             children: [
                               const Expanded(

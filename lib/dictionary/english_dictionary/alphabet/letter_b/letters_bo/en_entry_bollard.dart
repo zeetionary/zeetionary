@@ -146,8 +146,10 @@ class EnglishEntrybollard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆڵەکەڕاگرە، ڕاگرە، کۆڵەکەی مەھار یان ڕاگرتن، ڕاگیرە، بەستنگای تەنافەکان (کەشتی)، کۆڵەکەمەترسی، کۆڵەکەی مەترسی
-
-١. (ناو) بەربەستێکی ئەستوور و کورت کە دادەنرێت بۆ ئەوەی ئۆتۆمبێل نەچێتە سەر ڕێگایەک یان ناو ناوچەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەربەستێکی ئەستوور و کورت کە دادەنرێت بۆ ئەوەی ئۆتۆمبێل نەچێتە سەر ڕێگایەک یان ناو ناوچەیەک"),
                           Row(
                             children: [
                               const Expanded(

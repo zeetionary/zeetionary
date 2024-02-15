@@ -303,8 +303,10 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دراونامە، بودجە، حیسابی داھات و خەرج، تێچوون، جانتا یان کیفی چەرمی، ھەروەھا ئەو شتانەی کەوا تیایەتی 
-
-١. (ناو) بودجە؛ بڕی پارەی بەردەستی کەسێک یان دامەزراوەیەک لەگەڵ پلانێک کە چۆن خەرج دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بودجە؛ بڕی پارەی بەردەستی کەسێک یان دامەزراوەیەک لەگەڵ پلانێک کە چۆن خەرج دەکرێت"),
                           Row(
                             children: [
                               const Expanded(

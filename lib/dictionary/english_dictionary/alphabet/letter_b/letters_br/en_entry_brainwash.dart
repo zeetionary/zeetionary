@@ -144,8 +144,10 @@ class EnglishEntrybrainwash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مێشک شتنەوە، شوتنەوەی مێشک
-
-١. (کردار) زۆرکردن لە کەسێک کە بیرۆکەکانت پەسەند بە بەوەی دووبارە و دووبارەیان بکەیتەوە یان ڕێگەی لێ بگری بەڕوونی بیربکاتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) زۆرکردن لە کەسێک کە بیرۆکەکانت پەسەند بە بەوەی دووبارە و دووبارەیان بکەیتەوە یان ڕێگەی لێ بگری بەڕوونی بیربکاتەوە"),
                           Row(
                             children: [
                               const Expanded(

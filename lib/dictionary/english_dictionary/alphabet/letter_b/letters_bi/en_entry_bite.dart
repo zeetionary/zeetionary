@@ -277,8 +277,9 @@ class EnglishEntrybite extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەپ، گاز، گازگرتن، گەزین، گەستن، قەپ‌گرتن، قەپاڵ، ددان لێ‌گیرکردن، چزوو، تیکە، پاروو، تەزوو، تەز، ھێز، تین، ستین، بڕشت، قەوەت، (چێشت و تام) تیژی، دۆخی
-
-١. (کردار) قەپگرتن، گازگرتن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) قەپگرتن، گازگرتن"),
                           Row(
                             children: [
                               const Expanded(

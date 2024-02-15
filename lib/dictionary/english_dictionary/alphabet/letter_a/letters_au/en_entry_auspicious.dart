@@ -162,8 +162,11 @@ class EnglishEntryauspicious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیرۆز، مەبارەک، موبارەک، بەودم، بەھات، ھات، شوومی باشە، ھەزەخ، بەختەوەر، بەختیار
-
-١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

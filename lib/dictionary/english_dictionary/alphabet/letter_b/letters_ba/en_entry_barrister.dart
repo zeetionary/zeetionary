@@ -147,8 +147,10 @@ class EnglishEntrybarrister extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پارێزەر، ئەولەکار، ئاوکات
-
-١. (ھاوەڵناو) پارێزەرێک لە بەریتانیا کە مافی ھەیە تانە بدات لە بڕیارێک بدات لە دادگای باڵا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) پارێزەرێک لە بەریتانیا کە مافی ھەیە تانە بدات لە بڕیارێک بدات لە دادگای باڵا"),
                           Row(
                             children: [
                               const Expanded(

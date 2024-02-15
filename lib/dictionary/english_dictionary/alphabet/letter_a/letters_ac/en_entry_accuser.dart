@@ -109,8 +109,11 @@ class EnglishEntryaccuser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوناھبارکەر، گومان‌لێ‌کەر، تۆمەت‌باز، بوختان‌باز، سکاڵاکەر، شکات‌کەر، دادبەر
-
-١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

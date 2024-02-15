@@ -145,8 +145,10 @@ class EnglishEntrybloodshed extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کوشت‌وکوشتار، خوێن‌ڕێژی، خوێن‌ڕشتن
-
-١. (ناو) کووشتن یان بریندارکردنی خەڵکی، زۆرجار لە کاتی جەنگدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کووشتن یان بریندارکردنی خەڵکی، زۆرجار لە کاتی جەنگدا"),
                           Row(
                             children: [
                               const Expanded(

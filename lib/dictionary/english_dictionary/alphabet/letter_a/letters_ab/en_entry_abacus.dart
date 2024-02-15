@@ -96,8 +96,11 @@ class EnglishEntryabacus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
-
-١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

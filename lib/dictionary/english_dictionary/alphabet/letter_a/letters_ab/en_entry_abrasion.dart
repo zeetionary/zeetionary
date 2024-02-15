@@ -103,8 +103,11 @@ class EnglishEntryabrasion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داخوران، داکڕان، داشۆران، داتاشین، داڕووشان، ڕووشان، لێخستن، (دا)سووان
-
-١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

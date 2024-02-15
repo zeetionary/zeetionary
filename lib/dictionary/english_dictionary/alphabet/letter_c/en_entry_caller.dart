@@ -189,8 +189,10 @@ class EnglishEntrycaller extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرلێدەر، سەردان‌کەر، سەردان‌چی، ھاوبین، تەلەفون‌کەر
-
-١. (ناو) کەسێک کە پەیوەندییەکی تەلەفۆنی ئەنجام دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە پەیوەندییەکی تەلەفۆنی ئەنجام دەدات"),
                           Row(
                             children: [
                               const Expanded(

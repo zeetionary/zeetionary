@@ -162,8 +162,9 @@ class EnglishEntryaunt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پوور، میمی، میمک؛ پوور، پلکە، تیتک، خاڵۆژن
-
-١. (ناو) خوشکی باوک و دایک؛ ژنی خاڵۆ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) خوشکی باوک و دایک؛ ژنی خاڵۆ" ""),
                           Row(
                             children: [
                               const Expanded(

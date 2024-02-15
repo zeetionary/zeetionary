@@ -110,8 +110,11 @@ class EnglishEntryafternoon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاش‌نێوەڕۆ، دوانیوەڕۆ، ئێوارە، نێوەڕۆ، عەسر
-
-١. (ناو) ناوەڕاستی ڕۆژ، لە کاتژمێر ١٢ی دوای نیوەڕۆ بۆ ٦ی ئێوارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوەڕاستی ڕۆژ، لە کاتژمێر ١٢ی دوای نیوەڕۆ بۆ ٦ی ئێوارە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

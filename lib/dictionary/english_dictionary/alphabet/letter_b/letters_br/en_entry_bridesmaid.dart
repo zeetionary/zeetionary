@@ -142,8 +142,10 @@ class EnglishEntrybridesmaid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوەڵ‌بووک، برازاوا، شۆشبان (کچ و ژن)
-
-١. (ھاوەڵناو) کچێک یان ژنێکی گەنج کە لەگەڵ بووکدا دەبێت پێش و لەکاتی ئاھەنگی ھاوسەرگیریدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) کچێک یان ژنێکی گەنج کە لەگەڵ بووکدا دەبێت پێش و لەکاتی ئاھەنگی ھاوسەرگیریدا"),
                           Row(
                             children: [
                               const Expanded(

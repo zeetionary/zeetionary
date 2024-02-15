@@ -110,8 +110,11 @@ class EnglishEntryagency extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاژانس، دەزگا، کارگێڕی، نووسینگەی کارداری، لق، نوێنەرایەتی، بەڕێوەبەری نوێنەرایەتی، یارمەتی، نێوگژیوانی، ناوبەری، دەڵاڵی، ناوبژێتی، بەشی کارگێڕی، بەشی بەڕێوەبەری، کار
-
-١. (ناو) دامەزراوەیەک کە خزمەتگوزارییەک پێشکەش دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) دامەزراوەیەک کە خزمەتگوزارییەک پێشکەش دەکات"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

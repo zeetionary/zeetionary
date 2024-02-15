@@ -153,8 +153,11 @@ class EnglishEntryannals extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ساڵ بە ساڵ) ساڵ‌نامە، ڕووداونامە، تۆمارنامە، مێژوونامە، مێژوو، تۆمارە مێژویی‌یەکان
-
-١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

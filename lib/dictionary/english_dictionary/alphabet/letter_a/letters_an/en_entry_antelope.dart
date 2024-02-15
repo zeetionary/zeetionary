@@ -154,8 +154,11 @@ class EnglishEntryantelope extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاسک، ئاسکەکێوی، بزنەکێوی
-
-١. (ناو) ئاژەڵێکی ئەفریقی یان ئاسیاییە کە شێوەی وەک ئاسکە و زۆر خێرایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئاژەڵێکی ئەفریقی یان ئاسیاییە کە شێوەی وەک ئاسکە و زۆر خێرایە"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

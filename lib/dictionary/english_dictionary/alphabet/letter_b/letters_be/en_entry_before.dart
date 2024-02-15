@@ -710,7 +710,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                         text:
                                             "They retreated before the enemy."),
                                     ExampleSentenceKurdish(
-                                        text: "لە پێش دووژمن کشانەوە."),
+                                        text: "لە پێش دوژمن کشانەوە."),
                                   ],
                                 ),
                               ),

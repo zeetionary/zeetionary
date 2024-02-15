@@ -166,7 +166,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                             "The antagonism he felt towards his old enemy was still very strong."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
+                                            "ئەو دوژمنایەتییەی دژ بە دوژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
                                   ],
                                 ),
                               ),

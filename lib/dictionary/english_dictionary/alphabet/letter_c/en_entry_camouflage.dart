@@ -326,7 +326,7 @@ class EnglishEntrycamouflage extends StatelessWidget {
                                             "The tent was camouflaged to avoid detection by enemy soldiers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دووژمنەوە."),
+                                            "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دوژمنەوە."),
                                   ],
                                 ),
                               ),

@@ -244,7 +244,8 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The fees charged by some companies are excessive."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges26(String languageCode) async {
@@ -252,7 +253,8 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("What did they charge for the repairs?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges27(String languageCode) async {
@@ -260,7 +262,8 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They are charging a reasonable price for the album."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges28(String languageCode) async {
@@ -268,7 +271,8 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We won't charge you for delivery."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges29(String languageCode) async {
@@ -276,7 +280,8 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Don't worry. I'll charge it."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges30(String languageCode) async {
@@ -284,7 +289,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They charge the calls to their credit-card account."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges31(String languageCode) async {
@@ -292,7 +297,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I need to charge my phone."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges32(String languageCode) async {
@@ -300,7 +305,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Before use, the battery must be charged."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges33(String languageCode) async {
@@ -308,7 +313,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Several people were arrested but nobody was charged."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges34(String languageCode) async {
@@ -316,7 +321,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was charged with murder."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges35(String languageCode) async {
@@ -324,7 +329,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They were charged with organizing an illegal demonstration."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges36(String languageCode) async {
@@ -332,7 +337,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A man has been charged in connection with the attack."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges37(String languageCode) async {
@@ -340,7 +345,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has not yet been formally charged with the crime."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges38(String languageCode) async {
@@ -348,7 +353,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Opposition MPs charged the minister with neglecting her duty."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges39(String languageCode) async {
@@ -356,7 +361,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Opponents charged that cutting costs would reduce safety."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges40(String languageCode) async {
@@ -364,7 +369,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges4000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The bull put its head down and charged."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges41(String languageCode) async {
@@ -372,7 +377,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We charged at the enemy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges42(String languageCode) async {
@@ -380,7 +385,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges4200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The children charged down the stairs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges43(String languageCode) async {
@@ -388,7 +393,7 @@ class EnglishEntrycharge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges4300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He came charging into my room and demanded to know what was going on."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcharges44(String languageCode) async {
@@ -1245,6 +1250,593 @@ class EnglishEntrycharge extends StatelessWidget {
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (کردار) داواکردنی بڕێک پارە بۆ شتومەک و خزمەتگوزاری"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fees charged by some companies are excessive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کرێیانەی لەلایەن هەندێک کۆمپانیاوە وەردەگیرێت لە ڕادەبەدەرن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharges25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharges25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What did they charge for the repairs?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەندیان وەرگرت بۆ چاککردنەوەکە؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharges26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharges26("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "They are charging a reasonable price for the album."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بڕێکی گونجاو بۆ ئەلبوومەکە وەردەگرن."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharges27("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharges27("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We won't charge you for delivery."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بۆ گواستنەوە پارە وەرناگرین."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharges28("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharges28("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (کردار) تۆمارکردنی تێچووی شتێک وەک ئەو بڕەی کە کەسێک دەبێت بیدات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't worry. I'll charge it (= pay by credit card)."),
+                                    ExampleSentenceKurdish(
+                                      text:
+                                          "نیگەران مەبە، دەیخەمە سەر کرێدیت کاردەکە.",
+                                      note:
+                                          "واتە بە کرێدیت کاردەکە پارەکەی دەدەم",
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharges29("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharges29("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text: "They charge the calls to their credit-card account."),
+                                            ExampleSentenceKurdish(
+                                                text: "نرخی پەیوەندییەکان دەخەنە سەر هەژماری کرێدیت کاردەکە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharges30("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharges30("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١١. (کردار) بارگاوی کردن بە کارەبا"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "I need to charge my phone."),
+                          ExampleSentenceKurdish(
+                          text: "پێویستە موبایلەکەم بارگاوی/شەحن بکەم."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges31("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges31("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Before use, the battery must be charged."),
+                          ExampleSentenceKurdish(
+                          text: "پێش بەکارهێنان، باترییەکە دەبێت بارگاوی بکرێت."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges32("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges32("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٢. (کردار) تۆمەتبارکردنی کەسێک بە تاوانێک بۆ ئەوەی ببرێتە دادگا"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Several people were arrested but nobody was charged."),
+                          ExampleSentenceKurdish(
+                          text: "ژمارەیەک کەس دەستگیرکران بەڵام هیچیان تۆمەتبار نەکران."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges33("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges33("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "He was charged with murder."),
+                          ExampleSentenceKurdish(
+                          text: "بە تاوانی کوشتن تۆمەتبارکرا."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges34("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges34("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          Column(
+                          children: [
+                          MyExpansionTile(
+                          children: [
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "They were charged with organizing an illegal demonstration."),
+                          ExampleSentenceKurdish(
+                          text: "تاوەنبارکران بە ڕێکخستنی خۆپیشاندانی نایاسایی."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges35("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges35("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "A man has been charged in connection with the attack."),
+                          ExampleSentenceKurdish(
+                          text: "کەسێک تۆمەتبارکراوە بە پەیوەندی بە هێرشەکەوە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges36("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges36("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "She has not yet been formally charged with the crime."),
+                          ExampleSentenceKurdish(
+                          text: "هێشتا بە فەرمی بە تاوانەکە تۆمەتبار نەکراوە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges37("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges37("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٣. (کردار) تۆمەتبارکردنی کەسێک بە ئەنجامدانی کارێکی هەڵە یان خراپ"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Opposition MPs charged the minister with neglecting her duty."),
+                          ExampleSentenceKurdish(
+                          text: "ئەندام پەرلەمانە ئۆپۆزسیۆنەکان وەزیرەکەیان بە پشتگوێخستنی ئەرکەکانی تۆمەتبارکرد."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges38("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges38("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٤. (کردار) بانگەشەکردن یان وتنی ئەوەی کە شتێک ڕوودەدات"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Opponents charged that cutting costs would reduce safety."),
+                          ExampleSentenceKurdish(
+                          text: "دژبەرەکان بانگەشەی ئەوەیان کرد کە کەمکردنەوەی خەرجی ئارامی کەمدەکاتەوە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges39("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges39("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٥. (کردار) بۆ پێشەوەچوون و هێرشکردن"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "The bull put its head down and charged."),
+                          ExampleSentenceKurdish(
+                          text: "جوانەگاکە سەری داخست و هێرشی کرد."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges40("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges40("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "We charged at the enemy."),
+                          ExampleSentenceKurdish(
+                          text: "هێرشمان کردە سەر دوژمن."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges41("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges41("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٦. (کردار) بەخێرایی ڕۆشتن بە ئاراستەیەکدا"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "The children charged down the stairs."),
+                          ExampleSentenceKurdish(
+                          text: "منداڵەکان بە پلەکانەکاندا بە فڕکەفڕک ڕۆشتنە خوارەوە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges42("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges42("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "He came charging into my room and demanded to know what was going on."),
+                          ExampleSentenceKurdish(
+                          text: "خۆی کرد بە ژوورەکەمدا و داوای کرد بزانێت چی ڕوویداوە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges43("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges43("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١٧. (کردار) پێدانی ئەرک و بەرپرسیاریەتی بە کەسێک"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "speakcharges4400"),
+                          ExampleSentenceKurdish(
+                          text: "رستە_رستە_رستە_رستە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcharges44("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcharges44("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),

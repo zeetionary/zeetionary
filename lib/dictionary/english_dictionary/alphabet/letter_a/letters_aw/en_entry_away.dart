@@ -319,7 +319,7 @@ class EnglishEntryaway extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (ھاوەڵکار) لە یاریگای دووژمن"""),
+٦. (ھاوەڵکار) لە یاریگای دوژمن"""),
                           Row(
                             children: [
                               const Expanded(

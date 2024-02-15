@@ -191,7 +191,7 @@ class EnglishEntrybishop extends StatelessWidget {
                                             "A well-placed bishop can effectively shield the king from enemy pieces."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دووژمن."),
+                                            "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دوژمن."),
                                   ],
                                 ),
                               ),

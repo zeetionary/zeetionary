@@ -160,7 +160,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                         text:
                                             "He is always very belligerent towards me."),
                                     ExampleSentenceKurdish(
-                                        text: "ھەمیشە زۆر دووژمنانەیە لەگەڵم."),
+                                        text: "ھەمیشە زۆر دوژمنانەیە لەگەڵم."),
                                   ],
                                 ),
                               ),

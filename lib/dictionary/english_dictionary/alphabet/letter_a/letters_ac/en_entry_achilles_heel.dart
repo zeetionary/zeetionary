@@ -121,7 +121,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
                                             "The enemy had an Achilles heel somewhere, if only we could find it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
+                                            "دوژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
                                   ],
                                 ),
                               ),

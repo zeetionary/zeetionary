@@ -237,7 +237,7 @@ class EnglishEntrycatapult extends StatelessWidget {
                                             "In the past, armies used catapults to hurl heavy stones at enemy fortifications."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆندا سوپاکان مەنجەنیقیان بەکاردەھێنا بۆ ھاویشتنی بەردی قورس لە شووراکانی دووژمن."),
+                                            "لە کۆندا سوپاکان مەنجەنیقیان بەکاردەھێنا بۆ ھاویشتنی بەردی قورس لە شووراکانی دوژمن."),
                                   ],
                                 ),
                               ),

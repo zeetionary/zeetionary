@@ -160,7 +160,7 @@ class EnglishEntrybayonet extends StatelessWidget {
                                             "The bayonets gleamed in the sunlight as the enemy approached."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دووژمن نزیکبوویەوە."),
+                                            "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دوژمن نزیکبوویەوە."),
                                   ],
                                 ),
                               ),

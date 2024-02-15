@@ -549,7 +549,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                             "There's a lot of animosity between them."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دووژمنکاری زۆر لە نێوانیان ھەیە."),
+                                            "دوژمنکاری زۆر لە نێوانیان ھەیە."),
                                   ],
                                 ),
                               ),

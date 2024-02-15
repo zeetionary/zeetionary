@@ -150,7 +150,7 @@ class EnglishEntrybetray extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) پێدانی زانیاری بە دووژمن یان ڕکابەر"""),
+١. (کردار) پێدانی زانیاری بە دوژمن یان ڕکابەر"""),
                           Row(
                             children: [
                               const Expanded(

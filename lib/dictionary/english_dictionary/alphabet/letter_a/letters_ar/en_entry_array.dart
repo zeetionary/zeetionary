@@ -272,7 +272,7 @@ class EnglishEntryarray extends StatelessWidget {
                                             "The enemy forces arrayed against them."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھێزەکانی دووژمن لەدژیان کەوتنە ئامادەباشییەوە."),
+                                            "ھێزەکانی دوژمن لەدژیان کەوتنە ئامادەباشییەوە."),
                                   ],
                                 ),
                               ),

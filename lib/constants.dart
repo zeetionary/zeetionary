@@ -191,15 +191,16 @@ class YouTubeContainerDesignNew extends StatelessWidget {
   }
 }
 
-class NextVideoIndicator extends StatefulWidget {
+class NextVideoIndicator extends ConsumerStatefulWidget {
   const NextVideoIndicator({super.key});
 
   @override
   // _NextVideoIndicatorState createState() => _NextVideoIndicatorState();
-  State<NextVideoIndicator> createState() => _NextVideoIndicatorState();
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _NextVideoIndicatorState();
 }
 
-class _NextVideoIndicatorState extends State<NextVideoIndicator>
+class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
@@ -225,12 +226,15 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider);
+
     return Column(
       children: [
         // Your indicator widget content here
         Text('Next Video',
             style: TextStyle(
               color: Theme.of(context).primaryColor.withOpacity(0.1),
+              fontSize: textSize,
             )),
         AnimatedBuilder(
           animation: _animation,
@@ -241,7 +245,7 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
                 Icons.swipe_up_rounded,
                 // color: Colors.blue,
                 color: Theme.of(context).primaryColor.withOpacity(0.1),
-                size: 18.0, // Set the size of the icon
+                size: textSize, // Set the size of the icon
               ),
             );
           },
@@ -923,13 +927,14 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
               if (widget.note != null && widget.note!.isNotEmpty)
                 IconButton(
                   padding: EdgeInsets.zero,
-                  iconSize: 16.0, // Optional: Adjust size for flush appearance
+                  iconSize:
+                      textSize, // Optional: Adjust size for flush appearance
                   onPressed: () {
                     setState(() {
                       _showNote = !_showNote;
                     });
                   },
-                  icon: Icon(_showNote ? Icons.expand_less : Icons.expand_more),
+                  icon: Icon(_showNote ? Icons.expand_less : Icons.note_alt),
                 ),
             ],
           ),
@@ -1028,13 +1033,14 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
               if (widget.note != null && widget.note!.isNotEmpty)
                 IconButton(
                   padding: EdgeInsets.zero,
-                  iconSize: 16.0, // Optional: Adjust size for flush appearance
+                  iconSize:
+                      textSize, // Optional: Adjust size for flush appearance
                   onPressed: () {
                     setState(() {
                       _showNote = !_showNote;
                     });
                   },
-                  icon: Icon(_showNote ? Icons.expand_less : Icons.expand_more),
+                  icon: Icon(_showNote ? Icons.expand_less : Icons.note_alt),
                 ),
               Expanded(
                 child: Align(
@@ -1131,7 +1137,7 @@ class CustomIconButtonBritish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) - 6;
+    final textSize = ref.watch(textSizeProvider);
     return IconButton(
       // iconSize: 18,
       icon: Container(
@@ -1143,7 +1149,7 @@ class CustomIconButtonBritish extends ConsumerWidget {
         child: Icon(
           Icons.record_voice_over,
           color: Colors.blue,
-          size: textSize, // Adjust size as needed
+          size: textSize - 6, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -1161,7 +1167,7 @@ class CustomIconButtonAmerican extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) - 6;
+    final textSize = ref.watch(textSizeProvider);
     return IconButton(
       // iconSize: 18,
       icon: Container(
@@ -1174,7 +1180,7 @@ class CustomIconButtonAmerican extends ConsumerWidget {
         child: Icon(
           Icons.record_voice_over,
           color: const Color.fromARGB(182, 255, 0, 0),
-          size: textSize, // Adjust size as needed
+          size: textSize - 6, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -1194,15 +1200,13 @@ class CustomAlertDialog extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final baseTextSize = ref.watch(textSizeProvider);
-    final titleTextSize = baseTextSize + 8;
+    final textSize = ref.watch(textSizeProvider);
     // (zee: added dialog)  https://chat.openai.com/c/a248af68-029b-41c6-9bc2-55547b2b3f20
-
     return AlertDialog(
       title: Text(
         title,
         style: TextStyle(
-          fontSize: titleTextSize,
+          fontSize: textSize + 8,
           fontWeight: FontWeight.w600,
         ),
       ),
@@ -1211,7 +1215,7 @@ class CustomAlertDialog extends ConsumerWidget {
         child: Text(
           content,
           style: TextStyle(
-            fontSize: baseTextSize,
+            fontSize: textSize,
             fontWeight: FontWeight.w400,
           ),
         ),
@@ -1258,7 +1262,7 @@ class EnglishMeaningConst extends ConsumerWidget {
   }
 }
 
-class EnglishButtonTTS extends StatefulWidget {
+class EnglishButtonTTS extends ConsumerStatefulWidget {
   final Function(String) onBritishPressed;
   final Function(String) onAmericanPressed;
   final VoidCallback onStopPressed;
@@ -1272,10 +1276,14 @@ class EnglishButtonTTS extends StatefulWidget {
 
   @override
   // _EnglishButtonTTSState createState() => _EnglishButtonTTSState();
-  State<EnglishButtonTTS> createState() => _EnglishButtonTTSState();
+  // State<EnglishButtonTTS> createState() => _EnglishButtonTTSState();
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _EnglishButtonTTSState();
 }
 
-class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
+// class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
+class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
+    with SingleTickerProviderStateMixin {
   bool isSpeaking = false;
 
   // (zee; added tts to meaning text; text comes twice) https://chat.openai.com/c/dff0d3b0-86d4-4ed0-93af-e8272bccfaa5
@@ -1284,6 +1292,7 @@ class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
   @override
   Widget build(BuildContext context) {
     // Theme.of(context).primaryColor.withOpacity(0.009),
+    final textSize = ref.watch(textSizeProvider);
     return IntrinsicWidth(
       child: Container(
         // height: 50,
@@ -1321,7 +1330,7 @@ class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
             // Conditional rendering of pause button
             if (isSpeaking)
               IconButton(
-                icon: const Icon(Icons.pause, size: 30),
+                icon: Icon(Icons.pause, size: textSize),
                 onPressed: () {
                   widget.onStopPressed();
                   updateSpeakingState(false);
@@ -1549,7 +1558,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
-    final textSize = ref.watch(textSizeProvider) + 1;
+    final textSize = ref.watch(textSizeProvider);
     return Container(
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded
@@ -1591,6 +1600,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                   //     : Icon(Icons.arrow_drop_down),
                   Icon(
                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
+                    size: textSize + 1,
                   ),
                   Row(
                     children: [
@@ -1598,7 +1608,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                         MyExpansionTile.defaultTitle,
                         textDirection: TextDirection.rtl,
                         style: TextStyle(
-                          fontSize: textSize, // Adjust the font size
+                          fontSize: textSize + 1, // Adjust the font size
                           // fontWeight: FontWeight.bold, // Adjust the font weight
                           // color: currentTheme
                           //     .primaryColor, // Adjust the text color
@@ -1607,11 +1617,11 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                       const SizedBox(
                         width: 6,
                       ),
-                      const Icon(
+                      Icon(
                         Icons.book,
                         // color: Colors.blue.withOpacity(0.9),
                         // color: Theme.of(context).primaryColor.withOpacity(0.3),
-                        size: 20.0,
+                        size: textSize + 1,
                       ),
                     ],
                   ),

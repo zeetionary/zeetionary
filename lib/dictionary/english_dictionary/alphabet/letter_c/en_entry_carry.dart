@@ -1067,7 +1067,7 @@ class EnglishEntrycarry extends StatelessWidget {
                                         text:
                                             "The war was carried into enemy territory."),
                                     ExampleSentenceKurdish(
-                                        text: "جەنگەکە بردرایە ناوچەی دووژمن."),
+                                        text: "جەنگەکە بردرایە ناوچەی دوژمن."),
                                   ],
                                 ),
                               ),

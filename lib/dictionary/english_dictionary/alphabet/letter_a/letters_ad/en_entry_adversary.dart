@@ -111,7 +111,7 @@ class EnglishEntryadversary extends StatelessWidget {
 کوردی: دوژمن، نەیار، ھەڤرک، گاڤبەر، ناحەز، ڕقەبەر، دژبەر، دژەون، بەرھەڵست، ڕکەبەر
 
 
-١. (ناو) کەسێک کە دووژمن یان ڕکابەرتە"""),
+١. (ناو) کەسێک کە دوژمن یان ڕکابەرتە"""),
                           Row(
                             children: [
                               const Expanded(

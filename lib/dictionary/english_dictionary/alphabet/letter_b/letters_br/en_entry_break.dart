@@ -1994,7 +1994,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                             "The enemy were unable to break the code (= understand it and so make it useless)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دووژمن نەیانتوانی واتای کۆدەکە بزانن."),
+                                            "دوژمن نەیانتوانی واتای کۆدەکە بزانن."),
                                   ],
                                 ),
                               ),

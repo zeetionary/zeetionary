@@ -159,7 +159,7 @@ class EnglishEntrybazooka extends StatelessWidget {
                                             "He knocked out an enemy tank with his bazooka."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تانکێکی دووژمنی تەقاندەوە بە دژەتانکەکەی."),
+                                            "تانکێکی دوژمنی تەقاندەوە بە دژەتانکەکەی."),
                                   ],
                                 ),
                               ),

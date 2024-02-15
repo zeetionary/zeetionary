@@ -361,7 +361,7 @@ class EnglishEntryattack extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) ھێرشێک بۆ سەر دووژمن لە جەنگدا"""),
+٢. (ناو) ھێرشێک بۆ سەر دوژمن لە جەنگدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -667,7 +667,7 @@ class EnglishEntryattack extends StatelessWidget {
                                             "Enemy forces attacked at night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھێزەکانی دووژمن لە شەودا ھێرشیان کرد."),
+                                            "ھێزەکانی دوژمن لە شەودا ھێرشیان کرد."),
                                   ],
                                 ),
                               ),

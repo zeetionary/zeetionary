@@ -243,7 +243,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                             "Enemy advances had forced them to retreat into the mountains."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
+                                            "پێشڕەویی دوژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
                                   ],
                                 ),
                               ),

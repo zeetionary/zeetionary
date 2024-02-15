@@ -152,7 +152,7 @@ class EnglishEntryalien extends StatelessWidget {
                                             "During the war, he was imprisoned as an enemy alien."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
+                                            "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دوژمن زیندانی کرا."),
                                   ],
                                 ),
                               ),

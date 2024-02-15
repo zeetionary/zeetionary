@@ -460,7 +460,7 @@ class EnglishEntryarm extends StatelessWidget {
                                             "The country was arming against the enemy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وڵاتەکە خۆی چەکدار دەکرد دژ بە دووژمنەکەی."),
+                                            "وڵاتەکە خۆی چەکدار دەکرد دژ بە دوژمنەکەی."),
                                   ],
                                 ),
                               ),

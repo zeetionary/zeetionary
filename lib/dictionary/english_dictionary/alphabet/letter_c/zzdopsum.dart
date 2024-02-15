@@ -192,8 +192,9 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: 
-
-١. (ھاوەڵناو) پێنناسە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +237,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),

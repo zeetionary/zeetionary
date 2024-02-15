@@ -3,52 +3,136 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryadvice - replace speakAdvice - replace advice - /ədˈvaɪs/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryadvice extends StatelessWidget {
-  EnglishEntryadvice({super.key});
+class EnglishEntrychariot extends StatelessWidget {
+  // blank divider
+  EnglishEntrychariot({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvice(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvice
+  Future<void> speakchariot(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chariot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvi4986(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvice
+  Future<void> speakchariots1(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ask your teacher's advice on how to prepare for the exam."); // DOPSUM: CHANGE TEXT
+        "speakchariots111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv64187(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvice
+  Future<void> speakchariots2(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Let me give you a piece of advice."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchariots200"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdvice(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdvice
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advice"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchariots3(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots4(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots5(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots6(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots7(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots8(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots9(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots10(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots11(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots12(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchariots13(String languageCode) async {
+    // DOPSUM: CHANGE speakchariot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchariots1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -65,24 +149,22 @@ class EnglishEntryadvice extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advice"), // Find /ədˈvaɪs/
+                            EntryTitle(word: "chariot"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ədˈvaɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃæriət/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvice("en-GB"),
+                              onPressed: () => speakchariot("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ədˈvaɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃæriət/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvice("en-US"),
+                              onPressed: () => speakchariot("en-US"),
                             ),
                           ],
                         ),
@@ -109,9 +191,9 @@ class EnglishEntryadvice extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئامۆژگاری، شیرەت، پەند، نەسێحەت، ڕاسپاردە، ڕا، بۆچوون، پرس‌وڕا، ڕاوێژ (کاری)، پێشنیار، ھەواڵ، ئاگاداری
+کوردی: ئەڕابە، گالیسکە
 
-١. (ھاوەڵناو) بۆچوونێک یان پێشنیارێک لەسەر ئەوەی کەسێک دەبێت چی بکات لە بارودۆخێک"""),
+١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -119,52 +201,20 @@ class EnglishEntryadvice extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Ask your teacher's advice on how to prepare for the exam."),
+                                            "speakchariots111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە."),
+                                        text: "رستە_رستە_رستە_رستە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chariot", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvi4986("en-GB"),
+                                    onPressed: () => speakchariots1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvi4986(
-                                        // REPLACE: advice /ədˈvaɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let me give you a piece of advice."),
-                                    ExampleSentenceKurdish(
-                                        text: "با کەمێک ئامۆژگاریت بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAdv64187("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv64187(
-                                        // REPLACE: advice /ədˈvaɪs/
-                                        "en-US"),
+                                    onPressed: () => speakchariots1("en-US"),
                                   ),
                                 ],
                               ),
@@ -175,21 +225,28 @@ class EnglishEntryadvice extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -245,8 +302,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: advice (derived forms: advices)
-1. A recommendation or proposal for an appropriate course of action
+- Noun: chariot (Derived forms: chariots)
+1. A light four-wheel horse-drawn ceremonial carriage
+ 
+2. A two-wheeled horse-drawn battle vehicle; used in war and races in ancient Egypt and Greece and Rome
+
+- Verb: chariot (Derived forms: chariots, charioting, charioted)
+1. Transport in a chariot
+ 
+2. Ride in a chariot
 """,
   );
 
@@ -275,12 +339,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Q6w9yrKT_NU?t=',
+    startSeconds: 20,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ltOkMlHrGPc',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/dw_7nYDjHnw',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -304,8 +393,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CYvjC94jDu4',
-    startSeconds: 32,
+    videoId: 'https://youtu.be/kfWKn7hpUZ4?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -329,8 +418,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'covxjhXsCi8',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/H3_mVryqXpU?t=',
+    startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -354,8 +443,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TI-ocV7OeD0',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
+    startSeconds: 397,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -379,8 +468,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'wuVW5GiKleE',
-    startSeconds: 64,
+    videoId: 'https://youtu.be/_TWbD3MKfMI?t=',
+    startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -404,8 +493,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'cGVhE4kJLjI',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/YkS1U5lfSRw?t=',
+    startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -429,8 +518,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'n01uiZY0Gd8',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/2o9Qm0Eo1vo?t=',
+    startSeconds: 333,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,54 +539,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sAJkduqFnKo',
-    startSeconds: 251,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DMPSqF96Mlg',
-    startSeconds: 6,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

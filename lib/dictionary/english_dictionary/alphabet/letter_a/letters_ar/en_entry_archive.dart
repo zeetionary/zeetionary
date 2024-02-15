@@ -173,7 +173,7 @@ class EnglishEntryarchive extends StatelessWidget {
                                             "The BBC's archives are bulging with material."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەرشیفی بی بی سی پڕە لە زانیاری."),
+                                            "ئەرشیفی بی‌بی‌سی پڕە لە زانیاری."),
                                   ],
                                 ),
                               ),

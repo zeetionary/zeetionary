@@ -3,84 +3,138 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrybroadcast extends StatelessWidget {
-// blank divider
-  EnglishEntrybroadcast({super.key});
-// blank divider
+class EnglishEntrycharm extends StatelessWidget {
+  // blank divider
+  EnglishEntrycharm({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroadcast(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharm(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broadcast"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charm"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most of the programmes are broadcast in English."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbroadcasts2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharms1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The BBC began broadcasting in 1922."); // DOPSUM: CHANGE TEXT
+        .speak("He was a man of great charm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharms2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't like to broadcast the fact that my father owns the company."); // DOPSUM: CHANGE TEXT
+        "He oozes charm, but I wouldn't trust him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharms3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We watched a live broadcast of the speech."); // DOPSUM: CHANGE TEXT
+        "The area is a little run-down, but that's just part of its charm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharms4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The evening news broadcasts are very different today than they were 25 years ago."); // DOPSUM: CHANGE TEXT
+        "The town still retains a lot of its old-world charm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharms5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He was unable to resist her charms."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They do not own a major television broadcast network."); // DOPSUM: CHANGE TEXT
+        "Many women had succumbed to his charms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharms7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He keeps a rabbit's paw as a lucky charm."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He was charmed by her beauty and wit."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He charmed his mother into letting him have his own way."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharms1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharms1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharms1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharms13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharm
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharms1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +157,22 @@ class EnglishEntrybroadcast extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broadcast"),
+                            EntryTitle(word: "charm"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɔːdkɑːst/"),
+                            const IPAofEnglish(text: "IpaUK: /tʃɑːm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroadcast("en-GB"),
+                              onPressed: () => speakcharm("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɔːdkæst/"),
+                            const IPAofEnglish(text: "IpaUS: /tʃɑːrm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroadcast("en-US"),
+                              onPressed: () => speakcharm("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +185,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,33 +199,30 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پرۆگرام، بەرنامە، بڵاوکردنەوە، وەشان، بەرنامەی تەلەفزیۆنی یان ڕادیۆیی
+کوردی: جوانی، دڵڕفێنی، چەلەنگی، سەرنج‌ڕاکێشی،	جادوو، نێڕەنگ، ئەفسوون، تەلەسم، دێوبەند، نووشتە، چاچۆل 
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"),
+                              text: "١. (ناو) جوانی و دڵڕفێنی"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the programmes are broadcast in English."),
+                                        text: "He was a man of great charm."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن."),
+                                        text: "پیاوێکی دڵڕفێنەر بوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcast" as
+                              const CustomSizedBoxForTTS(), // With short examples define "charm", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts1("en-GB"),
+                                    onPressed: () => speakcharms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts1("en-US"),
+                                    onPressed: () => speakcharms1("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,10 +236,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The BBC began broadcasting in 1922."),
+                                            "He oozes charm, but I wouldn't trust him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بی‌بی‌سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد."),
+                                            "سەرنجڕاکێشی لێدەبارێت، بەڵام متمانەی پێ ناکەم."),
                                   ],
                                 ),
                               ),
@@ -196,10 +247,77 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts2("en-GB"),
+                                    onPressed: () => speakcharms2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts2("en-US"),
+                                    onPressed: () => speakcharms2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The area is a little run-down, but that's just part of its charm."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ناوچەکە کەمێک شپرزەیە، بەڵام ئەوە بەشێکە لە جوانییەکەی."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharms3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharms3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The town still retains a lot of its old-world charm."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "شارۆچکەکە هێشتا ژمارەیەکی زۆر لە جوانییە کۆنەکەی پاراستووە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharms4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharms4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -208,7 +326,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) وتنی شتێک بە ژمارەیەکی زۆر خەڵک"),
+                                  "٢. (ناو) تایبەتمەندییەک یان خاسیەتێک کە سەرنجڕاکێشە"),
                           Row(
                             children: [
                               const Expanded(
@@ -216,10 +334,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I don't like to broadcast the fact that my father owns the company."),
+                                            "He was unable to resist her charms."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە."),
+                                            "نەیدەتوانی بەرگەی دڵڕفێنەرییەکەی بگرێت ."),
                                   ],
                                 ),
                               ),
@@ -227,10 +345,38 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts3("en-GB"),
+                                    onPressed: () => speakcharms5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts3("en-US"),
+                                    onPressed: () => speakcharms5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many women had succumbed to his charms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ژن کەوتبوونە داوی جوانییەکەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharms6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharms6("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,7 +384,8 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) پەخشی تەلەفیزیۆن یان ڕادیۆیی"),
+                              text:
+                                  "٣. (ناو) شتێکی بچووک کە لە ملوانکەیەک یان دەستبەندێک دەبەسترێت و باوەڕ وایە بەختهێنەرە"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,10 +393,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We watched a live broadcast of the speech (= one shown at the same time as the speech was made)."),
+                                            "He keeps a rabbit's paw as a lucky charm."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد."),
+                                            "چنگە کەروێشکێکی پاراستووە وەک بەختهێنەرێک."),
                                   ],
                                 ),
                               ),
@@ -257,10 +404,41 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts4("en-GB"),
+                                    onPressed: () => speakcharms7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts4("en-US"),
+                                    onPressed: () => speakcharms7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) دڵخۆشکردن یان سەرنجڕاکێشانی کەسێک بۆ ئەوەی وای لێ بکەیت ئەوە بکات کە دەتەوێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was charmed by her beauty and wit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵبەستە بوو بە جوانی و داناییەکەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharms8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharms8("en-US"),
                                   ),
                                 ],
                               ),
@@ -274,10 +452,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The evening news broadcasts are very different today than they were 25 years ago."),
+                                            "He charmed his mother into letting him have his own way."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
+                                            "دایکی قایلکرد کە ئەوە بکات کە خۆی دەیەوێت."),
                                   ],
                                 ),
                               ),
@@ -285,38 +463,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts5("en-GB"),
+                                    onPressed: () => speakcharms9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They do not own a major television broadcast network."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts6("en-US"),
+                                    onPressed: () => speakcharms9("en-US"),
                                   ),
                                 ],
                               ),
@@ -332,13 +482,13 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -348,6 +498,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -403,21 +554,30 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcast (derived forms: broadcasts)
-1. Message that is transmitted by radio or television
+- Noun: charm (Derived forms: charms)
+1. Attractiveness that interests, pleases or stimulates (= appeal, appealingness)
+"his smile was part of his charm to her";
  
-2. A radio or television show (= program [N. Amer], programme [Brit, Cdn])
-"did you see his broadcast last night?";
-
-- Verb: broadcast (derived forms: broadcasted, broadcast, broadcasts, broadcasting)
-1. (broadcast medium) broadcast over the airwaves, as in radio or television (= air, send, beam, transmit)
-"We cannot broadcast this X-rated song";
-
-2. (farming) sow over a wide area, especially by hand
-"broadcast seeds"
+2. A verbal formula believed to have magical force (= spell, magic spell, magical spell)
+"inscribed around its base is a charm in Balinese";
  
-3. Cause to become widely known (= circulate, circularize, circularise [Brit], distribute, disseminate, propagate, spread, diffuse, disperse, pass around)
-"broadcast the news";
+3. Something believed to bring good luck (= good luck charm)
+ 
+4. (physics) one of the six flavours of quark, the third most massive of all quarks
+ 
+5. A small trinket on a bracelet or necklace
+
+- Verb: charm (Derived forms: charming, charms, charmed) 
+1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], captivate, beguile, fascinate, bewitch, entrance, enchant)
+"She charmed all the men's hearts";
+ 
+2. Control by magic spells, as by practising witchcraft (= becharm [archaic])
+"He has led a charmed life (= he has been lucky even in dangerous or difficult situations).";
+
+3. Protect through supernatural powers or charms
+ 
+4. Induce into action by using one's charm (= influence, tempt)
+"She charmed him into giving her all his money";
 """,
   );
 
@@ -446,12 +606,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/4KkpbFKBaKA?t=',
+    startSeconds: 26,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LaCJBk4892c',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/Jk7NYEhai0g?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +660,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xo4cjLhUXIw',
-    startSeconds: 32,
+    videoId: 'https://youtu.be/QEbYo07jLoY?t=',
+    startSeconds: 932,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +685,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tuJBpFbty2I',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/2bplCvAM2Kg?t=',
+    startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +710,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kFrBfJKng_Y',
-    startSeconds: 1310,
+    videoId: 'https://youtu.be/BoP86oboAdI?t=',
+    startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +735,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'r9cLluDKIhk',
-    startSeconds: 583,
+    videoId: 'https://youtu.be/RyeTuXdfn7s?t=',
+    startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +760,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IgF3OX8nT0w',
-    startSeconds: 1068,
+    videoId: 'https://youtu.be/fJXrvl4KjWM?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +785,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gghRXOXY820',
-    startSeconds: 577,
+    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -616,131 +801,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Utdmrc_QJPQ',
-    startSeconds: 66,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pf1LQ8ZkLPU',
-    startSeconds: 24,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SQbQTv3aMkU',
-    startSeconds: 41,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0HXwJVTZxNI',
-    startSeconds: 15,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2klmuggOElE',
-    startSeconds: 175,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

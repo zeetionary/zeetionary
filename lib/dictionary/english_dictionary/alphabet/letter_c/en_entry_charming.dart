@@ -3,80 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrybroadcaster extends StatelessWidget {
-// blank divider
-  EnglishEntrybroadcaster({super.key});
-// blank divider
+class EnglishEntrycharming extends StatelessWidget {
+  // blank divider
+  EnglishEntrycharming({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroadcaster(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharming(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broadcaster"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charming"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is a writer and broadcaster on environmental matters."); // DOPSUM: CHANGE TEXT
+        "The cottage is tiny, but it's charming."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She's a charming person."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharmings3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("What a charming name."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharmings4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("What a charming street this is."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharmings5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."); // DOPSUM: CHANGE TEXT
+        "They left me to tidy it all up myself. Charming, wasn't it?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharmings600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharmings700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharmings800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharmings900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakcharmings10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharmings1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharmings11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharmings1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharmings12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharmings1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharmings13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharming
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharmings1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -99,23 +151,22 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broadcaster"),
+                            EntryTitle(word: "charming"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˈbrɔːdkɑːstə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɑːmɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroadcaster("en-GB"),
+                              onPressed: () => speakcharming("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɔːdkæstər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɑːrmɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroadcaster("en-US"),
+                              onPressed: () => speakcharming("en-US"),
                             ),
                           ],
                         ),
@@ -128,7 +179,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -142,10 +193,10 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بێژەر، پەیام‌بێژ، نووچەڤان، پێشکەش‌کار
+کوردی: جوان، نازدار، نازەنین، دڵبەر، دڵڕفێن، سەرنج‌ڕاکێش، خوێن‌شیرین
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ"),
+                              text: "١. (ھاوەڵناو) زۆر دڵڕفێنەر و سەرنجڕاکێش"),
                           Row(
                             children: [
                               const Expanded(
@@ -153,42 +204,36 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is a writer and broadcaster on environmental matters."),
+                                            "The cottage is tiny, but it's charming."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان."),
+                                            "کووخەکە بچووکە، بەڵام دڵڕفێنەرە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcaster" as
+                              const CustomSizedBoxForTTS(), // With short examples define "charming", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcasters1("en-GB"),
+                                    onPressed: () => speakcharmings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcasters1("en-US"),
+                                    onPressed: () => speakcharmings1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) کۆمپانیا یان دەزگای پەخش"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."),
+                                        text: "She's a charming person."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "بی‌بی‌سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
+                                        text: "کچێکی نازدارە."),
                                   ],
                                 ),
                               ),
@@ -196,12 +241,105 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcasters2("en-GB"),
+                                    onPressed: () => speakcharmings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcasters2("en-US"),
+                                    onPressed: () => speakcharmings2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text: "What a charming name."),
+                                            ExampleSentenceKurdish(
+                                                text: "چی ناوێکی جوانە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharmings3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharmings3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "What a charming street this is."),
+                                            ExampleSentenceKurdish(
+                                                text: "چی شەقامێکی دڵبەرە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcharmings4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcharmings4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) پیشاندانی ئەوەی کە بۆچوونێکی نزمت هەیە بۆ هەڵسوکەوتی کەسێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They left me to tidy it all up myself. Charming, wasn't it?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە جێیان هێشتم کە هەمووی بۆ خۆم بە تەنها پاکبکمەوە. سەرنجڕاکێش بوو، وانییە؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharmings5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharmings5("en-US"),
                                   ),
                                 ],
                               ),
@@ -217,12 +355,12 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -233,6 +371,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -288,10 +427,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcaster (derived forms: broadcasters)
-1. Someone who broadcasts on radio or television
+- Adjective: charming 
+1. Pleasing or delighting
+"endowed with charming manners"; "a charming little cottage"; "a charming personality"
  
-2. A mechanical device for scattering something (seed, fertilizer or sand etc.) in all directions (= spreader)
+2. Possessing or using or characteristic of or appropriate to supernatural powers (= magic, magical, sorcerous, witching, wizard, wizardly)
+"charming incantations";
 """,
   );
 
@@ -320,12 +461,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/4qNMxjxr70s?t=',
+    startSeconds: 113,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_2ThNd8DBEI',
-    startSeconds: 399,
+    videoId: 'https://youtu.be/nQ-Ua6NYago?t=',
+    startSeconds: 659,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -349,8 +515,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LCF05r3CSME',
-    startSeconds: 900,
+    videoId: 'https://youtu.be/-ocql0O5SAU?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -374,8 +540,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eKYf62gcNDU',
-    startSeconds: 47,
+    videoId: 'https://youtu.be/rhkkCDTkcvI?t=',
+    startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -399,8 +565,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OHOkdEBpwDc',
-    startSeconds: 424,
+    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -424,8 +590,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pq_aSGfEcYE',
-    startSeconds: 473,
+    videoId: 'https://youtu.be/55XJ1ObZKaM?t=',
+    startSeconds: 1258,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -449,8 +615,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3MQ2a032OUE',
-    startSeconds: 297,
+    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    startSeconds: 1595,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +640,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xR7qcezLcXI',
-    startSeconds: 290,
+    videoId: 'https://youtu.be/6DYgImG1CKo?t=',
+    startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -495,104 +661,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6vHEJL-RVMk',
-    startSeconds: 525,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'w8KQjZaqqVs',
-    startSeconds: 88,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7CkTkr-k9vI',
-    startSeconds: 26,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'w5-xBO_9BxQ',
-    startSeconds: 4,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end broadcaster
+// end WORD_WEB

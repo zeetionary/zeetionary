@@ -3,80 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrybroadcaster extends StatelessWidget {
-// blank divider
-  EnglishEntrybroadcaster({super.key});
-// blank divider
+class EnglishEntrychartered extends StatelessWidget {
+  // blank divider
+  EnglishEntrychartered({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroadcaster(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartered(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broadcaster"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chartered"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds1(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is a writer and broadcaster on environmental matters."); // DOPSUM: CHANGE TEXT
+        "I'm training to be a chartered accountant."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds2(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."); // DOPSUM: CHANGE TEXT
+        "They spent their annual holiday on a chartered yacht in the Caribbean."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds3(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchartereds300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds4(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchartereds400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds5(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchartereds500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds6(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchartereds600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasters7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcaster
+  Future<void> speakchartereds7(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasters77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchartereds700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchartereds8(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchartereds800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchartereds9(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchartereds900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchartereds10(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchartereds1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchartereds11(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchartereds1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchartereds12(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchartereds1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchartereds13(String languageCode) async {
+    // DOPSUM: CHANGE speakchartered
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchartereds1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -99,23 +150,22 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broadcaster"),
+                            EntryTitle(word: "chartered"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˈbrɔːdkɑːstə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɑːtəd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroadcaster("en-GB"),
+                              onPressed: () => speakchartered("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɔːdkæstər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɑːrtərd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroadcaster("en-US"),
+                              onPressed: () => speakchartered("en-US"),
                             ),
                           ],
                         ),
@@ -128,7 +178,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -142,10 +192,11 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بێژەر، پەیام‌بێژ، نووچەڤان، پێشکەش‌کار
+کوردی: ڕێدراو،	لێوەشاو،	خاوەن دەستوورنامە، دەستوورنامەدار،	بەکرێ‌دراو بۆ مەبەستێکی تایبەتی (فڕۆکە، کەشتی یان بەلەمێ)
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ"),
+                              text:
+                                  "١. (ھاوەڵناو) پەسەندکراو بەپێی یاساکانی دامەزراوەیەکی دانپێدانراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -153,23 +204,21 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is a writer and broadcaster on environmental matters."),
+                                            "I'm training to be a chartered accountant."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان."),
+                                            "ڕاهێنان دەکەم بۆ بوون بە ژمێریارێکی دانپێدانراو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcaster" as
+                              const CustomSizedBoxForTTS(), // With short examples define "chartered", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcasters1("en-GB"),
+                                    onPressed: () => speakchartereds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcasters1("en-US"),
+                                    onPressed: () => speakchartereds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -177,7 +226,8 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) کۆمپانیا یان دەزگای پەخش"),
+                              text:
+                                  "٢. (ھاوەڵناو) فڕۆکەیەک، کەشتییەک، یان بەلەمێک کە بەکرێگیردراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -185,10 +235,10 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."),
+                                            "They spent their annual holiday on a chartered yacht in the Caribbean."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بی‌بی‌سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
+                                            "پشووی ساڵانەیان لەسەر یەختێکی کرێ بەسەربرد لە کاریبی."),
                                   ],
                                 ),
                               ),
@@ -196,12 +246,10 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcasters2("en-GB"),
+                                    onPressed: () => speakchartereds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcasters2("en-US"),
+                                    onPressed: () => speakchartereds2("en-US"),
                                   ),
                                 ],
                               ),
@@ -217,12 +265,12 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -233,6 +281,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -288,10 +337,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcaster (derived forms: broadcasters)
-1. Someone who broadcasts on radio or television
- 
-2. A mechanical device for scattering something (seed, fertilizer or sand etc.) in all directions (= spreader)
+- Adjective: chartered 
+1. Hired for the exclusive temporary use of a group of travellers (= hired, leased)
+"the chartered buses arrived on time"; "a chartered plane";
 """,
   );
 
@@ -320,12 +368,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/aqPvVxxIDr0?t=',
+    startSeconds: 26,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_2ThNd8DBEI',
-    startSeconds: 399,
+    videoId: 'https://youtu.be/Xc4YH0nv_90?t=',
+    startSeconds: 604,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -349,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LCF05r3CSME',
-    startSeconds: 900,
+    videoId: 'https://youtu.be/wDWE63o3qTk?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -374,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eKYf62gcNDU',
-    startSeconds: 47,
+    videoId: 'https://youtu.be/MY8AB1wYOtg?t=',
+    startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -399,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OHOkdEBpwDc',
-    startSeconds: 424,
+    videoId: 'https://youtu.be/69EVxLLhciQ?t=',
+    startSeconds: 549,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -424,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pq_aSGfEcYE',
-    startSeconds: 473,
+    videoId: 'https://youtu.be/6P7iBxLnMKU?t=',
+    startSeconds: 474,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -449,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3MQ2a032OUE',
-    startSeconds: 297,
+    videoId: 'https://youtu.be/8xzINLykprA?t=',
+    startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xR7qcezLcXI',
-    startSeconds: 290,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -495,104 +568,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6vHEJL-RVMk',
-    startSeconds: 525,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'w8KQjZaqqVs',
-    startSeconds: 88,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7CkTkr-k9vI',
-    startSeconds: 26,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'w5-xBO_9BxQ',
-    startSeconds: 4,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end broadcaster
+// end WORD_WEB

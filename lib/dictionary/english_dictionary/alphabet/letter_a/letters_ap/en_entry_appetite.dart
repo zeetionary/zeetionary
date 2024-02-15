@@ -205,7 +205,7 @@ class EnglishEntryappetite extends StatelessWidget {
                                             "The BBC recognizes the public appetite for serious information."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بی بی سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),
+                                            "بی‌بی‌سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),
                                   ],
                                 ),
                               ),

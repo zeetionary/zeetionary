@@ -2709,13 +2709,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charitably.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charity.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charlatan.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charming.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chart.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chartered.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_charter_flight.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chase.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6278,13 +6278,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-charitably": (_) => MaterialPage(child: EnglishEntrycharitably()),
   "/english-charity": (_) => MaterialPage(child: EnglishEntrycharity()),
   "/english-charlatan": (_) => MaterialPage(child: EnglishEntrycharlatan()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-charm": (_) => MaterialPage(child: EnglishEntrycharm()),
+  "/english-charming": (_) => MaterialPage(child: EnglishEntrycharming()),
+  "/english-chart": (_) => MaterialPage(child: EnglishEntrychart()),
+  "/english-charter": (_) => MaterialPage(child: EnglishEntrycharter()),
+  "/english-chartered": (_) => MaterialPage(child: EnglishEntrychartered()),
+  "/english-charter-flight": (_) => MaterialPage(child: EnglishEntrycharterflight()),
+  "/english-chase": (_) => MaterialPage(child: EnglishEntrychase()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

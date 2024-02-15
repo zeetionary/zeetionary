@@ -156,7 +156,7 @@ class EnglishEntrybbc extends StatelessWidget {
                                         text: "The BBC broadcasts every day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بی بی سی ھەموو ڕۆژێک پەخشدەکات."),
+                                            "بی‌بی‌سی ھەموو ڕۆژێک پەخشدەکات."),
                                   ],
                                 ),
                               ),

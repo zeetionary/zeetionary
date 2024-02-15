@@ -3,84 +3,138 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrybroadcast extends StatelessWidget {
-// blank divider
-  EnglishEntrybroadcast({super.key});
-// blank divider
+class EnglishEntrychart extends StatelessWidget {
+  // blank divider
+  EnglishEntrychart({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroadcast(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakchart(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broadcast"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chart"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharts1(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most of the programmes are broadcast in English."); // DOPSUM: CHANGE TEXT
+        "The charts of 138 patients with chronic heart failure were reviewed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The BBC began broadcasting in 1922."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbroadcasts3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharts2(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't like to broadcast the fact that my father owns the company."); // DOPSUM: CHANGE TEXT
+        "The accompanying chart shows data for eight countries."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharts3(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We watched a live broadcast of the speech."); // DOPSUM: CHANGE TEXT
+        "Gas prices have risen over the past decade, as shown in the chart below."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharts4(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The evening news broadcasts are very different today than they were 25 years ago."); // DOPSUM: CHANGE TEXT
+        "The maritime museum contains charts dating back to the 15th century."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharts5(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They do not own a major television broadcast network."); // DOPSUM: CHANGE TEXT
+        "The song topped the charts for three weeks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharts6(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The exhibition charts the history of the palace."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts7(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The book charts the history of the airport."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts8(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The local branch of the party is meeting to chart their election campaign."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts9(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Captain Cook charted the coast of New Zealand in 1768."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts10(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharts1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts11(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharts1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts12(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharts1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharts13(String languageCode) async {
+    // DOPSUM: CHANGE speakchart
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharts1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +157,22 @@ class EnglishEntrybroadcast extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broadcast"),
+                            EntryTitle(word: "chart"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɔːdkɑːst/"),
+                            const IPAofEnglish(text: "IpaUK: /tʃɑːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroadcast("en-GB"),
+                              onPressed: () => speakchart("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɔːdkæst/"),
+                            const IPAofEnglish(text: "IpaUS: /tʃɑːrt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroadcast("en-US"),
+                              onPressed: () => speakchart("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +185,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,11 +199,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پرۆگرام، بەرنامە، بڵاوکردنەوە، وەشان، بەرنامەی تەلەفزیۆنی یان ڕادیۆیی
+کوردی: نەخشە،	هێڵکاری، دیاگرام، چارت،	خشتە
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"),
+                              text: "١. (ناو) هێڵکارییەک کە زانیاری لەسەرە"),
                           Row(
                             children: [
                               const Expanded(
@@ -157,21 +210,21 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Most of the programmes are broadcast in English."),
+                                            "The charts of 138 patients with chronic heart failure were reviewed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن."),
+                                            "هێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان هەبوو پێداچوونەوەی بۆ کرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcast" as
+                              const CustomSizedBoxForTTS(), // With short examples define "chart", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts1("en-GB"),
+                                    onPressed: () => speakcharts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts1("en-US"),
+                                    onPressed: () => speakcharts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,10 +238,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The BBC began broadcasting in 1922."),
+                                            "The accompanying chart shows data for eight countries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بی‌بی‌سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد."),
+                                            "هێڵکارییە هاوپێچەکە داتای هەشت وڵات پیشان دەدات."),
                                   ],
                                 ),
                               ),
@@ -196,10 +249,68 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts2("en-GB"),
+                                    onPressed: () => speakcharts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts2("en-US"),
+                                    onPressed: () => speakcharts2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Gas prices have risen over the past decade, as shown in the chart below."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی گاز بەرزبووەتەوە لە دەیەی ڕابردوودا، وەک لە هێڵکارییەکەی خوارەوەدا پیشان دراوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharts3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) نەخشەیەکی وردی دەریا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The maritime museum contains charts dating back to the 15th century."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆزەخانە دەریاییەکە نەخشەی تێدایە کە بۆ سەدەی ١٥ دەگەڕێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -208,7 +319,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) وتنی شتێک بە ژمارەیەکی زۆر خەڵک"),
+                                  "٣. (ناو) لیستێک کە هەفتانە درووست دەکرێت و کە زۆرترین کۆپییان لێ درۆشراوە یان زۆرترین جار ستریم کراون"),
                           Row(
                             children: [
                               const Expanded(
@@ -216,10 +327,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I don't like to broadcast the fact that my father owns the company."),
+                                            "The song topped the charts for three weeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە."),
+                                            "گۆرانییەکە لە لیستی سەرەوەی چارتەکان بوو سێ هەفتە."),
                                   ],
                                 ),
                               ),
@@ -227,10 +338,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts3("en-GB"),
+                                    onPressed: () => speakcharts5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts3("en-US"),
+                                    onPressed: () => speakcharts5("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,7 +349,8 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) پەخشی تەلەفیزیۆن یان ڕادیۆیی"),
+                              text:
+                                  "٤. (کردار) تۆمارکردن یان شوێنکەوتنی گەشەی شتێک/کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,10 +358,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We watched a live broadcast of the speech (= one shown at the same time as the speech was made)."),
+                                            "The exhibition charts the history of the palace."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد."),
+                                            "پێشانگاکە مێژووی کۆشکەکە دەخاتە بەرچاو."),
                                   ],
                                 ),
                               ),
@@ -257,10 +369,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts4("en-GB"),
+                                    onPressed: () => speakcharts6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts4("en-US"),
+                                    onPressed: () => speakcharts6("en-US"),
                                   ),
                                 ],
                               ),
@@ -274,10 +386,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The evening news broadcasts are very different today than they were 25 years ago."),
+                                            "The book charts the history of the airport."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
+                                            "کتێبەکە مێژووی فڕۆکەخانەکە تۆمار دەکات."),
                                   ],
                                 ),
                               ),
@@ -285,16 +397,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts5("en-GB"),
+                                    onPressed: () => speakcharts7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts5("en-US"),
+                                    onPressed: () => speakcharts7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٥. (کردار) پلاندانانی زنجیرە کردارێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -302,10 +416,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They do not own a major television broadcast network."),
+                                            "The local branch of the party is meeting to chart their election campaign."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن."),
+                                            "لقە خۆجێیەکەی پارتەکە کۆدەبێتەوە بۆ داڕشتنی پلانی کەمپینی هەڵبژاردنیان."),
                                   ],
                                 ),
                               ),
@@ -313,10 +427,40 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts6("en-GB"),
+                                    onPressed: () => speakcharts8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts6("en-US"),
+                                    onPressed: () => speakcharts8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (کردار) کێشانی نەخشەی شوێنێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Captain Cook charted the coast of New Zealand in 1768."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاپتن کووک کەنارەوەکانی نیوزلەندای نەخشەکێشا لە ساڵی ١٧٦٨."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharts9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharts9("en-US"),
                                   ),
                                 ],
                               ),
@@ -332,13 +476,13 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -348,6 +492,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -403,21 +548,23 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcast (derived forms: broadcasts)
-1. Message that is transmitted by radio or television
+- Noun: chart (Derived forms: charts)
+1. A visual display of information (= graph)
  
-2. A radio or television show (= program [N. Amer], programme [Brit, Cdn])
-"did you see his broadcast last night?";
-
-- Verb: broadcast (derived forms: broadcasted, broadcast, broadcasts, broadcasting)
-1. (broadcast medium) broadcast over the airwaves, as in radio or television (= air, send, beam, transmit)
-"We cannot broadcast this X-rated song";
-
-2. (farming) sow over a wide area, especially by hand
-"broadcast seeds"
+2. A map designed to assist navigation by air or sea
  
-3. Cause to become widely known (= circulate, circularize, circularise [Brit], distribute, disseminate, propagate, spread, diffuse, disperse, pass around)
-"broadcast the news";
+3. (usually plural) a listing of best-selling recorded music
+"number 2 on the charts"
+
+- Verb: chart (Derived forms: charted, charting, charts)
+1. Make a chart of
+"chart the territory"
+ 
+2. Plan in detail
+"Bush is charting a course to destroy Saddam Hussein"
+ 
+3. Represent by means of a graph (= graph)
+"chart the data";
 """,
   );
 
@@ -446,12 +593,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/xLmtGk7Ymy8?t=',
+    startSeconds: 19,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LaCJBk4892c',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/NEp1K-TCmD8?t=',
+    startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +647,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xo4cjLhUXIw',
-    startSeconds: 32,
+    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +672,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tuJBpFbty2I',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/gFuEoxh5hd4?t=',
+    startSeconds: 593,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +697,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kFrBfJKng_Y',
-    startSeconds: 1310,
+    videoId: 'https://youtu.be/rwQeKSlY56Q?t=',
+    startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +722,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'r9cLluDKIhk',
-    startSeconds: 583,
+    videoId: 'https://youtu.be/Oc5g70Ma1Tc?t=',
+    startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +747,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IgF3OX8nT0w',
-    startSeconds: 1068,
+    videoId: 'https://youtu.be/xreA0vkHMBY?t=',
+    startSeconds: 1074,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +772,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gghRXOXY820',
-    startSeconds: 577,
+    videoId: 'https://youtu.be/QaG_Ld89wVI?t=',
+    startSeconds: 318,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -616,131 +788,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Utdmrc_QJPQ',
-    startSeconds: 66,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pf1LQ8ZkLPU',
-    startSeconds: 24,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SQbQTv3aMkU',
-    startSeconds: 41,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0HXwJVTZxNI',
-    startSeconds: 15,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2klmuggOElE',
-    startSeconds: 175,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

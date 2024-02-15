@@ -3,84 +3,137 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrybroadcast extends StatelessWidget {
-// blank divider
-  EnglishEntrybroadcast({super.key});
-// blank divider
+class EnglishEntrycharter extends StatelessWidget {
+  // blank divider
+  EnglishEntrycharter({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroadcast(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharter(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broadcast"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charter"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharters1(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most of the programmes are broadcast in English."); // DOPSUM: CHANGE TEXT
+        "He fought for a social charter of workers' rights."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The BBC began broadcasting in 1922."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbroadcasts3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharters2(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't like to broadcast the fact that my father owns the company."); // DOPSUM: CHANGE TEXT
+        "Minority rights are protected by the UN charter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharters3(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We watched a live broadcast of the speech."); // DOPSUM: CHANGE TEXT
+        "Education is one of the basic human rights written into the United Nations Charter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharters4(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The evening news broadcasts are very different today than they were 25 years ago."); // DOPSUM: CHANGE TEXT
+        "The BBC's charter was due to be renewed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharters5(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They do not own a major television broadcast network."); // DOPSUM: CHANGE TEXT
+        "They were given this right by royal charter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadcasts7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroadcast
+  Future<void> speakcharters6(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They flew to Athens and then chartered a boat to the island."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters7(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Special trains were chartered to take them to the festival."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters8(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Cambridge University Press was chartered in 1534."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters9(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharters900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters10(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharters1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters11(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharters1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters12(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharters1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcharters13(String languageCode) async {
+    // DOPSUM: CHANGE speakcharter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcharters1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +156,22 @@ class EnglishEntrybroadcast extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broadcast"),
+                            EntryTitle(word: "charter"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɔːdkɑːst/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɑːtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroadcast("en-GB"),
+                              onPressed: () => speakcharter("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɔːdkæst/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɑːrtər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroadcast("en-US"),
+                              onPressed: () => speakcharter("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +184,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,11 +198,11 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پرۆگرام، بەرنامە، بڵاوکردنەوە، وەشان، بەرنامەی تەلەفزیۆنی یان ڕادیۆیی
+کوردی: دەستوور، فەرمان، بڕیار، بڵاونامە، ڕاگەیاندن‌نامە، دەستوورنامە،	(فڕۆکە، کەشتی و هتد) کرێ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"),
+                                  "١. (ناو) دەستوورێکی نووسراو کە ئەو مافانە دیاری دەکات کە گرووپێک لە خەڵکی دەبێت هەیان بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -157,21 +210,21 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Most of the programmes are broadcast in English."),
+                                            "He fought for a social charter of workers' rights."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن."),
+                                            "تێکۆشا بۆ دەستوورێکی کۆمەڵایەتی مافەکانی کرێکاران."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcast" as
+                              const CustomSizedBoxForTTS(), // With short examples define "charter", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts1("en-GB"),
+                                    onPressed: () => speakcharters1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts1("en-US"),
+                                    onPressed: () => speakcharters1("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,10 +238,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The BBC began broadcasting in 1922."),
+                                            "Minority rights are protected by the UN charter."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بی‌بی‌سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد."),
+                                            "مافەکانی کەمینەکان لەلایەن دەستووری نەتەوە یەکگرتووەکانەوە پارێزراوە."),
                                   ],
                                 ),
                               ),
@@ -196,10 +249,40 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts2("en-GB"),
+                                    onPressed: () => speakcharters2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts2("en-US"),
+                                    onPressed: () => speakcharters2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) ڕێسا و ئامانجی دامەزراوەیەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Education is one of the basic human rights written into the United Nations Charter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندن یەکێک لە مافە سەرەتاییەکانی مرۆڤە کە لە دەستووری نەتەوە یەکگرتووەکان نووسراوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharters3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharters3("en-US"),
                                   ),
                                 ],
                               ),
@@ -208,7 +291,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) وتنی شتێک بە ژمارەیەکی زۆر خەڵک"),
+                                  "٣. (ناو) بەڵگەنامەیەکی فەرمی کە ڕایدەگەیەنێت کە حکومەتێک یان سەرکردەیەکی سیاسی ڕێگا بە دامەزراندنی دامەزراوەیەک، شارۆچکەیەک، یان زانکۆیەک دەدات و مافی خۆی پێ دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -216,10 +299,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I don't like to broadcast the fact that my father owns the company."),
+                                            "The BBC's charter was due to be renewed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە."),
+                                            "مۆڵەتی بی‌بی‌سی کاتی نوێکردنەوەی بوو."),
                                   ],
                                 ),
                               ),
@@ -227,10 +310,38 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts3("en-GB"),
+                                    onPressed: () => speakcharters4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts3("en-US"),
+                                    onPressed: () => speakcharters4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were given this right by royal charter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم مافەیان لەلایەن دەستوورنامەی شاهانەییەوە پێدرا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcharters5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcharters5("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,7 +349,8 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) پەخشی تەلەفیزیۆن یان ڕادیۆیی"),
+                              text:
+                                  "٤. (کردار) بەکرێگرتنی فڕۆکەیەک، بەلەمێک، هتد بۆ بەکارهێنانی خۆت"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,10 +358,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We watched a live broadcast of the speech (= one shown at the same time as the speech was made)."),
+                                            "They flew to Athens and then chartered a boat to the island."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد."),
+                                            "فڕین بۆ ئەسینا و دواتر بەلەمێکیان بەکرێ گرت بۆ دوورگەکە."),
                                   ],
                                 ),
                               ),
@@ -257,10 +369,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts4("en-GB"),
+                                    onPressed: () => speakcharters6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts4("en-US"),
+                                    onPressed: () => speakcharters6("en-US"),
                                   ),
                                 ],
                               ),
@@ -274,10 +386,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The evening news broadcasts are very different today than they were 25 years ago."),
+                                            "Special trains were chartered to take them to the festival."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
+                                            "شەمەندەفەری تایبەت بەکرێ گیردرا  بۆ بردنیان بۆ فیستیڤاڵەکە."),
                                   ],
                                 ),
                               ),
@@ -285,16 +397,19 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts5("en-GB"),
+                                    onPressed: () => speakcharters7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts5("en-US"),
+                                    onPressed: () => speakcharters7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) بە فەرمی دەستپێکردنی دامەزراوەیەکی تازە بە مۆڵەتپێدانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -302,10 +417,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They do not own a major television broadcast network."),
+                                            "Cambridge University Press was chartered in 1534."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن."),
+                                            "دەزگای چاپی زانکۆی کامبریج لە ساڵی ١٥٣٤ دامەزرا."),
                                   ],
                                 ),
                               ),
@@ -313,10 +428,10 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts6("en-GB"),
+                                    onPressed: () => speakcharters8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts6("en-US"),
+                                    onPressed: () => speakcharters8("en-US"),
                                   ),
                                 ],
                               ),
@@ -332,13 +447,13 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -348,6 +463,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -403,21 +519,18 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcast (derived forms: broadcasts)
-1. Message that is transmitted by radio or television
+- Noun: charter (Derived forms: charters) 
+1. A document incorporating an institution and specifying its rights; includes the articles of incorporation and the certificate of incorporation
  
-2. A radio or television show (= program [N. Amer], programme [Brit, Cdn])
-"did you see his broadcast last night?";
+2. A contract to hire or lease transportation
 
-- Verb: broadcast (derived forms: broadcasted, broadcast, broadcasts, broadcasting)
-1. (broadcast medium) broadcast over the airwaves, as in radio or television (= air, send, beam, transmit)
-"We cannot broadcast this X-rated song";
-
-2. (farming) sow over a wide area, especially by hand
-"broadcast seeds"
+- Verb: charter (Derived forms: chartered, chartering, charters)
+1. Hold under a lease or rental agreement; of goods and services (= rent, hire, lease)
  
-3. Cause to become widely known (= circulate, circularize, circularise [Brit], distribute, disseminate, propagate, spread, diffuse, disperse, pass around)
-"broadcast the news";
+2. Grant a charter to
+ 
+3. Engage for service under a term of contract (= lease, rent, hire, engage, take)
+"Let's charter a car";
 """,
   );
 
@@ -446,12 +559,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/nF2PRqKQ_lA?t=',
+    startSeconds: 49,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LaCJBk4892c',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/r0BZHuNTtHs',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +613,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xo4cjLhUXIw',
-    startSeconds: 32,
+    videoId: 'https://youtu.be/f5NJQiY9AuY?t=',
+    startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +638,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tuJBpFbty2I',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +663,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kFrBfJKng_Y',
-    startSeconds: 1310,
+    videoId: 'https://youtu.be/ua4oFVz39vM?t=',
+    startSeconds: 489,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +688,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'r9cLluDKIhk',
-    startSeconds: 583,
+    videoId: 'https://youtu.be/17WC8H_Ugm4?t=',
+    startSeconds: 418,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +713,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IgF3OX8nT0w',
-    startSeconds: 1068,
+    videoId: 'https://youtu.be/mqxgP8WlxJQ?t=',
+    startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +738,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gghRXOXY820',
-    startSeconds: 577,
+    videoId: 'https://youtu.be/XFJnWp1tAdU?t=',
+    startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -625,8 +763,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Utdmrc_QJPQ',
-    startSeconds: 66,
+    videoId: 'https://youtu.be/Xc4YH0nv_90?t=',
+    startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -641,106 +779,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pf1LQ8ZkLPU',
-    startSeconds: 24,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SQbQTv3aMkU',
-    startSeconds: 41,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0HXwJVTZxNI',
-    startSeconds: 15,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2klmuggOElE',
-    startSeconds: 175,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

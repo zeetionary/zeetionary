@@ -83,7 +83,7 @@ class EnglishEntryamenable extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈmiːnəbl/,  /əˈmenəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /əˈmiːnəbl/, /əˈmenəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmenable("en-US"),
                             ),
@@ -140,7 +140,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmenable48577(
-                                        // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
+                                        // REPLACE: amenable /əˈmiːnəbl/, /əˈmenəbl/
                                         "en-US"),
                                   ),
                                 ],
@@ -171,7 +171,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmenable635211(
-                                        // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
+                                        // REPLACE: amenable /əˈmiːnəbl/, /əˈmenəbl/
                                         "en-US"),
                                   ),
                                 ],

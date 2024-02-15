@@ -184,7 +184,7 @@ class EnglishEntryannexe extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnnex1204(
-                                        // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                        // REPLACE: annex /ˈæneks/, /əˈneks/
                                         "en-US"),
                                   ),
                                 ],

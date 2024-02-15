@@ -125,7 +125,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntibaɪˈɑːtɪk/,  /ˌæntaɪbaɪˈɑːtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAntibiotic("en-US"),
                             ),
@@ -183,7 +183,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAntibiotic958(
-                                        // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/,  /ˌæntaɪbaɪˈɑːtɪk/
+                                        // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/
                                         "en-US"),
                                   ),
                                 ],

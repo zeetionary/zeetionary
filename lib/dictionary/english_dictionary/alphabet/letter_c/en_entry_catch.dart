@@ -501,7 +501,7 @@ class EnglishEntrycatch extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kætʃ/,  /ketʃ/"),
+                            const IPAofEnglish(text: "IpaUS: /kætʃ/, /ketʃ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcatch("en-US"),
                             ),

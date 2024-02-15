@@ -125,7 +125,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnticlimax("en-US"),
                             ),
@@ -183,7 +183,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnticlimax843(
-                                        // REPLACE: anticlimax /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/
+                                        // REPLACE: anticlimax /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/
                                         "en-US"),
                                   ),
                                 ],

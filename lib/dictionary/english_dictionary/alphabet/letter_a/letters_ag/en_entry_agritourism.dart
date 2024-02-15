@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryagritourism - replace speakAgritourism - replace agritourism - /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/ - find Dopsum2
+// replace these: replace EnglishEntryagritourism - replace speakAgritourism - replace agritourism - /ˈæɡrɪtʊərɪzəm/, /ˈæɡrɪtɔːrɪzəm/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -65,14 +65,14 @@ class EnglishEntryagritourism extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "agritourism"), // Find /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/
+                                    "agritourism"), // Find /ˈæɡrɪtʊərɪzəm/, /ˈæɡrɪtɔːrɪzəm/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/"),
+                                    "IpaUK: /ˈæɡrɪtʊərɪzəm/, /ˈæɡrɪtɔːrɪzəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgritourism("en-GB"),
                             ),

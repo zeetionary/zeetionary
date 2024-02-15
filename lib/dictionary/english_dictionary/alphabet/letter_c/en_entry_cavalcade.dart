@@ -155,7 +155,7 @@ class EnglishEntrycavalcade extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˌkævlˈkeɪd/,  /ˈkævlkeɪd/"),
+                                text: "IpaUK: /ˌkævlˈkeɪd/, /ˈkævlkeɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcavalcade("en-GB"),
                             ),
@@ -164,7 +164,7 @@ class EnglishEntrycavalcade extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˌkævlˈkeɪd/,  /ˈkævlkeɪd/"),
+                                text: "IpaUS: /ˌkævlˈkeɪd/, /ˈkævlkeɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcavalcade("en-US"),
                             ),

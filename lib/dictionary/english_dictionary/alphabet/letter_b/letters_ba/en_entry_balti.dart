@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace balti - replace EnglishEntrybalti
 
-// replace speakBalti - /ˈbɔːlti/,  /ˈbɒlti/
+// replace speakBalti - /ˈbɔːlti/, /ˈbɒlti/
 
 enum TtsState { playing }
 
@@ -113,7 +113,7 @@ class EnglishEntrybalti extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈbɔːlti/,  /ˈbɒlti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈbɔːlti/, /ˈbɒlti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakBalti("en-GB"),
                             ),

@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryalgae - replace speakAlgae - replace algae - /ˈældʒiː/,  /ˈælɡiː/ - find Dopsum2
+// replace these: replace EnglishEntryalgae - replace speakAlgae - replace algae - /ˈældʒiː/, /ˈælɡiː/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,14 +66,14 @@ class EnglishEntryalgae extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "algae (the singular of algae is alga)"), // Find /ˈældʒiː/,  /ˈælɡiː/
+                                    "algae (the singular of algae is alga)"), // Find /ˈældʒiː/, /ˈælɡiː/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈældʒiː/,  /ˈælɡiː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈældʒiː/, /ˈælɡiː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAlgae("en-GB"),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryalgae extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈældʒiː/,  /ˈælɡiː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈældʒiː/, /ˈælɡiː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAlgae("en-US"),
                             ),
@@ -139,7 +139,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAlgae4524(
-                                        // REPLACE: algae /ˈældʒiː/,  /ˈælɡiː/
+                                        // REPLACE: algae /ˈældʒiː/, /ˈælɡiː/
                                         "en-US"),
                                   ),
                                 ],

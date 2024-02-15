@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace austere - replace EnglishEntryaustere
 
-// replace speakAustere - /ɒˈstɪə(r)/,  /ɔːˈstɪə(r)/ - find WORD_WEB
+// replace speakAustere - /ɒˈstɪə(r)/, /ɔːˈstɪə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -123,7 +123,7 @@ class EnglishEntryaustere extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ɒˈstɪə(r)/,  /ɔːˈstɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ɒˈstɪə(r)/, /ɔːˈstɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAustere("en-GB"),
                             ),

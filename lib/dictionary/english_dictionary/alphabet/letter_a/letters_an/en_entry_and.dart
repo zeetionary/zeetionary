@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryand - replace speakAnd - replace and - /ənd/,  /ən/,  /n/, strong form  /ænd/ - find Dopsum2
+// replace these: replace EnglishEntryand - replace speakAnd - replace and - /ənd/, /ən/, /n/, strong form  /ænd/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -135,7 +135,7 @@ class EnglishEntryand extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "and"), // Find /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "and"), // Find /ənd/, /ən/, /n/, strong form  /ænd/
                             // divvviiider
                           ],
                         ),
@@ -143,7 +143,7 @@ class EnglishEntryand extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ənd/,  /ən/,  /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ənd/, /ən/, /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAnd("en-GB"),
                             ),
@@ -153,7 +153,7 @@ class EnglishEntryand extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ənd/,  /ən/,  /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ənd/, /ən/, /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnd("en-US"),
                             ),
@@ -205,7 +205,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd15005(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -238,7 +238,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd5044(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -269,7 +269,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd2205(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -302,7 +302,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd0258(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -334,7 +334,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd8854(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -365,7 +365,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd5560(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -396,7 +396,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd22410(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],
@@ -429,7 +429,7 @@ class EnglishEntryand extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnd5570(
-                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
                                 ],

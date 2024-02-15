@@ -67,13 +67,13 @@ class EnglishEntryaesthetically extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aesthetically"), // Find /iːsˈθetɪkli/,  /esˈθetɪkli/
+                                    "aesthetically"), // Find /iːsˈθetɪkli/, /esˈθetɪkli/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /iːsˈθetɪkli/,  /esˈθetɪkli/"),
+                                text: "IpaUK: /iːsˈθetɪkli/, /esˈθetɪkli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAesthetically("en-GB"),
                             ),

@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryantitwo - replace speakantitwo - replace anti- - /ænti/,  /æntɪ/,  /ænˈtɪ/ - find Dopsum2
+// replace these: replace EnglishEntryantitwo - replace speakantitwo - replace anti- - /ænti/, /æntɪ/, /ænˈtɪ/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -110,8 +110,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anti-"), // Find /ænti/,  /æntɪ/,  /ænˈtɪ/
+                                word: "anti-"), // Find /ænti/, /æntɪ/, /ænˈtɪ/
                             // divvviiider
                           ],
                         ),
@@ -119,7 +118,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ænti/,  /æntɪ/,  /ænˈtɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ænti/, /æntɪ/, /ænˈtɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakantitwo("en-GB"),
                             ),
@@ -129,7 +128,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakantitwo("en-US"),
                             ),
@@ -183,7 +182,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakantitwo920(
-                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
                                         "en-US"),
                                   ),
                                 ],
@@ -214,7 +213,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakantitwo925(
-                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
                                         "en-US"),
                                   ),
                                 ],
@@ -247,7 +246,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakantitwo935(
-                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
                                         "en-US"),
                                   ),
                                 ],
@@ -280,7 +279,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakantitwo938(
-                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
                                         "en-US"),
                                   ),
                                 ],

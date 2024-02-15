@@ -126,7 +126,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnticlockwise("en-US"),
                             ),
@@ -179,7 +179,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnticlockwise856(
-                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
+                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
                                         "en-US"),
                                   ),
                                 ],
@@ -211,7 +211,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnticlockwise859(
-                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
+                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
                                         "en-US"),
                                   ),
                                 ],

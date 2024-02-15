@@ -125,7 +125,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntiˈsaɪkləʊn/,  /ˌæntaɪˈsaɪkləʊn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnticyclone("en-US"),
                             ),
@@ -178,7 +178,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnticyclone955(
-                                        // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/,  /ˌæntaɪˈsaɪkləʊn/
+                                        // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/
                                         "en-US"),
                                   ),
                                 ],

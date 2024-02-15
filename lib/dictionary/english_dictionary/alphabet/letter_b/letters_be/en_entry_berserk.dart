@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace berserk - replace EnglishEntryberserk
 
-// replace speakBerserk - /bəˈzɜːk/,  /bəˈsɜːk/
+// replace speakBerserk - /bəˈzɜːk/, /bəˈsɜːk/
 
 enum TtsState { playing }
 
@@ -111,7 +111,7 @@ class EnglishEntryberserk extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /bəˈzɜːk/,  /bəˈsɜːk/"),
+                                text: "IpaUK: /bəˈzɜːk/, /bəˈsɜːk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBerserk("en-GB"),
                             ),
@@ -120,7 +120,7 @@ class EnglishEntryberserk extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /bərˈzɜːrk/,  /bərˈsɜːrk/"),
+                                text: "IpaUS: /bərˈzɜːrk/, /bərˈsɜːrk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakBerserk("en-US"),
                             ),

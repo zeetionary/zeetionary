@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace auctioneer - replace EnglishEntryauctioneer
 
-// replace speakAuctioneer - /ˌɔːkʃəˈnɪə(r)/,  /ˌɒkʃəˈnɪə(r)/ - find WORD_WEB
+// replace speakAuctioneer - /ˌɔːkʃəˈnɪə(r)/, /ˌɒkʃəˈnɪə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -122,7 +122,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˌɔːkʃəˈnɪə(r)/,  /ˌɒkʃəˈnɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˌɔːkʃəˈnɪə(r)/, /ˌɒkʃəˈnɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAuctioneer("en-GB"),
                             ),

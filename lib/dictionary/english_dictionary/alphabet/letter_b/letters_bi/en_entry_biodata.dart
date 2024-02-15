@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace biodata - replace EnglishEntrybiodata
 
-// replace speakBiodata - /ˈbaɪəʊdeɪtə/,  /ˈbaɪəʊdɑːtə/
+// replace speakBiodata - /ˈbaɪəʊdeɪtə/, /ˈbaɪəʊdɑːtə/
 
 enum TtsState { playing }
 
@@ -110,7 +110,7 @@ class EnglishEntrybiodata extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbaɪəʊdeɪtə/,  /ˈbaɪəʊdɑːtə/"),
+                                text: "IpaUK: /ˈbaɪəʊdeɪtə/, /ˈbaɪəʊdɑːtə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBiodata("en-GB"),
                             ),
@@ -119,7 +119,7 @@ class EnglishEntrybiodata extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈbaɪəʊdeɪtə/,  /ˈbaɪəʊdætə/"),
+                                text: "IpaUS: /ˈbaɪəʊdeɪtə/, /ˈbaɪəʊdætə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakBiodata("en-US"),
                             ),

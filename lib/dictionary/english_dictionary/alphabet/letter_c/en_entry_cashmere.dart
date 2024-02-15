@@ -154,7 +154,7 @@ class EnglishEntrycashmere extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈkæʃmɪə(r)/,  /ˌkæʃˈmɪə(r)/"),
+                                text: "IpaUK: /ˈkæʃmɪə(r)/, /ˌkæʃˈmɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcashmere("en-GB"),
                             ),
@@ -163,7 +163,7 @@ class EnglishEntrycashmere extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkæʒmɪr/,  /ˈkæʃmɪr/"),
+                                text: "IpaUS: /ˈkæʒmɪr/, /ˈkæʃmɪr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcashmere("en-US"),
                             ),

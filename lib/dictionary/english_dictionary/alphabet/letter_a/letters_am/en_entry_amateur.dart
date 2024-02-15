@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamateur - replace speakAmateur - replace amateur - /ˈæmətə(r)/,  /ˈæmətʃə(r)/ - find Dopsum2
+// replace these: replace EnglishEntryamateur - replace speakAmateur - replace amateur - /ˈæmətə(r)/, /ˈæmətʃə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -77,14 +77,14 @@ class EnglishEntryamateur extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "amateur"), // Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
+                                    "amateur"), // Find /ˈæmətə(r)/, /ˈæmətʃə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæmətə(r)/,  /ˈæmətʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæmətə(r)/, /ˈæmətʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAmateur("en-GB"),
                             ),
@@ -94,7 +94,7 @@ class EnglishEntryamateur extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈæmətər/,  /ˈæmətʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈæmətər/, /ˈæmətʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmateur("en-US"),
                             ),
@@ -150,7 +150,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmateur44451(
-                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
                                 ],
@@ -182,7 +182,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmateur47955(
-                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
                                 ],
@@ -214,7 +214,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmateur44592(
-                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
                                 ],
@@ -246,7 +246,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmateur49555(
-                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
                                 ],

@@ -66,13 +66,13 @@ class EnglishEntryaftermath extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aftermath"), // Find /ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/
+                                    "aftermath"), // Find /ˈɑːftəmæθ/, /ˈɑːftəmɑːθ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/"),
+                                text: "IpaUK: /ˈɑːftəmæθ/, /ˈɑːftəmɑːθ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAftermath("en-GB"),
                             ),

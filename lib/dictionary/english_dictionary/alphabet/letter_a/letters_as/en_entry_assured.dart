@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryassured - replace speakAssured
 
-// replace assured - /əˈʃʊəd/,  /əˈʃɔːd/ - find WORD_WEB
+// replace assured - /əˈʃʊəd/, /əˈʃɔːd/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -114,7 +114,7 @@ class EnglishEntryassured extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "assured"), // Find /əˈʃʊəd/,  /əˈʃɔːd/
+                                word: "assured"), // Find /əˈʃʊəd/, /əˈʃɔːd/
                             // divvviiider
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntryassured extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˈʃʊəd/,  /əˈʃɔːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˈʃʊəd/, /əˈʃɔːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAssured("en-GB"),
                             ),

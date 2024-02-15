@@ -152,7 +152,7 @@ class EnglishEntryburka extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbʊəkə/,  /ˈbɜːkə/"),
+                                text: "IpaUK: /ˈbʊəkə/, /ˈbɜːkə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakburka("en-GB"),
                             ),

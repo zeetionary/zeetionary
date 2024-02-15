@@ -7,7 +7,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryAdopsum - replace speakApplicable
 
-// replace applicable - /əˈplɪkəbl/,  /ˈæplɪkəbl/ - find WORD_WEB
+// replace applicable - /əˈplɪkəbl/, /ˈæplɪkəbl/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -113,7 +113,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "applicable"), // Find /əˈplɪkəbl/,  /ˈæplɪkəbl/
+                                    "applicable"), // Find /əˈplɪkəbl/, /ˈæplɪkəbl/
                             // divvviiider
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˈplɪkəbl/,  /ˈæplɪkəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˈplɪkəbl/, /ˈæplɪkəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakApplicable("en-GB"),
                             ),
@@ -131,7 +131,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈæplɪkəbl/,  /əˈplɪkəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈæplɪkəbl/, /əˈplɪkəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakApplicable("en-US"),
                             ),
@@ -189,7 +189,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakApplicable646(
-                                        // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
+                                        // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
                                         "en-US"),
                                   ),
                                 ],
@@ -221,7 +221,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakApplicable648(
-                                        // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
+                                        // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
                                         "en-US"),
                                   ),
                                 ],

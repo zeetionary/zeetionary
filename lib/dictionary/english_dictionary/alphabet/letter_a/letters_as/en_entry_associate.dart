@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryassociate - replace speakAssociate
 
-// replace associate - /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/ - find WORD_WEB
+// replace associate - /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -119,7 +119,7 @@ class EnglishEntryassociate extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "associate"), // Find /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                    "associate"), // Find /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                             // divvviiider
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryassociate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAssociate("en-GB"),
                             ),
@@ -137,7 +137,7 @@ class EnglishEntryassociate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAssociate("en-US"),
                             ),
@@ -194,7 +194,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociate1135(
-                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
                                 ],
@@ -226,7 +226,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociate1136(
-                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
                                 ],
@@ -260,7 +260,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociate1139(
-                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
                                 ],
@@ -294,7 +294,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociate1140(
-                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
                                 ],
@@ -328,7 +328,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociate1143(
-                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
                                 ],
@@ -362,7 +362,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociate1147(
-                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
                                 ],

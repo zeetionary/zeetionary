@@ -112,7 +112,7 @@ class EnglishEntrybrooch extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /brəʊtʃ/,  /bruːtʃ/"),
+                                text: "IpaUS: /brəʊtʃ/, /bruːtʃ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbrooch("en-US"),
                             ),

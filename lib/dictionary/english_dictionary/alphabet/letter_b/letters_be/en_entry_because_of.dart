@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace because of - replace EnglishEntrybecauseof
 
-// replace speakBecauseof - /bɪˈkɒz əv/,  /bɪˈkʌz əv/
+// replace speakBecauseof - /bɪˈkɒz əv/, /bɪˈkʌz əv/
 
 enum TtsState { playing }
 
@@ -111,7 +111,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /bɪˈkɒz əv/,  /bɪˈkʌz əv/"),
+                                text: "IpaUK: /bɪˈkɒz əv/, /bɪˈkʌz əv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBecauseof("en-GB"),
                             ),
@@ -120,7 +120,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /bɪˈkɔːz əv/,  /bɪˈkʌz əv/"),
+                                text: "IpaUS: /bɪˈkɔːz əv/, /bɪˈkʌz əv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakBecauseof("en-US"),
                             ),

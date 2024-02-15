@@ -128,7 +128,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntiˌretrəʊˈvaɪrəl/,  /ˌæntaɪˌretrəʊˈvaɪrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAntiretroviral("en-US"),
                             ),
@@ -181,7 +181,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAntiretroviral1208(
-                                        // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/,  /ˌæntaɪˌretrəʊˈvaɪrəl/
+                                        // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/
                                         "en-US"),
                                   ),
                                 ],

@@ -112,7 +112,7 @@ class EnglishEntrybourgeois extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbʊəʒwɑː/,  /ˌbʊəˈʒwɑː/"),
+                                text: "IpaUK: /ˈbʊəʒwɑː/, /ˌbʊəˈʒwɑː/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbourgeois("en-GB"),
                             ),
@@ -121,7 +121,7 @@ class EnglishEntrybourgeois extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˌbʊrˈʒwɑː/,  /ˈbʊrʒwɑː/"),
+                                text: "IpaUS: /ˌbʊrˈʒwɑː/, /ˈbʊrʒwɑː/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbourgeois("en-US"),
                             ),

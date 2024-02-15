@@ -109,7 +109,7 @@ class EnglishEntrybulimia extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /buˈlɪmiə/,  /buˈliːmiə/"),
+                                text: "IpaUK: /buˈlɪmiə/, /buˈliːmiə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbulimia("en-GB"),
                             ),
@@ -118,7 +118,7 @@ class EnglishEntrybulimia extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /buˈlɪmiə/,  /buˈliːmiə/"),
+                                text: "IpaUS: /buˈlɪmiə/, /buˈliːmiə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbulimia("en-US"),
                             ),

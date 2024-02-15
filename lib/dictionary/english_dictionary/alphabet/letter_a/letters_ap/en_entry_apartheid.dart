@@ -5,7 +5,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryAdopsum - replace speakApartheid
 
-// replace apartheid - /əˈpɑːtaɪt/,  /əˈpɑːteɪt/ - find WORD_WEB
+// replace apartheid - /əˈpɑːtaɪt/, /əˈpɑːteɪt/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -110,7 +110,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "apartheid"), // Find /əˈpɑːtaɪt/,  /əˈpɑːteɪt/
+                                    "apartheid"), // Find /əˈpɑːtaɪt/, /əˈpɑːteɪt/
                             // divvviiider
                           ],
                         ),
@@ -118,7 +118,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˈpɑːtaɪt/,  /əˈpɑːteɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˈpɑːtaɪt/, /əˈpɑːteɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakApartheid("en-GB"),
                             ),
@@ -128,7 +128,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈpɑːrtaɪt/,  /əˈpɑːrteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈpɑːrtaɪt/, /əˈpɑːrteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakApartheid("en-US"),
                             ),
@@ -181,7 +181,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakApartheid1139(
-                                        // REPLACE: apartheid /əˈpɑːrtaɪt/,  /əˈpɑːrteɪt/
+                                        // REPLACE: apartheid /əˈpɑːrtaɪt/, /əˈpɑːrteɪt/
                                         "en-US"),
                                   ),
                                 ],

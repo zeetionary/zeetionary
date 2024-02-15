@@ -158,7 +158,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈkændɪdət/,  /ˈkændɪdeɪt/"),
+                                text: "IpaUK: /ˈkændɪdət/, /ˈkændɪdeɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcandidate("en-GB"),
                             ),
@@ -167,7 +167,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkændɪdət/,  /ˈkændɪdeɪt/"),
+                                text: "IpaUS: /ˈkændɪdət/, /ˈkændɪdeɪt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcandidate("en-US"),
                             ),

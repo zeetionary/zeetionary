@@ -163,7 +163,7 @@ class EnglishEntrycaramel extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkærəml/,  /ˈkɑːrml/"),
+                                text: "IpaUS: /ˈkærəml/, /ˈkɑːrml/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcaramel("en-US"),
                             ),

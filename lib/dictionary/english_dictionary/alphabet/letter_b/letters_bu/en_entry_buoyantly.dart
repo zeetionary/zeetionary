@@ -162,7 +162,7 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈbɔɪəntli/,  /ˈbuːjəntli/"),
+                                text: "IpaUS: /ˈbɔɪəntli/, /ˈbuːjəntli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbuoyantly("en-US"),
                             ),

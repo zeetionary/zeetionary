@@ -167,7 +167,7 @@ class EnglishEntrycaricature extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkærɪkətʃər/,  /ˈkærɪkətʃʊr/"),
+                                text: "IpaUS: /ˈkærɪkətʃər/, /ˈkærɪkətʃʊr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcaricature("en-US"),
                             ),

@@ -159,7 +159,7 @@ class EnglishEntrybusinessman extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbɪznəsmæn/,  /ˈbɪznəsmən/"),
+                                text: "IpaUK: /ˈbɪznəsmæn/, /ˈbɪznəsmən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbusinessman("en-GB"),
                             ),
@@ -168,7 +168,7 @@ class EnglishEntrybusinessman extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈbɪznəsmæn/,  /ˈbɪznəsmən/"),
+                                text: "IpaUS: /ˈbɪznəsmæn/, /ˈbɪznəsmən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbusinessman("en-US"),
                             ),

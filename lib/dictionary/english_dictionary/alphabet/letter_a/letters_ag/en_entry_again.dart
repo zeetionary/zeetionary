@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryagain - replace speakAgain - replace again - /əˈɡen/,  /əˈɡeɪn/ - find Dopsum2
+// replace these: replace EnglishEntryagain - replace speakAgain - replace again - /əˈɡen/, /əˈɡeɪn/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -99,14 +99,13 @@ class EnglishEntryagain extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "again"), // Find /əˈɡen/,  /əˈɡeɪn/
+                            EntryTitle(word: "again"), // Find /əˈɡen/, /əˈɡeɪn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /əˈɡen/,  /əˈɡeɪn/"),
+                                text: "IpaUK: /əˈɡen/, /əˈɡeɪn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgain("en-GB"),
                             ),
@@ -116,7 +115,7 @@ class EnglishEntryagain extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈɡen/,  /əˈɡeɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /əˈɡen/, /əˈɡeɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAgain("en-US"),
                             ),
@@ -169,7 +168,7 @@ class EnglishEntryagain extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAgain493(
-                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
                                         "en-US"),
                                   ),
                                 ],
@@ -199,7 +198,7 @@ class EnglishEntryagain extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAgai1822(
-                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
                                         "en-US"),
                                   ),
                                 ],
@@ -230,7 +229,7 @@ class EnglishEntryagain extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAgain156(
-                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
                                         "en-US"),
                                   ),
                                 ],
@@ -262,7 +261,7 @@ class EnglishEntryagain extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAga256(
-                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
                                         "en-US"),
                                   ),
                                 ],

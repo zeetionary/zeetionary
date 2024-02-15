@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryaluminium - replace speakAluminium - replace aluminium - /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/ - find Dopsum2
+// replace these: replace EnglishEntryaluminium - replace speakAluminium - replace aluminium - /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,14 +66,14 @@ class EnglishEntryaluminium extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aluminium"), // Find /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
+                                    "aluminium"), // Find /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAluminium("en-GB"),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAluminium("en-US"),
                             ),
@@ -141,7 +141,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAluminium55555(
-                                        // REPLACE: aluminium /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
+                                        // REPLACE: aluminium /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
                                         "en-US"),
                                   ),
                                 ],

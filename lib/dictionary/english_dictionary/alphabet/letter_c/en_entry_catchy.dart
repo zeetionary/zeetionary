@@ -163,7 +163,7 @@ class EnglishEntrycatchy extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkætʃi/,  /ˈketʃi/"),
+                                text: "IpaUS: /ˈkætʃi/, /ˈketʃi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcatchy("en-US"),
                             ),

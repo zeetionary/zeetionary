@@ -164,7 +164,7 @@ class EnglishEntryanybody extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈenibɑːdi/,  /ˈenibʌdi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈenibɑːdi/, /ˈenibʌdi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnybody("en-US"),
                             ),
@@ -306,7 +306,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnybody1059(
-                                        // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
+                                        // REPLACE: anybody /ˈenibɑːdi/, /ˈenibʌdi/
                                         "en-US"),
                                   ),
                                 ],

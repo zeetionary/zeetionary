@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamateurish - replace speakAmateurish - replace amateurish - /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/ - find Dopsum2
+// replace these: replace EnglishEntryamateurish - replace speakAmateurish - replace amateurish - /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,14 +66,14 @@ class EnglishEntryamateurish extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "amateurish"), // Find /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/
+                                    "amateurish"), // Find /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAmateurish("en-GB"),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryamateurish extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmateurish("en-US"),
                             ),
@@ -141,7 +141,7 @@ class EnglishEntryamateurish extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmateurish321(
-                                        // REPLACE: amateurish /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/
+                                        // REPLACE: amateurish /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/
                                         "en-US"),
                                   ),
                                 ],

@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryaspirin - replace speakAspirin
 
-// replace aspirin - /ˈæsprɪn/,  /ˈæspərɪn/ - find WORD_WEB
+// replace aspirin - /ˈæsprɪn/, /ˈæspərɪn/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -113,7 +113,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "aspirin"), // Find /ˈæsprɪn/,  /ˈæspərɪn/
+                                word: "aspirin"), // Find /ˈæsprɪn/, /ˈæspərɪn/
                             // divvviiider
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæsprɪn/,  /ˈæspərɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæsprɪn/, /ˈæspərɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAspirin("en-GB"),
                             ),
@@ -131,7 +131,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈæsprɪn/,  /ˈæspərɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈæsprɪn/, /ˈæspərɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAspirin("en-US"),
                             ),
@@ -186,7 +186,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAspirin814(
-                                        // REPLACE: aspirin /ˈæsprɪn/,  /ˈæspərɪn/
+                                        // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
                                         "en-US"),
                                   ),
                                 ],
@@ -216,7 +216,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAspirin815(
-                                        // REPLACE: aspirin /ˈæsprɪn/,  /ˈæspərɪn/
+                                        // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
                                         "en-US"),
                                   ),
                                 ],

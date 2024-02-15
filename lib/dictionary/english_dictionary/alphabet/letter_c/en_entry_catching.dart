@@ -163,7 +163,7 @@ class EnglishEntrycatching extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkætʃɪŋ/,  /ˈketʃɪŋ/"),
+                                text: "IpaUS: /ˈkætʃɪŋ/, /ˈketʃɪŋ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcatching("en-US"),
                             ),

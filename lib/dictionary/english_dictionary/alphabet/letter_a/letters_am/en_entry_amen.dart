@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamen - replace speakAmen - replace amen - /ɑːˈmen/,  /eɪˈmen/ - find Dopsum2
+// replace these: replace EnglishEntryamen - replace speakAmen - replace amen - /ɑːˈmen/, /eɪˈmen/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -64,8 +64,7 @@ class EnglishEntryamen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "amen"), // Find /ɑːˈmen/,  /eɪˈmen/
+                            EntryTitle(word: "amen"), // Find /ɑːˈmen/, /eɪˈmen/
                             // divvviiider
                           ],
                         ),
@@ -73,7 +72,7 @@ class EnglishEntryamen extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ɑːˈmen/,  /eɪˈmen/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ɑːˈmen/, /eɪˈmen/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAmen("en-GB"),
                             ),
@@ -83,7 +82,7 @@ class EnglishEntryamen extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /eɪˈmen/,  /ɑːˈmen/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /eɪˈmen/, /ɑːˈmen/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmen("en-US"),
                             ),
@@ -140,7 +139,7 @@ class EnglishEntryamen extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmen2411(
-                                        // REPLACE: amen /eɪˈmen/,  /ɑːˈmen/
+                                        // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
                                         "en-US"),
                                   ),
                                 ],
@@ -170,7 +169,7 @@ class EnglishEntryamen extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmen96552(
-                                        // REPLACE: amen /eɪˈmen/,  /ɑːˈmen/
+                                        // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
                                         "en-US"),
                                   ),
                                 ],

@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace bastard - replace EnglishEntrybastard
 
-// replace speakBastard - /ˈbɑːstəd/,  /ˈbæstəd/
+// replace speakBastard - /ˈbɑːstəd/, /ˈbæstəd/
 
 enum TtsState { playing }
 
@@ -112,7 +112,7 @@ class EnglishEntrybastard extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbɑːstəd/,  /ˈbæstəd/"),
+                                text: "IpaUK: /ˈbɑːstəd/, /ˈbæstəd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBastard("en-GB"),
                             ),

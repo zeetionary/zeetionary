@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace barista - replace EnglishEntrybarista
 
-// replace speakBarista - /bəˈriːstə/,  /bəˈrɪstə/
+// replace speakBarista - /bəˈriːstə/, /bəˈrɪstə/
 
 enum TtsState { playing }
 
@@ -110,7 +110,7 @@ class EnglishEntrybarista extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /bəˈriːstə/,  /bəˈrɪstə/"),
+                                text: "IpaUK: /bəˈriːstə/, /bəˈrɪstə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBarista("en-GB"),
                             ),
@@ -119,7 +119,7 @@ class EnglishEntrybarista extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /bəˈriːstə/,  /bəˈrɪstə/"),
+                                text: "IpaUS: /bəˈriːstə/, /bəˈrɪstə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakBarista("en-US"),
                             ),

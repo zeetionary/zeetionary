@@ -122,7 +122,7 @@ class EnglishEntryangst extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /æŋst/,  /ɑːŋst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /æŋst/, /ɑːŋst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAngst("en-US"),
                             ),
@@ -179,7 +179,7 @@ class EnglishEntryangst extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAngst250(
-                                        // REPLACE: angst /æŋst/,  /ɑːŋst/
+                                        // REPLACE: angst /æŋst/, /ɑːŋst/
                                         "en-US"),
                                   ),
                                 ],

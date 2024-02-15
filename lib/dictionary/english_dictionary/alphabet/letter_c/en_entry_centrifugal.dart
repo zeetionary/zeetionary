@@ -156,7 +156,7 @@ class EnglishEntrycentrifugal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˌsentrɪˈfjuːɡl/,  /senˈtrɪfjəɡl/"),
+                                    "IpaUK: /ˌsentrɪˈfjuːɡl/, /senˈtrɪfjəɡl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcentrifugal("en-GB"),
                             ),

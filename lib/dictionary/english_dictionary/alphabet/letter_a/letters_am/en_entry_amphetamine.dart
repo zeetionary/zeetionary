@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamphetamine - replace speakAmphetamine - replace amphetamine - /æmˈfetəmiːn/,  /æmˈfetəmɪn/ - find Dopsum2
+// replace these: replace EnglishEntryamphetamine - replace speakAmphetamine - replace amphetamine - /æmˈfetəmiːn/, /æmˈfetəmɪn/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -106,7 +106,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "amphetamine"), // Find /æmˈfetəmiːn/,  /æmˈfetəmɪn/
+                                    "amphetamine"), // Find /æmˈfetəmiːn/, /æmˈfetəmɪn/
                             // divvviiider
                           ],
                         ),
@@ -114,7 +114,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /æmˈfetəmiːn/,  /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /æmˈfetəmiːn/, /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAmphetamine("en-GB"),
                             ),
@@ -124,7 +124,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /æmˈfetəmiːn/,  /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /æmˈfetəmiːn/, /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmphetamine("en-US"),
                             ),
@@ -182,7 +182,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmphetamine450(
-                                        // REPLACE: amphetamine /æmˈfetəmiːn/,  /æmˈfetəmɪn/
+                                        // REPLACE: amphetamine /æmˈfetəmiːn/, /æmˈfetəmɪn/
                                         "en-US"),
                                   ),
                                 ],

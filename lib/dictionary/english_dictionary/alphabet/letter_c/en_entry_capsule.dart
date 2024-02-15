@@ -165,7 +165,7 @@ class EnglishEntrycapsule extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkæpsl/,  /ˈkæpsuːl/"),
+                                text: "IpaUS: /ˈkæpsl/, /ˈkæpsuːl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcapsule("en-US"),
                             ),

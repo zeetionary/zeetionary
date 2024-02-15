@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace baton - replace EnglishEntrybaton
 
-// replace speakBaton - /ˈbætɒn/,  /ˈbætɒ̃/
+// replace speakBaton - /ˈbætɒn/, /ˈbætɒ̃/
 
 enum TtsState { playing }
 
@@ -113,7 +113,7 @@ class EnglishEntrybaton extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbætɒn/,  /ˈbætɒ̃/"),
+                                text: "IpaUK: /ˈbætɒn/, /ˈbætɒ̃/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBaton("en-GB"),
                             ),

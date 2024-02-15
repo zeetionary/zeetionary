@@ -126,7 +126,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntidɪˈpresnt/,  /ˌæntaɪdɪˈpresnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAntidepressant("en-US"),
                             ),
@@ -184,7 +184,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAntidepressant1005(
-                                        // REPLACE: antidepressant /ˌæntidɪˈpresnt/,  /ˌæntaɪdɪˈpresnt/
+                                        // REPLACE: antidepressant /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/
                                         "en-US"),
                                   ),
                                 ],

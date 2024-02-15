@@ -124,7 +124,7 @@ class EnglishEntryanti extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈænti/,  /ˈæntaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈænti/, /ˈæntaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnti("en-US"),
                             ),
@@ -176,7 +176,7 @@ class EnglishEntryanti extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnti908(
-                                        // REPLACE: anti /ˈænti/,  /ˈæntaɪ/
+                                        // REPLACE: anti /ˈænti/, /ˈæntaɪ/
                                         "en-US"),
                                   ),
                                 ],

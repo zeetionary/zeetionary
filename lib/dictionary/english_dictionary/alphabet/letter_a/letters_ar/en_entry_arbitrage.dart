@@ -7,7 +7,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryAdopsum - replace speakArbitrage
 
-// replace arbitrage - /ˈɑːbɪtrɑːʒ/,  /ˈɑːbɪtrɪdʒ/ - find WORD_WEB
+// replace arbitrage - /ˈɑːbɪtrɑːʒ/, /ˈɑːbɪtrɪdʒ/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -112,7 +112,7 @@ class EnglishEntryarbitrage extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "arbitrage"), // Find /ˈɑːbɪtrɑːʒ/,  /ˈɑːbɪtrɪdʒ/
+                                    "arbitrage"), // Find /ˈɑːbɪtrɑːʒ/, /ˈɑːbɪtrɪdʒ/
                             // divvviiider
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntryarbitrage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈɑːbɪtrɑːʒ/,  /ˈɑːbɪtrɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈɑːbɪtrɑːʒ/, /ˈɑːbɪtrɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakArbitrage("en-GB"),
                             ),

@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryaforementioned - replace speakAforementioned - replace aforementioned - /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/ - find Dopsum2
+// replace these: replace EnglishEntryaforementioned - replace speakAforementioned - replace aforementioned - /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,14 +66,13 @@ class EnglishEntryaforementioned extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aforementioned"), // Find /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
+                                    "aforementioned"), // Find /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/"),
+                                text: "IpaUK: /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAforementioned("en-GB"),
                             ),
@@ -83,7 +82,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈfɔːrmenʃənd/,  /əˌfɔːˈrmenʃənd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /əˈfɔːrmenʃənd/, /əˌfɔːˈrmenʃənd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAforementioned("en-US"),
                             ),
@@ -139,7 +138,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAforemen96(
-                                        // REPLACE: aforementioned /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
+                                        // REPLACE: aforementioned /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/
                                         "en-US"),
                                   ),
                                 ],

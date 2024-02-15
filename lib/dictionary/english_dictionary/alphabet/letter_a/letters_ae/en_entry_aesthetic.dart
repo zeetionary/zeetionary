@@ -68,7 +68,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aesthetic"), // Find /iːsˈθetɪk/,  /esˈθetɪk/
+                                    "aesthetic"), // Find /iːsˈθetɪk/, /esˈθetɪk/
                           ],
                         ),
                         Row(

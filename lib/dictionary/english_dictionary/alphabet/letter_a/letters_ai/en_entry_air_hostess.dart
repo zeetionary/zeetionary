@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryDopsum - replace speakAirhostess - replace air hostess - /ˈeə həʊstəs/,  /ˈeə həʊstes/ - find Dopsum2
+// replace these: replace EnglishEntryDopsum - replace speakAirhostess - replace air hostess - /ˈeə həʊstəs/, /ˈeə həʊstes/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,13 +66,13 @@ class EnglishEntryairhostess extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "air hostess"), // Find /ˈeə həʊstəs/,  /ˈeə həʊstes/
+                                    "air hostess"), // Find /ˈeə həʊstəs/, /ˈeə həʊstes/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈeə həʊstəs/,  /ˈeə həʊstes/"),
+                                text: "IpaUK: /ˈeə həʊstəs/, /ˈeə həʊstes/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAirhostess("en-GB"),
                             ),

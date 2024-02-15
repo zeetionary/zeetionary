@@ -10,125 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycatchmentarea extends StatelessWidget {
+class EnglishEntrychasten extends StatelessWidget {
   // blank divider
-  EnglishEntrycatchmentarea({super.key});
+  EnglishEntrychasten({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcatchmentarea(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchasten(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("catchment area"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chasten"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas1(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens1(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They want their son to go to St Mary's, but they're not in the catchment area."); // DOPSUM: CHANGE TEXT
+        "He felt suitably chastened and apologized."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas2(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens2(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "If there's a treatment centre you'd rather go to, don't be put off if you're told you're not in the catchment area."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas3(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens3(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There has been a lot of recent rainfall in the catchment area of the river."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas4(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens4(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas5(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens5(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas6(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens6(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas7(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens7(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas8(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens8(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas9(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens9(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas10(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens10(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas11(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens11(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas12(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens12(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatchmentareas13(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
+  Future<void> speakchastens13(String languageCode) async {
+    // DOPSUM: CHANGE speakchasten
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatchmentareas1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastens1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,25 +149,22 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "catchment area"),
+                            EntryTitle(word: "chasten"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˈkætʃmənt eəriə/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃeɪsn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcatchmentarea("en-GB"),
+                              onPressed: () => speakchasten("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈkætʃmənt eriə/, /ˈketʃmənt eriə/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃeɪsn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcatchmentarea("en-US"),
+                              onPressed: () => speakchasten("en-US"),
                             ),
                           ],
                         ),
@@ -196,11 +191,11 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئاوڕێژگە، ئاوڕێژ، ڕێژگە، مەڵبەندی خزمەت‌گوزاری
+کوردی: خۆپارێزی کردن، پاک وخاوێن کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ناوچەیەک کە خوێندنگە بەرپرسە لە وەرگرتنی خوێندکار لێوەی، یان نەخۆشخانە دەبێت نەخۆشی لێوە وەربگرێت "),
+                                  "١. (کردار) پەشیمانکردنەوەی کەسێک لە شتێک کە کردوویەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,86 +203,21 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They want their son to go to St Mary's, but they're not in the catchment area."),
+                                            "He felt suitably chastened and apologized."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەیانەوێت کوڕەکەیان بچێتە قوتابخانەی سەینت ماری، بەڵام لەو مەڵبەندە نین."),
+                                            "هەستی بە پەشیمانی کرد و داوای لێبووردنی کرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "catchment area", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "chasten", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchmentareas1("en-GB"),
+                                    onPressed: () => speakchastens1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchmentareas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If there's a treatment centre you'd rather go to, don't be put off if you're told you're not in the catchment area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر سەنتەرێکی چارەسەر ھەیە کە دەتەوێت بۆی بچیت، سارد مەبەوە ئەگەر پێت بڵێن سەر بەو مەڵبەندی خزمەتگوزارییە نیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchmentareas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchmentareas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ناوچەیەک کە لێیەوە ئاو تێکەڵ دەبێت بە ڕووبارێک، دەریاچەیەک، زۆنگاوێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been a lot of recent rainfall in the catchment area of the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەگی بارانێکی زۆر ھەبووە لە ڕێژگەی ڕووبارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchmentareas3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchmentareas3("en-US"),
+                                    onPressed: () => speakchastens1("en-US"),
                                   ),
                                 ],
                               ),
@@ -375,9 +305,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catchment area (derived forms: catchment areas)
-1. The entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet (= river basin, basin, watershed, drainage basin, catchment basin, drainage area)
-"flood control in the Missouri catchment area";
+- Verb: chasten (Derived forms: chastened, chastening, chastens)
+1. Censure severely (= chastise, castigate, objurgate, correct)
+"She chastened him for his insensitive remarks";
+ 
+2. Change by restraining or moderating (= temper)
+ 
+3. Correct by punishment or discipline (= tame, subdue)
 """,
   );
 
@@ -410,8 +344,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pOq9N5YzqV0',
-    startSeconds: 465,
+    videoId: 'https://youtu.be/CzP23Zti-YI?t=',
+    startSeconds: 3138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -435,8 +369,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DpTTGFbn5Xc',
-    startSeconds: 667,
+    videoId: 'https://youtu.be/QAOLLVCzq-0?t=',
+    startSeconds: 313,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -460,8 +394,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bFx9YlnAP2M',
-    startSeconds: 1915,
+    videoId: 'https://youtu.be/iQThYGymjlY?t=',
+    startSeconds: 846,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -485,8 +419,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QqWWEFc-Z1M',
-    startSeconds: 135,
+    videoId: 'https://youtu.be/oRlCj-qaeD4?t=',
+    startSeconds: 688,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -510,8 +444,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'uyU1QfJAufk',
-    startSeconds: 652,
+    videoId: 'https://youtu.be/19V1JKO_zu8?t=',
+    startSeconds: 501,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -535,8 +469,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HZmzdymreq0',
-    startSeconds: 30,
+    videoId: 'https://youtu.be/2TjZDXIuAIE?t=',
+    startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -560,8 +494,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '56OShfOwkm0',
-    startSeconds: 88,
+    videoId: 'https://youtu.be/QP0Hga4Bw4U?t=',
+    startSeconds: 697,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -585,8 +519,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '72O6mQnZim0',
-    startSeconds: 131,
+    videoId: 'https://youtu.be/ICXDa40Pr9E?t=',
+    startSeconds: 2326,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

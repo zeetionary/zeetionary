@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace ballroom - replace EnglishEntryballroom
 
-// replace speakBallroom - /ˈbɔːlruːm/,  /ˈbɔːlrʊm/
+// replace speakBallroom - /ˈbɔːlruːm/, /ˈbɔːlrʊm/
 
 enum TtsState { playing }
 
@@ -113,7 +113,7 @@ class EnglishEntryballroom extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈbɔːlruːm/,  /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈbɔːlruːm/, /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakBallroom("en-GB"),
                             ),
@@ -123,7 +123,7 @@ class EnglishEntryballroom extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbɔːlruːm/,  /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbɔːlruːm/, /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBallroom("en-US"),
                             ),

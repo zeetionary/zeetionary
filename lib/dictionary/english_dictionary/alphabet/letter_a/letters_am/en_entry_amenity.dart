@@ -147,7 +147,7 @@ class EnglishEntryamenity extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈmenəti/,  /əˈmiːnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /əˈmenəti/, /əˈmiːnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmenity("en-US"),
                             ),
@@ -204,7 +204,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmenity4777(
-                                        // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
+                                        // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
                                         "en-US"),
                                   ),
                                 ],
@@ -234,7 +234,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAmenity7622(
-                                        // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
+                                        // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
                                         "en-US"),
                                   ),
                                 ],

@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace barricade - replace EnglishEntrybarricade
 
-// replace speakBarricade - /ˈbærɪkeɪd/,  /ˌbærɪˈkeɪd/
+// replace speakBarricade - /ˈbærɪkeɪd/, /ˌbærɪˈkeɪd/
 
 enum TtsState { playing }
 
@@ -111,7 +111,7 @@ class EnglishEntrybarricade extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbærɪkeɪd/,  /ˌbærɪˈkeɪd/"),
+                                text: "IpaUK: /ˈbærɪkeɪd/, /ˌbærɪˈkeɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBarricade("en-GB"),
                             ),

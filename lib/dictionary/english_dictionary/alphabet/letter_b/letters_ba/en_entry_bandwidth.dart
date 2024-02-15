@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace bandwidth - replace EnglishEntrybandwidth
 
-// replace speakBandwidth - /ˈbændwɪdθ/,  /ˈbændwɪtθ/
+// replace speakBandwidth - /ˈbændwɪdθ/, /ˈbændwɪtθ/
 
 enum TtsState { playing }
 
@@ -115,7 +115,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈbændwɪdθ/,  /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈbændwɪdθ/, /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakBandwidth("en-GB"),
                             ),
@@ -125,7 +125,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbændwɪdθ/,  /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbændwɪdθ/, /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBandwidth("en-US"),
                             ),

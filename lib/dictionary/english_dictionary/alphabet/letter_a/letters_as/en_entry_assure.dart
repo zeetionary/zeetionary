@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryassure - replace speakAssure
 
-// replace assure - /əˈʃʊə(r)/,  /əˈʃɔː(r)/ - find WORD_WEB
+// replace assure - /əˈʃʊə(r)/, /əˈʃɔː(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -116,7 +116,7 @@ class EnglishEntryassure extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "assure"), // Find /əˈʃʊə(r)/,  /əˈʃɔː(r)/
+                                word: "assure"), // Find /əˈʃʊə(r)/, /əˈʃɔː(r)/
                             // divvviiider
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryassure extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˈʃʊə(r)/,  /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˈʃʊə(r)/, /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAssure("en-GB"),
                             ),
@@ -134,7 +134,7 @@ class EnglishEntryassure extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈʃʊə(r)/,  /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈʃʊə(r)/, /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAssure("en-US"),
                             ),

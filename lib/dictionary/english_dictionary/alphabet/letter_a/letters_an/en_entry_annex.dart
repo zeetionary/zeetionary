@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryannex - replace speakAnnex - replace annex - /ˈæneks/,  /əˈneks/ - find Dopsum2
+// replace these: replace EnglishEntryannex - replace speakAnnex - replace annex - /ˈæneks/, /əˈneks/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -106,7 +106,7 @@ class EnglishEntryannex extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "annex"), // Find /ˈæneks/,  /əˈneks/
+                                word: "annex"), // Find /ˈæneks/, /əˈneks/
                             // divvviiider
                           ],
                         ),
@@ -114,7 +114,7 @@ class EnglishEntryannex extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæneks/,  /əˈneks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæneks/, /əˈneks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAnnex("en-GB"),
                             ),
@@ -124,7 +124,7 @@ class EnglishEntryannex extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈæneks/,  /əˈneks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈæneks/, /əˈneks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAnnex("en-US"),
                             ),
@@ -180,7 +180,7 @@ class EnglishEntryannex extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnnex1135(
-                                        // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                        // REPLACE: annex /ˈæneks/, /əˈneks/
                                         "en-US"),
                                   ),
                                 ],
@@ -213,7 +213,7 @@ class EnglishEntryannex extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAnnex1140(
-                                        // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                        // REPLACE: annex /ˈæneks/, /əˈneks/
                                         "en-US"),
                                   ),
                                 ],

@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryalmanac - replace speakAlmanac - replace almanac -  /ˈɔːlmənæk/,  /ˈælmənæk/ - find Dopsum2
+// replace these: replace EnglishEntryalmanac - replace speakAlmanac - replace almanac -  /ˈɔːlmənæk/, /ˈælmənæk/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,13 +66,13 @@ class EnglishEntryalmanac extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "almanac"), // Find  /ˈɔːlmənæk/,  /ˈælmənæk/
+                                    "almanac"), // Find  /ˈɔːlmənæk/, /ˈælmənæk/
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                                "IpaUK:  /ˈɔːlmənæk/,  /ˈælmənæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK:  /ˈɔːlmənæk/, /ˈælmənæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAlmanac("en-GB"),
                             ),
@@ -82,7 +82,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈɔːlmənæk/,  /ˈælmənæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈɔːlmənæk/, /ˈælmənæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAlmanac("en-US"),
                             ),
@@ -138,7 +138,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAlmanac4932(
-                                        // REPLACE: almanac  /ˈɔːlmənæk/,  /ˈælmənæk/
+                                        // REPLACE: almanac  /ˈɔːlmənæk/, /ˈælmənæk/
                                         "en-US"),
                                   ),
                                 ],

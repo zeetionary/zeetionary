@@ -128,7 +128,7 @@ class EnglishEntryapricot extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakApricot("en-US"),
                             ),
@@ -182,7 +182,7 @@ class EnglishEntryapricot extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakApricot1040(
-                                        // REPLACE: apricot /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/
+                                        // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
                                         "en-US"),
                                   ),
                                 ],
@@ -215,7 +215,7 @@ class EnglishEntryapricot extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakApricot1043(
-                                        // REPLACE: apricot /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/
+                                        // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
                                         "en-US"),
                                   ),
                                 ],

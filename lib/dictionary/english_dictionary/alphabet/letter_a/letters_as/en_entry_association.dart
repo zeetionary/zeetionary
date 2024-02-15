@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryassociation - replace speakAssociation
 
-// replace association - /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/ - find WORD_WEB
+// replace association - /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -117,7 +117,7 @@ class EnglishEntryassociation extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "association"), // Find /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                    "association"), // Find /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                             // divvviiider
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryassociation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAssociation("en-GB"),
                             ),
@@ -135,7 +135,7 @@ class EnglishEntryassociation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAssociation("en-US"),
                             ),
@@ -192,7 +192,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociation1201(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
                                 ],
@@ -226,7 +226,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociation1205(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
                                 ],
@@ -260,7 +260,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociation1209(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
                                 ],
@@ -294,7 +294,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAssociation1212(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
                                 ],

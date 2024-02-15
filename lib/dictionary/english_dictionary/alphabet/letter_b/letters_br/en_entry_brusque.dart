@@ -105,7 +105,7 @@ class EnglishEntrybrusque extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /bruːsk/,  /brʊsk/"),
+                                text: "IpaUK: /bruːsk/, /brʊsk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbrusque("en-GB"),
                             ),

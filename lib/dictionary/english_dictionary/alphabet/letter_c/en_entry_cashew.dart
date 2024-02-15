@@ -155,7 +155,7 @@ class EnglishEntrycashew extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈkæʃuː/,  /kæˈʃuː/"),
+                                text: "IpaUK: /ˈkæʃuː/, /kæˈʃuː/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcashew("en-GB"),
                             ),
@@ -164,7 +164,7 @@ class EnglishEntrycashew extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈkæʃuː/,  /kæˈʃuː/"),
+                                text: "IpaUS: /ˈkæʃuː/, /kæˈʃuː/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcashew("en-US"),
                             ),

@@ -105,7 +105,7 @@ class EnglishEntrybrusquely extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbruːskli/,  /ˈbrʊskli/"),
+                                text: "IpaUK: /ˈbruːskli/, /ˈbrʊskli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbrusquely("en-GB"),
                             ),

@@ -7,7 +7,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace EnglishEntryAdopsum - replace speakArbitrary
 
-// replace arbitrary - /ˈɑːbɪtrəri/,  /ˈɑːbɪtri/ - find WORD_WEB
+// replace arbitrary - /ˈɑːbɪtrəri/, /ˈɑːbɪtri/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -114,7 +114,7 @@ class EnglishEntryarbitrary extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "arbitrary"), // Find /ˈɑːbɪtrəri/,  /ˈɑːbɪtri/
+                                    "arbitrary"), // Find /ˈɑːbɪtrəri/, /ˈɑːbɪtri/
                             // divvviiider
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntryarbitrary extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈɑːbɪtrəri/,  /ˈɑːbɪtri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈɑːbɪtrəri/, /ˈɑːbɪtri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakArbitrary("en-GB"),
                             ),

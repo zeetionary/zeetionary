@@ -128,7 +128,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntiˈpɜːrspərənt/,  /ˌæntaɪˈpɜːrspərənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAntiperspirant("en-US"),
                             ),
@@ -186,7 +186,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAntiperspirant1117(
-                                        // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/,  /ˌæntaɪˈpɜːrspərənt/
+                                        // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/
                                         "en-US"),
                                   ),
                                 ],

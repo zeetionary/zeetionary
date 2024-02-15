@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryagainst - replace speakAgainst - replace against - /əˈɡenst/,  /əˈɡeɪnst/ - find Dopsum2
+// replace these: replace EnglishEntryagainst - replace speakAgainst - replace against - /əˈɡenst/, /əˈɡeɪnst/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -84,13 +84,13 @@ class EnglishEntryagainst extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "against"), // Find /əˈɡenst/,  /əˈɡeɪnst/
+                                word: "against"), // Find /əˈɡenst/, /əˈɡeɪnst/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /əˈɡenst/,  /əˈɡeɪnst/"),
+                                text: "IpaUK: /əˈɡenst/, /əˈɡeɪnst/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgainst("en-GB"),
                             ),
@@ -100,7 +100,7 @@ class EnglishEntryagainst extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈɡenst/,  /əˈɡeɪnst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /əˈɡenst/, /əˈɡeɪnst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAgainst("en-US"),
                             ),
@@ -153,7 +153,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAga937884(
-                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
                                 ],
@@ -183,7 +183,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAgain2566(
-                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
                                 ],
@@ -213,7 +213,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAgain156(
-                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
                                 ],
@@ -245,7 +245,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAga156338(
-                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
                                 ],
@@ -277,7 +277,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAga98274(
-                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
                                 ],

@@ -156,7 +156,7 @@ class EnglishEntrychaff extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /tʃæf/,  /tʃɑːf/"),
+                            const IPAofEnglish(text: "IpaUK: /tʃæf/, /tʃɑːf/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakchaff("en-GB"),
                             ),

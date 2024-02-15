@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace battery - replace EnglishEntrybattery
 
-// replace speakBattery - /ˈbætri/,  /ˈbætəri/
+// replace speakBattery - /ˈbætri/, /ˈbætəri/
 
 enum TtsState { playing }
 
@@ -114,7 +114,7 @@ class EnglishEntrybattery extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbætri/,  /ˈbætəri/"),
+                                text: "IpaUK: /ˈbætri/, /ˈbætəri/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBattery("en-GB"),
                             ),

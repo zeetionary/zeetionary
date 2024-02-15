@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryallah - replace speakAllah - replace Allah - /ˈælə/,  /əˈlɑː/ - find Dopsum2
+// replace these: replace EnglishEntryallah - replace speakAllah - replace Allah - /ˈælə/, /əˈlɑː/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -63,14 +63,14 @@ class EnglishEntryallah extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Allah"), // Find /ˈælə/,  /əˈlɑː/
+                            EntryTitle(word: "Allah"), // Find /ˈælə/, /əˈlɑː/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈælə/,  /əˈlɑː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈælə/, /əˈlɑː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAllah("en-GB"),
                             ),
@@ -80,7 +80,7 @@ class EnglishEntryallah extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAllah("en-US"),
                             ),
@@ -133,7 +133,7 @@ class EnglishEntryallah extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAllah359999(
-                                        // REPLACE: Allah /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/
+                                        // REPLACE: Allah /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/
                                         "en-US"),
                                   ),
                                 ],

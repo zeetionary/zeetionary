@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace azure - replace EnglishEntryazure
 
-// replace speakAzure - /ˈæʒə(r)/,  /ˈæzjʊə(r)/ - find WORD_WEB
+// replace speakAzure - /ˈæʒə(r)/, /ˈæzjʊə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
@@ -114,7 +114,7 @@ class EnglishEntryazure extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæʒə(r)/,  /ˈæzjʊə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæʒə(r)/, /ˈæzjʊə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAzure("en-GB"),
                             ),

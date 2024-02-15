@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryadverse - replace speakAdverse - replace adverse - /ˈædvɜːrs/,  /ədˈvɜːrs/ - find Dopsum2
+// replace these: replace EnglishEntryadverse - replace speakAdverse - replace adverse - /ˈædvɜːrs/, /ədˈvɜːrs/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -137,7 +137,7 @@ class EnglishEntryadverse extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAd3658(
-                                        // REPLACE: adverse /ˈædvɜːrs/,  /ədˈvɜːrs/
+                                        // REPLACE: adverse /ˈædvɜːrs/, /ədˈvɜːrs/
                                         "en-US"),
                                   ),
                                 ],

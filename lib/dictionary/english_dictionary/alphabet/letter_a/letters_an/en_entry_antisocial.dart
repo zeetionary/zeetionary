@@ -128,7 +128,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAntisocial("en-US"),
                             ),
@@ -185,7 +185,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAntisocial1238(
-                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
+                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
                                         "en-US"),
                                   ),
                                 ],
@@ -219,7 +219,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakAntisocial1240(
-                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
+                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
                                         "en-US"),
                                   ),
                                 ],

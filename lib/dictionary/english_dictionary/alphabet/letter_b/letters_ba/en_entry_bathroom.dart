@@ -9,7 +9,7 @@ import 'package:zeetionary/constants.dart';
 
 // replace bathroom - replace EnglishEntrybathroom
 
-// replace speakBathroom - /ˈbɑːθruːm/,  /ˈbɑːθrʊm/
+// replace speakBathroom - /ˈbɑːθruːm/, /ˈbɑːθrʊm/
 
 enum TtsState { playing }
 
@@ -112,7 +112,7 @@ class EnglishEntrybathroom extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbɑːθruːm/,  /ˈbɑːθrʊm/"),
+                                text: "IpaUK: /ˈbɑːθruːm/, /ˈbɑːθrʊm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBathroom("en-GB"),
                             ),
@@ -121,7 +121,7 @@ class EnglishEntrybathroom extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˈbæθruːm/,  /ˈbæθrʊm/"),
+                                text: "IpaUS: /ˈbæθruːm/, /ˈbæθrʊm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakBathroom("en-US"),
                             ),

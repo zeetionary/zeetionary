@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryalzheimersdisease - replace speakAlzheimersdisease - replace Alzheimer's disease - /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/ - find Dopsum2
+// replace these: replace EnglishEntryalzheimersdisease - replace speakAlzheimersdisease - replace Alzheimer's disease - /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,7 +66,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "Alzheimer's disease"), // Find /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/
+                                    "Alzheimer's disease"), // Find /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/
                             // divvviiider
                           ],
                         ),
@@ -74,7 +74,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAlzheimersdisease("en-GB"),
                             ),

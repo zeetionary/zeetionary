@@ -104,7 +104,7 @@ class EnglishEntrybrusqueness extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbruːsknəs/,  /ˈbrʊsknəs/"),
+                                text: "IpaUK: /ˈbruːsknəs/, /ˈbrʊsknəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbrusqueness("en-GB"),
                             ),

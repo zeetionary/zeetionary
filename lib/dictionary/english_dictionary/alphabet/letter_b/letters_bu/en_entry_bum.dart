@@ -143,7 +143,7 @@ class EnglishEntrybum extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی:  سمت، پاشڵ، کنگ، ڕوونەک، کۆم، سواڵکەر، مفتەخۆر، ئاوارە، بێ‌ماڵ‌وحاڵ، تەرە، ھەڵوەدا، کەسێکی تەمەڵ و بێکارە، ئاوارەیی، ھەڵوەدایی، تەرەیی، بێ‌ماڵ‌وحاڵی، بێ‌قازانج، بەکارنەھاتوو، ئایەخ، خراپ، بێ‌کەڵک، سەرەندەرنەکردوو
 """),
                           const DefinitionKurdish(text: "١. (ناو) سمت"),

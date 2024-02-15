@@ -152,10 +152,12 @@ class EnglishEntrybarbed extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڕکاوی، دڕوودار، دڕک‌وداڵاوی، چقڵاوی، تاڵ، ناخۆش، خاوەنی ڕیش، سمێڵ‌دار، ڕیش‌دار
-
-١. (ھاوەڵناو) ھەبوونی نووکی تیژ کە بەرەو ناوەوە چەماوەتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ھەبوونی نووکی تیژ کە بەرەو ناوەوە چەماوەتەوە"""),
                           Row(
                             children: [
                               const Expanded(

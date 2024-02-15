@@ -190,7 +190,7 @@ class EnglishEntrybung extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: درگا، سەر، بان، تۆپەوانە، زارئاخن، زاربێن، زمانە (بەرمیل، شووشە و ھتد)، بەرتیل، دەم‌شیرینی، بەکارنەھاتوو، خراپ، کاول، وێران
 """),
                           const DefinitionKurdish(

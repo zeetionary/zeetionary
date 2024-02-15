@@ -150,8 +150,10 @@ class EnglishEntryanagram extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: (زمانەوانی) وشاوەژوو، پاش‌وپێش‌خستە
-
-١. (ناو) وشەیەک کە لە دووبارە ڕێکخستنەوەی پیتەکانی وشەیەکی تر درووست‌بووە"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  """١. (ناو) وشەیەک کە لە دووبارە ڕێکخستنەوەی پیتەکانی وشەیەکی تر درووست‌بووە"""),
                         ],
                       ),
                     ),

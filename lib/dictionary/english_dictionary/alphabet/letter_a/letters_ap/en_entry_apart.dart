@@ -157,10 +157,12 @@ class EnglishEntryapart extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوور، جیا، لێک‌جیا، لەیەک دوور، بە مەودایێکەوە، لەپاڵ، لەکن، لەلای، لای، تەنیا، بەتەنیایی، سەرەڕای، زێدەباری
-
-١. (ھاوەڵکار) جیایی لە یەک بەھۆی دووری یان کات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵکار) جیایی لە یەک بەھۆی دووری یان کات"""),
                           Row(
                             children: [
                               const Expanded(

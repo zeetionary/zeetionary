@@ -152,10 +152,12 @@ class EnglishEntryavid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تامەزرۆ، تاسەمەن، بەپەرۆش، تینوو، چاوچنۆک، بەھەڵپە
-
-١. (ھاوەڵناو) زۆر تامەزرۆ سەبارەت بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) زۆر تامەزرۆ سەبارەت بە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

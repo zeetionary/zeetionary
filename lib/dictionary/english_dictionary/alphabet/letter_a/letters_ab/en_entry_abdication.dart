@@ -93,7 +93,7 @@ class EnglishEntryabdication extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەست‌لێ‌کێشانەوە، دەست‌لێ‌ھەڵگرتن، وازلێ‌ھێنان (لە پاتشایەتی)، ڕاقەتاندن، کارڤەکێشان، دەست‌پێ‌کێشانەوە، لێ‌سەندنەوە (بەرپرسایەتی)
 """),
                           const DefinitionKurdish(

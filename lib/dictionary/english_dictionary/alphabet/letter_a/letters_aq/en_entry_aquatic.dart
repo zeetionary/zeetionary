@@ -157,10 +157,12 @@ class EnglishEntryaquatic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەئاوزیندوو، ئاوەژی، ئاوی، گیانەوەر یان ڕووەکی ئاوی
-
-١. (ھاوەڵناو) گیانلەبەرێک کە لە ئاو یان نزیکی ئاو دەژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) گیانلەبەرێک کە لە ئاو یان نزیکی ئاو دەژی"""),
                           Row(
                             children: [
                               const Expanded(

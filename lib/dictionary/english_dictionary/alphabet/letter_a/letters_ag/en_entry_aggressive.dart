@@ -118,7 +118,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەس‌درێژکەر، زێدەگاڤ، دڕ، دەساوێژ، شەڕان‌خوو، بەیاخ‌دار (بەتایبەت ژن)، دوژمن‌کارانە، پەلاماردەرانە، بۆھاتووانە، ھێرش‌کارانە، ھەڵشاخێنەرانە
 """),
                           const DefinitionKurdish(

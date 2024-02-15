@@ -174,7 +174,7 @@ class EnglishEntryamorous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەویندار، دڵبەستە، ئاشق، دڵدار، دڵدارانە، خۆشەویستی، ڕۆمانتیک
 """),
                           const DefinitionKurdish(

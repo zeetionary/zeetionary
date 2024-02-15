@@ -195,7 +195,7 @@ class EnglishEntrychamber extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەنجوومەن، دیوەخان، خەوتنگە، جێ‌خەو، دیو، ژوور، کەلێن، چاڵ، قوڵکە، بۆشایی، فیشەک‌خۆر 
 """),
                           const DefinitionKurdish(

@@ -151,10 +151,12 @@ class EnglishEntrybagpipes extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەشکە(نایە)، ھەمبانە، باگ‌پایپس
-
-١. (ناو) ئامێرێکی میوزیکە کە زیاتر لە سکۆتلەندا باوە. ژەنیارەکە فوو دەکات بە کیسەیەکدا کە لەژێر باڵی گریویەتی، و دواتر پەستان دەخاتە سەر لوولەکان بۆ درووستکردنی دەنگ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئامێرێکی میوزیکە کە زیاتر لە سکۆتلەندا باوە. ژەنیارەکە فوو دەکات بە کیسەیەکدا کە لەژێر باڵی گریویەتی، و دواتر پەستان دەخاتە سەر لوولەکان بۆ درووستکردنی دەنگ"""),
                           Row(
                             children: [
                               const Expanded(

@@ -139,10 +139,12 @@ class EnglishEntrybuffalo extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گامێش، ماداک، مادەک، مانگ
-
-١. (ناو) ئاژەڵێکی گەورە کە لە خێزانی مانگاکانە و شاخی فراوان و چەماوەی ھەیە. جۆری ئاسیا و ئەفریقایی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئاژەڵێکی گەورە کە لە خێزانی مانگاکانە و شاخی فراوان و چەماوەی ھەیە. جۆری ئاسیا و ئەفریقایی ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

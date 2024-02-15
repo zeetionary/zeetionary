@@ -146,7 +146,7 @@ class EnglishEntrybluff extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قسەلەڕوو، لاف‌لێدەر، بەلاف، تڕلێدەر، بەفڕوفیشاڵ، لاف، ھەڵدێر، ھەڵەت (پاڵ ئاو)، سەر، لووتکە، (لە کەنەدا) کۆڕەدار، مێشە، بێشەڵان
 """),
                           const DefinitionKurdish(

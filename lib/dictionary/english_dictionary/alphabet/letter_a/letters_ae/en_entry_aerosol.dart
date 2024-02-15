@@ -107,7 +107,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پڕژێنە، پڕژێنەک، پژێنە، پژپژە، (کیمیا) ڕاگرتنی (پارچۆلکەکانی) شلە یان تەنێ لە ھەوا یا لە گازدا (دووکەڵ و تەم و مژ ئێرۆسۆلن)
 """),
                           const DefinitionKurdish(

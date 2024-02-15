@@ -160,7 +160,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیرۆز، مەبارەک، موبارەک، بەودم، بەھات، ھات، شوومی باشە، ھەزەخ، بەختەوەر، بەختیار
 """),
                           const DefinitionKurdish(

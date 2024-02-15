@@ -161,10 +161,12 @@ class EnglishEntryattorney extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پارێزەر، ئاوکات، بریکار، وەکیل
-
-١. (ناو) پارێزەر، بەتایبەتی یەکێک کە دەتوانێت لە دادگا کارت بۆ بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارێزەر، بەتایبەتی یەکێک کە دەتوانێت لە دادگا کارت بۆ بکات"""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,7 +145,7 @@ class EnglishEntrybatten extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەسکەتەختە، تەختەباریک، تەختە (بۆ ڕاخستن لەژێر عەرزی ژوور و ھتد)، بەستی دارین یان لەدار
 """),
                           const DefinitionKurdish(

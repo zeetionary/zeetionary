@@ -190,7 +190,7 @@ class EnglishEntrycartridge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فیشەک، گوللە، نێوە، نێوک، کارتریج، کاسێت، سەری پیکاپ، جێگای دەرزی (قەوان)
 """),
                           const DefinitionKurdish(

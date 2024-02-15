@@ -147,10 +147,11 @@ class EnglishEntrybelligerent extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەڕخواز، دوژمنانە، دوژمنکارانە، لەشەڕدا، لە دۆخی شەڕدا، شەڕبەدەست، وڵاتی لە کاتی شەڕدا، وڵاتی بەشەڕھاتوو، شەڕکەر
-
-١. (ھاوەڵناو) شەڕخواز و نەیار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) شەڕخواز و نەیار"""),
                           Row(
                             children: [
                               const Expanded(

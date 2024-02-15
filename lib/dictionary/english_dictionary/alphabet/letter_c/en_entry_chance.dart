@@ -454,7 +454,7 @@ class EnglishEntrychance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەخت، چارە، چانس، شانس، ڕێکەوت، ھەڵکەوت، شیمانە، ئەگەر، ھەل، بوار، پەردێژ، دەرفەت، ئەختان، دەلیڤە،	دووبەختەکی، دووبەختی، ڕیسک، بەختەکی، تووشی، ڕێکەوتی، ھەڵکەوتی، شانسی
 """),
                           const DefinitionKurdish(

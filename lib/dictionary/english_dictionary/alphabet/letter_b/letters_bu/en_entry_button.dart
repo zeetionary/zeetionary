@@ -194,10 +194,12 @@ class EnglishEntrybutton extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوگمە، مێڤۆک، پیلەک، ماک، گۆ، کومچا، گۆپکە، بشکۆژ، قۆپچە
-
-١. (ناو) دووگمەی جلوبەگ بۆ بەستنی دوو بەش پێکەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دووگمەی جلوبەگ بۆ بەستنی دوو بەش پێکەوە"""),
                           Row(
                             children: [
                               const Expanded(

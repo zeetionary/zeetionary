@@ -108,7 +108,7 @@ class EnglishEntryadulterate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تێکەڵ‌دار، تێکەڵ، تراو، تراوێنراو
 """),
                           const DefinitionKurdish(

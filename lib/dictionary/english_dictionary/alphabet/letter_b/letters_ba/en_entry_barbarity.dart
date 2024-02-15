@@ -151,7 +151,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڕندایەتی، ھۆڤیگەری، دڕندەیی، بێ‌بەزەیێتی، دڵڕەقی، خوێن‌ڕێژی، کردەوەی دڕندانە
 """),
                           const DefinitionKurdish(

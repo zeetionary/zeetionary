@@ -210,7 +210,7 @@ class EnglishEntryaction extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کار، کردەوە، کردە، ھەنگاو، ئیش، چالاکی، بزووتن، بزاوت، جوولە، کاریگەری، شوێن‌دانان، باندۆر، کردار (شەڕ)، ھێرش، ڕەوت، پێکادان، شەڕ، پارچە جووڵۆکەکان، شێوەی کار، میکانیزم، پڕۆسە یان ڕەوتی قانوونی، شکات، سکاڵا، داواکاری، ڕووداوەکان، گیروگرفت (سەرەکی، لە کتێب، شانۆ وھتد)
 """),
                           const DefinitionKurdish(

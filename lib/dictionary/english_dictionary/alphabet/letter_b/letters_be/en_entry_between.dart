@@ -295,10 +295,11 @@ class EnglishEntrybetween extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەنێو، لەنێوان، نێوان، ناڤین، لە بەین، لە مابەین، لە نێوەڕاست، پێکەوە، لەگەڵ‌یەک
-
-١. (ئامراز) لە نێوان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ئامراز) لە نێوان"""),
                           Row(
                             children: [
                               const Expanded(

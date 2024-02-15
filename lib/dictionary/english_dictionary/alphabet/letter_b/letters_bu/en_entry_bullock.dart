@@ -139,10 +139,12 @@ class EnglishEntrybullock extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گای یەختە (ئێختە) یان خەساو، گوێلک، گوێرەکە (نێر)
-
-١. (ناو) نێرەگایەکی بچووک کە خەسێندراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) نێرەگایەکی بچووک کە خەسێندراوە"""),
                           Row(
                             children: [
                               const Expanded(

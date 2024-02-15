@@ -147,10 +147,12 @@ class EnglishEntrybicycle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دووچەرخە، چەرخ، ئەسپەدارینە، پاسکیل، پایسکڵ
-
-١. (ناو) ئامێرێکی گوێزەرەوە کە کە دوو ویلی ھەیە و لێیدەخوڕی بە پاڵنانی پایدەرەکانی بە پێیەکانت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئامێرێکی گوێزەرەوە کە کە دوو ویلی ھەیە و لێیدەخوڕی بە پاڵنانی پایدەرەکانی بە پێیەکانت"""),
                           Row(
                             children: [
                               const Expanded(

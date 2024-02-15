@@ -156,7 +156,7 @@ class EnglishEntryapron extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەڕەڵبێنە، بەرسینگە، بەران‌پێچ، بەرکۆشە، بەروانکە، پێشەوەی شانۆ یان پەردە، گۆڕەپانی فڕۆکە، ڕاگیرگەی فڕۆکە
 """),
                           const DefinitionKurdish(

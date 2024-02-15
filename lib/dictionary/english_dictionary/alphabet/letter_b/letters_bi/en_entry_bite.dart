@@ -275,7 +275,7 @@ class EnglishEntrybite extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەپ، گاز، گازگرتن، گەزین، گەستن، قەپ‌گرتن، قەپاڵ، ددان لێ‌گیرکردن، چزوو، تیکە، پاروو، تەزوو، تەز، ھێز، تین، ستین، بڕشت، قەوەت، (چێشت و تام) تیژی، دۆخی
 """),
                           const DefinitionKurdish(

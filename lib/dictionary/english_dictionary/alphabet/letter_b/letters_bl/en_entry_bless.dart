@@ -146,10 +146,12 @@ class EnglishEntrybless extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیرۆز کردن، دوعا کردن، پاراستن، بەختەوەر کردن
-
-١. (ناو) داواکردن لە خودا بۆ پاراستنی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) داواکردن لە خودا بۆ پاراستنی کەسێک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,7 +145,7 @@ class EnglishEntrybeachball extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تۆپەبا، فوودانەی گەورە
 """),
                           const DefinitionKurdish(

@@ -159,10 +159,12 @@ class EnglishEntryapproximation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نزیکاندن، نزیک‌کردنەوە، نزیکی، لە ڕاستی‌یەوە نزیک، لێکچوویی، ھاوشێوەیی (زۆر)، مەزندە، نرخاندن، ھەڵسەنگاندن، قرساندن
-
-١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە"""),
                           Row(
                             children: [
                               const Expanded(

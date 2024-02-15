@@ -201,7 +201,8 @@ class EnglishEntrycastiron extends StatelessWidget {
                                         text:
                                             "The blacksmith crafted a durable cooking pot from cast iron for the kitchen."),
                                     ExampleSentenceKurdish(
-                                        text: "ئاسنگەرەکە تاوەیەکی چێشتلێنانی قایمی درووستکرد لە ئاسنی سەخت بۆ مەتبەخەکە."),
+                                        text:
+                                            "ئاسنگەرەکە تاوەیەکی چێشتلێنانی قایمی درووستکرد لە ئاسنی سەخت بۆ مەتبەخەکە."),
                                   ],
                                 ),
                               ),
@@ -230,11 +231,11 @@ class EnglishEntrycastiron extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),

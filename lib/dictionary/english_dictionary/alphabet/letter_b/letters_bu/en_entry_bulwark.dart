@@ -140,7 +140,7 @@ class EnglishEntrybulwark extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شوورە، دیوار (بەرگری)، سەنگەر، بەربەستی بەرگری، پەنا، مەترسی‌گێڕەوە، پارێزەر، پارێزکار، پشتیوان، لایەنگر، نۆبەدار، کەڵبەرە، کەلەرە، شەپۆل‌ڕەوێن
 """),
                           const DefinitionKurdish(

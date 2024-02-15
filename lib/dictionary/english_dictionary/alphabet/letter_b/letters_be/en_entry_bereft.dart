@@ -146,10 +146,11 @@ class EnglishEntrybereft extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌بەش لە، بێ‌بەری لە، بێ، تەنیا، بێ‌کەس‌وبێ‌دەر
-
-١. (ھاوەڵناو) بە تەواوی بەبێ شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) بە تەواوی بەبێ شتێک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -145,10 +145,12 @@ class EnglishEntrybatsman extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆھاوێژ، تۆپ‌لێدەر، داربەدەست، گۆخەر، تۆپ‌خەر
-
-١. (ناو) یاریزانێک کە لە تۆپەکە دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) یاریزانێک کە لە تۆپەکە دەدات"""),
                           Row(
                             children: [
                               const Expanded(

@@ -152,10 +152,12 @@ class EnglishEntryanalgesic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژان‌بڕ، ژان‌شکێن، دامرکێن، مەڵھەمی ژان‌بڕ، مەرھەمی دامرکێنەر
-
-١. (ھاوەڵناو) ھەبوونی خاسیەتی ئازارشکێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ھەبوونی خاسیەتی ئازارشکێن"""),
                           Row(
                             children: [
                               const Expanded(

@@ -157,7 +157,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شوێنەوارناسی، باستان‌ناسی، کۆنەوارناسی، باستانەوانی
 """),
                           const DefinitionKurdish(

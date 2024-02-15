@@ -159,10 +159,12 @@ class EnglishEntryaquamarine extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەوزی مەیلەوشین، سەوزی شین‌باو، زمڕودی شین‌باو
-
-١. (ناو) بەردێکی سەوزی شین‌باوی گران‌بەھا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەردێکی سەوزی شین‌باوی گران‌بەھا"""),
                           Row(
                             children: [
                               const Expanded(

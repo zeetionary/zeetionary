@@ -162,10 +162,12 @@ class EnglishEntryappreciation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەدرزانی، قەدرلێنان، بایەخ، پێزانین، سپاس‌کردن، ڕێزلێنان، لێکدانەوە، نرخاندن، ھەڵسەنگاندن، تێگەیشتن، پێ‌پێبردن، پێزانین، ھەست‌پێکردن. خۆشی، چوونەسەرێ، ھەستان، بەرزبوونەوە، زۆربوون (نرخ)
-
-١. (ناو) ئەو خۆشیەی کە ھەتە لە کاتی چێژ بینین لە شتێکی باش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەو خۆشیەی کە ھەتە لە کاتی چێژ بینین لە شتێکی باش"""),
                           Row(
                             children: [
                               const Expanded(

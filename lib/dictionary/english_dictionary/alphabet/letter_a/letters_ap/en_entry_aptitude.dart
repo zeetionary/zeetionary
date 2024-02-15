@@ -156,7 +156,7 @@ class EnglishEntryaptitude extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەھرە، توانایی، ئامادەیی، لێھاتوویی، تواناداری، زووتێگەیشتوویی، زووفێربوون، زیرەکی 
 """),
                           const DefinitionKurdish(

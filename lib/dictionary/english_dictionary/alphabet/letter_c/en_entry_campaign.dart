@@ -194,7 +194,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زنجیرە کردارێکی شەڕی، کردار (شەڕ)، ھێرش، پەلامار، شاڵاو، ھەڵمەت، خەبات، چالاکی، ستراتێژی
 """),
                           const DefinitionKurdish(

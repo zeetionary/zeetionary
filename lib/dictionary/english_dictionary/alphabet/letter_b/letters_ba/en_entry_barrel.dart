@@ -148,10 +148,12 @@ class EnglishEntrybarrel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیپ، بەرمیل، کۆس، کووپەدارینە، بۆشکە، بۆڕی، (تفەنگ) لوولە، جەوھەردان (پاندێن)، جێگای زەمبەلەک لە سەعات‌دا، لۆدەیێ، دنیایێ، بڕێکی زۆر
-
-١. (ناو) ھەڵگرێکی گەورەی خڕ کە سەرەکانی فلاتە و لایەکانی چەماوەیە، و لە دار یان ئاسن درووستکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەڵگرێکی گەورەی خڕ کە سەرەکانی فلاتە و لایەکانی چەماوەیە، و لە دار یان ئاسن درووستکراوە"""),
                           Row(
                             children: [
                               const Expanded(

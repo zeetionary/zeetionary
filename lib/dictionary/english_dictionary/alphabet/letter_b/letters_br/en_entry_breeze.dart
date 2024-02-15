@@ -142,10 +142,11 @@ class EnglishEntrybreeze extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سریوە، شنە، کزە، زۆرئاسان، وەک ئاوخواردنەوە
-
-١. (ناو) بایەکی نەرم و کز"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) بایەکی نەرم و کز"""),
                           Row(
                             children: [
                               const Expanded(

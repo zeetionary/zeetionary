@@ -158,10 +158,12 @@ class EnglishEntryarctic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەھۆڵ‌بەند(ان)، زۆر سارد، شەختەبەند، بەستەڵەک، شکست‌وبەند، تۆف‌وبەند، ساردوسڕ
-
-١. (ھاوەڵناو) پەیوەندیدار بە خولگەی جەمسەری باکوور"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) پەیوەندیدار بە خولگەی جەمسەری باکوور"""),
                           Row(
                             children: [
                               const Expanded(

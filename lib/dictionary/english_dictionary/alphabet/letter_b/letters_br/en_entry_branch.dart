@@ -278,7 +278,7 @@ class EnglishEntrybranch extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لک، لق، تا، لپ، فاق، تاقیشک، قەڵبە، لەژگ، نیھال، قیت، گلم، شاخ(ە)، لک، لق، بەش، پشک، کەرت
 """),
                           const DefinitionKurdish(

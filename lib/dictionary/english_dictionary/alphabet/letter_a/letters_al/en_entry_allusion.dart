@@ -109,10 +109,12 @@ class EnglishEntryallusion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاماژە، ھێما، برێتی، مێزە، کورتەباس، لاباس، کورتەئاماژە
-
-١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک/شتێک دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک/شتێک دەکات"""),
                           Row(
                             children: [
                               const Expanded(

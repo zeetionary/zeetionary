@@ -189,7 +189,7 @@ class EnglishEntrybureau extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەری، کارگێڕی، فەرمانگە، ڕێڤەبەری، ئاژانس، نووسینگە، میزی نووسین (زۆرتر کەشەوی‌شی ھەبێ)، دۆڵابێ جل، دراوێر 
 """),
                           const DefinitionKurdish(

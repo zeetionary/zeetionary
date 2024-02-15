@@ -146,7 +146,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زاوزێ ڕاگرتن، مەھار یا کۆنتڕۆڵی زاوزێ، مەنع، بەرگیری (لە سکپڕی)
 """),
                           const DefinitionKurdish(

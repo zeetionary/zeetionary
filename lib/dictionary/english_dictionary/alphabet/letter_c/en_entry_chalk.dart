@@ -192,7 +192,7 @@ class EnglishEntrychalk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گڵەسپی، گەچی نووسین، تەباشیر، درووشم، نیشانە، درف
 """),
                           const DefinitionKurdish(text: "١. (ناو) گەچ"),

@@ -152,10 +152,12 @@ class EnglishEntryballast extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پارسەنگ، ڕاگیرە، سەنگ یان قورسەی ھاوکێشی، ھاوسەنگێنە, ورکەبەرد، زیخ
-
-١. (ناو) مادەی قورس کە دەخرێتە کەشتی بۆ ئەوەی بە جێگیری بیھێڵێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مادەی قورس کە دەخرێتە کەشتی بۆ ئەوەی بە جێگیری بیھێڵێتەوە"""),
                           Row(
                             children: [
                               const Expanded(

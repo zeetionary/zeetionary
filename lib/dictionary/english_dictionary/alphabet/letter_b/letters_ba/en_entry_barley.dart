@@ -145,10 +145,12 @@ class EnglishEntrybarley extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جۆ، جەھـ، یەو، یەوی
-
-١. (ھاوەڵناو) ڕووەکێک کە دەچێندرێت بۆ دەنکەکەی کە بۆ درووستکردنی خواردن، بیرە، و ویسکی بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ڕووەکێک کە دەچێندرێت بۆ دەنکەکەی کە بۆ درووستکردنی خواردن، بیرە، و ویسکی بەکاردێت"""),
                           Row(
                             children: [
                               const Expanded(

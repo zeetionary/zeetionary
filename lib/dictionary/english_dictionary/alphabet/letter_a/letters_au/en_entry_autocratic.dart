@@ -161,10 +161,11 @@ class EnglishEntryautocratic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تاک‌فەرمان‌داری‌یانە، تاکەدەسەڵات‌دارانە، دیکتاتۆڕ، زۆردارانە
-
-١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو"""),
                           Row(
                             children: [
                               const Expanded(

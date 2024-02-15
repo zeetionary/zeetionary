@@ -147,10 +147,12 @@ class EnglishEntrybellow extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەڕڕە، گوڕڕە، بۆڕە، نەڕاندن، ھۆڕاندن، بۆڕاندن
-
-١. (کردار) ھاوارکردن بە دەنگی بەرز بەھۆی ئەوەی تووڕەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ھاوارکردن بە دەنگی بەرز بەھۆی ئەوەی تووڕەی"""),
                           Row(
                             children: [
                               const Expanded(

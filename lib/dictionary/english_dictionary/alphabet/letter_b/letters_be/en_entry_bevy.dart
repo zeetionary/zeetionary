@@ -145,7 +145,7 @@ class EnglishEntrybevy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەل، دەستە، خێڵ، لەشکر، جەماعەت، کۆمەڵ، تاقم، پۆل
 """),
                           const DefinitionKurdish(

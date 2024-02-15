@@ -146,10 +146,12 @@ class EnglishEntrybarber extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەلمانی، سەرتاش، جوانکار (پیاوانە)، دەلاک
-
-١. (ناو) کەسێک کە کاری بڕینی پرچی پیاوانە لەگەڵ کاری تاشین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە کاری بڕینی پرچی پیاوانە لەگەڵ کاری تاشین"""),
                           Row(
                             children: [
                               const Expanded(

@@ -188,10 +188,12 @@ class EnglishEntrybygone extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕابردوو، بووری، کۆن، پێشوو، جاران
-
-١. (ناو) شتێک کە ماوەیەکی زۆر پێش ئێستا بوونی ھەبووبێت یان ڕوویدا بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە ماوەیەکی زۆر پێش ئێستا بوونی ھەبووبێت یان ڕوویدا بێت"""),
                           Row(
                             children: [
                               const Expanded(

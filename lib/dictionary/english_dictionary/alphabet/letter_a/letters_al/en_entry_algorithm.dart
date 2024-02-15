@@ -109,7 +109,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەلگۆریتم، لۆگاریتم (بەتایبەت کۆمپیوتەر)
 """),
                           const DefinitionKurdish(

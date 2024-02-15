@@ -147,10 +147,12 @@ class EnglishEntrybass extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باس، گڕ، بەم، بۆڕ، گۆڕانی‌بێژی ئەو دەنگە، دەنگی گڕ یان باس، ئامێری گڕدەنگ، ماسی دڕکاوی، ماسی‌یەدڕکە، گورگی دەریایی
-
-١. (ناو) نزمترین تۆنی دەنگ یان بەشی میوزیکێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) نزمترین تۆنی دەنگ یان بەشی میوزیکێک"""),
                           Row(
                             children: [
                               const Expanded(

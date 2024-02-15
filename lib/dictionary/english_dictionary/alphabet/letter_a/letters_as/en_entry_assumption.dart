@@ -160,10 +160,12 @@ class EnglishEntryassumption extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وادانان، گریمان، وابۆچوون، پێ‌وابوون، وازانین، بۆچوون، خەیاڵ، گومان، خۆبەزلزانی، بەدەماری، بەھەوایی، لەخۆبایی‌بوون. گرتنەمل، خۆبەستەیی، دەربەستی، گرتنەئەستۆ، واخۆنیشان‌دان، واخۆدەرخستن، گرتنەدەست
-
-١. (ناو) گریمانە؛ دانانی شتێک وەک ڕاستی یان ئەوەی کە ڕوودەدات بەبێ زانیاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گریمانە؛ دانانی شتێک وەک ڕاستی یان ئەوەی کە ڕوودەدات بەبێ زانیاری"""),
                           Row(
                             children: [
                               const Expanded(

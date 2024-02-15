@@ -159,10 +159,12 @@ class EnglishEntryastronaut extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاسمان‌گەڕ، بۆشایی‌گەڕ، ئاسمانەوان
-
-١. (ناو) کەسێک کە لەناو کەشتی ئاسمانی گەشت دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە لەناو کەشتی ئاسمانی گەشت دەکات"""),
                           Row(
                             children: [
                               const Expanded(

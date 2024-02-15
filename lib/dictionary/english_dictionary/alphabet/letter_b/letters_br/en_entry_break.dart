@@ -693,10 +693,11 @@ class EnglishEntrybreak extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شکاوی، شکان، شکست، وردوخاشی، قڵیش، کون، شەبەق، درز، دابڕاوی، پساوی، پسان، پچڕان، ھەڵوێستە، ھەڵوەستە، پشوو، وچان، ورنگ، پێندان، پشووی خوێندن، گۆھارتن، گۆڕان، گۆڕانی ناکاو، دەرچوون، دەربازبوون، ھەڵاتن، چانس، ھەل، دەرفەت، دەلیڤە
-
-١. (کردار) شکان یان شکاندن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) شکان یان شکاندن"""),
                           Row(
                             children: [
                               const Expanded(

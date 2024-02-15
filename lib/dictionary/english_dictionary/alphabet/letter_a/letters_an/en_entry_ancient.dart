@@ -153,10 +153,12 @@ class EnglishEntryancient extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆن، کەڤنار، کەون، باستان، مێژینەدار، بەرین، دێرین، زووگین، باستانی، دێرینە، قەدیمی، (کۆن و بە شۆخی) پیر، کۆن، دێرساڵ، بەسەڵاچوو، خەڵکی کەونار، زووژیاوان
-
-١. (ھاوەڵناو) زۆر‌کۆن؛ پێش ھەزاران ساڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) زۆر‌کۆن؛ پێش ھەزاران ساڵ"""),
                           Row(
                             children: [
                               const Expanded(

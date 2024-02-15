@@ -140,10 +140,12 @@ class EnglishEntrybrutality extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڕندایەتی، دڕندەیی، ھۆڤیگەری، نەپارێزی، دڵڕەقی، توندوتیژی، ستەم، زوڵم، زۆرداری، زەبروزەنگ، گیانەوەرخوویی، دڕندەڕەفتاری
-
-١. (ناو) ھەڵسوکەوتی دڕندانە و توندوتیژانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەڵسوکەوتی دڕندانە و توندوتیژانە"""),
                           Row(
                             children: [
                               const Expanded(

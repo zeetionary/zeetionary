@@ -145,7 +145,7 @@ class EnglishEntrybeet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (گیانەوەرناسی) چۆننەر، چەوەندەر، چۆننەری شەکر یان قەند، ڕەگ یان بنجی چۆننەر، سەلکەچەوەندەر، سەلکەبزووت
 """),
                           const DefinitionKurdish(

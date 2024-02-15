@@ -151,7 +151,7 @@ class EnglishEntrybandy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لاق‌چەوێڵ، پێ‌چەوێڵ، لاق یان پێی کەوانەیی
 """),
                           const DefinitionKurdish(

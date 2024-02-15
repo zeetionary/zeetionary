@@ -93,7 +93,7 @@ class EnglishEntryaboutturn extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 ١. بە تەواوی گۆڕینی بۆچوون، ڕەفتار، یان پلان"""),
                           Row(
                             children: [

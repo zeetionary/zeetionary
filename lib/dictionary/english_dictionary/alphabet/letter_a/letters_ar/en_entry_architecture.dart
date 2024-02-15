@@ -158,10 +158,11 @@ class EnglishEntryarchitecture extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مێعماری، سازەوانی، بیناسازی، شێوازی مێعماری یان بیناسازی، پلان یا پێکھاتەی ڕێکخستە (سیستم)یێکی کامپیوتێڕی
-
-١. (ناو) ھونەر و زانستی دیزاینی بینا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ھونەر و زانستی دیزاینی بینا"""),
                           Row(
                             children: [
                               const Expanded(

@@ -101,10 +101,12 @@ class EnglishEntryabstain extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆبەدوورگرتن، خۆپاراستن،
-
-١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
                           Row(
                             children: [
                               const Expanded(

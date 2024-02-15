@@ -151,7 +151,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: یەکاڵاکردنەوە، توێکاری مردوو، لەش‌دانەوە (جەستە و ھۆی زانینی مردن)
 """),
                           const DefinitionKurdish(

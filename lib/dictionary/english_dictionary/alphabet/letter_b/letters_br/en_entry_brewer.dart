@@ -139,10 +139,12 @@ class EnglishEntrybrewer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیرەساز، بیرەدروس‌کەر
-
-١. (ناو) کەسێک یان کۆمپانیایەک کە بیرە درووست دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک یان کۆمپانیایەک کە بیرە درووست دەکات"""),
                           Row(
                             children: [
                               const Expanded(

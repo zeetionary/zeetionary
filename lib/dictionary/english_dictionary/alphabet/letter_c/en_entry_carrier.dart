@@ -193,7 +193,7 @@ class EnglishEntrycarrier extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەڵگر، کۆڵکێش، کۆمپانی گوێزانەوە، ناوکۆیی ڕاگوێستن، ڕاگوێزەر (نەخۆشی)، نامەبەر، ـھەڵگر، ـبەر، کەشتی فڕۆکەھەڵگر، (دووچەرخە) پاشتەرک، (ماشێن) باربەست، باربەند، کەل‌وپەل‌ھەڵگر
 """),
                           const DefinitionKurdish(

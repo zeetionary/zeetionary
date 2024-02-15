@@ -190,7 +190,7 @@ class EnglishEntrycatty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕیایی‌باز، دووڕوو، ڕووبین، کیناوی، ڕقاوی، بوغزاوی، فێڵاوی، پیس، لەبنەوەبڕ
 """),
                           const DefinitionKurdish(

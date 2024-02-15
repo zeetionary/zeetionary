@@ -255,7 +255,7 @@ class EnglishEntryblaze extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گڕ، گڵ، گڵپە، کڵپە، بڵێسە، سۆڵە، زمانە، سنجر، نێرگە، ئاگر، ئاور، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، داگیرسان، ھەڵبوون، سوورەوەبوون، ھەڵچوون، بریقەدانەوە، تیشک‌دانەوە، درەوشانەوە، چروسان، شەوق‌دانەوە، ورشانەوە، ڕووناکی، شەوق
 """),
                           const DefinitionKurdish(

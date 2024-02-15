@@ -145,10 +145,12 @@ class EnglishEntrybirthmark extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خاڵی زگماکی یا خودایی، نیشانەزا، نیشانەی سکماگ
-
-١. (ناو) خاڵێکی قاوەیی یان سوور کە لەسەر پێستی کەسێکە لە زگماکییەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) خاڵێکی قاوەیی یان سوور کە لەسەر پێستی کەسێکە لە زگماکییەوە"""),
                           Row(
                             children: [
                               const Expanded(

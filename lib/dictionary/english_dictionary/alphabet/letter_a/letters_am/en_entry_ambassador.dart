@@ -111,7 +111,7 @@ class EnglishEntryambassador extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باڵوێز، باڵیۆز، نێردە، نێردراو، نوێنەری دەسەڵات‌پێدراو یان دەسەڵات‌بەدەست
 """),
                           const DefinitionKurdish(

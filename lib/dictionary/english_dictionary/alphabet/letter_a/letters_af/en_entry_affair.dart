@@ -142,7 +142,7 @@ class EnglishEntryaffair extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کار، کردە، شت، کاروبار (کۆ)، پرس، دۆز، بابەت، مژار، بوویەر، ڕووداو، کاروباری بازرگانی یان دارایی، پێوەندی سێکسی، دڵداری، حەزلێ‌کردوویی، تێکەڵ‌بوونی ژن و پیاوێ
 """),
                           const DefinitionKurdish(

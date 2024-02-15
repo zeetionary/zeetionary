@@ -202,7 +202,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرەنگاری، بەرەنگارخوازی، بەرەنگاربوونەوە، بەگژداچوون(ەوە)، تێخوڕین، لەڕووداوێستان، بەرپەرچ‌دانەوە، بانگ‌کردن بۆ شەڕ یان پێشبڕکێ، ھاڕەوگیفە خۆھەڵکێشی، دژایەتی، ناکۆکی،	دەستوور یان فەرمانی وێستان
 """),
                           const DefinitionKurdish(

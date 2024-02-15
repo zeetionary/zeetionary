@@ -158,10 +158,12 @@ class EnglishEntryarrogance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەخۆدەرچوویی، لووت‌بەرزی، دفن‌بلندی، بادی‌ھەوایی، خۆبەزل‌زانی
-
-١. (ناو) لەخۆڕازیی؛ بەشێوەیەل ڕەفتارکردن وەک ئەوەی لە کەسانی تر زیاتر بیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لەخۆڕازیی؛ بەشێوەیەل ڕەفتارکردن وەک ئەوەی لە کەسانی تر زیاتر بیت"""),
                           Row(
                             children: [
                               const Expanded(

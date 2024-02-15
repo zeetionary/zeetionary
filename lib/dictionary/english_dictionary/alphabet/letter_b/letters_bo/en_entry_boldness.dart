@@ -145,10 +145,12 @@ class EnglishEntryboldness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەترسی، بێ‌باکی، بوێری، ئازایەتی، گوستاخی، بێ‌شەرمی، بێ‌حەیایی، ڕووداری
-
-١. (ناو) خاسیەتی ئازایی و متمانە بەخۆبوون و نەترسان لە کردن یان وتنی ئەوەی دەتەوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) خاسیەتی ئازایی و متمانە بەخۆبوون و نەترسان لە کردن یان وتنی ئەوەی دەتەوێت"""),
                           Row(
                             children: [
                               const Expanded(

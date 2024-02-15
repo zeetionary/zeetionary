@@ -157,10 +157,12 @@ class EnglishEntryanxious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌ئۆقرە، ئارام‌لێ‌ھەڵگیراو، ناڕەحەت، بەخەتەرە، بژاڵ، پڕدڵەڕاوکێ، پەرێشان، نیگەران، بەتەنگەوە، تامەزرۆ، بەتین، بەپەرۆش
-
-١. (ھاوەڵناو) ھەست‌کردن بە نیگەرانی و شڵەژاوی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ھەست‌کردن بە نیگەرانی و شڵەژاوی"""),
                           Row(
                             children: [
                               const Expanded(

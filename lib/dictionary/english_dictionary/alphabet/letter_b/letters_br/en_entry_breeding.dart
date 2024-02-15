@@ -141,10 +141,12 @@ class EnglishEntrybreeding extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەخێوکردن، ڕاگرتن، پەروەرشت، پەروەردەکردن، گیانەوەرڕاگری، ڕاھێنان، ڕەوشت، پەروەردە، بارھێنان، ڕەعەمەل‌ھێنان، زاوزێ، زەگەز، نژاد، توخم
-
-١. (ناو) بەخێوکردنی ئاژەڵ بۆ وەچەخستنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەخێوکردنی ئاژەڵ بۆ وەچەخستنەوە"""),
                           Row(
                             children: [
                               const Expanded(

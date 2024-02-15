@@ -144,7 +144,7 @@ class EnglishEntryblacken extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕەش کردن، سووک کردن، ناو زڕاندن
 """),
                           const DefinitionKurdish(

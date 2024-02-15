@@ -143,10 +143,12 @@ class EnglishEntrybleary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (چاو) ماندوو، سوور، لێڵ، ماسیو
-
-١. (ھاوەڵناو) کە چاو نەتوانێت بە باشی ببینێت بەھۆی ماندووێتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کە چاو نەتوانێت بە باشی ببینێت بەھۆی ماندووێتی"""),
                           Row(
                             children: [
                               const Expanded(

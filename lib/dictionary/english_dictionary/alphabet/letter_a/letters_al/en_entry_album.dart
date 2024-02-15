@@ -110,7 +110,7 @@ class EnglishEntryalbum extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاڵبۆم، وێنەدان، جێ‌وێنە، جێ‌پوول، پوول‌دان، ئاڵبومی میوزیک
 """),
                           const DefinitionKurdish(

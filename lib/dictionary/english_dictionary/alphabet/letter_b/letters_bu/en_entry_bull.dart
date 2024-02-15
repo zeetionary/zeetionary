@@ -142,7 +142,7 @@ class EnglishEntrybull extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جوانەگا، وەرزا، وەرزە، جەل، بەرجووت، کەڵ، کەڵەگا، نێرەگا، نێرەفیل، نێرەنەھەنگ (گیانەوەرە زلەکانی تریش)، (ڕەمەکی) پاسەبان، پۆلیس، ئاژان
 """),
                           const DefinitionKurdish(

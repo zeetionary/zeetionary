@@ -145,10 +145,11 @@ class EnglishEntrybrake extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وەستێنە، وەستێنەر، بەربەست، لەمپەر، تەگەرە، کۆسپ
-
-١. (ناو) وەستێنەری ئۆتۆمبێل"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) وەستێنەری ئۆتۆمبێل"""),
                           Row(
                             children: [
                               const Expanded(

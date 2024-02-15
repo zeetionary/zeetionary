@@ -14720,10 +14720,10 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-change");
                   }
-                  // if (wordsEnglish == "changeable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-changeable");
-                  // }
+                  if (wordsEnglish == "changeable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-changeable");
+                  }
                   // if (wordsEnglish == "changeover") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-changeover");

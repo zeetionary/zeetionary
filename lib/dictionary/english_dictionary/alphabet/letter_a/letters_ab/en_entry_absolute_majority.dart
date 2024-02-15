@@ -94,7 +94,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زۆرینەی ڕەھا یان ئەبسولوت
 
 ١. زیاتر لە نیوەی دەنگدەران"""),

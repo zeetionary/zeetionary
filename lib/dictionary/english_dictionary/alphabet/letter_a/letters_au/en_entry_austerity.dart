@@ -162,10 +162,12 @@ class EnglishEntryausterity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەخواترسی، پارێزگاری، سەختی، دژواری، چەتوونی، سەخت‌گیری، توندگری، توندگرتن، ڕووگرژی، ڕووتاڵی، سادەیی، نەڕازاوی، بێ‌زێڕوزیوی
-
-١. (ناو) دۆخی ئابووری خراپ بەھۆی سیاسەتی حکومەتەوە لە کاتی جەنگدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دۆخی ئابووری خراپ بەھۆی سیاسەتی حکومەتەوە لە کاتی جەنگدا"""),
                           Row(
                             children: [
                               const Expanded(

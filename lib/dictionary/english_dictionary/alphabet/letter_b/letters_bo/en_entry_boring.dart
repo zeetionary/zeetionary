@@ -142,7 +142,7 @@ class EnglishEntryboring extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەکەت‌کەر، وەڕەس‌کەر، عاجزکەر، ماندووکەر، ناخۆش، قۆڕ، ھیچ
 """),
                           const DefinitionKurdish(

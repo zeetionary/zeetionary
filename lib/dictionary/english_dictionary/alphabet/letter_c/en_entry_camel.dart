@@ -187,7 +187,7 @@ class EnglishEntrycamel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وشتر، دەڤە، سارە
 """),
                           const DefinitionKurdish(

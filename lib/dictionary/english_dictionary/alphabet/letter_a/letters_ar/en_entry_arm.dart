@@ -188,10 +188,12 @@ class EnglishEntryarm extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەس(ت)، باڵ، بازۆڵە، بازوو، باسک، قۆڵ، بەوش، باوش، باوەش، باخڵ، ھەنگڵ، لق، تا، بەشی کرداری گروپ، ڕێکخراوە، دامەزراوە یان چالاکی‌یێ، دەسک، جێ‌دەس، دەستە، چەک، تەرک، ھێز، دەسەڵات، (ڕووبار) لق
-
-١. (ناو) دەست؛ دوو بەشی جەستە کە لە شانەوە درێژەبنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەست؛ دوو بەشی جەستە کە لە شانەوە درێژەبنەوە"""),
                           Row(
                             children: [
                               const Expanded(

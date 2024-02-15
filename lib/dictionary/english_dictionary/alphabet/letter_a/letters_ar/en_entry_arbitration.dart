@@ -157,7 +157,7 @@ class EnglishEntryarbitration extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دادوەری، داوەری، نێوگژیوانی، ناوبژیوانی، بەریڤانی
 """),
                           const DefinitionKurdish(

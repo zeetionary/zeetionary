@@ -148,7 +148,7 @@ class EnglishEntryblanket extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەتۆ، فانیلە، پێخەف، بەتانیە، بەڕە (تەشکەبەرە: بەڕەی درێژۆکە)، توێ، چین، گەرداڵ، توێژاڵ، (وڵاخ) جل، ھەمووگر، گشتگیر، گشت‌لایەنە، دیاری‌نەکراو، گشتی، بێ‌ئاوارتە
 """),
                           const DefinitionKurdish(

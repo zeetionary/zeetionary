@@ -142,10 +142,11 @@ class EnglishEntrybrisk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەزبووت، لەش‌سووک، توندوتۆڵ، چابک، چالاک، تاشک، گوربز، فرز، چوست، ھەڵسووڕ، توند، فێنک، خۆش، تازە
-
-١. (ھاوەڵناو) سەرقاڵ و بەبێ وەستان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) سەرقاڵ و بەبێ وەستان"""),
                           Row(
                             children: [
                               const Expanded(

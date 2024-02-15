@@ -147,10 +147,12 @@ class EnglishEntrybesiege extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەورگرتن، پەلاماردان، گەمارۆدان
-
-١. (کردار) دەوردانی شوێنێک (بینایەک، شارێک، ھتد.) کە سەربازی تێدایە تاوەکو خەڵکی ناوی ڕێگە دەدەن بچیتە ژوورەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) دەوردانی شوێنێک (بینایەک، شارێک، ھتد.) کە سەربازی تێدایە تاوەکو خەڵکی ناوی ڕێگە دەدەن بچیتە ژوورەوە"""),
                           Row(
                             children: [
                               const Expanded(

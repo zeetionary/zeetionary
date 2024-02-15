@@ -143,7 +143,7 @@ class EnglishEntryboastful extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆھەڵێکش، بەھاڕەوگیفە، بەلاف‌وگەزاف، لەخۆبایی، فیزن، تڕزل، پێوەنازیو، بەتڕوتۆپ
 """),
                           const DefinitionKurdish(

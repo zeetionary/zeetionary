@@ -153,10 +153,11 @@ class EnglishEntryantediluvian extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆن، بەدەرلەمێژوو، سەرەتایی، لەباوکەوتوو، مرۆی کۆنەپەرست
-
-١. (ھاوەڵناو) کۆنەپەرست"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) کۆنەپەرست"""),
                           Row(
                             children: [
                               const Expanded(

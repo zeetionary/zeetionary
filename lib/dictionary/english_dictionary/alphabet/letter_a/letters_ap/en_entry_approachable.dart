@@ -158,10 +158,11 @@ class EnglishEntryapproachable extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەس‌پێڕاگەیشتوو، لەگەیشتن‌ھاتوو، لەنزیک، لەبەردەست، ڕووخۆش
-
-١. (ھاوەڵناو) ڕووخۆش و کۆمەڵایەتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ڕووخۆش و کۆمەڵایەتی"""),
                           Row(
                             children: [
                               const Expanded(

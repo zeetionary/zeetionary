@@ -174,10 +174,12 @@ class EnglishEntryangle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆشە، سووچ، کونجیک، موور، قولینچک، گوونیا، بۆچوون، ڕوانگە، دید و بۆچوون، نێرین، دیتن
-
-١. (ناو) گۆشە؛ بۆشایی نێوان دوو ھێڵ لەو خاڵەی بە یەکدی دەگەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گۆشە؛ بۆشایی نێوان دوو ھێڵ لەو خاڵەی بە یەکدی دەگەن"""),
                           Row(
                             children: [
                               const Expanded(

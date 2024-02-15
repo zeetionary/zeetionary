@@ -321,10 +321,11 @@ class EnglishEntrybad extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خراپ، بەد، بەو، دژ، نەباش، چەپ، ناحەز، ناپەسند، ناشیرین، کرێت، ناخۆش، ترسناک، کەم، ناتەواو، بەش‌نەکردوو، لاواز، گەنیو، پیس، ڕزیو، موزیڕ، بەوەی، خراپ، بەزەڕ، بەزیان، سەخت، توند، ناشی، نالەبار، نابار، ھەڵەشە، ھاروھاج، بەدفەڕ، شلوق، لاسار، شەیتان، نەگونجاو، بێجێ، پڕگرفت، پرئاستەنگ، ھەڵە، شاشی، چەوت، نادروست، بەئێش، بەژان، نەخۆش، ناساخ، ناسا، بێ‌نرخ، قەڵب، ھیچ‌نەکردوو، ساختە، چروک، بەکارنەھاتوو (کۆین)، خراپ، شپرزە، زۆر، خراپی
-
-١. (ھاوەڵناو) ناخۆش و پڕ لە کیشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ناخۆش و پڕ لە کیشە"""),
                           Row(
                             children: [
                               const Expanded(

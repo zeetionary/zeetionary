@@ -101,10 +101,12 @@ class EnglishEntryabrasive extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کڕێنەر، کڕەک، داخورێنەر، سوێنەر، زبرە، خاوێن‌کەرەوە، داتاشەر، لووس‌کەر، مشت‌وماڵ‌دەر، ژان‌بەدڵ‌گەیێن، جەرگبڕ، دڵ‌شکێن، ناخۆش، توندوتیژ، کەرەسە یا مەتریاڵی سوێنەر، ماکی سوواندن، سوێنە
-
-١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
                           Row(
                             children: [
                               const Expanded(

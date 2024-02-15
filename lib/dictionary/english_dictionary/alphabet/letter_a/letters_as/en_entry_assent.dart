@@ -159,10 +159,12 @@ class EnglishEntryassent extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێک‌کەوتن، یەک‌کەوتن، ڕەزامەندی، پەسندکردن، مۆرکردن، پەژراندن، سەلماندن، بەڕاست‌دانان
-
-١. (ناو) ڕەزامەندی یان ڕازیبوونی فەرمی لەسەر شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕەزامەندی یان ڕازیبوونی فەرمی لەسەر شتێک"""),
                           Row(
                             children: [
                               const Expanded(

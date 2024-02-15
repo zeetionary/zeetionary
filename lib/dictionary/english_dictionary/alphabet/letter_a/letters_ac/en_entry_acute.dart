@@ -125,7 +125,7 @@ class EnglishEntryacute extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تیژ، زیرەک، زرینگ، زووتێگەیشتوو، توند، چەنگ (بەتایبەت بۆ ڕژدی دەم یان تیخی مەڵەغان و داس، بەرامبەرەکەی دەبێتە واڵ کە دەمەکەی (سەبارەت بە چەنگ) بڵاوترە)، ڕژد، تیژ (کەم‌تر لە90 پلە (ئەندازیاری)، سەخت، قووڵ، توند، گران، قەیراناوی، ئاستەم، ئاگا، خراپ، شپرزە، چاوتیژ، وریا، وردبین
 """),
                           const DefinitionKurdish(

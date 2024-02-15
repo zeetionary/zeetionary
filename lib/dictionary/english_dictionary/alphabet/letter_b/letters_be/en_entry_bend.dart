@@ -304,10 +304,11 @@ class EnglishEntrybend extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خواروخێچی، پێچ، گەڕ، چەم، چەماوی، خواری، ئەژنۆیی، چەمانەوە، خواربوونەوە، نووچ، داھاتنەوە، نووشتانەوە، گرێی مەلەوانی
-
-١. (کردار) چەمانەوە، چەماندنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) چەمانەوە، چەماندنەوە"""),
                           Row(
                             children: [
                               const Expanded(

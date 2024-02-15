@@ -108,10 +108,12 @@ class EnglishEntryaggression extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەس‌درێژی، زێدەگاڤی، ھەڵشاخان، یانیگری، بۆھاتوویی، پەلاماردەری، دڕی، توندوتیژی، دوژمن‌کاری، ھێرش‌کاری، شەڕان‌خوویی، ھێرش، پەلامار
-
-١. (ناو) ھەستی ڕق و شەڕانگێزی کە ڕەنگە ببێتە ھۆی توندتوتیژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەستی ڕق و شەڕانگێزی کە ڕەنگە ببێتە ھۆی توندتوتیژی"""),
                           Row(
                             children: [
                               const Expanded(

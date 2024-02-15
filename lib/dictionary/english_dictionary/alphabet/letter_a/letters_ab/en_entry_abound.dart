@@ -104,7 +104,7 @@ class EnglishEntryabound extends StatelessWidget {
                                             "Stories about his travels abound."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گێڕانەوەکان دەربارەی گەشتەکانی زۆر بوون."),
+                                            "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن."),
                                   ],
                                 ),
                               ),

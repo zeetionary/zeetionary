@@ -110,10 +110,12 @@ class EnglishEntryambitious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرزەفڕ، بەرز(ە)خواز، ھێزخواز، پاوانخواز، باڵاخواز، تەماح‌کار
-
-١. (ھاوەڵناو) ڕشت لەسەر ئەوەی دەوڵەمەند و سەرکەوتووبیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ڕشت لەسەر ئەوەی دەوڵەمەند و سەرکەوتووبیت"""),
                           Row(
                             children: [
                               const Expanded(

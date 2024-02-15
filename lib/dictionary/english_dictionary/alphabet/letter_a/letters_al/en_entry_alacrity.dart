@@ -109,7 +109,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەف‌وکوڵ، تاووتین، جۆش‌وخرۆش، بەپەرۆشی، تامەزرۆیی، ویست، شادی و خۆشی، چابکی، ھەڵسووڕی، گورج‌وگۆڵی، توندوتۆڵی
 """),
                           const DefinitionKurdish(

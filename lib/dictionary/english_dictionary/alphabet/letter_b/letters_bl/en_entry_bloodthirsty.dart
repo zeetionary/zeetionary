@@ -145,10 +145,12 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خوێن‌ڕێژ، بێ‌بەزەیی، توندوتیژ، بەخوێن‌تینوو، توندوتیژی‌خواز، دڵڕەش، دڵڕەق
-
-١. (ھاوەڵناو) کەسێک کە حەزی بە کووشتن و توندوتیژییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک کە حەزی بە کووشتن و توندوتیژییە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -151,7 +151,7 @@ class EnglishEntryaviary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئیڤیەری، باڵندەخانە، مەلگە، شوێنی باڵندەکان (قەفەسێکی گەورە بۆ ڕاگرتنی باڵندەکان، بۆ نموونە لە باخچەی ئاژەڵان‌دا)
 """),
                           const DefinitionKurdish(

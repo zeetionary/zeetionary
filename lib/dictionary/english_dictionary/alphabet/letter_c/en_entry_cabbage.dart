@@ -187,7 +187,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (ڕووەک‌ناسی) کەلەم، کەلەرم، لانە، تۆپەکەلەم، لەھەن
 """),
                           const DefinitionKurdish(

@@ -101,7 +101,7 @@ class EnglishEntryabundant extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زۆر، زۆر و زەبەند، زیاد، فرە، فراوان، بەون، بێ‌ژمار، بۆش، فت‌وفراوان، بەپیت، بەبەرەکەت، فەرێح، فت‌وفراوان، گەلێک، پڕ، لێواولێو، پڕاوپڕ، زیاتر لە پێویست
 """),
                           const DefinitionKurdish(

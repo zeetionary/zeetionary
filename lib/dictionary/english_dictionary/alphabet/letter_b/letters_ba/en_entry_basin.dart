@@ -147,10 +147,12 @@ class EnglishEntrybasin extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەخسەلە، کاسە، لەگەن، تاس، تەشت، سوێنە، قاپشۆری، لانجین، تەسە (ھی ھەویر)، گۆلاو، پەنگاو، گۆلکاو، سەرچاوەکان، چاڵاو
-
-١. (ناو) دەستشۆر کە دەلکێندرێت بە دیوارەوە و بەلووعەی پێوەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەستشۆر کە دەلکێندرێت بە دیوارەوە و بەلووعەی پێوەیە"""),
                           Row(
                             children: [
                               const Expanded(

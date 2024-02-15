@@ -139,10 +139,12 @@ class EnglishEntrybullion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەستەک، داڕشتە، قورسە
-
-١. (ناو) ئاڵتوون و زیو بە ڕێژەی زۆر یان بە پارچە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئاڵتوون و زیو بە ڕێژەی زۆر یان بە پارچە"""),
                           Row(
                             children: [
                               const Expanded(

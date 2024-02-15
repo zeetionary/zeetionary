@@ -145,7 +145,7 @@ class EnglishEntrybelfry extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قوللە یان برجی زەنگ، کەلوو یان تاوێری زەنگ، زەنگ‌خانە
 """),
                           const DefinitionKurdish(

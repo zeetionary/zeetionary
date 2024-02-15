@@ -146,7 +146,7 @@ class EnglishEntryblossom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خونچە، گوڵ، ول، چرۆ، کلووک، پژک(ووژ)، پشکۆژ، ھەڕاڵە، پۆخ(ڵە)، دۆخ یا ماوەی گوڵ‌کردن، ھەڕەت، جەنگە، تاف 
 """),
                           const DefinitionKurdish(

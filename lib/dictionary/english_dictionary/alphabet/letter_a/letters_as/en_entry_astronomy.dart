@@ -159,10 +159,12 @@ class EnglishEntryastronomy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەستێرەوانی، ئەستێرەناسی
-
-١. (ناو) زانستی لێکۆڵینەوە لە خۆر و مانگ و ھەسارە و ئەستێرەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) زانستی لێکۆڵینەوە لە خۆر و مانگ و ھەسارە و ئەستێرەکان"""),
                           Row(
                             children: [
                               const Expanded(

@@ -141,7 +141,7 @@ class EnglishEntrybran extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سۆست، سۆ، سۆس، زبرە، کرپک، کەڵپ، درشتەی ئارد، کەپەک، پاژینە، ئەسپرزە، پشی، پنس
 """),
                           const DefinitionKurdish(

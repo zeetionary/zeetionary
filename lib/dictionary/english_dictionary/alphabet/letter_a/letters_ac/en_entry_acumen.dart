@@ -107,7 +107,7 @@ class EnglishEntryacumen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زیرەکی، وریایی، زرینگی، بیرتیژی، زووتێگەیشتوویی، ھۆش
 """),
                           const DefinitionKurdish(

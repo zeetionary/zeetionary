@@ -156,10 +156,12 @@ class EnglishEntryapricot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەیسی، قایسی، شێڵانە، شڵانە، ھیرۆگ، مژمژە، مش‌مشیر، داری قەیسی
-
-١. (ناو) میوەیەکی خڕ بە توێکڵی زەرد یان پرتەقاڵی و ناوکێکی گەورەی ڕەق"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) میوەیەکی خڕ بە توێکڵی زەرد یان پرتەقاڵی و ناوکێکی گەورەی ڕەق"""),
                           Row(
                             children: [
                               const Expanded(

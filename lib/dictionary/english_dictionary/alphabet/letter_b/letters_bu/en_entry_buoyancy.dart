@@ -190,7 +190,7 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەراوکەوتوویی، سەرکەوتەیی، مەلەونی، سەراوکی، سەراوکەیی، سووکی، سواراوی، توانایی سەراوکەوتەیی، بەکەیفی، خۆشحاڵی، بەگوڕی، دڵخۆشی، شادی
 """),
                           const DefinitionKurdish(

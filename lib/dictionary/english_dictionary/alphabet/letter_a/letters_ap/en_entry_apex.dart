@@ -157,7 +157,7 @@ class EnglishEntryapex extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەر، تەوق، نووچکە، نووک، چڵوک، چڵەپۆپە، ترۆپک، لووتکە
 """),
                           const DefinitionKurdish(

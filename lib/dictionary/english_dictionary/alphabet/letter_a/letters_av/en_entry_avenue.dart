@@ -153,10 +153,11 @@ class EnglishEntryavenue extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەقام، ڕێگا، ڕێ
-
-١. (ناو) شەقامێکی فراوان لە شارێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) شەقامێکی فراوان لە شارێکدا"""),
                           Row(
                             children: [
                               const Expanded(

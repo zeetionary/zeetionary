@@ -94,7 +94,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سفر یان ھیچی ڕەھا (273/15 پلەی سانتی‌گراد)
 """),
                           const DefinitionKurdish(

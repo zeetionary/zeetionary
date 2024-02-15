@@ -107,7 +107,7 @@ class EnglishEntryafoot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەسەرپێ، بەپێوە، لە پەرەسەندن‌دا، لە پێشکەوتن‌دا، لە ئامادەبوون‌دا، لە حاڵی کردن‌دا، لە جووڵەدا، بەڕێگاوە، نزیک، ھاکاھات
 """),
                           const DefinitionKurdish(

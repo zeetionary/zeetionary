@@ -151,10 +151,11 @@ class EnglishEntrybet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گرێو، مەرج‌بەستن، پارەی گرێو
-
-١. (کردار) گرەوکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) گرەوکردن"""),
                           Row(
                             children: [
                               const Expanded(

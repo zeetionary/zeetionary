@@ -109,7 +109,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەخۆبردوویی، گیان‌بازی، ئەویدی‌خوازی، فەداکاری، مرۆڤ‌دۆستی، (گیانەوەرناسی) ئەویدی‌خوازی: ھەڵس‌وکەوتی گیانەوەرێ بە سوودی یەکێکی تر تا خۆی
 """),
                           const DefinitionKurdish(

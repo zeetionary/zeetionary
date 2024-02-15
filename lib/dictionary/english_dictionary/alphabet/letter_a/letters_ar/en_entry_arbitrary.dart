@@ -160,10 +160,12 @@ class EnglishEntryarbitrary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەدەسخۆیی، مەیلی، خۆحەزی، بە دڵی خۆ، بە پێخۆش‌بوون، نازۆرەملی، سەرپشکی، ڕەمەکی، بەڕێکەوت، ھەڕەمەکی، بەزۆری، زۆرەملێ، زۆرداری، ملھوڕی، سەرەڕۆ، دیکتاتۆڕیاڵ، زۆردار، ملھوڕ
-
-١. (ھاوەڵناو) شتێک کە پشتی بە ھیچ سیستەمێک یان پلانێک نەبەستووە و بە نادادپەروەر دەردەکەوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە پشتی بە ھیچ سیستەمێک یان پلانێک نەبەستووە و بە نادادپەروەر دەردەکەوێت"""),
                           Row(
                             children: [
                               const Expanded(

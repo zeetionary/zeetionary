@@ -145,7 +145,7 @@ class EnglishEntrybedlam extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شێت‌خانە، ھەرچی و پەرچی، تێکەولێکە، شلوق‌بازاڕی، دەنگ‌وھەرا، حەمامی ژنان
 """),
                           const DefinitionKurdish(

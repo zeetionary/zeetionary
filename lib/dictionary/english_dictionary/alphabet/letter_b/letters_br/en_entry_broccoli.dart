@@ -139,10 +139,12 @@ class EnglishEntrybroccoli extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (ڕووەک‌ناسی) براکێلی، ڕەشەکەلەم، کەلەمی ئیتالیایی
-
-١. (ناو) سەوزەیەک کە قەدێکی سەوزی ئەستووری ھەیە لەگەڵ چەند تۆپەڵێک لە چرۆی گوڵ لەسەرەوەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) سەوزەیەک کە قەدێکی سەوزی ئەستووری ھەیە لەگەڵ چەند تۆپەڵێک لە چرۆی گوڵ لەسەرەوەی"""),
                           Row(
                             children: [
                               const Expanded(

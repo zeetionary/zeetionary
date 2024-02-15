@@ -94,7 +94,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 ١. کەسێکە خەیاڵپڵاو کە بیر لە شتی تر دەکاتەوە وەک لەوەی کە لە دەوروبەریەتی"""),
                           Row(
                             children: [

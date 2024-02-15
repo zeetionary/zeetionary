@@ -143,7 +143,7 @@ class EnglishEntryblackleg extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مانبڕ، مانشکێن، درێژەبەکاردەر، ماندڕ، پاڕەشە (جۆرێ نەخۆشی ماڵات، لاقیان ڕەش دادەگەڕا، بەھۆی بەکتریایێکی خاکی)
 """),
                           const DefinitionKurdish(

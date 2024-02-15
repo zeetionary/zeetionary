@@ -231,10 +231,11 @@ class EnglishEntryapproach extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بۆچوون، دیتن، نێرین، تێ‌ڕوانین، ھەڵس‌وکەوت، شێوەی جووڵانەوە، شێوە، ڕێک، شێواز، بار، ڕێگا، ڕێ، ڕێگای چوونەنێو، ئامێر، کەرەسە، لێکچوون، ھاوشێوەیی، دەس‌ڕاگەیشتن، گەیشتن، نزیک‌بوونەوە، نزیکی، نزیک‌کەوتن، قەرەکەوتن، توخن‌کەوتن، داوا، داخوازی، پێشنیار
-
-١. (ناو) ڕێگای مامەڵەکردن لەگەڵ شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ڕێگای مامەڵەکردن لەگەڵ شتێک"""),
                           Row(
                             children: [
                               const Expanded(

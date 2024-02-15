@@ -151,10 +151,12 @@ class EnglishEntrybangle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بازن(ـە)، خڕخڕە، پاوانە، خرخاڵ، پێمووزرە، پاموورە
-
-١. (ناو) پارچە خشڵێک کە لە مەچەکدا دەبەسترێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچە خشڵێک کە لە مەچەکدا دەبەسترێت"""),
                           Row(
                             children: [
                               const Expanded(

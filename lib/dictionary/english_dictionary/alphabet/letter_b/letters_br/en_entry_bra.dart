@@ -147,7 +147,7 @@ class EnglishEntrybra extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەمک‌بەند، سوخمە، سینەبەند، شاماکی
 """),
                           const DefinitionKurdish(

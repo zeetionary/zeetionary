@@ -151,10 +151,12 @@ class EnglishEntrybaboon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بابوون، سەگسارە
-
-١. (ناو) مەیموونێکی ئەفریقایی یان ئاسیایی کە ڕووخسارێکی درێژی ھەیە وەک ئەوەی سەگ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مەیموونێکی ئەفریقایی یان ئاسیایی کە ڕووخسارێکی درێژی ھەیە وەک ئەوەی سەگ"""),
                           Row(
                             children: [
                               const Expanded(

@@ -111,7 +111,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆئەندامی ھەرس، بۆری یا جۆگەی ھەرس
 """),
                           const DefinitionKurdish(

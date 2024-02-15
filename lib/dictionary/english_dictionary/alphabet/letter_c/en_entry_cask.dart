@@ -190,7 +190,7 @@ class EnglishEntrycask extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیپ، بۆشکە، کۆس، کووپەدارینە، کووپەی لەدار، کەمۆڵە، بەرمیل (لە دار)
 """),
                           const DefinitionKurdish(

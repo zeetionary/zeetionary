@@ -111,10 +111,12 @@ class EnglishEntryalgae extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەوزە، کەژاو، کەوزەر، جەلاوی، گاوەک، قەوزوگەل
-
-١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین"""),
                           Row(
                             children: [
                               const Expanded(

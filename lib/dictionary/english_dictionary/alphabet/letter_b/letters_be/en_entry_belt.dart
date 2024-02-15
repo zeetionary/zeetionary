@@ -209,10 +209,12 @@ class EnglishEntrybelt extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەمەر، پشتێن، کەمەرە، پشتێنە، قایشی کەمەر، کەمەربەند (وەک نیشانەی پایە یان دەسکەوتێ، لە جۆدۆ، کاراتە و یان وەرزشی وا)، بەست، قایش، سیرمە، تەسمە (ھی دەزگا و ماشێن)، کەنار، باریکایی، باریکە، ناوچە، مەڵبەند، دەڤەر، پیاکێشان یان لێدانی قورس
-
-١. (ناو) قایش کە لە کەمەر دەبەسترێت لەگەڵ جلدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) قایش کە لە کەمەر دەبەسترێت لەگەڵ جلدا"""),
                           Row(
                             children: [
                               const Expanded(

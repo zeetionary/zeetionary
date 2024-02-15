@@ -143,7 +143,7 @@ class EnglishEntryblasphemy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کفر، خودادڕی، بێ‌ڕێزی یان سووکایەتی بە شتە پیرۆزەکان، زمان‌پیسی، دەم‌شڕی، دەم‌چەوتی
 """),
                           const DefinitionKurdish(

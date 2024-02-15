@@ -162,10 +162,12 @@ class EnglishEntryarticulation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (فەرمی) دەربڕین، گۆکردن، گۆیشت، بێژان (دەنکەدەنکە)، (دەنگ‌ناسی) دەرچوون یان دەرکردنی دەنگ، (تکنیکی) بەند، جومگە،گە، ماچلەک، گوشوەن؛ لاولاوە، ئەنجامە، پیتی کپ، پیتی بێ‌دەنگ، بەجومگەبوون
-
-١. (ناو) دەربڕینی بیرۆکەیەک یان ھەستێک لە وشەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەربڕینی بیرۆکەیەک یان ھەستێک لە وشەدا"""),
                           Row(
                             children: [
                               const Expanded(

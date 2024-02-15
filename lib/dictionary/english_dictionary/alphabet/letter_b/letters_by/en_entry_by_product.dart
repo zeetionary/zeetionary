@@ -188,7 +188,7 @@ class EnglishEntrybyproduct extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لابەرھەم، بەرھەمی لاوەکی، دەم‌بەرھەم، ئەنجامی لاوەکی، لائەنجام، کاریگەری لاتەنیشتی یا لاوەکی، لاکەریگەری
 """),
                           const DefinitionKurdish(

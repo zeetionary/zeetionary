@@ -141,7 +141,7 @@ class EnglishEntrybravado extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بوێری، خۆھەڵکێشی، فڕوفیشاڵ کردن، لاف‌لێدان، خۆ بە ئازا نیشان‌دان
 """),
                           const DefinitionKurdish(

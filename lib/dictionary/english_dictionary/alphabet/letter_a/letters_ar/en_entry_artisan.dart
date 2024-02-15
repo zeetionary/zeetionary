@@ -159,10 +159,12 @@ class EnglishEntryartisan extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیشەساز، پیشەکار، پیشەگەر، وەستاکار، کرێکاری شارەزا یان تکنیکی
-
-١. (ناو) کەسێکی شارەزا کە کارێک بە دەستی دەکات کە پێویستی بە شارەزایی تایبەت ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێکی شارەزا کە کارێک بە دەستی دەکات کە پێویستی بە شارەزایی تایبەت ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

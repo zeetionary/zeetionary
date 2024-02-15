@@ -139,7 +139,7 @@ class EnglishEntrybrightly extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەشێوەیەکی ڕووناک، بەشەوقانە، بەگوڕەوە، بە خۆشحاڵی‌یەوە
 """),
                           const DefinitionKurdish(

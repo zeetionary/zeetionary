@@ -110,7 +110,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەنجام، پێ‌ئاژۆ، ئاکام، قۆناخی دوای کارەساتێ یان ڕووداوی ناخۆش، (کشت‌وکاڵ) بەر یان چینی دووھەم
 """),
                           const DefinitionKurdish(

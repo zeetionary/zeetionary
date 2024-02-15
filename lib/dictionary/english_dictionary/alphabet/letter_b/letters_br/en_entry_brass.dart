@@ -142,7 +142,7 @@ class EnglishEntrybrass extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زەرد، برنج، کالان، کەل‌وپەل یان شت‌ومەکی لە زەرد، ئامێرە زەردەکان، پارە، پووڵ، ڕووداری، بێ‌شەرمی
 """),
                           const DefinitionKurdish(

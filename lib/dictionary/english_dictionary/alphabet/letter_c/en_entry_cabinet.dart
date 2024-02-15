@@ -190,7 +190,7 @@ class EnglishEntrycabinet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دۆڵاب، قەفەسە، جێ‌قاپ، کابینێت، کەوانتەر، قوتو، سنووق (ڕادیۆ و تەلەفزیۆن)، ژوورۆچکە، مۆبل‌دروس‌کردن، مۆبل‌سازی، مۆبلەمەنی، کەل‌وپەلی نێوماڵ، کومێدسازی، کابینێت‌سازی)
 """),
                           const DefinitionKurdish(

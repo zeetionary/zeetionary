@@ -151,7 +151,7 @@ class EnglishEntryaxiom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بنەما یان پڕەنسیپی بەڵگەنەویست، بنچینەی پەسندکراو، دیار، دیتبار، ئاشکرا، سەلماندن‌نەویست، ڕێسا یان بنەمایێکی جێگیر و دامەزراو
 """),
                           const DefinitionKurdish(

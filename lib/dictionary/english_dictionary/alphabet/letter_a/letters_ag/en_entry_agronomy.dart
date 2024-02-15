@@ -107,7 +107,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کشتوکاڵناسی، زانستی کشت‌وکاڵ، ئەندازیارێتی کشت‌وکاڵ یان کشت‌وکاڵی
 """),
                           const DefinitionKurdish(

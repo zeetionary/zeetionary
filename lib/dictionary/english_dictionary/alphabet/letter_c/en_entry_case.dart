@@ -510,7 +510,7 @@ class EnglishEntrycase extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بابەت، کەیس، نموونە، وێنە، میناک، کەیس یان بابەتی نەخۆشی، ئینستەنسی نەخۆشی، ئەنگاوتە، بەرکەوت، نەخۆش، ناساز، کردە، کار، چۆنیەتی، پرس، کێشە، دۆز، پرسگرێک، بابەت، مژار، دۆخ، بار، بارودۆخ، ڕەوش، کاودان، داواکاری، بەڵگەکان، بەڵگە، شایەت، بەڵگەھێنانەوە، ڕاستی، بوویەر، مەتەڵ، ڕاز، (ڕێزمان) دۆخ، کەس، پیاو، مرۆ، قوتو، سنووق، یەغدان، سیپ، مجری، جانتا، توورەکە، جزدان، جامەدان، بەرگ، کیف، ڕووپۆش، توێکڵ، توێخ، قاوغ، قاپووڕ، چوارچێوە (درگا و پەنجەرە)
 """),
                           const DefinitionKurdish(

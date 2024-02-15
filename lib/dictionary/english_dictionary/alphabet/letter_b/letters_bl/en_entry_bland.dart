@@ -145,7 +145,7 @@ class EnglishEntrybland extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەرم، نیان، خۆش، بێ‌تام، بێ‌بۆن‌وچێژ، بێ‌خوێ، لەسەرەخۆ، ھێمن، ھێدی، ئارام، ناخۆش، بێ‌تام، بێ‌تایبەتمەندی، بێ‌سەنگ‌وڕەنگ، ناسەرنج‌ڕاکیش
 """),
                           const DefinitionKurdish(

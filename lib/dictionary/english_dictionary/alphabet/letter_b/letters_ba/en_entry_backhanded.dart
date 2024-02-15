@@ -152,7 +152,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناڕوون، لێڵ، تەژمە، بەپێچ‌وپەنا، ناڕاستەوخۆ، تەماوی
 """),
                           const DefinitionKurdish(

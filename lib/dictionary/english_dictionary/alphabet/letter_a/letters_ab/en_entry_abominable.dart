@@ -111,7 +111,7 @@ class EnglishEntryabominable extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێزاوی، قێزەون، ناپەسند، پیس، یەکجار ناخۆش
 """),
                           const DefinitionKurdish(

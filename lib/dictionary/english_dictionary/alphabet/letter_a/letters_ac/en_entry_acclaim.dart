@@ -101,10 +101,12 @@ class EnglishEntryacclaim extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەپڵەلێدان، چەپک‌لێدان، لەقریوەدان، خۆشی‌دەربڕی، پەسن‌دان، قیژاندن و قریوەی خۆشی
-
-١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی"""),
                           Row(
                             children: [
                               const Expanded(

@@ -188,7 +188,7 @@ class EnglishEntryburial extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناشتن، ڤەشارتن، بنئاخ‌کردن، بنگڵ‌کردن، بەخاک‌سپاردن، ڕێ‌وڕەسمی ناشتن یان بەخاک‌سپاردن، (کۆنەوارناسی) گۆڕ یان پاشماوەی نێوی
 """),
                           const DefinitionKurdish(

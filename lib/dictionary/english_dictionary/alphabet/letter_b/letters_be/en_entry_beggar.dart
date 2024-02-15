@@ -147,10 +147,12 @@ class EnglishEntrybeggar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سواڵکەر، گەدا، خوازەڵۆک، درۆزەکەر
-
-١. (ناو) کەسێک کە لەسەر شەقامەکان داوای پارە و شت دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە لەسەر شەقامەکان داوای پارە و شت دەکات"""),
                           Row(
                             children: [
                               const Expanded(

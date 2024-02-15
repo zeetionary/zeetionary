@@ -151,7 +151,7 @@ class EnglishEntryballistic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاوێژەیی، سەربە ھاوێژەناسی، سەربە ھاوێژەمەنی یان تەنێ کە بەپێی قانوونی ھاوێژەناسی دەڕوا
 """),
                           const DefinitionKurdish(

@@ -151,10 +151,12 @@ class EnglishEntryawe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ترس، سام، ئەندێش، باک، ھەیبەت، شەوکەت
-
-١. (ناو) ھەستی زۆر سەرسامبوون بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەستی زۆر سەرسامبوون بە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

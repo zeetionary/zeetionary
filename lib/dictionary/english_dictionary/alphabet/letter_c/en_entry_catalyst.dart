@@ -191,7 +191,7 @@ class EnglishEntrycatalyst extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھۆکاری ھاندەر یان تاودەر، تاودەرە، فاکتێری تاودەر، مەتریاڵی ھاندەر، ھاندەرە، تاودەرە، کەسێ یان شتێ کە دەبێتە ھۆ و مایەی گۆڕان
 """),
                           const DefinitionKurdish(

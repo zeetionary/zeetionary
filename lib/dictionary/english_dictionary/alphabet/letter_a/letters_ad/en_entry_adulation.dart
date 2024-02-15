@@ -107,7 +107,7 @@ class EnglishEntryadulation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زمان‌لووس، پیاھەڵدانی زمان‌لووسانە، ڕووپامایی، نەرمەبڕی، کلکەسووتێ، ڕیایی‌بازی، تەشی‌ڕێسی، مەرایی، ڕووبینی، بەبەراھەڵخوێندن، دەمتەڕی
 """),
                           const DefinitionKurdish(

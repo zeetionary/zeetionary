@@ -151,7 +151,7 @@ class EnglishEntrybackhand extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پشت‌دەستی، پشدەستی، پشدەستە (لە تێنیس و ھتد)
 """),
                           const DefinitionKurdish(

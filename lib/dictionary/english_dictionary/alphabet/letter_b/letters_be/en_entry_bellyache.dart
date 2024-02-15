@@ -145,10 +145,11 @@ class EnglishEntrybellyache extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژانەسگ، سکاڵا، بۆڵەبۆڵ، پرتەوبۆڵە، خوتەخوت
-
-١. (ناو) ئازاری سک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ئازاری سک"""),
                           Row(
                             children: [
                               const Expanded(

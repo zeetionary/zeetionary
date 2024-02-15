@@ -158,10 +158,12 @@ class EnglishEntryappreciative extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەدرزان، پێزان، سپاس‌بێژ، تێگەیشتوو، بەنیشانەی ڕێزەوە یان سپاسەوە 
-
-١. (ھاوەڵناو) ھەبوونی ھەستی پێزانین و سوپاسگوزاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ھەبوونی ھەستی پێزانین و سوپاسگوزاری"""),
                           Row(
                             children: [
                               const Expanded(

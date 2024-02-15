@@ -191,7 +191,7 @@ class EnglishEntrycanvass extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕاگەیاندن، بوارڕەخسان، گڵاڵەبوون، بۆ ھەڵکەوتن، ڕاپرسی
 """),
                           const DefinitionKurdish(

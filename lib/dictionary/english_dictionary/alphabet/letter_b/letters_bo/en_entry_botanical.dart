@@ -143,7 +143,7 @@ class EnglishEntrybotanical extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕووەک‌ناسی‌یانە، سەربە ڕووەک‌ناسی، گیاناسی‌یانە
 """),
                           const DefinitionKurdish(

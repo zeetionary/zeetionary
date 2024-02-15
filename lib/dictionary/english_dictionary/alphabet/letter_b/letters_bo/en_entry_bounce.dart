@@ -308,7 +308,7 @@ class EnglishEntrybounce extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەڕانەوە، زڤرین، باز یان پەڕینی کت‌وپڕ، قەڵبەز، ھەڵبەزینەوە، ھەڵپەڕوداپەڕ، ھەڵبەزودابەز، چالاکی، جم‌وجۆڵ، بەکەیفی، سەرخۆشی، بەگوڕی، سەرشادی، بەپەرۆشی، لێدانی بەھێز و کت‌وپڕ
 """),
                           const DefinitionKurdish(

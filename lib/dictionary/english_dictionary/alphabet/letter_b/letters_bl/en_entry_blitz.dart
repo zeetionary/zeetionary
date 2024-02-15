@@ -147,7 +147,7 @@ class EnglishEntryblitz extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھێرشی کت‌وپڕ، ھێرشی میلیتاری خەست‌وخۆڵی ناکاو، پەلامار، حەولێکی ھاوبەش و کوت‌وپڕ
 """),
                           const DefinitionKurdish(

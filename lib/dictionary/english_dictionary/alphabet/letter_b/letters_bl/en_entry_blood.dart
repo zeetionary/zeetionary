@@ -147,7 +147,7 @@ class EnglishEntryblood extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خوێن، خێن، ھوون، ڕەسەن، نژاد، ڕەگەز، ڕەچەڵەک، بنەچەک، جوانی شۆخ‌وشەنگ، خوو
 """),
                           const DefinitionKurdish(

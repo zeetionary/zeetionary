@@ -107,10 +107,12 @@ class EnglishEntryacne extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زیپکە (ی لاوێتی) جوانەزۆ، جوانەژۆ، ئازەبە
-
-١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل"""),
                           Row(
                             children: [
                               const Expanded(

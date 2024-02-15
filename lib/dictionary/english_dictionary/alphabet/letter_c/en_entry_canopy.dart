@@ -188,10 +188,12 @@ class EnglishEntrycanopy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەتر، سێبەری سەر، ئاسمانە، ژوورسەر، کانۆپی، دەربیجەی ژوورسەری فڕۆکەوان, گومەز، گومبەز، قوبە
-
-١. (ناو) داپۆشەرێک کە لەسەر جێگەیەکی نووستن، کورسییەک، ھتد درووست دەکرێت بۆ سێبەر یان جوانکاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) داپۆشەرێک کە لەسەر جێگەیەکی نووستن، کورسییەک، ھتد درووست دەکرێت بۆ سێبەر یان جوانکاری"""),
                           Row(
                             children: [
                               const Expanded(

@@ -107,10 +107,11 @@ class EnglishEntryacrid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: توند، تاڵ، ناخۆش، تیژ، تفت، شیرین‌تاڵ
-
-١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش"""),
                           Row(
                             children: [
                               const Expanded(

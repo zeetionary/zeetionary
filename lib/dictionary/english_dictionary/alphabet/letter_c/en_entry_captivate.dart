@@ -191,7 +191,7 @@ class EnglishEntrycaptivate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرنجڕاکێشان، دڵڕاکێشان، فریو دان
 """),
                           const DefinitionKurdish(

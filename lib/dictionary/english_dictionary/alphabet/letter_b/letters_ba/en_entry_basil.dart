@@ -145,7 +145,7 @@ class EnglishEntrybasil extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێحان، ڕیحانە، ئەسپەرەم
 """),
                           const DefinitionKurdish(

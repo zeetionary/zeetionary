@@ -93,7 +93,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باوەڕنامە، بڕوانامە، پەسندنامە
 """),
                           const DefinitionKurdish(

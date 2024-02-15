@@ -188,7 +188,7 @@ class EnglishEntrycalmness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سرەوت، ھێمنی، ئارامی، سەیوەت، ئۆخژن، ھێوری، خامۆشی
 """),
                           const DefinitionKurdish(

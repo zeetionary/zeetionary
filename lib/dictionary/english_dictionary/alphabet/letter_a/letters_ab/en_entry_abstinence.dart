@@ -93,7 +93,7 @@ class EnglishEntryabstinence extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پارێزگرتن، پێش‌خۆگرتن، خودداری، پارێزگری، خۆڕاگری، خۆڕاگرتن، خۆلێ‌نەدان، خۆدوورگرتن، خۆلێ‌بواردن (بەتایبەت خواردن و خواردنەوە)
 
 ١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"""),

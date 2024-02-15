@@ -294,10 +294,12 @@ class EnglishEntryattack extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھێرش، ھەڵمەت، شاڵاو، گوژمە، نھێو، پەلامار، دەسپێک، دەس‌پێکردن، سەرەتا، دەس‌تێدان
-
-١. (ناو) ھێرش بۆ سەر کەسێک بە بەکارھێنانی ھێز یان چەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھێرش بۆ سەر کەسێک بە بەکارھێنانی ھێز یان چەک"""),
                           Row(
                             children: [
                               const Expanded(

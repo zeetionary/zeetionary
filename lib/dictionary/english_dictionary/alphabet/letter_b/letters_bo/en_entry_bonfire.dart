@@ -143,7 +143,7 @@ class EnglishEntrybonfire extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاگرەخۆشە، ئاھەنگی ئاور، ئاگرەسوورە، پەڵۆختە، ئاورێن، دەمەرقاچان (لە بنەڕەتا ئاماژە بە ئاورێ بۆ سووتاندنی ئێسک یان کافران)
 """),
                           const DefinitionKurdish(

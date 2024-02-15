@@ -106,7 +106,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەکریلیک، سەربە یان لە ترشەڵۆکی ئەکریلیک وەرگیراوە، لە ئەکریلیک دروست کراوە یان پێکھاتووە
 """),
                           const DefinitionKurdish(

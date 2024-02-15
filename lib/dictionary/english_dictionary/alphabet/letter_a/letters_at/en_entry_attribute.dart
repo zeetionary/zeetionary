@@ -162,10 +162,12 @@ class EnglishEntryattribute extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تایبەتمەندی، ڕەوشت، نیشانە، بەرژەنگ، درووشم، نموونە، ھێما، جیانیشانە، درف، تایبەت‌نیشان(ـە)
-
-١. (کردار) باوەڕبوون یان وتنی ئەوەی شتێک دەرئەنجامی شتێکی ترە """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) باوەڕبوون یان وتنی ئەوەی شتێک دەرئەنجامی شتێکی ترە """),
                           Row(
                             children: [
                               const Expanded(

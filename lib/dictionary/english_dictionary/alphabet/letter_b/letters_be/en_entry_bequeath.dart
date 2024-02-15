@@ -147,10 +147,12 @@ class EnglishEntrybequeath extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەرخان کردن، تایبەت پێدان، میرات پێدان
-
-١. (كردار) دیاریکردن لە وەسیەتدا کە سامانەکەت بۆ کێ دەچێت لە دوای مردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (كردار) دیاریکردن لە وەسیەتدا کە سامانەکەت بۆ کێ دەچێت لە دوای مردن"""),
                           Row(
                             children: [
                               const Expanded(

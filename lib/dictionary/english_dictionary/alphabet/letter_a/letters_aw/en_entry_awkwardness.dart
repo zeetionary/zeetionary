@@ -154,10 +154,11 @@ class EnglishEntryawkwardness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناڕەحەتی، سەرەندەرنەکردوویی، دەس‌خاوی، کێشە
-
-١. (ناو) ھەستی شەرم و ناڕەحەتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ھەستی شەرم و ناڕەحەتی"""),
                           Row(
                             children: [
                               const Expanded(

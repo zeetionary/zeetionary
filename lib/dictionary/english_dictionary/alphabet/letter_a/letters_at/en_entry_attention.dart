@@ -163,10 +163,12 @@ class EnglishEntryattention extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرنج(دان)، (لێ)وردبوونەوە، لێ‌خوردبوونەوە، زەین‌پێدان، لالێدانەوە، بەتەنگەوەبوون، ئاگاداری تایبەتی، چاودێری، ئاگالێ‌بوون، پێ‌چاران، بەدیارەوەبوون، چاولێ‌بوون، ئاگاداری، پێ‌ڕاگەیشتن، دەستوورێکی میلیتاری کە لەودا سەرباز دەبێ ڕاست بوێستێ و پێی جووت کا و دەست بەرداتەوە، سەرنج
-
-١. (ناو) گوێگرتن، سەیرکردن، یان بیرکردنەوە لە شتێک بە وریاییەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گوێگرتن، سەیرکردن، یان بیرکردنەوە لە شتێک بە وریاییەوە"""),
                           Row(
                             children: [
                               const Expanded(

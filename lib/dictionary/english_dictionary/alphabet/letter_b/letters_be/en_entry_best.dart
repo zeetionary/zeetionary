@@ -345,10 +345,11 @@ class EnglishEntrybest extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باش‌ترین، زۆرترین، لە ھەموو زۆرتر، ھەرەباش، چاک‌ترین، لە ھەموو چاتر، لە ھەموو باش‌تر، لە ھەموو زۆرتر، زۆرتر، باش‌تر، چاک‌تر، ـترین، باش‌تر، چاک‌تر، چاتر، زۆرتر، پتر، زیاتر، زۆرینە، پڕانی، باش‌ترین کار یان شت، باش‌ترین بەش، بە باش‌ترین شێوە، باش‌ترین بارودۆخ، باش‌ترین جل‌وبەرگ، چاترین بەرگ
-
-١. (ھاوەڵناو) باشترین"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) باشترین"""),
                           Row(
                             children: [
                               const Expanded(

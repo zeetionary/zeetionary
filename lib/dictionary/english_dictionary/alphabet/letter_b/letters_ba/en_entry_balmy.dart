@@ -151,7 +151,7 @@ class EnglishEntrybalmy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەرم‌وخۆش، خوش (ھەوا)، بۆن‌خۆش، بەبۆن و بەرام، مەڵھەمی، مەرھەمی
 """),
                           const DefinitionKurdish(

@@ -147,7 +147,7 @@ class EnglishEntrybracket extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆشەڕاگر، گۆشەبەند، سووچ‌بەند، گوشەبەست، ڕەفحەبەند، ڕەفحەڕاگر، پاڵپشتی ڕەفحە، تاق، تاقە، دیواری، کەوان‌ڕێک، ئانیشکە، کەوانە، برۆنیشان، نیشانەکانی() [] {}، دەستە، کۆمەڵ، پۆل. پۆلاندن، دەستاندن، دەستەکردن، دەستەدەستەکردن
 """),
                           const DefinitionKurdish(

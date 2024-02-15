@@ -91,10 +91,12 @@ class EnglishEntryabduction extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فڕاندن یان ڕفاندنی مرۆڤ، ھەڵگرتن، مرۆدزی
-
-١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز"""),
                           Row(
                             children: [
                               const Expanded(

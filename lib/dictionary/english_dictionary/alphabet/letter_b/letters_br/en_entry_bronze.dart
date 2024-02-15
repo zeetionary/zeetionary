@@ -143,7 +143,7 @@ class EnglishEntrybronze extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەفرغ، تونج، مەفرەخ، شتی مەفرەخی، شوێنەواری مەفرەخی (وەکوو پەیکەر)، زەردی قاوەیی، قاوەیی سوورباو، مەفرەخی
 """),
                           const DefinitionKurdish(

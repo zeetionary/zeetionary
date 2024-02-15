@@ -143,7 +143,7 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تێکچوونی ھۆشی و بیری، شڵەژانی دەروونی، شێتی کورت‌ماوە و ناکاو، بیری نوێ، فکری تازە
 """),
                           const DefinitionKurdish(

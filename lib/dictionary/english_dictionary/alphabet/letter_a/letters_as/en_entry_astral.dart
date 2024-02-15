@@ -160,10 +160,12 @@ class EnglishEntryastral extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەستێرەیی، ئەستێرەئاسا، شێوەئەستێرە، سەربە ئەستێرە
-
-١. (ھاوەڵناو) پەیوەندیدار بە ئەستێرەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) پەیوەندیدار بە ئەستێرەکان"""),
                           Row(
                             children: [
                               const Expanded(

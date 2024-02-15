@@ -158,10 +158,12 @@ class EnglishEntryantiseptic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (مەتریاڵ) خاوێن‌کەر، بۆگەن‌بەر، گەندسڕ، پیسی‌بەر، (سەربە) خاوێن‌کردنەوە
-
-١. (ناو) مادەیەک کە ڕێگە لە ھەوکردنی برین دەکات بە کوشتنی بەکتریا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مادەیەک کە ڕێگە لە ھەوکردنی برین دەکات بە کوشتنی بەکتریا"""),
                           Row(
                             children: [
                               const Expanded(

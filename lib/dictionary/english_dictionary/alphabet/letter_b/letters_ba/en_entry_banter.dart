@@ -152,10 +152,11 @@ class EnglishEntrybanter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شۆخی، گاڵتە، جەفەنگ، حەنەک
-
-١. (ناو) نوکتە و گاڵتەوگەپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) نوکتە و گاڵتەوگەپ"""),
                           Row(
                             children: [
                               const Expanded(

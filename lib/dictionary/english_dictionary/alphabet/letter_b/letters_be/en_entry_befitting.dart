@@ -146,7 +146,7 @@ class EnglishEntrybefitting extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێوەشاو، گونجاو، شیاو، لێ‌کاڵاو، پێ‌کەوتوو، باش، لەبار
 """),
                           const DefinitionKurdish(

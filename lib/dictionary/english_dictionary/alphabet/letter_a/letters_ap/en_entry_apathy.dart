@@ -157,7 +157,7 @@ class EnglishEntryapathy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەمتەرخەمی، بێ‌دەربەستی، بێ‌ھەستی، بێ‌تاقەتی، دڵ‌مردوویی، ساردوسڕی، خەمساری، ناھومێدی، دڵساردی، ناھۆگری، ناتامەزرۆیی، بێ‌ھیوایی
 """),
                           const DefinitionKurdish(

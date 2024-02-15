@@ -224,10 +224,12 @@ class EnglishEntrybid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێشنیار، پێشنیاز، ھەوڵ، تێکۆشان، بزاڤ، بڕەپارەی پێشنیارکراو
-
-١. (ناو) پێشنیازێک لەلایەن کۆمپانیایەکەوە بۆ پێدانی بڕێکی دیریکراوی پارە بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پێشنیازێک لەلایەن کۆمپانیایەکەوە بۆ پێدانی بڕێکی دیریکراوی پارە بە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -193,7 +193,7 @@ class EnglishEntrycharacterize extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناساندن، پێناسە کردن، دیاری کردن، تاریف کردن، وێناکردن، پیشاندان
 """),
                           const DefinitionKurdish(

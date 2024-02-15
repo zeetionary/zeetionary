@@ -160,10 +160,11 @@ class EnglishEntryautograph extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئیمزا، مۆر، دەس‌وخەت، دەس‌نووس، بە مۆر یان ئیمزای نووسەرەوە
-
-١. (ناو) ئیمزای کەسێکی بەناوبانگ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ئیمزای کەسێکی بەناوبانگ"""),
                           Row(
                             children: [
                               const Expanded(

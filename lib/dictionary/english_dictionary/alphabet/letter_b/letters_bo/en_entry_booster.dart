@@ -146,7 +146,7 @@ class EnglishEntrybooster extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەھێزکەر، ھێزدەر، دەزگای زۆرکردنی ھێز یا ڤۆڵتاژ، لایەنگر، ئالیگر، پشتیوان، کوتان یان دەرزی‌لێدانی بەھێزکەر یا توانایی‌پێدەر
 """),
                           const DefinitionKurdish(

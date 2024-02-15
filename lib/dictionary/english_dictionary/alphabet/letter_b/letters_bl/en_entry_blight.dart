@@ -145,10 +145,12 @@ class EnglishEntryblight extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەڵا، نەگبەتی، ئازار، ئافەت، فەوتان، تیاچوون، نەخۆشی کە تووشی گژوگیا بێت، بۆنموونە: دۆ(و)کە، شۆکە، سۆتەکە، شەتە، ھاڕیە، تڕتڕە، ژەنگ‌وژار، تەم (ھی گیا لەبەر نەخۆشی)، کەنەسمە، کەڵە،
-
-١. (کردار) ھەبوونی کاریگەرییەکی خراپ لەسەر شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ھەبوونی کاریگەرییەکی خراپ لەسەر شتێک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -111,10 +111,12 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەزوو یا تەوژمی گۆڕاو یا دوولایەنە، تەوژمی نۆرەکی
-
-١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بەخێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بەخێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
                           Row(
                             children: [
                               const Expanded(

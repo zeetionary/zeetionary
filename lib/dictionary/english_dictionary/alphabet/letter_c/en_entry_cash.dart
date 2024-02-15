@@ -196,7 +196,7 @@ class EnglishEntrycash extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەختینە، نەغدینە، پارە
 """),
                           const DefinitionKurdish(

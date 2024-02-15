@@ -190,7 +190,7 @@ class EnglishEntrycaptor extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێوەکەر، بەدیل‌گر، یەخسیرگر، دیل‌گر، یەخسیرکەر
 """),
                           const DefinitionKurdish(

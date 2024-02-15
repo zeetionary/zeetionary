@@ -153,10 +153,12 @@ class EnglishEntrybalm extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕۆنی بەلسان یان بام، گیاسەودا، مەرھەم، ھەتوان، ھێدی‌کەرەوە، خەم‌ڕەوێن، ئارام‌کەرەوە، ھێورکەرەوە
-
-١. (ناو) ڕۆنێکی بۆنخۆش کە لە ھەندێک دار و ڕووەکەوە دەستدەکەوێت، لەکۆندا بۆ خۆشکردنەوەی برین بەکاردەھات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕۆنێکی بۆنخۆش کە لە ھەندێک دار و ڕووەکەوە دەستدەکەوێت، لەکۆندا بۆ خۆشکردنەوەی برین بەکاردەھات"""),
                           Row(
                             children: [
                               const Expanded(

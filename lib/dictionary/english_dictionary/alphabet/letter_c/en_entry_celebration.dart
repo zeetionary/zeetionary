@@ -195,7 +195,7 @@ class EnglishEntrycelebration extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جەژن، جێژن، سوور(ان)، ئاھەنگ‌گێڕان، بەڕێوەبردن، لەدارخستن، پەسن، پیاھەڵوتن، تاریف
 """),
                           const DefinitionKurdish(

@@ -145,10 +145,12 @@ class EnglishEntrybigamous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دووھاوسەر، دووژنە، دوومێردە، دووژن‌ومێردە
-
-١. (ھاوەڵناو) کەسێک کە دوو ھاوسەری ھەیە لە یەک کاتدا، یان پەیوەندییەک کە کەسێکیان دوو ھاوسەری ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک کە دوو ھاوسەری ھەیە لە یەک کاتدا، یان پەیوەندییەک کە کەسێکیان دوو ھاوسەری ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

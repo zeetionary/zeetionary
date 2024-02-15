@@ -160,10 +160,12 @@ class EnglishEntryarmy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەشکر، ئەرتەش، سپا، ھێزی زەمینی، دەستە، جەماعەت، ئاپۆرە، کۆمەڵە، مێگەل، ڕان، ڕەڤە
-
-١. (ناو) ژمارەیەکی زۆر سەرباز کە ڕاھێنراون بۆ شەڕکردن لەسەر زەوی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەکی زۆر سەرباز کە ڕاھێنراون بۆ شەڕکردن لەسەر زەوی"""),
                           Row(
                             children: [
                               const Expanded(

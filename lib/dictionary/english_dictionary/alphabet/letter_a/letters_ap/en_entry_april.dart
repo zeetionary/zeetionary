@@ -156,7 +156,7 @@ class EnglishEntryapril extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاپریل، ئاڤریل، ئاوریل، ئێیپریل، نوێڕۆژ، نیسان، خاکەلێوە، چوارەمین مانگی زایینی
 """),
                           const DefinitionKurdish(

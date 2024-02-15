@@ -160,10 +160,11 @@ class EnglishEntryasthmatic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرھەنگی، ھەناسەسوار، پشووسوار، توشبوو بە بەرھەنگ
-
-١. (ھاوەڵناو) تووشبوو بە ھەناسەتوندی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) تووشبوو بە ھەناسەتوندی"""),
                           Row(
                             children: [
                               const Expanded(

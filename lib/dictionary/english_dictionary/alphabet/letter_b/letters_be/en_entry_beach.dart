@@ -148,10 +148,12 @@ class EnglishEntrybeach extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەناری زیخەڵانی، خیزخۆر، قەراخ دەریا، کەنار، کەناراو
-
-١. (ناو) ناوچەیەکی خۆڵاوی یان وردە زیخ لە نزیک دەریایەک یان دەریاچەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ناوچەیەکی خۆڵاوی یان وردە زیخ لە نزیک دەریایەک یان دەریاچەیەک"""),
                           Row(
                             children: [
                               const Expanded(

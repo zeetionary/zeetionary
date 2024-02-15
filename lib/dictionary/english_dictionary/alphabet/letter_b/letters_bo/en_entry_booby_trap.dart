@@ -144,7 +144,7 @@ class EnglishEntryboobytrap extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەڵە یان داوی تەقینەوەیی، داوی نادیار
 """),
                           const DefinitionKurdish(

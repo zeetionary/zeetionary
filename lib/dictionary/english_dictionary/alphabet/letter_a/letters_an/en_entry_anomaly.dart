@@ -151,7 +151,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نائاسایێتی، سەیربوون، ناڕێکی، بێ‌ڕێسایی، شتێکی نائاسایی، دۆخی نائاسایی
 """),
                           const DefinitionKurdish(

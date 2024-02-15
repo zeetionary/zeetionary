@@ -109,7 +109,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناسیاوی، ناس، شناسی، ئاشنایی، (کەس) ناسیاو، شناس، ئاشنا (کۆ: ئاشنا و ڕۆشنا)
 """),
                           const DefinitionKurdish(

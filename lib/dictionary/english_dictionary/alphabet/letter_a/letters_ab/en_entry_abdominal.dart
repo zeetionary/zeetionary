@@ -91,7 +91,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
 """),
                           const DefinitionKurdish(

@@ -150,10 +150,12 @@ class EnglishEntrybattery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باتری، خانکۆ، ھێزە، پیل، قەوە، تۆپ‌خانە، (ماف) لێدان، کوتەک‌کاری، تاوانی ھێرش‌کردنی جەستەیی، تێسرەواندن، تێبەربوون، دەستە، زنجیرە، کۆمەڵە، گروپ، قەفەسەی ڕاگرتنی مریشک، دەنگی تەپڵ یان دەھۆڵ
-
-١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، ھتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، ھتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -142,10 +142,10 @@ class EnglishEntrybullet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوللە، بەرک، فیشەک، تیر 
-
-١. (ناو) فیشەک"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) فیشەک"""),
                           Row(
                             children: [
                               const Expanded(

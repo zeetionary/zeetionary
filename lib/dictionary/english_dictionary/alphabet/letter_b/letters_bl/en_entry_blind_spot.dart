@@ -145,10 +145,12 @@ class EnglishEntryblindspot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خاڵی کوێری، لاوازی، خاڵی لاوازی، عەیب
-
-١. (ناو) ناوچەیەک کە کەسێک ناوانێت بیبینێت، بەتایبەتی ناوچەیەکی ڕێگایەک لە کاتی شۆفێریدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ناوچەیەک کە کەسێک ناوانێت بیبینێت، بەتایبەتی ناوچەیەکی ڕێگایەک لە کاتی شۆفێریدا"""),
                           Row(
                             children: [
                               const Expanded(

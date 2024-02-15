@@ -326,7 +326,7 @@ class EnglishEntrybox extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قوتو، قاڵب، کارتۆن، سنووق، مجری، سیپ، شوێنی دادیار (دادگا)، لۆژ یان باڵاجێ (شانۆ)، خانە، چوارگۆشە، سنووقی پۆست، سنووقی پۆستی، کیوسکی تەلەفۆن، تەلەفزیۆن، قوتوی شەمچە یان شقارتە، کورسی یان سەندەڵی کالیسکەچی، کۆخ، کولیت، مستێن، شەڕەمشت، مشت‌بازی، ناوچەی پێناڵتی، ناوگەڵ‌پارێز
 """),
                           const DefinitionKurdish(

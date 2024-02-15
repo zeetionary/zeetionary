@@ -101,7 +101,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: داخوران، داکڕان، داشۆران، داتاشین، داڕووشان، ڕووشان، لێخستن، (دا)سووان
 """),
                           const DefinitionKurdish(

@@ -141,10 +141,12 @@ class EnglishEntrybridle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەغاو، ھەوسار، پاڵەنگ، لیاڤۆک، دەڤگەم، دەسەجڵەو، بزمک، ڕێشمە، سەرکەللە، گوریس و کابلی مەھار یان ڕاگرتنی کەشتی
-
-١. (ناو) ژمارەیەک لەتە پەڕۆ کە لە جڵەوی ملی ئەسپێک دەبەسترێت لە سەری ئەسپدا بۆ کۆنترۆڵکردنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەک لەتە پەڕۆ کە لە جڵەوی ملی ئەسپێک دەبەسترێت لە سەری ئەسپدا بۆ کۆنترۆڵکردنی"""),
                           Row(
                             children: [
                               const Expanded(

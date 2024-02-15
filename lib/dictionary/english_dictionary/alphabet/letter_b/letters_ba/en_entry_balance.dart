@@ -211,10 +211,12 @@ class EnglishEntrybalance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاوسەنگی، ھاوکێشی، لەنگەر، تەرازی، تەرازمەندی، میزانی، تەرازێتی، ھاوتەرازی، ھاوڕێکی، کۆکی، گونجان، پاشماوە، باقی، سەرباقی، تەرازوو، لەنگەرە، لیزۆک (سەعات)، جەڕ، کۆک، جەڕی میزان
-
-١. (ناو) دۆخێک کە تێیدا ژمارەیەک شت بوونیان ھەیە پێکەوە بە ھەمان بڕ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دۆخێک کە تێیدا ژمارەیەک شت بوونیان ھەیە پێکەوە بە ھەمان بڕ"""),
                           Row(
                             children: [
                               const Expanded(

@@ -187,10 +187,12 @@ class EnglishEntrycant extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕیایی‌بازی، خۆبەڕاست‌زانی، ڕووبینی، دوڕوویی 
-
-١. (ناو) قسەیەک، بەتایبەتی کە دەربارەی بابەتی ئایینی یان ئەخلاقییە، و بە ڕاست و دڵپاکانەی نابینی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) قسەیەک، بەتایبەتی کە دەربارەی بابەتی ئایینی یان ئەخلاقییە، و بە ڕاست و دڵپاکانەی نابینی"""),
                           Row(
                             children: [
                               const Expanded(

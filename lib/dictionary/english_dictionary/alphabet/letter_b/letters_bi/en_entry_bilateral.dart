@@ -147,10 +147,12 @@ class EnglishEntrybilateral extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوولایەنە، دووئالی، دووقۆڵی، دووسەرە، بەرامبەر، دووبەشە
-
-١. (ھاوەڵناو) شتێک کە دوو گرووپ لە خەڵکی یان دوو وڵات تێیدا بەژدارن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە دوو گرووپ لە خەڵکی یان دوو وڵات تێیدا بەژدارن"""),
                           Row(
                             children: [
                               const Expanded(

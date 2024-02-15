@@ -92,7 +92,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیاھەڵوتن، پەسن(دان)، ڕێ‌وڕەسمی پێدانی پلەوپایەی شۆڕەسواری (کە لەودا سووک شمشێر بەسەر شانا دەھێنرێ)
 """),
                           const DefinitionKurdish(

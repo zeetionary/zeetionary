@@ -144,7 +144,7 @@ class EnglishEntryboisterous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پڕدەنگەدەنگ، پڕھەراوھوریا، شلوق، بەگەرم‌وگوڕ، لەجۆش، سەری‌حاڵ، پڕوزە، لەگوڕ، بەگوڕ، بەکەیف، جۆش‌سەندوو، لەشەوق، زریاناوی، پڕبا، سەخت، توند، ڕەشەبا
 """),
                           const DefinitionKurdish(

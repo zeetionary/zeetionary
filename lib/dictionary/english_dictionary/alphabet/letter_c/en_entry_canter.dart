@@ -187,7 +187,7 @@ class EnglishEntrycanter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چوارناڵەی ھێواش، نەرمەغار، وێرغە
 """),
                           const DefinitionKurdish(

@@ -107,7 +107,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئادرێنالین، ئادرناڵین، ئەدرینالین
 """),
                           const DefinitionKurdish(

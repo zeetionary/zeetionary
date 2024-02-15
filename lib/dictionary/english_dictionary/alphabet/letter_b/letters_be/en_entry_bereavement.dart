@@ -146,10 +146,12 @@ class EnglishEntrybereavement extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆست، زگ‌سووتان، ماتەم، تازیەباری، عەزیەتی، شێوەن‌گێڕی، شین، ماتەم‌گرتوویی، بێ‌بەشی، بێ‌بەرێتی، لەدەس‌چوون
-
-١. (ناو) لە دۆخێکدا کە خزمێک یان کەسێکی نزیکت لەدەست داوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لە دۆخێکدا کە خزمێک یان کەسێکی نزیکت لەدەست داوە"""),
                           Row(
                             children: [
                               const Expanded(

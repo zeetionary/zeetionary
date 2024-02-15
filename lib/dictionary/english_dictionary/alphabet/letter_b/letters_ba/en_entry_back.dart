@@ -332,10 +332,11 @@ class EnglishEntryback extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پشت، پاڵپشت، جێگای پاڵ(دانەوە)، گاز، میانە، پشتەوە، دواوە، پاش، ئاخر، دواوە، بەرگری (تۆپێن)، بن، ئاخر، کۆتایی، پێشوو، پێشتر، پێشین، ڕابردوو، دواوە، دواتر، پاشتر، پشتەوە، دواوە، پێش، دواکەوتوو، پاش‌کەوتوو، (دەنگ‌ناسی) دواوە، پشتەوە، لە دواوە، لە پشتەوە، پێش، پێشتر، لەوەپێش، دووبارە، دیسان
-
-١. (ناو) پشتی مرۆڤ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) پشتی مرۆڤ"""),
                           Row(
                             children: [
                               const Expanded(

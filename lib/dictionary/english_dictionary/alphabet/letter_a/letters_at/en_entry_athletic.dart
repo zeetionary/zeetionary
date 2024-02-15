@@ -159,10 +159,12 @@ class EnglishEntryathletic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وەرزشی، قارەمانی، پاڵەوانی، بەھێز، بەتابشت، ڕێک‌وپێک، چالاک 
-
-١. (ھاوەڵناو) لە ڕووی جەستەییەوە بەھێز و چالاک و وەرزشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) لە ڕووی جەستەییەوە بەھێز و چالاک و وەرزشی"""),
                           Row(
                             children: [
                               const Expanded(

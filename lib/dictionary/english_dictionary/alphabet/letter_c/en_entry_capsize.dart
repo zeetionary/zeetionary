@@ -191,7 +191,7 @@ class EnglishEntrycapsize extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وەرگەڕان، قڵپ بوون، ئاوەژوو کردن
 """),
                           const DefinitionKurdish(

@@ -146,7 +146,7 @@ class EnglishEntryblot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لکە، لەکە، پەڵە، نەنگ، پینە، نێوزڕاوی، پەڵە جەوھەر، کەم‌وکوڕی، عەیب، خەوش، گەرد، (زیندەکیمیا) لەکە، پەڵە
 """),
                           const DefinitionKurdish(

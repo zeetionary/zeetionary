@@ -154,10 +154,12 @@ class EnglishEntryanswerable extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرپرس، وەڵام‌دەرەوە، شیاوی وەڵام‌دانەوە، پێبەند، دەربەست
-
-١. (ھاوەڵناو) بوونی پێویستیی وەڵامدانەوە بەرامبەر کەسێک کە دەسەڵاتی بەسەرت ھەیە یان شتێک، بۆ نموونە یاسا، کە کۆنترۆڵی کردارەکانت دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بوونی پێویستیی وەڵامدانەوە بەرامبەر کەسێک کە دەسەڵاتی بەسەرت ھەیە یان شتێک، بۆ نموونە یاسا، کە کۆنترۆڵی کردارەکانت دەکات"""),
                           Row(
                             children: [
                               const Expanded(

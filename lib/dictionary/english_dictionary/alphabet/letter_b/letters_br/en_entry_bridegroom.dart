@@ -140,7 +140,7 @@ class EnglishEntrybridegroom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زاوا، تازەزاوا
 """),
                           const DefinitionKurdish(

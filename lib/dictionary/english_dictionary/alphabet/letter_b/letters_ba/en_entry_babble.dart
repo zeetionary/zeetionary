@@ -155,10 +155,12 @@ class EnglishEntrybabble extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەنەدان، زۆربڵێیی، چەقەسرۆیی، خوڕڕە، گڕوگاڵ، گاڵ‌وبۆغ، فڵتە، قسەی ھیچەکە، دەنگ‌وھەرا، ھەراھەرا، قاڵمەقاڵم
-
-١. (ناو) قسەی ژمارەیەکی زۆر کەس پێکەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) قسەی ژمارەیەکی زۆر کەس پێکەوە"""),
                           Row(
                             children: [
                               const Expanded(

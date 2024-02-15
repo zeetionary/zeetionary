@@ -151,7 +151,7 @@ class EnglishEntrybandit extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێگر، ڕێبڕ، چەتە، کەلەشە، دزی چەکدار، (بە زمانی لەشکری) فڕۆکەی دوژمن
 """),
                           const DefinitionKurdish(

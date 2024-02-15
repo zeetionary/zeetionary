@@ -143,7 +143,7 @@ class EnglishEntryblithe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرسەرەکی، مێشک ساف، فشە، دڵخۆش، بێ‌خەم، کەمتەرخەم، نادەربەست، ئاسوودە، بێ‌خەیاڵ، دڵشاد، خۆش، شاد، نانیگەران، بێ‌دڵەڕاوکێ
 """),
                           const DefinitionKurdish(

@@ -156,7 +156,7 @@ class EnglishEntryaroma extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بۆنی خۆش، بەرامە، عەتر، گوڵاو، کەش، تایبەتمەندی، تام‌وبۆ، سەنگ‌وڕەنگ، ڕەنگ‌وبۆ
 """),
                           const DefinitionKurdish(

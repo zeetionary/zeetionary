@@ -158,10 +158,11 @@ class EnglishEntryarid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وشک، ئیشکارۆ، زەھا، قاقڕ، بێ‌ئاو، کەم‌ئاو، کەم‌باران، بێ‌باران، (وشک‌و)برینگ، بوورە، بێھوودە، ناخۆش، قۆڕ، ھیچ، وەڕەسکەر، ماندووکەر
-
-١. (ھاوەڵناو) وشک و بێ‌باران"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) وشک و بێ‌باران"""),
                           Row(
                             children: [
                               const Expanded(

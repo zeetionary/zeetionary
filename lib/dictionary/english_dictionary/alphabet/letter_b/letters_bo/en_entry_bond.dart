@@ -285,7 +285,7 @@ class EnglishEntrybond extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەڵێنی، خۆبەستەیی، پێبەندی، بەندێتی، دەربەست‌بوون، پەیگرتن، خۆبەستنەوە، بڕیار، بڕیارنامە، گرێبەست، بەڵێن‌نامە، گفت، سۆز، پەیمان، پێوەندی، تێکەڵی، گرێدایی، پێکەوەنووسان، یەک‌گرتن، پێکەوەبەستراوی، دێدی‌وبۆدی، کۆت‌وبەند، کۆت‌وزنجیر، پێوەند، کۆت‌وبەند، (کیمیا) بەند، پەیوەستی، گل‌دانەوەی گومڕکی، (بیناسازی) ڕەگ، چین
 """),
                           const DefinitionKurdish(

@@ -147,10 +147,12 @@ class EnglishEntrybarometer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەستان‌پێو، جیاکار
-
-١. (ناو) ئەمێرێکی بۆ پێوانی پەستانی ھەوا و دیاریکردنی گۆڕانی کەشوھەوا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەمێرێکی بۆ پێوانی پەستانی ھەوا و دیاریکردنی گۆڕانی کەشوھەوا"""),
                           Row(
                             children: [
                               const Expanded(

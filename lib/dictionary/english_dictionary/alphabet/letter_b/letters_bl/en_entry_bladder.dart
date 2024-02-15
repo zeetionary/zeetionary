@@ -142,10 +142,12 @@ class EnglishEntrybladder extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: میزەڵدان، میزڵدان، تیزانگ
-
-١. (ناو) ئەندامێکی جەستە کە لە شێوەی کیسەیەکدایە و میزی تێدا کۆدەبێتەوە پێش ئەوەی لە جەستە بکرێتە دەرەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەندامێکی جەستە کە لە شێوەی کیسەیەکدایە و میزی تێدا کۆدەبێتەوە پێش ئەوەی لە جەستە بکرێتە دەرەوە"""),
                           Row(
                             children: [
                               const Expanded(

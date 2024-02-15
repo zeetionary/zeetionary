@@ -144,7 +144,7 @@ class EnglishEntrybonnet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کاپووت (ماشێن)، کڵاوە، سەر دووکەڵ‌کێش، کڵاوی ژێرچەناگە (مناڵ)، کڵاوی بێ‌لێوار، کڵاوی (پەڕداری) داب‌ودەستووری سوورپێستەکان
 """),
                           const DefinitionKurdish(

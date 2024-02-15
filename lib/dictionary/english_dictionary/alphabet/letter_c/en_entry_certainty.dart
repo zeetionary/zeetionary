@@ -192,7 +192,7 @@ class EnglishEntrycertainty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بابەتی مسۆگەر، شتی مسۆگەر، شتی دیار،	بێ‌چەندوچۆنی، دیاری‌کراوی، ڕاستی، گومان‌لێنەکراوی، بێ‌ئەملاوئەولایی، مسۆگەری، بڕاوەیی، خاترجەمی، دڵنیایی، ئارخایەنی، متمانە، باوەڕپێکراوی
 """),
                           const DefinitionKurdish(

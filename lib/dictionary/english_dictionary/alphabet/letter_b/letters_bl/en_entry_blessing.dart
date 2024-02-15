@@ -147,7 +147,7 @@ class EnglishEntryblessing extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نزا، دۆعا، درود، ڕێژەن، نێعمەت، خوداداوە، بەھرە، پیت، بەەرکەت، پەسندکردن، پشتگیری، پشتیوانی، دۆعای بەر لە نان خواردن
 """),
                           const DefinitionKurdish(

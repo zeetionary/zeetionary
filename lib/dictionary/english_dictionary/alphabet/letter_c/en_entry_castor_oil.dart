@@ -190,7 +190,7 @@ class EnglishEntrycastoroil extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕۆنە کڕنگ، ڕۆنە گەرچەک، شیرە، گەنەگەرچەک
 """),
                           const DefinitionKurdish(

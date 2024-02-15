@@ -344,10 +344,12 @@ class EnglishEntrybook extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کتێب، پەڕتووک، نامە، پەڕاو، دەفتەر، تێنووس، دەفتەرچە، بەرگ، بەش، پشک، ئاڵبۆم، ژمارەنامەی تەلەفون، کتێبی پیرۆز، سیفر، کتێب، سێفر (= بەشێ لە کتێبی پیرۆز)، حساب، بەرپرسایەتی، حسابەکان، ھەژماران، ھەژمارەکان
-
-١. (ناو) کتێب؛ ژمارەیەک پەڕە کە لە ناو بەرگێکدا کۆکراونەتەوە و بۆ ئەوەی ھەڵیان بدەیتەوە و بیانخوێنیتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کتێب؛ ژمارەیەک پەڕە کە لە ناو بەرگێکدا کۆکراونەتەوە و بۆ ئەوەی ھەڵیان بدەیتەوە و بیانخوێنیتەوە"""),
                           Row(
                             children: [
                               const Expanded(

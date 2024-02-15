@@ -152,10 +152,12 @@ class EnglishEntryawareness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاگاداری، ئاگایی، ھایداری، ھۆش، بەخەبەری
-
-١. (ھاوەڵناو) ئاگاداری سەبارەت بە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ئاگاداری سەبارەت بە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

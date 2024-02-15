@@ -146,10 +146,12 @@ class EnglishEntrybeetle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قالۆنچە، قزقانج، ھەرلە، گووخلێنە
-
-١. (ناو) مێروویەکە، کە زۆرجار گەورە و ڕەشە، و پارێزەرێکی ڕەق لەسەر پشتییەتی کە باڵەکانی دادەپۆشێت."""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مێروویەکە، کە زۆرجار گەورە و ڕەشە، و پارێزەرێکی ڕەق لەسەر پشتییەتی کە باڵەکانی دادەپۆشێت."""),
                           Row(
                             children: [
                               const Expanded(

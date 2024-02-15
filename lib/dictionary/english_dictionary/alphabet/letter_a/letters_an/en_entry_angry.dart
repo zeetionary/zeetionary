@@ -153,10 +153,12 @@ class EnglishEntryangry extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تووڕە، قەڵس، توند، بەڕق، ڕق‌ھەستاو، نگری، پڕبا، ئاڵۆز، شەپۆلاوی (دەریا)، گڕگرتوو، سوورەوەبوو، بەژان، بەسوێ (برین)
-
-١. (ھاوەڵناو) تووڕە؛ بوونی ھەستی توند دەربارەی شتێک کە ڕقت لێیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) تووڕە؛ بوونی ھەستی توند دەربارەی شتێک کە ڕقت لێیە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -152,7 +152,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕنوو، کڵێڵە، کلیلە، کەویەبەفر، سلخە، شاپە، شیپ، ھەرەس، سیپان، ئاشووت، لێشاو، کۆما، لۆدە، کەڵەک، (فیزیک) ھەرەسە: ڕەوت یا پرۆسەیێکی کەڵەکەبوو
 """),
                           const DefinitionKurdish(

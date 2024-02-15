@@ -198,7 +198,7 @@ class EnglishEntrycareer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کار، پیشە، ئیش، خەبات، شوول
 """),
                           const DefinitionKurdish(

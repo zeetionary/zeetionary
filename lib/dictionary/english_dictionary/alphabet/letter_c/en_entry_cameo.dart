@@ -187,7 +187,7 @@ class EnglishEntrycameo extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نقێمی بە نەخش‌ھەڵکەنراو، پارچە (نووسراوە، فیلم، شانو و ھتد)
 """),
                           const DefinitionKurdish(

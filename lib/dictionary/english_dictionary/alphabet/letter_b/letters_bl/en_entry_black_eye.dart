@@ -143,7 +143,7 @@ class EnglishEntryblackeye extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چاوی ڕەش، شینایی دەوری چاو، ڕووڕەشی، ناوزڕاوی، نەنگ، بێ‌ئابڕوویی
 """),
                           const DefinitionKurdish(

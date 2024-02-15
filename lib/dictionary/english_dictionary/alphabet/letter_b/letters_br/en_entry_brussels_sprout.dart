@@ -141,7 +141,7 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەلەرمی سەوز، کەلەمە دوگمە، کەلەم‌فندقی، کەلەمی ڕاسێلی، کەلەمی برۆکسێلی
 """),
                           const DefinitionKurdish(

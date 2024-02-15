@@ -152,7 +152,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دووژینە، وشکاوەکی، وشکاوی، (کرداری لەشکری) زەمینی-دەریایی، وشکانی-ئاوی
 """),
                           const DefinitionKurdish(

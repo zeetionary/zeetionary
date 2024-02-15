@@ -144,7 +144,7 @@ class EnglishEntrybollard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆڵەکەڕاگرە، ڕاگرە، کۆڵەکەی مەھار یان ڕاگرتن، ڕاگیرە، بەستنگای تەنافەکان (کەشتی)، کۆڵەکەمەترسی، کۆڵەکەی مەترسی
 """),
                           const DefinitionKurdish(

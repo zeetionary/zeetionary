@@ -192,7 +192,7 @@ class EnglishEntrychaff extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شۆخی، سۆس، سۆست، توێخ، چەڵتووک، پۆرگ (توێکڵی برنج)، سەرکۆزەر، کۆتەڵ، کۆزەرە، گیا، تفاق، ئالیک، کا، پووش، پوار
 """),
                           const DefinitionKurdish(

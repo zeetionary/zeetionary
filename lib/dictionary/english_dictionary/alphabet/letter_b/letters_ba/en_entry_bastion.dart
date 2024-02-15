@@ -146,10 +146,12 @@ class EnglishEntrybastion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەڵای باستیێن، شوورەی دووپاڵوو، پارێزە، پەنا، بەرگریگا، قەڵای لەگرتن‌نەھاتوو
-
-١. (ناو) کۆمەڵە کەسێک یان سیستەمێک کە جۆرە شێوازێکی ھی==ژت=یان یان سیستەمێک دەپارێزێت کە وادیارە لە نەماندایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کۆمەڵە کەسێک یان سیستەمێک کە جۆرە شێوازێکی ھی==ژت=یان یان سیستەمێک دەپارێزێت کە وادیارە لە نەماندایە"""),
                           Row(
                             children: [
                               const Expanded(

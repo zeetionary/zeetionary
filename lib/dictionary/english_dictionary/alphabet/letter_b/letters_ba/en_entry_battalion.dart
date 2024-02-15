@@ -146,10 +146,12 @@ class EnglishEntrybattalion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تابوور، ھەنگ، ھێز، تیپ 
-
-١. (ناو) ژمارەیەکی زۆر سەرباز کە بەشێکن لە لیوایەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەکی زۆر سەرباز کە بەشێکن لە لیوایەک"""),
                           Row(
                             children: [
                               const Expanded(

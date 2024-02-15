@@ -196,7 +196,7 @@ class EnglishEntrycascade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نیمچەتاڤگە، نیمچەڕێژاو، ڕێژاوک، زنجیرە یان ڕیزەتاڤگەی چکۆلە، (جل‌وبەرگ) چین، ھەڕەمە
 """),
                           const DefinitionKurdish(

@@ -158,7 +158,7 @@ class EnglishEntryaspire extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئارزوو ھەبوون، ھیوا خواستن، ھەبوونی ھەستی بەرزە فڕی
 """),
                           const DefinitionKurdish(

@@ -158,10 +158,11 @@ class EnglishEntryarabic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەربە عەرەب یان عەرەبەکان، سەربە (زمانی) عەرەبی، زمانی عەرەبی، عەرەبی
-
-١. (ناو) زمانی خەڵکی عەرەب"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) زمانی خەڵکی عەرەب"""),
                           Row(
                             children: [
                               const Expanded(

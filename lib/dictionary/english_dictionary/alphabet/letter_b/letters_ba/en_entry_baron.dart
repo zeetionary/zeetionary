@@ -147,10 +147,12 @@ class EnglishEntrybaron extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بارۆن، گەورەزادە، بەگزادە ، کەڵ، بەدەسەڵات، قۆرخکار 
-
-١. (ناو) پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە. لە بەریتانیا پێیان دەوترێت لۆرد، لە وڵاتانی تر پێیان دەوترێت بارۆن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە. لە بەریتانیا پێیان دەوترێت لۆرد، لە وڵاتانی تر پێیان دەوترێت بارۆن"""),
                           Row(
                             children: [
                               const Expanded(

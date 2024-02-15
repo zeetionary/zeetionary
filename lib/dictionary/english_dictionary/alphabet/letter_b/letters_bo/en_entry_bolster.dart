@@ -144,7 +144,7 @@ class EnglishEntrybolster extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاڵپشت، باڵشت، بالنج، پشتی، (بیناسازی) پاڵپشت(ـە)، ئەسکەنەی قورسی دابڕینی خشت
 """),
                           const DefinitionKurdish(

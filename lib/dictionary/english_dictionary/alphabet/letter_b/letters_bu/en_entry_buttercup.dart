@@ -187,10 +187,12 @@ class EnglishEntrybuttercup extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوڵە مێلاقە، ڕەبەنۆک، بووک، گوڵ‌ماس، جوونگ، گوڵەبەھارە، باتینۆک 
-
-١. (ناو) ڕووەکێکی دەشتی کە گوڵی زەردی بچووک دەگرێت کە وەک کوپن لە شێوەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕووەکێکی دەشتی کە گوڵی زەردی بچووک دەگرێت کە وەک کوپن لە شێوەدا"""),
                           Row(
                             children: [
                               const Expanded(

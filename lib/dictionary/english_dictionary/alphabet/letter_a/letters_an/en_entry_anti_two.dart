@@ -157,10 +157,10 @@ class EnglishEntryantitwo extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێشگر: پێچەوانە، دژ، دژە، بەرڤاژی، پەرچە، ئاوەژوو
-
-١. (پێشگر) دژبەر"""),
+"""),
+                          const DefinitionKurdish(text: """١. (پێشگر) دژبەر"""),
                           Row(
                             children: [
                               const Expanded(

@@ -157,10 +157,12 @@ class EnglishEntryappendix extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرخستە، پاشکۆ، پاڵخستە، کلک، لکاند، کورت، پوخت، (توێکاری) پەلەڕیخۆڵە
-
-١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە"""),
                           Row(
                             children: [
                               const Expanded(

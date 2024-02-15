@@ -146,7 +146,7 @@ class EnglishEntrybore extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قوڵکە، چاڵ، کون، مێمڵ، ڕیوڵ، ژیرەژاو، مرۆی وەڕەس‌کەر یان گەوج‌کەر، وشترە، وشتراو، قەڵبەزە
 """),
                           const DefinitionKurdish(

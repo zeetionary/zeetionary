@@ -190,7 +190,7 @@ class EnglishEntrycauldron extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەنجەڵ، قازان، دست، برۆش، خەزگان، نقرە
 """),
                           const DefinitionKurdish(

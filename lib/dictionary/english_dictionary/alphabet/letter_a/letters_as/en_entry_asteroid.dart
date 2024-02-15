@@ -158,10 +158,12 @@ class EnglishEntryasteroid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەسارۆکە، وردەھەسارە
-
-١. (ھاوەڵناو) ھەسارەی بچووک کە بە دەوری خۆردا دەسووڕێنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ھەسارەی بچووک کە بە دەوری خۆردا دەسووڕێنەوە"""),
                           Row(
                             children: [
                               const Expanded(

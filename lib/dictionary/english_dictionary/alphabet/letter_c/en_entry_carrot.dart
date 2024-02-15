@@ -192,7 +192,7 @@ class EnglishEntrycarrot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گێزەر، یارکۆک، بنەگێزەر، بنجی گێزەر، خەڵات، پاداشت 
 """),
                           const DefinitionKurdish(text: "١. (ناو) گێزەر"),

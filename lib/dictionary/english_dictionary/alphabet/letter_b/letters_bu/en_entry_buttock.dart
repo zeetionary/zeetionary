@@ -187,7 +187,7 @@ class EnglishEntrybuttock extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕان، سمت، لاقوون
 """),
                           const DefinitionKurdish(text: "١. (ناو) سمت"),

@@ -150,7 +150,7 @@ class EnglishEntryancestral extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باپیرەگەورەیی، باووباپیری، پێشینەیی، ڕەچەڵەکی، سەرەتایی، یەکەمین، دەسپێک
 """),
                           const DefinitionKurdish(

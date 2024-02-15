@@ -162,10 +162,12 @@ class EnglishEntryassurance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەخۆڕادیتن، لەخۆمسۆگەربوون، خۆباوەڕی، لەخۆراپەڕموون، باوەڕ بە خۆبوون، متمانە بە خۆ بوون، بەڵێنی، گفت، دڵنیایی، متمانە، بیمە
-
-١. (ناو) لێدوانێک سەبارەت بەوەی شتێک بە دڵنیاییەوە ڕاستە، یان ڕوودەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لێدوانێک سەبارەت بەوەی شتێک بە دڵنیاییەوە ڕاستە، یان ڕوودەدات"""),
                           Row(
                             children: [
                               const Expanded(

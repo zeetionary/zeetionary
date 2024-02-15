@@ -148,10 +148,12 @@ class EnglishEntrybead extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: موروو، کوژەکە، زەنگانە، زەنگیانە، نمنمۆک، منمنە، دەنکە یان دەنکی تەزبێح، دڵۆپ، تنۆک، سێرە، سیپەک، جاسووسە، نگ، سھرک (تفەنگ)، ڕیزەمووروو یان زنجیرەموورووی دیوار
-
-١. (ناو) پارچەیەکی بچووک لە شووشە یان دار کە کونێکی تێدایە و دەکرێت بکرێت بە زنجیرەیەک و وەک خشڵ ببەسترێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچەیەکی بچووک لە شووشە یان دار کە کونێکی تێدایە و دەکرێت بکرێت بە زنجیرەیەک و وەک خشڵ ببەسترێت"""),
                           Row(
                             children: [
                               const Expanded(

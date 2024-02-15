@@ -276,7 +276,7 @@ class EnglishEntrybubble extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بڵق، تۆقلە، پۆڕگاو، قوڵپ، پەقژک، ھەک، بڵقەبڵق، کوڵەکوڵ، قوڵتەقوڵ
 """),
                           const DefinitionKurdish(

@@ -189,7 +189,7 @@ class EnglishEntrybun extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەیک، (جۆرێ) کولیچە (خڕ و شیرین)، نانی خڕ، قوتکەقژ (تۆپە قژی قوتی دواوە)، پاشڵ، کنگ، سمت
 """),
                           const DefinitionKurdish(

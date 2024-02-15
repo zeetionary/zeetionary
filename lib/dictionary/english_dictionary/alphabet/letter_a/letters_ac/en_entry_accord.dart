@@ -101,7 +101,7 @@ class EnglishEntryaccord extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێک‌کەوتن یان پێک‌ھاتنی فەرمی (حکومی یان ڕێکخراویی)، پەیمان، بڕیار، سازان، پێک‌ھاتن، کۆکی، ڕێک‌کەوتن، گونجان، مەیل، ویست
 """),
                           const DefinitionKurdish(

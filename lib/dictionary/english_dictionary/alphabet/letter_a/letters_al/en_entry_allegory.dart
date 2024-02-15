@@ -109,7 +109,7 @@ class EnglishEntryallegory extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چیروکی ھێمایی، ھێماچیرۆک، چیرۆما (چیرۆک + ھێما)، ھێرۆک (ھێما + چیرۆک)، ھێما، نیشانە، خوازە
 """),
                           const DefinitionKurdish(

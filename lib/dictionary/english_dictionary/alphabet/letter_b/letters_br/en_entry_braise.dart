@@ -141,7 +141,7 @@ class EnglishEntrybraise extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەرم داھێنان، کوڵاندن، برژاندن
 """),
                           const DefinitionKurdish(

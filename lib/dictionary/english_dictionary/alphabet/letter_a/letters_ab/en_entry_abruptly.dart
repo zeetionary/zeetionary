@@ -92,7 +92,7 @@ class EnglishEntryabruptly extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 ١. شتێک لەناکاو و بەشێوەییەکی چاوەڕواننەکراو ڕووبدات"""),
                           Row(
                             children: [

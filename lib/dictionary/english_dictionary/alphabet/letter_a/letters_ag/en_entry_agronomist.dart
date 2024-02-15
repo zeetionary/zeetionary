@@ -108,7 +108,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جووتیار، جووت‌بەندە، وەرزێر، کشت‌کار، ئەندازیاری کشت‌وکاڵ، شارەزای کشت‌وکاڵ، ئەگرۆنۆمیست
 """),
                           const DefinitionKurdish(

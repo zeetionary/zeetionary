@@ -151,10 +151,11 @@ class EnglishEntrybedroom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دیوی خەو، ژووری خەو، خەوگا
-
-١. (ناو) ژووری خەو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ژووری خەو"""),
                           Row(
                             children: [
                               const Expanded(

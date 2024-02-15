@@ -110,10 +110,12 @@ class EnglishEntryaffirmation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەلماندن، پەسندکردن، چەسپاندن، مۆرکردن، پتەواندن، بەڕاست‌دانان، پشت‌ڕاست‌کردنەوە
-
-١. (ھاوەڵناو) بە فەرمی ڕاگەیاندنی ئەوەی شتێک ڕاستە، یان ئەوەی کە پشتگیری شتێک بە تەواوی دەکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بە فەرمی ڕاگەیاندنی ئەوەی شتێک ڕاستە، یان ئەوەی کە پشتگیری شتێک بە تەواوی دەکەیت"""),
                           Row(
                             children: [
                               const Expanded(

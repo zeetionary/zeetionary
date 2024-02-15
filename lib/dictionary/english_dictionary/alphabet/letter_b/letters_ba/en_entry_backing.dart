@@ -153,10 +153,11 @@ class EnglishEntrybacking extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پشتیوانی، داکۆکی، پشتگیری، پشتیوانی ماڵی یان دارایی، دەس‌گرتن، دەسگیری، یارمەتی، کۆڕ یان کۆمەڵی پشتیوانان، یارمەتیدەران، دەستە، (میوزیک) ھاوڕێ، لەگەڵ، بەر
-
-١. (ناو) یارمەتی و پشتیوانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) یارمەتی و پشتیوانی"""),
                           Row(
                             children: [
                               const Expanded(

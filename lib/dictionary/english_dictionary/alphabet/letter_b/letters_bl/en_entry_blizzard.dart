@@ -145,7 +145,7 @@ class EnglishEntryblizzard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کڕێوە، گیت، تۆف، باوبۆران، تۆف‌وبەند، بادەوە، باکوت، پەلەتاتە
 """),
                           const DefinitionKurdish(

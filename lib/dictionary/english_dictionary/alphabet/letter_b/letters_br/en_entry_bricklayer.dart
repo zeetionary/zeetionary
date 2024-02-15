@@ -139,10 +139,12 @@ class EnglishEntrybricklayer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وەستا، خشت‌چن، خشت‌کار، بەننا، قوڕەکار
-
-١. (ناو) کەسێک کە دیوار درووست دەکات، بە تایبەتی بە خشت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە دیوار درووست دەکات، بە تایبەتی بە خشت"""),
                           Row(
                             children: [
                               const Expanded(

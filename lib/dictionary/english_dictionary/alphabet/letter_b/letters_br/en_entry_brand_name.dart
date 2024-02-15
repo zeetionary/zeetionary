@@ -146,7 +146,7 @@ class EnglishEntrybrandname extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نیشانک، ماڕک، نیشانەی بازرگانی، درووشمی بازرگانی
 """),
                           const DefinitionKurdish(

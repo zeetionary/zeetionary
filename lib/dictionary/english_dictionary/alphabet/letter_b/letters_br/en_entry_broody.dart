@@ -141,7 +141,7 @@ class EnglishEntrybroody extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەکڕ، بەکڕک، لەبیروخەم‌دا، دڵتەنگ، کز، مات، خەمبار، (ژن) بە مەراقی و ئارەزووی مناڵەوە
 """),
                           const DefinitionKurdish(

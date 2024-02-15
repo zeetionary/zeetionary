@@ -165,10 +165,12 @@ class EnglishEntryarrest extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گرتن، دەس‌بەسەرکردن، گل‌دانەوە، ڕاوێستاندن، ڕاگرتن، ڕاگیرکردن
-
-١. (کردار) دەستگیرکردن لەلایەن پۆلیسەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) دەستگیرکردن لەلایەن پۆلیسەوە"""),
                           Row(
                             children: [
                               const Expanded(

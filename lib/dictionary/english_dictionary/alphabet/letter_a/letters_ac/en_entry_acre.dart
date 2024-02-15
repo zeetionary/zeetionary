@@ -107,7 +107,7 @@ class EnglishEntryacre extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەکر، گاوەخان (= یەکەی پێوانی زەوی، بەرامبەر بە ٤.٨٤ یاردی چوارگۆشە و ٤.٠٥٠ میتری چوارگۆشە یان ٠.٤٠٥ ھێکتار
 """),
                           const DefinitionKurdish(

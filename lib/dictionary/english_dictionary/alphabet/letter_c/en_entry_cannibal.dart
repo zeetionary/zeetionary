@@ -187,10 +187,12 @@ class EnglishEntrycannibal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیاوخۆر، مرۆخۆر، خۆخۆر، ھاوڕەگەزخۆر، ھاوجۆرخۆر
-
-١. (ناو) مرۆڤێک کە مرۆڤ دەخوات، یان ئاژەڵێک کە لە ھەمان جۆری خۆی دەخوات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مرۆڤێک کە مرۆڤ دەخوات، یان ئاژەڵێک کە لە ھەمان جۆری خۆی دەخوات"""),
                           Row(
                             children: [
                               const Expanded(

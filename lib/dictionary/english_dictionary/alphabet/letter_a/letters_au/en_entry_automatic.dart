@@ -163,10 +163,12 @@ class EnglishEntryautomatic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆکار، ئۆتۆماتیک، میکانیکی، ماشێنی، ئینستینکتیڤ، خۆنەویست، خۆکردوو، ناخودئاگا، خۆبەخۆ، لەخۆوە،	چەکی خۆکار یان ئۆتۆماتیک،	ماشێن بە ترانسمیشنی (گێڕ) خۆکارەوە
-
-١. (ھاوەڵناو) شتێک کە بۆ خۆی کاردەکات و پێویستی بە کۆنترۆڵکردن لەلایەن مرۆڤەوە نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە بۆ خۆی کاردەکات و پێویستی بە کۆنترۆڵکردن لەلایەن مرۆڤەوە نییە"""),
                           Row(
                             children: [
                               const Expanded(

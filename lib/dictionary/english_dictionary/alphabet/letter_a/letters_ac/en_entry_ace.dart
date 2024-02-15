@@ -124,7 +124,7 @@ class EnglishEntryace extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (پەڕێن) تەک، تەکخاڵ، تاک، تاق، ئاس، یەکجارباش، بێ‌وێنە، بێ‌ھاوتا، عال، تۆزێ، نەختێ، نیسکێ
 """),
                           const DefinitionKurdish(

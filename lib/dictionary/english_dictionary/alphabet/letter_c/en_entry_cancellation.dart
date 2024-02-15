@@ -190,10 +190,11 @@ class EnglishEntrycancellation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پووچ‌کردنەوە، بەتاڵ‌کردنەوە، ھەڵوەشێنراوی، ھەڵوەشاندن، ھەڵوەشیان، پووچەڵ‌کردنەوە, شتی پووچەوەکراو، پووچەک, مۆری پووچەڵ‌کردنەوە, لابردن
-
-١. (ناو) ھەڵوەشاندنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ھەڵوەشاندنەوە"""),
                           Row(
                             children: [
                               const Expanded(

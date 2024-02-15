@@ -144,7 +144,7 @@ class EnglishEntrybiting extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەتەزوو، تەزوودار، بەتەز، ئێسک‌بڕ، زۆرسارد و ناخۆش، توند، ڕەق، ناخۆش، تاڵ
 """),
                           const DefinitionKurdish(

@@ -144,10 +144,12 @@ class EnglishEntrybloodily extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خوێن‌ڕێژانە، دڵڕەقانە
-
-١. (ھاوەڵکار) بەشێوەیەک کە توندوتیژی و کووشتنی زۆر لە خۆدەگرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵکار) بەشێوەیەک کە توندوتیژی و کووشتنی زۆر لە خۆدەگرێت"""),
                           Row(
                             children: [
                               const Expanded(

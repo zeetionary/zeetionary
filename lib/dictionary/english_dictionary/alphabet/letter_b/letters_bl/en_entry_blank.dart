@@ -248,7 +248,7 @@ class EnglishEntryblank extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سپی، نەنووسراو، بێ‌نیشان، بەتاڵ، (چەک) سپی، پارەتیانەنووسراو، کەمتەرم، بەتەنگەوەنەبوو، بێ‌خەیاڵ، بۆش، واڵا، پووچەڵ، پووچ، بەتاڵ، چۆڵ، بێ‌ناوەرۆک، ھێچ‌تیانەبوو، لێڵ، نادیار، تەژمە(لە باس‌کردنی دیواردا) بێ‌درگاوپەنجێرە، تەواو، ڕەھا، جێگای بەتاڵ، مەودا یا جێگای سپی و خاڵی، جێگای نەنووسراو، سپیایی، فەرامۆشی، لەبیرچوونەوە، داخوازی‌نامە، بۆشایی، ڤالاھی، بۆشی، گوللەی مەشقی، فیشەکەدرۆزنە
 """),
                           const DefinitionKurdish(

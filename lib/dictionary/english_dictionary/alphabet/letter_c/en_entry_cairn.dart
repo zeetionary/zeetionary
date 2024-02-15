@@ -187,10 +187,12 @@ class EnglishEntrycairn extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەردچن، ئاغەر، کەڵەکەبەرد، ئاغەرە
-
-١. (ناو) کەڵەکەبەردێک کە ڕێگایەک لەسەر شاخێک یان شوێنی ناشتنی کەسێک دیاری دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەڵەکەبەردێک کە ڕێگایەک لەسەر شاخێک یان شوێنی ناشتنی کەسێک دیاری دەکات"""),
                           Row(
                             children: [
                               const Expanded(

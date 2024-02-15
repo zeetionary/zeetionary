@@ -108,10 +108,12 @@ class EnglishEntryacquiescence extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ملنان، قایل‌بوون، ڕەزامەندی (بە زۆری)، ڕێ‌داگرتن، ھاتنەسەرڕێ، دژایەتی‌نەکردن، پەسندکردن (بەنابەدڵی)
-
-١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی باوەڕت پێی نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی باوەڕت پێی نییە"""),
                           Row(
                             children: [
                               const Expanded(

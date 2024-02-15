@@ -144,7 +144,7 @@ class EnglishEntrybloodstream extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕۆیشتنی خوێن، خۆین‌ڕۆیین، سووڕان یا ڕەوتی خوێن
 """),
                           const DefinitionKurdish(

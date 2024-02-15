@@ -141,10 +141,12 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: برایەتی، کۆمەڵە، کۆڕ، پێوەندی برادەری
-
-١. (ناو) ھاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
                           Row(
                             children: [
                               const Expanded(

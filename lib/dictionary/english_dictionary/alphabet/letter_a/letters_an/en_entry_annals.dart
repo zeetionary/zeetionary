@@ -151,7 +151,7 @@ class EnglishEntryannals extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (ساڵ بە ساڵ) ساڵ‌نامە، ڕووداونامە، تۆمارنامە، مێژوونامە، مێژوو، تۆمارە مێژویی‌یەکان
 """),
                           const DefinitionKurdish(

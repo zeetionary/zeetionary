@@ -189,7 +189,7 @@ class EnglishEntrybumper extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پارێزە، سپەر، (لە مۆتۆر سیکلێت‌دا) زەمبەلەک یان فەنەری زەربەگێڕەوە، زەربەگێڕەوە، پیاڵە یان لیوانی پڕ، زەلام، گەورە، زەبەلاح، قەبە، زۆر، زەبەند، فراوان
 """),
                           const DefinitionKurdish(

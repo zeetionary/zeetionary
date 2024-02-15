@@ -147,10 +147,12 @@ class EnglishEntrybeacon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چرای دەریایی، ڕووناکی یان چرای ڕێنوێنی، تروکەشەوق، چرای تروکەیی (لە فڕۆکەخانە)، نیشانەی ئاگر (بۆ ڕێنوێنی یان وریاکردنەوە)، مەشخەڵ، چرای پەڕینەوەی پیادە، تیشکی ڕووناکی، وێسگەی ڕادیۆیی
-
-١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، ھتد و ئاگادارکردنیان لە مەترسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، ھتد و ئاگادارکردنیان لە مەترسی"""),
                           Row(
                             children: [
                               const Expanded(

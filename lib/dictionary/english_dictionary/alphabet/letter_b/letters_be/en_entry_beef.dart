@@ -147,10 +147,11 @@ class EnglishEntrybeef extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆشتی گا (یان وڵاخ)، پرتەوبۆڵە، خوتەخوت
-
-١. (ناو) گۆشتی مانگا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) گۆشتی مانگا"""),
                           Row(
                             children: [
                               const Expanded(

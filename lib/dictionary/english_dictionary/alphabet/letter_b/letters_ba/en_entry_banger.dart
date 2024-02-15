@@ -154,10 +154,12 @@ class EnglishEntrybanger extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شڕەماشێن، داشقەشکاو، کەلاکەماشێن، کەلاکەکەر، چەپەڕەشڕ
-
-١. (ناو) تێکەڵەیەک لە گۆشت و چەوری و نان کە دەکرێت بە پارچەی بچووک و درووست دەکرێت لە شێوەی لوولەدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) تێکەڵەیەک لە گۆشت و چەوری و نان کە دەکرێت بە پارچەی بچووک و درووست دەکرێت لە شێوەی لوولەدا"""),
                           Row(
                             children: [
                               const Expanded(

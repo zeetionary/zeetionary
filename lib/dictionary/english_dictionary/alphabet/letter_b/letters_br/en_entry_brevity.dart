@@ -141,7 +141,7 @@ class EnglishEntrybrevity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کورت‌ماوەیی، تیژپەڕی، کەمدوو، نابەردەوامی، کورتی، پوختی
 """),
                           const DefinitionKurdish(

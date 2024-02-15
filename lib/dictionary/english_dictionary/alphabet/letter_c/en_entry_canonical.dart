@@ -190,10 +190,12 @@ class EnglishEntrycanonical extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەرعی، قانوونی، زاگۆنی، ڕەوا، ڕەسەن، باو، پەسندکراو، ستاندارد، قەشەیی، سەربە قەشە، بەپێی قانوونی کلێسە، بەگوێرەی قانوونێ کلێسە
-
-١. (ھاوەڵناو) بەشێک لەو کتێبە پیرۆزانەی کە پەسەندکراون بۆ ئەوەی کە باوەڕ وایە ھەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بەشێک لەو کتێبە پیرۆزانەی کە پەسەندکراون بۆ ئەوەی کە باوەڕ وایە ھەن"""),
                           Row(
                             children: [
                               const Expanded(

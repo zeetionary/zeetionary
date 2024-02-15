@@ -108,10 +108,12 @@ class EnglishEntryaftereffect extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (زۆرتر کۆ) نیشانەکانی دواتر، پاشە(ئە)نجام، کاریگەری پاشین یان دواتر، پاش‌نیشانە (وەک ھی دەرمان، نەخۆشی و ھتد)
-
-١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت"""),
                           Row(
                             children: [
                               const Expanded(

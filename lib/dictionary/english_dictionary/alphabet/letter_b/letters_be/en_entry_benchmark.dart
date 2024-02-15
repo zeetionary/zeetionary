@@ -145,7 +145,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێوەر، پێودانگ، ئەندازە، پێوانە، ھەڵسەنگێنە، (لە خانووسازی‌دا) نیشان، نیشانە
 """),
                           const DefinitionKurdish(

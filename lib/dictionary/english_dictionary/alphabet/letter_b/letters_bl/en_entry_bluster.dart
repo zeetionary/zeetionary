@@ -145,7 +145,7 @@ class EnglishEntrybluster extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گژە، گڤە، گژەگژ (دەنگی بای توند)، بای توند یان سەخت، شات‌وشووت، ھاڕەوگیفە، خۆھەڵکێشان، فڕوفیشاڵ، ھەڕەشە، گڤەلێ‌کردن، ھەڕەشە و گوڕەشە
 """),
                           const DefinitionKurdish(

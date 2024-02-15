@@ -156,7 +156,7 @@ class EnglishEntryarable extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەپیت، کێڵڕاو، شیاوی چاندن یان کێڵان، کێڵگە، زەوی گونجاو بۆ کێڵان، زەوی جووتیاری
 """),
                           const DefinitionKurdish(

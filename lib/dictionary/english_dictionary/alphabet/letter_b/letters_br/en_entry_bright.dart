@@ -336,7 +336,7 @@ class EnglishEntrybright extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پڕشنگدار، درەوشاوە، ڕووناک، ڕوون، پڕتیشک، زەڕقی، ورشن، ڕۆشن، گەش، ڕۆھن، بریقەدار، بەشەوق، شاد، دڵخۆش، خۆشحاڵ، بەگوڕ، گەش، بەکەیف، زیرەک، زووفێر، وریا، بەھۆش، زیت، سەرکەوتوو، ھیوادار، دڵ‌گەرم، تازە، نەو، (دەنگ) گڕ، زوڵاڵ
 """),
                           const DefinitionKurdish(

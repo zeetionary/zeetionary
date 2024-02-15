@@ -156,7 +156,7 @@ class EnglishEntryarmpit extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بن‌ھەنگڵ، بەرەنگڵ، بن‌باڵ، بن‌پیل، بن‌باخڵ، کڵێشە، خەرک
 """),
                           const DefinitionKurdish(

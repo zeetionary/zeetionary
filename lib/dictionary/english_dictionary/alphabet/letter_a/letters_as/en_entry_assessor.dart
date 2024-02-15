@@ -160,10 +160,12 @@ class EnglishEntryassessor extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نرخێنەر، ھەڵسەنگێنەر، یاریدەدەری ڕاوێژکار، دواڕاوێژکار (لە دادگا و لەسەر بابەتە تکنیکی‌یەکان)
-
-١. (ناو) شارەزایەک لە باورێکی دیاریکراو کە لەلایەن دادگا یان بەرپرسی دیکە داوای ڕاوێژی لێ‌دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شارەزایەک لە باورێکی دیاریکراو کە لەلایەن دادگا یان بەرپرسی دیکە داوای ڕاوێژی لێ‌دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(

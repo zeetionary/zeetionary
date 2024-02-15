@@ -145,10 +145,12 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئۆرگی لوولەیی یان دەستی
-
-١. (ناو) ئامێرێکی میوزیکی کە دەژەنرێت بە سووڕدانی دەسکێک، جاران لە شەقامەکان دەژەنرا بۆ پارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئامێرێکی میوزیکی کە دەژەنرێت بە سووڕدانی دەسکێک، جاران لە شەقامەکان دەژەنرا بۆ پارە"""),
                           Row(
                             children: [
                               const Expanded(

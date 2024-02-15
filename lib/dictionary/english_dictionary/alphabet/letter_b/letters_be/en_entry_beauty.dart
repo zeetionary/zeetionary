@@ -150,10 +150,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جوانی، چەلەنگی، ڕندی، مرۆڤ یان شتی جوان، ژنی جوان، باشی، بەرز، (شتی) زۆرباش، نموونە، میناک
-
-١. (ناو) جوانی"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) جوانی"""),
                           Row(
                             children: [
                               const Expanded(

@@ -175,7 +175,7 @@ class EnglishEntryammunition extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەقەمەنی، جبەخانە، بەھانە، پەڵپ، بیانوو
 """),
                           const DefinitionKurdish(text: "١. (ناو) تەقەمەنی" ""),

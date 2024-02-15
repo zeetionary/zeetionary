@@ -156,7 +156,7 @@ class EnglishEntryaqueduct extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاوبارە، بۆت، بۆتک، قەمتەرە، کەتوو، ئاوەڕۆ، جۆگاو، (توێکاری) جۆگە، بۆری، شلەڕۆ
 """),
                           const DefinitionKurdish(

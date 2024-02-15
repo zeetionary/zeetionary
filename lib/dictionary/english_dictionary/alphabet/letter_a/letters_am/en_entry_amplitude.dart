@@ -151,10 +151,12 @@ class EnglishEntryamplitude extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (فیزیک) فراوانی، فرەیی، زۆری، گەلەمپەری، بەرینایی، بەربڵاوی، گەورەیی، پانتایی، بوار، مەڵبەند، کشان
-
-١. (ناو) زۆرترین ماوەی کشانی شەپۆلێکی دەنگی یان ڕادیۆیی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) زۆرترین ماوەی کشانی شەپۆلێکی دەنگی یان ڕادیۆیی"""),
                           Row(
                             children: [
                               const Expanded(

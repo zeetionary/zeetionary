@@ -191,7 +191,7 @@ class EnglishEntrycarving extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەیکەری جوانی، ھەڵکۆڵین، کاردۆژە، دارتاشی، تاشینگەری، پەیکەرتاشی، بەردتاشی
 """),
                           const DefinitionKurdish(

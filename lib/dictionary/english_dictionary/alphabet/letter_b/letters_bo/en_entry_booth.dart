@@ -144,7 +144,7 @@ class EnglishEntrybooth extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژوور، دیو، چاوە، بۆتکە، دەکە، ژوورۆچکە، دووکانۆچکە
 """),
                           const DefinitionKurdish(

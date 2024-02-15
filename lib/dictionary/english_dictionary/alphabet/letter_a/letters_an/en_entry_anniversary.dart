@@ -151,7 +151,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ساڵ‌گەڕانەوە، ساڵ‌وەگەر، ساڵیاد، ساڵەوەختینە، ساڵگەڕ، ساڵ‌ڕۆژ
 """),
                           const DefinitionKurdish(

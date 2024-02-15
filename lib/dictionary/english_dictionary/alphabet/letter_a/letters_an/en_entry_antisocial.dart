@@ -156,10 +156,12 @@ class EnglishEntryantisocial extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دژی داب‌ونەریتی کۆمەڵ و مایەی ھەراسانی خەڵکانی تر، دژەکۆمەڵ، دژی کۆمەڵ(گا)، دژی بەرژەوەندی کۆمەڵ(گا)، ناکۆمەڵایەتی، دوژمنی کۆمەڵ، گۆشەگیر، لاتەریک، دوورەپەرێز
-
-١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی"""),
                           Row(
                             children: [
                               const Expanded(

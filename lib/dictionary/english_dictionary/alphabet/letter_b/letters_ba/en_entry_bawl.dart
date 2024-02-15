@@ -146,10 +146,12 @@ class EnglishEntrybawl extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گریان، زاق وزیق، ھاوار کردن، ھاوار
-
-١. (کردار) ھاوارکردن بە دەنگی بەرز و ناخۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ھاوارکردن بە دەنگی بەرز و ناخۆش"""),
                           Row(
                             children: [
                               const Expanded(

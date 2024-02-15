@@ -110,10 +110,12 @@ class EnglishEntryairing extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەواگۆڕی، ھەواخۆری، لەبەر ھەوادا دانان، وشک‌کردنەوە، کزرکردنەوە، ھەڵخستن، دەربڕین، دەرنوو، بڵاوکردنەوەی تەلەفزیۆنی یا ڕادیۆیی
-
-١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی"""),
                           Row(
                             children: [
                               const Expanded(

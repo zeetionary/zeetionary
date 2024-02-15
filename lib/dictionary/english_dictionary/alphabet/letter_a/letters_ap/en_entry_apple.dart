@@ -156,10 +156,12 @@ class EnglishEntryapple extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سێو، سێڤ، سێف، دار سێو
-
-١. (ناو) میوەیەکی خڕ بە توێکڵی بریقەداری سوور و سەوز کە کەمێک ڕەقە و ناوەکەی سپییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) میوەیەکی خڕ بە توێکڵی بریقەداری سوور و سەوز کە کەمێک ڕەقە و ناوەکەی سپییە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -147,7 +147,7 @@ class EnglishEntryboast extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاڕەوگیفە، پێچ و پڵووچ، لاف‌وگەزاف، لاف‌وگاف، لافاندن، لاف‌لێدان، خۆدەماندن، فڕوفیشاڵ، تڕلێدان، خوھەڵێکشان، جێی‌شانازی، مایەی سەربەرزی یان شانازی
 """),
                           const DefinitionKurdish(

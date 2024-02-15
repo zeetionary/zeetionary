@@ -144,7 +144,7 @@ class EnglishEntryblubber extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیو، بەز، چەوری (گیانەوەر دەریایی‌یەکان)، ھەنسک، لووشکە، خرینگی، (لێو) ئەستوور، کولێرەیی
 """),
                           const DefinitionKurdish(

@@ -147,10 +147,12 @@ class EnglishEntrybell extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زەنگ، گەرناڵ، زلزەنگ، ژام، چام، دەنگەدەنگ، دەنگی زەنگ، زڕە، زەنگوڵە، تۆپەگوڵ، کاسەگوڵ، ھەر شتێکی زەنگ‌ئاسا
-
-١. (ناو) زەنگ؛ شتێکی کانزایی کە ناوەکەی بۆشە و زۆرجار شیوەی کوپێکی ھەیە، و دەنگێک دەردەکات کە ئەو بەشەی ناوی دەجووڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) زەنگ؛ شتێکی کانزایی کە ناوەکەی بۆشە و زۆرجار شیوەی کوپێکی ھەیە، و دەنگێک دەردەکات کە ئەو بەشەی ناوی دەجووڵێت"""),
                           Row(
                             children: [
                               const Expanded(

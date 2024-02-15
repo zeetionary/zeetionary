@@ -146,10 +146,12 @@ class EnglishEntrybee extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەنگ، وەوە، مێشەنگوین، مێشی ھەنگوین، کۆبوونەوە، کۆڕبەست، جڤین
-
-١. (ناو) ھەنگ؛ مێروویەکی فڕیوی ڕەش و زەرد کە دەچزێت. ھەنگ بە گرووپی گەورە دەژین و ھەنگوین درووست دەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەنگ؛ مێروویەکی فڕیوی ڕەش و زەرد کە دەچزێت. ھەنگ بە گرووپی گەورە دەژین و ھەنگوین درووست دەکەن"""),
                           Row(
                             children: [
                               const Expanded(

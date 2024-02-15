@@ -189,10 +189,12 @@ class EnglishEntrybutter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەرە، نڤیشک، نیویشک، زمان‌لووسی، ڕیایی، کلکەسووتێ، گیانەوەری شاخ‌وەشێن، سەروەشێن
-
-١. (ناو) خواردنێکی زەردی نەرم کە بەکاردێت لە خواردن درووستکردندا و بڵاوکردنەوە لەسەر نان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) خواردنێکی زەردی نەرم کە بەکاردێت لە خواردن درووستکردندا و بڵاوکردنەوە لەسەر نان"""),
                           Row(
                             children: [
                               const Expanded(

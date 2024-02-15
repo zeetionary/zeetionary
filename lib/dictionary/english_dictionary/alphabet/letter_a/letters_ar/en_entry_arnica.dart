@@ -155,7 +155,7 @@ class EnglishEntryarnica extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           DividerDefinition(),
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: یۆزخنکێن، گوڵەپشمین
 """),
                           DefinitionKurdish(

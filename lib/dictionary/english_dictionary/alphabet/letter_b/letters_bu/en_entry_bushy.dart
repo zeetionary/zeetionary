@@ -188,7 +188,7 @@ class EnglishEntrybushy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پڕ، جەگەنی، جگەن‌ئاسا، پڕدارو دەوەن، دەوەناوی، چڕ، پڕدەوەن، تیسکن، تووکن
 """),
                           const DefinitionKurdish(

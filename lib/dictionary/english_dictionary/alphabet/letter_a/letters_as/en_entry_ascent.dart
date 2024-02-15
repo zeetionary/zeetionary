@@ -159,7 +159,7 @@ class EnglishEntryascent extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرکەوتن، ژووربوونەوە، سەرووبوونەوە، ھەڵکشان، چوونەسەرەوە، پیاھەڵچوون، پێشکەوتن، ڕێگای سەرەوژووری، سەرەوژووری، ھەوراز، تەلان
 """),
                           const DefinitionKurdish(

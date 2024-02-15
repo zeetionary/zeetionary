@@ -143,10 +143,10 @@ class EnglishEntrybloke extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیاو، مرۆ، بنیادەم
-
-١. (ناو) پیاو"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) پیاو"""),
                           Row(
                             children: [
                               const Expanded(

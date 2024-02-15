@@ -159,7 +159,7 @@ class EnglishEntrycapital extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            EntryTitle(word: "also: capital letter"),
+                            AlsoEnglish(word: "also: capital letter"),
                           ],
                         ),
                         Row(
@@ -200,7 +200,7 @@ class EnglishEntrycapital extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پایتەخت، پێتەخت، پایەتەخت، پاتەخت، شانشین، نێوەند، ناوەند، چەق، پیتی گەورە یان درشت، سەرمایە، دەسمایە، بنەپیت، مایە، سەرەستوون، تانج، سەرکۆڵ، ئەسپەرە، کۆتەڵە، سەرکۆڵەکە، پاشکەوت، شیاوی مەرگ یان لەسێدارەدان، بنەڕەتی، سەرەکی، بنچینەیی، بنگەھی، گرنگ، یەکجارباش، بەرز، (پیت) گەورە، درشت، گردەک
 """),
                           const DefinitionKurdish(

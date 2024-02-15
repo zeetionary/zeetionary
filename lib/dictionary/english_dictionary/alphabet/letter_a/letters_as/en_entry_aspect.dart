@@ -162,12 +162,13 @@ class EnglishEntryaspect extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕواڵەت، نموود، دەم‌وچاو، قیافە، سەروسەکوت، سەروتەرح، ڕوخسار، بیچم، دیم
 2	ڕووکەش، ڕووکار، ڕوو، ڕووە، لایەن، ڕووخسار، بەستێن، گۆشە نیگا، دۆخ، لا، بوار، وار، ڕەھەند، دۆخ، بار، ڕەوش
 3	(ڕێزمان) ئاسپێکت 
-
-١. (ناو) یەک لایەنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) یەک لایەنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

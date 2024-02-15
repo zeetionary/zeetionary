@@ -151,7 +151,7 @@ class EnglishEntryanorexia extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڵ‌نەبردن، بێ‌ئیشتیایی، بێ‌ئیشتیایی دەروونی
 """),
                           const DefinitionKurdish(

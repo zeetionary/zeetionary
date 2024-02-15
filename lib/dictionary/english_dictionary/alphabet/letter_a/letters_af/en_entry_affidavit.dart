@@ -107,7 +107,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سوێندنامە، نامەی سوێند (وەک بەڵگەیێ لە دادگا)
 """),
                           const DefinitionKurdish(

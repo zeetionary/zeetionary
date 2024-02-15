@@ -149,10 +149,12 @@ class EnglishEntrybarrier extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆسپ، ئەستەنگ، بەربەند، بەربەست، دیوار، ڕێگر، چیغ، لەمپەر، قەڵغان، حەسار
-
-١. (ناو) شتێک کە وەکو پەرژین وایە و ڕێگری لە خەڵکی دەکات لێی تێپەڕبن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە وەکو پەرژین وایە و ڕێگری لە خەڵکی دەکات لێی تێپەڕبن"""),
                           Row(
                             children: [
                               const Expanded(

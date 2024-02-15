@@ -140,7 +140,7 @@ class EnglishEntrybrilliance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: درەوشانەوە، ورشانەوە، بریقەدانەوە، پڕشنگدانەوە، بریسکەدانەوە، زیرەکی، ھەڵکەوتوویی، بلیمەتی، شارەزایی، مامۆستایی، ھیواداری، ھومێدەواری، سەرکەوتوویی
 """),
                           const DefinitionKurdish(

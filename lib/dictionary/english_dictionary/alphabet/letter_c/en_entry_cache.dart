@@ -190,7 +190,7 @@ class EnglishEntrycache extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: عەمباری نھێنی، نھێنگە، ھەڵگرتنگە، پەناگە، حەشارگە (نھێنی)، کۆگا یان عەمباری کاتی (چەک‌وچۆڵ، خۆراک و ھتد)، (کامپیوتێڕ) یادگەی نھێنی، حەشارگە
 """),
                           const DefinitionKurdish(

@@ -254,7 +254,7 @@ class EnglishEntryboost extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاڵ، زیخان، پەڵ‌پێوەنان، ھەڵێنان (بۆسەرێ) بردنەسەرێ، چوونەسەرێ، ھەڵکێشان، (بە)تواناکردن، بەھێزکردن، بەکێش‌کردن، پێزداری، زۆربوون، خرانەسەر، یارمەتی، یاریدە، کۆمەک، ھاندان، دنەدان، ورەپێدان
 """),
                           const DefinitionKurdish(

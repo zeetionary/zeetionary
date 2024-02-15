@@ -153,10 +153,12 @@ class EnglishEntryantenna extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەستەوەر، شاخ، شاخۆچکە، شاخەھەست، ئاریەڵ، ئانتێن، شاخە، شەپۆلگر، ھەوایی
-
-١. (ناو) شاخۆچکەی بچووکی ھەندێک مێروو کە بەکاردێن بۆ ھەست‌کردن و 'دەستدان' لە شت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شاخۆچکەی بچووکی ھەندێک مێروو کە بەکاردێن بۆ ھەست‌کردن و 'دەستدان' لە شت"""),
                           Row(
                             children: [
                               const Expanded(

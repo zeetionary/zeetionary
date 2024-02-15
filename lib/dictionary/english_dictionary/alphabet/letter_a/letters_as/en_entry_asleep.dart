@@ -160,10 +160,11 @@ class EnglishEntryasleep extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خەولێ‌کەوتوو، خەوتوو، ڕاکشاو، نوستوو، سست، تەزیو، ناچالاک، ڕاوێستاو
-
-١. (ھاوەڵناو) خەوتوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) خەوتوو"""),
                           Row(
                             children: [
                               const Expanded(

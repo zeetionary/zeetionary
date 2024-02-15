@@ -188,10 +188,10 @@ class EnglishEntrycage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەفەز، قەفەس، ڕ(ە)کە، بێرکم، ھەودک، بەند، ھەود
-
-١. (ناو) قەفەز"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) قەفەز"""),
                           Row(
                             children: [
                               const Expanded(

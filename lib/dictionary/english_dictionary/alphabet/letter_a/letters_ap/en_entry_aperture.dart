@@ -157,10 +157,11 @@ class EnglishEntryaperture extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کون، قەڵەش، کەلەبەر، کەلێن، دەلاقە، ڕۆچنە، ڕۆژنە، دەربیجە، دەرچە، کونەڕووناکی
-
-١. (ناو) کونێکی بچووک لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) کونێکی بچووک لە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

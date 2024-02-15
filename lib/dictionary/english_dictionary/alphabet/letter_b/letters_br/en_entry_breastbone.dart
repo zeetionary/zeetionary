@@ -139,7 +139,7 @@ class EnglishEntrybreastbone extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (ئێسک) چۆڵەمە، کۆڵەی سنگ، تەڵەمە
 """),
                           const DefinitionKurdish(

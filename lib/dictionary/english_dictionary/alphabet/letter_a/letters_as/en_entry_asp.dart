@@ -158,10 +158,12 @@ class EnglishEntryasp extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرگیری شاخ‌دار، بەرگیر(ئەفعی)ی چکولەی ژاراوی
-
-١. (ناو) مارێکی بچووک کە لە ڕۆژاوای ئەورووپا دەژی، و ناوێکی گشتگیر بۆ ژمارەیەک ماری بچووکی باکووری ئەفریقا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مارێکی بچووک کە لە ڕۆژاوای ئەورووپا دەژی، و ناوێکی گشتگیر بۆ ژمارەیەک ماری بچووکی باکووری ئەفریقا"""),
                           Row(
                             children: [
                               const Expanded(

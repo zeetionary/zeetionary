@@ -153,10 +153,11 @@ class EnglishEntryballoon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باڵۆن، شاتۆپ، گاتۆپ، فوودانە، فودانکە، میزڵدان، شیشڵدان، فوکەرە، پزدان، شووشەیێکی گەورەی خر بۆ خواردنەوە (بەتایبەت براندی)، کەسێکی گەوج
-
-١. (ھاوەڵناو) فودانکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) فودانکە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -151,7 +151,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیشانگای خڕ، ئامفی‌تەئەتر، ئامفی‌تیاتر؛ ئۆدیۆتۆریۆمێکی زۆر گەورە، شانۆپان (شانۆ + گۆڕەپان)، شوێنێ بۆ سەرگەرمی گشتی (وەک بۆ کۆنسێرت و یاری‌یەکان)، چاڵ، تەختایی‌یێکی دەوردراو بە لێژایی توند
 """),
                           const DefinitionKurdish(

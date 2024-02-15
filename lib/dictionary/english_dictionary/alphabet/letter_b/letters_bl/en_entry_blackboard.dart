@@ -143,7 +143,7 @@ class EnglishEntryblackboard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەختەڕەشە، سابوورە
 """),
                           const DefinitionKurdish(

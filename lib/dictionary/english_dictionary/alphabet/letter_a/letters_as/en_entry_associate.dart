@@ -165,10 +165,12 @@ class EnglishEntryassociate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاوکار، بەشدار، پشکدار، شەریک، یاریدەدەر، ئەندامی پێوەبەستراو، ئەندامی، یەکگرتوو، ھەڤگرتوو، بەستراو، سەربەدی، پاشکۆ، پێوەبەند، پێوەبەستراو، پێکەوەبەستراو، یاریدەدەری
-
-١. (کردار) پێکەوەبەستنی دوو شت یان کەس لە ھزردا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) پێکەوەبەستنی دوو شت یان کەس لە ھزردا"""),
                           Row(
                             children: [
                               const Expanded(

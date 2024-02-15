@@ -110,7 +110,7 @@ class EnglishEntryalibi extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیانوو، بەھانە، ئەلیبای، شوێنیکی تر، نەبوون لە شوێنی ڕوودانی تاوان‌دا (بەڵگە و شایەتەکان بۆ سەلماندنی نەبوونی کەسێ لە شوێنی ڕوودانی تاوانێک‌دا)، شوێنێکی تر، جێیێکی دی
 """),
                           const DefinitionKurdish(

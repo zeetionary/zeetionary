@@ -193,10 +193,12 @@ class EnglishEntrybeyond extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوورتر، لەوبەر، ئەوبەری، لەوپەڕ، ئەولاتر، ئەوبەرتر، درەنگ‌تر لە، دوای، پاش، لە پشت، لە پشتەوە، نە لەنێو چوارچێوەی، زۆرتر، زیاتر، سەرووتر، سەرتر، لەژوور، لەبان، لەسەر، لە تێگەیشتن‌نایێ، سەرتر لە تێگەیشتن، بێجگەلە، جگەلە
-
-١. (ئامراز) ئەوسەر یان بەرەو ئەوسەری شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ئامراز) ئەوسەر یان بەرەو ئەوسەری شتێک"""),
                           Row(
                             children: [
                               const Expanded(

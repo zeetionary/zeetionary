@@ -161,10 +161,12 @@ class EnglishEntryappointment extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بڕیار (دانانی کاتێ بۆ یەکتر دیتن)، پۆست، پلەوپایە، کار، ئیش، دانان، دیاری‌کردن، ھەڵبژاردن، دامەزراندن، خستنەکار، کەل‌وپەلی نێوماڵ، شمەکی ناوماڵ
-
-١. (ناو) ئامادەکاری بۆ بینین یان سەردانی کەسێک لە کاتێکی دیاریکراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئامادەکاری بۆ بینین یان سەردانی کەسێک لە کاتێکی دیاریکراو"""),
                           Row(
                             children: [
                               const Expanded(

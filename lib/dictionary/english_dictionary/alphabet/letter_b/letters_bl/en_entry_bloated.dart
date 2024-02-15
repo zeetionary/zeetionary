@@ -144,10 +144,12 @@ class EnglishEntrybloated extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ماسیو، پەنەمیاو، ماس‌دار، باکردوو، ھەڵمساو، لە ڕادەبەدەر گەورە یان دەوڵەمەند
-
-١. (ھاوەڵناو) پڕ لە شلە یان ھەوا کە وادەکات گەورەتر لە ئاسایی دەربکەوێت بەشێوەیەک کە ناشرینە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) پڕ لە شلە یان ھەوا کە وادەکات گەورەتر لە ئاسایی دەربکەوێت بەشێوەیەک کە ناشرینە"""),
                           Row(
                             children: [
                               const Expanded(

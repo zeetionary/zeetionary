@@ -160,10 +160,12 @@ class EnglishEntryascendancy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەردەستی، باڵادەستی، دەسەڵات‌داری، باوسەندوویی، سەرکەوتوویی، زاڵی، بەسەرداشکانەوە، سەرتری، دەس‌ڕۆیشتوویی
-
-١. (ناو) ھەبوونی دەسەڵات یان ھێز بەسەر کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەبوونی دەسەڵات یان ھێز بەسەر کەسێک/شتێک"""),
                           Row(
                             children: [
                               const Expanded(

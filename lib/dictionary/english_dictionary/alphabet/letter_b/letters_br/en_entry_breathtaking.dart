@@ -140,7 +140,7 @@ class EnglishEntrybreathtaking extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرسووڕھێنەر، ورووژێنەر، سەرسام‌کەر، ھەژێنەر، سەیر، بێ‌ھاوتا
 """),
                           const DefinitionKurdish(

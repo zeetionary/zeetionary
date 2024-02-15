@@ -145,10 +145,12 @@ class EnglishEntrybilge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بنەکەشتی، تەرکی کەشتی، تەختی کەشتی، گەن(ـد)او یان ئاوی بنەکەشتی (لە بن یان تەرکی کەشتی کۆبۆتەوە)، زگ یان تەنگەی کۆس، قسەی ھەڵیت‌وپڵیت
-
-١. (ناو) بەشی تەختی خوارەوەی کەشتییەک یان بەلەمێک کە تێیدا ئاوی پیس کۆدەبێتەوە، یان ئەو ئاوەی تێیدا کۆدەبێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەشی تەختی خوارەوەی کەشتییەک یان بەلەمێک کە تێیدا ئاوی پیس کۆدەبێتەوە، یان ئەو ئاوەی تێیدا کۆدەبێتەوە"""),
                           Row(
                             children: [
                               const Expanded(

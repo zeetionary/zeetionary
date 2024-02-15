@@ -187,7 +187,7 @@ class EnglishEntrycamcorder extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دووربین یان کامێرای ڤیدیۆیی (دەستی)
 """),
                           const DefinitionKurdish(

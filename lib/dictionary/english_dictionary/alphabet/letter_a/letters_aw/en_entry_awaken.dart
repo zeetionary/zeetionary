@@ -152,7 +152,7 @@ class EnglishEntryawaken extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 ٢. (کردار) درووست بوونی یان درووستکردنی ھەستێک"""),
                           Row(
                             children: [

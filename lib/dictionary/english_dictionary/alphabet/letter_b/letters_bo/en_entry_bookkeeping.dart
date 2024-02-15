@@ -143,10 +143,12 @@ class EnglishEntrybookkeeping extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: حساب‌ڕاگری، ھەژمارنووسی، ھەژمارڕاگری، حساب‌نووسی
-
-١. (ناو) کاری ڕاگرتنی تۆمارێکی پارەی وەرگیراو و خەرجکراو لەلایەن کۆمپانیایەک یان دامەزراوەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کاری ڕاگرتنی تۆمارێکی پارەی وەرگیراو و خەرجکراو لەلایەن کۆمپانیایەک یان دامەزراوەیەک"""),
                           Row(
                             children: [
                               const Expanded(

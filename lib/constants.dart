@@ -233,7 +233,7 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
         // Your indicator widget content here
         Text('Next Video',
             style: TextStyle(
-              color: Theme.of(context).primaryColor.withOpacity(0.1),
+              color: Theme.of(context).primaryColor.withOpacity(0.2),
               fontSize: textSize,
             )),
         AnimatedBuilder(
@@ -244,7 +244,7 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
               child: Icon(
                 Icons.swipe_up_rounded,
                 // color: Colors.blue,
-                color: Theme.of(context).primaryColor.withOpacity(0.1),
+                color: Theme.of(context).primaryColor.withOpacity(0.2),
                 size: textSize, // Set the size of the icon
               ),
             );
@@ -806,6 +806,44 @@ class IPAofEnglishtest extends ConsumerWidget {
   }
 }
 
+class KurdishVocabulary extends ConsumerWidget {
+  final String text;
+
+  const KurdishVocabulary({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      child: GestureDetector(
+        // Wrap Text with GestureDetector
+        onLongPress: () {
+          Clipboard.setData(ClipboardData(text: text));
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text('وشەوواتا لەبەرگیرایەوە'),
+              ),
+            ),
+          );
+        },
+        child: Text(
+          text,
+          style: TextStyle(
+            fontSize: textSize + 2,
+            fontWeight: FontWeight.w900,
+          ),
+          textAlign: TextAlign.right,
+          textDirection: TextDirection.rtl,
+        ),
+      ),
+    );
+  }
+}
+
 class DefinitionKurdish extends ConsumerWidget {
   final String text;
 
@@ -832,7 +870,10 @@ class DefinitionKurdish extends ConsumerWidget {
         },
         child: Text(
           text,
-          style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w500),
+          style: TextStyle(
+            fontSize: textSize,
+            fontWeight: FontWeight.w500,
+          ),
           textAlign: TextAlign.right,
           textDirection: TextDirection.rtl,
         ),
@@ -1330,7 +1371,16 @@ class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
             // Conditional rendering of pause button
             if (isSpeaking)
               IconButton(
-                icon: Icon(Icons.pause, size: textSize),
+                icon: Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                          color:
+                              Theme.of(context).primaryColor.withOpacity(0.01),
+                          width: 1.0),
+                    ),
+                    padding: const EdgeInsets.all(6.0),
+                    child: Icon(Icons.pause, size: textSize)),
                 onPressed: () {
                   widget.onStopPressed();
                   updateSpeakingState(false);

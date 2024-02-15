@@ -328,10 +328,11 @@ class EnglishEntrybrief extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کورت (جل‌وبەرگ)، تیژپەڕ، کورت‌ماوە، کورتە، پوختە، نویشک، توند، بڕا، یەکلایی‌کەرەوە، دەستوور، فەرمان، ئەرک، چوارچێوەی دەسەڵات، دەستوورەکان، ڕاسپاردەکان، کورتەی داواکاری یان دۆسیە (ماف)، ڕاسپاردە
-
-١. (ھاوەڵناو) بۆ ماوەیەکی کەم"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) بۆ ماوەیەکی کەم"""),
                           Row(
                             children: [
                               const Expanded(

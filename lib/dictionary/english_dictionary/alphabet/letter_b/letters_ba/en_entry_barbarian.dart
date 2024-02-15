@@ -152,10 +152,12 @@ class EnglishEntrybarbarian extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (لە سەردەمانی کۆن‌دا) بەڕبەڕ، بێگانە (بەتایبەت نایۆنانی، ناڕۆمی یان ناکریستانی)، مرۆی دڕندە یان ناشارستانی، بەڕبەڕ، ھۆڤ، ناشارستانی، بێ‌ژیار، بیانی، دەرەکی، دەشتەکی، بێگانە
-
-١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران"""),
                           Row(
                             children: [
                               const Expanded(

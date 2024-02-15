@@ -151,10 +151,12 @@ class EnglishEntryanchorage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەسکەلە، بەندەر، لەنگەرگا، لەنگەرگە، تابگە، لەنگەرانە، (پارەی) لەنگرخستن، لەنگەرگرتن
-
-١. (ناو) شوێنی لەنگەرگرتنی کەشتی و بەلەم"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شوێنی لەنگەرگرتنی کەشتی و بەلەم"""),
                           Row(
                             children: [
                               const Expanded(

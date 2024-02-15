@@ -341,7 +341,7 @@ class EnglishEntryblack extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕەش، تەواو ڕەش، ڕەشی ڕەش، تاریک، ئەنگوستەچاو، بێ‌ڕووناکی، (سەربە) ڕەش‌پێستەکان، بێ‌شیر (قاوە و چایی)، پیس، چڵکن، گڵاو، چەپەڵ، ڕق‌ھەستاو، تووڕە، ھیوابڕ، ناھومێدکەر، خراپ، ڕەش، بەد، دڵپڕ، کز، خەمبار، بەزیان، بەوەی، بەزەڕ، ڕەشی، سیان، قورم، ڕەنگی ڕەش، ڕەش‌پێست، چەرم‌ڕەش، بەرگی ڕەش، بەرگ یان جلی ماتەم
 """),
                           const DefinitionKurdish(

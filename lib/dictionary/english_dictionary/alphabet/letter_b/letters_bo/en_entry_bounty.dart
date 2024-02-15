@@ -145,7 +145,7 @@ class EnglishEntrybounty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەخشندەیی، بەدەھندەیی، دڵاوایی، دەسکراوەیی، چاوتێری، بەدەس‌ودڵی، بەخشین، یارمەتی، پیتاک، کۆمەک، ڕێژەن، پیت، بەرەکەت، بەرە، پیت و بەرەکەت، بەروبووم، نێعمەت، خەڵات (میری یان حکومەت)، پاداشت، دیاری، بەروبوو، بەرھەم
 """),
                           const DefinitionKurdish(

@@ -146,10 +146,12 @@ class EnglishEntrybarter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاڵشت، ئاڵ‌ووێر، ئاڵ‌وگۆڕ، گۆڕینەوە
-
-١. (ناو) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
                           Row(
                             children: [
                               const Expanded(

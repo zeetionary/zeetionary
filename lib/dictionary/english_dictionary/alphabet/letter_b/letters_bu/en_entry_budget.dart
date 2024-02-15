@@ -301,7 +301,7 @@ class EnglishEntrybudget extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دراونامە، بودجە، حیسابی داھات و خەرج، تێچوون، جانتا یان کیفی چەرمی، ھەروەھا ئەو شتانەی کەوا تیایەتی 
 """),
                           const DefinitionKurdish(

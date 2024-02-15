@@ -108,7 +108,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەتریاڵی کیمیایی کە لە بواری کشت‌وکاڵ‌دا بەکاردێنرێ، مادە یا ماکێکی کشت‌وکاڵی
 """),
                           const DefinitionKurdish(

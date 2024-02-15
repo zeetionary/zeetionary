@@ -151,7 +151,7 @@ class EnglishEntrybaddy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مرۆی خراپ، کەسێتی یان کەسایەتی خراپ (لە فیلم، شانۆ و کتێب و...)
 """),
                           const DefinitionKurdish(

@@ -110,7 +110,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئالباتراس، ئالباتروس: جۆرێ باڵندەی دەریایی، کێشەنەرەوە، مڵۆزم، مزاحیم، مایەی سەرێشە
 """),
                           const DefinitionKurdish(

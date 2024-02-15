@@ -146,7 +146,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باڵندەی ڕاو یان ڕاوی (بەتایبەت ھەڵۆ، باز و کوندە)
 """),
                           const DefinitionKurdish(

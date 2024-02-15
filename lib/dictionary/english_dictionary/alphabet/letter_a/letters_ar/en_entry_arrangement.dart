@@ -164,10 +164,12 @@ class EnglishEntryarrangement extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێک‌کردن، ڕێک‌وپێک‌کردن، جێبەجێ‌کردن، دەستەکردن، چاخاندن، سەقادان، ھەڵوەژارتن، تەرازکردن، چنین، تەکوزکردن، ھەڵبەست(ن)، خشتەکردن، ڕێکخستن، بڕیار، بەرنامە، پلان، ڕێک‌کەوتن، ئامادەکاری، ڕازاندنەوە، گونجاندن، میزان‌کردن، ڕێکخستن (پارچە میوزیکێک)
-
-١. (ناو) پلانێک یان ئامادەکارییەک کە ئەنجامی دەدەیت بۆ ئەوەی شتێک ڕووبدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پلانێک یان ئامادەکارییەک کە ئەنجامی دەدەیت بۆ ئەوەی شتێک ڕووبدات"""),
                           Row(
                             children: [
                               const Expanded(

@@ -107,7 +107,7 @@ class EnglishEntryadmirer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیاھەڵدەر، پەسن‌دەر، تاریف‌دەر، ئەویندار، سەوداسەر، دڵ‌تێچوو، ئەوداڵ، لایەنگر
 """),
                           const DefinitionKurdish(

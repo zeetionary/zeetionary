@@ -109,7 +109,7 @@ class EnglishEntryaloofness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆشەگیری، لاتەریکی، لە خەڵک پرینگانەوە، دوورەپەرێزی
 """),
                           const DefinitionKurdish(

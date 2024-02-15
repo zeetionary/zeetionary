@@ -147,10 +147,11 @@ class EnglishEntrybeak extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەنووک، نوکل، شەند، نیکل، نووک، لمۆز، پۆز یان لووتی قەڵانگی، لووت‌زل، لووتکەی کەشتی
-
-١. (ناو) دەنووکی باڵندە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) دەنووکی باڵندە"""),
                           Row(
                             children: [
                               const Expanded(

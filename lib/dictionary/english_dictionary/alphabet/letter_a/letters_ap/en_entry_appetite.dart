@@ -157,10 +157,11 @@ class EnglishEntryappetite extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئیشتیا، دڵ‌بردن، ئارەزوو، مەیل، ویست، حەز، ئارەزوو، بێزوو، مەگیز
-
-١. (ناو) ئیشتیا؛ ھەبوونی حەزی خواردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ئیشتیا؛ ھەبوونی حەزی خواردن"""),
                           Row(
                             children: [
                               const Expanded(

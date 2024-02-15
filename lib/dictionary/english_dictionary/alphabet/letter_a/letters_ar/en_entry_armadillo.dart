@@ -156,10 +156,12 @@ class EnglishEntryarmadillo extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (گیانەوەرناسی) زرێپۆشە، زرێدار، ئەرمادیلۆ
-
-١. (ناو) گیانلەبەرێکی ئەمریکی کە توێکڵێکی ڕەقی وەک کیسەڵ ھەیە لە ئێسک پێکھاتووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گیانلەبەرێکی ئەمریکی کە توێکڵێکی ڕەقی وەک کیسەڵ ھەیە لە ئێسک پێکھاتووە"""),
                           Row(
                             children: [
                               const Expanded(

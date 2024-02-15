@@ -151,7 +151,7 @@ class EnglishEntryanguish extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڵەڕاوکێ، نیگەرانی، دڵتەنگی، دڵەخورپێ، شڵەژاوی، ئازار، ژان، دەرد، ئەشکەنجە
 """),
                           const DefinitionKurdish(

@@ -191,7 +191,7 @@ class EnglishEntrychafe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێست‌داماڵکان، تۆخ‌داماڵکان، داماڵکاوی، ڕووشان، برین
 """),
                           const DefinitionKurdish(

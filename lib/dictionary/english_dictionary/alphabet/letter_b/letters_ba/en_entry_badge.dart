@@ -155,10 +155,12 @@ class EnglishEntrybadge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نیشانە، درووشم، ئاڕم، بەرژەنگ، یافتە، درف، پڵاک، ھێما، نموونە
-
-١. (ناو) پارچەیەکی بچووک ئاسن یان پلاستیک کە دیزاین یان وشەی لەسەرە و کەسێک دەیپۆشێت یان ھەڵیدەگرێت بۆ پیشاندانی ئەندامێتی لە دامەزراوەیەک، براوەی شتێک، یان بۆ پیشاندانی پلە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچەیەکی بچووک ئاسن یان پلاستیک کە دیزاین یان وشەی لەسەرە و کەسێک دەیپۆشێت یان ھەڵیدەگرێت بۆ پیشاندانی ئەندامێتی لە دامەزراوەیەک، براوەی شتێک، یان بۆ پیشاندانی پلە"""),
                           Row(
                             children: [
                               const Expanded(

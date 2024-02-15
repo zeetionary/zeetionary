@@ -160,10 +160,12 @@ class EnglishEntryassessment extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەڵسەنگاندن، نرخاندن، ھەزیر، مەزندە، نرخ‌دانان، چەسپاندنی نرخ و بایی، لێکدانەوە، ھەڵسەنگاندن، دەس‌نیشان‌کردن، دیاری‌کردن (بژێرە، باج و ھتد)
-
-١. (ناو) بوچوون یان بڕیاردانێک لەسەر کەسێک/شتێک کە بە تەواوی بیری‌لێ‌کراوەتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بوچوون یان بڕیاردانێک لەسەر کەسێک/شتێک کە بە تەواوی بیری‌لێ‌کراوەتەوە"""),
                           Row(
                             children: [
                               const Expanded(

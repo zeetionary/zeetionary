@@ -142,10 +142,12 @@ class EnglishEntrybrawny extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بازۆڵەبەھێز، بەتین، بەبڕشت، بەتابشت، بەشیان، بەستین، بەھێز، نیرگ، بەقەوەت
-
-١. (ھاوەڵناو) کەسێک کە ماسولکەی بەھێزی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک کە ماسولکەی بەھێزی ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

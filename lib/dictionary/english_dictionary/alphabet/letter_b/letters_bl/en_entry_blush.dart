@@ -145,10 +145,12 @@ class EnglishEntryblush extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سوورھەڵگەڕان، سوورداگەڕان، سووربوونەوە (دەم‌وچاو)
-
-١. (کردار) سووربوونەوەی ڕووخسار بەھۆی ئەوەی خەجاڵەتی یان شەرم دەکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) سووربوونەوەی ڕووخسار بەھۆی ئەوەی خەجاڵەتی یان شەرم دەکەیت"""),
                           Row(
                             children: [
                               const Expanded(

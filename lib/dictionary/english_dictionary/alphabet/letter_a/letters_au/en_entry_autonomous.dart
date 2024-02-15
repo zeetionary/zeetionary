@@ -162,10 +162,12 @@ class EnglishEntryautonomous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆبەڕێوەبەر، لاسەربەخۆ، خودموختار، سەربەخۆ، ئازاد
-
-١. (ھاوەڵناو) خاکێک یان دامەزراوەیەک کە خۆی بەڕێوەدەبات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) خاکێک یان دامەزراوەیەک کە خۆی بەڕێوەدەبات"""),
                           Row(
                             children: [
                               const Expanded(

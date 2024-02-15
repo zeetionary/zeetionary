@@ -146,10 +146,12 @@ class EnglishEntrybiennial extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دووساڵە، دووساڵانە، ھەردوو ساڵ جارێ، دووساڵەژی، دووساڵە
-
-١. (ھاوەڵناو) شتێک کە دوو ساڵ جارێک ڕوودەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە دوو ساڵ جارێک ڕوودەدات"""),
                           Row(
                             children: [
                               const Expanded(

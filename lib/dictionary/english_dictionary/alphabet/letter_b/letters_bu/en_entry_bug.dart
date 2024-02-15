@@ -145,7 +145,7 @@ class EnglishEntrybug extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (مێرووناسی) جانەوەر، بەچکەمێروو، مێرووچکە، میکڕۆب، ڤایرۆس، کێشە، گیر، ئیرۆر، گرفت 
 """),
                           const DefinitionKurdish(

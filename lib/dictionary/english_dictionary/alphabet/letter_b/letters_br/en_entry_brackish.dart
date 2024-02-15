@@ -141,7 +141,7 @@ class EnglishEntrybrackish extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەمێ سوێر، کەم‌سوێر، دەمی سوێری ھەیە، تاڵ، (تام) ناخۆش، بێ‌تام، بێ‌مەزە
 """),
                           const DefinitionKurdish(

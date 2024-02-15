@@ -187,7 +187,7 @@ class EnglishEntrycactus extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (ڕووەک‌ناسی) کەکتێس، کاکتووس، زمانەخەسوو، گوڵەخەپلە، گیاخەپلە
 """),
                           const DefinitionKurdish(

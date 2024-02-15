@@ -159,7 +159,7 @@ class EnglishEntryaural extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوێیی، سەربە گوێ، پێوەندی بە گوێ‌یەوە ھەیە، سەربە ھەستی بیستن یان ژنەفتن
 """),
                           const DefinitionKurdish(

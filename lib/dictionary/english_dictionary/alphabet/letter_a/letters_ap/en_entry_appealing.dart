@@ -157,10 +157,12 @@ class EnglishEntryappealing extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆش، سەرنج‌ڕاکێش، بالکێش، داوێن‌گرانە، داوێن‌گیرانە، بە پاڕانەوە
-
-١. (ھاوەڵناو) سەرسوڕھێنەر یان سەرنجڕاکێش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) سەرسوڕھێنەر یان سەرنجڕاکێش"""),
                           Row(
                             children: [
                               const Expanded(

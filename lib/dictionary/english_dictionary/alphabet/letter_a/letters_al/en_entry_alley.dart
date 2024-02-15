@@ -109,7 +109,7 @@ class EnglishEntryalley extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆڵان، کووچە، ڕێگا، گوزەر، جێڕەو، ڕەوگە، شەقام
 """),
                           const DefinitionKurdish(

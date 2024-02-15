@@ -188,10 +188,12 @@ class EnglishEntrycalliper extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تیرەپێو، کولیس، پڕگار، پەڕگار
-
-١. (ناو) ئامێرێک کە بۆ پێوانی پانی و دووری بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئامێرێک کە بۆ پێوانی پانی و دووری بەکاردێت"""),
                           Row(
                             children: [
                               const Expanded(

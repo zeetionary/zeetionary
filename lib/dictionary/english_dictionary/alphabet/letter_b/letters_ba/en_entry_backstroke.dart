@@ -152,7 +152,7 @@ class EnglishEntrybackstroke extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پشتەمەلێ، پشتەمەلە(ی باسکە)
 """),
                           const DefinitionKurdish(

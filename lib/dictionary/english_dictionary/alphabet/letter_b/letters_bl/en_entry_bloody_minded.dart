@@ -146,10 +146,12 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناژیرانە، ھاوکاری‌نەکەر، یاریدەنەدەر، پیس، گڵاو
-
-١. (ھاوەڵناو) سوور لەسەر ئەوەی دەتەوێت و ڕەتی بکەیتەوە وازبێنیت، بیرۆکەت بگۆڕیت، یان ئەوە بکەیت کە ئەوانی تر دەیانەوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) سوور لەسەر ئەوەی دەتەوێت و ڕەتی بکەیتەوە وازبێنیت، بیرۆکەت بگۆڕیت، یان ئەوە بکەیت کە ئەوانی تر دەیانەوێت"""),
                           Row(
                             children: [
                               const Expanded(

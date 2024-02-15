@@ -148,10 +148,11 @@ class EnglishEntrybirth extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەیدابوون، (لەدایک)بوون، زایین، زاد، زایشت، دیتن، مناڵ‌بوون، سەرەتا، دەسپێک، بەرایی، ڕەچەڵەک، بنەچەک
-
-١. (ناو) کاتی لەدایکبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) کاتی لەدایکبوون"""),
                           Row(
                             children: [
                               const Expanded(

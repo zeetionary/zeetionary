@@ -145,7 +145,7 @@ class EnglishEntryberry extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: توو، نێوک، ناوک، کاکڵ، دەنک، دان، میوە یان بەری توویی یان بۆڵی، گەرای ماسی
 """),
                           const DefinitionKurdish(

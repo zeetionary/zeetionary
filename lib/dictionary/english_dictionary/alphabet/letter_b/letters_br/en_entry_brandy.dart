@@ -140,7 +140,7 @@ class EnglishEntrybrandy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: براندی، براندی‌خۆری، لیوانی براندی
 """),
                           const DefinitionKurdish(

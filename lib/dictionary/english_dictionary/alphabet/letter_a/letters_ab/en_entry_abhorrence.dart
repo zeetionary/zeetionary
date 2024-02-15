@@ -93,7 +93,7 @@ class EnglishEntryabhorrence extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕق‌لێ‌بوون، بێزاری، قین‌لێ‌بوون، بێزلێ‌ھاتنەوە، بێزکردن، بێزراوی، نەفرین
 """),
                           const DefinitionKurdish(

@@ -155,10 +155,12 @@ class EnglishEntrybait extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەشکە، تامک، چەشە، دان، دانە، داو، تەڵە
-
-١. (ناو) پێناسەکەمێک خواردن کە وەک داو بەکاردێت بۆ گرتنی ماسی یان نێچیر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پێناسەکەمێک خواردن کە وەک داو بەکاردێت بۆ گرتنی ماسی یان نێچیر"""),
                           Row(
                             children: [
                               const Expanded(

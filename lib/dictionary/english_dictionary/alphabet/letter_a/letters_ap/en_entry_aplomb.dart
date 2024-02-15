@@ -156,10 +156,11 @@ class EnglishEntryaplomb extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەخۆڕادیتن، خۆباوەڕی، باوەڕبەخۆیی، لەسەرەخۆیی، مەندی
-
-١. (ناو) باوەڕبەخۆبوون و متمانە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) باوەڕبەخۆبوون و متمانە"""),
                           Row(
                             children: [
                               const Expanded(

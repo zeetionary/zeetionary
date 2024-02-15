@@ -190,7 +190,7 @@ class EnglishEntrybush extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پنچ، بنج، بنەگیا، چڵو، کان، دەڤی، دەوەن(د)، داریلە، دارۆکە، شخەڵ، شیخەڵ، تووکەبەری ژن، (مێژوویی) چەپکەلاولاوە (نیشانەی مەی‌فرۆشی)، (وەک ئاوەڵناو) سەرەتایی، بێ‌شارستانیەت، کێوی
 """),
                           const DefinitionKurdish(

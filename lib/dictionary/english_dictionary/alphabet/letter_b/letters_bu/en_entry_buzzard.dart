@@ -188,7 +188,7 @@ class EnglishEntrybuzzard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی:  شمقار، باشوو، داڵ(ەکەرخۆر)، تاسکەچەلە، سیسارگ، سەرگەڕ، گەوج، کەر
 """),
                           const DefinitionKurdish(

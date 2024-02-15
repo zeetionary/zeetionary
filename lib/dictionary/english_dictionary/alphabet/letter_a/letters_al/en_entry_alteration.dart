@@ -110,10 +110,11 @@ class EnglishEntryalteration extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆڕان، دەسکاری، چاک‌کردن، گۆڕین
-
-١. (ناو) گۆڕانکارییەک لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) گۆڕانکارییەک لە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

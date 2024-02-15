@@ -142,10 +142,12 @@ class EnglishEntrybuff extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەپەرۆش، تامەزرۆ، ھۆگر، لایەنگر
-
-١. (ناو) کەسێک کە زۆری حەز بە بابەتێکە و زۆری لەسەر دەزانێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە زۆری حەز بە بابەتێکە و زۆری لەسەر دەزانێت"""),
                           Row(
                             children: [
                               const Expanded(

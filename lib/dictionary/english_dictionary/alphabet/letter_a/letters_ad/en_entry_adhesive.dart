@@ -111,7 +111,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێوەنووساو، چەسپۆک، زووپێوەنووساو، مەتریاڵی پێوەنووساو، مادەی چەسپیو یان لیچق، لەزگە، چەسپ
 """),
                           const DefinitionKurdish(

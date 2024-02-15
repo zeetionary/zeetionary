@@ -92,7 +92,7 @@ class EnglishEntryAbbess extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دایکە سەرۆکی دەیر، سەردەیر، (ژنە)ڕەبەنی مەزن
 """),
                           const DefinitionKurdish(

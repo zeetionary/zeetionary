@@ -150,7 +150,7 @@ class EnglishEntryanemone extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوڵەنیسان، گوڵاڵە، باتینۆک، گاگرۆ، گوڵ‌بەھار
 """),
                           const DefinitionKurdish(

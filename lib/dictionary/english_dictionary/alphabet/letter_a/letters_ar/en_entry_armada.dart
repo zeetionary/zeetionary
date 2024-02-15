@@ -156,10 +156,11 @@ class EnglishEntryarmada extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆمەڵەکەشتی، کەشتی‌گەل، دەستەکەشتی (ھی شەڕ)
-
-١. (ناو) ژمارەیەکی زۆری کەشتی جەنگی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ژمارەیەکی زۆری کەشتی جەنگی"""),
                           Row(
                             children: [
                               const Expanded(

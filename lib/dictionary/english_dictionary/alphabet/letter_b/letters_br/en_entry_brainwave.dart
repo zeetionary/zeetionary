@@ -141,7 +141,7 @@ class EnglishEntrybrainwave extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیری نوێ، ھزری تازە، بیری باشی کت‌وپڕ، بیرۆکەی زیرەکانە، پەیام یان سیگناڵێکی ئێلیکتریکی لە مێشک‌دا، شەپۆلی مێشکی
 """),
                           const DefinitionKurdish(

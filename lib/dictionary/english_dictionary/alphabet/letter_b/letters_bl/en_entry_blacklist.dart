@@ -144,7 +144,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لیستی ڕەش، ڕەشەلیست
 """),
                           const DefinitionKurdish(

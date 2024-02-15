@@ -205,10 +205,12 @@ class EnglishEntryauthority extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەسەڵات، حوکم، ڕایە، ھێز، توانایی، کەلێژ، دەس‌ڕۆیشتوویی، سەرپشکی، ڕێدان، ڕێ‌پێدان، دەستووردان، ماف، دەستوورنامە، خاوەن‌دەسەڵات، بەرپرس، بەرپرسایەتی، لێپرسراوێتی، ژێدەر، سەرچاوەی باوەڕپێکراو، کتێبی جێی‌باوەڕ، شارەزا، پسپۆڕ
-
-١. (ناو) دەسەڵاتی بڕیاردان بەسەر خەڵکی تردا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەسەڵاتی بڕیاردان بەسەر خەڵکی تردا"""),
                           Row(
                             children: [
                               const Expanded(

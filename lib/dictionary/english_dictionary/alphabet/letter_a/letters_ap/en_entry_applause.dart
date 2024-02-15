@@ -156,10 +156,12 @@ class EnglishEntryapplause extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەپڵەڕێزان، چەپڵەلێدان، چەپک‌لێدان، پەسن‌دان، پیاھەڵوتن
-
-١. (ناو) چەپڵەڕێزان و ھاواری گرووپێک لە خەڵک بەھۆی بەدڵبوونی شتێک یان دەربڕینی خۆشی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) چەپڵەڕێزان و ھاواری گرووپێک لە خەڵک بەھۆی بەدڵبوونی شتێک یان دەربڕینی خۆشی"""),
                           Row(
                             children: [
                               const Expanded(

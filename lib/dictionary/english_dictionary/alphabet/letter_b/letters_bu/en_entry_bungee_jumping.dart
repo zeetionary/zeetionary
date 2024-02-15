@@ -189,7 +189,7 @@ class EnglishEntrybungeejumping extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆھەڵدان، لە بەرزایی‌یەوە بازدان
 """),
                           const DefinitionKurdish(

@@ -158,10 +158,12 @@ class EnglishEntryarc extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەوانە، نیوەبازنە، مانگیلە، تاق، کەوانەی ئێلیکتریکی
-
-١. (ناو) ھێڵێکی کەوانەیی کە بەشێکە لە بازنەیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھێڵێکی کەوانەیی کە بەشێکە لە بازنەیەک"""),
                           Row(
                             children: [
                               const Expanded(

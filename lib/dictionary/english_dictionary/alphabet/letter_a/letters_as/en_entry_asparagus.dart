@@ -158,7 +158,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (ڕووەک‌ناسی) گەوڵەزەر؟، بەنارۆمی؟، مارچێوە، ترچک
 """),
                           const DefinitionKurdish(

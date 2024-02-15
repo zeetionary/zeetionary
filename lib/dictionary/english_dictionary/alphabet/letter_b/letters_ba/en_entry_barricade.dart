@@ -147,10 +147,12 @@ class EnglishEntrybarricade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەپەر، خەل، پەرێز، سەنگەر، مەتەرێز، دیوار، کۆسپ، بەربەست
-
-١. (ناو) ژمارەیەک شت کە دانراون بۆ ڕێگری لە تێپەڕبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەک شت کە دانراون بۆ ڕێگری لە تێپەڕبوون"""),
                           Row(
                             children: [
                               const Expanded(

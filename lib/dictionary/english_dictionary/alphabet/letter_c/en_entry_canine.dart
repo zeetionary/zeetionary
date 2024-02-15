@@ -189,7 +189,7 @@ class EnglishEntrycanine extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەسەگ‌چوو، شێوەسەگ، سەگسار، سەگ‌تیرە، سەگی، سەربە سەگ، ددانی پێشەوە، کەڵپە، کەڵبە 
 """),
                           const DefinitionKurdish(

@@ -146,10 +146,12 @@ class EnglishEntrybarbecue extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەنقەڵ، مەقاڵە، گۆشتی برژاو، کەباب
-
-١. (ناو) پارچە ئاسنێک کە لەسەر فڕن یان ئاگر گۆشتی پێ دەبرژێندرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچە ئاسنێک کە لەسەر فڕن یان ئاگر گۆشتی پێ دەبرژێندرێت"""),
                           Row(
                             children: [
                               const Expanded(

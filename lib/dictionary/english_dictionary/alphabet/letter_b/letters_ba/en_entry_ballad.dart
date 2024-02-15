@@ -151,7 +151,7 @@ class EnglishEntryballad extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەیت، لاوژە، چیرۆکی ھۆنراوە، چامە، بەستە، ستران، گۆرانی
 """),
                           const DefinitionKurdish(

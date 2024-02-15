@@ -147,10 +147,12 @@ class EnglishEntrybeaker extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لیوان، شەربە، ئا(و)خۆری، ئاڤخۆرک، پیاڵە
-
-١. (ناو) گڵاسێک کە بە زۆری لە پلاستیک درووستکراوە و دەسکی نییە، بەکاردێت بۆ خواردنەوە تێیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گڵاسێک کە بە زۆری لە پلاستیک درووستکراوە و دەسکی نییە، بەکاردێت بۆ خواردنەوە تێیدا"""),
                           Row(
                             children: [
                               const Expanded(

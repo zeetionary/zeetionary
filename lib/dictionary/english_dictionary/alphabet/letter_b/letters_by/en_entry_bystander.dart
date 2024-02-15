@@ -187,7 +187,7 @@ class EnglishEntrybystander extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەیرکەر، بینەر، تەماشاڤان، چاودێر، چاولێکەر
 """),
                           const DefinitionKurdish(

@@ -154,10 +154,12 @@ class EnglishEntryantihistamine extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەرمانی دژەھەستیاری یان پێنەکەوتن
-
-١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ"""),
                           Row(
                             children: [
                               const Expanded(

@@ -162,10 +162,11 @@ class EnglishEntryattempt extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خەبات، ھەوڵ، حەول، تێکۆشان، بزاڤ، ھەوڵ‌دان، دەس‌تێدان، دەس‌دان، ھەوڵ‌دان بۆ کوشتن، حەولی کوشتن، بەدنیازی، حەول‌دان بۆ کوشتنی کەسێ، جار، کەڕەت، کەشە، کەڕەت، چەل
-
-١. (ناو) ھەوڵی کردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ھەوڵی کردنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -191,7 +191,7 @@ class EnglishEntrycardiac extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڵی، سەربە دڵ، ھەڵکەوتوو نزیک بە دڵ
 """),
                           const DefinitionKurdish(

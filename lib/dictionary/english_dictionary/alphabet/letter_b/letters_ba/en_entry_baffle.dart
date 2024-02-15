@@ -150,7 +150,7 @@ class EnglishEntrybaffle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەپۆل‌بەست، شەپۆل‌بەند، پەردە، پێلگر، بەربەست، نەھێڵەشەپۆل، دەزگا یان کەرستەیێ بۆ دابین‌کردنی ڕژانی شلە، گاز یان ماک و مەتریاڵی شل یان بۆ بەرگرتن لە بڵاوبوونەوەی دەنگ و ڕووناکی لە ئاست یان لا و ڕێڕەوێکی تایبەتی‌دا
 """),
                           const DefinitionKurdish(

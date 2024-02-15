@@ -159,10 +159,11 @@ class EnglishEntryasphalt extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قیرڕێژ، قیل‌ڕێژ، قیرتاو، ئەسفاڵت
-
-١. (ناو) قیری درووستکرنی شەقام"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) قیری درووستکرنی شەقام"""),
                           Row(
                             children: [
                               const Expanded(

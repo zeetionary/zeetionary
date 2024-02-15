@@ -151,7 +151,7 @@ class EnglishEntryamputation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەل‌کردن، لێ‌کردنەوە، بڕینەوە، قەڵخ‌کردن، قەڵخاندن، ئەندام‌بڕی
 """),
                           const DefinitionKurdish(

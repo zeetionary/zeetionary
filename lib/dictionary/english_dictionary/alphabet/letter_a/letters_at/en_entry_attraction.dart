@@ -165,10 +165,11 @@ class EnglishEntryattraction extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (فیزیک) ڕاکێشان، کێش، کێشان، ڕاکێش‌کردن، سەرنج‌ڕاکێشی، باڵکێشی، دڵبەستەیی، دڵتێچوون، سەوداسەری، دڵڕفێنی
-
-١. (ناو) شوێنێکی خۆش و سەرنجڕاکێش"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) شوێنێکی خۆش و سەرنجڕاکێش"""),
                           Row(
                             children: [
                               const Expanded(

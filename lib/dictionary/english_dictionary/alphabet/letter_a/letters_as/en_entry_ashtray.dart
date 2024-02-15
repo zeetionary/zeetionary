@@ -158,7 +158,7 @@ class EnglishEntryashtray extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژێرسیگاری، تەپڵەک، ژێر سێغاری، ژێرجگەرە، جێ سووتوو
 """),
                           const DefinitionKurdish(

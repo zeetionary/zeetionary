@@ -161,10 +161,12 @@ class EnglishEntryarrange extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕیکخستن، ڕازاندنەوە، ڕێک‌وپێک کردن، ڕێزوڕێککردن، چنین، دانان
-
-١. (کردار) پلان‌دانان یان ڕێکخستنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) پلان‌دانان یان ڕێکخستنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -162,10 +162,11 @@ class EnglishEntryashamed extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەرمەزار، شەرمەسار، شەرمەزار، ڕووسیابار، سەرداخستوو، خەجاڵەت‌بار، خەجاڵەتەوەبوو، بەخۆداشکاو، بە تەقەکەوتوو، تریقەوەبوو، ڕووزەرد
-
-١. (ھاوەڵناو) ھەستکردن بە شەرمەزاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ھەستکردن بە شەرمەزاری"""),
                           Row(
                             children: [
                               const Expanded(

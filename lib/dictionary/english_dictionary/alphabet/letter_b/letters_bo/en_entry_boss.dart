@@ -145,7 +145,7 @@ class EnglishEntryboss extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرۆک، گەورە، سەرکار، سەرکرێکار، بەڕێوەبەر، ساحەب‌کار، سەرپەرشت، (لە بانگ‌کردن‌دا) بەڕێز، جەناب
 """),
                           const DefinitionKurdish(

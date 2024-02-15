@@ -153,10 +153,11 @@ class EnglishEntrybackwards extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بۆ پشتەوە، لە دواوە، بەراوەژوو، سەراوبن
-
-١. (ھاوەڵکار) بەرەو دواوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵکار) بەرەو دواوە"""),
                           Row(
                             children: [
                               const Expanded(

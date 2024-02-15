@@ -151,7 +151,7 @@ class EnglishEntrybackside extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سمت، کنگ، ھێت، پاشوو، دواوە، پشتەوە
 """),
                           const DefinitionKurdish(text: "١. (ناو) سمت"),

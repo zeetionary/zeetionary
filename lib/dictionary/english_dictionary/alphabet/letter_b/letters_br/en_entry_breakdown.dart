@@ -147,10 +147,12 @@ class EnglishEntrybreakdown extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەکارکەوتن، خراپ‌بوون، تێکچوون، پەککەوتن، گرفت، دابڕان، شێوان، نەمان، تێشکان، سەرنەکەوتن، سەرنەگرتن، (کیمیا) شی‌بوونەوە، شی‌بوونەوەی سەرژمێری‌یانە، لێکدانەوەی ڕوون‌کردنەوەیی، تێک‌ڕووخاوی، تیاچوون، لەناوچوون، ھەرەس‌ھێنان، داڕووخان، ھەڕەمیان، شێوان یان تێکچوونی دەروونی، وردەکاری
-
-١. (ناو) وەستانی ئامێرێکی گوازەرەوە یان دەزگایەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) وەستانی ئامێرێکی گوازەرەوە یان دەزگایەک"""),
                           Row(
                             children: [
                               const Expanded(

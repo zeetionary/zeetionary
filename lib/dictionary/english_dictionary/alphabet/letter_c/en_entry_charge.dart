@@ -529,7 +529,7 @@ class EnglishEntrycharge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوناهبارکردن، تاوانباری، گومانبارکردن، تۆمەت، شەڵتاخ، بوختان، چەفتە، نرخ، بایی، قیمەت، حەق، حەق‌دەس، مز، کرێ، مەزاخ، خەرج، تێچوون،	سەرپەرشتی، سەرپەرستی، چاودێری، سەخبیری، چاوبەسەری، سەرنج، بەرپرسایەتی،	کۆنتڕۆڵ، مەهار، دەس‌بەسەراگرتن،	قەرز،	ئەرک، پەیور،	هێرش، گوژمە، پەلامار،	دەستوور، فەرمان،	(چەک) تەقەک، پێتەق، خەرج،	(ئێلیکتریسیتی) بارگ، بارگە، بار
 """),
                           const DefinitionKurdish(

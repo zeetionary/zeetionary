@@ -229,10 +229,12 @@ class EnglishEntrybank extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بانک، کەنار، کەناراو، موزورگ، پەراڤ، لێواری ڕووبار، بەستێن، ڕۆخ، تەپۆڵکە، زورگ، لێوار، زێوار، قەراخ، پەراوێز، (زەوی‌زار) بەستە، سەرحەد، کەوشەن، کەڵەکە، کۆما، تۆپەڵە، بارستە، لێژ، لاپێیی (ڕێگا)، بەلاداخواربوونەوەی فڕۆکە لە کاتی لادانا
-
-١. (ناو) دامەزراوەیەک کە ژمارەیەک خزمەتگوزاری دارایی پێشکەش دەکات، بۆ نموونە ھەڵگرتن و بەقەرزدانی پارە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دامەزراوەیەک کە ژمارەیەک خزمەتگوزاری دارایی پێشکەش دەکات، بۆ نموونە ھەڵگرتن و بەقەرزدانی پارە"""),
                           Row(
                             children: [
                               const Expanded(

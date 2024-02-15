@@ -190,7 +190,7 @@ class EnglishEntrychandelier extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چلچرا، ئاوێزە، لالە، لووستر
 """),
                           const DefinitionKurdish(

@@ -110,10 +110,12 @@ class EnglishEntryalmanac extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئۆلمەنەک، ڕۆژمێر، ساڵنامە
-
-١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -147,7 +147,7 @@ class EnglishEntryblink extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تروکە، ترپاندن، تروکەتروک، زریوەزریو، چاوەتروسکێ، چاولێکنان، تروکەی چاو
 """),
                           const DefinitionKurdish(

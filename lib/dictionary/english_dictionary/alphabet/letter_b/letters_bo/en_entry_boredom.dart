@@ -144,7 +144,7 @@ class EnglishEntryboredom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ماندوویی، شەکەتی، بێ‌تاقەتی، وەڕەسی
 """),
                           const DefinitionKurdish(

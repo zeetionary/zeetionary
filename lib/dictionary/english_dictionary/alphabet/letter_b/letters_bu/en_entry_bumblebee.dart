@@ -139,10 +139,12 @@ class EnglishEntrybumblebee extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەنگەزلە، گونشێر، ژەنگەسوورە، ویزنە
-
-١. (ناو) مێشھەنگێکی گەورە کە بە مووی بچووک داپۆشراوە و دەنگێکی گەورە دەردەکات کە دەفڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مێشھەنگێکی گەورە کە بە مووی بچووک داپۆشراوە و دەنگێکی گەورە دەردەکات کە دەفڕێت"""),
                           Row(
                             children: [
                               const Expanded(

@@ -277,10 +277,12 @@ class EnglishEntryblast extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەڵکردن، تەوژمی با یان ھەوا، تەوژمی ھەڵم، ھاتنی با، توندەبا، ھەڵکردنی بای توند و ناکاو، فوو، با، تەقینەوە، پەقین، شەپۆل یان بای تەقینەوە، دەنگی بەرز و ناخۆش، دەنگی بۆڕی یان شەیپوور، ڕەخنەی توند، پیاھەڵشاخان، وزە، خێرایی، تف، ئەھ
-
-١. (ناو) تەقینەوە یان جوڵەیەکی بەھێزی ھەوا بەھۆی تەقینەوەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) تەقینەوە یان جوڵەیەکی بەھێزی ھەوا بەھۆی تەقینەوەوە"""),
                           Row(
                             children: [
                               const Expanded(

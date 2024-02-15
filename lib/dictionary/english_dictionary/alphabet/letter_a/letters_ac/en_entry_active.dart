@@ -208,7 +208,7 @@ class EnglishEntryactive extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چالاک، خەبات‌کار، گورج، ئازا، لەش‌سووک، کارا، بەکار، بەجم‌وجوڵ، نەسرەوتوو، بزۆز، (ڕێزمان) دیار یان زانراو، کاریگەر، بەباندۆر، ڕشت، شێلگیر
 """),
                           const DefinitionKurdish(

@@ -108,7 +108,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نازانم‌بێژ، نازانم‌باوەڕ (= کەسێ کە پێی‌وایە ھیچ شتێ ناتوانرێ دەربارەی بوون یان سروشتی خوداوە (یان دوایین ھۆ) بزانرێ (و لە زانینیش نایەن) بێجگەلە شتە مادی‌یەکان)
 """),
                           const DefinitionKurdish(

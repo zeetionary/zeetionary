@@ -83,10 +83,12 @@ class EnglishEntryabscess extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دمەڵ، دومەڵ، کوان، مادە، سۆ، کولک، پزرک، ناسۆر، گۆنر
-
-١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
                           Row(
                             children: [
                               const Expanded(

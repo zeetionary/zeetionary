@@ -120,10 +120,11 @@ class EnglishEntryaccommodation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جێگا، ماڵ، خانوو، زێد، شوێن، جێ‌وڕێ، یانە، شوێنی لێ‌گیرسانەوە، ڕێکخستن، گونجاندن، سازاندن، داھێنان، خووپێ‌گرتن، ڕێک‌کەوتن، لھەڤ‌ھاتن، بەھاناھاتن، بەفریاکەوتن، بە دەنگ خەڵکەوەبوون، یارمەتی، کۆمەک، یاریدەدان
-
-١. (ناو) شوێنی ژیان یان کارکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) شوێنی ژیان یان کارکردن"""),
                           Row(
                             children: [
                               const Expanded(

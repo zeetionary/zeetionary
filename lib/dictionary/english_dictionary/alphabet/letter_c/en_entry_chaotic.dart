@@ -191,7 +191,7 @@ class EnglishEntrychaotic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شێواو، ئاڵۆز، تێکەولێکە، ناڕێک، شڵەژاو، پڕئاژاوە، ئاژاوەمەند
 """),
                           const DefinitionKurdish(

@@ -144,7 +144,7 @@ class EnglishEntrybluntness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قسەلەڕوویی، بێ‌پەردەیی، کولی، پەخی، نەبڕی، سوویی
 """),
                           const DefinitionKurdish(

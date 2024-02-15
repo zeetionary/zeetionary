@@ -196,7 +196,7 @@ class EnglishEntrybusy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خەریکی، سەرقاڵی، سەرقاڵ، پڕکار، پژگاڵ، پڕ لە چالاکی، پڕکار، نەپەژراو، پڕجم‌وجۆڵ، (سەر)شلوق، (تەلەفۆن) گیراو، خەریک‌قسە 
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەرقاڵ"),

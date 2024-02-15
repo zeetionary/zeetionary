@@ -142,7 +142,7 @@ class EnglishEntrybrazen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زەردکرد، (دروست‌کراو لە) زەرد، زەردە، کالانی، زەردین، زرنگانەوەی زەرد، ناخۆش، گڕ (دەنگ)، چوختی، بێ‌شەرم، چەقاوەسوو، ڕوودار، چوختی
 """),
                           const DefinitionKurdish(

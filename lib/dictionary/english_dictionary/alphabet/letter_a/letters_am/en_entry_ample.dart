@@ -151,10 +151,11 @@ class EnglishEntryample extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فرە، زۆر، زەبەن، فراوان، فت‌وفراوان، پان، بەرین، گەورە، بەربڵاو، بەئەندازە، تەواو، ئەندازە
-
-١. (ھاوەڵناو) بەشی پێویست، یان زیاتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) بەشی پێویست، یان زیاتر"""),
                           Row(
                             children: [
                               const Expanded(

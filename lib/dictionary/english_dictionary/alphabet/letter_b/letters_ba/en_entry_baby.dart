@@ -152,10 +152,11 @@ class EnglishEntrybaby extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مناڵ، منداڵ، زارۆک، بێچوو، بەبە، بەچکە، کودک، تێژک (ھی گیانەوەری دڕندە یان بێچووی لاور)، کۆرپە، کۆرپەلە، ساوا، شیرەخۆرە (مناڵ یان گیانەوەرێ)، بەردایکان، بەرمەمکە، خۆشەویستم، جەرگەکەم، دڵەگیان (بۆ ژن و مێرد)، چکۆلانە، ساوا، کۆرپە
-
-١. (ناو) منداڵێک یان ئاژەڵێکی بچووک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) منداڵێک یان ئاژەڵێکی بچووک"""),
                           Row(
                             children: [
                               const Expanded(

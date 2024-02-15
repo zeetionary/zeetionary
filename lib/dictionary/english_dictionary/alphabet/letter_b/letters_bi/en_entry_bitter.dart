@@ -220,7 +220,7 @@ class EnglishEntrybitter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تاڵ، توند، تیژ، ناخۆش،  ناخۆش و زۆرسارد (ھەوا)، ڕق‌ھەستاو، تووڕە، ناڕەحەت، ئاوجۆی تاڵ، بیرەی خەست، سەختی، کوێرەوەری، کڵۆڵی، مەینەتی، بەدبەختی
 """),
                           const DefinitionKurdish(

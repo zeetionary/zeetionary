@@ -145,10 +145,12 @@ class EnglishEntrybombshell extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕووداو یان ھەواڵی جەرگبڕ یان چاوەڕوان‌نەکراو، ژنی لەبار و قژکاڵ
-
-١. (ناو) ڕووداوێک یان ھەواڵێک کە پێشبینینەکراوە و زۆرجار ناخۆشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕووداوێک یان ھەواڵێک کە پێشبینینەکراوە و زۆرجار ناخۆشە"""),
                           Row(
                             children: [
                               const Expanded(

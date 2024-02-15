@@ -142,7 +142,7 @@ class EnglishEntrybrag extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: حەیت‌وحووت، ھاڕەوگیفە، لاف‌وگاف، لافاندن، فڕوفیشاڵ(کردن)، فیز، خۆھەڵکێش، لەخۆفشین
 """),
                           const DefinitionKurdish(

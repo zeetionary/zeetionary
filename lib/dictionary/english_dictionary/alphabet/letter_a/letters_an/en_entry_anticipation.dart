@@ -155,10 +155,12 @@ class EnglishEntryanticipation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چاوەڕوانی، تەماوەری، پێش‌بینی، مەزندە، دەس‌پێش‌کەری، دەست‌پێش‌خەری، دەست‌پێش‌خستن، بەرگیری، پێش‌گیری، پێش‌گرتن
-
-١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی"""),
                           Row(
                             children: [
                               const Expanded(

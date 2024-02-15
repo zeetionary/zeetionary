@@ -191,7 +191,7 @@ class EnglishEntrycarnival extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەزم‌وڕەزم، ئاھەنگ، جەژن، جێژن، کاروانی شادی
 """),
                           const DefinitionKurdish(

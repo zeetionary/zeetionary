@@ -146,10 +146,11 @@ class EnglishEntrybestiality extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گیانەوەرخوویی، دڕندایەتی، ھۆڤیگەری، دڵڕەقی، بێ‌بەزەیی‌یەتی، نزیکی لەگەڵ گیانەوەران، گیانەوەربازی
-
-١. (ناو) سێکس لە نێوان مرۆڤ و ئاژەڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) سێکس لە نێوان مرۆڤ و ئاژەڵ"""),
                           Row(
                             children: [
                               const Expanded(

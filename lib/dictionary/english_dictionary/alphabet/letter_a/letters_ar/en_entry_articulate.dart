@@ -165,10 +165,12 @@ class EnglishEntryarticulate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زمان‌ڕەوان، بەزمان، بەدەم‌وپل، زمان‌پاراو، باش‌دەربڕ، دەنکەدەنکە، ڕەوان، ڕوون، ڕۆشن، بە ڕوونی وتراو، ئاشکرا، دیار، (گیانەوەرناسی) جومگەدار، جومگەوەر
-
-١. (ھاوەڵناو) کەسێک کە توانای ئەوەی ھەیە بۆچوونەکانی بە ڕوونی دەرببڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک کە توانای ئەوەی ھەیە بۆچوونەکانی بە ڕوونی دەرببڕێت"""),
                           Row(
                             children: [
                               const Expanded(

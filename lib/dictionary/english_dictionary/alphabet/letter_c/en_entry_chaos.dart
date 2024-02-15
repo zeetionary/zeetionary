@@ -194,7 +194,7 @@ class EnglishEntrychaos extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاژاوە، پشێوی، ئاڵۆزی، پاشاگەردانی، گەڕەلاوژە، شێواوی، گۆبەن، دێوەزمەی پێش پێکهآتنی گەردوون، ئاژاوەی بێ‌سەرەتایی یان ئەزەلی
 """),
                           const DefinitionKurdish(

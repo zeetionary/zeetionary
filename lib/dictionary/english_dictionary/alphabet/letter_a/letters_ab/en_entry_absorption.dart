@@ -111,7 +111,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕوومژی، مژڕوویی، مژین، ھەڵمژین، ھەڵچنین، داچەکان، (لەخۆ)گرتن، مژۆکی، سەرنج ڕاکێشان، دڵبەستە بوون، دڵ‌پێدان
 """),
                           const DefinitionKurdish(

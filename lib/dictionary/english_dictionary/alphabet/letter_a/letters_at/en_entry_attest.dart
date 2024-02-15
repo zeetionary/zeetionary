@@ -160,10 +160,11 @@ class EnglishEntryattest extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەواھی پێدان، شایەتی‌دان
-
-١. (کردار) پیشاندانی ڕاستی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) پیشاندانی ڕاستی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

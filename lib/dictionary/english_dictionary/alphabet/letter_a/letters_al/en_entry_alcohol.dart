@@ -110,7 +110,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەلکحول، ئەڵکۆڵ، ئەڵکوھۆل، ئارەق
 """),
                           const DefinitionKurdish(

@@ -139,10 +139,12 @@ class EnglishEntrybulldog extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بۆلداگ، گاسەگ
-
-١. (ناو) سەگێکی بچووک کە لاقی کورتی ھەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەھێز بێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) سەگێکی بچووک کە لاقی کورتی ھەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەھێز بێت"""),
                           Row(
                             children: [
                               const Expanded(

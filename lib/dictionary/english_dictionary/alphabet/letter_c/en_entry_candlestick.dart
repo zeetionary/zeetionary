@@ -187,10 +187,12 @@ class EnglishEntrycandlestick extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەمدان، مۆمدان، جێ‌مۆم
-
-١. (ناو) شتێک کە مۆمێک بە ستوونی ڕادەگرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە مۆمێک بە ستوونی ڕادەگرێت"""),
                           Row(
                             children: [
                               const Expanded(

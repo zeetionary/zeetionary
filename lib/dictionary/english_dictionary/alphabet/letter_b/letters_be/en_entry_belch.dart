@@ -147,10 +147,11 @@ class EnglishEntrybelch extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قرقێنە، قرپ، فیشقە، توڕھەڵدان، بە نھێم‌فڕێدان، حەوادان
-
-١. (کردار) قرقێنە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) قرقێنە"""),
                           Row(
                             children: [
                               const Expanded(

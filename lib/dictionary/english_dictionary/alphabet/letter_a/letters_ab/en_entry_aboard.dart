@@ -101,7 +101,7 @@ class EnglishEntryaboard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لە، لەنێو، لەژوور، سوار (ی)، لەسەر، لەبان (کەشتی، فڕۆکە، شەمەندەفەر و ھتد)
 """),
                           const DefinitionKurdish(

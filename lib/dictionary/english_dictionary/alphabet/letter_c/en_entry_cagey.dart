@@ -188,10 +188,12 @@ class EnglishEntrycagey extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھۆشیار، قایم‌کار، وریا، ئاگادار، بەپارێز، زیرەک
-
-١. (ھاوەڵناو) کەسێک کە نایەوێت زانیاری بدات بە کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک کە نایەوێت زانیاری بدات بە کەسێک"""),
                           Row(
                             children: [
                               const Expanded(

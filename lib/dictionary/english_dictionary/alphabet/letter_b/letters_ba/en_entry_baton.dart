@@ -149,10 +149,12 @@ class EnglishEntrybaton extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەتان، داردەست (پۆلیس)، دار (ڕێبەری ئۆرکێستر یان تیپی میوزیک)، گورز یان گۆچانی دەسەڵات یان پاتشایی
-
-١. (ناو) دارێک یان تێڵایەک کە پۆلیس بەکاریدێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دارێک یان تێڵایەک کە پۆلیس بەکاریدێنێت"""),
                           Row(
                             children: [
                               const Expanded(

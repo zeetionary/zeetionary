@@ -109,7 +109,7 @@ class EnglishEntryaisle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جێڕەو، ڕێڕەو (لەنێوان کورسی‌یەکان لە کلیسا، شانۆ، شەمەندەفەر و فڕۆکە، یان ڕەفەکانی سوپەرمارکێت...)، تەنیشت، کەنار
 """),
                           const DefinitionKurdish(

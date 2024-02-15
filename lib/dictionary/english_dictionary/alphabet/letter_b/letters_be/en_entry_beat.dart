@@ -290,10 +290,12 @@ class EnglishEntrybeat extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێدان، پیاکێشان، کوتان، دەنگی لێدان، لێدان(پرتە و دڵ)، ترپە، ڕیتم (میوزیکی)، کێش، ھەڤدەن، زەبر، ھێز (ھەڵبەست)، ڕێڕەو، ڕێگا، جووڵەی باڵەکانی باڵندە، پێشکەوتن، پێش‌وەچوون، شوێنی تیاگەڕان، ناوچەی نۆبەداری (ئەفسەری پۆلیس)، ھیلاک، شەکەت، ماندوو
-
-١. (کردار) شکستھێنان بە کەسێک لە یارییەک یان پێشبڕکێیەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) شکستھێنان بە کەسێک لە یارییەک یان پێشبڕکێیەک"""),
                           Row(
                             children: [
                               const Expanded(

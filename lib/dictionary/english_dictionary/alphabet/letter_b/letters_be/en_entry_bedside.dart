@@ -146,7 +146,7 @@ class EnglishEntrybedside extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرجێ، لای جێگا، پاڵ جێخەو، لە پاڵ تەخت‌دا
 """),
                           const DefinitionKurdish(

@@ -145,10 +145,12 @@ class EnglishEntrybrittle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قرپ، قرچ، تورت، خاو، دانەھاتوو، ناسک، زووشکاو، ھەستیار، زووھەڵچوو، دڵ‌ناسک، تیژ (دەنگ)
-
-١. (ھاوەڵناو) شتێک کە سەختە بەڵام ئاسان دەشکێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە سەختە بەڵام ئاسان دەشکێت"""),
                           Row(
                             children: [
                               const Expanded(

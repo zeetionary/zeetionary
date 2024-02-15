@@ -143,7 +143,7 @@ class EnglishEntrybloodshot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (چاو) سوور، سوورەوەبوو، خوێن‌تێزاو
 """),
                           const DefinitionKurdish(

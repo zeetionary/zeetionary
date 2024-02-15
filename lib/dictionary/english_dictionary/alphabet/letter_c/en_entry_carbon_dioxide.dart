@@ -190,7 +190,7 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوانۆکسیدی کاربۆن، دی‌ئۆکسایدی کاربۆن، گازی کاربۆنیک CO2
 """),
                           const DefinitionKurdish(

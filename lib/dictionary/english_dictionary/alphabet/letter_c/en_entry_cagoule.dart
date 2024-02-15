@@ -187,10 +187,12 @@ class EnglishEntrycagoule extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (جل‌وبەرگ) باگیڕەوە، باگیر، بارانی
-
-١. (ھاوەڵناو) چاکەتێکی درێژ کە کڵاوێکی ھەیە و دژ بە باران لەبەر دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) چاکەتێکی درێژ کە کڵاوێکی ھەیە و دژ بە باران لەبەر دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(

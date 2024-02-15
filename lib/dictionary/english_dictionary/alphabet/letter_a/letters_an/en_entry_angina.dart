@@ -150,10 +150,12 @@ class EnglishEntryangina extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سنگ‌ئێشە، ژانەسنگ، گەرووئێشە، دووشاخە، ماسینی گەروو، وەناق، ئەنژین
-
-١. (ھاوەڵناو) ژانەسگ بەھۆی کەمی چوونی خوێن بۆ دڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ژانەسگ بەھۆی کەمی چوونی خوێن بۆ دڵ"""),
                           Row(
                             children: [
                               const Expanded(

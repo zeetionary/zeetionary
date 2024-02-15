@@ -190,7 +190,7 @@ class EnglishEntrycatburglar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دز، چەتە، ماڵبڕ
 """),
                           const DefinitionKurdish(

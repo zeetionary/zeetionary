@@ -158,10 +158,12 @@ class EnglishEntryapologetic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێبوردن‌خوازانە، وادیارە داوای لێبوردن بکا، پەشیمان، بەداخ، ناڕەحەت
-
-١. (ھاوەڵناو) ھەست‌کردن یان پیشاندانی پەشیمانی یان داخ بۆ شتێک کە کردووتە یان دەیکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ھەست‌کردن یان پیشاندانی پەشیمانی یان داخ بۆ شتێک کە کردووتە یان دەیکەیت"""),
                           Row(
                             children: [
                               const Expanded(

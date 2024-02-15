@@ -107,10 +107,12 @@ class EnglishEntryafresh extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جارێکی تر، سەرلەنوێ، دووبارە، لە ھەوەڵەوە، لە نووکەوە
-
-١. (ھاوەڵکار) دووبارە لە سەرەتاوە، زۆرجار بەشێوەیەکی جیاوازتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵکار) دووبارە لە سەرەتاوە، زۆرجار بەشێوەیەکی جیاوازتر"""),
                           Row(
                             children: [
                               const Expanded(

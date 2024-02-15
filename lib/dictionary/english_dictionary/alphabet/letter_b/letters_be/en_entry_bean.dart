@@ -147,10 +147,12 @@ class EnglishEntrybean extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاقلە، لوبیا، فاسۆلیا، ڕووەکی لوبیا، سەر، مێشک، دەماخ، مەژی
-
-١. (ناو) تۆو، یان کەلووی تۆودار، کە ھی ڕووەکێکی ھەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) تۆو، یان کەلووی تۆودار، کە ھی ڕووەکێکی ھەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
                           Row(
                             children: [
                               const Expanded(

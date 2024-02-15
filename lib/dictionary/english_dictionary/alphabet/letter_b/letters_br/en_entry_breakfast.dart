@@ -146,7 +146,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژەمی بەیانی، نان‌وچا، بەرقلیان، بەیانی‌یانە، نانی بەیانی، بەرچایی
 """),
                           const DefinitionKurdish(text: "١. (ناو) نانی بەیانی"),

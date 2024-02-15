@@ -139,7 +139,7 @@ class EnglishEntrybriefcase extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کیف یان جانتای دەستی (پیاوانە)
 """),
                           const DefinitionKurdish(

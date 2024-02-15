@@ -161,10 +161,11 @@ class EnglishEntryattendance extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاتن، ئامادەبوون، ھاتووان، ئامادەبووان، لێرەبووان، لێرەبوون، خزمەت کردن، چاولێ‌وەبوون، ئاگاداری، چاودێری، ئاگالێ‌بوون، بەدیارەوەبوون، پێ‌ڕاگەیشتن، بەلاوەبوون، لەگەڵ‌بوون، خزمەت، ڕاژە
-
-١. (ناو) ئامادەبوون لە شوێنێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ئامادەبوون لە شوێنێک"""),
                           Row(
                             children: [
                               const Expanded(

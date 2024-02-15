@@ -93,7 +93,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
 """),
                           const DefinitionKurdish(

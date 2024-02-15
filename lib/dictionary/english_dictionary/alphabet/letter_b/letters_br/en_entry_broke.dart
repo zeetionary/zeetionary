@@ -140,7 +140,7 @@ class EnglishEntrybroke extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نابووت (بوو)، لات‌کەوتوو، مایەپووت، بەرشکست
 """),
                           const DefinitionKurdish(

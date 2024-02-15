@@ -106,12 +106,12 @@ class EnglishEntryadjective extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاوەڵ‌ناو، ڕەنگدێر، سەربە یا وەک ئاوەڵ‌ناو کار دەکا
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک/شتێک، بۆ نموونە وشەی جوان لە"),
+                                  "١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک/شتێک، بۆ نموونە وشەی جوان لە 'ماڵێکی جوان' دا"),
                           Row(
                             children: [
                               const Expanded(

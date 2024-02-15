@@ -344,7 +344,7 @@ class EnglishEntryboard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەختە(دار)، تەتە، کژورەک، دەپ، تابڵۆ، تەختەی ئاگاداری، مقەبا، تەختەڕەشە، سابوورە، تەختەی شەترەنج، تەختەدامە، نان، خۆراک، چێشت، دەستەی بەڕێوەبەری، لیژنە، کومیتە، ئەنجوومەن، جڤات، لێواری کەشتی، لا(پاڵ)ی کەشتی، شانۆ، سێن، (کتێب) بەرگ
 """),
                           const DefinitionKurdish(

@@ -189,10 +189,12 @@ class EnglishEntrycafe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چای‌خانە، کافە، قاوەخانە
-
-١. (ناو) شوێنێک کە دەتوانی خواردنەوە و خواردنی سادەی تێدا بکڕیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شوێنێک کە دەتوانی خواردنەوە و خواردنی سادەی تێدا بکڕیت"""),
                           Row(
                             children: [
                               const Expanded(

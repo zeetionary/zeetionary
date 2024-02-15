@@ -187,10 +187,11 @@ class EnglishEntrycallow extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خاو، نەخاراو، کرچ‌وکاڵ، بێ‌ئەزموون، پەڕوپۆدەرنەکردوو
-
-١. (ناو) گەنج و بێ‌ئەزموون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) گەنج و بێ‌ئەزموون"""),
                           Row(
                             children: [
                               const Expanded(

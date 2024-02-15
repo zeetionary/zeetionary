@@ -141,7 +141,7 @@ class EnglishEntrybrainchild extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیر، ھزر، بیرۆکە، ئایدیا، داھێنان
 """),
                           const DefinitionKurdish(

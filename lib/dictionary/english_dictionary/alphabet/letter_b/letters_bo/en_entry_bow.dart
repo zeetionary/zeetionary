@@ -308,7 +308,7 @@ class EnglishEntrybow extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەوان، کەمە، کەوانە (نێوان دوو سەری کەوان: ماڵ)، دەنووکە، ئاڕشە، ژێژەنە(ک)، نووشتانەوە، چەمانەوە، چەمینەوە، نووچ، گرێ قوڵفە یان خزیو، پاپیۆن، پەلکەزێڕینە، کۆلکەزێڕینە، کەسک‌وسۆر، بۆنووشتانەوە، داھاتنەو بە نیشانەی ڕێز، کڕنۆش
 """),
                           const DefinitionKurdish(

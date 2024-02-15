@@ -140,7 +140,7 @@ class EnglishEntrybrooch extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەرزی (سەر) سنگ، سەرسنگە (خشڵێ بۆ جلی ژنان)
 """),
                           const DefinitionKurdish(

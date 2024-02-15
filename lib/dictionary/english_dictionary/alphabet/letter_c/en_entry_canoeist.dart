@@ -187,10 +187,12 @@ class EnglishEntrycanoeist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەمی‌سوار، گەمی‌یەوان، گەمی‌لێخوڕ، گەمی‌ئاژۆ
-
-١. (ناو) کەسێک کە گەشت دەکات لە caneo دا (بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت)"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە گەشت دەکات لە caneo دا (بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت)"""),
                           Row(
                             children: [
                               const Expanded(

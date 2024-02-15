@@ -188,10 +188,12 @@ class EnglishEntrycalibre extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کالیبر، تیری نێوەوە، دەمە، تیرخۆر، گوللەخۆر (ھی تفەنگ)، لێھاتوویی، توانایی، لێوەشاوەیی، چۆنیەتی، ڕادەی باشی یان گرنگایەتی 
-
-١. (ناو) لێوەشاوەیی، بەتایبەتی توانای مرۆڤ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لێوەشاوەیی، بەتایبەتی توانای مرۆڤ"""),
                           Row(
                             children: [
                               const Expanded(

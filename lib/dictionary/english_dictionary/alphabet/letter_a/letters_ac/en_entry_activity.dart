@@ -118,7 +118,7 @@ class EnglishEntryactivity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چالاکی، گورجێتی، سووربوون، شێلگیری، بەڕشتی، ئازایی، بەکاری، بزاوت، بزووتنەوە، جم‌وجۆڵ، کردەوە، کردار، سەرقاڵی، سەرگەرمی، چالاکی، ڕابواردن
 """),
                           const DefinitionKurdish(

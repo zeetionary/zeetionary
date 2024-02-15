@@ -153,7 +153,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: داکەوتن، داشکان، شۆڕبوونەوە، داچوون، ھاتنەخوارێ، لێژبوونەوە، ڕووداو، قۆناخ یان ئەنجامێ کە بە شێوەیێکی بەرچاو لە گرنگایەتی چاوەڕوان‌کراوی کەم‌تر دەبێتەوە، کەوتنان، داکەوتن، داشکان (وەک لە داستان و چیرۆکەکان‌دا، وەک "ژنەکەم مرد، ماڵەکەمیان برد و سەگەکەشم گوم بوو.")، ناھومێدی، دڵساردی
 """),
                           const DefinitionKurdish(

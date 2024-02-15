@@ -102,7 +102,7 @@ class EnglishEntryaberration extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لادان، ڕێ‌ھەڵەکردن، لاڕێیی، لەرێ دەرچوون، ھەڵچوون، گومڕایی، خریایی‌بوون، گرفت، تێکچوون، کێشە، کەم‌وکوڕی
 """),
                           const DefinitionKurdish(

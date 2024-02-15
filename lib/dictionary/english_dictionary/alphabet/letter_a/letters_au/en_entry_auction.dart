@@ -160,10 +160,12 @@ class EnglishEntryauction extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەزات، ھەڕاج 
-
-١. (ناو) ھەڕاجی ئاشکرا کە تێیدا شتێک دەفرۆشرێت بەو کەسەی زۆرتری پارە دەدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھەڕاجی ئاشکرا کە تێیدا شتێک دەفرۆشرێت بەو کەسەی زۆرتری پارە دەدات"""),
                           Row(
                             children: [
                               const Expanded(

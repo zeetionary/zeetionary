@@ -160,10 +160,11 @@ class EnglishEntryatrocious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌بەزەیی‌یانە، بێ‌شەرمانە، زاڵمانە، دڕندانە، ترسناک، شپرزە، ترسێنەر، توقێنەر، زۆرناخوش، یەکجار خراپ، پیس، شپرزە
-
-١. (ھاوەڵناو) زۆر خراپ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) زۆر خراپ"""),
                           Row(
                             children: [
                               const Expanded(

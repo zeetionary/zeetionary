@@ -152,10 +152,12 @@ class EnglishEntrybandage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: برینپێچ، سارغی، پێچەک، تێوەپێچ
-
-١. (ناو) پارچەیەک کە لەسەر برین دەدرێت بۆ پاراستنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچەیەک کە لەسەر برین دەدرێت بۆ پاراستنی"""),
                           Row(
                             children: [
                               const Expanded(

@@ -146,7 +146,7 @@ class EnglishEntrybleak extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناھومێدکەر، ھیوابڕ، ورەبەزێن، دڵساردکەرەوە، دڵتەنگ، خەمبار، سارد، چۆڵ، بێ‌پەنا، بەدەرەوە، ئاواڵە، لەبەربا
 """),
                           const DefinitionKurdish(

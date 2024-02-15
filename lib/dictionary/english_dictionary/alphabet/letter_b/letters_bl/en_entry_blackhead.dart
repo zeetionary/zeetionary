@@ -143,10 +143,12 @@ class EnglishEntryblackhead extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زیپکەی سەرڕەش، سەرڕەشە، پۆپەڕەشە، سەرڕەشە
-
-١. (ناو) خاڵێکی بچووک لەسەر پێست کە سەرەوەی ڕەشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) خاڵێکی بچووک لەسەر پێست کە سەرەوەی ڕەشە"""),
                           Row(
                             children: [
                               const Expanded(

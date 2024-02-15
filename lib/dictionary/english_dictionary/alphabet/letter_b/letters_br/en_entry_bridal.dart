@@ -141,7 +141,7 @@ class EnglishEntrybridal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بووکێنی، بووک، سەربە شایی یان زەماوەند، زەماوەندی، زەماوەند، شایی، گۆڤەند
 """),
                           const DefinitionKurdish(

@@ -148,10 +148,12 @@ class EnglishEntrybastard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (مناڵ) زۆڵ یا حەرام‌زادە، مرۆڤی زۆڵ، حەرام‌زا، بیژوو، بیژی، پیچ، زۆڵ‌زادە، ناڕەوا؛ دوڕڕە، تێکەڵ، ناڕەسەن، ساختە، درۆ، درۆزنە، قەڵب، قەحبەدایک، دایک‌کوونی، دایک‌جندە، خاوەنی شێوە یان بارستەیەکی نائاسایی، نالەبار، بەدقەوارە
-
-١. (ناو) وشەیەکی ناپەسەند کە بەکاریدێنیت بۆ کەسێک کە پێتوایە ڕەفتاری ناشرین و ناپەسەند بووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) وشەیەکی ناپەسەند کە بەکاریدێنیت بۆ کەسێک کە پێتوایە ڕەفتاری ناشرین و ناپەسەند بووە"""),
                           Row(
                             children: [
                               const Expanded(

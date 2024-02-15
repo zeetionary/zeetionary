@@ -49,7 +49,8 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Algae reproduce by both sexual and asexual reproduction."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Algae reproduce by both sexual and asexual reproduction."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAsexual(String languageCode) async {
@@ -158,10 +159,12 @@ class EnglishEntryasexual extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (زیندەناسی) ناڕەگەزی، ناسێکسی، بێ‌ئەندامی زاوزێ، نازایەندی، سارد، بێ‌ئارەزووی سێکسی
-
-١. (ھاوەڵناو) بەبێ چالاکی سێکسی یان بەبێ بوونی ھەستی سێکسی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بەبێ چالاکی سێکسی یان بەبێ بوونی ھەستی سێکسی"""),
                           Row(
                             children: [
                               const Expanded(

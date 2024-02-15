@@ -195,10 +195,12 @@ class EnglishEntrycamp extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وارگە، چادرگا، کەمپ، ھۆبە، زۆم، بارەگا، ھەوارگە، لەشکرگا، ڕێباز، گروپ، دەستە، حیزب، خێوەت، چادر
-
-١. (ناو) خێوەت یان بینای کاتی کە خەڵکی بە کاتی تێیدا دەژی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) خێوەت یان بینای کاتی کە خەڵکی بە کاتی تێیدا دەژی"""),
                           Row(
                             children: [
                               const Expanded(

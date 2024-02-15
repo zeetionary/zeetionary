@@ -160,10 +160,11 @@ class EnglishEntryassist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاوکاری، یارمەتی دان، ھاریکاری کردن
-
-١. (کردار) یارمەتی‌دان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) یارمەتی‌دان"""),
                           Row(
                             children: [
                               const Expanded(

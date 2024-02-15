@@ -160,7 +160,7 @@ class EnglishEntryastrologer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فەلەکناس، ئەستێرەبین، ئەستێرەژمێر
 """),
                           const DefinitionKurdish(

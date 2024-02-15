@@ -152,7 +152,7 @@ class EnglishEntrybadtempered extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەدخوو، بەدڕەفتار، بەدفەڕ، ناجسن، ڕووتاڵ
 """),
                           const DefinitionKurdish(

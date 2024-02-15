@@ -144,7 +144,7 @@ class EnglishEntryblueprint extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەخشە، بەرنامەی کار، پلان، چاپی شین
 """),
                           const DefinitionKurdish(

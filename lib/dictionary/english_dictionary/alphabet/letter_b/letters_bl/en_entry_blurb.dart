@@ -143,7 +143,7 @@ class EnglishEntryblurb extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باس‌کردنی بەکورتی بابەتەکانی نێوەوەی کتێب، باس (لە پشتەوەی کتێب)، کورتەباسێ لەسەر کتێب، فیلم و بەرھەمی تر
 """),
                           const DefinitionKurdish(

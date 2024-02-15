@@ -252,7 +252,7 @@ class EnglishEntrybrave extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەزات، بەجەرگ، چاوسوور، وەند، ئازا، پۆڵاخۆر، شێرکرۆژ، نەبەرد، بوێر، دلێر، مێرخاس، بێ‌باک، مەرد، نەترس، ئازایانە، نەترسانە، بەشکۆ، بەرز 
 """),
                           const DefinitionKurdish(

@@ -153,10 +153,11 @@ class EnglishEntrybald extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تاس، کەچەڵ، کەل، بێ‌قژ، ڕووتاوە، بێ‌تووک، (گیانەوەر) گەڕۆڵ، ڕووتاو، بێ‌گەڵا، ڕووتەن، وشک، بێ(گژ)گیا، (تایە) خوراو، شەقڵ‌نەماو، سوواو، لووس، ساف، سادە، بێ‌پەردە، ئاشکرا، لەڕوو، بێ‌پەردە، بێ‌شێلەوبێلە
-
-١. (ھاوەڵناو) کەچەڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) کەچەڵ"""),
                           Row(
                             children: [
                               const Expanded(

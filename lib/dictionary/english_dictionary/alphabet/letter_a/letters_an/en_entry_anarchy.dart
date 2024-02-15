@@ -151,7 +151,7 @@ class EnglishEntryanarchy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌حکومەتی، بێ‌قانوونی، ئاڵۆزی، پاشاگەردانی، پشێوی، ناڕێکی، ئاژاوە، گەڕەلاوژە، حکومەت‌نەویستی
 """),
                           const DefinitionKurdish(

@@ -149,10 +149,11 @@ class EnglishEntrybathe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆشتن، مەلێ، سۆبایی، سۆباھی
-
-١. (کردار) ششتنی شتێک لە ئاودا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) ششتنی شتێک لە ئاودا"""),
                           Row(
                             children: [
                               const Expanded(

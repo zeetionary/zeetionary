@@ -109,10 +109,12 @@ class EnglishEntryadrift extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سواراو، سەراوکەوتە، ئازاد، بەڕەڵا، وێڵ، لەسەرئاو، نەبەسراو، بێ‌ئامانج، بێ‌مەبەست، وەک تەختەی سەرئاو، بەدەم شەپۆلەوە، سەرلێ‌شێواو، کۆنتڕۆڵ‌نەکراو، بێ‌مەھار
-
-١. (ھاوەڵناو) کەسێک یان بەلەمێکی بێ کۆنترۆڵ لەناو دەریا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک یان بەلەمێکی بێ کۆنترۆڵ لەناو دەریا"""),
                           Row(
                             children: [
                               const Expanded(

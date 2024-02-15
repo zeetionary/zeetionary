@@ -145,7 +145,7 @@ class EnglishEntrybetrayer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناپاک، خایین، خەیانەت‌کار
 """),
                           const DefinitionKurdish(

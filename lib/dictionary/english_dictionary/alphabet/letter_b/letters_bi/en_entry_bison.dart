@@ -145,7 +145,7 @@ class EnglishEntrybison extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بایسێن، بیزۆن، جۆرێ گامێش، گای ئەمریکی 
 """),
                           const DefinitionKurdish(

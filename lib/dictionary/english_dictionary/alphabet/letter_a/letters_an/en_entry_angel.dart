@@ -152,10 +152,12 @@ class EnglishEntryangel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فریشتە، مەلایەکەت، کۆینی بەرینی ئینگلتەرە، پەیام یان سیگناڵێکی ڕوونەوەنەبووی ڕادارێ، کەسێکی یەکجار جوان یان باش، ڕووپەری، فریشتە
-
-١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن"""),
                           Row(
                             children: [
                               const Expanded(

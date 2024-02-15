@@ -149,10 +149,12 @@ class EnglishEntryblankcheque extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەکی سپی، دەسەڵاتی ڕەبەق، ڕەھا، یان تەواو
-
-١. (ناو) چەکێک کە بڕی پارەکەی تێدا نەنووسراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) چەکێک کە بڕی پارەکەی تێدا نەنووسراوە"""),
                           Row(
                             children: [
                               const Expanded(

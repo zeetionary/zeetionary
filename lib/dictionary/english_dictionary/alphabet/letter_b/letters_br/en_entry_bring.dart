@@ -332,7 +332,7 @@ class EnglishEntrybring extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھێنان، گەیاندن، بوون بە ھۆ (ھۆکار)
 """),
                           const DefinitionKurdish(

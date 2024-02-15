@@ -146,10 +146,11 @@ class EnglishEntrybashful extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەم‌ڕوو، شەرمێون، فەدۆک، شەرمن
-
-١. (ھاوەڵناو) شەرمن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) شەرمن"""),
                           Row(
                             children: [
                               const Expanded(

@@ -189,10 +189,12 @@ class EnglishEntrycanon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قانوون، زاگۆن، زاکوون، ڕێسا، بنەڕەت، بنەما، بنچینە، قانوونی کلێسە یان شەرع، قەشە (ئەندامی کلێسەی کاتێدراڵ)، قانوونی کلێسە یان شەرع، کتێبە ڕەسەن یان قانوونی‌یەکان (ئەو کتێبانەی کەوا لە لایەن کلێسەوە پەسند کراون)، پێودانگ، پێوەر، کێشانە، پێوانە، شوێنەوار یان نووسراوە باوەڕپێکراو یان ڕەسەنەکان (ھی نووسەرێ)، داب و نەریت
-
-١. (ھاوەڵناو) قەشەیەک کە کۆمەڵێک ئەرکی تایبەتی ھەیە لە کڵێسادا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) قەشەیەک کە کۆمەڵێک ئەرکی تایبەتی ھەیە لە کڵێسادا"""),
                           Row(
                             children: [
                               const Expanded(

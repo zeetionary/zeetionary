@@ -193,7 +193,7 @@ class EnglishEntrycapsule extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەپسول، دەرمان‌پۆش، قاوغەدەرمان، گولاج، کەپسوولی بۆشایی یان کەشتی ئاسمانی، کورتە، پوختە، کەلوو، بەرگەتۆو، تۆوپۆش، قاپیلک، قاوغە، توودانک، تووپۆش
 """),
                           const DefinitionKurdish(

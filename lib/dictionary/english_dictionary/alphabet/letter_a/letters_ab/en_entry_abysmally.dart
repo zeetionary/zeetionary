@@ -92,7 +92,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
 """),
                           const DefinitionKurdish(

@@ -142,10 +142,12 @@ class EnglishEntrybraid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەلکە، شریت، باریکە، پەلکەڕەنگینە، بەنۆکە، قەیتان، پەلک، پەراوێز، زنجیرە، گوڵاباتون، سەردروو
-
-١. (ناو) حەبلی ڕەنگاوڕەنگ کە بەکاردێت بۆ نەخشاندنی کەلوپەلی ناوماڵ و جلی سەربازی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) حەبلی ڕەنگاوڕەنگ کە بەکاردێت بۆ نەخشاندنی کەلوپەلی ناوماڵ و جلی سەربازی"""),
                           Row(
                             children: [
                               const Expanded(

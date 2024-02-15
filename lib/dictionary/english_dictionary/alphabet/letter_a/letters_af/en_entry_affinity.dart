@@ -125,7 +125,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەستراوی، پێوەستایەتی، پشت‌پێ‌بەستوویی، خۆبەستەیی، سەربەدی‌یەتی، پاشکۆیی، پێوەبەندایەتی، دیبەندایەتی، لێکچوویی، لێک‌نزیکی، وەکھەڤی، نزیکی، وەکیەکی، پێوەندی، تێکەڵی، خزمایەتی ژن‌ومێردایەتی، ئەوینداری، مەیل، (کیمیا) ھۆگرێتی، ڕاکێشان، ڕاکێشەرێتی
 """),
                           const DefinitionKurdish(

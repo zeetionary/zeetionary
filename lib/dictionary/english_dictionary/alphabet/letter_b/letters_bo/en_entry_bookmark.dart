@@ -145,10 +145,12 @@ class EnglishEntrybookmark extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەڕتووکنیشانەکەر، جێنیشانەکەر، جێدۆز، شوێندۆزی وێبگە، وێبگەنیشانەکەر
-
-١. (ناو) پارچە پاڕەیەکی درێژ و باریک کە دەیخەیتە نێوان پەڕەکانی کتێبێک کە دەوەستیت لە خوێندن بۆ ئەوەی دواتر بە ئاسانی شوێنەکە بدۆزیتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچە پاڕەیەکی درێژ و باریک کە دەیخەیتە نێوان پەڕەکانی کتێبێک کە دەوەستیت لە خوێندن بۆ ئەوەی دواتر بە ئاسانی شوێنەکە بدۆزیتەوە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -158,10 +158,11 @@ class EnglishEntryaspersion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تۆمەت، چەفتە، درۆ، ھەڵبەستە، ئابڕووبردن، نێوزڕاندن، زەم‌کردن، خراپەوتن، سووکایەتی (پێ‌کردن)
-
-١. (ناو) بڕیار یان لێدوانی نابەجێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) بڕیار یان لێدوانی نابەجێ"""),
                           Row(
                             children: [
                               const Expanded(

@@ -158,7 +158,7 @@ class EnglishEntryashore extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لە کەنار، لە گوێئاو، لە دەمئاو، بەرەو کەنار، تا کەنار، تا بەستێن
 """),
                           const DefinitionKurdish(

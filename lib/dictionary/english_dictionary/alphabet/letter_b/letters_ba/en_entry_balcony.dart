@@ -152,10 +152,12 @@ class EnglishEntrybalcony extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرھەیوان، بانجیلە، ھەوالە، باھۆ، (لە تیاتر یان سینەما) باڵکۆن، باڵاخانە، لۆژی سەرێ
-
-١. (ناو) شوێنێک کە لە بینایەکدا کە لە دەرەوەی نھۆمی سەرەوەوە درووست دەکرێت و سیاجی پارێزەری ھەیە بۆ ڕێگری لە کەوتنەخوارەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شوێنێک کە لە بینایەکدا کە لە دەرەوەی نھۆمی سەرەوەوە درووست دەکرێت و سیاجی پارێزەری ھەیە بۆ ڕێگری لە کەوتنەخوارەوە"""),
                           Row(
                             children: [
                               const Expanded(

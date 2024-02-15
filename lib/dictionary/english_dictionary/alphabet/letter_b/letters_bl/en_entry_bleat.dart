@@ -144,7 +144,7 @@ class EnglishEntrybleat extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باڕە، کاڕە، باقە، ما، باقەباق، باڕەباڕ، بالەبال، بۆڵە
 """),
                           const DefinitionKurdish(

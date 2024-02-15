@@ -187,7 +187,7 @@ class EnglishEntrycapillary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مووڕەگ، دەزووڕەگ، ڕەھچک، موولوولە، ڕەگەمووینە، دەزوولە
 """),
                           const DefinitionKurdish(

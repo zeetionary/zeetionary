@@ -161,10 +161,12 @@ class EnglishEntryarouse extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەستاندن، ڕاپەڕاندن، ورووژاندن
-
-١. (کردار) وا لە کەسێک بکەیت ھەستێک یان ڕەفتارێکی دیاریکراو بنوێنێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) وا لە کەسێک بکەیت ھەستێک یان ڕەفتارێکی دیاریکراو بنوێنێت"""),
                           Row(
                             children: [
                               const Expanded(

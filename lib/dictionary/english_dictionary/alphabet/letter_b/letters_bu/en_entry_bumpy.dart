@@ -187,10 +187,12 @@ class EnglishEntrybumpy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چاڵی‌وچۆڵاوی، ناڕێک، پڕچاڵ‌وچۆڵ، پڕکەندولەند، قۆرتاوی، پڕکەندوکۆسپ
-
-١. (ھاوەڵناو) شوێنێک کە تەواو تەخت نییە و چاڵ‌وچۆڵی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شوێنێک کە تەواو تەخت نییە و چاڵ‌وچۆڵی تێدایە"""),
                           Row(
                             children: [
                               const Expanded(

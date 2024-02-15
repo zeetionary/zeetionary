@@ -149,10 +149,11 @@ class EnglishEntrybent extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: داشکانەوە، لاربوونەوە، حەز، ویست، ئارەزوو، توانایی، جەوھەر، بەھرە، لاری، خواری، کەچی، خواروخێچ، چەوتاوە، لار، ناڕاست، خوار، کەچ، دووتا، دووقەد، نووشتاوە، نادروست، ناڕاست، دەس‌پیس، حەرام‌خۆر، ناپاک، دەغەڵ، بەرتیل‌خۆر، بەبڕیار، پتەو، شێلگیر
-
-١. (ھاوەڵناو) لار"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) لار"""),
                           Row(
                             children: [
                               const Expanded(

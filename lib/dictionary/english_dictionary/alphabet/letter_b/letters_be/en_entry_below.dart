@@ -201,10 +201,12 @@ class EnglishEntrybelow extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژێر، بنەوە، ژێرەوە، خواروو، ژێروو، خوارەوە، خوارتر، خوارتر لە، لە بنەوە، بە بن، بە ژێر، لە ژێرەوە، (دەریاوانی) لەژێر پشتی کەشتی‌یەوە، بن یان ژێر سیفر (تێمپراچێری ھەوا)، کەمتر لە، لەژێر، لە خوارووی، دوورتر، ئەولاتر
-
-١. (ھاوەڵکار) لە خوارەوە یان بەرەو خوارەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵکار) لە خوارەوە یان بەرەو خوارەوە"""),
                           Row(
                             children: [
                               const Expanded(

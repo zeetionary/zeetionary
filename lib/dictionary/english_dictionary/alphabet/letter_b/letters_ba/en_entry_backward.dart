@@ -198,10 +198,11 @@ class EnglishEntrybackward extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پشتەوە، دواوە، بۆ دواوە، بەرەوپاش، بەرەودوا، خاو، تەمەڵ، دواکەوتوو، پاش‌کەوتوو، کەم‌ڕوو، شەرمێون، بۆ پشتەوە، بۆ دواوە، بەرەو پشتەوە، بەرەو دواوە، بەرەوپاش، بەرەودوا، ڕوو لە پشتەوە، بەرەو خراپی، ئاوەژوو، سەرەونخوون، پشتەوپاش، پێچەوانە، پاشەوپاش، پشتاوپشت، لە ئاخرەوە، لە دواوە
-
-١. (ھاوەڵناو) بەرەو دواوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) بەرەو دواوە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -139,9 +139,11 @@ class EnglishEntrybugbear extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-
-١. (ھاوەڵناو) شوتێک کە دەبێتە مایەی نیگەرانی، دڵەڕاوکێ، بێزاری، و ترس"""),
+                          const KurdishVocabulary(text: """
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شوتێک کە دەبێتە مایەی نیگەرانی، دڵەڕاوکێ، بێزاری، و ترس"""),
                           Row(
                             children: [
                               const Expanded(

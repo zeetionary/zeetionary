@@ -150,7 +150,7 @@ class EnglishEntryamulet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دۆعا، تەلەسم، دێوبەند، چاوەزار، نووشتە
 """),
                           const DefinitionKurdish(

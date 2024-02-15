@@ -144,7 +144,7 @@ class EnglishEntrybruise extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شین‌بوونەوە، کەووبوون، ڕەش‌بوونەوە، خوێن‌تێزان، لکە، لەکە، شینکە 
 """),
                           const DefinitionKurdish(

@@ -152,10 +152,12 @@ class EnglishEntrybadger extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چالەکە، چواڵوو، کوڕەبەش، تژی، کوڕبەشە، گۆڕھەڵکەنە، گۆڕھەڵتەکێنە
-
-١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین"""),
                           Row(
                             children: [
                               const Expanded(

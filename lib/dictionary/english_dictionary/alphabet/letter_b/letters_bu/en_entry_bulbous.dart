@@ -139,10 +139,12 @@ class EnglishEntrybulbous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیوازدار، سەلک‌دار، بەبن، بن‌دار، پیوازی، پیازی، سەلکی، سەلک‌ئاسا، خڕ و قەڵەو (ناحەز)، سەلکەشەلەمی
-
-١. (ناو) لە شێوەی سەلکە ڕووەکێکدا؛ خڕ و قەڵەو بەشێوەیەکی ناشرین"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لە شێوەی سەلکە ڕووەکێکدا؛ خڕ و قەڵەو بەشێوەیەکی ناشرین"""),
                           Row(
                             children: [
                               const Expanded(

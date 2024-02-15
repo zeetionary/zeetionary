@@ -154,10 +154,12 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خولگەی جەمسەری باشووری، سووڕگەی باشووران
-
-١. (ناو) یەکێک لە ھێڵەکانی درێژی کە بە نزیکەیی ٧٠ پلە لە باشووری زەوییە و دەوری خولگەی جەمسەری باشووری داوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) یەکێک لە ھێڵەکانی درێژی کە بە نزیکەیی ٧٠ پلە لە باشووری زەوییە و دەوری خولگەی جەمسەری باشووری داوە"""),
                           Row(
                             children: [
                               const Expanded(

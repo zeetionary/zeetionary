@@ -190,7 +190,7 @@ class EnglishEntryburning extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سووتێنەر، پڕووکێنەر، گەرم، پڕووزە، گڕگرتوو، کڵپەکردوو، ئاورگرتوو، سوورەوەبوو، ھەڵبوو، تۆزێنەر، لەڕادەبەدەر، یەکجار، پێویست، گرنگ، توند، مەسەلەیەکی گرنگ و پێویست، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، شەوەتان
 """),
                           const DefinitionKurdish(

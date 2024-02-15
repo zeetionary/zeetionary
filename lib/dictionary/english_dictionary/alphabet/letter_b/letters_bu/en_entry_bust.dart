@@ -196,7 +196,7 @@ class EnglishEntrybust extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەیکەری سەرەوەی لەش، سەرباڵا، نیوەپەیکەر، سنگ، مەمک، ئەندازەی دەوری سنگ (ژن)، سەرنەکەوتن، بنکەوتن، تێشکان (یەکجاری)، نابووتی، بەرشکستی، دەس‌بەسەری، گل‌دانەوە، گرتن، مستەکۆڵە، مشت نافەرمی، تەنگژە یا قەیرانی ئابووری، شتێکی بێ‌نرخ یان ھیچەکە، شکاو، لەکارکەوتوو، خراپ‌بوو، خەوتوو، نابووت، لات‌کەوتوو، بەرشکست (کەسێ یان کۆمپانیایێ)
 """),
                           const DefinitionKurdish(text: "١. (کردار) شکاندن"),

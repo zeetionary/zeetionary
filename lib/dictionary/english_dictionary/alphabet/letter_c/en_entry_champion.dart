@@ -193,7 +193,7 @@ class EnglishEntrychampion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قارەمان، پاڵەوان، براوە، بەزێنەر، بردووەوە، پشتیوان، لایەنگر، پارێزەر، داکۆکی‌کار، داژدار 
 """),
                           const DefinitionKurdish(

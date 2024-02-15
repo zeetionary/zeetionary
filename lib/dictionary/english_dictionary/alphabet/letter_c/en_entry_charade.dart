@@ -191,10 +191,12 @@ class EnglishEntrycharade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خۆبەگەوج‌نواندن، خۆبەگەوج‌نیشاندان، خۆگێل‌کردن، قەبڵێن، فشە، درۆ
-
-١. (ناو) دۆخێک کە خەڵکی وادادەنێن کە شتێک ڕاستە لەکاتێکدا ئاشکرایە کە وانییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دۆخێک کە خەڵکی وادادەنێن کە شتێک ڕاستە لەکاتێکدا ئاشکرایە کە وانییە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -188,7 +188,7 @@ class EnglishEntrybuzzer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زەنگ، گیزەون، زڕە، فڕە، ڤڕە، ویزویزە، ویزە
 """),
                           const DefinitionKurdish(

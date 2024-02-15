@@ -175,7 +175,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێ‌بوردن، بەخشین، لێ‌خۆشبوون (گشتی)، تەنگەتاوی، موڵەت، دەرفەت
 """),
                           const DefinitionKurdish(

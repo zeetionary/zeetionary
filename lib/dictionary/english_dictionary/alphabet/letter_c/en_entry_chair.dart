@@ -198,7 +198,7 @@ class EnglishEntrychair extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەندەڵی، کورسی، تەختەک، ئەسکەمل، پۆست یان کورسی مامۆستایی، پلەوپایەی مامۆستایی، سەرکۆڕ، سەرۆکی کۆبوونەوە، کورسی ئێلیکتریکی، سزای کوشتن
 """),
                           const DefinitionKurdish(text: "١. (ناو) کورسی"),

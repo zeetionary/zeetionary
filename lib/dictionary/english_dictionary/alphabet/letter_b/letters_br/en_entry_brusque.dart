@@ -141,7 +141,7 @@ class EnglishEntrybrusque extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌ڕەوشت، بێ‌ڕەوشتانە، بێ‌ماریفەت، بەپەلە، بێ‌تاقەت، بەھەشتاو، توند، توند و کت‌وپڕ (قسەکردن)
 """),
                           const DefinitionKurdish(

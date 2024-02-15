@@ -187,10 +187,12 @@ class EnglishEntrycanary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بلبلی زەرد، بلبلەزەردە، قەناری، کاناری
-
-١. (ناو) باڵندەیەکی زەردی بچووک و دەنگ‌خۆش"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) باڵندەیەکی زەردی بچووک و دەنگ‌خۆش"""),
                           Row(
                             children: [
                               const Expanded(

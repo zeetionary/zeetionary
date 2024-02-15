@@ -157,10 +157,11 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شوێنەوارناس، باستان‌ناس، کۆنەوارناس، باستانەوان
-
-١. (ناو) کەسێکی شوێنەوارناس"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) کەسێکی شوێنەوارناس"""),
                           Row(
                             children: [
                               const Expanded(

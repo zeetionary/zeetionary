@@ -194,10 +194,12 @@ class EnglishEntrycalculate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێکدانەوە، ژمارە لێکدانەوە، ھەڵسەنگاندن
-
-١. (کردار) بەکارھێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) بەکارھێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
                           Row(
                             children: [
                               const Expanded(

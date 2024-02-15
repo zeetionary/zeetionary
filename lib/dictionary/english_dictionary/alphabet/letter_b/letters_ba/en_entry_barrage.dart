@@ -147,10 +147,12 @@ class EnglishEntrybarrage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بنەبەندکە، بناوان، ئەنباراو، ئاوگر، ھێرشی لەسەریەک، ھێرش‌باران، ڕەھێڵەباران، ڕێژنە
-
-١. (ناو) ڕێژەیەکی زۆر لە ھیرشی بە ئاراستەیەکدا، بەتایبەتی بۆ پاراستنی ئەو سەربازانەی کە ھێرش دەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕێژەیەکی زۆر لە ھیرشی بە ئاراستەیەکدا، بەتایبەتی بۆ پاراستنی ئەو سەربازانەی کە ھێرش دەکەن"""),
                           Row(
                             children: [
                               const Expanded(

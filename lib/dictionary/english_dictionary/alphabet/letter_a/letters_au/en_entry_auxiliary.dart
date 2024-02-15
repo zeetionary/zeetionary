@@ -154,10 +154,12 @@ class EnglishEntryauxiliary extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: یارمەتی‌دەرانە، کۆمەکی، یەدەکی، زاپاس، دەژی، پاشکۆیی، زیادی، یاریدەدەر، کاری یاریدەدەر، ھێزی یاریدەدەر، ھێزی پشتیوانی، یاریدەدەر، یارمەتی‌دەر
-
-١. (ھاوەڵناو) پێدانی یارمەتی بە کەسێکی تر کە بە سەرەکی کاردەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) پێدانی یارمەتی بە کەسێکی تر کە بە سەرەکی کاردەکات"""),
                           Row(
                             children: [
                               const Expanded(

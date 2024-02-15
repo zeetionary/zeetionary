@@ -153,10 +153,11 @@ class EnglishEntrybackbone extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بڕبڕە (ی پشت)، تیرەگەی پشت، کاریتەپشت، موورەگە(پشت)، ڕەزڵە، پروسک، پشتەماز، مۆغەرە، پشتەکتێب، تەوەری سەرەکی، بنچینە، پتەوی، تۆکمەیی، پشتیوانی سەرەکی، پشت، گرنگ‌ترین بەش، وێران، ئازایەتی 
-
-١. (ناو) بڕبڕەی پشت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) بڕبڕەی پشت"""),
                           Row(
                             children: [
                               const Expanded(

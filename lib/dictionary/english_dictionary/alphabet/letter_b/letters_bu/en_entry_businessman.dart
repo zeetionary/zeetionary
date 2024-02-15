@@ -196,7 +196,7 @@ class EnglishEntrybusinessman extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کاردار، بازرگان، تاجر، سەوداگەر، شارەزای کاروباری کارداری
 """),
                           const DefinitionKurdish(

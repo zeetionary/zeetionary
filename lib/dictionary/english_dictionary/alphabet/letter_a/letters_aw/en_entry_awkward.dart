@@ -156,10 +156,12 @@ class EnglishEntryawkward extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەگونجاو، نالەبار، نەشیاو، ناشارەزا، سەرەندەرنەکردوو، دەس‌خاو، ناوەستایانە، ناشی، سەخت، گران، دژوار، چەتوون، ناخۆش، سەرلێ‌شێواو، پەشۆکاو، ناڕێک، ناقۆڵا، قۆڕ، ناجۆر، قەبە، ناتەرز، بارناخۆش، نالەبار، نابار، خراپ‌ھەڵکەوتوو، مەترسی‌دار، جێی‌ترس
-
-١. (ھاوەڵناو) بەشێوەیەک کە تووشی شەرمت دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بەشێوەیەک کە تووشی شەرمت دەکات"""),
                           Row(
                             children: [
                               const Expanded(

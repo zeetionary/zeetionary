@@ -145,7 +145,7 @@ class EnglishEntrybeard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕیش، ڕدێن، قەڵتاس، قەڵپنگ، داسوو، بژ، پژ، قژی گەنمەشامی، خوڵامانە، بسکۆڵ، کاکۆڵ
 """),
                           const DefinitionKurdish(

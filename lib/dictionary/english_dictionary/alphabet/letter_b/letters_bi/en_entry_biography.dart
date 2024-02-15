@@ -145,10 +145,12 @@ class EnglishEntrybiography extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژیان‌نامە، سەربوردنامە
-
-١. (ھاوەڵناو) ژیانی کەسێک کە لەلایەن کەسێکی دیکەوە نووسراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ژیانی کەسێک کە لەلایەن کەسێکی دیکەوە نووسراوە"""),
                           Row(
                             children: [
                               const Expanded(

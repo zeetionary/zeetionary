@@ -94,7 +94,7 @@ class EnglishEntryaccelerator extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (فیزیک) تاودەر (= دەزگایێ بۆ تاودانی پارچۆلکە بنەڕەتی‌یە بارگاوی‌یەکان بە خێرایی‌یێکی یەکجار زۆر)، پێداڵی گاز، گاز
 
 ١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی"""),

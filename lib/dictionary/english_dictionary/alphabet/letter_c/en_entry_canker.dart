@@ -194,7 +194,7 @@ class EnglishEntrycanker extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: برین (لێو، دەم و ھتد)، تامیسک، تێمیسک، خشرۆک، خۆرە، مێمڵ، ئافەت (دار)، لاڕەشە، سندان، بەڵا، کاریگەری خراپ، ئاسێو، پەتا، سەرەتان
 """),
                           const DefinitionKurdish(

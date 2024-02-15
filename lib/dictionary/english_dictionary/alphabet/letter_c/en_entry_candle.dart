@@ -188,10 +188,10 @@ class EnglishEntrycandle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەم، مۆم
-
-١. (ناو) مۆم"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) مۆم"""),
                           Row(
                             children: [
                               const Expanded(

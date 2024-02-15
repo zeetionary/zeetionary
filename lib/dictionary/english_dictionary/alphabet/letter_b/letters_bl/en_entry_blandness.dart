@@ -144,10 +144,12 @@ class EnglishEntryblandness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھێمنی، ئارامی، نەرمی، خۆشی، نیانی
-
-١. (ناو) بوونی کەمی لە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بوونی کەمی لە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو"""),
                           Row(
                             children: [
                               const Expanded(

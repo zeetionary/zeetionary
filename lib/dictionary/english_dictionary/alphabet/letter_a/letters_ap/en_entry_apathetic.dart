@@ -156,7 +156,7 @@ class EnglishEntryapathetic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەمتەرخەم، نادەربەست، بێ‌دەربەست، دڵسارد، ساردوسڕ، دڵ‌مردوو، بێ‌تاقەت، خەمسار، ناھومێد، بێ‌ھیوا، بێ‌ھەست
 """),
                           const DefinitionKurdish(

@@ -193,7 +193,7 @@ class EnglishEntryburden extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باری قورس، گوشار، قورسایی، بارگرانی، سەنگی، بار، بەرپرسایەتی (قورس)، ئەرک، پەیور، توانایی ھەڵگرتنی کەشتی، کەشتی‌بەرە، جێ‌بوونەوە، توانایی، تێبینی یان بابەتی سەرەکی، بیرۆکەی سەرەکی یان بنەڕەتی، سەربەند
 """),
                           const DefinitionKurdish(

@@ -152,10 +152,11 @@ class EnglishEntryawake extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەستاو، بەخەبەر، نەخەوتوو، نەنووستوو، ھۆشیار، ئاگادار، (بە)ئاگا
-
-١. (ھاوەڵناو) نەخەوتوو"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) نەخەوتوو"""),
                           Row(
                             children: [
                               const Expanded(

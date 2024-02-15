@@ -145,7 +145,7 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خاڵی کوڵان، ھەڵچوون، تووڕەیی توندوتیژانە، خاڵی تەقینەوە
 """),
                           const DefinitionKurdish(

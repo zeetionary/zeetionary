@@ -175,7 +175,7 @@ class EnglishEntryamenity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شت یان کەرەسەی ئاسوودەیی، کەل‌وپەلی خۆش‌گوزەرانی، خۆشی، تایبەتمەندی خۆشی، ئاسان‌کاری، کەل‌وپەلی ئاسوودەیی، شمەکی ئاسایش و ڕابواردن
 """),
                           const DefinitionKurdish(

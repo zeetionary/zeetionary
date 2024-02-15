@@ -152,10 +152,12 @@ class EnglishEntrybackfire extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێشەتەقین، پێشەسووتە، پڕمەئیگزۆز
-
-١. (کردار) ھەبوونی ئەنجامێک کە پێچەوانەی ئەوەیە کە چاوەڕواندەکرا."""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ھەبوونی ئەنجامێک کە پێچەوانەی ئەوەیە کە چاوەڕواندەکرا."""),
                           Row(
                             children: [
                               const Expanded(

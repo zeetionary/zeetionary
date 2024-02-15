@@ -153,10 +153,12 @@ class EnglishEntrybake extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێنان، کردن، پێوەدان، برژان، پێژان
-
-١. (کردار) برژاندنی شت لە فڕندا بەبێ ڕۆن یان شلە لەسەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) برژاندنی شت لە فڕندا بەبێ ڕۆن یان شلە لەسەی"""),
                           Row(
                             children: [
                               const Expanded(

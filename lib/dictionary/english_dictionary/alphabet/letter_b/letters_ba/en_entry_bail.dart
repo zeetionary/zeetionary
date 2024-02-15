@@ -154,10 +154,12 @@ class EnglishEntrybail extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بارمتە، دەستەبەرانە، دەستەبەری، زەمانەت، کەفیل، دەستەبەر، زامن، بەردان یان ئازادبوون بە دانانی دەستەبەر (نامە)، کەمە، تاسمە، دەور یان گەوی دەوری کۆس، سەتڵ، دۆلکە
-
-١. (ناو) بڕە پارەیەک کە دەدرێت بۆ ئەوەی تاوانبارێک ئازادبکرێت تا ڕۆژی دادگایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بڕە پارەیەک کە دەدرێت بۆ ئەوەی تاوانبارێک ئازادبکرێت تا ڕۆژی دادگایی"""),
                           Row(
                             children: [
                               const Expanded(

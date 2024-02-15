@@ -198,7 +198,7 @@ class EnglishEntrycaution extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھۆشیاری، پارێز، ئاگادارکردنەوە، وریاکردنەوە، بەگوێ‌دادادن، ھۆشداری، دوابینی، تێبینی
 """),
                           const DefinitionKurdish(

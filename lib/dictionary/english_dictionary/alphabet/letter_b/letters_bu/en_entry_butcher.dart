@@ -192,10 +192,10 @@ class EnglishEntrybutcher extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆشت‌فرۆش، قەساب، قەسابی، قەساب‌خانە، دووکانی قەسابی، خوێن‌ڕێژ، پیاوکوژ، دڕندە
-
-١. (ناو) قەساب"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) قەساب"""),
                           Row(
                             children: [
                               const Expanded(

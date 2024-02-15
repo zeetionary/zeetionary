@@ -137,10 +137,12 @@ class EnglishEntryaccount extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەژمار، حساب، لیستی حیساب، قازانج، خێر، کەڵک، مەفا، سوود، بەھرە، سوود، بەھرە، باس‌کردن، لێدوان، لێکدانەوە، گێڕانەوە، تیشک خستنەسەر، ڕوون‌کردنەوە، ھۆ، سەرنج، ئاوڕلێدانەوە
-
-١. (ناو) ڕێککەوتنێک کە کەسێک لەگەڵ بانکێك ھەیەتی بۆ ھەڵگرتنی پارەکانی و کێشانەوە لێی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕێککەوتنێک کە کەسێک لەگەڵ بانکێك ھەیەتی بۆ ھەڵگرتنی پارەکانی و کێشانەوە لێی"""),
                           Row(
                             children: [
                               const Expanded(

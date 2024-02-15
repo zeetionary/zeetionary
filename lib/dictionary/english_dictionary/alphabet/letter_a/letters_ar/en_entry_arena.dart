@@ -157,10 +157,12 @@ class EnglishEntryarena extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەڕگە یان گۆڕەپان یان مەیدانی شەڕی شەڕگەر یان گلادیاتۆرەکانی ڕۆم، گۆڕەپان، مەیدان، کایە، پانتایی، قاد، مەڵبەند، شوێنی چالاکی یان پێش‌بڕکێ، گۆڕ، وەرزشگا، لمانی، ستادیۆم، یاریگا 
-
-١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """),
                           Row(
                             children: [
                               const Expanded(

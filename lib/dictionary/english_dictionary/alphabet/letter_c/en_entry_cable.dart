@@ -194,10 +194,12 @@ class EnglishEntrycable extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سیمپۆش، وایەرپۆش، شاوایەر، شاتێل، کابل، وایێر، وایەر، تێل، تەل، تەنافی تێلی، گوریس، گشتەک، تەناف، کەندر، زنجیر، برووسکە، تێلێگراف
-
-١. (ناو) ژمارەیەک وایەر کە داپۆشراوە و کارەبا، ستگناڵی موبایل، ھتد دەگوازێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژمارەیەک وایەر کە داپۆشراوە و کارەبا، ستگناڵی موبایل، ھتد دەگوازێتەوە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -156,7 +156,7 @@ class EnglishEntryardent extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەپەرۆش، سەرسەخت، تامەزرۆ، تین‌سەندوو، بەتین، بەتاو، توند(وتیژ)، گەرم، کڵپەکردوو، داگیرساو، گڕگرتوو 
 """),
                           const DefinitionKurdish(

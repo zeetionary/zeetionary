@@ -155,10 +155,12 @@ class EnglishEntryanimal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گیان‌لەبەر، ڕۆح‌لەبەر، ئاژەڵ، گیانەوەر، گیان‌دار، ژین‌دار، جانەوەر، زیندەوەر، بوونەوەر، گیانەوەری چوارپێ، مرۆڤی دڕندە، گیانەوەری، لەشی، جەستەیی، تەنانی
-
-١. (ناو) ئاژەڵ؛ گیانلەبەرێک کە باڵندە، ماسی، خشۆک، مێروو، یان مرۆڤ نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئاژەڵ؛ گیانلەبەرێک کە باڵندە، ماسی، خشۆک، مێروو، یان مرۆڤ نییە"""),
                           Row(
                             children: [
                               const Expanded(

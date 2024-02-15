@@ -197,7 +197,7 @@ class EnglishEntrycar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئۆتۆمبێل، ماشێن، مەکینە
 """),
                           const DefinitionKurdish(text: "١. (ناو) ئۆتۆمبێل"),

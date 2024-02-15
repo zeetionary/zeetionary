@@ -151,7 +151,7 @@ class EnglishEntrybiscuit extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: غوڕابی، تۆشە، جۆرێ نانی نەرم، ڕەنگی قاوەیی کاڵ یان ڕۆشن، ڕەنگی قاوەیی مەیلەو زەرد، گڵێنەی بێ‌لیاو یان بێ‌لۆعاب
 """),
                           const DefinitionKurdish(text: "١. (ناو) بسکیت"),

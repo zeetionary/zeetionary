@@ -190,7 +190,7 @@ class EnglishEntrycaterpillar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەتڵەمیران، تەتەڵەمیران، دەروێشەمارە، کرمەدار، کایە، کرمی دار، کرماسۆرک، کرمی مێروو یان پەپوولە
 """),
                           const DefinitionKurdish(

@@ -152,10 +152,12 @@ class EnglishEntrybanker extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خاوەن‌بانک، بانکەوان، چاودێری بانک
-
-١. (ناو) کەسێک کە خاوەنی بانکێکە، یان پۆستێکی باڵای تێدا ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە خاوەنی بانکێکە، یان پۆستێکی باڵای تێدا ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

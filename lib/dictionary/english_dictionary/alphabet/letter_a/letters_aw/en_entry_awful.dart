@@ -153,10 +153,12 @@ class EnglishEntryawful extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەسام، بەھەیبەت، بەئەندێش، شێوەدار، مایەی ترس و ڕێز، بەشەوکەت، ترسدار، ترسێنەر، زۆر خراپ، زۆر ناخۆش، شپرزە
-
-١. (ھاوەڵناو) شتێک کە زۆر خراپ و ناخۆشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە زۆر خراپ و ناخۆشە"""),
                           Row(
                             children: [
                               const Expanded(

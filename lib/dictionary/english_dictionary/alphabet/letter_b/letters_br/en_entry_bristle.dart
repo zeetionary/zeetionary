@@ -142,7 +142,7 @@ class EnglishEntrybristle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: موو یان قژی زبر، تووک، فڵچە، موو (قژی فرچە، ددان‌شۆر و ھتد)
 """),
                           const DefinitionKurdish(text: "١. (ناو) تاڵە قژێک"),

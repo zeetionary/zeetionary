@@ -155,10 +155,12 @@ class EnglishEntryballot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەنگ، دەنگ‌پەڕ، پەڕەی دەنگ، پەڕەی دەنگ‌دان، دەنگ‌نامە، دەنگ‌دان، ڕێکخستەی دەنگ‌دانی نھێنی، مافی دەنگ‌دان، دەنگەکان، کۆی دەنگ
-
-١. (ناو) سیستەمی دەنگدان لەسەر کاغەز و بەنھێنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) سیستەمی دەنگدان لەسەر کاغەز و بەنھێنی"""),
                           Row(
                             children: [
                               const Expanded(

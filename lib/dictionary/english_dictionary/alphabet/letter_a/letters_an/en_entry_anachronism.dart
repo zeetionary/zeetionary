@@ -152,10 +152,12 @@ class EnglishEntryanachronism extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەڵەی مێژوویی، شتێ کە لەگەڵ ڕەوتی مێژوو یەک‌نەگرێتەوە، شتێکی نەگونجاو لەگەڵ قۆناخێکی مێژوویی، دانانی بە ھەڵەی شتێ لە قۆناخێکی مێژوویی‌دا، پاش‌وپێش‌گەری
-
-١. (ناو) کۆنەپەرستی؛ شتێک کە پەیوەندی بە ڕابردوو ھەیە و لەگەڵ سەردەمدا یەکناگرێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کۆنەپەرستی؛ شتێک کە پەیوەندی بە ڕابردوو ھەیە و لەگەڵ سەردەمدا یەکناگرێتەوە"""),
                           Row(
                             children: [
                               const Expanded(

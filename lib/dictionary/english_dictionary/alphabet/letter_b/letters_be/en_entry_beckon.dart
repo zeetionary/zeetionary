@@ -147,10 +147,12 @@ class EnglishEntrybeckon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاماژە کردن، بانگ کردن، قاو کردن، گازی کردن
-
-١. (کردار) ئاماژەکردن بە پەنجە یان دەست، زۆرجار بۆ بانگکردنی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ئاماژەکردن بە پەنجە یان دەست، زۆرجار بۆ بانگکردنی کەسێک"""),
                           Row(
                             children: [
                               const Expanded(

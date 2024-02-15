@@ -92,7 +92,7 @@ class EnglishEntryabsentee extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (کەس) نادیار، نائامادە، نەھاتە، ناپەیدا، نالێرە، نەھاتوو
 """),
                           const DefinitionKurdish(

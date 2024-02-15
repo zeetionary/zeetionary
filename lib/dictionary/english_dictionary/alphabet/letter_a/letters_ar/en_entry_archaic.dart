@@ -158,10 +158,12 @@ class EnglishEntryarchaic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆن، کەڤنار، باستانی، لەباوکەوتوو، لەبڕەوکەوتوو، مردوو، بێ‌باو، کوێرەوەبوو، بێ‌بڕەو، دێرین، زووین
-
-١. (ھاوەڵناو) شتێکی کۆن کە چیتر لە بەکارھێناندا نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێکی کۆن کە چیتر لە بەکارھێناندا نییە"""),
                           Row(
                             children: [
                               const Expanded(

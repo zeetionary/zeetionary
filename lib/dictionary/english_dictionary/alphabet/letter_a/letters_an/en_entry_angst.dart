@@ -150,7 +150,7 @@ class EnglishEntryangst extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (لە ئاڵمانی‌یەوە بە واتای "ترس.") نگەرانی، ترس، دەروون‌تەنگی، ئارام‌لێ‌ھەڵگیراوی، دڵەڕاوکێ، ناڕەحەتی (بەتایبەت لە ڕەوش و بارودۆخی جیھان‌دا)
 """),
                           const DefinitionKurdish(

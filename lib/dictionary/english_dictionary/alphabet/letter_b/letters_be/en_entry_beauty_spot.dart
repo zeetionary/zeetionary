@@ -146,10 +146,12 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەیرانگا، جێگای خۆش یا جوان، خاڵ
-
-١. (ناو) ناوچەیەکی دەرەوەی شار کە بەناوبانگە بۆ جوانییەکەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ناوچەیەکی دەرەوەی شار کە بەناوبانگە بۆ جوانییەکەی"""),
                           Row(
                             children: [
                               const Expanded(

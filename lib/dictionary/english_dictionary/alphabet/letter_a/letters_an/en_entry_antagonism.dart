@@ -152,10 +152,11 @@ class EnglishEntryantagonism extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوژمنایەتی، قین‌گێڕی، دژایەتی، ناکۆکی، بەربەرەکایەتی، ڕکەبەرایەتی
-
-١. (ناو) ھەستی ڕکابەری و ڕق"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ھەستی ڕکابەری و ڕق"""),
                           Row(
                             children: [
                               const Expanded(

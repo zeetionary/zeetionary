@@ -108,7 +108,7 @@ class EnglishEntryagency extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاژانس، دەزگا، کارگێڕی، نووسینگەی کارداری، لق، نوێنەرایەتی، بەڕێوەبەری نوێنەرایەتی، یارمەتی، نێوگژیوانی، ناوبەری، دەڵاڵی، ناوبژێتی، بەشی کارگێڕی، بەشی بەڕێوەبەری، کار
 """),
                           const DefinitionKurdish(

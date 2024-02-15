@@ -109,7 +109,7 @@ class EnglishEntryalkali extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەلکالای، ئەلکالی، تفت، قەڵیە، قەلیە
 """),
                           const DefinitionKurdish(

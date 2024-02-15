@@ -151,10 +151,12 @@ class EnglishEntryautumn extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاییز، گەڵاڕێزان، خەزەڵوەر
-
-١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات"""),
                           Row(
                             children: [
                               const Expanded(

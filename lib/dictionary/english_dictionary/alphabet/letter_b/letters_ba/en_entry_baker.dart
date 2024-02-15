@@ -152,10 +152,12 @@ class EnglishEntrybaker extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نانەوا، تەنوورەوان، تەنوورەڤان
-
-١. (ناو) کەسێک کە پیشەی فرۆشتنی نان و کێکی برژاوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە پیشەی فرۆشتنی نان و کێکی برژاوە"""),
                           Row(
                             children: [
                               const Expanded(

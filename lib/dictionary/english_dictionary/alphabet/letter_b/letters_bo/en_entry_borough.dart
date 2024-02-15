@@ -144,7 +144,7 @@ class EnglishEntryborough extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناوچە، مەڵبەند (لە دابەشاندنی شاردا)، بارێ (ھەر یەک لە پێنج ناوچە
 """),
                           const DefinitionKurdish(

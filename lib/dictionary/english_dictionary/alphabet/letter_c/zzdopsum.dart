@@ -190,7 +190,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: 
 """),
                           const DefinitionKurdish(
@@ -202,7 +202,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "11speakdopsum1s111111111111111111111111111111111"),
+                                            "speakdopsum1s111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
                                         text: "رستە_رستە_رستە_رستە."),
                                   ],

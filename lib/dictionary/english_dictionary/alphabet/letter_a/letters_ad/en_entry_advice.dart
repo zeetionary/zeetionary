@@ -108,10 +108,12 @@ class EnglishEntryadvice extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئامۆژگاری، شیرەت، پەند، نەسێحەت، ڕاسپاردە، ڕا، بۆچوون، پرس‌وڕا، ڕاوێژ (کاری)، پێشنیار، ھەواڵ، ئاگاداری
-
-١. (ھاوەڵناو) بۆچوونێک یان پێشنیارێک لەسەر ئەوەی کەسێک دەبێت چی بکات لە بارودۆخێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بۆچوونێک یان پێشنیارێک لەسەر ئەوەی کەسێک دەبێت چی بکات لە بارودۆخێک"""),
                           Row(
                             children: [
                               const Expanded(

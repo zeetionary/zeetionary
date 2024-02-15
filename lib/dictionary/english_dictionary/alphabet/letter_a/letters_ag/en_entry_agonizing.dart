@@ -107,10 +107,12 @@ class EnglishEntryagonizing extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەژان، بەئازار، مایەی مەینەتی، دەرد
-
-١. (ھاوەڵناو) شتێک کە دەبێتەھۆی ئازار و ناڕەحەتی زۆر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە دەبێتەھۆی ئازار و ناڕەحەتی زۆر"""),
                           Row(
                             children: [
                               const Expanded(

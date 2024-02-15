@@ -145,10 +145,12 @@ class EnglishEntrybattlements extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆنگرە، کونگیرە، شوورە، قەڵبە، بڕگەدیوار
-
-١. (ناو) دیوارێک بە دەوری بەشی سەرەوەی قەڵایەکدا کە بۆشایی بە دەوریدا ھەیە بۆ ئەوەی لێیەوە تیر بھاوێژن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دیوارێک بە دەوری بەشی سەرەوەی قەڵایەکدا کە بۆشایی بە دەوریدا ھەیە بۆ ئەوەی لێیەوە تیر بھاوێژن"""),
                           Row(
                             children: [
                               const Expanded(

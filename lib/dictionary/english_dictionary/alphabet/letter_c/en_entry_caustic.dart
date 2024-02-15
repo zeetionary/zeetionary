@@ -191,7 +191,7 @@ class EnglishEntrycaustic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سووتێنەر، توێنەر، تاڵ، ناخۆش، ڕەق، توند، توندوتیژ 
 """),
                           const DefinitionKurdish(

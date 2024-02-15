@@ -152,10 +152,12 @@ class EnglishEntrybalustrade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەردە، چاغ، سیاج، شوورە
-
-١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە"""),
                           Row(
                             children: [
                               const Expanded(

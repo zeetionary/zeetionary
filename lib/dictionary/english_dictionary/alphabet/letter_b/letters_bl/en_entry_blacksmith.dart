@@ -143,10 +143,12 @@ class EnglishEntryblacksmith extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاسنگەر, ناڵبەند، قەڵەم‌تراش، سۆلبەند
-
-١. (ناو) کەسێک کە کاری ئاسنگەری دەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە کاری ئاسنگەری دەکات"""),
                           Row(
                             children: [
                               const Expanded(

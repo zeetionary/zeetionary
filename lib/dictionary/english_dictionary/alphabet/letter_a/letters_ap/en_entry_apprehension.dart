@@ -159,10 +159,12 @@ class EnglishEntryapprehension extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تێگەیشتن، پێزانین، پێ‌پێبردن، بەخۆزانین، حاڵی‌بوون، نگەرانی، دڵەخورپە، دڵەڕاوکێ، دڵەکوتە، ترس، دەس‌بەسەری، ڕاگرتن، گل‌دانەوە
-
-١. (ناو) نیگەرانی یان ترس لەوەی شتێکی خراپ لەوانەیە ڕووبدات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) نیگەرانی یان ترس لەوەی شتێکی خراپ لەوانەیە ڕووبدات"""),
                           Row(
                             children: [
                               const Expanded(

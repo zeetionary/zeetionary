@@ -146,7 +146,7 @@ class EnglishEntryboat extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەمی، لۆتکە، بەلەم، ناوە، کەشتی (چکۆلە)
 """),
                           const DefinitionKurdish(

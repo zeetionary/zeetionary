@@ -97,7 +97,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەجێ‌ھێشتن، تەنیاخستنەوە، تەنیامانەوە، وەلانان، پشت(لێ)ھەڵکردن، چۆڵ‌کردن، تەرک‌کردن، چاوپۆشین، وازلێ‌ھێنان، بەنیوەچڵی‌ھێشتنەوە، دەس(لێ)ھەڵگرتن، تەواونەکردن، ناتەواوھێشتنەوە، دەس(ت)ڕاگرتن، لێ‌گەڕان، دەس(ت)لێ‌بەردان، دەست‌بەرداری، دەس(ت)کێشانەوە
 """),
                           const DefinitionKurdish(

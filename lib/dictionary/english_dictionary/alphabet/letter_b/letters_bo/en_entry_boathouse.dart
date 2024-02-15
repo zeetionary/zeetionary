@@ -143,10 +143,12 @@ class EnglishEntryboathouse extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەلەم‌خانە، گەمی‌خانە، گەمیگا، جێ‌گەمی
-
-١. (ناو) بینایەک لە تەنیشت ڕووبارێک یان دەریاچەیەک بۆ دانانی بەلەم تێیدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بینایەک لە تەنیشت ڕووبارێک یان دەریاچەیەک بۆ دانانی بەلەم تێیدا"""),
                           Row(
                             children: [
                               const Expanded(

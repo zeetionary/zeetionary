@@ -192,7 +192,7 @@ class EnglishEntrycarbonpaper extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کاغزی کۆپی، لەبەرگرتنەوە، یان ھەڵگرتنەوە
 """),
                           const DefinitionKurdish(

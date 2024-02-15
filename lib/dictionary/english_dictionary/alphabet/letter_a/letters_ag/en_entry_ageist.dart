@@ -107,10 +107,12 @@ class EnglishEntryageist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەمەن‌گەر، پیرئازار، بۆپیرخراپ
-
-١. (ناو) کەسێک کە مامەڵەی لەگەڵ کەسانی بە تەمەن خراپە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە مامەڵەی لەگەڵ کەسانی بە تەمەن خراپە"""),
                           Row(
                             children: [
                               const Expanded(

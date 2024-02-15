@@ -192,10 +192,12 @@ class EnglishEntrybeam extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کاریتە، نیرگە، بەرازە، تەژ، دیرەک، ماخ، ڕاژ(ە)، وڕەس، دەستەک، تیرک، ئاڵوودار، لادار، گرس، شاھین، باھو، دارتەرازوو، میلە، میل، تریشک، لیزگ، تیشک، تیرێژ، تیرۆژ، باریکە ڕووناکی، ھێڵە ڕۆشنایی، نیشانە یان ئاماژەی ڕادیۆیی یان ڕادارەکان (بۆ ڕێنوێنی کەشتی و فڕۆکەکان بەکاردێنرێ)، پانایی کەشتی، نیرگە یان کاریتەی کەشتی، بزە، پێکەنین، بسکە، زەردەخەنە، میلەی لەنگەر
-
-١. (ناو) ھێڵێک لە ڕۆشنایی، شەپۆلی کارۆموگناتیسی، یان تەنۆلکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھێڵێک لە ڕۆشنایی، شەپۆلی کارۆموگناتیسی، یان تەنۆلکە"""),
                           Row(
                             children: [
                               const Expanded(

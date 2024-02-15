@@ -159,10 +159,12 @@ class EnglishEntryastrology extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فەلەکناسی، ئەستێرەبینی، ئەستێرەژمێری
-
-١. (ناو) لێکۆڵینەوە لە شوێنی ئەستێرەکان و جوڵەی ھەسارەکان بە باوەڕی ئەوەی کە کاریگەری لەسەر ژیانی مرۆڤ درووست دەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لێکۆڵینەوە لە شوێنی ئەستێرەکان و جوڵەی ھەسارەکان بە باوەڕی ئەوەی کە کاریگەری لەسەر ژیانی مرۆڤ درووست دەکەن"""),
                           Row(
                             children: [
                               const Expanded(

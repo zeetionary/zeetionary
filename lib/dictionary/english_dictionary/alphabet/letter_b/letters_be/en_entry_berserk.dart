@@ -148,10 +148,12 @@ class EnglishEntryberserk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کفردەرھاتوو، تووڕە، بەردبەباکردوو، شێت
-
-١. (ھاوەڵناو) زۆر تووڕە، بەشێوەیەکی توندوتیژ و بەبێ جڵەو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) زۆر تووڕە، بەشێوەیەکی توندوتیژ و بەبێ جڵەو"""),
                           Row(
                             children: [
                               const Expanded(

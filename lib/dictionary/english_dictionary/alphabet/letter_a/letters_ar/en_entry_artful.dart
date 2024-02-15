@@ -158,7 +158,7 @@ class EnglishEntryartful extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فێڵباز، گزیکار، فێڵاوی، دەس‌ڕەنگین، شارەزا، کارامە، زیرەک، پڕفێڵ، بە فێڵەوە 
 """),
                           const DefinitionKurdish(

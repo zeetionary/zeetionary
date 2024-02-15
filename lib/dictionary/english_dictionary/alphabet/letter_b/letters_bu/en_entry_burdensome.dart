@@ -187,10 +187,11 @@ class EnglishEntryburdensome extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گرنگ، سەخت، ئاسێھـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
-
-١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
                           Row(
                             children: [
                               const Expanded(

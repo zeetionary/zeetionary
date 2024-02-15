@@ -138,7 +138,7 @@ class EnglishEntryalien extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھاووڵاتی بیانی یان بێگانە، بیانی، دەرەکی، بێگانە، ئاوەکی، نامۆ، نەناس، لاوە، غەریب، غەوارە، نائاسایی، پەسندنەکراو، جیاواز، دژ، (سەربە) بوونەوەری جیھانەکانی تر
 """),
                           const DefinitionKurdish(

@@ -193,7 +193,7 @@ class EnglishEntrycell extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خانە، ژوورە، سلول، باتری، پیل، ھێزە، بەند، ژوورۆچکە (تاکەکەسی، زیندان)، چەق، ناوک، نێوک، ناوەند
 """),
                           const DefinitionKurdish(

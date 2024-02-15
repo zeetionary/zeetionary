@@ -118,10 +118,12 @@ class EnglishEntryadvantage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باشی، ئیمتیاز، سوود، خێر، بەھرە، قازانج، کەڵک، بەرژەوەندی، مەسڵەحەت، پێشترایەتی، باشتربوون، لەپێش‌بوون، (لە یاری تێنیس‌دا) خاڵی یەکەم (پاش بەرامبەربوون)، خێروقازانج، خێروبەھرە، خێروبێر
-
-١. (ناو) شتێک کە دەتخاتە بارودۆخێکی باشتر وەک لە کەسانی تر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە دەتخاتە بارودۆخێکی باشتر وەک لە کەسانی تر"""),
                           Row(
                             children: [
                               const Expanded(

@@ -242,7 +242,7 @@ class EnglishEntrybroken extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شکاو، وردوخاش، سەقەت، لێک‌ھەڵوەشاو، نیوەچڵ، ناتەواو، پچڕپچڕ، نابەردەوام، بێ‌سەرەوبەرە، شپرزە، تێ‌شکاو، سەرنەگرتوو، بە ئەنجام‌نەگەیشتوو، ناھومێد، ھێوابڕاو، لاواز، بێ‌گیان، کز، پێچوو، پێشێل‌کراو، ڕانەگیراو، شکێنراو، لەبەرچاونەگیراو، (زەوی و زار) ناڕێک، ناتەخت، گورگەپشت، تەپ‌ودۆڵ، کۆتایی‌پێھاتوو، (زمان) ناڕەوان، شپرزە، دەس(ـت)وپێ‌شکاو
 """),
                           const DefinitionKurdish(

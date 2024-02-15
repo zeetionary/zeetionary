@@ -148,7 +148,7 @@ class EnglishEntrybloom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوڵ، شکۆفە، خونچە، جەنگە، ھەڕەت، گەرمە، بن‌دەق، گوڵ‌کردن، خونچەکردن، پشکوتن، سەروبەند یان قۆناخی گوڵ‌کردن، تەڕوتازەیی، ڕەنگ‌وبۆ، (لەسەر میوە، گەڵا و لاسک) کوڵکە، وردەتووک، کۆبوونەوەی قەوزەکان لەسەر ئاو 
 """),
                           const DefinitionKurdish(

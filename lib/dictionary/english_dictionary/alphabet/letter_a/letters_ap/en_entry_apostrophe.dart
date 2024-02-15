@@ -159,10 +159,12 @@ class EnglishEntryapostrophe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کرتێن، بۆرۆکە، ئێپاسترۆف (" یان ’)
-
-١. (ناو) نیشانەی ’ وەک ئاماژەیەک بەوەی پیتێک یان زیاتر لە وشەیەکدا سڕدراونەتەوە، بۆ نموونە وەک she’s بۆ she is، یان ’63 بۆ 1963"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) نیشانەی ’ وەک ئاماژەیەک بەوەی پیتێک یان زیاتر لە وشەیەکدا سڕدراونەتەوە، بۆ نموونە وەک she’s بۆ she is، یان ’63 بۆ 1963"""),
                           Row(
                             children: [
                               const Expanded(

@@ -241,10 +241,12 @@ class EnglishEntrybag extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جانتا، ھەمانە، توورەکە، ھەگبە، کیس، کیسە، جزدان، ساک، کیف، جەواڵ، ھۆڕ؟، خورج، تیوەرە، تێڕ، دەلق، پاکەت، بڕی جێ‌بوونەوە، ڕاو، نێچیرەوانی, بڕ یان ژمارەیەکی زۆر، ماس، با (ژێرچاو، بێ‌خەوی یا لەبەر پیری)
-
-١. (ناو) شتێک کە لە پارچە، پلاستیک، یان کاغەز درووستکراوە و بەکاردێت بۆ ھەڵگرتنی شت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە لە پارچە، پلاستیک، یان کاغەز درووستکراوە و بەکاردێت بۆ ھەڵگرتنی شت"""),
                           Row(
                             children: [
                               const Expanded(

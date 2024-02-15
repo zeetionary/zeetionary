@@ -111,10 +111,11 @@ class EnglishEntryallergic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەربە ھەستیاری، ئالێرژی‌دار، ھەستیاری‌دار، دڵ‌ھەڵکەوتوو، بێزار، بێزراو
-
-١. (ھاوەڵناو) بوونی ھەستیاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) بوونی ھەستیاری"""),
                           Row(
                             children: [
                               const Expanded(

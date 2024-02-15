@@ -146,10 +146,12 @@ class EnglishEntrybeech extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (داری) نارەوەن، تیروو، درەختی بیچ، داری بیچ
-
-١. (ناو) دارێژی بەرزی ناو دارستان کە توێکڵی سەوزی لووسی ھەیە لەگەڵ گەڵای بریقەدار"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دارێژی بەرزی ناو دارستان کە توێکڵی سەوزی لووسی ھەیە لەگەڵ گەڵای بریقەدار"""),
                           Row(
                             children: [
                               const Expanded(

@@ -326,7 +326,7 @@ class EnglishEntrybrush extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فڵچە، بڕۆس، پەڕەمووچ، کلکی ڕێوی، دەوەن، دارۆکە، بێشە، دڕوو، سێرت، دڕک، جاڕەدەوەن، وشکەڵ، لق‌وپۆپی بڕاو یان شکاو، ورکەدار، لقی شکاو یا بڕاو، شەڕوشۆڕ، تێکھەڵچوون، لێکدان، سڕین، فڵچەکاری، فڵچەلێدان، (ئەوسترالیا) کچ یان ژنی لەبار
 """),
                           const DefinitionKurdish(

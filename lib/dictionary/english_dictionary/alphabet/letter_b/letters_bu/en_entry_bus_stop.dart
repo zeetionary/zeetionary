@@ -188,7 +188,7 @@ class EnglishEntrybusstop extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وێسگەی پاس، وێستگەی پاس، ئێسگەی پاس، وێزگەی پاس
 """),
                           const DefinitionKurdish(

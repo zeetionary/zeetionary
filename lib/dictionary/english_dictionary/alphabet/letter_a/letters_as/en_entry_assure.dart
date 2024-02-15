@@ -162,10 +162,11 @@ class EnglishEntryassure extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڵنیا کردن، خاترجەم کردن، بیمە کردن، مسۆگەر کردن
-
-١. (کردار) دڵنیایی‌کردنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) دڵنیایی‌کردنەوە"""),
                           Row(
                             children: [
                               const Expanded(

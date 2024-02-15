@@ -155,10 +155,12 @@ class EnglishEntryark extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           DividerDefinition(),
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: (لە ئینجیلدا) کەشتی نووح، سنووق، دارەمەیت، داڵدە، پەنا
-
-١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە ھەر ئاژەڵێک"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە ھەر ئاژەڵێک"""),
                         ],
                       ),
                     ),

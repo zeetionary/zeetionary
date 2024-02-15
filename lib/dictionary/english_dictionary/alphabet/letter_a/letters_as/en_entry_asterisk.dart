@@ -159,10 +159,12 @@ class EnglishEntryasterisk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نیشانەی ئەستێرە، ئەستێرۆکە (*)
-
-١. (کردار) دانانی نیشانەی ئەستێرە (*) لە تەنیشت شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) دانانی نیشانەی ئەستێرە (*) لە تەنیشت شتێک"""),
                           Row(
                             children: [
                               const Expanded(

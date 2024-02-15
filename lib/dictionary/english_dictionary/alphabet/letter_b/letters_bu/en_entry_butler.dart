@@ -187,7 +187,7 @@ class EnglishEntrybutler extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەورەی کارکەرەکان، سەربەردەست، سەرنۆکەر، سفرەباشی، سەرکارکەر
 """),
                           const DefinitionKurdish(
@@ -301,12 +301,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: butler (Derived forms: butlers)
+1. A manservant (usually the head servant of a household) who has charge of wines and the table (= pantryman)
 
-WORD_WEB
-butler
-WORD_WEB 
-haʊʊʊʊʊʊʊ4
-WORD_WEB
+- Noun: Butler 
+1. English poet (1612-1680) (= Samuel Butler)
+ 
+2. English novelist who described a fictitious land he called Erewhon (1835-1902) (= Samuel Butler)
 """,
   );
 

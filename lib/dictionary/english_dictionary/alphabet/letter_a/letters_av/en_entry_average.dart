@@ -156,10 +156,12 @@ class EnglishEntryaverage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نێوبڕ، مەیانەیی، ئەندازە، تێکڕا، ڕادەی نێوەڕاست، ناوەند، مابەین، (ماف) (بەشێ ھەر کەسێ لە دانی) زیانی کەشتی، ناوەند، مام‌ناوەند، نێوەڕاست، ئەندازە، نێوگیر، نێوەند، ئاسایی، ناتایبەتی، مام‌ناوەند
-
-١. (ھاوەڵناو) تێکڕا؛ کۆی گشتی کۆمەڵە بڕێک و دابەشکردنی ئەنجامەکە بەسەر ژمارەی بڕەکان """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) تێکڕا؛ کۆی گشتی کۆمەڵە بڕێک و دابەشکردنی ئەنجامەکە بەسەر ژمارەی بڕەکان """),
                           Row(
                             children: [
                               const Expanded(

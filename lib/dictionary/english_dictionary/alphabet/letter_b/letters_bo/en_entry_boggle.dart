@@ -144,10 +144,12 @@ class EnglishEntryboggle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناحەز، ترساو، تێڕامان، تێفکرین
-
-١. (کردار) ھێواشبوون لە کردن یان پەسەندکردنی شتێک بەھۆی ئەوەی سەرسام یان شۆکیت پێی """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ھێواشبوون لە کردن یان پەسەندکردنی شتێک بەھۆی ئەوەی سەرسام یان شۆکیت پێی """),
                           Row(
                             children: [
                               const Expanded(

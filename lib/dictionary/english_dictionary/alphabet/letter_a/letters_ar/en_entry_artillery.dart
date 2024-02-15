@@ -159,10 +159,12 @@ class EnglishEntryartillery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تۆپ‌خانە، تۆپ، لکی تۆپ‌خانە، تۆپ‌ناسی، زانستی تۆپ‌خانە، زانستی بەکارھێنانی تۆپ‌خانە 
-
-١. (ناو) تۆپخانە؛ چەکی قورس کە زۆرجار بە بەکارھێنانی ویل دەجوڵێنرێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) تۆپخانە؛ چەکی قورس کە زۆرجار بە بەکارھێنانی ویل دەجوڵێنرێن"""),
                           Row(
                             children: [
                               const Expanded(

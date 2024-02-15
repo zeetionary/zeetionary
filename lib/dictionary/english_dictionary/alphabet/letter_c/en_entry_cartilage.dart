@@ -191,7 +191,7 @@ class EnglishEntrycartilage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کڕکڕاگە، کرۆژە، خرمووکە، خرمووچک، چەق، ڕەقێنە
 """),
                           const DefinitionKurdish(

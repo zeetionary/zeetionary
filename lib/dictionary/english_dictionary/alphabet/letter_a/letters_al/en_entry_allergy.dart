@@ -110,10 +110,12 @@ class EnglishEntryallergy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئالێرژی، ھەستیاری، پێ‌نەکەوتن، پێ‌نەکەوتوویی، دڵ‌ھەڵکەوتن، پێ‌نەکەوتە، بێزاری، بێزلێ‌ھاتنەوە، قین‌لێ‌بوون
-
-١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ دەکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ دەکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت"""),
                           Row(
                             children: [
                               const Expanded(

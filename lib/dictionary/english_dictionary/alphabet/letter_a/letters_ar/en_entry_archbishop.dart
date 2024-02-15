@@ -157,10 +157,12 @@ class EnglishEntryarchbishop extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرئۆسقۆف، گەورەئۆسقۆف، ئۆسقۆفی گەورە
-
-١. (ناو) قەشەیەکی پلە بەرز کە بەرپرسیاری ھەموو کڵێساکانی شوێنێکی گەورەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) قەشەیەکی پلە بەرز کە بەرپرسیاری ھەموو کڵێساکانی شوێنێکی گەورەیە"""),
                           Row(
                             children: [
                               const Expanded(

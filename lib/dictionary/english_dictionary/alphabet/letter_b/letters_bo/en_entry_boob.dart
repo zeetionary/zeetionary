@@ -222,7 +222,7 @@ class EnglishEntryboob extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێ‌داقڵیشان، خەتا یان ھەڵەی گەوجانە، مرۆی گەوج، مەمک، بەرومەمک، بەردوویک، مەمکۆڵان، سنگ‌وبەرۆکی ژن
 """),
                           const DefinitionKurdish(

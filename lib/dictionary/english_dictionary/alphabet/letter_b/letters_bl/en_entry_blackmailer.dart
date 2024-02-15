@@ -143,7 +143,7 @@ class EnglishEntryblackmailer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باج‌سێن، خاوەگر، کەڵەگا، وەیگێڕ
 """),
                           const DefinitionKurdish(

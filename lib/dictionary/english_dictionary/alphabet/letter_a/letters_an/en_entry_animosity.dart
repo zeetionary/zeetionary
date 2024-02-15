@@ -151,7 +151,7 @@ class EnglishEntryanimosity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوژمنی، دوژمنایەتی، نەیاری، ڕق‌وکینە، قینەبەرایەتی، ڕقەبەرایەتی
 """),
                           const DefinitionKurdish(

@@ -193,7 +193,7 @@ class EnglishEntrycardinal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بنگەھی، بنچینەیی، بنەڕەتی، سەرەکی، بناخەیی، گرنگ، بەرکەفتی، سوورەسەیرە، سەیرەی سوور، ژمارەی بنەڕەتی (1، 2، 3، 4، ھتد)
 """),
                           const DefinitionKurdish(

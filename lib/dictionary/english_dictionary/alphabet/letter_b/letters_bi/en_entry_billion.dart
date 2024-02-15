@@ -147,10 +147,11 @@ class EnglishEntrybillion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیلیۆن، میلیارد، ھەزار میلیۆن، ژمارە یان بڕێکی یەکجار زۆر
-
-١. (ژمارە) ١٠٠٠,٠٠٠,٠٠٠؛ ھەزار ملیۆن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ژمارە) ١٠٠٠,٠٠٠,٠٠٠؛ ھەزار ملیۆن"""),
                           Row(
                             children: [
                               const Expanded(

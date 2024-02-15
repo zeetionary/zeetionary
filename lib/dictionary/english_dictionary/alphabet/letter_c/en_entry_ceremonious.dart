@@ -190,7 +190,7 @@ class EnglishEntryceremonious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: داب‌ودەستووری‌یانە، فەرمی، پێبەند بە داب‌ودەستوور، ڕێ‌وڕەسمی‌یانە، پڕڕێ‌وڕەسم
 """),
                           const DefinitionKurdish(

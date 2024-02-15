@@ -149,10 +149,12 @@ class EnglishEntrybay extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەنداو، ڕۆ، لاوچ، 
-
-١. (ناو) کەنداو؛ بەشێک لە دەریایەک کە بە قەسێک لە خاک دەوردراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەنداو؛ بەشێک لە دەریایەک کە بە قەسێک لە خاک دەوردراو"""),
                           Row(
                             children: [
                               const Expanded(

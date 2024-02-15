@@ -152,10 +152,12 @@ class EnglishEntrybarbaric extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌شارستانیەت، بێ‌ژیار، دڕندە، ھۆف، بەڕبەڕ، دڕندانە، بێ‌بەزەیی‌یانە، توندوتیژ، بەزەبروزەنگ، سەربە بەڕبەڕەکان، سادە، سەرەتایی
-
-١. (ھاوەڵناو) دڕندە و توندوتیژ بەشێوەیەک کە لە کەسانی خوێندەوار کە ڕێزی یەکدی دەگرن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) دڕندە و توندوتیژ بەشێوەیەک کە لە کەسانی خوێندەوار کە ڕێزی یەکدی دەگرن"""),
                           Row(
                             children: [
                               const Expanded(

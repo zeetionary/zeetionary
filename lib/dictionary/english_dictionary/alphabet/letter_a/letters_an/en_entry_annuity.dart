@@ -151,7 +151,7 @@ class EnglishEntryannuity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بڕانەی ساڵانە، ساڵانە، بیمەی مووچەی ساڵانە، حەق و مافی وەرگرتنی بڕانەی ساڵانە
 """),
                           const DefinitionKurdish(

@@ -190,7 +190,7 @@ class EnglishEntrycane extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەوەن، قامیش، چیت، ژاژ، نەی، نەیجە، حەسیر، گۆچان، داردەست، تووڵ، شووڵ، دار، خامە، شووڵک، قامیشی شەکر
 """),
                           const DefinitionKurdish(

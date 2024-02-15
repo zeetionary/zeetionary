@@ -108,7 +108,7 @@ class EnglishEntryagility extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چالاکی، گورجی، پڕجم‌وجوڵی، توندوتۆڵی
 """),
                           const DefinitionKurdish(

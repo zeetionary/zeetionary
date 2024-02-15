@@ -162,10 +162,12 @@ class EnglishEntryauthorization extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەسەڵات‌پێدان، ڕێدان، ڕێ‌پێدان، بەڵگەی ڕێدان، دەستوورنامە
-
-١. (ناو) مۆڵەت یان دەسەڵاتی فەرمی بۆ کردنی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مۆڵەت یان دەسەڵاتی فەرمی بۆ کردنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

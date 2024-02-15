@@ -94,7 +94,7 @@ class EnglishEntryabacus extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
 """),
                           const DefinitionKurdish(

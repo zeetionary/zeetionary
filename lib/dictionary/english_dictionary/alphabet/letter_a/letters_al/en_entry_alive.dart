@@ -162,7 +162,7 @@ class EnglishEntryalive extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زیندوو، لەژیان‌دا، نەمردوو، بەکەیف، بەگوڕ، بەدەماخ، بەجم‌وجوڵ، ھەڵسووڕ، چالاک، بزۆر، ئاگادار، بەخەبەر، ھەڵبوو، داگیرساو، کڵپەکردوو، پڕ (لە)
 """),
                           const DefinitionKurdish(

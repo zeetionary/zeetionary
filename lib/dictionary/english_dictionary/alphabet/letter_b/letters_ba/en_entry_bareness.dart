@@ -146,10 +146,11 @@ class EnglishEntrybareness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕووتی، پەتێتی، بێ‌بەرگی
-
-١. (ھاوەڵناو) ڕووت"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ڕووت"""),
                           Row(
                             children: [
                               const Expanded(

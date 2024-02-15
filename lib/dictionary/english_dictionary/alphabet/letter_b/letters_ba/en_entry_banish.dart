@@ -152,10 +152,12 @@ class EnglishEntrybanish extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوور خستنەوە، دەرکردن، لابردن، وەلانان
-
-١. (کردار) دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
                           Row(
                             children: [
                               const Expanded(

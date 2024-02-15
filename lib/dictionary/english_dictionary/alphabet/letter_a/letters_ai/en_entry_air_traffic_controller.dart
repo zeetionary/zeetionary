@@ -113,10 +113,12 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆنتڕۆڵ‌وانی فڕین یان نیشتنەوە
-
-١. (ناو) کەسێک کە بە ڕادیۆ ڕێنمایی دەدات بە فڕۆکەوانان بۆ ئەوەی بزانن لە کوێ بفڕن و بنیشنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە بە ڕادیۆ ڕێنمایی دەدات بە فڕۆکەوانان بۆ ئەوەی بزانن لە کوێ بفڕن و بنیشنەوە"""),
                           Row(
                             children: [
                               const Expanded(

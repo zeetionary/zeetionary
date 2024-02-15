@@ -152,7 +152,7 @@ class EnglishEntryavaricious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ماڵ‌پەرست، بەتەماح، چاوبرسی، چاوچنۆک، پیسکە، بەھەڵپە
 """),
                           const DefinitionKurdish(

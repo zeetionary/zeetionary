@@ -152,10 +152,12 @@ class EnglishEntrybackwater extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەنگاو، گۆلکاو، گۆلاو، پاشاو، دواکەوتوویی، لاتەریک، (شوێنی) چەپەک، لاپەڕ
-
-١. (ناو) بەشێکی دابڕاوی ڕووبارێک کە ئاو تێیدا ناجوڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەشێکی دابڕاوی ڕووبارێک کە ئاو تێیدا ناجوڵێت"""),
                           Row(
                             children: [
                               const Expanded(

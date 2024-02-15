@@ -165,10 +165,12 @@ class EnglishEntryatmosphere extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرگەھەوا، کەش، تەوشک، ھەوا، کەش‌وھەوا، ھەڵمەگۆ، چینەھەڵمینە 
-
-١. (ناو) ئەو گازانەی کە دەوری زەوییان داوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەو گازانەی کە دەوری زەوییان داوە"""),
                           Row(
                             children: [
                               const Expanded(

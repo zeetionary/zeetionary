@@ -302,7 +302,7 @@ class EnglishEntrybottle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شووشە، بوتڵ، شووشەی شیر، شیری وشک، شیری مانگا (لە بەرامبەر شیری دایک‌دا)، خواردنەوەی ئەڵکۆڵ، ئارەق، خواردنەوە، دڵ‌وجەرگ، وێران، کەپسوول یان لوولەکی گاز، پڕشووشەیێ، شووشەبەر
 """),
                           const DefinitionKurdish(

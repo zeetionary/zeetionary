@@ -93,7 +93,7 @@ class EnglishEntryabstemious extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەرم‌ڕەو، مام‌ناوەند، نادەسبڵاو، ئەندازەڕەو، کەم‌خۆر، پارێزگر، پارێزگار، خۆگر، بەپارێز، ئەندازەخۆر
 
 ١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"""),

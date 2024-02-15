@@ -152,10 +152,12 @@ class EnglishEntrybarb extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دڕوو، چقڵ، تیکان، زی، لاس، چزوو، (قولاپی ڕاوەماسی) نووک، سەر، سەری تیر، توانج، قسەی تاڵ یان ڕەق، ڕیشاڵ، کوڵکە، ڕیش، سمێڵ
-
-١. (ناو) نووکی قولابی ماسی کە بەرەو ناوەوە چەماوەتەوە بۆ ئەوەی دەرنەیەت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) نووکی قولابی ماسی کە بەرەو ناوەوە چەماوەتەوە بۆ ئەوەی دەرنەیەت"""),
                           Row(
                             children: [
                               const Expanded(

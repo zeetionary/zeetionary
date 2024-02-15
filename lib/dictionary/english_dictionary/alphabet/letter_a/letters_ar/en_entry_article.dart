@@ -162,10 +162,12 @@ class EnglishEntryarticle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بابەت، شت، تشت، شمەک، شت‌ومەک، کەل‌وپەل، وتار، وتە، نڤیسار، (ماف) مادە، بڕگە، بەند، (ڕێزمان) ئامرازی پێناسە
-
-١. (ناو) پارچە نووسراوێک سەبارەت بە بابەتێکی دیاریکراو لە لەسەر ڕۆژنامەیەک، گۆڤارێک، یان وێبسایتێک بڵاوکراوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچە نووسراوێک سەبارەت بە بابەتێکی دیاریکراو لە لەسەر ڕۆژنامەیەک، گۆڤارێک، یان وێبسایتێک بڵاوکراوە"""),
                           Row(
                             children: [
                               const Expanded(

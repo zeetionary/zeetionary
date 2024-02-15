@@ -145,7 +145,7 @@ class EnglishEntrybedclothes extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نوێن، پێخەف، متێل
 """),
                           const DefinitionKurdish(

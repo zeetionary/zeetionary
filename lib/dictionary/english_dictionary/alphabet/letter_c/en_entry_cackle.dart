@@ -190,10 +190,12 @@ class EnglishEntrycackle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قاقا، حیلکەحیلک، دەنگی تیژ و ناخۆش، زیکە، قیژە، گارەگار
-
-١. (ناو) کە مریشکێک دەنگێکی بەرزی ناخۆش دەردەکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کە مریشکێک دەنگێکی بەرزی ناخۆش دەردەکات"""),
                           Row(
                             children: [
                               const Expanded(

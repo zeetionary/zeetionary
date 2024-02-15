@@ -187,7 +187,7 @@ class EnglishEntrybungle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گووکاری، فشەکاری، کارپیسی، تێڕیان، تڕەکەڵەک، کاری سەرسەرەکی، کاری فشە
 """),
                           const DefinitionKurdish(

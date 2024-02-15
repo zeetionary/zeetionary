@@ -108,7 +108,7 @@ class EnglishEntryagitation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نیگەرانی، ناڕەحەتی، دڵەڕاوکێ، شڵەژان، ورووژان، ھەژان، پەشۆکاوی، پشێوی، ئاڵۆزی، شۆر، ئاژاوە، شاڵاو، ھەڵمەت، ڕاگەیاندن، ڕاتڵەکان، شڵەقاندن، شێواندن، لێکدان، تەکان‌دان
 """),
                           const DefinitionKurdish(

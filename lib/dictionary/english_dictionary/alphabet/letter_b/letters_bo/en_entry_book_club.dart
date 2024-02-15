@@ -144,10 +144,12 @@ class EnglishEntrybookclub extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: یانە یان کۆڕی کتێب
-
-١. (ناو) دامەزراوەیەک کە کتێب بە ھەرزان دەفرۆشێت بە ئەندامانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دامەزراوەیەک کە کتێب بە ھەرزان دەفرۆشێت بە ئەندامانی"""),
                           Row(
                             children: [
                               const Expanded(

@@ -157,10 +157,12 @@ class EnglishEntryarcade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێڕەوی کەوانەسەر یان تاق‌دار، بازار، قەیسەری، ڕاستەبازاڕ، زنجیرەتاق، بازاڕی سەرداپۆشراو
-
-١. (ناو) ڕێگایەکی سەر داخراو کە کەوانەی تێدایە و تەنیشتەکانی بینایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕێگایەکی سەر داخراو کە کەوانەی تێدایە و تەنیشتەکانی بینایە"""),
                           Row(
                             children: [
                               const Expanded(

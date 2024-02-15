@@ -143,10 +143,12 @@ class EnglishEntryblatant extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌شەرم، ڕووھەڵماڵراو، پڕزیکەزیک، پڕقیژەقیژ، پڕزەنازەنا، پڕھەراوھوریا، ئاشکرا، دیار، بەرچاو
-
-١. (ھاوەڵناو) کارێکی خراپ کە بە ئاشکرا دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کارێکی خراپ کە بە ئاشکرا دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(

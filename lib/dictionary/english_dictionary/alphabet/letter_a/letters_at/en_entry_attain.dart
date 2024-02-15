@@ -160,10 +160,12 @@ class EnglishEntryattain extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وەدەست ھێنان، پێگەیشتن، تەواو کردن
-
-١. (کردار) سەرکەوتن لە بەدەستھێنانی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) سەرکەوتن لە بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

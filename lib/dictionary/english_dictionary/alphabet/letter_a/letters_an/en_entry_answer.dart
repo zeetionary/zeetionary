@@ -217,10 +217,12 @@ class EnglishEntryanswer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: وەڵام، وەرام، بەرسڤ، کاردانەوە، دژکردەوە، چارەسەری، ڕێگاچارە
-
-١. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان دەیڵێیت وەک وەڵام بۆ پرسیارێک یان بارودۆخێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان دەیڵێیت وەک وەڵام بۆ پرسیارێک یان بارودۆخێک"""),
                           Row(
                             children: [
                               const Expanded(

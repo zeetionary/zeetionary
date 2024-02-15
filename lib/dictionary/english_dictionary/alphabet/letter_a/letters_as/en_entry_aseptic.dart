@@ -158,7 +158,7 @@ class EnglishEntryaseptic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (پزشکی) خاوێنەوەبوو، پاکژەوەبوو، خاوێنەوەکراو، پاکژکراو، خاوێن، خاوێن لە ھەر بەکتریایێکی بەزیان یان زیان‌بار
 """),
                           const DefinitionKurdish(

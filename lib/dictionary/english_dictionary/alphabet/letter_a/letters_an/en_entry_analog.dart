@@ -152,10 +152,12 @@ class EnglishEntryanalog extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (تکنیکی و فەرمی) ھاوشێوە، ھاوچەشن، لێکچوو، ھاوتا، وەکیەک،  شتێکی ھاوشێوە یان لێکچوو
-
-١. (ھاوەڵناو) ئامێرێکی ئەلیکترۆنی کە مەودایەکی بەردەوام گۆڕاوی بڕی فیزیایی بەکاردێنێت بۆ پێوان و کۆگاکردنی زانیاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) ئامێرێکی ئەلیکترۆنی کە مەودایەکی بەردەوام گۆڕاوی بڕی فیزیایی بەکاردێنێت بۆ پێوان و کۆگاکردنی زانیاری"""),
                           Row(
                             children: [
                               const Expanded(

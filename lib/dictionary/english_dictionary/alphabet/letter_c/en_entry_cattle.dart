@@ -191,7 +191,7 @@ class EnglishEntrycattle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گاڕان، ڕەشەوڵاغ، گاگەل، مێگەڵە وڵاخ، ناخر، پاتاڵ، ئاژەڵ، دەوڵەت
 """),
                           const DefinitionKurdish(

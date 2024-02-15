@@ -141,7 +141,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاوزوونە، ئاغزۆنە، ئاوزوونگە، ئاوزێنە، پزیم، سێر، بەرەزمانە، بەلەزوانە، قولاپ، لاری، خواری، بادران، پێچ‌خواردن، چەمانەوە، داھاتنەوە، گەڕان 
 """),
                           const DefinitionKurdish(

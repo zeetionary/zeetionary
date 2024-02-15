@@ -157,7 +157,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرچین‌سالاری، حکومەتی چینی ئەریستۆکرات یان گەورەزادەکان، (چینی) گەوران یا ئەشراف، خانەزادەکان، خانەدانەکان، ھەڵبژاردەکان
 """),
                           const DefinitionKurdish(

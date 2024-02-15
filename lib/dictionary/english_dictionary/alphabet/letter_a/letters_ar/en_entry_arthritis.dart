@@ -158,7 +158,7 @@ class EnglishEntryarthritis extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاوسانی جومگە، بای جومگە، جومگەماسێ یان ئاوسێ
 """),
                           const DefinitionKurdish(

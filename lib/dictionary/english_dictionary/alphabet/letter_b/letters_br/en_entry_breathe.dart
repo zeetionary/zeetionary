@@ -251,7 +251,7 @@ class EnglishEntrybreathe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەناسەدان، ھەناسە کێشان، نەفەس کێشان
 """),
                           const DefinitionKurdish(

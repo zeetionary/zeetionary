@@ -146,7 +146,7 @@ class EnglishEntrybedtime extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کات یان وەختی خەو، خەوتنان
 """),
                           const DefinitionKurdish(text: "١. (ناو) کاتی خەو"),

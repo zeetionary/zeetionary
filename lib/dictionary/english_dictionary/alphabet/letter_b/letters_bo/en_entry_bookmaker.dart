@@ -148,10 +148,12 @@ class EnglishEntrybookmaker extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           DividerDefinition(),
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: گرێوکەر، گرێوچی، گرێوباز، مەرج‌بەست، بڵاوکەرەوە، وەشان‌کار
-
-١. (ناو) کەسێک کە گرەو وەردەگرێت لەسەر پێشبڕکێ و دواتر پارە دەدات بە لایەنی براوە"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە گرەو وەردەگرێت لەسەر پێشبڕکێ و دواتر پارە دەدات بە لایەنی براوە"""),
                           // Row(
                           //   children: [
                           //     const ExampleSentenceEnglish(

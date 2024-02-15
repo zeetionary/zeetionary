@@ -151,7 +151,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پارە، پارەی درشت، پارەی کاغەز
 """),
                           const DefinitionKurdish(

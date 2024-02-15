@@ -108,10 +108,11 @@ class EnglishEntryaloft extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەحەوا، لە سەروو، لە ژوور، ژوورسەروو، بان، لە فڕین‌دا، بەسەر داراڵای کەشتی لەسەرووی پشتی کەشتی
-
-١. (ھاوەڵناو) لە حەوادا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) لە حەوادا"""),
                           Row(
                             children: [
                               const Expanded(

@@ -161,10 +161,12 @@ class EnglishEntryattitude extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕوانین، دیتن، بۆچوون، نێرین، دۆخ، بار، ڕەوش، مەرەد، بارودۆخ، ھەڵس‌وکەوت، ڕەفتار، ڕەوتار، ھەڵوێست، شێوەی جووڵانەوە، ڕێڕەوی فڕۆکە یان کەشتی ئاسمانی
-
-١. (ناو) شێوازی بیرکردنەوە یان ڕوانین لە شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شێوازی بیرکردنەوە یان ڕوانین لە شتێک"""),
                           Row(
                             children: [
                               const Expanded(

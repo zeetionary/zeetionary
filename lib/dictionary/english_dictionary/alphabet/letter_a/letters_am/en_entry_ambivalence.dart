@@ -110,10 +110,11 @@ class EnglishEntryambivalence extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دوودڵی، دڕدۆنگی، ڕاڕایی‌بوون، تاوتاوی، ناکۆکی، یەک‌نەگرتنەوە، دژایەتی، (کیمیا) دووھاوھێزی، (دەروون‌ناسی) دوولایەنێتی، دوولا(یەنە)گەری
-
-١. (ھاوەڵناو) ھەبوونی دوودڵی"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) ھەبوونی دوودڵی"""),
                           Row(
                             children: [
                               const Expanded(

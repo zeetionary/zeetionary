@@ -108,7 +108,7 @@ class EnglishEntryadulterer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (مرد) زیناکار، داوێن‌تەڕ، داوێن‌پیس، شەڵوارپیس، بێ‌نامووس
 """),
                           const DefinitionKurdish(

@@ -188,10 +188,12 @@ class EnglishEntrycannon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تۆپ (ھی شەڕ)، شەستیری فڕۆکە، لوولەک
-
-١. (ناو) چەکێکی قورس و گەورەی کۆن کە لەسەر ویلە و تۆپەڵە بەرد یان تۆپەڵە ئاسن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) چەکێکی قورس و گەورەی کۆن کە لەسەر ویلە و تۆپەڵە بەرد یان تۆپەڵە ئاسن"""),
                           Row(
                             children: [
                               const Expanded(

@@ -348,10 +348,11 @@ class EnglishEntrybefore extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێشتر، پێشوو، پێشەکی، لەوەپێش، لەپێش، بەر، لە پێشاندا، لەپێشا، پێشدا، بەرلە، لەمەوبەر، زووتر، پێش لەوەی کە، پێش ئەوەی کە، بەر لەوەی کە، پێشتر لە، لە پێشتر، پێش، لە بەردەم، باشتر لە، ھەتا، تا
-
-١. (ئامراز) پێش کەسێک/شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ئامراز) پێش کەسێک/شتێک"""),
                           Row(
                             children: [
                               const Expanded(

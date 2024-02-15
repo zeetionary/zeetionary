@@ -146,10 +146,12 @@ class EnglishEntrybird extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باڵدار، باڵندە، فڕندە، پەلەوەر، مەل، مرۆ، بنیادەم، پیاو، کچ، کەنیشک
-
-١. (ناو) گیانلەبەرێک کە بە پەڕ داپۆشراوە و دوو باڵ و قاچی ھەیە. زۆرینەی باڵندەکان دەتوانن بفڕن."""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) گیانلەبەرێک کە بە پەڕ داپۆشراوە و دوو باڵ و قاچی ھەیە. زۆرینەی باڵندەکان دەتوانن بفڕن."""),
                           Row(
                             children: [
                               const Expanded(

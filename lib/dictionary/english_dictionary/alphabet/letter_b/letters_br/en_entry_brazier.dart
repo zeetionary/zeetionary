@@ -141,10 +141,12 @@ class EnglishEntrybrazier extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مەنقەڵ، ئاگردان، خەڵووزدان، ڕەژی‌دان
-
-١. (ناو) ئاگردانێک کە بەکاردێت وەک گەرمکەرەوە یان بۆ خواردن درووستکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئاگردانێک کە بەکاردێت وەک گەرمکەرەوە یان بۆ خواردن درووستکردن"""),
                           Row(
                             children: [
                               const Expanded(

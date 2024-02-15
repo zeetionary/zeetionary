@@ -143,7 +143,7 @@ class EnglishEntryblameworthy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شیاوی سەرکۆنە، گوناھبار، خەتابار
 """),
                           const DefinitionKurdish(

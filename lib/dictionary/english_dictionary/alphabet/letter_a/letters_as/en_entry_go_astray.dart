@@ -160,10 +160,11 @@ class EnglishEntrygoastray extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەڕێ‌دەرچوو، ڕێھەڵ‌کردوو، لاداو، خریایی، ڕێ‌لێ‌تێکچووو ئاوەکی، گومڕا، سەرلێ‌شێواو
-
-١. (ئیدیەم) ونبوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ئیدیەم) ونبوون"""),
                           Row(
                             children: [
                               const Expanded(

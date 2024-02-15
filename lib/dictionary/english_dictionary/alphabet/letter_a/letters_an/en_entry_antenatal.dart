@@ -152,7 +152,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆرپەلەیی، ئاوەڵمەیی، پێش لە دایک‌بوون، پێش‌بوون، سەربە ژنانی سکپڕ، تێ‌ڕوانینی قۆناخی سکپڕی، تێ‌ڕوانینی پزشکی لەسەر ژنانی سکپڕ، تێ‌ڕوانینی پزشکی سەردەمی سکپڕی
 """),
                           const DefinitionKurdish(

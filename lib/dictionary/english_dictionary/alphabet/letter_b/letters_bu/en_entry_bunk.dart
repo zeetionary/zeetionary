@@ -188,7 +188,7 @@ class EnglishEntrybunk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی:  تەختی دیواری، تەختی دوونھۆم، قسەی ھیچەکە، ھەڵیت‌وپڵیت، درۆ و دەلەسە، تێ‌قووچاندن، بۆی دەرچوون، تێ‌تەقاندن، پێ‌پێوەنان
 """),
                           const DefinitionKurdish(

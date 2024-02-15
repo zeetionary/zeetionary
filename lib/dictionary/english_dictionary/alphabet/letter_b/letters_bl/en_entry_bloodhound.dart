@@ -143,7 +143,7 @@ class EnglishEntrybloodhound extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەگی پۆلیس، سەگی ڕاو یان تانجی، سەگی شوێن‌ھەڵگر
 """),
                           const DefinitionKurdish(

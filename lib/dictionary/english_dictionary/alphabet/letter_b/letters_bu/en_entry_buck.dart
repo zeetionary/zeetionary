@@ -143,10 +143,12 @@ class EnglishEntrybuck extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گاکێوی، (نێرە)گاکێوی، کەڵ، نێراسک، ئافوور، ئاڤۆر، کەروێشکی نێر، ئاسک، لێپرسراوێتی، بەرپرسایەتی، شەقە، چێوشەق، ئەسپەدارین
-
-١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی ھندی، ڕاندی ئەفریقای باشوور"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی ھندی، ڕاندی ئەفریقای باشوور"""),
                           Row(
                             children: [
                               const Expanded(

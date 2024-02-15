@@ -161,7 +161,7 @@ class EnglishEntryaid extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: یارمەتی، ئاری، ئالی‌کاری، ھاری‌کاری، دەس‌گرتن، دەس‌گیرۆیی، کۆمەک، ھەداری، بەھاناچوون، فریاکەوتن، شت‌ومەک یان کەرەسەی یارمەتی
 """),
                           const DefinitionKurdish(

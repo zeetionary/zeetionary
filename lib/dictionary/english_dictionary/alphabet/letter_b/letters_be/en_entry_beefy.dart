@@ -146,10 +146,12 @@ class EnglishEntrybeefy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زلەوقەڵەو، ھەیکەلی، دووباد، تێک‌سمڕاو، بەھێز، بەبڕشت، بەتابشت، پتەو، ماسوولکەدار
-
-١. (ھاوەڵناو) کەسێکی گەورە، قەڵەو، و بەھێز """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێکی گەورە، قەڵەو، و بەھێز """),
                           Row(
                             children: [
                               const Expanded(

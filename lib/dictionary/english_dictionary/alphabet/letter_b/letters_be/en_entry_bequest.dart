@@ -145,7 +145,7 @@ class EnglishEntrybequest extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: میرات، بەش، بۆماوە، کەلەپوور، بەجێ‌ھێشتنی میرات یان کەلەپوور
 """),
                           const DefinitionKurdish(

@@ -190,10 +190,12 @@ class EnglishEntrycalendar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ساڵنامە، ڕۆژ(ژ)مێر
-
-١. (ناو) لاپەڕەیەک یان کۆمەڵە لاپەڕەیەک کە ھەفتە و مانگەکانی ساڵێکی دیاریکراوی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لاپەڕەیەک یان کۆمەڵە لاپەڕەیەک کە ھەفتە و مانگەکانی ساڵێکی دیاریکراوی تێدایە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -110,7 +110,7 @@ class EnglishEntryallegation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تۆمەت، تاوانبارکردن، گوناھبارکردن، داواکاری، ئیدعا
 """),
                           const DefinitionKurdish(

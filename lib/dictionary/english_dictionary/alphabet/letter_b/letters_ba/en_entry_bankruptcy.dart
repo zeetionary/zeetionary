@@ -152,7 +152,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مایەپووچی، مایەبۆشی، نابووتی، لاتی، سەرنەکەوتوویی، تێشکان
 """),
                           const DefinitionKurdish(

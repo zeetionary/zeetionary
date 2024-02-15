@@ -279,10 +279,12 @@ class EnglishEntrybreach extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شکاندن، لەبەرچاونەگرتن، بنپێ‌کردن، پێشێل(کردن)، تەپساندن، پێشێل‌کاری، نەمان، شێوان، تۆران، داگۆڕان، دابڕان (پێوەندی)، جیاوازی، کەلێن، ڕەخنە، کەلەبەر، دزە، شەبەق، دەلاقە، کون، درز، قەڵەش، تڵیش، ترەک، دەغەز
-
-١. (ناو) نەکردنی شتێک کە بەپێی یاسا دەبێت بکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) نەکردنی شتێک کە بەپێی یاسا دەبێت بکرێت"""),
                           Row(
                             children: [
                               const Expanded(

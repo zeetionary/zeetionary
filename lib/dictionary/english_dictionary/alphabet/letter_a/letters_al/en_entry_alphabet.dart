@@ -109,10 +109,11 @@ class EnglishEntryalphabet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاوبێ، ئەلفوبێ، ئەلفابێت، پیتەمەنی، بنەماکان، سەرەتاکان
-
-١. (ناو) ئەلفیبێی زمانێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) ئەلفیبێی زمانێک"""),
                           Row(
                             children: [
                               const Expanded(

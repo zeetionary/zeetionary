@@ -143,10 +143,12 @@ class EnglishEntryblackbird extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (گیانەوەرناسی) ڕەشیشە، ڕەشپەڕ
-
-١. (ناو) باڵندەیەکی ئەورووپی کە نێرەکانیان ڕەشن و دەنووکیان زەردە، و مێینەکانیان قاوەیین و دەنووکیشیان قاوەییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) باڵندەیەکی ئەورووپی کە نێرەکانیان ڕەشن و دەنووکیان زەردە، و مێینەکانیان قاوەیین و دەنووکیشیان قاوەییە"""),
                           Row(
                             children: [
                               const Expanded(

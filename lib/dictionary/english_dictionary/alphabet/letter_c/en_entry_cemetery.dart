@@ -190,7 +190,7 @@ class EnglishEntrycemetery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرقەبران، قەبران، گۆڕستان، قەبرستان
 """),
                           const DefinitionKurdish(

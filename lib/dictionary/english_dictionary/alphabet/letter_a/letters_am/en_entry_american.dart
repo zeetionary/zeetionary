@@ -175,10 +175,12 @@ class EnglishEntryamerican extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەمریکایی، سەربە ئەمریکا یان وشکاری ئەمریکا، خەڵکی ئەمریکا (باکوور، ناوەند یا باشوور، بەڵام باتایبەتی ویلایەتە یەکگرتووەکانی ئەمریکا)
-
-١. (ناو) کەسێکی ئەمریکایی، بەتایبەت دانیشتووی ویلایەتە یەکگرتووەکانی ئەمریکا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێکی ئەمریکایی، بەتایبەت دانیشتووی ویلایەتە یەکگرتووەکانی ئەمریکا"""),
                           Row(
                             children: [
                               const Expanded(

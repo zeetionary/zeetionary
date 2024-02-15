@@ -187,7 +187,7 @@ class EnglishEntryburly extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زەبەلاح، زەبەرلاح، زلە، کەتە، زەلام، قەڵافەت‌دار، ھەیکەلی، بەخۆوە، دووباد، بەھێز، زل و قورس، بەشان‌وپیل
 """),
                           const DefinitionKurdish(

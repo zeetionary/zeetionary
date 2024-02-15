@@ -140,7 +140,7 @@ class EnglishEntrybuilder extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کۆنتراکت‌کار، بڕکار، سازەر، سازێنەر، دروسکەر، پێکھێنەر، بنیاتنەر، (لە لێکدان‌دا) ـ ساز یان دروسکەر، ـچی
 """),
                           const DefinitionKurdish(

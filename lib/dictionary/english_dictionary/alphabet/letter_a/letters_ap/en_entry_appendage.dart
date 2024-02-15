@@ -157,10 +157,12 @@ class EnglishEntryappendage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاشکۆ، لکاند، پاڵخستە، سەرخستە، زیادی، زیادە، (زیندەناسی) ئەندام یان بەشێکی پاشکۆ یان زیادی
-
-١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی گەورەتر یان گرنگتر"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی گەورەتر یان گرنگتر"""),
                           Row(
                             children: [
                               const Expanded(

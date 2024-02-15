@@ -109,10 +109,12 @@ class EnglishEntryagricultural extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کشت‌وکاڵی، جووت‌بەندەیی، وەرزێری، جووتیاری، وەرزیانە
-
-١. (ھاوەڵناو) پەیوەندیدار بە زانست و کاری کشتوکاڵی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) پەیوەندیدار بە زانست و کاری کشتوکاڵی"""),
                           Row(
                             children: [
                               const Expanded(

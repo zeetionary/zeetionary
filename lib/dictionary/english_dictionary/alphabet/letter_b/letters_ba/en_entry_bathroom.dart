@@ -149,10 +149,12 @@ class EnglishEntrybathroom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: حەمام، گەرماو، دەسبەئاو، ئاوەدەس‌خانە
-
-١. (ناو) ژوورێک کە حەوزێکی خۆشتن و دەستشۆرێک و زۆرجار تەوالێتێکیشی تێدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ژوورێک کە حەوزێکی خۆشتن و دەستشۆرێک و زۆرجار تەوالێتێکیشی تێدایە"""),
                           Row(
                             children: [
                               const Expanded(

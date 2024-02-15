@@ -188,10 +188,11 @@ class EnglishEntrybuttonhole extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جێ‌دوگمە، کونەدوگمە، شیرازە، گوڵی جێ‌دوگمە
-
-١. (ناو) کونی دووگمە لە جلێکدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) کونی دووگمە لە جلێکدا"""),
                           Row(
                             children: [
                               const Expanded(

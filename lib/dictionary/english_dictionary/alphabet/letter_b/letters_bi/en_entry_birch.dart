@@ -147,10 +147,12 @@ class EnglishEntrybirch extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: درەختی بێتولە، بێتولە، تووس، تزز، داری توس
-
-١. (ناو) دارێک کە توێکڵێکی ساف و لووسی ھەیە لەگەڵ لقی ناسک و باریک و لە وڵاتانی جەمسەری باکوور دەڕوێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دارێک کە توێکڵێکی ساف و لووسی ھەیە لەگەڵ لقی ناسک و باریک و لە وڵاتانی جەمسەری باکوور دەڕوێت"""),
                           Row(
                             children: [
                               const Expanded(

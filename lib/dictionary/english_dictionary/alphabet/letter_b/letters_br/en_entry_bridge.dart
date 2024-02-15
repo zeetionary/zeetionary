@@ -304,10 +304,12 @@ class EnglishEntrybridge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پرد، پر، (وەنەن: پردی لە دار و تەناف)، (کەشتی) سەکۆی کەشتی‌یەوانی، سەکۆ یان سەرپشتی فەرماندەر و ئەفسەرەکان، سەکۆ یان پلاتفۆڕمی کەشتی‌یەوان، پردی لووت، بەرزایی لووت، بەشی سەرەوەی ئێسکی لووت، پردی چاویلکە، سەرلووت، پردی ددانەکان، بەست، پردە، پردەڵە (بەشێ لە ئامێری ژێداری میوزیک)
-
-١. (ناو) ڕێگایەک کە بەسەر ڕێگایەکی تر، ڕووبارێک، ھتد درووست دەکرێت بۆ پەڕینەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕێگایەک کە بەسەر ڕێگایەکی تر، ڕووبارێک، ھتد درووست دەکرێت بۆ پەڕینەوە"""),
                           Row(
                             children: [
                               const Expanded(

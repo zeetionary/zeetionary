@@ -190,7 +190,7 @@ class EnglishEntrycensorship extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بژارەوانی، چاودێری، پشکێنەری، بەرھەم‌دۆزی، بژارگەری
 """),
                           const DefinitionKurdish(

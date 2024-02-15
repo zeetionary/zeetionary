@@ -109,10 +109,12 @@ class EnglishEntryalms extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خێر، خێرات، سەدەقە
-
-١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە ھەژاران"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە ھەژاران"""),
                           Row(
                             children: [
                               const Expanded(

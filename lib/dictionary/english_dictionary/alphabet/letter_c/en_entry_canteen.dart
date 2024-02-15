@@ -188,10 +188,12 @@ class EnglishEntrycanteen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: حانووت، چێشت‌خۆری، سێلف‌سێرڤیس (خوێندنگا، کارگا، نووسینگە و ھتد), قومقومە، مەتارە (سەربازان), سنووق، سێرڤیس، قوتو (قاپ‌وکەوچک)
-
-١. (ناو) شوێنی خۆراک خواردن لە قوتابخانە، کارگە، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شوێنی خۆراک خواردن لە قوتابخانە، کارگە، ھتد"""),
                           Row(
                             children: [
                               const Expanded(

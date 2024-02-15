@@ -156,10 +156,12 @@ class EnglishEntryanchor extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەنگەر، پشت‌وپەنا، پشتیوان، وەستێنەی ماشێنی
-
-١. (ناو) پارچە ئاسنێکی قورس کە بە زنجیرێک یان گوریسێک بەستراوە و لەلایەکی کەشتیەک یان بەلەمێکەوە دەخرێتەخوارەوە بۆ ئەوەی لەنگەر بگرێت """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچە ئاسنێکی قورس کە بە زنجیرێک یان گوریسێک بەستراوە و لەلایەکی کەشتیەک یان بەلەمێکەوە دەخرێتەخوارەوە بۆ ئەوەی لەنگەر بگرێت """),
                           Row(
                             children: [
                               const Expanded(

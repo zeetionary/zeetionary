@@ -148,10 +148,12 @@ class EnglishEntrybinder extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جزوبەندکار، جزوبەندچی، شیرازەبەند، بەرگ‌تێگر، کلاسۆر، بەست، چەقچەقە
-
-١. (ناو) بەرگێکی بەھێز بۆ گرتنی پەڕە یان گۆڤار پێکەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەرگێکی بەھێز بۆ گرتنی پەڕە یان گۆڤار پێکەوە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -197,7 +197,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ویزەویز، گیزەگیز، (دەزگا) فڕەفڕ، ڤڕەڤڕ، زرنگانەوە، دەنگەدەنگ، ھەراوھوریا، قیژەقیژ، دەنگۆ، قسەڵۆک، دەنگی بوزێر (یان تەلەفۆن)، زەنگ یان زڕەی تەلەفۆن، ھەستی وروژان یان خۆشی
 """),
                           const DefinitionKurdish(

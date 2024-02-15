@@ -196,7 +196,7 @@ class EnglishEntrycesspit extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چاڵە مستەڕا، چاڵەپیساو، چاڵپیس، شوێنی گەنیو یان پیس، مەکۆی خراپە، جێی پیس
 """),
                           const DefinitionKurdish(

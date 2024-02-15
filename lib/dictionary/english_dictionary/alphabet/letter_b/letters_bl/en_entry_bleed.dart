@@ -146,10 +146,11 @@ class EnglishEntrybleed extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خوێن‌بەربوون، خوێن‌پژان، خوێن‌لێچوون
-
-١. (کردار) خوێن‌لێچوون"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) خوێن‌لێچوون"""),
                           Row(
                             children: [
                               const Expanded(

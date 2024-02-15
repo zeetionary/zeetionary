@@ -122,10 +122,12 @@ class EnglishEntryamateur extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاماتۆڕ، ھەوەس‌کار، کەیفی، حەزکار، خۆشی‌کار، ناپیشەیی، ناشارەزا، تازەکار، ناشی
-
-١. (ھاوەڵناو) کردنی شتێک بۆ ئارەزووی خۆت، نەک وەک پیشە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کردنی شتێک بۆ ئارەزووی خۆت، نەک وەک پیشە"""),
                           Row(
                             children: [
                               const Expanded(

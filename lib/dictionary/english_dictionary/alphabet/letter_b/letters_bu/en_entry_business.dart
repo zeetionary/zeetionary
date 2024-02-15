@@ -409,7 +409,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کار، پیشە، شوول، خەبات، ئیش، کردە، کار و کاسپی، سەودا، مەعامەلە، کڕین و فرۆش، سەوداگەری، کارداری، بازرگانی، ڕێکخراوەی کارداری یان بازرگانی (وەکوو کۆمپانی، دووکان، فرۆشگە یان کارخانە (کارگە)، دام‌ودەزگای کاری، شوێنی کار، دامەزراوەی کارداری، بابەت، مژار، پرس، شت، پرسگرێک، کێشە، دەردەسەر، دۆز، پەیور، ئەرک، ئەندازە (قەبارە) و ڕێژەی فرۆشتن و کڕین، کاری سەخت و گران
 """),
                           const DefinitionKurdish(

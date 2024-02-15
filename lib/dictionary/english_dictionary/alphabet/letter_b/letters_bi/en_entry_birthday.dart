@@ -145,7 +145,7 @@ class EnglishEntrybirthday extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕۆژەزا، ڕۆژی لەدایک‌بوون، زا(د)ڕۆژ، جەژن یان ئاھەنگی لە دایک‌بوون، زاسووران
 """),
                           const DefinitionKurdish(

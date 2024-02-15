@@ -108,7 +108,7 @@ class EnglishEntryaddict extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (بنیادەمی) گیرۆدە، خووپێ‌گرتوو، ئالوودە، فێر، سەوداسەر، دیل، ھۆگر، گیرۆدە
 """),
                           const DefinitionKurdish(

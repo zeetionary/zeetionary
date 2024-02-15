@@ -141,7 +141,7 @@ class EnglishEntrybracelet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بازنە، دەزبێن، دەسبێن، دەزبەند، بازۆڵەبەند، خڕخاڵ، دەست‌بەند
 """),
                           const DefinitionKurdish(

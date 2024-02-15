@@ -146,7 +146,7 @@ class EnglishEntryblindfold extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چاوبەست، بەچاوبەستراوی‌یەوە، چاوبەستراوانە، کوێرانە
 """),
                           const DefinitionKurdish(

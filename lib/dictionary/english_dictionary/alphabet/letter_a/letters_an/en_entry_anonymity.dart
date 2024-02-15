@@ -151,7 +151,7 @@ class EnglishEntryanonymity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەناسراوی، بێ‌ناونیشانی، بێ‌ناوی، گومی، نەناس‌مانەوە، نەناسران، ناودەرنەکردوویی
 """),
                           const DefinitionKurdish(

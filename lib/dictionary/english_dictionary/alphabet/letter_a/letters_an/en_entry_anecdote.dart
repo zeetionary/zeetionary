@@ -151,10 +151,12 @@ class EnglishEntryanecdote extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرگوزشتە، لاچیرۆک، حەقایەت، چیرۆک، داستان
-
-١. (ناو) کورتە چیرۆکێکی سەرجڕاکێش و خۆش و پێکەنیناوی لەسەر کەسێک یان ڕووداوێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کورتە چیرۆکێکی سەرجڕاکێش و خۆش و پێکەنیناوی لەسەر کەسێک یان ڕووداوێک"""),
                           Row(
                             children: [
                               const Expanded(

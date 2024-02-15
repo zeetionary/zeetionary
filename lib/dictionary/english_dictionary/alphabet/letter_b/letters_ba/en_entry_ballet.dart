@@ -153,10 +153,12 @@ class EnglishEntryballet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەما یان ھەڵپەڕکێی بالی، باڵی، باڵە، بالە، تیپ یا کۆڕی باڵی، میوزیکی باڵی
-
-١. (ناو) جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن"""),
                           Row(
                             children: [
                               const Expanded(

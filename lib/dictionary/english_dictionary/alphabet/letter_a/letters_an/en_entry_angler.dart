@@ -150,7 +150,7 @@ class EnglishEntryangler extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ماسیگر، ڕاوچی (ماسی)
 """),
                           const DefinitionKurdish(

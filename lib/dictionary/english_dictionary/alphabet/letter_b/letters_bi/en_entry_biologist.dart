@@ -145,10 +145,12 @@ class EnglishEntrybiologist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زیندەناس، زیندەوەرناس، بایۆلۆژیست
-
-١. (ناو) کەسێک کە کاری لێکۆڵینەوەیە لە زانستی ژیان و پێکھاتەی ئاژەڵ و ڕووەک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە کاری لێکۆڵینەوەیە لە زانستی ژیان و پێکھاتەی ئاژەڵ و ڕووەک"""),
                           Row(
                             children: [
                               const Expanded(

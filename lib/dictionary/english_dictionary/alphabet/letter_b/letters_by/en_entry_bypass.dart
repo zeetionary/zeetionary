@@ -190,7 +190,7 @@ class EnglishEntrybypass extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕێگای پشتێنەی شار، ڕێگای کەمەربەندی، لاڕێ، ڕێگای لابڕ، جۆگەی لاوەکی، لوولەی لاوەکی، لالوولە، لابۆری، بایپاس
 """),
                           const DefinitionKurdish(

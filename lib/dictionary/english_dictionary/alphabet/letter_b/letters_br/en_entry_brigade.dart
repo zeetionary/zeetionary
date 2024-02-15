@@ -140,7 +140,7 @@ class EnglishEntrybrigade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تیپ، لیوا (نزیک بە 5000 سەرباز)، دەستە، کۆمەڵ
 """),
                           const DefinitionKurdish(

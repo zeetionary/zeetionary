@@ -159,7 +159,7 @@ class EnglishEntryasset extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سامان، دارایی، ماڵ، مایە، خوداپێداوی، خوداگەیاندە، نێعمەت، چاوگی ھێز، سەرچاوە یان ژێدەری ھێز، سەرچاوەی دەسەڵات
 """),
                           const DefinitionKurdish(

@@ -110,7 +110,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەخۆبردووانە، ئەویدی‌خوازانە، لەخۆبردوو، گیان‌بەخت‌کەر، فەداکار، گیان‌باز
 """),
                           const DefinitionKurdish(

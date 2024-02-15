@@ -149,10 +149,10 @@ class EnglishEntrybelly extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ، سگ، لەم، ورگ، کرش، عوور، ئەشک، ئاشک، لەمە، ئورک، (لە فڕۆکە و کەشتی‌دا) زگ، کۆن مناڵ‌دان، پزدان، (لە ئامێری میوزیکدا) کاسە
-
-١. (ناو) سک"""),
+"""),
+                          const DefinitionKurdish(text: """١. (ناو) سک"""),
                           Row(
                             children: [
                               const Expanded(

@@ -107,7 +107,7 @@ class EnglishEntryagrarian extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەربە زەوی‌وزار، زەوی‌وزاری، زەمینی، مڵکی، زەوی‌یانە، کشت‌وکاڵی، وەرزێری، خۆڕسک، کێوی، دەشتی، دەشتەکی، سەربە خاوەنێتی زەوی‌وزار، لایەنگری دابەش‌کردنی سامانی زەوی‌زار، ئەندامی پارت یا بزووتنەوەی زەوی‌وزار
 """),
                           const DefinitionKurdish(

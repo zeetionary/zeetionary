@@ -109,7 +109,7 @@ class EnglishEntryairstrip extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باندی نیشتنەوە، باریکەی ھەستان و نیشتنەوە
 """),
                           const DefinitionKurdish(

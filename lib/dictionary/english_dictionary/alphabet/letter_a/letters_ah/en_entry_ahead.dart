@@ -142,7 +142,7 @@ class EnglishEntryahead extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێش، بەر، پێش‌تر، زووتر لە، لەپێش، لە بەردەم، لەوەپێش، لە پێش، بەرلە، لە پێشەوە
 """),
                           const DefinitionKurdish(

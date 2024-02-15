@@ -143,10 +143,12 @@ class EnglishEntrybloodpressure extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاڵەپەستۆ یا پەستۆی خوێن، پەستان یا گوشاری خوێن، زەختی خوێن
-
-١. (ناو) پەستانی خوێن کە بە جەستەدا دەجوڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پەستانی خوێن کە بە جەستەدا دەجوڵێت"""),
                           Row(
                             children: [
                               const Expanded(

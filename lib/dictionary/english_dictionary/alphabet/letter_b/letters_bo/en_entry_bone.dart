@@ -146,7 +146,7 @@ class EnglishEntrybone extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئێسک، ئێسقان، ھەستی، ئێسکان، سوخان، پەڵان، پێشە، (میوزیک) چەقەنە، (قومار) مۆرە، زار، قووڵ‌ترین بەشی شتێ، ناوەند، چەق، دڵ، ناخ، بابەت، ئێسک‌وپروسکی مردوو، ئێسک و گۆشت؛ لەش، جەستە؛ کەلاک، تەرم؛ داڕشتە یان چوارچێوەی بنەڕەتی
 """),
                           const DefinitionKurdish(

@@ -152,10 +152,12 @@ class EnglishEntrybanner extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پڵاکارد، ئاڵا، بەیداخ، درووشم، ناو، ناونیشان
-
-١. (ناو) پارچەیەک کە بە دوو ستوون ھەڵدەگیرێت و درووشمێکی لەسەرە وەک پشتیوانی بۆ شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پارچەیەک کە بە دوو ستوون ھەڵدەگیرێت و درووشمێکی لەسەرە وەک پشتیوانی بۆ شتێک"""),
                           Row(
                             children: [
                               const Expanded(

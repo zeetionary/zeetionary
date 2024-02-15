@@ -145,10 +145,12 @@ class EnglishEntrybiometric extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەربە زیندەپێوی یا زیندەوەرپێوی
-
-١. (ناو) بەکارھێنانی خاسیەتەکانی مرۆڤ، وەک چاو و پەنجە، بۆ ناسینەوەی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەکارھێنانی خاسیەتەکانی مرۆڤ، وەک چاو و پەنجە، بۆ ناسینەوەی"""),
                           Row(
                             children: [
                               const Expanded(

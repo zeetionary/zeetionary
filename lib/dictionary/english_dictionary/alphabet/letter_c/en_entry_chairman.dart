@@ -197,7 +197,7 @@ class EnglishEntrychairman extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرۆک، سەرکۆڕ، سەرۆکی کۆبوونەوە، سەرۆکی لیژنە، سەرلیژنە، سەرلێژنە، سەرۆکی کۆمیتە
 """),
                           const DefinitionKurdish(

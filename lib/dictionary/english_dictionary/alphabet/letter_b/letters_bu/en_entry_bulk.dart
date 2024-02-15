@@ -143,7 +143,7 @@ class EnglishEntrybulk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەورەیی، زلەیی، زەلامی، زلی، قەبەیی، بڕێکی زۆر، ھەیکەل، قیافە، بارستە، ئەندازە، بارستایی، بەشی سەرەکی، پشکی بنگەھی، کەل‌وپەل یان شمەکی ھەڵڕژاو، ھەڕەمە، گۆترە
 """),
                           const DefinitionKurdish(

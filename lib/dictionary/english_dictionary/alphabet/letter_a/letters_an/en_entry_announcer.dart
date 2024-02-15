@@ -26,7 +26,7 @@ class EnglishEntryannouncer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The continuity announcer advertised a few forthcoming programmes."); // DOPSUM: CHANGE TEXT
+        "The announcer advertised a few forthcoming programmes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnnouncer440(String languageCode) async {
@@ -153,10 +153,11 @@ class EnglishEntryannouncer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێژەر، بڵاوکار، ڕاگەیێنەر، بانگەوازچی، بانگەوازکەر (بە بڵیندگۆ)
-
-١. (ناو) بێژەری تەلەفیزیۆن یان ڕادیۆ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) بێژەری تەلەفیزیۆن یان ڕادیۆ"""),
                           Row(
                             children: [
                               const Expanded(

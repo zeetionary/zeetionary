@@ -92,7 +92,7 @@ class EnglishEntryabyss extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قووڵایی، بێ‌بنی، چاڵی بێ‌بن، یەکجار قووڵ، کەندڕ، نغرۆ؟، کەندەڵان، کەلێن (زۆر قووڵ)
 """),
                           const DefinitionKurdish(

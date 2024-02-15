@@ -147,7 +147,7 @@ class EnglishEntryblade extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تیغ، گوێزان، تیغە، تیخ، ڕوونە، دەم، مەودا، دم، پەڕە، شمشێر، شیر، بەشی پانایی سەول، دەمەسەوڵ، بێڵە، پانایی یان بەرینایی گەڵا، ئێسکی پان، ئێسکی شان، گەنجی بەکار و پڕجم‌وجۆڵ
 """),
                           const DefinitionKurdish(

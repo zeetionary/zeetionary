@@ -146,7 +146,7 @@ class EnglishEntrybooking extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جێ‌ڕاگرتن، جێ‌گرتنەوە، پێش‌ترگرتنەوە
 """),
                           const DefinitionKurdish(

@@ -101,10 +101,12 @@ class EnglishEntryabrupt extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کتوپڕ، ناکاو، چاوەڕوان‌نەکراو، بێ‌ڕەوشت، زۆر لێژ، تەلان، لاپێ، سەرەولێژی توند، سەرەوخواری، توندە، سینەکێش، لە پڕ، لە ناکاو، لە ناخافڵ، لە پڕتاو، کتوپڕ، کوت‌ومت(انە)، چاوەڕوان‌نەکراوانە
-
-١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو"""),
                           Row(
                             children: [
                               const Expanded(

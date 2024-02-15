@@ -160,10 +160,12 @@ class EnglishEntryasylum extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەنا، داڵدە، (سیاسی) پەنابەرێتی، پەناخوازی، شێت‌خانە، دینگە، چاوەدێری، پەناگە، تیمارستان
-
-١. (ناو) مافی پەنابەرێتی؛ پارێزگارییەک کە حکومەتێک دەیدات بە کەسێک کە وڵاتی خۆی جێھێشتووە، زۆرجار بەھۆی مەترسی لەسەر ژیانی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مافی پەنابەرێتی؛ پارێزگارییەک کە حکومەتێک دەیدات بە کەسێک کە وڵاتی خۆی جێھێشتووە، زۆرجار بەھۆی مەترسی لەسەر ژیانی"""),
                           Row(
                             children: [
                               const Expanded(

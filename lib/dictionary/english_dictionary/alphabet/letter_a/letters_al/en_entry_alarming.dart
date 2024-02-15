@@ -109,10 +109,12 @@ class EnglishEntryalarming extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نیگەران‌کەر، بەدڵەتەپێ‌خەر، بەترس، ترسێنەر
-
-١. (ھاوەڵناو) بە ئاستێک کە جێگەی نیگەرانی و ترسە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) بە ئاستێک کە جێگەی نیگەرانی و ترسە"""),
                           Row(
                             children: [
                               const Expanded(

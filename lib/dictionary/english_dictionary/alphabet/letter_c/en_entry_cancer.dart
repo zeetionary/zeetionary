@@ -192,10 +192,12 @@ class EnglishEntrycancer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شێرپەنچە، قرژانگ، قرژاڵە، بەڵای گشتی، بەڵا، پەتا، سەرەتان، تەوەرە، کارەسات، تەڵەزگە
-
-١. (ناو) شێرپەنجە؛ نەخۆشییەکی کوشندە کە تێیدا تۆپەڵە خانە لە لەشێ مرۆڤدا درووست دەبن و خانە ئاساییەکان دەکوژن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شێرپەنجە؛ نەخۆشییەکی کوشندە کە تێیدا تۆپەڵە خانە لە لەشێ مرۆڤدا درووست دەبن و خانە ئاساییەکان دەکوژن"""),
                           Row(
                             children: [
                               const Expanded(

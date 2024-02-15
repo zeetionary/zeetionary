@@ -152,7 +152,7 @@ class EnglishEntryannexation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: داگیرکردن، دەس‌بەسەراگرتن، گرتن، زەوت‌کردن، لکاندن، خستنەپاڵ، دانەدەم، خستنەسەر، پاشکۆ، سەرخستە
 """),
                           const DefinitionKurdish(

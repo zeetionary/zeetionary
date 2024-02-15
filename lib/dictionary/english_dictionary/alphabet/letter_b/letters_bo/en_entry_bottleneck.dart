@@ -144,7 +144,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەنگە، تەسکەڕێ، باریکەڕێ، باریکان، ھۆکاری خاوکەرەوە، ڕێبەست، ڕێبەند، تەنگانە
 """),
                           const DefinitionKurdish(

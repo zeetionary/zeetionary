@@ -152,10 +152,12 @@ class EnglishEntrybachelor extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پیاوی سەڵت یان بێ‌ژن، زگورد، زوگورتی، زوگورتە، لیسانس، بەکالۆریۆس، شیڤالیە یان شۆڕەسواری تازەکار adjective سەڵت‌وسەبات، ڕەبەن
-
-١. (ناو) پیاوێک کە ھیچ کات ھاوسەرگیری نەکردووە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پیاوێک کە ھیچ کات ھاوسەرگیری نەکردووە"""),
                           Row(
                             children: [
                               const Expanded(

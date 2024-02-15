@@ -144,7 +144,7 @@ class EnglishEntrybony extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئێسک‌وپروسک، ئێسکن، ئێسک‌ئاسا، لاواز، ڕەقەڵ، پڕلەدڕوو (ماسی)
 """),
                           const DefinitionKurdish(

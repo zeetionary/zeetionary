@@ -147,10 +147,12 @@ class EnglishEntrybatch extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەنوورێ، چین، دەستەوار، بەر، بەرھەمی یەکجار لێ‌نیشتن (نان، کەیک و ھتد)، بەرەلێ‌نیشتن، تیپ، کۆمەڵ، دەستە، گروپە
-
-١. (ناو) کۆمەڵە کەسێک/شتێک کە وەک گرووپێک سەیردەکرێن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کۆمەڵە کەسێک/شتێک کە وەک گرووپێک سەیردەکرێن"""),
                           Row(
                             children: [
                               const Expanded(

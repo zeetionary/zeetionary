@@ -110,7 +110,7 @@ class EnglishEntryalbino extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زاڵ، کەور، ئەلبینۆ: گیانەوەر یان کەسێ کە پیگمێنتی لە پێست، موو و چاوەکانی‌دا نییە (و زۆرتر پەمەیین)
 """),
                           const DefinitionKurdish(

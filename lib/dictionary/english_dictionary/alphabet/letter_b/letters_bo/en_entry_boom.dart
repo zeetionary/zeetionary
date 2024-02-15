@@ -166,7 +166,7 @@ class EnglishEntryboom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زۆربوونی کت‌وپڕ، بووژانەوە، تۆقینەوە، سەروبەند یان قۆناخی گەشە(کردن)، ھەڵدان، ئاوەدانی، گەشەونەشە، زرمە، زرم، گرمە، نەڕە، قۆڕە، قیڕە
 """),
                           const DefinitionKurdish(

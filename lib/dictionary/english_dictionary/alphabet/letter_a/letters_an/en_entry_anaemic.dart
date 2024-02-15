@@ -150,10 +150,12 @@ class EnglishEntryanaemic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەم‌خوێن، بێ‌ڕەنگ‌وڕوو، زەردەڵ، لاواز
-
-١. (ھاوەڵناو) تووشبوو بە کەم‌خوێنی و لاوازی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) تووشبوو بە کەم‌خوێنی و لاوازی"""),
                           Row(
                             children: [
                               const Expanded(

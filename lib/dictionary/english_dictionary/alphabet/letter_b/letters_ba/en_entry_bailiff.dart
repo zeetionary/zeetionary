@@ -153,10 +153,12 @@ class EnglishEntrybailiff extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەفسەری قانوون یان یاسا، درگاوانی دادگا، کوێخا، فەرمانبەری پاراستنی ڕێک‌وپێکی دادگا، بەڕێوەبەری زەوی‌زار (کەسێکی دامەزراو)، کێڵگەگێڕ 
-
-١. (ناو) ئەفسەرێکی کە کاری بردنی ماڵ و سامانی ئەو کەسانەیە کە ناتوانن قەرز بدەنەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەفسەرێکی کە کاری بردنی ماڵ و سامانی ئەو کەسانەیە کە ناتوانن قەرز بدەنەوە"""),
                           Row(
                             children: [
                               const Expanded(

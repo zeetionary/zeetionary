@@ -187,10 +187,12 @@ class EnglishEntrycancerous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شێرپەنجەیی، شێرپەنجەگرتوو
-
-١. (ھاوەڵناو) تووشبوو یان درووست بوو بەھۆی شێرپەنجەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) تووشبوو یان درووست بوو بەھۆی شێرپەنجەوە"""),
                           Row(
                             children: [
                               const Expanded(

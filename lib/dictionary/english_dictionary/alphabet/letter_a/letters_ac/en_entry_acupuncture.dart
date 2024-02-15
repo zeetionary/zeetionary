@@ -109,7 +109,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەکیوپەنکچێر، نۆژداری بە دەرزی، دەرزی‌ئاژنینی نەخۆش، دەرزی‌ئاژنی، چارەسەرکردن بە دەرزی
 """),
                           const DefinitionKurdish(

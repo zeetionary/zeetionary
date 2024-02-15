@@ -188,10 +188,12 @@ class EnglishEntrycanister extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قوتو، کەنیستێر، پڕژێنە، قوتوچایی، چاڕێز
-
-١. (ناو) دەفرێک کە بانێکی ھەیە و چا، قاوە، ھتدی تێدا ھەڵدەگیرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەفرێک کە بانێکی ھەیە و چا، قاوە، ھتدی تێدا ھەڵدەگیرێت"""),
                           Row(
                             children: [
                               const Expanded(

@@ -191,7 +191,7 @@ class EnglishEntrycave extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئەشکەوت، کەوێڵ، زاخۆر، مەڕ، کافک، کەورگ، کوول، تەوخ، قەف، زاخە، کەڵوەز
 """),
                           const DefinitionKurdish(

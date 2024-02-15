@@ -151,7 +151,7 @@ class EnglishEntryanaesthesia extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌ھۆشی، بێ‌ھەستی، سڕی، تەزیوی، لەژێربەنج
 """),
                           const DefinitionKurdish(

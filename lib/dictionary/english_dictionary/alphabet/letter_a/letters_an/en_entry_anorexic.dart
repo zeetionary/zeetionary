@@ -151,10 +151,12 @@ class EnglishEntryanorexic extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تووش‌بوو بە بێ‌ئیشتیایی دەروونی، نەخۆشی تووش‌بوو بە بێ‌ئیشتیایی دەروونی
-
-١. (ناو) کەسێکی تووشبوو بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێکی تووشبوو بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"""),
                           Row(
                             children: [
                               const Expanded(

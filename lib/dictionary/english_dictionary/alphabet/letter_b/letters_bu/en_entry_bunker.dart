@@ -190,7 +190,7 @@ class EnglishEntrybunker extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خەڵووزدان، عەمباری سووتەمەنی یان خەڵووز (لە کەشتی‌دا)، پەناگە (ژێرزەمینی)، شوێنی ھەڵگرتن، عەمبار، کۆگە، قوڵکە، چاڵ (بە زیخ پڕ کراوەتەوە، لە یاری گۆڵف‌دا)، (میلیتاری) بوودڕی تەقەمەنی
 """),
                           const DefinitionKurdish(

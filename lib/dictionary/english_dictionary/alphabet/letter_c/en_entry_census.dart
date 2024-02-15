@@ -190,7 +190,7 @@ class EnglishEntrycensus extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەرژمێری، ئامار، سەرژماری، مرۆژمێری
 """),
                           const DefinitionKurdish(

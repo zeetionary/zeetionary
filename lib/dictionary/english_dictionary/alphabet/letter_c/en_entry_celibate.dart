@@ -192,7 +192,7 @@ class EnglishEntrycelibate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تەنیا، بێ‌ھاوسەر، سەڵت، زگورد، ڕەبەن
 """),
                           const DefinitionKurdish(

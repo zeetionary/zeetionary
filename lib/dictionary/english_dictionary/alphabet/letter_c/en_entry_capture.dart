@@ -202,7 +202,7 @@ class EnglishEntrycapture extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دیلی، گیراوی، یەخسیری، گرتن، دەس‌بەسەری، گل‌دانەوە، بنچاڤ‌کردن، داگیرکردن، گرتن، نێچیر، دەسکەوت، (فیزیک) مژین، گرتن، ھەڵچنین
 """),
                           const DefinitionKurdish(

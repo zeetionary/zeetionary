@@ -197,7 +197,7 @@ class EnglishEntrycard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کارت، پسوولە، پەڕ (ھی یاری)، کارتی پیرۆزبایی، کەسێکی نائاسایی یان پێکەنینی، شانە، شیکەنە، شانە، دەفە، شیکەنە
 """),
                           const DefinitionKurdish(

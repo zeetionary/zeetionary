@@ -144,7 +144,7 @@ class EnglishEntrybludgeon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گۆپاڵ، گورز، تێڵا، داردەست، کوتەک
 """),
                           const DefinitionKurdish(

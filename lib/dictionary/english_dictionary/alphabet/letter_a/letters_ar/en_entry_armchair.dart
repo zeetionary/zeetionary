@@ -157,10 +157,12 @@ class EnglishEntryarmchair extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کورسی دەسک‌دار، سەندەڵی لادار، دوور لە کردەوە، نەکردەنی، ناکرداری، ناکردەوەیی، فشە
-
-١. (ناو) کورسییەکی ئاسوودەبەخش کە جێ‌دەستی ھەیە و دەتوانی دەستت لەسەریان دابنێی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کورسییەکی ئاسوودەبەخش کە جێ‌دەستی ھەیە و دەتوانی دەستت لەسەریان دابنێی"""),
                           Row(
                             children: [
                               const Expanded(

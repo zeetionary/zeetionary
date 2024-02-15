@@ -365,7 +365,7 @@ class EnglishEntrychannel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەروو، تەنگەڵان، تەنگە، دەریاڕێ، باریکەڕێ (دەریا)، بنکاو، تەختاو، بنک (ڕووبار و هتد)، قووڵگە، جێی قووڵ، شوێنی پڕئاو، نێرینە، قووڵایی، دەریای قووڵ، جۆگە، ئاوەڕێ، ئاوەڕۆ، ئاودڕ، نۆکەند، جۆم، ڕەهەنداو، شوێن، کووز، خەت، کەند، دەربەند، ڕێگا، (تەلەفزیۆن) ڕایەڵە، کاناڵ، کاناڵی ئینگلتەرە، (ڕادیۆ و تەلەفزیۆن) درێژی شەپۆل، (خوازە) ڕێگا، شوێن، ڕێڕەو، ڕێ، کاناڵ
 """),
                           const DefinitionKurdish(

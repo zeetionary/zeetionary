@@ -108,7 +108,7 @@ class EnglishEntryafterthought extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاشەبیر، بیرۆکەی دواتر، بیرکردنەوەی لەکارترازاو
 """),
                           const DefinitionKurdish(

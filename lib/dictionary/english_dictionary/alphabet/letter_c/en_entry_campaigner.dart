@@ -188,10 +188,12 @@ class EnglishEntrycampaigner extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خەبات‌گێر، خەبات‌کار، ھەڵمەت‌کار، شاڵاوکار
-
-١. (ناو) کەسێک کە بەژداری یان ڕابەرایەتی ھەڵمەتێک دەکات بە ئامانجی گۆڕانکاریی سیاسی یان کۆمەڵایەتی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کەسێک کە بەژداری یان ڕابەرایەتی ھەڵمەتێک دەکات بە ئامانجی گۆڕانکاریی سیاسی یان کۆمەڵایەتی"""),
                           Row(
                             children: [
                               const Expanded(

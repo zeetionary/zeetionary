@@ -191,7 +191,7 @@ class EnglishEntrybutt extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەللە، لێدان بە سەر، مەودای بڕینی تیر، تیراوێژ، سەگمان، نیشانە، ئامانج، بابەتی ڕەخنە، گاڵتەجاڕ، مایەی پێکەنین، بنەچەک، قۆنداخ، پاژنە(چەک)، کنکەچەک، کنگەسیگار، قنچکەسیگار، بنەجگەرە، کنگ، سمت، پاشڵ، بن، قنچک، بێخ، بنک، کۆتەرە، کنگە، (داری ڕاوەماسی) دەسک، قوڵفە، بۆشکە، کۆس، پیپ، بەرمیل، کووپە
 """),
                           const DefinitionKurdish(

@@ -151,10 +151,12 @@ class EnglishEntrybaddebt extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قەرزی سووتاو یان خوراو، قەرزی تیاچوو یان چوو (لەوە ناچێ بدرێتەوە)
-
-١. (ناو) قەرزێک کە ئەگەری کەمە بدرێتەوە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) قەرزێک کە ئەگەری کەمە بدرێتەوە"""),
                           Row(
                             children: [
                               const Expanded(

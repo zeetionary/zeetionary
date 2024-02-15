@@ -147,10 +147,12 @@ class EnglishEntryblur extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەڵە، لکە، لەکە، تەڵخ، پەڵەڕەشە، ڕەشایی، تارمایی، لێڵایی، شتێکی ناڕوون، شتێکی نادیار
-
-١. (ناو) شتێک کە ناتوانیت بەڕوونی بیبینیت، زۆرجار لەبەرئەوەی زۆر خێرا دەجووڵێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە ناتوانیت بەڕوونی بیبینیت، زۆرجار لەبەرئەوەی زۆر خێرا دەجووڵێت"""),
                           Row(
                             children: [
                               const Expanded(

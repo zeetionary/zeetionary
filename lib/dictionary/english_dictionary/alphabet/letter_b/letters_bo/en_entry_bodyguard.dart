@@ -144,7 +144,7 @@ class EnglishEntrybodyguard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پارێزکار یان دەستەی پارێزکاران، پارێزەر یان پاسەوانی کەسێ
 """),
                           const DefinitionKurdish(

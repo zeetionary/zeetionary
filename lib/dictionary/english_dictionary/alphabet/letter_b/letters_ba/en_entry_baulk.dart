@@ -147,10 +147,12 @@ class EnglishEntrybaulk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیناسازی، دار) دەستەک، ڕاژە، نیرگ، بەستە، باریکایی نەکێڵراو، کۆسپ، لەمپەر، قۆرت
-
-١. (کردار) ناڕازی بە کردن یان رێوەگلان لە شتێک چونکە زۆر گران یان ترسناکە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) ناڕازی بە کردن یان رێوەگلان لە شتێک چونکە زۆر گران یان ترسناکە"""),
                           Row(
                             children: [
                               const Expanded(

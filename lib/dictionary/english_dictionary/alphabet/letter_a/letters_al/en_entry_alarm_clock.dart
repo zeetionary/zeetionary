@@ -110,7 +110,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەعاتی زەنگی، کات‌ژمێری زەنگ‌دار
 """),
                           const DefinitionKurdish(

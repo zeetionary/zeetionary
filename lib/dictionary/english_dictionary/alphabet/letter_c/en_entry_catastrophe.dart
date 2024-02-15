@@ -193,7 +193,7 @@ class EnglishEntrycatastrophe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەڵا، کارەسات، مەینەتی، چارە ڕشی
 """),
                           const DefinitionKurdish(

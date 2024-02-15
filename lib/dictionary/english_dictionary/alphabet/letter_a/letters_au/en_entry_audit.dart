@@ -162,10 +162,12 @@ class EnglishEntryaudit extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تێ‌ڕوانین، پێ‌ڕاگەیشتن، پشکنینی حیسابەکان
-
-١. (ناو) لێکۆڵینەوەی وردی تۆمارەکانی کۆمپانیایەک بۆ زانینی ڕاستییان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لێکۆڵینەوەی وردی تۆمارەکانی کۆمپانیایەک بۆ زانینی ڕاستییان"""),
                           Row(
                             children: [
                               const Expanded(

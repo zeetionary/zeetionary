@@ -148,10 +148,12 @@ class EnglishEntrybargain extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەودا، مامەڵە، ئاڵ‌ووێر، پێکھاتن، سازان، ڕێککەوتن، ھەرزان، کەڵەپوور، ئەندازە، نرخ‌باش
-
-١. (ناو) شتێک کە دەکڕدرێت ھەرزانتر لە نرخی ئاسایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شتێک کە دەکڕدرێت ھەرزانتر لە نرخی ئاسایی"""),
                           Row(
                             children: [
                               const Expanded(

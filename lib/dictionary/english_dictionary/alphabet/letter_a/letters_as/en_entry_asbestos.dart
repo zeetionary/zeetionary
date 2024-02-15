@@ -158,7 +158,7 @@ class EnglishEntryasbestos extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاورێشمی بەردین، پەموو یا لۆکەی نەسووت، لۆکەکێوی، ئازبێست
 """),
                           const DefinitionKurdish(

@@ -145,10 +145,12 @@ class EnglishEntrybatty extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دێوانە، شێت، شێتانە، کەم عەقڵ، گەوج، حەپە
-
-١. (ھاوەڵناو) تۆزێک شێتانە، بەشێوەیەک کە زیانی نییە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) تۆزێک شێتانە، بەشێوەیەک کە زیانی نییە"""),
                           Row(
                             children: [
                               const Expanded(

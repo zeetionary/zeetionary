@@ -143,7 +143,7 @@ class EnglishEntryblacksheep extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مایەی ئابڕووچوون یان سەرشۆڕی خێزان، مایەی ڕووڕەشی، نەنگ
 """),
                           const DefinitionKurdish(

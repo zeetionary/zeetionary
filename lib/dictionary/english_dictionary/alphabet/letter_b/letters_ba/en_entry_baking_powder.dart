@@ -152,7 +152,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەوێن، گەردەی ھەوێن، ئامیان، گەردە یا ھاڕاوەی نان‌کردن
 """),
                           const DefinitionKurdish(

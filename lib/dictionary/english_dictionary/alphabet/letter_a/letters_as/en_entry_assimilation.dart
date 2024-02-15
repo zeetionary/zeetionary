@@ -160,10 +160,12 @@ class EnglishEntryassimilation extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تو(و)انەوە، حەلان، گرتن، مژین، لێکچواندن، چونیەک‌کردن، وێکچواندن، ھاوشێوەکردن، یەکسان‌کردن، یەکاندن، وەکیەک‌کردن، چونیەکی، ھەرس(کردن)، (دەنگ‌ناسی) ھاوشێوەیی
-
-١. (ناو) پڕۆسەی تێگەشتن لە بیرۆکەی تازە بۆ ئەوەی خۆت بتوانی بەکاریان‌بێنی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) پڕۆسەی تێگەشتن لە بیرۆکەی تازە بۆ ئەوەی خۆت بتوانی بەکاریان‌بێنی"""),
                           Row(
                             children: [
                               const Expanded(

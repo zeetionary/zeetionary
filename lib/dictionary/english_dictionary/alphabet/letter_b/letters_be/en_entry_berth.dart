@@ -147,10 +147,12 @@ class EnglishEntryberth extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لەنگەرگا، کابین یان شوێنی خەوتن، جێ‌خەوی کەشتی، خەوتنگە (لە فڕۆکە یان کەشتی)، جێ، جێگا، شوێن، کار، ئێش، ئەرک، فرمان
-
-١. (ناو) شوێنی خەوتنی سەر کەشتییەک، شەمەندەفەرێک، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شوێنی خەوتنی سەر کەشتییەک، شەمەندەفەرێک، ھتد"""),
                           Row(
                             children: [
                               const Expanded(

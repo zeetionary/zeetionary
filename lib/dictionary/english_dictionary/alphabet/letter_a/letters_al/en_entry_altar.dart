@@ -109,10 +109,12 @@ class EnglishEntryaltar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: مێحراب، مێراو، مێحراو، مێھراو، مێھراوە، پێش‌نوێژگە، کوشتنگە، قوربانیگا، جێ‌قوربانی، گۆڕیگە
-
-١. (ناو) مێزێک کە لە کڵێسا دادەنرێت لە کاتی بۆنەی ئاینی و شتە پیرۆزەکانی لەسەر دادەنرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مێزێک کە لە کڵێسا دادەنرێت لە کاتی بۆنەی ئاینی و شتە پیرۆزەکانی لەسەر دادەنرێت"""),
                           Row(
                             children: [
                               const Expanded(

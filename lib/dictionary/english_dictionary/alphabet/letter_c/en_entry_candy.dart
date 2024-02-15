@@ -188,7 +188,7 @@ class EnglishEntrycandy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەباتاو، نەبات، شیرینی، نوقڵ، چاکڵیت، شۆکۆلات
 """),
                           const DefinitionKurdish(

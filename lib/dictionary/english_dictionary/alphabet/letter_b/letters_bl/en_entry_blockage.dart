@@ -144,7 +144,7 @@ class EnglishEntryblockage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گیران، داخران، ڕێبەندان، ڕێبەستان، ڕێگیران، نەھێشتن، پێش‌گیری، بەرگیری، ھەڵوێستە
 """),
                           const DefinitionKurdish(

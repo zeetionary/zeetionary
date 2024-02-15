@@ -139,7 +139,7 @@ class EnglishEntrybrine extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خوێئاوک، خوێواوک، ئاووخوێ، ئاوی دەریا، سوێراو، سوێراوک
 """),
                           const DefinitionKurdish(

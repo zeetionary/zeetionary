@@ -190,7 +190,7 @@ class EnglishEntrycavalry extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سوارە، ھێزی زرێیی یا زرێپۆش، زرێپۆش
 """),
                           const DefinitionKurdish(

@@ -193,10 +193,12 @@ class EnglishEntrycabincruiser extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەشتی شەڕکەر، کەشتی جەنگی، بەلەمی ڕابواردن، (نافەرمی، ئەمریکا) ماشێنی چەرخەچی
-
-١. (ناو) بەلەمێک کە ماتۆڕێکی پێوەیە لەگەڵ ژوورێک بۆ خەوتن تێیدا، بەکاردێت بۆ ڕابواردن لەسەری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەلەمێک کە ماتۆڕێکی پێوەیە لەگەڵ ژوورێک بۆ خەوتن تێیدا، بەکاردێت بۆ ڕابواردن لەسەری"""),
                           Row(
                             children: [
                               const Expanded(

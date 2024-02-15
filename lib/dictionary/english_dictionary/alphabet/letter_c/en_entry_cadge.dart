@@ -188,10 +188,12 @@ class EnglishEntrycadge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سواڵکردن، درۆزەکردن، گەدایی کردن، دەس‌پان‌کردنەوە 
-
-١. (کردار) داواکردنی پارە، خواردن، ھتد بەتایبەتی بەھۆی ئەوەی خۆت ناتوانیت یان نەتەوێت بیدەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) داواکردنی پارە، خواردن، ھتد بەتایبەتی بەھۆی ئەوەی خۆت ناتوانیت یان نەتەوێت بیدەیت"""),
                           Row(
                             children: [
                               const Expanded(

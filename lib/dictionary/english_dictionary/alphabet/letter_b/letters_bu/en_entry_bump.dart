@@ -302,7 +302,7 @@ class EnglishEntrybump extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پێک‌کەوتن، لێک‌کەوتن (سووک)، لێدان، مشت، چەپۆکە، پەنەمان، ماس، ماسین، ھەڵماسین، ھەڵتۆقان، دەرپەڕیوی، ھەڵتۆقیوی، چاڵی‌وچۆڵی، ناڕێکی، تەکان یان جووڵەی کت‌وپڕ (لە فڕۆکەدا)، دەنگی بامب، لەناکاو، لەپڕێکدا، کت‌وپڕانە
 """),
                           const DefinitionKurdish(

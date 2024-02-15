@@ -146,7 +146,7 @@ class EnglishEntrybattlefield extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: شەڕگە، گۆڕەپان یا مەیدانی شەڕ یا جەنگ، قاداشەڕ، ڕەزمگا، ھێڵ
 """),
                           const DefinitionKurdish(

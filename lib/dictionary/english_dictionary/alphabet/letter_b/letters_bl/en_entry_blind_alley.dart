@@ -143,10 +143,12 @@ class EnglishEntryblindalley extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌سەرەدەر، بن‌بەست، ڕێ‌کوێر، بێتۆوی
-
-١. (ناو) شێوازی کردنی شتێک کە لە سەرەتادا بەسوود دیارە بەڵام دواتر بێ ئەنجام دەبێت، بۆ نموونە گرتنەبەری ڕێگایەکی بێ کۆتایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شێوازی کردنی شتێک کە لە سەرەتادا بەسوود دیارە بەڵام دواتر بێ ئەنجام دەبێت، بۆ نموونە گرتنەبەری ڕێگایەکی بێ کۆتایی"""),
                           Row(
                             children: [
                               const Expanded(

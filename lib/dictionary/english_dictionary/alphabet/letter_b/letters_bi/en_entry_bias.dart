@@ -151,10 +151,12 @@ class EnglishEntrybias extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەمارگرژی، لایەنگری، ئالی‌گری، بەلاداکێشی، لاگیری، لاگرتن، یەک‌بەرایەتی، ویست، داشکانەوە، لاربوونەوە، ڕاکێشک، تێندێنسی، ئارەزوو، توانایی، ئامادەیی، لار، خوار، قیل‌وقاچ، چەپ‌وڕاست، کەش‌وتووش، قیچەڵفاچ
-
-١. (ناو) لایەنگیری یان دژایەتی گرووپێک زۆرجار بەبێ ئەوەی پشتی بە ھیچ بیرکردنەوەی داپەروەرانە بەستبێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) لایەنگیری یان دژایەتی گرووپێک زۆرجار بەبێ ئەوەی پشتی بە ھیچ بیرکردنەوەی داپەروەرانە بەستبێت"""),
                           Row(
                             children: [
                               const Expanded(

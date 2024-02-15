@@ -156,10 +156,12 @@ class EnglishEntrybackground extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پاش‌خان، تەخت(ـار)، پشتار، زەمینە، پێشینە، ڕابووری، ڕەوش، بارودۆخ، ھەل‌ومەرج، کاودان، وردەکاری، (کۆمپیوتەر) بەک‌گرەوند، (کەسێ) لایەن ئەزموون و پەروەردە (و بارودۆخ یان ھەل‌ومەرجی کۆمەڵایەتی)ی کەسێ، پێشینە
-
-١. (ناو) زانیاری لەسەر کەسێک سەبارەت بە خێزانەکەی، خوێندنی، ئەزموونی، ھتد"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) زانیاری لەسەر کەسێک سەبارەت بە خێزانەکەی، خوێندنی، ئەزموونی، ھتد"""),
                           Row(
                             children: [
                               const Expanded(

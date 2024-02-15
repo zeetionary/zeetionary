@@ -197,7 +197,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: جێ‌بوونەوە، گرتن، ھەڵگرتن، بردن، گونجایشت، جێگا، جێ، فراوانی، ھێز، وزە، توانایی، توانین، توانست، خورتی، لێوەشاوەیی، لێھاتوویی، شیان، تواناداری، پۆست، پلەوپایە، تێگەیشتن
 """),
                           const DefinitionKurdish(

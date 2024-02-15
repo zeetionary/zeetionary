@@ -147,10 +147,12 @@ class EnglishEntrybeaver extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەگاو، مەیکێ ئاڤێ، پێستە یان کەوڵی سەگاو، فەروەی سەگاو، کڵاوێ لە پێستەی سەگاو
-
-١. (ناو) ئاژەڵیک کە کلکێکی بڵاو و پانی ھەیە لەگەڵ ددانی بەھێز. ئاژەڵەکە لە ئاو و وشکانی دەژی و دەتوانێت بەربەست لە ئاودا درووست بکات کە لە دار و قوڕ درووست کرابێت. ئاژەڵەکە سمبولی فەرمی کەنەدایە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئاژەڵیک کە کلکێکی بڵاو و پانی ھەیە لەگەڵ ددانی بەھێز. ئاژەڵەکە لە ئاو و وشکانی دەژی و دەتوانێت بەربەست لە ئاودا درووست بکات کە لە دار و قوڕ درووست کرابێت. ئاژەڵەکە سمبولی فەرمی کەنەدایە"""),
                           Row(
                             children: [
                               const Expanded(

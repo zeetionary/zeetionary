@@ -169,10 +169,12 @@ class EnglishEntryaddress extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ناونیشان، نیشان، شێوازی لێداون یان دووان، دەراوی دەم، (دەم‌و)ڕاوێژ، شارەزایی، وتاردان، قسەکردن لە بەردەم ئامادەبووان‌دا
-
-١. (ناو) شوێنی ژیان یان کارکردنی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) شوێنی ژیان یان کارکردنی کەسێک"""),
                           Row(
                             children: [
                               const Expanded(

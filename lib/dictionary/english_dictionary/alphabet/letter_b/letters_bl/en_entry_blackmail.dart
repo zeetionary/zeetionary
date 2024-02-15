@@ -145,10 +145,12 @@ class EnglishEntryblackmail extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بێ‌دەنگانە، باج‌سێنی، باج‌وەرگرتن، خاوە، بەرتیل، زۆربۆھێنان، سەنگی خستنەسەر، زۆرسێنی، کەڵەگایی، ھەڕەشە، گەف
-
-١. (ناو) تاوانی وەرگرتنی پارە لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) تاوانی وەرگرتنی پارە لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت """),
                           Row(
                             children: [
                               const Expanded(

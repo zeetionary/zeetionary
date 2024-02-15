@@ -206,10 +206,11 @@ class EnglishEntryask extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پرسین، داخوازی کردن، ویستن، تکا کردن، داوای لێبوردن
-
-١. (کردار) پرسیارکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (کردار) پرسیارکردن"""),
                           Row(
                             children: [
                               const Expanded(

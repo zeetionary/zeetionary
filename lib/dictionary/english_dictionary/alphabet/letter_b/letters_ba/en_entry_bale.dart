@@ -153,10 +153,12 @@ class EnglishEntrybale extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گورزە، تا، تایە، بەستە، مۆچ، بەستەک، تۆپ، کۆما، لۆدە، کۆگا، کوا، بەڵا، ڕەنج، بەدبەختی، ئاپۆر، نەھامەتی، مەینەتی
-
-١. (ناو) ڕێژەیەکی زۆر لە شتێکی سووک کە پێکەوە کەڵەکەکراون"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ڕێژەیەکی زۆر لە شتێکی سووک کە پێکەوە کەڵەکەکراون"""),
                           Row(
                             children: [
                               const Expanded(

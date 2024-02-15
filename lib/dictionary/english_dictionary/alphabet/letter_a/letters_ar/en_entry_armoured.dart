@@ -156,10 +156,11 @@ class EnglishEntryarmoured extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: زرێ‌دار، زرێیی، زرێپۆشی
-
-١. (ھاوەڵناو) پارێزراو بە زرێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) پارێزراو بە زرێ"""),
                           Row(
                             children: [
                               const Expanded(

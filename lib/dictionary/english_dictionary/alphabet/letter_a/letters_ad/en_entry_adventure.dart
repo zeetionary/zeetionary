@@ -108,7 +108,7 @@ class EnglishEntryadventure extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕووداو، سەرکێش، سەربردە، (بە)سەرھات، جەربەزەیی، سەروردی، کێشەخوازی، مەترسی‌کاری، سەرەڕۆیی، سەرلەکێشەخوران، مەترسی، کاری مەترسی‌دار یان خەتەر، کاری سەیر
 """),
                           const DefinitionKurdish(

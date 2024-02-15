@@ -109,7 +109,7 @@ class EnglishEntryachievement extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بەرھەم، دەسکەوت، دەست‌پێ‌ڕاگەیشتن، پێشکەوتن، پێشوەچوون، جێبەجێ‌بوون، بەدیھاتن
 """),
                           const DefinitionKurdish(

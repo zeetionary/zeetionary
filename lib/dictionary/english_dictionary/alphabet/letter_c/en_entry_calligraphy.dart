@@ -188,10 +188,12 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خەتاتی، جوان‌نووسی، خۆش‌نووسی
-
-١. (ناو) دەست‌وخەتی نووسینی جوان کە بە پێنووس و فڵچەی تایبەت دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دەست‌وخەتی نووسینی جوان کە بە پێنووس و فڵچەی تایبەت دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(

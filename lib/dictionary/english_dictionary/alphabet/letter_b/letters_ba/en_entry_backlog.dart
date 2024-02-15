@@ -151,7 +151,7 @@ class EnglishEntrybacklog extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کەوتنەسەریەک، کەڵەکەبوون، کاری کەڵەکەبوو، کاری دواکەوتوو یان سەریەک‌کەوتوو
 """),
                           const DefinitionKurdish(

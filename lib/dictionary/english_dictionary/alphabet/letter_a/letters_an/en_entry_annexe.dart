@@ -158,7 +158,7 @@ class EnglishEntryannexe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لاخانوو(بەرە)، دەستەی لا(پاڵ)، لادەستە، خانووبەرەی سەرخستە یان لکاو، خانووبەرەی سەرخراو (نووساوە بە خانووبەرەی سەرەکی)، پاشکۆ، سەرخستە
 
 1. (کردار) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر"""),

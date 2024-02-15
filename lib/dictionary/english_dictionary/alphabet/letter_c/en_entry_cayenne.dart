@@ -190,7 +190,7 @@ class EnglishEntrycayenne extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیبەری سوور، بیبەرەسوورە، ھاڕاوەی بیبەرەسوورە
 """),
                           const DefinitionKurdish(

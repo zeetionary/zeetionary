@@ -144,10 +144,11 @@ class EnglishEntryblonde extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قژکاڵ (ژن)، ڕەنگی قژی کاڵ، پرچ‌زەر(د)
-
-١. (ھاوەڵناو) قژی ئاڵتوونی کاڵ"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ھاوەڵناو) قژی ئاڵتوونی کاڵ"""),
                           Row(
                             children: [
                               const Expanded(

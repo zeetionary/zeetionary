@@ -110,10 +110,12 @@ class EnglishEntryairterminal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: فڕۆکەخانە، دواوێسگە یان تێرمیناڵی ئاسمانی
-
-١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن"""),
                           Row(
                             children: [
                               const Expanded(

@@ -191,7 +191,7 @@ class EnglishEntrychamois extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بزن‌ئاسک، بزنەکێوی، تیمانج، تیماج، پێستە
 """),
                           const DefinitionKurdish(

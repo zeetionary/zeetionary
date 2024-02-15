@@ -146,7 +146,7 @@ class EnglishEntrybitch extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دێڵ، دێڵەسەگ، مێ یان دێڵی گورگ، ڕێوی، سمۆری ئاوی، سکاڵا، پرتەوبۆڵە، کێشەنەرەوە، بێ‌حەیا، ژنی ھەرزە و لەش‌فرۆش، سەڵیتە
 """),
                           const DefinitionKurdish(text: "١. (ناو) سەگی مێینە"),

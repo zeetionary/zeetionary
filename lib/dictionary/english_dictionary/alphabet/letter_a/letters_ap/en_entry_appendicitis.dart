@@ -157,7 +157,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: پەلەڕیخۆڵە ئاوسان، ئاوسانی پەلەڕیخۆڵە، پەلەڕیخۆڵەئاوسێ، ھەوکردنی پەلەڕیخۆڵە
 """),
                           const DefinitionKurdish(

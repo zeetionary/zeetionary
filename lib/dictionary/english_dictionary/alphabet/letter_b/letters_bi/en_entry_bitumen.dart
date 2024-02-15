@@ -143,10 +143,12 @@ class EnglishEntrybitumen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قیر، قیل، زەفت، ئیزووگام
-
-١. (ناو) مادەیەکی پێوەنووسەرە کە بەکاردێت بۆ داپۆشینی ڕێگا و سەربان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مادەیەکی پێوەنووسەرە کە بەکاردێت بۆ داپۆشینی ڕێگا و سەربان"""),
                           Row(
                             children: [
                               const Expanded(

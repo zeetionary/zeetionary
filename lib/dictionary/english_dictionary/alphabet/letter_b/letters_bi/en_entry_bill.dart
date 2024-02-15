@@ -339,10 +339,12 @@ class EnglishEntrybill extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لیست، ڕیزک، فاکتۆر، لیستە، پوستێر، پلاکارد، بەرنامە، ئاگاداری، سەرنجە، تێبینی، دانەزانین، ھایداری، جاڕ، بڵاوک، داخویانی، بەرنووس، پێش‌نووس، پارەی کاغزی، بیل (بەرات، سفتە یان حەواڵە)، دەستوورنامە، بڕوانامە
-
-١. (ناو) دۆکیومێنت کە پیشانی دەدات چەندە قەرزاری بۆ کەلوپەل و خزمەتگوزاری"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) دۆکیومێنت کە پیشانی دەدات چەندە قەرزاری بۆ کەلوپەل و خزمەتگوزاری"""),
                           Row(
                             children: [
                               const Expanded(

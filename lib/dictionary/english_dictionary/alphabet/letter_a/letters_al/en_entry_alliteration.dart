@@ -110,8 +110,10 @@ class EnglishEntryalliteration extends StatelessWidget {
                         children: [
                           DefinitionKurdish(text: """
 کوردی: ھاوپیتی، لێکچوون یان ھاوچەشنی دەنگی
-
-١. (ناو) ھاتنی یەک پیت یان دەنگ لە سەرەتای دوو یان چەند وشە کە بە دوای یەکدا دێن"""),
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ھاتنی یەک پیت یان دەنگ لە سەرەتای دوو یان چەند وشە کە بە دوای یەکدا دێن"""),
                         ],
                       ),
                     ),

@@ -193,7 +193,7 @@ class EnglishEntrychant extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: درووشم،	هەوا، بەستە، بەند، ستران، گۆرانی، (لە دین‌دا یان بۆ کلێسە) سرود، مناجات
 """),
                           const DefinitionKurdish(

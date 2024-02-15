@@ -191,7 +191,7 @@ class EnglishEntrycardboard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: کارتۆن، مقەبا، دەستکرد، ناڕاست، درۆ، ناسروشتی، فشە، فیشاڵی
 """),
                           const DefinitionKurdish(

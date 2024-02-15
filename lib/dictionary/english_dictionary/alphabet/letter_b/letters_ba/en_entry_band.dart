@@ -174,10 +174,12 @@ class EnglishEntryband extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باریکە، بەنۆکە، سیرمە، تیزماڵک، قایش، تەوق، بەند، بەست، شریت، تەسمە، پێ‌بەست، کۆمەڵ، دەستە، کۆڕ، تیپ، تاقم، سازبەند، دەستەیێکی چکۆلەی میوزیکژەنان کە میوزیکی پاپ، جاز و ڕاک کار دەکەن، دەستەی میوزیکژەنانی ئامێرە بایی (یان فوویی)، زەرد و پیاکێشانەکان، بوار یان مەودای شەپۆلە ڕادیۆیی‌یەکان، باندی شەپۆل، (ئەمریکا) ڕەوە، گەل، مێگەڵ، کەرک
-
-١. (ناو) کۆمەڵە میوزیکژەنێک کە لەگەڵ گۆرانیبێژێک یان زیاتر کاردەکەن"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کۆمەڵە میوزیکژەنێک کە لەگەڵ گۆرانیبێژێک یان زیاتر کاردەکەن"""),
                           Row(
                             children: [
                               const Expanded(

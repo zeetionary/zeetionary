@@ -155,10 +155,11 @@ class EnglishEntryantithesis extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دژ، بەرامبەرە، خاڵی بەرامبەر، ناکۆکی، دژایەتی، دژبەیەک‌بوون، پێک‌دژی، بەرامبەرێتی
-
-١. (ناو) پێچەوانەی شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) پێچەوانەی شتێک"""),
                           Row(
                             children: [
                               const Expanded(

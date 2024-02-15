@@ -187,10 +187,12 @@ class EnglishEntrycantankerous extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: خوێنتاڵ، ڕەزاگران، ڕووتاڵ، دژخوو، ڕووگرژ، مڕومۆچ، نەمرچ، بەزەڕە، جینگزی، زووتووڕە، فیشەکی، شەڕانی
-
-١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت و بەردەوام ناڕەزایی ھەیە"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت و بەردەوام ناڕەزایی ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

@@ -151,10 +151,12 @@ class EnglishEntrybelief extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باوەڕ، بەقا، بڕوا، ئیمان، دڵنیایی، ڕاپەڕموون، متمانە، لێ‌تێڕادیتن، بۆچوون، ڕا، بینین، نێرین، گومان، بیر، ھزر، بیروباوەڕ
-
-١. (ناو) بۆچوونێکی بەھێز کە شتێک یان کەسێک بوونی ھەیە یان ڕاستە """),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بۆچوونێکی بەھێز کە شتێک یان کەسێک بوونی ھەیە یان ڕاستە """),
                           Row(
                             children: [
                               const Expanded(

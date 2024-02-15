@@ -151,7 +151,7 @@ class EnglishEntryballroom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: سەماخانە، خانەی ھەڵپەڕکێ، ھۆڵی ھەڵپەڕکێ یان سەما
 """),
                           const DefinitionKurdish(

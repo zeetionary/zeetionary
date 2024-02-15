@@ -159,7 +159,7 @@ class EnglishEntryauburn extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (قژ) ڕەنگی قاوەیی ئاماڵ سوور، خورمایی
 """),
                           const DefinitionKurdish(

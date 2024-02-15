@@ -143,10 +143,12 @@ class EnglishEntryblender extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: لێکدەر، تێکەڵ‌کەرە، عەسارە
-
-١. (ناو) ئەمێرێکی کارەبایی کە بۆ تێکەڵکردنی خواردنی نەرم و شلە بەکاردێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەمێرێکی کارەبایی کە بۆ تێکەڵکردنی خواردنی نەرم و شلە بەکاردێت"""),
                           Row(
                             children: [
                               const Expanded(

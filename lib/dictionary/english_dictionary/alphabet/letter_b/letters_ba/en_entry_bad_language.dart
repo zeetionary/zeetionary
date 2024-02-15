@@ -152,10 +152,11 @@ class EnglishEntrybadlanguage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: قسەی پیس، جنێو، سخێف، قسەی ساردوسووک
-
-١. (ناو) زمانی ناشرین"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) زمانی ناشرین"""),
                           Row(
                             children: [
                               const Expanded(

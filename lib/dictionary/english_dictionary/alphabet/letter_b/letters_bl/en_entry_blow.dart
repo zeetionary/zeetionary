@@ -351,7 +351,7 @@ class EnglishEntryblow extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ھەڵکردن، ھاتن (با)، وەشان، با، فوو، ھوو، (لووت) فن، ھن، لێدان، ژەندن، گەرای مێش، ھەواخۆری، گیابەنگ، مەریوانە، گوڵەلێوە،لێدان، تەق، گورز، جەزرەبە، کارەسات، دومات، ناڕەحەتی، ئاپۆر، گرگاشە، مەینەتی، نەھامەتی، بەڵا، گوڵ‌کردن، پشکوتن، سەروبەندی خونچەکردن، دەمەترەک(بوون)
 """),
                           const DefinitionKurdish(text: "١. (کردار) فووکردن"),

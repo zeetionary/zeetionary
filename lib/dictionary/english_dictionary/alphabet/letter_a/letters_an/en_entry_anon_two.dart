@@ -152,10 +152,12 @@ class EnglishEntryanontwo extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەناسراو، بێ‌ناونیشان، بێ‌ناو، گوم، ناودەرنەکردوو
-
-١. (ھاوەڵناو) کەسێک بەناوێکەوە کە نەزانراوە یان نایەوێت ئاشکرا بێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) کەسێک بەناوێکەوە کە نەزانراوە یان نایەوێت ئاشکرا بێ"""),
                           Row(
                             children: [
                               const Expanded(

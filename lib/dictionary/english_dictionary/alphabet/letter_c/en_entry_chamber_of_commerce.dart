@@ -196,7 +196,7 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ژووری کارداری یان بازرگانی
 """),
                           const DefinitionKurdish(

@@ -107,7 +107,7 @@ class EnglishEntryadvisable extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: باش، چاک، ژیرانە، بەجێ، جێی بەرژەوەندی
 """),
                           const DefinitionKurdish(

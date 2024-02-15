@@ -156,10 +156,11 @@ class EnglishEntryball extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: تۆپ، گۆگ، خڕۆکە، گۆ، گرمۆڵە، کولو (خوری و ھتد)، گڵۆڵە، تۆپ، گنا، گوللە، ساچمە، گلۆر، گروڤەر، گلۆر، خڕی، شایی، سەما (کۆڕ)
-
-١. (ناو) تۆپی یاریکردن"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) تۆپی یاریکردن"""),
                           Row(
                             children: [
                               const Expanded(

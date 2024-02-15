@@ -160,7 +160,7 @@ class EnglishEntryatom extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گەردیلە، ئەتۆم، تۆزە، کەمووسکە، نەختە 
 """),
                           const DefinitionKurdish(

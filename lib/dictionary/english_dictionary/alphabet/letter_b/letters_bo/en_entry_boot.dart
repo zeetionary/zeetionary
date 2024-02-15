@@ -146,7 +146,7 @@ class EnglishEntryboot extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چەکمە، لاپچین، پۆتین، لەقە، شەق، شەپ، تێھەڵدان، سنووقی پشتەوەی ماشێن، دەرکردن، تەکاندنەوە، سوود، قازانج، کەڵک، (کۆمپیوتەر) بووت، خستنەڕێ، (مێژوویی) ئامێرێکی ئەشکەنجە بۆ شکاندنی پێ، سەرەڕای ئەمەش، سەرباری ئەمەش، لەگەڵ ئەمەش‌دا
 """),
                           const DefinitionKurdish(

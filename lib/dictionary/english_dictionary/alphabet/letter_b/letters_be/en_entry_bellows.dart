@@ -145,7 +145,7 @@ class EnglishEntrybellows extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: دەمە، مووشەدەمە، نەپاخ، کوورک (مووشەدەمەی مسگەران)
 """),
                           const DefinitionKurdish(

@@ -144,7 +144,7 @@ class EnglishEntryblotter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاوھەڵچنە، وشکێنە، زوھانگ
 """),
                           const DefinitionKurdish(

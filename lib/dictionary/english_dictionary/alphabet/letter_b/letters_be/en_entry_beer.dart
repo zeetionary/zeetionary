@@ -146,10 +146,12 @@ class EnglishEntrybeer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: بیرە، ئاوجۆ، شووشە، بوتڵ یان قوتوی بیرە
-
-١. (ناو) مادەیەکی کحولییە کە لە چەقەرەی وشکەوەبووی جۆ درووست دەکرێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) مادەیەکی کحولییە کە لە چەقەرەی وشکەوەبووی جۆ درووست دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(

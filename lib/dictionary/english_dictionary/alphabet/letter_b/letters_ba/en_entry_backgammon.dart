@@ -152,7 +152,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: یاری تەختەنەرد، نەردێن، تاوڵە
 """),
                           const DefinitionKurdish(

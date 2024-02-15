@@ -199,10 +199,12 @@ class EnglishEntrybang extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: (دەنگ) تەق، تەق‌تەق، شەق، زرمە، بەنگ، دەنگ، دەنگی تەقینەوە، بەمب، بزووتنەوەی کت‌وپڕ، لێدان، (شێوازێکی قژ) پەرچەم، (کۆمپیوتەر) نیشانەی (!)، بەتەواوەتی، ورد، بەوردی، دروست، کیوکیو (دەنگی تەقینی گوللە)
-
-١. (کردار) لێدان لە شتێک بەشێوەیەک کە دەنگێکی بەرز درووست بکات"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (کردار) لێدان لە شتێک بەشێوەیەک کە دەنگێکی بەرز درووست بکات"""),
                           Row(
                             children: [
                               const Expanded(

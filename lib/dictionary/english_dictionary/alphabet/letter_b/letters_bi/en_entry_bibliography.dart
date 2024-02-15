@@ -148,10 +148,12 @@ class EnglishEntrybibliography extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: چاوگنامە، بیبلیۆگڕافی، کتێب‌ناسی
-
-١. (ناو) کۆمەڵە کتێبێک کە بەکارھێندراون بۆ نووسینی کتێبێک یان وتارێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) کۆمەڵە کتێبێک کە بەکارھێندراون بۆ نووسینی کتێبێک یان وتارێک"""),
                           Row(
                             children: [
                               const Expanded(

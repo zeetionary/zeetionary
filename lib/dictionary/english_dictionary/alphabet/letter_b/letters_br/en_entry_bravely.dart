@@ -142,7 +142,7 @@ class EnglishEntrybravely extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نەترسانە، وەندانە، مەردانە، نەبەردانە، ئازایانە، پیاوانە
 """),
                           const DefinitionKurdish(

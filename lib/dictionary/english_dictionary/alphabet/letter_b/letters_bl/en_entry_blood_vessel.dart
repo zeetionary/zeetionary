@@ -143,10 +143,12 @@ class EnglishEntrybloodvessel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ڕەگ، دەمار، خوێنبەر، خوێنھێن
-
-١. (ناو) ئەو مولوولانەی خوێن پێیاندا تێدەپەڕێت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) ئەو مولوولانەی خوێن پێیاندا تێدەپەڕێت"""),
                           Row(
                             children: [
                               const Expanded(

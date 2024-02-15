@@ -108,7 +108,7 @@ class EnglishEntryaerial extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: ئاریەڵ، ھەوایی، حەوایی، بایی، ئاسمانی، فڕینی، سەربە فڕین، بڵیند، خەیاڵی، ھیچ، پڕوپووچ، بێ‌بنچینە، سووک، (بەشێ لە گیا یان ڕووەک) لە سەرووی عەرزەوە شین دەبێ
 """),
                           const DefinitionKurdish(

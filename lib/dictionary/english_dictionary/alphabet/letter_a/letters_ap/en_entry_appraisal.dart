@@ -157,10 +157,11 @@ class EnglishEntryappraisal extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: نرخاندن، ھەڵسەنگاندن، مەزندە، قەبڵاندن، لێکدانەوە، بۆچوون
-
-١. (ناو) نرخاندنی نرخ و بەھای شتێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: """١. (ناو) نرخاندنی نرخ و بەھای شتێک"""),
                           Row(
                             children: [
                               const Expanded(

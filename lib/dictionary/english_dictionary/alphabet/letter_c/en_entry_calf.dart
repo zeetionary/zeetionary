@@ -188,10 +188,12 @@ class EnglishEntrycalf extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                          const KurdishVocabulary(text: """
 کوردی: گوێلک، کوێرەکە، پەڵخ، بێچووە مانگا، پەڵخ، پێستە یان کەوڵی گوێلک، گاوس، ماسوولکەی پووز یان بەلەک، نەرمەی پووز
-
-١. (ھاوەناو) بەشی پشتەوەی قاچ لە خوارەوەی چۆک و سەرەوەی قولەپێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەناو) بەشی پشتەوەی قاچ لە خوارەوەی چۆک و سەرەوەی قولەپێ"""),
                           Row(
                             children: [
                               const Expanded(

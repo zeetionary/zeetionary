@@ -44,7 +44,7 @@ class EnglishEntrybroadside extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadsides33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The driver ran a stop light and broadsided the truck."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbroadsides4(String languageCode) async {
@@ -173,7 +173,7 @@ class EnglishEntrybroadside extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵکار) بە یەک لاوە ڕووی لە شتێک"),
+                              text: "٢. (ھاوەڵکار) بە یەک لاوە ڕوو لە شتێک"),
                           Row(
                             children: [
                               const Expanded(

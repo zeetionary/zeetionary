@@ -167,7 +167,7 @@ class EnglishEntryamusement extends StatelessWidget {
                                             "She could not hide her amusement at the way he was dancing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەیدەتوانی خۆشحاڵی‌ی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
+                                            "نەیدەتوانی خۆشحاڵیی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
                                   ],
                                 ),
                               ),

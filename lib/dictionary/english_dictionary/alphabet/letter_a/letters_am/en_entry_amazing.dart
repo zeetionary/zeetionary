@@ -152,7 +152,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                             "I find it amazing that people can be so irresponsible."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن."),
+                                            "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرس بن."),
                                   ],
                                 ),
                               ),

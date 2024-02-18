@@ -3,91 +3,137 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bet" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
-
-// replace bet - replace EnglishEntrybet
-
-// replace speakBet - /bet/
 
 enum TtsState { playing }
 
-class EnglishEntrybet extends StatelessWidget {
-// blank divider
-  EnglishEntrybet({super.key});
-// blank divider
+class EnglishEntrychatter extends StatelessWidget {
+  // blank divider
+  EnglishEntrychatter({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBet(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakchatter(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chatter"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets1(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakchatters1(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They chattered away happily for a while."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters2(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("You have to be over 16 to bet."); // DOPSUM: CHANGE TEXT
+        .speak("He chattered excitedly to his friends."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets2(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Not many people are betting against France retaining their title."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBets3(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She bet me £20 (that) I wouldn't do it."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBets4(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakchatters3(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I bet (that) we’re too late."); // DOPSUM: CHANGE TEXT
+        .speak("Her teeth chattered as she dressed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets5(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakchatters4(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'm willing to bet (that) the analysts will be wrong."); // DOPSUM: CHANGE TEXT
+        "The gun shot made the monkeys chatter in alarm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets6(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakchatters5(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We've got a bet on who's going to arrive first."); // DOPSUM: CHANGE TEXT
+        "Jane's constant chatter was beginning to annoy him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets7(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakchatters6(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My bet is that they've been held up in traffic."); // DOPSUM: CHANGE TEXT
+        "I wish you'd stop wasting time in idle chatter."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters7(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He could hear the chatter of birds in the trees overhead."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters8(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters9(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatters900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters10(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatters1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters11(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatters1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters12(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatters1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatters13(String languageCode) async {
+    // DOPSUM: CHANGE speakchatter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatters1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -110,22 +156,22 @@ class EnglishEntrybet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bet"),
+                            EntryTitle(word: "chatter"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bet/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃætə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBet("en-GB"),
+                              onPressed: () => speakchatter("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bet/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃætər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBet("en-US"),
+                              onPressed: () => speakchatter("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +184,7 @@ class EnglishEntrybet extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,38 +198,39 @@ class EnglishEntrybet extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گرێو، مەرج‌بەستن، پارەی گرێو
+کوردی: زۆربڵەیی، چەقەسرۆیی، چەنەدان، قیژەقیژ، زیق‌وهەرا، گاڵەگاڵ، شەقەشەق، چۆقەچۆق
 """),
                           const DefinitionKurdish(
-                              text: """١. (کردار) گرەوکردن"""),
+                              text:
+                                  "١. (کردار) قسەکردن بەخێرایی و بەردەوامی لەسەر شتیانێک کە گرنگ نین"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "You have to be over 16 to bet."),
+                                        text:
+                                            "They chattered away happily for a while."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
+                                            "دڵخۆشانە بۆ ماوەیەک قسەیان کرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chatter", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets1("en-GB"),
+                                    onPressed: () => speakchatters1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets1("en-US"),
+                                    onPressed: () => speakchatters1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -191,10 +238,10 @@ class EnglishEntrybet extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Not many people are betting against France retaining their title."),
+                                            "He chattered excitedly to his friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
+                                            "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ هاوڕێکانی دەکرد."),
                                   ],
                                 ),
                               ),
@@ -202,17 +249,109 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets2("en-GB"),
+                                    onPressed: () => speakchatters2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets2("en-US"),
+                                    onPressed: () => speakchatters2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) کڕاندنی ددان بە یەکدا بەهۆی سەرما یان ترس"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her teeth chattered as she dressed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ددانەکانی کڕەیان دەهات کە جلی لەبەردەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchatters3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchatters3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) درووستکردنی دەنگی زیق لەلایەن ئاژەڵانەوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The gun shot made the monkeys chatter in alarm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی فیشەکەکە وای لە مەیموونەکان کرد دەست بە زیقەزیق بکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchatters4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchatters4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) قسەی بەردەوام لەسەر ئەو شتانەی کە گرنگ نین"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jane's constant chatter was beginning to annoy him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەنەدانی بەردەوامی جەین خەریک بوو بێزاری دەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchatters5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchatters5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -220,10 +359,10 @@ class EnglishEntrybet extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She bet me £20 (that) I wouldn't do it."),
+                                            "I wish you'd stop wasting time in idle chatter."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
+                                            "هیوادارم دەوەستایت لە قسەی هیچ."),
                                   ],
                                 ),
                               ),
@@ -231,47 +370,19 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets3("en-GB"),
+                                    onPressed: () => speakchatters6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets3("en-US"),
+                                    onPressed: () => speakchatters6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) بۆ وتنی ئەوەی بەنزیکەیی دڵنیایت لەوەی شتێک ڕاستە یان ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I bet (that) we’re too late."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) دەنگی زیقی بەردەوامی هەندێک ئاژەڵ"),
                           Row(
                             children: [
                               const Expanded(
@@ -279,10 +390,10 @@ class EnglishEntrybet extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'm willing to bet (that) the analysts will be wrong."),
+                                            "He could hear the chatter of birds in the trees overhead."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن."),
+                                            "دەیتوانی گوێی لە چریوەی باڵندە بێت لەسەر سەری."),
                                   ],
                                 ),
                               ),
@@ -290,19 +401,18 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets5("en-GB"),
+                                    onPressed: () => speakchatters7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets5("en-US"),
+                                    onPressed: () => speakchatters7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) گرەو"""),
+                          const DefinitionKurdish(
+                              text: "٦. (ناو) دەنگی شت کە بەر یەکدی دەکەون"),
                           Row(
                             children: [
                               const Expanded(
@@ -310,10 +420,10 @@ class EnglishEntrybet extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We've got a bet on who's going to arrive first."),
+                                            "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
+                                            "کە واستابوون بۆ گەشتنی یارمەتی، شاخەوانە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا."),
                                   ],
                                 ),
                               ),
@@ -321,48 +431,15 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets6("en-GB"),
+                                    onPressed: () => speakchatters8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets6("en-US"),
+                                    onPressed: () => speakchatters8("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) بۆچوونێک لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My bet is that they've been held up in traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچوونم وایە لە ترافیک ماونەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBets7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBets7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -373,22 +450,23 @@ class EnglishEntrybet extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        YoutubeEmbeddedthirteen(),
-                        YoutubeEmbeddeddfourteen(),
-                        YoutubeEmbeddedfifteen(),
-                        YoutubeEmbeddeddsixteen(),
-                        YoutubeEmbeddeddseventeen(),
-                        YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -444,21 +522,26 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bet (derived forms: betting, bet, bets, betted)
-1. Maintain with or as if with a bet (= wager)
-"I bet she will be there!";
-
-2. Stake money or something else of value on the outcome of an unpredictable event or disputed issue (= wager, play)
-"I bet £100 on that new horse";
-
-3. Have faith or confidence in (= count, depend, swear, rely, bank, look, calculate, reckon)
-"You can bet on that!";
-
-- Noun: bet (Derived forms: betting, bet, bets, betted)
-1. The money risked on a gamble (= stake, stakes, wager)
+- Noun: chatter (Derived forms: chatters, chattering, chattered)
+1. Noisy talk (= yak, yack [informal], yakety-yak, cackle, yackety-yak [informal], yatter [informal])
  
-2. An act of gambling (= wager, flutter [Brit, informal], punt [Brit, informal])
-"he did it on a bet";
+2. The rapid series of noises made by the parts of a machine (= chattering)
+ 
+3. The high-pitched continuing noise made by animals (birds or monkeys) (= chattering)
+
+- Verb: chatter 
+1. Make a clicking sound repeatedly or uncontrollably (= click)
+"Chattering teeth";
+ 
+2. Cut unevenly with a chattering tool
+ 
+3. Talk socially without exchanging too much information (= chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chaffer, natter [informal], gossip, jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gas [informal], gab [informal])
+"the men were sitting in the cafe and chattering";
+ 
+4. Speak (about unimportant matters) rapidly and incessantly (= piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, blab [informal], gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
+ 
+5. Make noise as if chattering away
+"The magpies were chattering in the trees"
 """,
   );
 
@@ -487,12 +570,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/hZCVt28wN00',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1roy4o4tqQM',
-    startSeconds: 82,
+    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -516,8 +624,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PGk3qLxwmDQ',
-    startSeconds: 63,
+    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    startSeconds: 1474,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -541,8 +649,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'x_me3xsvDgk',
-    startSeconds: 151,
+    videoId: 'https://youtu.be/IM31fgkxn2I?t=',
+    startSeconds: 1014,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -566,8 +674,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OrnpSe4OChM',
-    startSeconds: 83,
+    videoId: 'https://youtu.be/RhWFy8fsDrc?t=',
+    startSeconds: 1028,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -591,8 +699,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KJy7T24rhg0',
-    startSeconds: 392,
+    videoId: 'https://youtu.be/JQiJu6qhOV0?t=',
+    startSeconds: 698,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -616,8 +724,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sSdMX8AWurI',
-    startSeconds: 90,
+    videoId: 'https://youtu.be/MrS07wakoJo?t=',
+    startSeconds: 1176,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -641,8 +749,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GjMmsEwIcl0',
-    startSeconds: 193,
+    videoId: 'https://youtu.be/sOwbxQQ-6Rw?t=',
+    startSeconds: 507,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -662,279 +770,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3cxHwQl9pNM',
-    startSeconds: 416,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '544DTGHIBM0',
-    startSeconds: 913,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-cPdImejxEQ',
-    startSeconds: 5,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a9m3GD0DbPY',
-    startSeconds: 138,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gFQNPmLKj1k',
-    startSeconds: 861,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'jw_CWHs2YDU',
-    startSeconds: 346,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'n2OQu9yMh9k',
-    startSeconds: 428,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NVGuFdX5guE',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UXfIRHoJu-o',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dDYFiq1l5Dg',
-    startSeconds: 678,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'al0CVsiffu8',
-    startSeconds: 904,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bet// TODO Implement this library.
+// end WORD_WEB

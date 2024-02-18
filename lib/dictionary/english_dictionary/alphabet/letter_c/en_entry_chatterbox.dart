@@ -3,85 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "aviary" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace aviary - replace EnglishEntryaviary
-
-// replace speakAviary - /ˈeɪviəri/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryaviary extends StatelessWidget {
+class EnglishEntrychatterbox extends StatelessWidget {
   // blank divider
-  EnglishEntryaviary({super.key});
+  EnglishEntrychatterbox({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAviary(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterbox(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aviary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chatterbox"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys1(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs1(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our visitors will find hawks in the aviary."); // DOPSUM: CHANGE TEXT
+        "She hardly said a word until she was two, but now she's a little chatterbox."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys2(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs2(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAviarys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchatterboxs200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys3(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs3(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAviarys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchatterboxs300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys4(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs4(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAviarys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchatterboxs400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys5(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs5(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAviarys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchatterboxs500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys6(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs6(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAviarys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchatterboxs600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAviarys7(String languageCode) async {
-    // DOPSUM: CHANGE speakAviary
+  Future<void> speakchatterboxs7(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAviarys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchatterboxs700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatterboxs8(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatterboxs800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatterboxs9(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatterboxs900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatterboxs10(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatterboxs1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatterboxs11(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatterboxs1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatterboxs12(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatterboxs1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchatterboxs13(String languageCode) async {
+    // DOPSUM: CHANGE speakchatterbox
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchatterboxs1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -104,28 +149,22 @@ class EnglishEntryaviary extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aviary"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "chatterbox"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈeɪviəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃætəbɒks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAviary("en-GB"),
+                              onPressed: () => speakchatterbox("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeɪvieri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃætərbɑːks/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAviary("en-US"),
+                              onPressed: () => speakchatterbox("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +177,7 @@ class EnglishEntryaviary extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,11 +191,10 @@ class EnglishEntryaviary extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئیڤیەری، باڵندەخانە، مەلگە، شوێنی باڵندەکان (قەفەسێکی گەورە بۆ ڕاگرتنی باڵندەکان، بۆ نموونە لە باخچەی ئاژەڵان‌دا)
+کوردی: بنیادەمی زۆربڵە، زۆروەڕ، چەقەسرۆ
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە"
-                                  ""),
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -164,43 +202,39 @@ class EnglishEntryaviary extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Our visitors will find hawks in the aviary."),
+                                            "She hardly said a word until she was two, but now she's a little chatterbox."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),
+                                            "بە ئاستەنگ وشەیەکی دەگوت تا تەمەنی دوو ساڵی، بەڵام ئێستا ئەڵێی ڕادیۆی شکاوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chatterbox", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAviarys1("en-GB"),
+                                    onPressed: () => speakchatterboxs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAviarys1(// REPLACE: aviary
-                                            "en-US"),
+                                    onPressed: () => speakchatterboxs1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -208,6 +242,13 @@ class EnglishEntryaviary extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -263,8 +304,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: aviary (Derived forms: aviaries)
-1. A building where birds are kept (= bird sanctuary, volary)
+- Noun: chatterbox (Derived forms: chatterboxes)
+1. Orchid growing along streams or ponds of western North America having leafy stems and 1 greenish-brown and pinkish flower in the axil of each upper leaf (= stream orchid, giant helleborine, Epipactis gigantea)
+ 
+2. Someone who talks a lot, esp. someone who talks too much or foolishly (= chatterer, babbler, prater, magpie, spouter)
 """,
   );
 
@@ -293,12 +336,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/9GR3XSuInYE?t=',
+    startSeconds: 667,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xW8rx1nTdN4',
-    startSeconds: 367,
+    videoId: 'https://youtu.be/n2aXSpp-TXY?t=',
+    startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -322,8 +390,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'STJoT_UjkPI',
-    startSeconds: 116,
+    videoId: 'https://youtu.be/H7OV_d6MNb8?t=',
+    startSeconds: 1508,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -347,8 +415,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cu9Cagnmpas',
-    startSeconds: 690,
+    videoId: 'https://youtu.be/8Yjd8pDRgfs?t=',
+    startSeconds: 393,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -372,8 +440,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qFAi-X-gNIQ',
-    startSeconds: 991,
+    videoId: 'https://youtu.be/_qdHpaDD1hU?t=',
+    startSeconds: 2241,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -397,8 +465,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nC5ghtpeL6I',
-    startSeconds: 1271,
+    videoId: 'https://youtu.be/QGw0jtlk19E?t=',
+    startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -422,8 +490,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9_32dA5h0DY',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/bj2_H1mvM4o?t=',
+    startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -447,8 +515,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VpetB-aIrMk',
-    startSeconds: 36,
+    videoId: 'https://youtu.be/twxgl3h9O2M?t=',
+    startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,31 +536,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LmaIBWyAqcc',
-    startSeconds: 324,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end aviary // TODO Implement this library.
+// end WORD_WEB

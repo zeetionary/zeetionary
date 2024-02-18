@@ -3,47 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamalgamate - replace speakAmalgamate - replace amalgamate - /əˈmælɡəmeɪt/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryamalgamate extends StatelessWidget {
-  EnglishEntryamalgamate({super.key});
+class EnglishEntrychauvinist extends StatelessWidget {
+  // blank divider
+  EnglishEntrychauvinist({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmalgamate(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamate
+  Future<void> speakchauvinist(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amalgamate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chauvinist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamate4444(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamate
+  Future<void> speakchauvinists1(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A number of colleges have amalgamated to form the new university."); // DOPSUM: CHANGE TEXT
+        "They are uneducated chauvinists who think men rule in society."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamate68552(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamate
+  Future<void> speakchauvinists2(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They decided to amalgamate the two schools."); // DOPSUM: CHANGE TEXT
+        "The English tend to be chauvinists - they expect you to speak in their language."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamate4588(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamate
+  Future<void> speakchauvinists3(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This information will be amalgamated with information obtained earlier."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchauvinists300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists4(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists5(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists6(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists7(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists8(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists9(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists10(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists11(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists12(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchauvinists13(String languageCode) async {
+    // DOPSUM: CHANGE speakchauvinist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchauvinists1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -66,27 +150,22 @@ class EnglishEntryamalgamate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "amalgamate"), // Find /əˈmælɡəmeɪt/
+                            EntryTitle(word: "chauvinist"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈmælɡəmeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈʃəʊvɪnɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmalgamate("en-GB"),
+                              onPressed: () => speakchauvinist("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈmælɡəmeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈʃəʊvɪnɪst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmalgamate("en-US"),
+                              onPressed: () => speakchauvinist("en-US"),
                             ),
                           ],
                         ),
@@ -99,7 +178,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -112,8 +191,12 @@ class EnglishEntryamalgamate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (کردار) یەکگرتن بۆ درووستکردنی شتێکی گەورەتر"""),
+                          const KurdishVocabulary(text: """
+کوردی: ڕەشەنیشتمان‌پەروەر، نیشتمان‌پەرست، نیشتمان‌پەروەری دەرمارگرژ،	دەمارگرژ 
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پیاوێک کە پێی وایە پیاوان زیرەکتر، گرنگتر، و باشترن لە ژنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -121,63 +204,30 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A number of colleges have amalgamated to form the new university."),
+                                            "They are uneducated chauvinists who think men rule in society."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە."),
+                                            "پیاوسالاری نەخوێندەوارن کە وابیردەکەنەوە پیاو کۆمەڵگە بەڕێوەدەبەن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chauvinist", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAmalgamate4444("en-GB"),
+                                    onPressed: () => speakchauvinists1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamate4444(
-                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They decided to amalgamate the two schools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاریاندا دوو قوتابخانەکە یەکبخەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAmalgamate68552("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamate68552(
-                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                        "en-US"),
+                                    onPressed: () => speakchauvinists1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) یەکخستنی دوو شت یان زیاتر بۆ درووستکردنی یەک شت"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کەسێک کە باوەڕێکی کوێرانە و توندڕەوانەی هەیە کە وڵاتەکەی باشترە لە هەموو ئەوانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -185,10 +235,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "This information will be amalgamated with information obtained earlier."),
+                                            "The English tend to be chauvinists - they expect you to speak in their language."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو"),
+                                            "ئینگلیزەکان خولیایان هەیە نیشتمان‌پەرست بن، چاوەڕێی ئەوە دەکەن کە بە زمانەکەیان قسە بکەیت."),
                                   ],
                                 ),
                               ),
@@ -196,13 +246,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAmalgamate4588("en-GB"),
+                                    onPressed: () => speakchauvinists2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamate4588(
-                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                        "en-US"),
+                                    onPressed: () => speakchauvinists2("en-US"),
                                   ),
                                 ],
                               ),
@@ -213,21 +260,28 @@ class EnglishEntryamalgamate extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -283,13 +337,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: amalgamate 
-1. Joined together into a whole (= amalgamated, coalesced, consolidated, fused)
-"the amalgamate colleges constituted a university";
-
-- Verb: amalgamate (Derived forms: amalgamating, amalgamates, amalgamated)
-1. To bring or combine together or with something else (= mix, mingle, commix [archaic], unify)
-"resourcefully he amalgamated music and dance";
+- Noun: chauvinist (Derived forms: chauvinists)
+1. A person with a prejudiced belief in the superiority of his or her own kind
+ 
+2. An extreme bellicose nationalist (= jingoist, jingo, flag-waver, hundred-percenter, patrioteer)
 """,
   );
 
@@ -318,12 +369,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/epM5KHDWDNU?t=',
+    startSeconds: 192,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qBOmJql6t9o',
-    startSeconds: 189,
+    videoId: 'https://youtu.be/N1fwX-JnQtQ',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -347,8 +423,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'npaaFOwfKZk',
-    startSeconds: 343,
+    videoId: 'https://youtu.be/8FZBwj81gGY?t=',
+    startSeconds: 202,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -372,8 +448,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5KDS-97yE5Q',
-    startSeconds: 126,
+    videoId: 'https://youtu.be/469chceiiUQ?t=',
+    startSeconds: 844,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -397,8 +473,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xn57xCokWkc',
-    startSeconds: 138,
+    videoId: 'https://youtu.be/DFudpak80Cs?t=',
+    startSeconds: 484,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -422,8 +498,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_lu83z2t_is',
-    startSeconds: 2442,
+    videoId: 'https://youtu.be/ZbYInUMpkqs?t=',
+    startSeconds: 1369,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -447,8 +523,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8ilZWA4qtPE',
-    startSeconds: 529,
+    videoId: 'https://youtu.be/0tYm41hb48o?t=',
+    startSeconds: 6279,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +548,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'H1XplZAvTQA',
-    startSeconds: 507,
+    videoId: 'https://youtu.be/3G3Z3_Joedk?t=',
+    startSeconds: 640,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,131 +569,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ooOvXOfoOaM',
-    startSeconds: 51,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NMuoDphgLtc',
-    startSeconds: 243,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_cRzhzh87PI',
-    startSeconds: 226,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9t6BfuLmO5g',
-    startSeconds: 822,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DVThnXormAY',
-    startSeconds: 474,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-
+// end WORD_WEB

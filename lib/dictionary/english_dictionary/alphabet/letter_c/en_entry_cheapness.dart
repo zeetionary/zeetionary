@@ -10,126 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycheapen extends StatelessWidget {
+class EnglishEntrycheapness extends StatelessWidget {
   // blank divider
-  EnglishEntrycheapen({super.key});
+  EnglishEntrycheapness({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcheapen(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapness(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cheapen"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cheapness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens1(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She never cheapened herself by lowering her standards."); // DOPSUM: CHANGE TEXT
+        "The relative cheapness of foreign travel means that more people are going abroad than ever before."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens2(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It just cheapens you when you make jokes like that."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens3(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This has had the effect of cheapening UK exports."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens4(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The movie was accused of cheapening human life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens5(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens6(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens7(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens8(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheapnesss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcheapness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheapnesss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +149,22 @@ class EnglishEntrycheapen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cheapen"),
+                            EntryTitle(word: "cheapness"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃiːpən/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃiːpnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcheapen("en-GB"),
+                              onPressed: () => speakcheapness("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃiːpən/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃiːpnəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcheapen("en-US"),
+                              onPressed: () => speakcheapness("en-US"),
                             ),
                           ],
                         ),
@@ -193,12 +190,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: هەرزان بوون، داشکاندنی نرخ
-"""),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) کەمکردنەوەی بەها و ڕێزی خۆت یان کەسێکی دیکە"),
+                          const DefinitionKurdish(text: "١. (ناو) هەرزانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,110 +198,21 @@ class EnglishEntrycheapen extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She never cheapened herself by lowering her standards."),
+                                            "The relative cheapness of foreign travel means that more people are going abroad than ever before."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی."),
+                                            "تاڕادەیەک هەرزانی گەشت بۆ دەرەوە واتا خەڵکی زیاتر بۆ دەرەوە دەچن زیاتر لە هەر کاتێکی دیکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheapen", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cheapness", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens1("en-GB"),
+                                    onPressed: () => speakcheapnesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It just cheapens you when you make jokes like that."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە گاڵتەی لەو شێوەیە دەکەیت لە بەهای خۆت کەمدەکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) دابەزاندنی نرخی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This has had the effect of cheapening UK exports."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە کاریگەری هەوەی دەبێت نرخی هەناردەی شانشینی یەکگرتوو دادەبەزێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) وا لە شتێککردن کە نرخی کەمترە لەوەی هەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie was accused of cheapening human life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە بە بێ‌بەهاکردنی ژیانی مرۆڤ تەمەتبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens4("en-US"),
+                                    onPressed: () => speakcheapnesss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,9 +300,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cheapen (Derived forms: cheapened, cheapening, cheapens)
-1. Lower the grade of something; reduce its worth (= degrade)
-"The increased production of silver after 1970 so far tended to cheapen it";
+- Noun: cheapness 
+1. A price below the standard price (= bargain rate, cut rate [N. Amer], cut price)
+ 
+2. Tastelessness by virtue of being cheap and vulgar (= tackiness, tat [Brit, informal], sleaze)
 """,
   );
 
@@ -432,8 +336,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Esef5__HDXY?t=',
-    startSeconds: 106,
+    videoId: 'https://youtu.be/FovIyqov1uA?t=',
+    startSeconds: 664,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -457,8 +361,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wjoeVwJTUTA?t=',
-    startSeconds: 287,
+    videoId: 'https://youtu.be/QigGxAC_D9E?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -482,8 +386,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D4s6b1XNAaE?t=',
-    startSeconds: 44,
+    videoId: 'https://youtu.be/HA8sJQQYs7c?t=',
+    startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -507,8 +411,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zj35vRgeXLs?t=',
-    startSeconds: 307,
+    videoId: 'https://youtu.be/ZiXg6H_FycI?t=',
+    startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -532,8 +436,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l4XS-T-r4S8?t=',
-    startSeconds: 497,
+    videoId: 'https://youtu.be/AttTFpKn0zQ?t=',
+    startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -557,8 +461,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/voUiWOGv8ec?t=',
-    startSeconds: 366,
+    videoId: 'https://youtu.be/gI8h3AD5Dhk?t=',
+    startSeconds: 1222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -582,8 +486,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MQAVbwUTaYU?t=',
-    startSeconds: 1578,
+    videoId: 'https://youtu.be/7Ye7MAGoaeo?t=',
+    startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -607,8 +511,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O2Au0SXlATM?t=',
-    startSeconds: 625,
+    videoId: 'https://youtu.be/o83tQosBB4M?t=',
+    startSeconds: 1059,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

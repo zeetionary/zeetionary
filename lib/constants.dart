@@ -1608,6 +1608,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
     // final currentTheme = ref.watch(themeNotifierProvider);
     final textSize = ref.watch(textSizeProvider);
     return Container(
+      height: 40,
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded
           ? BoxDecoration(

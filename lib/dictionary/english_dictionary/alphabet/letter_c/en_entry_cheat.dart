@@ -10,126 +10,128 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycheapen extends StatelessWidget {
+class EnglishEntrycheat extends StatelessWidget {
   // blank divider
-  EnglishEntrycheapen({super.key});
+  EnglishEntrycheat({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcheapen(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheat(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cheapen"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cheat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens1(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats1(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She never cheapened herself by lowering her standards."); // DOPSUM: CHANGE TEXT
+        "She is accused of attempting to cheat the taxman."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens2(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats2(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It just cheapens you when you make jokes like that."); // DOPSUM: CHANGE TEXT
+        "We will crack down on people who try to cheat the system."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens3(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats3(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Have you ever cheated in an exam?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcheats4(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This has had the effect of cheapening UK exports."); // DOPSUM: CHANGE TEXT
+        "You're not allowed to look at the answers—that's cheating."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens4(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats5(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He’s cheating on his wife."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcheats6(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("You little cheat!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcheats7(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Are you accusing me of being a cheat?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcheats8(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The movie was accused of cheapening human life."); // DOPSUM: CHANGE TEXT
+        "You can use cocoa powder to make the cake rather than chocolate - it's a bit of a cheat, but nobody notices the difference."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens5(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats9(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheats900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens6(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats10(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheats1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens7(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats11(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheats1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens8(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats12(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheats1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheapens9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
+  Future<void> speakcheats13(String languageCode) async {
+    // DOPSUM: CHANGE speakcheat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcheapens10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcheapens11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcheapens12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcheapens13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheapen
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheapens1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheats1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +154,22 @@ class EnglishEntrycheapen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cheapen"),
+                            EntryTitle(word: "cheat"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃiːpən/"),
+                            const IPAofEnglish(text: "IpaUK: /tʃiːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcheapen("en-GB"),
+                              onPressed: () => speakcheat("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃiːpən/"),
+                            const IPAofEnglish(text: "IpaUS: /tʃiːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcheapen("en-US"),
+                              onPressed: () => speakcheat("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +196,11 @@ class EnglishEntrycheapen extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەرزان بوون، داشکاندنی نرخ
+کوردی: بنیادەمی گزەون، دەسبڕ،	گزەونی، گزە، فریو، خاپان، هەڵخەڵەتاندن، خاپاندن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) کەمکردنەوەی بەها و ڕێزی خۆت یان کەسێکی دیکە"),
+                                  "١. (کردار) خەڵەتەناندنی کەسێک یان وایان لێ بکەیت باوەڕ بە شتێک نکەن کە ڕاست نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,21 +208,21 @@ class EnglishEntrycheapen extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She never cheapened herself by lowering her standards."),
+                                            "She is accused of attempting to cheat the taxman."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی."),
+                                            "تۆمەتباری کرد بە هەوڵدان بۆ فریودانی باجگرەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheapen", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cheat", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens1("en-GB"),
+                                    onPressed: () => speakcheats1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens1("en-US"),
+                                    onPressed: () => speakcheats1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +236,10 @@ class EnglishEntrycheapen extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It just cheapens you when you make jokes like that."),
+                                            "We will crack down on people who try to cheat the system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە گاڵتەی لەو شێوەیە دەکەیت لە بەهای خۆت کەمدەکەیتەوە."),
+                                            "سزای ئەو کەسانە دەدەین کە هەوڵ دەدەن فێڵ لە سیستەمەکە بکەن."),
                                   ],
                                 ),
                               ),
@@ -245,10 +247,10 @@ class EnglishEntrycheapen extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens2("en-GB"),
+                                    onPressed: () => speakcheats2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens2("en-US"),
+                                    onPressed: () => speakcheats2("en-US"),
                                   ),
                                 ],
                               ),
@@ -256,18 +258,20 @@ class EnglishEntrycheapen extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) دابەزاندنی نرخی شتێک"),
+                              text: "٢. (کردار) فێڵکردن بۆ ئەوەی سوود ببینیت"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "This has had the effect of cheapening UK exports."),
+                                      text: "Have you ever cheated in an exam?",
+                                      note:
+                                          "American English is 'Have you ever cheated on an exam?'",
+                                    ),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە کاریگەری هەوەی دەبێت نرخی هەناردەی شانشینی یەکگرتوو دادەبەزێنێت."),
+                                            "هەرگیز لە تاقیکردنەوەدا گزیت کردووە؟"),
                                   ],
                                 ),
                               ),
@@ -275,10 +279,38 @@ class EnglishEntrycheapen extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens3("en-GB"),
+                                    onPressed: () => speakcheats3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens3("en-US"),
+                                    onPressed: () => speakcheats3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You're not allowed to look at the answers—that's cheating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نابێت سەیری وەڵامەکان بکەیت، ئەوە گزییە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcheats4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcheats4("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,18 +319,17 @@ class EnglishEntrycheapen extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) وا لە شتێککردن کە نرخی کەمترە لەوەی هەیە"),
+                                  "٣. (ناو) خیانەتکردن لە هاوسەر یان دۆستەکەت بە هەبوونی سێکس لەگەڵ کەسێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "The movie was accused of cheapening human life."),
+                                        text: "He’s cheating on his wife."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە بە بێ‌بەهاکردنی ژیانی مرۆڤ تەمەتبارکرا."),
+                                            "خەریکە خیانەت لە هاوسەرەکەی دەکات."),
                                   ],
                                 ),
                               ),
@@ -306,10 +337,95 @@ class EnglishEntrycheapen extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens4("en-GB"),
+                                    onPressed: () => speakcheats5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens4("en-US"),
+                                    onPressed: () => speakcheats5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) کەسێک کە فێڵ دەکات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You little cheat!"),
+                                    ExampleSentenceKurdish(
+                                        text: "فێڵبازی بچووک!"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcheats6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcheats6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are you accusing me of being a cheat?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئایا بە فێڵباز تۆمەتبارم دەکەیت؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcheats7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcheats7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) فێڵبازی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can use cocoa powder to make the cake rather than chocolate - it's a bit of a cheat, but nobody notices the difference."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت هاڕاوەی کەکاو لە جیاتی چکلێت بەکاربێنیت بۆ درووستکردنی کێکەکە، کەمێک فێڵبازییە، بەڵام کەس پێی نازانێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcheats8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcheats8("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,9 +513,32 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cheapen (Derived forms: cheapened, cheapening, cheapens)
-1. Lower the grade of something; reduce its worth (= degrade)
-"The increased production of silver after 1970 so far tended to cheapen it";
+- Verb: cheat (Derived forms: cheated, cheating, cheats)
+1. Engage in deceitful behaviour; practice trickery or fraud (= chisel [informal])
+"Who's cheating on the side?";
+
+2. Deprive somebody of something by deceit (= rip off [informal], chisel [informal])
+"we were cheated by their clever-sounding scheme";
+ 
+3. Defeat someone through trickery or deceit (= chouse, shaft [informal], screw [informal], chicane, jockey)
+ 
+4. Be sexually unfaithful to one's partner in marriage (= cheat on, cuckold, betray, wander)
+"She cheats on her husband";
+
+- Noun: cheat (Derived forms: cheats)
+1. Someone who obtains an advantage by unfair means, lying or breaking rules (= cheater)
+ 
+2. Someone who leads you to believe something that is not true (= deceiver, cheater, trickster, beguiler, slicker [informal])
+ 
+3. The act of swindling by some fraudulent scheme (= swindle, rig, fraud)
+ 
+4. A deception for profit to yourself (= cheating)
+ 
+5. A card game in which players make declarations about cards and the others have to say whether they think they are lying
+ 
+6. Weedy annual grass often occurs in grainfields and other cultivated land; seeds sometimes considered poisonous (= darnel, tare, bearded darnel, Lolium temulentum)
+ 
+7. Annual plant native to Europe but widely distributed as a weed, especially in wheat (= chess, Bromus secalinus)
 """,
   );
 
@@ -432,8 +571,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Esef5__HDXY?t=',
-    startSeconds: 106,
+    videoId: 'https://youtu.be/t093mNvl03c',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -457,8 +596,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wjoeVwJTUTA?t=',
-    startSeconds: 287,
+    videoId: 'https://youtu.be/wizgxRBfVTY?t=',
+    startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -482,8 +621,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D4s6b1XNAaE?t=',
-    startSeconds: 44,
+    videoId: 'https://youtu.be/Se3RKA9HrzI?t=',
+    startSeconds: 528,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -507,8 +646,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zj35vRgeXLs?t=',
-    startSeconds: 307,
+    videoId: 'https://youtu.be/xdgOrKkxKXc?t=',
+    startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -532,8 +671,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l4XS-T-r4S8?t=',
-    startSeconds: 497,
+    videoId: 'https://youtu.be/Iwa39iZ0zHo?t=',
+    startSeconds: 470,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -557,8 +696,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/voUiWOGv8ec?t=',
-    startSeconds: 366,
+    videoId: 'https://youtu.be/s0hY04WnlWI?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -582,8 +721,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MQAVbwUTaYU?t=',
-    startSeconds: 1578,
+    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -607,8 +746,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O2Au0SXlATM?t=',
-    startSeconds: 625,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

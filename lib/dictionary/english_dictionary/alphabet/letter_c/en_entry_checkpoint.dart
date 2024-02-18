@@ -10,125 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycheckin extends StatelessWidget {
+class EnglishEntrycheckpoint extends StatelessWidget {
   // blank divider
-  EnglishEntrycheckin({super.key});
+  EnglishEntrycheckpoint({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcheckin(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoint(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("check-in"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("checkpoint"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins1(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints1(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The airline apologizes for long delays at check-ins today."); // DOPSUM: CHANGE TEXT
+        "There are border guards at the checkpoint crossing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins2(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints2(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Do you know your check-in time?"); // DOPSUM: CHANGE TEXT
+        .speak("We were stopped at the checkpoint."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins3(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints3(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We can arrange an early check-in."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins4(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints4(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins5(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints5(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins6(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints6(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins7(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints7(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins8(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints8(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints9(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints10(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints11(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints12(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheckpoints13(String languageCode) async {
+    // DOPSUM: CHANGE speakcheckpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +150,22 @@ class EnglishEntrycheckin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "check-in"),
+                            EntryTitle(word: "checkpoint"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃek ɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃekpɔɪnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcheckin("en-GB"),
+                              onPressed: () => speakcheckpoint("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃek ɪn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃekpɔɪnt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcheckin("en-US"),
+                              onPressed: () => speakcheckpoint("en-US"),
                             ),
                           ],
                         ),
@@ -192,9 +191,12 @@ class EnglishEntrycheckin extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
+                          const KurdishVocabulary(text: """
+کوردی: بەربەست یا کۆسپی پشکنین، شوێنی پشکنین، پشکنینگە
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو شوێنەی فڕۆکەخانە کە تێیدا بلیتەکەت پیشان دەدەیت و کەلوپەلەکانت جێدەهێڵیت"),
+                                  "١. (ناو) شوێنێک، بەتایبەتی لەسەر سنووری دوو وڵات کە خەڵکی تێدا دەوەستن بۆ پشکنینی ئۆتۆمبێل و بەڵگەنامەکانیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,30 +204,27 @@ class EnglishEntrycheckin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The airline apologizes for long delays at check-ins today."),
+                                            "There are border guards at the checkpoint crossing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە."),
+                                            "پاسەوانی سنووری هەیە لە خاڵە سنوورییەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "check-in", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "checkpoint", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins1("en-GB"),
+                                    onPressed: () => speakcheckpoints1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins1("en-US"),
+                                    onPressed: () => speakcheckpoints1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) کرداری پشتڕاستکردنەوەی ئەوەی کە دەتەوێت سەرکەویتە ناو گەشتێک لەگەڵ زانیارییە کەسییەکانت لە فڕۆکەخانەیەک یان بە کۆمپیوتەرێک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -233,9 +232,9 @@ class EnglishEntrycheckin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Do you know your check-in time?"),
+                                            "We were stopped at the checkpoint."),
                                     ExampleSentenceKurdish(
-                                        text: "کاتی پشکنینت دەزانیت؟"),
+                                        text: "لە خاڵە سنوورییەکە وەستێنراین."),
                                   ],
                                 ),
                               ),
@@ -243,41 +242,10 @@ class EnglishEntrycheckin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins2("en-GB"),
+                                    onPressed: () => speakcheckpoints2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) کاتی گەشتن بە هوتێلێک لە سەرەتای مانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can arrange an early check-in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت کاتی گەشتنی پێشوەختە ڕێکبخەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins3("en-US"),
+                                    onPressed: () => speakcheckpoints2("en-US"),
                                   ),
                                 ],
                               ),
@@ -365,8 +333,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: check-in (Derived forms: check-ins)
-1. The act of reporting your presence (as at an airport or a hotel)
+- Noun: checkpoint (Derived forms: checkpoints)
+1. A place (as at a frontier) where travellers are stopped for inspection and clearance
+ 
+2. A point with fixed GPS coordinates where location can be verified on a sea or air route (= waypoint)
+ 
+3. (computing) a time when a consistent state is stored to disk so that everything from that time can be recovered if there is a failure; the data stored at such a time
+"resume from the last checkpoint"
 """,
   );
 
@@ -399,8 +372,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NTFqrE73_Tg?t=',
-    startSeconds: 1175,
+    videoId: 'https://youtu.be/hm-CUbZor4s?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -424,8 +397,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m4ciBxXbJ3U?t=',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/gdVzS1F18vE?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -449,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w51aMfmRf1I?t=',
-    startSeconds: 212,
+    videoId: 'https://youtu.be/vNXNX3UeKek?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uvuk7UDKpQ8?t=',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/QGerIdq9aKw?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nt-uMVlkF4w?t=',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    startSeconds: 995,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_ecQlPXXu_0?t=',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/YZoZr_m9WLU?t=',
+    startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1m6h59wI_yI?t=',
-    startSeconds: 652,
+    videoId: 'https://youtu.be/h1yvhYsueAk?t=',
+    startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QZLZqGFV-nc?t=',
-    startSeconds: 63,
+    videoId: 'https://youtu.be/sfq2BYB8K54?t=',
+    startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

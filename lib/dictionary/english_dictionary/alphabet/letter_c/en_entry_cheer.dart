@@ -10,125 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycheckin extends StatelessWidget {
+class EnglishEntrycheer extends StatelessWidget {
   // blank divider
-  EnglishEntrycheckin({super.key});
+  EnglishEntrycheer({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcheckin(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheer(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("check-in"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cheer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins1(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The airline apologizes for long delays at check-ins today."); // DOPSUM: CHANGE TEXT
+        "We all cheered as the team came on to the field."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins2(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Do you know your check-in time?"); // DOPSUM: CHANGE TEXT
+        .speak("The fans cheered for their team."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins3(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("We can arrange an early check-in."); // DOPSUM: CHANGE TEXT
+        .speak("I was greatly cheered by this news."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins4(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A great cheer went up from the crowd."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins5(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins6(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins7(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins8(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheckins13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheckin
+  Future<void> speakcheers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcheer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckins1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +152,22 @@ class EnglishEntrycheckin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "check-in"),
+                            EntryTitle(word: "cheer"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃek ɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /tʃɪə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcheckin("en-GB"),
+                              onPressed: () => speakcheer("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃek ɪn/"),
+                            const IPAofEnglish(text: "IpaUS: /tʃɪr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcheckin("en-US"),
+                              onPressed: () => speakcheer("en-US"),
                             ),
                           ],
                         ),
@@ -192,9 +193,12 @@ class EnglishEntrycheckin extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
+                          const KurdishVocabulary(text: """
+کوردی: دەربڕینی کوڵ‌وکۆ، هاندان، قریوە، های گیان، هاوار و قیژەی خۆشی،	شادی، خۆشحاڵی، دڵگەرمی، ورە
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو شوێنەی فڕۆکەخانە کە تێیدا بلیتەکەت پیشان دەدەیت و کەلوپەلەکانت جێدەهێڵیت"),
+                                  "١. (کردار) هاوارکردن بۆ پیشاندانی پشتگیری یان پەسندانی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,21 +206,49 @@ class EnglishEntrycheckin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The airline apologizes for long delays at check-ins today."),
+                                            "We all cheered as the team came on to the field."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە."),
+                                            "هەموومان قریواندمان کە تیمەکە هاتنە ناو مەیدانەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "check-in", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cheer", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins1("en-GB"),
+                                    onPressed: () => speakcheers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins1("en-US"),
+                                    onPressed: () => speakcheers1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fans cheered for their team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەوادارەکان هانی تیمەکەیانیان دا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcheers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcheers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,7 +257,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کرداری پشتڕاستکردنەوەی ئەوەی کە دەتەوێت سەرکەویتە ناو گەشتێک لەگەڵ زانیارییە کەسییەکانت لە فڕۆکەخانەیەک یان بە کۆمپیوتەرێک"),
+                                  "٢. (کردار) هاندانی کەسێک یان پێدانی پشتگیری، ئاسوودەیی، و هیوا"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,9 +265,9 @@ class EnglishEntrycheckin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Do you know your check-in time?"),
+                                            "I was greatly cheered by this news."),
                                     ExampleSentenceKurdish(
-                                        text: "کاتی پشکنینت دەزانیت؟"),
+                                        text: "تەواو ئاسوودە بووم بەم هەواڵە."),
                                   ],
                                 ),
                               ),
@@ -243,10 +275,10 @@ class EnglishEntrycheckin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins2("en-GB"),
+                                    onPressed: () => speakcheers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins2("en-US"),
+                                    onPressed: () => speakcheers3("en-US"),
                                   ),
                                 ],
                               ),
@@ -254,8 +286,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) کاتی گەشتن بە هوتێلێک لە سەرەتای مانەوە"),
+                              text: "٢. (ناو) هاواری دڵخۆشی یان پشتگیری"),
                           Row(
                             children: [
                               const Expanded(
@@ -263,10 +294,10 @@ class EnglishEntrycheckin extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We can arrange an early check-in."),
+                                            "A great cheer went up from the crowd."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت کاتی گەشتنی پێشوەختە ڕێکبخەین."),
+                                            "هاوارێکی گەورە لە جەماوەرەکەوە هات."),
                                   ],
                                 ),
                               ),
@@ -274,10 +305,10 @@ class EnglishEntrycheckin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins3("en-GB"),
+                                    onPressed: () => speakcheers4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins3("en-US"),
+                                    onPressed: () => speakcheers4("en-US"),
                                   ),
                                 ],
                               ),
@@ -365,8 +396,26 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: check-in (Derived forms: check-ins)
-1. The act of reporting your presence (as at an airport or a hotel)
+- Noun: cheer (Derived forms: cheers)
+1. A cry or shout of approval
+ 
+2. The quality of being cheerful and dispelling gloom (= cheerfulness, sunniness, sunshine)
+"flowers added a note of cheer to the drab room";
+
+- Verb: cheer (Derived forms: cheered, cheering, cheers)
+1. Give encouragement to (= hearten, recreate, embolden)
+"If we do indulge in peace discussion, they tell us, we shall merely cheer the enemy";
+ 
+2. Show approval or good wishes by shouting
+"everybody cheered the birthday boy"
+ 
+3. Cause (somebody) to feel happier or more cheerful (= cheer up, jolly along [informal], jolly up [informal], buck up [informal], jolly [informal])
+"She tried to cheer up the disappointed child when he failed to win the spelling bee";
+ 
+4. Become cheerful (= cheer up, buck up [informal], jolly [informal])
+ 
+5. Spur on or encourage especially by cheers and shouts (= root on [N. Amer, informal], inspire, urge, barrack [Austral, NZ], urge on, exhort)
+"The crowd cheered the demonstrating strikers";
 """,
   );
 
@@ -399,8 +448,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NTFqrE73_Tg?t=',
-    startSeconds: 1175,
+    videoId: 'https://youtu.be/RREFBxsYe0E?t=',
+    startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -424,8 +473,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m4ciBxXbJ3U?t=',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/XDCsaBhXcY8?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -449,8 +498,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w51aMfmRf1I?t=',
-    startSeconds: 212,
+    videoId: 'https://youtu.be/2u7cSy9s8f8',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,8 +523,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uvuk7UDKpQ8?t=',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/AQCRQycSsmY?t=',
+    startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +548,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nt-uMVlkF4w?t=',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/eXOVUVgWw0s?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +573,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_ecQlPXXu_0?t=',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/8R33-3-GWhc?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +598,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1m6h59wI_yI?t=',
-    startSeconds: 652,
+    videoId: 'https://youtu.be/W8VW6k3dB8c?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +623,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QZLZqGFV-nc?t=',
-    startSeconds: 63,
+    videoId: 'https://youtu.be/SsBS21K1Ekw?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

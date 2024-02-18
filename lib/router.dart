@@ -2735,7 +2735,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chauvinist.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chauvinistic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cheap.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cheapen.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6304,7 +6304,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-chauvinist": (_) => MaterialPage(child: EnglishEntrychauvinist()),
   "/english-chauvinistic": (_) => MaterialPage(child: EnglishEntrychauvinistic()),
   "/english-cheap": (_) => MaterialPage(child: EnglishEntrycheap()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cheapen": (_) => MaterialPage(child: EnglishEntrycheapen()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycheque extends StatelessWidget {
+class EnglishEntrychequebook extends StatelessWidget {
   // blank divider
-  EnglishEntrycheque({super.key});
+  EnglishEntrychequebook({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcheque(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebook(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cheque"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chequebook"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques1(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks1(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Can I write you a cheque?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He always kept his chequebook handy for emergencies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques2(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks2(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques3(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks3(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Does the restaurant accept cheques?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques4(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks4(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques5(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks5(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques6(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks6(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques7(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks7(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques8(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks8(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks9(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks10(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks11(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks12(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcheques13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheque
+  Future<void> speakchequebooks13(String languageCode) async {
+    // DOPSUM: CHANGE speakchequebook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheques1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchequebooks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycheque extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cheque"),
+                            EntryTitle(word: "chequebook"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /tʃek/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃekbʊk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcheque("en-GB"),
+                              onPressed: () => speakchequebook("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /tʃek/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃekbʊk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcheque("en-US"),
+                              onPressed: () => speakchequebook("en-US"),
                             ),
                           ],
                         ),
@@ -190,62 +190,8 @@ class EnglishEntrycheque extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: چەک، حەواڵە، هێمای حەوتک (√)
-"""),
-                          const DefinitionKurdish(text: "١. (ناو) چەکی بانکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I write you a cheque?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەکێکت بۆ بنووسم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheque", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheques1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheques1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I wrote him a cheque for £50."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەکێکی ٥٠ پاوەندیم بۆ نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheques2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheques2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دەستەچەک؛ کتێبێک کە کۆمەڵە چەکێکی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -253,20 +199,20 @@ class EnglishEntrycheque extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Does the restaurant accept cheques?"),
+                                            "He always kept his chequebook handy for emergencies."),
                                     ExampleSentenceKurdish(
-                                        text: "چێشتخانەکە چەک وەردەگرێت؟"),
+                                        text: "هەمیشە دەستەچەکەکەی لای خۆی دەهێشت بۆ دۆخی لەناکاو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chequebook", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcheques3("en-GB"),
+                                    onPressed: () => speakchequebooks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcheques3("en-US"),
+                                    onPressed: () => speakchequebooks1("en-US"),
                                   ),
                                 ],
                               ),
@@ -284,7 +230,7 @@ class EnglishEntrycheque extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(), // 
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -354,14 +300,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheque (Derived forms: cheques)
-Usage: Brit, Cdn (US: check)
-1. A written order directing a bank to pay money (= check [N. Amer], bank check [US])
-"he paid all his bills by cheque";
-
-- Verb: cheque (Derived forms: chequed, cheques, chequing)
-Usage: Brit, Cdn (US: check)
-1. Withdraw money by writing a check (= check out [US], check)
+- Noun: chequebook (Derived forms: chequebooks)
+Usage: Brit, Cdn (US: checkbook)
+1. A set of personal printed cheques for use by the holder of a bank account (= checkbook [US])
+"the reconciliation of his chequebook and the bank statement";
 """,
   );
 
@@ -394,8 +336,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/raSeaAeryWE?t=',
-    startSeconds: 848,
+    videoId: 'https://youtu.be/OIo2Ie1HwHY?t=',
+    startSeconds: 1506,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +361,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Q1FzhMY8FQ?t=',
-    startSeconds: 455,
+    videoId: 'https://youtu.be/Ayh-vAoiKYc?t=',
+    startSeconds: 962,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +386,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DlMAIYd7-J4?t=',
-    startSeconds: 376,
+    videoId: 'https://youtu.be/aJSD8XV3qzE?t=',
+    startSeconds: 582,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +411,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KQ1acNOTejQ?t=',
-    startSeconds: 642,
+    videoId: 'https://youtu.be/K-_AvlwEqCA?t=',
+    startSeconds: 734,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +436,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0mpsro3s5pI?t=',
-    startSeconds: 477,
+    videoId: 'https://youtu.be/oyBfefx7I6c?t=',
+    startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,8 +461,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9wCYVWKe2TU?t=',
-    startSeconds: 140,
+    videoId: 'https://youtu.be/ILper3m7H-M?t=',
+    startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,8 +486,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yKGfDlxvR_Y?t=',
-    startSeconds: 384,
+    videoId: 'https://youtu.be/URVD0M_m69I?t=',
+    startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -569,8 +511,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sxRdKRORYoA?t=',
-    startSeconds: 950,
+    videoId: 'https://youtu.be/50ZQhCMvbhE?t=',
+    startSeconds: 1163,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

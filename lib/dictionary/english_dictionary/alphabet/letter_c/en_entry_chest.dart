@@ -56,7 +56,8 @@ class EnglishEntrychest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchests400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The man looks powerful with his broad-chested physique."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchests5(String languageCode) async {
@@ -64,7 +65,8 @@ class EnglishEntrychest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchests500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her books and clothes were packed into chests and shipped across to Canada."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchests6(String languageCode) async {
@@ -274,6 +276,68 @@ class EnglishEntrychest extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakchests3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) هەبوونی ئەو جۆرە شانەی کە باسکراوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The man looks powerful with his broad-chested physique."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوەکە بەهێز دیارە بە لەشولارە چوارشانەکەیەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchests4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchests4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) سنووقێکی گەورەی بەهێز کە بەزۆری لە دار درووست دەکرێت و بەکاردێت بۆ هەڵگرتنی شت یان گواستنەوەیان"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her books and clothes were packed into chests and shipped across to Canada."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێب و جلەکانی خرانە سنووقەوە و بۆ کەنەدا نێردران."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchests5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchests5("en-US"),
                                   ),
                                 ],
                               ),

@@ -2777,31 +2777,31 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cherub.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chess.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chest.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chest_of_drawers.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chestnut.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chew.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chewing_gum.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chewy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chicken.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chickenpox.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chicory.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chief.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chief_constable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chiefly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chieftain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_child.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_childbirth.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_childhood.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_childish.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_childless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_childlike.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_childminder.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chill.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chilly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chilli.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chilli_con_carne.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chime.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6346,31 +6346,31 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cherub": (_) => MaterialPage(child: EnglishEntrycherub()),
   "/english-chess": (_) => MaterialPage(child: EnglishEntrychess()),
   "/english-chest": (_) => MaterialPage(child: EnglishEntrychest()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-chest-of-drawers": (_) => MaterialPage(child: EnglishEntrychestofdrawers()),
+  "/english-chestnut": (_) => MaterialPage(child: EnglishEntrychestnut()),
+  "/english-chew": (_) => MaterialPage(child: EnglishEntrychew()),
+  "/english-chewing-gum": (_) => MaterialPage(child: EnglishEntrychewinggum()),
+  "/english-chewy": (_) => MaterialPage(child: EnglishEntrychewy()),
+  "/english-chic": (_) => MaterialPage(child: EnglishEntrychic()),
+  "/english-chicken": (_) => MaterialPage(child: EnglishEntrychicken()),
+  "/english-chickenpox": (_) => MaterialPage(child: EnglishEntrychickenpox()),
+  "/english-chicory": (_) => MaterialPage(child: EnglishEntrychicory()),
+  "/english-chief": (_) => MaterialPage(child: EnglishEntrychief()),
+  "/english-chief-constable": (_) => MaterialPage(child: EnglishEntrychiefconstable()),
+  "/english-chiefly": (_) => MaterialPage(child: EnglishEntrychiefly()),
+  "/english-chieftain": (_) => MaterialPage(child: EnglishEntrychieftain()),
+  "/english-child": (_) => MaterialPage(child: EnglishEntrychild()),
+  "/english-childbirth": (_) => MaterialPage(child: EnglishEntrychildbirth()),
+  "/english-childhood": (_) => MaterialPage(child: EnglishEntrychildhood()),
+  "/english-childish": (_) => MaterialPage(child: EnglishEntrychildish()),
+  "/english-childless": (_) => MaterialPage(child: EnglishEntrychildless()),
+  "/english-childlike": (_) => MaterialPage(child: EnglishEntrychildlike()),
+  "/english-childminder": (_) => MaterialPage(child: EnglishEntrychildminder()),
+  "/english-chill": (_) => MaterialPage(child: EnglishEntrychill()),
+  "/english-chilly": (_) => MaterialPage(child: EnglishEntrychilly()),
+  "/english-chilli": (_) => MaterialPage(child: EnglishEntrychilli()),
+  "/english-chilli-con-carne": (_) => MaterialPage(child: EnglishEntrychilliconcarne()),
+  "/english-chime": (_) => MaterialPage(child: EnglishEntrychime()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

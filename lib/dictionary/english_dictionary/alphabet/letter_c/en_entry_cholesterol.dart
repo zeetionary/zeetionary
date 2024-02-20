@@ -10,129 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychocolate extends StatelessWidget {
+class EnglishEntrycholesterol extends StatelessWidget {
   // blank divider
-  EnglishEntrychocolate({super.key});
+  EnglishEntrycholesterol({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchocolate(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterol(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chocolate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cholesterol"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates1(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He broke off a few squares of chocolate."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchocolates2(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols1(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She broke a bar of chocolate into four pieces."); // DOPSUM: CHANGE TEXT
+        "This is the fat that won't raise your cholesterol."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates3(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols2(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Stir until the chocolate has melted."); // DOPSUM: CHANGE TEXT
+        .speak("Avocados contain no cholesterol."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates4(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols3(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I gave her a box of hand-made Belgian chocolates."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates5(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols4(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Would you like another chocolate?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates6(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols5(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was tucked up in bed with a mug of chocolate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates7(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols6(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "That deep chocolate on the walls looks beautiful."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates8(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols7(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates9(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols8(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates10(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols9(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates11(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols10(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates12(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols11(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchocolates13(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
+  Future<void> speakcholesterols12(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcholesterols13(String languageCode) async {
+    // DOPSUM: CHANGE speakcholesterol
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcholesterols1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -155,22 +150,22 @@ class EnglishEntrychocolate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chocolate"),
+                            EntryTitle(word: "cholesterol"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃɒklət/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈlestərɒl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchocolate("en-GB"),
+                              onPressed: () => speakcholesterol("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃɔːklət/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈlestərɔːl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchocolate("en-US"),
+                              onPressed: () => speakcholesterol("en-US"),
                             ),
                           ],
                         ),
@@ -196,12 +191,12 @@ class EnglishEntrychocolate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: نوقڵ، چاکڵیت،	شیرکاکاو،	ڕەنگی قاوەیی ئاماڵ سوور، قاوەیی تۆخ
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) چکلێت؛ شیرینییەکی قاوەیی ڕەق کە لە دەنکە قاوە درووست دەکرێت، بۆ پێدانی تام بە کێک بەکاردێت، یان خواردن وەک شیرینی"),
+                                  "١. (ناو) مادەیەکی چەور کە لە زۆربەی شانەکانی لەشدایە. ڕێژەی زۆری کۆلێسترۆڵ لە خوێندا بە هۆکار بۆ نەخۆشییەکانی دڵ دادەنرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,20 +204,23 @@ class EnglishEntrychocolate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He broke off a few squares of chocolate."),
+                                            "This is the fat that won't raise your cholesterol."),
                                     ExampleSentenceKurdish(
-                                        text: "چەند پارچە چکلێتێکی شکاند."),
+                                        text:
+                                            "ئەمە ئەو چەورییەیە کە ڕێژەی کۆلێسترۆڵت بەرزناکاتەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chocolate", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cholesterol", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates1("en-GB"),
+                                    onPressed: () =>
+                                        speakcholesterols1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates1("en-US"),
+                                    onPressed: () =>
+                                        speakcholesterols1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,10 +234,10 @@ class EnglishEntrychocolate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She broke a bar of chocolate into four pieces."),
+                                            "Avocados contain no cholesterol."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارچە چکلێتێکی کرد بە چوار بەشەوە."),
+                                            "ئەڤۆکادۆ هیچ کۆلێسترۆڵی تێدا نییە."),
                                   ],
                                 ),
                               ),
@@ -247,155 +245,12 @@ class EnglishEntrychocolate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates2("en-GB"),
+                                    onPressed: () =>
+                                        speakcholesterols2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stir until the chocolate has melted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکی بدە تاوەکو چکلێتەکە دەتوێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) شیرینییەک کە چکلێتی پێوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I gave her a box of hand-made Belgian chocolates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سندووقێک لە چکلێتی بەلجیکی بەدەست‌درووستکراوم پێی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you like another chocolate?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت بە چکلێتێکی دیکە هەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) خواردنەوەیەک کە بە تێکەڵکردنی چکلێتی هاڕاو و ئاوی گەرم و شیر درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was tucked up in bed with a mug of chocolate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە گڵاسێک لە شیرکاکاو چوومە خەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (ناو) ڕەنگی قاوەیی تاریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That deep chocolate on the walls looks beautiful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕەنگە قاوەییە تۆخە لەسەر دیوارەکە جوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates7("en-US"),
+                                    onPressed: () =>
+                                        speakcholesterols2("en-US"),
                                   ),
                                 ],
                               ),
@@ -483,12 +338,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chocolate (Derived forms: chocolates)
-1. A food made from roasted ground cacao beans, usually sweetened and eaten as dark brown solid confectionary
- 
-2. A beverage made from cocoa powder and milk and sugar; usually drunk hot (= cocoa, hot chocolate, drinking chocolate, cacao)
- 
-3. A medium brown to dark-brown colour (= coffee, deep brown, umber, burnt umber, cocoa)
+- Noun: cholesterol (Derived forms: cholesterols)
+1. An animal sterol that is normally synthesized by the liver; the most abundant steroid in animal tissues (= cholesterin)
 """,
   );
 
@@ -521,8 +372,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eEwlryGOuso?t=',
-    startSeconds: 134,
+    videoId: 'https://youtu.be/7gZt9DQqtZI?t=',
+    startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -546,8 +397,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bA6-VEVAzCE?t=',
-    startSeconds: 30,
+    videoId: 'https://youtu.be/JYGN3oDh8Mc?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3rYL27n1ulo?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/8ipbkwzyO_8?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p7ofF-wIVr4?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/txfPDXqhXoo?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -621,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cFvL4HLV1vw',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/l6aLlRS9Ncw?t=',
+    startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -646,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9c3uGwqd1Ts?t=',
-    startSeconds: 116,
+    videoId: 'https://youtu.be/rymCw1ED5tk',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -671,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kPauR6tP_cg?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/FH8RsqjlS2o?t=',
+    startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -696,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kAsqOlHXzDg',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/q7JDYiLz9Mo?t=',
+    startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

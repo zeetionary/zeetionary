@@ -2829,25 +2829,25 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cholera.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cholesterol.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_choose.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chop.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chopper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_choppy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chopstick.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_choral.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chord.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chore.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_choreography.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_choreographer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chorister.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chorus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christ.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christen.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christening.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christianity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christian_name.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_christmas.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chrome.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6398,25 +6398,25 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cholera": (_) => MaterialPage(child: EnglishEntrycholera()),
   "/english-cholesterol": (_) => MaterialPage(child: EnglishEntrycholesterol()),
   "/english-choose": (_) => MaterialPage(child: EnglishEntrychoose()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-chop": (_) => MaterialPage(child: EnglishEntrychop()),
+  "/english-chopper": (_) => MaterialPage(child: EnglishEntrychopper()),
+  "/english-choppy": (_) => MaterialPage(child: EnglishEntrychoppy()),
+  "/english-chopstick": (_) => MaterialPage(child: EnglishEntrychopstick()),
+  "/english-choral": (_) => MaterialPage(child: EnglishEntrychoral()),
+  "/english-chord": (_) => MaterialPage(child: EnglishEntrychord()),
+  "/english-chore": (_) => MaterialPage(child: EnglishEntrychore()),
+  "/english-choreography": (_) => MaterialPage(child: EnglishEntrychoreography()),
+  "/english-choreographer": (_) => MaterialPage(child: EnglishEntrychoreographer()),
+  "/english-chorister": (_) => MaterialPage(child: EnglishEntrychorister()),
+  "/english-chorus": (_) => MaterialPage(child: EnglishEntrychorus()),
+  "/english-christ": (_) => MaterialPage(child: EnglishEntrychrist()),
+  "/english-christen": (_) => MaterialPage(child: EnglishEntrychristen()),
+  "/english-christening": (_) => MaterialPage(child: EnglishEntrychristening()),
+  "/english-christian": (_) => MaterialPage(child: EnglishEntrychristian()),
+  "/english-christianity": (_) => MaterialPage(child: EnglishEntrychristianity()),
+  "/english-christian-name": (_) => MaterialPage(child: EnglishEntrychristianname()),
+  "/english-christmas": (_) => MaterialPage(child: EnglishEntrychristmas()),
+  "/english-chrome": (_) => MaterialPage(child: EnglishEntrychrome()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

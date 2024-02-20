@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychoir extends StatelessWidget {
+class EnglishEntrychrist extends StatelessWidget {
   // blank divider
-  EnglishEntrychoir({super.key});
+  EnglishEntrychrist({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchoir(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrist(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("choir"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Christ"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs1(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists1(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She sings in the school choir."); // DOPSUM: CHANGE TEXT
+        "They believe that Christ will come again."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs2(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists2(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Christ will help us overcome danger."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs3(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists3(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs4(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists4(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs5(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists5(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs6(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists6(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs7(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists7(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs8(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists8(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs9(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists9(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs10(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists10(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs11(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists11(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs12(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists12(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs13(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchrists13(String languageCode) async {
+    // DOPSUM: CHANGE speakchrist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchrists1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,27 @@ class EnglishEntrychoir extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "choir"),
+                            EntryTitle(word: "Christ"),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(word: "Also: Jesus, Jesus Christ"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkwaɪə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /kraɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchoir("en-GB"),
+                              onPressed: () => speakchrist("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkwaɪər/"),
+                            const IPAofEnglish(text: "IpaUS: /kraɪst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchoir("en-US"),
+                              onPressed: () => speakchrist("en-US"),
                             ),
                           ],
                         ),
@@ -190,11 +196,12 @@ class EnglishEntrychoir extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: کوایێر، کۆچڕ، کۆوێژ، هاوچڕ، دەستەی گۆرانی، کۆڕبێژ،	جێگای هاوچڕە یا کۆڕبێژەکان (لە کلێسا)
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
+                              text:
+                                  "١. (ناو) ئەو کەسەی کە مەسیحییەکان باوەڕیان وایە کوڕی خوایە و لەسەر وانەکانی ئایینی مەسیحی درووست بووە "),
                           Row(
                             children: [
                               const Expanded(
@@ -202,20 +209,49 @@ class EnglishEntrychoir extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She sings in the school choir."),
+                                            "They believe that Christ will come again."),
                                     ExampleSentenceKurdish(
-                                        text: "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە."),
+                                        text:
+                                            "باوەڕیان وابوو کە پێغەمبەر عیسا دەگەڕێتەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choir", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "Christ", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchoirs1("en-GB"),
+                                    onPressed: () => speakchrists1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchoirs1("en-US"),
+                                    onPressed: () => speakchrists1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Christ will help us overcome danger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "عیسای مەسیح یارمەتیمان دەدات بەسەر مەترسیدا سەربکەوین."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchrists2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchrists2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +269,10 @@ class EnglishEntrychoir extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -303,15 +339,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: choir (Derived forms: choirs)
-1. A chorus that sings as part of a religious ceremony
- 
-2. A family of similar musical instruments playing together (= consort)
- 
-3. The area occupied by singers; the part of the chancel between sanctuary and nave
+- Noun: christ (Derived forms: christs)
+1. Any expected deliverer (= messiah)
 
-- Verb: choir (Derived forms: choiring, choirs, choired)
-1. (music) sing in a choir (= chorus)
+- Noun: Christ (Derived forms: Christs)
+1. A teacher and prophet born in Bethlehem and active in Nazareth; his life and sermons form the basis for Christianity (circa 4 BC - AD 29) (= Jesus, Jesus of Nazareth, the Nazarene, Jesus Christ, Savior [N. Amer], Saviour [Brit, Cdn], Good Shepherd, Redeemer, Deliverer, Prince of Peace)
+
+- Interjection: Christ 
+Usage: informal
+1. Used to express surprise (Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+"Christ, it was only a dollar last time I was here!";
 """,
   );
 
@@ -344,8 +381,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LdqBYJORDao?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/xyFIkzsj-dc?t=',
+    startSeconds: 823,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +406,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Ff9S5StobA?t=',
-    startSeconds: 76,
+    videoId: 'https://youtu.be/_47JL0sLoFE?t=',
+    startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +431,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JJmC5FZFadM?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/8ZKznp9y-gU?t=',
+    startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +456,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lxfXZ6FhITU?t=',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/ncJeE3Eep9c?t=',
+    startSeconds: 629,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +481,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VSFCS5982FA?t=',
-    startSeconds: 211,
+    videoId: 'https://youtu.be/LTSKfXzdiuE?t=',
+    startSeconds: 310,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +506,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n6HPIHWiBJ8?t=',
-    startSeconds: 154,
+    videoId: 'https://youtu.be/p-L0WIQsi5o?t=',
+    startSeconds: 1198,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +531,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lEgPVrSZa6w?t=',
-    startSeconds: 722,
+    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,108 +556,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SUlooY7lbqw?t=',
-    startSeconds: 125,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WzrNwTPv-8c?t=',
-    startSeconds: 1563,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VdBeTAgU4_s?t=',
-    startSeconds: 21,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lfNLl9UsyXA?t=',
-    startSeconds: 4526,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uv8Ss3yn0d0?t=',
-    startSeconds: 181,
+    videoId: 'https://youtu.be/QyL9P1ccy-w?t=',
+    startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

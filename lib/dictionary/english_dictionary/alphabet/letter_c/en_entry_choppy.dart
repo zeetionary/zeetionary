@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychoir extends StatelessWidget {
+class EnglishEntrychoppy extends StatelessWidget {
   // blank divider
-  EnglishEntrychoir({super.key});
+  EnglishEntrychoppy({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchoir(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppy(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("choir"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("choppy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs1(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys1(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She sings in the school choir."); // DOPSUM: CHANGE TEXT
+        "The choppy waters caused some of the boats to capsize."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs2(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys2(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her hair was cut in a choppy style."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs3(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys3(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs4(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys4(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs5(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys5(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs6(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys6(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs7(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys7(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs8(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys8(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs9(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys9(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs10(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys10(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs11(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys11(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs12(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys12(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs13(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakchoppys13(String languageCode) async {
+    // DOPSUM: CHANGE speakchoppy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchoppys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrychoir extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "choir"),
+                            EntryTitle(word: "choppy"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkwaɪə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɒpi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchoir("en-GB"),
+                              onPressed: () => speakchoppy("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkwaɪər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɑːpi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchoir("en-US"),
+                              onPressed: () => speakchoppy("en-US"),
                             ),
                           ],
                         ),
@@ -191,10 +192,11 @@ class EnglishEntrychoir extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کوایێر، کۆچڕ، کۆوێژ، هاوچڕ، دەستەی گۆرانی، کۆڕبێژ،	جێگای هاوچڕە یا کۆڕبێژەکان (لە کلێسا)
+کوردی: نائارام، شەپۆلاوی، ئاڵۆز، پڕشەپۆل، شەپۆل‌شەپۆل،	ناهێمن، بێ‌ئۆقرە
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
+                              text:
+                                  "١. (ھاوەڵناو) دەریایەک بە شەپۆلێکی زۆری بچووکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,20 +204,52 @@ class EnglishEntrychoir extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She sings in the school choir."),
+                                            "The choppy waters caused some of the boats to capsize."),
                                     ExampleSentenceKurdish(
-                                        text: "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە."),
+                                        text:
+                                            "دەریا پڕشەپۆلەکان بوون بەهۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choir", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "choppy", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchoirs1("en-GB"),
+                                    onPressed: () => speakchoppys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchoirs1("en-US"),
+                                    onPressed: () => speakchoppys1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) ستایلێکی قژ کە بە درێژی جیاواز بڕاوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her hair was cut in a choppy style."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پرچی بە ستایڵی نایەکسان بڕابوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchoppys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchoppys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +267,10 @@ class EnglishEntrychoir extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -303,15 +337,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: choir (Derived forms: choirs)
-1. A chorus that sings as part of a religious ceremony
+- Adjective: choppy (Derived forms: choppiest, choppier) 
+1. Rough with small waves
+"choppy seas"
  
-2. A family of similar musical instruments playing together (= consort)
- 
-3. The area occupied by singers; the part of the chancel between sanctuary and nave
-
-- Verb: choir (Derived forms: choiring, choirs, choired)
-1. (music) sing in a choir (= chorus)
+2. Marked by abrupt transitions (= jerky)
+"choppy prose";
 """,
   );
 
@@ -344,8 +375,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LdqBYJORDao?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/Y_N0AxCzVLg?t=',
+    startSeconds: 591,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +400,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Ff9S5StobA?t=',
-    startSeconds: 76,
+    videoId: 'https://youtu.be/qr4MSVxfYBE?t=',
+    startSeconds: 978,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +425,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JJmC5FZFadM?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/9hvjBi4PKWA?t=',
+    startSeconds: 1136,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +450,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lxfXZ6FhITU?t=',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/byjEXpYNRNk?t=',
+    startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +475,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VSFCS5982FA?t=',
-    startSeconds: 211,
+    videoId: 'https://youtu.be/cykdSb7xqI4?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +500,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n6HPIHWiBJ8?t=',
-    startSeconds: 154,
+    videoId: 'https://youtu.be/UsD87v8F914?t=',
+    startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +525,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lEgPVrSZa6w?t=',
-    startSeconds: 722,
+    videoId: 'https://youtu.be/zr6uggwTXdA?t=',
+    startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,108 +550,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SUlooY7lbqw?t=',
-    startSeconds: 125,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WzrNwTPv-8c?t=',
-    startSeconds: 1563,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VdBeTAgU4_s?t=',
-    startSeconds: 21,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lfNLl9UsyXA?t=',
-    startSeconds: 4526,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uv8Ss3yn0d0?t=',
-    startSeconds: 181,
+    videoId: 'https://youtu.be/J-4FaTv1mcM?t=',
+    startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,123 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychoir extends StatelessWidget {
+class EnglishEntrychristmas extends StatelessWidget {
   // blank divider
-  EnglishEntrychoir({super.key});
+  EnglishEntrychristmas({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchoir(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmas(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("choir"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Christmas"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs1(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass1(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("What did you get for Christmas?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakChristmass2(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She sings in the school choir."); // DOPSUM: CHANGE TEXT
+        "The children are hoping for a white Christmas."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs2(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass3(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Are you spending Christmas with your family?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs3(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass4(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Merry Christmas and a Happy New Year!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs4(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass5(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs5(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass6(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs6(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass7(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs7(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass8(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs8(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass9(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs9(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass10(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs10(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass11(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs11(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass12(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchoirs12(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
+  Future<void> speakChristmass13(String languageCode) async {
+    // DOPSUM: CHANGE speakChristmas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchoirs13(String languageCode) async {
-    // DOPSUM: CHANGE speakchoir
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchoirs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakChristmass1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +152,27 @@ class EnglishEntrychoir extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "choir"),
+                            EntryTitle(word: "Christmas"),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(word: "Also: Christmas Day"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkwaɪə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkrɪsməs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchoir("en-GB"),
+                              onPressed: () => speakChristmas("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkwaɪər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkrɪsməs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchoir("en-US"),
+                              onPressed: () => speakChristmas("en-US"),
                             ),
                           ],
                         ),
@@ -190,11 +198,12 @@ class EnglishEntrychoir extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: کوایێر، کۆچڕ، کۆوێژ، هاوچڕ، دەستەی گۆرانی، کۆڕبێژ،	جێگای هاوچڕە یا کۆڕبێژەکان (لە کلێسا)
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
+                              text:
+                                  "١. (ناو) ٢٥ـی کانوونی یەکەم، ئەو ڕۆژەی مەسیحییەکان ڕۆژی لەدایکبوون عیسای مەسیح پیرۆز دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,20 +211,106 @@ class EnglishEntrychoir extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She sings in the school choir."),
+                                            "What did you get for Christmas?"),
                                     ExampleSentenceKurdish(
-                                        text: "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە."),
+                                        text: "چیت وەرگرت بۆ کریسمس؟"),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choir", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "Christmas", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchoirs1("en-GB"),
+                                    onPressed: () => speakChristmass1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchoirs1("en-US"),
+                                    onPressed: () => speakChristmass1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children are hoping for a white Christmas (= with snow on the ground)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان هیوای کریسمسێکی بەفراوییان دەخواست."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakChristmass2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakChristmass2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ماوەی ڕۆژی کریسمس و ڕۆژەکانی نزیکی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are you spending Christmas with your family?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژانی کریسمس لەگەڵ خێزانەکەت بەسەر دەبەیت؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakChristmass3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakChristmass3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Merry Christmas and a Happy New Year!"),
+                                    ExampleSentenceKurdish(
+                                        text: "کریسمس و ساڵی نوێ پیرۆز."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakChristmass4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakChristmass4("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +328,10 @@ class EnglishEntrychoir extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
@@ -303,15 +398,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: choir (Derived forms: choirs)
-1. A chorus that sings as part of a religious ceremony
+- Noun: Christmas (Derived forms: Christmases)
+1. A Christian holiday on 25th December celebrating the birth of Christ (= Christmas Day, Xmas [Brit, informal], Dec 25, Christmastime)
  
-2. A family of similar musical instruments playing together (= consort)
- 
-3. The area occupied by singers; the part of the chancel between sanctuary and nave
+2. The season around the 25th December (traditionally extending from Dec. 24 to Jan. 6) (= Christmastide [archaic], Christmastime, Yule [archaic], Yuletide [archaic], Noel, Crimbo [Brit, informal], Chrissie [Austral, informal], Chrimbo [Brit, informal], Xmas [Brit, informal])
 
-- Verb: choir (Derived forms: choiring, choirs, choired)
-1. (music) sing in a choir (= chorus)
+- Interjection: Christmas 
+Usage: informal
+1. Used to express surprise (= Christ [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
 """,
   );
 
@@ -344,8 +438,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LdqBYJORDao?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/IuWQGpswvyY?t=',
+    startSeconds: 788,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +463,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Ff9S5StobA?t=',
-    startSeconds: 76,
+    videoId: 'https://youtu.be/yjhibJ-OqxE?t=',
+    startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +488,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JJmC5FZFadM?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/XnbCSboujF4?t=',
+    startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +513,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lxfXZ6FhITU?t=',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/Fiw9CskKnTA?t=',
+    startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +538,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VSFCS5982FA?t=',
-    startSeconds: 211,
+    videoId: 'https://youtu.be/ISyEJga9mMQ?t=',
+    startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +563,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n6HPIHWiBJ8?t=',
-    startSeconds: 154,
+    videoId: 'https://youtu.be/7R5E0JJHmwY?t=',
+    startSeconds: 736,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +588,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lEgPVrSZa6w?t=',
-    startSeconds: 722,
+    videoId: 'https://youtu.be/mUjqPSHRVnA?t=',
+    startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,108 +613,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SUlooY7lbqw?t=',
-    startSeconds: 125,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WzrNwTPv-8c?t=',
-    startSeconds: 1563,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VdBeTAgU4_s?t=',
-    startSeconds: 21,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lfNLl9UsyXA?t=',
-    startSeconds: 4526,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uv8Ss3yn0d0?t=',
-    startSeconds: 181,
+    videoId: 'https://youtu.be/DFZN3_5hwq4?t=',
+    // startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

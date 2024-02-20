@@ -237,7 +237,7 @@ class EnglishEntrybone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) لێکردنەوەی ئێسک لە مریشک و ماسی"),
+                                  "٢. (کردار) لێ‌کردنەوەی ئێسک لە مریشک و ماسی"),
                           Row(
                             children: [
                               const Expanded(

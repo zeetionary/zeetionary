@@ -3,47 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryailing - replace speakAiling - replace ailing - /ˈeɪlɪŋ/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryailing extends StatelessWidget {
-  EnglishEntryailing({super.key});
+class EnglishEntrychimney extends StatelessWidget {
+  // blank divider
+  EnglishEntrychimney({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAiling(String languageCode) async {
-    // DOPSUM: CHANGE speakAiling
+  Future<void> speakchimney(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ailing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chimney"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAiling25388(String languageCode) async {
-    // DOPSUM: CHANGE speakAiling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She looked after her ailing father."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAiling4899956(String languageCode) async {
-    // DOPSUM: CHANGE speakAiling
+  Future<void> speakchimneys1(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ted asked me if I could help him fix his ailing car."); // DOPSUM: CHANGE TEXT
+        "He threw a bit of paper onto the fire and it flew up the chimney."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAiling(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAiling
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ailing"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchimneys2(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("This chimney doesn’t draw very well."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys3(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys4(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys5(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys6(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys7(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys8(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys9(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys10(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys11(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys12(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchimneys13(String languageCode) async {
+    // DOPSUM: CHANGE speakchimney
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchimneys1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,24 +150,22 @@ class EnglishEntryailing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ailing"), // Find /ˈeɪlɪŋ/
+                            EntryTitle(word: "chimney"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈeɪlɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɪmni/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAiling("en-GB"),
+                              onPressed: () => speakchimney("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeɪlɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɪmni/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAiling("en-US"),
+                              onPressed: () => speakchimney("en-US"),
                             ),
                           ],
                         ),
@@ -109,10 +192,9 @@ class EnglishEntryailing extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نەخۆش، ناساخ، سیسەڵە، دەردەدار، لاواز، بێ‌بازاڕ
+کوردی: دووکەڵ‌کێش، لووجن، بوغاری، ڕۆژینگ، قۆڵەدووکەڵ، لوولەدووکەڵ، باکێش، باجە، کونەباجە،	کونی پیاهەڵچوون یان سەرکەوتن، دووڵەک‌کێش یان بوغاری بەردین (لە شاخەوانی‌دا)،	شووشە چرا، شووشە لامپا، قۆڵ یان لوولەی چرا یان لامپا
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون" ""),
+                          const DefinitionKurdish(text: "١. (ناو) دووکەڵ‌کێش"),
                           Row(
                             children: [
                               const Expanded(
@@ -120,30 +202,27 @@ class EnglishEntryailing extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She looked after her ailing father."),
+                                            "He threw a bit of paper onto the fire and it flew up the chimney."),
                                     ExampleSentenceKurdish(
-                                        text: "چاودێری باوکە ناساخەکەی دەکات."),
+                                        text:
+                                            "پارچە کاغەزێکی خستە ئاگرەکەوە و بە دووکەڵ‌کێشەکەدا بەرزبووەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chimney", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiling25388("en-GB"),
+                                    onPressed: () => speakchimneys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAiling25388(
-                                        // REPLACE: ailing /ˈeɪlɪŋ/
-                                        "en-US"),
+                                    onPressed: () => speakchimneys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -151,10 +230,10 @@ class EnglishEntryailing extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Ted asked me if I could help him fix his ailing car."),
+                                            "This chimney doesn’t draw very well."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تێد داوای لێ‌کردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
+                                            "دووکەڵ‌کێشەکە زۆرباش نەفەس ناکێشێت."),
                                   ],
                                 ),
                               ),
@@ -162,13 +241,10 @@ class EnglishEntryailing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAiling4899956("en-GB"),
+                                    onPressed: () => speakchimneys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAiling4899956(
-                                        // REPLACE: ailing /ˈeɪlɪŋ/
-                                        "en-US"),
+                                    onPressed: () => speakchimneys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -179,14 +255,14 @@ class EnglishEntryailing extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -194,6 +270,13 @@ class EnglishEntryailing extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -249,9 +332,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: ailing 
-1. Somewhat ill, feeling or being in bad health (= indisposed, peaked, poorly, sickly, unwell, under the weather [informal], seedy [archaic], off-colour [Brit, informal], out of sorts [informal], grotty [Brit, informal], crook [Austral, NZ, informal])
-"my poor ailing grandmother";
+- Noun: chimney (Derived forms: chimneys)
+1. A vertical flue that provides a path through which smoke from a fire is carried away through the wall or roof of a building
+ 
+2. A glass flue surrounding the wick of an oil lamp (= lamp chimney)
+ 
+3. A narrow cleft in a rock face
 """,
   );
 
@@ -280,12 +366,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/ohzFHI3PIW4?t=',
+    startSeconds: 5,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'owVtsJ56WXE',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/4Nr1AgIfajI?t=',
+    startSeconds: 953,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -309,8 +420,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6QGtKkpJlV8',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/BadzT_28ZdA?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -334,8 +445,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'x6btmJSRueE',
-    startSeconds: 356,
+    videoId: 'https://youtu.be/JqCY_z4sxL4?t=',
+    startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -359,8 +470,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'l6PlMpncVuc',
-    startSeconds: 194,
+    videoId: 'https://youtu.be/Vbg7xEZPMag?t=',
+    startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -384,8 +495,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NIgqhU4lkgo',
-    startSeconds: 891,
+    videoId: 'https://youtu.be/lI2RqhWFcMM?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -409,8 +520,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OXhEBfK3Njc',
-    startSeconds: 151,
+    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
+    startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -434,8 +545,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'D9s5Brovelc',
-    startSeconds: 794,
+    videoId: 'https://youtu.be/V8f45Jq21-U?t=',
+    startSeconds: 2415,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -455,27 +566,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Q97K6CDje3w',
-    startSeconds: 53,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
+// end WORD_WEB

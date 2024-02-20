@@ -392,7 +392,7 @@ class EnglishEntryblow extends StatelessWidget {
                                             "The policeman asked me to blow into the breathalyser."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیسەکە داوای لێکردم فوو بکەم بە ئەلکھول‌پێوەکە."),
+                                            "پۆلیسەکە داوای لێ‌کردم فوو بکەم بە ئەلکھول‌پێوەکە."),
                                   ],
                                 ),
                               ),

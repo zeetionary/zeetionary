@@ -798,7 +798,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                             "Before I made a decision, I thought carefully about it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێش ئەوەی بڕیار بدەم، بە وریاییەوە بیرم لێکردەوە."),
+                                            "پێش ئەوەی بڕیار بدەم، بە وریاییەوە بیرم لێ‌کردەوە."),
                                   ],
                                 ),
                               ),

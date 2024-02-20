@@ -3,88 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "ban" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace ban - replace EnglishEntryban
-
-// replace speakBan - /bæn/
 
 enum TtsState { playing }
 
-class EnglishEntryban extends StatelessWidget {
-// blank divider
-  EnglishEntryban({super.key});
-// blank divider
+class EnglishEntrychink extends StatelessWidget {
+  // blank divider
+  EnglishEntrychink({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBan(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchink(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ban"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chink"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans1(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks1(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The law bans smoking in all public places."); // DOPSUM: CHANGE TEXT
+        "I peered through a chink in the curtains and saw them all inside."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans2(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks2(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She's been banned from leaving the country while the allegations are investigated."); // DOPSUM: CHANGE TEXT
+        "I noticed a chink of light under the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans3(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks3(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A majority of people are against the ban."); // DOPSUM: CHANGE TEXT
+        "On a hot day it's nice to hear the chink of ice in a glass."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans4(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks4(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His behaviour led to a life ban from international football."); // DOPSUM: CHANGE TEXT
+        "We chinked glasses and drank to each other's health."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans5(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks5(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBans55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchinks500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans6(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks6(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBans66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchinks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans7(String languageCode) async {
-    // DOPSUM: CHANGE speakBan
+  Future<void> speakchinks7(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBans77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchinks700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinks8(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinks800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinks9(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinks900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinks10(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinks1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinks11(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinks1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinks12(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinks1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinks13(String languageCode) async {
+    // DOPSUM: CHANGE speakchink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -107,28 +152,22 @@ class EnglishEntryban extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ban"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "chink"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /tʃɪŋk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBan("en-GB"),
+                              onPressed: () => speakchink("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /tʃɪŋk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBan("en-US"),
+                              onPressed: () => speakchink("en-US"),
                             ),
                           ],
                         ),
@@ -141,7 +180,7 @@ class EnglishEntryban extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -155,10 +194,11 @@ class EnglishEntryban extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەربەندێتی، نەلێ‌کردن، ڕێگرتن، نەھێشتن، قەدەخە، بەربەنداندن، قەدەخاندن، قەدەخەکردن، تەکفیر، ڕتان، لەعنەت
+کوردی: درز، قەڵەش، کەل، کەلەبەر، تڵیش، کەلێن، قەڵەشت، ترەک، زرنگە، زرنگەزرنگ، زرنگ‌وهۆڕ، خرم‌وهۆڕ، شەقەشەق، خڕەخڕ
 """),
                           const DefinitionKurdish(
-                              text: """١. (کردار) قەدەغەکردن"""),
+                              text:
+                                  "١. (ناو) درزێک لە شتێکدا کە کراوەییەکی درووستکردووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -166,31 +206,30 @@ class EnglishEntryban extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The law bans smoking in all public places."),
+                                            "I peered through a chink in the curtains and saw them all inside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
+                                            "لە کەلێنێکی پەردەکەوە سەیرم کرد و هەموویانم بینی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "chink", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans1("en-GB"),
+                                    onPressed: () => speakchinks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans1(// REPLACE: ban
-                                        "en-US"),
+                                    onPressed: () => speakchinks1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) ڕێگریکردن لە کەسێک لە کردنی شتێک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کەمێک ڕۆشنایی کە لە کەلێنێکەوە دێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -198,10 +237,10 @@ class EnglishEntryban extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She's been banned from leaving the country while the allegations are investigated."),
+                                            "I noticed a chink of light under the door."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
+                                            "هەستم بە کەمێک ڕۆشنایی کرد لە ژێر دەرگاکەدا."),
                                   ],
                                 ),
                               ),
@@ -209,20 +248,19 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans2("en-GB"),
+                                    onPressed: () => speakchinks2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans2(// REPLACE: ban
-                                        "en-US"),
+                                    onPressed: () => speakchinks2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) بڕیارێکی فەرمی کە شتێک قەدەغەدەکات"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) دەنگێکی کەمی زرنگانەوە، بۆ نموونە کە دوو گڵاس بەر یەکدی دەکەون"),
                           Row(
                             children: [
                               const Expanded(
@@ -230,10 +268,10 @@ class EnglishEntryban extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A majority of people are against the ban."),
+                                            "On a hot day it's nice to hear the chink of ice in a glass."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
+                                            "لە ڕۆژێکی گەرمدا خۆشە گوێت لە زرنگەی بەفر بێت لە گڵاسدا."),
                                   ],
                                 ),
                               ),
@@ -241,20 +279,19 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans3("en-GB"),
+                                    onPressed: () => speakchinks3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans3(// REPLACE: ban
-                                        "en-US"),
+                                    onPressed: () => speakchinks3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) بڕیارێکی فەرمی کە کردنی شتێک لە کەسێک قەدەغەدەکات"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) زرنگانەوە، یان کێشانی گڵاس بە یەکدیدا بۆ ئەوەی بزرنگێنەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -262,10 +299,10 @@ class EnglishEntryban extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "His behaviour led to a life ban from international football."),
+                                            "We chinked glasses and drank to each other's health."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),
+                                            "گڵاسەکانمان کێشا بە یەکدا و خواردمانەوە بە خۆشی تەندرووستی یەکدی."),
                                   ],
                                 ),
                               ),
@@ -273,38 +310,42 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans4("en-GB"),
+                                    onPressed: () => speakchinks4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans4(// REPLACE: ban
-                                        "en-US"),
+                                    onPressed: () => speakchinks4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -360,29 +401,21 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: ban (derived forms: banning, bani, bans, banned)
-1. Forbid the public distribution of (a movie or a newspaper) (= censor)
+- Noun: chink (Derived forms: chinks)
+1. A narrow opening as e.g. between planks in a wall
  
-2. Prohibit especially by legal means or social pressure
-"Smoking is banned in this building"
+2. A short light metallic sound (= click, clink)
  
-3. Expel from a community or group (= banish, ostracize, ostracise [Brit], shun, cast out, blackball)
+3. [offensive] (ethnic slur) a person of Chinese descent
 
-- Noun: ban (derived forms: bans)
-1. A decree that prohibits something (= prohibition, proscription)
+- Verb: chink (Derived forms: chinks, chinking, chinked)
+1. Make or emit a high sound (= tinkle, tink, clink)
+"chinking bells";
  
-2. An official prohibition or edict against something (= banning, forbiddance, forbidding)
+2. Fill the chinks of, as with caulking
  
-3. A logarithmic unit which measures information or entropy, based on base 10 logarithms and powers of 10. (= Hart, hartley, dit)
-"The ban pre-dates Shannon's use of bit as a unit of information by at least eight years, and remains in use in the early 21st Century.";
-
-- Noun: ban
-1. 100 bani equal 1 leu in Romania
- 
-2. 100 bani equal 1 leu in Moldova
-
-- Noun: BAN
-1. A bachelor's degree in nursing (= Bachelor of Arts in Nursing)
+3. Make cracks or chinks in (= check)
+"The heat chinked the paint";
 """,
   );
 
@@ -411,12 +444,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/HAnw168huqA?t=',
+    startSeconds: 3421,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cqbleas1mmo',
-    startSeconds: 1209,
+    videoId: 'https://youtu.be/-UY-KkPY3vc?t=',
+    startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +498,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QyL9P1ccy-w',
-    startSeconds: 512,
+    videoId: 'https://youtu.be/oqckZAzU3GA?t=',
+    startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -465,8 +523,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'cMBrvHsFD_8',
-    startSeconds: 2111,
+    videoId: 'https://youtu.be/VFoUXFxmnSM?t=',
+    startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -490,8 +548,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'B1r4Z3nXPVA',
-    startSeconds: 515,
+    videoId: 'https://youtu.be/VzonTHZSaq0?t=',
+    startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -515,8 +573,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CaLOiGEDPJQ',
-    startSeconds: 411,
+    videoId: 'https://youtu.be/Cq02zqJlibw?t=',
+    startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -540,8 +598,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UGJhITr7190',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/BFrBr8oUVXU?t=',
+    startSeconds: 3110,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -565,8 +623,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IPyA8CGk86A',
-    startSeconds: 220,
+    videoId: 'https://youtu.be/eAd5TbVsfAk?t=',
+    startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -586,131 +644,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1Cw-vODp-8Y',
-    startSeconds: 560,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hhvjKAQv2cs',
-    startSeconds: 1606,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'cEc7ZuHyKWE',
-    startSeconds: 1092,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4IaOeVgZ-wc',
-    startSeconds: 3260,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8tT3FhOA4-g',
-    startSeconds: 25,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end ban// TODO Implement this library.
+// end WORD_WEB

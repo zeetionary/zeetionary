@@ -3,47 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryailing - replace speakAiling - replace ailing - /ˈeɪlɪŋ/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryailing extends StatelessWidget {
-  EnglishEntryailing({super.key});
+class EnglishEntrychina extends StatelessWidget {
+  // blank divider
+  EnglishEntrychina({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAiling(String languageCode) async {
-    // DOPSUM: CHANGE speakAiling
+  Future<void> speakchina(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ailing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("china"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAiling25388(String languageCode) async {
-    // DOPSUM: CHANGE speakAiling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She looked after her ailing father."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAiling4899956(String languageCode) async {
-    // DOPSUM: CHANGE speakAiling
+  Future<void> speakchinas1(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ted asked me if I could help him fix his ailing car."); // DOPSUM: CHANGE TEXT
+        "The restaurant served tea in delicate china cups."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAiling(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAiling
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ailing"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakchinas2(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She bought the best china."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas3(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas4(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas5(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas6(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas7(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas8(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas9(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas10(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas11(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas12(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchinas13(String languageCode) async {
+    // DOPSUM: CHANGE speakchina
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakchinas1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,24 +149,22 @@ class EnglishEntryailing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ailing"), // Find /ˈeɪlɪŋ/
+                            EntryTitle(word: "china"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈeɪlɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃaɪnə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAiling("en-GB"),
+                              onPressed: () => speakchina("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeɪlɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃaɪnə/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAiling("en-US"),
+                              onPressed: () => speakchina("en-US"),
                             ),
                           ],
                         ),
@@ -109,10 +191,11 @@ class EnglishEntryailing extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نەخۆش، ناساخ، سیسەڵە، دەردەدار، لاواز، بێ‌بازاڕ
+کوردی: چینکۆ، فەخفووری، چینی،	قاپ و قاچاخی چینی،	گڵەسپی، گڵەچینی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون" ""),
+                              text:
+                                  "١. (ناو) قوڕی سپی کە گەرم دەکرێت و بەکاردێت بۆ درووستکردنی دەفر، دەوری، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -120,41 +203,39 @@ class EnglishEntryailing extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She looked after her ailing father."),
+                                            "The restaurant served tea in delicate china cups."),
                                     ExampleSentenceKurdish(
-                                        text: "چاودێری باوکە ناساخەکەی دەکات."),
+                                        text:
+                                            "چێشتخانەکە قوڕی پێشکەش دەکرد لە پێڵای گڵەسپی ناسکدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "china", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiling25388("en-GB"),
+                                    onPressed: () => speakchinas1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAiling25388(
-                                        // REPLACE: ailing /ˈeɪlɪŋ/
-                                        "en-US"),
+                                    onPressed: () => speakchinas1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە"""),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) شتێک کە لە گڵەسپی درووستکراوە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Ted asked me if I could help him fix his ailing car."),
+                                        text: "She bought the best china."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تێد داوای لێ‌کردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
+                                            "باشترین قاپ‌وقاچاخی گڵەسپی کڕی."),
                                   ],
                                 ),
                               ),
@@ -162,13 +243,10 @@ class EnglishEntryailing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAiling4899956("en-GB"),
+                                    onPressed: () => speakchinas2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAiling4899956(
-                                        // REPLACE: ailing /ˈeɪlɪŋ/
-                                        "en-US"),
+                                    onPressed: () => speakchinas2("en-US"),
                                   ),
                                 ],
                               ),
@@ -179,14 +257,14 @@ class EnglishEntryailing extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -194,6 +272,13 @@ class EnglishEntryailing extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -249,9 +334,17 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: ailing 
-1. Somewhat ill, feeling or being in bad health (= indisposed, peaked, poorly, sickly, unwell, under the weather [informal], seedy [archaic], off-colour [Brit, informal], out of sorts [informal], grotty [Brit, informal], crook [Austral, NZ, informal])
-"my poor ailing grandmother";
+- Noun: china (Derived forms: chinas)
+1. High quality porcelain originally made only in China
+ 
+2. Dishware made of high quality porcelain (= chinaware)
+ 
+3. [Brit, informal] A person you know well and regard with affection and trust (= friend, mate [Brit, informal])
+
+- Noun: China 
+1. A communist nation that covers a vast territory in eastern Asia; the most populous country in the world (= People's Republic of China, mainland China, Communist China, Red China [informal], PRC, Cathay [archaic])
+ 
+2. A government on the island of Taiwan established in 1949 by Chiang Kai-shek after the conquest of mainland China by the Communists led by Mao Zedong (= Taiwan, Nationalist China, Republic of China, Chinese Taipei)
 """,
   );
 
@@ -280,12 +373,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/tOPBL0IUnz8?t=',
+    startSeconds: 85,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'owVtsJ56WXE',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/H2FEFwL_ffQ?t=',
+    startSeconds: 885,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -309,8 +427,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6QGtKkpJlV8',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/OPMzjgZPwUg?t=',
+    startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -334,8 +452,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'x6btmJSRueE',
-    startSeconds: 356,
+    videoId: 'https://youtu.be/zYXsBphrh4E?t=',
+    startSeconds: 305,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -359,8 +477,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'l6PlMpncVuc',
-    startSeconds: 194,
+    videoId: 'https://youtu.be/3-kdPMF688I?t=',
+    startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -384,8 +502,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NIgqhU4lkgo',
-    startSeconds: 891,
+    videoId: 'https://youtu.be/6x25Fj0b3es?t=',
+    startSeconds: 457,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -409,8 +527,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OXhEBfK3Njc',
-    startSeconds: 151,
+    videoId: 'https://youtu.be/AKn14jJBFdY?t=',
+    startSeconds: 499,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -434,8 +552,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'D9s5Brovelc',
-    startSeconds: 794,
+    videoId: 'https://youtu.be/lzAESaVqix0?t=',
+    startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -455,27 +573,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Q97K6CDje3w',
-    startSeconds: 53,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
+// end WORD_WEB

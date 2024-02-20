@@ -594,7 +594,7 @@ class EnglishEntryboard extends StatelessWidget {
                                             "He had ripped up the carpet, leaving only the bare boards."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فەرشەکەی لێکردەوە و تەنھا تەختەکانی بە تەنھا ھێشتەوە."),
+                                            "فەرشەکەی لێ‌کردەوە و تەنھا تەختەکانی بە تەنھا ھێشتەوە."),
                                   ],
                                 ),
                               ),

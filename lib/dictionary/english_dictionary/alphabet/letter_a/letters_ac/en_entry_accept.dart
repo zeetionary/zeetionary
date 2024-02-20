@@ -161,7 +161,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                             "He asked me to marry him and I accepted."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داوای لێکردم شووی پێ بکەم و ڕازی بووم."),
+                                            "داوای لێ‌کردم شووی پێ بکەم و ڕازی بووم."),
                                   ],
                                 ),
                               ),

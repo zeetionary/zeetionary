@@ -513,7 +513,7 @@ class EnglishEntrycast extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I cast an angry look at him."),
                                     ExampleSentenceKurdish(
-                                        text: "نیگایەکی ڕقاویم لێکرد."),
+                                        text: "نیگایەکی ڕقاویم لێ‌کرد."),
                                   ],
                                 ),
                               ),

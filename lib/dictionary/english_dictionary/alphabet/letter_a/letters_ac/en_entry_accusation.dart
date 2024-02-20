@@ -127,7 +127,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                                             "There was a hint of accusation in her voice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا."),
+                                            "ئاماژەیەکی گومان لێ‌کردن ھەبوو لە دەنگیدا."),
                                   ],
                                 ),
                               ),

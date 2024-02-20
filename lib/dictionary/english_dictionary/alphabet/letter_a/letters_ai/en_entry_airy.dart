@@ -158,7 +158,7 @@ class EnglishEntryairy extends StatelessWidget {
                                             "He dismissed her with an airy wave."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
+                                            "ماڵئاوایی لێ‌کرد بە دەستڕاوەشاندنێکی سادە."),
                                   ],
                                 ),
                               ),

@@ -2817,12 +2817,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chirp.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chirpy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chisel.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chivalry.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chivalrous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chlorine.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chlorophyll.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_chocolate.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6386,12 +6386,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-chirp": (_) => MaterialPage(child: EnglishEntrychirp()),
   "/english-chirpy": (_) => MaterialPage(child: EnglishEntrychirpy()),
   "/english-chisel": (_) => MaterialPage(child: EnglishEntrychisel()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-chit": (_) => MaterialPage(child: EnglishEntrychit()),
+  "/english-chivalry": (_) => MaterialPage(child: EnglishEntrychivalry()),
+  "/english-chivalrous": (_) => MaterialPage(child: EnglishEntrychivalrous()),
+  "/english-chlorine": (_) => MaterialPage(child: EnglishEntrychlorine()),
+  "/english-chlorophyll": (_) => MaterialPage(child: EnglishEntrychlorophyll()),
+  "/english-chocolate": (_) => MaterialPage(child: EnglishEntrychocolate()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

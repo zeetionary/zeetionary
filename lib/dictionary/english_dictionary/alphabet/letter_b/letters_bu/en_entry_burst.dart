@@ -477,7 +477,7 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان ھەستێکی بەھێز کەلەناکاو دەستپێ دەکات"),
+                                  "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان ھەستێکی بەھێز کەلەناکاو دەستپێ‌دەکات"),
                           Row(
                             children: [
                               const Expanded(

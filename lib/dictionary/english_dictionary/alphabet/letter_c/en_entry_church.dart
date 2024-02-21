@@ -29,8 +29,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The procession moved into the church."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The procession moved into the church."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was actively involved in church groups."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The church is dedicated to St Paul."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The church was consecrated in 1250."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She sings in the church choir."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We are hiring the church hall for the party."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs7(String languageCode) async {
@@ -78,7 +83,7 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They're in church."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs8(String languageCode) async {
@@ -86,7 +91,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Lots of people still get married in church."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs9(String languageCode) async {
@@ -94,7 +100,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Catholic Church teaches that life begins at conception."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs10(String languageCode) async {
@@ -102,7 +109,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Small evangelical churches often provide their members with a strong sense of community and family."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs11(String languageCode) async {
@@ -110,7 +118,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Church has a duty to condemn violence."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs12(String languageCode) async {
@@ -118,7 +127,8 @@ class EnglishEntrychurch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Some people think the Church shouldn't interfere in politics."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchurchs13(String languageCode) async {
@@ -194,7 +204,8 @@ class EnglishEntrychurch extends StatelessWidget {
 کوردی: کلێسە، کلیسا،	ڕێ‌وڕەسمی کلێسەیی یان دینی، خواپەرستیم،	دین، ئایینزا،	کۆمەڵی دینی کریستیەنەکان، گروپی ئایین‌گەری
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کڵێسا؛ شوێنی مەسیحییەکان بۆ نوێژکردن، بۆنەی ئایینی، هتد"),
+                              text:
+                                  "١. (ناو) کڵێسا؛ شوێنی مەسیحییەکان بۆ نوێژکردن، بۆنەی ئایینی، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +215,7 @@ class EnglishEntrychurch extends StatelessWidget {
                                         text:
                                             "The procession moved into the church."),
                                     ExampleSentenceKurdish(
-                                        text: "خەڵکەکە چوونە ناو کڵێساکە."),
+                                        text: "قافڵەکە چوونە ناو کڵێساکە."),
                                   ],
                                 ),
                               ),
@@ -216,6 +227,349 @@ class EnglishEntrychurch extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakchurchs1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was actively involved in church groups."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە چووستییەوە بەژدار بوو لەناو گرووپەکانی کڵێسادا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchurchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchurchs2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The church is dedicated to St Paul."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کڵێساکە بۆ قەشە پاوڵ تەرخانکراوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The church was consecrated in 1250."),
+                                            ExampleSentenceKurdish(
+                                              text: "کڵێساکە لە ١٢٥٠ پیرۆزکرا.",
+                                              note:
+                                                  "پیرۆزکردنی کڵێسا ئەوەیە کە بە فەرمی ڕادەگەیەنرێت کە تەنها بینایەک نییە و کڵێسایەکی پیرۆزە و دەکرێت بۆ کاری ئایینی بەکاربێت.",
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She sings in the church choir."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "لە کۆچڕی کڵێساکە گۆرانی دەڵێت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We are hiring the church hall for the party."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هۆڵی کڵێساکە بۆ ئاهەنگەکە بەکرێ دەگرین."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (ناو) بۆنەیەک یان ئەو بۆنانەی لە کڵێسادا دەکرێن"),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text: "They're in church."),
+                                            ExampleSentenceKurdish(
+                                                text: "لە بۆنەی کڵێساکەن."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Lots of people still get married in church."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "زۆرکەس هێشتا لە بۆنەیەکی کڵێسادا هاوسەرگیری دەکەن."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs8("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs8("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (ناو) گرووپێکی دیاریکراوی مەسیحییەکان"),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The Catholic Church teaches that life begins at conception."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کڵێسای کاسۆلیک ئەوە فێردەکات کە ژیان لە ئاوسبوونەوە دەستپێ‌دەکات."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs9("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs9("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Small evangelical churches often provide their members with a strong sense of community and family."),
+                                            ExampleSentenceKurdish(
+                                              text:
+                                                  "هەندێک کڵێسای ئینجیلی هەستێکی بەهێزی کۆمەڵگە و خێزان لای ئەندامەکانیان درووست دەکەن.",
+                                              note:
+                                                  "کڵێسای ئینجیلی کڵێسای ئەو کەسانەیە کە باوەڕیان بە گرنگی ئینجیل هەیە لە ژیانی ڕۆژانەدا و هەوڵدان بۆ ئەوەی کەسانی دیکەش شوێنیان بکەون",
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakchurchs10("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakchurchs10("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) ئەو کەسانەی کە کڵێسا بەڕێوەدەبەن، یان دامەزراوە مەسیحییەکان"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Church has a duty to condemn violence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵێسا دەبێت توندوتیژی سەرکۆنە بکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchurchs11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchurchs11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people think the Church shouldn't interfere in politics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەندێک کەس باوەڕیان وایە کە کڵێسا دەبێت لە سیاسەت تێوەنەگلێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchurchs12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchurchs12("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,7 +587,7 @@ class EnglishEntrychurch extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),

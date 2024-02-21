@@ -3,132 +3,135 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryc extends StatelessWidget {
-// blank divider
-  EnglishEntryc({super.key});
-// blank divider
+class EnglishEntrychurn extends StatelessWidget {
+  // blank divider
+  EnglishEntrychurn({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakc(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurn(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("churn"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs1(String languageCode) async {
-    // DOPSUM: CHANGE speakc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("‘Cat’ begins with (a) C/‘C’."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcs2(String languageCode) async {
-    // DOPSUM: CHANGE speakc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She got (a) C/‘C’ in physics."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcs3(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns1(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A one-minute phone call to the UK cost 10 cs."); // DOPSUM: CHANGE TEXT
+        "The water churned beneath the huge ship."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs4(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns2(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Vast crowds had churned the field into a sea of mud."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchurns3(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "My stomach churned as the names were read out."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchurns4(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It churns me up inside to think what might have happened."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakchurns5(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("There were two world wars in 21st c."); // DOPSUM: CHANGE TEXT
+        .speak("The butter was made in a wooden churn."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs5(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns6(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was born c1890."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I used to collect a few churns of milk from my brother's farm to make cheese."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs6(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns7(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Add 2c. flour to the mixture."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs7(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns8(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Water freezes at 0°C."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs8(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns9(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("© Oxford University Press 2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs9(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns10(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs10(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns11(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs11(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns12(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcs12(String languageCode) async {
-    // DOPSUM: CHANGE speakc
+  Future<void> speakchurns13(String languageCode) async {
+    // DOPSUM: CHANGE speakchurn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcs1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcs13(String languageCode) async {
-    // DOPSUM: CHANGE speakc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurns1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +154,22 @@ class EnglishEntryc extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "c"),
+                            EntryTitle(word: "churn"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /siː/"),
+                            const IPAofEnglish(text: "IpaUK: /tʃɜːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakc("en-GB"),
+                              onPressed: () => speakchurn("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /siː/"),
+                            const IPAofEnglish(text: "IpaUS: /tʃɜːrn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakc("en-US"),
+                              onPressed: () => speakchurn("en-US"),
                             ),
                           ],
                         ),
@@ -179,7 +182,7 @@ class EnglishEntryc extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -192,45 +195,50 @@ class EnglishEntryc extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ناو) سێیەم پیتی ئەلفوبێی ئینگلیزی"""),
+                          const KurdishVocabulary(text: """
+کوردی: مەشکە، کەرەگر (دەزگا یان دەفر)، شیرژەن(ە)،	شیردان، شیربەرە، شیرگر
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (کردار) ڕاوەشاندنی ئاو، قوڕ، هتد"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "‘Cat’ begins with (a) C/‘C’."),
+                                        text:
+                                            "The water churned beneath the huge ship."),
                                     ExampleSentenceKurdish(
-                                        text: "وشەی cat بە C دەستپێ‌دەکات."),
+                                        text:
+                                            "ئاوەکە لەژێر کەشتییە گەورەکەدا شەپۆلی دەدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "c", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "churn", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcs1("en-GB"),
+                                    onPressed: () => speakchurns1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcs1("en-US"),
+                                    onPressed: () => speakchurns1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) نمرەیەکی خوێندکارێک کە پەسەندە"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "She got (a) C/‘C’ in physics."),
+                                        text:
+                                            "Vast crowds had churned the field into a sea of mud."),
                                     ExampleSentenceKurdish(
-                                        text: "پەسەندەی ھێنا لە فیزیادا."),
+                                        text:
+                                            "خەڵکی زۆر گۆڕەپانەکەیان کردبوو بە دەریایەک لە قوڕ."),
                                   ],
                                 ),
                               ),
@@ -238,71 +246,10 @@ class EnglishEntryc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcs2("en-GB"),
+                                    onPressed: () => speakchurns2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کورتکراوە) یەک سەنت؛ ڕێژەی ١٪ دراوێک، بۆ نموونە ١٠٠ سەنت یەک دۆلاری ئەمریکییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A one-minute phone call to the UK cost 10 cs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک خولەک پەیوندی بۆ شانشینی یەکگرتوو ١٠ سەنت دەبات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (کورتکراوە) کورتکراوە بۆ سەدە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were two world wars in 21st c."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو جەنگی جیھانی لە سەدەی ٢١ ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs4("en-US"),
+                                    onPressed: () => speakchurns2("en-US"),
                                   ),
                                 ],
                               ),
@@ -311,16 +258,18 @@ class EnglishEntryc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) کورتکراوە بۆ circa کە لە لاتیندا واتا بە نزیکەیی"),
+                                  "٢. (کردار) تێکهەڵاتنی گەدە و درووستکردنی هەستێکی ناخۆش"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "He was born c1890."),
+                                        text:
+                                            "My stomach churned as the names were read out."),
                                     ExampleSentenceKurdish(
-                                        text: "لە نزیکەی ١٨٩٠ لەدایکبوو."),
+                                        text:
+                                            "دڵم تێکهەڵات کە ناوەکان خوێندرانەوە."),
                                   ],
                                 ),
                               ),
@@ -328,10 +277,10 @@ class EnglishEntryc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcs5("en-GB"),
+                                    onPressed: () => speakchurns3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcs5("en-US"),
+                                    onPressed: () => speakchurns3("en-US"),
                                   ),
                                 ],
                               ),
@@ -339,17 +288,19 @@ class EnglishEntryc extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (کورتکراوە) کورتکراوە بۆ کوپ"),
+                              text:
+                                  "٣. (کردار) درووستکردنی هەستی بێزاری بۆ کەسێک، یان لەڕووی دەروونییەوە شپرزەی بکەیت"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Add 2c. flour to the mixture."),
+                                        text:
+                                            "It churns me up inside to think what might have happened."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو کووپ ئارد بۆ تێکەڵەکە زیادبکە."),
+                                            "لەناخەوە دەمکوڵێنێت کە بیردەکەمەوە چی ئەکرێت ڕوویدابێت."),
                                   ],
                                 ),
                               ),
@@ -357,10 +308,10 @@ class EnglishEntryc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcs6("en-GB"),
+                                    onPressed: () => speakchurns4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcs6("en-US"),
+                                    onPressed: () => speakchurns4("en-US"),
                                   ),
                                 ],
                               ),
@@ -368,17 +319,19 @@ class EnglishEntryc extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) کورتکراوە بۆ پلەی سیلیزی"),
+                              text:
+                                  "٤. (ناو) شتێک یان ئامێرێک کە تێیدا شیر یان کرێم ڕادەوەشێنرێت بۆ درووستکردنی کەرە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Water freezes at 0°C."),
+                                        text:
+                                            "The butter was made in a wooden churn."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاو لە سفر پلەی سیلیزی دەیبەستێت."),
+                                            "کەرەکە بە مەشکەیەکی دارین ئامادەکرا."),
                                   ],
                                 ),
                               ),
@@ -386,10 +339,10 @@ class EnglishEntryc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcs7("en-GB"),
+                                    onPressed: () => speakchurns5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcs7("en-US"),
+                                    onPressed: () => speakchurns5("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,17 +350,19 @@ class EnglishEntryc extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (ناو) کورتکراوە بۆ کۆپیڕایت"),
+                              text:
+                                  "٥. (ناو) دەفرێکی گەورە کە جاران شیری پێ دەگوازرایەوە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "© Oxford University Press 2020"),
+                                        text:
+                                            "I used to collect a few churns of milk from my brother's farm to make cheese."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆپیڕایتی ناوەندی زانکۆی ئۆکسفۆرد ٢٠٢٠."),
+                                            "جاران هەندێک شیرگرم کۆدەکردەوە لە کێڵگەی براکەم بۆ درووستکردنی پەنیر."),
                                   ],
                                 ),
                               ),
@@ -415,10 +370,10 @@ class EnglishEntryc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcs8("en-GB"),
+                                    onPressed: () => speakchurns6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcs8("en-US"),
+                                    onPressed: () => speakchurns6("en-US"),
                                   ),
                                 ],
                               ),
@@ -434,11 +389,11 @@ class EnglishEntryc extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -450,6 +405,7 @@ class EnglishEntryc extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -505,34 +461,18 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: c (derived forms: cs)
-1. The 3rd letter of the Roman alphabet (= C)
+- Noun: churn (Derived forms: churns)
+1. A vessel in which cream is agitated to separate butterfat from buttermilk (= butter churn)
  
-2. The speed at which light travels in a vacuum; the constancy and universality of the speed of light is recognized by defining it to be exactly 299,792,458 meters per second (= speed of light, light speed)
+2. A measure of the number of people stopping a service or leaving a job over a given period (= churn rate)
+ 
+3. [Brit] A large metal container for milk
 
-- Adjective: c 
-1. Being ten more than ninety (= hundred, one hundred, 100)
-
-- Noun: C (derived forms: Cs)
-1. Temperature measurement on the Celsius scale (where water freezes at zero degrees and boils at 100 degrees; unit divisions are equal to the kelvin, with zero kelvin being -273.15 C) (= degree centigrade, degree Celsius, centigrade, Celsius)
+- Verb: churn (Derived forms: churning, churned, churns)
+1. (cooking) stir (cream) vigorously in order to make butter
  
-2. A base found in DNA and RNA and derived from pyrimidine; pairs with guanine (= cytosine)
- 
-3. (music) the keynote of the scale of C major
- 
-4. A general-purpose programing language closely associated with the UNIX operating system
- 
-5. A vitamin found in fresh fruits (especially citrus fruits) and vegetables; prevents scurvy (= vitamin C, ascorbic acid)
- 
-6. [slang] A street name for cocaine (= coke [slang], blow [slang], nose candy [slang], snow [slang])
- 
-7. One of the four nucleotides used in building DNA, also known as also known as deoxycytidylate, or dCMP; all four nucleotides have a common phosphate group and a sugar (ribose) (= deoxycytidine monophosphate)
- 
-8. A unit of electrical charge equal to the amount of charge transferred by a current of 1 ampere in 1 second (= coulomb, ampere-second)
- 
-9. Ten 10s (= hundred, 100, century, one C)
- 
-10. An abundant nonmetallic tetravalent element occurring in three allotropic forms: amorphous carbon and graphite and diamond; occurs in all organic compounds (= carbon, atomic number 6)
+2. Be agitated (= boil, moil [N. Amer], roil)
+"the sea was churning in the storm";
 """,
   );
 
@@ -561,12 +501,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/EQ4dEF2nijY?t=',
+    startSeconds: 13,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '67JzSRnyXr4',
-    startSeconds: 182,
+    videoId: 'https://youtu.be/zZUXNMpKF74?t=',
+    startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -590,8 +555,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Vg6aHPMXDVU',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/UO3N_PRIgX0?t=',
+    startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -615,8 +580,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VHTd9EORK_g',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/hapSlAP2xrc?t=',
+    startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -640,8 +605,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iD4Iyr_hKjE',
-    startSeconds: 53,
+    videoId: 'https://youtu.be/Am1lDj2mUVY?t=',
+    startSeconds: 523,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -665,8 +630,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'zs6YbzfMHWA',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/3hurvRBoYgM?t=',
+    startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -690,8 +655,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YUGfH8UsjA4',
-    startSeconds: 9,
+    videoId: 'https://youtu.be/bW-gVrZBfqM?t=',
+    startSeconds: 1036,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -715,8 +680,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KJpXaF8s25s',
-    startSeconds: 1660,
+    videoId: 'https://youtu.be/KbNRvWfndjA?t=',
+    startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -736,79 +701,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4_hgFcLM9Rg',
-    startSeconds: 7,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0u1W7DCWNl8',
-    startSeconds: 6,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'shXI_xwMnBM',
-    startSeconds: 26,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end WORD_WEB// TODO Implement this library.
+// end WORD_WEB

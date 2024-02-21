@@ -10,128 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycelebration extends StatelessWidget {
+class EnglishEntrychurchyard extends StatelessWidget {
   // blank divider
-  EnglishEntrycelebration({super.key});
+  EnglishEntrychurchyard({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcelebration(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyard(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("celebration"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("churchyard"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards1(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I hope you'll join in the Christmas celebrations."); // DOPSUM: CHANGE TEXT
+        "Volunteers lovingly tended the flowers in the churchyard."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards2(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As part of the celebrations, the school is planning an open day for the public."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards3(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were among the crowd that attended the celebration."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards4(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They held a special celebration in his honour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations5(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards5(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her triumph was a cause for celebration."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations6(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards6(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The city's annual celebration of Caribbean culture kicks off on June 4."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations7(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards7(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards8(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards9(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards10(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards11(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards12(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcelebrations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebration
+  Future<void> speakchurchyards13(String languageCode) async {
+    // DOPSUM: CHANGE speakchurchyard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcelebrations1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchurchyards1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +149,22 @@ class EnglishEntrycelebration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "celebration"),
+                            EntryTitle(word: "churchyard"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌselɪˈbreɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈtʃɜːtʃjɑːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcelebration("en-GB"),
+                              onPressed: () => speakchurchyard("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌselɪˈbreɪʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈtʃɜːrtʃjɑːrd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcelebration("en-US"),
+                              onPressed: () => speakchurchyard("en-US"),
                             ),
                           ],
                         ),
@@ -196,11 +191,11 @@ class EnglishEntrycelebration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: جەژن، جێژن، سوور(ان)، ئاھەنگ‌گێڕان، بەڕێوەبردن، لەدارخستن، پەسن، پیاھەڵوتن، تاریف
+کوردی: قەبرستانی کلێسە،	حەوشەی کلێسە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بۆنەیەکی تایبەت کە ڕێکدەخرێت بۆ پیرۆزکردنی شتێک"),
+                                  "١. (ناو) ناوچەی دەوری کڵێسایەک، زۆرجار بۆ ناشتنی مردوو بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,175 +203,21 @@ class EnglishEntrycelebration extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I hope you'll join in the Christmas celebrations."),
+                                            "Volunteers lovingly tended the flowers in the churchyard."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھیوادارم پەیوەندی بکەیت بە ئاھەنگگێڕانی کریسمسەوە."),
+                                            "خۆبەخشان بە خۆشەویستییەوە ئاگاداری گوڵەکانی کڵێساکە دەبوون."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "celebration", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "churchyard", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations1("en-GB"),
+                                    onPressed: () => speakchurchyards1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As part of the celebrations, the school is planning an open day for the public."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک بەشێک لە ئاھەنگگێڕانەکە، قوتابخانەکە پلانی ھەیە ڕۆژێک بە ڕووی خەڵکیدا بکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were among the crowd that attended the celebration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ناو ئەو جەماوەرە بوون کە بەژداری ئاھەنگگێڕانەکەیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They held a special celebration in his honour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنەیەکی تایبەتیان ڕێکخست وەک ڕێز بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) کرداری ئاھەنگگێڕانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her triumph was a cause for celebration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستھێنانەکەی مایەی ئاھەنگگێڕان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city's annual celebration of Caribbean culture kicks off on June 4."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگگێڕانی ساڵانەی شارەکە بۆ کەلتووری کاریبی لە ٤ی حوزەیران دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations6("en-US"),
+                                    onPressed: () => speakchurchyards1("en-US"),
                                   ),
                                 ],
                               ),
@@ -464,13 +305,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: celebration (derived forms: celebrations)
-1. A joyful occasion for special festivities to mark some happy event (= jubilation)
- 
-2. Any joyous diversion (= festivity)
- 
-3. The public performance of a sacrament or solemn ceremony with all appropriate ritual (= solemnization, solemnisation [Brit])
-"the celebration of marriage";
+- Noun: churchyard (Derived forms: churchyards)
+1. A patch of land adjoining a church, often used as a graveyard (= God's acre)
 """,
   );
 
@@ -503,8 +339,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Uyq66PLCvvY',
-    startSeconds: 101,
+    videoId: 'https://youtu.be/kA54zkA8JCo?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -528,8 +364,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2-bQnjgUiUs',
-    startSeconds: 457,
+    videoId: 'https://youtu.be/VL1-BlbGNrM?t=',
+    startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -553,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pPJHdfzZ5rU',
-    startSeconds: 355,
+    videoId: 'https://youtu.be/dfri4wPQQLI?t=',
+    startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -578,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AJWpvoXP5d4',
-    startSeconds: 121,
+    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
+    startSeconds: 854,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -603,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 's3B-qp3U5G0',
-    startSeconds: 751,
+    videoId: 'https://youtu.be/xi4wZJ-7ZCg?t=',
+    startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -628,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KM51eWi_kSE',
-    startSeconds: 25,
+    videoId: 'https://youtu.be/ChM0CBRmVsM?t=',
+    startSeconds: 301,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -653,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'POtNzR94CEc',
-    startSeconds: 337,
+    videoId: 'https://youtu.be/Tct1SwiBFy0?t=',
+    startSeconds: 702,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -678,8 +514,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vb0gJi_QOrA',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/H8PREX7TbbI?t=',
+    startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

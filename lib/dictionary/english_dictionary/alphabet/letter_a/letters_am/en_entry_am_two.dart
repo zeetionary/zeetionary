@@ -119,7 +119,7 @@ class EnglishEntryamtwo extends StatelessWidget {
                                         text: "It starts at 10 a.m."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات."),
+                                            "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەستپێ‌دەکات."),
                                   ],
                                 ),
                               ),

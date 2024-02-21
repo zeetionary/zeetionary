@@ -152,7 +152,7 @@ class EnglishEntrybob extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) جوڵان یان جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە"),
+                                  "١. (کردار) جوڵانـ(دن)ـی شتێک بەرەو سەرەوە و خوارەوە"),
                           Row(
                             children: [
                               const Expanded(

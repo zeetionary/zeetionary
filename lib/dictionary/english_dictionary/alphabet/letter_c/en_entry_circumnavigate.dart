@@ -3,87 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryannexation - replace speakAnnexation - replace annexation - /ˌænekˈseɪʃn/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryannexation extends StatelessWidget {
-  EnglishEntryannexation({super.key});
+class EnglishEntrycircumnavigate extends StatelessWidget {
+  // blank divider
+  EnglishEntrycircumnavigate({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnexation(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnexation
+  Future<void> speakcircumnavigate(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("circumnavigate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnexation1150(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnexation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He mentioned the Japanese annexation of Korea in 1910."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnnexation1151(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnexation
+  Future<void> speakcircumnavigates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The country's annexation of its neighbour caused an outcry."); // DOPSUM: CHANGE TEXT
+        "They circumnavigated the world in 75 days."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircumnavigates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates200"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircumnavigates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates300"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircumnavigates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates400"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircumnavigates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircumnavigates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircumnavigates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircumnavigates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircumnavigates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircumnavigates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircumnavigates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircumnavigates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircumnavigates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcircumnavigate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircumnavigates1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -105,28 +149,24 @@ class EnglishEntryannexation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "annexation"), // Find /ˌænekˈseɪʃn/
-                            // divvviiider
+                            EntryTitle(word: "circumnavigate"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌænekˈseɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌsɜːkəmˈnævɪɡeɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnexation("en-GB"),
+                              onPressed: () => speakcircumnavigate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌænekˈseɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˌsɜːrkəmˈnævɪɡeɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnexation("en-US"),
+                              onPressed: () => speakcircumnavigate("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +179,7 @@ class EnglishEntryannexation extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -153,12 +193,10 @@ class EnglishEntryannexation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: داگیرکردن، دەست‌بەسەراگرتن، گرتن، زەوت‌کردن، لکاندن، خستنەپاڵ، دانەدەم، خستنەسەر، پاشکۆ، سەرخستە
+کوردی: لە دەوری زەوی گەڕان، خولانەوە
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز"
-                                  ""),
+                              text: "١. (کردار) سووڕانەوە بە دەوری شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -166,76 +204,41 @@ class EnglishEntryannexation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He mentioned the Japanese annexation of Korea in 1910."),
+                                            "They circumnavigated the world in 75 days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
+                                            "بە ٧٥ ڕۆژ بە دەوری جیهاندا سووڕانەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "circumnavigate", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnexation1150("en-GB"),
+                                        speakcircumnavigates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnexation1150(
-                                        // REPLACE: annexation /ˌænekˈseɪʃn/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakcircumnavigates1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country's annexation of its neighbour caused an outcry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAnnexation1151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnexation1151(
-                                        // REPLACE: annexation /ˌænekˈseɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -243,6 +246,13 @@ class EnglishEntryannexation extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -298,11 +308,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: annexation (derived forms: annexations)
-1. Incorporation by joining or uniting (= appropriation)
+- Verb: circumnavigate (Derived forms: circumnavigated, circumnavigating, circumnavigates)
+1. Travel around, either by plane or ship (= compass)
+"We circumnavigated the earth";
  
-2. The formal act of acquiring something (especially territory) by conquest or occupation
-"the French annexation of Madagascar as a colony in 1896"; "a protectorate has frequently been a first step to annexation"
+2. Avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues) (= hedge, fudge, evade, put off, circumvent, parry, elude, skirt, dodge, duck [informal], sidestep, finesse)
 """,
   );
 
@@ -331,12 +341,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/x91ZyY6U6pY?t=',
+    startSeconds: 21,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LVhs25kTvB0',
-    startSeconds: 88,
+    videoId: 'https://youtu.be/y__v0aEgzO0?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -360,8 +395,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WAPN87J08dM',
-    startSeconds: 233,
+    videoId: 'https://youtu.be/RgpJPVoDZf8?t=',
+    startSeconds: 440,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -385,8 +420,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WeovwWseJ-I',
-    startSeconds: 310,
+    videoId: 'https://youtu.be/Fiw9CskKnTA?t=',
+    startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -410,8 +445,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'X2O-7yAMFhU',
-    startSeconds: 58,
+    videoId: 'https://youtu.be/KgsxapE27NU?t=',
+    startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -435,8 +470,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iLQMDXtt_x4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Hcq9_Tw2eTE?t=',
+    startSeconds: 743,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -460,8 +495,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0yv0aWWeo7w',
-    startSeconds: 72,
+    videoId: 'https://youtu.be/VfwyOXTVHU8?t=',
+    startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -485,8 +520,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lHbG6iNIz8I',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/yl-6-Yzt--A?t=',
+    startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,29 +541,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6Axdyo-u1Ws',
-    startSeconds: 542,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

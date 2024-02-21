@@ -3,98 +3,136 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "attachment" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryattachment - replace speakAttachment
-
-// replace attachment - /əˈtætʃmənt/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryattachment extends StatelessWidget {
+class EnglishEntrycirculation extends StatelessWidget {
   // blank divider
-  EnglishEntryattachment({super.key});
+  EnglishEntrycirculation({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttachment(String languageCode) async {
-    // DOPSUM: CHANGE speakAttachment
+  Future<void> speakcirculation(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("circulation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment356(String languageCode) async {
-    // DOPSUM: CHANGE speakAttachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("No attachment was included."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAttachment401(String languageCode) async {
-    // DOPSUM: CHANGE speakAttachment
+  Future<void> speakcirculations1(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They had to check the strength of the seat attachments to the floor of the plane."); // DOPSUM: CHANGE TEXT
+        "Regular exercise will improve blood circulation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment403(String languageCode) async {
-    // DOPSUM: CHANGE speakAttachment
+  Future<void> speakcirculations2(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I have poor circulation."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcirculations3(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Prisoners can develop attachments to their guards."); // DOPSUM: CHANGE TEXT
+        "Copies of the magazine were withdrawn from circulation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment405(String languageCode) async {
-    // DOPSUM: CHANGE speakAttachment
+  Future<void> speakcirculations4(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is unlikely to give up her lifelong attachment to feminist ideas."); // DOPSUM: CHANGE TEXT
+        "The new banknotes will go into general circulation next year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment419(String languageCode) async {
-    // DOPSUM: CHANGE speakAttachment
+  Future<void> speakcirculations5(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This food processor has a special attachment for grinding coffee."); // DOPSUM: CHANGE TEXT
+        "The newspaper has a daily circulation of 20 000."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttachment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttachment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcirculations6(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Poor air circulation can result in vapor inside cars."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAttachment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttachment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcirculations7(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Anne has been ill but now she's back in circulation."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAttachment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAttachment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcirculations8(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcirculations800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcirculations9(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcirculations900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcirculations10(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcirculations1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcirculations11(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcirculations1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcirculations12(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcirculations1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcirculations13(String languageCode) async {
+    // DOPSUM: CHANGE speakcirculation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcirculations1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -116,29 +154,22 @@ class EnglishEntryattachment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "attachment"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "circulation"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtætʃmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌsɜːkjəˈleɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttachment("en-GB"),
+                              onPressed: () => speakcirculation("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtætʃmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌsɜːrkjəˈleɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttachment("en-US"),
+                              onPressed: () => speakcirculation("en-US"),
                             ),
                           ],
                         ),
@@ -151,7 +182,7 @@ class EnglishEntryattachment extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -165,20 +196,82 @@ class EnglishEntryattachment extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خۆشەویستی، ھۆگری، دڵبەستەیی، سەوداسەری، لکان، نووسان، چوونەپاڵ، پێوەنووسان، چەسپان، گرتن، پێوەلکاندن، پێکەوەبەستن، چەسپاندن، پاڵ‌خستن، دانەدەم، لکاندن، پێوەنان، لێدان، پاشکۆ، سەرخستە، پاڵخستە، پێوەندی، گرتن، گل‌دانەوە، دەست‌بەسەراگرتن، زەوت‌کردن، ناردن بۆ جێگایێ، ڕاسپێری
+کوردی: ڕەوت، لێشاو، تەوژم،	سووڕان، گەڕان، زڤرین،	سووڕ، سووڕان یان گەڕانی خوێن،	بڵاوبوونەوە، تەشەنە،	بڵاوک، تیراژ (ڕۆژنامە و کۆڤار).	چوون، بڕەوی، پارە، پووڵ 
 """),
                           const DefinitionKurdish(
+                              text: "١. (ناو) سوڕی خوێن بە جەستەدا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Regular exercise will improve blood circulation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاهێنانی بەدەوام سووڕی خوێن بەهێز دەکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "circulation", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcirculations1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcirculations1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I have poor circulation."),
+                                    ExampleSentenceKurdish(
+                                        text: "سووڕی خوێنم لاوازە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcirculations2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcirculations2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
                               text:
-                                  """١. (ناو) دۆکیومێنتێک کە بە ئیمەیڵ نێردراوە"""),
+                                  "٢. (ناو) بڵاوبوونەوەی شتێک لە کەسێک یان شوێنێکەوە بۆ یەکێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "No attachment was included."),
+                                        text:
+                                            "Copies of the magazine were withdrawn from circulation."),
                                     ExampleSentenceKurdish(
-                                        text: "ھیچ دۆکیومێنتێک نەنێردرابوو."),
+                                        text:
+                                            "کۆپییەکانی گۆڤارەکە لە بڵاوبوونەوە گەێندرانەوە."),
                                   ],
                                 ),
                               ),
@@ -187,21 +280,50 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment356("en-GB"),
+                                        speakcirculations3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment356(
-                                        // REPLACE: attachment
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakcirculations3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new banknotes will go into general circulation next year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دراوە کاغەزییە تازەکان ساڵی داهاتوو دەخرێنە بڵاوبوونەوەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcirculations4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcirculations4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) پێکەوەلکاندن"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ڕێژەی ئاسایی کۆپی ئەو ڕۆژنامە و گۆڤارانەی دەفرۆشرێن لە ڕۆژێکدام هەفتەیەکدا، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,10 +331,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They had to check the strength of the seat attachments to the floor of the plane."),
+                                            "The newspaper has a daily circulation of 20 000."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە."),
+                                            "ڕۆژنامەکە فرۆشی ڕۆژانەی ٢٠٠٠٠ کۆپی هەیە."),
                                   ],
                                 ),
                               ),
@@ -221,21 +343,20 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment401("en-GB"),
+                                        speakcirculations5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment401(
-                                        // REPLACE: attachment
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakcirculations5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) سۆز و خۆشەویستی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) جوڵەی شتێک، بۆ نموونە ئاو یان گاز، لەناو شتێکدا یان بە ناو سیستەمێک یان ئامێرێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -243,10 +364,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Prisoners can develop attachments to their guards."),
+                                            "Poor air circulation can result in vapor inside cars."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان."),
+                                            "کەمی سووڕی هەوا دەکرێت ببێتە هۆی هەڵم لە ناو ئۆتۆمبێلدا."),
                                   ],
                                 ),
                               ),
@@ -255,21 +376,20 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment403("en-GB"),
+                                        speakcirculations6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment403(
-                                        // REPLACE: attachment
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakcirculations6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) پشتیوانی بۆ باوەڕێک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) بەژداریکردن لە چالاکییە کۆمەڵایەتییەکان"),
                           Row(
                             children: [
                               const Expanded(
@@ -277,10 +397,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is unlikely to give up her lifelong attachment to feminist ideas."),
+                                            "Anne has been ill but now she's back in circulation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم."),
+                                            "ئان ماوەیەک دەبێت نەخۆشە بەڵام ئێستا گەڕاوەتەوە بۆ ناو چالاکییە کۆمەڵایەتییەکان."),
                                   ],
                                 ),
                               ),
@@ -289,73 +409,43 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment405("en-GB"),
+                                        speakcirculations7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment405(
-                                        // REPLACE: attachment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ناو) پارچەیەک کە بۆ ئامێرێک زیاد دەکرێت بۆ کردنی کارێکی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This food processor has a special attachment for grinding coffee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment419("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment419(
-                                        // REPLACE: attachment
-                                        "en-US"),
+                                        speakcirculations7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -411,21 +501,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: attachment (derived forms: attachments)
-1. A feeling of affection for a person or an institution (= fond regard)
+- Noun: circulation (Derived forms: circulations)
+1. The dissemination of copies of periodicals (as newspapers or magazines)
  
-2. A supplementary part or accessory
+2. Movement through a circuit; especially the movement of blood through the heart and blood vessels
  
-3. (law) a writ authorizing the seizure of property that may be needed for the payment of a judgment in a judicial proceeding
+3. (library science) the count of books that are loaned by a library over a specified period
  
-4. A connection that fastens things together (= bond)
+4. Number of copies of a newspaper or magazine that are sold
+"by increasing its circulation the newspaper hoped to increase its advertising"
  
-5. Faithfully following a program, regime, party or religion (= adherence, adhesion)
-"attachment to a formal agenda";
+5. Free movement or passage (as of cytoplasm within a cell or sap through a plant)
+"ocean circulation is an important part of global climate"; "a fan aids air circulation"
  
-6. The act of attaching or affixing something (= affixation)
- 
-7. The act of fastening things together (= fastening)
+6. The spread or transmission of something (as news or money) to a wider group or area
 """,
   );
 
@@ -454,12 +543,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/79VSiCHm63w',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'D_Y18GEjfNY',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/vwtD_UwX4wA?t=',
+    startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -483,8 +597,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'h0IPcqF2q9U',
-    startSeconds: 489,
+    videoId: 'https://youtu.be/SWvj8N96rLs?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -508,8 +622,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Sbp_EeBk-As',
-    startSeconds: 620,
+    videoId: 'https://youtu.be/Xnod8fBdUfk',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -533,8 +647,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LP6ppSM3xq4',
-    startSeconds: 94,
+    videoId: 'https://youtu.be/Fa13JKGG0ds?t=',
+    startSeconds: 799,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -558,8 +672,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Oz9zw7-_vhM',
-    startSeconds: 298,
+    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    startSeconds: 403,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -583,8 +697,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kDdUdvNQndo',
-    startSeconds: 39,
+    videoId: 'https://youtu.be/K3YnaQ64ELY?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -608,32 +722,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9b69bxIaN9o',
-    startSeconds: 104,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'An7sfxf1m5k',
+    videoId: 'https://youtu.be/CsTmgX32Uk8?t=',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -654,106 +743,4 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'E9-x3jRSQvQ',
-    startSeconds: 722,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'D6V85qfsu3g',
-    startSeconds: 1317,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UrkPC81_QfU',
-    startSeconds: 592,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'C0M5tUQSaps',
-    startSeconds: 75,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end // TODO Implement this library.
+// end WORD_WEB

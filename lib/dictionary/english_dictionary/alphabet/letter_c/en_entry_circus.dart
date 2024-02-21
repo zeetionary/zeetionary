@@ -3,87 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryannexation - replace speakAnnexation - replace annexation - /ˌænekˈseɪʃn/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryannexation extends StatelessWidget {
-  EnglishEntryannexation({super.key});
+class EnglishEntrycircus extends StatelessWidget {
+  // blank divider
+  EnglishEntrycircus({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnexation(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnexation
+  Future<void> speakcircus(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("circus"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnexation1150(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnexation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He mentioned the Japanese annexation of Korea in 1910."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnnexation1151(String languageCode) async {
-    // DOPSUM: CHANGE speakAnnexation
+  Future<void> speakcircuss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The country's annexation of its neighbour caused an outcry."); // DOPSUM: CHANGE TEXT
+        "speakcircuss111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircuss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss200"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircuss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss300"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircuss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss400"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircuss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircuss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnnexation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnexation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcircuss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircuss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircuss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircuss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircuss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircuss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcircuss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcircus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcircuss1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -105,28 +149,22 @@ class EnglishEntryannexation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "annexation"), // Find /ˌænekˈseɪʃn/
-                            // divvviiider
+                            EntryTitle(word: "circus"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌænekˈseɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnexation("en-GB"),
+                              onPressed: () => speakcircus("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌænekˈseɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnexation("en-US"),
+                              onPressed: () => speakcircus("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +177,7 @@ class EnglishEntryannexation extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -153,12 +191,10 @@ class EnglishEntryannexation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: داگیرکردن، دەست‌بەسەراگرتن، گرتن، زەوت‌کردن، لکاندن، خستنەپاڵ، دانەدەم، خستنەسەر، پاشکۆ، سەرخستە
+کوردی: 
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز"
-                                  ""),
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -166,76 +202,38 @@ class EnglishEntryannexation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He mentioned the Japanese annexation of Korea in 1910."),
+                                            "speakcircuss111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
+                                        text: "رستە_رستە_رستە_رستە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "circus", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAnnexation1150("en-GB"),
+                                    onPressed: () => speakcircuss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnexation1150(
-                                        // REPLACE: annexation /ˌænekˈseɪʃn/
-                                        "en-US"),
+                                    onPressed: () => speakcircuss1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country's annexation of its neighbour caused an outcry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAnnexation1151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnexation1151(
-                                        // REPLACE: annexation /ˌænekˈseɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedone(),
+                        // YoutubeEmbeddedtwo(),
+                        // YoutubeEmbeddedthree(),
+                        // YoutubeEmbeddedfour(),
+                        // YoutubeEmbeddedfive(),
+                        // YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(), // speakcircuss111111111111111111111111111111111
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -243,6 +241,13 @@ class EnglishEntryannexation extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -298,11 +303,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: annexation (derived forms: annexations)
-1. Incorporation by joining or uniting (= appropriation)
- 
-2. The formal act of acquiring something (especially territory) by conquest or occupation
-"the French annexation of Madagascar as a colony in 1896"; "a protectorate has frequently been a first step to annexation"
+
+speakcircus EnglishEntrycircus
+WORD_WEB circus /ˈsɜːrkəs/
 """,
   );
 
@@ -331,12 +334,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LVhs25kTvB0',
-    startSeconds: 88,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -360,8 +388,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WAPN87J08dM',
-    startSeconds: 233,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -385,8 +413,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WeovwWseJ-I',
-    startSeconds: 310,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -410,8 +438,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'X2O-7yAMFhU',
-    startSeconds: 58,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -435,8 +463,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iLQMDXtt_x4',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -460,8 +488,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0yv0aWWeo7w',
-    startSeconds: 72,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -485,8 +513,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lHbG6iNIz8I',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,29 +534,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6Axdyo-u1Ws',
-    startSeconds: 542,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

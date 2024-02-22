@@ -10,126 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycivilization extends StatelessWidget {
+class EnglishEntryclad extends StatelessWidget {
   // blank divider
-  EnglishEntrycivilization({super.key});
+  EnglishEntryclad({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcivilization(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclad(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("civilization"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clad"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads1(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She was clad in blue velvet."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclads2(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some people think that nuclear war would mean the end of civilization."); // DOPSUM: CHANGE TEXT
+        "She went home and returned more suitably clad."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads3(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Cuzco was the centre of the Inca civilization."); // DOPSUM: CHANGE TEXT
+        "We hiked through snow-clad hills for hours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads4(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Environmental damage threatens the whole of civilization."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads5(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    -await flutterTts.speak(
-        "It's good to be back in civilization after two weeks in a tent!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations5(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads6(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations6(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads7(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations7(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads8(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads9(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads10(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads11(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads12(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakclads13(String languageCode) async {
+    // DOPSUM: CHANGE speakclad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcivilizations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclads1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +151,22 @@ class EnglishEntrycivilization extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "civilization"),
+                            EntryTitle(word: "clad"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌsɪvəlaɪˈzeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /klæd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcivilization("en-GB"),
+                              onPressed: () => speakclad("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌsɪvələˈzeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /klæd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcivilization("en-US"),
+                              onPressed: () => speakclad("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +193,37 @@ class EnglishEntrycivilization extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شارستانیەت، شارستانێتی، ژیار
+کوردی: لەبەرکردوو، پۆشیو، پۆشتە، (لە لێکدان‌دا) ـپۆش
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شارستانییەت؛ ژینگەیەکی پێشکەوتوو و ڕێکخراوی ژیانی مرۆڤ"),
+                                  "١. (ھاوەڵناو) پۆشینی جلوبەرگێکی دیاریکراو"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She was clad in blue velvet."),
+                                    ExampleSentenceKurdish(
+                                        text: "قەیفەی شینی لەبەربوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "clad", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclads1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -206,23 +231,21 @@ class EnglishEntrycivilization extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Some people think that nuclear war would mean the end of civilization."),
+                                            "She went home and returned more suitably clad."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە هۆی کۆتایی شارستانییەت."),
+                                            "چووە ماڵەوە و بە پۆشتەیی گونجاوتر گەڕایەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilization", please follow LX instructions
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations1("en-GB"),
+                                    onPressed: () => speakclads2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations1("en-US"),
+                                    onPressed: () => speakclads2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,7 +254,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆمەڵگەیەک، کەلتوورەکەی، و شێوازی ژیان تێیدا لە کاتێکی دیاریکراودا یان شوێنێکی دیاریکراو لە جیهاندا"),
+                                  "٢. (ھاوەڵناو) داپۆشراو بە شتێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,10 +262,10 @@ class EnglishEntrycivilization extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Cuzco was the centre of the Inca civilization."),
+                                            "We hiked through snow-clad hills for hours."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کوزکۆ سەنتەری شارستانیەتی ئینکا بوو."),
+                                            "بۆ چەندین کاتژمێر بە گردە بەفرپۆشەکاندا پیادەیان دەکرد."),
                                   ],
                                 ),
                               ),
@@ -250,77 +273,10 @@ class EnglishEntrycivilization extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations2("en-GB"),
+                                    onPressed: () => speakclads3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) تەواوی مرۆڤایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Environmental damage threatens the whole of civilization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیانی ژینگەیی هەڕەشە لە تەواوی شارستانیەت دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) شوێنێک کە ژیانێکی ئاسوودەی وەک کۆمەڵگەی سەردەمیانەت پێدەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's good to be back in civilization after two weeks in a tent!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لەدوای دوو هەفتە لە کوخێکدا!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations4("en-US"),
+                                    onPressed: () => speakclads3("en-US"),
                                   ),
                                 ],
                               ),
@@ -408,17 +364,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: civilization (Derived forms: civilizations)
-1. A society in an advanced state of social development (e.g., with complex legal and political and religious organizations) (= civilisation [Brit])
-"the people slowly progressed from barbarism to civilization";
+- Adjective: clad 
+1. Wearing or provided with clothing; sometimes used in combination (= clothed)
+"nurses clad in white"; "white-clad nurses";
  
-2. The social process whereby societies achieve an advanced stage of development and organization (= civilisation [Brit])
- 
-3. (archeology) a particular society at a particular time and place (= culture, civilisation [Brit])
-"early Mayan civilization";
- 
-4. The quality of excellence in thought and manners and taste (= refinement, civilisation [Brit])
-"he is remembered for his generosity and civilization";
+2. Having an outer covering especially of thin metal
+"steel-clad"; "armour-clad"
+
+- Verb: clad (Derived forms: clad, cladding, clads)
+1. Cover or encase something made of one material a covering or coating
+"the building was clad with insulation panels"
 """,
   );
 
@@ -451,8 +406,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Z8g2gNshYk',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/XD-Q85dF1f4?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +431,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dzrg9nDXfu8?t=',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/AAGIi62-sAU?t=',
+    startSeconds: 1269,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +456,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8oylKwGHZNk?t=',
-    startSeconds: 32,
+    videoId: 'https://youtu.be/72i3XhRcn0s?t=',
+    startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -526,8 +481,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
-    startSeconds: 1010,
+    videoId: 'https://youtu.be/z56j06plUgs?t=',
+    startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -551,8 +506,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bnju9eUUuxo?t=',
-    startSeconds: 23,
+    videoId: 'https://youtu.be/kw9Bd96c1ug?t=',
+    startSeconds: 746,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -576,8 +531,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3dx_Bm3yeJo?t=',
-    startSeconds: 154,
+    videoId: 'https://youtu.be/4Nr1AgIfajI?t=',
+    startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -601,8 +556,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fa13JKGG0ds?t=',
-    startSeconds: 517,
+    videoId: 'https://youtu.be/FZrrfGfI3uM?t=',
+    startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -626,8 +581,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
-    startSeconds: 37,
+    videoId: 'https://youtu.be/gbduWRlGc5c?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

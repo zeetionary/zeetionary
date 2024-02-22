@@ -10,126 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycivilization extends StatelessWidget {
+class EnglishEntrycivilize extends StatelessWidget {
   // blank divider
-  EnglishEntrycivilization({super.key});
+  EnglishEntrycivilize({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcivilization(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilize(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("civilization"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("civilize"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some people think that nuclear war would mean the end of civilization."); // DOPSUM: CHANGE TEXT
+        "The girls in a class tend to have a civilizing influence on the boys."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Cuzco was the centre of the Inca civilization."); // DOPSUM: CHANGE TEXT
+        "The Romans set out to civilize the Ancient Britons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Environmental damage threatens the whole of civilization."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    -await flutterTts.speak(
-        "It's good to be back in civilization after two weeks in a tent!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations5(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations6(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations7(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcivilizations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcivilization
+  Future<void> speakcivilizes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivilizations1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilizes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +150,22 @@ class EnglishEntrycivilization extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "civilization"),
+                            EntryTitle(word: "civilize"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌsɪvəlaɪˈzeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɪvəlaɪz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcivilization("en-GB"),
+                              onPressed: () => speakcivilize("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌsɪvələˈzeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɪvəlaɪz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcivilization("en-US"),
+                              onPressed: () => speakcivilize("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +192,11 @@ class EnglishEntrycivilization extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شارستانیەت، شارستانێتی، ژیار
+کوردی: بەرەو پێش چوون، شارستانی بوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شارستانییەت؛ ژینگەیەکی پێشکەوتوو و ڕێکخراوی ژیانی مرۆڤ"),
+                                  "١. (کردار) پێدانی خوێندن و پەروەردە یان باشترکردنی کۆمەڵگەیەک بۆ ئەوەی ببن بە شارستانیەت؛ باشترکردنی هەڵسوکەوتی ڕەفتاری کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,32 +204,27 @@ class EnglishEntrycivilization extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Some people think that nuclear war would mean the end of civilization."),
+                                            "The girls in a class tend to have a civilizing influence on the boys."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە هۆی کۆتایی شارستانییەت."),
+                                            "هەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان هەبێت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilization", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "civilize", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations1("en-GB"),
+                                    onPressed: () => speakcivilizes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations1("en-US"),
+                                    onPressed: () => speakcivilizes1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) کۆمەڵگەیەک، کەلتوورەکەی، و شێوازی ژیان تێیدا لە کاتێکی دیاریکراودا یان شوێنێکی دیاریکراو لە جیهاندا"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -239,10 +232,10 @@ class EnglishEntrycivilization extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Cuzco was the centre of the Inca civilization."),
+                                            "The Romans set out to civilize the Ancient Britons."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کوزکۆ سەنتەری شارستانیەتی ئینکا بوو."),
+                                            "ڕۆمەکان پەلیان هاویشت بۆ بەشارستانیکردنی بەریتانییە کۆنەکان."),
                                   ],
                                 ),
                               ),
@@ -250,77 +243,10 @@ class EnglishEntrycivilization extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations2("en-GB"),
+                                    onPressed: () => speakcivilizes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) تەواوی مرۆڤایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Environmental damage threatens the whole of civilization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیانی ژینگەیی هەڕەشە لە تەواوی شارستانیەت دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) شوێنێک کە ژیانێکی ئاسوودەی وەک کۆمەڵگەی سەردەمیانەت پێدەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's good to be back in civilization after two weeks in a tent!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لەدوای دوو هەفتە لە کوخێکدا!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations4("en-US"),
+                                    onPressed: () => speakcivilizes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -408,17 +334,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: civilization (Derived forms: civilizations)
-1. A society in an advanced state of social development (e.g., with complex legal and political and religious organizations) (= civilisation [Brit])
-"the people slowly progressed from barbarism to civilization";
+- Verb: civilize (Derived forms: civilized, civilizes, civilizing)
+1. Teach or refine to be discriminative in taste or judgment (= educate, school, train, cultivate, civilise [Brit])
+"She is well civilized in poetry";
  
-2. The social process whereby societies achieve an advanced stage of development and organization (= civilisation [Brit])
- 
-3. (archeology) a particular society at a particular time and place (= culture, civilisation [Brit])
-"early Mayan civilization";
- 
-4. The quality of excellence in thought and manners and taste (= refinement, civilisation [Brit])
-"he is remembered for his generosity and civilization";
+2. Raise from a barbaric to a civilized state (= civilise [Brit])
+"The wild child found wandering in the forest was gradually civilized";
 """,
   );
 
@@ -451,8 +372,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Z8g2gNshYk',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/IcMHTeKJ9E8?t=',
+    startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +397,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dzrg9nDXfu8?t=',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/7fcqhU-23TA?t=',
+    startSeconds: 740,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8oylKwGHZNk?t=',
-    startSeconds: 32,
+    videoId: 'https://youtu.be/v5DWJv1hiwM?t=',
+    startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -526,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
-    startSeconds: 1010,
+    videoId: 'https://youtu.be/2ggGdFB6A_I?t=',
+    startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -551,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bnju9eUUuxo?t=',
-    startSeconds: 23,
+    videoId: 'https://youtu.be/T9Nx3RQkAB0?t=',
+    startSeconds: 789,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -576,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3dx_Bm3yeJo?t=',
-    startSeconds: 154,
+    videoId: 'https://youtu.be/fopqgLvfv9o?t=',
+    startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -601,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fa13JKGG0ds?t=',
-    startSeconds: 517,
+    videoId: 'https://youtu.be/7ZkyL5pn74E?t=',
+    startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -626,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
-    startSeconds: 37,
+    videoId: 'https://youtu.be/kBGgy3zR9rA?t=',
+    startSeconds: 218,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

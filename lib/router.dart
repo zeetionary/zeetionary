@@ -2915,8 +2915,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civil_war.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civilian.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civilization.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civilize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clad.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6484,8 +6484,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-civil-war": (_) => MaterialPage(child: EnglishEntrycivilwar()),
   "/english-civilian": (_) => MaterialPage(child: EnglishEntrycivilian()),
   "/english-civilization": (_) => MaterialPage(child: EnglishEntrycivilization()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-civilize": (_) => MaterialPage(child: EnglishEntrycivilize()),
+  "/english-clad": (_) => MaterialPage(child: EnglishEntryclad()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

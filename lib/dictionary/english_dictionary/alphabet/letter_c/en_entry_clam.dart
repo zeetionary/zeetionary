@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclairvoyant extends StatelessWidget {
+class EnglishEntryclam extends StatelessWidget {
   // blank divider
-  EnglishEntryclairvoyant({super.key});
+  EnglishEntryclam({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclairvoyant(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclam(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clairvoyant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clam"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants1(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams1(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People are claiming to have had clairvoyant visions of the murder."); // DOPSUM: CHANGE TEXT
+        "The moment I mentioned the children he closed up like a clam."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants2(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams2(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants3(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams3(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants4(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams4(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants5(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams5(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants6(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams6(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants7(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams7(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants8(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams8(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants9(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams9(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants10(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams10(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants11(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams11(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants12(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams12(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants13(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclams13(String languageCode) async {
+    // DOPSUM: CHANGE speakclam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclams1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clairvoyant"),
+                            EntryTitle(word: "clam"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kleəˈvɔɪənt/"),
+                            const IPAofEnglish(text: "IpaUK: /klæm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclairvoyant("en-GB"),
+                              onPressed: () => speakclam("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klerˈvɔɪənt/"),
+                            const IPAofEnglish(text: "IpaUS: /klæm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclairvoyant("en-US"),
+                              onPressed: () => speakclam("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +190,12 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: پێشزان، پێشبین، پێشگۆ، غەیبزان، داهاتووبین، ڕۆشن‌بین، داهاتووزان، دووربین
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بەو توانایەی کە هەندێک کەس بانگەشەی ئەوە دەکەن هەیان بێت بۆ ئەوەی پێشبینی داهاتوو بکەن یان قسە لەگەڵ کەسانی مردوو یان دوور بکەن"),
+                                  "١. (ناو) جۆرە گیانەوەرێکی سەدەفدار کە دەکرێت بخورێت و دوو توێکڵی هەیە کە دەکرێنەوە و دادەخرێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,23 +203,21 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "People are claiming to have had clairvoyant visions of the murder."),
+                                            "The moment I mentioned the children he closed up like a clam (= became silent and refused to discuss the topic)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان هەبووبێت."),
+                                            "هەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clairvoyant", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "clam", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclairvoyants1("en-GB"),
+                                    onPressed: () => speakclams1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclairvoyants1("en-US"),
+                                    onPressed: () => speakclams1("en-US"),
                                   ),
                                 ],
                               ),
@@ -307,14 +305,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: clairvoyant 
-1. Perceiving things beyond the natural range of the senses
+- Noun: clam (Derived forms: clams)
+1. Burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness
  
-2. Foreseeing the future (= precognitive, second-sighted)
-"Indeed, there are fifteen examples of purportedly clairvoyant dreams in the Bible";
+2. Flesh of either hard-shell or soft-shell clams
+ 
+3. [US, informal] A piece of paper money worth one dollar (= dollar, dollar bill, one dollar bill, buck [informal], single [US, informal])
 
-- Noun: clairvoyant (Derived forms: clairvoyants)
-1. Someone who has the power of clairvoyance
+- Verb: clam (Derived forms: clams, clammed, clamming)
+1. Gather clams, by digging in the sand by the ocean
 """,
   );
 
@@ -347,7 +346,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OYrUPReIOYU?t=',
+    videoId: 'https://youtu.be/v9bxjZLO0Tw?t=',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -372,8 +371,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jhJVen1mrsk?t=',
-    startSeconds: 2229,
+    videoId: 'https://youtu.be/5xaJxWV-IP8?t=',
+    startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -397,8 +396,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aeUPxk-EasY?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/3GLZAIaXudk?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -422,8 +421,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tK-tq3OfPF8?t=',
-    startSeconds: 707,
+    videoId: 'https://youtu.be/H0msk-ZokMw',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -447,8 +446,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NRdcrrO35bU?t=',
-    startSeconds: 135,
+    videoId: 'https://youtu.be/wO7ZFUutn0k?t=',
+    startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +471,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EywZ5VGNZuQ?t=',
-    startSeconds: 912,
+    videoId: 'https://youtu.be/-tmoZeopk7c?t=',
+    startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -497,8 +496,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QnYyqL-kfsk?t=',
-    startSeconds: 33,
+    videoId: 'https://youtu.be/zj31k1Wv0hQ?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -522,8 +521,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sLcEZxNfLoE?t=',
-    startSeconds: 34,
+    videoId: 'https://youtu.be/_4Aom0AD-Q0?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

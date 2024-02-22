@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclairvoyant extends StatelessWidget {
+class EnglishEntryclank extends StatelessWidget {
   // blank divider
-  EnglishEntryclairvoyant({super.key});
+  EnglishEntryclank({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclairvoyant(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclank(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clairvoyant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clank"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants1(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks1(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People are claiming to have had clairvoyant visions of the murder."); // DOPSUM: CHANGE TEXT
+        "My bike chain was clanking in an alarming way as I pedalled along."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants2(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks2(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I heard the clank of buckets as they went to milk the cows."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants3(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks3(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants4(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks4(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants5(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks5(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants6(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks6(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants7(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks7(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants8(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks8(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants9(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks9(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants10(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks10(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants11(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks11(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants12(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks12(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclairvoyants13(String languageCode) async {
-    // DOPSUM: CHANGE speakclairvoyant
+  Future<void> speakclanks13(String languageCode) async {
+    // DOPSUM: CHANGE speakclank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclairvoyants1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclanks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clairvoyant"),
+                            EntryTitle(word: "clank"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kleəˈvɔɪənt/"),
+                            const IPAofEnglish(text: "IpaUK: /klæŋk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclairvoyant("en-GB"),
+                              onPressed: () => speakclank("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klerˈvɔɪənt/"),
+                            const IPAofEnglish(text: "IpaUS: /klæŋk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclairvoyant("en-US"),
+                              onPressed: () => speakclank("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +192,11 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێشزان، پێشبین، پێشگۆ، غەیبزان، داهاتووبین، ڕۆشن‌بین، داهاتووزان، دووربین
+کوردی: (دەنگ) زرنگەزرنگ، خرنگەخرنگ، خڕەخڕ، خرنگ‌وهۆڕ، زڕەزڕ، هاڕە 
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بەو توانایەی کە هەندێک کەس بانگەشەی ئەوە دەکەن هەیان بێت بۆ ئەوەی پێشبینی داهاتوو بکەن یان قسە لەگەڵ کەسانی مردوو یان دوور بکەن"),
+                                  "١. (کردار) درووستکردنی دەنگێکی بەرز وەک ئەوەی دوو کانزا لە یەکدی بدەن، یان ئەوەی لە شتێک بدەیت بۆ ئەوەی ئەم دەنگە درووست بکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,23 +204,52 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "People are claiming to have had clairvoyant visions of the murder."),
+                                            "My bike chain was clanking in an alarming way as I pedalled along."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان هەبووبێت."),
+                                            "زنجیری پاسکیلەکەم خڕەخڕی دەهات کە پایدانم بۆ پێشەوە لێدەدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clairvoyant", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "clank", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclairvoyants1("en-GB"),
+                                    onPressed: () => speakclanks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclairvoyants1("en-US"),
+                                    onPressed: () => speakclanks1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) دەنگێکی بەرز وەک ئەوەی پارچە کانزا لە یەکدی بدەن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I heard the clank of buckets as they went to milk the cows."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێم لە تەقەی سەتڵەکان بوو کە دەچوون مانگاکان بدۆشن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclanks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclanks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -307,14 +337,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: clairvoyant 
-1. Perceiving things beyond the natural range of the senses
- 
-2. Foreseeing the future (= precognitive, second-sighted)
-"Indeed, there are fifteen examples of purportedly clairvoyant dreams in the Bible";
+- Noun: clank (Derived forms: clanks)
+1. A loud resonant repeating noise (= clang, clangor [US], clangour [Brit, Cdn], clangoring [US], clash, crash, clangouring [Brit, Cdn])
+"he could hear the clank of distant bells";
 
-- Noun: clairvoyant (Derived forms: clairvoyants)
-1. Someone who has the power of clairvoyance
+- Verb: clank (Derived forms: clanked, clanking, clanks)
+1. Make a clank
+"the train clanked through the village"
 """,
   );
 
@@ -347,8 +376,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OYrUPReIOYU?t=',
-    startSeconds: 10,
+    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -372,8 +401,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jhJVen1mrsk?t=',
-    startSeconds: 2229,
+    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -397,8 +426,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aeUPxk-EasY?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    startSeconds: 2292,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -422,8 +451,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tK-tq3OfPF8?t=',
-    startSeconds: 707,
+    videoId: 'https://youtu.be/e0tMgj7S38E?t=',
+    startSeconds: 3229,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -447,8 +476,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NRdcrrO35bU?t=',
-    startSeconds: 135,
+    videoId: 'https://youtu.be/dK3Nin3RDPw?t=',
+    startSeconds: 1678,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +501,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EywZ5VGNZuQ?t=',
-    startSeconds: 912,
+    videoId: 'https://youtu.be/-gJnWBVNQsE?t=',
+    startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -497,8 +526,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QnYyqL-kfsk?t=',
-    startSeconds: 33,
+    videoId: 'https://youtu.be/j8A7tJQlO4k?t=',
+    startSeconds: 2542,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -522,8 +551,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sLcEZxNfLoE?t=',
-    startSeconds: 34,
+    videoId: 'https://youtu.be/nIPfuhqcPhs?t=',
+    startSeconds: 519,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

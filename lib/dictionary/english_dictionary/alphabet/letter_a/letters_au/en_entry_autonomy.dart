@@ -153,7 +153,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خۆبەڕێوەبەری، لاسەربەخۆیی، سەربەخۆیی نێوخۆیی، خودموختاری، سەربەخۆیی، ئازادی
+کوردی: خۆبەڕێوەبەری، لاسەربەخۆیی، سەربەخۆیی ناوخۆیی، خودموختاری، سەربەخۆیی، ئازادی
 """),
                           const DefinitionKurdish(
                               text:

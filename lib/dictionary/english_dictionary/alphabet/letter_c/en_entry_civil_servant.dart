@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircumflex extends StatelessWidget {
+class EnglishEntrycivilservant extends StatelessWidget {
   // blank divider
-  EnglishEntrycircumflex({super.key});
+  EnglishEntrycivilservant({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircumflex(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservant(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumflex"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("civil servant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants1(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."); // DOPSUM: CHANGE TEXT
+        "He’s a 35-year-old civil servant with two young children."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants2(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants3(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants4(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants5(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants6(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants7(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants8(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants9(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants10(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants11(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants12(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilservants13(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilservant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilservants1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,23 @@ class EnglishEntrycircumflex extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circumflex"),
+                            EntryTitle(word: "civil servant"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌsɪvl ˈsɜːvənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircumflex("en-GB"),
+                              onPressed: () => speakcivilservant("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəmfleks/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌsɪvl ˈsɜːrvənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircumflex("en-US"),
+                              onPressed: () => speakcivilservant("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +191,11 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: کاربەدەست، فەرمانبەر(ی سیڤیل)، فەرمانبەری حکومی
+"""),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) نیشانەیەک کە لە هەندێک زماندا لەسەر بزوێنێک دادەنرێت بۆ پیشاندانی چۆنیەتی خوێندنەوە، بۆ نموونە لەسەر پیتی o لە rôle ـدا"),
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +203,23 @@ class EnglishEntrycircumflex extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."),
+                                            "He’s a 35-year-old civil servant with two young children."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا."),
+                                            "فەرمانبەرێکی حکومی ٣٥ ساڵانە و دوو منداڵی هەیە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumflex", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "civil servant", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircumflexs1("en-GB"),
+                                    onPressed: () =>
+                                        speakcivilservants1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumflexs1("en-US"),
+                                    onPressed: () =>
+                                        speakcivilservants1("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,7 +237,7 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +307,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circumflex (Derived forms: circumflexes)
-1. A diacritical mark (^) placed above a vowel in some languages to indicate a special phonetic quality
+- Noun: civil servant (Derived forms: civil servants)
+1. A public official who is a member of the civil service
 """,
   );
 
@@ -339,8 +341,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xCYcdVZ3JeM?t=',
-    startSeconds: 221,
+    videoId: 'https://youtu.be/lfpCHEa4jZE?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +366,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jU9w6w8LwqM?t=',
-    startSeconds: 362,
+    videoId: 'https://youtu.be/OFh5Z-DL8_8?t=',
+    startSeconds: 913,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pyI4Kz01ZR4?t=',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/Z8m4sbVyYkw?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ESFPSHCDDZU?t=',
-    startSeconds: 328,
+    videoId: 'https://youtu.be/UYAnkdhe9KE?t=',
+    startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YeGsTffRuJY?t=',
-    startSeconds: 1249,
+    videoId: 'https://youtu.be/cDFFis0j4JM?t=',
+    startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/THDC2-Nf5mw?t=',
-    startSeconds: 3770,
+    videoId: 'https://youtu.be/O-cKvhA9ZJ4?t=',
+    startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U0cGAUJF5FM?t=',
-    startSeconds: 708,
+    videoId: 'https://youtu.be/HMqCnHq2-q8?t=',
+    startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +516,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PQEDFq2tepA?t=',
-    startSeconds: 183,
+    videoId: 'https://youtu.be/Z3D6pGc7nHw?t=',
+    startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

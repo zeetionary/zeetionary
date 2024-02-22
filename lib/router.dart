@@ -2896,25 +2896,25 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_circumstance.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_circumstantial.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_circus.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cistern.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cite.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_citizen.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_citizens_band.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_citizenship.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_citric_acid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_citrus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_city.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civil.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civil_engineering.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civility.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civilly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civil_rights.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civil_servant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_the_civil_service.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civil_war.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civilian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_civilization.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6465,25 +6465,25 @@ final loggedInRoute = RouteMap(routes: {
   "/english-circumstance": (_) => MaterialPage(child: EnglishEntrycircumstance()),
   "/english-circumstantial": (_) => MaterialPage(child: EnglishEntrycircumstantial()),
   "/english-circus": (_) => MaterialPage(child: EnglishEntrycircus()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cistern": (_) => MaterialPage(child: EnglishEntrycistern()),
+  "/english-cite": (_) => MaterialPage(child: EnglishEntrycite()),
+  "/english-citizen": (_) => MaterialPage(child: EnglishEntrycitizen()),
+  "/english-citizens-band": (_) => MaterialPage(child: EnglishEntrycitizensband()),
+  "/english-citizenship": (_) => MaterialPage(child: EnglishEntrycitizenship()),
+  "/english-citric-acid": (_) => MaterialPage(child: EnglishEntrycitricacid()),
+  "/english-citrus": (_) => MaterialPage(child: EnglishEntrycitrus()),
+  "/english-city": (_) => MaterialPage(child: EnglishEntrycity()),
+  "/english-civic": (_) => MaterialPage(child: EnglishEntrycivic()),
+  "/english-civil": (_) => MaterialPage(child: EnglishEntrycivil()),
+  "/english-civil-engineering": (_) => MaterialPage(child: EnglishEntrycivilengineering()),
+  "/english-civility": (_) => MaterialPage(child: EnglishEntrycivility()),
+  "/english-civilly": (_) => MaterialPage(child: EnglishEntrycivilly()),
+  "/english-civil-rights": (_) => MaterialPage(child: EnglishEntrycivilrights()),
+  "/english-civil-servant": (_) => MaterialPage(child: EnglishEntrycivilservant()),
+  "/english-the-civil-service": (_) => MaterialPage(child: EnglishEntrythecivilservice()),
+  "/english-civil-war": (_) => MaterialPage(child: EnglishEntrycivilwar()),
+  "/english-civilian": (_) => MaterialPage(child: EnglishEntrycivilian()),
+  "/english-civilization": (_) => MaterialPage(child: EnglishEntrycivilization()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

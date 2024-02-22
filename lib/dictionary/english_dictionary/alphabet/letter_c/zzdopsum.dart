@@ -30,7 +30,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakdopsum1s111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "// speakdopsum1s111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdopsum1s2(String languageCode) async {
@@ -202,7 +202,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakdopsum1s111111111111111111111111111111111"),
+                                            "// speakdopsum1s111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
                                         text: "رستە_رستە_رستە_رستە."),
                                   ],
@@ -226,14 +226,14 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        // YoutubeEmbeddedone(),
-                        // YoutubeEmbeddedtwo(),
-                        // YoutubeEmbeddedthree(),
-                        // YoutubeEmbeddedfour(),
-                        // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // speakdopsum1s111111111111111111111111111111111
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -534,6 +534,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
+// speakdopsum1s111111111111111111111111111111111
 // end WORD_WEB
 
 // divider

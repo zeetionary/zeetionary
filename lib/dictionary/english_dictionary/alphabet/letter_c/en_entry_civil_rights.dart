@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircumflex extends StatelessWidget {
+class EnglishEntrycivilrights extends StatelessWidget {
   // blank divider
-  EnglishEntrycircumflex({super.key});
+  EnglishEntrycivilrights({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircumflex(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrights(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumflex"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("civilrights"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."); // DOPSUM: CHANGE TEXT
+        "Civil rights include freedom, equality in law and in employment, and the right to vote."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcivilrightss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcivilrights
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivilrightss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycircumflex extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circumflex"),
+                            EntryTitle(word: "civilrights"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌsɪvl ˈraɪts/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircumflex("en-GB"),
+                              onPressed: () => speakcivilrights("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌsɪvl ˈraɪts/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircumflex("en-US"),
+                              onPressed: () => speakcivilrights("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +190,12 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: مافە مەدەنییەکان، مافە شارستانییەکان
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) نیشانەیەک کە لە هەندێک زماندا لەسەر بزوێنێک دادەنرێت بۆ پیشاندانی چۆنیەتی خوێندنەوە، بۆ نموونە لەسەر پیتی o لە rôle ـدا"),
+                                  "١. (ناو) هەموو ئەو مافانەی کە کەسێک لە کۆمەڵگەدا هەیەتی بە یەکسانی، بۆ نموونە مافی دەنگدان، کارکردن، هتد بەبێ گرنگیدان بە ڕەگەز یان ئایین "),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +203,23 @@ class EnglishEntrycircumflex extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."),
+                                            "Civil rights include freedom, equality in law and in employment, and the right to vote."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا."),
+                                            "مافە مەدەنییەکان ئازادی، یەکسانی لە پێش یاسا و کاردا، مافی دەنگدان دەگرێتەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumflex", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "civilrights", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircumflexs1("en-GB"),
+                                    onPressed: () =>
+                                        speakcivilrightss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumflexs1("en-US"),
+                                    onPressed: () =>
+                                        speakcivilrightss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,7 +237,7 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +307,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circumflex (Derived forms: circumflexes)
-1. A diacritical mark (^) placed above a vowel in some languages to indicate a special phonetic quality
+- Noun: civil right (Derived forms: civil rights)
+1. (law) right or rights belonging to a person by reason of citizenship including especially the fundamental freedoms and privileges guaranteed by the 13th and 14th amendments and subsequent acts of Congress including the right to legal and social and economic equality
 """,
   );
 
@@ -339,8 +341,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xCYcdVZ3JeM?t=',
-    startSeconds: 221,
+    videoId: 'https://youtu.be/uKXIvfQnYEY?t=',
+    startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +366,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jU9w6w8LwqM?t=',
-    startSeconds: 362,
+    videoId: 'https://youtu.be/VFj8AOqO46Q?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pyI4Kz01ZR4?t=',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/RKgyOOU8moc?t=',
+    startSeconds: 538,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ESFPSHCDDZU?t=',
-    startSeconds: 328,
+    videoId: 'https://youtu.be/zPIoXRe-f9k?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YeGsTffRuJY?t=',
-    startSeconds: 1249,
+    videoId: 'https://youtu.be/AeN_SVoJet0?t=',
+    startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/THDC2-Nf5mw?t=',
-    startSeconds: 3770,
+    videoId: 'https://youtu.be/SVYqW5BXroM?t=',
+    startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U0cGAUJF5FM?t=',
-    startSeconds: 708,
+    videoId: 'https://youtu.be/YCjDnX-Xzhg?t=',
+    startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +516,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PQEDFq2tepA?t=',
-    startSeconds: 183,
+    videoId: 'https://youtu.be/C-qYgs_yOXA?t=',
+    startSeconds: 4976,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

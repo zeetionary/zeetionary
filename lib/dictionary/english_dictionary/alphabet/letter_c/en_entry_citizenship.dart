@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircumflex extends StatelessWidget {
+class EnglishEntrycitizenship extends StatelessWidget {
   // blank divider
-  EnglishEntrycircumflex({super.key});
+  EnglishEntrycitizenship({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircumflex(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenship(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumflex"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("citizenship"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships1(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."); // DOPSUM: CHANGE TEXT
+        "They were granted full French citizenship."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships2(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can apply for citizenship after five years' residency."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships3(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships4(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships5(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships6(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships7(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships8(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships9(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships10(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships11(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships12(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitizenships13(String languageCode) async {
+    // DOPSUM: CHANGE speakcitizenship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitizenships1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycircumflex extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circumflex"),
+                            EntryTitle(word: "citizenship"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɪtɪzənʃɪp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircumflex("en-GB"),
+                              onPressed: () => speakcitizenship("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɪtɪzənʃɪp/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircumflex("en-US"),
+                              onPressed: () => speakcitizenship("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +191,12 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: هاووڵاتێتی، هاونیشتمانێتی، شارمەندی
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) نیشانەیەک کە لە هەندێک زماندا لەسەر بزوێنێک دادەنرێت بۆ پیشاندانی چۆنیەتی خوێندنەوە، بۆ نموونە لەسەر پیتی o لە rôle ـدا"),
+                                  "١. (ھاوەڵناو) مافی یاسایی بوون بە بەشێک لە وڵاتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +204,53 @@ class EnglishEntrycircumflex extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."),
+                                            "They were granted full French citizenship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا."),
+                                            "مافی تەواوی هاوڵاتیبوونی فەرەنسایان پێدرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumflex", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "citizenship", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircumflexs1("en-GB"),
+                                    onPressed: () =>
+                                        speakcitizenships1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumflexs1("en-US"),
+                                    onPressed: () =>
+                                        speakcitizenships1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can apply for citizenship after five years' residency."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت داوای مافی هاوڵاتیبوون بکەیت لەدوای پێنج ساڵ بوون بە دانیشتوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcitizenships2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcitizenships2("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,7 +268,7 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +338,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circumflex (Derived forms: circumflexes)
-1. A diacritical mark (^) placed above a vowel in some languages to indicate a special phonetic quality
+- Noun: citizenship (Derived forms: citizenships)
+1. (law) the status of a citizen with rights and duties
+ 
+2. Conduct as a citizen
+"award for good citizenship"
 """,
   );
 
@@ -339,8 +375,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xCYcdVZ3JeM?t=',
-    startSeconds: 221,
+    videoId: 'https://youtu.be/d3AVJvTtUlA?t=',
+    startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +400,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jU9w6w8LwqM?t=',
-    startSeconds: 362,
+    videoId: 'https://youtu.be/6ZOhjDtj0eQ?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +425,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pyI4Kz01ZR4?t=',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/aciNzIPVFLg?t=',
+    startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +450,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ESFPSHCDDZU?t=',
-    startSeconds: 328,
+    videoId: 'https://youtu.be/w4XAyw-WoeM?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +475,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YeGsTffRuJY?t=',
-    startSeconds: 1249,
+    videoId: 'https://youtu.be/A5exITMQopg?t=',
+    startSeconds: 566,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +500,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/THDC2-Nf5mw?t=',
-    startSeconds: 3770,
+    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    startSeconds: 1315,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +525,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U0cGAUJF5FM?t=',
-    startSeconds: 708,
+    videoId: 'https://youtu.be/COD9hcTpGWQ?t=',
+    startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +550,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PQEDFq2tepA?t=',
-    startSeconds: 183,
+    videoId: 'https://youtu.be/658YZO_CmOk?t=',
+    startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,125 +10,128 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircus extends StatelessWidget {
+class EnglishEntrycite extends StatelessWidget {
   // blank divider
-  EnglishEntrycircus({super.key});
+  EnglishEntrycite({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircus(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcite(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cite"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She ran away to join the circus."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcircuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The children wanted to see the circus."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcircuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites1(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A media circus surrounded the royal couple wherever they went."); // DOPSUM: CHANGE TEXT
+        "Citing unnamed sources, the newspaper reports that the two companies are nearing a deal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites2(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There is no reason to doubt the information in the articles cited above."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites3(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He cited personal reasons for his decision to resign."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites4(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He cites no primary sources for his claims."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites5(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She cited a passage from the President’s speech."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites6(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was cited in the divorce proceedings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites7(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was cited for bravery."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites8(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcites800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites9(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcites900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites10(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcites1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcites11(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcites1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcites12(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcites1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcites13(String languageCode) async {
+    // DOPSUM: CHANGE speakcite
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcites1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +154,22 @@ class EnglishEntrycircus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circus"),
+                            EntryTitle(word: "cite"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəs/"),
+                            const IPAofEnglish(text: "IpaUK: /saɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircus("en-GB"),
+                              onPressed: () => speakcite("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəs/"),
+                            const IPAofEnglish(text: "IpaUS: /saɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircus("en-US"),
+                              onPressed: () => speakcite("en-US"),
                             ),
                           ],
                         ),
@@ -193,11 +196,11 @@ class EnglishEntrycircus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سیرک، جامبازخانە،	مەیدان، گۆڕەپان 
+کوردی: ناوبردن، ناوهێنان، خوێندنەوە، گوتن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گرووپێک لە نمایشکار کە گەشت دەکەن و پێکهاتوون لە جامباز و شارەزایانی ئاژەڵان"),
+                                  "١. (کردار) باسکردنی شتێک وەک هۆکار یان نموونە، یان بۆ پشتگیری ئەوەی کە دەیڵێیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,31 +208,27 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She ran away to join the circus."),
+                                            "Citing unnamed sources, the newspaper reports that the two companies are nearing a deal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات."),
+                                            "بە ئاماژە بە سەرچاوەی ناونەهێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circus", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cite", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss1("en-GB"),
+                                    onPressed: () => speakcites1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss1("en-US"),
+                                    onPressed: () => speakcites1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) نمایشێک لەلایەن ئەندامانی سێرکێکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,10 +236,10 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The children wanted to see the circus."),
+                                            "There is no reason to doubt the information in the articles cited above."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان دەیانویست سێرکسەکە ببینن."),
+                                            "هیچ هۆکارێک نییە گومان لەو زانیارییانە بکرێت کە لە وتارەکەی سەرەوە باسکراون."),
                                   ],
                                 ),
                               ),
@@ -248,10 +247,38 @@ class EnglishEntrycircus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss2("en-GB"),
+                                    onPressed: () => speakcites2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss2("en-US"),
+                                    onPressed: () => speakcites2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He cited personal reasons for his decision to resign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاماژەی بۆ هۆکاری کەسی کرد بۆ هۆکاری دەستلەکارکێشانەوەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcites3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcites3("en-US"),
                                   ),
                                 ],
                               ),
@@ -260,7 +287,7 @@ class EnglishEntrycircus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) گرووپێک لە خەڵکی یان بۆنەیەک کە سەرنجی زۆر ڕادەکێشێت"),
+                                  "٢. (کردار) وتن یان نووسین ئەوەی لە کتێبێک نووسراوە یان کەسێک وتوویەتی وەک خۆی"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,10 +295,10 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A media circus surrounded the royal couple wherever they went."),
+                                            "He cites no primary sources for his claims."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاشوهووشی میدیا بەدوای دوو دڵدارە شاهانەییەکەوە بوون بۆ هەر کوێیەک بچووبان."),
+                                            "هیچ سەرچاوەیەکی بنچینەیی نادات بۆ بانگەشەکانی."),
                                   ],
                                 ),
                               ),
@@ -279,10 +306,98 @@ class EnglishEntrycircus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss3("en-GB"),
+                                    onPressed: () => speakcites4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss3("en-US"),
+                                    onPressed: () => speakcites4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She cited a passage from the President’s speech."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێک لە وتارەکەی سەرۆک وەک ئاماژە پێدەکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcites5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcites5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) فەرمانکردن بە کەسێک بۆ ئەوەی لە دادگا ئامادەبێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was cited in the divorce proceedings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پڕۆسەی جیابوونەوەکە بانگی دادگا کرا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcites6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcites6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) ناوهێنانی کەسێک بەشێوەیەکی فەرمی یان گشتی لەبەرئەوەی شایەنی ستایشن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was cited for bravery."),
+                                    ExampleSentenceKurdish(
+                                        text: "بۆ بوێری ستایشکرا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcites7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcites7("en-US"),
                                   ),
                                 ],
                               ),
@@ -300,7 +415,7 @@ class EnglishEntrycircus extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -370,24 +485,27 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circus (Derived forms: circuses)
-1. A travelling company of entertainers; including trained animals
-"he ran away from home to join the circus"
+Verb: cite (Derived forms: cited, cites, citing)
+1. Make reference to (= mention, advert [rare], bring up, name, refer)
  
-2. A performance given by a travelling company of acrobats, clowns, and trained animals
-"the children always love to go to the circus"
+2. Commend (= mention)
+"he was cited for his outstanding achievements";
  
-3. A frenetic disorganized (and often comic) disturbance suggestive of a large public entertainment
-"it was so funny it was a circus";
-- carnival
+3. Make a citation to (= reference)
+"he cited his colleagues' work";
  
-4. (antiquity) an open-air stadium for chariot races and gladiatorial games
+4. Repeat a passage from (= quote)
+"He cited the Bible to her";
  
-5. An arena consisting of an oval or circular area enclosed by tiers of seats and usually covered by a tent
-"they used the elephants to help put up the circus"
+5. Refer to for illustration or proof (= quote)
+"He said he could cite several instances of this behaviour";
+ 
+6. Advance evidence for (= adduce, abduce)
+ 
+7. Call in an official matter, such as to attend court (= summon, summons)
 
-- Noun: Circus
-1. A genus of haws comprising the harriers (= genus Circus)
+- Noun: cite (Derived forms: cites)
+1. A short note recognizing a source of information or of a quoted passage (= citation, acknowledgment, credit, reference, mention, quotation)
 """,
   );
 
@@ -420,8 +538,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kl4ORsnCn-U?t=',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/QiPT8MTcUTA',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -445,8 +563,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x0v7x6JdM-I?t=',
-    startSeconds: 72,
+    videoId: 'https://youtu.be/iIUFBYEZvoY?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -470,8 +588,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6yrtrDjmw5c?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/7EnWiGYT1g4?t=',
+    startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -495,8 +613,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rLxonDbNfP8?t=',
-    startSeconds: 1012,
+    videoId: 'https://youtu.be/wVc_ilWtA6g?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -520,8 +638,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yAyoE39cBvU?t=',
-    startSeconds: 253,
+    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    startSeconds: 1635,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -545,8 +663,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7MKcX9GMZfM?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/YLmDE_JYUNU?t=',
+    startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -570,8 +688,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J4Ws9A-K14I?t=',
-    startSeconds: 90,
+    videoId: 'https://youtu.be/y__v0aEgzO0?t=',
+    startSeconds: 503,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -595,33 +713,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yK2bIvRtr6Y?t=',
-    startSeconds: 13,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1G2LIGPf6oc?t=',
-    startSeconds: 297,
+    videoId: 'https://youtu.be/UOc7xdRhAAY?t=',
+    startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

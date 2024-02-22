@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircumflex extends StatelessWidget {
+class EnglishEntrycitrus extends StatelessWidget {
   // blank divider
-  EnglishEntrycircumflex({super.key});
+  EnglishEntrycitrus({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircumflex(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitrus(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumflex"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("citrus"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."); // DOPSUM: CHANGE TEXT
+        "Good sources of vitamin C are vegetables and fruits, especially citrus."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircumflexs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumflex
+  Future<void> speakcitruss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcitrus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumflexs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitruss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycircumflex extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circumflex"),
+                            EntryTitle(word: "citrus"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɪtrəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircumflex("en-GB"),
+                              onPressed: () => speakcitrus("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəmfleks/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɪtrəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircumflex("en-US"),
+                              onPressed: () => speakcitrus("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +190,12 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: مزرەمەنی، ترشەمەنی، لیمۆیی، تیرەپرتەقاڵ، گریپ‌فروت (لیمۆهێندی)
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) نیشانەیەک کە لە هەندێک زماندا لەسەر بزوێنێک دادەنرێت بۆ پیشاندانی چۆنیەتی خوێندنەوە، بۆ نموونە لەسەر پیتی o لە rôle ـدا"),
+                                  "١. (ناو) میوە ئاودارە ترشەکانی وەک پرتەقاڵ و لیمۆ و لیمۆهیندی، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +203,21 @@ class EnglishEntrycircumflex extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."),
+                                            "Good sources of vitamin C are vegetables and fruits, especially citrus."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا."),
+                                            "سەرچاوەی باشی ڤیتامین C بریتییە لە سەوزە و میوە، بەتایبەتی مزرەمەنی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumflex", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "citrus", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircumflexs1("en-GB"),
+                                    onPressed: () => speakcitruss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumflexs1("en-US"),
+                                    onPressed: () => speakcitruss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycircumflex extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +305,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circumflex (Derived forms: circumflexes)
-1. A diacritical mark (^) placed above a vowel in some languages to indicate a special phonetic quality
+- Noun: citrus (Derived forms: citruses)
+1. Any of numerous fruits of the genus Citrus having thick rind and juicy pulp; grown in warm regions (= citrus fruit, citrous fruit)
+ 
+2. Any of numerous tropical usually thorny evergreen trees of the genus Citrus having leathery evergreen leaves and widely cultivated for their juicy edible fruits having leathery aromatic rinds (= citrus tree)
 """,
   );
 
@@ -339,8 +341,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xCYcdVZ3JeM?t=',
-    startSeconds: 221,
+    videoId: 'https://youtu.be/9PO-EnDjEfs?t=',
+    startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +366,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jU9w6w8LwqM?t=',
-    startSeconds: 362,
+    videoId: 'https://youtu.be/tNivqIKI_9g?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pyI4Kz01ZR4?t=',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/nd1ws1fwpqc?t=',
+    startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ESFPSHCDDZU?t=',
-    startSeconds: 328,
+    videoId: 'https://youtu.be/cHvMjVZwbj4?t=',
+    startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YeGsTffRuJY?t=',
-    startSeconds: 1249,
+    videoId: 'https://youtu.be/1cyeR6-F53k?t=',
+    startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/THDC2-Nf5mw?t=',
-    startSeconds: 3770,
+    videoId: 'https://youtu.be/WR29LsEY9iI?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U0cGAUJF5FM?t=',
-    startSeconds: 708,
+    videoId: 'https://youtu.be/JQOCbyzzt6Y?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +516,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PQEDFq2tepA?t=',
-    startSeconds: 183,
+    videoId: 'https://youtu.be/oDBOMjgHdTI?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

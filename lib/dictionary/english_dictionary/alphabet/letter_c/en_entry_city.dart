@@ -10,125 +10,129 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircus extends StatelessWidget {
+class EnglishEntrycity extends StatelessWidget {
   // blank divider
-  EnglishEntrycircus({super.key});
+  EnglishEntrycity({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircus(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcity(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("city"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She ran away to join the circus."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcircuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The children wanted to see the circus."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcircuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A media circus surrounded the royal couple wherever they went."); // DOPSUM: CHANGE TEXT
+        "Parking is difficult in the city centre."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It is one of the world's most beautiful cities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Riots occurred in all the major cities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Mexico City has a population of more than 20 million people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The city of Ely has about 15,000 inhabitants."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The city turned out to welcome the victorious team home."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It's the city's responsibility to maintain the pavements."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcitys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcitys1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcitys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcitys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcitys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcitys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +155,22 @@ class EnglishEntrycircus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circus"),
+                            EntryTitle(word: "city"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɪti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircus("en-GB"),
+                              onPressed: () => speakcity("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɪti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircus("en-US"),
+                              onPressed: () => speakcity("en-US"),
                             ),
                           ],
                         ),
@@ -193,11 +197,10 @@ class EnglishEntrycircus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سیرک، جامبازخانە،	مەیدان، گۆڕەپان 
+کوردی: باژێر، شار،	خەڵکی شار، دانیشتووانی شار
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) گرووپێک لە نمایشکار کە گەشت دەکەن و پێکهاتوون لە جامباز و شارەزایانی ئاژەڵان"),
+                              text: "١. (ناو) شارۆچکەیەکی گەورە و گرنگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,31 +208,27 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She ran away to join the circus."),
+                                            "Parking is difficult in the city centre."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات."),
+                                            "وەستانی ئۆتۆمبێل سەختە لە سەنتەری شاردا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circus", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "city", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss1("en-GB"),
+                                    onPressed: () => speakcitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss1("en-US"),
+                                    onPressed: () => speakcitys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) نمایشێک لەلایەن ئەندامانی سێرکێکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,10 +236,10 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The children wanted to see the circus."),
+                                            "It is one of the world's most beautiful cities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان دەیانویست سێرکسەکە ببینن."),
+                                            "یەکێکە لە جوانترین شارەکانی جیهان."),
                                   ],
                                 ),
                               ),
@@ -248,10 +247,77 @@ class EnglishEntrycircus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss2("en-GB"),
+                                    onPressed: () => speakcitys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss2("en-US"),
+                                    onPressed: () => speakcitys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Riots occurred in all the major cities."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئاژاوە لە هەموو شارە گرنگەکان ڕوویدا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcitys3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcitys3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Mexico City has a population of more than 20 million people."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "مەکسیکۆ سیتی دانیشتووانی زیاتر لە ٢٠ ملیۆنی هەیە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcitys4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcitys4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -259,8 +325,7 @@ class EnglishEntrycircus extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) گرووپێک لە خەڵکی یان بۆنەیەک کە سەرنجی زۆر ڕادەکێشێت"),
+                              text: "٢. (ناو) شارۆچکەیەک کە کڵێسایەکی هەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,10 +333,10 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A media circus surrounded the royal couple wherever they went."),
+                                            "The city of Ely has about 15,000 inhabitants."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاشوهووشی میدیا بەدوای دوو دڵدارە شاهانەییەکەوە بوون بۆ هەر کوێیەک بچووبان."),
+                                            "شاری ئێلی ١٥,٠٠٠ دانیشتووی هەیە."),
                                   ],
                                 ),
                               ),
@@ -279,10 +344,70 @@ class EnglishEntrycircus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss3("en-GB"),
+                                    onPressed: () => speakcitys5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss3("en-US"),
+                                    onPressed: () => speakcitys5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) تەواوی دانیشتووانی شارێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city turned out to welcome the victorious team home."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە هاتنە سەر شەقامەکان بۆ پیشوازی لە تیمە براوەکەیان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcitys6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcitys6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) حکومەتی شارێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's the city's responsibility to maintain the pavements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە ئەرکی بەڕێوبەرایەتی شارەکەیە کە شۆستەکان پاک ڕابگرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcitys7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcitys7("en-US"),
                                   ),
                                 ],
                               ),
@@ -300,7 +425,7 @@ class EnglishEntrycircus extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -370,24 +495,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circus (Derived forms: circuses)
-1. A travelling company of entertainers; including trained animals
-"he ran away from home to join the circus"
- 
-2. A performance given by a travelling company of acrobats, clowns, and trained animals
-"the children always love to go to the circus"
- 
-3. A frenetic disorganized (and often comic) disturbance suggestive of a large public entertainment
-"it was so funny it was a circus";
-- carnival
- 
-4. (antiquity) an open-air stadium for chariot races and gladiatorial games
- 
-5. An arena consisting of an oval or circular area enclosed by tiers of seats and usually covered by a tent
-"they used the elephants to help put up the circus"
+- Noun: city (Derived forms: cities)
+1. A large and densely populated urban area; may include several independent administrative districts (= metropolis, urban center [US], urban centre [Brit, Cdn])
+"Ancient Troy was a great city";
 
-- Noun: Circus
-1. A genus of haws comprising the harriers (= genus Circus)
+2. An incorporated administrative district established by state charter
+"the city raised the tax rate"
+ 
+3. People living in a large densely populated municipality (= metropolis)
+"the city voted for Republicans in 1994";
 """,
   );
 
@@ -420,8 +536,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kl4ORsnCn-U?t=',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/slqnE8IHU-o?t=',
+    startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -445,8 +561,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x0v7x6JdM-I?t=',
-    startSeconds: 72,
+    videoId: 'https://youtu.be/B1wPLm0-lwA?t=',
+    startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -470,8 +586,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6yrtrDjmw5c?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/-xgoldjr-BI?t=',
+    startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -495,8 +611,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rLxonDbNfP8?t=',
-    startSeconds: 1012,
+    videoId: 'https://youtu.be/9v_eRj7ivRE?t=',
+    startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -520,8 +636,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yAyoE39cBvU?t=',
-    startSeconds: 253,
+    videoId: 'https://youtu.be/7wfixfKQk_k?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -545,8 +661,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7MKcX9GMZfM?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/MR3Uc3HuGqE?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -570,8 +686,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J4Ws9A-K14I?t=',
-    startSeconds: 90,
+    videoId: 'https://youtu.be/gFuEoxh5hd4?t=',
+    startSeconds: 1557,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -595,33 +711,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yK2bIvRtr6Y?t=',
-    startSeconds: 13,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1G2LIGPf6oc?t=',
-    startSeconds: 297,
+    videoId: 'https://youtu.be/FD5tIIkccHY?t=',
+    startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

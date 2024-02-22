@@ -10,125 +10,130 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycircus extends StatelessWidget {
+class EnglishEntrycivil extends StatelessWidget {
   // blank divider
-  EnglishEntrycircus({super.key});
+  EnglishEntrycivil({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcircus(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivil(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("civil"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She ran away to join the circus."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcircuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The children wanted to see the circus."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcircuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils1(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A media circus surrounded the royal couple wherever they went."); // DOPSUM: CHANGE TEXT
+        "There were concerns that the economic reforms might lead to civil unrest."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils2(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Helicopters are mainly used for military rather than civil use."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils3(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "After ten years of military dictatorship, the country now has a civil government."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils4(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We weren't married in church, but we had a civil ceremony in a registry office."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils5(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We have called in the army to assist the civil authorities in rescue operations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils6(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The matter would be better dealt with in the civil court rather than by an criminal proceeding."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils7(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The less time I have to spend being civil to him the better!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils8(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He said that the police were perfectly civil in their questioning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils9(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivils900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils10(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivils1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcircuss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircus
+  Future<void> speakcivils11(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircuss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcivils1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcivils12(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcivils1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcivils13(String languageCode) async {
+    // DOPSUM: CHANGE speakcivil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcivils1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +156,22 @@ class EnglishEntrycircus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "circus"),
+                            EntryTitle(word: "civil"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈsɜːkəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɪvl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcircus("en-GB"),
+                              onPressed: () => speakcivil("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈsɜːrkəs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɪvl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcircus("en-US"),
+                              onPressed: () => speakcivil("en-US"),
                             ),
                           ],
                         ),
@@ -193,11 +198,11 @@ class EnglishEntrycircus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سیرک، جامبازخانە،	مەیدان، گۆڕەپان 
+کوردی: شارستانی، شاری، باژێروانی، سیڤیل، مەدەنی،	بەشارستانیەت، نالەشکری، نائەرتەشی، ناسەربازی،	نادینی، نائایینی، عورفی،	ناوخۆیی،	بەڕەوشت،	بەڕەوشتانە،	(ماف) ناتاوانی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گرووپێک لە نمایشکار کە گەشت دەکەن و پێکهاتوون لە جامباز و شارەزایانی ئاژەڵان"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە دەنیشتووانی شارێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,31 +210,27 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She ran away to join the circus."),
+                                            "There were concerns that the economic reforms might lead to civil unrest."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات."),
+                                            "نیگەرانی هەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە هۆی ئاڵۆزی هاوڵاتییان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circus", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "civil", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss1("en-GB"),
+                                    onPressed: () => speakcivils1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss1("en-US"),
+                                    onPressed: () => speakcivils1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) نمایشێک لەلایەن ئەندامانی سێرکێکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,10 +238,10 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The children wanted to see the circus."),
+                                            "Helicopters are mainly used for military rather than civil use."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان دەیانویست سێرکسەکە ببینن."),
+                                            "هێلیکۆپتەر زۆرجار بۆ بەکارهێنانی سەربازییە نەک مەدەنی."),
                                   ],
                                 ),
                               ),
@@ -248,10 +249,38 @@ class EnglishEntrycircus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss2("en-GB"),
+                                    onPressed: () => speakcivils2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss2("en-US"),
+                                    onPressed: () => speakcivils2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After ten years of military dictatorship, the country now has a civil government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ١٠ ساڵ لە دیکتاتۆریەتی سەربازی، وڵاتەکە لەکۆتاییدا حکومەتێکی مەدەنی هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcivils3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcivils3("en-US"),
                                   ),
                                 ],
                               ),
@@ -260,7 +289,7 @@ class EnglishEntrycircus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) گرووپێک لە خەڵکی یان بۆنەیەک کە سەرنجی زۆر ڕادەکێشێت"),
+                                  "٢. (ھاوەڵناو) پەیوەندیدار بە وڵات نەک حکومەت یان دامەزراوەی ئایینی"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,10 +297,10 @@ class EnglishEntrycircus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A media circus surrounded the royal couple wherever they went."),
+                                            "We weren't married in church, but we had a civil ceremony in a registry office."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاشوهووشی میدیا بەدوای دوو دڵدارە شاهانەییەکەوە بوون بۆ هەر کوێیەک بچووبان."),
+                                            "لە کڵێسا هاوسەرگیریمان نەکرد، بەڵکو بۆنەیەکی حکومیمان هەبوو لە ئۆفیسێکی تۆمار."),
                                   ],
                                 ),
                               ),
@@ -279,10 +308,128 @@ class EnglishEntrycircus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss3("en-GB"),
+                                    onPressed: () => speakcivils4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss3("en-US"),
+                                    onPressed: () => speakcivils4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have called in the army to assist the civil authorities in rescue operations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندیمان بە سووپاوە کردووە کە یارمەتی بەرپرسە حکوومییەکان بدەن لە ئۆپەراسیۆنەکانی ڕزگارکردندا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcivils5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcivils5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) پەیوەندیدار بە بابەتی کەسی یاسایی، نەک تاوانکاری"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The matter would be better dealt with in the civil court rather than by an criminal proceeding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە باشتر لە دادگایەکی مەدەنیدا مامەڵەی لەگەڵ دەکرێت نەک بە ڕێوشوێنی تاوانکاری."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcivils6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcivils6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ھاوەڵناو) بەڕێز بە شێوەیەکی فەرمی بەڵام هاوڕێیانە نا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The less time I have to spend being civil to him the better!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەندە کەمتر هەوڵ بدەم بەڕێز بم لەگەڵیدا باشترە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcivils7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcivils7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He said that the police were perfectly civil in their questioning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوتی پۆلیس تەواو مەدەنییانە بوون لەگەڵیدا لە پرسیارکردندا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcivils8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcivils8("en-US"),
                                   ),
                                 ],
                               ),
@@ -300,7 +447,7 @@ class EnglishEntrycircus extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -370,24 +517,24 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circus (Derived forms: circuses)
-1. A travelling company of entertainers; including trained animals
-"he ran away from home to join the circus"
+- Adjective: civil 
+1. Applying to ordinary citizens as contrasted with the military
+"civil authorities"
  
-2. A performance given by a travelling company of acrobats, clowns, and trained animals
-"the children always love to go to the circus"
+2. Of or in a condition of social order
+"civil peoples"
  
-3. A frenetic disorganized (and often comic) disturbance suggestive of a large public entertainment
-"it was so funny it was a circus";
-- carnival
- 
-4. (antiquity) an open-air stadium for chariot races and gladiatorial games
- 
-5. An arena consisting of an oval or circular area enclosed by tiers of seats and usually covered by a tent
-"they used the elephants to help put up the circus"
+3. Not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others (= polite)
+"even if he didn't like them he should have been civil";
 
-- Noun: Circus
-1. A genus of haws comprising the harriers (= genus Circus)
+4. Of or occurring within the state or between or among citizens of the state
+"civil affairs"; "civil strife"; "civil disobedience"; "civil branches of government"
+ 
+5. Of or relating to or befitting citizens as individuals (= civic)
+"civil rights"; "civil liberty";
+ 
+6. (of divisions of time) legally recognized in ordinary affairs of life
+"the civil calendar"; "a civil day begins at mean midnight"
 """,
   );
 
@@ -420,8 +567,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kl4ORsnCn-U?t=',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/FssJcjOIB7A?t=',
+    startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -445,8 +592,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x0v7x6JdM-I?t=',
-    startSeconds: 72,
+    videoId: 'https://youtu.be/uKXIvfQnYEY?t=',
+    startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -470,8 +617,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6yrtrDjmw5c?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/r5VOAxLuS5g?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -495,8 +642,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rLxonDbNfP8?t=',
-    startSeconds: 1012,
+    videoId: 'https://youtu.be/r11l4x-lmjo?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -520,8 +667,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yAyoE39cBvU?t=',
-    startSeconds: 253,
+    videoId: 'https://youtu.be/VFj8AOqO46Q?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -545,8 +692,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7MKcX9GMZfM?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 1036,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -570,8 +717,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J4Ws9A-K14I?t=',
-    startSeconds: 90,
+    videoId: 'https://youtu.be/fn--IVarumw?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -595,33 +742,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yK2bIvRtr6Y?t=',
-    startSeconds: 13,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1G2LIGPf6oc?t=',
-    startSeconds: 297,
+    videoId: 'https://youtu.be/zpFB2q_3pJo?t=',
+    startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

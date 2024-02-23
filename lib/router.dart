@@ -2932,17 +2932,17 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clandestine.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clang.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clank.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clap.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clapped_out.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_claret.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clarify.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clarification.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clarinet.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clarinetist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clarity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clash.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clasp.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_class.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6501,17 +6501,17 @@ final loggedInRoute = RouteMap(routes: {
   "/english-clandestine": (_) => MaterialPage(child: EnglishEntryclandestine()),
   "/english-clang": (_) => MaterialPage(child: EnglishEntryclang()),
   "/english-clank": (_) => MaterialPage(child: EnglishEntryclank()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-clap": (_) => MaterialPage(child: EnglishEntryclap()),
+  "/english-clapped-out": (_) => MaterialPage(child: EnglishEntryclappedout()),
+  "/english-claret": (_) => MaterialPage(child: EnglishEntryclaret()),
+  "/english-clarify": (_) => MaterialPage(child: EnglishEntryclarify()),
+  "/english-clarification": (_) => MaterialPage(child: EnglishEntryclarification()),
+  "/english-clarinet": (_) => MaterialPage(child: EnglishEntryclarinet()),
+  "/english-clarinetist": (_) => MaterialPage(child: EnglishEntryclarinetist()),
+  "/english-clarity": (_) => MaterialPage(child: EnglishEntryclarity()),
+  "/english-clash": (_) => MaterialPage(child: EnglishEntryclash()),
+  "/english-clasp": (_) => MaterialPage(child: EnglishEntryclasp()),
+  "/english-class": (_) => MaterialPage(child: EnglishEntryclass()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

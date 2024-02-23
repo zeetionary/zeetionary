@@ -359,7 +359,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کەسایەتی، کەسێتی، خوو، خوو و ڕەوشت، کریار، تایبەتمەندی، ڕەوشت، سروشت، جیانیشان، تایبەتمەندی جیاکەەروە، خەسڵەت، توانایی مێنتاڵ یان هۆشی، لێهاتوویی، کەش، کەش‌وهەوا، بار، ڕەوش، پیت، تیپ، نیشانە، هێما، بەرژەنگ، جۆر، چەشن، ئاوا،	نێوبانگ، ناوودەنگ،	ڕۆڵ،	ئابڕوو، ناوی باش،	پلە، پلەوپایە،	کەس، مرۆ، پیاو، بنیادەم، مرۆی نائاسایی، پیاوی سەیر،	ڕابووری، پێشینە،	(کۆمپیوتەر) نیشانە
+کوردی: کەسایەتی، کەسێتی، خوو، خوو و ڕەوشت، کریار، تایبەتمەندی، ڕەوشت، سروشت، جیانیشان، تایبەتمەندی جیاکەەروە، خەسڵەت، توانایی مێنتاڵ یان ھۆشی، لێھاتوویی، کەش، کەش‌وھەوا، بار، ڕەوش، پیت، تیپ، نیشانە، ھێما، بەرژەنگ، جۆر، چەشن، ئاوا،	نێوبانگ، ناوودەنگ،	ڕۆڵ،	ئابڕوو، ناوی باش،	پلە، پلەوپایە،	کەس، مرۆ، پیاو، بنیادەم، مرۆی نائاسایی، پیاوی سەیر،	ڕابووری، پێشینە،	(کۆمپیوتەر) نیشانە
 """),
                           const DefinitionKurdish(
                               text:
@@ -401,7 +401,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "The writers killed off her character when she got cancer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسەرەکان کۆتییان بە کارەکتەرەکەی هێنا کە تووشی شێرپەنجە بوو."),
+                                            "نووسەرەکان کۆتییان بە کارەکتەرەکەی ھێنا کە تووشی شێرپەنجە بوو."),
                                   ],
                                 ),
                               ),
@@ -499,7 +499,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "He has developed a skill set from his character work in film, TV and stage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارەزاییەکی بەدەستهێناوە کە سەرچاوەی گرتووە لە کارە کارەکتەرییەکانی لە فیلم، تەلەفیزیۆن، و تەختەی شانۆوە."),
+                                            "شارەزاییەکی بەدەستھێناوە کە سەرچاوەی گرتووە لە کارە کارەکتەرییەکانی لە فیلم، تەلەفیزیۆن، و تەختەی شانۆوە."),
                                   ],
                                 ),
                               ),
@@ -586,7 +586,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "It's not in his character to be so secretive."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کەسایەتییدا نییە کە نهێنی‌پارێز بێت."),
+                                            "لە کەسایەتییدا نییە کە نھێنی‌پارێز بێت."),
                                   ],
                                 ),
                               ),
@@ -606,7 +606,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) خاسیەتی کەسیی بەهێز، بۆ نموونە وەک توانای مامەڵەکردن لەگەڵ دۆخی مەترسیدار و سەخت"),
+                                  "٤. (ناو) خاسیەتی کەسیی بەھێز، بۆ نموونە وەک توانای مامەڵەکردن لەگەڵ دۆخی مەترسیدار و سەخت"),
                           Row(
                             children: [
                               const Expanded(
@@ -617,7 +617,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "Everyone admires her strength of character and determination for success."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمووان سەرسامی بەهێزیی کەسایەتیی و ویستی بۆ سەرکەوتن."),
+                                            "ھەمووان سەرسامی بەھێزیی کەسایەتیی و ویستی بۆ سەرکەوتن."),
                                   ],
                                 ),
                               ),
@@ -645,7 +645,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "The team showed great character in coming back to win."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمەکە لێهاتوویی گەورەی پیشاندا لە گەڕانەوە بۆ بردنەوە."),
+                                            "تیمەکە لێھاتوویی گەورەی پیشاندا لە گەڕانەوە بۆ بردنەوە."),
                                   ],
                                 ),
                               ),
@@ -665,7 +665,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) خاسیەتێکی دیاریکراو یان تایبەتمەندییەک کە شتێک، بۆنەیەک، یان شوێنێک هەیەتی"),
+                                  "٥. (ناو) خاسیەتێکی دیاریکراو یان تایبەتمەندییەک کە شتێک، بۆنەیەک، یان شوێنێک ھەیەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -675,7 +675,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                         text:
                                             "The character of the neighbourhood hasn't changed at all."),
                                     ExampleSentenceKurdish(
-                                        text: "ڕواڵەتی گەڕەکەکە هیچ نەگۆڕاوە."),
+                                        text: "ڕواڵەتی گەڕەکەکە ھیچ نەگۆڕاوە."),
                                   ],
                                 ),
                               ),
@@ -734,7 +734,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "The restaurant is cheap and full of character."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چێشتخانەکە هەرزان و پڕ لە تایبەتمەندییە."),
+                                            "چێشتخانەکە ھەرزان و پڕ لە تایبەتمەندییە."),
                                   ],
                                 ),
                               ),
@@ -823,7 +823,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "He left his job without a stain on his character."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارەکەی جێهێشت بەبێ هیچ لەکەیەک لەسەر کەسایەتیی."),
+                                            "کارەکەی جێھێشت بەبێ ھیچ لەکەیەک لەسەر کەسایەتیی."),
                                   ],
                                 ),
                               ),
@@ -882,7 +882,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                             "These are the Chinese characters meaning ‘wind’ and ‘water’."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم ئەو هێما چینییانەن کە بە واتار 'با' و 'ئاو' دێن."),
+                                            "ئەم ئەو ھێما چینییانەن کە بە واتار 'با' و 'ئاو' دێن."),
                                   ],
                                 ),
                               ),
@@ -981,7 +981,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: character (Derived forms: characters)
+- Noun: character (derived forms: characters)
 1. An imaginary person represented in a work of fiction (play, film or story) (= fictional character, fictitious character)
 "she is the main character in the novel";
  
@@ -1008,7 +1008,7 @@ ${englishMeaningConst.text}
  
 9. (genetics) an attribute (structural or functional) that is determined by a gene or group of genes
 
-- Verb: character (Derived forms: characters, charactering, charactered)
+- Verb: character (derived forms: characters, charactering, charactered)
 1. Engrave or inscribe characters on
 """,
   );
@@ -1042,7 +1042,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OR2gpBMHI9I?t=',
+    videoId: 'OR2gpBMHI9I',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1067,7 +1067,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZVS1YrH_Lfc?t=',
+    videoId: 'ZVS1YrH_Lfc',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1092,7 +1092,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nQ-Ua6NYago?t=',
+    videoId: 'nQ-Ua6NYago',
     startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1117,7 +1117,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R0wa9IlCA_w?t=',
+    videoId: 'R0wa9IlCA_w',
     startSeconds: 354,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1142,7 +1142,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jk7NYEhai0g?t=',
+    videoId: 'Jk7NYEhai0g',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1167,7 +1167,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xoyLYumj7tI?t=',
+    videoId: 'xoyLYumj7tI',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1192,7 +1192,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a3WnvDtDD2M?t=',
+    videoId: 'a3WnvDtDD2M',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1217,7 +1217,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 204,
     autoPlay: true,
     params: const YoutubePlayerParams(

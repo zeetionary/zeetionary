@@ -205,7 +205,7 @@ class EnglishEntrychildhood extends StatelessWidget {
                                         text:
                                             "He spent his childhood in India."),
                                     ExampleSentenceKurdish(
-                                        text: "مناڵیی کە هندستان بەسەربرد."),
+                                        text: "مناڵیی کە ھندستان بەسەربرد."),
                                   ],
                                 ),
                               ),
@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: childhood (Derived forms: childhoods)
+- Noun: childhood (derived forms: childhoods)
 1. The time of person's life when they are a child
  
 2. The state of a child between infancy and adolescence (= puerility)
@@ -367,7 +367,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pQiHmnTw-g0?t=',
+    videoId: 'pQiHmnTw-g0',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -392,7 +392,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q_2Wvqljob8?t=',
+    videoId: 'q_2Wvqljob8',
     startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +417,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L6SjH4H98GE?t=',
+    videoId: 'L6SjH4H98GE',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +442,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MiipO0rq-g0?t=',
+    videoId: 'MiipO0rq-g0',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SWMNRXKNZ8g?t=',
+    videoId: 'SWMNRXKNZ8g',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2I6QCjRBQak?t=',
+    videoId: '2I6QCjRBQak',
     startSeconds: 199,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dFa44x0JZCs?t=',
+    videoId: 'dFa44x0JZCs',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wz3J1jMqaY8?t=',
+    videoId: 'wz3J1jMqaY8',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(

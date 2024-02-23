@@ -194,7 +194,7 @@ class EnglishEntryclatter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (دەنگ) چەکەچەک، شەق‌وکوت، تەق‌ووڕ، ڕەپەڕەپ، شەقەشەق،	هەراوهوریا، دەنگەدەنگ، شێواوی، ئاڵۆزی، پاشاگەردانی، پشێوی
+کوردی: (دەنگ) چەکەچەک، شەق‌وکوت، تەق‌ووڕ، ڕەپەڕەپ، شەقەشەق،	ھەراوھوریا، دەنگەدەنگ، شێواوی، ئاڵۆزی، پاشاگەردانی، پشێوی
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryclatter extends StatelessWidget {
                                             "His boots clattered on the stairs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پوتینەکانی تەقەیان دەهات لەسەر پلەکانەکە."),
+                                            "پوتینەکانی تەقەیان دەھات لەسەر پلەکانەکە."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntryclatter extends StatelessWidget {
                                             "The mug clattered against her teeth."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەرداخەکە کڕەی دەهات لەگەڵ ددانیدا."),
+                                            "پەرداخەکە کڕەی دەھات لەگەڵ ددانیدا."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryclatter extends StatelessWidget {
                                             "She heard him clattering around downstairs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێی لێی  بوو تریقەتریقی دەهات."),
+                                            "گوێی لێی  بوو تریقەتریقی دەھات."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntryclatter extends StatelessWidget {
                                             "In the distance, the clatter of horses' hoofs signaled the arrival of the royal procession."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دوورەوە دەنگی سمی ئەسپەکان نیشانەی گەشتنی قافڵەی شاهانەیی بوو."),
+                                            "لە دوورەوە دەنگی سمی ئەسپەکان نیشانەی گەشتنی قافڵەی شاھانەیی بوو."),
                                   ],
                                 ),
                               ),
@@ -398,11 +398,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clatter (Derived forms: clattered, clattering, clatters)
+- Verb: clatter (derived forms: clattered, clattering, clatters)
 1. Make a rattling sound (= clack, brattle)
 "clattering dishes";
 
-- Noun: clatter (Derived forms: clatters)
+- Noun: clatter (derived forms: clatters)
 1. A rattling noise (often produced by rapid movement)
 "the clatter of iron wheels on cobblestones"
 """,
@@ -437,7 +437,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mzh-DBDc_DQ?t=',
+    videoId: 'mzh-DBDc_DQ',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y_d_91D34do',
+    videoId: 'Y_d_91D34do',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KA08r6rgOq4?t=',
+    videoId: 'KA08r6rgOq4',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    videoId: '3cxHwQl9pNM',
     startSeconds: 486,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-scHwhbGwTA?t=',
+    videoId: '-scHwhbGwTA',
     startSeconds: 1130,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OyT90F6JCt0?t=',
+    videoId: 'OyT90F6JCt0',
     startSeconds: 580,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m4-rcRqljJ4?t=',
+    videoId: 'm4-rcRqljJ4',
     startSeconds: 1255,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +612,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FJVWoV1AdsQ?t=',
+    videoId: 'FJVWoV1AdsQ',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(

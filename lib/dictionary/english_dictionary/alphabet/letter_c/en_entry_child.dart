@@ -439,7 +439,7 @@ class EnglishEntrychild extends StatelessWidget {
 کوردی: مناڵ، منداڵ، زارۆک، بەچ، بەچە، وەچ، کۆرپە، ساوا، ڕۆڵە، فرزەند،	ئاوەڵمە، کۆرپەلە، تۆل، پێزە،	(خوازە) ئەنجام، زادە، ئاکام،	مرۆ یان کەسێکی بێ‌ئەزموون یان خاو،	مرید، بەردەست 
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) منداڵێک کە هێشتا پێگەشتوو نییە"),
+                              text: "١. (ناو) منداڵێک کە ھێشتا پێگەشتوو نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -567,7 +567,7 @@ class EnglishEntrychild extends StatelessWidget {
                                                     "He's always been a problem child."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەمیشە منداڵێکی سەربەکێشە بووە."),
+                                                    "ھەمیشە منداڵێکی سەربەکێشە بووە."),
                                           ],
                                         ),
                                       ),
@@ -597,7 +597,7 @@ class EnglishEntrychild extends StatelessWidget {
                                                     "My father died while I was still a small child."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "باوکم کۆچی دوایی کرد کە هێشتا من منداڵێک بووم."),
+                                                    "باوکم کۆچی دوایی کرد کە ھێشتا من منداڵێک بووم."),
                                           ],
                                         ),
                                       ),
@@ -627,7 +627,7 @@ class EnglishEntrychild extends StatelessWidget {
                                                     "There are a lot of street children in the poorer parts of the city."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕێژەیەکی زۆر منداڵی سەرشەقام هەن لە بەشە هەژارەکانی شارەکەدا."),
+                                                    "ڕێژەیەکی زۆر منداڵی سەرشەقام ھەن لە بەشە ھەژارەکانی شارەکەدا."),
                                           ],
                                         ),
                                       ),
@@ -810,7 +810,7 @@ class EnglishEntrychild extends StatelessWidget {
                                                     "They have two children aged 21 and 17."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دوو منداڵی ٢١ و ١٧ ساڵیان هەیە."),
+                                                    "دوو منداڵی ٢١ و ١٧ ساڵیان ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -975,7 +975,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: child (Derived forms: children)
+- Noun: child (derived forms: children)
 1. A young person of either sex (= kid [informal], youngster, minor, shaver [informal], nipper [informal], small fry [informal], tiddler [Brit, informal], tike [informal], tyke [informal], fry [archaic], nestling [informal], wean [UK, Ireland, dialect], kiddy [informal], kiddie [informal])
 "she writes books for children";
  
@@ -1021,7 +1021,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FD5tIIkccHY?t=',
+    videoId: 'FD5tIIkccHY',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1046,7 +1046,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gES-AewCOAI?t=',
+    videoId: 'gES-AewCOAI',
     startSeconds: 1390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1071,7 +1071,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/36EJUmw9flU?t=',
+    videoId: '36EJUmw9flU',
     startSeconds: 563,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1096,7 +1096,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V5r3T6RmfTk?t=',
+    videoId: 'V5r3T6RmfTk',
     startSeconds: 297,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1121,7 +1121,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/75UUiYUx1Fo?t=',
+    videoId: '75UUiYUx1Fo',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1146,7 +1146,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VVq2pA6dm2A?t=',
+    videoId: 'VVq2pA6dm2A',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1171,7 +1171,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1196,7 +1196,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gdgPAetNY5U?t=',
+    videoId: 'gdgPAetNY5U',
     startSeconds: 360,
     autoPlay: true,
     params: const YoutubePlayerParams(

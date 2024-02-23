@@ -208,7 +208,7 @@ class EnglishEntrycheek extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He kissed her on both cheeks."),
                                     ExampleSentenceKurdish(
-                                        text: "ماچی هەردوو گۆنای کرد."),
+                                        text: "ماچی ھەردوو گۆنای کرد."),
                                   ],
                                 ),
                               ),
@@ -283,7 +283,7 @@ class EnglishEntrycheek extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەبوونی ئەو جۆرە گۆنایەی باسکراوە"),
+                                  "٢. (ناو) ھەبوونی ئەو جۆرە گۆنایەی باسکراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -294,7 +294,7 @@ class EnglishEntrycheek extends StatelessWidget {
                                             "The chubby-cheeked baby's smile melted everyone's heart."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکەنینی منداڵە گۆنا خڕەکە دڵی هەموانی تواندەوە."),
+                                            "پێکەنینی منداڵە گۆنا خڕەکە دڵی ھەموانی تواندەوە."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntrycheek extends StatelessWidget {
                                             "He's always getting into trouble for cheeking his teachers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە دەکەوێتە کێشەوە بۆ بێ‌ڕێزی کردن بە مامۆستاکانی."),
+                                            "ھەمیشە دەکەوێتە کێشەوە بۆ بێ‌ڕێزی کردن بە مامۆستاکانی."),
                                   ],
                                 ),
                               ),
@@ -456,7 +456,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheek (Derived forms: cheeks)
+- Noun: cheek (derived forms: cheeks)
 1. Either side of the face below the eyes
  
 2. An impudent statement (= impudence, impertinence, sauce [Brit, informal])
@@ -466,7 +466,7 @@ ${englishMeaningConst.text}
 4. Impudent aggressiveness (= boldness, nerve, brass, face, brass neck [Brit, informal])
 "he had the cheek to question my honesty";
 
-- Verb: cheek (Derived forms: cheeked, cheeking, cheeks)
+- Verb: cheek (derived forms: cheeked, cheeking, cheeks)
 1. Speak impudently to
 """,
   );
@@ -500,7 +500,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t3QcEbv1Ge0?t=',
+    videoId: 't3QcEbv1Ge0',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bc9riK-ezAs?t=',
+    videoId: 'Bc9riK-ezAs',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fHIW5UDT1n8?t=',
+    videoId: 'fHIW5UDT1n8',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JkZXTo75Q6I?t=',
+    videoId: 'JkZXTo75Q6I',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvlfnzPLYVU?t=',
+    videoId: 'UvlfnzPLYVU',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -625,7 +625,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v1PxVyPmCik?t=',
+    videoId: 'v1PxVyPmCik',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -650,7 +650,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EZ7wcBT5LQI?t=',
+    videoId: 'EZ7wcBT5LQI',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -675,7 +675,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TcmptycT5ak?t=',
+    videoId: 'TcmptycT5ak',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

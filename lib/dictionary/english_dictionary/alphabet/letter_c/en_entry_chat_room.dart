@@ -205,7 +205,7 @@ class EnglishEntrychatroom extends StatelessWidget {
                                             "You can't believe all the stories you hear in internet chat rooms."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نابێت باوەڕ بکەیت بە هەموو ئەو چیرۆکانەی ناو چات‌ڕوومەکانی سەر ئینتەرنێت بکەیت ."),
+                                            "نابێت باوەڕ بکەیت بە ھەموو ئەو چیرۆکانەی ناو چات‌ڕوومەکانی سەر ئینتەرنێت بکەیت ."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chat room (Derived forms: chat rooms, chatrooms)
+- Noun: chat room (derived forms: chat rooms, chatrooms)
 1. A site on the internet where a number of users can communicate in real time (typically one dedicated to a particular topic) (= chatroom)
 """,
   );
@@ -338,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ipIsEulr5o?t=',
+    videoId: '4ipIsEulr5o',
     startSeconds: 421,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -363,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8PJGIEz5YJ4?t=',
+    videoId: '8PJGIEz5YJ4',
     startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jzFY1KDoaeU?t=',
+    videoId: 'jzFY1KDoaeU',
     startSeconds: 926,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E7Rqbdw5piY?t=',
+    videoId: 'E7Rqbdw5piY',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fABaF50GA1Q?t=',
+    videoId: 'fABaF50GA1Q',
     startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx6JQGjjuj0?t=',
+    videoId: 'Mx6JQGjjuj0',
     startSeconds: 973,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/73pVhWXaUlM?t=',
+    videoId: '73pVhWXaUlM',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EU8iF-8zE-Q?t=',
+    videoId: 'EU8iF-8zE-Q',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(

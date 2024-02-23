@@ -193,7 +193,7 @@ class EnglishEntryclan extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تایەفە، تیرە، خێڵ، هۆز، خێزان، خاوخێزان، ماڵبات، خانەدان (بەتایبەت چیانشینانی سکاتلەند)،	دەستە، دارودەستە، دەستەودایرە، تاقم، تیپ 
+کوردی: تایەفە، تیرە، خێڵ، ھۆز، خێزان، خاوخێزان، ماڵبات، خانەدان (بەتایبەت چیانشینانی سکاتلەند)،	دەستە، دارودەستە، دەستەودایرە، تاقم، تیپ 
 """),
                           const DefinitionKurdish(
                               text:
@@ -236,7 +236,7 @@ class EnglishEntryclan extends StatelessWidget {
                                             "Heavy fighting between rival clans was reported."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەواڵی پێکدادانی توند لە نێوان تایەفە دژبەرەکاندا بڵاوکرایەوە."),
+                                            "ھەواڵی پێکدادانی توند لە نێوان تایەفە دژبەرەکاندا بڵاوکرایەوە."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntryclan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) خێزانێکی زۆر گەورە، یان ژمارەیەک کەس کە پەیوەندییان هەیە بە هۆکارێکی دیاریکراو"),
+                                  "٢. (ناو) خێزانێکی زۆر گەورە، یان ژمارەیەک کەس کە پەیوەندییان ھەیە بە ھۆکارێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntryclan extends StatelessWidget {
                                             "There's a photo of the whole Kennedy clan on the bookshelf."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وێنەیەکی تەواوی بنەماڵەی کەنەدی هەیە لەسەر ڕەفەی کتێبەکان."),
+                                            "وێنەیەکی تەواوی بنەماڵەی کەنەدی ھەیە لەسەر ڕەفەی کتێبەکان."),
                                   ],
                                 ),
                               ),
@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clan (Derived forms: clans)
+- Noun: clan (derived forms: clans)
 1. Group of people related by blood or marriage (= kin, kin group, kinship group, kindred, tribe)
 """,
   );
@@ -400,7 +400,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kWfy87P__v0?t=',
+    videoId: 'kWfy87P__v0',
     startSeconds: 1230,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cU4aCmHLU-M?t=',
+    videoId: 'cU4aCmHLU-M',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nHFTbUeMZl8?t=',
+    videoId: 'nHFTbUeMZl8',
     startSeconds: 343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jW4JoDzIRps',
+    videoId: 'jW4JoDzIRps',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dZfkbQhqgRY',
+    videoId: 'dZfkbQhqgRY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 446,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/90MNvA5ozcI?t=',
+    videoId: '90MNvA5ozcI',
     startSeconds: 1501,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PoNCG3PZKII?t=',
+    videoId: 'PoNCG3PZKII',
     startSeconds: 1287,
     autoPlay: true,
     params: const YoutubePlayerParams(

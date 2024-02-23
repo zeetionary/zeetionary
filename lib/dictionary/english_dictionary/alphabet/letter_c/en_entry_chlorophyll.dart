@@ -206,7 +206,7 @@ class EnglishEntrychlorophyll extends StatelessWidget {
                                             "The biologist studied the process of photosynthesis and the role of chlorophyll in plants."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیندەزانەکە لێکۆڵینەوەی لە پڕۆسەی ڕۆشنەپێکهاتن و ئەرکی کلۆرۆفیل دەکرد لە ڕووەکەکاندا."),
+                                            "زیندەزانەکە لێکۆڵینەوەی لە پڕۆسەی ڕۆشنەپێکھاتن و ئەرکی کلۆرۆفیل دەکرد لە ڕووەکەکاندا."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chlorophyll (Derived forms: chlorophylls)
+- Noun: chlorophyll (derived forms: chlorophylls)
 1. Any of a group of green pigments found in photosynthetic organisms; there are four naturally occurring forms (= chlorophyl)
 """,
   );
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OJm2z26ThQI',
+    videoId: 'OJm2z26ThQI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d6dswwH1fks?t=',
+    videoId: 'd6dswwH1fks',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zc9Xk99gCr4?t=',
+    videoId: 'Zc9Xk99gCr4',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ry4J3aQpVX4?t=',
+    videoId: 'Ry4J3aQpVX4',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TwZfWuajw3c?t=',
+    videoId: 'TwZfWuajw3c',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Iln136eMl4g?t=',
+    videoId: 'Iln136eMl4g',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ds7n-LbOY4M?t=',
+    videoId: 'ds7n-LbOY4M',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YB309cz6Kvs?t=',
+    videoId: 'YB309cz6Kvs',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(

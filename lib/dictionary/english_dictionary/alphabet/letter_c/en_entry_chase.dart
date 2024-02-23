@@ -379,7 +379,7 @@ class EnglishEntrychase extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شوێن‌هەڵگرتن، ڕاونان، بەدواکەوتن، بەدواداگەڕان، بەدواداچوون، شۆپاندن، دانەپەی،	ڕاو، ڕاوگە، جێ‌ڕاو،	خەنەک
+کوردی: شوێن‌ھەڵگرتن، ڕاونان، بەدواکەوتن، بەدواداگەڕان، بەدواداچوون، شۆپاندن، دانەپەی،	ڕاو، ڕاوگە، جێ‌ڕاو،	خەنەک
 """),
                           const DefinitionKurdish(
                               text:
@@ -480,7 +480,7 @@ class EnglishEntrychase extends StatelessWidget {
                                             "This particular fish chases off any other fish that enters its territory."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم جۆرە ماسییە هەر جۆرە ماسییەکی دیکە ڕاودەنێت کە بێتە ناوچەکەیەوە ."),
+                                            "ئەم جۆرە ماسییە ھەر جۆرە ماسییەکی دیکە ڕاودەنێت کە بێتە ناوچەکەیەوە ."),
                                   ],
                                 ),
                               ),
@@ -500,7 +500,7 @@ class EnglishEntrychase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) هەوڵدان بۆ بەدەستهێنانی شتێک، بۆ نموونە پارە، کار، یان سەرکەوتن"),
+                                  "٣. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک، بۆ نموونە پارە، کار، یان سەرکەوتن"),
                           Row(
                             children: [
                               const Expanded(
@@ -539,7 +539,7 @@ class EnglishEntrychase extends StatelessWidget {
                                             "The team is chasing its first win in five games."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمەکە هەوڵی یەکەم بردنەوەی لە پێنج یاریدا دەدات."),
+                                            "تیمەکە ھەوڵی یەکەم بردنەوەی لە پێنج یاریدا دەدات."),
                                   ],
                                 ),
                               ),
@@ -559,7 +559,7 @@ class EnglishEntrychase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) هەوڵدان بۆ ڕازیکردنی کەسێک بۆ بوونی پەیوەندی سێکسی"),
+                                  "٤. (کردار) ھەوڵدان بۆ ڕازیکردنی کەسێک بۆ بوونی پەیوەندی سێکسی"),
                           Row(
                             children: [
                               const Expanded(
@@ -596,7 +596,7 @@ class EnglishEntrychase extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Girls are always chasing him."),
                                     ExampleSentenceKurdish(
-                                        text: "کچان هەمیشە بەدوایەوەن."),
+                                        text: "کچان ھەمیشە بەدوایەوەن."),
                                   ],
                                 ),
                               ),
@@ -716,7 +716,7 @@ class EnglishEntrychase extends StatelessWidget {
                                             "We lost him in the narrow streets and had to give up the chase (= stop chasing him)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە شەقامە تەسکەکاندا ونمانکرد و ناچاربووین کۆتایی بە ڕاوەدوونانەکە بهێنین."),
+                                            "لە شەقامە تەسکەکاندا ونمانکرد و ناچاربووین کۆتایی بە ڕاوەدوونانەکە بھێنین."),
                                   ],
                                 ),
                               ),
@@ -735,7 +735,7 @@ class EnglishEntrychase extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) هەوڵدانی زۆر بە دەستخستنی شتێک"),
+                              text: "٧. (ناو) ھەوڵدانی زۆر بە دەستخستنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -746,7 +746,7 @@ class EnglishEntrychase extends StatelessWidget {
                                             "Three teams are involved in the chase for the championship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سێ تیم لە کێبڕکی دان بۆ بەدەستهێنانی پاڵەوانێتییەکە."),
+                                            "سێ تیم لە کێبڕکی دان بۆ بەدەستھێنانی پاڵەوانێتییەکە."),
                                   ],
                                 ),
                               ),
@@ -776,7 +776,7 @@ class EnglishEntrychase extends StatelessWidget {
                                             "Exhausted and hungry, the hunters finally gave up the chase."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ماندوو و برسی، ڕاوکەرەکان لەکۆتاییدا وازیان هاورد لە ڕاوکردنەکە."),
+                                            "ماندوو و برسی، ڕاوکەرەکان لەکۆتاییدا وازیان ھاورد لە ڕاوکردنەکە."),
                                   ],
                                 ),
                               ),
@@ -875,7 +875,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chase (Derived forms: chasing, chased, chases)
+- Verb: chase (derived forms: chasing, chased, chases)
 1. Go after with the intent to catch (= chase after, trail, tail, tag, give chase, dog, go after, track)
 "The policeman chased the mugger down the alley"; "the fox chased the rabbit"; "The policeman chased after the mugger down the alley";
  
@@ -886,7 +886,7 @@ ${englishMeaningConst.text}
  
 4. Cut a furrow into columns (= furrow, chamfer)
 
-- Noun: chase (Derived forms: chases)
+- Noun: chase (derived forms: chases)
 1. The act of pursuing in an effort to overtake or capture (= pursuit, pursual, following)
 "the culprit started to run and the cop took off in chase";
  
@@ -928,7 +928,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GoQkxFNk-hw',
+    videoId: 'GoQkxFNk-hw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -953,7 +953,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9b76gFIbNJs?t=',
+    videoId: '9b76gFIbNJs',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -978,7 +978,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IjOdZ0Pm85s?t=',
+    videoId: 'IjOdZ0Pm85s',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1003,7 +1003,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1410,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1028,7 +1028,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 536,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1053,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/58XEfDtU0Z4?t=',
+    videoId: '58XEfDtU0Z4',
     startSeconds: 1149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    videoId: '3RkhZgRNC1k',
     startSeconds: 1562,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jFk-L7Wcg0g?t=',
+    videoId: 'jFk-L7Wcg0g',
     startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(

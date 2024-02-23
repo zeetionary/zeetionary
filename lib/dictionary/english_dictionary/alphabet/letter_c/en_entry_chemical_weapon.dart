@@ -202,7 +202,7 @@ class EnglishEntrychemicalweapon extends StatelessWidget {
                                             "The use of chemical weapons in the conflict violated international law."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکارهێنانی چەکی کیمیایی لە جەنگەکەدا دژ بە یاسای نێودەوڵەتی بوو."),
+                                            "بەکارھێنانی چەکی کیمیایی لە جەنگەکەدا دژ بە یاسای نێودەوڵەتی بوو."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chemical weapon (Derived forms: chemical weapons)
+- Noun: chemical weapon (derived forms: chemical weapons)
 1. Chemical substances that can be delivered using munitions and dispersal devices to cause death or severe harm to people and animals and plants
 """,
   );
@@ -337,7 +337,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/64t0sgsmusQ?t=',
+    videoId: '64t0sgsmusQ',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +362,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9ZTJMy4T-YM?t=',
+    videoId: '9ZTJMy4T-YM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +387,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jYEv7XzOC0w?t=',
+    videoId: 'jYEv7XzOC0w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +412,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dguUaRVvoBM?t=',
+    videoId: 'dguUaRVvoBM',
     startSeconds: 460,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/73Et4RIIasc?t=',
+    videoId: '73Et4RIIasc',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vS7hMricwm0?t=',
+    videoId: 'vS7hMricwm0',
     startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ry_hKpYz0xc?t=',
+    videoId: 'ry_hKpYz0xc',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ersq3x0xFM4?t=',
+    videoId: 'ersq3x0xFM4',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(

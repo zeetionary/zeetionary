@@ -191,9 +191,9 @@ class EnglishEntrychum extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەواڵ، دۆست، یار، ڕەفیق (گیانی‌گیانی)، دەم‌ساز
+کوردی: ھەواڵ، دۆست، یار، ڕەفیق (گیانی‌گیانی)، دەم‌ساز
 """),
-                          const DefinitionKurdish(text: "١. (ناو) هاوڕێیەک"),
+                          const DefinitionKurdish(text: "١. (ناو) ھاوڕێیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrychum extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "That's all right by me, chum."),
                                     ExampleSentenceKurdish(
-                                        text: "زۆر ئاساییە لام، هاوڕێکەم."),
+                                        text: "زۆر ئاساییە لام، ھاوڕێکەم."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chum (Derived forms: chums)
+- Noun: chum (derived forms: chums)
 Usage: informal
 1. A close friend, esp. one who often acts as a companion (= buddy [informal], brother, crony [informal], pal [informal], cobber [Austral, informal], bud [N. Amer, informal], compadre, paisano [US])
  
@@ -309,7 +309,7 @@ Usage: informal
  
 3. A large Pacific salmon with small spots on its back; an important food fish (= chum salmon, Oncorhynchus keta)
 
-- Verb: chum (Derived forms: chumming, chums, chummed)
+- Verb: chum (derived forms: chumming, chums, chummed)
 Usage: informal
 1. Become friends; act friendly towards (= pal [informal], pal up [informal], chum up [informal])
 """,
@@ -344,7 +344,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9UnwUwi82Ek?t=',
+    videoId: '9UnwUwi82Ek',
     startSeconds: 753,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -369,7 +369,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_OnnylK9w7g?t=',
+    videoId: '_OnnylK9w7g',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N-FqJzC3tA8?t=',
+    videoId: 'N-FqJzC3tA8',
     startSeconds: 294,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9goS1nHM_-E?t=',
+    videoId: '9goS1nHM_-E',
     startSeconds: 1035,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M18DMWDodOQ?t=',
+    videoId: 'M18DMWDodOQ',
     startSeconds: 420,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s07HxmMwrBE?t=',
+    videoId: 's07HxmMwrBE',
     startSeconds: 1236,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TXzdxlqGim8?t=',
+    videoId: 'TXzdxlqGim8',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BhF561DHifw?t=',
+    videoId: 'BhF561DHifw',
     startSeconds: 1306,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -196,7 +196,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) مادەیەکی چەور کە لە زۆربەی شانەکانی لەشدایە. ڕێژەی زۆری کۆلێسترۆڵ لە خوێندا بە هۆکار بۆ نەخۆشییەکانی دڵ دادەنرێت"),
+                                  "١. (ناو) مادەیەکی چەور کە لە زۆربەی شانەکانی لەشدایە. ڕێژەی زۆری کۆلێسترۆڵ لە خوێندا بە ھۆکار بۆ نەخۆشییەکانی دڵ دادەنرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
                                             "Avocados contain no cholesterol."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەڤۆکادۆ هیچ کۆلێسترۆڵی تێدا نییە."),
+                                            "ئەڤۆکادۆ ھیچ کۆلێسترۆڵی تێدا نییە."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cholesterol (Derived forms: cholesterols)
+- Noun: cholesterol (derived forms: cholesterols)
 1. An animal sterol that is normally synthesized by the liver; the most abundant steroid in animal tissues (= cholesterin)
 """,
   );
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7gZt9DQqtZI?t=',
+    videoId: '7gZt9DQqtZI',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JYGN3oDh8Mc?t=',
+    videoId: 'JYGN3oDh8Mc',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8ipbkwzyO_8?t=',
+    videoId: '8ipbkwzyO_8',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/txfPDXqhXoo?t=',
+    videoId: 'txfPDXqhXoo',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l6aLlRS9Ncw?t=',
+    videoId: 'l6aLlRS9Ncw',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rymCw1ED5tk',
+    videoId: 'rymCw1ED5tk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FH8RsqjlS2o?t=',
+    videoId: 'FH8RsqjlS2o',
     startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7JDYiLz9Mo?t=',
+    videoId: 'q7JDYiLz9Mo',
     startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -198,7 +198,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) لێکردنەوەی داپۆشەری سەری چووکی کوڕێک یان پیاوێک بۆ هۆکاری ئایینی یان تەندرووستی"),
+                                  "١. (ناو) لێکردنەوەی داپۆشەری سەری چووکی کوڕێک یان پیاوێک بۆ ھۆکاری ئایینی یان تەندرووستی"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
                                             "The United States has a strong tradition of circumcising baby boys."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمریکا نەریتێکی بەهێزی خەتەنەکردنی منداڵە کوڕەکانیان هەیە."),
+                                            "ئەمریکا نەریتێکی بەھێزی خەتەنەکردنی منداڵە کوڕەکانیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
                                             "5% of intact adult males eventually get circumcised for medical reasons."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "٥٪ـی ئەو پیاوانەی دەستکاری نەکراون لە کۆتاییدا بە هۆکاری تەندرووستی خەتەنە دەکرێن."),
+                                            "٥٪ـی ئەو پیاوانەی دەستکاری نەکراون لە کۆتاییدا بە ھۆکاری تەندرووستی خەتەنە دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) لابردنی بەشێک لە ئەندامی زاوزێی کچان یان ژنان بۆ هۆکاری نەریتی یان ئایینی کە لە ژمارەیەک وڵات ئەنجام دەدرێت بەڵام لە زۆرێک قەدەغەیە"),
+                                  "٢. (کردار) لابردنی بەشێک لە ئەندامی زاوزێی کچان یان ژنان بۆ ھۆکاری نەریتی یان ئایینی کە لە ژمارەیەک وڵات ئەنجام دەدرێت بەڵام لە زۆرێک قەدەغەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,7 +268,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
                                             "In parts of Africa, some girls are circumcised when they are a week old."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەندێک بەشی ئەفریقا، کچان خەتەنە دەکرێن کە یەک هەفتە تەمەنیانە."),
+                                            "لە ھەندێک بەشی ئەفریقا، کچان خەتەنە دەکرێن کە یەک ھەفتە تەمەنیانە."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
                                             "She sometimes dreams that the midwife who circumcised her is coming back to perform the procedure again."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێکجار خەون بەوە دەبینێت کە ئەو مامانەی کە خەتەنەی کرد دێتەوە بۆ دووبارە ئەنجامدانی کارەکە."),
+                                            "ھەندێکجار خەون بەوە دەبینێت کە ئەو مامانەی کە خەتەنەی کرد دێتەوە بۆ دووبارە ئەنجامدانی کارەکە."),
                                   ],
                                 ),
                               ),
@@ -395,7 +395,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: circumcise (Derived forms: circumcised, circumcises, circumcising)
+- Verb: circumcise (derived forms: circumcised, circumcises, circumcising)
 1. Cut the skin over the clitoris
  
 2. Cut the foreskin off male babies or teenage boys
@@ -432,7 +432,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F5c94rOWe1g?t=',
+    videoId: 'F5c94rOWe1g',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pxJS3n4DfDY?t=',
+    videoId: 'pxJS3n4DfDY',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-rqz7LjH7aU?t=',
+    videoId: '-rqz7LjH7aU',
     startSeconds: 2454,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t-6ZzfUxcUU?t=',
+    videoId: 't-6ZzfUxcUU',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n7zAWx6QmkM?t=',
+    videoId: 'n7zAWx6QmkM',
     startSeconds: 451,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jfIrrqFFfAw?t=',
+    videoId: 'jfIrrqFFfAw',
     startSeconds: 864,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GS8IrLZiIA?t=',
+    videoId: '_GS8IrLZiIA',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +607,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yLVOpAuPbKY?t=',
+    videoId: 'yLVOpAuPbKY',
     startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(

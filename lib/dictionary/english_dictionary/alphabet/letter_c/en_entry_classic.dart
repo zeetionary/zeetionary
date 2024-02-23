@@ -202,11 +202,11 @@ class EnglishEntryclassic extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کلاسیک،	زۆرباش، پەسندکراو، هەرەچاک،	بەرز، دیار، بەرجەستە، نموونە،	ناسراو، ناودار،	کۆن، لەمێژینە، کەونار، قەدیمی،	نەریتی، ڕەسەن
+کوردی: کلاسیک،	زۆرباش، پەسندکراو، ھەرەچاک،	بەرز، دیار، بەرجەستە، نموونە،	ناسراو، ناودار،	کۆن، لەمێژینە، کەونار، قەدیمی،	نەریتی، ڕەسەن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) دانراو وەک یەکێک لە باشترین جۆرەکانی هاوشێوەی خۆی"),
+                                  "١. (ھاوەڵناو) دانراو وەک یەکێک لە باشترین جۆرەکانی ھاوشێوەی خۆی"),
                           Row(
                             children: [
                               const Expanded(
@@ -265,7 +265,7 @@ class EnglishEntryclassic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بە هەموو ئەو خاسیەتانەی کە لێی چاوەڕێ دەکەیت"),
+                                  "٢. (ھاوەڵناو) بە ھەموو ئەو خاسیەتانەی کە لێی چاوەڕێ دەکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -304,7 +304,7 @@ class EnglishEntryclassic extends StatelessWidget {
                                             "She displayed the classic symptoms of depression."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیشانە هەمیشەییەکانی بێزاری تێدابوو."),
+                                            "نیشانە ھەمیشەییەکانی بێزاری تێدابوو."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntryclassic extends StatelessWidget {
                                         text:
                                             "She's not going to help? Oh, that's classic!"),
                                     ExampleSentenceKurdish(
-                                        text: "یارمەتی نادا؟ ئۆه، خراپە!"),
+                                        text: "یارمەتی نادا؟ ئۆھ، خراپە!"),
                                   ],
                                 ),
                               ),
@@ -472,7 +472,7 @@ class EnglishEntryclassic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) شتێک کە نموونەیەکی باڵای هاوشێوەی خۆیەتی"),
+                                  "٦. (ناو) شتێک کە نموونەیەکی باڵای ھاوشێوەی خۆیەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -652,7 +652,7 @@ ${englishMeaningConst.text}
 4. Of or relating to the first significant period of a civilization, culture, area of study, etc. (= classical)
 "classic Chinese pottery";
 
-- Noun: classic (Derived forms: classics)
+- Noun: classic (derived forms: classics)
 1. A creation of the highest excellence
  
 2. An artist who has created classic works
@@ -690,7 +690,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7HMzq6Mi-Is',
+    videoId: '7HMzq6Mi-Is',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -715,7 +715,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cVLpdzhcU0g?t=',
+    videoId: 'cVLpdzhcU0g',
     startSeconds: 700,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -740,7 +740,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RrV9nC0EYUQ',
+    videoId: 'RrV9nC0EYUQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -765,7 +765,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pwYUEQT0OkM?t=',
+    videoId: 'pwYUEQT0OkM',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -790,7 +790,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PW8Rt6JFSiY?t=',
+    videoId: 'PW8Rt6JFSiY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -815,7 +815,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A_8sj7Yb9ZQ',
+    videoId: 'A_8sj7Yb9ZQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -840,7 +840,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Se3RKA9HrzI?t=',
+    videoId: 'Se3RKA9HrzI',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -865,7 +865,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VwPGtn9qJZ4?t=',
+    videoId: 'VwPGtn9qJZ4',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(

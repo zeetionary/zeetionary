@@ -191,11 +191,11 @@ class EnglishEntryclamber extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چنگەڕنێ، پیاهەڵچوون یا پیاهەڵگژانی سەخت و چەتوون
+کوردی: چنگەڕنێ، پیاھەڵچوون یا پیاھەڵگژانی سەخت و چەتوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) سەرکەوتن یان جوڵان بە ئاستەنگەوە بە بەکارهێنانی دەست و قاچ"),
+                                  "١. (کردار) سەرکەوتن یان جوڵان بە ئاستەنگەوە بە بەکارھێنانی دەست و قاچ"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntryclamber extends StatelessWidget {
                                         text:
                                             "They clambered over/up the rocks."),
                                     ExampleSentenceKurdish(
-                                        text: "بە بەردەکانا هەڵگژان."),
+                                        text: "بە بەردەکانا ھەڵگژان."),
                                   ],
                                 ),
                               ),
@@ -330,10 +330,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clamber (Derived forms: clambered, clambering, clambers)
+- Verb: clamber (derived forms: clambered, clambering, clambers)
 1. Climb awkwardly over rough or steep ground, often also using hands (= scramble, shinny [N. Amer, informal], struggle)
 
-- Noun: clamber (Derived forms: clambers)
+- Noun: clamber (derived forms: clambers)
 1. An awkward climb
 "reaching the crest was a real clamber"
 """,
@@ -368,7 +368,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ECq3MuU9vqg?t=',
+    videoId: 'ECq3MuU9vqg',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nWY_s14z57w?t=',
+    videoId: 'nWY_s14z57w',
     startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N2B5cfiKxs4?t=',
+    videoId: 'N2B5cfiKxs4',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4y-KDVdCASY?t=',
+    videoId: '4y-KDVdCASY',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ATENTb9HG8k?t=',
+    videoId: 'ATENTb9HG8k',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KFevuP5ua_8?t=',
+    videoId: 'KFevuP5ua_8',
     startSeconds: 1152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n5b9UPvXtqg?t=',
+    videoId: 'n5b9UPvXtqg',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qbdx2nOQKKo?t=',
+    videoId: 'qbdx2nOQKKo',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(

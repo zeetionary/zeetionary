@@ -235,7 +235,7 @@ class EnglishEntrychic extends StatelessWidget {
                                             "She is always so chic, so elegant."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە شۆخ‌وشەنگ و زۆر ڕێکپۆشە."),
+                                            "ھەمیشە شۆخ‌وشەنگ و زۆر ڕێکپۆشە."),
                                   ],
                                 ),
                               ),
@@ -334,11 +334,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chic (Derived forms: chicest, chicer)
+- Adjective: chic (derived forms: chicest, chicer)
 1. Elegant and stylish (= smart, voguish)
 "chic elegance";
 
-- Noun: chic (Derived forms: chics)
+- Noun: chic (derived forms: chics)
 1. Elegance by virtue of being fashionable (= chicness, chichi, modishness, smartness, stylishness, swank [informal], last word)
 """,
   );
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8JFeaP8fV8Y?t=',
+    videoId: '8JFeaP8fV8Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5VK5pVTx0zk',
+    videoId: '5VK5pVTx0zk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d84Iy1nEFwY?t=',
+    videoId: 'd84Iy1nEFwY',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dXggW_9HY9g?t=',
+    videoId: 'dXggW_9HY9g',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yjhibJ-OqxE?t=',
+    videoId: 'yjhibJ-OqxE',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jxk259Eqnks?t=',
+    videoId: 'jxk259Eqnks',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 821,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/38J9MyBDO2I?t=',
+    videoId: '38J9MyBDO2I',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -196,7 +196,7 @@ class EnglishEntrychauvinism extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) باوەڕی کوێرانە و توندڕەوانە کە وڵاتەکەت باشترە لە هەموو ئەوانی دیکە"),
+                                  "١. (ناو) باوەڕی کوێرانە و توندڕەوانە کە وڵاتەکەت باشترە لە ھەموو ئەوانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrychauvinism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بیروباوەڕێک کە هەندێک پیاو هەیانە کەوا پیاو زیرەکتر، گرنگتر، و باشترە لە ژن"),
+                                  "٢. (ناو) بیروباوەڕێک کە ھەندێک پیاو ھەیانە کەوا پیاو زیرەکتر، گرنگتر، و باشترە لە ژن"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chauvinism (Derived forms: chauvinisms)
+- Noun: chauvinism (derived forms: chauvinisms)
 1. Fanatical patriotism (= jingoism, superpatriotism, ultranationalism)
  
 2. Activity indicative of belief in the superiority of men over women (= male chauvinism, antifeminism)
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TPzFAUKkReM?t=',
+    videoId: 'TPzFAUKkReM',
     startSeconds: 1133,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VcVfceTsD0A?t=',
+    videoId: 'VcVfceTsD0A',
     startSeconds: 5004,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hNhfTNU8ZuY?t=',
+    videoId: 'hNhfTNU8ZuY',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GM1w8_dOcR8?t=',
+    videoId: 'GM1w8_dOcR8',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fhm_HZ9twMg?t=',
+    videoId: 'fhm_HZ9twMg',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ypswk9-DP9M?t=',
+    videoId: 'ypswk9-DP9M',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JMQHc01lVwE?t=',
+    videoId: 'JMQHc01lVwE',
     startSeconds: 959,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4NJddyPpl44?t=',
+    videoId: '4NJddyPpl44',
     startSeconds: 270,
     autoPlay: true,
     params: const YoutubePlayerParams(

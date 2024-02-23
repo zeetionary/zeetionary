@@ -193,7 +193,7 @@ class EnglishEntrychess extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شەترەنج؛ یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە چوارگۆشەی ڕەش و سپی لەسەرکێشراوە و لەسەریان کە هەر پارچەیەکی یاریکردن (شا، شاژن، قەڵا، هتد) بەپێی یاساکانی یارییەکە دەجوڵێنرێت. ئامانج لێی ئەوەیە شای یاریزانەکەی تر بخەیتە دۆخێکەوە کە نەتوانێت هەڵبێت"),
+                                  "١. (ناو) شەترەنج؛ یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە چوارگۆشەی ڕەش و سپی لەسەرکێشراوە و لەسەریان کە ھەر پارچەیەکی یاریکردن (شا، شاژن، قەڵا، ھتد) بەپێی یاساکانی یارییەکە دەجوڵێنرێت. ئامانج لێی ئەوەیە شای یاریزانەکەی تر بخەیتە دۆخێکەوە کە نەتوانێت ھەڵبێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -329,7 +329,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chess (Derived forms: chesses)
+- Noun: chess (derived forms: chesses)
 1. A board game for two players who move their 16 pieces according to specific rules; the object is to checkmate the opponent's king (= chess game)
  
 2. Annual plant native to Europe but widely distributed as a weed, especially in wheat (= cheat, Bromus secalinus)
@@ -365,7 +365,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ZO28NtkwwQ?t=',
+    videoId: '0ZO28NtkwwQ',
     startSeconds: 1757,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SG6TPTBBz7g?t=',
+    videoId: 'SG6TPTBBz7g',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ190Bf-6J0?t=',
+    videoId: 'iQ190Bf-6J0',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VwiP1B4CkiA?t=',
+    videoId: 'VwiP1B4CkiA',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P4LnwRHGIHg?t=',
+    videoId: 'P4LnwRHGIHg',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Tg9xiJ6D6k?t=',
+    videoId: '-Tg9xiJ6D6k',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T1RJyn7qBUM?t=',
+    videoId: 'T1RJyn7qBUM',
     startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CtLfUSaVhUM?t=',
+    videoId: 'CtLfUSaVhUM',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(

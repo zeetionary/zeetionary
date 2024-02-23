@@ -260,7 +260,7 @@ class EnglishEntryclassification extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) گرووپێک، ئاستێک، هتد کە کەسێک یان شتێک پۆلێن دەکرێتە ناوی"),
+                                  "٢. (ناو) گرووپێک، ئاستێک، ھتد کە کەسێک یان شتێک پۆلێن دەکرێتە ناوی"),
                           Row(
                             children: [
                               const Expanded(
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: classification (Derived forms: classifications)
+- Noun: classification (derived forms: classifications)
 1. The act of distributing things into classes or categories of the same type (= categorization, categorisation [Brit], compartmentalization, compartmentalisation [Brit], assortment)
  
 2. A group of people or things arranged by class or category (= categorization, categorisation [Brit])
@@ -412,7 +412,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kwcillcWOg0?t=',
+    videoId: 'kwcillcWOg0',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8IJRzcPC9wg?t=',
+    videoId: '8IJRzcPC9wg',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    videoId: '0sazcZ8wwZc',
     startSeconds: 270,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dzRNswfny3A?t=',
+    videoId: 'dzRNswfny3A',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QmOF0crdyRU?t=',
+    videoId: 'QmOF0crdyRU',
     startSeconds: 4101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D0MWrNnjXHo?t=',
+    videoId: 'D0MWrNnjXHo',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BT-r3w1m5U0?t=',
+    videoId: 'BT-r3w1m5U0',
     startSeconds: 594,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/29n2bv7F6uc?t=',
+    videoId: '29n2bv7F6uc',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -205,7 +205,7 @@ class EnglishEntrychimneystack extends StatelessWidget {
                                             "The old house had a tall chimney stack that could be seen from a distance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خانووە کۆنەکە دووکەڵ‌کێشێکی بەرزی سەربانی هەبوو کە لە دوورەوە دەبینرا."),
+                                            "خانووە کۆنەکە دووکەڵ‌کێشێکی بەرزی سەربانی ھەبوو کە لە دوورەوە دەبینرا."),
                                   ],
                                 ),
                               ),
@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chimneystack (Derived forms: chimneystacks)
+- Noun: chimneystack (derived forms: chimneystacks)
 1. The part of the chimney that is above the roof; usually has several flues
 """,
   );
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9rE7v2spoBc?t=',
+    videoId: '9rE7v2spoBc',
     startSeconds: 2782,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/17sPxgcgR_4',
+    videoId: '17sPxgcgR_4',
     // startSeconds: 335,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MCnwO0BsW60?t=',
+    videoId: 'MCnwO0BsW60',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jy6WJzTGcE4?t=',
+    videoId: 'Jy6WJzTGcE4',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CCsz22XlSXo?t=',
+    videoId: 'CCsz22XlSXo',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XdJ0W1giwrw?t=',
+    videoId: 'XdJ0W1giwrw',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PNG3CAbedjw?t=',
+    videoId: 'PNG3CAbedjw',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(

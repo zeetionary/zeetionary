@@ -206,7 +206,7 @@ class EnglishEntrychemist extends StatelessWidget {
                                             "The chemist was known for his friendly service and helpful advice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەرماسازەکە ناسرابوو بۆ خزمەتی هاوڕێیانەی و ڕاوێژی بەسوودی."),
+                                            "دەرماسازەکە ناسرابوو بۆ خزمەتی ھاوڕێیانەی و ڕاوێژی بەسوودی."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrychemist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) فرۆشگایەک کە دەرمان دەفرۆشێت، و زۆرجار سابوون، مەیکەپ، هتد"),
+                                  "٢. (ناو) فرۆشگایەک کە دەرمان دەفرۆشێت، و زۆرجار سابوون، مەیکەپ، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrychemist extends StatelessWidget {
                                             "She visited the chemist to pick up some cough syrup."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەردانی دەرمانسازەکەی کرد بۆ کڕینی هەندێک شرووبی کۆکە."),
+                                            "سەردانی دەرمانسازەکەی کرد بۆ کڕینی ھەندێک شرووبی کۆکە."),
                                   ],
                                 ),
                               ),
@@ -367,7 +367,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chemist (Derived forms: chemists)
+- Noun: chemist (derived forms: chemists)
 1. (chemistry) a scientist who specializes in chemistry
  
 2. A health professional trained in the art of preparing and dispensing drugs (= pharmacist, druggist [N. Amer], apothecary [archaic], pill pusher [informal], pill roller [informal])
@@ -405,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/asAd-E5_HPo?t=',
+    videoId: 'asAd-E5_HPo',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nfiSERjc_0o?t=',
+    videoId: 'nfiSERjc_0o',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dymJcBkGlbs?t=',
+    videoId: 'dymJcBkGlbs',
     startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qh_xkVGPshg?t=',
+    videoId: 'Qh_xkVGPshg',
     startSeconds: 1035,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j9dQZ55lUsE?t=',
+    videoId: 'j9dQZ55lUsE',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EGnbIkLpWgY',
+    videoId: 'EGnbIkLpWgY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FfJHW5AaVWU?t=',
+    videoId: 'FfJHW5AaVWU',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AhMK04YJvBM?t=',
+    videoId: 'AhMK04YJvBM',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(

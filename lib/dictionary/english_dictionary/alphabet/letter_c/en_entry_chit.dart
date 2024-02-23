@@ -192,7 +192,7 @@ class EnglishEntrychit extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ژنی هەرزە، تلۆخ، ژنی جڵف و دەمەوەر،	لیستە (خواردنگە)،	تێبینی، نۆت
+کوردی: ژنی ھەرزە، تلۆخ، ژنی جڵف و دەمەوەر،	لیستە (خواردنگە)،	تێبینی، نۆت
 """),
                           const DefinitionKurdish(
                               text:
@@ -236,7 +236,7 @@ class EnglishEntrychit extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She was just a chit of a girl."),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها کچێکی دەمەوەر بوو."),
+                                        text: "تەنھا کچێکی دەمەوەر بوو."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chit (Derived forms: chits)
+- Noun: chit (derived forms: chits)
 1. A dismissive term for a girl who is immature or who lacks respect
 "she was incensed that this chit of a girl should dare to make a fool of her in front of the class"; "she's a saucy chit"
  
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iavSia6DWqY?t=',
+    videoId: 'iavSia6DWqY',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MG-2MhZya74?t=',
+    videoId: 'MG-2MhZya74',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iV2Otmi9q98?t=',
+    videoId: 'iV2Otmi9q98',
     startSeconds: 844,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OKGVdBSVCnY?t=',
+    videoId: 'OKGVdBSVCnY',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ErCQwg4r9qI?t=',
+    videoId: 'ErCQwg4r9qI',
     startSeconds: 5242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/027uak64htU?t=',
+    videoId: '027uak64htU',
     startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fLW6MKKcut8',
+    videoId: 'fLW6MKKcut8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

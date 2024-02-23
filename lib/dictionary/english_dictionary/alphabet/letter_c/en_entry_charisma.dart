@@ -192,11 +192,11 @@ class EnglishEntrycharisma extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرهێزی، کاریزما، فەڕ، بەهرە، جەوهەر،	جادوو، سام 
+کوردی: سەرھێزی، کاریزما، فەڕ، بەھرە، جەوھەر،	جادوو، سام 
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تایبەتمەندیی بەهێزی کەسایەتی هەندێک کەس کە هەیانە بۆ سەرنجڕاکێشانی کەسانی دیکە"),
+                                  "١. (ناو) تایبەتمەندیی بەھێزی کەسایەتی ھەندێک کەس کە ھەیانە بۆ سەرنجڕاکێشانی کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycharisma extends StatelessWidget {
                                             "The President has great personal charisma."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرۆک کاریزمای کەسی گەورەی هەیە."),
+                                            "سەرۆک کاریزمای کەسی گەورەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycharisma extends StatelessWidget {
                                             "How did a man of so little personal charisma get to be prime minister?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چۆن کەسێکی هێندە بێ‌بەهرە توانی ببێت بە سەرۆک وەزیران؟"),
+                                            "چۆن کەسێکی ھێندە بێ‌بەھرە توانی ببێت بە سەرۆک وەزیران؟"),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: charisma (Derived forms: charismas)
+- Noun: charisma (derived forms: charismas)
 1. A personal attractiveness or interestingness that enables you to influence others (= personal appeal, personal magnetism, personality)
  
 2. (Christianity) an extraordinary power granted by the Holy Spirit
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3PX2d3Zwutg?t=',
+    videoId: '3PX2d3Zwutg',
     startSeconds: 897,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 666,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2emKDlGmE?t=',
+    videoId: 'hS2emKDlGmE',
     startSeconds: 841,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7eM7pb5M5DU?t=',
+    videoId: '7eM7pb5M5DU',
     startSeconds: 2075,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1jm3K9cm3vI?t=',
+    videoId: '1jm3K9cm3vI',
     startSeconds: 619,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qqZ_SH9N3Xo?t=',
+    videoId: 'qqZ_SH9N3Xo',
     startSeconds: 486,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Slfh4kjPLyQ?t=',
+    videoId: 'Slfh4kjPLyQ',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cTozcxvFDtM?t=',
+    videoId: 'cTozcxvFDtM',
     startSeconds: 475,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mUpzRwfRzoU?t=',
+    videoId: 'mUpzRwfRzoU',
     startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(

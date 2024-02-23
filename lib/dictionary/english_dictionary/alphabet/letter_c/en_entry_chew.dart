@@ -232,7 +232,7 @@ class EnglishEntrychew extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He is always chewing gum."),
                                     ExampleSentenceKurdish(
-                                        text: "هەمیشە بنێشت دەجاوێت."),
+                                        text: "ھەمیشە بنێشت دەجاوێت."),
                                   ],
                                 ),
                               ),
@@ -252,7 +252,7 @@ class EnglishEntrychew extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بەردەوام قەپگرتن لە شتێک بەهۆی ئەوەی دەتەوێت تامی بکەیت یان شڵەژاویت"),
+                                  "٢. (کردار) بەردەوام قەپگرتن لە شتێک بەھۆی ئەوەی دەتەوێت تامی بکەیت یان شڵەژاویت"),
                           Row(
                             children: [
                               const Expanded(
@@ -416,11 +416,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chew (Derived forms: chews, chewing, chewed)
+- Verb: chew (derived forms: chews, chewing, chewed)
 1. Bite repeatedly with the teeth, typically to grind food before swallowing it (= masticate, manducate, jaw [informal])
 "Chew your food and don't swallow it!";
 
-- Noun: chew (Derived forms: chews)
+- Noun: chew (derived forms: chews)
 1. A wad of something chewable as tobacco (= chaw, cud, quid, plug, wad)
  
 2. Biting and grinding food in your mouth so it becomes soft enough to swallow (= chewing, mastication, manduction)
@@ -456,7 +456,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5aYKJHa0ptM?t=',
+    videoId: '5aYKJHa0ptM',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iV9np_HWrbA?t=',
+    videoId: 'iV9np_HWrbA',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hOOv2pwqsPw?t=',
+    videoId: 'hOOv2pwqsPw',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_R6R_V9xkAo',
+    videoId: '_R6R_V9xkAo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MSJM4dD7EUQ?t=',
+    videoId: 'MSJM4dD7EUQ',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 3083,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P8m-KThvtxA?t=',
+    videoId: 'P8m-KThvtxA',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
+    videoId: 'omcNGrnt7Sg',
     startSeconds: 3668,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u1GZk3TWNQQ?t=',
+    videoId: 'u1GZk3TWNQQ',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

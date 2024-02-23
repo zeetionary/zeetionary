@@ -196,7 +196,7 @@ class EnglishEntrycharcoal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) مادەیەکی ڕەش کە درووست دەبێت بە هێواش سوتاندنی دار لە شوێنێک کە کەم هەوای تێدایە"),
+                                  "١. (ناو) مادەیەکی ڕەش کە درووست دەبێت بە ھێواش سوتاندنی دار لە شوێنێک کە کەم ھەوای تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: charcoal (Derived forms: charcoals)
+- Noun: charcoal (derived forms: charcoals)
 1. A carbonaceous material obtained by heating wood or other organic matter in the absence of air (= wood coal)
  
 2. A stick of black carbon material used for drawing (= fusain)
@@ -345,7 +345,7 @@ ${englishMeaningConst.text}
  
 4. A drawing made with a stick of black carbon material
 
-- Verb: charcoal (Derived forms: charcoaling, charcoaled, charcoals)
+- Verb: charcoal (derived forms: charcoaling, charcoaled, charcoals)
 1. (art) draw, trace, or represent with charcoal
 
 - Adjective: charcoal 
@@ -382,7 +382,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9E4MUWpoNh4?t=',
+    videoId: '9E4MUWpoNh4',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -407,7 +407,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/prnFUG81KGA?t=',
+    videoId: 'prnFUG81KGA',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1PGpp5v5OyE?t=',
+    videoId: '1PGpp5v5OyE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DaCmvJ-fSDY?t=',
+    videoId: 'DaCmvJ-fSDY',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_g6Q7RmxG0I',
+    videoId: '_g6Q7RmxG0I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TDxDS4j4mdY?t=',
+    videoId: 'TDxDS4j4mdY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Oizf7pG7AN0?t=',
+    videoId: 'Oizf7pG7AN0',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hIyosan009o?t=',
+    videoId: 'hIyosan009o',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(

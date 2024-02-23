@@ -193,7 +193,7 @@ class EnglishEntrydamp extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەڕ، شێ‌دار، تەڕەشۆ، ئاوتێزاو، نم‌دار، خاو، کزر، هیت،	(خوازە) ساردوسڕ، سارد،	شێ، تەڕی، خاوی، کزری،	هەوای تەڕوتووش
+کوردی: تەڕ، شێ‌دار، تەڕەشۆ، ئاوتێزاو، نم‌دار، خاو، کزر، ھیت،	(خوازە) ساردوسڕ، سارد،	شێ، تەڕی، خاوی، کزری،	ھەوای تەڕوتووش
 """),
                           const DefinitionKurdish(
                               text:
@@ -390,14 +390,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: damp (Derived forms: dampest, damper)
+- Adjective: damp (derived forms: dampest, damper)
 1. Slightly wet (= dampish, moist, wettish)
 "clothes damp with perspiration";
 
-- Noun: damp (Derived forms: damps)
+- Noun: damp (derived forms: damps)
 1. A slight wetness (= dampness, moistness)
 
-- Verb: damp (Derived forms: damped, damps, damping)
+- Verb: damp (derived forms: damped, damps, damping)
 1. Deaden (a sound or noise), especially by wrapping (= muffle, mute, dull, dampen, tone down)
  
 2. Restrain or discourage
@@ -438,7 +438,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vo_HIZXwFts?t=',
+    videoId: 'vo_HIZXwFts',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lGSOWwUvJiU?t=',
+    videoId: 'lGSOWwUvJiU',
     startSeconds: 640,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 688,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GVsUOuSjvcg?t=',
+    videoId: 'GVsUOuSjvcg',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yLUvvfw_06s?t=',
+    videoId: 'yLUvvfw_06s',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LwZIxGAG8xA?t=',
+    videoId: 'LwZIxGAG8xA',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rWVAzS5duAs?t=',
+    videoId: 'rWVAzS5duAs',
     startSeconds: 1200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w6TxH8ha8XU?t=',
+    videoId: 'w6TxH8ha8XU',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(

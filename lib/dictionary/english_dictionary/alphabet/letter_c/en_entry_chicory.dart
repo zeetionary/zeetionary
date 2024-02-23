@@ -191,11 +191,11 @@ class EnglishEntrychicory extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (ڕووەک‌ناسی، لە ئەمریکا) چەقچەقە، هندوبا، کاسنی
+کوردی: (ڕووەک‌ناسی، لە ئەمریکا) چەقچەقە، ھندوبا، کاسنی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕووەکێکی بچووکی سەوزی کاڵ کە گەڵاکانی تاڵن و بە کاڵی دەخورێت یان وەک سەوزە دەکوڵێنرێت. دەتوانرێت ڕەگەکەی وشک بکرێتەوە و لەگەڵ قاوە یان لەبری قاوە بەکاربهێنرێت."),
+                                  "١. (ناو) ڕووەکێکی بچووکی سەوزی کاڵ کە گەڵاکانی تاڵن و بە کاڵی دەخورێت یان وەک سەوزە دەکوڵێنرێت. دەتوانرێت ڕەگەکەی وشک بکرێتەوە و لەگەڵ قاوە یان لەبری قاوە بەکاربھێنرێت."),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chicory (Derived forms: chicories)
+- Noun: chicory (derived forms: chicories)
 1. The dried root of the chicory plant: used as a coffee substitute (= chicory root)
  
 2. Perennial Old World herb having rayed flower heads with blue florets cultivated for its root and its heads of crisp edible leaves used in salads (= succory, chicory plant, Cichorium intybus)
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OuWlQz5QifA?t=',
+    videoId: 'OuWlQz5QifA',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O2Au0SXlATM?t=',
+    videoId: 'O2Au0SXlATM',
     startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LxBV7cg8j1o?t=',
+    videoId: 'LxBV7cg8j1o',
     startSeconds: 508,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9ysgixlh7pA?t=',
+    videoId: '9ysgixlh7pA',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PUdnbxclR7A?t=',
+    videoId: 'PUdnbxclR7A',
     startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lAedU_Y-hgw?t=',
+    videoId: 'lAedU_Y-hgw',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ea-qS1zCT5A?t=',
+    videoId: 'Ea-qS1zCT5A',
     startSeconds: 584,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vPVqo3MvfVo?t=',
+    videoId: 'vPVqo3MvfVo',
     startSeconds: 1365,
     autoPlay: true,
     params: const YoutubePlayerParams(

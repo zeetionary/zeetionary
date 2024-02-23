@@ -195,7 +195,7 @@ class EnglishEntrychutney extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ساسێکی خەستی سارد کە لە میوە و شەکر و سرکە و توونی درووستکراوە و لەگەڵ گۆشتی سارد، پەنیر، هتد دەخورێت"),
+                                  "١. (ناو) ساسێکی خەستی سارد کە لە میوە و شەکر و سرکە و توونی درووستکراوە و لەگەڵ گۆشتی سارد، پەنیر، ھتد دەخورێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrychutney extends StatelessWidget {
                                             "Mango chutney is absolutely my favorite."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ساسی مانگۆ  بەدڵنیاییەوە هی دڵخوازی منە."),
+                                            "ساسی مانگۆ  بەدڵنیاییەوە ھی دڵخوازی منە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chutney (Derived forms: chutneys)
+- Noun: chutney (derived forms: chutneys)
 1. A spicy condiment made of chopped fruits or vegetables cooked in vinegar and sugar with ginger and spices (= Indian relish)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_PNIsrJmEW0?t=',
+    videoId: '_PNIsrJmEW0',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8KsmbEo9aHs',
+    videoId: '8KsmbEo9aHs',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rM0ggPRWIJQ?t=',
+    videoId: 'rM0ggPRWIJQ',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sxt4YCIsn2I?t=',
+    videoId: 'sxt4YCIsn2I',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 948,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ihwAF-zahsA?t=',
+    videoId: 'ihwAF-zahsA',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A7afwIxo5lE?t=',
+    videoId: 'A7afwIxo5lE',
     startSeconds: 149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/--_jF4j66gA?t=',
+    videoId: '--_jF4j66gA',
     startSeconds: 364,
     autoPlay: true,
     params: const YoutubePlayerParams(

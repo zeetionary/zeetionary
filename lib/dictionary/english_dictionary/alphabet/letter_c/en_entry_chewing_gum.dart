@@ -204,7 +204,7 @@ class EnglishEntrychewinggum extends StatelessWidget {
                                         text:
                                             "Would you like a piece/stick of chewing gum?"),
                                     ExampleSentenceKurdish(
-                                        text: "حەزت بە کەمێک لە بنێشت هەیە؟"),
+                                        text: "حەزت بە کەمێک لە بنێشت ھەیە؟"),
                                   ],
                                 ),
                               ),
@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chewing gum (Derived forms: chewing gums)
+- Noun: chewing gum (derived forms: chewing gums)
 1. A preparation (usually made of sweetened chicle) for chewing (= gum)
 """,
   );
@@ -365,7 +365,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MSJM4dD7EUQ?t=',
+    videoId: 'MSJM4dD7EUQ',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hOOv2pwqsPw?t=',
+    videoId: 'hOOv2pwqsPw',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dKrlxAqp-I4?t=',
+    videoId: 'dKrlxAqp-I4',
     startSeconds: 619,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4XDF7YMTfDM?t=',
+    videoId: '4XDF7YMTfDM',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cnt0Yb870Vg',
+    videoId: 'cnt0Yb870Vg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nRafaCcfrcI?t=',
+    videoId: 'nRafaCcfrcI',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BRi-SL5VpyE?t=',
+    videoId: 'BRi-SL5VpyE',
     startSeconds: 498,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_3tdqQR8j28?t=',
+    videoId: '_3tdqQR8j28',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

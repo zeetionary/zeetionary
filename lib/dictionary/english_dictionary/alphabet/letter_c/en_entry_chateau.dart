@@ -194,7 +194,8 @@ class EnglishEntrychateau extends StatelessWidget {
 کوردی: سەرا، کۆشک، کاخ
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆشکێک یان ماڵێکی گەورەی دەرەوەی شار لە فەرەنسا"),
+                              text:
+                                  "١. (ناو) کۆشکێک یان ماڵێکی گەورەی دەرەوەی شار لە فەرەنسا"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,7 +234,7 @@ class EnglishEntrychateau extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -303,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chateau (chateaux,chateaus) (= Derived forms: châteaux, châteaus, chateaus, chateaux)
+- Noun: chateau (chateaux,chateaus) (= derived forms: châteaux, châteaus, chateaus, chateaux)
 1. An impressive country house (or castle) in France (= château)
 """,
   );
@@ -337,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LS9ANdUpTuQ?t=',
+    videoId: 'LS9ANdUpTuQ',
     startSeconds: 521,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xKBCQAv6h8A?t=',
+    videoId: 'xKBCQAv6h8A',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sn3yslaBlKI?t=',
+    videoId: 'Sn3yslaBlKI',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7BE2ILyd5O4',
+    videoId: '7BE2ILyd5O4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BBdOB-Egow0?t=',
+    videoId: 'BBdOB-Egow0',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3EojkH43qno?t=',
+    videoId: '3EojkH43qno',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4gzSeBrz-0Q',
+    videoId: '4gzSeBrz-0Q',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -194,11 +194,11 @@ class EnglishEntrychorus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: کۆرس، هاوچڕە، دەستەی گۆرانی، پێکەوەبێژان، کۆڕبێژان،	موسیقای کۆڕ،	گۆرانی پێکەوە یان بەکۆمەڵ، کۆڕبێژی، دەستەی سەماکەر و گۆرانی‌بێژان (شۆی موزیکاڵ)،	سەربەند،	هاوار (پێکەوە، بۆ دەربڕینی پێخۆش‌بوون یا پێخۆش‌نەبوون)،	بێژەر، گێڕەوە، داستان‌بێژ، چیرۆک‌بێژ
+// کوردی: کۆرس، ھاوچڕە، دەستەی گۆرانی، پێکەوەبێژان، کۆڕبێژان،	موسیقای کۆڕ،	گۆرانی پێکەوە یان بەکۆمەڵ، کۆڕبێژی، دەستەی سەماکەر و گۆرانی‌بێژان (شۆی موزیکاڵ)،	سەربەند،	ھاوار (پێکەوە، بۆ دەربڕینی پێخۆش‌بوون یا پێخۆش‌نەبوون)،	بێژەر، گێڕەوە، داستان‌بێژ، چیرۆک‌بێژ
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بەشێکی گۆرانییەک کە دووبارە و دووبارە لە دوای هەر کۆپلەیەک دەوترێتەوە"),
+                                  "١. (ناو) بەشێکی گۆرانییەک کە دووبارە و دووبارە لە دوای ھەر کۆپلەیەک دەوترێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrychorus extends StatelessWidget {
                                             "I'll sing the verses and I'd like you all to join in the chorus."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "من کۆپلەکان دەخوێنم و حەزدەکەم ئێوەش هەمووتان لە کۆرسەکە بەژدار بن."),
+                                            "من کۆپلەکان دەخوێنم و حەزدەکەم ئێوەش ھەمووتان لە کۆرسەکە بەژدار بن."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrychorus extends StatelessWidget {
                                             "The choir will be performing the Hallelujah Chorus at the concert."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆچڕەکە کۆڕە میویزیکی هاللویا دەخوێنن لە کۆنسێرتەکە."),
+                                            "کۆچڕەکە کۆڕە میویزیکی ھاللویا دەخوێنن لە کۆنسێرتەکە."),
                                   ],
                                 ),
                               ),
@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chorus (Derived forms: choruses)
+- Noun: chorus (derived forms: choruses)
 1. Any utterance produced simultaneously by a group
 "a chorus of boos"
  
@@ -410,7 +410,7 @@ ${englishMeaningConst.text}
  
 5. (singing) a company of actors who comment (by speaking or singing in unison) on the action in a classical Greek play (= Greek chorus)
 
-- Verb: chorus (Derived forms: choruses, chorusing, chorused)
+- Verb: chorus (derived forms: choruses, chorusing, chorused)
 1. Utter in unison
 "'yes,' the children chorused"
  
@@ -447,7 +447,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y7Zd4aMCj4k?t=',
+    videoId: 'y7Zd4aMCj4k',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5C0o5HckaC4?t=',
+    videoId: '5C0o5HckaC4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ueh8oy27B8U?t=',
+    videoId: 'Ueh8oy27B8U',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TecEmbKEWho?t=',
+    videoId: 'TecEmbKEWho',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ayj6lxswxeg',
+    videoId: 'Ayj6lxswxeg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJl1p0W5-y4?t=',
+    videoId: 'qJl1p0W5-y4',
     startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8PJGIEz5YJ4?t=',
+    videoId: '8PJGIEz5YJ4',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BBPk0Cdv8gQ?t=',
+    videoId: 'BBPk0Cdv8gQ',
     startSeconds: 1662,
     autoPlay: true,
     params: const YoutubePlayerParams(

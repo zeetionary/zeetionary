@@ -206,7 +206,7 @@ class EnglishEntrychoral extends StatelessWidget {
                                             "The choral performance at the concert was breathtaking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نمایشی کۆچڕەکە لە کۆنسێرتەکە سەرسووڕهێنەر بوو."),
+                                            "نمایشی کۆچڕەکە لە کۆنسێرتەکە سەرسووڕھێنەر بوو."),
                                   ],
                                 ),
                               ),
@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
 1. Related to or written for or performed by a chorus or choir
 "choral composition"; "choral ensemble"
 
-- Noun: choral (Derived forms: chorals)
+- Noun: choral (derived forms: chorals)
 1. A stately Protestant (especially Lutheran) hymn tune (= chorale)
 """,
   );
@@ -343,7 +343,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zbzg9IzXmB4?t=',
+    videoId: 'Zbzg9IzXmB4',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cTJd_WW_NHI?t=',
+    videoId: 'cTJd_WW_NHI',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/12dn_MyYAUs?t=',
+    videoId: '12dn_MyYAUs',
     startSeconds: 828,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WgvehVDHxvI?t=',
+    videoId: 'WgvehVDHxvI',
     startSeconds: 2317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Klmv7FNWZpc?t=',
+    videoId: 'Klmv7FNWZpc',
     startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TW6oakmFkHU?t=',
+    videoId: 'TW6oakmFkHU',
     startSeconds: 706,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7HPvt3-aJis?t=',
+    videoId: '7HPvt3-aJis',
     startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hq3ZAUZs_y8?t=',
+    videoId: 'Hq3ZAUZs_y8',
     startSeconds: 921,
     autoPlay: true,
     params: const YoutubePlayerParams(

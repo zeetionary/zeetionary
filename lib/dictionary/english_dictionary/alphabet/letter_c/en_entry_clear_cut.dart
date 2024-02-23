@@ -234,7 +234,7 @@ class EnglishEntryclearcut extends StatelessWidget {
                                             "She has clear-cut evidence that the company cheated her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەڵگەی ئاشکرا و ڕوونی هەیە کە کۆمپانیاکە فێڵی لێکرد."),
+                                            "بەڵگەی ئاشکرا و ڕوونی ھەیە کە کۆمپانیاکە فێڵی لێکرد."),
                                   ],
                                 ),
                               ),
@@ -343,7 +343,7 @@ ${englishMeaningConst.text}
 3. Distinct to the senses; easily perceptible (= clear, clean-cut)
 "a clear-cut pattern";
 
-- Verb: clear-cut (Derived forms: clear-cutting, clear-cuts)
+- Verb: clear-cut (derived forms: clear-cutting, clear-cuts)
 1. Remove all the trees at one time
 "clear-cut an acre of forest"
 """,
@@ -378,7 +378,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NNnIGh9g6fA?t=',
+    videoId: 'NNnIGh9g6fA',
     startSeconds: 747,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -403,7 +403,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K9ki5uCZalg?t=',
+    videoId: 'K9ki5uCZalg',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gk4tEO4jDUM?t=',
+    videoId: 'gk4tEO4jDUM',
     startSeconds: 5597,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GIubKygOjSw?t=',
+    videoId: 'GIubKygOjSw',
     startSeconds: 708,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EywZ5VGNZuQ?t=',
+    videoId: 'EywZ5VGNZuQ',
     startSeconds: 1094,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hDgo_sU0y2k?t=',
+    videoId: 'hDgo_sU0y2k',
     startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XobSAXZaKJ8?t=',
+    videoId: 'XobSAXZaKJ8',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/10_Oz1Csi_Q?t=',
+    videoId: '10_Oz1Csi_Q',
     startSeconds: 1455,
     autoPlay: true,
     params: const YoutubePlayerParams(

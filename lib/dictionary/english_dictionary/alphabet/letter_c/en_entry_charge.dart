@@ -530,7 +530,7 @@ class EnglishEntrycharge extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گوناهبارکردن، تاوانباری، گومانبارکردن، تۆمەت، شەڵتاخ، بوختان، چەفتە، نرخ، بایی، قیمەت، حەق، حەق‌دەس، مز، کرێ، مەزاخ، خەرج، تێچوون،	سەرپەرشتی، سەرپەرستی، چاودێری، سەخبیری، چاوبەسەری، سەرنج، بەرپرسایەتی،	کۆنتڕۆڵ، مەهار، دەست‌بەسەراگرتن،	قەرز،	ئەرک، پەیور،	هێرش، گوژمە، پەلامار،	دەستوور، فەرمان،	(چەک) تەقەک، پێتەق، خەرج،	(ئێلیکتریسیتی) بارگ، بارگە، بار
+کوردی: گوناھبارکردن، تاوانباری، گومانبارکردن، تۆمەت، شەڵتاخ، بوختان، چەفتە، نرخ، بایی، قیمەت، حەق، حەق‌دەس، مز، کرێ، مەزاخ، خەرج، تێچوون،	سەرپەرشتی، سەرپەرستی، چاودێری، سەخبیری، چاوبەسەری، سەرنج، بەرپرسایەتی،	کۆنتڕۆڵ، مەھار، دەست‌بەسەراگرتن،	قەرز،	ئەرک، پەیور،	ھێرش، گوژمە، پەلامار،	دەستوور، فەرمان،	(چەک) تەقەک، پێتەق، خەرج،	(ئێلیکتریسیتی) بارگ، بارگە، بار
 """),
                           const DefinitionKurdish(
                               text:
@@ -571,7 +571,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The hotel operates a bus service to the beach for a small charge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هوتێلەکە خزمەتگوزارییەکی گەیاندنی پاسی هەیە بۆ کەنار دەریاکە بە نرخێکی کەم."),
+                                            "ھوتێلەکە خزمەتگوزارییەکی گەیاندنی پاسی ھەیە بۆ کەنار دەریاکە بە نرخێکی کەم."),
                                   ],
                                 ),
                               ),
@@ -658,7 +658,7 @@ class EnglishEntrycharge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەژماری حیسابات کە بڕی ئەو شتانە کە لە فرؤشگایەک دەیکڕیت بە قەرز و لە کاتێکی دیاریکراودا دەیدەیتەوە"),
+                                  "٢. (ناو) ھەژماری حیسابات کە بڕی ئەو شتانە کە لە فرؤشگایەک دەیکڕیت بە قەرز و لە کاتێکی دیاریکراودا دەیدەیتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -717,7 +717,7 @@ class EnglishEntrycharge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پێگەی هەبوونی دەسەڵات بەسەر شتێک/کەسێکدا"),
+                                  "٣. (ناو) پێگەی ھەبوونی دەسەڵات بەسەر شتێک/کەسێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -756,7 +756,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "They left the au pair in charge of the children for a week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆپێرەکەی وەک چاودێری منداڵەکان جێهێشت."),
+                                            "ئۆپێرەکەی وەک چاودێری منداڵەکان جێھێشت."),
                                   ],
                                 ),
                               ),
@@ -853,7 +853,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                         text: "Both men deny the charges."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو پیاوەکە نکۆڵی لە تاوانەکان دەکەن."),
+                                            "ھەردوو پیاوەکە نکۆڵی لە تاوانەکان دەکەن."),
                                   ],
                                 ),
                               ),
@@ -1028,7 +1028,7 @@ class EnglishEntrycharge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) قسەیەک کە کەسێک بە کردنی کارێکی هەڵە یان خراپ تۆمەتبار دەکات"),
+                                  "٥. (ناو) قسەیەک کە کەسێک بە کردنی کارێکی ھەڵە یان خراپ تۆمەتبار دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -1125,7 +1125,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The electron has a negative charge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەلیکترۆنەکە بارگەیەکی نێگەتیڤی هەیە."),
+                                            "ئەلیکترۆنەکە بارگەیەکی نێگەتیڤی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1220,7 +1220,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The bull lowered its horns and charged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جوانەگاکە شاخەکانی نزمکردەوە و هێرشی کرد."),
+                                            "جوانەگاکە شاخەکانی نزمکردەوە و ھێرشی کرد."),
                                   ],
                                 ),
                               ),
@@ -1283,7 +1283,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The fees charged by some companies are excessive."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو کرێیانەی لەلایەن هەندێک کۆمپانیاوە وەردەگیرێت لە ڕادەبەدەرن."),
+                                            "ئەو کرێیانەی لەلایەن ھەندێک کۆمپانیاوە وەردەگیرێت لە ڕادەبەدەرن."),
                                   ],
                                 ),
                               ),
@@ -1443,7 +1443,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                                     "They charge the calls to their credit-card account."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نرخی پەیوەندییەکان دەخەنە سەر هەژماری کرێدیت کاردەکە."),
+                                                    "نرخی پەیوەندییەکان دەخەنە سەر ھەژماری کرێدیت کاردەکە."),
                                           ],
                                         ),
                                       ),
@@ -1506,7 +1506,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "Before use, the battery must be charged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێش بەکارهێنان، باترییەکە دەبێت بارگاوی بکرێت."),
+                                            "پێش بەکارھێنان، باترییەکە دەبێت بارگاوی بکرێت."),
                                   ],
                                 ),
                               ),
@@ -1537,7 +1537,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "Several people were arrested but nobody was charged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک کەس دەستگیرکران بەڵام هیچیان تۆمەتبار نەکران."),
+                                            "ژمارەیەک کەس دەستگیرکران بەڵام ھیچیان تۆمەتبار نەکران."),
                                   ],
                                 ),
                               ),
@@ -1624,7 +1624,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                                     "A man has been charged in connection with the attack."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کەسێک تۆمەتبارکراوە بە پەیوەندی بە هێرشەکەوە."),
+                                                    "کەسێک تۆمەتبارکراوە بە پەیوەندی بە ھێرشەکەوە."),
                                           ],
                                         ),
                                       ),
@@ -1654,7 +1654,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                                     "She has not yet been formally charged with the crime."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هێشتا بە فەرمی بە تاوانەکە تۆمەتبار نەکراوە."),
+                                                    "ھێشتا بە فەرمی بە تاوانەکە تۆمەتبار نەکراوە."),
                                           ],
                                         ),
                                       ),
@@ -1680,7 +1680,7 @@ class EnglishEntrycharge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٣. (کردار) تۆمەتبارکردنی کەسێک بە ئەنجامدانی کارێکی هەڵە یان خراپ"),
+                                  "١٣. (کردار) تۆمەتبارکردنی کەسێک بە ئەنجامدانی کارێکی ھەڵە یان خراپ"),
                           Row(
                             children: [
                               const Expanded(
@@ -1741,7 +1741,7 @@ class EnglishEntrycharge extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٥. (کردار) بۆ پێشەوەچوون و هێرشکردن"),
+                              text: "١٥. (کردار) بۆ پێشەوەچوون و ھێرشکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1752,7 +1752,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The bull put its head down and charged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جوانەگاکە سەری داخست و هێرشی کرد."),
+                                            "جوانەگاکە سەری داخست و ھێرشی کرد."),
                                   ],
                                 ),
                               ),
@@ -1778,7 +1778,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "We charged at the enemy."),
                                     ExampleSentenceKurdish(
-                                        text: "هێرشمان کردە سەر دوژمن."),
+                                        text: "ھێرشمان کردە سەر دوژمن."),
                                   ],
                                 ),
                               ),
@@ -1868,7 +1868,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The committee has been charged with the development of sport in the region."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لیژنەکە ڕاسپێردراوە بۆ گەشەپێدانی وەرزش لە هەرێمەکە."),
+                                            "لیژنەکە ڕاسپێردراوە بۆ گەشەپێدانی وەرزش لە ھەرێمەکە."),
                                   ],
                                 ),
                               ),
@@ -1896,7 +1896,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                             "The governing body is charged with managing the school within its budget."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستەی بەڕێوابەرایەتی ڕاسپێردراوە بۆ بەڕێوەبردنی خوێندنگەکە بەو بودجەیەی هەیەتی."),
+                                            "دەستەی بەڕێوابەرایەتی ڕاسپێردراوە بۆ بەڕێوەبردنی خوێندنگەکە بەو بودجەیەی ھەیەتی."),
                                   ],
                                 ),
                               ),
@@ -1915,7 +1915,7 @@ class EnglishEntrycharge extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٨. (کردار) پێدانی هەستێکی زۆر بە کەسێک"),
+                              text: "١٨. (کردار) پێدانی ھەستێکی زۆر بە کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1925,7 +1925,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                         text:
                                             "The room was charged with hatred."),
                                     ExampleSentenceKurdish(
-                                        text: "ژوورەکە پڕبوو لە هەست."),
+                                        text: "ژوورەکە پڕبوو لە ھەست."),
                                   ],
                                 ),
                               ),
@@ -2054,7 +2054,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: charge (Derived forms: charges, charged, charging)
+- Verb: charge (derived forms: charges, charged, charging)
 1. To make a rush at or sudden attack upon, as in battle (= bear down)
 "he saw Jess charging at him with a pitchfork";
  
@@ -2128,7 +2128,7 @@ ${englishMeaningConst.text}
 25. Saturate
 "The room was charged with tension and anxiety"
 
-- Noun: charge (Derived forms: charges)
+- Noun: charge (derived forms: charges)
 1. An impetuous rush toward someone or something
 "the wrestler's charge carried him past his adversary"; "the battle began with a cavalry charge"
  
@@ -2204,7 +2204,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NCLZi2Rn_ug?t=',
+    videoId: 'NCLZi2Rn_ug',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2229,7 +2229,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s1SaD-gSZO4?t=',
+    videoId: 's1SaD-gSZO4',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2254,7 +2254,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_wNsZEqpKUA?t=',
+    videoId: '_wNsZEqpKUA',
     startSeconds: 907,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2279,7 +2279,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 931,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2304,7 +2304,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2329,7 +2329,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XI9kKiyIMf0?t=',
+    videoId: 'XI9kKiyIMf0',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2354,7 +2354,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/95YYqXFLfI8?t=',
+    videoId: '95YYqXFLfI8',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2379,7 +2379,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/esayi49OAk4',
+    videoId: 'esayi49OAk4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

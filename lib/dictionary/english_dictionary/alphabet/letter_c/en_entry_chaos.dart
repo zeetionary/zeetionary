@@ -195,7 +195,7 @@ class EnglishEntrychaos extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئاژاوە، پشێوی، ئاڵۆزی، پاشاگەردانی، گەڕەلاوژە، شێواوی، گۆبەن، دێوەزمەی پێش پێکهآتنی گەردوون، ئاژاوەی بێ‌سەرەتایی یان ئەزەلی
+کوردی: ئاژاوە، پشێوی، ئاڵۆزی، پاشاگەردانی، گەڕەلاوژە، شێواوی، گۆبەن، دێوەزمەی پێش پێکھآتنی گەردوون، ئاژاوەی بێ‌سەرەتایی یان ئەزەلی
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrychaos extends StatelessWidget {
                                             "Heavy snow has caused total chaos on the roads."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەفربارینی سەخت بووە بەهۆی شپرزەیی تەواو لەسەر ڕێگاکان."),
+                                            "بەفربارینی سەخت بووە بەھۆی شپرزەیی تەواو لەسەر ڕێگاکان."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrychaos extends StatelessWidget {
                                             "The house was in chaos after the party."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خانووەکە شپرزە بوو لە دوای ئاهەنگەکە."),
+                                            "خانووەکە شپرزە بوو لە دوای ئاھەنگەکە."),
                                   ],
                                 ),
                               ),
@@ -420,7 +420,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chaos (Derived forms: chaoses)
+- Noun: chaos (derived forms: chaoses)
 1. A state of extreme confusion and disorder (= pandemonium, bedlam, topsy-turvydom [informal], topsy-turvyness [informal], madhouse [informal], tohubohu [US])
  
 2. The formless and disordered state of matter before the creation of the cosmos
@@ -461,7 +461,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r_5shyQGIeA?t=',
+    videoId: 'r_5shyQGIeA',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    videoId: 'r5cqa9V0mUo',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JFBkN9M_Tk0?t=',
+    videoId: 'JFBkN9M_Tk0',
     startSeconds: 373,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AAGIi62-sAU?t=',
+    videoId: 'AAGIi62-sAU',
     startSeconds: 964,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    videoId: '-CJ4eUhE3Lw',
     startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ngTcyNtDjE8?t=',
+    videoId: 'ngTcyNtDjE8',
     startSeconds: 608,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f7imyUw1z6s?t=',
+    videoId: 'f7imyUw1z6s',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -636,7 +636,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GVsUOuSjvcg?t=',
+    videoId: 'GVsUOuSjvcg',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(

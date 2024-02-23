@@ -195,7 +195,7 @@ class EnglishEntrychromosome extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) یەکێک لە پێکهاتە بچووکەکانی ئاژەڵ و ڕووەک کە وەک تاڵە موویەک وایە و جینەکانی تێدایە"),
+                                  "١. (ناو) یەکێک لە پێکھاتە بچووکەکانی ئاژەڵ و ڕووەک کە وەک تاڵە موویەک وایە و جینەکانی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrychromosome extends StatelessWidget {
                                             "Humans have 23 pairs of chromosomes in their cells."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مرۆڤ ٢٣ جووتەکرۆمۆسۆمی هەیە لە خانەکانی."),
+                                            "مرۆڤ ٢٣ جووتەکرۆمۆسۆمی ھەیە لە خانەکانی."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chromosome (Derived forms: chromosomes)
+- Noun: chromosome (derived forms: chromosomes)
 1. A threadlike strand of DNA in the cell nucleus that carries the genes in a linear order 
 "humans have 22 chromosome pairs plus two sex chromosomes"
 """,
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6BsXLnLn9ok?t=',
+    videoId: '6BsXLnLn9ok',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BbA-pHyirzo?t=',
+    videoId: 'BbA-pHyirzo',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y3ST0whbA4k?t=',
+    videoId: 'y3ST0whbA4k',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OPMDO_IYY4Y?t=',
+    videoId: 'OPMDO_IYY4Y',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6wbgzVwiAKM?t=',
+    videoId: '6wbgzVwiAKM',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JA5j8QzAz0w?t=',
+    videoId: 'JA5j8QzAz0w',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IoIfDUbaoBc?t=',
+    videoId: 'IoIfDUbaoBc',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xtqUu8DGQko?t=',
+    videoId: 'xtqUu8DGQko',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(

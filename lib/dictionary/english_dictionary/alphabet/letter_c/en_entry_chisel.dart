@@ -197,7 +197,7 @@ class EnglishEntrychisel extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئامێرێک کە نووکێکی تیژی هەیە بۆ هەڵکەندن لە دار، بەرد،، کانزا، هتد"),
+                                  "١. (ناو) ئامێرێک کە نووکێکی تیژی ھەیە بۆ ھەڵکەندن لە دار، بەرد،، کانزا، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntrychisel extends StatelessWidget {
                                         text:
                                             "A name was chiselled into the stone."),
                                     ExampleSentenceKurdish(
-                                        text: "ناوێک لە بەردەکە هەڵکۆڵرابوو."),
+                                        text: "ناوێک لە بەردەکە ھەڵکۆڵرابوو."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrychisel extends StatelessWidget {
                                             "She chiselled a figure out of the marble."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وێنەی کەسێکی هەڵکۆڵی لە مەڕمەڕەکە."),
+                                            "وێنەی کەسێکی ھەڵکۆڵی لە مەڕمەڕەکە."),
                                   ],
                                 ),
                               ),
@@ -365,10 +365,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chisel (Derived forms: chisels)
+- Noun: chisel (derived forms: chisels)
 1. An edge tool with a flat steel blade with a cutting edge
 
-- Verb: chisel (Derived forms: chisels, chiselling, chiseling, chiselled)
+- Verb: chisel (derived forms: chisels, chiselling, chiseling, chiselled)
 1. Carve with a chisel
 "chisel the marble"
  
@@ -408,7 +408,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hd-35yJAYBo?t=',
+    videoId: 'hd-35yJAYBo',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -433,7 +433,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T19ea5_phDg?t=',
+    videoId: 'T19ea5_phDg',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B4hFbehQejw?t=',
+    videoId: 'B4hFbehQejw',
     startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Met_xNyYkrU?t=',
+    videoId: 'Met_xNyYkrU',
     startSeconds: 590,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ufg8NWyW7rw?t=',
+    videoId: 'Ufg8NWyW7rw',
     startSeconds: 493,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k1gSbrEEHHI?t=',
+    videoId: 'k1gSbrEEHHI',
     startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_EdTgJ5QFHU?t=',
+    videoId: '_EdTgJ5QFHU',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +583,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hSRo_R2mpec?t=',
+    videoId: 'hSRo_R2mpec',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -261,7 +261,7 @@ class EnglishEntrychuckle extends StatelessWidget {
                                             "She was still chuckling about the story the next day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژی دواتریش هێشتا بە چیرۆکەکە دەخەنییەوە."),
+                                            "ڕۆژی دواتریش ھێشتا بە چیرۆکەکە دەخەنییەوە."),
                                   ],
                                 ),
                               ),
@@ -360,10 +360,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chuckle (Derived forms: chuckling, chuckles, chuckled)
+- Verb: chuckle (derived forms: chuckling, chuckles, chuckled)
 1. Laugh quietly or with restraint (= chortle, laugh softly)
 
-- Noun: chuckle (Derived forms: chuckles)
+- Noun: chuckle (derived forms: chuckles)
 1. A soft partly suppressed laugh (= chortle)
 """,
   );
@@ -397,7 +397,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lA19axi_Yeg?t=',
+    videoId: 'lA19axi_Yeg',
     startSeconds: 315,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nNzzrSLNsKM?t=',
+    videoId: 'nNzzrSLNsKM',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_m997oklpKM?t=',
+    videoId: '_m997oklpKM',
     startSeconds: 505,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Msaure8sVkE?t=',
+    videoId: 'Msaure8sVkE',
     startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-ZvYBjbWXR0?t=',
+    videoId: '-ZvYBjbWXR0',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iAnlaR398hs?t=',
+    videoId: 'iAnlaR398hs',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UQT9iusebMI?t=',
+    videoId: 'UQT9iusebMI',
     startSeconds: 1215,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lhooQCgiwGs?t=',
+    videoId: 'lhooQCgiwGs',
     startSeconds: 636,
     autoPlay: true,
     params: const YoutubePlayerParams(

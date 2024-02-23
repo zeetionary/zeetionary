@@ -258,7 +258,7 @@ class EnglishEntrycharity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) تەواوی ئەو دامەزراوانەی کە یارمەتی کەسانی هەژار دەدەن، یان ئەو یارمەتییەی کە کۆدەکرێتەوە"),
+                                  "٢. (ناو) تەواوی ئەو دامەزراوانەی کە یارمەتی کەسانی ھەژار دەدەن، یان ئەو یارمەتییەی کە کۆدەکرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -342,7 +342,7 @@ class EnglishEntrycharity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) مامەڵەی میهرەبانانە و هاوسۆزی بەرامبەر کەسانی دیکە"),
+                                  "٣. (ناو) مامەڵەی میھرەبانانە و ھاوسۆزی بەرامبەر کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -353,7 +353,7 @@ class EnglishEntrycharity extends StatelessWidget {
                                             "Her article showed no charity towards her former friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتارەکەی هیچ بەخشندەیی بەرامبەر هاوڕێ کۆنەکانی پیشان نادا."),
+                                            "وتارەکەی ھیچ بەخشندەیی بەرامبەر ھاوڕێ کۆنەکانی پیشان نادا."),
                                   ],
                                 ),
                               ),
@@ -452,7 +452,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: charity (Derived forms: charities)
+- Noun: charity (derived forms: charities)
 1. A foundation created to promote the public good (not for assistance to any particular individuals)
  
 2. A kindly and lenient attitude toward people (= brotherly love)
@@ -494,7 +494,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vznd33IaUFY?t=',
+    videoId: 'vznd33IaUFY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zBOuDEEvb40?t=',
+    videoId: 'zBOuDEEvb40',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xm6Y3Rl9u1Q?t=',
+    videoId: 'Xm6Y3Rl9u1Q',
     startSeconds: 629,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wa7gMMGJl_Y?t=',
+    videoId: 'wa7gMMGJl_Y',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qx0QPTs9Nmo?t=',
+    videoId: 'qx0QPTs9Nmo',
     startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ya-br_y6DNA?t=',
+    videoId: 'ya-br_y6DNA',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -644,7 +644,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -669,7 +669,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T48_SrFCdaQ?t=',
+    videoId: 'T48_SrFCdaQ',
     startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -198,11 +198,11 @@ class EnglishEntrycharter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەستوور، فەرمان، بڕیار، بڵاونامە، ڕاگەیاندن‌نامە، دەستوورنامە،	(فڕۆکە، کەشتی و هتد) کرێ
+کوردی: دەستوور، فەرمان، بڕیار، بڵاونامە، ڕاگەیاندن‌نامە، دەستوورنامە،	(فڕۆکە، کەشتی و ھتد) کرێ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دەستوورێکی نووسراو کە ئەو مافانە دیاری دەکات کە گرووپێک لە خەڵکی دەبێت هەیان بێت"),
+                                  "١. (ناو) دەستوورێکی نووسراو کە ئەو مافانە دیاری دەکات کە گرووپێک لە خەڵکی دەبێت ھەیان بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -330,7 +330,7 @@ class EnglishEntrycharter extends StatelessWidget {
                                             "They were given this right by royal charter."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم مافەیان لەلایەن دەستوورنامەی شاهانەییەوە پێدرا."),
+                                            "ئەم مافەیان لەلایەن دەستوورنامەی شاھانەییەوە پێدرا."),
                                   ],
                                 ),
                               ),
@@ -350,7 +350,7 @@ class EnglishEntrycharter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) بەکرێگرتنی فڕۆکەیەک، بەلەمێک، هتد بۆ بەکارهێنانی خۆت"),
+                                  "٤. (کردار) بەکرێگرتنی فڕۆکەیەک، بەلەمێک، ھتد بۆ بەکارھێنانی خۆت"),
                           Row(
                             children: [
                               const Expanded(
@@ -519,12 +519,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: charter (Derived forms: charters) 
+- Noun: charter (derived forms: charters) 
 1. A document incorporating an institution and specifying its rights; includes the articles of incorporation and the certificate of incorporation
  
 2. A contract to hire or lease transportation
 
-- Verb: charter (Derived forms: chartered, chartering, charters)
+- Verb: charter (derived forms: chartered, chartering, charters)
 1. Hold under a lease or rental agreement; of goods and services (= rent, hire, lease)
  
 2. Grant a charter to
@@ -563,7 +563,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nF2PRqKQ_lA?t=',
+    videoId: 'nF2PRqKQ_lA',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r0BZHuNTtHs',
+    videoId: 'r0BZHuNTtHs',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f5NJQiY9AuY?t=',
+    videoId: 'f5NJQiY9AuY',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -638,7 +638,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -663,7 +663,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ua4oFVz39vM?t=',
+    videoId: 'ua4oFVz39vM',
     startSeconds: 489,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -688,7 +688,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/17WC8H_Ugm4?t=',
+    videoId: '17WC8H_Ugm4',
     startSeconds: 418,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -713,7 +713,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mqxgP8WlxJQ?t=',
+    videoId: 'mqxgP8WlxJQ',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -738,7 +738,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XFJnWp1tAdU?t=',
+    videoId: 'XFJnWp1tAdU',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -763,7 +763,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xc4YH0nv_90?t=',
+    videoId: 'Xc4YH0nv_90',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(

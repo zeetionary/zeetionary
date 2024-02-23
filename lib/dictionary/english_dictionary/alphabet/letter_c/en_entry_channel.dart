@@ -366,7 +366,7 @@ class EnglishEntrychannel extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گەروو، تەنگەڵان، تەنگە، دەریاڕێ، باریکەڕێ (دەریا)، بنکاو، تەختاو، بنک (ڕووبار و هتد)، قووڵگە، جێی قووڵ، شوێنی پڕئاو، نێرینە، قووڵایی، دەریای قووڵ، جۆگە، ئاوەڕێ، ئاوەڕۆ، ئاودڕ، نۆکەند، جۆم، ڕەهەنداو، شوێن، کووز، خەت، کەند، دەربەند، ڕێگا، (تەلەفزیۆن) ڕایەڵە، کاناڵ، کاناڵی ئینگلتەرە، (ڕادیۆ و تەلەفزیۆن) درێژی شەپۆل، (خوازە) ڕێگا، شوێن، ڕێڕەو، ڕێ، کاناڵ
+کوردی: گەروو، تەنگەڵان، تەنگە، دەریاڕێ، باریکەڕێ (دەریا)، بنکاو، تەختاو، بنک (ڕووبار و ھتد)، قووڵگە، جێی قووڵ، شوێنی پڕئاو، نێرینە، قووڵایی، دەریای قووڵ، جۆگە، ئاوەڕێ، ئاوەڕۆ، ئاودڕ، نۆکەند، جۆم، ڕەھەنداو، شوێن، کووز، خەت، کەند، دەربەند، ڕێگا، (تەلەفزیۆن) ڕایەڵە، کاناڵ، کاناڵی ئینگلتەرە، (ڕادیۆ و تەلەفزیۆن) درێژی شەپۆل، (خوازە) ڕێگا، شوێن، ڕێڕەو، ڕێ، کاناڵ
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) وێستگەیەکی تەلەفیزیۆنی"),
@@ -406,7 +406,7 @@ class EnglishEntrychannel extends StatelessWidget {
                                             "I changed channels when the news came on."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەناڵەکانم گۆڕی کە هەواڵەکە گەشت."),
+                                            "کەناڵەکانم گۆڕی کە ھەواڵەکە گەشت."),
                                   ],
                                 ),
                               ),
@@ -563,7 +563,7 @@ class EnglishEntrychannel extends StatelessWidget {
                                             "Steps are being taken to implement a ceasefire through diplomatic channels."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەنگاو دەگیردرێتە بەر بۆ هێنانە کارای ئاگربەست لە ڕێگەی کەناڵی دیبلۆماسییەوە."),
+                                            "ھەنگاو دەگیردرێتە بەر بۆ ھێنانە کارای ئاگربەست لە ڕێگەی کەناڵی دیبلۆماسییەوە."),
                                   ],
                                 ),
                               ),
@@ -594,7 +594,7 @@ class EnglishEntrychannel extends StatelessWidget {
                                                     "Journalists always have indirect channels for getting information."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕۆژنامەنووسان هەمیشە ڕێگای ناڕاستەوخۆیان هەیە بۆ وەرگرتنی زانیاری."),
+                                                    "ڕۆژنامەنووسان ھەمیشە ڕێگای ناڕاستەوخۆیان ھەیە بۆ وەرگرتنی زانیاری."),
                                           ],
                                         ),
                                       ),
@@ -619,7 +619,7 @@ class EnglishEntrychannel extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (ناو) ڕێگای دەربڕینی هەست و بیرۆکە"),
+                              text: "٥. (ناو) ڕێگای دەربڕینی ھەست و بیرۆکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -658,7 +658,7 @@ class EnglishEntrychannel extends StatelessWidget {
                                             "Music is a great channel for releasing your emotions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "میوزیک ڕێگایەکی زۆر باشە بۆ دەربڕینی هەستەکانت."),
+                                            "میوزیک ڕێگایەکی زۆر باشە بۆ دەربڕینی ھەستەکانت."),
                                   ],
                                 ),
                               ),
@@ -735,7 +735,7 @@ class EnglishEntrychannel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) ئاراستەکردن یان تەرخانکردنی پارە، هەست، بیرۆکە، هتد بەرەو شتێک یان مەبەستێک"),
+                                  "٧. (کردار) ئاراستەکردن یان تەرخانکردنی پارە، ھەست، بیرۆکە، ھتد بەرەو شتێک یان مەبەستێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -835,7 +835,7 @@ class EnglishEntrychannel extends StatelessWidget {
                                                     "A sensor channels the light signal along an fibre."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەستەوەرێک شەپۆلە ڕووناکییەکە بە فایبەرێکدا دەنێرێت."),
+                                                    "ھەستەوەرێک شەپۆلە ڕووناکییەکە بە فایبەرێکدا دەنێرێت."),
                                           ],
                                         ),
                                       ),
@@ -971,7 +971,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: channel (Derived forms: channels)
+- Noun: channel (derived forms: channels)
 1. A path over which electrical signals can pass (= transmission channel)
 "a channel is typically what you rent from a telephone company";
  
@@ -995,7 +995,7 @@ ${englishMeaningConst.text}
 8. A way of selling a company's product either directly or via distributors (= distribution channel)
 "possible distribution channels are wholesalers or small retailers or retail chains or direct mailers or your own stores";
 
-- Verb: channel (Derived forms: channeled, channels, channelling, channelled, channeling)
+- Verb: channel (derived forms: channeled, channels, channelling, channelled, channeling)
 1. Serve as the medium for transmission, allow movement of (= impart, conduct, transmit, convey, carry)
 "Many metals channel heat";
 
@@ -1039,7 +1039,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WoYaQBltn1A?t=',
+    videoId: 'WoYaQBltn1A',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1064,7 +1064,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VwPGtn9qJZ4?t=',
+    videoId: 'VwPGtn9qJZ4',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1089,7 +1089,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8T7lEvtwETA?t=',
+    videoId: '8T7lEvtwETA',
     startSeconds: 172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1114,7 +1114,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bltc4o615qI?t=',
+    videoId: 'Bltc4o615qI',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1139,7 +1139,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1164,7 +1164,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 967,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1189,7 +1189,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BsjQqm60ZEI?t=',
+    videoId: 'BsjQqm60ZEI',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1214,7 +1214,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t02bJ94vlKA?t=',
+    videoId: 't02bJ94vlKA',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(

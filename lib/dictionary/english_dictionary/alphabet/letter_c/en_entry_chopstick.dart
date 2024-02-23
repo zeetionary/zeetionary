@@ -195,7 +195,7 @@ class EnglishEntrychopstick extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەر یەک لەو دوو چیلکەیەی کە خواردنی پێ دەخورێت، بەتایبەتی لە وڵاتانی ڕۆژهەڵاتی ئاسیا"),
+                                  "١. (ناو) ھەر یەک لەو دوو چیلکەیەی کە خواردنی پێ دەخورێت، بەتایبەتی لە وڵاتانی ڕۆژھەڵاتی ئاسیا"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrychopstick extends StatelessWidget {
                                             "The children practiced using chopsticks to eat spaghetti."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان پرۆڤەی بەکارهێنانی چیلکەی نان‌خواردنیان دەکرد بۆ خواردنی سپاگێتی."),
+                                            "منداڵەکان پرۆڤەی بەکارھێنانی چیلکەی نان‌خواردنیان دەکرد بۆ خواردنی سپاگێتی."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chopstick (Derived forms: chopsticks)
+- Noun: chopstick (derived forms: chopsticks)
 1. One of a pair of slender sticks used as oriental tableware to eat food with
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Se57hwebX6U?t=',
+    videoId: 'Se57hwebX6U',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cIJshzS3CCQ?t=',
+    videoId: 'cIJshzS3CCQ',
     startSeconds: 364,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L3eSzOtPVlI?t=',
+    videoId: 'L3eSzOtPVlI',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h0IPcqF2q9U?t=',
+    videoId: 'h0IPcqF2q9U',
     startSeconds: 971,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E991yX1WiEI?t=',
+    videoId: 'E991yX1WiEI',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g9QneAV4fVo?t=',
+    videoId: 'g9QneAV4fVo',
     startSeconds: 431,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w7CtP73taJA?t=',
+    videoId: 'w7CtP73taJA',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/98UBT3Iw7i8?t=',
+    videoId: '98UBT3Iw7i8',
     startSeconds: 360,
     autoPlay: true,
     params: const YoutubePlayerParams(

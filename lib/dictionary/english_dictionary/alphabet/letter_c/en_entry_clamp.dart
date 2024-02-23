@@ -210,7 +210,7 @@ class EnglishEntryclamp extends StatelessWidget {
                                             "Clamp the two halves together until the glue dries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو نیوەکە بە مەنگەنە ببەستە بە یەکەوە تاوەکو چەسپەکە وشکدەبێتەوە."),
+                                            "ھەردوو نیوەکە بە مەنگەنە ببەستە بە یەکەوە تاوەکو چەسپەکە وشکدەبێتەوە."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntryclamp extends StatelessWidget {
                                             "She clamped a pair of headphones over her ears."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جووتێک هێدفۆنی لە گوێیەکانی ئاخاندبوو/ترنجاندبوو."),
+                                            "جووتێک ھێدفۆنی لە گوێیەکانی ئاخاندبوو/ترنجاندبوو."),
                                   ],
                                 ),
                               ),
@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clamp (Derived forms: clamped, clamps, clamping)
+- Verb: clamp (derived forms: clamped, clamps, clamping)
 1. Fasten or fix with a clamp
 "clamp the chair together until the glue has hardened"
  
@@ -468,7 +468,7 @@ ${englishMeaningConst.text}
  
 3. Hold tightly to something else
 
-- Noun: clamp (Derived forms: clamps)
+- Noun: clamp (derived forms: clamps)
 1. A device (generally used by carpenters) that holds things firmly together (= clinch)
 """,
   );
@@ -502,7 +502,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6yKYmGmvqBE?t=',
+    videoId: '6yKYmGmvqBE',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TsWG4nSi-Hs?t=',
+    videoId: 'TsWG4nSi-Hs',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/meEYwk6Olik?t=',
+    videoId: 'meEYwk6Olik',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +577,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V3NGBo2M1Ps?t=',
+    videoId: 'V3NGBo2M1Ps',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +602,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jbtJZ6PEi40?t=',
+    videoId: 'jbtJZ6PEi40',
     startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -627,7 +627,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eINQdeux2yg?t=',
+    videoId: 'eINQdeux2yg',
     startSeconds: 277,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -652,7 +652,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-7bIDbaU_zQ?t=',
+    videoId: '-7bIDbaU_zQ',
     startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -677,7 +677,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KkF5e-mAObo?t=',
+    videoId: 'KkF5e-mAObo',
     startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -702,7 +702,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jupU1UCYcMI?t=',
+    videoId: 'jupU1UCYcMI',
     startSeconds: 567,
     autoPlay: true,
     params: const YoutubePlayerParams(

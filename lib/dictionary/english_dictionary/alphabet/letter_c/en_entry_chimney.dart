@@ -192,7 +192,7 @@ class EnglishEntrychimney extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دووکەڵ‌کێش، لووجن، بوغاری، ڕۆژینگ، قۆڵەدووکەڵ، لوولەدووکەڵ، باکێش، باجە، کونەباجە،	کونی پیاهەڵچوون یان سەرکەوتن، دووڵەک‌کێش یان بوغاری بەردین (لە شاخەوانی‌دا)،	شووشە چرا، شووشە لامپا، قۆڵ یان لوولەی چرا یان لامپا
+کوردی: دووکەڵ‌کێش، لووجن، بوغاری، ڕۆژینگ، قۆڵەدووکەڵ، لوولەدووکەڵ، باکێش، باجە، کونەباجە،	کونی پیاھەڵچوون یان سەرکەوتن، دووڵەک‌کێش یان بوغاری بەردین (لە شاخەوانی‌دا)،	شووشە چرا، شووشە لامپا، قۆڵ یان لوولەی چرا یان لامپا
 """),
                           const DefinitionKurdish(text: "١. (ناو) دووکەڵ‌کێش"),
                           Row(
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chimney (Derived forms: chimneys)
+- Noun: chimney (derived forms: chimneys)
 1. A vertical flue that provides a path through which smoke from a fire is carried away through the wall or roof of a building
  
 2. A glass flue surrounding the wick of an oil lamp (= lamp chimney)
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ohzFHI3PIW4?t=',
+    videoId: 'ohzFHI3PIW4',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Nr1AgIfajI?t=',
+    videoId: '4Nr1AgIfajI',
     startSeconds: 953,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BadzT_28ZdA?t=',
+    videoId: 'BadzT_28ZdA',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JqCY_z4sxL4?t=',
+    videoId: 'JqCY_z4sxL4',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vbg7xEZPMag?t=',
+    videoId: 'Vbg7xEZPMag',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lI2RqhWFcMM?t=',
+    videoId: 'lI2RqhWFcMM',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
+    videoId: 'omcNGrnt7Sg',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V8f45Jq21-U?t=',
+    videoId: 'V8f45Jq21-U',
     startSeconds: 2415,
     autoPlay: true,
     params: const YoutubePlayerParams(

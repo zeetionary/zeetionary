@@ -339,10 +339,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: christ (Derived forms: christs)
+- Noun: christ (derived forms: christs)
 1. Any expected deliverer (= messiah)
 
-- Noun: Christ (Derived forms: Christs)
+- Noun: Christ (derived forms: Christs)
 1. A teacher and prophet born in Bethlehem and active in Nazareth; his life and sermons form the basis for Christianity (circa 4 BC - AD 29) (= Jesus, Jesus of Nazareth, the Nazarene, Jesus Christ, Savior [N. Amer], Saviour [Brit, Cdn], Good Shepherd, Redeemer, Deliverer, Prince of Peace)
 
 - Interjection: Christ 
@@ -381,7 +381,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xyFIkzsj-dc?t=',
+    videoId: 'xyFIkzsj-dc',
     startSeconds: 823,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -406,7 +406,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_47JL0sLoFE?t=',
+    videoId: '_47JL0sLoFE',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -431,7 +431,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8ZKznp9y-gU?t=',
+    videoId: '8ZKznp9y-gU',
     startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ncJeE3Eep9c?t=',
+    videoId: 'ncJeE3Eep9c',
     startSeconds: 629,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LTSKfXzdiuE?t=',
+    videoId: 'LTSKfXzdiuE',
     startSeconds: 310,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p-L0WIQsi5o?t=',
+    videoId: 'p-L0WIQsi5o',
     startSeconds: 1198,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    videoId: 'Cln0J87vulU',
     startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QyL9P1ccy-w?t=',
+    videoId: 'QyL9P1ccy-w',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(

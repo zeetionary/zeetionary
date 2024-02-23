@@ -199,7 +199,7 @@ class EnglishEntrychurn extends StatelessWidget {
 کوردی: مەشکە، کەرەگر (دەزگا یان دەفر)، شیرژەن(ە)،	شیردان، شیربەرە، شیرگر
 """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) ڕاوەشاندنی ئاو، قوڕ، هتد"),
+                              text: "١. (کردار) ڕاوەشاندنی ئاو، قوڕ، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -258,7 +258,7 @@ class EnglishEntrychurn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) تێکهەڵاتنی گەدە و درووستکردنی هەستێکی ناخۆش"),
+                                  "٢. (کردار) تێکھەڵاتنی گەدە و درووستکردنی ھەستێکی ناخۆش"),
                           Row(
                             children: [
                               const Expanded(
@@ -269,7 +269,7 @@ class EnglishEntrychurn extends StatelessWidget {
                                             "My stomach churned as the names were read out."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵم تێکهەڵات کە ناوەکان خوێندرانەوە."),
+                                            "دڵم تێکھەڵات کە ناوەکان خوێندرانەوە."),
                                   ],
                                 ),
                               ),
@@ -289,7 +289,7 @@ class EnglishEntrychurn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) درووستکردنی هەستی بێزاری بۆ کەسێک، یان لەڕووی دەروونییەوە شپرزەی بکەیت"),
+                                  "٣. (کردار) درووستکردنی ھەستی بێزاری بۆ کەسێک، یان لەڕووی دەروونییەوە شپرزەی بکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -362,7 +362,7 @@ class EnglishEntrychurn extends StatelessWidget {
                                             "I used to collect a few churns of milk from my brother's farm to make cheese."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جاران هەندێک شیرگرم کۆدەکردەوە لە کێڵگەی براکەم بۆ درووستکردنی پەنیر."),
+                                            "جاران ھەندێک شیرگرم کۆدەکردەوە لە کێڵگەی براکەم بۆ درووستکردنی پەنیر."),
                                   ],
                                 ),
                               ),
@@ -461,14 +461,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: churn (Derived forms: churns)
+- Noun: churn (derived forms: churns)
 1. A vessel in which cream is agitated to separate butterfat from buttermilk (= butter churn)
  
 2. A measure of the number of people stopping a service or leaving a job over a given period (= churn rate)
  
 3. [Brit] A large metal container for milk
 
-- Verb: churn (Derived forms: churning, churned, churns)
+- Verb: churn (derived forms: churning, churned, churns)
 1. (cooking) stir (cream) vigorously in order to make butter
  
 2. Be agitated (= boil, moil [N. Amer], roil)
@@ -505,7 +505,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EQ4dEF2nijY?t=',
+    videoId: 'EQ4dEF2nijY',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zZUXNMpKF74?t=',
+    videoId: 'zZUXNMpKF74',
     startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UO3N_PRIgX0?t=',
+    videoId: 'UO3N_PRIgX0',
     startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hapSlAP2xrc?t=',
+    videoId: 'hapSlAP2xrc',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Am1lDj2mUVY?t=',
+    videoId: 'Am1lDj2mUVY',
     startSeconds: 523,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3hurvRBoYgM?t=',
+    videoId: '3hurvRBoYgM',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -655,7 +655,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bW-gVrZBfqM?t=',
+    videoId: 'bW-gVrZBfqM',
     startSeconds: 1036,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -680,7 +680,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KbNRvWfndjA?t=',
+    videoId: 'KbNRvWfndjA',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(

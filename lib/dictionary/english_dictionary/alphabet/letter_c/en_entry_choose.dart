@@ -197,11 +197,11 @@ class EnglishEntrychoose extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەڵبژاردن، بەربژێر کردن، پەسەند کردن
+کوردی: ھەڵبژاردن، بەربژێر کردن، پەسەند کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) هەڵبژاردن کەسێک یان شتێک لەناو ئەوانەی کە بەردەستن"),
+                                  "١. (کردار) ھەڵبژاردن کەسێک یان شتێک لەناو ئەوانەی کە بەردەستن"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntrychoose extends StatelessWidget {
                                         text: "You choose—I can't decide."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تۆ هەڵیبژێرە، من ناتوانم بڕیار بدەم."),
+                                            "تۆ ھەڵیبژێرە، من ناتوانم بڕیار بدەم."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrychoose extends StatelessWidget {
                                                     "Sarah chose her words carefully."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "سارا بە وریاییەوە وشەکانی هەڵبژارد."),
+                                                    "سارا بە وریاییەوە وشەکانی ھەڵبژارد."),
                                           ],
                                         ),
                                       ),
@@ -330,7 +330,7 @@ class EnglishEntrychoose extends StatelessWidget {
                                                     "There are several different options you can choose."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ژمارەیەک هەڵبژاردەی جیاواز هەن کە دەتوانیت لێیان هەڵبژێریت."),
+                                                    "ژمارەیەک ھەڵبژاردەی جیاواز ھەن کە دەتوانیت لێیان ھەڵبژێریت."),
                                           ],
                                         ),
                                       ),
@@ -360,7 +360,7 @@ class EnglishEntrychoose extends StatelessWidget {
                                                     "This site has been chosen for the new school."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم شوێنە بۆ خوێندنگا تازەکە هەڵبژێردراوە."),
+                                                    "ئەم شوێنە بۆ خوێندنگا تازەکە ھەڵبژێردراوە."),
                                           ],
                                         ),
                                       ),
@@ -425,7 +425,7 @@ class EnglishEntrychoose extends StatelessWidget {
                                             "Many people choose not to marry."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەکی زۆر خەڵک وایان پێ باشە هاوسەرگیری نەکەن."),
+                                            "ژمارەیەکی زۆر خەڵک وایان پێ باشە ھاوسەرگیری نەکەن."),
                                   ],
                                 ),
                               ),
@@ -524,7 +524,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: choose (Derived forms: choosing, chose, chooses, chosen)
+- Verb: choose (derived forms: choosing, chose, chooses, chosen)
 1. Make a choice from a number of options on offer (= take, select, pick out)
 "Choose a good husband for your daughter";
  
@@ -565,7 +565,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 335,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 688,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rOqUiXhECos?t=',
+    videoId: 'rOqUiXhECos',
     startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sSdMX8AWurI?t=',
+    videoId: 'sSdMX8AWurI',
     startSeconds: 274,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zmEv7vTOQGE?t=',
+    videoId: 'zmEv7vTOQGE',
     startSeconds: 2063,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -715,7 +715,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eMgFyMUFELA?t=',
+    videoId: 'eMgFyMUFELA',
     startSeconds: 185,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -740,7 +740,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/II-OP6vdMs8?t=',
+    videoId: 'II-OP6vdMs8',
     startSeconds: 362,
     autoPlay: true,
     params: const YoutubePlayerParams(

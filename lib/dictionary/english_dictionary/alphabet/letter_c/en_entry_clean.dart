@@ -516,7 +516,7 @@ class EnglishEntryclean extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پاک، خاوێن، تەمیز، بێ‌زیان، بێ‌پەڵە، پاقژ،	بێ‌لکە، بێ‌پەڵە،	تازە، نەو، نوێ،	سپی، نەنووسراو، بێ‌نیشان، بەکارنەهێنراو (کاغز)،	بەڕەوشتانە، بەئابڕووانە، ناهەرزانە،	دیار، ئاشکرا، ڕۆشن، ڕوون،	حەڵاڵ، حەڵاڵ گۆشت،	ڕێک‌وپێک، سادە، ساف، تەخت، لووس، ڕێک، تەکوز،	قانوونی،	دادپەروەرانە، جوامێرانە، پیاوانە،	بێ‌فڕوفێڵ، بێ‌خەوش، بێ‌گەرد، بێ‌هەڵە، باش، پاک، بێ‌گوناهـ، بێ‌سووچ،	وەستایانە، شارەزایانە،	تەواو، ڕەبەق،	بێ‌تیشکدانەوەی ڕادیۆئەکتیڤ یان کەم‌بەرهەم‌هێنەری تیشکە چالاکەکان (ڕادیۆئەکتیڤ یان چەک‌وچۆڵی ناوکی)،	لەبار، گونجاو،	بەبۆن و بەرام، بۆن‌خۆش، بەتام، بەتەواوەتی، تەواو، پاکی، خاوێنی، تەمیزی، پاقژی، خاوێن‌کردنەوە، سڕین، تەمیزکردن
+کوردی: پاک، خاوێن، تەمیز، بێ‌زیان، بێ‌پەڵە، پاقژ،	بێ‌لکە، بێ‌پەڵە،	تازە، نەو، نوێ،	سپی، نەنووسراو، بێ‌نیشان، بەکارنەھێنراو (کاغز)،	بەڕەوشتانە، بەئابڕووانە، ناھەرزانە،	دیار، ئاشکرا، ڕۆشن، ڕوون،	حەڵاڵ، حەڵاڵ گۆشت،	ڕێک‌وپێک، سادە، ساف، تەخت، لووس، ڕێک، تەکوز،	قانوونی،	دادپەروەرانە، جوامێرانە، پیاوانە،	بێ‌فڕوفێڵ، بێ‌خەوش، بێ‌گەرد، بێ‌ھەڵە، باش، پاک، بێ‌گوناھـ، بێ‌سووچ،	وەستایانە، شارەزایانە،	تەواو، ڕەبەق،	بێ‌تیشکدانەوەی ڕادیۆئەکتیڤ یان کەم‌بەرھەم‌ھێنەری تیشکە چالاکەکان (ڕادیۆئەکتیڤ یان چەک‌وچۆڵی ناوکی)،	لەبار، گونجاو،	بەبۆن و بەرام، بۆن‌خۆش، بەتام، بەتەواوەتی، تەواو، پاکی، خاوێنی، تەمیزی، پاقژی، خاوێن‌کردنەوە، سڕین، تەمیزکردن
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) پاک"),
                           Row(
@@ -585,7 +585,7 @@ class EnglishEntryclean extends StatelessWidget {
                                                     "It is your responsibility to keep the room clean and tidy."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەوە ئەرکی تۆیە کە ژوورەکان بە پاکی و ڕێکوپێکی بهێڵیتەوە."),
+                                                    "ئەوە ئەرکی تۆیە کە ژوورەکان بە پاکی و ڕێکوپێکی بھێڵیتەوە."),
                                           ],
                                         ),
                                       ),
@@ -615,7 +615,7 @@ class EnglishEntryclean extends StatelessWidget {
                                                     "The hotel was spotlessly (= extremely) clean."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هوتێلەکە تەواو پاک بوو."),
+                                                    "ھوتێلەکە تەواو پاک بوو."),
                                           ],
                                         ),
                                       ),
@@ -675,7 +675,7 @@ class EnglishEntryclean extends StatelessWidget {
                                                     "It's almost clean. I just have to wipe the table."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "خەریکە تەواو پاک دەبێت. تەنها پێویستە مێزەکە بسڕم."),
+                                                    "خەریکە تەواو پاک دەبێت. تەنھا پێویستە مێزەکە بسڕم."),
                                           ],
                                         ),
                                       ),
@@ -731,7 +731,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) هەبوونی شێوەیەکی جوان و ژیانکردن لە دۆخی خاوێندا"),
+                                  "٢. (ھاوەڵناو) ھەبوونی شێوەیەکی جوان و ژیانکردن لە دۆخی خاوێندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -770,7 +770,7 @@ class EnglishEntryclean extends StatelessWidget {
                                             "Thousands were left without food or clean drinking water."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەزاران کەس بەبێ خواردن و ئاوی خواردنەوەی پاک مانەوە."),
+                                            "ھەزاران کەس بەبێ خواردن و ئاوی خواردنەوەی پاک مانەوە."),
                                   ],
                                 ),
                               ),
@@ -845,7 +845,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) کاغەزێک کە هیچی لەسەر نەنووسراوە"),
+                                  "٤. (ھاوەڵناو) کاغەزێک کە ھیچی لەسەر نەنووسراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -874,7 +874,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ھاوەڵناو) قسە، نوکتە، هتد کە ناشرین نین و باسی سێکس ناکەن"),
+                                  "٥. (ھاوەڵناو) قسە، نوکتە، ھتد کە ناشرین نین و باسی سێکس ناکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -884,7 +884,7 @@ class EnglishEntryclean extends StatelessWidget {
                                         text: "Keep the jokes clean please!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تکایە نوکتەکان بە پاکی بهێڵنەوە."),
+                                            "تکایە نوکتەکان بە پاکی بھێڵنەوە."),
                                   ],
                                 ),
                               ),
@@ -912,7 +912,7 @@ class EnglishEntryclean extends StatelessWidget {
                                             "Can't you think of any clean jokes?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانی بیر لە نوکتەیەکی ناهەرزانە بکەیتەوە؟"),
+                                            "ناتوانی بیر لە نوکتەیەکی ناھەرزانە بکەیتەوە؟"),
                                   ],
                                 ),
                               ),
@@ -932,7 +932,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ھاوەڵناو) نەبوونی هیچ پێشینەیەکی تاوانکاری"),
+                                  "٦. (ھاوەڵناو) نەبوونی ھیچ پێشینەیەکی تاوانکاری"),
                           Row(
                             children: [
                               const Expanded(
@@ -962,7 +962,7 @@ class EnglishEntryclean extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ھاوەڵناو) نەبوونی هیچ شتێکی نایاسایی"),
+                              text: "٧. (ھاوەڵناو) نەبوونی ھیچ شتێکی نایاسایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -973,7 +973,7 @@ class EnglishEntryclean extends StatelessWidget {
                                             "The police searched her but she was clean."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس پشکنییان بەڵام هێچی (نایاسایی) پێنەبوو."),
+                                            "پۆلیس پشکنییان بەڵام ھێچی (نایاسایی) پێنەبوو."),
                                   ],
                                 ),
                               ),
@@ -993,7 +993,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ھاوەڵناو) نەبوون یان نەخواردنەوەی کحوول یان مەدەی هۆشبەر"),
+                                  "٨. (ھاوەڵناو) نەبوون یان نەخواردنەوەی کحوول یان مەدەی ھۆشبەر"),
                           Row(
                             children: [
                               const Expanded(
@@ -1003,7 +1003,7 @@ class EnglishEntryclean extends StatelessWidget {
                                         text:
                                             "He's been clean for three weeks."),
                                     ExampleSentenceKurdish(
-                                        text: "بۆ سێ هەفتەیە نەیخواردووەتەوە."),
+                                        text: "بۆ سێ ھەفتەیە نەیخواردووەتەوە."),
                                   ],
                                 ),
                               ),
@@ -1053,7 +1053,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ھاوەڵناو) هەبوونی قەراغێک، ڕوویەک، یان شێوەیەکی لووس کە خواروخێچ نییە"),
+                                  "١٠. (ھاوەڵناو) ھەبوونی قەراغێک، ڕوویەک، یان شێوەیەکی لووس کە خواروخێچ نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1114,7 +1114,7 @@ class EnglishEntryclean extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٢. (ھاوەڵناو) بەبێ گۆڕان و هەڵە"),
+                              text: "١٢. (ھاوەڵناو) بەبێ گۆڕان و ھەڵە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1125,7 +1125,7 @@ class EnglishEntryclean extends StatelessWidget {
                                             "I do my utmost to produce clean copy, but occasionally a mistake slips in."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە هەموو شتێک دەکەم بۆ ئەوەی کۆپییەکی بێ‌خەوش هەڵبگرم، بەڵام ماوەماوە هەڵەیەکی تێدەکەوێت."),
+                                            "ھەمیشە ھەموو شتێک دەکەم بۆ ئەوەی کۆپییەکی بێ‌خەوش ھەڵبگرم، بەڵام ماوەماوە ھەڵەیەکی تێدەکەوێت."),
                                   ],
                                 ),
                               ),
@@ -1145,7 +1145,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٣. (ناو) هەبوون تام یان بۆنێکی خۆش و تازە"),
+                                  "١٣. (ناو) ھەبوون تام یان بۆنێکی خۆش و تازە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1156,7 +1156,7 @@ class EnglishEntryclean extends StatelessWidget {
                                             "The wine has a clean taste and a lovely golden colour."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مەیەکە تامێکی خۆش و ڕەنگێکی ئاڵتوونی جوانی هەیە."),
+                                            "مەیەکە تامێکی خۆش و ڕەنگێکی ئاڵتوونی جوانی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1329,7 +1329,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٦. (کردار) پاککردنەوەی جلوبەرگ بە مادەی کیمیایی وەک لە ئاو بە تەنها"),
+                                  "١٦. (کردار) پاککردنەوەی جلوبەرگ بە مادەی کیمیایی وەک لە ئاو بە تەنھا"),
                           Row(
                             children: [
                               const Expanded(
@@ -1359,7 +1359,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٧. (کردار) لابردنی بەشی ناوەوەی ماسی، مریشک، هتد پێش لێنان"),
+                                  "١٧. (کردار) لابردنی بەشی ناوەوەی ماسی، مریشک، ھتد پێش لێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -1556,7 +1556,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clean (Derived forms: cleaned, cleans, cleaning)
+- Verb: clean (derived forms: cleaned, cleans, cleaning)
 1. Make clean by removing dirt, filth, or unwanted substances from (= make clean)
 "Clean the stove!"; "The dentist cleaned my teeth";
  
@@ -1586,7 +1586,7 @@ ${englishMeaningConst.text}
 10. Remove shells or husks from
 "clean grain before milling it"
 
-- Adjective: clean (Derived forms: cleanest, cleaner)
+- Adjective: clean (derived forms: cleanest, cleaner)
 1. Free from dirt or impurities; or having clean habits
 "children with clean shining faces"; "clean white shirts"; "clean dishes"; "a spotlessly clean house"; "cats are clean animals"
  
@@ -1639,7 +1639,7 @@ ${englishMeaningConst.text}
 18. (of behaviour or especially language) free from objectionable elements; fit for all observers (= unobjectionable)
 "a clean joke"; "good clean fun";
 
-- Noun: clean (Derived forms: cleans)
+- Noun: clean (derived forms: cleans)
 1. The act of making something clean (= cleaning, cleansing, cleanup)
 "he gave his shoes a good clean";
  
@@ -1683,7 +1683,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pexBibWa2b4?t=',
+    videoId: 'pexBibWa2b4',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1708,7 +1708,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1YBtsQz2RwA?t=',
+    videoId: '1YBtsQz2RwA',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1733,7 +1733,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGZipqcsen4?t=',
+    videoId: 'MGZipqcsen4',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1758,7 +1758,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fajh6SthpTM?t=',
+    videoId: 'Fajh6SthpTM',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1783,7 +1783,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WotUwfMr20Q?t=',
+    videoId: 'WotUwfMr20Q',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1808,7 +1808,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rdmx_oD25C8?t=',
+    videoId: 'rdmx_oD25C8',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1833,7 +1833,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P7gpZmbtboo?t=',
+    videoId: 'P7gpZmbtboo',
     startSeconds: 1907,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1858,7 +1858,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    videoId: '47MNn4bsmSw',
     startSeconds: 3082,
     autoPlay: true,
     params: const YoutubePlayerParams(

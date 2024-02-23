@@ -195,7 +195,7 @@ class EnglishEntrychest extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سنووق، یەغدان، سیپ، مەساهـ،	سنگ، دەفەی سنگ، پەراسووبەن
+کوردی: سنووق، یەغدان، سیپ، مەساھـ،	سنگ، دەفەی سنگ، پەراسووبەن
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrychest extends StatelessWidget {
                                             "She gasped for breath, her chest heaving."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەناسەبڕکێی بوو و سنگی گەورە بوو."),
+                                            "ھەناسەبڕکێی بوو و سنگی گەورە بوو."),
                                   ],
                                 ),
                               ),
@@ -284,7 +284,7 @@ class EnglishEntrychest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەبوونی ئەو جۆرە شانەی کە باسکراوە"),
+                                  "٢. (ناو) ھەبوونی ئەو جۆرە شانەی کە باسکراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,7 +295,7 @@ class EnglishEntrychest extends StatelessWidget {
                                             "The man looks powerful with his broad-chested physique."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیاوەکە بەهێز دیارە بە لەشولارە چوارشانەکەیەوە."),
+                                            "پیاوەکە بەھێز دیارە بە لەشولارە چوارشانەکەیەوە."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntrychest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) سنووقێکی گەورەی بەهێز کە بەزۆری لە دار درووست دەکرێت و بەکاردێت بۆ هەڵگرتنی شت یان گواستنەوەیان"),
+                                  "٣. (ناو) سنووقێکی گەورەی بەھێز کە بەزۆری لە دار درووست دەکرێت و بەکاردێت بۆ ھەڵگرتنی شت یان گواستنەوەیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -425,7 +425,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chest (Derived forms: chests)
+- Noun: chest (derived forms: chests)
 1. The part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates (= thorax, pectus)
  
 2. Box with a lid; used for storage; usually large and sturdy
@@ -466,7 +466,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_qPZVaPXHKk?t=',
+    videoId: '_qPZVaPXHKk',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TLQYrvrm6yM?t=',
+    videoId: 'TLQYrvrm6yM',
     startSeconds: 654,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YT1DAJOFLrg?t=',
+    videoId: 'YT1DAJOFLrg',
     startSeconds: 1270,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PRM7pT-Yric?t=',
+    videoId: 'PRM7pT-Yric',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/388OnvA1Ji8?t=',
+    videoId: '388OnvA1Ji8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d1deQQhvJMM?t=',
+    videoId: 'd1deQQhvJMM',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aD53huyv1tw?t=',
+    videoId: 'aD53huyv1tw',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oEn7XBxOXSw?t=',
+    videoId: 'oEn7XBxOXSw',
     startSeconds: 1472,
     autoPlay: true,
     params: const YoutubePlayerParams(

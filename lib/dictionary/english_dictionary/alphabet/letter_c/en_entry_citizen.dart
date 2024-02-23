@@ -194,11 +194,11 @@ class EnglishEntrycitizen extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاووڵاتی، هاونیشتمانی، شارمەند، شارستانی، باژێروانی، شاری
+کوردی: ھاووڵاتی، ھاونیشتمانی، شارمەند، شارستانی، باژێروانی، شاری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هاوڵاتی؛ کەسێک کە مافی یاسایی هایە سەر بە وڵاتێک بێت"),
+                                  "١. (ناو) ھاوڵاتی؛ کەسێک کە مافی یاسایی ھایە سەر بە وڵاتێک بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycitizen extends StatelessWidget {
                                             "The defeat of the president did not change the lives of ordinary citizens for the better."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شکستی سەرۆک ژیانی هاوڵاتی ئاسایی نەگۆڕی بۆ باشتر."),
+                                            "شکستی سەرۆک ژیانی ھاوڵاتی ئاسایی نەگۆڕی بۆ باشتر."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycitizen extends StatelessWidget {
                                             "She's Italian by birth but is now an Australian citizen."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە بنەچە ئیتالییە بەڵام ئێستا هاوڵاتی ئوسترالیایە."),
+                                            "بە بنەچە ئیتالییە بەڵام ئێستا ھاوڵاتی ئوسترالیایە."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycitizen extends StatelessWidget {
                                             "When you're old, people treat you like a second-class citizen."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە بەتەمەن دەبیت، خەڵکی وەک هاوڵاتی پلە دوو سەیرت دەکەن."),
+                                            "کە بەتەمەن دەبیت، خەڵکی وەک ھاوڵاتی پلە دوو سەیرت دەکەن."),
                                   ],
                                 ),
                               ),
@@ -396,7 +396,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: citizen (Derived forms: citizens)
+- Noun: citizen (derived forms: citizens)
 1. A native or naturalized member of a state or other political community 
 "a prominent citizen"
 """,
@@ -431,7 +431,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SsXt6uPxV0A?t=',
+    videoId: 'SsXt6uPxV0A',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JRzuGy6IUw8?t=',
+    videoId: 'JRzuGy6IUw8',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qCSr8ZCqFUs?t=',
+    videoId: 'qCSr8ZCqFUs',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/82JqvIozLk4?t=',
+    videoId: '82JqvIozLk4',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lAgD8pvdQ7k?t=',
+    videoId: 'lAgD8pvdQ7k',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YrMGIqecu0Y?t=',
+    videoId: 'YrMGIqecu0Y',
     startSeconds: 541,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B0lwiInZG1E?t=',
+    videoId: 'B0lwiInZG1E',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(

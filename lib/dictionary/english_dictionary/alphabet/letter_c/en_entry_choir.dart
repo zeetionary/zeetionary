@@ -29,8 +29,8 @@ class EnglishEntrychoir extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She sings in the school choir."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She sings in the school choir."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchoirs2(String languageCode) async {
@@ -191,20 +191,21 @@ class EnglishEntrychoir extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کوایێر، کۆچڕ، کۆوێژ، هاوچڕ، دەستەی گۆرانی، کۆڕبێژ،	جێگای هاوچڕە یا کۆڕبێژەکان (لە کلێسا)
+کوردی: کوایێر، کۆچڕ، کۆوێژ، ھاوچڕ، دەستەی گۆرانی، کۆڕبێژ،	جێگای ھاوچڕە یا کۆڕبێژەکان (لە کلێسا)
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
+                              text:
+                                  "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "She sings in the school choir."),
+                                        text: "She sings in the school choir."),
                                     ExampleSentenceKurdish(
-                                        text: "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە."),
+                                        text:
+                                            "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە."),
                                   ],
                                 ),
                               ),
@@ -233,7 +234,7 @@ class EnglishEntrychoir extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         YoutubeEmbeddedeleven(),
@@ -303,14 +304,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: choir (Derived forms: choirs)
+- Noun: choir (derived forms: choirs)
 1. A chorus that sings as part of a religious ceremony
  
 2. A family of similar musical instruments playing together (= consort)
  
 3. The area occupied by singers; the part of the chancel between sanctuary and nave
 
-- Verb: choir (Derived forms: choiring, choirs, choired)
+- Verb: choir (derived forms: choiring, choirs, choired)
 1. (music) sing in a choir (= chorus)
 """,
   );
@@ -344,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LdqBYJORDao?t=',
+    videoId: 'LdqBYJORDao',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -369,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Ff9S5StobA?t=',
+    videoId: '-Ff9S5StobA',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JJmC5FZFadM?t=',
+    videoId: 'JJmC5FZFadM',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lxfXZ6FhITU?t=',
+    videoId: 'lxfXZ6FhITU',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VSFCS5982FA?t=',
+    videoId: 'VSFCS5982FA',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n6HPIHWiBJ8?t=',
+    videoId: 'n6HPIHWiBJ8',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lEgPVrSZa6w?t=',
+    videoId: 'lEgPVrSZa6w',
     startSeconds: 722,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +520,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SUlooY7lbqw?t=',
+    videoId: 'SUlooY7lbqw',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +545,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WzrNwTPv-8c?t=',
+    videoId: 'WzrNwTPv-8c',
     startSeconds: 1563,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +570,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VdBeTAgU4_s?t=',
+    videoId: 'VdBeTAgU4_s',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +595,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lfNLl9UsyXA?t=',
+    videoId: 'lfNLl9UsyXA',
     startSeconds: 4526,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +620,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uv8Ss3yn0d0?t=',
+    videoId: 'Uv8Ss3yn0d0',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(

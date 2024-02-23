@@ -192,7 +192,7 @@ class EnglishEntrychime extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زەنگ، گەڕناڵ، چام، زرنگە، دەنگی زەنگ، زڕە،	دستەزەنگ (کلێسە)،	پێکهاتن، سازان، گونجان، ڕێک‌کەوتن، لهەڤ‌هاتن
+کوردی: زەنگ، گەڕناڵ، چام، زرنگە، دەنگی زەنگ، زڕە،	دستەزەنگ (کلێسە)،	پێکھاتن، سازان، گونجان، ڕێک‌کەوتن، لھەڤ‌ھاتن
 """),
                           const DefinitionKurdish(
                               text:
@@ -233,7 +233,7 @@ class EnglishEntrychime extends StatelessWidget {
                                         text:
                                             "Eight o'clock had already chimed."),
                                     ExampleSentenceKurdish(
-                                        text: "کاتژمێر هەشت لەمێژە تێپەڕیوە."),
+                                        text: "کاتژمێر ھەشت لەمێژە تێپەڕیوە."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chime (Derived forms: chimed, chiming, chimes)
+- Noun: chime (derived forms: chimed, chiming, chimes)
 1. A percussion instrument consisting of a set of tuned bells that are struck with a hammer; used as an orchestral instrument (= bell, gong)
 
 - Verb: chime 
@@ -400,7 +400,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QRgum3KzfLo?t=',
+    videoId: 'QRgum3KzfLo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
+    videoId: 'CaaJyRvvaq8',
     startSeconds: 575,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Axg27gwEqCE?t=',
+    videoId: 'Axg27gwEqCE',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CupbRr2m_sM?t=',
+    videoId: 'CupbRr2m_sM',
     startSeconds: 895,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lEgPVrSZa6w?t=',
+    videoId: 'lEgPVrSZa6w',
     startSeconds: 780,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vcGzrNH6pcI?t=',
+    videoId: 'vcGzrNH6pcI',
     startSeconds: 1603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OFh5Z-DL8_8?t=',
+    videoId: 'OFh5Z-DL8_8',
     startSeconds: 854,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -269,7 +269,7 @@ class EnglishEntryclassify extends StatelessWidget {
                                             "Only eleven of these accidents were classified as major."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها یازدە لەم ڕووداوانە بە گەورە هەمارکراون."),
+                                            "تەنھا یازدە لەم ڕووداوانە بە گەورە ھەمارکراون."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntryclassify extends StatelessWidget {
                                             "Would you classify it as a hard drug or a soft drug?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە مادەیەکی هۆشبەری بەهێز یان لاواز دایدەنێیت."),
+                                            "بە مادەیەکی ھۆشبەری بەھێز یان لاواز دایدەنێیت."),
                                   ],
                                 ),
                               ),
@@ -317,7 +317,7 @@ class EnglishEntryclassify extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ڕاگەیاندنی ئەوەی کە زانیارییەک بە فەرمی نهێنییە"),
+                                  "٣. (کردار) ڕاگەیاندنی ئەوەی کە زانیارییەک بە فەرمی نھێنییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -328,7 +328,7 @@ class EnglishEntryclassify extends StatelessWidget {
                                             "The government insists on keeping certain documents classified."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت پێداگری لەوە دەکات ژمارەیەک بەڵگەنامە بە نهێنی هێڵێتەوە."),
+                                            "حکومەت پێداگری لەوە دەکات ژمارەیەک بەڵگەنامە بە نھێنی ھێڵێتەوە."),
                                   ],
                                 ),
                               ),
@@ -427,7 +427,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: classify (Derived forms: classified, classifies, classifying)
+- Verb: classify (derived forms: classified, classifies, classifying)
 1. Arrange or order by classes or categories (= class, sort, assort, sort out, separate)
 "How would you classify these pottery shards--are they prehistoric?";
  
@@ -468,7 +468,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/REHdL9K5hOY',
+    videoId: 'REHdL9K5hOY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J-K5OjAkiEA?t=',
+    videoId: 'J-K5OjAkiEA',
     startSeconds: 449,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EBRVeki7zKo?t=',
+    videoId: 'EBRVeki7zKo',
     startSeconds: 1881,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u11DK9kMp5Y?t=',
+    videoId: 'u11DK9kMp5Y',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tc4_Z89sksw?t=',
+    videoId: 'tc4_Z89sksw',
     startSeconds: 884,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mwhROjklvcE?t=',
+    videoId: 'mwhROjklvcE',
     startSeconds: 3468,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GVsUOuSjvcg?t=',
+    videoId: 'GVsUOuSjvcg',
     startSeconds: 672,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P3CjYb5VRik?t=',
+    videoId: 'P3CjYb5VRik',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(

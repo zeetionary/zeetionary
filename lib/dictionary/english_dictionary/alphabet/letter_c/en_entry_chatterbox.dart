@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chatterbox (Derived forms: chatterboxes)
+- Noun: chatterbox (derived forms: chatterboxes)
 1. Orchid growing along streams or ponds of western North America having leafy stems and 1 greenish-brown and pinkish flower in the axil of each upper leaf (= stream orchid, giant helleborine, Epipactis gigantea)
  
 2. Someone who talks a lot, esp. someone who talks too much or foolishly (= chatterer, babbler, prater, magpie, spouter)
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9GR3XSuInYE?t=',
+    videoId: '9GR3XSuInYE',
     startSeconds: 667,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n2aXSpp-TXY?t=',
+    videoId: 'n2aXSpp-TXY',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H7OV_d6MNb8?t=',
+    videoId: 'H7OV_d6MNb8',
     startSeconds: 1508,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8Yjd8pDRgfs?t=',
+    videoId: '8Yjd8pDRgfs',
     startSeconds: 393,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_qdHpaDD1hU?t=',
+    videoId: '_qdHpaDD1hU',
     startSeconds: 2241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QGw0jtlk19E?t=',
+    videoId: 'QGw0jtlk19E',
     startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bj2_H1mvM4o?t=',
+    videoId: 'bj2_H1mvM4o',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/twxgl3h9O2M?t=',
+    videoId: 'twxgl3h9O2M',
     startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(

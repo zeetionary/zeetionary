@@ -210,7 +210,7 @@ class EnglishEntrycirculation extends StatelessWidget {
                                             "Regular exercise will improve blood circulation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنانی بەدەوام سووڕی خوێن بەهێز دەکات."),
+                                            "ڕاھێنانی بەدەوام سووڕی خوێن بەھێز دەکات."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ class EnglishEntrycirculation extends StatelessWidget {
                                             "The new banknotes will go into general circulation next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دراوە کاغەزییە تازەکان ساڵی داهاتوو دەخرێنە بڵاوبوونەوەوە."),
+                                            "دراوە کاغەزییە تازەکان ساڵی داھاتوو دەخرێنە بڵاوبوونەوەوە."),
                                   ],
                                 ),
                               ),
@@ -323,7 +323,7 @@ class EnglishEntrycirculation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ڕێژەی ئاسایی کۆپی ئەو ڕۆژنامە و گۆڤارانەی دەفرۆشرێن لە ڕۆژێکدام هەفتەیەکدا، هتد"),
+                                  "٣. (ناو) ڕێژەی ئاسایی کۆپی ئەو ڕۆژنامە و گۆڤارانەی دەفرۆشرێن لە ڕۆژێکدام ھەفتەیەکدا، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ class EnglishEntrycirculation extends StatelessWidget {
                                             "The newspaper has a daily circulation of 20 000."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژنامەکە فرۆشی ڕۆژانەی ٢٠٠٠٠ کۆپی هەیە."),
+                                            "ڕۆژنامەکە فرۆشی ڕۆژانەی ٢٠٠٠٠ کۆپی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -367,7 +367,7 @@ class EnglishEntrycirculation extends StatelessWidget {
                                             "Poor air circulation can result in vapor inside cars."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمی سووڕی هەوا دەکرێت ببێتە هۆی هەڵم لە ناو ئۆتۆمبێلدا."),
+                                            "کەمی سووڕی ھەوا دەکرێت ببێتە ھۆی ھەڵم لە ناو ئۆتۆمبێلدا."),
                                   ],
                                 ),
                               ),
@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circulation (Derived forms: circulations)
+- Noun: circulation (derived forms: circulations)
 1. The dissemination of copies of periodicals (as newspapers or magazines)
  
 2. Movement through a circuit; especially the movement of blood through the heart and blood vessels
@@ -547,7 +547,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/79VSiCHm63w',
+    videoId: '79VSiCHm63w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vwtD_UwX4wA?t=',
+    videoId: 'vwtD_UwX4wA',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SWvj8N96rLs?t=',
+    videoId: 'SWvj8N96rLs',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xnod8fBdUfk',
+    videoId: 'Xnod8fBdUfk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -647,7 +647,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fa13JKGG0ds?t=',
+    videoId: 'Fa13JKGG0ds',
     startSeconds: 799,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -672,7 +672,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    videoId: 'ZQvfHyfgBtA',
     startSeconds: 403,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -697,7 +697,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K3YnaQ64ELY?t=',
+    videoId: 'K3YnaQ64ELY',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -722,7 +722,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CsTmgX32Uk8?t=',
+    videoId: 'CsTmgX32Uk8',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(

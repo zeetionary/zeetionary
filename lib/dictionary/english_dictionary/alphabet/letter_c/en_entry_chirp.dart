@@ -197,7 +197,7 @@ class EnglishEntrychirp extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دەنگی باڵندەی بچووک و هەندێک مێروو"),
+                                  "١. (ناو) دەنگی باڵندەی بچووک و ھەندێک مێروو"),
                           Row(
                             children: [
                               const Expanded(
@@ -228,7 +228,7 @@ class EnglishEntrychirp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دەرکردنی دەنگێک لەلایەن باڵندە و هەندێک مێرووەوە"),
+                                  "٢. (کردار) دەرکردنی دەنگێک لەلایەن باڵندە و ھەندێک مێرووەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -367,10 +367,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chirp (Derived forms: chirps)
+- Noun: chirp (derived forms: chirps)
 1. A sharp sound made by small birds or insects
 
-- Verb: chirp (Derived forms: chirps, chirping, chirped)
+- Verb: chirp (derived forms: chirps, chirping, chirped)
 1. Make high-pitched sounds (= peep, cheep, chirrup)
 "the birds were chirping in the bushes";
  
@@ -407,7 +407,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DO9U_XxN-Kc?t=',
+    videoId: 'DO9U_XxN-Kc',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Nj8iOg0GUjw?t=',
+    videoId: 'Nj8iOg0GUjw',
     startSeconds: 1625,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5RWxXnE0JxA?t=',
+    videoId: '5RWxXnE0JxA',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G6dUxLxSrDo?t=',
+    videoId: 'G6dUxLxSrDo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OyV4e7w0q-o?t=',
+    videoId: 'OyV4e7w0q-o',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XCvnrBTeru0?t=',
+    videoId: 'XCvnrBTeru0',
     startSeconds: 881,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kuA-NCM5xL4?t=',
+    videoId: 'kuA-NCM5xL4',
     startSeconds: 94,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3E17wr77ffM?t=',
+    videoId: '3E17wr77ffM',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(

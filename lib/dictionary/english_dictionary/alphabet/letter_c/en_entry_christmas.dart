@@ -241,7 +241,7 @@ class EnglishEntrychristmas extends StatelessWidget {
                                             "The children are hoping for a white Christmas (= with snow on the ground)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان هیوای کریسمسێکی بەفراوییان دەخواست."),
+                                            "منداڵەکان ھیوای کریسمسێکی بەفراوییان دەخواست."),
                                   ],
                                 ),
                               ),
@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: Christmas (Derived forms: Christmases)
+- Noun: Christmas (derived forms: Christmases)
 1. A Christian holiday on 25th December celebrating the birth of Christ (= Christmas Day, Xmas [Brit, informal], Dec 25, Christmastime)
  
 2. The season around the 25th December (traditionally extending from Dec. 24 to Jan. 6) (= Christmastide [archaic], Christmastime, Yule [archaic], Yuletide [archaic], Noel, Crimbo [Brit, informal], Chrissie [Austral, informal], Chrimbo [Brit, informal], Xmas [Brit, informal])
@@ -438,7 +438,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IuWQGpswvyY?t=',
+    videoId: 'IuWQGpswvyY',
     startSeconds: 788,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yjhibJ-OqxE?t=',
+    videoId: 'yjhibJ-OqxE',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XnbCSboujF4?t=',
+    videoId: 'XnbCSboujF4',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fiw9CskKnTA?t=',
+    videoId: 'Fiw9CskKnTA',
     startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ISyEJga9mMQ?t=',
+    videoId: 'ISyEJga9mMQ',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7R5E0JJHmwY?t=',
+    videoId: '7R5E0JJHmwY',
     startSeconds: 736,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mUjqPSHRVnA?t=',
+    videoId: 'mUjqPSHRVnA',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DFZN3_5hwq4?t=',
+    videoId: 'DFZN3_5hwq4',
     // startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(

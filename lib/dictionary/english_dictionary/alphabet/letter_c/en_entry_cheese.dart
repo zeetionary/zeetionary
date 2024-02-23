@@ -237,7 +237,7 @@ class EnglishEntrycheese extends StatelessWidget {
                                             "Some people dislike goat's cheese because they think it tastes too strong."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەس حەزیان بە پەنیری بزن نییە چونکە پێێان وایە تامی بەهێزە."),
+                                            "ھەندێک کەس حەزیان بە پەنیری بزن نییە چونکە پێێان وایە تامی بەھێزە."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrycheese extends StatelessWidget {
                                             "You need 250 grams of grated cheese for this recipe."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستت بە ٢٥٠ گرام لە پەنیری ڕەندکراو هەیە بۆ ئەم ڕەچەتە."),
+                                            "پێویستت بە ٢٥٠ گرام لە پەنیری ڕەندکراو ھەیە بۆ ئەم ڕەچەتە."),
                                   ],
                                 ),
                               ),
@@ -391,14 +391,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheese (Derived forms: cheeses)
+- Noun: cheese (derived forms: cheeses)
 1. A solid food prepared from the pressed curd of milk
  
 2. Erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in the United States (= tall mallow, high mallow, cheeseflower, Malva sylvestris)
  
 3. [informal] Something melodramatic, overly emotional, sentimental, or clichéd
 
-- Verb: cheese (Derived forms: cheesing, cheeses, cheesed)
+- Verb: cheese (derived forms: cheesing, cheeses, cheesed)
 1. Used in the imperative (get away, or stop it)
 "Cheese it!"
  
@@ -436,7 +436,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 2495,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mJevajwj8T0?t=',
+    videoId: 'mJevajwj8T0',
     startSeconds: 690,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XbMko0vv-k8?t=',
+    videoId: 'XbMko0vv-k8',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/juDbb5LNIlY?t=',
+    videoId: 'juDbb5LNIlY',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f25Yqm2ugpU?t=',
+    videoId: 'f25Yqm2ugpU',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xYZfMKGNiFo?t=',
+    videoId: 'xYZfMKGNiFo',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d6mRT7sfp-Y?t=',
+    videoId: 'd6mRT7sfp-Y',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wXBOJIUThb4?t=',
+    videoId: 'wXBOJIUThb4',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -636,7 +636,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gDwx55lrdFQ',
+    videoId: 'gDwx55lrdFQ',
     // startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(

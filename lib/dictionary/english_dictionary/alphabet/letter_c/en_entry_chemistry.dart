@@ -193,11 +193,11 @@ class EnglishEntrychemistry extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کیمیا، زانستی کیمیا، شیمی،	کار و کاردانەوە،	پێکهاتە یان ڕەوشتی کیمیایی
+کوردی: کیمیا، زانستی کیمیا، شیمی،	کار و کاردانەوە،	پێکھاتە یان ڕەوشتی کیمیایی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کیمیا؛ لێکۆڵینەوەی زانستی لە پێکهاتەی مادەکان، چۆن کارلێک دەکەن کاتێک تێکەڵ دەبن یان بەرکەوتنیان لەگەڵ یەکتردا هەیە، و چۆن لە ژێر بارودۆخی جیاوازدا ڕەفتار دەکەن"),
+                                  "١. (ناو) کیمیا؛ لێکۆڵینەوەی زانستی لە پێکھاتەی مادەکان، چۆن کارلێک دەکەن کاتێک تێکەڵ دەبن یان بەرکەوتنیان لەگەڵ یەکتردا ھەیە، و چۆن لە ژێر بارودۆخی جیاوازدا ڕەفتار دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrychemistry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پێکهاتەی کیمیایی و ڕەفتاری مادەیەکی دیاریکراو"),
+                                  "٢. (ناو) پێکھاتەی کیمیایی و ڕەفتاری مادەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chemistry (Derived forms: chemistries)
+- Noun: chemistry (derived forms: chemistries)
 1. The science of matter; the branch of the natural sciences dealing with the composition of substances and their properties and reactions (= chemical science)
  
 2. The chemical composition and properties of a substance or object
@@ -408,7 +408,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bSMx0NS0XfY',
+    videoId: 'bSMx0NS0XfY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -433,7 +433,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PmvLB5dIEp8?t=',
+    videoId: 'PmvLB5dIEp8',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zFzu2y0DOZ8?t=',
+    videoId: 'zFzu2y0DOZ8',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lExagPweU6g?t=',
+    videoId: 'lExagPweU6g',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nQ-Ua6NYago?t=',
+    videoId: 'nQ-Ua6NYago',
     startSeconds: 971,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PSVdZHteILg?t=',
+    videoId: 'PSVdZHteILg',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RlQzUX-UOW4?t=',
+    videoId: 'RlQzUX-UOW4',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +583,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7EZ87bIvCOM?t=',
+    videoId: '7EZ87bIvCOM',
     startSeconds: 2164,
     autoPlay: true,
     params: const YoutubePlayerParams(

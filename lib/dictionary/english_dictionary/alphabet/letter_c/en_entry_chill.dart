@@ -204,7 +204,7 @@ class EnglishEntrychill extends StatelessWidget {
 کوردی: تەز، تەزوو، تەشق، سەقەم، سەرما(وسۆڵە)، لەرز، لەرزوتا، چەق‌وچۆ، مووچڕک، ترس‌ولەرز، سەرمابوون، باپەڕی، چایمان،	سارد، نادڵسۆز، سڕ،	ترسێنەر 
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) هەستکردن بە سەرما"),
+                              text: "١. (ھاوەڵناو) ھەستکردن بە سەرما"),
                           Row(
                             children: [
                               const Expanded(
@@ -215,7 +215,7 @@ class EnglishEntrychill extends StatelessWidget {
                                             "There's a chill in the air this morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرمایەک ئەم بەیانییە لە هەوادا هەیە."),
+                                            "سەرمایەک ئەم بەیانییە لە ھەوادا ھەیە."),
                                   ],
                                 ),
                               ),
@@ -243,7 +243,7 @@ class EnglishEntrychill extends StatelessWidget {
                                             "I could feel the chill as soon as I went outside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەمتوانی هەست بە سەرماکە بکەم هەرکە چوومە دەرەوە."),
+                                            "دەمتوانی ھەست بە سەرماکە بکەم ھەرکە چوومە دەرەوە."),
                                   ],
                                 ),
                               ),
@@ -263,7 +263,7 @@ class EnglishEntrychill extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) نەخۆشییەک کە درووست دەبێت بەهۆی سەرما و تەڕبوونەوە، و دەبێتە هۆی پلەی گەرمی بەرز و لەرزین"),
+                                  "٣. (ناو) نەخۆشییەک کە درووست دەبێت بەھۆی سەرما و تەڕبوونەوە، و دەبێتە ھۆی پلەی گەرمی بەرز و لەرزین"),
                           Row(
                             children: [
                               const Expanded(
@@ -274,7 +274,7 @@ class EnglishEntrychill extends StatelessWidget {
                                             "I caught a nasty chill after my swim last week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەرزوتایەکی خراپم گرت لە دوای مەلەکەم لە هەفتەی ڕابردوو."),
+                                            "لەرزوتایەکی خراپم گرت لە دوای مەلەکەم لە ھەفتەی ڕابردوو."),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrychill extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) هەستکردن بە ترس"),
+                              text: "٣. (ناو) ھەستکردن بە ترس"),
                           Row(
                             children: [
                               const Expanded(
@@ -304,7 +304,7 @@ class EnglishEntrychill extends StatelessWidget {
                                             "The news of the disaster cast a chill over the party."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەواڵی کارەساتەکە ترسێکی بە ئاهەنگەکەدا بڵاوکردەوە."),
+                                            "ھەواڵی کارەساتەکە ترسێکی بە ئاھەنگەکەدا بڵاوکردەوە."),
                                   ],
                                 ),
                               ),
@@ -506,7 +506,7 @@ class EnglishEntrychill extends StatelessWidget {
                                             "Just chill, Mum—everything's going to be OK."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها ئاسوودە بە، دایکە. هەموو شتێک باش دەبێت."),
+                                            "تەنھا ئاسوودە بە، دایکە. ھەموو شتێک باش دەبێت."),
                                   ],
                                 ),
                               ),
@@ -536,7 +536,7 @@ class EnglishEntrychill extends StatelessWidget {
                                             "Their breath steamed in the chill air."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەناسەیان هەڵمی دەکرد لە کەشە تەزێنەرەکەدا."),
+                                            "ھەناسەیان ھەڵمی دەکرد لە کەشە تەزێنەرەکەدا."),
                                   ],
                                 ),
                               ),
@@ -635,7 +635,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chill (Derived forms: chills)
+- Noun: chill (derived forms: chills)
 1. Coldness due to a cold environment (= iciness, gelidity)
  
 2. An almost pleasurable sensation of fright (= frisson, shiver, quiver, shudder, thrill, tingle)
@@ -645,7 +645,7 @@ ${englishMeaningConst.text}
  
 4. A sudden numbing dread (= pall)
 
-- Verb: chill (Derived forms: chills, chilling, chilled)
+- Verb: chill (derived forms: chills, chilling, chilled)
 1. Depress or discourage
 "The news of the city's surrender chilled the soldiers"
  
@@ -655,7 +655,7 @@ ${englishMeaningConst.text}
 3. Lose heat (= cool, cool down)
 "The air chilled considerably after the thunderstorm";
 
-- Adjective: chill (Derived forms: chiller, chillest)
+- Adjective: chill (derived forms: chiller, chillest)
 Usage: informal
 1. [N. Amer, informal] Relaxed and informal in attitude or standards (= easygoing, easy-going)
  
@@ -692,7 +692,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GejxzTruwiM?t=',
+    videoId: 'GejxzTruwiM',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -717,7 +717,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_gPJ3x80qGI?t=',
+    videoId: '_gPJ3x80qGI',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -742,7 +742,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KbwuxqZkDQ0?t=',
+    videoId: 'KbwuxqZkDQ0',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -767,7 +767,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 710,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -792,7 +792,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    videoId: 'rEdl2Uetpvo',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -817,7 +817,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    videoId: 'h4CyhQqAPpk',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -842,7 +842,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 563,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -867,7 +867,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yjhibJ-OqxE?t=',
+    videoId: 'yjhibJ-OqxE',
     startSeconds: 350,
     autoPlay: true,
     params: const YoutubePlayerParams(

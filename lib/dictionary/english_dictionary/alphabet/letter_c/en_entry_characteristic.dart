@@ -202,7 +202,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک/کەسێک هەیەتی"),
+                                  "١. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک/کەسێک ھەیەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                                             "All human languages share some common characteristics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو زمانەکانی مرۆڤ هەندێک تایبەتمەندی هاوبەشیان هەیە."),
+                                            "ھەموو زمانەکانی مرۆڤ ھەندێک تایبەتمەندی ھاوبەشیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -243,7 +243,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                                             "The two groups of children have quite different characteristics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو گرووپە منداڵەکە خاسیەتی تەواو جیاوازیان هەیە."),
+                                            "ھەردوو گرووپە منداڵەکە خاسیەتی تەواو جیاوازیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -343,7 +343,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                                             "This is just one example of the rudeness that was so characteristic of him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە تەنها یەک نموونەی بێچاووڕوویی بوو کە تایبەتمەندییەکێتی."),
+                                            "ئەمە تەنھا یەک نموونەی بێچاووڕوویی بوو کە تایبەتمەندییەکێتی."),
                                   ],
                                 ),
                               ),
@@ -474,7 +474,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: characteristic (Derived forms: characteristics)
+- Noun: characteristic (derived forms: characteristics)
 1. A prominent attribute or aspect of something (= feature)
 "generosity is one of his best characteristics";
  
@@ -520,7 +520,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fZSLl5QpsN0',
+    videoId: 'fZSLl5QpsN0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9xnWDB0Z1Ew?t=',
+    videoId: '9xnWDB0Z1Ew',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2tEOFuIEyzc?t=',
+    videoId: '2tEOFuIEyzc',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    videoId: '0jltioeaEyY',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QWz07MktCKg?t=',
+    videoId: 'QWz07MktCKg',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -670,7 +670,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 1045,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -695,7 +695,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTk9HnIwEYU?t=',
+    videoId: 'pTk9HnIwEYU',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(

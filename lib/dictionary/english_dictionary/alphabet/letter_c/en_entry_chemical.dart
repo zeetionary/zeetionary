@@ -196,7 +196,7 @@ class EnglishEntrychemical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە کیمیا یان بە بەکارهێنانی کیمیا"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە کیمیا یان بە بەکارھێنانی کیمیا"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrychemical extends StatelessWidget {
                                             "The chemical industry produces such things as petrochemicals and drugs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیشەسازی کیمیایی شتی وەک پیترۆکیمیایی و مادەی هۆشبەر."),
+                                            "پیشەسازی کیمیایی شتی وەک پیترۆکیمیایی و مادەی ھۆشبەر."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrychemical extends StatelessWidget {
                                             "The chemical properties of coal are still incompletely understood."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خاسیەتە کیمیاییەکانی خەڵووز هێشتا بە تەواوی نەزانراوە."),
+                                            "خاسیەتە کیمیاییەکانی خەڵووز ھێشتا بە تەواوی نەزانراوە."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntrychemical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) درووستکراو بە بەکارهێنانی پڕۆسەیەک کە گۆڕانکاری لەخۆدەگرێت لە گەردیلە و تەنۆلکەکاندا"),
+                                  "٢. (ھاوەڵناو) درووستکراو بە بەکارھێنانی پڕۆسەیەک کە گۆڕانکاری لەخۆدەگرێت لە گەردیلە و تەنۆلکەکاندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,7 +266,7 @@ class EnglishEntrychemical extends StatelessWidget {
                                             "All chemical weapons facilities will be deactivated."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو دامەزراوەکانی چەکی کیمیایی ناچالاک دەکرێن."),
+                                            "ھەموو دامەزراوەکانی چەکی کیمیایی ناچالاک دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrychemical extends StatelessWidget {
                                             "Toy manufacturers have been banned from using the chemicals."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارگەکانی یاریی منداڵان قەدەغەکراون لە بەکارهێنانی مادەی کیمیایی."),
+                                            "کارگەکانی یاریی منداڵان قەدەغەکراون لە بەکارھێنانی مادەی کیمیایی."),
                                   ],
                                 ),
                               ),
@@ -324,7 +324,7 @@ class EnglishEntrychemical extends StatelessWidget {
                                             "The condition may be caused by an imbalance of chemicals in the brain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆخەکە ڕەنگە درووست ببێت بە ناهاوسەنگی مادەی کیمیایی لە مێشکدا."),
+                                            "دۆخەکە ڕەنگە درووست ببێت بە ناھاوسەنگی مادەی کیمیایی لە مێشکدا."),
                                   ],
                                 ),
                               ),
@@ -430,7 +430,7 @@ ${englishMeaningConst.text}
 2. Of or made from or using substances produced by or used in reactions involving atomic or molecular changes
 "chemical fertilizer"
 
-- Noun: chemical (Derived forms: chemicals)
+- Noun: chemical (derived forms: chemicals)
 1. Material produced by or used in a reaction involving changes in atoms or molecules (= chemical substance)
 """,
   );
@@ -464,7 +464,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vc9KuQ9C5x4?t=',
+    videoId: 'Vc9KuQ9C5x4',
     startSeconds: 296,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q49ga0ARkAM?t=',
+    videoId: 'Q49ga0ARkAM',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aRKyJRAxjpM?t=',
+    videoId: 'aRKyJRAxjpM',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQCRNNNW-98?t=',
+    videoId: 'FQCRNNNW-98',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ersq3x0xFM4?t=',
+    videoId: 'ersq3x0xFM4',
     startSeconds: 225,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iaKkZJAoqCA?t=',
+    videoId: 'iaKkZJAoqCA',
     startSeconds: 877,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +614,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/70-LYp-tH54?t=',
+    videoId: '70-LYp-tH54',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -639,7 +639,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BWwgLS5tK80?t=',
+    videoId: 'BWwgLS5tK80',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(

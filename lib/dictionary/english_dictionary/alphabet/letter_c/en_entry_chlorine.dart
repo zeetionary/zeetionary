@@ -195,7 +195,7 @@ class EnglishEntrychlorine extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کلۆر؛ گازێکی ژەهراوی سەوز کە بۆنێکی بەهێزی هەیە. زۆرجار لە مەلەوانگەکان بەکاردێت بۆ هێشتنەوەی ئاوەکە بە پاکی"),
+                                  "١. (ناو) کلۆر؛ گازێکی ژەھراوی سەوز کە بۆنێکی بەھێزی ھەیە. زۆرجار لە مەلەوانگەکان بەکاردێت بۆ ھێشتنەوەی ئاوەکە بە پاکی"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chlorine (Derived forms: chlorines)
+- Noun: chlorine (derived forms: chlorines)
 1. A common nonmetallic element belonging to the halogens; best known as a heavy yellow irritating toxic gas; used to purify water and as a bleaching agent and disinfectant; occurs naturally only as a salt (as in sea water) (= Cl, atomic number 17)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6SGvNQa79s8',
+    videoId: '6SGvNQa79s8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-wivMSMxBNE?t=',
+    videoId: '-wivMSMxBNE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/morwlxWUFb8?t=',
+    videoId: 'morwlxWUFb8',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dAhiqGZCwNQ?t=',
+    videoId: 'dAhiqGZCwNQ',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DD6EEf1k1x8?t=',
+    videoId: 'DD6EEf1k1x8',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-CuZ3mmcDaY?t=',
+    videoId: '-CuZ3mmcDaY',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JOqTNmHaRo8?t=',
+    videoId: 'JOqTNmHaRo8',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w83ZbXmsKqs?t=',
+    videoId: 'w83ZbXmsKqs',
     startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(

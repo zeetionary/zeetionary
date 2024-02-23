@@ -195,7 +195,7 @@ class EnglishEntrycitricacid extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ترشەڵۆکێکی لاواز کە لە لیمۆ و ئەو میوانەی دیکەدا هەیە کە تامێکی بەهێزیان هەیە"),
+                                  "١. (ناو) ترشەڵۆکێکی لاواز کە لە لیمۆ و ئەو میوانەی دیکەدا ھەیە کە تامێکی بەھێزیان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: citric acid (Derived forms: citric acids)
+- Noun: citric acid (derived forms: citric acids)
 1. A weak water-soluble acid found in many fruits (especially citrus fruits); used as a flavouring agent
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vkgcso0lWVk?t=',
+    videoId: 'Vkgcso0lWVk',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kp3bC5N5Jfo?t=',
+    videoId: 'kp3bC5N5Jfo',
     startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aAU54OtAVO8?t=',
+    videoId: 'aAU54OtAVO8',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_SkPwVO9BFI?t=',
+    videoId: '_SkPwVO9BFI',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fxDHWsXjwxY?t=',
+    videoId: 'fxDHWsXjwxY',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IlSFn0gRyC4?t=',
+    videoId: 'IlSFn0gRyC4',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FgXZuqGi4mY?t=',
+    videoId: 'FgXZuqGi4mY',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mvX-rcCMKQA?t=',
+    videoId: 'mvX-rcCMKQA',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(

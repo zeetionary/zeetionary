@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: butler (Derived forms: butlers)
+- Noun: butler (derived forms: butlers)
 1. A manservant (usually the head servant of a household) who has charge of wines and the table (= pantryman)
 
 - Noun: Butler 

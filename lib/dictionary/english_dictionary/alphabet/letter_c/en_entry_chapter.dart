@@ -201,7 +201,7 @@ class EnglishEntrychapter extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بەشێکی جیاوازی کتێبێک کە ژمارەیەک یان ناونیشانێکی هەیە"),
+                                  "١. (ناو) بەشێکی جیاوازی کتێبێک کە ژمارەیەک یان ناونیشانێکی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntrychapter extends StatelessWidget {
                                             "There is a useful summary at the end of the chapter."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پوختەیەکی بەسوود هەیە لە کۆتایی ئەم بەشە."),
+                                            "پوختەیەکی بەسوود ھەیە لە کۆتایی ئەم بەشە."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntrychapter extends StatelessWidget {
                                             "Her return to Kansas ended a particularly unhappy chapter in her life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەڕانەوەی بۆ کەنساس کۆتایی بە سەردەمێکی تەواو ناخۆشی ژیانی هێنا."),
+                                            "گەڕانەوەی بۆ کەنساس کۆتایی بە سەردەمێکی تەواو ناخۆشی ژیانی ھێنا."),
                                   ],
                                 ),
                               ),
@@ -495,7 +495,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chapter (Derived forms: chapters)
+- Noun: chapter (derived forms: chapters)
 1. A subdivision of a written work; usually numbered and titled
 "he read a chapter every night before falling asleep"
  
@@ -541,7 +541,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JbTVSpFCXLU?t=',
+    videoId: 'JbTVSpFCXLU',
     startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J5RLObLp3Ck?t=',
+    videoId: 'J5RLObLp3Ck',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t4tpEPPJVpE',
+    videoId: 't4tpEPPJVpE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -666,7 +666,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 1359,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -691,7 +691,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JFq77o0hYjg?t=',
+    videoId: 'JFq77o0hYjg',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -716,7 +716,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jaRcbpN_KlM?t=',
+    videoId: 'jaRcbpN_KlM',
     startSeconds: 1066,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -741,7 +741,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o_Qwng_M07Q?t=',
+    videoId: 'o_Qwng_M07Q',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(

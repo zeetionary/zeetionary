@@ -197,7 +197,7 @@ class EnglishEntrychequecard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کاردێکی بانکی کە بەکاردێت بۆ پارەدان ڕاستەوخۆ لە هەژماری بانکییەوە لەکاتی پارەدان"),
+                                  "١. (ناو) کاردێکی بانکی کە بەکاردێت بۆ پارەدان ڕاستەوخۆ لە ھەژماری بانکییەوە لەکاتی پارەدان"),
                           Row(
                             children: [
                               const Expanded(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheque card (Derived forms: cheque cards)
+- Noun: cheque card (derived forms: cheque cards)
 Usage: Brit
 1. (finance, dated) a small plastic card issued by a bank or similar which is a guarantee of payment of cheques written by the cardholder up to a specified maximum amount
 """,
@@ -342,7 +342,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/37VgqKBxEhk?t=',
+    videoId: '37VgqKBxEhk',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -367,7 +367,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LBQZQo5yJlA?t=',
+    videoId: 'LBQZQo5yJlA',
     startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -392,7 +392,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hSQZQRbKlMk?t=',
+    videoId: 'hSQZQRbKlMk',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +417,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HzAScIWvNJw?t=',
+    videoId: 'HzAScIWvNJw',
     startSeconds: 296,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +442,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UEIQGElwuUQ?t=',
+    videoId: 'UEIQGElwuUQ',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IFW90pe9HyI?t=',
+    videoId: 'IFW90pe9HyI',
     startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lJ07-AyVtfY?t=',
+    videoId: 'lJ07-AyVtfY',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a2FSQj5qECY?t=',
+    videoId: 'a2FSQj5qECY',
     startSeconds: 445,
     autoPlay: true,
     params: const YoutubePlayerParams(

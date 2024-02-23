@@ -268,7 +268,7 @@ class EnglishEntrycleanly extends StatelessWidget {
                                             "The election campaign was not conducted very cleanly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمپینی هەڵبژاردنەکە بە دادپەروەرییەوە ئەنجام نەدرا."),
+                                            "کەمپینی ھەڵبژاردنەکە بە دادپەروەرییەوە ئەنجام نەدرا."),
                                   ],
                                 ),
                               ),
@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
 2. In a manner that minimizes dirt and pollution
 "the motor burns cleanly"
 
-- Adjective: cleanly (Derived forms: cleanlier, cleanliest)
+- Adjective: cleanly (derived forms: cleanlier, cleanliest)
 Usage: archaic
 1. Habitually clean
 "cleanly in their persons and habitations"
@@ -410,7 +410,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tMKXbLBgkEc?t=',
+    videoId: 'tMKXbLBgkEc',
     startSeconds: 334,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mrkAmmMakMg?t=',
+    videoId: 'mrkAmmMakMg',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gww4smOSIag?t=',
+    videoId: 'gww4smOSIag',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kDdUdvNQndo?t=',
+    videoId: 'kDdUdvNQndo',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WtAoc3_1Ido?t=',
+    videoId: 'WtAoc3_1Ido',
     startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SDpCzJw2xm4?t=',
+    videoId: 'SDpCzJw2xm4',
     startSeconds: 653,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZXM1yBXpQRw?t=',
+    videoId: 'ZXM1yBXpQRw',
     startSeconds: 1222,
     autoPlay: true,
     params: const YoutubePlayerParams(

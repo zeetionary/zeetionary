@@ -191,10 +191,11 @@ class EnglishEntrychromium extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) توخمێکی کیمیایی کە خۆڵەمێشی و ڕەقە و دەدرەوشێتەوە کە لووس دەکرێت و زۆرجار بۆ داپۆشینی کانزای دیکە بەکاردێت بۆ ڕێگری لە ژەنگ"),
+                              text:
+                                  "١. (ناو) توخمێکی کیمیایی کە خۆڵەمێشی و ڕەقە و دەدرەوشێتەوە کە لووس دەکرێت و زۆرجار بۆ داپۆشینی کانزای دیکە بەکاردێت بۆ ڕێگری لە ژەنگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +205,8 @@ class EnglishEntrychromium extends StatelessWidget {
                                         text:
                                             "Stainless steel contains chromium, which gives it its resistance to corrosion."),
                                     ExampleSentenceKurdish(
-                                        text: "پۆڵای بێ‌خەوش کرۆمیەمی تێدایە بۆ پێدانی خۆگری دژ بە ژەنگ."),
+                                        text:
+                                            "پۆڵای بێ‌خەوش کرۆمیەمی تێدایە بۆ پێدانی خۆگری دژ بە ژەنگ."),
                                   ],
                                 ),
                               ),
@@ -233,7 +235,7 @@ class EnglishEntrychromium extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -303,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chromium (Derived forms: chromiums)
+- Noun: chromium (derived forms: chromiums)
 1. A hard brittle multivalent metallic element; resistant to corrosion and tarnishing (= Cr, atomic number 24)
 """,
   );
@@ -337,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PjspGTX7KIA?t=',
+    videoId: 'PjspGTX7KIA',
     startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FHP2jW_McnE?t=',
+    videoId: 'FHP2jW_McnE',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4FL58UmS8pk?t=',
+    videoId: '4FL58UmS8pk',
     startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V3HuKQvRBUE?t=',
+    videoId: 'V3HuKQvRBUE',
     startSeconds: 285,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V3HuKQvRBUE?t=',
+    videoId: 'V3HuKQvRBUE',
     startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTrdMf0mxFg?t=',
+    videoId: 'pTrdMf0mxFg',
     startSeconds: 335,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vCEfdKv4mXE?t=',
+    videoId: 'vCEfdKv4mXE',
     startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bfi-IDX-QNw?t=',
+    videoId: 'bfi-IDX-QNw',
     startSeconds: 769,
     autoPlay: true,
     params: const YoutubePlayerParams(

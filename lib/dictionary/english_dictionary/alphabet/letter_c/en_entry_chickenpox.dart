@@ -196,7 +196,7 @@ class EnglishEntrychickenpox extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) نەخۆشییەک کە بەتایبەتی لەناو منداڵاندا بەربڵاوە کە دەبێتە هۆی پلەی گەرمی بەرز و خاڵی سوور لەسەر جەستە"),
+                                  "١. (ناو) نەخۆشییەک کە بەتایبەتی لەناو منداڵاندا بەربڵاوە کە دەبێتە ھۆی پلەی گەرمی بەرز و خاڵی سوور لەسەر جەستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chickenpox (Derived forms: chickenpoxes)
+- Noun: chickenpox (derived forms: chickenpoxes)
 1. An acute contagious disease caused by herpes varicella zoster virus; causes a rash of vesicles on the face and body (= varicella)
 """,
   );
@@ -368,7 +368,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OyOZOkdadYU?t=',
+    videoId: 'OyOZOkdadYU',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3Zp5S8ODu9k?t=',
+    videoId: '3Zp5S8ODu9k',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-cM0TtDt39k',
+    videoId: '-cM0TtDt39k',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fu3dOT9aP3E?t=',
+    videoId: 'Fu3dOT9aP3E',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S8cyRngqgpo?t=',
+    videoId: 'S8cyRngqgpo',
     startSeconds: 457,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nb9mvkaHL_8?t=',
+    videoId: 'nb9mvkaHL_8',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n5b9UPvXtqg?t=',
+    videoId: 'n5b9UPvXtqg',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sAwnpNCc74E?t=',
+    videoId: 'sAwnpNCc74E',
     startSeconds: 714,
     autoPlay: true,
     params: const YoutubePlayerParams(

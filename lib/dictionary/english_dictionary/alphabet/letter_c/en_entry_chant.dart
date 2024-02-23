@@ -194,7 +194,7 @@ class EnglishEntrychant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: درووشم،	هەوا، بەستە، بەند، ستران، گۆرانی، (لە دین‌دا یان بۆ کلێسە) سرود، مناجات
+کوردی: درووشم،	ھەوا، بەستە، بەند، ستران، گۆرانی، (لە دین‌دا یان بۆ کلێسە) سرود، مناجات
 """),
                           const DefinitionKurdish(
                               text:
@@ -290,7 +290,7 @@ class EnglishEntrychant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) وتنەوەی گۆرانییەک یان نزایەکی ئایینی کە تەنها چەند دێڕێکە"),
+                                  "٤. (کردار) وتنەوەی گۆرانییەک یان نزایەکی ئایینی کە تەنھا چەند دێڕێکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -400,7 +400,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chant (Derived forms: chanted, chanting, chants)
+- Verb: chant (derived forms: chanted, chanting, chants)
 1. Recite with musical intonation; recite as a chant or a psalm (= intone, intonate, cantillate [rare])
 "The rabbi chanted a prayer";
 
@@ -441,7 +441,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GvWp0B4IBpU?t=',
+    videoId: 'GvWp0B4IBpU',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fOVmbD9cGXA',
+    videoId: 'fOVmbD9cGXA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zj-dUiYYH64?t=',
+    videoId: 'Zj-dUiYYH64',
     startSeconds: 783,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XSkH-djDU-k?t=',
+    videoId: 'XSkH-djDU-k',
     startSeconds: 496,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OPEh7UWmfDc?t=',
+    videoId: 'OPEh7UWmfDc',
     startSeconds: 523,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6MIGnee5PPU?t=',
+    videoId: '6MIGnee5PPU',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FNEvLr7Cdu4?t=',
+    videoId: 'FNEvLr7Cdu4',
     startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(

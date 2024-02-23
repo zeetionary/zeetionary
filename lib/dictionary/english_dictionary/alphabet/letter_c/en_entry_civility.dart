@@ -192,10 +192,10 @@ class EnglishEntrycivility extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕەوشت، تۆرە، ماریفەت، ڕێز، حورمەت، هەڵس‌وکەوتی بە ڕێزەوە،	شارستانیەت
+کوردی: ڕەوشت، تۆرە، ماریفەت، ڕێز، حورمەت، ھەڵس‌وکەوتی بە ڕێزەوە،	شارستانیەت
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) هەڵسوکەوتی جوان"),
+                              text: "١. (ناو) ھەڵسوکەوتی جوان"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycivility extends StatelessWidget {
                                             "Staff members are trained to treat customers with civility at all times."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندامانی ستافەکە ڕادەهێنرێن کە لە هەموو کاتێکدا بەڕێزەوە مامەڵە لەگەڵ کڕیاران بکەن."),
+                                            "ئەندامانی ستافەکە ڕادەھێنرێن کە لە ھەموو کاتێکدا بەڕێزەوە مامەڵە لەگەڵ کڕیاران بکەن."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrycivility extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو لێدوانانەی کە تەنها بۆ پیشاندانی ڕێزن"),
+                                  "٢. (ناو) ئەو لێدوانانەی کە تەنھا بۆ پیشاندانی ڕێزن"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycivility extends StatelessWidget {
                                             "They didn’t waste time on civilities and got down to business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ کاتی بە پیشاندانی ڕێز بەفیڕۆ نەدا و دەستیان بە کار کرد."),
+                                            "ھیچ کاتی بە پیشاندانی ڕێز بەفیڕۆ نەدا و دەستیان بە کار کرد."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: civility (Derived forms: civilities)
+- Noun: civility (derived forms: civilities)
 1. Formal or perfunctory politeness
  
 2. The act of showing regard for others (= politeness)
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GPgT5ePgkgA?t=',
+    videoId: 'GPgT5ePgkgA',
     startSeconds: 842,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qljfObaUG2s?t=',
+    videoId: 'qljfObaUG2s',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g1Leb-GosmU?t=',
+    videoId: 'g1Leb-GosmU',
     startSeconds: 168,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y6dUI_S39iE?t=',
+    videoId: 'Y6dUI_S39iE',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-t0EiW0xSI8?t=',
+    videoId: '-t0EiW0xSI8',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cOdNVgQ0v2s?t=',
+    videoId: 'cOdNVgQ0v2s',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V370FsdnerY?t=',
+    videoId: 'V370FsdnerY',
     startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6zx-gTPpdMs?t=',
+    videoId: '6zx-gTPpdMs',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(

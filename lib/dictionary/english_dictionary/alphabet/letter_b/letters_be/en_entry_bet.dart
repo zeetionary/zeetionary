@@ -454,7 +454,7 @@ ${englishMeaningConst.text}
 3. Have faith or confidence in (= count, depend, swear, rely, bank, look, calculate, reckon)
 "You can bet on that!";
 
-- Noun: bet (Derived forms: betting, bet, bets, betted)
+- Noun: bet (derived forms: betting, bet, bets, betted)
 1. The money risked on a gamble (= stake, stakes, wager)
  
 2. An act of gambling (= wager, flutter [Brit, informal], punt [Brit, informal])

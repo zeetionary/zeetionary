@@ -198,7 +198,7 @@ class EnglishEntrycircuit extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هێڵێک، ڕێگایەک، یان گەشتێک بە دەوری شوێنێکدا"),
+                                  "١. (ناو) ھێڵێک، ڕێگایەک، یان گەشتێک بە دەوری شوێنێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,7 +268,7 @@ class EnglishEntrycircuit extends StatelessWidget {
                                             "A defect was found in the water-cooling circuit."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵەیەک دۆزرایەوە لە سیستەمی ئاو ساردکەرەوەکە."),
+                                            "ھەڵەیەک دۆزرایەوە لە سیستەمی ئاو ساردکەرەوەکە."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycircuit extends StatelessWidget {
                                             "He announced his retirement from the professional circuit last year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ساڵی ڕابردوو وازهێنانی لە یارییە فەرمییەکان ڕاگەیاند."),
+                                            "ساڵی ڕابردوو وازھێنانی لە یارییە فەرمییەکان ڕاگەیاند."),
                                   ],
                                 ),
                               ),
@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circuit (Derived forms: circuits)
+- Noun: circuit (derived forms: circuits)
 1. An electrical device that provides a path for electrical current to flow (= electrical circuit, electric circuit)
  
 2. A journey or route all the way around a particular place or area (= tour)
@@ -416,7 +416,7 @@ ${englishMeaningConst.text}
  
 7. Movement once around a course (= lap, circle)
 
-- Verb: circuit (Derived forms: circuiting, circuited, circuits)
+- Verb: circuit (derived forms: circuiting, circuited, circuits)
 1. Make a circuit
 "They were circuiting about the state"
 """,
@@ -451,7 +451,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ziViLYrf1Ak?t=',
+    videoId: 'ziViLYrf1Ak',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2nOTgCWa5r4?t=',
+    videoId: '2nOTgCWa5r4',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4G4TChPJE1o?t=',
+    videoId: '4G4TChPJE1o',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D3T1tiVcRDs?t=',
+    videoId: 'D3T1tiVcRDs',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 1013,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z-wQnWUhX5Y?t=',
+    videoId: 'z-wQnWUhX5Y',
     startSeconds: 503,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JouFO-QOD9c?t=',
+    videoId: 'JouFO-QOD9c',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1sGcL5Eeaeo?t=',
+    videoId: '1sGcL5Eeaeo',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(

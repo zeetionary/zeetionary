@@ -508,11 +508,11 @@ class EnglishEntrychoice extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەڵبژاردن، سەرپشک‌بوون،	مافی هەڵبژاردن،	پەسندکردن، دەس‌لەسەردانان، سەرپشکی،	جۆراوجۆری،	ڕێگاچارە،	هەڵبژاردە، دەستەبژێر، بەرپەسند، پەسندکراو، سەرتۆپ، یەکجارباش،	ورد
+کوردی: ھەڵبژاردن، سەرپشک‌بوون،	مافی ھەڵبژاردن،	پەسندکردن، دەس‌لەسەردانان، سەرپشکی،	جۆراوجۆری،	ڕێگاچارە،	ھەڵبژاردە، دەستەبژێر، بەرپەسند، پەسندکراو، سەرتۆپ، یەکجارباش،	ورد
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەڵبژاردن لە نێوان دوو هەڵبژاردە یان زیاتردا"),
+                                  "١. (ناو) ھەڵبژاردن لە نێوان دوو ھەڵبژاردە یان زیاتردا"),
                           Row(
                             children: [
                               const Expanded(
@@ -523,7 +523,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "We are faced with a difficult choice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووبەڕووی هەڵبژاردنی سەخت بووینەتەوە."),
+                                            "ڕووبەڕووی ھەڵبژاردنی سەخت بووینەتەوە."),
                                   ],
                                 ),
                               ),
@@ -551,7 +551,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "I am sure you have made the right choice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵنیام هەڵبژاردنێکی درووستت ئەنجام‌داوە."),
+                                            "دڵنیام ھەڵبژاردنێکی درووستت ئەنجام‌داوە."),
                                   ],
                                 ),
                               ),
@@ -582,7 +582,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "There is a wide range of choices open to you."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەڵبژاردەی زیاتر لەبەردەستە بۆت."),
+                                                    "ھەڵبژاردەی زیاتر لەبەردەستە بۆت."),
                                           ],
                                         ),
                                       ),
@@ -612,7 +612,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "Doctors have to make moral choices every day of their lives."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پزیشکان هەموو ڕۆژێکی ژیانیان دەبێت هەڵبژاردنی ئەخلاقی ئەنجام بدەن."),
+                                                    "پزیشکان ھەموو ڕۆژێکی ژیانیان دەبێت ھەڵبژاردنی ئەخلاقی ئەنجام بدەن."),
                                           ],
                                         ),
                                       ),
@@ -637,7 +637,7 @@ class EnglishEntrychoice extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) مافی هەڵبژاردن"),
+                              text: "٢. (ناو) مافی ھەڵبژاردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -648,7 +648,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "If I had the choice, I would stop working tomorrow."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر بمتوانیایە، سبەی وازم لە کارکردن دەهێنا."),
+                                            "ئەگەر بمتوانیایە، سبەی وازم لە کارکردن دەھێنا."),
                                   ],
                                 ),
                               ),
@@ -676,7 +676,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "He had no choice but to leave (= this was the only thing he could do)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هەڵبژاردەیەکی نەبوو جگە لە ڕۆشتن."),
+                                            "ھیچ ھەڵبژاردەیەکی نەبوو جگە لە ڕۆشتن."),
                                   ],
                                 ),
                               ),
@@ -707,7 +707,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "He had no choice about that."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیچ هەڵبژاردەیەکی نەبوو سەبارەت بە ئەوە."),
+                                                    "ھیچ ھەڵبژاردەیەکی نەبوو سەبارەت بە ئەوە."),
                                           ],
                                         ),
                                       ),
@@ -737,7 +737,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "Your decision leaves me with no choice but to resign."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بڕیارەکەت هیچ هەڵبژاردەیەکم بۆ ناهێڵیتەوە جگە لە دەستلەکارکێشانەوە."),
+                                                    "بڕیارەکەت ھیچ ھەڵبژاردەیەکم بۆ ناھێڵیتەوە جگە لە دەستلەکارکێشانەوە."),
                                           ],
                                         ),
                                       ),
@@ -767,7 +767,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     " I believe in freedom of choice."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "باوەڕم بە ئازادی ڕادەربڕین هەیە."),
+                                                    "باوەڕم بە ئازادی ڕادەربڕین ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -792,7 +792,7 @@ class EnglishEntrychoice extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) کەسێک یان شتێک کە هەڵبژاردەیەکە"),
+                              text: "٣. (ناو) کەسێک یان شتێک کە ھەڵبژاردەیەکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -803,7 +803,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "This colour wasn't my first choice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم ڕەنگە یەکەم هەڵبژاردەم نەبوو."),
+                                            "ئەم ڕەنگە یەکەم ھەڵبژاردەم نەبوو."),
                                   ],
                                 ),
                               ),
@@ -830,7 +830,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                         text:
                                             "She's the obvious choice for the job."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵبژاردەی ئاشکرایە بۆ کارەکە."),
+                                        text: "ھەڵبژاردەی ئاشکرایە بۆ کارەکە."),
                                   ],
                                 ),
                               ),
@@ -858,7 +858,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "Hawaii remains a popular choice for winter vacation travel."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوایی هەڵبژاردەیەکی باوە بۆ گەشتی پشووی زستانە."),
+                                            "ھاوایی ھەڵبژاردەیەکی باوە بۆ گەشتی پشووی زستانە."),
                                   ],
                                 ),
                               ),
@@ -889,7 +889,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "I don’t like his choice of friends (= the people he chooses as his friends)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "حەزم بەوە نییە کێ دەکات بە هاوڕێی."),
+                                                    "حەزم بەوە نییە کێ دەکات بە ھاوڕێی."),
                                           ],
                                         ),
                                       ),
@@ -919,7 +919,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "I think she's a very good choice for captain."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پێم‌وایە هەڵبژاردەیەکی باشە بۆ کاپتنی."),
+                                                    "پێم‌وایە ھەڵبژاردەیەکی باشە بۆ کاپتنی."),
                                           ],
                                         ),
                                       ),
@@ -949,7 +949,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "Maria defended her choice of name for the child."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ماریا بەرگری لە هەڵبژاردەکەی بۆ ناوی منداڵەکە کرد."),
+                                                    "ماریا بەرگری لە ھەڵبژاردەکەی بۆ ناوی منداڵەکە کرد."),
                                           ],
                                         ),
                                       ),
@@ -974,7 +974,7 @@ class EnglishEntrychoice extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) ئەو هەڵبژاردانەی کە بەردەستن"),
+                              text: "٤. (ناو) ئەو ھەڵبژاردانەی کە بەردەستن"),
                           Row(
                             children: [
                               const Expanded(
@@ -985,7 +985,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "The menu has a good choice of desserts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێنووەکە ژمارەیەک هەڵبژاردەی باشی لێیە."),
+                                            "مێنووەکە ژمارەیەک ھەڵبژاردەی باشی لێیە."),
                                   ],
                                 ),
                               ),
@@ -1013,7 +1013,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                             "I can't decide. There's too much choice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم بڕیار بدەم. هەڵبژاردەی زۆر هەیە."),
+                                            "ناتوانم بڕیار بدەم. ھەڵبژاردەی زۆر ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1044,7 +1044,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "Students have a free choice from a range of subjects."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "خوێندکاران هەڵبژاردەی ئازادیان هەیە لە ژمارەیەک بابەتدا."),
+                                                    "خوێندکاران ھەڵبژاردەی ئازادیان ھەیە لە ژمارەیەک بابەتدا."),
                                           ],
                                         ),
                                       ),
@@ -1074,7 +1074,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "She has a choice between three different universities."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەڵبژاردەی لە نێوان سێ زانکۆی جیاوازدا هەبوو."),
+                                                    "ھەڵبژاردەی لە نێوان سێ زانکۆی جیاوازدا ھەبوو."),
                                           ],
                                         ),
                                       ),
@@ -1104,7 +1104,7 @@ class EnglishEntrychoice extends StatelessWidget {
                                                     "The curtains come in a choice of twelve different colours."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پەردەکان ١٥ ڕەنگی جیاوازیان هەیە."),
+                                                    "پەردەکان ١٥ ڕەنگی جیاوازیان ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -1161,7 +1161,7 @@ class EnglishEntrychoice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ھاوەڵناو) زمانی توندی قسەکردن کە بە ئەنقەستە بۆ ئەوەی کاریگەری هەبێت"),
+                                  "٥. (ھاوەڵناو) زمانی توندی قسەکردن کە بە ئەنقەستە بۆ ئەوەی کاریگەری ھەبێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1271,7 +1271,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: choice (Derived forms: choices)
+- Noun: choice (derived forms: choices)
 1. The person or thing chosen or selected (= pick, selection)
 "he was my choice for mayor";
  
@@ -1281,7 +1281,7 @@ ${englishMeaningConst.text}
 3. One of a number of things from which only one can be chosen (= option, alternative)
 "my only choice is to refuse";
 
-- Adjective: choice (Derived forms: choicer, choicest)
+- Adjective: choice (derived forms: choicer, choicest)
 1. Of superior grade (= prime, prize, quality, select)
 "choice wines";
  
@@ -1319,7 +1319,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jHEPQpSKdbg?t=',
+    videoId: 'jHEPQpSKdbg',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1344,7 +1344,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U860z3rsmls?t=',
+    videoId: 'U860z3rsmls',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1369,7 +1369,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-rxnEcbyt2g?t=',
+    videoId: '-rxnEcbyt2g',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1394,7 +1394,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KEU7p8KlSVY?t=',
+    videoId: 'KEU7p8KlSVY',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1419,7 +1419,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zmEv7vTOQGE?t=',
+    videoId: 'zmEv7vTOQGE',
     startSeconds: 3566,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1444,7 +1444,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s1SaD-gSZO4?t=',
+    videoId: 's1SaD-gSZO4',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1469,7 +1469,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VwPGtn9qJZ4?t=',
+    videoId: 'VwPGtn9qJZ4',
     startSeconds: 393,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1494,7 +1494,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b0yONlMjxjs?t=',
+    videoId: 'b0yONlMjxjs',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(

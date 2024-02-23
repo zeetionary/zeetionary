@@ -355,7 +355,7 @@ class EnglishEntryclasp extends StatelessWidget {
                                             "He tried to undo the clasp on the briefcase, but it was stuck."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵیدا ئاغزوونەی جانتا دەستییەکەی، بەڵام گیربوو بوو."),
+                                            "ھەوڵیدا ئاغزوونەی جانتا دەستییەکەی، بەڵام گیربوو بوو."),
                                   ],
                                 ),
                               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clasp (Derived forms: clasping, clasps, clasped)
+- Verb: clasp (derived forms: clasping, clasps, clasped)
 1. Hold firmly and tightly
  
 2. Fasten with or as if with a brooch (= brooch)
@@ -494,7 +494,7 @@ ${englishMeaningConst.text}
 4. Grasp firmly
 "The child clasped my hands"
 
-- Noun: clasp (Derived forms: clasps)
+- Noun: clasp (derived forms: clasps)
 1. A fastener (as a buckle or hook) that is used to hold two things together
  
 2. The act of grasping (= clench, clutch, clutches, grasp, grip, hold)
@@ -531,7 +531,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xyg79qMyMIA?t=',
+    videoId: 'Xyg79qMyMIA',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZovucIW_dSM?t=',
+    videoId: 'ZovucIW_dSM',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Y-PYLUPOYA?t=',
+    videoId: '4Y-PYLUPOYA',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m84pHUEKkKw?t=',
+    videoId: 'm84pHUEKkKw',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z4L2E6_Gmkk?t=',
+    videoId: 'z4L2E6_Gmkk',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    videoId: '-CJ4eUhE3Lw',
     startSeconds: 884,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oVX5OSIw5ms?t=',
+    videoId: 'oVX5OSIw5ms',
     startSeconds: 219,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CX0XP3d0q2Q?t=',
+    videoId: 'CX0XP3d0q2Q',
     startSeconds: 358,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -731,7 +731,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GLy2rYHwUqY?t=',
+    videoId: 'GLy2rYHwUqY',
     startSeconds: 2132,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -191,11 +191,11 @@ class EnglishEntrycheetah extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاس، ورشەک، یۆزپڵنگ، چیتا
+کوردی: ھاس، ورشەک، یۆزپڵنگ، چیتا
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئاژەڵێکی کێوی کە لە خێزانی پشیلەیە و پەڵەی ڕەشی هەیە، و زۆر خێرا ڕادەکات"),
+                                  "١. (ناو) ئاژەڵێکی کێوی کە لە خێزانی پشیلەیە و پەڵەی ڕەشی ھەیە، و زۆر خێرا ڕادەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheetah (Derived forms: cheetahs)
+- Noun: cheetah (derived forms: cheetahs)
 1. Long-legged spotted cat of Africa and southwestern Asia having nonretractile claws; the swiftest mammal; can be trained to run down game (= Acinonyx jubatus)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NQUV2df8qos?t=',
+    videoId: 'NQUV2df8qos',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i8q2nqS7Nng?t=',
+    videoId: 'i8q2nqS7Nng',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NTb2Cpd6ktE?t=',
+    videoId: 'NTb2Cpd6ktE',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sT-Rxw8OhKQ?t=',
+    videoId: 'sT-Rxw8OhKQ',
     startSeconds: 168,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6vKWk6tc2zY?t=',
+    videoId: '6vKWk6tc2zY',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YALEaW8oRZk?t=',
+    videoId: 'YALEaW8oRZk',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3rizxfyHPxs?t=',
+    videoId: '3rizxfyHPxs',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IbRYzMjMCIQ?t=',
+    videoId: 'IbRYzMjMCIQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

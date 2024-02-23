@@ -198,7 +198,7 @@ class EnglishEntrychatter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زۆربڵەیی، چەقەسرۆیی، چەنەدان، قیژەقیژ، زیق‌وهەرا، گاڵەگاڵ، شەقەشەق، چۆقەچۆق
+کوردی: زۆربڵەیی، چەقەسرۆیی، چەنەدان، قیژەقیژ، زیق‌وھەرا، گاڵەگاڵ، شەقەشەق، چۆقەچۆق
 """),
                           const DefinitionKurdish(
                               text:
@@ -241,7 +241,7 @@ class EnglishEntrychatter extends StatelessWidget {
                                             "He chattered excitedly to his friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ هاوڕێکانی دەکرد."),
+                                            "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ ھاوڕێکانی دەکرد."),
                                   ],
                                 ),
                               ),
@@ -261,7 +261,7 @@ class EnglishEntrychatter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) کڕاندنی ددان بە یەکدا بەهۆی سەرما یان ترس"),
+                                  "٢. (کردار) کڕاندنی ددان بە یەکدا بەھۆی سەرما یان ترس"),
                           Row(
                             children: [
                               const Expanded(
@@ -272,7 +272,7 @@ class EnglishEntrychatter extends StatelessWidget {
                                             "Her teeth chattered as she dressed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ددانەکانی کڕەیان دەهات کە جلی لەبەردەکرد."),
+                                            "ددانەکانی کڕەیان دەھات کە جلی لەبەردەکرد."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ class EnglishEntrychatter extends StatelessWidget {
                                             "I wish you'd stop wasting time in idle chatter."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوادارم دەوەستایت لە قسەی هیچ."),
+                                            "ھیوادارم دەوەستایت لە قسەی ھیچ."),
                                   ],
                                 ),
                               ),
@@ -382,7 +382,7 @@ class EnglishEntrychatter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) دەنگی زیقی بەردەوامی هەندێک ئاژەڵ"),
+                                  "٥. (ناو) دەنگی زیقی بەردەوامی ھەندێک ئاژەڵ"),
                           Row(
                             children: [
                               const Expanded(
@@ -522,7 +522,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chatter (Derived forms: chatters, chattering, chattered)
+- Noun: chatter (derived forms: chatters, chattering, chattered)
 1. Noisy talk (= yak, yack [informal], yakety-yak, cackle, yackety-yak [informal], yatter [informal])
  
 2. The rapid series of noises made by the parts of a machine (= chattering)
@@ -574,7 +574,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hZCVt28wN00',
+    videoId: 'hZCVt28wN00',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    videoId: 'a_TSR_v07m0',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -624,7 +624,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    videoId: '-L7o6HtX8Vg',
     startSeconds: 1474,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -649,7 +649,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IM31fgkxn2I?t=',
+    videoId: 'IM31fgkxn2I',
     startSeconds: 1014,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RhWFy8fsDrc?t=',
+    videoId: 'RhWFy8fsDrc',
     startSeconds: 1028,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -699,7 +699,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JQiJu6qhOV0?t=',
+    videoId: 'JQiJu6qhOV0',
     startSeconds: 698,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -724,7 +724,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MrS07wakoJo?t=',
+    videoId: 'MrS07wakoJo',
     startSeconds: 1176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -749,7 +749,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sOwbxQQ-6Rw?t=',
+    videoId: 'sOwbxQQ-6Rw',
     startSeconds: 507,
     autoPlay: true,
     params: const YoutubePlayerParams(

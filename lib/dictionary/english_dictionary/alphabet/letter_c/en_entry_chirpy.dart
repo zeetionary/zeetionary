@@ -233,7 +233,7 @@ class EnglishEntrychirpy extends StatelessWidget {
                                             "I don't know how you always sound so chirpy in the morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تێ‌ناگەم چۆن هەمیشە بەیانییان وەها خۆشحاڵیت."),
+                                            "تێ‌ناگەم چۆن ھەمیشە بەیانییان وەھا خۆشحاڵیت."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chirpy (Derived forms: chirpiest, chirpier)
+- Adjective: chirpy (derived forms: chirpiest, chirpier)
 1. [informal] Characterized by liveliness and lightheartedness (= buoyant, perky)
 "his quick wit and chirpy humour"; "looking bright and well and chirpy";
  
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xzZH151_wXo?t=',
+    videoId: 'xzZH151_wXo',
     startSeconds: 706,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DVFBUIGfcJk?t=',
+    videoId: 'DVFBUIGfcJk',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ky3CpXwNziw?t=',
+    videoId: 'Ky3CpXwNziw',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aGOV5R7M1Js?t=',
+    videoId: 'aGOV5R7M1Js',
     startSeconds: 3383,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h8yRiY4a3BE?t=',
+    videoId: 'h8yRiY4a3BE',
     startSeconds: 408,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H2bRekkMeh4?t=',
+    videoId: 'H2bRekkMeh4',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5vjj9pL_xZg?t=',
+    videoId: '5vjj9pL_xZg',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q3Bhp76epV0?t=',
+    videoId: 'Q3Bhp76epV0',
     startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(

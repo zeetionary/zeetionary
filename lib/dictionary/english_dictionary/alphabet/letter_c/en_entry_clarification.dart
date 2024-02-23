@@ -235,7 +235,7 @@ class EnglishEntryclarification extends StatelessWidget {
                                             "Some further clarification of your position is needed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ڕوونکردنەوەی زیاتر لەسەر بۆچوونت پێویستن."),
+                                            "ھەندێک ڕوونکردنەوەی زیاتر لەسەر بۆچوونت پێویستن."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clarification (Derived forms: clarifications)
+- Noun: clarification (derived forms: clarifications)
 1. An interpretation that removes obstacles to understanding (= elucidation, illumination, éclaircissement [literary])
 "the professor's clarification helped her to understand the textbook";
  
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WC3pmpUsUmY?t=',
+    videoId: 'WC3pmpUsUmY',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1rZWKjN9E8M?t=',
+    videoId: '1rZWKjN9E8M',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5_uSZcXMV7s?t=',
+    videoId: '5_uSZcXMV7s',
     startSeconds: 301,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwodL8z2EtE?t=',
+    videoId: 'AwodL8z2EtE',
     startSeconds: 1313,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V2_2UGeGL9M?t=',
+    videoId: 'V2_2UGeGL9M',
     startSeconds: 464,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8uc3NzU7J4?t=',
+    videoId: 'T8uc3NzU7J4',
     startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uMlcnmS46SA?t=',
+    videoId: 'uMlcnmS46SA',
     startSeconds: 1326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HccZjwwfmy8?t=',
+    videoId: 'HccZjwwfmy8',
     startSeconds: 1642,
     autoPlay: true,
     params: const YoutubePlayerParams(

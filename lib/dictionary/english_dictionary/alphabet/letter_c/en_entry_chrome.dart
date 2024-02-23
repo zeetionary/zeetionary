@@ -206,7 +206,7 @@ class EnglishEntrychrome extends StatelessWidget {
                                             "The car has bright chrome trim."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکە ڕازاندنەوەی درەوشاوەی کرۆمی هەیە."),
+                                            "ئۆتۆمبێلەکە ڕازاندنەوەی درەوشاوەی کرۆمی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -305,10 +305,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chrome (Derived forms: chromes)
+- Noun: chrome (derived forms: chromes)
 1. Another word for chromium when it is used in dyes or pigments
 
-- Verb: chrome (Derived forms: chromed, chromes, chroming)
+- Verb: chrome (derived forms: chromed, chromes, chroming)
 1. Plate with chromium (= chromium-plate)
 "chrome bathroom fixtures";
  
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bxyJ0lzM6no?t=',
+    videoId: 'bxyJ0lzM6no',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/klw__WFP52w?t=',
+    videoId: 'klw__WFP52w',
     startSeconds: 552,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/15efuI37E4M?t=',
+    videoId: '15efuI37E4M',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m4LFX-RWfn4?t=',
+    videoId: 'm4LFX-RWfn4',
     startSeconds: 800,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RLV2aTCyPYA?t=',
+    videoId: 'RLV2aTCyPYA',
     startSeconds: 725,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nIEbpGdctyg?t=',
+    videoId: 'nIEbpGdctyg',
     startSeconds: 480,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0V2qtmV2JGE?t=',
+    videoId: '0V2qtmV2JGE',
     startSeconds: 190,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HqQnwfBMvNs?t=',
+    videoId: 'HqQnwfBMvNs',
     startSeconds: 288,
     autoPlay: true,
     params: const YoutubePlayerParams(

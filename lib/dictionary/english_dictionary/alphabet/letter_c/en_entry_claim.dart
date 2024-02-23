@@ -442,7 +442,7 @@ class EnglishEntryclaim extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: داواکاری، ئیدعا، داخوازی، وابێژی، داوا، ویستن،	ماف،	هۆ
+کوردی: داواکاری، ئیدعا، داخوازی، وابێژی، داوا، ویستن،	ماف،	ھۆ
 """),
                           const DefinitionKurdish(
                               text:
@@ -545,7 +545,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                                     "It was claimed that some doctors were working 80 hours a week."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بانگەشەی ئەوە دەکرا هەندێک پزیشک ٨٠ کاتژمێر لە هەفتەیەکدا کاردەکەن."),
+                                                    "بانگەشەی ئەوە دەکرا ھەندێک پزیشک ٨٠ کاتژمێر لە ھەفتەیەکدا کاردەکەن."),
                                           ],
                                         ),
                                       ),
@@ -575,7 +575,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                                     "Some critics claimed that the play was too complicated."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەندێک ڕەخنەگر بانگەشەی ئەوەیان کرد کە شانۆکە زۆر ئاڵۆز بوو."),
+                                                    "ھەندێک ڕەخنەگر بانگەشەی ئەوەیان کرد کە شانۆکە زۆر ئاڵۆز بوو."),
                                           ],
                                         ),
                                       ),
@@ -601,7 +601,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بانگەشەکردنی ئەوەی کردووە یان بەدەستهێناوە"),
+                                  "٢. (کردار) بانگەشەکردنی ئەوەی کردووە یان بەدەستھێناوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -612,7 +612,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "He claimed victory in the presidential elections before all the results were in."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرکەوتنی لە هەڵبژاردنی سەرۆکایەتی ڕاگەیاند پێش ئەوەی هەموو ئەنجامەکان دەربکەون."),
+                                            "سەرکەوتنی لە ھەڵبژاردنی سەرۆکایەتی ڕاگەیاند پێش ئەوەی ھەموو ئەنجامەکان دەربکەون."),
                                   ],
                                 ),
                               ),
@@ -660,7 +660,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) داواکردنی پارە لە حکومەت یان کۆمپانیایەک بەهۆی ئەوەی مافی ئەوەت هەیە"),
+                                  "٣. (کردار) داواکردنی پارە لە حکومەت یان کۆمپانیایەک بەھۆی ئەوەی مافی ئەوەت ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -671,7 +671,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "You might be entitled to claim compensation if you are injured at work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەری بوونی مافی قەرەبووت هەیە ئەگەر لەسەر کار بریندار بیت."),
+                                            "ئەگەری بوونی مافی قەرەبووت ھەیە ئەگەر لەسەر کار بریندار بیت."),
                                   ],
                                 ),
                               ),
@@ -699,7 +699,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "You could have claimed the cost of the hotel room from your insurance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتتوانی لە بیمەکەت داوای کرێی ژووری هوتێلەکەت بکردایە."),
+                                            "دەتتوانی لە بیمەکەت داوای کرێی ژووری ھوتێلەکەت بکردایە."),
                                   ],
                                 ),
                               ),
@@ -760,7 +760,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                                     "She is entitled to claim a deduction for travel costs."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "مافی ئەوەی هەیە داوای داشکان بۆ تێچووی هاتووچۆ بکات."),
+                                                    "مافی ئەوەی ھەیە داوای داشکان بۆ تێچووی ھاتووچۆ بکات."),
                                           ],
                                         ),
                                       ),
@@ -797,7 +797,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "The family arrived in the UK in the 1990s and claimed political asylum."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خێزانەکە لە ١٩٩٠ـەکان هاتنە بەریتانیا و داوای مافی پەنابەرێتی سیاسییان کرد."),
+                                            "خێزانەکە لە ١٩٩٠ـەکان ھاتنە بەریتانیا و داوای مافی پەنابەرێتی سیاسییان کرد."),
                                   ],
                                 ),
                               ),
@@ -825,7 +825,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "When King Richard III died, Henry VII claimed the English throne."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە ڕیچاردی سێیەم مرد، هێنریی حەوتەم داوای تەختی شاهانەی ئینگلیزی کرد."),
+                                            "کە ڕیچاردی سێیەم مرد، ھێنریی حەوتەم داوای تەختی شاھانەی ئینگلیزی کرد."),
                                   ],
                                 ),
                               ),
@@ -901,7 +901,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (کردار) کردن یان بەدەستهێنانی شتێک"),
+                              text: "٦. (کردار) کردن یان بەدەستھێنانی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -912,7 +912,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "She has finally claimed a place on the team."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆتاییدا شوێنێکی لە تیمەکە بەدەستهێناوە."),
+                                            "لە کۆتاییدا شوێنێکی لە تیمەکە بەدەستھێناوە."),
                                   ],
                                 ),
                               ),
@@ -931,7 +931,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (کردار) بوون بە هۆکاری مردنی کەسێک"),
+                              text: "٧. (کردار) بوون بە ھۆکاری مردنی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -962,7 +962,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) وتەیەک کە بانگەشەی ئەوە دەکات شتێک ڕاستە ئەگەرچی بەڵگە نییە و خەڵکی دیکە ڕەنگە باوەڕ نەکەن یان هاودەنگ نەبن"),
+                                  "٨. (ناو) وتەیەک کە بانگەشەی ئەوە دەکات شتێک ڕاستە ئەگەرچی بەڵگە نییە و خەڵکی دیکە ڕەنگە باوەڕ نەکەن یان ھاودەنگ نەبن"),
                           Row(
                             children: [
                               const Expanded(
@@ -973,7 +973,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "The company had made false claims about its products."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە بانگەشەی ناڕاستی کردووە دەربارەی بەرهەمەکانی."),
+                                            "کۆمپانیاکە بانگەشەی ناڕاستی کردووە دەربارەی بەرھەمەکانی."),
                                   ],
                                 ),
                               ),
@@ -1032,7 +1032,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                                     "Claims of corruption within the police force were denied."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بانگەشەی گەندەڵی لەناو هێزی پۆلیس نکۆڵی لێکرا."),
+                                                    "بانگەشەی گەندەڵی لەناو ھێزی پۆلیس نکۆڵی لێکرا."),
                                           ],
                                         ),
                                       ),
@@ -1062,7 +1062,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                                     "There are conflicting claims about the cause of the fire."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لێدوانی دژبەیەک هەیە لەسەر هۆکاری ئاگرەکە."),
+                                                    "لێدوانی دژبەیەک ھەیە لەسەر ھۆکاری ئاگرەکە."),
                                           ],
                                         ),
                                       ),
@@ -1118,7 +1118,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ناو) داخوازی بۆ بڕێک پارە کە پێتوایە مافت هەیە بۆی، بەتایبەتی لە حکومەت، کۆمپانیایەک، هتد"),
+                                  "٩. (ناو) داخوازی بۆ بڕێک پارە کە پێتوایە مافت ھەیە بۆی، بەتایبەتی لە حکومەت، کۆمپانیایەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1157,7 +1157,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "She brought a claim for damages against the company."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داخوازی قەرەبووی دژ بە کۆمپانیایەکە هێنایە پێشەوە."),
+                                            "داخوازی قەرەبووی دژ بە کۆمپانیایەکە ھێنایە پێشەوە."),
                                   ],
                                 ),
                               ),
@@ -1214,7 +1214,7 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ناو) مافێک کە کەسێک باوەڕی وایە لە ڕووی یاساییەوە هەیەتی بەسەر شتێکەوە"),
+                                  "١٠. (ناو) مافێک کە کەسێک باوەڕی وایە لە ڕووی یاساییەوە ھەیەتی بەسەر شتێکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1224,7 +1224,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                         text: "They had no claim on the land."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ مافێکیان بەسەر خاکەکەوە نەبوو."),
+                                            "ھیچ مافێکیان بەسەر خاکەکەوە نەبوو."),
                                   ],
                                 ),
                               ),
@@ -1252,7 +1252,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "She has more claim to the campaign's success than anybody (= she is responsible for it)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیاتر لە هەر کەسێک مافی هەیە بەسەر سەرکەوتنی کۆمپانیاکەوە."),
+                                            "زیاتر لە ھەر کەسێک مافی ھەیە بەسەر سەرکەوتنی کۆمپانیاکەوە."),
                                   ],
                                 ),
                               ),
@@ -1280,7 +1280,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                             "She renounced her claim to the property."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وازی لە مافی بەسەر زەوی‌وزارەکەوە هێنا."),
+                                            "وازی لە مافی بەسەر زەوی‌وزارەکەوە ھێنا."),
                                   ],
                                 ),
                               ),
@@ -1379,7 +1379,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: claim (Derived forms: claims, claimed, claiming)
+- Verb: claim (derived forms: claims, claimed, claiming)
 1. Assert or affirm strongly; state to be true or existing
 "He claimed that he killed the burglar"
  
@@ -1395,7 +1395,7 @@ ${englishMeaningConst.text}
 5. Take as an undesirable consequence of some event or state of affairs (= take, exact)
 "the accident claimed three lives";
 
-- Noun: claim (Derived forms: claims)
+- Noun: claim (derived forms: claims)
 1. An assertion of a right (as to money or property)
 "his claim asked for damages"
  
@@ -1444,7 +1444,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wpTpc8H0XHw?t=',
+    videoId: 'wpTpc8H0XHw',
     startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1469,7 +1469,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JuUzU2OA9R8?t=',
+    videoId: 'JuUzU2OA9R8',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1494,7 +1494,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Zax1rDO_w8?t=',
+    videoId: '2Zax1rDO_w8',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1519,7 +1519,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ok2RgRHycG8',
+    videoId: 'Ok2RgRHycG8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1544,7 +1544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1541,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1569,7 +1569,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 1040,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1594,7 +1594,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1619,7 +1619,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aAByKcPJ5NQ?t=',
+    videoId: 'aAByKcPJ5NQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

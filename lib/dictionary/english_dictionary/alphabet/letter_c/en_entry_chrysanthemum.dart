@@ -195,7 +195,7 @@ class EnglishEntrychrysanthemum extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گوڵێکی ناو باخچە کە درەوشاوە و گەورەیە و شیوەی تۆپی هەیە، و پێکهاتووە لە پەڕەی درێژ پێکهاتووە"),
+                                  "١. (ناو) گوڵێکی ناو باخچە کە درەوشاوە و گەورەیە و شیوەی تۆپی ھەیە، و پێکھاتووە لە پەڕەی درێژ پێکھاتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrychrysanthemum extends StatelessWidget {
                                             "She picked a bouquet of chrysanthemums to decorate the table."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چەپکێک گوڵە داوودی هەڵگرت بۆ ڕازاندنەوەی مێزەکە."),
+                                            "چەپکێک گوڵە داوودی ھەڵگرت بۆ ڕازاندنەوەی مێزەکە."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chrysanthemum (Derived forms: chrysanthemums)
+- Noun: chrysanthemum (derived forms: chrysanthemums)
 1. Any of numerous perennial Old World herbs having showy brightly coloured flower heads of the genera Chrysanthemum, Argyranthemum, Dendranthema, Tanacetum; widely cultivated (= mum [informal])
  
 2. The flower of a chrysanthemum plant (= mum [informal])
@@ -343,7 +343,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hUkInY9ntSg?t=',
+    videoId: 'hUkInY9ntSg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J3Q-mZvehTE?t=',
+    videoId: 'J3Q-mZvehTE',
     startSeconds: 288,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LcJbCbM4HWg?t=',
+    videoId: 'LcJbCbM4HWg',
     startSeconds: 360,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-TZFCgtOGmQ?t=',
+    videoId: '-TZFCgtOGmQ',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YBORgUKIfdo?t=',
+    videoId: 'YBORgUKIfdo',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uFK0t9DHu1Q?t=',
+    videoId: 'uFK0t9DHu1Q',
     startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C-eut_dYc3Y?t=',
+    videoId: 'C-eut_dYc3Y',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qay63Dg1Egw?t=',
+    videoId: 'Qay63Dg1Egw',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(

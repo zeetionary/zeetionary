@@ -196,7 +196,7 @@ class EnglishEntrycivilize extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) پێدانی خوێندن و پەروەردە یان باشترکردنی کۆمەڵگەیەک بۆ ئەوەی ببن بە شارستانیەت؛ باشترکردنی هەڵسوکەوتی ڕەفتاری کەسێک"),
+                                  "١. (کردار) پێدانی خوێندن و پەروەردە یان باشترکردنی کۆمەڵگەیەک بۆ ئەوەی ببن بە شارستانیەت؛ باشترکردنی ھەڵسوکەوتی ڕەفتاری کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycivilize extends StatelessWidget {
                                             "The girls in a class tend to have a civilizing influence on the boys."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان هەبێت."),
+                                            "ھەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycivilize extends StatelessWidget {
                                             "The Romans set out to civilize the Ancient Britons."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆمەکان پەلیان هاویشت بۆ بەشارستانیکردنی بەریتانییە کۆنەکان."),
+                                            "ڕۆمەکان پەلیان ھاویشت بۆ بەشارستانیکردنی بەریتانییە کۆنەکان."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: civilize (Derived forms: civilized, civilizes, civilizing)
+- Verb: civilize (derived forms: civilized, civilizes, civilizing)
 1. Teach or refine to be discriminative in taste or judgment (= educate, school, train, cultivate, civilise [Brit])
 "She is well civilized in poetry";
  
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IcMHTeKJ9E8?t=',
+    videoId: 'IcMHTeKJ9E8',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7fcqhU-23TA?t=',
+    videoId: '7fcqhU-23TA',
     startSeconds: 740,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v5DWJv1hiwM?t=',
+    videoId: 'v5DWJv1hiwM',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2ggGdFB6A_I?t=',
+    videoId: '2ggGdFB6A_I',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T9Nx3RQkAB0?t=',
+    videoId: 'T9Nx3RQkAB0',
     startSeconds: 789,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fopqgLvfv9o?t=',
+    videoId: 'fopqgLvfv9o',
     startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7ZkyL5pn74E?t=',
+    videoId: '7ZkyL5pn74E',
     startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kBGgy3zR9rA?t=',
+    videoId: 'kBGgy3zR9rA',
     startSeconds: 218,
     autoPlay: true,
     params: const YoutubePlayerParams(

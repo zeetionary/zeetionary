@@ -194,11 +194,11 @@ class EnglishEntrycheapen extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەرزان بوون، داشکاندنی نرخ
+کوردی: ھەرزان بوون، داشکاندنی نرخ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) کەمکردنەوەی بەها و ڕێزی خۆت یان کەسێکی دیکە"),
+                                  "١. (کردار) کەمکردنەوەی بەھا و ڕێزی خۆت یان کەسێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                                             "She never cheapened herself by lowering her standards."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی."),
+                                            "ھەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                                             "It just cheapens you when you make jokes like that."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە گاڵتەی لەو شێوەیە دەکەیت لە بەهای خۆت کەمدەکەیتەوە."),
+                                            "کە گاڵتەی لەو شێوەیە دەکەیت لە بەھای خۆت کەمدەکەیتەوە."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                                             "This has had the effect of cheapening UK exports."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە کاریگەری هەوەی دەبێت نرخی هەناردەی شانشینی یەکگرتوو دادەبەزێنێت."),
+                                            "ئەمە کاریگەری ھەوەی دەبێت نرخی ھەناردەی شانشینی یەکگرتوو دادەبەزێنێت."),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) وا لە شتێککردن کە نرخی کەمترە لەوەی هەیە"),
+                                  "٣. (کردار) وا لە شتێککردن کە نرخی کەمترە لەوەی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                                             "The movie was accused of cheapening human life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە بە بێ‌بەهاکردنی ژیانی مرۆڤ تەمەتبارکرا."),
+                                            "فیلمەکە بە بێ‌بەھاکردنی ژیانی مرۆڤ تەمەتبارکرا."),
                                   ],
                                 ),
                               ),
@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cheapen (Derived forms: cheapened, cheapening, cheapens)
+- Verb: cheapen (derived forms: cheapened, cheapening, cheapens)
 1. Lower the grade of something; reduce its worth (= degrade)
 "The increased production of silver after 1970 so far tended to cheapen it";
 """,
@@ -432,7 +432,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Esef5__HDXY?t=',
+    videoId: 'Esef5__HDXY',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wjoeVwJTUTA?t=',
+    videoId: 'wjoeVwJTUTA',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D4s6b1XNAaE?t=',
+    videoId: 'D4s6b1XNAaE',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zj35vRgeXLs?t=',
+    videoId: 'Zj35vRgeXLs',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l4XS-T-r4S8?t=',
+    videoId: 'l4XS-T-r4S8',
     startSeconds: 497,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/voUiWOGv8ec?t=',
+    videoId: 'voUiWOGv8ec',
     startSeconds: 366,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MQAVbwUTaYU?t=',
+    videoId: 'MQAVbwUTaYU',
     startSeconds: 1578,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +607,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O2Au0SXlATM?t=',
+    videoId: 'O2Au0SXlATM',
     startSeconds: 625,
     autoPlay: true,
     params: const YoutubePlayerParams(

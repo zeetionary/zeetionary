@@ -240,7 +240,7 @@ class EnglishEntrychip extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "All he'll eat is chips."),
                                     ExampleSentenceKurdish(
-                                        text: "هەموو ئەوەی دەیخوات پەتاتەیە."),
+                                        text: "ھەموو ئەوەی دەیخوات پەتاتەیە."),
                                   ],
                                 ),
                               ),
@@ -302,7 +302,7 @@ class EnglishEntrychip extends StatelessWidget {
                                             "He consumes vast quantities of chips with every meal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێژەیەکی زۆر لە چیپس دەخوات لەگەڵ هەر خواردنێکدا."),
+                                            "ڕێژەیەکی زۆر لە چیپس دەخوات لەگەڵ ھەر خواردنێکدا."),
                                   ],
                                 ),
                               ),
@@ -322,7 +322,7 @@ class EnglishEntrychip extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) گەیەنەری زۆر بچووک لە ئامێرە تەکنەلۆجییەکاندا کە ئەرکی تایبەتی هەیە"),
+                                  "٤. (ناو) گەیەنەری زۆر بچووک لە ئامێرە تەکنەلۆجییەکاندا کە ئەرکی تایبەتی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -390,7 +390,7 @@ class EnglishEntrychip extends StatelessWidget {
                                             "The chef used wood chips to prepare the fish."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شێفەکە تەڵاشە داری بەکارهێنا بۆ ئامادەکردنی ماسییەکە."),
+                                            "شێفەکە تەڵاشە داری بەکارھێنا بۆ ئامادەکردنی ماسییەکە."),
                                   ],
                                 ),
                               ),
@@ -410,7 +410,7 @@ class EnglishEntrychip extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) پەپکێکی پلاستیکی بچووک کە نرخێکی دیاریکراوی هەیە لە قوماردا"),
+                                  "٦. (ناو) پەپکێکی پلاستیکی بچووک کە نرخێکی دیاریکراوی ھەیە لە قوماردا"),
                           Row(
                             children: [
                               const Expanded(
@@ -421,7 +421,7 @@ class EnglishEntrychip extends StatelessWidget {
                                             "The hostages are being held as a bargaining chip by terrorist organizations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) بارمتەکان وەک داشی دامە ڕاگیردراون لەلایەن دامەزراوە تیرۆریستییەکانەوە."),
+                                            "(بەکارھێنانی خوازراوی) بارمتەکان وەک داشی دامە ڕاگیردراون لەلایەن دامەزراوە تیرۆریستییەکانەوە."),
                                   ],
                                 ),
                               ),
@@ -663,7 +663,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chip (Derived forms: chips)
+- Noun: chip (derived forms: chips)
 1. A small fragment of something broken off from the whole (= bit, flake, fleck, scrap)
 "a chip of rock caught him in the eye";
  
@@ -685,7 +685,7 @@ ${englishMeaningConst.text}
  
 10. (golf) a low running approach shot (= chip shot)
 
-- Verb: chip (Derived forms: chipping, chipped, chips)
+- Verb: chip (derived forms: chipping, chipped, chips)
 1. Break off (a piece from a whole) (= chip off, come off, break away, break off)
 "Her tooth chipped";
 
@@ -730,7 +730,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mwzJcIbdj2k?t=',
+    videoId: 'mwzJcIbdj2k',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -755,7 +755,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8IF75CnWUv4?t=',
+    videoId: '8IF75CnWUv4',
     startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -780,7 +780,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HuR7tL2eejw?t=',
+    videoId: 'HuR7tL2eejw',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -805,7 +805,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gPpAL_pG_Wc?t=',
+    videoId: 'gPpAL_pG_Wc',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -830,7 +830,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SUfjtKtkS2U?t=',
+    videoId: 'SUfjtKtkS2U',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -855,7 +855,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rEdl2Uetpvo',
+    videoId: 'rEdl2Uetpvo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -880,7 +880,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gmr41ht2Sq4?t=',
+    videoId: 'gmr41ht2Sq4',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -905,7 +905,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    videoId: '3cxHwQl9pNM',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(

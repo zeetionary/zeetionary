@@ -191,11 +191,11 @@ class EnglishEntryclairvoyance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێشزانی، پێشگۆیی، پێشبینی، داهاتووبینی، ڕۆشن‌بینی، غەیبزانی، داهاتووزانی، دووربینی
+کوردی: پێشزانی، پێشگۆیی، پێشبینی، داھاتووبینی، ڕۆشن‌بینی، غەیبزانی، داھاتووزانی، دووربینی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) توانایەک کە هەندێک کەس بانگەشەی ئەوە دەکەن هەیان بێت کە ڕێگەیان پێ دەدات پێشبینی داهاتوو بکەن یان قسە لەگەڵ کەسانی مردوو و دوور بکەن"),
+                                  "١. (ناو) توانایەک کە ھەندێک کەس بانگەشەی ئەوە دەکەن ھەیان بێت کە ڕێگەیان پێ دەدات پێشبینی داھاتوو بکەن یان قسە لەگەڵ کەسانی مردوو و دوور بکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clairvoyance (Derived forms: clairvoyances)
+- Noun: clairvoyance (derived forms: clairvoyances)
 1. Apparent power to perceive things that are not present to the senses (= second sight, extrasensory perception, E.S.P., ESP)
 """,
   );
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nsap-6QO-90?t=',
+    videoId: 'nsap-6QO-90',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y2ZDe_vGzrQ?t=',
+    videoId: 'Y2ZDe_vGzrQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ToBdcRGsqr8?t=',
+    videoId: 'ToBdcRGsqr8',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eaa5onIXG_0?t=',
+    videoId: 'eaa5onIXG_0',
     startSeconds: 1987,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dV0H159rXt8?t=',
+    videoId: 'dV0H159rXt8',
     startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LZRY7HWbXHY?t=',
+    videoId: 'LZRY7HWbXHY',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2YJvTfPRXo8?t=',
+    videoId: '2YJvTfPRXo8',
     startSeconds: 520,
     autoPlay: true,
     params: const YoutubePlayerParams(

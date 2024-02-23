@@ -239,7 +239,7 @@ class EnglishEntrycity extends StatelessWidget {
                                             "It is one of the world's most beautiful cities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکێکە لە جوانترین شارەکانی جیهان."),
+                                            "یەکێکە لە جوانترین شارەکانی جیھان."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrycity extends StatelessWidget {
                                                     "Riots occurred in all the major cities."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئاژاوە لە هەموو شارە گرنگەکان ڕوویدا."),
+                                                    "ئاژاوە لە ھەموو شارە گرنگەکان ڕوویدا."),
                                           ],
                                         ),
                                       ),
@@ -300,7 +300,7 @@ class EnglishEntrycity extends StatelessWidget {
                                                     "Mexico City has a population of more than 20 million people."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "مەکسیکۆ سیتی دانیشتووانی زیاتر لە ٢٠ ملیۆنی هەیە."),
+                                                    "مەکسیکۆ سیتی دانیشتووانی زیاتر لە ٢٠ ملیۆنی ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -325,7 +325,7 @@ class EnglishEntrycity extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) شارۆچکەیەک کە کڵێسایەکی هەیە"),
+                              text: "٢. (ناو) شارۆچکەیەک کە کڵێسایەکی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ class EnglishEntrycity extends StatelessWidget {
                                             "The city of Ely has about 15,000 inhabitants."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شاری ئێلی ١٥,٠٠٠ دانیشتووی هەیە."),
+                                            "شاری ئێلی ١٥,٠٠٠ دانیشتووی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -366,7 +366,7 @@ class EnglishEntrycity extends StatelessWidget {
                                             "The city turned out to welcome the victorious team home."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارەکە هاتنە سەر شەقامەکان بۆ پیشوازی لە تیمە براوەکەیان."),
+                                            "شارەکە ھاتنە سەر شەقامەکان بۆ پیشوازی لە تیمە براوەکەیان."),
                                   ],
                                 ),
                               ),
@@ -495,7 +495,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: city (Derived forms: cities)
+- Noun: city (derived forms: cities)
 1. A large and densely populated urban area; may include several independent administrative districts (= metropolis, urban center [US], urban centre [Brit, Cdn])
 "Ancient Troy was a great city";
 
@@ -536,7 +536,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/slqnE8IHU-o?t=',
+    videoId: 'slqnE8IHU-o',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B1wPLm0-lwA?t=',
+    videoId: 'B1wPLm0-lwA',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-xgoldjr-BI?t=',
+    videoId: '-xgoldjr-BI',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9v_eRj7ivRE?t=',
+    videoId: '9v_eRj7ivRE',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -636,7 +636,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7wfixfKQk_k?t=',
+    videoId: '7wfixfKQk_k',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -661,7 +661,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MR3Uc3HuGqE?t=',
+    videoId: 'MR3Uc3HuGqE',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -686,7 +686,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gFuEoxh5hd4?t=',
+    videoId: 'gFuEoxh5hd4',
     startSeconds: 1557,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -711,7 +711,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FD5tIIkccHY?t=',
+    videoId: 'FD5tIIkccHY',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(

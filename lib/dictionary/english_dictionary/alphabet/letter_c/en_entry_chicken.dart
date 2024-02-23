@@ -268,7 +268,7 @@ class EnglishEntrychicken extends StatelessWidget {
                                             "Battery chickens have miserable lives."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مریشکی مەسلاحە ژیانێکی ناخۆشیان هەیە."),
+                                            "مریشکی مەسلاحە ژیانێکی ناخۆشیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -356,7 +356,7 @@ class EnglishEntrychicken extends StatelessWidget {
                                                     "Fry four chicken joints in a pan with some mushrooms and garlic."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕانە مریشکەکانت لەگەڵ هەندێک قارچک و سیر ببرژێنە."),
+                                                    "ڕانە مریشکەکانت لەگەڵ ھەندێک قارچک و سیر ببرژێنە."),
                                           ],
                                         ),
                                       ),
@@ -575,7 +575,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chicken (Derived forms: chickens) 
+- Noun: chicken (derived forms: chickens) 
 1. A domestic fowl bred for flesh or eggs; believed to have been developed from the red jungle fowl (= Gallus gallus, chook [Austral, NZ, informal])
  
 2. The flesh of a chicken used for food (= poulet, volaille [archaic])
@@ -591,7 +591,7 @@ Usage: informal
 1. Easily frightened (= chickenhearted, lily-livered, white-livered, yellow, yellow-bellied [informal], chicken-livered)
 "Come back here, you couple of chicken-livered cowards";
 
-- Verb: chicken (Derived forms: chickens, chickened, chickening)
+- Verb: chicken (derived forms: chickens, chickened, chickening)
 1. Be too scared to do something (= chicken out)
 """,
   );
@@ -625,7 +625,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YJuEJH-99q4?t=',
+    videoId: 'YJuEJH-99q4',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -650,7 +650,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8hplbj8dez0?t=',
+    videoId: '8hplbj8dez0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -675,7 +675,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qlpMIwVLk4w',
+    videoId: 'qlpMIwVLk4w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -700,7 +700,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GIVw7JJ4Dj0?t=',
+    videoId: 'GIVw7JJ4Dj0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -725,7 +725,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Z-Q10x3k48?t=',
+    videoId: '1Z-Q10x3k48',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -750,7 +750,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kiv6L58cf-Q',
+    videoId: 'kiv6L58cf-Q',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -775,7 +775,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4MjGz3M7S2I?t=',
+    videoId: '4MjGz3M7S2I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -800,7 +800,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_DMF5OGm3_0',
+    videoId: '_DMF5OGm3_0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -825,7 +825,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B4c9c8aM168?t=',
+    videoId: 'B4c9c8aM168',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -850,7 +850,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OS19Iq3gD0s?t=',
+    videoId: 'OS19Iq3gD0s',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -875,7 +875,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cNo4l1KRX2E?t=',
+    videoId: 'cNo4l1KRX2E',
     startSeconds: 485,
     autoPlay: true,
     params: const YoutubePlayerParams(

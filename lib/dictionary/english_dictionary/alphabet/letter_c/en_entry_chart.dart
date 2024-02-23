@@ -199,10 +199,10 @@ class EnglishEntrychart extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نەخشە،	هێڵکاری، دیاگرام، چارت،	خشتە
+کوردی: نەخشە،	ھێڵکاری، دیاگرام، چارت،	خشتە
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) هێڵکارییەک کە زانیاری لەسەرە"),
+                              text: "١. (ناو) ھێڵکارییەک کە زانیاری لەسەرە"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntrychart extends StatelessWidget {
                                             "The charts of 138 patients with chronic heart failure were reviewed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان هەبوو پێداچوونەوەی بۆ کرا."),
+                                            "ھێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان ھەبوو پێداچوونەوەی بۆ کرا."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntrychart extends StatelessWidget {
                                             "The accompanying chart shows data for eight countries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵکارییە هاوپێچەکە داتای هەشت وڵات پیشان دەدات."),
+                                            "ھێڵکارییە ھاوپێچەکە داتای ھەشت وڵات پیشان دەدات."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrychart extends StatelessWidget {
                                             "Gas prices have risen over the past decade, as shown in the chart below."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نرخی گاز بەرزبووەتەوە لە دەیەی ڕابردوودا، وەک لە هێڵکارییەکەی خوارەوەدا پیشان دراوە."),
+                                            "نرخی گاز بەرزبووەتەوە لە دەیەی ڕابردوودا، وەک لە ھێڵکارییەکەی خوارەوەدا پیشان دراوە."),
                                   ],
                                 ),
                               ),
@@ -319,7 +319,7 @@ class EnglishEntrychart extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) لیستێک کە هەفتانە درووست دەکرێت و کە زۆرترین کۆپییان لێ درۆشراوە یان زۆرترین جار ستریم کراون"),
+                                  "٣. (ناو) لیستێک کە ھەفتانە درووست دەکرێت و کە زۆرترین کۆپییان لێ درۆشراوە یان زۆرترین جار ستریم کراون"),
                           Row(
                             children: [
                               const Expanded(
@@ -330,7 +330,7 @@ class EnglishEntrychart extends StatelessWidget {
                                             "The song topped the charts for three weeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆرانییەکە لە لیستی سەرەوەی چارتەکان بوو سێ هەفتە."),
+                                            "گۆرانییەکە لە لیستی سەرەوەی چارتەکان بوو سێ ھەفتە."),
                                   ],
                                 ),
                               ),
@@ -419,7 +419,7 @@ class EnglishEntrychart extends StatelessWidget {
                                             "The local branch of the party is meeting to chart their election campaign."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لقە خۆجێیەکەی پارتەکە کۆدەبێتەوە بۆ داڕشتنی پلانی کەمپینی هەڵبژاردنیان."),
+                                            "لقە خۆجێیەکەی پارتەکە کۆدەبێتەوە بۆ داڕشتنی پلانی کەمپینی ھەڵبژاردنیان."),
                                   ],
                                 ),
                               ),
@@ -548,7 +548,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chart (Derived forms: charts)
+- Noun: chart (derived forms: charts)
 1. A visual display of information (= graph)
  
 2. A map designed to assist navigation by air or sea
@@ -556,7 +556,7 @@ ${englishMeaningConst.text}
 3. (usually plural) a listing of best-selling recorded music
 "number 2 on the charts"
 
-- Verb: chart (Derived forms: charted, charting, charts)
+- Verb: chart (derived forms: charted, charting, charts)
 1. Make a chart of
 "chart the territory"
  
@@ -597,7 +597,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xLmtGk7Ymy8?t=',
+    videoId: 'xLmtGk7Ymy8',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NEp1K-TCmD8?t=',
+    videoId: 'NEp1K-TCmD8',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -647,7 +647,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    videoId: 'ozsgl_sLnHQ',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -672,7 +672,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gFuEoxh5hd4?t=',
+    videoId: 'gFuEoxh5hd4',
     startSeconds: 593,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -697,7 +697,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rwQeKSlY56Q?t=',
+    videoId: 'rwQeKSlY56Q',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -722,7 +722,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Oc5g70Ma1Tc?t=',
+    videoId: 'Oc5g70Ma1Tc',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -747,7 +747,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xreA0vkHMBY?t=',
+    videoId: 'xreA0vkHMBY',
     startSeconds: 1074,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -772,7 +772,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QaG_Ld89wVI?t=',
+    videoId: 'QaG_Ld89wVI',
     startSeconds: 318,
     autoPlay: true,
     params: const YoutubePlayerParams(

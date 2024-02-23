@@ -196,7 +196,7 @@ class EnglishEntrycheat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بنیادەمی گزەون، دەسبڕ،	گزەونی، گزە، فریو، خاپان، هەڵخەڵەتاندن، خاپاندن
+کوردی: بنیادەمی گزەون، دەسبڕ،	گزەونی، گزە، فریو، خاپان، ھەڵخەڵەتاندن، خاپاندن
 """),
                           const DefinitionKurdish(
                               text:
@@ -211,7 +211,7 @@ class EnglishEntrycheat extends StatelessWidget {
                                             "She is accused of attempting to cheat the taxman."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تۆمەتباری کرد بە هەوڵدان بۆ فریودانی باجگرەکە."),
+                                            "تۆمەتباری کرد بە ھەوڵدان بۆ فریودانی باجگرەکە."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycheat extends StatelessWidget {
                                             "We will crack down on people who try to cheat the system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سزای ئەو کەسانە دەدەین کە هەوڵ دەدەن فێڵ لە سیستەمەکە بکەن."),
+                                            "سزای ئەو کەسانە دەدەین کە ھەوڵ دەدەن فێڵ لە سیستەمەکە بکەن."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntrycheat extends StatelessWidget {
                                     ),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز لە تاقیکردنەوەدا گزیت کردووە؟"),
+                                            "ھەرگیز لە تاقیکردنەوەدا گزیت کردووە؟"),
                                   ],
                                 ),
                               ),
@@ -319,7 +319,7 @@ class EnglishEntrycheat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) خیانەتکردن لە هاوسەر یان دۆستەکەت بە هەبوونی سێکس لەگەڵ کەسێکی دیکە"),
+                                  "٣. (ناو) خیانەتکردن لە ھاوسەر یان دۆستەکەت بە ھەبوونی سێکس لەگەڵ کەسێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -329,7 +329,7 @@ class EnglishEntrycheat extends StatelessWidget {
                                         text: "He’s cheating on his wife."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەریکە خیانەت لە هاوسەرەکەی دەکات."),
+                                            "خەریکە خیانەت لە ھاوسەرەکەی دەکات."),
                                   ],
                                 ),
                               ),
@@ -414,7 +414,7 @@ class EnglishEntrycheat extends StatelessWidget {
                                             "You can use cocoa powder to make the cake rather than chocolate - it's a bit of a cheat, but nobody notices the difference."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت هاڕاوەی کەکاو لە جیاتی چکلێت بەکاربێنیت بۆ درووستکردنی کێکەکە، کەمێک فێڵبازییە، بەڵام کەس پێی نازانێت."),
+                                            "دەتوانیت ھاڕاوەی کەکاو لە جیاتی چکلێت بەکاربێنیت بۆ درووستکردنی کێکەکە، کەمێک فێڵبازییە، بەڵام کەس پێی نازانێت."),
                                   ],
                                 ),
                               ),
@@ -513,7 +513,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cheat (Derived forms: cheated, cheating, cheats)
+- Verb: cheat (derived forms: cheated, cheating, cheats)
 1. Engage in deceitful behaviour; practice trickery or fraud (= chisel [informal])
 "Who's cheating on the side?";
 
@@ -525,7 +525,7 @@ ${englishMeaningConst.text}
 4. Be sexually unfaithful to one's partner in marriage (= cheat on, cuckold, betray, wander)
 "She cheats on her husband";
 
-- Noun: cheat (Derived forms: cheats)
+- Noun: cheat (derived forms: cheats)
 1. Someone who obtains an advantage by unfair means, lying or breaking rules (= cheater)
  
 2. Someone who leads you to believe something that is not true (= deceiver, cheater, trickster, beguiler, slicker [informal])
@@ -571,7 +571,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t093mNvl03c',
+    videoId: 't093mNvl03c',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wizgxRBfVTY?t=',
+    videoId: 'wizgxRBfVTY',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -621,7 +621,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Se3RKA9HrzI?t=',
+    videoId: 'Se3RKA9HrzI',
     startSeconds: 528,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -646,7 +646,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xdgOrKkxKXc?t=',
+    videoId: 'xdgOrKkxKXc',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -671,7 +671,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Iwa39iZ0zHo?t=',
+    videoId: 'Iwa39iZ0zHo',
     startSeconds: 470,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -696,7 +696,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s0hY04WnlWI?t=',
+    videoId: 's0hY04WnlWI',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -721,7 +721,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -746,7 +746,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(

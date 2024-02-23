@@ -192,7 +192,7 @@ class EnglishEntrychieftain extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرۆکی هێز، سەرهۆز، سەرخێڵ، سەرعێل
+کوردی: سەرۆکی ھێز، سەرھۆز، سەرخێڵ، سەرعێل
 """),
                           const DefinitionKurdish(text: "١. (ناو) سەرۆک تیرە"),
                           Row(
@@ -224,7 +224,7 @@ class EnglishEntrychieftain extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) ئەندامێکی بەهێزی دامەزراوەیەک"),
+                              text: "٢. (ناو) ئەندامێکی بەھێزی دامەزراوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntrychieftain extends StatelessWidget {
                                             "As a chieftain of the political party, he wielded considerable influence over its policies."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک قسەڕۆشتوویەکی پارتە سیاسییەکە، کاریگەری بەرچاوی هەبوو لەسەر سیاسەتەکانی."),
+                                            "وەک قسەڕۆشتوویەکی پارتە سیاسییەکە، کاریگەری بەرچاوی ھەبوو لەسەر سیاسەتەکانی."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chieftain (Derived forms: chieftains)
+- Noun: chieftain (derived forms: chieftains)
 1. The leader of a group of people (= captain)
 "a chieftain of industry";
  
@@ -371,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d4wn7ojGyx8?t=',
+    videoId: 'd4wn7ojGyx8',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8oKYK1MPwhM?t=',
+    videoId: '8oKYK1MPwhM',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vNEd9FyG5P4?t=',
+    videoId: 'vNEd9FyG5P4',
     startSeconds: 295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ebQU7GipJcA?t=',
+    videoId: 'ebQU7GipJcA',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BusdooE10vQ?t=',
+    videoId: 'BusdooE10vQ',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UNLx326JQzE?t=',
+    videoId: 'UNLx326JQzE',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhsy66ae5Sw?t=',
+    videoId: 'Uhsy66ae5Sw',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ynQOgG7B8Ck?t=',
+    videoId: 'ynQOgG7B8Ck',
     startSeconds: 509,
     autoPlay: true,
     params: const YoutubePlayerParams(

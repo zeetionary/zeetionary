@@ -193,7 +193,7 @@ class EnglishEntrychar extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ژنێک کە کاری پاککردنەوەی خانوویەک، بینایەک، هتد"""),
+١. (ناو) ژنێک کە کاری پاککردنەوەی خانوویەک، بینایەک، ھتد"""),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrychar extends StatelessWidget {
                                             "The char came twice a week to clean the house and do the laundry."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژنە کارەکەرەکە هەفتەی دووجار دەهات بۆ پاککردنەوەی ماڵەکە و شۆردنی جلەکان."),
+                                            "ژنە کارەکەرەکە ھەفتەی دووجار دەھات بۆ پاککردنەوەی ماڵەکە و شۆردنی جلەکان."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: char (Derived forms: chars, charred, charring)
+- Verb: char (derived forms: chars, charred, charring)
 1. Burn to charcoal
 "Without a drenching rain, the forest fire will char everything"
  
@@ -371,7 +371,7 @@ ${englishMeaningConst.text}
  
 3. [Brit] Work as a charlady
 
-- Noun: char (Derived forms: chars)
+- Noun: char (derived forms: chars)
 1. A charred substance
  
 2. [Brit, informal] A human female employed to do housework (= charwoman [Brit, archaic], cleaning woman, cleaning lady, woman [informal], charlady [Brit])
@@ -413,7 +413,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gMH6bc-_zCw?t=',
+    videoId: 'gMH6bc-_zCw',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h0IPcqF2q9U?t=',
+    videoId: 'h0IPcqF2q9U',
     startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q8vNtLhdvqM?t=',
+    videoId: 'Q8vNtLhdvqM',
     startSeconds: 294,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dT5ALH3ICTc?t=',
+    videoId: 'dT5ALH3ICTc',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pb29jzOCONY?t=',
+    videoId: 'pb29jzOCONY',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tCqwT2MqLxI?t=',
+    videoId: 'tCqwT2MqLxI',
     startSeconds: 1469,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ihwAF-zahsA?t=',
+    videoId: 'ihwAF-zahsA',
     startSeconds: 1126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B4Jlofn3qZI?t=',
+    videoId: 'B4Jlofn3qZI',
     startSeconds: 507,
     autoPlay: true,
     params: const YoutubePlayerParams(

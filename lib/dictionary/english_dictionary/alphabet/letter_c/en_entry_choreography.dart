@@ -195,7 +195,7 @@ class EnglishEntrychoreography extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هونەری دانان و ڕێکخستنی هەنگاو و جوڵەکانی سەما، یان هەنگاو و جوڵەکانی سەما"),
+                                  "١. (ناو) ھونەری دانان و ڕێکخستنی ھەنگاو و جوڵەکانی سەما، یان ھەنگاو و جوڵەکانی سەما"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrychoreography extends StatelessWidget {
                                             "The movie's choreography was praised for its creativity and precision."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەمای فیلمەکە پەسندراوە بۆ داهێنەری و وردییەکەی."),
+                                            "سەمای فیلمەکە پەسندراوە بۆ داھێنەری و وردییەکەی."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: choreography (Derived forms: choreographies)
+- Noun: choreography (derived forms: choreographies)
 1. A show involving artistic dancing (= stage dancing)
  
 2. The representation of dancing by symbols as music is represented by notes
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o-QA_AQNhm8?t=',
+    videoId: 'o-QA_AQNhm8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bIoNHBwHGIc?t=',
+    videoId: 'bIoNHBwHGIc',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iMOjGp-Nnto',
+    videoId: 'iMOjGp-Nnto',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I_vGS7Po8Uk?t=',
+    videoId: 'I_vGS7Po8Uk',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qNbvu5gIVfY?t=',
+    videoId: 'qNbvu5gIVfY',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oIrY0YLFdiA?t=',
+    videoId: 'oIrY0YLFdiA',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6CNylOttACw?t=',
+    videoId: '6CNylOttACw',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jBh55COV4Oo?t=',
+    videoId: 'jBh55COV4Oo',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(

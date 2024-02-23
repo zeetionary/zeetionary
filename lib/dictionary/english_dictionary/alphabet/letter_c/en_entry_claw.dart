@@ -196,7 +196,7 @@ class EnglishEntryclaw extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چڕنووک، چنگاڵ، چنگ، کولاف، لاپوشک، نینۆک، چنجڕوک، پەنجە، چنگورک، قنار، ڕفۆک، خرمووشک، قەرمووشک؛ هەرکام لەو پاشکۆ یان چوکڵە قولاپی‌یانەی سەر پای مێروویێ،	چنگ یان چنگاڵ یان قولاپی قرژاڵ، جاڵجاڵووکە یان چومگەپایێکی تر،	قولاپ، قەلانگ 
+کوردی: چڕنووک، چنگاڵ، چنگ، کولاف، لاپوشک، نینۆک، چنجڕوک، پەنجە، چنگورک، قنار، ڕفۆک، خرمووشک، قەرمووشک؛ ھەرکام لەو پاشکۆ یان چوکڵە قولاپی‌یانەی سەر پای مێروویێ،	چنگ یان چنگاڵ یان قولاپی قرژاڵ، جاڵجاڵووکە یان چومگەپایێکی تر،	قولاپ، قەلانگ 
 """),
                           const DefinitionKurdish(
                               text:
@@ -211,7 +211,7 @@ class EnglishEntryclaw extends StatelessWidget {
                                             "The cat lashed out with its claws."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشێلەکە بە چڕنووکەکانی هێرشی کرد."),
+                                            "پشێلەکە بە چڕنووکەکانی ھێرشی کرد."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntryclaw extends StatelessWidget {
                                             "Keep your fingers away from the crab's claws when you pick it up."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەنجەکانت بەدوور بگرە لە چنگی قرژاڵەکە کە هەڵیدەگریت."),
+                                            "پەنجەکانت بەدوور بگرە لە چنگی قرژاڵەکە کە ھەڵیدەگریت."),
                                   ],
                                 ),
                               ),
@@ -290,7 +290,7 @@ class EnglishEntryclaw extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) شتێک کە بەکاردێت بۆ هەڵگرتنەوەی شت و وەک چنگی ئاژەڵانە"),
+                                  "٣. (ناو) شتێک کە بەکاردێت بۆ ھەڵگرتنەوەی شت و وەک چنگی ئاژەڵانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -301,7 +301,7 @@ class EnglishEntryclaw extends StatelessWidget {
                                             "The machine's giant claw ripped the roof off the house like it was paper."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قولاپی بەهێزی ئامێرەکە سەربانی خانووەکەی لێکردەوە وەک ئەوەی کاغەز بێت."),
+                                            "قولاپی بەھێزی ئامێرەکە سەربانی خانووەکەی لێکردەوە وەک ئەوەی کاغەز بێت."),
                                   ],
                                 ),
                               ),
@@ -321,7 +321,7 @@ class EnglishEntryclaw extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) چڕنووک هێنان بە شتێک/کەسێکدا بە چنگ یان نووخان"),
+                                  "٤. (کردار) چڕنووک ھێنان بە شتێک/کەسێکدا بە چنگ یان نووخان"),
                           Row(
                             children: [
                               const Expanded(
@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: claw (Derived forms: claws)
+- Noun: claw (derived forms: claws)
 1. Sharp curved horny process on the toe of a bird or some mammals or reptiles
  
 2. A mechanical device that is curved or bent to suspend or hold or pull something (= hook)
@@ -468,7 +468,7 @@ ${englishMeaningConst.text}
  
 4. A bird's foot
 
-- Verb: claw (Derived forms: clawed, claws, clawing)
+- Verb: claw (derived forms: clawed, claws, clawing)
 1. Move as if by clawing, seizing, or digging
 "They clawed their way to the top of the mountain"
  
@@ -511,7 +511,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WrCrJY-2gOc?t=',
+    videoId: 'WrCrJY-2gOc',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WW-drhvvHp8?t=',
+    videoId: 'WW-drhvvHp8',
     startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gijabzhrdeI',
+    videoId: 'gijabzhrdeI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lrgqj6KYyXw',
+    videoId: 'Lrgqj6KYyXw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aav66rawQw8?t=',
+    videoId: 'aav66rawQw8',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -636,7 +636,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zsAFwQheZz4?t=',
+    videoId: 'zsAFwQheZz4',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -661,7 +661,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LRl0UKKaXN0?t=',
+    videoId: 'LRl0UKKaXN0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -686,7 +686,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cfkhzz6T25w?t=',
+    videoId: 'Cfkhzz6T25w',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(

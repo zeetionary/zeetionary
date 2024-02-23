@@ -323,7 +323,7 @@ class EnglishEntrychocolate extends StatelessWidget {
                                         text:
                                             "Would you like another chocolate?"),
                                     ExampleSentenceKurdish(
-                                        text: "حەزت بە چکلێتێکی دیکە هەیە؟"),
+                                        text: "حەزت بە چکلێتێکی دیکە ھەیە؟"),
                                   ],
                                 ),
                               ),
@@ -343,7 +343,7 @@ class EnglishEntrychocolate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) خواردنەوەیەک کە بە تێکەڵکردنی چکلێتی هاڕاو و ئاوی گەرم و شیر درووست دەکرێت"),
+                                  "٣. (ناو) خواردنەوەیەک کە بە تێکەڵکردنی چکلێتی ھاڕاو و ئاوی گەرم و شیر درووست دەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chocolate (Derived forms: chocolates)
+- Noun: chocolate (derived forms: chocolates)
 1. A food made from roasted ground cacao beans, usually sweetened and eaten as dark brown solid confectionary
  
 2. A beverage made from cocoa powder and milk and sugar; usually drunk hot (= cocoa, hot chocolate, drinking chocolate, cacao)
@@ -521,7 +521,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eEwlryGOuso?t=',
+    videoId: 'eEwlryGOuso',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bA6-VEVAzCE?t=',
+    videoId: 'bA6-VEVAzCE',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3rYL27n1ulo?t=',
+    videoId: '3rYL27n1ulo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p7ofF-wIVr4?t=',
+    videoId: 'p7ofF-wIVr4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -621,7 +621,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cFvL4HLV1vw',
+    videoId: 'cFvL4HLV1vw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -646,7 +646,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9c3uGwqd1Ts?t=',
+    videoId: '9c3uGwqd1Ts',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -671,7 +671,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kPauR6tP_cg?t=',
+    videoId: 'kPauR6tP_cg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -696,7 +696,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kAsqOlHXzDg',
+    videoId: 'kAsqOlHXzDg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

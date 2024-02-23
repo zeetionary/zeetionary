@@ -195,11 +195,11 @@ class EnglishEntrycipher extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نیشانە، هێما، ڕەمز، پەرلە، شفرە، پەیامی کۆدی،	ژمارە (لە 1ەوە تا 9)، هیچ، سیفر،	مرۆ یا شتی ناگرنگ و نزم، هیچەکە
+کوردی: نیشانە، ھێما، ڕەمز، پەرلە، شفرە، پەیامی کۆدی،	ژمارە (لە 1ەوە تا 9)، ھیچ، سیفر،	مرۆ یا شتی ناگرنگ و نزم، ھیچەکە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شێوازێکی نهێنی نووسین، بەتایبەتی یەکێک کە ژمارەیەک پیت و سمبول بەکاردێن بۆ هێماکردنی ئەوانی دیکە"),
+                                  "١. (ناو) شێوازێکی نھێنی نووسین، بەتایبەتی یەکێک کە ژمارەیەک پیت و سمبول بەکاردێن بۆ ھێماکردنی ئەوانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycipher extends StatelessWidget {
                                         text:
                                             "The message was written in cipher."),
                                     ExampleSentenceKurdish(
-                                        text: "نامەکە بە هێما نووسرابوو."),
+                                        text: "نامەکە بە ھێما نووسرابوو."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycipher extends StatelessWidget {
                                             "To her employers she was a mere cipher, with no human feelings at all."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لای خاوەن کارەکانی تەنها هیچەکەیەک بووی تەواو بێ‌هەست بوو."),
+                                            "لای خاوەن کارەکانی تەنھا ھیچەکەیەک بووی تەواو بێ‌ھەست بوو."),
                                   ],
                                 ),
                               ),
@@ -259,7 +259,7 @@ class EnglishEntrycipher extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) یەکەم پیتی ناوی کەسێک کە دیزاین کراوە و بەکاردێت وەک هێمایەک"),
+                                  "٣. (ناو) یەکەم پیتی ناوی کەسێک کە دیزاین کراوە و بەکاردێت وەک ھێمایەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -270,7 +270,7 @@ class EnglishEntrycipher extends StatelessWidget {
                                             "The glasses were engraved with the Queen’s cipher."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شووشەکان هێمای شاژنیان لێ درابوو."),
+                                            "شووشەکان ھێمای شاژنیان لێ درابوو."),
                                   ],
                                 ),
                               ),
@@ -290,7 +290,7 @@ class EnglishEntrycipher extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) کەسێک یان گرووپێک خەڵک کە دەسەڵاتیان نییە و لەلایەن کەسانی دیکەوە بۆ مەبەستی خۆیان بەکاردەهێنرێن"),
+                                  "٤. (ناو) کەسێک یان گرووپێک خەڵک کە دەسەڵاتیان نییە و لەلایەن کەسانی دیکەوە بۆ مەبەستی خۆیان بەکاردەھێنرێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -330,7 +330,7 @@ class EnglishEntrycipher extends StatelessWidget {
                                             "If you have no children, enter a cipher in the space on the form."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر هیچ منداڵت نییە، ژمارە سفر دابنێ لە بۆشایی فۆرمەکەدا."),
+                                            "ئەگەر ھیچ منداڵت نییە، ژمارە سفر دابنێ لە بۆشایی فۆرمەکەدا."),
                                   ],
                                 ),
                               ),
@@ -440,7 +440,7 @@ ${englishMeaningConst.text}
  
 5. A secret method of writing (= cypher, cryptograph, secret code)
 
-- Verb: cipher (Derived forms: ciphers, ciphering, ciphered)
+- Verb: cipher (derived forms: ciphers, ciphering, ciphered)
 1. Convert ordinary language into code (= code, encipher, cypher, encrypt, inscribe, write in code)
  
 2. (mathematics) make a mathematical calculation or computation (= calculate, cypher, compute, work out, reckon, figure [N. Amer])
@@ -476,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6rE-KlhBlq4?t=',
+    videoId: '6rE-KlhBlq4',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lsv_Li2FXzw?t=',
+    videoId: 'lsv_Li2FXzw',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UzIxYdWVbm0?t=',
+    videoId: 'UzIxYdWVbm0',
     startSeconds: 538,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CX0XP3d0q2Q?t=',
+    videoId: 'CX0XP3d0q2Q',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tTJeePNgOF8?t=',
+    videoId: 'tTJeePNgOF8',
     startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zvFD5KBAb0Q?t=',
+    videoId: 'zvFD5KBAb0Q',
     startSeconds: 1049,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CwdUwevayRU?t=',
+    videoId: 'CwdUwevayRU',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -651,7 +651,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0BNEZkFDiFI?t=',
+    videoId: '0BNEZkFDiFI',
     startSeconds: 273,
     autoPlay: true,
     params: const YoutubePlayerParams(

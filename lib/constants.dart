@@ -834,7 +834,7 @@ class KurdishVocabulary extends ConsumerWidget {
           text,
           style: TextStyle(
             fontSize: textSize + 2,
-            fontWeight: FontWeight.w900,
+            fontWeight: FontWeight.w800,
           ),
           textAlign: TextAlign.right,
           textDirection: TextDirection.rtl,
@@ -851,7 +851,7 @@ class DefinitionKurdish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2;
+    final textSize = ref.watch(textSizeProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
@@ -871,7 +871,7 @@ class DefinitionKurdish extends ConsumerWidget {
         child: Text(
           text,
           style: TextStyle(
-            fontSize: textSize,
+            fontSize: textSize + 2,
             fontWeight: FontWeight.w500,
           ),
           textAlign: TextAlign.right,
@@ -1608,7 +1608,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
     // final currentTheme = ref.watch(themeNotifierProvider);
     final textSize = ref.watch(textSizeProvider);
     return Container(
-      height: 40,
+      // height: 45, // adds black and yellow lines
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded
           ? BoxDecoration(

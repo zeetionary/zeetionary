@@ -255,7 +255,7 @@ class EnglishEntrycherish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) پاراستنی بیرۆکەیەک، هیوایەک، هتد بۆ ماوەیەکی زۆر لە خەیاڵتدا"),
+                                  "٢. (کردار) پاراستنی بیرۆکەیەک، ھیوایەک، ھتد بۆ ماوەیەکی زۆر لە خەیاڵتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -294,7 +294,7 @@ class EnglishEntrycherish extends StatelessWidget {
                                             "He cherishes the hope that one day they will meet again."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو هیوایە بەزیندوویی دەهێڵێت کە ڕۆژێک یەکدی ببیننەوە."),
+                                            "ئەو ھیوایە بەزیندوویی دەھێڵێت کە ڕۆژێک یەکدی ببیننەوە."),
                                   ],
                                 ),
                               ),
@@ -393,7 +393,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cherish (Derived forms: cherished, cherishes, cherishing)
+- Verb: cherish (derived forms: cherished, cherishes, cherishing)
 1. Be fond of; be attached to (= care for, hold dear, treasure)
 "cherish their official political freedom with fierce jealousy";
 """,
@@ -428,7 +428,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BNPPMs9CvDQ?t=',
+    videoId: 'BNPPMs9CvDQ',
     startSeconds: 434,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CA6A3ZlGlH8?t=',
+    videoId: 'CA6A3ZlGlH8',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/slXoVn8AL9Y?t=',
+    videoId: 'slXoVn8AL9Y',
     startSeconds: 715,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z-Q-aCwO0bk?t=',
+    videoId: 'z-Q-aCwO0bk',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TRGHIN2PGIA?t=',
+    videoId: 'TRGHIN2PGIA',
     startSeconds: 328,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -578,7 +578,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zad6v8ZHzdg?t=',
+    videoId: 'Zad6v8ZHzdg',
     startSeconds: 1176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -603,7 +603,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RNg3Z21BQo0?t=',
+    videoId: 'RNg3Z21BQo0',
     startSeconds: 936,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -204,7 +204,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو دۆخ و ڕاستییانەی کە پەئوەندیدارن بە دۆخێک و کاریگەرییان هەیە لەسەری"),
+                                  "١. (ناو) ئەو دۆخ و ڕاستییانەی کە پەئوەندیدارن بە دۆخێک و کاریگەرییان ھەیە لەسەری"),
                           Row(
                             children: [
                               const Expanded(
@@ -215,7 +215,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                                             "Police said there were no suspicious circumstances surrounding the boy's death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس گوتی هیچ بارودۆخێکی گوماناوی نەبوو پەیوەندیدار بە گیان لەدەستدانی منداڵەکە."),
+                                            "پۆلیس گوتی ھیچ بارودۆخێکی گوماناوی نەبوو پەیوەندیدار بە گیان لەدەستدانی منداڵەکە."),
                                   ],
                                 ),
                               ),
@@ -245,7 +245,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                                             "Under normal circumstances, your white blood cells are able to fight infections."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دۆخی ئاساییدا، خڕۆکە سپییەکانی خوێنت توانایان هەیە ڕووبەڕووی تووشبوون ببنەوە."),
+                                            "لە دۆخی ئاساییدا، خڕۆکە سپییەکانی خوێنت توانایان ھەیە ڕووبەڕووی تووشبوون ببنەوە."),
                                   ],
                                 ),
                               ),
@@ -278,7 +278,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                                                     "The company reserves the right to cancel this agreement in certain circumstances."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کۆمپانیاکە بە مافی خۆی دەزانێت ئەم ڕێککەوتنە هەڵبوەشێنێتەوە لە دۆخی دیاریکراودا."),
+                                                    "کۆمپانیاکە بە مافی خۆی دەزانێت ئەم ڕێککەوتنە ھەڵبوەشێنێتەوە لە دۆخی دیاریکراودا."),
                                           ],
                                         ),
                                       ),
@@ -308,7 +308,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                                                     "I know I can trust her in any circumstance."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەزانم دەتوانم متمانەی پێبکەم لە هەر دۆخێکدا."),
+                                                    "دەزانم دەتوانم متمانەی پێبکەم لە ھەر دۆخێکدا."),
                                           ],
                                         ),
                                       ),
@@ -407,7 +407,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                                             "He had to leave the country through force of circumstance (= events made it necessary)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناچاربوو وڵاتەکە جێبهێڵێت لەژێر باری دۆخەکەدا."),
+                                            "ناچاربوو وڵاتەکە جێبھێڵێت لەژێر باری دۆخەکەدا."),
                                   ],
                                 ),
                               ),
@@ -437,7 +437,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                                             "The survivors ate plants and insects by force of circumstance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕزگاربووان ڕووەک و مێروویان خوارد لەژێر باری هەلومەرجەکەدا."),
+                                            "ڕزگاربووان ڕووەک و مێروویان خوارد لەژێر باری ھەلومەرجەکەدا."),
                                   ],
                                 ),
                               ),
@@ -538,7 +538,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circumstance (Derived forms: circumstances)
+- Noun: circumstance (derived forms: circumstances)
 1. A condition that accompanies or influences some event or activity
  
 2. The set of facts or circumstances that surround a situation or event (= context, setting)
@@ -581,7 +581,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9cyhpT0KUcE?t=',
+    videoId: '9cyhpT0KUcE',
     startSeconds: 866,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G3I--qbDfGI?t=',
+    videoId: 'G3I--qbDfGI',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5xWzr5DAhNw?t=',
+    videoId: '5xWzr5DAhNw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    videoId: 'r5cqa9V0mUo',
     startSeconds: 823,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VwPGtn9qJZ4?t=',
+    videoId: 'VwPGtn9qJZ4',
     startSeconds: 1028,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oAEJsE-TUvQ?t=',
+    videoId: 'oAEJsE-TUvQ',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -731,7 +731,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHMmniN2ovM?t=',
+    videoId: 'bHMmniN2ovM',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -756,7 +756,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1647,
     autoPlay: true,
     params: const YoutubePlayerParams(

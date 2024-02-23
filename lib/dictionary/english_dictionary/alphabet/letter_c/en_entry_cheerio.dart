@@ -29,8 +29,8 @@ class EnglishEntrycheerio extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cheerio then. See you on Wednesday."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Cheerio then. See you on Wednesday."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcheerios2(String languageCode) async {
@@ -191,7 +191,8 @@ class EnglishEntrycheerio extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١. (سەرسوڕمان) خودات لەگەڵ؛ بەکاردێت بۆ خوداحافیزی"),
+                              text:
+                                  "١. (سەرسوڕمان) خودات لەگەڵ؛ بەکاردێت بۆ خوداحافیزی"),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +202,8 @@ class EnglishEntrycheerio extends StatelessWidget {
                                         text:
                                             "Cheerio then. See you on Wednesday."),
                                     ExampleSentenceKurdish(
-                                        text: "کەواتە خوات لەگەڵ، چوارشەممە دەتبینمەوە."),
+                                        text:
+                                            "کەواتە خوات لەگەڵ، چوارشەممە دەتبینمەوە."),
                                   ],
                                 ),
                               ),
@@ -230,7 +232,7 @@ class EnglishEntrycheerio extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -300,7 +302,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheerio (Derived forms: cheerios)
+- Noun: cheerio (derived forms: cheerios)
 Usage: Brit, informal
 1. A farewell remark (= adieu, adios, arrivederci, auf wiedersehen, au revoir, bye, bye-bye, good-by [US], goodby [US], good-bye [N. Amer], goodbye, good day, sayonara [US], so long [informal], farewell)
 """,
@@ -335,7 +337,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vQtj7ARVxoM?t=',
+    videoId: 'vQtj7ARVxoM',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -360,7 +362,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3nPEkZv0-OU?t=',
+    videoId: '3nPEkZv0-OU',
     startSeconds: 133,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -385,7 +387,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kHzmFPoZbCA',
+    videoId: 'kHzmFPoZbCA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -410,7 +412,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bqQHloZVugY?t=',
+    videoId: 'bqQHloZVugY',
     startSeconds: 596,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +437,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hYGG_AyWsPI?t=',
+    videoId: 'hYGG_AyWsPI',
     startSeconds: 277,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sg06xA6c9_U?t=',
+    videoId: 'sg06xA6c9_U',
     startSeconds: 1348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +487,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yUSfn4aZZ7U?t=',
+    videoId: 'yUSfn4aZZ7U',
     startSeconds: 1779,
     autoPlay: true,
     params: const YoutubePlayerParams(

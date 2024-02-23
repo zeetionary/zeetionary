@@ -302,7 +302,7 @@ class EnglishEntrychop extends StatelessWidget {
                                                     "The country was chopped up into small administrative areas."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "(بەکارهێنانی خوازراوی) وڵاتەکە دابەشکرا بۆ ژمارەیەک لە ناوچەی بەڕێوبەرایەتی."),
+                                                    "(بەکارھێنانی خوازراوی) وڵاتەکە دابەشکرا بۆ ژمارەیەک لە ناوچەی بەڕێوبەرایەتی."),
                                           ],
                                         ),
                                       ),
@@ -338,7 +338,7 @@ class EnglishEntrychop extends StatelessWidget {
                                         text:
                                             "Their training courses are to be chopped."),
                                     ExampleSentenceKurdish(
-                                        text: "کۆرسی ڕاهێنانەکان دەوەستێنرێن."),
+                                        text: "کۆرسی ڕاھێنانەکان دەوەستێنرێن."),
                                   ],
                                 ),
                               ),
@@ -488,7 +488,7 @@ class EnglishEntrychop extends StatelessWidget {
                                             "He has the acting chops to carry a major film."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانای نواندنی هەبوو بۆ فیلمێکی گرنگ."),
+                                            "توانای نواندنی ھەبوو بۆ فیلمێکی گرنگ."),
                                   ],
                                 ),
                               ),
@@ -587,7 +587,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chop (Derived forms: chops, chopped, chopping)
+- Verb: chop (derived forms: chops, chopped, chopping)
 1. Cut into pieces with repeated blows (= chop up)
 "Chop wood"; "chop meat"; "chop up wood";
  
@@ -647,7 +647,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oWoqikXlEDw?t=',
+    videoId: 'oWoqikXlEDw',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -672,7 +672,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N8_pMgHMtPY?t=',
+    videoId: 'N8_pMgHMtPY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -697,7 +697,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/goSfIoNq3xM?t=',
+    videoId: 'goSfIoNq3xM',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -722,7 +722,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_2k-18KP_YM?t=',
+    videoId: '_2k-18KP_YM',
     startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -747,7 +747,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yEs933aETJU?t=',
+    videoId: 'yEs933aETJU',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -772,7 +772,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 425,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -797,7 +797,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rzd0mLf366I?t=',
+    videoId: 'Rzd0mLf366I',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -822,7 +822,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    videoId: 'W2hRTTTpmr8',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(

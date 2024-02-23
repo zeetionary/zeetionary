@@ -196,7 +196,7 @@ class EnglishEntrychivalry extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەڵسوکەوتی پڕ لە ڕێز و میهرەبانانە، بەتایبەتی لەلایەن پیاوەوە بۆ ژنان"),
+                                  "١. (ناو) ھەڵسوکەوتی پڕ لە ڕێز و میھرەبانانە، بەتایبەتی لەلایەن پیاوەوە بۆ ژنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrychivalry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) سیستەمی هەڵسوکەوتی سەردەمی ناوەڕاست لەلایەن سوارچاکەکانەوە کە ڕێز و میهرەبانی و بوێری دەخستە ئاستێکی بەرز"),
+                                  "٢. (ناو) سیستەمی ھەڵسوکەوتی سەردەمی ناوەڕاست لەلایەن سوارچاکەکانەوە کە ڕێز و میھرەبانی و بوێری دەخستە ئاستێکی بەرز"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chivalry (Derived forms: chivalries)
+- Noun: chivalry (derived forms: chivalries)
 1. Courtesy towards women (= gallantry)
  
 2. The medieval principles governing knighthood and knightly conduct (= knightliness)
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mxayqzHrgmE',
+    videoId: 'mxayqzHrgmE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ge8y-ckuFIA?t=',
+    videoId: 'ge8y-ckuFIA',
     startSeconds: 566,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y63dBBlHlSk?t=',
+    videoId: 'Y63dBBlHlSk',
     startSeconds: 438,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/booTTAIvKf8?t=',
+    videoId: 'booTTAIvKf8',
     startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XSXRvqGBYIo?t=',
+    videoId: 'XSXRvqGBYIo',
     startSeconds: 310,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fE50xrnJnR8?t=',
+    videoId: 'fE50xrnJnR8',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mNWLAXu6cHA?t=',
+    videoId: 'mNWLAXu6cHA',
     startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oBxFfTzXcJQ?t=',
+    videoId: 'oBxFfTzXcJQ',
     startSeconds: 1340,
     autoPlay: true,
     params: const YoutubePlayerParams(

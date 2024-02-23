@@ -195,7 +195,7 @@ class EnglishEntrycircumcision extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) خەتەنە؛ کرداری لێکردنەوەی داپۆشەری سەری چووکی کوڕێک یان پیاوێک بۆ هۆکاری ئایینی یان تەندرووستی"),
+                                  "١. (ناو) خەتەنە؛ کرداری لێکردنەوەی داپۆشەری سەری چووکی کوڕێک یان پیاوێک بۆ ھۆکاری ئایینی یان تەندرووستی"),
                           Row(
                             children: [
                               const Expanded(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circumcision (Derived forms: circumcisions)
+- Noun: circumcision (derived forms: circumcisions)
 1. The act of circumcising performed on males eight days after birth as a Jewish and Muslim religious rite
  
 2. The act of circumcising; surgical removal of the foreskin of males
@@ -346,7 +346,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GS8IrLZiIA?t=',
+    videoId: '_GS8IrLZiIA',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -371,7 +371,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UjIjU7KZw38?t=',
+    videoId: 'UjIjU7KZw38',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m-TmwP3-rYo?t=',
+    videoId: 'm-TmwP3-rYo',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JbTdkWV89Ak?t=',
+    videoId: 'JbTdkWV89Ak',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NwX5zfC0hgc?t=',
+    videoId: 'NwX5zfC0hgc',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cffELv3X1ik?t=',
+    videoId: 'cffELv3X1ik',
     startSeconds: 767,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tSfrKccioxA?t=',
+    videoId: 'tSfrKccioxA',
     startSeconds: 1417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Nqr5wBXydkQ?t=',
+    videoId: 'Nqr5wBXydkQ',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(

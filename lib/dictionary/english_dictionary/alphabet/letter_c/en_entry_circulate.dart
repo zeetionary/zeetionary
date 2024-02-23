@@ -240,7 +240,7 @@ class EnglishEntrycirculate extends StatelessWidget {
                                             "Cooled air is circulated throughout the building."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوای سارد بە بیناکەدا بڵاودەکرێتەوە."),
+                                            "ھەوای سارد بە بیناکەدا بڵاودەکرێتەوە."),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntrycirculate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بڵاوبوونەوەی چیرۆکێک، زانیارییەک، بیرۆکەیەک، هتد"),
+                                  "٢. (کردار) بڵاوبوونەوەی چیرۆکێک، زانیارییەک، بیرۆکەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -346,7 +346,7 @@ class EnglishEntrycirculate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ناردنی کەلوپەل یان زانیاری بۆ هەموو کەسانەی لە گرووپێکن"),
+                                  "٣. (کردار) ناردنی کەلوپەل یان زانیاری بۆ ھەموو کەسانەی لە گرووپێکن"),
                           Row(
                             children: [
                               const Expanded(
@@ -385,7 +385,7 @@ class EnglishEntrycirculate extends StatelessWidget {
                                             "The document will be circulated to all members."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەڵگەنامەکە بۆ هەموو ئەندامان دەنێردرێت."),
+                                            "بەڵگەنامەکە بۆ ھەموو ئەندامان دەنێردرێت."),
                                   ],
                                 ),
                               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: circulate (Derived forms: circulating, circulates, circulated)
+- Verb: circulate (derived forms: circulating, circulates, circulated)
 1. Become widely known and passed on (= go around, spread)
 "the story circulated in the office";
  
@@ -534,7 +534,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 1400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +559,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mcZdTvOqmvI?t=',
+    videoId: 'mcZdTvOqmvI',
     startSeconds: 270,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +584,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 567,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -609,7 +609,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hQT7PN4Tzsg?t=',
+    videoId: 'hQT7PN4Tzsg',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -634,7 +634,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    videoId: 'ZQvfHyfgBtA',
     startSeconds: 257,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -659,7 +659,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    videoId: 'b_rjBWmc1iQ',
     startSeconds: 1679,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -684,7 +684,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9-8pkESUztc?t=',
+    videoId: '9-8pkESUztc',
     startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -709,7 +709,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ha2mLz-Xdpg?t=',
+    videoId: 'ha2mLz-Xdpg',
     startSeconds: 240,
     autoPlay: true,
     params: const YoutubePlayerParams(

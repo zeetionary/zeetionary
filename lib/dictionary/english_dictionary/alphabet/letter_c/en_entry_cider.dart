@@ -206,7 +206,7 @@ class EnglishEntrycider extends StatelessWidget {
                                             "The cider was very strong and went straight to our heads."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سێواوەکە زۆر بەهێز بوو و ڕاستەوخۆ کاریگەری لەسەر سەرمان کرد."),
+                                            "سێواوەکە زۆر بەھێز بوو و ڕاستەوخۆ کاریگەری لەسەر سەرمان کرد."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cider (Derived forms: ciders)
+- Noun: cider (derived forms: ciders)
 1. [N. Amer] A beverage made from juice pressed from apples (= cyder)
  
 2. Alcoholic drink from fermented cider (= hard cider [N. Amer])
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-R41YFcX8e4?t=',
+    videoId: '-R41YFcX8e4',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H8xdJTa46Nc?t=',
+    videoId: 'H8xdJTa46Nc',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sMKo4shmW_Y?t=',
+    videoId: 'sMKo4shmW_Y',
     startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h7ZR9HteHrg?t=',
+    videoId: 'h7ZR9HteHrg',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xBwUwidej_w?t=',
+    videoId: 'xBwUwidej_w',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pyRLeFiS5wY?t=',
+    videoId: 'pyRLeFiS5wY',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tpVhcdpbccw?t=',
+    videoId: 'tpVhcdpbccw',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pVCOrF3gvdM?t=',
+    videoId: 'pVCOrF3gvdM',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -209,7 +209,7 @@ class EnglishEntrycivilian extends StatelessWidget {
                                             "Two soldiers and one civilian were killed in the explosion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو سەرباز و هاوڵاتییەکی مەدەنی لە تەقینەوەکەدا کوژران."),
+                                            "دوو سەرباز و ھاوڵاتییەکی مەدەنی لە تەقینەوەکەدا کوژران."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycivilian extends StatelessWidget {
                                             "Further measures are needed to protect civilians."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەنگاوی زیاتر پێویستن بۆ پاراستنی هاوڵاتییانی مەدەنی."),
+                                            "ھەنگاوی زیاتر پێویستن بۆ پاراستنی ھاوڵاتییانی مەدەنی."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrycivilian extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) پەیوەندیدار بە هاوڵاتی مەدەنی، نەک سوپا یان پۆلیس"),
+                                  "٢. (ھاوەڵناو) پەیوەندیدار بە ھاوڵاتی مەدەنی، نەک سوپا یان پۆلیس"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,7 +268,7 @@ class EnglishEntrycivilian extends StatelessWidget {
                                             "He left the army and returned to civilian life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سوپای جێهێشت و گەڕایەوە بۆ ژیانی ئاسایی."),
+                                            "سوپای جێھێشت و گەڕایەوە بۆ ژیانی ئاسایی."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycivilian extends StatelessWidget {
                                             "The bombs resulted in large numbers of civilian casualties."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆمبەکان بوونە هۆی قوربانییەکی مەدەنی زۆر."),
+                                            "بۆمبەکان بوونە ھۆی قوربانییەکی مەدەنی زۆر."),
                                   ],
                                 ),
                               ),
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
 1. Associated with civil life or performed by persons who are not active members of the military
 "civilian clothing"; "civilian life"
 
-- Noun: civilian (Derived forms: civilians)
+- Noun: civilian (derived forms: civilians)
 1. A nonmilitary citizen (= civvy [informal])
 """,
   );
@@ -433,7 +433,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rP5y8TfNa1Y',
+    videoId: 'rP5y8TfNa1Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qe4W4PvhqCk?t=',
+    videoId: 'Qe4W4PvhqCk',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PN7MI-B0CC0',
+    videoId: 'PN7MI-B0CC0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-4wOl1mE95w?t=',
+    videoId: '-4wOl1mE95w',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZCdmPfHGG9c?t=',
+    videoId: 'ZCdmPfHGG9c',
     startSeconds: 308,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 1095,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +583,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    videoId: '-L7o6HtX8Vg',
     startSeconds: 894,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -608,7 +608,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 859,
     autoPlay: true,
     params: const YoutubePlayerParams(

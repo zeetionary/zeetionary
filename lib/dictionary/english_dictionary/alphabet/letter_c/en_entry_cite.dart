@@ -196,11 +196,11 @@ class EnglishEntrycite extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ناوبردن، ناوهێنان، خوێندنەوە، گوتن
+کوردی: ناوبردن، ناوھێنان، خوێندنەوە، گوتن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) باسکردنی شتێک وەک هۆکار یان نموونە، یان بۆ پشتگیری ئەوەی کە دەیڵێیت"),
+                                  "١. (کردار) باسکردنی شتێک وەک ھۆکار یان نموونە، یان بۆ پشتگیری ئەوەی کە دەیڵێیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntrycite extends StatelessWidget {
                                             "Citing unnamed sources, the newspaper reports that the two companies are nearing a deal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ئاماژە بە سەرچاوەی ناونەهێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە."),
+                                            "بە ئاماژە بە سەرچاوەی ناونەھێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycite extends StatelessWidget {
                                             "There is no reason to doubt the information in the articles cited above."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هۆکارێک نییە گومان لەو زانیارییانە بکرێت کە لە وتارەکەی سەرەوە باسکراون."),
+                                            "ھیچ ھۆکارێک نییە گومان لەو زانیارییانە بکرێت کە لە وتارەکەی سەرەوە باسکراون."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycite extends StatelessWidget {
                                             "He cited personal reasons for his decision to resign."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاماژەی بۆ هۆکاری کەسی کرد بۆ هۆکاری دەستلەکارکێشانەوەی."),
+                                            "ئاماژەی بۆ ھۆکاری کەسی کرد بۆ ھۆکاری دەستلەکارکێشانەوەی."),
                                   ],
                                 ),
                               ),
@@ -298,7 +298,7 @@ class EnglishEntrycite extends StatelessWidget {
                                             "He cites no primary sources for his claims."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ سەرچاوەیەکی بنچینەیی نادات بۆ بانگەشەکانی."),
+                                            "ھیچ سەرچاوەیەکی بنچینەیی نادات بۆ بانگەشەکانی."),
                                   ],
                                 ),
                               ),
@@ -377,7 +377,7 @@ class EnglishEntrycite extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) ناوهێنانی کەسێک بەشێوەیەکی فەرمی یان گشتی لەبەرئەوەی شایەنی ستایشن"),
+                                  "٤. (کردار) ناوھێنانی کەسێک بەشێوەیەکی فەرمی یان گشتی لەبەرئەوەی شایەنی ستایشن"),
                           Row(
                             children: [
                               const Expanded(
@@ -485,7 +485,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-Verb: cite (Derived forms: cited, cites, citing)
+Verb: cite (derived forms: cited, cites, citing)
 1. Make reference to (= mention, advert [rare], bring up, name, refer)
  
 2. Commend (= mention)
@@ -504,7 +504,7 @@ Verb: cite (Derived forms: cited, cites, citing)
  
 7. Call in an official matter, such as to attend court (= summon, summons)
 
-- Noun: cite (Derived forms: cites)
+- Noun: cite (derived forms: cites)
 1. A short note recognizing a source of information or of a quoted passage (= citation, acknowledgment, credit, reference, mention, quotation)
 """,
   );
@@ -538,7 +538,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QiPT8MTcUTA',
+    videoId: 'QiPT8MTcUTA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iIUFBYEZvoY?t=',
+    videoId: 'iIUFBYEZvoY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7EnWiGYT1g4?t=',
+    videoId: '7EnWiGYT1g4',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wVc_ilWtA6g?t=',
+    videoId: 'wVc_ilWtA6g',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -638,7 +638,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    videoId: 'qg2nGY1aqlg',
     startSeconds: 1635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -663,7 +663,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YLmDE_JYUNU?t=',
+    videoId: 'YLmDE_JYUNU',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -688,7 +688,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y__v0aEgzO0?t=',
+    videoId: 'y__v0aEgzO0',
     startSeconds: 503,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -713,7 +713,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UOc7xdRhAAY?t=',
+    videoId: 'UOc7xdRhAAY',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(

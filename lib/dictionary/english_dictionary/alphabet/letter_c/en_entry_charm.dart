@@ -300,7 +300,7 @@ class EnglishEntrycharm extends StatelessWidget {
                                                     "The town still retains a lot of its old-world charm."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "شارۆچکەکە هێشتا ژمارەیەکی زۆر لە جوانییە کۆنەکەی پاراستووە."),
+                                                    "شارۆچکەکە ھێشتا ژمارەیەکی زۆر لە جوانییە کۆنەکەی پاراستووە."),
                                           ],
                                         ),
                                       ),
@@ -385,7 +385,7 @@ class EnglishEntrycharm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) شتێکی بچووک کە لە ملوانکەیەک یان دەستبەندێک دەبەسترێت و باوەڕ وایە بەختهێنەرە"),
+                                  "٣. (ناو) شتێکی بچووک کە لە ملوانکەیەک یان دەستبەندێک دەبەسترێت و باوەڕ وایە بەختھێنەرە"),
                           Row(
                             children: [
                               const Expanded(
@@ -396,7 +396,7 @@ class EnglishEntrycharm extends StatelessWidget {
                                             "He keeps a rabbit's paw as a lucky charm."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چنگە کەروێشکێکی پاراستووە وەک بەختهێنەرێک."),
+                                            "چنگە کەروێشکێکی پاراستووە وەک بەختھێنەرێک."),
                                   ],
                                 ),
                               ),
@@ -554,7 +554,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: charm (Derived forms: charms)
+- Noun: charm (derived forms: charms)
 1. Attractiveness that interests, pleases or stimulates (= appeal, appealingness)
 "his smile was part of his charm to her";
  
@@ -567,7 +567,7 @@ ${englishMeaningConst.text}
  
 5. A small trinket on a bracelet or necklace
 
-- Verb: charm (Derived forms: charming, charms, charmed) 
+- Verb: charm (derived forms: charming, charms, charmed) 
 1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], captivate, beguile, fascinate, bewitch, entrance, enchant)
 "She charmed all the men's hearts";
  
@@ -610,7 +610,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4KkpbFKBaKA?t=',
+    videoId: '4KkpbFKBaKA',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -635,7 +635,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jk7NYEhai0g?t=',
+    videoId: 'Jk7NYEhai0g',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -660,7 +660,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QEbYo07jLoY?t=',
+    videoId: 'QEbYo07jLoY',
     startSeconds: 932,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -685,7 +685,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2bplCvAM2Kg?t=',
+    videoId: '2bplCvAM2Kg',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -710,7 +710,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BoP86oboAdI?t=',
+    videoId: 'BoP86oboAdI',
     startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -735,7 +735,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RyeTuXdfn7s?t=',
+    videoId: 'RyeTuXdfn7s',
     startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -760,7 +760,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fJXrvl4KjWM?t=',
+    videoId: 'fJXrvl4KjWM',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -785,7 +785,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(

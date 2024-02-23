@@ -272,7 +272,7 @@ class EnglishEntrycinema extends StatelessWidget {
                                             "I used to go to the cinema every week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جاران هەموو هەفتەیەک دەچووم بۆ سینەما."),
+                                            "جاران ھەموو ھەفتەیەک دەچووم بۆ سینەما."),
                                   ],
                                 ),
                               ),
@@ -318,7 +318,7 @@ class EnglishEntrycinema extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) فیلم وەک هونەر یان پیشەسازی"),
+                              text: "٣. (ناو) فیلم وەک ھونەر یان پیشەسازی"),
                           Row(
                             children: [
                               const Expanded(
@@ -388,7 +388,7 @@ class EnglishEntrycinema extends StatelessWidget {
                                                     "These young directors in the 1960s and 1970s revolutionized cinema."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم دەرهێنەرە گەنجانەی ١٩٦٠ـەکان و ١٩٧٠ـیەکان شۆڕشیان لە سینەمادا دەستپێکرد."),
+                                                    "ئەم دەرھێنەرە گەنجانەی ١٩٦٠ـەکان و ١٩٧٠ـیەکان شۆڕشیان لە سینەمادا دەستپێکرد."),
                                           ],
                                         ),
                                       ),
@@ -523,7 +523,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cinema (Derived forms: cinemas)
+- Noun: cinema (derived forms: cinemas)
 1. A theatre where films are shown (= movie theater [US], movie theatre [N. Amer], movie house [N. Amer], picture palace [Brit, archaic], pictures [Brit], picture house [Brit], flicks [Brit, informal])
  
 2. A medium that disseminates moving pictures (= film, celluloid, big screen [informal])
@@ -563,7 +563,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7ncpPfrh7dQ?t=',
+    videoId: '7ncpPfrh7dQ',
     startSeconds: 573,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MT0ipwPCR5A?t=',
+    videoId: 'MT0ipwPCR5A',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ny3-lqCw_Eg?t=',
+    videoId: 'ny3-lqCw_Eg',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -638,7 +638,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -663,7 +663,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6N5l0sgPP5k?t=',
+    videoId: '6N5l0sgPP5k',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -688,7 +688,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kElsSj8hky4?t=',
+    videoId: 'kElsSj8hky4',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -713,7 +713,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MecVr3Bz4o0?t=',
+    videoId: 'MecVr3Bz4o0',
     startSeconds: 653,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -738,7 +738,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Xht4BiYeV0?t=',
+    videoId: '7Xht4BiYeV0',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -306,10 +306,10 @@ class EnglishEntrycheap extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەرزان، کەڵەپوور، مەلاخۆرە، هەرزان‌بایی، بازاڕی، ڕەشۆکی، کەمبایی، خۆڕایی، مفت، تاڵانی، ئاشاخە، گەن‌وگوو، ئایەخ، قرپۆک، هیچ، بێ‌نرخ، بەکارنەهاتوو، خراپ، ناکەس، سووک، چروک، گناس، هەرزە، ناحەز، ناشیرین،	بێ‌ڕەوشتانە، بێ‌ڕێزانە،	ڕژد، بەرچاوتەنگ، لەچەر،	دووڕوو، ڕووبین
+کوردی: ھەرزان، کەڵەپوور، مەلاخۆرە، ھەرزان‌بایی، بازاڕی، ڕەشۆکی، کەمبایی، خۆڕایی، مفت، تاڵانی، ئاشاخە، گەن‌وگوو، ئایەخ، قرپۆک، ھیچ، بێ‌نرخ، بەکارنەھاتوو، خراپ، ناکەس، سووک، چروک، گناس، ھەرزە، ناحەز، ناشیرین،	بێ‌ڕەوشتانە، بێ‌ڕێزانە،	ڕژد، بەرچاوتەنگ، لەچەر،	دووڕوو، ڕووبین
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) هەرزان لە ڕووی نرخەوە"),
+                              text: "١. (ھاوەڵناو) ھەرزان لە ڕووی نرخەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -320,7 +320,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                             "Their cheap prices have helped them pick up new customers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نرخە هەرزانەکانیان یارمەتی داون کڕیاری تازە کۆبکەنەوە."),
+                                            "نرخە ھەرزانەکانیان یارمەتی داون کڕیاری تازە کۆبکەنەوە."),
                                   ],
                                 ),
                               ),
@@ -348,7 +348,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                             "They're offering incredibly cheap fares to Eastern Europe."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کرێی تەواو هەرزان وەردەگرن بۆ ڕۆژهەڵاتی ئەورووپا."),
+                                            "کرێی تەواو ھەرزان وەردەگرن بۆ ڕۆژھەڵاتی ئەورووپا."),
                                   ],
                                 ),
                               ),
@@ -379,7 +379,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                                     "Cycling is a cheap way to get around."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پاسکیلسواری ڕێگایەکی هەرزانە بۆ هاتوچۆ."),
+                                                    "پاسکیلسواری ڕێگایەکی ھەرزانە بۆ ھاتوچۆ."),
                                           ],
                                         ),
                                       ),
@@ -409,7 +409,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                                     "A good education is not cheap."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "خوێندنی باش هەرزان نییە."),
+                                                    "خوێندنی باش ھەرزان نییە."),
                                           ],
                                         ),
                                       ),
@@ -439,7 +439,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                                     "Electricity is relatively cheap in Ireland."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کارەبا تاڕادەیەک هەرزانە لە ئێرلەندا."),
+                                                    "کارەبا تاڕادەیەک ھەرزانە لە ئێرلەندا."),
                                           ],
                                         ),
                                       ),
@@ -474,7 +474,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                         text:
                                             "It's a good restaurant, and incredibly cheap."),
                                     ExampleSentenceKurdish(
-                                        text: "چێشتخانەیەکی باشە و هەرزانیشە."),
+                                        text: "چێشتخانەیەکی باشە و ھەرزانیشە."),
                                   ],
                                 ),
                               ),
@@ -502,7 +502,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                             "Italy was a very cheap country to visit in those days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو ڕۆژانە ئیتالیا وڵاتێکی هەرزان بوو بۆ سەردانکردن."),
+                                            "ئەو ڕۆژانە ئیتالیا وڵاتێکی ھەرزان بوو بۆ سەردانکردن."),
                                   ],
                                 ),
                               ),
@@ -521,7 +521,7 @@ class EnglishEntrycheap extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) هەرزان و خراپ"),
+                              text: "٣. (ناو) ھەرزان و خراپ"),
                           Row(
                             children: [
                               const Expanded(
@@ -531,7 +531,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                         text:
                                             "It was just a bottle of cheap perfume."),
                                     ExampleSentenceKurdish(
-                                        text: "بوتڵێک لە بۆنی هەرزان بوو."),
+                                        text: "بوتڵێک لە بۆنی ھەرزان بوو."),
                                   ],
                                 ),
                               ),
@@ -559,7 +559,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                             "He bought some cheap shoes that fell apart after a couple of months."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک پێڵاوی هەرزانی کڕی کە پاش چەند مانگێک دڕان."),
+                                            "ھەندێک پێڵاوی ھەرزانی کڕی کە پاش چەند مانگێک دڕان."),
                                   ],
                                 ),
                               ),
@@ -587,7 +587,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                             "They sold cheap and nasty watches at hugely inflated prices."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاتژمێری هەرزان و خراپیان دەفرۆشت بە نرخی زۆر بەرز."),
+                                            "کاتژمێری ھەرزان و خراپیان دەفرۆشت بە نرخی زۆر بەرز."),
                                   ],
                                 ),
                               ),
@@ -617,7 +617,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                             "I wish you'd stop making cheap jokes about my friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوادارم بوەستی لە گاڵتەی لەم شێوەیە لەسەر هاوڕێیەکانم."),
+                                            "ھیوادارم بوەستی لە گاڵتەی لەم شێوەیە لەسەر ھاوڕێیەکانم."),
                                   ],
                                 ),
                               ),
@@ -646,7 +646,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He's just a cheap crook."),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها ناپەسەندێکی ناکەسە."),
+                                        text: "تەنھا ناپەسەندێکی ناکەسە."),
                                   ],
                                 ),
                               ),
@@ -674,7 +674,7 @@ class EnglishEntrycheap extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Don't be so cheap!"),
                                     ExampleSentenceKurdish(
-                                        text: "هێندە ڕەزیل مەبە!"),
+                                        text: "ھێندە ڕەزیل مەبە!"),
                                   ],
                                 ),
                               ),
@@ -801,7 +801,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cheap (Derived forms: cheaper, cheapest)
+- Adjective: cheap (derived forms: cheaper, cheapest)
 1. Relatively low in price or charging low prices (= inexpensive, budget)
 "it would have been cheap at twice the price";
  
@@ -843,7 +843,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4XblDJgEBII?t=',
+    videoId: '4XblDJgEBII',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -868,7 +868,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t4Y1tOKp-q8?t=',
+    videoId: 't4Y1tOKp-q8',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -893,7 +893,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2BGJ-YC4Wbw?t=',
+    videoId: '2BGJ-YC4Wbw',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -918,7 +918,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mCn-umV3s0c',
+    videoId: 'mCn-umV3s0c',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -943,7 +943,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fIGrCHxnkRU?t=',
+    videoId: 'fIGrCHxnkRU',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -968,7 +968,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4m_atLYfd-Y?t=',
+    videoId: '4m_atLYfd-Y',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -993,7 +993,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8uIsbRaArvk?t=',
+    videoId: '8uIsbRaArvk',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1018,7 +1018,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dPZmcCRD0Kw?t=',
+    videoId: 'dPZmcCRD0Kw',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(

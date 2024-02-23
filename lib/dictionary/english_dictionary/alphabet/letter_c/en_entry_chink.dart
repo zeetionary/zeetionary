@@ -194,7 +194,7 @@ class EnglishEntrychink extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: درز، قەڵەش، کەل، کەلەبەر، تڵیش، کەلێن، قەڵەشت، ترەک، زرنگە، زرنگەزرنگ، زرنگ‌وهۆڕ، خرم‌وهۆڕ، شەقەشەق، خڕەخڕ
+کوردی: درز، قەڵەش، کەل، کەلەبەر، تڵیش، کەلێن، قەڵەشت، ترەک، زرنگە، زرنگەزرنگ، زرنگ‌وھۆڕ، خرم‌وھۆڕ، شەقەشەق، خڕەخڕ
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntrychink extends StatelessWidget {
                                             "I peered through a chink in the curtains and saw them all inside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کەلێنێکی پەردەکەوە سەیرم کرد و هەموویانم بینی."),
+                                            "لە کەلێنێکی پەردەکەوە سەیرم کرد و ھەموویانم بینی."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrychink extends StatelessWidget {
                                             "I noticed a chink of light under the door."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستم بە کەمێک ڕۆشنایی کرد لە ژێر دەرگاکەدا."),
+                                            "ھەستم بە کەمێک ڕۆشنایی کرد لە ژێر دەرگاکەدا."),
                                   ],
                                 ),
                               ),
@@ -401,14 +401,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chink (Derived forms: chinks)
+- Noun: chink (derived forms: chinks)
 1. A narrow opening as e.g. between planks in a wall
  
 2. A short light metallic sound (= click, clink)
  
 3. [offensive] (ethnic slur) a person of Chinese descent
 
-- Verb: chink (Derived forms: chinks, chinking, chinked)
+- Verb: chink (derived forms: chinks, chinking, chinked)
 1. Make or emit a high sound (= tinkle, tink, clink)
 "chinking bells";
  
@@ -448,7 +448,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HAnw168huqA?t=',
+    videoId: 'HAnw168huqA',
     startSeconds: 3421,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-UY-KkPY3vc?t=',
+    videoId: '-UY-KkPY3vc',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oqckZAzU3GA?t=',
+    videoId: 'oqckZAzU3GA',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VFoUXFxmnSM?t=',
+    videoId: 'VFoUXFxmnSM',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VzonTHZSaq0?t=',
+    videoId: 'VzonTHZSaq0',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cq02zqJlibw?t=',
+    videoId: 'Cq02zqJlibw',
     startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BFrBr8oUVXU?t=',
+    videoId: 'BFrBr8oUVXU',
     startSeconds: 3110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eAd5TbVsfAk?t=',
+    videoId: 'eAd5TbVsfAk',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(

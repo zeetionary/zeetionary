@@ -208,7 +208,7 @@ class EnglishEntrychin extends StatelessWidget {
                                             "A strap fastens under the chin to keep the helmet in place."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەستێک لە خوارەوەی چەناگە دەبەسترێت بۆ هێشتنەوەی کڵاوەکە لە جێگای خۆی."),
+                                            "بەستێک لە خوارەوەی چەناگە دەبەسترێت بۆ ھێشتنەوەی کڵاوەکە لە جێگای خۆی."),
                                   ],
                                 ),
                               ),
@@ -362,13 +362,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chin (Derived forms: chins)
+- Noun: chin (derived forms: chins)
 1. The protruding part of the lower jaw (= mentum)
 
-- Verb: chin (Derived forms: chins, chinning, chinned)
+- Verb: chin (derived forms: chins, chinning, chinned)
 1. (gymnastics) raise oneself while hanging from one's hands until one's chin is level with the support bar (= chin up)
 
-- Noun: Chin (Derived forms: Chins)
+- Noun: Chin (derived forms: Chins)
 1. Kamarupan languages spoken in western Burma and Bangladesh and easternmost India (= Kuki, Kuki-Chin, Kuki language, Kuki-Chin language, Chin language)
 
 - Noun: Ch'in
@@ -405,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5GiPV_nIAh0',
+    videoId: '5GiPV_nIAh0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Img7XhTZhxg',
+    videoId: 'Img7XhTZhxg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MWwYjyIKrA8?t=',
+    videoId: 'MWwYjyIKrA8',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pu2ojEYK6Tk?t=',
+    videoId: 'pu2ojEYK6Tk',
     startSeconds: 1588,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PRM7pT-Yric?t=',
+    videoId: 'PRM7pT-Yric',
     startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X2Ppp8wPdP4?t=',
+    videoId: 'X2Ppp8wPdP4',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UHvIaMSH-GI?t=',
+    videoId: 'UHvIaMSH-GI',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uwkj_HmWOZ0?t=',
+    videoId: 'uwkj_HmWOZ0',
     startSeconds: 1241,
     autoPlay: true,
     params: const YoutubePlayerParams(

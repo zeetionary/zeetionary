@@ -192,7 +192,7 @@ class EnglishEntrycitizenship extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاووڵاتێتی، هاونیشتمانێتی، شارمەندی
+کوردی: ھاووڵاتێتی، ھاونیشتمانێتی، شارمەندی
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycitizenship extends StatelessWidget {
                                             "They were granted full French citizenship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مافی تەواوی هاوڵاتیبوونی فەرەنسایان پێدرا."),
+                                            "مافی تەواوی ھاوڵاتیبوونی فەرەنسایان پێدرا."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycitizenship extends StatelessWidget {
                                             "You can apply for citizenship after five years' residency."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت داوای مافی هاوڵاتیبوون بکەیت لەدوای پێنج ساڵ بوون بە دانیشتوو."),
+                                            "دەتوانیت داوای مافی ھاوڵاتیبوون بکەیت لەدوای پێنج ساڵ بوون بە دانیشتوو."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: citizenship (Derived forms: citizenships)
+- Noun: citizenship (derived forms: citizenships)
 1. (law) the status of a citizen with rights and duties
  
 2. Conduct as a citizen
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d3AVJvTtUlA?t=',
+    videoId: 'd3AVJvTtUlA',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6ZOhjDtj0eQ?t=',
+    videoId: '6ZOhjDtj0eQ',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aciNzIPVFLg?t=',
+    videoId: 'aciNzIPVFLg',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w4XAyw-WoeM?t=',
+    videoId: 'w4XAyw-WoeM',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A5exITMQopg?t=',
+    videoId: 'A5exITMQopg',
     startSeconds: 566,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 1315,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/COD9hcTpGWQ?t=',
+    videoId: 'COD9hcTpGWQ',
     startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/658YZO_CmOk?t=',
+    videoId: '658YZO_CmOk',
     startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -213,7 +213,7 @@ class EnglishEntrycivil extends StatelessWidget {
                                             "There were concerns that the economic reforms might lead to civil unrest."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیگەرانی هەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە هۆی ئاڵۆزی هاوڵاتییان."),
+                                            "نیگەرانی ھەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە ھۆی ئاڵۆزی ھاوڵاتییان."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntrycivil extends StatelessWidget {
                                             "Helicopters are mainly used for military rather than civil use."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێلیکۆپتەر زۆرجار بۆ بەکارهێنانی سەربازییە نەک مەدەنی."),
+                                            "ھێلیکۆپتەر زۆرجار بۆ بەکارھێنانی سەربازییە نەک مەدەنی."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycivil extends StatelessWidget {
                                             "After ten years of military dictatorship, the country now has a civil government."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دوای ١٠ ساڵ لە دیکتاتۆریەتی سەربازی، وڵاتەکە لەکۆتاییدا حکومەتێکی مەدەنی هەیە."),
+                                            "لە دوای ١٠ ساڵ لە دیکتاتۆریەتی سەربازی، وڵاتەکە لەکۆتاییدا حکومەتێکی مەدەنی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntrycivil extends StatelessWidget {
                                             "We weren't married in church, but we had a civil ceremony in a registry office."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کڵێسا هاوسەرگیریمان نەکرد، بەڵکو بۆنەیەکی حکومیمان هەبوو لە ئۆفیسێکی تۆمار."),
+                                            "لە کڵێسا ھاوسەرگیریمان نەکرد، بەڵکو بۆنەیەکی حکومیمان ھەبوو لە ئۆفیسێکی تۆمار."),
                                   ],
                                 ),
                               ),
@@ -379,7 +379,7 @@ class EnglishEntrycivil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) بەڕێز بە شێوەیەکی فەرمی بەڵام هاوڕێیانە نا"),
+                                  "٤. (ھاوەڵناو) بەڕێز بە شێوەیەکی فەرمی بەڵام ھاوڕێیانە نا"),
                           Row(
                             children: [
                               const Expanded(
@@ -390,7 +390,7 @@ class EnglishEntrycivil extends StatelessWidget {
                                             "The less time I have to spend being civil to him the better!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چەندە کەمتر هەوڵ بدەم بەڕێز بم لەگەڵیدا باشترە."),
+                                            "چەندە کەمتر ھەوڵ بدەم بەڕێز بم لەگەڵیدا باشترە."),
                                   ],
                                 ),
                               ),
@@ -567,7 +567,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FssJcjOIB7A?t=',
+    videoId: 'FssJcjOIB7A',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uKXIvfQnYEY?t=',
+    videoId: 'uKXIvfQnYEY',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +617,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5VOAxLuS5g?t=',
+    videoId: 'r5VOAxLuS5g',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r11l4x-lmjo?t=',
+    videoId: 'r11l4x-lmjo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VFj8AOqO46Q?t=',
+    videoId: 'VFj8AOqO46Q',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1036,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -717,7 +717,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
+    videoId: 'fn--IVarumw',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -742,7 +742,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zpFB2q_3pJo?t=',
+    videoId: 'zpFB2q_3pJo',
     startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(

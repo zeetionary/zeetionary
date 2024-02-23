@@ -191,7 +191,7 @@ class EnglishEntrychargrill extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ئامادەکردنی گۆشت، ماسی، هتد لەسەر ئاگرێکی زۆر گەرم بەشێوەیەک کەمێک بسووتێت"""),
+١. (ناو) ئامادەکردنی گۆشت، ماسی، ھتد لەسەر ئاگرێکی زۆر گەرم بەشێوەیەک کەمێک بسووتێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrychargrill extends StatelessWidget {
                                             "We can chargrill a few steaks for dinner."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانین هەندێک پارچە گۆشت بۆ نانی ئێوارە سووربکەینەوە."),
+                                            "دەتوانین ھەندێک پارچە گۆشت بۆ نانی ئێوارە سووربکەینەوە."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chargrill (Derived forms: chargrills, chargrilling, chargrilled)
+- Verb: chargrill (derived forms: chargrills, chargrilling, chargrilled)
 Usage: Brit
 1. Cook over a charcoal fire (= charbroil [N. Amer])
 """,
@@ -336,7 +336,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AVRltPV1VQE?t=',
+    videoId: 'AVRltPV1VQE',
     startSeconds: 545,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -361,7 +361,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4JkeUHpM79w?t=',
+    videoId: '4JkeUHpM79w',
     startSeconds: 533,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -386,7 +386,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GJQjmG0q04E?t=',
+    videoId: 'GJQjmG0q04E',
     startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -411,7 +411,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tDjsEB-W4E8?t=',
+    videoId: 'tDjsEB-W4E8',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -436,7 +436,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bnV14saYG2w?t=',
+    videoId: 'bnV14saYG2w',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QI47-ZaaBJE?t=',
+    videoId: 'QI47-ZaaBJE',
     startSeconds: 910,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTazIWQ1xcY?t=',
+    videoId: 'rTazIWQ1xcY',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HqA8ihW7CpU?t=',
+    videoId: 'HqA8ihW7CpU',
     startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(

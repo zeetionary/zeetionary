@@ -462,7 +462,7 @@ class EnglishEntryclash extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەریەک‌کەوتن، لێک‌کەوتن، لێک‌دران، پێک‌کەوتن، تێک‌هەڵچوون، ڕووبەڕووبوونەوە، بەگژیەک‌داچوون،	مشت‌ومڕ، جوڕڕە، مشەرعێن، شەڕەقسە، دەمەقڕە،	شەڕ، شەڕوکێشە، ململانێ، پێک‌هەڵپڕژان، پێکادان، ئامبازئاوقەی یەک‌بوون، کێشمەکێش،	دژایەتی، دژبەری، جیاوازی، ناکۆکی، ناڕەزایەتی،	هاوکاتی، هەڤدەمی، پێکەوەروودان،	ناسازی،	(دەنگ) زرنگە، چەکەچەک، شەقەشەق، تەق‌وکوت، دەنگی لێک‌کەوتن یا شکان
+کوردی: بەریەک‌کەوتن، لێک‌کەوتن، لێک‌دران، پێک‌کەوتن، تێک‌ھەڵچوون، ڕووبەڕووبوونەوە، بەگژیەک‌داچوون،	مشت‌ومڕ، جوڕڕە، مشەرعێن، شەڕەقسە، دەمەقڕە،	شەڕ، شەڕوکێشە، ململانێ، پێک‌ھەڵپڕژان، پێکادان، ئامبازئاوقەی یەک‌بوون، کێشمەکێش،	دژایەتی، دژبەری، جیاوازی، ناکۆکی، ناڕەزایەتی،	ھاوکاتی، ھەڤدەمی، پێکەوەروودان،	ناسازی،	(دەنگ) زرنگە، چەکەچەک، شەقەشەق، تەق‌وکوت، دەنگی لێک‌کەوتن یا شکان
 """),
                           const DefinitionKurdish(
                               text:
@@ -505,7 +505,7 @@ class EnglishEntryclash extends StatelessWidget {
                                             "Eight people were wounded in a clash with border guards."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەشت کەس بریندار بوون لە پێکدادان لەگەڵ پاسەوانە سنوورییەکاندا."),
+                                            "ھەشت کەس بریندار بوون لە پێکدادان لەگەڵ پاسەوانە سنوورییەکاندا."),
                                   ],
                                 ),
                               ),
@@ -525,7 +525,7 @@ class EnglishEntryclash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) مشتومڕ لە نێوان دوو کەس یان گرووپێک لە خەڵکیدا کە بیرۆکە و باوەڕی جیایان هەیە"),
+                                  "٢. (ناو) مشتومڕ لە نێوان دوو کەس یان گرووپێک لە خەڵکیدا کە بیرۆکە و باوەڕی جیایان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -536,7 +536,7 @@ class EnglishEntryclash extends StatelessWidget {
                                             "There has been a head-on clash between the two candidates over education policy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مشتومڕی ڕووبەڕوو لەنێوان دوو کاندیدەکەدا هەبووە لەسەر سیاسەتی پەروەردە."),
+                                            "مشتومڕی ڕووبەڕوو لەنێوان دوو کاندیدەکەدا ھەبووە لەسەر سیاسەتی پەروەردە."),
                                   ],
                                 ),
                               ),
@@ -567,7 +567,7 @@ class EnglishEntryclash extends StatelessWidget {
                                             "Simply put, the conflict comes down to a clash of cultures."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە سادەیی بڵێین، ناکۆکییەکە بەهۆی دژیەکی کەلتوورییە."),
+                                            "بە سادەیی بڵێین، ناکۆکییەکە بەھۆی دژیەکی کەلتوورییە."),
                                   ],
                                 ),
                               ),
@@ -587,7 +587,7 @@ class EnglishEntryclash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) دۆخێک کە تێیدا دوو شت پێکەوە ڕوودەدەن بەشێوەیەک کە ناتوانی لە هەردووکی بەژدار بیت"),
+                                  "٤. (ناو) دۆخێک کە تێیدا دوو شت پێکەوە ڕوودەدەن بەشێوەیەک کە ناتوانی لە ھەردووکی بەژدار بیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -598,7 +598,7 @@ class EnglishEntryclash extends StatelessWidget {
                                             "In the new timetable, there's a clash between history and physics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە خشتە تازەکەدا، هاوکاتییەک هەیە لە نێوان مێژوو و فیزیادا."),
+                                            "لە خشتە تازەکەدا، ھاوکاتییەک ھەیە لە نێوان مێژوو و فیزیادا."),
                                   ],
                                 ),
                               ),
@@ -618,7 +618,7 @@ class EnglishEntryclash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) دەنگێکی بەهێز کە بەهۆی بەرکەوتنی دوو کانزاوە درووست دەبێت"),
+                                  "٥. (ناو) دەنگێکی بەھێز کە بەھۆی بەرکەوتنی دوو کانزاوە درووست دەبێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -629,7 +629,7 @@ class EnglishEntryclash extends StatelessWidget {
                                             "The clash of swords echoed through the ancient castle halls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگی شمشێر بە هۆڵەکانی قەڵاکەدا دەنگی دەدایەوە."),
+                                            "دەنگی شمشێر بە ھۆڵەکانی قەڵاکەدا دەنگی دەدایەوە."),
                                   ],
                                 ),
                               ),
@@ -834,7 +834,7 @@ class EnglishEntryclash extends StatelessWidget {
                                         text:
                                             "They have clashing personalities."),
                                     ExampleSentenceKurdish(
-                                        text: "کەسایەتی دژیەکیان هەیە."),
+                                        text: "کەسایەتی دژیەکیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -854,7 +854,7 @@ class EnglishEntryclash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (کردار) ڕوودانی دوو شت پێکەوە بەشێوەیەک کە ناتوانی لە هەردووکیان بەژداربیت"),
+                                  "١٠. (کردار) ڕوودانی دوو شت پێکەوە بەشێوەیەک کە ناتوانی لە ھەردووکیان بەژداربیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -865,7 +865,7 @@ class EnglishEntryclash extends StatelessWidget {
                                             "Her party clashes with my brother's wedding, so I won't be able to go."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاهەنگەکەی هاوکات ڕوودەدات لەگەڵ ئاهەنگی هاوسەرگیری براکەم، بۆیە ناتوانم بچم."),
+                                            "ئاھەنگەکەی ھاوکات ڕوودەدات لەگەڵ ئاھەنگی ھاوسەرگیری براکەم، بۆیە ناتوانم بچم."),
                                   ],
                                 ),
                               ),
@@ -1026,7 +1026,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clash (Derived forms: clashes)
+- Noun: clash (derived forms: clashes)
 1. A loud resonant repeating noise (= clang, clangor [US], clangour [Brit, Cdn], clangoring [US], clank, crash, clangouring [Brit, Cdn])
 "he could hear the clash of distant bells";
  
@@ -1037,7 +1037,7 @@ ${englishMeaningConst.text}
  
 4. A minor short-term fight (= brush, encounter, skirmish)
 
-- Verb: clash (Derived forms: clashed, clashes, clashing)
+- Verb: clash (derived forms: clashed, clashes, clashing)
 1. Crash together with violent impact (= collide)
 "Two meteors clashed";
  
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qe4W4PvhqCk?t=',
+    videoId: 'Qe4W4PvhqCk',
     startSeconds: 1290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d7_Q_-d-Rtw?t=',
+    videoId: 'd7_Q_-d-Rtw',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WZy35uBpJ54',
+    videoId: 'WZy35uBpJ54',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0zXfDafyyao?t=',
+    videoId: '0zXfDafyyao',
     startSeconds: 777,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J-K5OjAkiEA?t=',
+    videoId: 'J-K5OjAkiEA',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NeZ4yXyzUG0?t=',
+    videoId: 'NeZ4yXyzUG0',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1228,7 +1228,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1253,7 +1253,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ecFS2JSbn-0?t=',
+    videoId: 'ecFS2JSbn-0',
     startSeconds: 1008,
     autoPlay: true,
     params: const YoutubePlayerParams(

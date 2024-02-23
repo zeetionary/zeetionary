@@ -207,7 +207,7 @@ class EnglishEntrychristian extends StatelessWidget {
                                         text:
                                             "She had a Christian upbringing."),
                                     ExampleSentenceKurdish(
-                                        text: "پەروەردەیەکی مەسحی هەبوو."),
+                                        text: "پەروەردەیەکی مەسحی ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntrychristian extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە باوەڕی بە وانەکانی عیسای مەسیح هەیە یان تەوفن کراوە لە کڵێسایەکدا"),
+                                  "٢. (ناو) کەسێک کە باوەڕی بە وانەکانی عیسای مەسیح ھەیە یان تەوفن کراوە لە کڵێسایەکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,7 +266,7 @@ class EnglishEntrychristian extends StatelessWidget {
                                             "Only 10% of the population are now practising Christians."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها ١٠٪ـی دانیشتووانەکە لە ئێستادا مەسیحین."),
+                                            "تەنھا ١٠٪ـی دانیشتووانەکە لە ئێستادا مەسیحین."),
                                   ],
                                 ),
                               ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
 - Adjective: christian 
 1. Following the teachings or manifesting the qualities or spirit of Jesus Christ
 
-- Noun: Christian (Derived forms: Christians)
+- Noun: Christian (derived forms: Christians)
 1. A religious person who believes Jesus is the Christ and who is a member of a Christian denomination
 
 - Adjective: Christian 
@@ -432,7 +432,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X5UDdtzmeGE?t=',
+    videoId: 'X5UDdtzmeGE',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w--bXGEnJJQ?t=',
+    videoId: 'w--bXGEnJJQ',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yd0GO6m6ys8?t=',
+    videoId: 'Yd0GO6m6ys8',
     startSeconds: 1681,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Df1FyiOiY_Y',
+    videoId: 'Df1FyiOiY_Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HyVvjAdbaaQ?t=',
+    videoId: 'HyVvjAdbaaQ',
     startSeconds: 803,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PJnU0sHpd5o?t=',
+    videoId: 'PJnU0sHpd5o',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9r5P1z4OWWo?t=',
+    videoId: '9r5P1z4OWWo',
     startSeconds: 312,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +607,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LsCle6q4i4A',
+    videoId: 'LsCle6q4i4A',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

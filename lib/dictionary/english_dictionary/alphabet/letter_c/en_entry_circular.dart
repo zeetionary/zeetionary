@@ -194,7 +194,7 @@ class EnglishEntrycircular extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خڕ، گروڤەر، خڕۆک، چەمەری، ئاڵقەیی، سووڕی، چەرخی، خولی، گەڕی، خەپکەیی، بازنەیی، جەغزی، گەڕۆک، خولۆک، دەگەڕێ، دەخولێتەوە، وەرسووڕ،	ناڕاستەوخۆ، بەپێچ‌وپەنا (گەشت و گەڕان)،	دەوری، لەسەر بنچینەی دەور(لێ)دانەوە (تیۆری یان بەڵگەهێنانەوە)، ئاگاداری، داخویانی، ڕاگەیاندن‌نامە
+کوردی: خڕ، گروڤەر، خڕۆک، چەمەری، ئاڵقەیی، سووڕی، چەرخی، خولی، گەڕی، خەپکەیی، بازنەیی، جەغزی، گەڕۆک، خولۆک، دەگەڕێ، دەخولێتەوە، وەرسووڕ،	ناڕاستەوخۆ، بەپێچ‌وپەنا (گەشت و گەڕان)،	دەوری، لەسەر بنچینەی دەور(لێ)دانەوە (تیۆری یان بەڵگەھێنانەوە)، ئاگاداری، داخویانی، ڕاگەیاندن‌نامە
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لە شێوەی بازنەیەکدا"),
@@ -208,7 +208,7 @@ class EnglishEntrycircular extends StatelessWidget {
                                             "The crater was two miles across and roughly circular."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاڵەکە دوو میل پانتایی هەبوو و بەنزیکەیی بازنەیی بوو."),
+                                            "چاڵەکە دوو میل پانتایی ھەبوو و بەنزیکەیی بازنەیی بوو."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycircular extends StatelessWidget {
                                             "He had round black eyes and a perfectly circular head."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوی ڕەش و سەرێکی تەواو خڕی هەبوو."),
+                                            "چاوی ڕەش و سەرێکی تەواو خڕی ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycircular extends StatelessWidget {
                                             "Using small circular movements, massage the muscles on either side of my spine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە بەکارهێنانی جوڵەی بچووکی بازنەیی، ماسولکەکانی هەردوو لای بڕبڕەی پشتم مەساج بکە."),
+                                            "بە بەکارھێنانی جوڵەی بچووکی بازنەیی، ماسولکەکانی ھەردوو لای بڕبڕەی پشتم مەساج بکە."),
                                   ],
                                 ),
                               ),
@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
  
 3. (of an argument) assuming something that is supposed to be proven
 
-- Noun: circular (Derived forms: circulars)
+- Noun: circular (derived forms: circulars)
 1. An advertisement (usually printed on a page or in a leaflet) intended for wide distribution (= handbill, bill, broadside, broadsheet, flier, flyer, throwaway)
 "he mailed the circular to all subscribers";
 """,
@@ -439,7 +439,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WDNhl0JxXBM?t=',
+    videoId: 'WDNhl0JxXBM',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cpy4V2Bk0jc?t=',
+    videoId: 'cpy4V2Bk0jc',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EHgn-eMxFnk?t=',
+    videoId: 'EHgn-eMxFnk',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VXvzBPlAeDM?t=',
+    videoId: 'VXvzBPlAeDM',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    videoId: 'pFEB0chiuJA',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    videoId: 'a9m3GD0DbPY',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +614,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X3TAROotFfM?t=',
+    videoId: 'X3TAROotFfM',
     startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(

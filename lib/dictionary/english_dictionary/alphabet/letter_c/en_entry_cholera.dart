@@ -195,7 +195,7 @@ class EnglishEntrycholera extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) نەخۆشییەکی سەخت کە بەهۆی بەکتریای ناو ئاوەوە تووشی دەبیت و دەبێتە هۆی سکچوون و ڕشانەوەی سەخت و زۆرجار دەبێتە هۆی مردن"),
+                                  "١. (ناو) نەخۆشییەکی سەخت کە بەھۆی بەکتریای ناو ئاوەوە تووشی دەبیت و دەبێتە ھۆی سکچوون و ڕشانەوەی سەخت و زۆرجار دەبێتە ھۆی مردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cholera (Derived forms: choleras)
+- Noun: cholera (derived forms: choleras)
 1. An acute intestinal infection caused by ingestion of contaminated water or food (= Asiatic cholera, Indian cholera, epidemic cholera)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z1aydJ21ddk?t=',
+    videoId: 'Z1aydJ21ddk',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lNjrAXGRda4',
+    videoId: 'lNjrAXGRda4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OlHpTo2FUvQ?t=',
+    videoId: 'OlHpTo2FUvQ',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pxqY1mXCDSU?t=',
+    videoId: 'pxqY1mXCDSU',
     startSeconds: 234,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w2k4SdwCY9g?t=',
+    videoId: 'w2k4SdwCY9g',
     startSeconds: 254,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hyvuO8ACbX4?t=',
+    videoId: 'hyvuO8ACbX4',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QQ8t60B43VM?t=',
+    videoId: 'QQ8t60B43VM',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
+    videoId: 'kVOTPAxrrP4',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(

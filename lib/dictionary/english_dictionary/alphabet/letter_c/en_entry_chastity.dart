@@ -195,7 +195,7 @@ class EnglishEntrychastity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخی نەبوونی سێکس لەگەڵ هیچ کەس تەنها لەگەڵ ئەو کەسەی کە هاوژینتە"),
+                                  "١. (ناو) دۆخی نەبوونی سێکس لەگەڵ ھیچ کەس تەنھا لەگەڵ ئەو کەسەی کە ھاوژینتە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrychastity extends StatelessWidget {
                                             "As a monk, he took vows of chastity, poverty, and obedience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک ڕەبەنێک سوێندی پاکیزەیی، هەژاری، و گوێڕایەڵی خواردبوو."),
+                                            "وەک ڕەبەنێک سوێندی پاکیزەیی، ھەژاری، و گوێڕایەڵی خواردبوو."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chastity (Derived forms: chastities)
+- Noun: chastity (derived forms: chastities)
 1. (religion) abstaining from sexual relations (as because of religious vows) (= celibacy, sexual abstention)
  
 2. Morality with respect to sexual relations (= virtue, sexual morality)
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wygEzm2ObGM?t=',
+    videoId: 'wygEzm2ObGM',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lgz5TiL9tVY?t=',
+    videoId: 'Lgz5TiL9tVY',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zIFfk9HUPPc?t=',
+    videoId: 'zIFfk9HUPPc',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7xXCaQTkrp0?t=',
+    videoId: '7xXCaQTkrp0',
     startSeconds: 1338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E0QjJVHPb2Y?t=',
+    videoId: 'E0QjJVHPb2Y',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWNHsaszXpc?t=',
+    videoId: 'qWNHsaszXpc',
     startSeconds: 453,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G0Cj6tGnaK8?t=',
+    videoId: 'G0Cj6tGnaK8',
     startSeconds: 1370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FIVfu8EfZck?t=',
+    videoId: 'FIVfu8EfZck',
     startSeconds: 492,
     autoPlay: true,
     params: const YoutubePlayerParams(

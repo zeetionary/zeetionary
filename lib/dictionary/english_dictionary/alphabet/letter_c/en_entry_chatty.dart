@@ -195,7 +195,7 @@ class EnglishEntrychatty extends StatelessWidget {
 کوردی: زۆربڵێ، زۆربڵە، زۆروەڕ، چەقەسرۆ، زۆربێژی، زۆر بڵەیی، چەنەوەری،	خۆمانە، دۆستانە 
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) قسەکردنی زۆر بە هاوڕێیانە"),
+                              text: "١. (ھاوەڵناو) قسەکردنی زۆر بە ھاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -224,7 +224,7 @@ class EnglishEntrychatty extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) هەبوونی شێوازێکی هاوڕێیانە"),
+                              text: "٢. (ھاوەڵناو) ھەبوونی شێوازێکی ھاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,7 +233,7 @@ class EnglishEntrychatty extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He sent me a chatty letter."),
                                     ExampleSentenceKurdish(
-                                        text: "نامەیەکی هاوڕێیانەی بۆ ناردم."),
+                                        text: "نامەیەکی ھاوڕێیانەی بۆ ناردم."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chatty (Derived forms: chattiest, chattier)
+- Adjective: chatty (derived forms: chattiest, chattier)
 1. Full of trivial conversation (= gabby, garrulous, loquacious, talkative, talky, gassy [informal])
 "kept from her housework by chatty neighbours";
  
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h205GARbxco?t=',
+    videoId: 'h205GARbxco',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jYMG_609aJI?t=',
+    videoId: 'jYMG_609aJI',
     startSeconds: 1126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hwyiv8b9uw0?t=',
+    videoId: 'Hwyiv8b9uw0',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/72WwkDm7R9g?t=',
+    videoId: '72WwkDm7R9g',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o27qdFie9mw?t=',
+    videoId: 'o27qdFie9mw',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q0SefqNJokI?t=',
+    videoId: 'q0SefqNJokI',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q6dr1SQ8F3s?t=',
+    videoId: 'Q6dr1SQ8F3s',
     startSeconds: 3412,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1hUAJrVnpr4?t=',
+    videoId: '1hUAJrVnpr4',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(

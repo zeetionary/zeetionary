@@ -195,7 +195,7 @@ class EnglishEntryclamour extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەراوهوریا، هاتوهاوار، زەنازەنا، غەڵبەغەڵب، دەنگەدەنگ، قاڵەقاڵ، سڕمەسڕم، قیژە، قاووقیژ
+کوردی: ھەراوھوریا، ھاتوھاوار، زەنازەنا، غەڵبەغەڵب، دەنگەدەنگ، قاڵەقاڵ، سڕمەسڕم، قیژە، قاووقیژ
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) داواکردنی شتێک بە دەنگی بەرز"),
@@ -209,7 +209,7 @@ class EnglishEntryclamour extends StatelessWidget {
                                             "People began to clamour for his resignation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکی دەستیان کرد بە هەراوهوریا بۆ دەستلەکارکێشانەوەی."),
+                                            "خەڵکی دەستیان کرد بە ھەراوھوریا بۆ دەستلەکارکێشانەوەی."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntryclamour extends StatelessWidget {
                                             "Everyone was clamouring to know how much they would get."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموان قاڵەقاڵیان بوو کە چەندە وەردەگرن."),
+                                            "ھەموان قاڵەقاڵیان بوو کە چەندە وەردەگرن."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntryclamour extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) هاوارکردن"),
+                          const DefinitionKurdish(text: "٢. (کردار) ھاوارکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -328,7 +328,7 @@ class EnglishEntryclamour extends StatelessWidget {
                                             "The clamour for her resignation grew louder."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتوهاوار بۆ دەستلەکارکێشانەوەی بەرزتر بوو."),
+                                            "ھاتوھاوار بۆ دەستلەکارکێشانەوەی بەرزتر بوو."),
                                   ],
                                 ),
                               ),
@@ -427,7 +427,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clamour (Derived forms: clamouring, clamoured, clamours)
+- Verb: clamour (derived forms: clamouring, clamoured, clamours)
 Usage: Brit, Cdn (US: clamor)
 1. Make loud demands (= clamor [US])
 "he clamoured for justice and tolerance";
@@ -438,7 +438,7 @@ Usage: Brit, Cdn (US: clamor)
 3. Compel someone to do something by insistent clamouring (= clamor [US])
 "They clamoured the mayor into building a new park";
 
-- Noun: clamour  (Derived forms: clamours)
+- Noun: clamour  (derived forms: clamours)
 1. Usage: Brit, Cdn (US: clamor) (= blare, blaring, cacophony, clamor [US], din)
 A loud harsh or strident noise
  
@@ -476,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OyV8LELM_HM?t=',
+    videoId: 'OyV8LELM_HM',
     startSeconds: 148,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rxh_SVtyZqo?t=',
+    videoId: 'Rxh_SVtyZqo',
     startSeconds: 7765,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qC1WqlNHFVA?t=',
+    videoId: 'qC1WqlNHFVA',
     startSeconds: 1252,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2kG6doL7S8?t=',
+    videoId: 'E2kG6doL7S8',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RiArrNGaaGw?t=',
+    videoId: 'RiArrNGaaGw',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VvVK11qqwKI?t=',
+    videoId: 'VvVK11qqwKI',
     startSeconds: 1065,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIF8N0I4U1g?t=',
+    videoId: 'OIF8N0I4U1g',
     startSeconds: 560,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -651,7 +651,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7aVu8Bslhw?t=',
+    videoId: 'q7aVu8Bslhw',
     startSeconds: 508,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -192,7 +192,7 @@ class EnglishEntrychoppy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نائارام، شەپۆلاوی، ئاڵۆز، پڕشەپۆل، شەپۆل‌شەپۆل،	ناهێمن، بێ‌ئۆقرە
+کوردی: نائارام، شەپۆلاوی، ئاڵۆز، پڕشەپۆل، شەپۆل‌شەپۆل،	ناھێمن، بێ‌ئۆقرە
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrychoppy extends StatelessWidget {
                                             "The choppy waters caused some of the boats to capsize."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەریا پڕشەپۆلەکان بوون بەهۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن."),
+                                            "دەریا پڕشەپۆلەکان بوون بەھۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: choppy (Derived forms: choppiest, choppier) 
+- Adjective: choppy (derived forms: choppiest, choppier) 
 1. Rough with small waves
 "choppy seas"
  
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y_N0AxCzVLg?t=',
+    videoId: 'Y_N0AxCzVLg',
     startSeconds: 591,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qr4MSVxfYBE?t=',
+    videoId: 'qr4MSVxfYBE',
     startSeconds: 978,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9hvjBi4PKWA?t=',
+    videoId: '9hvjBi4PKWA',
     startSeconds: 1136,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/byjEXpYNRNk?t=',
+    videoId: 'byjEXpYNRNk',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cykdSb7xqI4?t=',
+    videoId: 'cykdSb7xqI4',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UsD87v8F914?t=',
+    videoId: 'UsD87v8F914',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zr6uggwTXdA?t=',
+    videoId: 'zr6uggwTXdA',
     startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J-4FaTv1mcM?t=',
+    videoId: 'J-4FaTv1mcM',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(

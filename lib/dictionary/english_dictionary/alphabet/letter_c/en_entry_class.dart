@@ -515,7 +515,7 @@ class EnglishEntryclass extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پۆل، چین، توێژ، توێ،	جۆر، چەشن، ئاوا،	دەست، دەستە،	ڕیز،	ئاست، ڕادە، پلە، نمرە، پایە،	پۆل (خوێندن)،	وانە،	شاگردەکان، هاودەورەکان، هاوپۆل،	پۆز، کلاس، تڕوتۆپ، تەشەخوس
+کوردی: پۆل، چین، توێژ، توێ،	جۆر، چەشن، ئاوا،	دەست، دەستە،	ڕیز،	ئاست، ڕادە، پلە، نمرە، پایە،	پۆل (خوێندن)،	وانە،	شاگردەکان، ھاودەورەکان، ھاوپۆل،	پۆز، کلاس، تڕوتۆپ، تەشەخوس
 """),
                           const DefinitionKurdish(
                               text:
@@ -529,7 +529,7 @@ class EnglishEntryclass extends StatelessWidget {
                                         text:
                                             "We were in the same class at school."),
                                     ExampleSentenceKurdish(
-                                        text: "لە هەمان پۆلین لە قوتابخانە."),
+                                        text: "لە ھەمان پۆلین لە قوتابخانە."),
                                   ],
                                 ),
                               ),
@@ -654,7 +654,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "I have a history class at 9 o'clock."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وانەی مێژووم هەیە لە کاتژمێر ٩."),
+                                            "وانەی مێژووم ھەیە لە کاتژمێر ٩."),
                                   ],
                                 ),
                               ),
@@ -740,7 +740,7 @@ class EnglishEntryclass extends StatelessWidget {
                                                     "She works hard in class (= during the class)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "زۆر هەوڵ دەدات لە خوێندندا."),
+                                                    "زۆر ھەوڵ دەدات لە خوێندندا."),
                                           ],
                                         ),
                                       ),
@@ -777,7 +777,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "Are you still doing your French evening class?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا بەردەوامیت لە وانەی شەوانەی زمانی فەرەنسی؟"),
+                                            "ھێشتا بەردەوامیت لە وانەی شەوانەی زمانی فەرەنسی؟"),
                                   ],
                                 ),
                               ),
@@ -805,7 +805,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "The college offers classes in many subjects."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆلێژەکە لە زۆر بابەتی جیاوازدا وانەی هەیە."),
+                                            "کۆلێژەکە لە زۆر بابەتی جیاوازدا وانەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -864,7 +864,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "The class of 2004 achieved the highest ever scores in this district."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەرچووانی ٢٠٠٤ بەرزترین نمرەیان لەم ناوچەیە بەدەستهێنا."),
+                                            "دەرچووانی ٢٠٠٤ بەرزترین نمرەیان لەم ناوچەیە بەدەستھێنا."),
                                   ],
                                 ),
                               ),
@@ -894,7 +894,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "The party tries to appeal to all classes of society."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارتەکە هەوڵ دەدات دڵی هەموو چینەکانی کۆمەڵگا ڕابگرێت."),
+                                            "پارتەکە ھەوڵ دەدات دڵی ھەموو چینەکانی کۆمەڵگا ڕابگرێت."),
                                   ],
                                 ),
                               ),
@@ -922,7 +922,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "It was an age in which all classes of society were expanding."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەردەمێک بوو کە تێیدا هەموو چینەکانی کۆمەڵگا لە هەڵکشاندا بوون."),
+                                            "سەردەمێک بوو کە تێیدا ھەموو چینەکانی کۆمەڵگا لە ھەڵکشاندا بوون."),
                                   ],
                                 ),
                               ),
@@ -983,7 +983,7 @@ class EnglishEntryclass extends StatelessWidget {
                                                     "Nowadays, there are not so many clear distinctions between classes"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لەم ڕۆژانەدا، هێندە جیاوازی زۆر لە نێوان چینەکاندا نییە."),
+                                                    "لەم ڕۆژانەدا، ھێندە جیاوازی زۆر لە نێوان چینەکاندا نییە."),
                                           ],
                                         ),
                                       ),
@@ -1109,7 +1109,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "He always travels business class."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە لە کلاسی بازرگانی گەشت دەکات."),
+                                            "ھەمیشە لە کلاسی بازرگانی گەشت دەکات."),
                                   ],
                                 ),
                               ),
@@ -1129,7 +1129,7 @@ class EnglishEntryclass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) ژمارەیەک خەڵک، ئاژەڵ، یان شت کە هەمان خاسیەتییان هەیە"),
+                                  "٨. (ناو) ژمارەیەک خەڵک، ئاژەڵ، یان شت کە ھەمان خاسیەتییان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1140,7 +1140,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "It was good accommodation for a hotel of this class."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شوێنی مانەوەی باش بوو بۆ هوتێلێک لەم ئاستەدا."),
+                                            "شوێنی مانەوەی باش بوو بۆ ھوتێلێک لەم ئاستەدا."),
                                   ],
                                 ),
                               ),
@@ -1168,7 +1168,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "Dickens was in a different class from (= was much better than) most of his contemporaries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دیکنز لە ئاستێکی جیاوازتر بوو وەک لە هاوسەردەمەکانی."),
+                                            "دیکنز لە ئاستێکی جیاوازتر بوو وەک لە ھاوسەردەمەکانی."),
                                   ],
                                 ),
                               ),
@@ -1253,7 +1253,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "He came first in his class at every event."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەموو بۆنەیەکدا لە گرووپەکەیدا یەکەم بوو."),
+                                            "لە ھەموو بۆنەیەکدا لە گرووپەکەیدا یەکەم بوو."),
                                   ],
                                 ),
                               ),
@@ -1284,7 +1284,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "There's a real touch of class about this team."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خاسیەتێکی تەواوی تایبەت هەبوو لەم تیمەدا."),
+                                            "خاسیەتێکی تەواوی تایبەت ھەبوو لەم تیمەدا."),
                                   ],
                                 ),
                               ),
@@ -1310,7 +1310,7 @@ class EnglishEntryclass extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He's got real class."),
                                     ExampleSentenceKurdish(
-                                        text: "پۆزی خۆی هەیە."),
+                                        text: "پۆزی خۆی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1369,7 +1369,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "I wouldn't have classed you as a Shakespeare fan."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک هەوادارێکی شکسپیر دام‌نەدەنایت (بەڵام دیارە هەڵەبووم)."),
+                                            "وەک ھەوادارێکی شکسپیر دام‌نەدەنایت (بەڵام دیارە ھەڵەبووم)."),
                                   ],
                                 ),
                               ),
@@ -1397,7 +1397,7 @@ class EnglishEntryclass extends StatelessWidget {
                                             "One in five people in the country are classed as poor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە پێنج کەسدا لە وڵاتەکە یەکێک بە هەژار دادەنرێت."),
+                                            "لە پێنج کەسدا لە وڵاتەکە یەکێک بە ھەژار دادەنرێت."),
                                   ],
                                 ),
                               ),
@@ -1593,7 +1593,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: class (Derived forms: classes)
+- Noun: class (derived forms: classes)
 1. A collection of things sharing a common attribute (= category, family)
 "there are two classes of detergents";
  
@@ -1621,7 +1621,7 @@ ${englishMeaningConst.text}
  
 8. (object-oriented programming) a template containing related functions, variables, properties etc. that is used to generate instances (where each objects instance may have different specific values of the class properties)
 
-- Verb: class (Derived forms: classing, classes, classed)
+- Verb: class (derived forms: classing, classes, classed)
 1. Arrange or order by classes or categories (= classify, sort, assort, sort out, separate)
 "How would you class these pottery shards--are they prehistoric?";
 """,
@@ -1656,7 +1656,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kTQCbds8hsc?t=',
+    videoId: 'kTQCbds8hsc',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1681,7 +1681,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f4OrGE6rfMQ?t=',
+    videoId: 'f4OrGE6rfMQ',
     startSeconds: 247,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1706,7 +1706,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RSgvp15hiWQ?t=',
+    videoId: 'RSgvp15hiWQ',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1731,7 +1731,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2_kRmS6y8A',
+    videoId: 'E2_kRmS6y8A',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1756,7 +1756,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Se3RKA9HrzI?t=',
+    videoId: 'Se3RKA9HrzI',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1781,7 +1781,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kQPKi1O6qvI?t=',
+    videoId: 'kQPKi1O6qvI',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1806,7 +1806,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HUXzbefQzWY?t=',
+    videoId: 'HUXzbefQzWY',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1831,7 +1831,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hW69OIdAey0?t=',
+    videoId: 'hW69OIdAey0',
     startSeconds: 95,
     autoPlay: true,
     params: const YoutubePlayerParams(

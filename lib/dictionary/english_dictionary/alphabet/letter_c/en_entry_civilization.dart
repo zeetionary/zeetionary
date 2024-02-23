@@ -209,7 +209,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                                             "Some people think that nuclear war would mean the end of civilization."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە هۆی کۆتایی شارستانییەت."),
+                                            "ھەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە ھۆی کۆتایی شارستانییەت."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆمەڵگەیەک، کەلتوورەکەی، و شێوازی ژیان تێیدا لە کاتێکی دیاریکراودا یان شوێنێکی دیاریکراو لە جیهاندا"),
+                                  "٢. (ناو) کۆمەڵگەیەک، کەلتوورەکەی، و شێوازی ژیان تێیدا لە کاتێکی دیاریکراودا یان شوێنێکی دیاریکراو لە جیھاندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -274,7 +274,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                                             "Environmental damage threatens the whole of civilization."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیانی ژینگەیی هەڕەشە لە تەواوی شارستانیەت دەکات."),
+                                            "زیانی ژینگەیی ھەڕەشە لە تەواوی شارستانیەت دەکات."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                                             "It's good to be back in civilization after two weeks in a tent!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لەدوای دوو هەفتە لە کوخێکدا!"),
+                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لەدوای دوو ھەفتە لە کوخێکدا!"),
                                   ],
                                 ),
                               ),
@@ -408,7 +408,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: civilization (Derived forms: civilizations)
+- Noun: civilization (derived forms: civilizations)
 1. A society in an advanced state of social development (e.g., with complex legal and political and religious organizations) (= civilisation [Brit])
 "the people slowly progressed from barbarism to civilization";
  
@@ -451,7 +451,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Z8g2gNshYk',
+    videoId: '4Z8g2gNshYk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dzrg9nDXfu8?t=',
+    videoId: 'dzrg9nDXfu8',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8oylKwGHZNk?t=',
+    videoId: '8oylKwGHZNk',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 1010,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bnju9eUUuxo?t=',
+    videoId: 'Bnju9eUUuxo',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3dx_Bm3yeJo?t=',
+    videoId: '3dx_Bm3yeJo',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fa13JKGG0ds?t=',
+    videoId: 'Fa13JKGG0ds',
     startSeconds: 517,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
+    videoId: 'yRmOWcWdQAo',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(

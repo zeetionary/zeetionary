@@ -194,11 +194,11 @@ class EnglishEntrycheer extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەربڕینی کوڵ‌وکۆ، هاندان، قریوە، های گیان، هاوار و قیژەی خۆشی،	شادی، خۆشحاڵی، دڵگەرمی، ورە
+کوردی: دەربڕینی کوڵ‌وکۆ، ھاندان، قریوە، ھای گیان، ھاوار و قیژەی خۆشی،	شادی، خۆشحاڵی، دڵگەرمی، ورە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) هاوارکردن بۆ پیشاندانی پشتگیری یان پەسندانی کەسێک"),
+                                  "١. (کردار) ھاوارکردن بۆ پیشاندانی پشتگیری یان پەسندانی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycheer extends StatelessWidget {
                                             "We all cheered as the team came on to the field."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموومان قریواندمان کە تیمەکە هاتنە ناو مەیدانەکە."),
+                                            "ھەموومان قریواندمان کە تیمەکە ھاتنە ناو مەیدانەکە."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycheer extends StatelessWidget {
                                             "The fans cheered for their team."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوادارەکان هانی تیمەکەیانیان دا."),
+                                            "ھەوادارەکان ھانی تیمەکەیانیان دا."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrycheer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) هاندانی کەسێک یان پێدانی پشتگیری، ئاسوودەیی، و هیوا"),
+                                  "٢. (کردار) ھاندانی کەسێک یان پێدانی پشتگیری، ئاسوودەیی، و ھیوا"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntrycheer extends StatelessWidget {
                                         text:
                                             "I was greatly cheered by this news."),
                                     ExampleSentenceKurdish(
-                                        text: "تەواو ئاسوودە بووم بەم هەواڵە."),
+                                        text: "تەواو ئاسوودە بووم بەم ھەواڵە."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntrycheer extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هاواری دڵخۆشی یان پشتگیری"),
+                              text: "٢. (ناو) ھاواری دڵخۆشی یان پشتگیری"),
                           Row(
                             children: [
                               const Expanded(
@@ -297,7 +297,7 @@ class EnglishEntrycheer extends StatelessWidget {
                                             "A great cheer went up from the crowd."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوارێکی گەورە لە جەماوەرەکەوە هات."),
+                                            "ھاوارێکی گەورە لە جەماوەرەکەوە ھات."),
                                   ],
                                 ),
                               ),
@@ -396,13 +396,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cheer (Derived forms: cheers)
+- Noun: cheer (derived forms: cheers)
 1. A cry or shout of approval
  
 2. The quality of being cheerful and dispelling gloom (= cheerfulness, sunniness, sunshine)
 "flowers added a note of cheer to the drab room";
 
-- Verb: cheer (Derived forms: cheered, cheering, cheers)
+- Verb: cheer (derived forms: cheered, cheering, cheers)
 1. Give encouragement to (= hearten, recreate, embolden)
 "If we do indulge in peace discussion, they tell us, we shall merely cheer the enemy";
  
@@ -448,7 +448,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RREFBxsYe0E?t=',
+    videoId: 'RREFBxsYe0E',
     startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XDCsaBhXcY8?t=',
+    videoId: 'XDCsaBhXcY8',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2u7cSy9s8f8',
+    videoId: '2u7cSy9s8f8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AQCRQycSsmY?t=',
+    videoId: 'AQCRQycSsmY',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eXOVUVgWw0s?t=',
+    videoId: 'eXOVUVgWw0s',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8R33-3-GWhc?t=',
+    videoId: '8R33-3-GWhc',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W8VW6k3dB8c?t=',
+    videoId: 'W8VW6k3dB8c',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SsBS21K1Ekw?t=',
+    videoId: 'SsBS21K1Ekw',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(

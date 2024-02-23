@@ -194,7 +194,7 @@ class EnglishEntrychestofdrawers extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەلوپەلێکی ناوماڵ کە دۆڵابی هەیە و شتی تێدا هەڵدەگریت، بۆ نموونە جلوبەرگ"),
+                                  "١. (ناو) کەلوپەلێکی ناوماڵ کە دۆڵابی ھەیە و شتی تێدا ھەڵدەگریت، بۆ نموونە جلوبەرگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chest of drawers (Derived forms: chests of drawers)
+- Noun: chest of drawers (derived forms: chests of drawers)
 1. Furniture with drawers for keeping clothes (= chest, bureau [N. Amer], dresser)
 """,
   );
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TXBxMmQqJ5I?t=',
+    videoId: 'TXBxMmQqJ5I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OMGHnJV0l2U?t=',
+    videoId: 'OMGHnJV0l2U',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3mugPH2_qRo?t=',
+    videoId: '3mugPH2_qRo',
     startSeconds: 588,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TVKNpjnqeg0?t=',
+    videoId: 'TVKNpjnqeg0',
     startSeconds: 346,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9MJtcTMptDA?t=',
+    videoId: '9MJtcTMptDA',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kxIGlMrrhQM?t=',
+    videoId: 'kxIGlMrrhQM',
     startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YjIwrFsF64E?t=',
+    videoId: 'YjIwrFsF64E',
     startSeconds: 578,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vXTY34lLb88?t=',
+    videoId: 'vXTY34lLb88',
     startSeconds: 320,
     autoPlay: true,
     params: const YoutubePlayerParams(

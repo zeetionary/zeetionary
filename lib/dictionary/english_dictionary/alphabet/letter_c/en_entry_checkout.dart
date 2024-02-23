@@ -224,7 +224,7 @@ class EnglishEntrycheckout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کاتی دەرچوون لە هوتێلێک لە کۆتایی مانەوە"),
+                                  "٢. (ناو) کاتی دەرچوون لە ھوتێلێک لە کۆتایی مانەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: checkout (Derived forms: checkouts)
+- Noun: checkout (derived forms: checkouts)
 1. The act of inspecting or verifying (= check, check-out procedure)
  
 2. The latest time for vacating a hotel room (= checkout time)
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cagYPks1LLk?t=',
+    videoId: 'cagYPks1LLk',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Twa9CXTT70M',
+    videoId: 'Twa9CXTT70M',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hfVL50H8JLA?t=',
+    videoId: 'hfVL50H8JLA',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7HTXy7PoxNE?t=',
+    videoId: '7HTXy7PoxNE',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2ihOXaU0I8o?t=',
+    videoId: '2ihOXaU0I8o',
     startSeconds: 394,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/86OZ6HnG4OE?t=',
+    videoId: '86OZ6HnG4OE',
     startSeconds: 392,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M7ikhWfHQc8?t=',
+    videoId: 'M7ikhWfHQc8',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aIQKq5alziM?t=',
+    videoId: 'aIQKq5alziM',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(

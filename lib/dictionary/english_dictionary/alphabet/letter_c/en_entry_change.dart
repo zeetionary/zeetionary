@@ -1445,7 +1445,7 @@ class EnglishEntrychange extends StatelessWidget {
                                             "We're hoping for a change in the weather."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هیوای گۆڕانێکین لە کەشوهەوادا."),
+                                            "بە ھیوای گۆڕانێکین لە کەشوھەوادا."),
                                   ],
                                 ),
                               ),
@@ -1473,7 +1473,7 @@ class EnglishEntrychange extends StatelessWidget {
                                             "There was no change in the patient's condition overnight."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە درێژایی شەو هیچ گۆڕانێک لە دۆخی نەخۆشەکە نەبوو."),
+                                            "بە درێژایی شەو ھیچ گۆڕانێک لە دۆخی نەخۆشەکە نەبوو."),
                                   ],
                                 ),
                               ),
@@ -1504,7 +1504,7 @@ class EnglishEntrychange extends StatelessWidget {
                                                     "I need to make some major changes in my life."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پێویستە هەندێک گۆڕانکاری گەورە بکەم لە ژیانمدا."),
+                                                    "پێویستە ھەندێک گۆڕانکاری گەورە بکەم لە ژیانمدا."),
                                           ],
                                         ),
                                       ),
@@ -1571,7 +1571,7 @@ class EnglishEntrychange extends StatelessWidget {
                                             "Let's get away for the weekend. A change of scene (= time in a different place) will do you good."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "با دووربکەوینەوە بۆ کۆتایی هەفتە. گۆڕانێکی دەورووبەر باش دەبێت بۆت."),
+                                            "با دووربکەوینەوە بۆ کۆتایی ھەفتە. گۆڕانێکی دەورووبەر باش دەبێت بۆت."),
                                   ],
                                 ),
                               ),
@@ -1662,7 +1662,7 @@ class EnglishEntrychange extends StatelessWidget {
                                                     "I made a couple of minor changes to my opening paragraph."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەندێک گۆڕانکاری بچووکم لە پەرەگرافی یەکەمم ئەنجامدا."),
+                                                    "ھەندێک گۆڕانکاری بچووکم لە پەرەگرافی یەکەمم ئەنجامدا."),
                                           ],
                                         ),
                                       ),
@@ -1699,7 +1699,7 @@ class EnglishEntrychange extends StatelessWidget {
                                             "It makes a change to read some good news for once."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕانێک دەبێت کە هەواڵێکی باش بۆ جارێک بخوێنمەوە."),
+                                            "گۆڕانێک دەبێت کە ھەواڵێکی باش بۆ جارێک بخوێنمەوە."),
                                   ],
                                 ),
                               ),
@@ -1811,7 +1811,7 @@ class EnglishEntrychange extends StatelessWidget {
                                         text:
                                             "I have two dollars in change (= coins that together are worth two dollars)."),
                                     ExampleSentenceKurdish(
-                                        text: "دوو دۆلارم بە سکە هەیە."),
+                                        text: "دوو دۆلارم بە سکە ھەیە."),
                                   ],
                                 ),
                               ),

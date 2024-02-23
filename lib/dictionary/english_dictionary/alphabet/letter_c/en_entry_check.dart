@@ -516,7 +516,7 @@ class EnglishEntrycheck extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەسەرداچوونەوە، چاوپیاخشاندنەوە، چاولێ‌کردنەوە، پیاهاتنەوە، چاوپیاگێڕانەوە، پشکنین، تێڕوانین،	پێک‌گرتن، بەراوردکاری، هەڵسەنگاندن، بەریەک‌دان،	تاقی‌کردنەوە،	چاودێری، زێرەڤانی، کەتوانی، دەست‌بەسەراگرتن، ڕاگیرکاری، کۆنتڕۆڵ، مەهار،	نەهێشتن، پێش‌گرتن، پێش‌گیری، ڕێ‌گرتن،	وێستان، هەڵوەستە،	قەڵەش، کەلێن،	کەم‌بوونەوە، هاتنەخوارەوە،	هۆکاری ڕێگر، ڕاگیرکەر،	کیش (شەترەنج)،	حەوتک (√)،	(لە ئەمریکا) چێک،	بیل، لیستە
+کوردی: بەسەرداچوونەوە، چاوپیاخشاندنەوە، چاولێ‌کردنەوە، پیاھاتنەوە، چاوپیاگێڕانەوە، پشکنین، تێڕوانین،	پێک‌گرتن، بەراوردکاری، ھەڵسەنگاندن، بەریەک‌دان،	تاقی‌کردنەوە،	چاودێری، زێرەڤانی، کەتوانی، دەست‌بەسەراگرتن، ڕاگیرکاری، کۆنتڕۆڵ، مەھار،	نەھێشتن، پێش‌گرتن، پێش‌گیری، ڕێ‌گرتن،	وێستان، ھەڵوەستە،	قەڵەش، کەلێن،	کەم‌بوونەوە، ھاتنەخوارەوە،	ھۆکاری ڕێگر، ڕاگیرکەر،	کیش (شەترەنج)،	حەوتک (√)،	(لە ئەمریکا) چێک،	بیل، لیستە
 """),
                           const DefinitionKurdish(
                               text:
@@ -657,7 +657,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "We were interrupted by a waiter checking to see if everything was OK."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پچڕێندراین لەلایەن گارسۆنێکەوە بۆ ئەوەی دڵنیایی بکاتەوە هەموو شتێک درووست بوو."),
+                                            "پچڕێندراین لەلایەن گارسۆنێکەوە بۆ ئەوەی دڵنیایی بکاتەوە ھەموو شتێک درووست بوو."),
                                   ],
                                 ),
                               ),
@@ -685,7 +685,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "Hang on—I just need to check my email."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بوەستە، تەنها پێویستە سەیری ئیمەیڵەکەم بکەم."),
+                                            "بوەستە، تەنھا پێویستە سەیری ئیمەیڵەکەم بکەم."),
                                   ],
                                 ),
                               ),
@@ -802,7 +802,7 @@ class EnglishEntrycheck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) دانانی نیشانەی (✓) لە تەنیشت شتێک لە لیستێکدا، وەڵامێک، هتد"),
+                                  "٣. (کردار) دانانی نیشانەی (✓) لە تەنیشت شتێک لە لیستێکدا، وەڵامێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -892,7 +892,7 @@ class EnglishEntrycheck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) وەستاندنی خۆت لە وتن یان کردنی شتێک، یان پیشاندانی هەستێکی دیاریکراو"),
+                                  "٥. (کردار) وەستاندنی خۆت لە وتن یان کردنی شتێک، یان پیشاندانی ھەستێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -903,7 +903,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "She made no effort to check her tears and just let them run down her face."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هەوڵێکی نەدا ڕێگری لە فرمێسکەکانی بکات و ڕێگەیدا بە ڕووخساریدا بێنە خوارەوە."),
+                                            "ھیچ ھەوڵێکی نەدا ڕێگری لە فرمێسکەکانی بکات و ڕێگەیدا بە ڕووخساریدا بێنە خوارەوە."),
                                   ],
                                 ),
                               ),
@@ -931,7 +931,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "She wanted to tell him the whole truth but she checked herself—it wasn't the right moment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ویستی هەموو ڕاستییەکانی پێ بڵێت بەڵام خۆی کۆنترۆڵ کرد، ئەوە کاتە گونجاوەکە نەبوو."),
+                                            "ویستی ھەموو ڕاستییەکانی پێ بڵێت بەڵام خۆی کۆنترۆڵ کرد، ئەوە کاتە گونجاوەکە نەبوو."),
                                   ],
                                 ),
                               ),
@@ -1021,7 +1021,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                                     "I'll just have a quick check to see if the letter's arrived yet."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تەنها پشکنینێکی خێرا دەکەم بۆ ئەوەی بزانم نامەکە گەشتووە تا ئێستا."),
+                                                    "تەنھا پشکنینێکی خێرا دەکەم بۆ ئەوەی بزانم نامەکە گەشتووە تا ئێستا."),
                                           ],
                                         ),
                                       ),
@@ -1051,7 +1051,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                                     "She had a thorough check of the room, but nothing had been taken."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پشکنینێکی تەواوی ژوورەکەی کرد، بەڵام هیچ نەبردرابوو."),
+                                                    "پشکنینێکی تەواوی ژوورەکەی کرد، بەڵام ھیچ نەبردرابوو."),
                                           ],
                                         ),
                                       ),
@@ -1088,7 +1088,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "Security checks were causing long delays at border crossings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشکنینی سەلامەتی دەبوونە هۆکاری دواکەوتنی درێژخایەن لە خاڵە سنوورییەکان."),
+                                            "پشکنینی سەلامەتی دەبوونە ھۆکاری دواکەوتنی درێژخایەن لە خاڵە سنوورییەکان."),
                                   ],
                                 ),
                               ),
@@ -1147,7 +1147,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                                     "Was any check made on Mr Morris when he applied for the post?"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیچ لێکۆڵینەوەیەک لە بەڕێز مۆریس کرا کە داخوازینامەی بۆ پێگەکە پێشکەشکرد."),
+                                                    "ھیچ لێکۆڵینەوەیەک لە بەڕێز مۆریس کرا کە داخوازینامەی بۆ پێگەکە پێشکەشکرد."),
                                           ],
                                         ),
                                       ),
@@ -1212,7 +1212,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "Place a check beside each characteristic that you feel that you possess."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەوتکێک لە تەنیشت هەر خاسیەتێک دابنە کە پێت وایە هەتە."),
+                                            "حەوتکێک لە تەنیشت ھەر خاسیەتێک دابنە کە پێت وایە ھەتە."),
                                   ],
                                 ),
                               ),
@@ -1356,7 +1356,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "A cold spring will provide a natural check on the number of insects."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهارێکی سارد ڕاگرێکی باش دەبێت بەسەر ژمارەی مێرووەوە."),
+                                            "بەھارێکی سارد ڕاگرێکی باش دەبێت بەسەر ژمارەی مێرووەوە."),
                                   ],
                                 ),
                               ),
@@ -1387,7 +1387,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "A system of checks and balances exists to ensure that our government is truly democratic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سیستەمێکی یاسا و ڕێسا بوونی هەیە بۆ دڵنیاییکردنەوەی ئەوەی کە حکومەتەکەمان تەواو دیموکراسییە."),
+                                            "سیستەمێکی یاسا و ڕێسا بوونی ھەیە بۆ دڵنیاییکردنەوەی ئەوەی کە حکومەتەکەمان تەواو دیموکراسییە."),
                                   ],
                                 ),
                               ),
@@ -1418,7 +1418,7 @@ class EnglishEntrycheck extends StatelessWidget {
                                             "I chose the red and white check."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خانەخانە سوور و سپییەکەم هەڵبژارد."),
+                                            "خانەخانە سوور و سپییەکەم ھەڵبژارد."),
                                   ],
                                 ),
                               ),
@@ -1517,7 +1517,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: check (Derived forms: checks, checking, checked)
+- Verb: check (derived forms: checks, checking, checked)
 1. Examine so as to determine accuracy, quality, or condition (= check up on, look into, check out, suss out [Brit, informal], check over, go over, check into, suss [Brit, informal], sus [Brit, informal])
 "check the brakes"; "Check out the engine"; "check up on the brakes"; "check over the brakes"; "check into the brakes"; 
  
@@ -1589,7 +1589,7 @@ ${englishMeaningConst.text}
  
 26. Withdraw money by writing a check (= cheque [Brit, Cdn], check out [US])
 
-- Noun: check (Derived forms: checks)
+- Noun: check (derived forms: checks)
 1. [N. Amer] A written order directing a bank to pay money (= bank check [US], cheque [Brit, Cdn])
 "he paid all his bills by check";
 
@@ -1655,7 +1655,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KKsSi-TOmEY?t=',
+    videoId: 'KKsSi-TOmEY',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1680,7 +1680,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Brw-KMSkePM?t=',
+    videoId: 'Brw-KMSkePM',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1705,7 +1705,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4YOkWU9r5x4?t=',
+    videoId: '4YOkWU9r5x4',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1730,7 +1730,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 1994,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1755,7 +1755,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NCLZi2Rn_ug?t=',
+    videoId: 'NCLZi2Rn_ug',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1780,7 +1780,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2e3i-DxaWoc?t=',
+    videoId: '2e3i-DxaWoc',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1805,7 +1805,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cAPgFzMA7LQ?t=',
+    videoId: 'cAPgFzMA7LQ',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1830,7 +1830,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YFvjoXaw-MI?t=',
+    videoId: 'YFvjoXaw-MI',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(

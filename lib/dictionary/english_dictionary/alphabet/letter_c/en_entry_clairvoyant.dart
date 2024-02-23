@@ -191,11 +191,11 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێشزان، پێشبین، پێشگۆ، غەیبزان، داهاتووبین، ڕۆشن‌بین، داهاتووزان، دووربین
+کوردی: پێشزان، پێشبین، پێشگۆ، غەیبزان، داھاتووبین، ڕۆشن‌بین، داھاتووزان، دووربین
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بەو توانایەی کە هەندێک کەس بانگەشەی ئەوە دەکەن هەیان بێت بۆ ئەوەی پێشبینی داهاتوو بکەن یان قسە لەگەڵ کەسانی مردوو یان دوور بکەن"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بەو توانایەی کە ھەندێک کەس بانگەشەی ئەوە دەکەن ھەیان بێت بۆ ئەوەی پێشبینی داھاتوو بکەن یان قسە لەگەڵ کەسانی مردوو یان دوور بکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                                             "People are claiming to have had clairvoyant visions of the murder."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان هەبووبێت."),
+                                            "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان ھەبووبێت."),
                                   ],
                                 ),
                               ),
@@ -313,7 +313,7 @@ ${englishMeaningConst.text}
 2. Foreseeing the future (= precognitive, second-sighted)
 "Indeed, there are fifteen examples of purportedly clairvoyant dreams in the Bible";
 
-- Noun: clairvoyant (Derived forms: clairvoyants)
+- Noun: clairvoyant (derived forms: clairvoyants)
 1. Someone who has the power of clairvoyance
 """,
   );
@@ -347,7 +347,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OYrUPReIOYU?t=',
+    videoId: 'OYrUPReIOYU',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -372,7 +372,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jhJVen1mrsk?t=',
+    videoId: 'jhJVen1mrsk',
     startSeconds: 2229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aeUPxk-EasY?t=',
+    videoId: 'aeUPxk-EasY',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tK-tq3OfPF8?t=',
+    videoId: 'tK-tq3OfPF8',
     startSeconds: 707,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NRdcrrO35bU?t=',
+    videoId: 'NRdcrrO35bU',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EywZ5VGNZuQ?t=',
+    videoId: 'EywZ5VGNZuQ',
     startSeconds: 912,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QnYyqL-kfsk?t=',
+    videoId: 'QnYyqL-kfsk',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sLcEZxNfLoE?t=',
+    videoId: 'sLcEZxNfLoE',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(

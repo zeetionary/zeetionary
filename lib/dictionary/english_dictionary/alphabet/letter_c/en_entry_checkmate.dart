@@ -239,7 +239,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
                                             "She hoped the plan would checkmate her opponents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوای خواست پلانەکە ڕکابەرەکانی بە تەواوی ببەزێنێت."),
+                                            "ھیوای خواست پلانەکە ڕکابەرەکانی بە تەواوی ببەزێنێت."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
                                             "The chess player celebrated victory after putting his opponent's king in checkmate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاریزانە شەترەنجەکە ئاهەنگی بردنەوەی گێڕا لەدوای ئەوەی شای ڕکابەرەکەی خستە کش‌ومات کرد."),
+                                            "یاریزانە شەترەنجەکە ئاھەنگی بردنەوەی گێڕا لەدوای ئەوەی شای ڕکابەرەکەی خستە کش‌ومات کرد."),
                                   ],
                                 ),
                               ),
@@ -399,12 +399,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: checkmate (Derived forms: checkmates)
+- Noun: checkmate (derived forms: checkmates)
 1. Complete victory
  
 2. A chess move constituting an inescapable and indefensible attack on the opponent's king (= mate)
 
-- Verb: checkmate (Derived forms: checkmates, checkmated, checkmating)
+- Verb: checkmate (derived forms: checkmates, checkmated, checkmating)
 1. (chess) place an opponent's king under an attack from which it cannot escape and thus ending the game (= mate)
 "Kasparov checkmated his opponent after only a few moves";
 """,
@@ -439,7 +439,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5fGqV-edgYQ?t=',
+    videoId: '5fGqV-edgYQ',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ikku5Zpyt8Q?t=',
+    videoId: 'ikku5Zpyt8Q',
     startSeconds: 778,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/91cXhK6qnAQ',
+    videoId: '91cXhK6qnAQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OHcDm7Hrs2M?t=',
+    videoId: 'OHcDm7Hrs2M',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J0VQTK0CIKs?t=',
+    videoId: 'J0VQTK0CIKs',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/skFsvq1zMVQ?t=',
+    videoId: 'skFsvq1zMVQ',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y4Q9OYa0Oao?t=',
+    videoId: 'Y4Q9OYa0Oao',
     startSeconds: 562,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +614,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-IuW_Eyo3qY?t=',
+    videoId: '-IuW_Eyo3qY',
     startSeconds: 1359,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -206,7 +206,7 @@ class EnglishEntrychat extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) گفتوگۆکردن بەشێوەیەکی هاوڕێیانە لەگەڵ کەسێک"),
+                                  "١. (کردار) گفتوگۆکردن بەشێوەیەکی ھاوڕێیانە لەگەڵ کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -245,7 +245,7 @@ class EnglishEntrychat extends StatelessWidget {
                                             "The two of us got chatting (= started chatting) at the bus stop."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هردووکمان لە وێستگەی پاسەکە دەستمان بە گفتوگۆ کرد."),
+                                            "ھردووکمان لە وێستگەی پاسەکە دەستمان بە گفتوگۆ کرد."),
                                   ],
                                 ),
                               ),
@@ -276,7 +276,7 @@ class EnglishEntrychat extends StatelessWidget {
                                                     "Within minutes of being introduced they were chatting away like old friends."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە ماوەی چەند خولەکێکی یەکترناسیدا، وەک کۆنە هاوڕێ گفتوگۆیان دەکرد."),
+                                                    "لە ماوەی چەند خولەکێکی یەکترناسیدا، وەک کۆنە ھاوڕێ گفتوگۆیان دەکرد."),
                                           ],
                                         ),
                                       ),
@@ -343,7 +343,7 @@ class EnglishEntrychat extends StatelessWidget {
                                             "I've been chatting online with my best friend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ئینتەرنێت لەگەڵ باشترین هاوڕێم قسەم دەکرد."),
+                                            "بە ئینتەرنێت لەگەڵ باشترین ھاوڕێم قسەم دەکرد."),
                                   ],
                                 ),
                               ),
@@ -371,7 +371,7 @@ class EnglishEntrychat extends StatelessWidget {
                                             "I use social media to chat with my friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تۆڕە کۆمەڵایەتییەکان بەکاردێنم بۆ قسەکردن لەگەڵ هاوڕێکانم."),
+                                            "تۆڕە کۆمەڵایەتییەکان بەکاردێنم بۆ قسەکردن لەگەڵ ھاوڕێکانم."),
                                   ],
                                 ),
                               ),
@@ -390,7 +390,7 @@ class EnglishEntrychat extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) گفتوگۆیەکی هاوڕێیانەی نافەرمی"),
+                              text: "٣. (ناو) گفتوگۆیەکی ھاوڕێیانەی نافەرمی"),
                           Row(
                             children: [
                               const Expanded(
@@ -400,7 +400,7 @@ class EnglishEntrychat extends StatelessWidget {
                                         text: "I just called in for a chat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها بۆ دەمەتەقێیەک پەیوەندیم کرد."),
+                                            "تەنھا بۆ دەمەتەقێیەک پەیوەندیم کرد."),
                                   ],
                                 ),
                               ),
@@ -426,7 +426,7 @@ class EnglishEntrychat extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I had a long chat with her."),
                                     ExampleSentenceKurdish(
-                                        text: "گفتوگۆیەکی درێژم هەبوو لەگەڵی."),
+                                        text: "گفتوگۆیەکی درێژم ھەبوو لەگەڵی."),
                                   ],
                                 ),
                               ),
@@ -485,7 +485,7 @@ class EnglishEntrychat extends StatelessWidget {
                                             "They say he's already married, but it's just idle chat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەڵێت لەمێژە هاوسەرگیری کردووە، بەڵام تەنها قسەی هیچە."),
+                                            "دەڵێت لەمێژە ھاوسەرگیری کردووە، بەڵام تەنھا قسەی ھیچە."),
                                   ],
                                 ),
                               ),
@@ -516,7 +516,7 @@ class EnglishEntrychat extends StatelessWidget {
                                             "Fans are invited to an online chat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوادارەکان بانگهێشتی گفتوگۆیەکی سەر ئینتەرنێت دەکرێن."),
+                                            "ھەوادارەکان بانگھێشتی گفتوگۆیەکی سەر ئینتەرنێت دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -544,7 +544,7 @@ class EnglishEntrychat extends StatelessWidget {
                                             "You can take part in a live chat with the movie's director this afternoon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت ئەم نیوەڕۆیە بەژدار بیت لە گفتوگۆیەنی ڕاستەوخۆی سەر ئینتەرنێت لەگەڵ دەرهێنەری فیلمەکە."),
+                                            "دەتوانیت ئەم نیوەڕۆیە بەژدار بیت لە گفتوگۆیەنی ڕاستەوخۆی سەر ئینتەرنێت لەگەڵ دەرھێنەری فیلمەکە."),
                                   ],
                                 ),
                               ),
@@ -643,13 +643,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chat (Derived forms: chatted, chatting, chats)
+- Verb: chat (derived forms: chatted, chatting, chats)
 1. Talk socially without exchanging too much information (= chew the fat [informal], shoot the breeze [N. Amer, informal], confabulate, confab [informal], chitchat [informal], chit-chat [informal], chatter, chaffer, natter [informal], gossip, jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gas [informal], gab [informal])
 "the men were sitting in the cafe and chatting";
  
 2. Exchange text or voice messages in real time through a computer network
 
-- Noun: chat (Derived forms: chats)
+- Noun: chat (derived forms: chats)
 1. An informal conversation (= confab [informal], confabulation, schmooze [informal], schmoose [informal], chin-wag [Brit, informal], natter [informal])
  
 2. Birds having a chattering call (= New World chat)
@@ -687,7 +687,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N8kThGNkDAc',
+    videoId: 'N8kThGNkDAc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -712,7 +712,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xako5tPh5ys?t=',
+    videoId: 'Xako5tPh5ys',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -737,7 +737,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XCg0PBtM7W8',
+    videoId: 'XCg0PBtM7W8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -762,7 +762,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S5nceN_8O0s?t=',
+    videoId: 'S5nceN_8O0s',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -787,7 +787,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bk0G1f4DpCM?t=',
+    videoId: 'Bk0G1f4DpCM',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -812,7 +812,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/heIeCsyzUNc?t=',
+    videoId: 'heIeCsyzUNc',
     startSeconds: 627,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -837,7 +837,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d4wn7ojGyx8?t=',
+    videoId: 'd4wn7ojGyx8',
     startSeconds: 288,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -862,7 +862,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wwWWPFPutNk?t=',
+    videoId: 'wwWWPFPutNk',
     startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(

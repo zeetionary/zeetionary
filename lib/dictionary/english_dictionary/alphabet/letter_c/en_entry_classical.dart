@@ -231,7 +231,7 @@ class EnglishEntryclassical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) پەسەندکراو و بەکارهێنراو بۆ ماوەیەکی درێژ"),
+                                  "٢. (ھاوەڵناو) پەسەندکراو و بەکارھێنراو بۆ ماوەیەکی درێژ"),
                           Row(
                             children: [
                               const Expanded(
@@ -292,7 +292,7 @@ class EnglishEntryclassical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) بە هەموو ئەو خاسیەتانەی کە لێی چاوەڕێ دەکەیت "),
+                                  "٤. (ھاوەڵناو) بە ھەموو ئەو خاسیەتانەی کە لێی چاوەڕێ دەکەیت "),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ class EnglishEntryclassical extends StatelessWidget {
                                             "These are classical examples of food allergy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەمانە نموونە چاوەڕوانکراوەکانی هەستیاری بە خواردنن."),
+                                            "حەمانە نموونە چاوەڕوانکراوەکانی ھەستیاری بە خواردنن."),
                                   ],
                                 ),
                               ),
@@ -364,7 +364,7 @@ class EnglishEntryclassical extends StatelessWidget {
                                             "I love the classical lines of his dress designs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزم لە هێڵە سادەکانی دیزاینی جلەکەیەتی."),
+                                            "حەزم لە ھێڵە سادەکانی دیزاینی جلەکەیەتی."),
                                   ],
                                 ),
                               ),
@@ -518,7 +518,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o2P_dRbYn_4?t=',
+    videoId: 'o2P_dRbYn_4',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sy0i02L9iqc?t=',
+    videoId: 'sy0i02L9iqc',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K6aaOK0V9Us?t=',
+    videoId: 'K6aaOK0V9Us',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Omkh8QFAdg?t=',
+    videoId: '4Omkh8QFAdg',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tgzDM7Eme-Y',
+    videoId: 'tgzDM7Eme-Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BA3qKtJT10s?t=',
+    videoId: 'BA3qKtJT10s',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -668,7 +668,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Se3RKA9HrzI?t=',
+    videoId: 'Se3RKA9HrzI',
     startSeconds: 715,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -693,7 +693,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yy2WQSy_f5I?t=',
+    videoId: 'Yy2WQSy_f5I',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(

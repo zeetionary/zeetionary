@@ -208,7 +208,7 @@ class EnglishEntrychore extends StatelessWidget {
                                             "The kids all help out with the household chores."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان هەموویان یارمەتیدەر دەبن لە کاری ماڵەوە."),
+                                            "منداڵەکان ھەموویان یارمەتیدەر دەبن لە کاری ماڵەوە."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrychore extends StatelessWidget {
                                             "Working women still do about 70% of domestic chores."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژنانی کارکەر هێشتا نزیکەی ٧٠٪ـی کارەکانی ماڵەوە دەکەن."),
+                                            "ژنانی کارکەر ھێشتا نزیکەی ٧٠٪ـی کارەکانی ماڵەوە دەکەن."),
                                   ],
                                 ),
                               ),
@@ -391,7 +391,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chore (Derived forms: chores)
+- Noun: chore (derived forms: chores)
 1. A specific piece of work required to be done as a duty or for a specific fee (= job, task)
 "the farmer's morning chores";
 """,
@@ -426,7 +426,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mRLrZWT9CnY?t=',
+    videoId: 'mRLrZWT9CnY',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b2vPfjKi8U4?t=',
+    videoId: 'b2vPfjKi8U4',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8I2Ca6H--7w?t=',
+    videoId: '8I2Ca6H--7w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4X2ES8HfLys?t=',
+    videoId: '4X2ES8HfLys',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lc2b0K0cU7U?t=',
+    videoId: 'Lc2b0K0cU7U',
     startSeconds: 295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SY-aJXElIfQ?t=',
+    videoId: 'SY-aJXElIfQ',
     startSeconds: 296,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-RVu0FpSRDI',
+    videoId: '-RVu0FpSRDI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AiFQRCx1uBI?t=',
+    videoId: 'AiFQRCx1uBI',
     startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(

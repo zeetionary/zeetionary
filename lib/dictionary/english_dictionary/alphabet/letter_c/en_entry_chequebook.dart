@@ -191,7 +191,8 @@ class EnglishEntrychequebook extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١. (ناو) دەستەچەک؛ کتێبێک کە کۆمەڵە چەکێکی تێدایە"),
+                              text:
+                                  "١. (ناو) دەستەچەک؛ کتێبێک کە کۆمەڵە چەکێکی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +202,8 @@ class EnglishEntrychequebook extends StatelessWidget {
                                         text:
                                             "He always kept his chequebook handy for emergencies."),
                                     ExampleSentenceKurdish(
-                                        text: "هەمیشە دەستەچەکەکەی لای خۆی دەهێشت بۆ دۆخی لەناکاو."),
+                                        text:
+                                            "ھەمیشە دەستەچەکەکەی لای خۆی دەھێشت بۆ دۆخی لەناکاو."),
                                   ],
                                 ),
                               ),
@@ -230,7 +232,7 @@ class EnglishEntrychequebook extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -300,7 +302,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chequebook (Derived forms: chequebooks)
+- Noun: chequebook (derived forms: chequebooks)
 Usage: Brit, Cdn (US: checkbook)
 1. A set of personal printed cheques for use by the holder of a bank account (= checkbook [US])
 "the reconciliation of his chequebook and the bank statement";
@@ -336,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIo2Ie1HwHY?t=',
+    videoId: 'OIo2Ie1HwHY',
     startSeconds: 1506,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -361,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ayh-vAoiKYc?t=',
+    videoId: 'Ayh-vAoiKYc',
     startSeconds: 962,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -386,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aJSD8XV3qzE?t=',
+    videoId: 'aJSD8XV3qzE',
     startSeconds: 582,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -411,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K-_AvlwEqCA?t=',
+    videoId: 'K-_AvlwEqCA',
     startSeconds: 734,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -436,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oyBfefx7I6c?t=',
+    videoId: 'oyBfefx7I6c',
     startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ILper3m7H-M?t=',
+    videoId: 'ILper3m7H-M',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/URVD0M_m69I?t=',
+    videoId: 'URVD0M_m69I',
     startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +513,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/50ZQhCMvbhE?t=',
+    videoId: '50ZQhCMvbhE',
     startSeconds: 1163,
     autoPlay: true,
     params: const YoutubePlayerParams(

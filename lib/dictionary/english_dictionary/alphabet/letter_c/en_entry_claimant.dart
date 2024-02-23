@@ -196,7 +196,7 @@ class EnglishEntryclaimant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە داوای شتێک دەکات چونکە پێی‌وایە ئەو مافەی هەیە"),
+                                  "١. (ناو) کەسێک کە داوای شتێک دەکات چونکە پێی‌وایە ئەو مافەی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryclaimant extends StatelessWidget {
                                             "The claimant to the throne argued that their lineage traced back to the royal family."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بانگەشەکاری تەختی شاهانە دەیگوت ڕەچەڵەکیان بۆ خێزانی شاهانە دەگەڕێتەوە."),
+                                            "بانگەشەکاری تەختی شاھانە دەیگوت ڕەچەڵەکیان بۆ خێزانی شاھانە دەگەڕێتەوە."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntryclaimant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە پارە لە حکومەت وەردەگرێت بەهۆی ئەوەی کاری نییە"),
+                                  "٢. (ناو) کەسێک کە پارە لە حکومەت وەردەگرێت بەھۆی ئەوەی کاری نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: claimant (Derived forms: claimants)
+- Noun: claimant (derived forms: claimants)
 1. Someone who claims a benefit, right or title
 "claimants of unemployment compensation"; "he was a claimant to the throne"
 """,
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zVqFAMOtwaI?t=',
+    videoId: 'zVqFAMOtwaI',
     startSeconds: 240,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NVH7JewfgJg?t=',
+    videoId: 'NVH7JewfgJg',
     startSeconds: 550,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ko8C3surjhM?t=',
+    videoId: 'Ko8C3surjhM',
     startSeconds: 821,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TKXldNsmRaw?t=',
+    videoId: 'TKXldNsmRaw',
     startSeconds: 898,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PnO7pL-QWyc?t=',
+    videoId: 'PnO7pL-QWyc',
     startSeconds: 308,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Pt51e3U7IY?t=',
+    videoId: '2Pt51e3U7IY',
     startSeconds: 791,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W3qZIPiWKc4?t=',
+    videoId: 'W3qZIPiWKc4',
     startSeconds: 1100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qkmJ2i4kZ1c?t=',
+    videoId: 'qkmJ2i4kZ1c',
     startSeconds: 820,
     autoPlay: true,
     params: const YoutubePlayerParams(

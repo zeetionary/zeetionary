@@ -235,7 +235,7 @@ class EnglishEntryclay extends StatelessWidget {
                                             "Clay tends to dry out and crack in the summer months."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گڵ تایبەتمەندی ئەوەی هەیە کە وشکدەبێتەوە و شەق دەبات لە مانگەکانی هاویندا."),
+                                            "گڵ تایبەتمەندی ئەوەی ھەیە کە وشکدەبێتەوە و شەق دەبات لە مانگەکانی ھاویندا."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clay (Derived forms: clays)
+- Noun: clay (derived forms: clays)
 1. A very fine-grained soil that is plastic when moist but hard when fired
  
 2. Water soaked soil; soft wet earth (= mud)
@@ -378,7 +378,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hQD9-FBs2qQ?t=',
+    videoId: 'hQD9-FBs2qQ',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -403,7 +403,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YuCK1SJG5gc?t=',
+    videoId: 'YuCK1SJG5gc',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a52uWbeZM8g?t=',
+    videoId: 'a52uWbeZM8g',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nHj09xU40bM?t=',
+    videoId: 'nHj09xU40bM',
     startSeconds: 204,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sKeQe7oc2gk?t=',
+    videoId: 'sKeQe7oc2gk',
     startSeconds: 677,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ra4W_aztfHA?t=',
+    videoId: 'Ra4W_aztfHA',
     startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OUmPBRxNPnQ?t=',
+    videoId: 'OUmPBRxNPnQ',
     startSeconds: 502,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVf5kZA0HtQ?t=',
+    videoId: 'xVf5kZA0HtQ',
     startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(

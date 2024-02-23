@@ -200,7 +200,7 @@ class EnglishEntryclap extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چەپڵە(لێدان)، چەپک(لێدان)،	شریخە، گرمە، گرم‌وهۆڕ
+کوردی: چەپڵە(لێدان)، چەپک(لێدان)،	شریخە، گرمە، گرم‌وھۆڕ
 """),
                           const DefinitionKurdish(
                               text:
@@ -215,7 +215,7 @@ class EnglishEntryclap extends StatelessWidget {
                                             "After she performed, Ariana stood up and clapped for her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەدوای ئەوەی نمایشەکەی پێشکەشکرد، ئاریانا هەستایە سەرپێ و چەپڵەی بۆ لێدا."),
+                                            "لەدوای ئەوەی نمایشەکەی پێشکەشکرد، ئاریانا ھەستایە سەرپێ و چەپڵەی بۆ لێدا."),
                                   ],
                                 ),
                               ),
@@ -243,7 +243,7 @@ class EnglishEntryclap extends StatelessWidget {
                                             "Everyone clapped us when we went up to get our prize."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموان چەپڵەیان بؤ لێداین کە چووینە سەرەوە بۆ وەرگرتنی خەڵاتەکەمان."),
+                                            "ھەموان چەپڵەیان بؤ لێداین کە چووینە سەرەوە بۆ وەرگرتنی خەڵاتەکەمان."),
                                   ],
                                 ),
                               ),
@@ -272,7 +272,7 @@ class EnglishEntryclap extends StatelessWidget {
                                         text: "Everyone clapped to the music."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموان چەپڵەیان بۆ میوزیکەکە لێدا."),
+                                            "ھەموان چەپڵەیان بۆ میوزیکەکە لێدا."),
                                   ],
                                 ),
                               ),
@@ -319,7 +319,7 @@ class EnglishEntryclap extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) لێدان لە کەسێک بە دەستی کراوەت بە هێواشی و شێوەیەکی هاورێیانە"),
+                                  "٣. (کردار) لێدان لە کەسێک بە دەستی کراوەت بە ھێواشی و شێوەیەکی ھاورێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -389,7 +389,7 @@ class EnglishEntryclap extends StatelessWidget {
                                             "She clapped her hand over her mouth to try to stop herself from laughing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستی نا بە دەمییەوە بۆ ئەوەی هەوڵ بدات خۆی بوەستێنێت لە پێکەنین."),
+                                            "دەستی نا بە دەمییەوە بۆ ئەوەی ھەوڵ بدات خۆی بوەستێنێت لە پێکەنین."),
                                   ],
                                 ),
                               ),
@@ -465,7 +465,7 @@ class EnglishEntryclap extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (ناو) دەنگێکی بەهێز و لەناکاو"),
+                              text: "٦. (ناو) دەنگێکی بەھێز و لەناکاو"),
                           Row(
                             children: [
                               const Expanded(
@@ -476,7 +476,7 @@ class EnglishEntryclap extends StatelessWidget {
                                             "There was a clap of thunder and then it started to pour with rain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگێکی هەورە چەخماخە بوو و دواتر باران خوڕەمی کرد."),
+                                            "دەنگێکی ھەورە چەخماخە بوو و دواتر باران خوڕەمی کرد."),
                                   ],
                                 ),
                               ),
@@ -575,14 +575,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clap (Derived forms: claps)
+- Noun: clap (derived forms: claps)
 1. A sudden very loud noise (= bang, eruption, blast, bam)
  
 2. A common venereal disease caused by the bacterium Neisseria gonorrhoeae; symptoms are painful urination and pain around the urethra (= gonorrhea [N. Amer], gonorrhoea [Brit, Cdn])
  
 3. A sharp abrupt noise as if two objects hit together; may be repeated (= clack)
 
-- Verb: clap (Derived forms: claps, clapping, clapped)
+- Verb: clap (derived forms: claps, clapping, clapped)
 1. Put quickly or forcibly
 "The judge clapped him in jail"
  
@@ -633,7 +633,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yDONdPpRmtQ?t=',
+    videoId: 'yDONdPpRmtQ',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -658,7 +658,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ko7oA65y3XE?t=',
+    videoId: 'ko7oA65y3XE',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -683,7 +683,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ak-kwWMKYsE?t=',
+    videoId: 'Ak-kwWMKYsE',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -708,7 +708,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OrnpSe4OChM?t=',
+    videoId: 'OrnpSe4OChM',
     startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -733,7 +733,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -758,7 +758,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t4uOxnokGnQ?t=',
+    videoId: 't4uOxnokGnQ',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -783,7 +783,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gDxBN1y5C8o?t=',
+    videoId: 'gDxBN1y5C8o',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -808,7 +808,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CtbcRFSzRrk?t=',
+    videoId: 'CtbcRFSzRrk',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(

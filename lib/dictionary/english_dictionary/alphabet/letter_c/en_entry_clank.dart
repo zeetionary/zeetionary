@@ -192,7 +192,7 @@ class EnglishEntryclank extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (دەنگ) زرنگەزرنگ، خرنگەخرنگ، خڕەخڕ، خرنگ‌وهۆڕ، زڕەزڕ، هاڕە 
+کوردی: (دەنگ) زرنگەزرنگ، خرنگەخرنگ، خڕەخڕ، خرنگ‌وھۆڕ، زڕەزڕ، ھاڕە 
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntryclank extends StatelessWidget {
                                             "My bike chain was clanking in an alarming way as I pedalled along."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زنجیری پاسکیلەکەم خڕەخڕی دەهات کە پایدانم بۆ پێشەوە لێدەدا."),
+                                            "زنجیری پاسکیلەکەم خڕەخڕی دەھات کە پایدانم بۆ پێشەوە لێدەدا."),
                                   ],
                                 ),
                               ),
@@ -337,11 +337,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clank (Derived forms: clanks)
+- Noun: clank (derived forms: clanks)
 1. A loud resonant repeating noise (= clang, clangor [US], clangour [Brit, Cdn], clangoring [US], clash, crash, clangouring [Brit, Cdn])
 "he could hear the clank of distant bells";
 
-- Verb: clank (Derived forms: clanked, clanking, clanks)
+- Verb: clank (derived forms: clanked, clanking, clanks)
 1. Make a clank
 "the train clanked through the village"
 """,
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    videoId: '3cxHwQl9pNM',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 2292,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e0tMgj7S38E?t=',
+    videoId: 'e0tMgj7S38E',
     startSeconds: 3229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dK3Nin3RDPw?t=',
+    videoId: 'dK3Nin3RDPw',
     startSeconds: 1678,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-gJnWBVNQsE?t=',
+    videoId: '-gJnWBVNQsE',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j8A7tJQlO4k?t=',
+    videoId: 'j8A7tJQlO4k',
     startSeconds: 2542,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nIPfuhqcPhs?t=',
+    videoId: 'nIPfuhqcPhs',
     startSeconds: 519,
     autoPlay: true,
     params: const YoutubePlayerParams(

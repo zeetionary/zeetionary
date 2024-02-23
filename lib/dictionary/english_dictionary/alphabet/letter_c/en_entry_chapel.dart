@@ -196,7 +196,7 @@ class EnglishEntrychapel extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بینایەک یان ژوورێکی بچووک کە مەسیحییەکان دەچن تێیدا نوێژ، بۆنەی ئایینی، هتد ئەنجام دەدەن لە قوتابخانەیەک، زیندانێک، خانوویەکی گەورە، هتد"),
+                                  "١. (ناو) بینایەک یان ژوورێکی بچووک کە مەسیحییەکان دەچن تێیدا نوێژ، بۆنەی ئایینی، ھتد ئەنجام دەدەن لە قوتابخانەیەک، زیندانێک، خانوویەکی گەورە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrychapel extends StatelessWidget {
                                             "They were married in a wedding chapel in Las Vegas."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە نوێژگەیەکی هاوسەرگیری زەماوەندیان کرد لە لاس ڤێگاس."),
+                                            "لە نوێژگەیەکی ھاوسەرگیری زەماوەندیان کرد لە لاس ڤێگاس."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntrychapel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بەشێکی جیاکراوەی کڵێسایەک کە پێش‌نوێژگەی خۆی هەیە کە بۆ هەندێک بۆنە و نوێژی تایبەتی بەکاردێت"),
+                                  "٢. (ناو) بەشێکی جیاکراوەی کڵێسایەک کە پێش‌نوێژگەی خۆی ھەیە کە بۆ ھەندێک بۆنە و نوێژی تایبەتی بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chapel (Derived forms: chapels)
+- Noun: chapel (derived forms: chapels)
 1. A place of worship that has its own altar
  
 2. A service conducted in a place of worship that has its own altar (= chapel service)
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GAcLh3b6FZE?t=',
+    videoId: 'GAcLh3b6FZE',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bJn7hQTne1k?t=',
+    videoId: 'bJn7hQTne1k',
     startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kR_7OdeJPaY?t=',
+    videoId: 'kR_7OdeJPaY',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YoacjkozauY?t=',
+    videoId: 'YoacjkozauY',
     startSeconds: 1211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Axg27gwEqCE?t=',
+    videoId: 'Axg27gwEqCE',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3mugPH2_qRo?t=',
+    videoId: '3mugPH2_qRo',
     startSeconds: 1602,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z56d4f1uT3k?t=',
+    videoId: 'z56d4f1uT3k',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-N4MBIichQY?t=',
+    videoId: '-N4MBIichQY',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(

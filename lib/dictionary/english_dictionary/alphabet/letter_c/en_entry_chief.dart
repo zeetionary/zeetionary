@@ -200,7 +200,7 @@ class EnglishEntrychief extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرۆک، سەرەک، پایەبەرزترین، گەورە، سەر، کەڵان، میر،	سەرۆکی هۆز، کەڵانتەر، سەرخێڵ، سەرهۆز، سەرتیرە،	ڕێبەر، فەرماندەر، فەرماندار، سالار، سەردار، سەرکردە،	بەڕێز، کاکە (لە بانگ‌کردن‌دا)، ـگشتی، سەرـ (لە لێکدان‌دا)، گرنگ، گرنگ‌ترین، سەرەکی، بنەڕەتی، بنچینەیی، بنگەهی
+کوردی: سەرۆک، سەرەک، پایەبەرزترین، گەورە، سەر، کەڵان، میر،	سەرۆکی ھۆز، کەڵانتەر، سەرخێڵ، سەرھۆز، سەرتیرە،	ڕێبەر، فەرماندەر، فەرماندار، سالار، سەردار، سەرکردە،	بەڕێز، کاکە (لە بانگ‌کردن‌دا)، ـگشتی، سەرـ (لە لێکدان‌دا)، گرنگ، گرنگ‌ترین، سەرەکی، بنەڕەتی، بنچینەیی، بنگەھی
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) گرنگترین"),
@@ -385,7 +385,7 @@ class EnglishEntrychief extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەسێک کە پلەی بەرزە یان بەرزترین پلەی هەیە لە کۆمپانیایەک یان دامەزراوەیەک"),
+                                  "٣. (ناو) کەسێک کە پلەی بەرزە یان بەرزترین پلەی ھەیە لە کۆمپانیایەک یان دامەزراوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -485,7 +485,7 @@ class EnglishEntrychief extends StatelessWidget {
                                                     "Security chiefs are keeping their men on full alert after the bomb threat."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بەرپرسانی ئەمنی پیاوەکانیان لەوپەڕی ئامادەباشی هێشتووەتەوە لە دوای هەڕەشەی بۆمبەکە."),
+                                                    "بەرپرسانی ئەمنی پیاوەکانیان لەوپەڕی ئامادەباشی ھێشتووەتەوە لە دوای ھەڕەشەی بۆمبەکە."),
                                           ],
                                         ),
                                       ),
@@ -620,11 +620,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chief (Derived forms: chiefest, chiefer)
+- Adjective: chief (derived forms: chiefest, chiefer)
 1. Most important element (= main, primary, principal, master)
 "the chief aim of living";
 
-- Noun: chief  cheef (Derived forms: chiefest, chiefer)
+- Noun: chief  cheef (derived forms: chiefest, chiefer)
 1. A person who is in charge (= head, top dog [informal])
 "the chief of the whole operation";
  
@@ -664,7 +664,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E_Ca1DkUocs',
+    videoId: 'E_Ca1DkUocs',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -689,7 +689,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sMZ7ppSqg6c?t=',
+    videoId: 'sMZ7ppSqg6c',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -714,7 +714,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AAGIi62-sAU?t=',
+    videoId: 'AAGIi62-sAU',
     startSeconds: 1076,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -739,7 +739,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    videoId: '3RkhZgRNC1k',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -764,7 +764,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 707,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -789,7 +789,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MLd4K5hKosw?t=',
+    videoId: 'MLd4K5hKosw',
     startSeconds: 343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -814,7 +814,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zn0GBm1ltIk?t=',
+    videoId: 'Zn0GBm1ltIk',
     startSeconds: 284,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -839,7 +839,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CqkhjL3WvWQ?t=',
+    videoId: 'CqkhjL3WvWQ',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(

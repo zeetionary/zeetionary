@@ -197,7 +197,7 @@ class EnglishEntrychuck extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: باوانەکەم، گیانەکەم، کوڕە، گیرە یان قولاپێ بۆ ڕاگرتنی مەتە لە دەزگایێ‌دا، گیرە، مەهار،	گۆشتی سەرشان یان سەردەس (وڵاخ)
+کوردی: باوانەکەم، گیانەکەم، کوڕە، گیرە یان قولاپێ بۆ ڕاگرتنی مەتە لە دەزگایێ‌دا، گیرە، مەھار،	گۆشتی سەرشان یان سەردەس (وڵاخ)
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) فڕێدانی شتێک بە کەمتەرخەمانە"),
@@ -238,7 +238,7 @@ class EnglishEntrychuck extends StatelessWidget {
                                             "He picked up the letter and chucked it into the bin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەکەی هەڵگرتەوە و فڕێیدایە ناو زباڵەکەوە."),
+                                            "نامەکەی ھەڵگرتەوە و فڕێیدایە ناو زباڵەکەوە."),
                                   ],
                                 ),
                               ),
@@ -258,7 +258,7 @@ class EnglishEntrychuck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) کۆڵدان یان وازهێنان لە کردنی شتێک"),
+                                  "٢. (کردار) کۆڵدان یان وازھێنان لە کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntrychuck extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "You haven't chucked your job!"),
                                     ExampleSentenceKurdish(
-                                        text: "وازت لە کارەکەت نەهێناوە!"),
+                                        text: "وازت لە کارەکەت نەھێناوە!"),
                                   ],
                                 ),
                               ),
@@ -295,7 +295,7 @@ class EnglishEntrychuck extends StatelessWidget {
                                             "She had a go at learning the piano, but chucked it in after a year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵێکی فێربوونی پیانۆی دا، بەڵام دوای یەک ساڵ وازی هێنا."),
+                                            "ھەوڵێکی فێربوونی پیانۆی دا، بەڵام دوای یەک ساڵ وازی ھێنا."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntrychuck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) جێهێشتنی کچێک یان کوڕێک کە پەیوەندیت هەیە لەگەڵی"),
+                                  "٣. (کردار) جێھێشتنی کچێک یان کوڕێک کە پەیوەندیت ھەیە لەگەڵی"),
                           Row(
                             children: [
                               const Expanded(
@@ -324,7 +324,7 @@ class EnglishEntrychuck extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Has he chucked her?"),
                                     ExampleSentenceKurdish(
-                                        text: "وازی لە کچەکە هێناوە؟"),
+                                        text: "وازی لە کچەکە ھێناوە؟"),
                                   ],
                                 ),
                               ),
@@ -343,7 +343,7 @@ class EnglishEntrychuck extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) فڕێدانی شتێک و وازهێنان لێی"),
+                              text: "٤. (کردار) فڕێدانی شتێک و وازھێنان لێی"),
                           Row(
                             children: [
                               const Expanded(
@@ -352,7 +352,7 @@ class EnglishEntrychuck extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "That's no good—just chuck it."),
                                     ExampleSentenceKurdish(
-                                        text: "هیچ باش نییە، فڕێی بدە."),
+                                        text: "ھیچ باش نییە، فڕێی بدە."),
                                   ],
                                 ),
                               ),
@@ -403,7 +403,7 @@ class EnglishEntrychuck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) وشەیەکی هاوڕێیانە بۆ بانگکردنی کەسێک"),
+                                  "٦. (ناو) وشەیەکی ھاوڕێیانە بۆ بانگکردنی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -442,7 +442,7 @@ class EnglishEntrychuck extends StatelessWidget {
                                             "He bought a pound of chuck to make hamburgers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاوەندێک سەرشانی مانگای کڕی بۆ درووستکردنی هەمبەرگر."),
+                                            "پاوەندێک سەرشانی مانگای کڕی بۆ درووستکردنی ھەمبەرگر."),
                                   ],
                                 ),
                               ),
@@ -541,7 +541,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: chuck (Derived forms: chucks, chucked, chucking)
+- Verb: chuck (derived forms: chucks, chucked, chucking)
 1. Throw carelessly (= toss, huck [N. Amer, informal], sling [Brit, informal])
 "chuck the ball";
  
@@ -558,7 +558,7 @@ ${englishMeaningConst.text}
 6. [Brit, informal] Rain heavily (= pour, pelt, rain cats and dogs [informal], rain buckets [informal], belt down [informal], pelt down [informal], tip [Brit, informal], chuck it down [Brit, informal], bucket [Brit, informal], teem [informal])
 "Put on your rain coat-- it's chucking it down outside!";
 
-- Noun: chuck (Derived forms: chucks)
+- Noun: chuck (derived forms: chucks)
 1. [N. Amer, informal] The food and drink that are regularly served or consumed (= fare, chow [informal], eats [informal], grub [informal])
  
 2. The part of a forequarter from the neck to the ribs and including the shoulder blade (= chuck steak)
@@ -601,7 +601,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_KfaSiD-7iY?t=',
+    videoId: '_KfaSiD-7iY',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    videoId: '-CJ4eUhE3Lw',
     startSeconds: 798,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -651,7 +651,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5mZovjRlkWs?t=',
+    videoId: '5mZovjRlkWs',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -676,7 +676,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d1oB1CLAsXI?t=',
+    videoId: 'd1oB1CLAsXI',
     startSeconds: 710,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -701,7 +701,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/53ivEr2Sd44?t=',
+    videoId: '53ivEr2Sd44',
     startSeconds: 791,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -726,7 +726,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6Pwzh2JOFw4?t=',
+    videoId: '6Pwzh2JOFw4',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -751,7 +751,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GpzicRUqHog?t=',
+    videoId: 'GpzicRUqHog',
     startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -776,7 +776,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
+    videoId: 'tkLZYEIslWM',
     startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(

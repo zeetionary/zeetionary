@@ -191,11 +191,11 @@ class EnglishEntrycitrus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مزرەمەنی، ترشەمەنی، لیمۆیی، تیرەپرتەقاڵ، گریپ‌فروت (لیمۆهێندی)
+کوردی: مزرەمەنی، ترشەمەنی، لیمۆیی، تیرەپرتەقاڵ، گریپ‌فروت (لیمۆھێندی)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) میوە ئاودارە ترشەکانی وەک پرتەقاڵ و لیمۆ و لیمۆهیندی، هتد"),
+                                  "١. (ناو) میوە ئاودارە ترشەکانی وەک پرتەقاڵ و لیمۆ و لیمۆھیندی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: citrus (Derived forms: citruses)
+- Noun: citrus (derived forms: citruses)
 1. Any of numerous fruits of the genus Citrus having thick rind and juicy pulp; grown in warm regions (= citrus fruit, citrous fruit)
  
 2. Any of numerous tropical usually thorny evergreen trees of the genus Citrus having leathery evergreen leaves and widely cultivated for their juicy edible fruits having leathery aromatic rinds (= citrus tree)
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9PO-EnDjEfs?t=',
+    videoId: '9PO-EnDjEfs',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tNivqIKI_9g?t=',
+    videoId: 'tNivqIKI_9g',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nd1ws1fwpqc?t=',
+    videoId: 'nd1ws1fwpqc',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cHvMjVZwbj4?t=',
+    videoId: 'cHvMjVZwbj4',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1cyeR6-F53k?t=',
+    videoId: '1cyeR6-F53k',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WR29LsEY9iI?t=',
+    videoId: 'WR29LsEY9iI',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JQOCbyzzt6Y?t=',
+    videoId: 'JQOCbyzzt6Y',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oDBOMjgHdTI?t=',
+    videoId: 'oDBOMjgHdTI',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(

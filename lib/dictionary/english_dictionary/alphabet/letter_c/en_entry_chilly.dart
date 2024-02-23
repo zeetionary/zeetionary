@@ -29,8 +29,7 @@ class EnglishEntrychilly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's chilly today."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's chilly today."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakchillys2(String languageCode) async {
@@ -201,8 +200,7 @@ class EnglishEntrychilly extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "It's chilly today."),
+                                        text: "It's chilly today."),
                                     ExampleSentenceKurdish(
                                         text: "ئەمڕۆ زۆر ساردە."),
                                   ],
@@ -223,30 +221,29 @@ class EnglishEntrychilly extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "I was feeling chilly."),
-                          ExampleSentenceKurdish(
-                          text: "هەستم بە سەرمایەکی زۆر دەکرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakchillys2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakchillys2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I was feeling chilly."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەستم بە سەرمایەکی زۆر دەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakchillys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakchillys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -260,7 +257,7 @@ class EnglishEntrychilly extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -330,7 +327,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chilly (Derived forms: chilliest, chillier) 
+- Adjective: chilly (derived forms: chilliest, chillier) 
 1. Not characterized by emotion
 "a female form in marble--a chilly but ideal medium for depicting abstract virtues"
  
@@ -371,7 +368,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DYOkoblc9II?t=',
+    videoId: 'DYOkoblc9II',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +393,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cE8dpDjc9K4?t=',
+    videoId: 'cE8dpDjc9K4',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +418,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uEv5LkC5dDo?t=',
+    videoId: 'uEv5LkC5dDo',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0gLffivm_9U?t=',
+    videoId: '0gLffivm_9U',
     startSeconds: 339,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4X2ES8HfLys?t=',
+    videoId: '4X2ES8HfLys',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +493,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/psGKsqgdQ5c?t=',
+    videoId: 'psGKsqgdQ5c',
     startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +518,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lsbcN9-jU1Y?t=',
+    videoId: 'lsbcN9-jU1Y',
     startSeconds: 1360,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +543,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C1oxhniG_Fc?t=',
+    videoId: 'C1oxhniG_Fc',
     startSeconds: 717,
     autoPlay: true,
     params: const YoutubePlayerParams(

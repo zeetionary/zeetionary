@@ -197,7 +197,7 @@ class EnglishEntrycircus extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گرووپێک لە نمایشکار کە گەشت دەکەن و پێکهاتوون لە جامباز و شارەزایانی ئاژەڵان"),
+                                  "١. (ناو) گرووپێک لە نمایشکار کە گەشت دەکەن و پێکھاتوون لە جامباز و شارەزایانی ئاژەڵان"),
                           Row(
                             children: [
                               const Expanded(
@@ -225,7 +225,6 @@ class EnglishEntrycircus extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -271,7 +270,7 @@ class EnglishEntrycircus extends StatelessWidget {
                                             "A media circus surrounded the royal couple wherever they went."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاشوهووشی میدیا بەدوای دوو دڵدارە شاهانەییەکەوە بوون بۆ هەر کوێیەک بچووبان."),
+                                            "ھاشوھووشی میدیا بەدوای دوو دڵدارە شاھانەییەکەوە بوون بۆ ھەر کوێیەک بچووبان."),
                                   ],
                                 ),
                               ),
@@ -370,7 +369,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: circus (Derived forms: circuses)
+- Noun: circus (derived forms: circuses)
 1. A travelling company of entertainers; including trained animals
 "he ran away from home to join the circus"
  
@@ -420,7 +419,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kl4ORsnCn-U?t=',
+    videoId: 'kl4ORsnCn-U',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +444,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x0v7x6JdM-I?t=',
+    videoId: 'x0v7x6JdM-I',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +469,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6yrtrDjmw5c?t=',
+    videoId: '6yrtrDjmw5c',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +494,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rLxonDbNfP8?t=',
+    videoId: 'rLxonDbNfP8',
     startSeconds: 1012,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +519,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yAyoE39cBvU?t=',
+    videoId: 'yAyoE39cBvU',
     startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +544,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7MKcX9GMZfM?t=',
+    videoId: '7MKcX9GMZfM',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +569,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J4Ws9A-K14I?t=',
+    videoId: 'J4Ws9A-K14I',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +594,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yK2bIvRtr6Y?t=',
+    videoId: 'yK2bIvRtr6Y',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +619,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1G2LIGPf6oc?t=',
+    videoId: '1G2LIGPf6oc',
     startSeconds: 297,
     autoPlay: true,
     params: const YoutubePlayerParams(

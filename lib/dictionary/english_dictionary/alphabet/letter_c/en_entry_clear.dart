@@ -696,7 +696,7 @@ class EnglishEntryclear extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕوون، تەنک، ڕووتەنک، زوڵاڵ، ساف، ئەودیودیار،	سا، ساو، ساماڵ، تاووساو، تاووبان، تاو(کەوتوو)، بێ‌هەورهەڵا، خۆرکەوتوو،	دیار، ئاشکرا، خۆیا، ڕۆشن، ڕوون، بەرچاو، ڕاشکاو،	ڕەوان،	دڵنیا،	تەواو، ڕەبەق، گشت، هەموو،	ڕەها، ئازاد، دانەخراو، نەگیراو، بێ‌لەمپەر، بێ‌کۆسپ،	کراوە، ئاواڵە،	چۆڵ، خاڵی، بەتاڵ،	خەڵوەت،	دوور، بە دوور لە،	پوختە (خەرج‌وبار لێ‌دەرکراو)، بە ڕاشکاوی، بە ڕوونی، بەتەواوەتی، دوور، بە دوور لە، دوور لە
+کوردی: ڕوون، تەنک، ڕووتەنک، زوڵاڵ، ساف، ئەودیودیار،	سا، ساو، ساماڵ، تاووساو، تاووبان، تاو(کەوتوو)، بێ‌ھەورھەڵا، خۆرکەوتوو،	دیار، ئاشکرا، خۆیا، ڕۆشن، ڕوون، بەرچاو، ڕاشکاو،	ڕەوان،	دڵنیا،	تەواو، ڕەبەق، گشت، ھەموو،	ڕەھا، ئازاد، دانەخراو، نەگیراو، بێ‌لەمپەر، بێ‌کۆسپ،	کراوە، ئاواڵە،	چۆڵ، خاڵی، بەتاڵ،	خەڵوەت،	دوور، بە دوور لە،	پوختە (خەرج‌وبار لێ‌دەرکراو)، بە ڕاشکاوی، بە ڕوونی، بەتەواوەتی، دوور، بە دوور لە، دوور لە
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕوون و ئاسان بۆ تێگەشتن"),
@@ -827,7 +827,7 @@ class EnglishEntryclear extends StatelessWidget {
                                                     "She was quite clear about her reasons for leaving."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تەواو ڕوون بوو سەبارەت بە هۆکارەکانی بۆ ڕۆشتن."),
+                                                    "تەواو ڕوون بوو سەبارەت بە ھۆکارەکانی بۆ ڕۆشتن."),
                                           ],
                                         ),
                                       ),
@@ -853,7 +853,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) ڕوون و ئاشکرا، بەبێ هێشتنەوەی هیچ گومانێک"),
+                                  "٢. (ھاوەڵناو) ڕوون و ئاشکرا، بەبێ ھێشتنەوەی ھیچ گومانێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -890,7 +890,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "She won the election by a clear majority."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵبژاردنەکەی بردەوە بە زۆرینەیەکی ڕەها."),
+                                            "ھەڵبژاردنەکەی بردەوە بە زۆرینەیەکی ڕەھا."),
                                   ],
                                 ),
                               ),
@@ -921,7 +921,7 @@ class EnglishEntryclear extends StatelessWidget {
                                                     "There is clear evidence that he was involved with the gang."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بەڵگەی تەواو هەیە کە بەشێک بوو لە گرووپە تاوانکارییەکە."),
+                                                    "بەڵگەی تەواو ھەیە کە بەشێک بوو لە گرووپە تاوانکارییەکە."),
                                           ],
                                         ),
                                       ),
@@ -1016,7 +1016,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "I'm still not clear what the job involves."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا دڵنیا نیم کە کارەکە چی لەخۆدەگرێت."),
+                                            "ھێشتا دڵنیا نیم کە کارەکە چی لەخۆدەگرێت."),
                                   ],
                                 ),
                               ),
@@ -1047,7 +1047,7 @@ class EnglishEntryclear extends StatelessWidget {
                                                     "I'm still not clear whether she wants to come or not."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هێشتا دڵنیانیم کە دەیەوێت بێت یان نا."),
+                                                    "ھێشتا دڵنیانیم کە دەیەوێت بێت یان نا."),
                                           ],
                                         ),
                                       ),
@@ -1077,7 +1077,7 @@ class EnglishEntryclear extends StatelessWidget {
                                                     "Everyone must be clear about their responsibilities."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەموان دەبێت بەرچاوڕوون بن سەبارەت بە ئەرکەکانیان."),
+                                                    "ھەموان دەبێت بەرچاوڕوون بن سەبارەت بە ئەرکەکانیان."),
                                           ],
                                         ),
                                       ),
@@ -1169,7 +1169,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "The voice on the phone was clear and strong."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگی ناو تەلەفۆنەکە ڕوون و بەهێز بوو."),
+                                            "دەنگی ناو تەلەفۆنەکە ڕوون و بەھێز بوو."),
                                   ],
                                 ),
                               ),
@@ -1200,7 +1200,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "The water was so clear we could see the bottom of the lake."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاوەکە هێندە ڕوون بوو کە دەتتوانی بنی دەریاچەکە ببینیت."),
+                                            "ئاوەکە ھێندە ڕوون بوو کە دەتتوانی بنی دەریاچەکە ببینیت."),
                                   ],
                                 ),
                               ),
@@ -1228,7 +1228,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "Items must be carried in a clear plastic bag."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شت دەبێت لەناو کیسەی پلاستیکی ڕووندا هەڵبگیردرێن."),
+                                            "شت دەبێت لەناو کیسەی پلاستیکی ڕووندا ھەڵبگیردرێن."),
                                   ],
                                 ),
                               ),
@@ -1248,7 +1248,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ھاوەڵناو) ئاسمانی ساماڵ؛ بەبێ هەور و تەم"),
+                                  "٧. (ھاوەڵناو) ئاسمانی ساماڵ؛ بەبێ ھەور و تەم"),
                           Row(
                             children: [
                               const Expanded(
@@ -1290,7 +1290,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "Proper hydration and a balanced diet can contribute to achieving clear skin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاوخواردنەوەی گونجاو و نانخواردنی هاوسەنگ دەکرێت یارمەتیدەر بێت لە هەبوونی پێستێکی پاک."),
+                                            "ئاوخواردنەوەی گونجاو و نانخواردنی ھاوسەنگ دەکرێت یارمەتیدەر بێت لە ھەبوونی پێستێکی پاک."),
                                   ],
                                 ),
                               ),
@@ -1310,7 +1310,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ھاوەڵناو) بەبێ کۆسپ و ئاستەنگ؛ بەبێ هیچ ڕێگرییەک"),
+                                  "٩. (ھاوەڵناو) بەبێ کۆسپ و ئاستەنگ؛ بەبێ ھیچ ڕێگرییەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1368,7 +1368,7 @@ class EnglishEntryclear extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١١. (ھاوەڵناو) هەستنەکردن بە تاوان"),
+                              text: "١١. (ھاوەڵناو) ھەستنەکردن بە تاوان"),
                           Row(
                             children: [
                               const Expanded(
@@ -1379,7 +1379,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "I have no regrets, and can leave the company with a clear conscience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ داخێکم نییە، و دەتوانم کۆمپانیاکە بە دڵ‌ودەروونی ئاسوودەوە جێبهێڵم."),
+                                            "ھیچ داخێکم نییە، و دەتوانم کۆمپانیاکە بە دڵ‌ودەروونی ئاسوودەوە جێبھێڵم."),
                                   ],
                                 ),
                               ),
@@ -1409,7 +1409,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "They were still not clear of all suspicion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا بە تەواوی لە گومان پاکنەبووەوە."),
+                                            "ھێشتا بە تەواوی لە گومان پاکنەبووەوە."),
                                   ],
                                 ),
                               ),
@@ -1467,7 +1467,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "The plane climbed until it was clear of the clouds."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فڕۆکەکە بەرزبووەوە تاوەکو لە هەورەکان دوورکەوتەوە."),
+                                            "فڕۆکەکە بەرزبووەوە تاوەکو لە ھەورەکان دوورکەوتەوە."),
                                   ],
                                 ),
                               ),
@@ -1514,7 +1514,7 @@ class EnglishEntryclear extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٤. (ھاوەڵناو) هەموو، تەواو"),
+                              text: "١٤. (ھاوەڵناو) ھەموو، تەواو"),
                           Row(
                             children: [
                               const Expanded(
@@ -1545,7 +1545,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٥. (ناو) بڕە پارەی قازانج لە دوای ئەوەی باج، خەرجی، هتد دەردەکرێت"),
+                                  "١٥. (ناو) بڕە پارەی قازانج لە دوای ئەوەی باج، خەرجی، ھتد دەردەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1771,7 +1771,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "Security officials tried to clear the area, fearing more bomb attacks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرپرسانی ئاسایش هەوڵیان ناوچەکە چۆڵبکەن لە ترسی تەقینەوە."),
+                                            "بەرپرسانی ئاسایش ھەوڵیان ناوچەکە چۆڵبکەن لە ترسی تەقینەوە."),
                                   ],
                                 ),
                               ),
@@ -1830,7 +1830,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "The traffic took a long time to clear after the accident."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتووچۆ چەند کاتژمێرێکی پێچوو بۆ دووبارە دەستپێکردنەوە لە دوای ڕووداوەکە."),
+                                            "ھاتووچۆ چەند کاتژمێرێکی پێچوو بۆ دووبارە دەستپێکردنەوە لە دوای ڕووداوەکە."),
                                   ],
                                 ),
                               ),
@@ -1858,7 +1858,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "The boy's lungs cleared and he began to breathe more easily."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سییەکانی کوڕەکە پاکبوویەوە و دەستیکردەوە بە هەناسەدان بە ئاسانتر."),
+                                            "سییەکانی کوڕەکە پاکبوویەوە و دەستیکردەوە بە ھەناسەدان بە ئاسانتر."),
                                   ],
                                 ),
                               ),
@@ -1877,7 +1877,7 @@ class EnglishEntryclear extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٨. (کردار) نەمانی دووکەڵ، تەم، هتد"),
+                              text: "١٨. (کردار) نەمانی دووکەڵ، تەم، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1936,7 +1936,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٩. (کردار) ئارامبوونەوەی کەشوهەوا و نەمانی هەور و باران"),
+                                  "١٩. (کردار) ئارامبوونەوەی کەشوھەوا و نەمانی ھەور و باران"),
                           Row(
                             children: [
                               const Expanded(
@@ -2000,7 +2000,7 @@ class EnglishEntryclear extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The rain is clearing slowly."),
                                     ExampleSentenceKurdish(
-                                        text: "بارانەکە بەهێواشی خۆش دەکات."),
+                                        text: "بارانەکە بەھێواشی خۆش دەکات."),
                                   ],
                                 ),
                               ),
@@ -2031,7 +2031,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "The muddy water slowly cleared."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاوە قوڕاوییەکە بەهێواشی ڕوونبووەوە."),
+                                            "ئاوە قوڕاوییەکە بەھێواشی ڕوونبووەوە."),
                                   ],
                                 ),
                               ),
@@ -2051,7 +2051,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢١. (کردار) ئارامبوونەوەی مێشک هەبوونی توانای بیرکردنەوە بە ڕوونی و بەبێ نیگەرانی، یان هەبوونی کاریگەری مادەی کحولی"),
+                                  "٢١. (کردار) ئارامبوونەوەی مێشک ھەبوونی توانای بیرکردنەوە بە ڕوونی و بەبێ نیگەرانی، یان ھەبوونی کاریگەری مادەی کحولی"),
                           Row(
                             children: [
                               const Expanded(
@@ -2121,7 +2121,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "His face suddenly cleared as understanding dawned."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووخساری لەناکاو هێوربوویەوە کە دەستی بە تێگەشتن کرد."),
+                                            "ڕووخساری لەناکاو ھێوربوویەوە کە دەستی بە تێگەشتن کرد."),
                                   ],
                                 ),
                               ),
@@ -2151,7 +2151,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "She was cleared of all charges against her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەموو تاوانەکانی دژی پاککرایەوە."),
+                                            "لە ھەموو تاوانەکانی دژی پاککرایەوە."),
                                   ],
                                 ),
                               ),
@@ -2179,7 +2179,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "Throughout his years in prison, he fought to clear his name."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ماوەی ساڵانی زیندانیی، هەوڵیدا ناوی پاکبکاتەوە."),
+                                            "لە ماوەی ساڵانی زیندانیی، ھەوڵیدا ناوی پاکبکاتەوە."),
                                   ],
                                 ),
                               ),
@@ -2230,7 +2230,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٥. (کردار) پێدانی مۆڵەت بە کەسێک، کەشتییەک، فڕۆکەیەک، هتد بۆ جێهێشتن یان چوونە ناو شوێنێک"),
+                                  "٢٥. (کردار) پێدانی مۆڵەت بە کەسێک، کەشتییەک، فڕۆکەیەک، ھتد بۆ جێھێشتن یان چوونە ناو شوێنێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -2260,7 +2260,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٦. (کردار) بە فەرمی بڕیاردان، لە دوای دۆزینەوەی زانیاری لەسەر کەسێک، کە دەکرێت کاری تایبەتیان پێ بدرێت یان نووسراوی نهێنی ببینن"),
+                                  "٢٦. (کردار) بە فەرمی بڕیاردان، لە دوای دۆزینەوەی زانیاری لەسەر کەسێک، کە دەکرێت کاری تایبەتیان پێ بدرێت یان نووسراوی نھێنی ببینن"),
                           Row(
                             children: [
                               const Expanded(
@@ -2291,7 +2291,7 @@ class EnglishEntryclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٧. (کردار) بەردەستبوونی پارە بۆ بەکارهێنان"),
+                                  "٢٧. (کردار) بەردەستبوونی پارە بۆ بەکارھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -2362,7 +2362,7 @@ class EnglishEntryclear extends StatelessWidget {
                                             "They sold £25 million in holdings in order to clear colossal bank debts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە بەهای ٢٥ ملیۆن دۆلار پشکیان فرۆشتووە بۆ دانەوەی قەرزی گەورەی بانکی."),
+                                            "بە بەھای ٢٥ ملیۆن دۆلار پشکیان فرۆشتووە بۆ دانەوەی قەرزی گەورەی بانکی."),
                                   ],
                                 ),
                               ),
@@ -2640,7 +2640,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: clear (Derived forms: clearest, clearer)
+- Adjective: clear (derived forms: clearest, clearer)
 1. Readily apparent to the mind
 "a clear and present danger"; "a clear explanation"; "a clear case of murder"; "a clear indication that she was angry"; "gave us a clear idea of human nature"
  
@@ -2692,7 +2692,7 @@ ${englishMeaningConst.text}
 17. Characterized by ease and quickness in perceiving (= percipient)
 "clear mind";
 
-- Verb: clear (Derived forms: clearing, clears, cleared)
+- Verb: clear (derived forms: clearing, clears, cleared)
 1. Rid of obstructions (= unclutter)
 "Clear your desk";
  
@@ -2772,7 +2772,7 @@ ${englishMeaningConst.text}
 2. In an easily perceptible manner (= clearly)
 "She cried loud and clear";
 
-- Noun: clear (Derived forms: clears)
+- Noun: clear (derived forms: clears)
 1. The state of being free of suspicion
 "investigation showed that he was in the clear"
  
@@ -2810,7 +2810,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jgNoyfryIFI?t=',
+    videoId: 'jgNoyfryIFI',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2835,7 +2835,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QBz2Mvp-WlE?t=',
+    videoId: 'QBz2Mvp-WlE',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2860,7 +2860,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Na8tL0Sq-rU?t=',
+    videoId: 'Na8tL0Sq-rU',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2885,7 +2885,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0UEfXsu1OVw?t=',
+    videoId: '0UEfXsu1OVw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2910,7 +2910,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UlY4TnCdL0s?t=',
+    videoId: 'UlY4TnCdL0s',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2935,7 +2935,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2960,7 +2960,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_wNsZEqpKUA?t=',
+    videoId: '_wNsZEqpKUA',
     startSeconds: 1128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2985,7 +2985,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
+    videoId: '8HEfIJlcFbs',
     startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(

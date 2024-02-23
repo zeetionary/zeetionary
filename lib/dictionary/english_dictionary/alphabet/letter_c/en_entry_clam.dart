@@ -195,7 +195,7 @@ class EnglishEntryclam extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جۆرە گیانەوەرێکی سەدەفدار کە دەکرێت بخورێت و دوو توێکڵی هەیە کە دەکرێنەوە و دادەخرێن"),
+                                  "١. (ناو) جۆرە گیانەوەرێکی سەدەفدار کە دەکرێت بخورێت و دوو توێکڵی ھەیە کە دەکرێنەوە و دادەخرێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclam extends StatelessWidget {
                                             "The moment I mentioned the children he closed up like a clam (= became silent and refused to discuss the topic)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو."),
+                                            "ھەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو."),
                                   ],
                                 ),
                               ),
@@ -305,14 +305,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clam (Derived forms: clams)
+- Noun: clam (derived forms: clams)
 1. Burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness
  
 2. Flesh of either hard-shell or soft-shell clams
  
 3. [US, informal] A piece of paper money worth one dollar (= dollar, dollar bill, one dollar bill, buck [informal], single [US, informal])
 
-- Verb: clam (Derived forms: clams, clammed, clamming)
+- Verb: clam (derived forms: clams, clammed, clamming)
 1. Gather clams, by digging in the sand by the ocean
 """,
   );
@@ -346,7 +346,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v9bxjZLO0Tw?t=',
+    videoId: 'v9bxjZLO0Tw',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -371,7 +371,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5xaJxWV-IP8?t=',
+    videoId: '5xaJxWV-IP8',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3GLZAIaXudk?t=',
+    videoId: '3GLZAIaXudk',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H0msk-ZokMw',
+    videoId: 'H0msk-ZokMw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wO7ZFUutn0k?t=',
+    videoId: 'wO7ZFUutn0k',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-tmoZeopk7c?t=',
+    videoId: '-tmoZeopk7c',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zj31k1Wv0hQ?t=',
+    videoId: 'zj31k1Wv0hQ',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_4Aom0AD-Q0?t=',
+    videoId: '_4Aom0AD-Q0',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -194,11 +194,11 @@ class EnglishEntrychestnut extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شابەڕوو، شەمبەلووت، درەختی شابەڕوو، کەستانە، لە داری شابەڕوو، داری شابەڕوو،	ڕەنگی بەڕوویی یان خورمایی،	ئەسپی کوێت، سوورکوێت، ئەسپی شێ، کەرەندە، ئاڵە،	قسەی هیچەکە یان بێ‌تام، گاڵتە یان جۆکی کۆن
+کوردی: شابەڕوو، شەمبەلووت، درەختی شابەڕوو، کەستانە، لە داری شابەڕوو، داری شابەڕوو،	ڕەنگی بەڕوویی یان خورمایی،	ئەسپی کوێت، سوورکوێت، ئەسپی شێ، کەرەندە، ئاڵە،	قسەی ھیچەکە یان بێ‌تام، گاڵتە یان جۆکی کۆن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دارێکی گەورە کە قەدی بڵاوی هەیە و کاکڵداری قاوەیی لووس بەرهەمدێنێت لەناو کاکڵێکدا کە دڕکدارە"),
+                                  "١. (ناو) دارێکی گەورە کە قەدی بڵاوی ھەیە و کاکڵداری قاوەیی لووس بەرھەمدێنێت لەناو کاکڵێکدا کە دڕکدارە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrychestnut extends StatelessWidget {
                                             "There is a 200-year-old chestnut tree on the hill."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دار شابەڕوویەکی ٢٠٠ ساڵە هەیە لەسەر گردەکە."),
+                                            "دار شابەڕوویەکی ٢٠٠ ساڵە ھەیە لەسەر گردەکە."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntrychestnut extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کاکڵدارێکی قاوەیی لووس کە بەری دار شابەڕووە و هەندێک جۆری دەخورێت"),
+                                  "٢. (ناو) کاکڵدارێکی قاوەیی لووس کە بەری دار شابەڕووە و ھەندێک جۆری دەخورێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -300,7 +300,7 @@ class EnglishEntrychestnut extends StatelessWidget {
                                             "She had chestnut hair that shimmered in the sunlight."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قژی ڕەنگ خورمایی هەبوو کە لەبەر خۆرەکە دەدرەوشایەوە."),
+                                            "قژی ڕەنگ خورمایی ھەبوو کە لەبەر خۆرەکە دەدرەوشایەوە."),
                                   ],
                                 ),
                               ),
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chestnut (Derived forms: chestnuts)
+- Noun: chestnut (derived forms: chestnuts)
 1. Edible nut of any of various chestnut trees of the genus Castanea
  
 2. Any of several deciduous trees; yields a hard wood and edible nuts in a prickly bur (= chestnut tree)
@@ -447,7 +447,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fe4G9tTzeW0?t=',
+    videoId: 'Fe4G9tTzeW0',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lzy6YMH0Glo?t=',
+    videoId: 'Lzy6YMH0Glo',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PJ9GBCHdqi0',
+    videoId: 'PJ9GBCHdqi0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2OZtgAA4XMY?t=',
+    videoId: '2OZtgAA4XMY',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f4CKEmrV6Pw',
+    videoId: 'f4CKEmrV6Pw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/phoj2NXr9aA?t=',
+    videoId: 'phoj2NXr9aA',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxuHo62reRw?t=',
+    videoId: 'HxuHo62reRw',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L2PmaST8hkQ?t=',
+    videoId: 'L2PmaST8hkQ',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(

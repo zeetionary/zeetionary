@@ -154,7 +154,8 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkemɪkl ˈwɔːfeə(r)/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˌkemɪkl ˈwɔːfeə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakchemicalwarfare("en-GB"),
                             ),
@@ -162,7 +163,8 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌkemɪkl ˈwɔːrfer/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkemɪkl ˈwɔːrfer/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakchemicalwarfare("en-US"),
                             ),
@@ -191,7 +193,8 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١. (ناو) شەڕی کیمیایی؛ بەکارهێنانی گازی ژەهراوی و مادەی کیمیایی وەک چەک لە جەنگدا"),
+                              text:
+                                  "١. (ناو) شەڕی کیمیایی؛ بەکارھێنانی گازی ژەھراوی و مادەی کیمیایی وەک چەک لە جەنگدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +204,8 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                                         text:
                                             "He denied his country has developed the capability for chemical warfare."),
                                     ExampleSentenceKurdish(
-                                        text: "نکۆڵی کرد لەوەی وڵاتەکەی توانای شەڕی کیمیایی گەشەپێ‌دابێت."),
+                                        text:
+                                            "نکۆڵی کرد لەوەی وڵاتەکەی توانای شەڕی کیمیایی گەشەپێ‌دابێت."),
                                   ],
                                 ),
                               ),
@@ -209,10 +213,12 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchemicalwarfares1("en-GB"),
+                                    onPressed: () =>
+                                        speakchemicalwarfares1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicalwarfares1("en-US"),
+                                    onPressed: () =>
+                                        speakchemicalwarfares1("en-US"),
                                   ),
                                 ],
                               ),
@@ -230,7 +236,7 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -334,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nU_QOvkidtI?t=',
+    videoId: 'nU_QOvkidtI',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -359,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6IpE69UVZfw?t=',
+    videoId: '6IpE69UVZfw',
     startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -384,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C8YlGkoYXXM?t=',
+    videoId: 'C8YlGkoYXXM',
     startSeconds: 546,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -409,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ5GfDbjos8?t=',
+    videoId: 'iQ5GfDbjos8',
     startSeconds: 432,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -434,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SKcxR6xolAQ?t=',
+    videoId: 'SKcxR6xolAQ',
     startSeconds: 459,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -459,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C_mRV2Taf6w?t=',
+    videoId: 'C_mRV2Taf6w',
     startSeconds: 234,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/it_ogiiQIA0?t=',
+    videoId: 'it_ogiiQIA0',
     startSeconds: 430,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D4nPxik59oE?t=',
+    videoId: 'D4nPxik59oE',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(

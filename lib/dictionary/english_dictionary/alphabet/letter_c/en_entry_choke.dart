@@ -204,7 +204,7 @@ class EnglishEntrychoke extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) نەبوونی توانای هەناسەدان بەهۆی ئەوەی ڕێچکەی هەوات گیراوە یان ناتوانی هەناسەی پێویست هەڵبمژیت"),
+                                  "١. (کردار) نەبوونی توانای ھەناسەدان بەھۆی ئەوەی ڕێچکەی ھەوات گیراوە یان ناتوانی ھەناسەی پێویست ھەڵبمژیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -340,7 +340,7 @@ class EnglishEntrychoke extends StatelessWidget {
                                             "He may have been choked or poisoned."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەوانەیە خنکێندرابێت یان ژەهرخوارد کرابێت."),
+                                            "لەوانەیە خنکێندرابێت یان ژەھرخوارد کرابێت."),
                                   ],
                                 ),
                               ),
@@ -387,7 +387,7 @@ class EnglishEntrychoke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بێ توانابوون لەوەی بە ئاسایی قسە بکەیت بەهۆی هەستی زۆرەوە"),
+                                  "٣. (کردار) بێ توانابوون لەوەی بە ئاسایی قسە بکەیت بەھۆی ھەستی زۆرەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -417,7 +417,7 @@ class EnglishEntrychoke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) گرتنی ڕێچکەیەک، ڕێگایەک، شوێنێک، هتد بەشێوەیەک کە جوڵان تێیدا ئاستەنگ بێت"),
+                                  "٤. (کردار) گرتنی ڕێچکەیەک، ڕێگایەک، شوێنێک، ھتد بەشێوەیەک کە جوڵان تێیدا ئاستەنگ بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -428,7 +428,7 @@ class EnglishEntrychoke extends StatelessWidget {
                                             "The roads are choked up with traffic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێگاکان بە زۆری هاتووچۆ گیراون."),
+                                            "ڕێگاکان بە زۆری ھاتووچۆ گیراون."),
                                   ],
                                 ),
                               ),
@@ -475,7 +475,7 @@ class EnglishEntrychoke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) شکستهێنان لە شتێک، بۆ نموونە بەهۆی ئەوەی شڵەژاوی"),
+                                  "٥. (کردار) شکستھێنان لە شتێک، بۆ نموونە بەھۆی ئەوەی شڵەژاوی"),
                           Row(
                             children: [
                               const Expanded(
@@ -486,7 +486,7 @@ class EnglishEntrychoke extends StatelessWidget {
                                             "We were the only team not to choke at the big moment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها تیم بووین لە ساتەوەختە گەورەکەدا شکست نەهێنین."),
+                                            "تەنھا تیم بووین لە ساتەوەختە گەورەکەدا شکست نەھێنین."),
                                   ],
                                 ),
                               ),
@@ -585,7 +585,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: choke (Derived forms: choked, choking, chokes)
+- Verb: choke (derived forms: choked, choking, chokes)
 1. Breathe with great difficulty, as when experiencing a strong emotion
 "She choked with emotion when she spoke about her deceased husband"
  
@@ -625,7 +625,7 @@ ${englishMeaningConst.text}
  
 14. Cease to live; lose all bodily attributes and functions necessary to sustain life (= die, decease [archaic], perish, go, exit, pass away, expire, pass, kick the bucket [informal], cash in one's chips [informal], buy the farm [N. Amer, informal], conk [informal], give-up the ghost [informal], drop dead, pop off [informal], croak [informal], snuff it [informal], flatline [informal], cop it [Brit, informal], cash in [informal], pop one's clogs [informal])
 
-- Noun: choke (Derived forms: chokes)
+- Noun: choke (derived forms: chokes)
 1. A coil of low resistance and high inductance used in electrical circuits to pass direct current and attenuate alternating current (= choke coil, choking coil)
  
 2. A valve that controls the flow of air into the carburettor of a petrol engine
@@ -663,7 +663,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bnJAl_V9oI0?t=',
+    videoId: 'bnJAl_V9oI0',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -688,7 +688,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v2Rzhr1OtN4?t=',
+    videoId: 'v2Rzhr1OtN4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -713,7 +713,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4BTiXcMHdXM?t=',
+    videoId: '4BTiXcMHdXM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -738,7 +738,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0H5IBSFgYJE?t=',
+    videoId: '0H5IBSFgYJE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -763,7 +763,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TKoCWh2yneM?t=',
+    videoId: 'TKoCWh2yneM',
     startSeconds: 1061,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -788,7 +788,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T48_SrFCdaQ?t=',
+    videoId: 'T48_SrFCdaQ',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -813,7 +813,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1j_k5WCFShQ?t=',
+    videoId: '1j_k5WCFShQ',
     startSeconds: 795,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -838,7 +838,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XwNUBD6VUrU?t=',
+    videoId: 'XwNUBD6VUrU',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(

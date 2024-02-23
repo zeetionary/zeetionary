@@ -207,7 +207,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
                                             "There are border guards at the checkpoint crossing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاسەوانی سنووری هەیە لە خاڵە سنوورییەکە."),
+                                            "پاسەوانی سنووری ھەیە لە خاڵە سنوورییەکە."),
                                   ],
                                 ),
                               ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: checkpoint (Derived forms: checkpoints)
+- Noun: checkpoint (derived forms: checkpoints)
 1. A place (as at a frontier) where travellers are stopped for inspection and clearance
  
 2. A point with fixed GPS coordinates where location can be verified on a sea or air route (= waypoint)
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hm-CUbZor4s?t=',
+    videoId: 'hm-CUbZor4s',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gdVzS1F18vE?t=',
+    videoId: 'gdVzS1F18vE',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vNXNX3UeKek?t=',
+    videoId: 'vNXNX3UeKek',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QGerIdq9aKw?t=',
+    videoId: 'QGerIdq9aKw',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 995,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YZoZr_m9WLU?t=',
+    videoId: 'YZoZr_m9WLU',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h1yvhYsueAk?t=',
+    videoId: 'h1yvhYsueAk',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sfq2BYB8K54?t=',
+    videoId: 'sfq2BYB8K54',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(

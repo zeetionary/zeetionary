@@ -193,11 +193,11 @@ class EnglishEntryclassified extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پۆلێنراو، پۆلێن‌کراو، پۆل‌پۆل، دەستەدەستە، دەستەکراو، دابەشێنراو، دابەش‌کراو،	نهێنی
+کوردی: پۆلێنراو، پۆلێن‌کراو، پۆل‌پۆل، دەستەدەستە، دەستەکراو، دابەشێنراو، دابەش‌کراو،	نھێنی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) شتێک کە بە فەرمی نهێنییە و تەنها بۆ چەند کەسێک بەردەستە"),
+                                  "١. (ھاوەڵناو) شتێک کە بە فەرمی نھێنییە و تەنھا بۆ چەند کەسێک بەردەستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryclassified extends StatelessWidget {
                                             "These documents contain classified material."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم بەڵگەنامانە زانیاری نهێنی لەخۆدەگرن."),
+                                            "ئەم بەڵگەنامانە زانیاری نھێنی لەخۆدەگرن."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntryclassified extends StatelessWidget {
                                             "He has access to some of the nation's most highly classified information."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مافی بینینی ژمارەیەک لە هەرە نهێنیترین زانیارییەکانی وڵاتەکەی هەیە."),
+                                            "مافی بینینی ژمارەیەک لە ھەرە نھێنیترین زانیارییەکانی وڵاتەکەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntryclassified extends StatelessWidget {
                                             "The details of the case remain classified."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وردەکارییەکانی کەیسەکە بە نهێنی هێڵدراونەتەوە."),
+                                            "وردەکارییەکانی کەیسەکە بە نھێنی ھێڵدراونەتەوە."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 2. Official classification of information or documents; withheld from general circulation
 "thousands of classified documents have now been declassified"
 
-- Noun: classified (Derived forms: classifieds)
+- Noun: classified (derived forms: classifieds)
 1. A short ad in a newspaper or magazine (usually in small print) and appearing along with other ads of the same type (= classified ad, classified advertisement)
 """,
   );
@@ -403,7 +403,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/knjliFs3gR8?t=',
+    videoId: 'knjliFs3gR8',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P6bVl47kdNk?t=',
+    videoId: 'P6bVl47kdNk',
     startSeconds: 737,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7KRceywz-rU?t=',
+    videoId: '7KRceywz-rU',
     startSeconds: 426,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5csoc55v2Ls?t=',
+    videoId: '5csoc55v2Ls',
     startSeconds: 771,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ge8y-ckuFIA?t=',
+    videoId: 'ge8y-ckuFIA',
     startSeconds: 297,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H7Quhnm-Z8A?t=',
+    videoId: 'H7Quhnm-Z8A',
     startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    videoId: '0sazcZ8wwZc',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -578,7 +578,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dxqYDrELD_E?t=',
+    videoId: 'dxqYDrELD_E',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(

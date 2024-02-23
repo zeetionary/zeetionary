@@ -197,7 +197,7 @@ class EnglishEntrychaste extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) نەبوونی سێکس لەگەڵ هیچ کەسێکدا، یان تەنها لەگەڵ ئەو کەسەی هاوسەرگیریت لەگەڵی کردووە"),
+                                  "١. (ھاوەڵناو) نەبوونی سێکس لەگەڵ ھیچ کەسێکدا، یان تەنھا لەگەڵ ئەو کەسەی ھاوسەرگیریت لەگەڵی کردووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrychaste extends StatelessWidget {
                                             "In the past, a woman needed to be chaste to make a good marriage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆندا، ژن دەبوو داوێن‌پاک بێت بۆ دەستکەوتنی هاوسەرگیرییەکی باش."),
+                                            "لە کۆندا، ژن دەبوو داوێن‌پاک بێت بۆ دەستکەوتنی ھاوسەرگیرییەکی باش."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntrychaste extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) بەبێ بوونی هەستی جەستەیی"),
+                              text: "٢. (ھاوەڵناو) بەبێ بوونی ھەستی جەستەیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntrychaste extends StatelessWidget {
                                             "They exchanged a few chaste kisses (= not expressing sexual desire)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ماچی پاکانەی یەکدییان کرد."),
+                                            "ھەندێک ماچی پاکانەی یەکدییان کرد."),
                                   ],
                                 ),
                               ),
@@ -367,7 +367,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: chaste (Derived forms: chaster, chastest)
+- Adjective: chaste (derived forms: chaster, chastest)
 1. Pure and simple in design or style
 "a chaste border of conventionalized flowers"
  
@@ -407,7 +407,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ciktYlmFbfc?t=',
+    videoId: 'ciktYlmFbfc',
     startSeconds: 1658,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HccZjwwfmy8?t=',
+    videoId: 'HccZjwwfmy8',
     startSeconds: 895,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RCRHdaM3Sz0?t=',
+    videoId: 'RCRHdaM3Sz0',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/booTTAIvKf8?t=',
+    videoId: 'booTTAIvKf8',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ejyHBBJZTds?t=',
+    videoId: 'ejyHBBJZTds',
     startSeconds: 635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j4jZx4Zwkzo?t=',
+    videoId: 'j4jZx4Zwkzo',
     startSeconds: 250,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rGFmEJcTwwQ?t=',
+    videoId: 'rGFmEJcTwwQ',
     startSeconds: 742,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ecbNXcJ3IN8?t=',
+    videoId: 'ecbNXcJ3IN8',
     startSeconds: 504,
     autoPlay: true,
     params: const YoutubePlayerParams(

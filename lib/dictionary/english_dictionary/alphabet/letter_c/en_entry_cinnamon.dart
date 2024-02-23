@@ -196,7 +196,7 @@ class EnglishEntrycinnamon extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بەشی ناوەوەی توێکڵی دارێکی باشووری ڕۆژهەڵاتی ئاسیا بۆ تامی خواردن بەکاردێت، بەتایبەتی خواردنی شیرین"),
+                                  "١. (ناو) بەشی ناوەوەی توێکڵی دارێکی باشووری ڕۆژھەڵاتی ئاسیا بۆ تامی خواردن بەکاردێت، بەتایبەتی خواردنی شیرین"),
                           Row(
                             children: [
                               const Expanded(
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cinnamon (Derived forms: cinnamons)
+- Noun: cinnamon (derived forms: cinnamons)
 1. Aromatic bark used as a spice (= cinnamon bark)
  
 2. Tropical Asian tree with aromatic yellowish-brown bark; source of the spice cinnamon (= Ceylon cinnamon, Ceylon cinnamon tree, Cinnamomum zeylanicum)
@@ -371,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zBm59Joge2U?t=',
+    videoId: 'zBm59Joge2U',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2FXIlBUZktE?t=',
+    videoId: '2FXIlBUZktE',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OhO5fKkHTH8?t=',
+    videoId: 'OhO5fKkHTH8',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qdwDIh1ptqU?t=',
+    videoId: 'qdwDIh1ptqU',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5YyWRQa34Po?t=',
+    videoId: '5YyWRQa34Po',
     startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HBek61GyUns?t=',
+    videoId: 'HBek61GyUns',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P9yfmrVbkiw?t=',
+    videoId: 'P9yfmrVbkiw',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kQPKi1O6qvI?t=',
+    videoId: 'kQPKi1O6qvI',
     startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(

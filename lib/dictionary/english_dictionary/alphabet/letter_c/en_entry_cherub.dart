@@ -193,7 +193,7 @@ class EnglishEntrycherub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) فریشتەیەک کە لە هونەردا لە شێوەی منداڵێکی قەڵەو وێنا دەکرێت کە باڵی هەیە و زۆرجار کوڕە"),
+                                  "١. (ناو) فریشتەیەک کە لە ھونەردا لە شێوەی منداڵێکی قەڵەو وێنا دەکرێت کە باڵی ھەیە و زۆرجار کوڕە"),
                           Row(
                             children: [
                               const Expanded(
@@ -224,7 +224,7 @@ class EnglishEntrycherub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) منداڵێکی جوان؛ منداڵێک کە هەڵسوکەوتی جوانە"),
+                                  "٢. (ناو) منداڵێکی جوان؛ منداڵێک کە ھەڵسوکەوتی جوانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cherub (Derived forms: cherubim, cherubs)
+- Noun: cherub (derived forms: cherubim, cherubs)
 1. A sweet innocent baby
  
 2. An angel of the second order whose gift is knowledge; usually portrayed as a winged child
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vMjWSQ9lHoU?t=',
+    videoId: 'vMjWSQ9lHoU',
     startSeconds: 2830,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gARyuYxYW5k?t=',
+    videoId: 'gARyuYxYW5k',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0rM94cY5T1Y?t=',
+    videoId: '0rM94cY5T1Y',
     startSeconds: 502,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bLm-0V741M8?t=',
+    videoId: 'bLm-0V741M8',
     startSeconds: 867,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YaL9tGeQjQ8?t=',
+    videoId: 'YaL9tGeQjQ8',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cFiNw8fhXxE?t=',
+    videoId: 'cFiNw8fhXxE',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nKfZ8RJ487M?t=',
+    videoId: 'nKfZ8RJ487M',
     startSeconds: 1035,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uMrlHELdYeo?t=',
+    videoId: 'uMrlHELdYeo',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -194,7 +194,7 @@ class EnglishEntrycistern extends StatelessWidget {
 کوردی: حەوز، عەماری ئاو، عەماراو، ئەستێرک، ئەنباراو، ئاودان، تانکی ئاو
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) شوێنێک کە تێیدا ئاو هەڵدەگیرێت"),
+                              text: "١. (ناو) شوێنێک کە تێیدا ئاو ھەڵدەگیرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,8 @@ class EnglishEntrycistern extends StatelessWidget {
                                         text:
                                             "The ancient Romans used cisterns to collect rainwater for bathing and drinking."),
                                     ExampleSentenceKurdish(
-                                        text: "ڕۆمە کۆنەکان عەماراویان بەکاردەهێنا بۆ کۆکردنەوەی ئاوی باران بۆ خۆشۆردن و خواردنەوە."),
+                                        text:
+                                            "ڕۆمە کۆنەکان عەماراویان بەکاردەھێنا بۆ کۆکردنەوەی ئاوی باران بۆ خۆشۆردن و خواردنەوە."),
                                   ],
                                 ),
                               ),
@@ -233,7 +234,7 @@ class EnglishEntrycistern extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -303,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cistern (Derived forms: cisterns)
+- Noun: cistern (derived forms: cisterns)
 1. A sac or cavity containing fluid especially lymph or cerebrospinal fluid (= cisterna)
  
 2. A tank that holds the water used to flush a toilet (= water tank)
@@ -341,7 +342,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TkphGw9X_f8',
+    videoId: 'TkphGw9X_f8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +367,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TJUIbFKCZxM?t=',
+    videoId: 'TJUIbFKCZxM',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +392,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vg5guKgzqWA?t=',
+    videoId: 'Vg5guKgzqWA',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +417,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7qkt6LLKDL0?t=',
+    videoId: '7qkt6LLKDL0',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +442,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LyxfL_C_GYg',
+    videoId: 'LyxfL_C_GYg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +467,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HRM3ljwfWK0?t=',
+    videoId: 'HRM3ljwfWK0',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +492,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UQBYv3n-mOA?t=',
+    videoId: 'UQBYv3n-mOA',
     startSeconds: 636,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +517,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zWaoe_HCiCA?t=',
+    videoId: 'zWaoe_HCiCA',
     startSeconds: 530,
     autoPlay: true,
     params: const YoutubePlayerParams(

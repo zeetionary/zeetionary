@@ -194,7 +194,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو شوێنەی فڕۆکەخانە کە تێیدا بلیتەکەت پیشان دەدەیت و کەلوپەلەکانت جێدەهێڵیت"),
+                                  "١. (ناو) ئەو شوێنەی فڕۆکەخانە کە تێیدا بلیتەکەت پیشان دەدەیت و کەلوپەلەکانت جێدەھێڵیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                                             "The airline apologizes for long delays at check-ins today."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە."),
+                                            "ھێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کاتی گەشتن بە هوتێلێک لە سەرەتای مانەوە"),
+                                  "٣. (ناو) کاتی گەشتن بە ھوتێلێک لە سەرەتای مانەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -365,7 +365,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: check-in (Derived forms: check-ins)
+- Noun: check-in (derived forms: check-ins)
 1. The act of reporting your presence (as at an airport or a hotel)
 """,
   );
@@ -399,7 +399,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NTFqrE73_Tg?t=',
+    videoId: 'NTFqrE73_Tg',
     startSeconds: 1175,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m4ciBxXbJ3U?t=',
+    videoId: 'm4ciBxXbJ3U',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w51aMfmRf1I?t=',
+    videoId: 'w51aMfmRf1I',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uvuk7UDKpQ8?t=',
+    videoId: 'uvuk7UDKpQ8',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nt-uMVlkF4w?t=',
+    videoId: 'nt-uMVlkF4w',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_ecQlPXXu_0?t=',
+    videoId: '_ecQlPXXu_0',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1m6h59wI_yI?t=',
+    videoId: '1m6h59wI_yI',
     startSeconds: 652,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QZLZqGFV-nc?t=',
+    videoId: 'QZLZqGFV-nc',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(

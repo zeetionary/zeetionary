@@ -197,7 +197,7 @@ class EnglishEntrychap extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بۆ ناوهێنانی پیاوێک بە شێوەیەکی هاوڕێیانە"),
+                                  "١. (ناو) بۆ ناوھێنانی پیاوێک بە شێوەیەکی ھاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrychap extends StatelessWidget {
                                             "He isn't such a bad chap really."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ڕاستیدا هێندە زەلامێکی خراپ نییە."),
+                                            "لە ڕاستیدا ھێندە زەلامێکی خراپ نییە."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntrychap extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) پێست یان لێو ڕەق و وشک و بەئازار دەبێت، زۆرجار بەهۆی با یان هەوای ساردەوە"),
+                                  "٢. (کردار) پێست یان لێو ڕەق و وشک و بەئازار دەبێت، زۆرجار بەھۆی با یان ھەوای ساردەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chap (Derived forms: chaps)
+- Noun: chap (derived forms: chaps)
 1. [Brit, informal] A boy or man (= fellow, feller [non-standard], fella [informal], lad [informal], gent [informal], blighter [Brit, informal], cuss [informal], bloke [Brit, informal], boyo [UK, Ireland], bucko [informal], dog [informal])
 "that chap is your host"; "you lucky chap";
  
@@ -376,7 +376,7 @@ ${englishMeaningConst.text}
  
 4. (usually in the plural) leather leggings without a seat; joined by a belt; often have flared outer flaps; worn over trousers by cowboys to protect their legs
 
-- Verb: chap (Derived forms: chapped, chaps, chapping)
+- Verb: chap (derived forms: chapped, chaps, chapping)
 1. Crack due to dehydration
 "My lips chap in this dry weather"
 """,
@@ -411,7 +411,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 955,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -436,7 +436,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sf7NfCe3_5Y?t=',
+    videoId: 'sf7NfCe3_5Y',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJl1p0W5-y4?t=',
+    videoId: 'qJl1p0W5-y4',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/93A1ryc-WW0?t=',
+    videoId: '93A1ryc-WW0',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AMg4ooa0U-U?t=',
+    videoId: 'AMg4ooa0U-U',
     startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rw2C9-6N6t8?t=',
+    videoId: 'Rw2C9-6N6t8',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VeHW3mYWIGw?t=',
+    videoId: 'VeHW3mYWIGw',
     startSeconds: 644,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0O97z9rNt1s?t=',
+    videoId: '0O97z9rNt1s',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(

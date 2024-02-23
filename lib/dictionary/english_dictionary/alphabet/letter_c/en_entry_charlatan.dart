@@ -195,7 +195,7 @@ class EnglishEntrycharlatan extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە بانگەشەی ئەوە دەکات کە شارەزاییەکی هەیە کە لە ڕاستیدا نییەتی"),
+                                  "١. (ناو) کەسێک کە بانگەشەی ئەوە دەکات کە شارەزاییەکی ھەیە کە لە ڕاستیدا نییەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycharlatan extends StatelessWidget {
                                             "He knows nothing about medicine—he’s a complete charlatan."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ لەسەر دەرمان نازانێت، تەڵەکەبازێکی تەواوە."),
+                                            "ھیچ لەسەر دەرمان نازانێت، تەڵەکەبازێکی تەواوە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: charlatan (Derived forms: charlatans)
+- Noun: charlatan (derived forms: charlatans)
 1. A flamboyant deceiver; one who attracts customers with tricks or jokes (= mountebank)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6kE3rkIHdgY?t=',
+    videoId: '6kE3rkIHdgY',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I3OBa5dWX0Q',
+    videoId: 'I3OBa5dWX0Q',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IM31fgkxn2I?t=',
+    videoId: 'IM31fgkxn2I',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-UY-KkPY3vc?t=',
+    videoId: '-UY-KkPY3vc',
     startSeconds: 627,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P4l9Y5OHqpk?t=',
+    videoId: 'P4l9Y5OHqpk',
     startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nOgg-_vav_8?t=',
+    videoId: 'nOgg-_vav_8',
     startSeconds: 932,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHVOqTIeT1k?t=',
+    videoId: 'bHVOqTIeT1k',
     startSeconds: 1213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0RA_B5p2JYg?t=',
+    videoId: '0RA_B5p2JYg',
     startSeconds: 958,
     autoPlay: true,
     params: const YoutubePlayerParams(

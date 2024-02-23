@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chord (Derived forms: chords)
+- Noun: chord (derived forms: chords)
 1. A straight line connecting two points on a curve
  
 2. A combination of three or more notes that blend harmoniously when sounded together
@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
  
 4. (engineering) a horizontal member of a truss
 
-- Verb: chord (Derived forms: chords, chorded, chording)
+- Verb: chord (derived forms: chords, chorded, chording)
 1. (music) play chords on (a stringed instrument)
  
 2. (music) bring into consonance, harmony, or accord while making music or singing (= harmonize, harmonise [Brit])
@@ -347,7 +347,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9Yd8i8vt0E?t=',
+    videoId: 'a9Yd8i8vt0E',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -372,7 +372,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6DuNzvxkhSg?t=',
+    videoId: '6DuNzvxkhSg',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TcM9L2d0ai8?t=',
+    videoId: 'TcM9L2d0ai8',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MHF0Ext0NmY?t=',
+    videoId: 'MHF0Ext0NmY',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CXoaV6rv00o?t=',
+    videoId: 'CXoaV6rv00o',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5XGOZLhIBuA?t=',
+    videoId: '5XGOZLhIBuA',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fxUnwsttr_8?t=',
+    videoId: 'fxUnwsttr_8',
     startSeconds: 440,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LQ54xooS_ys?t=',
+    videoId: 'LQ54xooS_ys',
     startSeconds: 296,
     autoPlay: true,
     params: const YoutubePlayerParams(

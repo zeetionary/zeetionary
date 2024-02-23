@@ -205,7 +205,7 @@ class EnglishEntrychurch extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کڵێسا؛ شوێنی مەسیحییەکان بۆ نوێژکردن، بۆنەی ئایینی، هتد"),
+                                  "١. (ناو) کڵێسا؛ شوێنی مەسیحییەکان بۆ نوێژکردن، بۆنەی ئایینی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ class EnglishEntrychurch extends StatelessWidget {
                                             ExampleSentenceKurdish(
                                               text: "کڵێساکە لە ١٢٥٠ پیرۆزکرا.",
                                               note:
-                                                  "پیرۆزکردنی کڵێسا ئەوەیە کە بە فەرمی ڕادەگەیەنرێت کە تەنها بینایەک نییە و کڵێسایەکی پیرۆزە و دەکرێت بۆ کاری ئایینی بەکاربێت.",
+                                                  "پیرۆزکردنی کڵێسا ئەوەیە کە بە فەرمی ڕادەگەیەنرێت کە تەنھا بینایەک نییە و کڵێسایەکی پیرۆزە و دەکرێت بۆ کاری ئایینی بەکاربێت.",
                                             ),
                                           ],
                                         ),
@@ -366,7 +366,7 @@ class EnglishEntrychurch extends StatelessWidget {
                                                     "We are hiring the church hall for the party."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هۆڵی کڵێساکە بۆ ئاهەنگەکە بەکرێ دەگرین."),
+                                                    "ھۆڵی کڵێساکە بۆ ئاھەنگەکە بەکرێ دەگرین."),
                                           ],
                                         ),
                                       ),
@@ -427,7 +427,7 @@ class EnglishEntrychurch extends StatelessWidget {
                                                     "Lots of people still get married in church."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "زۆرکەس هێشتا لە بۆنەیەکی کڵێسادا هاوسەرگیری دەکەن."),
+                                                    "زۆرکەس ھێشتا لە بۆنەیەکی کڵێسادا ھاوسەرگیری دەکەن."),
                                           ],
                                         ),
                                       ),
@@ -490,9 +490,9 @@ class EnglishEntrychurch extends StatelessWidget {
                                                     "Small evangelical churches often provide their members with a strong sense of community and family."),
                                             ExampleSentenceKurdish(
                                               text:
-                                                  "هەندێک کڵێسای ئینجیلی هەستێکی بەهێزی کۆمەڵگە و خێزان لای ئەندامەکانیان درووست دەکەن.",
+                                                  "ھەندێک کڵێسای ئینجیلی ھەستێکی بەھێزی کۆمەڵگە و خێزان لای ئەندامەکانیان درووست دەکەن.",
                                               note:
-                                                  "کڵێسای ئینجیلی کڵێسای ئەو کەسانەیە کە باوەڕیان بە گرنگی ئینجیل هەیە لە ژیانی ڕۆژانەدا و هەوڵدان بۆ ئەوەی کەسانی دیکەش شوێنیان بکەون",
+                                                  "کڵێسای ئینجیلی کڵێسای ئەو کەسانەیە کە باوەڕیان بە گرنگی ئینجیل ھەیە لە ژیانی ڕۆژانەدا و ھەوڵدان بۆ ئەوەی کەسانی دیکەش شوێنیان بکەون",
                                             ),
                                           ],
                                         ),
@@ -558,7 +558,7 @@ class EnglishEntrychurch extends StatelessWidget {
                                             "Some people think the Church shouldn't interfere in politics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەس باوەڕیان وایە کە کڵێسا دەبێت لە سیاسەت تێوەنەگلێت."),
+                                            "ھەندێک کەس باوەڕیان وایە کە کڵێسا دەبێت لە سیاسەت تێوەنەگلێت."),
                                   ],
                                 ),
                               ),
@@ -657,7 +657,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: church (Derived forms: churches)
+- Noun: church (derived forms: churches)
 1. One of the groups of Christians who have their own beliefs and forms of worship (= Christian church)
  
 2. (church service) a place for public (especially Christian) worship (= church building)
@@ -669,7 +669,7 @@ ${englishMeaningConst.text}
 4. The body of people who attend or belong to a particular local church
 "our church is hosting a picnic next week"
 
-- Verb: church (Derived forms: churches, churched, churching)
+- Verb: church (derived forms: churches, churched, churching)
 1. Perform a special church rite or service for
 "church a woman after childbirth"
 """,
@@ -704,7 +704,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nQ-Ua6NYago?t=',
+    videoId: 'nQ-Ua6NYago',
     startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -729,7 +729,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8t_qFivFGaM?t=',
+    videoId: '8t_qFivFGaM',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -754,7 +754,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vyb-sTrY_Y8?t=',
+    videoId: 'Vyb-sTrY_Y8',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -779,7 +779,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m3OdHm7nuAM?t=',
+    videoId: 'm3OdHm7nuAM',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -804,7 +804,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FFom9ziEXVY?t=',
+    videoId: 'FFom9ziEXVY',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -829,7 +829,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l71AX8p0UU8?t=',
+    videoId: 'l71AX8p0UU8',
     startSeconds: 310,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -854,7 +854,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/72BLZmT5Wbo?t=',
+    videoId: '72BLZmT5Wbo',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -879,7 +879,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H_S2L0qOux0?t=',
+    videoId: 'H_S2L0qOux0',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(

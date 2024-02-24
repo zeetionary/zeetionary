@@ -210,7 +210,7 @@ class EnglishEntryattitude extends StatelessWidget {
                                             "You'd better get rid of that attitude and shape up, young man."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕی گەنج."),
+                                            "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕە گەنج."),
                                   ],
                                 ),
                               ),

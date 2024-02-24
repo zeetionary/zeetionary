@@ -3,86 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "avatar" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace avatar - replace EnglishEntryavatar
-
-// replace speakAvatar - /ˈævətɑː(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryavatar extends StatelessWidget {
+class EnglishEntryclient extends StatelessWidget {
   // blank divider
-  EnglishEntryavatar({super.key});
+  EnglishEntryclient({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvatar(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclient(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("avatar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("client"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars1(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients1(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Gautama Buddha is considered an avatar of the god Vishnu."); // DOPSUM: CHANGE TEXT
+        "She's a well-known lawyer with many famous clients."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars2(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients2(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The game creates a virtual world where people interact and participate in activities through their avatars."); // DOPSUM: CHANGE TEXT
+        "We will advise the client on the best way to solve the problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars3(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients3(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars3c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclients300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars4(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients4(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars4c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclients400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars5(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients5(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars5c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclients500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars6(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients6(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars6c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclients600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars7(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakclients7(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars7c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclients700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclients8(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclients800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclients9(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclients900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclients10(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclients1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclients11(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclients1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclients12(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclients1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclients13(String languageCode) async {
+    // DOPSUM: CHANGE speakclient
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclients1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,28 +150,22 @@ class EnglishEntryavatar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "avatar"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "client"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævətɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈklaɪənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvatar("en-GB"),
+                              onPressed: () => speakclient("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævətɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈklaɪənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvatar("en-US"),
+                              onPressed: () => speakclient("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +178,7 @@ class EnglishEntryavatar extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,8 +191,12 @@ class EnglishEntryavatar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ناو) لە ئایینی ھیندۆس و بودیدا بریتییە لە خودا کە لە شێوەی مرۆڤدا دێتە سەر زەوی"""),
+//                           const KurdishVocabulary(text: """
+// کوردی: مشتەری، هات‌وچۆکەر، موەکەل، ڕاوێژخواز
+// """),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کەسێک کە خزمەتگوزەری یان ڕاوێژی کەسێک یان دەزگایەک بەکاردێنێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -161,32 +204,27 @@ class EnglishEntryavatar extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Gautama Buddha is considered an avatar of the god Vishnu."),
+                                            "She's a well-known lawyer with many famous clients."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
+                                            "پارێزەرێکی ناسراوە بە ژمارەیەکی زۆر مشتەری بەناوبانگەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "client", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvatars1("en-GB"),
+                                    onPressed: () => speakclients1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAvatars1(// REPLACE: avatar
-                                            "en-US"),
+                                    onPressed: () => speakclients1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) وێنەی دیجیتاڵی کەسێک کە وێنا لەو کەسە دەکات لەسەر کۆمپیوتەر و یارییە ئەلیکترۆنییەکان"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -194,10 +232,10 @@ class EnglishEntryavatar extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The game creates a virtual world where people interact and participate in activities through their avatars."),
+                                            "We will advise the client on the best way to solve the problem."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەڤەتارەکانیانەوە."),
+                                            "باشترین ڕێگا بە پیشانی ڕاوێژخوازەکەمان دەدەین بۆ چارەسەرکردنی کێشەکە."),
                                   ],
                                 ),
                               ),
@@ -205,39 +243,42 @@ class EnglishEntryavatar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvatars2("en-GB"),
+                                    onPressed: () => speakclients2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAvatars2(// REPLACE: avatar
-                                            "en-US"),
+                                    onPressed: () => speakclients2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -293,14 +334,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: avatar (derived forms: avatars)
-1. A new personification of a familiar idea (= embodiment, incarnation)
-"the very avatar of cunning";
+- Noun: client (Derived forms: clients)
+1. (law) a person who seeks the advice of a lawyer
  
-2. The manifestation of a Hindu deity (especially Vishnu) in human, superhuman or animal form
-"some Hindus consider Krishna to be an avatar of the god Vishnu"
+2. Someone who pays for goods or services (= customer)
  
-3. An icon or animation to represent a participant used in Internet chat and games
+3. (computing) any computer that is hooked up to a computer network (= node, guest)
 """,
   );
 
@@ -329,12 +368,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/y-XReQgmQRs?t=',
+    startSeconds: 13,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kXShLPXfWZA',
-    startSeconds: 327,
+    videoId: 'https://youtu.be/rUw614aMJUE?t=',
+    startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -358,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'uoVZkYVGpXk',
-    startSeconds: 583,
+    videoId: 'https://youtu.be/mkqUqu8VdKk?t=',
+    startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -383,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WUjVPIEtJd0',
-    startSeconds: 1372,
+    videoId: 'https://youtu.be/RFk8ZmIDrFM?t=',
+    startSeconds: 408,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -408,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pHGweqJCx2s',
-    startSeconds: 69,
+    videoId: 'https://youtu.be/l6FG_0NViM4?t=',
+    startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -433,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fgfqV6SJyHo',
-    startSeconds: 277,
+    videoId: 'https://youtu.be/2ryj5SYpub0?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -458,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vx09_4cEzlM',
-    startSeconds: 581,
+    videoId: 'https://youtu.be/AAGIi62-sAU?t=',
+    startSeconds: 1128,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -483,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mij9B0P5USI',
-    startSeconds: 1204,
+    videoId: 'https://youtu.be/iN8zmmCRqUA?t=',
+    startSeconds: 600,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,81 +568,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CqkhjL3WvWQ',
-    startSeconds: 676,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tqX4jKktiS0',
-    startSeconds: 394,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pLwHTqU2r_Y',
-    startSeconds: 47,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end avatar // TODO Implement this library.
+// end WORD_WEB

@@ -3,86 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "avatar" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace avatar - replace EnglishEntryavatar
-
-// replace speakAvatar - /ˈævətɑː(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryavatar extends StatelessWidget {
+class EnglishEntrycleverly extends StatelessWidget {
   // blank divider
-  EnglishEntryavatar({super.key});
+  EnglishEntrycleverly({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvatar(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverly(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("avatar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cleverly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars1(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Gautama Buddha is considered an avatar of the god Vishnu."); // DOPSUM: CHANGE TEXT
+        "I thought you handled the situation very cleverly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars2(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The game creates a virtual world where people interact and participate in activities through their avatars."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleverlys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars3(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars3c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleverlys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars4(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars4c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleverlys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars5(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars5c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleverlys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars6(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars6c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleverlys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars7(String languageCode) async {
-    // DOPSUM: CHANGE speakAvatar
+  Future<void> speakcleverlys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars7c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleverlys700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleverlys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleverlys800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleverlys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleverlys900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleverlys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleverlys1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleverlys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleverlys1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleverlys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleverlys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleverlys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcleverly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleverlys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,28 +149,22 @@ class EnglishEntryavatar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "avatar"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "cleverly"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævətɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈklevəli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvatar("en-GB"),
+                              onPressed: () => speakcleverly("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævətɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈklevərli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvatar("en-US"),
+                              onPressed: () => speakcleverly("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +177,7 @@ class EnglishEntryavatar extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -152,8 +190,12 @@ class EnglishEntryavatar extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ناو) لە ئایینی ھیندۆس و بودیدا بریتییە لە خودا کە لە شێوەی مرۆڤدا دێتە سەر زەوی"""),
+                          const KurdishVocabulary(text: """
+کوردی: شارەزایانە، زرینگانە، زیرەکانە
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) بەشێوەیەک کە زیرەکی و شارەزایی پیشان دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -161,83 +203,53 @@ class EnglishEntryavatar extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Gautama Buddha is considered an avatar of the god Vishnu."),
+                                            "I thought you handled the situation very cleverly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
+                                            "وامفکری کە زۆر زیرەکانە مامەڵەت لەگەڵ دۆخەکە کرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "cleverly", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvatars1("en-GB"),
+                                    onPressed: () => speakcleverlys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAvatars1(// REPLACE: avatar
-                                            "en-US"),
+                                    onPressed: () => speakcleverlys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) وێنەی دیجیتاڵی کەسێک کە وێنا لەو کەسە دەکات لەسەر کۆمپیوتەر و یارییە ئەلیکترۆنییەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The game creates a virtual world where people interact and participate in activities through their avatars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەڤەتارەکانیانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAvatars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAvatars2(// REPLACE: avatar
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -293,14 +305,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: avatar (derived forms: avatars)
-1. A new personification of a familiar idea (= embodiment, incarnation)
-"the very avatar of cunning";
- 
-2. The manifestation of a Hindu deity (especially Vishnu) in human, superhuman or animal form
-"some Hindus consider Krishna to be an avatar of the god Vishnu"
- 
-3. An icon or animation to represent a participant used in Internet chat and games
+- Adverb: cleverly 
+1. In a clever manner (= smartly)
+"they were cleverly arranged";
 """,
   );
 
@@ -329,12 +336,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/_a8u4949t_k?t=',
+    startSeconds: 475,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kXShLPXfWZA',
-    startSeconds: 327,
+    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    startSeconds: 1467,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -358,8 +390,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'uoVZkYVGpXk',
-    startSeconds: 583,
+    videoId: 'https://youtu.be/7Fjn4GRw8qE?t=',
+    startSeconds: 463,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -383,8 +415,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WUjVPIEtJd0',
-    startSeconds: 1372,
+    videoId: 'https://youtu.be/f7QWMUCMYOE?t=',
+    startSeconds: 1432,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -408,8 +440,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pHGweqJCx2s',
-    startSeconds: 69,
+    videoId: 'https://youtu.be/py4zetCEYzA?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -433,8 +465,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fgfqV6SJyHo',
-    startSeconds: 277,
+    videoId: 'https://youtu.be/_9rucsh5brg?t=',
+    startSeconds: 1253,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -458,8 +490,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vx09_4cEzlM',
-    startSeconds: 581,
+    videoId: 'https://youtu.be/GDwOi7HpHtQ?t=',
+    startSeconds: 218,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -483,8 +515,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mij9B0P5USI',
-    startSeconds: 1204,
+    videoId: 'https://youtu.be/tURHTuKHBZs?t=',
+    startSeconds: 1208,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,81 +536,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CqkhjL3WvWQ',
-    startSeconds: 676,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tqX4jKktiS0',
-    startSeconds: 394,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pLwHTqU2r_Y',
-    startSeconds: 47,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-// end avatar // TODO Implement this library.
+// end WORD_WEB

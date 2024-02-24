@@ -2980,14 +2980,14 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clergyman.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clerical.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clerk.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clever.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cleverly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cleverness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cliche.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_click.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_client.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clientele.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cliff.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6549,14 +6549,14 @@ final loggedInRoute = RouteMap(routes: {
   "/english-clergyman": (_) => MaterialPage(child: EnglishEntryclergyman()),
   "/english-clerical": (_) => MaterialPage(child: EnglishEntryclerical()),
   "/english-clerk": (_) => MaterialPage(child: EnglishEntryclerk()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-clever": (_) => MaterialPage(child: EnglishEntryclever()),
+  "/english-cleverly": (_) => MaterialPage(child: EnglishEntrycleverly()),
+  "/english-cleverness": (_) => MaterialPage(child: EnglishEntrycleverness()),
+  "/english-cliche": (_) => MaterialPage(child: EnglishEntrycliche()),
+  "/english-click": (_) => MaterialPage(child: EnglishEntryclick()),
+  "/english-client": (_) => MaterialPage(child: EnglishEntryclient()),
+  "/english-clientele": (_) => MaterialPage(child: EnglishEntryclientele()),
+  "/english-cliff": (_) => MaterialPage(child: EnglishEntrycliff()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

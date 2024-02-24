@@ -3,128 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycage extends StatelessWidget {
-// blank divider
-  EnglishEntrycage({super.key});
-// blank divider
+class EnglishEntryclearing extends StatelessWidget {
+  // blank divider
+  EnglishEntryclearing({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcage(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearing(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clearing"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings1(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I don’t like seeing animals in cages."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We made camp that night in a clearing in the woods."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings2(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dogs are caged (up) at night."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can apply for a place through the clearing system."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings3(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings4(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings5(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings6(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings7(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings8(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings9(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings10(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings11(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings12(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclearings13(String languageCode) async {
+    // DOPSUM: CHANGE speakclearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearings1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -147,22 +150,22 @@ class EnglishEntrycage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cage"),
+                            EntryTitle(word: "clearing"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /keɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈklɪərɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcage("en-GB"),
+                              onPressed: () => speakclearing("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /keɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈklɪrɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcage("en-US"),
+                              onPressed: () => speakclearing("en-US"),
                             ),
                           ],
                         ),
@@ -175,7 +178,7 @@ class EnglishEntrycage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -189,9 +192,11 @@ class EnglishEntrycage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قەفەز، قەفەس، ڕ(ە)کە، بێرکم، ھەودک، بەند، ھەود
+کوردی: بەشی ڕووتەڵی دارستان، ڕووتایی دارستان
 """),
-                          const DefinitionKurdish(text: """١. (ناو) قەفەز"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ناوچەیەکی کراوە لە دارستانێکدا کە هیچ داری تێدا نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -199,28 +204,30 @@ class EnglishEntrycage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I don’t like seeing animals in cages."),
+                                            "We made camp that night in a clearing in the woods."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزناکەم ئاژەڵان لە قەفەزدا ببینم."),
+                                            "ئەو شەوە کەمپمان هەڵدا لە ڕووتایی دارستانەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cage", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "clearing", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcages1("en-GB"),
+                                    onPressed: () => speakclearings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcages1("en-US"),
+                                    onPressed: () => speakclearings1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) خستنە قەفەز"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) سیستەمێکی وەرگرتن کە لەلایەن زانکۆکانی بەریتانیاوە بەکاردێت بۆ پڕکردنەوەی ئەو کورسییانەی خوێندن کە پڕنەکراونەتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -228,10 +235,10 @@ class EnglishEntrycage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The dogs are caged (up) at night."),
+                                            "You can apply for a place through the clearing system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەگەکان لە شەودا دەخرێنە قەفەز."),
+                                            "دەتوانیت داوای جێگایەک بکەیت لە ڕێگەی سیستەمی پڕکردنەوەوە."),
                                   ],
                                 ),
                               ),
@@ -239,10 +246,10 @@ class EnglishEntrycage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcages2("en-GB"),
+                                    onPressed: () => speakclearings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcages2("en-US"),
+                                    onPressed: () => speakclearings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,11 +265,11 @@ class EnglishEntrycage extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -274,6 +281,7 @@ class EnglishEntrycage extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -329,23 +337,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cage (derived forms: cages)
-1. An enclosure made of wire or metal bars in which birds or animals can be kept (= coop)
+- Noun: clearing (Derived forms: clearings)
+1. A tract of land with few or no trees in the middle of a wooded area (= glade)
  
-2. Something that restricts freedom as a cage restricts movement
+2. The act of freeing from suspicion
  
-3. The net that is the goal in ice hockey
+3. The act of removing solid particles from a liquid (= clarification)
  
-4. A movable screen placed behind home base to catch balls during batting practice (= batting cage)
- 
-5. The passenger compartment of a lift
-
-- Verb: cage (derived forms: caging, caged, cages)
-1. Confine in a cage (= cage in)
-"The animal was caged";
-
-- Noun: Cage 
-1. United States composer of avant-garde music (1912-1992) (= John Cage, John Milton Cage Jr.)
+4. [UK] The process during which remaining university places are allocated to the remaining students
 """,
   );
 
@@ -374,12 +373,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/SXlOZ1X52SY?t=',
+    startSeconds: 1210,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hFZFjoX2cGg',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/D9OKT9C-PJQ?t=',
+    startSeconds: 1099,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +427,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9tuBjI2gmV0',
-    startSeconds: 937,
+    videoId: 'https://youtu.be/C1PH68F3nSQ?t=',
+    startSeconds: 468,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +452,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ug-pOdhVzLs',
-    startSeconds: 33,
+    videoId: 'https://youtu.be/EH6vE97qIP4?t=',
+    startSeconds: 1649,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +477,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZwoLl7R8fkI',
-    startSeconds: 352,
+    videoId: 'https://youtu.be/MBxMGSwoWzg?t=',
+    startSeconds: 561,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +502,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'v-Ymf_hTbUM',
-    startSeconds: 1364,
+    videoId: 'https://youtu.be/Gc-B-a5FrvU?t=',
+    startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -503,8 +527,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cfkhzz6T25w',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/fNnnucBX5Gw?t=',
+    startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -528,8 +552,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IgabVFDyUAE',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/YO7nBuUO9as?t=',
+    startSeconds: 610,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,81 +568,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'we1xeip5P6I',
-    startSeconds: 37,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Slx0hSinEiQ',
-    startSeconds: 10,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1eK8XFFDxxg',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

@@ -3,128 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycage extends StatelessWidget {
-// blank divider
-  EnglishEntrycage({super.key});
-// blank divider
+class EnglishEntryclergyman extends StatelessWidget {
+  // blank divider
+  EnglishEntryclergyman({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcage(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergyman(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clergyman"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans1(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I don’t like seeing animals in cages."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "As a clergyman, he dedicated his life to serving his community."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans2(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dogs are caged (up) at night."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans3(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans4(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans5(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans6(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans7(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans8(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans9(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans10(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans11(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans12(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcage
+  Future<void> speakclergymans13(String languageCode) async {
+    // DOPSUM: CHANGE speakclergyman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcages1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclergymans1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -147,22 +149,22 @@ class EnglishEntrycage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cage"),
+                            EntryTitle(word: "clergyman"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /keɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈklɜːdʒimən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcage("en-GB"),
+                              onPressed: () => speakclergyman("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /keɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈklɜːrdʒimən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcage("en-US"),
+                              onPressed: () => speakclergyman("en-US"),
                             ),
                           ],
                         ),
@@ -175,7 +177,7 @@ class EnglishEntrycage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -189,9 +191,11 @@ class EnglishEntrycage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قەفەز، قەفەس، ڕ(ە)کە، بێرکم، ھەودک، بەند، ھەود
+کوردی: پیاوی دینی یان ئایینی، ئایین‌کار، قەشە، کەشیش
 """),
-                          const DefinitionKurdish(text: """١. (ناو) قەفەز"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) پیاوێکی ئایینی، بەتایبەتی لە ئایینی مەسیحیدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -199,50 +203,21 @@ class EnglishEntrycage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I don’t like seeing animals in cages."),
+                                            "As a clergyman, he dedicated his life to serving his community."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزناکەم ئاژەڵان لە قەفەزدا ببینم."),
+                                            "وەک قەشەیەک، ژیانی بۆ خزمەتی کۆمەڵگەکەی تەرخانکرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cage", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "clergyman", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcages1("en-GB"),
+                                    onPressed: () => speakclergymans1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) خستنە قەفەز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dogs are caged (up) at night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکان لە شەودا دەخرێنە قەفەز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcages2("en-US"),
+                                    onPressed: () => speakclergymans1("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,11 +233,11 @@ class EnglishEntrycage extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -274,6 +249,7 @@ class EnglishEntrycage extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -329,23 +305,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cage (derived forms: cages)
-1. An enclosure made of wire or metal bars in which birds or animals can be kept (= coop)
- 
-2. Something that restricts freedom as a cage restricts movement
- 
-3. The net that is the goal in ice hockey
- 
-4. A movable screen placed behind home base to catch balls during batting practice (= batting cage)
- 
-5. The passenger compartment of a lift
-
-- Verb: cage (derived forms: caging, caged, cages)
-1. Confine in a cage (= cage in)
-"The animal was caged";
-
-- Noun: Cage 
-1. United States composer of avant-garde music (1912-1992) (= John Cage, John Milton Cage Jr.)
+- Noun: clergyman (Derived forms: clergymen)
+1. A member of the clergy and a spiritual leader of the Christian Church (= reverend, man of the cloth)
 """,
   );
 
@@ -374,12 +335,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/s_2QTY0V3Yc?t=',
+    startSeconds: 969,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hFZFjoX2cGg',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/b6he-99lyKg?t=',
+    startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9tuBjI2gmV0',
-    startSeconds: 937,
+    videoId: 'https://youtu.be/W4DnmTEHQug?t=',
+    startSeconds: 992,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ug-pOdhVzLs',
-    startSeconds: 33,
+    videoId: 'https://youtu.be/XK08CKO-yAQ?t=',
+    startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZwoLl7R8fkI',
-    startSeconds: 352,
+    videoId: 'https://youtu.be/yZ8wzG0J6NY?t=',
+    startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'v-Ymf_hTbUM',
-    startSeconds: 1364,
+    videoId: 'https://youtu.be/6xPFdX5qEyk?t=',
+    startSeconds: 970,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -503,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cfkhzz6T25w',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/NnoFj2cMRLY?t=',
+    startSeconds: 691,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -528,8 +514,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IgabVFDyUAE',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/cKYQW5KB40U?t=',
+    startSeconds: 3098,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,81 +530,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'we1xeip5P6I',
-    startSeconds: 37,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Slx0hSinEiQ',
-    startSeconds: 10,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1eK8XFFDxxg',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

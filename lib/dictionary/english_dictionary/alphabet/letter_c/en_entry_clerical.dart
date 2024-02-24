@@ -10,130 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclearance extends StatelessWidget {
+class EnglishEntryclerical extends StatelessWidget {
   // blank divider
-  EnglishEntryclearance({super.key});
+  EnglishEntryclerical({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclearance(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclerical(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clearance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clerical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances1(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("These coats are on clearance."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclearances2(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals1(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Much of the area was bulldozed into oblivion in a wave of slum clearances."); // DOPSUM: CHANGE TEXT
+        "The delay in processing the paperwork was due to a clerical error in the filing system."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances3(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals2(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is not much clearance for vehicles passing under this bridge."); // DOPSUM: CHANGE TEXT
+        "She applied for a clerical job at the company."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances4(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals3(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Always give cyclists plenty of clearance."); // DOPSUM: CHANGE TEXT
+        "He wore clerical robes for the religious ceremony."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances5(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals4(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Formal clearance by the Cabinet has not been given."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances6(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals5(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is safest to seek advance clearance from the tax office."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances7(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals6(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot was waiting for clearance for take-off."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances8(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals7(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot was granted clearance to land."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances9(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals8(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances10(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals9(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances11(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals10(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances12(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals11(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances13(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakclericals12(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclericals1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclericals13(String languageCode) async {
+    // DOPSUM: CHANGE speakclerical
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclericals1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -156,22 +151,22 @@ class EnglishEntryclearance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clearance"),
+                            EntryTitle(word: "clerical"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪərəns/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈklerɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclearance("en-GB"),
+                              onPressed: () => speakclerical("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪrəns/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈklerɪkl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclearance("en-US"),
+                              onPressed: () => speakclerical("en-US"),
                             ),
                           ],
                         ),
@@ -198,30 +193,32 @@ class EnglishEntryclearance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خاوێن‌کردنەوە، سڕینەوە، پاکتاو، پاک‌کردنەوە،	دەس‌پێوەنان (کەل‌وپەل)،	مەودای ئازاد، مەودای پاراستن، مەودای پێویست، ماوەی پێویست، جێگا، مەودای تیاهەڵسووڕان،	(هات‌وچۆ)، ڕێدان، ڕێگەدانی فەرمی، دەستوور (پێدان)،	کۆسپ‌لابردن یان ڕاپەڕاندن،	(تۆپێن و هاکی) لێدان، (تێ)هەڵدان
+کوردی: نووسینگەیی، ئافیسی، بەڕێوەبەرایەتی‌یانە،	سەربە پیاوانی ئایینی یان ئایین‌کاران
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پڕۆسەی پاککردنەوە"),
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە کاری ئۆفیس"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "These coats are on clearance."),
+                                        text:
+                                            "The delay in processing the paperwork was due to a clerical error in the filing system."),
                                     ExampleSentenceKurdish(
-                                        text: "ئەم پاڵتاوانە لە پاککردنەوەن."),
+                                        text:
+                                            "دواکەوتن لە ئەنجامدانی کاغەزکارییەکە بەهۆی هەڵەیەکی ئۆفیسەکەوە بوو لە سیستەمی فایلەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clearance", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "clerical", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclearances1("en-GB"),
+                                    onPressed: () => speakclericals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances1("en-US"),
+                                    onPressed: () => speakclericals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,10 +232,10 @@ class EnglishEntryclearance extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Much of the area was bulldozed into oblivion in a wave of slum clearances."),
+                                            "She applied for a clerical job at the company."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرێک لە ناوچەکە تەختی زەوی کرا لە پڕۆسەیەکی پاککردنەوەی کەلاوەکان."),
+                                            "داوای کارێکی لە ئۆفیسدا کرد لە کۆمپانیاکە."),
                                   ],
                                 ),
                               ),
@@ -246,10 +243,10 @@ class EnglishEntryclearance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclearances2("en-GB"),
+                                    onPressed: () => speakclericals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances2("en-US"),
+                                    onPressed: () => speakclericals2("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,7 +255,7 @@ class EnglishEntryclearance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو ڕێژە لە شوێن کە پێویستە لە نێوان دوو شتدا بۆ ئەوەی بەریەکدی نەکەون"),
+                                  "٢. (ھاوەڵناو) پەیوەندیدار بە پیاوانی ئایینی"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,10 +263,10 @@ class EnglishEntryclearance extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "There is not much clearance for vehicles passing under this bridge."),
+                                            "He wore clerical robes for the religious ceremony."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر مەودا نییە بۆ بارهەڵگر بۆ تێپەڕبوون بە ژێر ئەم پردەدا."),
+                                            "ڕۆبەیەکی ئایینی لەبەرکرد بۆ بۆنەکە."),
                                   ],
                                 ),
                               ),
@@ -277,156 +274,10 @@ class EnglishEntryclearance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclearances3("en-GB"),
+                                    onPressed: () => speakclericals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Always give cyclists plenty of clearance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هەمیشە مەودای فراوان بدە بە پاسکیلسواران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) مۆڵەتی فەرمی کە دەدرێت بە کەسێک پێش ئەوەی دەست بە کارکردنێک بکەن، زانیارییەک وەربگرن، یان شتێک بکەن کە دەیانەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Formal clearance by the Cabinet has not been given."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆڵەتی فەرمی لەالیەن حکومەتەوە نەدراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is safest to seek advance clearance from the tax office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین ئەوە دەبێت مۆڵەتی پێشوەختە لە ئۆفیسی باجدانەوە وەربگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) مۆڵەتی فەرمی بۆ کەسێک، کەشتییەک، یان فڕۆکەیەک کە بچێتە شوێنێکەوە یان جێیبهێڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pilot was waiting for clearance for take-off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەوانەکە چاوەڕێی مۆڵەت بوو بۆ فڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pilot was granted clearance to land."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەوانەکە مۆڵەتی نیشتنەوەی پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances8("en-US"),
+                                    onPressed: () => speakclericals3("en-US"),
                                   ),
                                 ],
                               ),
@@ -514,18 +365,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clearance (Derived forms: clearances)
-1. The distance by which one thing clears another; the space between them
+- Adjective: clerical 
+1. Appropriate for or engaged in office work
+"clerical skills"; "a clerical job"; "the clerical staff"
  
-2. Vertical space available to allow easy passage under something (= headroom, headway)
+2. Of or relating to clerks
+"clerical work"
  
-3. Permission to proceed
-"the plane was given clearance to land"
- 
-4. Official permission or approval (= authority, authorization, authorisation [Brit], sanction)
-"clearance for the program was renewed several times";
- 
-5. (medicine) the rate of removal of substances from the blood
+3. Of or relating to the clergy
+"clerical collar"
 """,
   );
 
@@ -558,8 +406,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oLPHERGyCYU?t=',
-    startSeconds: 121,
+    videoId: 'https://youtu.be/Bc0H7Nj6cMA?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -583,8 +431,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GAkXU0u42Lk?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/zFaUY3OAzow?t=',
+    startSeconds: 599,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -608,8 +456,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5PR3Hn6cQ60?t=',
-    startSeconds: 10,
+    videoId: 'https://youtu.be/9MLsLqHZ6y8?t=',
+    startSeconds: 305,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -633,8 +481,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RPB9FE8-KTY?t=',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/oeYPWlReK20?t=',
+    startSeconds: 1429,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -658,8 +506,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q4bZAl4N_ZQ',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/ha7iWECm_8E?t=',
+    startSeconds: 948,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -683,8 +531,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
-    startSeconds: 1707,
+    videoId: 'https://youtu.be/lnx9MRWc_bY?t=',
+    startSeconds: 294,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -708,8 +556,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-7bIDbaU_zQ?t=',
-    startSeconds: 705,
+    videoId: 'https://youtu.be/A505-D4IA_0?t=',
+    startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -733,8 +581,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cAfYtXB-qN4?t=',
-    startSeconds: 2714,
+    videoId: 'https://youtu.be/QZa6clGTMqk?t=',
+    startSeconds: 2762,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

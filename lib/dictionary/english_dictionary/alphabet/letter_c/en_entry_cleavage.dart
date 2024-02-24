@@ -10,130 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclearance extends StatelessWidget {
+class EnglishEntrycleavage extends StatelessWidget {
   // blank divider
-  EnglishEntryclearance({super.key});
+  EnglishEntrycleavage({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclearance(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavage(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clearance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cleavage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances1(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("These coats are on clearance."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclearances2(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages1(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Much of the area was bulldozed into oblivion in a wave of slum clearances."); // DOPSUM: CHANGE TEXT
+        "She leaned forward slightly, revealing a deep cleavage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances3(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages2(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is not much clearance for vehicles passing under this bridge."); // DOPSUM: CHANGE TEXT
+        "Clare was wearing a low-cut dress that showed off her cleavage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances4(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages3(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Always give cyclists plenty of clearance."); // DOPSUM: CHANGE TEXT
+        "There is a marked cleavage between the parties about the government's defence policy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances5(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages4(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Formal clearance by the Cabinet has not been given."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances6(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages5(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is safest to seek advance clearance from the tax office."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances7(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages6(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot was waiting for clearance for take-off."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances8(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages7(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot was granted clearance to land."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances9(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages8(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances10(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages9(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances11(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages10(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances12(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages11(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclearances13(String languageCode) async {
-    // DOPSUM: CHANGE speakclearance
+  Future<void> speakcleavages12(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcleavages13(String languageCode) async {
+    // DOPSUM: CHANGE speakcleavage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcleavages1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -156,22 +151,22 @@ class EnglishEntryclearance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clearance"),
+                            EntryTitle(word: "cleavage"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪərəns/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkliːvɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclearance("en-GB"),
+                              onPressed: () => speakcleavage("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪrəns/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkliːvɪdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclearance("en-US"),
+                              onPressed: () => speakcleavage("en-US"),
                             ),
                           ],
                         ),
@@ -198,30 +193,33 @@ class EnglishEntryclearance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خاوێن‌کردنەوە، سڕینەوە، پاکتاو، پاک‌کردنەوە،	دەس‌پێوەنان (کەل‌وپەل)،	مەودای ئازاد، مەودای پاراستن، مەودای پێویست، ماوەی پێویست، جێگا، مەودای تیاهەڵسووڕان،	(هات‌وچۆ)، ڕێدان، ڕێگەدانی فەرمی، دەستوور (پێدان)،	کۆسپ‌لابردن یان ڕاپەڕاندن،	(تۆپێن و هاکی) لێدان، (تێ)هەڵدان
+کوردی: داقڵیشاندن، داتڵیشاندن،	تڵیش، قەڵەش، قڵیش، شەق، درز، کەلێن، کەلەبەر،	دابەش‌بوون،	دووبەرەکی، جیاوازی، ناکۆکی،	درز یا قڵیشی مەمک یا سینگ (ژنان)
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پڕۆسەی پاککردنەوە"),
+                              text:
+                                  "١. (ناو) نێوانی مەمکی ژنێک کە لە سەرەوەی جلێکەوە دەبینرێت کە بە تەواوی دایناپۆشێت"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "These coats are on clearance."),
+                                        text:
+                                            "She leaned forward slightly, revealing a deep cleavage."),
                                     ExampleSentenceKurdish(
-                                        text: "ئەم پاڵتاوانە لە پاککردنەوەن."),
+                                        text:
+                                            "کەمێک بۆ پێشەوە چەمایەوە و سینگێکی گەورەی بەدەرخست."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clearance", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cleavage", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclearances1("en-GB"),
+                                    onPressed: () => speakcleavages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances1("en-US"),
+                                    onPressed: () => speakcleavages1("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,10 +233,10 @@ class EnglishEntryclearance extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Much of the area was bulldozed into oblivion in a wave of slum clearances."),
+                                            "Clare was wearing a low-cut dress that showed off her cleavage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرێک لە ناوچەکە تەختی زەوی کرا لە پڕۆسەیەکی پاککردنەوەی کەلاوەکان."),
+                                            "کلێر جلێکی سینگ نزمی لەبەرکردبوو کە بەینی مەمانی بەدەرخستبوو."),
                                   ],
                                 ),
                               ),
@@ -246,10 +244,10 @@ class EnglishEntryclearance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclearances2("en-GB"),
+                                    onPressed: () => speakcleavages2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances2("en-US"),
+                                    onPressed: () => speakcleavages2("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,7 +256,7 @@ class EnglishEntryclearance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو ڕێژە لە شوێن کە پێویستە لە نێوان دوو شتدا بۆ ئەوەی بەریەکدی نەکەون"),
+                                  "٢. (ناو) جیاوازییەک یان جوداییەک لە نێوان دوو شتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,10 +264,10 @@ class EnglishEntryclearance extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "There is not much clearance for vehicles passing under this bridge."),
+                                            "There is a marked cleavage between the parties about the government's defence policy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر مەودا نییە بۆ بارهەڵگر بۆ تێپەڕبوون بە ژێر ئەم پردەدا."),
+                                            "دووبەرەکییەکی زۆر هەیە لە نێوان پارتەکاندا لەسەر سیاسەتی بەرگری حکومەت."),
                                   ],
                                 ),
                               ),
@@ -277,156 +275,10 @@ class EnglishEntryclearance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclearances3("en-GB"),
+                                    onPressed: () => speakcleavages3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Always give cyclists plenty of clearance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هەمیشە مەودای فراوان بدە بە پاسکیلسواران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) مۆڵەتی فەرمی کە دەدرێت بە کەسێک پێش ئەوەی دەست بە کارکردنێک بکەن، زانیارییەک وەربگرن، یان شتێک بکەن کە دەیانەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Formal clearance by the Cabinet has not been given."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆڵەتی فەرمی لەالیەن حکومەتەوە نەدراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is safest to seek advance clearance from the tax office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین ئەوە دەبێت مۆڵەتی پێشوەختە لە ئۆفیسی باجدانەوە وەربگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) مۆڵەتی فەرمی بۆ کەسێک، کەشتییەک، یان فڕۆکەیەک کە بچێتە شوێنێکەوە یان جێیبهێڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pilot was waiting for clearance for take-off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەوانەکە چاوەڕێی مۆڵەت بوو بۆ فڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pilot was granted clearance to land."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەوانەکە مۆڵەتی نیشتنەوەی پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearances8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearances8("en-US"),
+                                    onPressed: () => speakcleavages3("en-US"),
                                   ),
                                 ],
                               ),
@@ -444,7 +296,7 @@ class EnglishEntryclearance extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -514,18 +366,17 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clearance (Derived forms: clearances)
-1. The distance by which one thing clears another; the space between them
+- Noun: cleavage (Derived forms: cleavages)
+1. The state of being split or cleft
+"there was a cleavage between the liberal and conservative members"
  
-2. Vertical space available to allow easy passage under something (= headroom, headway)
+2. The breaking of a chemical bond in a molecule resulting in smaller molecules
  
-3. Permission to proceed
-"the plane was given clearance to land"
+3. (embryology) the repeated division of a fertilised ovum (= segmentation)
  
-4. Official permission or approval (= authority, authorization, authorisation [Brit], sanction)
-"clearance for the program was renewed several times";
+5. The line formed by a groove between two parts (especially the separation between a woman's breasts)
  
-5. (medicine) the rate of removal of substances from the blood
+6. The act of cleaving or splitting
 """,
   );
 
@@ -558,8 +409,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oLPHERGyCYU?t=',
-    startSeconds: 121,
+    videoId: 'https://youtu.be/AwtxyPYJhW0?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -583,8 +434,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GAkXU0u42Lk?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/iJKntu4qIgw',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -608,8 +459,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5PR3Hn6cQ60?t=',
-    startSeconds: 10,
+    videoId: 'https://youtu.be/1UCGRWwEAN8?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -633,8 +484,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RPB9FE8-KTY?t=',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/wAg5JjKdKqg?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -658,8 +509,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q4bZAl4N_ZQ',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    startSeconds: 545,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -683,8 +534,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
-    startSeconds: 1707,
+    videoId: 'https://youtu.be/0zXfDafyyao?t=',
+    startSeconds: 347,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -708,8 +559,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-7bIDbaU_zQ?t=',
-    startSeconds: 705,
+    videoId: 'https://youtu.be/fn--IVarumw?t=',
+    startSeconds: 1227,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -733,8 +584,33 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cAfYtXB-qN4?t=',
-    startSeconds: 2714,
+    videoId: 'https://youtu.be/6y8BiXC8c98?t=',
+    startSeconds: 682,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/SaOHTp07Vgw?t=',
+    startSeconds: 430,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

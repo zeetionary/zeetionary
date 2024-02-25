@@ -56,7 +56,8 @@ class EnglishEntryclinic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The antenatal clinic is on Wednesdays."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The antenatal clinic is on Wednesdays."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclinics5(String languageCode) async {
@@ -64,7 +65,8 @@ class EnglishEntryclinic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He is being treated at the London clinic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He is being treated at the London clinic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclinics6(String languageCode) async {
@@ -287,7 +289,9 @@ class EnglishEntryclinic extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) ماوەیەک کە پزیشکان ڕاوێژ و چارەسەری تەندرووستی تایبەت دەدەن بە نەخۆش"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ماوەیەک کە پزیشکان ڕاوێژ و چارەسەری تەندرووستی تایبەت دەدەن بە نەخۆش"),
                           Row(
                             children: [
                               const Expanded(
@@ -297,7 +301,8 @@ class EnglishEntryclinic extends StatelessWidget {
                                         text:
                                             "The antenatal clinic is on Wednesdays."),
                                     ExampleSentenceKurdish(
-                                        text: "کلینکی ژنانی دووگیان لە ڕۆژی چوارشەممانە."),
+                                        text:
+                                            "کلینکی ژنانی دووگیان لە ڕۆژی چوارشەممانە."),
                                   ],
                                 ),
                               ),
@@ -315,32 +320,35 @@ class EnglishEntryclinic extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) نەخۆشخانەیەکی تایبەت، یان یەکێک کە جۆرە نەخۆشییەکی دیاریکراو چارەسەر دەکات"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) نەخۆشخانەیەکی تایبەت، یان یەکێک کە جۆرە نەخۆشییەکی دیاریکراو چارەسەر دەکات"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He is being treated at the London clinic."),
-                          ExampleSentenceKurdish(
-                          text: "لە کلینکی لەندەن چارەسەر دەکرێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakclinics5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakclinics5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is being treated at the London clinic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کلینکی لەندەن چارەسەر دەکرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclinics5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclinics5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),

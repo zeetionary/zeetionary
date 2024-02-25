@@ -162,7 +162,7 @@ class EnglishEntrybeetle extends StatelessWidget {
                                             "The children were fascinated by the variety of beetles they found in the garden."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان شاگەشکەبووبوون بە ڕێژەی فراوانی قالۆنچە کە دۆزییانەوە لە باخچەکە."),
+                                            "منداڵەکان شاگەشکەبووبوون بە ڕێژەی جۆراوجۆری قالۆنچە کە دۆزییانەوە لە باخچەکە."),
                                   ],
                                 ),
                               ),

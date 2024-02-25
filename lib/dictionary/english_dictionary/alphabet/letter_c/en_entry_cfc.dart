@@ -152,6 +152,11 @@ class EnglishEntrycfc extends StatelessWidget {
                             EntryTitle(word: "CFC"),
                           ],
                         ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(word: "also: chlorofluorocarbon"),
+                          ],
+                        ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌsiː ef ˈsiː/"),

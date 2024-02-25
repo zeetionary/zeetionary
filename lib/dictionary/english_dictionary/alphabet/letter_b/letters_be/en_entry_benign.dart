@@ -223,7 +223,7 @@ class EnglishEntrybenign extends StatelessWidget {
                                             "The industry's environmental impact is relatively benign, even positive."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا بەزۆری بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن."),
+                                            "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا ئاستێکی زۆر بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن."),
                                   ],
                                 ),
                               ),

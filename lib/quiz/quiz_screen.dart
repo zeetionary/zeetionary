@@ -96,12 +96,20 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    const Icon(Icons.close, color: Colors.red),
+                    Icon(
+                      Icons.close,
+                      color: Colors.red,
+                      size: textSize + 4,
+                    ),
                     Text(
                         '${userAnswers.where((answer) => answer == false).length}',
                         style:
                             TextStyle(fontSize: textSize, color: Colors.red)),
-                    const Icon(Icons.check, color: Colors.green),
+                    Icon(
+                      Icons.check,
+                      color: Colors.green,
+                      size: textSize + 4,
+                    ),
                     Text(
                         '${userAnswers.where((answer) => answer == true).length}',
                         style:

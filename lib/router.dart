@@ -2999,9 +2999,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cling.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cling_film.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clinic.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clinical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clink.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clip.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6568,9 +6568,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cling": (_) => MaterialPage(child: EnglishEntrycling()),
   "/english-cling-film": (_) => MaterialPage(child: EnglishEntryclingfilm()),
   "/english-clinic": (_) => MaterialPage(child: EnglishEntryclinic()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-clinical": (_) => MaterialPage(child: EnglishEntryclinical()),
+  "/english-clink": (_) => MaterialPage(child: EnglishEntryclink()),
+  "/english-clip": (_) => MaterialPage(child: EnglishEntryclip()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

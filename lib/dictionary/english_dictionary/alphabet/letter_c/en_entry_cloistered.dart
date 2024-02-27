@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycloister extends StatelessWidget {
+class EnglishEntrycloistered extends StatelessWidget {
   // blank divider
-  EnglishEntrycloister({super.key});
+  EnglishEntrycloistered({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcloister(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistered(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cloister"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cloistered"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters1(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds1(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The 12th century church and cloisters remain surprisingly intact."); // DOPSUM: CHANGE TEXT
+        "I came to appreciate the cloistered existence of the monks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters2(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds2(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters3(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds3(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters4(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds4(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters5(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds5(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters6(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds6(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters7(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds7(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters8(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds8(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters9(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds9(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters10(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds10(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters11(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds11(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters12(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds12(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters13(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakcloistereds13(String languageCode) async {
+    // DOPSUM: CHANGE speakcloistered
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloistereds1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycloister extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cloister"),
+                            EntryTitle(word: "cloistered"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɔɪstə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈklɔɪstəd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcloister("en-GB"),
+                              onPressed: () => speakcloistered("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɔɪstər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈklɔɪstərd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcloister("en-US"),
+                              onPressed: () => speakcloistered("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +191,11 @@ class EnglishEntrycloister extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەیر، ڕەبەن‌خانە، (ژیانی) ڕەبەنایەتی،	سەردەرانە، داڵان، ڕێڕەوی سەرداپۆشراو
+کوردی: گۆشەگیر، لاتەریک، پەڕگیر
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕێڕەوێکی سەرداپۆشراو کە قەوسی هەیە لە دەوری باخچەیەکی لاکێشە یان چوارگۆشەیە، بەتایبەتی لە کڵێسایەک یان خانەقای ڕەبەنانە"),
+                                  "١. (ھاوەڵناو) دوور لە کێشە و مەترسییەکانی ژیانی ئاسایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +203,21 @@ class EnglishEntrycloister extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The 12th century church and cloisters remain surprisingly intact."),
+                                            "I came to appreciate the cloistered existence of the monks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کڵێسا و داڵانەکەی سەدەی ١٢ـیەم بەشێوەیەکی سەرنجڕاکێش بێ‌خەوش ماوەتەوە."),
+                                            "هاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloister", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cloistered", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcloisters1("en-GB"),
+                                    onPressed: () => speakcloistereds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcloisters1("en-US"),
+                                    onPressed: () => speakcloistereds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -305,19 +305,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloister (Derived forms: cloisters)
-1. Residence that is a place of religious seclusion (such as a monastery) (= religious residence)
+- Adjective: cloistered 
+1. Of communal life sequestered from the world under religious vows (= cloistral, conventual, monastic, monastical)
  
-2. (religion) a courtyard with covered walks (as in religious institutions)
-
-- Verb: cloister (Derived forms: cloistered, cloistering, cloisters)
-1. Surround with a cloister, as of a garden
- 
-2. Surround with a cloister
-"cloister the garden"
- 
-3. Seclude from the world in or as if in a cloister
-"She cloistered herself in the office"
+2. Providing privacy or seclusion (= reclusive, secluded, sequestered)
+"the cloistered academic world of books";
 """,
   );
 
@@ -350,8 +342,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mknm5__cjHo?t=',
-    startSeconds: 139,
+    videoId: 'https://youtu.be/GHkUdA68YNI?t=',
+    startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -375,8 +367,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kbZHQ2ZF6jE?t=',
-    startSeconds: 454,
+    videoId: 'https://youtu.be/9PDgDLrjhOQ?t=',
+    startSeconds: 440,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +392,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHkUdA68YNI?t=',
-    startSeconds: 136,
+    videoId: 'https://youtu.be/kJGxVeQw3SE?t=',
+    startSeconds: 608,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +417,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9PDgDLrjhOQ?t=',
-    startSeconds: 440,
+    videoId: 'https://youtu.be/lnz5kcGdzdc?t=',
+    startSeconds: 1597,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +442,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/frd0cfCDxVo?t=',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/uZB8lgenxwE?t=',
+    startSeconds: 314,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +467,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lnz5kcGdzdc?t=',
-    startSeconds: 1598,
+    videoId: 'https://youtu.be/gOBnGvM2dXw?t=',
+    startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +492,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kJGxVeQw3SE?t=',
-    startSeconds: 609,
+    videoId: 'https://youtu.be/nUNfaaRLTUU?t=',
+    startSeconds: 366,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +517,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vVVTDwxJBWU?t=',
-    startSeconds: 2623,
+    videoId: 'https://youtu.be/3I7HFriEVxQ?t=',
+    startSeconds: 1804,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

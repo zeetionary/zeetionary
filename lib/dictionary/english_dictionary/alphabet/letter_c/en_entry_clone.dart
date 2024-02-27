@@ -10,123 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycloister extends StatelessWidget {
+class EnglishEntryclone extends StatelessWidget {
   // blank divider
-  EnglishEntrycloister({super.key});
+  EnglishEntryclone({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcloister(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclone(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cloister"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters1(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones1(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The 12th century church and cloisters remain surprisingly intact."); // DOPSUM: CHANGE TEXT
+        "The plant clone was grown in a laboratory."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters2(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones2(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most people saw her as just another blond-haired, red-lipped Marilyn Monroe clone."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters3(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones3(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Once they found that the PC clones were just as good, companies saved a lot."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters4(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones4(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A team from the UK were the first to successfully clone an animal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters5(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones5(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters6(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones6(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters7(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones7(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters8(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones8(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters9(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones9(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters10(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones10(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters11(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones11(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters12(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones12(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcloisters13(String languageCode) async {
-    // DOPSUM: CHANGE speakcloister
+  Future<void> speakclones13(String languageCode) async {
+    // DOPSUM: CHANGE speakclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloisters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclones1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +152,22 @@ class EnglishEntrycloister extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cloister"),
+                            EntryTitle(word: "clone"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɔɪstə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /kləʊn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcloister("en-GB"),
+                              onPressed: () => speakclone("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɔɪstər/"),
+                            const IPAofEnglish(text: "IpaUS: /kləʊn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcloister("en-US"),
+                              onPressed: () => speakclone("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +194,11 @@ class EnglishEntrycloister extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەیر، ڕەبەن‌خانە، (ژیانی) ڕەبەنایەتی،	سەردەرانە، داڵان، ڕێڕەوی سەرداپۆشراو
+کوردی: چونیەک، هاوشێوە، لێکچوو، کۆپی، هەرەو، وەکیەک
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕێڕەوێکی سەرداپۆشراو کە قەوسی هەیە لە دەوری باخچەیەکی لاکێشە یان چوارگۆشەیە، بەتایبەتی لە کڵێسایەک یان خانەقای ڕەبەنانە"),
+                                  "١. (ناو) ئاژەڵێک یان ڕووەکێک کە بەشێوەیەکی سرووشتی یان دەستکرد لە خانەکانی ئاژەڵێک یان ڕووەکێک و بەم هۆیەش تەواو وەک یەکدی بن"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +206,114 @@ class EnglishEntrycloister extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The 12th century church and cloisters remain surprisingly intact."),
+                                            "The plant clone was grown in a laboratory."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کڵێسا و داڵانەکەی سەدەی ١٢ـیەم بەشێوەیەکی سەرنجڕاکێش بێ‌خەوش ماوەتەوە."),
+                                            "ڕووەکە لێکچووەکە لە تاقیگە گەشەی پێدرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloister", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "clone", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcloisters1("en-GB"),
+                                    onPressed: () => speakclones1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcloisters1("en-US"),
+                                    onPressed: () => speakclones1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کەسێک یان شتێک کە وا دەردەکەوێت لێکچوویەکی تەواوی یەکێکی دیکە بێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most people saw her as just another blond-haired, red-lipped Marilyn Monroe clone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر کەس وەک قژ زەردێک، لێو سوورێکی لێکچووی مارلین مۆنرۆ دەیان بینی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclones2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclones2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) کۆمپیوتەرێک کە لێکچووی یەکێکی دیکەی گرانترە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Once they found that the PC clones were just as good, companies saved a lot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک کە زانییان کۆمپیوتەرە کۆپییەکان هەمان باشییان هەبوو، کۆمپانیاکان پارەیەکی زۆریان قازانج کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclones3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclones3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) درووستکردنی لێکچوویەکی ئاژەڵێک یان ڕووەکێک بە بەکارهێنانی خانەکانی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A team from the UK were the first to successfully clone an animal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمێکی بەریتانی یەکەمین بوون کە بە سەرکەوتوویی ئاژەڵێک کۆپی بکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclones4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclones4("en-US"),
                                   ),
                                 ],
                               ),
@@ -305,19 +401,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloister (Derived forms: cloisters)
-1. Residence that is a place of religious seclusion (such as a monastery) (= religious residence)
+- Noun: clone (Derived forms: clones)
+1. A person who is almost identical to another (= ringer, dead ringer)
  
-2. (religion) a courtyard with covered walks (as in religious institutions)
+2. A group of genetically identical cells or organisms derived from a single cell or individual by some kind of asexual reproduction (= clon)
+ 
+3. An unauthorized copy or imitation (= knockoff [informal])
 
-- Verb: cloister (Derived forms: cloistered, cloistering, cloisters)
-1. Surround with a cloister, as of a garden
- 
-2. Surround with a cloister
-"cloister the garden"
- 
-3. Seclude from the world in or as if in a cloister
-"She cloistered herself in the office"
+- Verb: clone (Derived forms: clones, cloned, cloning)
+1. Make multiple identical copies of
+"people can clone a sheep nowadays"
 """,
   );
 
@@ -350,8 +443,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mknm5__cjHo?t=',
-    startSeconds: 139,
+    videoId: 'https://youtu.be/Kx4MF1FOwRM?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -375,8 +468,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kbZHQ2ZF6jE?t=',
-    startSeconds: 454,
+    videoId: 'https://youtu.be/2kOJ-4t7hdA?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +493,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHkUdA68YNI?t=',
-    startSeconds: 136,
+    videoId: 'https://youtu.be/rJgvVl9bOVU',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +518,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9PDgDLrjhOQ?t=',
-    startSeconds: 440,
+    videoId: 'https://youtu.be/KghZIgkKZcs?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +543,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/frd0cfCDxVo?t=',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/zlg03lfBrEA?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +568,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lnz5kcGdzdc?t=',
-    startSeconds: 1598,
+    videoId: 'https://youtu.be/B9-LpxaFkLI?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +593,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kJGxVeQw3SE?t=',
-    startSeconds: 609,
+    videoId: 'https://youtu.be/mvXDPLx8-TI?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +618,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vVVTDwxJBWU?t=',
-    startSeconds: 2623,
+    videoId: 'https://youtu.be/iK7lICvUhCI?t=',
+    startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

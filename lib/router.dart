@@ -3002,14 +3002,14 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clinical.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clink.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clip.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clipboard.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clippers.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clipping.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clique.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloak.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloakroom.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clock.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clockwise.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6571,14 +6571,14 @@ final loggedInRoute = RouteMap(routes: {
   "/english-clinical": (_) => MaterialPage(child: EnglishEntryclinical()),
   "/english-clink": (_) => MaterialPage(child: EnglishEntryclink()),
   "/english-clip": (_) => MaterialPage(child: EnglishEntryclip()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-clipboard": (_) => MaterialPage(child: EnglishEntryclipboard()),
+  "/english-clippers": (_) => MaterialPage(child: EnglishEntryclippers()),
+  "/english-clipping": (_) => MaterialPage(child: EnglishEntryclipping()),
+  "/english-clique": (_) => MaterialPage(child: EnglishEntryclique()),
+  "/english-cloak": (_) => MaterialPage(child: EnglishEntrycloak()),
+  "/english-cloakroom": (_) => MaterialPage(child: EnglishEntrycloakroom()),
+  "/english-clock": (_) => MaterialPage(child: EnglishEntryclock()),
+  "/english-clockwise": (_) => MaterialPage(child: EnglishEntryclockwise()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -10,128 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclaw extends StatelessWidget {
+class EnglishEntrycloak extends StatelessWidget {
   // blank divider
-  EnglishEntryclaw({super.key});
+  EnglishEntrycloak({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclaw(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloak(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("claw"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cloak"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws1(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks1(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She threw a heavy cloak over her shoulders."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcloaks2(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The author prefers to hide behind a cloak of anonymity."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcloaks3(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The cat lashed out with its claws."); // DOPSUM: CHANGE TEXT
+        .speak("The hills were cloaked in thick mist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws2(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks4(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The lion growled and showed its claws."); // DOPSUM: CHANGE TEXT
+        .speak("The meeting was cloaked in mystery."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws3(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks5(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Keep your fingers away from the crab's claws when you pick it up."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws4(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks6(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The machine's giant claw ripped the roof off the house like it was paper."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws5(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks7(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cat was clawing at the leg of the chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws6(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks8(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had clawed Stephen across the face."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws7(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks9(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws8(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks10(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws9(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks11(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws10(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks12(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws11(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakcloaks13(String languageCode) async {
+    // DOPSUM: CHANGE speakcloak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclaws12(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclaws13(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloaks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +152,22 @@ class EnglishEntryclaw extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "claw"),
+                            EntryTitle(word: "cloak"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɔː/"),
+                            const IPAofEnglish(text: "IpaUK: /kləʊk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclaw("en-GB"),
+                              onPressed: () => speakcloak("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɔː/"),
+                            const IPAofEnglish(text: "IpaUS: /kləʊk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclaw("en-US"),
+                              onPressed: () => speakcloak("en-US"),
                             ),
                           ],
                         ),
@@ -196,11 +194,11 @@ class EnglishEntryclaw extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چڕنووک، چنگاڵ، چنگ، کولاف، لاپوشک، نینۆک، چنجڕوک، پەنجە، چنگورک، قنار، ڕفۆک، خرمووشک، قەرمووشک؛ ھەرکام لەو پاشکۆ یان چوکڵە قولاپی‌یانەی سەر پای مێروویێ،	چنگ یان چنگاڵ یان قولاپی قرژاڵ، جاڵجاڵووکە یان چومگەپایێکی تر،	قولاپ، قەلانگ 
+کوردی: جبە، عەبا، باڵاپۆش، بەتە (سووک)، کۆڵوانە، چارۆکە، تەرگە،	سەربەرگ، بەرگ، پۆشە، پەردە، داپۆشە، دەمامک، پۆششت
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) چڕنووک؛ یەکێک لە نینۆکە تیژەکانی سەر پێی ئاژەڵێک یان باڵندەیەک"),
+                                  "١. (ناو) جبەیەک کە قۆڵی نییە و لەسەر شان دەبەسترێت و شۆڕدەبێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,21 +206,80 @@ class EnglishEntryclaw extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The cat lashed out with its claws."),
+                                            "She threw a heavy cloak over her shoulders."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "پشێلەکە بە چڕنووکەکانی ھێرشی کرد."),
+                                        text: "جبەیەکی قورسی دا بە شانیدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claw", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cloak", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclaws1("en-GB"),
+                                    onPressed: () => speakcloaks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws1("en-US"),
+                                    onPressed: () => speakcloaks1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) شتێک کە کەسێک/شتێک دەشارێتەوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The author prefers to hide behind a cloak of anonymity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسەرەکە وا بەباش دادەنێت کە لە پشت پەردەوە بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcloaks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcloaks2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) داپۆشین یان شاردنەوەی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hills were cloaked in thick mist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گردەکان لە تەمێکی چڕدا داپۆشراوبوون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcloaks3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcloaks3("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,10 +293,10 @@ class EnglishEntryclaw extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The lion growled and showed its claws."),
+                                            "The meeting was cloaked in mystery."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شێرەکە نەڕاندی و چڕنووکەکانی پیشاندا."),
+                                            "چاوپێکەوتنەکە بە نهێنی هێڵدرایەوە."),
                                   ],
                                 ),
                               ),
@@ -247,131 +304,10 @@ class EnglishEntryclaw extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclaws2("en-GB"),
+                                    onPressed: () => speakcloaks4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئەندامێکی درێژ و چەماوەی تیژی سەدەفدارەکان کە بەکاردێت بۆ گرتنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep your fingers away from the crab's claws when you pick it up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەکانت بەدوور بگرە لە چنگی قرژاڵەکە کە ھەڵیدەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) شتێک کە بەکاردێت بۆ ھەڵگرتنەوەی شت و وەک چنگی ئاژەڵانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The machine's giant claw ripped the roof off the house like it was paper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قولاپی بەھێزی ئامێرەکە سەربانی خانووەکەی لێکردەوە وەک ئەوەی کاغەز بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) چڕنووک ھێنان بە شتێک/کەسێکدا بە چنگ یان نینۆک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cat was clawing at the leg of the chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشیلەکە چڕنووکی لە لاقی کورسییەکە دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had clawed Stephen across the face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چڕنووکی لە ستیفن دابوو لە ڕووخساریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws6("en-US"),
+                                    onPressed: () => speakcloaks4("en-US"),
                                   ),
                                 ],
                               ),
@@ -459,26 +395,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: claw (derived forms: claws)
-1. Sharp curved horny process on the toe of a bird or some mammals or reptiles
+- Noun: cloak (Derived forms: cloaks)
+1. Anything that covers or conceals
  
-2. A mechanical device that is curved or bent to suspend or hold or pull something (= hook)
- 
-3. A grasping structure on the limb of a crustacean or other arthropods (= chela, nipper, pincer)
- 
-4. A bird's foot
+2. A loose outer garment
 
-- Verb: claw (derived forms: clawed, claws, clawing)
-1. Move as if by clawing, seizing, or digging
-"They clawed their way to the top of the mountain"
+- Verb: cloak (Derived forms: cloaked, cloaking, cloaks)
+1. Hide under a false appearance (= dissemble, mask)
+"He cloaked his disappointment";
  
-2. Clutch as if in panic
-"She clawed the doorknob"
+2. Cover as if with clothing (= clothe, drape, robe)
+"the mountain was cloaked in tropical trees";
  
-3. Scratch, scrape, pull, or dig with claws or nails
- 
-4. Attack as if with claws
-"The politician clawed his rival"
+3. Cover with or as if with a cloak
+"cloaked monks"
 """,
   );
 
@@ -511,8 +441,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WrCrJY-2gOc',
-    startSeconds: 191,
+    videoId: 'https://youtu.be/SMIR1mYRiw0?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +466,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WW-drhvvHp8',
-    startSeconds: 233,
+    videoId: 'https://youtu.be/kD-ue0A-i2w?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -561,8 +491,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gijabzhrdeI',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/y0cftA9F9QA?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -586,8 +516,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Lrgqj6KYyXw',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/SmcuidXDKF8?t=',
+    startSeconds: 982,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -611,8 +541,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aav66rawQw8',
-    startSeconds: 267,
+    videoId: 'https://youtu.be/JYZ8iHz8prc?t=',
+    startSeconds: 560,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -636,8 +566,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'zsAFwQheZz4',
-    startSeconds: 31,
+    videoId: 'https://youtu.be/4DB3Ar6wFdc?t=',
+    startSeconds: 333,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -661,8 +591,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LRl0UKKaXN0',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/q75O6-OPa3s?t=',
+    startSeconds: 724,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -686,8 +616,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cfkhzz6T25w',
-    startSeconds: 67,
+    videoId: 'https://youtu.be/TVzrKOSjkJs?t=',
+    startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

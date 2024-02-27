@@ -10,132 +10,131 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclip extends StatelessWidget {
+class EnglishEntryclock extends StatelessWidget {
   // blank divider
-  EnglishEntryclip({super.key});
+  EnglishEntryclock({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclip(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclock(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clip"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clock"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips1(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks1(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Here is a clip from her latest movie."); // DOPSUM: CHANGE TEXT
+        .speak("The clock struck twelve/midnight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips2(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks2(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The clock has stopped."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclocks3(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The clock is right/wrong."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclocks4(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("My clock said 9.02."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclocks5(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You will see in this clip how well she acts."); // DOPSUM: CHANGE TEXT
+        "It was ten past six by the kitchen clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips3(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks6(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The documentary began with a clip from the President's inauguration speech."); // DOPSUM: CHANGE TEXT
+        "The sound of a clock ticking somewhere in the house kept him awake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips4(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks7(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She put a clip in her hair."); // DOPSUM: CHANGE TEXT
+        .speak("I was only doing 30 mph on the clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips5(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He gave the hedge a clip."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclips6(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks8(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She gave him a clip round the ear for being cheeky."); // DOPSUM: CHANGE TEXT
+        "My car's only got 10,000 miles on the clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips7(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks9(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He clipped the microphone (on) to his collar."); // DOPSUM: CHANGE TEXT
+        "He clocked 10.09 seconds in the 100 metres final."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips8(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Clip the pages together."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclips9(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks10(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He clipped off a piece of wire with the pliers."); // DOPSUM: CHANGE TEXT
+        "The police clocked her doing over 100 miles an hour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips10(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks11(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The car clipped the kerb as it turned."); // DOPSUM: CHANGE TEXT
+        .speak("I clocked her in the driving mirror."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips11(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She clipped the ball into the net."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclips12(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks12(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I clipped the picture out of the newspaper."); // DOPSUM: CHANGE TEXT
+        "He said it again, so I clocked him on the nose!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclips13(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
+  Future<void> speakclocks13(String languageCode) async {
+    // DOPSUM: CHANGE speakclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclips1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclocks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -158,22 +157,22 @@ class EnglishEntryclip extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clip"),
+                            EntryTitle(word: "clock"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɪp/"),
+                            const IPAofEnglish(text: "IpaUK: /klɒk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclip("en-GB"),
+                              onPressed: () => speakclock("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɪp/"),
+                            const IPAofEnglish(text: "IpaUS: /klɑːk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclip("en-US"),
+                              onPressed: () => speakclock("en-US"),
                             ),
                           ],
                         ),
@@ -200,10 +199,11 @@ class EnglishEntryclip extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گیرە، گیرگە، بەست، تەوقە،	دەرزی، گوڵی سەرسنگ،	خەشاب، بڕینەوە، هەڵپاچین، پەڕتاوتن، کورت‌کردنەوە،	بەربرینگ (ئەو بڕە خوری‌یەی کە بە جارێ بڕدراوەتەوە)،	زللە، شەپڵاخە،	مشت،	تیکە، بڕشت، بڕگە (فیلم)،	هەنگاو یا جووڵەی توند و خێرا، ڕاتڵەکان
+کوردی: کات‌ژمێر، سەعات (بێجگەلە دەستی)،	کات، وەخت و زەمان،	تاکسی‌میتر،	خێرایی‌پێوی ماشین،	سەرەخڕی تۆوداری کوڵکنی شەلەمکەرە
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کورتە ڤیدیۆیەک لە فیلمێک"),
+                              text:
+                                  "١. (ناو) کاتژمێری سەر دیوار، مێز، یان کۆمپیوتەر (کاتژمێری دەست نا)"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,20 +211,203 @@ class EnglishEntryclip extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Here is a clip from her latest movie."),
+                                            "The clock struck twelve/midnight."),
                                     ExampleSentenceKurdish(
-                                        text: "ئەمە کلیپێکە لە کۆتا فیلمی."),
+                                        text: "کاتژمێرەکە گەشتە سەر دوازدە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clip", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "clock", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclips1("en-GB"),
+                                    onPressed: () => speakclocks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclips1("en-US"),
+                                    onPressed: () => speakclocks1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The clock has stopped."),
+                                    ExampleSentenceKurdish(
+                                        text: "کاتژمێرەکە وەستاوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclocks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclocks2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The clock is right/wrong."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کاتژمێرەکە ڕاستە/هەڵەیە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakclocks3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakclocks3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text: "My clock said 9.02."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کاتژمێرەکەم ٩.٠٢ دەخوێندەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakclocks4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakclocks4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "It was ten past six by the kitchen clock."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "١٠ خولەک لایدابوو لە شەش بەپێی کاتژمێری چێشتخانەکە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakclocks5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakclocks5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The sound of a clock ticking somewhere in the house kept him awake."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دەنگی کاتژمێرێک کە لە شوێنێکی ماڵەکەدا چرکەی داهات بە بێداری هێشتبوویەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakclocks6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakclocks6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) گێچی ئۆتۆمبێلێک کە ژمارەی ئەو میل یان کیلۆمەترانە دەپێوێت کە ڕۆشتووە، یان ئەوەی کە خێرایی دەژمێرێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was only doing 30 mph on the clock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی گێچەکە ٣٠ مل/کاتژمێرێکدا دەچووم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclocks7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclocks7("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +421,10 @@ class EnglishEntryclip extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You will see in this clip how well she acts."),
+                                            "My car's only got 10,000 miles on the clock."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەم کلیپەدا دەیبینیت چەندە باش نمایش دەکات."),
+                                            "ئۆتۆمبێلەکەم تەنها ١٠,٠٠٠ میل چووە لەسەر گێچەکە."),
                                   ],
                                 ),
                               ),
@@ -249,38 +432,10 @@ class EnglishEntryclip extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclips2("en-GB"),
+                                    onPressed: () => speakclocks8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclips2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The documentary began with a clip from the President's inauguration speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمە بەڵگەنامەییەکە بە کورتە ڤیدیۆیەکی وتاری دەستبەکاربوونی سەرۆک دەست پێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips3("en-US"),
+                                    onPressed: () => speakclocks8("en-US"),
                                   ),
                                 ],
                               ),
@@ -289,63 +444,7 @@ class EnglishEntryclip extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پارچە پلاستیکێکی بچووک کە بۆ ڕاگرتنی شت بەکاردێت، یان بۆ جوانکاری بە جلوبەرگەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She put a clip in her hair."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەوقەیەکی لە قژی بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) بڕینی شتێک بۆ کورتکردنەوەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He gave the hedge a clip."),
-                                    ExampleSentenceKurdish(
-                                        text: "هەڵپاچینێکی پەرژینەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (ناو) لێدانێکی خێرا بە دەست"),
+                                  "٣. (کردار) گەشتنە کاتێک یان خێراییەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -353,10 +452,10 @@ class EnglishEntryclip extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She gave him a clip round the ear for being cheeky."),
+                                            "He clocked 10.09 seconds in the 100 metres final."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەپازلەیەکی کێشا بە بنگوێیدا بۆ ڕوودارییەکەی."),
+                                            "لە ١٠٠ مەتری کۆتادا گەشتە ١٠,٠٩ چرکە."),
                                   ],
                                 ),
                               ),
@@ -364,10 +463,10 @@ class EnglishEntryclip extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclips6("en-GB"),
+                                    onPressed: () => speakclocks9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclips6("en-US"),
+                                    onPressed: () => speakclocks9("en-US"),
                                   ),
                                 ],
                               ),
@@ -376,7 +475,7 @@ class EnglishEntryclip extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) بەستنی شتێک بە شتێکی ترەوە بە "),
+                                  "٤. (کردار) پێوانی خێرایی جوڵەی کەسێک/شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -384,10 +483,10 @@ class EnglishEntryclip extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He clipped the microphone (on) to his collar."),
+                                            "The police clocked her doing over 100 miles an hour."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مایکرۆفۆنەکەی بەست بە یەقەیەوە."),
+                                            "پۆلیس پێوانەی کرد کە زیاتر لە ١٠٠ کیلۆمەتر لە کاتژمێرێکدا دەچوو."),
                                   ],
                                 ),
                               ),
@@ -395,36 +494,10 @@ class EnglishEntryclip extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclips7("en-GB"),
+                                    onPressed: () => speakclocks10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclips7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Clip the pages together."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەڕەکان ببەستە بە یەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips8("en-US"),
+                                    onPressed: () => speakclocks10("en-US"),
                                   ),
                                 ],
                               ),
@@ -433,7 +506,7 @@ class EnglishEntryclip extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) بڕینەوە، بۆ نموونە بە مەقەس، بۆ کورتکردنەوە یان ڕێککردنەوە"),
+                                  "٥. (کردار) تێبینیکردنی کەسێک یان ئاماژەدان پێی بەوەی کە دەیبینیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -441,10 +514,10 @@ class EnglishEntryclip extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He clipped off a piece of wire with the pliers."),
+                                            "I clocked her in the driving mirror."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە پلایس پارچە وایەرێکی لێکردەوە."),
+                                            "لە ئاوێنەی تەنیشتەوە ئاماژەم بۆ کرد."),
                                   ],
                                 ),
                               ),
@@ -452,10 +525,10 @@ class EnglishEntryclip extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclips9("en-GB"),
+                                    onPressed: () => speakclocks11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclips9("en-US"),
+                                    onPressed: () => speakclocks11("en-US"),
                                   ),
                                 ],
                               ),
@@ -463,7 +536,7 @@ class EnglishEntryclip extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (کردار) لێدان لە قەراغ یان لای شتێک"),
+                              text: "٦. (کردار) لێدان لە کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -471,10 +544,10 @@ class EnglishEntryclip extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The car clipped the kerb as it turned."),
+                                            "He said it again, so I clocked him on the nose!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا کە پێچیکردەوە."),
+                                            "دووبارە گوتییەوە، بۆیە کێشام بە لوتیدا."),
                                   ],
                                 ),
                               ),
@@ -482,67 +555,10 @@ class EnglishEntryclip extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclips10("en-GB"),
+                                    onPressed: () => speakclocks12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclips10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clipped the ball into the net."),
-                                    ExampleSentenceKurdish(
-                                        text: "تۆپەکەی خستە ناو تۆڕەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (کردار) لێکردنەوەی شتێک لە شتێکی تر بە مەقەس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I clipped the picture out of the newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text: "وێنەکەی لە ڕۆژنامەکە لێکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips12("en-US"),
+                                    onPressed: () => speakclocks12("en-US"),
                                   ),
                                 ],
                               ),
@@ -630,37 +646,18 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clip (Derived forms: clips)
-1. A metal frame or container holding ammunition that feeds a repeating firearm (= cartridge holder, cartridge clip, magazine)
- 
-2. An instance or single occasion for some event (= time)
-"he could do ten at a clip";
- 
-3. Any of various small fasteners used to hold loose articles together
- 
-4. An article of jewellery that can be clipped onto a hat or dress
- 
-5. The act of clipping or snipping (= clipping, snip)
- 
-6. A sharp slanting blow
-"he gave me a clip on the ear"
+- Noun: clock (Derived forms: clocks)
+1. A timepiece that shows the time of day
 
-- Verb: clip (Derived forms: clips, clipping, clipped)
-1. Cut or sever by pinching or cutting with small strokes of scissors, pruning shears, etc. (= nip, nip off, snip, snip off)
-"clip off the flowers";
+- Verb: clock (Derived forms: clocks, clocking, clocked)
+1. Measure the time or duration of an event or action or the person who performs an action in a certain period of time (= time)
+"he clocked the runners";
  
-2. Run at a moderately swift pace (= trot, jog)
+2. [UK, informal] Hit hard (= sock [informal], bop [informal], whop [informal], whap [N. Amer, informal], bonk [informal], bash [informal], clonk [informal], boink [N. Amer, informal], whack [informal], wham [informal], wallop [informal], lamp [UK, informal], belt [informal])
+"He clocked his opponent";
  
-3. Attach with a clip
-"clip the papers together"
- 
-4. Cultivate, tend, and cut back the growth of (= snip, crop, trim, lop, dress, prune, cut back)
-"clip the plants in the garden";
- 
-5. Terminate or abbreviate before its intended or proper end or its full extent (= curtail, cut short)
-"Personal freedom is clipped in many countries";
- 
-6. (computing) discard data outside a specific range of values, or assign out-of-range values to the nearest value in range; remove parts of an image etc. outside a given area
+3. [Brit, informal] See, notice or watch
+"they clocked our faces"
 """,
   );
 
@@ -693,8 +690,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k6CPzwkwZEw?t=',
-    startSeconds: 46,
+    videoId: 'https://youtu.be/2YKrILmZz7E?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -718,8 +715,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MNQueQvMA3k?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/3h1vCwJ7Jss',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -743,8 +740,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f_KQPoTIhKg?t=',
-    startSeconds: 10,
+    videoId: 'https://youtu.be/whDMhPHOJZM?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -768,8 +765,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k7MXH55q28U?t=',
-    startSeconds: 3,
+    videoId: 'https://youtu.be/YXV6lwcFDrM?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -793,8 +790,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HadWolMBdw?t=',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/oa-CuxbTJ9g',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -818,8 +815,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nMhoJRsHD_w?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/D-i-emUOTfk?t=',
+    startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -843,7 +840,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7IphkCpqfj8',
+    videoId: 'https://youtu.be/35N2mefXKZY?t=',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -868,8 +865,33 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nvO_Wr5_uTQ?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    startSeconds: 326,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    startSeconds: 1283,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

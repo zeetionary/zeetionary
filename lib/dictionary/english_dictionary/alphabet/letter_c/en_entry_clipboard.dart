@@ -10,128 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclaw extends StatelessWidget {
+class EnglishEntryclipboard extends StatelessWidget {
   // blank divider
-  EnglishEntryclaw({super.key});
+  EnglishEntryclipboard({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclaw(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboard(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("claw"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clipboard"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws1(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The cat lashed out with its claws."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclaws2(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The lion growled and showed its claws."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclaws3(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards1(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Keep your fingers away from the crab's claws when you pick it up."); // DOPSUM: CHANGE TEXT
+        "Add your name to the list on the clipboard."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws4(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards2(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The machine's giant claw ripped the roof off the house like it was paper."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws5(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards3(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cat was clawing at the leg of the chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws6(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards4(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had clawed Stephen across the face."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws7(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards5(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws8(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards6(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws9(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards7(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws10(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards8(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws11(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards9(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws12(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards10(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclaws13(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
+  Future<void> speakclipboards11(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclipboards1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclipboards12(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclipboards1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakclipboards13(String languageCode) async {
+    // DOPSUM: CHANGE speakclipboard
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakclipboards1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +149,22 @@ class EnglishEntryclaw extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "claw"),
+                            EntryTitle(word: "clipboard"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɔː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈklɪpbɔːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclaw("en-GB"),
+                              onPressed: () => speakclipboard("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɔː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈklɪpbɔːrd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclaw("en-US"),
+                              onPressed: () => speakclipboard("en-US"),
                             ),
                           ],
                         ),
@@ -196,11 +191,11 @@ class EnglishEntryclaw extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چڕنووک، چنگاڵ، چنگ، کولاف، لاپوشک، نینۆک، چنجڕوک، پەنجە، چنگورک، قنار، ڕفۆک، خرمووشک، قەرمووشک؛ ھەرکام لەو پاشکۆ یان چوکڵە قولاپی‌یانەی سەر پای مێروویێ،	چنگ یان چنگاڵ یان قولاپی قرژاڵ، جاڵجاڵووکە یان چومگەپایێکی تر،	قولاپ، قەلانگ 
+کوردی: تەختی گیرەدار، تەختەی لەسەرکێشانەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) چڕنووک؛ یەکێک لە نینۆکە تیژەکانی سەر پێی ئاژەڵێک یان باڵندەیەک"),
+                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە هەیە بپ ڕاگرتنی پەڕە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,175 +203,55 @@ class EnglishEntryclaw extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The cat lashed out with its claws."),
+                                            "Add your name to the list on the clipboard."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشێلەکە بە چڕنووکەکانی ھێرشی کرد."),
+                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claw", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclaws1("en-GB"),
+                                    onPressed: () => speakclipboards1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws1("en-US"),
+                                    onPressed: () => speakclipboards1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lion growled and showed its claws."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێرەکە نەڕاندی و چڕنووکەکانی پیشاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئەندامێکی درێژ و چەماوەی تیژی سەدەفدارەکان کە بەکاردێت بۆ گرتنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep your fingers away from the crab's claws when you pick it up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەکانت بەدوور بگرە لە چنگی قرژاڵەکە کە ھەڵیدەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) شتێک کە بەکاردێت بۆ ھەڵگرتنەوەی شت و وەک چنگی ئاژەڵانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The machine's giant claw ripped the roof off the house like it was paper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قولاپی بەھێزی ئامێرەکە سەربانی خانووەکەی لێکردەوە وەک ئەوەی کاغەز بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) چڕنووک ھێنان بە شتێک/کەسێکدا بە چنگ یان نینۆک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cat was clawing at the leg of the chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشیلەکە چڕنووکی لە لاقی کورسییەکە دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had clawed Stephen across the face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چڕنووکی لە ستیفن دابوو لە ڕووخساریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
+                          // skipped_meaning
+                          // const DividerDefinition(),
+                          // const DefinitionKurdish(text: "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی هەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
+                          // Row(
+                          // children: [
+                          // const Expanded(
+                          // child: Column(
+                          // children: [
+                          // ExampleSentenceEnglish(
+                          // text:
+                          // "speak3s111111111111111111111111111111111"),
+                          // ExampleSentenceKurdish(
+                          // text: "رستە_رستە_رستە_رستە."),
+                          // ],
+                          // ),
+                          // ),
+                          // const CustomSizedBoxForTTS(),
+                          // Column(
+                          // children: [
+                          // CustomIconButtonBritish(
+                          // onPressed: () => speak("en-GB"),
+                          // ),
+                          // CustomIconButtonAmerican(
+                          // onPressed: () => speak("en-US"),
+                          // ),
+                          // ],
+                          // ),
+                          // ],
+                          // ),
                         ],
                       ),
                     ),
@@ -459,26 +334,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: claw (derived forms: claws)
-1. Sharp curved horny process on the toe of a bird or some mammals or reptiles
- 
-2. A mechanical device that is curved or bent to suspend or hold or pull something (= hook)
- 
-3. A grasping structure on the limb of a crustacean or other arthropods (= chela, nipper, pincer)
- 
-4. A bird's foot
-
-- Verb: claw (derived forms: clawed, claws, clawing)
-1. Move as if by clawing, seizing, or digging
-"They clawed their way to the top of the mountain"
- 
-2. Clutch as if in panic
-"She clawed the doorknob"
- 
-3. Scratch, scrape, pull, or dig with claws or nails
- 
-4. Attack as if with claws
-"The politician clawed his rival"
+- Noun: clipboard (Derived forms: clipboards)
+1. A small writing board with a clip at the top for holding papers
 """,
   );
 
@@ -511,8 +368,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WrCrJY-2gOc',
-    startSeconds: 191,
+    videoId: 'https://youtu.be/aB4pxWGlRm0?t=',
+    startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +393,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WW-drhvvHp8',
-    startSeconds: 233,
+    videoId: 'https://youtu.be/vPEPj2jRwWc?t=',
+    startSeconds: 1698,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -561,8 +418,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gijabzhrdeI',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/onJF7AggKnM?t=',
+    startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -586,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Lrgqj6KYyXw',
+    videoId: 'https://youtu.be/QhRFFRNHxf4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,8 +468,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aav66rawQw8',
-    startSeconds: 267,
+    videoId: 'https://youtu.be/7eM7pb5M5DU?t=',
+    startSeconds: 1106,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -636,8 +493,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'zsAFwQheZz4',
-    startSeconds: 31,
+    videoId: 'https://youtu.be/drhDGeNauuo?t=',
+    startSeconds: 1294,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -661,8 +518,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LRl0UKKaXN0',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/xj7vukZT9sI?t=',
+    startSeconds: 810,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -686,8 +543,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Cfkhzz6T25w',
-    startSeconds: 67,
+    videoId: 'https://youtu.be/qtlPTE-UmY4?t=',
+    startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

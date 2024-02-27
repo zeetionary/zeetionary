@@ -734,6 +734,35 @@ class AlsoEnglish extends ConsumerWidget {
   }
 }
 
+class AlsoEnglishckb extends ConsumerWidget {
+  final String word;
+
+  // const AlsoEnglish({Key? key, required this.text}) : super(key: key);
+  const AlsoEnglishckb({super.key, required this.word});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
+    return Container(
+      constraints: const BoxConstraints(maxWidth: 300),
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      // padding: const EdgeInsets.all(8.0), // Add padding here
+      child: Directionality(
+        textDirection: TextDirection.rtl,
+        child: Text(
+        word,
+        textDirection: TextDirection.rtl,
+        style: TextStyle(
+          fontSize: textSize,
+          // color: Colors.yellow.withOpacity(0.7),
+          color: Theme.of(context).highlightColor,
+        ),
+      ),
+    ),
+    );
+  }
+}
+
 // class IPAofEnglish extends StatelessWidget {
 //   final String text;
 

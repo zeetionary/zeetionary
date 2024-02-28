@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycctv extends StatelessWidget {
+class EnglishEntryclosedown extends StatelessWidget {
   // blank divider
-  EnglishEntrycctv({super.key});
+  EnglishEntryclosedown({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakCCTV(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedown(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("CCTV"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("close-down"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs1(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns1(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The whole incident was captured on CCTV."); // DOPSUM: CHANGE TEXT
+        "The partial government close-down is now in a 20th day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs2(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns2(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs3(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns3(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs4(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns4(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs5(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns5(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs6(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns6(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs7(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns7(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs8(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns8(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs9(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns9(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs10(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns10(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs11(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns11(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs12(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns12(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs13(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosedowns13(String languageCode) async {
+    // DOPSUM: CHANGE speakclosedown
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosedowns1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,30 +149,22 @@ class EnglishEntrycctv extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "CCTV"),
+                            EntryTitle(word: "close-down"),
                           ],
                         ),
-                        const Row(
-                          children: [
-                            AlsoEnglish(word: "also: closed-circuit television"),
-                          ],
-                        ),
-                        
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˌsiː siː tiː ˈviː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkləʊz daʊn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakCCTV("en-GB"),
+                              onPressed: () => speakclosedown("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌsiː siː tiː ˈviː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkləʊz daʊn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakCCTV("en-US"),
+                              onPressed: () => speakclosedown("en-US"),
                             ),
                           ],
                         ),
@@ -198,8 +190,12 @@ class EnglishEntrycctv extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ناو) کامێرای چاودێری"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کردە یان پڕۆسەی وەستاندنی کارەکانی بازرگانییەک، سیستەمێک، پیشەسازییەک، هتد بۆ ماوەیەکی کاتی یان هەمیشەیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,21 +203,21 @@ class EnglishEntrycctv extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The whole incident was captured on CCTV."),
+                                            "The partial government close-down is now in a 20th day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا."),
+                                            "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـهەمین ڕۆژی دایە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "CCTV", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "close-down", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakCCTVs1("en-GB"),
+                                    onPressed: () => speakclosedowns1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakCCTVs1("en-US"),
+                                    onPressed: () => speakclosedowns1("en-US"),
                                   ),
                                 ],
                               ),
@@ -239,7 +235,7 @@ class EnglishEntrycctv extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -309,8 +305,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: CCTV
-1. (dramaturgy) a television system that is not used for broadcasting but is connected by cables to designated monitors (as in a factory or theatre) (= closed-circuit television)
+- Noun: close-down (Derived forms: close-downs)
+1. Termination of operations (= closure, closing, shutdown)
+"they regretted the closedown of the day care centre";
 """,
   );
 
@@ -343,8 +340,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7Gx-6xDTrWQ',
-    startSeconds: 656,
+    videoId: 'https://youtu.be/MHSnAHe-7Uk?t=',
+    startSeconds: 2401,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -368,8 +365,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4vhfCo4nxWw',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/KKRzNgoL9h4?t=',
+    startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -393,8 +390,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drUBPoQnxto',
-    startSeconds: 1071,
+    videoId: 'https://youtu.be/kUl_p-sHC9M?t=',
+    startSeconds: 1626,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -418,8 +415,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '80bVlDEJVEk',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/JUJhg5RKXqU?t=',
+    startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -443,8 +440,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XvVCc1Ts0MA',
-    startSeconds: 550,
+    videoId: 'https://youtu.be/smBfMNr2CXQ?t=',
+    startSeconds: 2605,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +465,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BIKqI0B6D-A',
-    startSeconds: 50,
+    videoId: 'https://youtu.be/hMh4EMnk0js?t=',
+    startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +490,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '09qAoR7RgMc',
-    startSeconds: 379,
+    videoId: 'https://youtu.be/-g_0G6P1oNs?t=',
+    startSeconds: 522,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +515,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AzGs26X86i4',
-    startSeconds: 798,
+    videoId: 'https://youtu.be/3sZbbKcMXyU?t=',
+    startSeconds: 1821,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

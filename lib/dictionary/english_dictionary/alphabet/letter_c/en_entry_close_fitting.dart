@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycctv extends StatelessWidget {
+class EnglishEntryclosefitting extends StatelessWidget {
   // blank divider
-  EnglishEntrycctv({super.key});
+  EnglishEntryclosefitting({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakCCTV(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefitting(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("CCTV"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("close-fitting"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs1(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings1(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The whole incident was captured on CCTV."); // DOPSUM: CHANGE TEXT
+        "She wore a close-fitting dress to the party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs2(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings2(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The close-fitting swimsuit accentuated her curves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs3(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings3(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs4(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings4(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs5(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings5(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs6(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings6(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs7(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings7(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs8(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings8(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs9(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings9(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs10(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings10(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs11(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings11(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs12(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings12(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs13(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosefittings13(String languageCode) async {
+    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,30 +150,22 @@ class EnglishEntrycctv extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "CCTV"),
+                            EntryTitle(word: "close-fitting"),
                           ],
                         ),
-                        const Row(
-                          children: [
-                            AlsoEnglish(word: "also: closed-circuit television"),
-                          ],
-                        ),
-                        
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˌsiː siː tiː ˈviː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkləʊs ˈfɪtɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakCCTV("en-GB"),
+                              onPressed: () => speakclosefitting("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌsiː siː tiː ˈviː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌkləʊs ˈfɪtɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakCCTV("en-US"),
+                              onPressed: () => speakclosefitting("en-US"),
                             ),
                           ],
                         ),
@@ -198,8 +191,12 @@ class EnglishEntrycctv extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ناو) کامێرای چاودێری"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) جلوبەرگێک کە بە تەسکی دەگونجێت و ڕووخسار دەردەخات"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,21 +204,52 @@ class EnglishEntrycctv extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The whole incident was captured on CCTV."),
+                                            "She wore a close-fitting dress to the party."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا."),
+                                        text: "جلی تەسکی بۆ ئاهەنگەکە پۆشی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "CCTV", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "close-fitting", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakCCTVs1("en-GB"),
+                                    onPressed: () =>
+                                        speakclosefittings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakCCTVs1("en-US"),
+                                    onPressed: () =>
+                                        speakclosefittings1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The close-fitting swimsuit accentuated her curves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلە مەلە تەسکەکە قەندەکانی دەرخستبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakclosefittings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakclosefittings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -239,7 +267,7 @@ class EnglishEntrycctv extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -309,8 +337,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: CCTV
-1. (dramaturgy) a television system that is not used for broadcasting but is connected by cables to designated monitors (as in a factory or theatre) (= closed-circuit television)
+- Adjective: close-fitting (Derived forms: closest-fitting, closer-fitting) 
+1. Fitting closely but comfortably (= close, snug)
+"a close-fitting fit";
 """,
   );
 
@@ -343,8 +372,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7Gx-6xDTrWQ',
-    startSeconds: 656,
+    videoId: 'https://youtu.be/8yCp9tK6JZ4?t=',
+    startSeconds: 320,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -368,8 +397,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4vhfCo4nxWw',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/w3rOpq6otgM?t=',
+    startSeconds: 751,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -393,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drUBPoQnxto',
-    startSeconds: 1071,
+    videoId: 'https://youtu.be/Dt6BQPNGGTw?t=',
+    startSeconds: 660,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -418,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '80bVlDEJVEk',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/XY_RldJvCWs?t=',
+    startSeconds: 2023,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -443,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XvVCc1Ts0MA',
-    startSeconds: 550,
+    videoId: 'https://youtu.be/uWvs4e_nweU?t=',
+    startSeconds: 952,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BIKqI0B6D-A',
-    startSeconds: 50,
+    videoId: 'https://youtu.be/CSbx8KnNl9c?t=',
+    startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '09qAoR7RgMc',
-    startSeconds: 379,
+    videoId: 'https://youtu.be/aMQpslhkpqU?t=',
+    startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AzGs26X86i4',
-    startSeconds: 798,
+    videoId: 'https://youtu.be/LhKIk7ik6Ew?t=',
+    startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

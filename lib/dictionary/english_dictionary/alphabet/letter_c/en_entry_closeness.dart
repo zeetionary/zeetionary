@@ -10,123 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycctv extends StatelessWidget {
+class EnglishEntrycloseness extends StatelessWidget {
   // blank divider
-  EnglishEntrycctv({super.key});
+  EnglishEntrycloseness({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakCCTV(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakcloseness(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("CCTV"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("closeness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs1(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The whole incident was captured on CCTV."); // DOPSUM: CHANGE TEXT
+        "Maltese cuisine is influenced by Malta’s physical closeness to Italy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs2(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Jefferson always felt a closeness to the land and to a rural way of life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs3(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The closeness of their friendship was evident in how they always supported each other."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs4(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "All the emphasis on the closeness of the election may encourage more people to vote."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs5(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs6(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs7(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs8(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs9(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs10(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs11(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs12(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakCCTVs13(String languageCode) async {
-    // DOPSUM: CHANGE speakCCTV
+  Future<void> speakclosenesss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcloseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCCTVs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosenesss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,30 +152,22 @@ class EnglishEntrycctv extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "CCTV"),
+                            EntryTitle(word: "closeness"),
                           ],
                         ),
-                        const Row(
-                          children: [
-                            AlsoEnglish(word: "also: closed-circuit television"),
-                          ],
-                        ),
-                        
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˌsiː siː tiː ˈviː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkləʊsnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakCCTV("en-GB"),
+                              onPressed: () => speakcloseness("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌsiː siː tiː ˈviː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkləʊsnəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakCCTV("en-US"),
+                              onPressed: () => speakcloseness("en-US"),
                             ),
                           ],
                         ),
@@ -198,8 +193,10 @@ class EnglishEntrycctv extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ناو) کامێرای چاودێری"""),
+                          const KurdishVocabulary(text: """
+کوردی: گەرم‌گوڕی،	نزیکایەتی،	وردی، دروستی،	دەس‌قووچاوی، ڕژدی
+"""),
+                          const DefinitionKurdish(text: "١. (ناو) نزیکییەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,21 +204,114 @@ class EnglishEntrycctv extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The whole incident was captured on CCTV."),
+                                            "Maltese cuisine is influenced by Malta’s physical closeness to Italy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا."),
+                                            "دەستاوی ماڵتایی کاریگەری نزیکییەتی ماڵتای لە ئیتاڵیاوە لەسەرە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "CCTV", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "closeness", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakCCTVs1("en-GB"),
+                                    onPressed: () => speakclosenesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakCCTVs1("en-US"),
+                                    onPressed: () => speakclosenesss1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ناسینی کەسێک/شتێک زۆر بە باشی و حەزکردن لێیان"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jefferson always felt a closeness to the land and to a rural way of life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێفەرسن هەمیشە هەستی بە پەیوەندییەک بە خاکەکەوە دەکرد و بە شێوازی لادێیی ژیانکردن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclosenesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclosenesss2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) زۆر بەژدار لە کار و چالاکی کەسێکی دیکەدا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The closeness of their friendship was evident in how they always supported each other."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توندی هاوڕێیەتییان ئاشکرا بوو لە شێوەیەی کە هەمیشە پاڵپشتی یەکدییان دەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclosenesss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclosenesss3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) بردنەوەیەک کە بە جیاوازییەکی کەم بووە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the emphasis on the closeness of the election may encourage more people to vote."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموو ئەو سەرنجەی لەسەر ڕکابەرییەتی توندە لە هەڵبژاردنەکەدا وا لە خەڵکی زیاتر دەدات دەنگ بدەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakclosenesss4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakclosenesss4("en-US"),
                                   ),
                                 ],
                               ),
@@ -239,7 +329,7 @@ class EnglishEntrycctv extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -309,8 +399,21 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: CCTV
-1. (dramaturgy) a television system that is not used for broadcasting but is connected by cables to designated monitors (as in a factory or theatre) (= closed-circuit television)
+- Noun: closeness 
+1. A feeling of being intimate and belonging together (= intimacy)
+"their closeness grew as the night wore on";
+ 
+2. The quality of being close and poorly ventilated (= stuffiness)
+ 
+3. The property of being close together (= proximity, propinquity, nearness)
+"the sudden closeness of the dock sent him into action";
+ 
+4. Extreme stinginess (= meanness, minginess, niggardliness, niggardness, parsimony, parsimoniousness, tightness, tightfistedness)
+ 
+5. Characterized by a lack of openness (especially about one's actions or purposes) (= secretiveness)
+ 
+6. Close or warm friendship (= familiarity, intimacy)
+"the absence of fences created a mysterious closeness in which no one knew privacy";
 """,
   );
 
@@ -343,8 +446,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7Gx-6xDTrWQ',
-    startSeconds: 656,
+    videoId: 'https://youtu.be/4D4lh8KjF9o?t=',
+    startSeconds: 416,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -368,8 +471,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4vhfCo4nxWw',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/kys8kxktWwc?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -393,8 +496,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drUBPoQnxto',
-    startSeconds: 1071,
+    videoId: 'https://youtu.be/c1v2bbxV5FI?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -418,8 +521,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '80bVlDEJVEk',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/5qHKYEiEy60?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -443,8 +546,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XvVCc1Ts0MA',
-    startSeconds: 550,
+    videoId: 'https://youtu.be/GNf1MAMK6ak?t=',
+    startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +571,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BIKqI0B6D-A',
-    startSeconds: 50,
+    videoId: 'https://youtu.be/ARomrjtLTQU?t=',
+    startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +596,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '09qAoR7RgMc',
-    startSeconds: 379,
+    videoId: 'https://youtu.be/gfE9rOi_AjM?t=',
+    startSeconds: 766,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +621,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AzGs26X86i4',
-    startSeconds: 798,
+    videoId: 'https://youtu.be/YAKcbvioxFk?t=',
+    startSeconds: 1086,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

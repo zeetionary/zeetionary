@@ -3017,13 +3017,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloistered.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clone.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close_down.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closed_shop.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close_fitting.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close_knit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closeness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close_set.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6586,13 +6586,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cloistered": (_) => MaterialPage(child: EnglishEntrycloistered()),
   "/english-clone": (_) => MaterialPage(child: EnglishEntryclone()),
   "/english-close": (_) => MaterialPage(child: EnglishEntryclose()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-close-down": (_) => MaterialPage(child: EnglishEntryclosedown()),
+  "/english-closed-shop": (_) => MaterialPage(child: EnglishEntryclosedshop()),
+  "/english-close-fitting": (_) => MaterialPage(child: EnglishEntryclosefitting()),
+  "/english-close-knit": (_) => MaterialPage(child: EnglishEntrycloseknit()),
+  "/english-closely": (_) => MaterialPage(child: EnglishEntryclosely()),
+  "/english-closeness": (_) => MaterialPage(child: EnglishEntrycloseness()),
+  "/english-close-set": (_) => MaterialPage(child: EnglishEntrycloseset()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

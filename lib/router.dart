@@ -3036,21 +3036,21 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothes_peg.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothing.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloud.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloudy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clout.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clove.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clover.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clown.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_club.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cluck.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clue.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clueless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clump.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clumsy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clumsily.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clumsiness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cluster.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clutch.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6604,21 +6604,21 @@ final loggedInRoute = RouteMap(routes: {
   "/english-clothes-peg": (_) => MaterialPage(child: EnglishEntryclothespeg()),
   "/english-clothing": (_) => MaterialPage(child: EnglishEntryclothing()),
   "/english-cloud": (_) => MaterialPage(child: EnglishEntrycloud()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cloudy": (_) => MaterialPage(child: EnglishEntrycloudy()),
+  "/english-clout": (_) => MaterialPage(child: EnglishEntryclout()),
+  "/english-clove": (_) => MaterialPage(child: EnglishEntryclove()),
+  "/english-clover": (_) => MaterialPage(child: EnglishEntryclover()),
+  "/english-clown": (_) => MaterialPage(child: EnglishEntryclown()),
+  "/english-club": (_) => MaterialPage(child: EnglishEntryclub()),
+  "/english-cluck": (_) => MaterialPage(child: EnglishEntrycluck()),
+  "/english-clue": (_) => MaterialPage(child: EnglishEntryclue()),
+  "/english-clueless": (_) => MaterialPage(child: EnglishEntryclueless()),
+  "/english-clump": (_) => MaterialPage(child: EnglishEntryclump()),
+  "/english-clumsy": (_) => MaterialPage(child: EnglishEntryclumsy()),
+  "/english-clumsily": (_) => MaterialPage(child: EnglishEntryclumsily()),
+  "/english-clumsiness": (_) => MaterialPage(child: EnglishEntryclumsiness()),
+  "/english-cluster": (_) => MaterialPage(child: EnglishEntrycluster()),
+  "/english-clutch": (_) => MaterialPage(child: EnglishEntryclutch()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

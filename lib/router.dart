@@ -1497,7 +1497,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_become.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_becoming.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bed.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bedclothes.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bed_clothes.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bedding.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bedpan.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bedridden.dart';
@@ -3024,19 +3024,18 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closely.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closeness.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close_set.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_close_up.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closet.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_closure.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloth.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothe.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothes.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothes_horse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothes_line.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothes_peg.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_clothing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cloud.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -4990,7 +4989,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-become": (_) => MaterialPage(child: EnglishEntrybecome()),
   "/english-becoming": (_) => MaterialPage(child: EnglishEntrybecoming()),
   "/english-bed": (_) => MaterialPage(child: EnglishEntrybed()),
-  "/english-clothes": (_) => MaterialPage(child: EnglishEntrybedclothes()),
+  "/english-bed-clothes": (_) => MaterialPage(child: EnglishEntrybedclothes()),
   "/english-bedding": (_) => MaterialPage(child: EnglishEntrybedding()),
   "/english-bedpan": (_) => MaterialPage(child: EnglishEntrybedpan()),
   "/english-bedridden": (_) => MaterialPage(child: EnglishEntrybedridden()),
@@ -6593,18 +6592,18 @@ final loggedInRoute = RouteMap(routes: {
   "/english-closely": (_) => MaterialPage(child: EnglishEntryclosely()),
   "/english-closeness": (_) => MaterialPage(child: EnglishEntrycloseness()),
   "/english-close-set": (_) => MaterialPage(child: EnglishEntrycloseset()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-close-up": (_) => MaterialPage(child: EnglishEntrycloseup()),
+  "/english-closet": (_) => MaterialPage(child: EnglishEntrycloset()),
+  "/english-closure": (_) => MaterialPage(child: EnglishEntryclosure()),
+  "/english-clot": (_) => MaterialPage(child: EnglishEntryclot()),
+  "/english-cloth": (_) => MaterialPage(child: EnglishEntrycloth()),
+  "/english-clothe": (_) => MaterialPage(child: EnglishEntryclothe()),
+  "/english-clothes": (_) => MaterialPage(child: EnglishEntryclothes()),
+  "/english-clothes-horse": (_) => MaterialPage(child: EnglishEntryclotheshorse()),
+  "/english-clothes-line": (_) => MaterialPage(child: EnglishEntryclothesline()),
+  "/english-clothes-peg": (_) => MaterialPage(child: EnglishEntryclothespeg()),
+  "/english-clothing": (_) => MaterialPage(child: EnglishEntryclothing()),
+  "/english-cloud": (_) => MaterialPage(child: EnglishEntrycloud()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

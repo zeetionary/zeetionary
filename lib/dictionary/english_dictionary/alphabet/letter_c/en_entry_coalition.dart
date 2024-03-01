@@ -10,123 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoalface extends StatelessWidget {
+class EnglishEntrycoalition extends StatelessWidget {
   // blank divider
-  EnglishEntrycoalface({super.key});
+  EnglishEntrycoalition({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoalface(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalition(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coalface"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coalition"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The miners had to crawl to reach the coalface."); // DOPSUM: CHANGE TEXT
+        "The two parties have formed a coalition."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The two parties governed in coalition for four years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They didn't rule out coalition with the Social Democrats."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "By forming a coalition, the rebels and the opposition parties defeated the government."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalitions13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +152,22 @@ class EnglishEntrycoalface extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "coalface"),
+                            EntryTitle(word: "coalition"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkəʊlfeɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkəʊəˈlɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcoalface("en-GB"),
+                              onPressed: () => speakcoalition("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkəʊlfeɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌkəʊəˈlɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcoalface("en-US"),
+                              onPressed: () => speakcoalition("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +193,12 @@ class EnglishEntrycoalface extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی: ڕەگەی خەڵووز، چین یان توێی خەڵووز
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: هاوبەندی، هەڤال‌بەندی، هاوپەیمانی، هاوپەیمانی کاتی (نێوان پارتە سیاسی‌یەکان بە مەبەستی دامەزراندنی حکومەتێ)،	حکومەتی هاوبەندی،	تێک‌هەڵکێشان، کردنەیەک
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جێگای هەرە قووڵی ناو کانێکی خەڵووز کە تێیدا خەڵووز لە ڕووی بەردەکە جیادەکرێتەوە"),
+                                  "١. (ناو) حکومەتێک کە لەلایەن دوو پارت یان زیاترەوە درووستکراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +206,116 @@ class EnglishEntrycoalface extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The miners had to crawl to reach the coalface."),
+                                            "The two parties have formed a coalition."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە."),
+                                            "دوو پارتەکە هاوپەیمانێتییەکیان درووستکردووە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalface", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "coalition", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcoalfaces1("en-GB"),
+                                    onPressed: () => speakcoalitions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalfaces1("en-US"),
+                                    onPressed: () => speakcoalitions1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two parties governed in coalition for four years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو پارتەکە بۆ چوار ساڵ بە هاوپەیمانی حکومڕانییان کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoalitions2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoalitions2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "They didn't rule out coalition with the Social Democrats."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەگەری هاوپەیمانییان لەگەڵ سۆشیال دیموکراتەکان نەخستەلاوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcoalitions3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcoalitions3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "By forming a coalition, the rebels and the opposition parties defeated the government."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە درووستکردنی هاوپەیمانییەک یاخیبووان و پارتە ئۆپۆزسیۆنەکان شکستیان بە حکومەت هێنا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcoalitions4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcoalitions4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -305,8 +403,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coalface (Derived forms: coalfaces)
-1. The part of a coal seam that is being cut
+- Noun: coalition (Derived forms: coalitions)
+1. An organization of people (or countries) involved in a pact or treaty (= alliance, alignment, alinement [non-standard])
+ 
+2. The state of being combined into one body (= fusion)
+ 
+3. The union of diverse things into one body, form or group; the growing together of parts (= coalescence, coalescency, concretion, conglutination, concrescence)
 """,
   );
 
@@ -339,8 +441,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ENhfIeZF_AY?t=',
-    startSeconds: 489,
+    videoId: 'https://youtu.be/lAfGUl-6Rs8?t=',
+    startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +466,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qf5miMjS9y4?t=',
-    startSeconds: 276,
+    videoId: 'https://youtu.be/x6Nuj1mRiNs?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +491,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hLz6lEzoSAk?t=',
-    startSeconds: 2712,
+    videoId: 'https://youtu.be/eZhRoCwMEGg?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +516,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIZRfPnKxCY?t=',
-    startSeconds: 1124,
+    videoId: 'https://youtu.be/wEzw1W2duro?t=',
+    startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +541,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3i7ym_Qh7BA?t=',
-    startSeconds: 8411,
+    videoId: 'https://youtu.be/TmrRILM9wFQ?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +566,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iEldErpvNCk?t=',
-    startSeconds: 1011,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 406,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +591,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6dq9qIuY4GA?t=',
-    startSeconds: 1280,
+    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    startSeconds: 526,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +616,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4XCELJDdP4o?t=',
-    startSeconds: 1683,
+    videoId: 'https://youtu.be/RXXMJAU6vY8?t=',
+    startSeconds: 698,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

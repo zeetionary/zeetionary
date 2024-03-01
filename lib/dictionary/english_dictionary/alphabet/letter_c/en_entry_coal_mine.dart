@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoalface extends StatelessWidget {
+class EnglishEntrycoalmine extends StatelessWidget {
   // blank divider
-  EnglishEntrycoalface({super.key});
+  EnglishEntrycoalmine({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoalface(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmine(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coalface"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coal mine"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The miners had to crawl to reach the coalface."); // DOPSUM: CHANGE TEXT
+        "The coal mine employed hundreds of workers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoalmines13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoalmine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalmines1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycoalface extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "coalface"),
+                            EntryTitle(word: "coal mine"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkəʊlfeɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkəʊl maɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcoalface("en-GB"),
+                              onPressed: () => speakcoalmine("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkəʊlfeɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkəʊl maɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcoalface("en-US"),
+                              onPressed: () => speakcoalmine("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +190,12 @@ class EnglishEntrycoalface extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی: ڕەگەی خەڵووز، چین یان توێی خەڵووز
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: کانگا (یان کانگە)ی خەڵووز، خەڵووزکان
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جێگای هەرە قووڵی ناو کانێکی خەڵووز کە تێیدا خەڵووز لە ڕووی بەردەکە جیادەکرێتەوە"),
+                                  "١. (ناو) کانی خەڵووز؛ شوێنێک لەژێر زەوی کە خەڵووزی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +203,21 @@ class EnglishEntrycoalface extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The miners had to crawl to reach the coalface."),
+                                            "The coal mine employed hundreds of workers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە."),
+                                            "کانە خەڵووزەکە کاری بۆ سەدان کرێکار دابینکرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalface", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "coal mine", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcoalfaces1("en-GB"),
+                                    onPressed: () => speakcoalmines1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalfaces1("en-US"),
+                                    onPressed: () => speakcoalmines1("en-US"),
                                   ),
                                 ],
                               ),
@@ -305,8 +305,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coalface (Derived forms: coalfaces)
-1. The part of a coal seam that is being cut
+- Noun: coal mine (Derived forms: coal mines)
+1. A mine where coal is dug from the ground (= coalpit)
 """,
   );
 
@@ -339,8 +339,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ENhfIeZF_AY?t=',
-    startSeconds: 489,
+    videoId: 'https://youtu.be/P9CGoBWXmyY?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +364,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qf5miMjS9y4?t=',
-    startSeconds: 276,
+    videoId: 'https://youtu.be/W_QsWETUYYw?t=',
+    startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hLz6lEzoSAk?t=',
-    startSeconds: 2712,
+    videoId: 'https://youtu.be/qW894scsyMA',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIZRfPnKxCY?t=',
-    startSeconds: 1124,
+    videoId: 'https://youtu.be/IlmT_UVxKNI?t=',
+    startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3i7ym_Qh7BA?t=',
-    startSeconds: 8411,
+    videoId: 'https://youtu.be/PFCCWUaHYGk?t=',
+    startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iEldErpvNCk?t=',
-    startSeconds: 1011,
+    videoId: 'https://youtu.be/X8Utleu4h9w?t=',
+    startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6dq9qIuY4GA?t=',
-    startSeconds: 1280,
+    videoId: 'https://youtu.be/KwZa5DRIwwo?t=',
+    startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +514,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4XCELJDdP4o?t=',
-    startSeconds: 1683,
+    videoId: 'https://youtu.be/sM62FDBDae8?t=',
+    startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

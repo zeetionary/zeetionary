@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoalface extends StatelessWidget {
+class EnglishEntrycoarseness extends StatelessWidget {
   // blank divider
-  EnglishEntrycoalface({super.key});
+  EnglishEntrycoarseness({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoalface(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarseness(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coalface"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coarseness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The miners had to crawl to reach the coalface."); // DOPSUM: CHANGE TEXT
+        "The coarseness of the cloth irritated her skin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I can't stand his coarseness and stupidity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoalfaces13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalface
+  Future<void> speakcoarsenesss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoarseness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalfaces1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoarsenesss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycoalface extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "coalface"),
+                            EntryTitle(word: "coarseness"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkəʊlfeɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɔːsnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcoalface("en-GB"),
+                              onPressed: () => speakcoarseness("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkəʊlfeɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɔːrsnəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcoalface("en-US"),
+                              onPressed: () => speakcoarseness("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +191,12 @@ class EnglishEntrycoalface extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی: ڕەگەی خەڵووز، چین یان توێی خەڵووز
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: بێ‌تۆرەیی، بێ‌ڕەوشتی، بێ‌ماریفەتی
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جێگای هەرە قووڵی ناو کانێکی خەڵووز کە تێیدا خەڵووز لە ڕووی بەردەکە جیادەکرێتەوە"),
+                                  "١. (ناو) زبری، یان پێکهاتوو لە پارچەی گەورە"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +204,51 @@ class EnglishEntrycoalface extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The miners had to crawl to reach the coalface."),
+                                            "The coarseness of the cloth irritated her skin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە."),
+                                            "زبری قوماشەکە پێستی جاڕس دەکرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalface", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "coarseness", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcoalfaces1("en-GB"),
+                                    onPressed: () => speakcoarsenesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalfaces1("en-US"),
+                                    onPressed: () => speakcoarsenesss1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) ڕەفتار و قسەی ناشرین"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can't stand his coarseness and stupidity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرگەی بێ‌ڕەوشتی و گەمژەییەکەی ناگرم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoarsenesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoarsenesss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -305,8 +336,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coalface (Derived forms: coalfaces)
-1. The part of a coal seam that is being cut
+- Noun: coarseness 
+1. Language or humour that is down-to-earth (= saltiness)
+"the coarseness of their language was inappropriate";
+ 
+2. The quality of being composed of relatively large particles (= graininess, granularity)
+ 
+3. Looseness or roughness in texture (as of cloth) (= nubbiness, tweediness)
+ 
+4. The quality of lacking taste and refinement (= commonness, grossness, vulgarity, vulgarism, raunch)
+"in the twilight zone between humour and coarseness";
 """,
   );
 
@@ -339,8 +378,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ENhfIeZF_AY?t=',
-    startSeconds: 489,
+    videoId: 'https://youtu.be/U6bpbdnAWjI?t=',
+    startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +403,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qf5miMjS9y4?t=',
-    startSeconds: 276,
+    videoId: 'https://youtu.be/YSy9NVdiLqw?t=',
+    startSeconds: 536,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +428,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hLz6lEzoSAk?t=',
-    startSeconds: 2712,
+    videoId: 'https://youtu.be/mKairfMzc6Q?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +453,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIZRfPnKxCY?t=',
-    startSeconds: 1124,
+    videoId: 'https://youtu.be/P3rF5t7tegs?t=',
+    startSeconds: 463,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +478,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3i7ym_Qh7BA?t=',
-    startSeconds: 8411,
+    videoId: 'https://youtu.be/lBXRkMZfIXk?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +503,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iEldErpvNCk?t=',
-    startSeconds: 1011,
+    videoId: 'https://youtu.be/HctPDpt0bRg?t=',
+    startSeconds: 538,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +528,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6dq9qIuY4GA?t=',
-    startSeconds: 1280,
+    videoId: 'https://youtu.be/N4IkCAeu2s4?t=',
+    startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +553,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4XCELJDdP4o?t=',
-    startSeconds: 1683,
+    videoId: 'https://youtu.be/P0XlpDOq_s8?t=',
+    startSeconds: 770,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

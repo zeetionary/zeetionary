@@ -3058,16 +3058,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coagulate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coal.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coalface.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coalfield.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coal_mine.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coal_miner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coalesce.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coalition.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coarse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coarsely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coarsen.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coarseness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coast.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6626,16 +6626,16 @@ final loggedInRoute = RouteMap(routes: {
   "/english-coagulate": (_) => MaterialPage(child: EnglishEntrycoagulate()),
   "/english-coal": (_) => MaterialPage(child: EnglishEntrycoal()),
   "/english-coalface": (_) => MaterialPage(child: EnglishEntrycoalface()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-coalfield": (_) => MaterialPage(child: EnglishEntrycoalfield()),
+  "/english-coal-mine": (_) => MaterialPage(child: EnglishEntrycoalmine()),
+  "/english-coal-miner": (_) => MaterialPage(child: EnglishEntrycoalminer()),
+  "/english-coalesce": (_) => MaterialPage(child: EnglishEntrycoalesce()),
+  "/english-coalition": (_) => MaterialPage(child: EnglishEntrycoalition()),
+  "/english-coarse": (_) => MaterialPage(child: EnglishEntrycoarse()),
+  "/english-coarsely": (_) => MaterialPage(child: EnglishEntrycoarsely()),
+  "/english-coarsen": (_) => MaterialPage(child: EnglishEntrycoarsen()),
+  "/english-coarseness": (_) => MaterialPage(child: EnglishEntrycoarseness()),
+  "/english-coast": (_) => MaterialPage(child: EnglishEntrycoast()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

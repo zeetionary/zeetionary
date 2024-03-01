@@ -224,7 +224,7 @@ class EnglishEntrybitter extends StatelessWidget {
 کوردی: تاڵ، توند، تیژ، ناخۆش،  ناخۆش و زۆرسارد (ھەوا)، ڕق‌ھەستاو، تووڕە، ناڕەحەت، ئاوجۆی تاڵ، بیرەی خەست، سەختی، کوێرەوەری، کڵۆڵی، مەینەتی، بەدبەختی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) تاڵ؛ تامێکی توندی ناخۆش"),
+                              text: "١. (ھاوەڵناو) تاڵ؛ تامێکی توندی ناخۆش."),
                           Row(
                             children: [
                               const Expanded(
@@ -409,7 +409,7 @@ class EnglishEntrybitter extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (ھاوەڵناو) سارد و ناخۆش"),
+                              text: "٥. (ھاوەڵناو) سارد و ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

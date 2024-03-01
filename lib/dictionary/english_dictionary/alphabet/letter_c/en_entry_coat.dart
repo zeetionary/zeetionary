@@ -3,85 +3,136 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "boss" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace boss - /bɒs/
 
 enum TtsState { playing }
 
-class EnglishEntryboss extends StatelessWidget {
-// blank divider
-  EnglishEntryboss({super.key});
-// blank divider
+class EnglishEntrycoat extends StatelessWidget {
+  // blank divider
+  EnglishEntrycoat({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboss(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
+  Future<void> speakcoat(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boss"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosss1(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'll ask my boss if I can have the day off."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosss2(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I like being my own boss."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosss3(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hospital bosses protested at the decision."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosss4(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
+  Future<void> speakcoats1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I'm sick of you bossing me around!"); // DOPSUM: CHANGE TEXT
+        .speak("I dressed in my finest blue wool coat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosss5(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
+  Future<void> speakcoats2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She's a real boss chick."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He slipped the letter into his coat pocket."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosss6(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
+  Future<void> speakcoats3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It was a boss party."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Why don't you take off your coat if you're hot?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosss7(String languageCode) async {
-    // DOPSUM: CHANGE speakboss
+  Future<void> speakcoats4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The dog sheds its winter coat once the weather becomes warmer."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Make sure the base coat has thoroughly dried before applying the top coat."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The cookies were thickly coated with chocolate."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("A film of dust coated the table."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoats800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoats900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoats1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoats1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoats1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoats13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoats1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -104,22 +155,22 @@ class EnglishEntryboss extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boss"),
+                            EntryTitle(word: "coat"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɒs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəʊt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboss("en-GB"),
+                              onPressed: () => speakcoat("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɔːs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəʊt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboss("en-US"),
+                              onPressed: () => speakcoat("en-US"),
                             ),
                           ],
                         ),
@@ -132,7 +183,7 @@ class EnglishEntryboss extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -146,11 +197,11 @@ class EnglishEntryboss extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرۆک، گەورە، سەرکار، سەرکرێکار، بەڕێوەبەر، ساحەب‌کار، سەرپەرشت، (لە بانگ‌کردن‌دا) بەڕێز، جەناب
+کوردی: باڵتە، چاکەت، کەوا، باڵتە، پاڵتۆ،	موو، قژ، تووک، تیسک، بەرگم، خوری،	چین، توێ، کۆل، گەرداڵ، توێژاڵ،	ڕووکێش، ڕووپۆش، بەرگ(ە)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە بەرپرسی کەسانی دیکەیە لەسەر کار و پێیان دەڵێت چی بکەن"),
+                                  "١. (ناو) پاڵتاو؛ جلێک کە لەسەر جلی دیکەوە لەبەر دەکرێت لە سەرمادا"),
                           Row(
                             children: [
                               const Expanded(
@@ -158,21 +209,21 @@ class EnglishEntryboss extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'll ask my boss if I can have the day off."),
+                                            "I dressed in my finest blue wool coat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە سەرکارەکەم دەڵێم ئاخۆ بتوانم ئەو ڕۆژە پشوو وەربگرم."),
+                                            "باشترین قەمسەڵەی خوری شینمم لەبەرکرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "coat", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosss1("en-GB"),
+                                    onPressed: () => speakcoats1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss1("en-US"),
+                                    onPressed: () => speakcoats1("en-US"),
                                   ),
                                 ],
                               ),
@@ -186,9 +237,10 @@ class EnglishEntryboss extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I like being my own boss (= working for myself and making my own decisions)."),
+                                            "He slipped the letter into his coat pocket."),
                                     ExampleSentenceKurdish(
-                                        text: "حەز دەکەم سەرکاری خۆم بم."),
+                                        text:
+                                            "نامەکەی خستە گیرفانی پاڵتاوەکەیەوە."),
                                   ],
                                 ),
                               ),
@@ -196,100 +248,10 @@ class EnglishEntryboss extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosss2("en-GB"),
+                                    onPressed: () => speakcoats2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) کەسێک کە بەڕێوەبەری دامەزراوەیەکی گەورەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hospital bosses protested at the decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی نەخۆشخانەکان بڕیارەکانیان سەرکۆنە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) وتن بە کەسێک کە چی بکات بەشێوەیەکی توند و ناشرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sick of you bossing me around!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزارم لێت فرمانم بەسەردا بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (ھاوەڵناو) زۆر باش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a real boss chick."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژنێکی تەواو سەرکەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss5("en-US"),
+                                    onPressed: () => speakcoats2("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,9 +264,11 @@ class EnglishEntryboss extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "It was a boss party."),
+                                        text:
+                                            "Why don't you take off your coat if you're hot?"),
                                     ExampleSentenceKurdish(
-                                        text: "ئاھەنگێکی ناوازە بوو."),
+                                        text:
+                                            "بۆچی قەمسەڵەکەت داناکەنیت ئەگەر گەرماتە؟"),
                                   ],
                                 ),
                               ),
@@ -312,10 +276,131 @@ class EnglishEntryboss extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosss6("en-GB"),
+                                    onPressed: () => speakcoats3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss6("en-US"),
+                                    onPressed: () => speakcoats3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) فەروو، موو، یان خوری جەستەی ئاژەڵێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dog sheds its winter coat once the weather becomes warmer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگەکە تووکە زستانەکەی فڕێ دەدات کە گەرمتر دەبێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoats4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoats4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) بۆیە یان مادەیەکی دیکە کە ڕوویەک دادەپۆشێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Make sure the base coat has thoroughly dried before applying the top coat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیابەرەوە کە چینی خوارەوە بە تەواوی وشکبووە پێش ئەوەی چینی سەرەوە لێ بدەیت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoats5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoats5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) داپۆشینی شتێک بە چینێک لە مادەیەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cookies were thickly coated with chocolate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بسکیتەکان بە چینێکی ئەستووری چکلێت داپۆشرابوون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoats6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoats6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A film of dust coated the table."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەرداڵێک لە تۆز مێزەکەی داپۆشیبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoats7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoats7("en-US"),
                                   ),
                                 ],
                               ),
@@ -331,22 +416,23 @@ class EnglishEntryboss extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        YoutubeEmbeddedthirteen(),
-                        YoutubeEmbeddeddfourteen(),
-                        YoutubeEmbeddedfifteen(),
-                        YoutubeEmbeddeddsixteen(),
-                        YoutubeEmbeddeddseventeen(),
-                        YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -402,32 +488,22 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: boss (derived forms: bosses)
-1. A person who exercises control over workers (= foreman, chief, gaffer [Brit, informal], honcho [N. Amer, informal])
-"if you want to leave early you have to ask the boss";
+- Noun: coat (Derived forms: coats)
+1. An outer garment that has sleeves and covers the body from shoulder down; worn outdoors
  
-2. A person responsible for hiring workers (= hirer)
-"the boss hired three more men for the new job";
+2. A thin layer covering something (= coating)
+"a second coat of paint";
  
-3. A person who exercises control and makes decisions
-"he is his own boss now"
- 
-4. A leader in a political party who controls votes and dictates appointments (= party boss, political boss)
-"party bosses have a reputation for corruption";
+3. Growth of hair, wool or fur covering the body of an animal (= pelage)
 
-5. A circular rounded projection or protuberance (= knob)
-
-- Verb: boss (derived forms: bossing, bossed, bosses)
-1. Be bossy towards (= strong-arm, bully, browbeat, bullyrag [N. Amer, informal], ballyrag [N. Amer, informal], boss around [informal], hector, push around [informal], push about [informal])
-"Her big brother always bossed her when she was young";
+- Verb: coat (Derived forms: coated, coating, coats)
+1. Put a coat on; cover the surface of; furnish with a surface (= surface)
+"coat the cake with chocolate";
  
-2. Mark, mould or decorate a surface with a raised design or symbol (= emboss, stamp)
-"bossed stationery";
-
-- Adjective: boss
-Usage: N. Amer, informal
-1. Exceptionally good (= brag [N. Amer, informal])
-"a boss hand at carpentry";
+2. Cover or provide with a coat
+ 
+3. Form a coat over (= cake)
+"Dirt had coated her face";
 """,
   );
 
@@ -456,12 +532,37 @@ Usage: N. Amer, informal
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/bxyJ0lzM6no?t=',
+    startSeconds: 385,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vsMydMDi3rI',
-    startSeconds: 2862,
+    videoId: 'https://youtu.be/zTRy2c7Kooc?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -485,8 +586,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Bw9P_ZXWDJU',
-    startSeconds: 2743,
+    videoId: 'https://youtu.be/uDexFC8d3c8',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -510,8 +611,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_spuxXnul0U',
-    startSeconds: 705,
+    videoId: 'https://youtu.be/r8KClw-nJDg?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -535,8 +636,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '380Zqbi9luo',
-    startSeconds: 76,
+    videoId: 'https://youtu.be/jVWE7v6dmUA',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -560,8 +661,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SOeAThye5rQ',
-    startSeconds: 106,
+    videoId: 'https://youtu.be/hu8QBjmQOBo?t=',
+    startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -585,8 +686,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'zpFB2q_3pJo',
-    startSeconds: 354,
+    videoId: 'https://youtu.be/pO8bkXR0yJ4?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -610,8 +711,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rUWBKjCpZ6o',
-    startSeconds: 172,
+    videoId: 'https://youtu.be/gizIuZnMeps',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -631,279 +732,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0jtWcq3zLfo',
-    startSeconds: 21,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FdxDkLGCZxo',
-    startSeconds: 125,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kqvtKtJaXPs',
-    startSeconds: 310,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qbk_dTzcfA0',
-    startSeconds: 33,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PMBYkQ58bMM',
-    startSeconds: 67,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iEjvVcdCDB4',
-    startSeconds: 893,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'yDp3cB5fHXQ',
-    startSeconds: 10705,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'podn2Szo1ls',
-    startSeconds: 33,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'T0fAznO1wA8',
-    startSeconds: 118,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YbYpbXMUsYM',
-    startSeconds: 2490,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6JP9Swop_Fg',
-    startSeconds: 1587,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end boss
+// end WORD_WEB

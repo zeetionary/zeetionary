@@ -177,7 +177,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) کۆمپانیا یان دەزگای پەخش"),
+                              text: "٢. (ناو) کۆمپانیا یان دەزگای پەخش."),
                           Row(
                             children: [
                               const Expanded(

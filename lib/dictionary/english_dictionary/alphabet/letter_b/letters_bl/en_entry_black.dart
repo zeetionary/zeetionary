@@ -345,7 +345,7 @@ class EnglishEntryblack extends StatelessWidget {
 کوردی: ڕەش، تەواو ڕەش، ڕەشی ڕەش، تاریک، ئەنگوستەچاو، بێ‌ڕووناکی، (سەربە) ڕەش‌پێستەکان، بێ‌شیر (قاوە و چایی)، پیس، چڵکن، گڵاو، چەپەڵ، ڕق‌ھەستاو، تووڕە، ھیوابڕ، ناھومێدکەر، خراپ، ڕەش، بەد، دڵپڕ، کز، خەمبار، بەزیان، بەوەی، بەزەڕ، ڕەشی، سیان، قورم، ڕەنگی ڕەش، ڕەش‌پێست، چەرم‌ڕەش، بەرگی ڕەش، بەرگ یان جلی ماتەم
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) ڕەنگی ڕەش"),
+                              text: "١. (ھاوەڵناو) ڕەنگی ڕەش."),
                           Row(
                             children: [
                               const Expanded(
@@ -676,7 +676,7 @@ class EnglishEntryblack extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٨. (ناو) ڕەنگی ڕەش"),
+                          const DefinitionKurdish(text: "٨. (ناو) ڕەنگی ڕەش."),
                           Row(
                             children: [
                               const Expanded(

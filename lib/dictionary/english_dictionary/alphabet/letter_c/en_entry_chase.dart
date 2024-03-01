@@ -765,7 +765,7 @@ class EnglishEntrychase extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٩. (ناو) ڕاوکردنی ئاژەڵان بۆ وەرزش"),
+                              text: "٩. (ناو) ڕاوکردنی ئاژەڵان بۆ وەرزش."),
                           Row(
                             children: [
                               const Expanded(

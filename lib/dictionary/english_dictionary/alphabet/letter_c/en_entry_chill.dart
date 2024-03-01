@@ -525,7 +525,7 @@ class EnglishEntrychill extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (ھاوەڵناو) سەرما بەشێوەیەکی ناخۆش"),
+                              text: "٨. (ھاوەڵناو) سەرما بەشێوەیەکی ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

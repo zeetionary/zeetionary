@@ -225,7 +225,8 @@ class EnglishEntrycackle extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) پێکەنین بە دەنگی بەرز و ناخۆش"),
+                              text:
+                                  "٢. (کردار) پێکەنین بە دەنگی بەرز و ناخۆش."),
                           Row(
                             children: [
                               const Expanded(
@@ -284,7 +285,7 @@ class EnglishEntrycackle extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) پێکەنینێکی بەرزی ناخۆش"),
+                              text: "٤. (ناو) پێکەنینێکی بەرزی ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

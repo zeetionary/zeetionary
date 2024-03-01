@@ -400,7 +400,7 @@ class EnglishEntrybite extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) ھەبوونی کاریگەرییەکی ناخۆش"),
+                              text: "٤. (کردار) ھەبوونی کاریگەرییەکی ناخۆش."),
                           Row(
                             children: [
                               const Expanded(
@@ -585,7 +585,7 @@ class EnglishEntrybite extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٠. (ناو) تامێکی بەھێزی خۆش"),
+                              text: "١٠. (ناو) تامێکی بەھێزی خۆش."),
                           Row(
                             children: [
                               const Expanded(

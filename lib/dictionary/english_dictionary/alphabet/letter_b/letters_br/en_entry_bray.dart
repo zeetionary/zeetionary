@@ -178,7 +178,7 @@ class EnglishEntrybray extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) قسەکردن یان پێکەنین بە شێوەیەکی ناخۆش"),
+                                  "٢. (ناو) قسەکردن یان پێکەنین بە شێوەیەکی ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

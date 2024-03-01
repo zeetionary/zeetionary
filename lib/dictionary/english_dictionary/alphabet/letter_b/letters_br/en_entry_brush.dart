@@ -648,7 +648,7 @@ class EnglishEntrybrush extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) بەرکەوتنێکی ھێواش"),
+                              text: "٧. (ناو) بەرکەوتنێکی ھێواش."),
                           Row(
                             children: [
                               const Expanded(

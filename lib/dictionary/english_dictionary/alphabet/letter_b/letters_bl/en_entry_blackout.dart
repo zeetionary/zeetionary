@@ -214,7 +214,7 @@ class EnglishEntryblackout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە ھەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دوژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ ھێرش"),
+                                  "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە ھەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دوژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ ھێرش."),
                           Row(
                             children: [
                               const Expanded(

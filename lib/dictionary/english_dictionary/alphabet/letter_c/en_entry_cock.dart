@@ -10,123 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycharacterless extends StatelessWidget {
+class EnglishEntrycock extends StatelessWidget {
   // blank divider
-  EnglishEntrycharacterless({super.key});
+  EnglishEntrycock({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcharacterless(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcock(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("characterless"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cock"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks1(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The cock crowed."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcocks2(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It's just one of those characterless modern cities."); // DOPSUM: CHANGE TEXT
+        "The cock pheasant's colorful feathers were striking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks3(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Cock sizes in historical paintings have gradually increased over the past seven centuries."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks4(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She cocked her head to one side and looked at me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks5(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The dog stood listening, its ears cocked."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks6(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks7(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks8(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks9(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks10(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks11(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks12(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcharacterlesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
+  Future<void> speakcocks13(String languageCode) async {
+    // DOPSUM: CHANGE speakcock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcharacterlesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacterless
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacterlesss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +152,22 @@ class EnglishEntrycharacterless extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "characterless"),
+                            EntryTitle(word: "cock"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkærəktələs/"),
+                            const IPAofEnglish(text: "IpaUK: /kɒk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcharacterless("en-GB"),
+                              onPressed: () => speakcock("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkærəktərləs/"),
+                            const IPAofEnglish(text: "IpaUS: /kɑːk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcharacterless("en-US"),
+                              onPressed: () => speakcock("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +194,37 @@ class EnglishEntrycharacterless extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئاسایی، ناخۆش، بێ‌تایبەتمەندی، وەڕەزکەر، ناسەرانج‌ڕاکێش، ھیچ تایبەتمەندی‌یێکی سەرنج‌ڕاکێشی نییە
+کوردی: کەڵەشێر، کەڵەباب، کووک،	نێر، جوڕەـ (لە لێکدانا)،	شێرە (ئا و هتد)،	چەخماخە، چەکوش (تفەنگ)،	ئامادەی تەقاندنەوە، دۆخی سوارکراو.	هەڵیت‌وپڵیت، حەلەق‌ومەلەق،	نافەرمی ڕووداری، ڕووهەڵماڵراوی،	براکەم، کاکە (بۆ پرسینی ناونیشان)،	نافەرمی کیر، کێر، چووک،	پێشەوا، سەرۆک، سەرگەورە، سەردەستە،	لاردانان (وەکوو کڵاو)
 """),
+                          const DefinitionKurdish(text: "١. (ناو) کەڵەشێر"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The cock crowed."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەڵەشێرەکە قووقاندی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "cock", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcocks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcocks1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) بەبێ ھیچ خاسیەتێکی سەرنجڕاکێش."),
+                              text: "٢. (ناو) نێرینەی هەر باڵندەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,28 +232,114 @@ class EnglishEntrycharacterless extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It's just one of those characterless modern cities."),
+                                            "The cock pheasant's colorful feathers were striking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەر یەکێکە لەو شارە ناخۆشە سەردەمییانە."),
+                                            "پەڕە ڕەنگینەکانی قەرقاوڵە نێرەکە سەرنجڕاکێش بوون."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "characterless", please follow LX instructions
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacterlesss1("en-GB"),
+                                    onPressed: () => speakcocks2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacterlesss1("en-US"),
+                                    onPressed: () => speakcocks2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) چووک؛ ئەندام زاوزێی پیاو"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cock sizes in historical paintings have gradually increased over the past seven centuries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەبارەی کێر لە تابلۆ مێژووییەکاندا کەم کەم زیادی کردووە لە حەوت دەیەی ڕابردوودا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcocks3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcocks3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) بەرزکردنەوەی بەشێکی جەستە بەشێوەیەک کە ڕووی لە ئاراستەیەکە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She cocked her head to one side and looked at me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەری بە لایەکدا بەرزکردەوە و سەیرمی کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcocks4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcocks4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // Row(
+                          // children: [
+                          // const Expanded(
+                          // child: Column(
+                          // children: [
+                          // ExampleSentenceEnglish(
+                          // text:
+                          // "The dog stood listening, its ears cocked."),
+                          // ExampleSentenceKurdish(
+                          // text: "سەگەکە وەستا و گوێی دەگرت، گوێیەکانی ."),
+                          // ],
+                          // ),
+                          // ),
+                          // const CustomSizedBoxForTTS(),
+                          // Column(
+                          // children: [
+                          // CustomIconButtonBritish(
+                          // onPressed: () => speakcocks5("en-GB"),
+                          // ),
+                          // CustomIconButtonAmerican(
+                          // onPressed: () => speakcocks5("en-US"),
+                          // ),
+                          // ],
+                          // ),
+                          // ],
+                          // ),
                         ],
                       ),
                     ),
@@ -237,7 +352,7 @@ class EnglishEntrycharacterless extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -307,9 +422,27 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: characterless 
-1. Lacking distinct or individual characteristics; dull and uninteresting (= nondescript)
-"women dressed in characterless clothes";
+- Noun: cock (Derived forms: cocks)
+1. Adult male chicken (= rooster)
+ 
+2. Adult male bird
+ 
+3. Faucet consisting of a rotating device for regulating flow of a liquid (= stopcock, turncock)
+ 
+4. The part of a gunlock that strikes the percussion cap when the trigger is pulled (= hammer)
+ 
+5. [Brit, informal] An informal form of address for a man (= fellow, dude [informal], buster [informal], bruv [UK, informal], bo [US, informal], matey [Brit, informal], bro [US, informal])
+ 
+6. [vulgar] Obscene term for penis
+
+- Verb: cock (Derived forms: cocked, cocking, cocks)
+1. Tilt or slant to one side
+"cock one's head"
+ 
+2. Set the trigger of a firearm back for firing
+ 
+3. To walk with a lofty proud gait, often in an attempt to impress others (= tittup, swagger, ruffle, prance, strut, sashay [N. Amer])
+"He cocks around like a rooster in a hen house";
 """,
   );
 
@@ -342,8 +475,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Xu9aI2qus2c',
-    startSeconds: 158,
+    videoId: 'https://youtu.be/RAhB4JMjT7w?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -367,8 +500,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Ue9uQv0eDT0',
-    startSeconds: 564,
+    videoId: 'https://youtu.be/KChnOI0UxrE?t=',
+    startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -392,8 +525,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UMGTzNJc8Ys',
-    startSeconds: 811,
+    videoId: 'https://youtu.be/y1sF6ZeASU0?t=',
+    startSeconds: 1057,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -417,8 +550,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KRApejc8Tco',
-    startSeconds: 2226,
+    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
+    startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -442,8 +575,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LMSkcCgJJfA',
-    startSeconds: 379,
+    videoId: 'https://youtu.be/wPQzenQMxKs?t=',
+    startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,8 +600,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SPvm829oEWM',
-    startSeconds: 324,
+    videoId: 'https://youtu.be/w2DTEOB5rhk?t=',
+    startSeconds: 3357,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -492,8 +625,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AarHJdY50Rg',
-    startSeconds: 470,
+    videoId: 'https://youtu.be/43uTBB574g4?t=',
+    startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -517,8 +650,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OHwWDxgqEEs',
-    startSeconds: 331,
+    videoId: 'https://youtu.be/xZUdN0t19TU?t=',
+    startSeconds: 3717,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

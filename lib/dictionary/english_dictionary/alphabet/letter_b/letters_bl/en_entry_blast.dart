@@ -429,7 +429,7 @@ class EnglishEntryblast extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ناو) جەوێکی خۆش"),
+                          const DefinitionKurdish(text: "٥. (ناو) جەوێکی خۆش."),
                           Row(
                             children: [
                               const Expanded(

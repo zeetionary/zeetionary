@@ -196,7 +196,7 @@ class EnglishEntrycharming extends StatelessWidget {
 کوردی: جوان، نازدار، نازەنین، دڵبەر، دڵڕفێن، سەرنج‌ڕاکێش، خوێن‌شیرین
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) زۆر دڵڕفێنەر و سەرنجڕاکێش"),
+                              text: "١. (ھاوەڵناو) زۆر دڵڕفێنەر و سەرنجڕاکێش."),
                           Row(
                             children: [
                               const Expanded(

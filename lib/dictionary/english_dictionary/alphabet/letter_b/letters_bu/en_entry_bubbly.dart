@@ -173,7 +173,7 @@ class EnglishEntrybubbly extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) کەسێکی دڵخۆش و بەجۆش"),
+                              text: "٢. (ھاوەڵناو) کەسێکی دڵخۆش و بەجۆش."),
                           Row(
                             children: [
                               const Expanded(

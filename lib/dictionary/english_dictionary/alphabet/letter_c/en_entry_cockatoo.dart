@@ -3,84 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "blacklist" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
-
-// replace blacklist - /ˈblæklɪst/
 
 enum TtsState { playing }
 
-class EnglishEntryblacklist extends StatelessWidget {
-// blank divider
-  EnglishEntryblacklist({super.key});
-// blank divider
+class EnglishEntrycockatoo extends StatelessWidget {
+  // blank divider
+  EnglishEntrycockatoo({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblacklist(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoo(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blacklist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cockatoo"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists1(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos1(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company maintained a blacklist of individuals who had violated the code of conduct."); // DOPSUM: CHANGE TEXT
+        "// speakcockatoos111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists2(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos2(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was blacklisted by all the major Hollywood studios because of her political views."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcockatoos200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists3(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos3(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacklists33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcockatoos300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists4(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos4(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacklists44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcockatoos400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists5(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos5(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacklists55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcockatoos500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists6(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos6(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacklists66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcockatoos600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblacklists7(String languageCode) async {
-    // DOPSUM: CHANGE speakblacklist
+  Future<void> speakcockatoos7(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblacklists77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcockatoos700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcockatoos8(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcockatoos800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcockatoos9(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcockatoos900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcockatoos10(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcockatoos1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcockatoos11(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcockatoos1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcockatoos12(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcockatoos1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcockatoos13(String languageCode) async {
+    // DOPSUM: CHANGE speakcockatoo
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcockatoos1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +149,22 @@ class EnglishEntryblacklist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blacklist"),
+                            EntryTitle(word: "cockatoo"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblæklɪst/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblacklist("en-GB"),
+                              onPressed: () => speakcockatoo("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblæklɪst/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblacklist("en-US"),
+                              onPressed: () => speakcockatoo("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +177,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,11 +191,10 @@ class EnglishEntryblacklist extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لیستی ڕەش، ڕەشەلیست
+کوردی: 
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) لیستی کەسانێک، ژمارەیەک کۆمپانیا، بەرھەم، یان وڵات کە دامەزراوەیەک یان حکومەتێک کە بەدڵیانی نییە و لییان دووردەکەوێتەوە"),
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -157,60 +202,25 @@ class EnglishEntryblacklist extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The company maintained a blacklist of individuals who had violated the code of conduct."),
+                                            "// speakcockatoos111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە لیستی ڕەشی ئەو کەسانەی ھەڵدەگرت کە یاساکانیان شکاندبوو."),
+                                        text: "رستە_رستە_رستە_رستە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "cockatoo", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblacklists1("en-GB"),
+                                    onPressed: () => speakcockatoos1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblacklists1("en-US"),
+                                    onPressed: () => speakcockatoos1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) زیادکردنی ناوی کەسێک، کۆمپانیایەک، بەرھەمێک، یان وڵاتێک بۆ لیستی ڕەش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was blacklisted by all the major Hollywood studios because of her political views."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خرایە لیستی ڕەشی ھەموو ستۆدیۆکانی ھۆڵیوودەوە بەھۆی بیروڕا سیاسییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacklists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacklists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -221,13 +231,13 @@ class EnglishEntryblacklist extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -237,6 +247,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -292,12 +303,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: blacklist (derived forms: blacklists)
-1. A list of people who are out of favour (= black book)
 
-- Verb: blacklist (derived forms: blacklisting, blacklisted, blacklists)
-1. Put on a blacklist so as to banish or cause to be boycotted
-"many books were blacklisted by the Nazis"
+speakcockatoo EnglishEntrycockatoo
+WORD_WEB cockatoo haʊʊʊʊʊʊʊ4
 """,
   );
 
@@ -326,12 +334,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SrDEtSlqJC4',
-    startSeconds: 1549,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -355,8 +388,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-8jjTVuev_s',
-    startSeconds: 346,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -380,8 +413,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hDNiNdsPHNA',
-    startSeconds: 242,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -405,8 +438,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3Ztj_4fFJck',
-    startSeconds: 391,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -430,8 +463,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BfzMPuSKfLc',
-    startSeconds: 871,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -455,8 +488,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'h10YcsQ9NgM',
-    startSeconds: 611,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -480,8 +513,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GHa3rxmSi1c',
-    startSeconds: 38,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,129 +534,5 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'yDp3cB5fHXQ',
-    startSeconds: 101,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'p1Zb90MFf20',
-    startSeconds: 5051,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iiO2A5BM3Jw',
-    startSeconds: 324,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Lra5XMTZMok',
-    startSeconds: 2415,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HuhLqew9xB8',
-    startSeconds: 197,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end blacklist// TODO Implement this library.
+// speakcockatoos111111111111111111111111111111111
+// end WORD_WEB

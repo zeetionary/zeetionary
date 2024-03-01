@@ -191,7 +191,7 @@ class EnglishEntrychimneypot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١. (ناو) لوولەی سەر دووکەڵ‌کێش"),
+                              text: "١. (ناو) لوولەی سەر دووکەڵ‌کێش."),
                           Row(
                             children: [
                               const Expanded(

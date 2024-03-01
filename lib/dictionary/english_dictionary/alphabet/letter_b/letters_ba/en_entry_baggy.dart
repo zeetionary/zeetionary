@@ -154,7 +154,8 @@ class EnglishEntrybaggy extends StatelessWidget {
                           const KurdishVocabulary(text: """
 کوردی: ھەراو، دەڵب، فش، گوشاد، نەتەنگ، توورەکەیی، توورکەئاسا، داھۆڕ
 """),
-                          const DefinitionKurdish(text: "١. (ھاوەڵناو) جلی فش"),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) جلی فش."),
                           Row(
                             children: [
                               const Expanded(

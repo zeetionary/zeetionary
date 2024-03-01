@@ -175,7 +175,7 @@ class EnglishEntryblare extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) دەنگێکی بەرز و ناخۆش"),
+                              text: "٢. (ناو) دەنگێکی بەرز و ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

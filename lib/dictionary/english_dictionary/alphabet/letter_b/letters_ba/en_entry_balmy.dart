@@ -155,7 +155,7 @@ class EnglishEntrybalmy extends StatelessWidget {
 کوردی: گەرم‌وخۆش، خوش (ھەوا)، بۆن‌خۆش، بەبۆن و بەرام، مەڵھەمی، مەرھەمی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) گەرم و خۆش"),
+                              text: "١. (ھاوەڵناو) گەرم و خۆش."),
                           Row(
                             children: [
                               const Expanded(

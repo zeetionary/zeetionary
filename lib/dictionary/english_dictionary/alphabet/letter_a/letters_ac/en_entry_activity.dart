@@ -135,7 +135,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                             "Shopping is now a leisure activity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش"),
+                                            "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش."),
                                   ],
                                 ),
                               ),

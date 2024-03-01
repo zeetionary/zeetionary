@@ -125,7 +125,7 @@ class EnglishEntryadventure extends StatelessWidget {
                                             "They fly around in their rocket ship and go on exciting adventures."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش"),
+                                            "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش."),
                                   ],
                                 ),
                               ),

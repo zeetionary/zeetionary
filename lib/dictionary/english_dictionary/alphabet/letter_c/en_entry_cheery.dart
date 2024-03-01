@@ -194,7 +194,7 @@ class EnglishEntrycheery extends StatelessWidget {
 کوردی: شاد، دڵشاد، خۆش، بەکەیف، دڵگەش، خۆشحاڵ، بەدەماخ، بەگوڕ
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) خۆشحاڵ و دڵخۆش"),
+                              text: "١. (ھاوەڵناو) خۆشحاڵ و دڵخۆش."),
                           Row(
                             children: [
                               const Expanded(

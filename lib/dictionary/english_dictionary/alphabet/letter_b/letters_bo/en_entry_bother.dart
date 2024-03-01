@@ -604,7 +604,7 @@ class EnglishEntrybother extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (ناو) کەسێک، شتێک، یان دۆخێکی ناخۆش"),
+                              text: "٥. (ناو) کەسێک، شتێک، یان دۆخێکی ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

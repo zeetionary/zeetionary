@@ -167,7 +167,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                             "The child was wearing a shiny amulet around his neck for good luck."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش"),
+                                            "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش."),
                                   ],
                                 ),
                               ),

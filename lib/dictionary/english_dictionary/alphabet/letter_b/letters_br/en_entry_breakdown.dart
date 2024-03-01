@@ -269,7 +269,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) دابەشکردنی زانیاری بۆ بەش بەش"),
+                              text: "٣. (ناو) دابەشکردنی زانیاری بۆ بەش بەش."),
                           Row(
                             children: [
                               const Expanded(

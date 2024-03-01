@@ -196,7 +196,7 @@ class EnglishEntrycelebrated extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) ناسراو بۆ ھەبوونی خاسیەتی باش"),
+                                  "١. (ھاوەڵناو) ناسراو بۆ ھەبوونی خاسیەتی باش."),
                           Row(
                             children: [
                               const Expanded(

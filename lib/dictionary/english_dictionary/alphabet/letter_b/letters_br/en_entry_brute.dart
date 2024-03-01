@@ -236,7 +236,7 @@ class EnglishEntrybrute extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) شتێکی گران و ناخۆش"),
+                              text: "٣. (ناو) شتێکی گران و ناخۆش."),
                           Row(
                             children: [
                               const Expanded(
@@ -296,7 +296,7 @@ class EnglishEntrybrute extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (ھاوەڵناو) سەخت و ناخۆش"),
+                              text: "٥. (ھاوەڵناو) سەخت و ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

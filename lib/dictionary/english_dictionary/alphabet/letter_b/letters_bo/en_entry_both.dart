@@ -258,7 +258,7 @@ class EnglishEntryboth extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (پێشناو، جێناو) لەگەڵ ناوی کۆ بەکاردێت بۆ ئاماژە بە دوو شت، یان بە شتێک و شتێکی تریش"),
+                                  "١. (پێشناو، جێناو) لەگەڵ ناوی کۆ بەکاردێت بۆ ئاماژە بە دوو شت، یان بە شتێک و شتێکی تریش."),
                           Row(
                             children: [
                               const Expanded(
@@ -462,7 +462,7 @@ class EnglishEntryboth extends StatelessWidget {
                               const DividerDefinition(),
                               const DefinitionKurdish(
                                   text:
-                                      "٢. (پێشناو، جێناو) شتێک و شتێکی تریش، نەک تەنھا شتێک بەڵکو شتێکی تریش"),
+                                      "٢. (پێشناو، جێناو) شتێک و شتێکی تریش، نەک تەنھا شتێک بەڵکو شتێکی تریش."),
                               Row(
                                 children: [
                                   const Expanded(

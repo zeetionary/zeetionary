@@ -176,7 +176,8 @@ class EnglishEntrybramble extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) تووتڕکی ڕەش"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) تووتڕکی ڕەش."),
                           Row(
                             children: [
                               const Expanded(

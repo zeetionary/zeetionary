@@ -209,7 +209,7 @@ class EnglishEntrybleak extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) سارد و ناخۆش"),
+                              text: "٢. (ھاوەڵناو) سارد و ناخۆش."),
                           Row(
                             children: [
                               const Expanded(

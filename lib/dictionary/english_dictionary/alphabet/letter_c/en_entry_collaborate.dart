@@ -3,127 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycabbage extends StatelessWidget {
-// blank divider
-  EnglishEntrycabbage({super.key});
-// blank divider
+class EnglishEntrycollaborate extends StatelessWidget {
+  // blank divider
+  EnglishEntrycollaborate({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcabbage(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborate(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cabbage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collaborate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Do you like cabbage?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcabbages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have grown a lot of cabbages this year."); // DOPSUM: CHANGE TEXT
+        "Researchers around the world are collaborating to develop a new vaccine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We have collaborated on many projects over the years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was accused of collaborating with the enemy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcollaborates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaborates1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollaborates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollaborate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollaborates1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +151,22 @@ class EnglishEntrycabbage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cabbage"),
+                            EntryTitle(word: "collaborate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkæbɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈlæbəreɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcabbage("en-GB"),
+                              onPressed: () => speakcollaborate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkæbɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈlæbəreɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcabbage("en-US"),
+                              onPressed: () => speakcollaborate("en-US"),
                             ),
                           ],
                         ),
@@ -174,7 +179,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -188,31 +193,35 @@ class EnglishEntrycabbage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (ڕووەک‌ناسی) کەلەرم، کەلەرم، لانە، تۆپەکەلەرم، لەھەن
+کوردی: هاودەستی کردن، پێکەوە کار کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"),
+                                  "١. (کردار) پێکەوە کارکردن لەگەڵ کەسێک بۆ بەدەستهێنان یان بەرهەمهێنانی شتێک"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Do you like cabbage?"),
+                                        text:
+                                            "Researchers around the world are collaborating to develop a new vaccine."),
                                     ExampleSentenceKurdish(
-                                        text: "حەزت لە کەلەرمە؟"),
+                                        text:
+                                            "توێژەران لە جیهانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabbage", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "collaborate", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages1("en-GB"),
+                                    onPressed: () =>
+                                        speakcollaborates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages1("en-US"),
+                                    onPressed: () =>
+                                        speakcollaborates1("en-US"),
                                   ),
                                 ],
                               ),
@@ -226,10 +235,10 @@ class EnglishEntrycabbage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We have grown a lot of cabbages this year."),
+                                            "We have collaborated on many projects over the years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمساڵ کەلەرمی زۆرمان بەرھەمھێناوە."),
+                                            "بە درێژایی ساڵان لە زۆر پڕۆژەدا پێکەوە کارمان کردووە."),
                                   ],
                                 ),
                               ),
@@ -237,10 +246,45 @@ class EnglishEntrycabbage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages2("en-GB"),
+                                    onPressed: () =>
+                                        speakcollaborates2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages2("en-US"),
+                                    onPressed: () =>
+                                        speakcollaborates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) یارمەتیدانی دووژمنی داگیرکەر لە کاتی جەنگدا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was accused of collaborating with the enemy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆمەتبارکرا بە هاودەستی لەگەڵ دووژمندا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcollaborates3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcollaborates3("en-US"),
                                   ),
                                 ],
                               ),
@@ -256,11 +300,11 @@ class EnglishEntrycabbage extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -272,6 +316,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -327,18 +372,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabbage (derived forms: cabbages) 
-1. Any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers (= cultivated cabbage, Brassica oleracea)
+- Verb: collaborate (Derived forms: collaborated, collaborates, collaborating)
+1. Work together on a common enterprise or project (= join forces, cooperate, co-operate)
+"We collaborated with another research group";
  
-2. Any of various types of cabbage (= chou)
- 
-3. [US, informal] The most common medium of exchange; functions as legal tender (= money, coin [US, informal], boodle [informal], bread [informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
- 
-4. [Brit, informal] (derogatory) a person whose body or brain has been damaged so that they cannot interact with the surrounding environment (= vegetable [informal])
-
-- Verb: cabbage (derived forms: cabbages, cabbaging, cabbaged)
-Usage: informal
-1. Take by theft (= hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
+2. Cooperate as a traitor
+"he collaborated with the Nazis when they occupied Paris"
 """,
   );
 
@@ -367,12 +406,37 @@ Usage: informal
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/UpmolMrf5HQ?t=',
+    startSeconds: 28,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3cxHwQl9pNM',
-    startSeconds: 331,
+    videoId: 'https://youtu.be/qyGW2j235lY',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lRI3yNHY7NE',
+    videoId: 'https://youtu.be/A_ftLsL6vYY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,8 +485,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Kbac8E8TZvs',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/_U1O71N3fPY?t=',
+    startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +510,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OBM2i6NrAFs',
-    startSeconds: 426,
+    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    startSeconds: 337,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +535,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VKhPYnhUBTo',
-    startSeconds: 841,
+    videoId: 'https://youtu.be/LbPw9AlVKVM?t=',
+    startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +560,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W9CVzAl0qN8',
-    startSeconds: 77,
+    videoId: 'https://youtu.be/P3CjYb5VRik?t=',
+    startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -512,106 +576,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tDRRJsreLvk',
-    startSeconds: 80,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Yos-oMxLV_M',
-    startSeconds: 145,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VcDYhHe7Cxo',
-    startSeconds: 227,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'RATQTsyH8XY',
-    startSeconds: 492,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

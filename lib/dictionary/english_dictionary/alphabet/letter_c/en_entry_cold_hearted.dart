@@ -3,127 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycabbage extends StatelessWidget {
-// blank divider
-  EnglishEntrycabbage({super.key});
-// blank divider
+class EnglishEntrycoldhearted extends StatelessWidget {
+  // blank divider
+  EnglishEntrycoldhearted({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcabbage(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearted(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cabbage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cold-hearted"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Do you like cabbage?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcabbages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have grown a lot of cabbages this year."); // DOPSUM: CHANGE TEXT
+        "The dictator's cold-hearted policies caused suffering for many."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldhearteds12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldhearteds1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoldhearteds13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldhearted
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoldhearteds1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +149,23 @@ class EnglishEntrycabbage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cabbage"),
+                            EntryTitle(word: "cold-hearted"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkæbɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkəʊld ˈhɑːtɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcabbage("en-GB"),
+                              onPressed: () => speakcoldhearted("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkæbɪdʒ/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkəʊld ˈhɑːrtɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcabbage("en-US"),
+                              onPressed: () => speakcoldhearted("en-US"),
                             ),
                           ],
                         ),
@@ -174,7 +178,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -187,38 +191,10 @@ class EnglishEntrycabbage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: (ڕووەک‌ناسی) کەلەرم، کەلەرم، لانە، تۆپەکەلەرم، لەھەن
-"""),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you like cabbage?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت لە کەلەرمە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabbage", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                          const DefinitionKurdish(text: "١. (ھاوەڵناو) دڵڕەق"),
                           Row(
                             children: [
                               const Expanded(
@@ -226,21 +202,23 @@ class EnglishEntrycabbage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We have grown a lot of cabbages this year."),
+                                            "The dictator's cold-hearted policies caused suffering for many."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمساڵ کەلەرمی زۆرمان بەرھەمھێناوە."),
+                                            "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە هۆی ئازار بۆ زۆر کەس."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "cold-hearted", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages2("en-GB"),
+                                    onPressed: () =>
+                                        speakcoldhearteds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages2("en-US"),
+                                    onPressed: () =>
+                                        speakcoldhearteds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -256,11 +234,11 @@ class EnglishEntrycabbage extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -272,6 +250,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -327,18 +306,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabbage (derived forms: cabbages) 
-1. Any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers (= cultivated cabbage, Brassica oleracea)
- 
-2. Any of various types of cabbage (= chou)
- 
-3. [US, informal] The most common medium of exchange; functions as legal tender (= money, coin [US, informal], boodle [informal], bread [informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
- 
-4. [Brit, informal] (derogatory) a person whose body or brain has been damaged so that they cannot interact with the surrounding environment (= vegetable [informal])
-
-- Verb: cabbage (derived forms: cabbages, cabbaging, cabbaged)
-Usage: informal
-1. Take by theft (= hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
+- Adjective: cold-hearted 
+1. Lacking in sympathy or feeling
+"Turned on by the heroine's turnoff, the cold-hearted hero then proceeds to use that superior knowledge to romantically pursue the heroine"
 """,
   );
 
@@ -367,12 +337,37 @@ Usage: informal
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/szldaaHfPbs?t=',
+    startSeconds: 42,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3cxHwQl9pNM',
-    startSeconds: 331,
+    videoId: 'https://youtu.be/c51ek9jo19Q?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lRI3yNHY7NE',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/vZX2UNxk22A?t=',
+    startSeconds: 511,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Kbac8E8TZvs',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/_gk72KC4jWc?t=',
+    startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OBM2i6NrAFs',
-    startSeconds: 426,
+    videoId: 'https://youtu.be/IxD7aoy4dpw?t=',
+    startSeconds: 759,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VKhPYnhUBTo',
-    startSeconds: 841,
+    videoId: 'https://youtu.be/RDM2bMrid8Q?t=',
+    startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W9CVzAl0qN8',
-    startSeconds: 77,
+    videoId: 'https://youtu.be/lOLUj1Y8FdU?t=',
+    startSeconds: 772,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -512,106 +507,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tDRRJsreLvk',
-    startSeconds: 80,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Yos-oMxLV_M',
-    startSeconds: 145,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VcDYhHe7Cxo',
-    startSeconds: 227,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'RATQTsyH8XY',
-    startSeconds: 492,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

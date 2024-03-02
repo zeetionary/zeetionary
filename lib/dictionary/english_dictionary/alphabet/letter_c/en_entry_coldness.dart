@@ -3,127 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycabbage extends StatelessWidget {
-// blank divider
-  EnglishEntrycabbage({super.key});
-// blank divider
+class EnglishEntrycoldness extends StatelessWidget {
+  // blank divider
+  EnglishEntrycoldness({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcabbage(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldness(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cabbage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coldness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Do you like cabbage?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcabbages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have grown a lot of cabbages this year."); // DOPSUM: CHANGE TEXT
+        "She was hurt by the coldness in his voice."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The icy coldness of the water revived her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcabbages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcabbage
+  Future<void> speakcoldnesss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcabbages1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoldnesss1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcoldnesss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoldness
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcoldnesss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +150,22 @@ class EnglishEntrycabbage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cabbage"),
+                            EntryTitle(word: "coldness"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkæbɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkəʊldnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcabbage("en-GB"),
+                              onPressed: () => speakcoldness("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkæbɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkəʊldnəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcabbage("en-US"),
+                              onPressed: () => speakcoldness("en-US"),
                             ),
                           ],
                         ),
@@ -174,7 +178,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -188,37 +192,38 @@ class EnglishEntrycabbage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (ڕووەک‌ناسی) کەلەرم، کەلەرم، لانە، تۆپەکەلەرم، لەھەن
+کوردی: ساردی،	ساردوسڕی، بێ‌مەیلی
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"),
+                              text: "١. (ناو) ساردوسڕی لە هەڵسوکەوتدا"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Do you like cabbage?"),
+                                        text:
+                                            "She was hurt by the coldness in his voice."),
                                     ExampleSentenceKurdish(
-                                        text: "حەزت لە کەلەرمە؟"),
+                                        text: "دڵی ڕەنجا بە ساردوسڕی دەنگی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabbage", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "coldness", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages1("en-GB"),
+                                    onPressed: () => speakcoldnesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages1("en-US"),
+                                    onPressed: () => speakcoldnesss1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ناو) سەرما"),
                           Row(
                             children: [
                               const Expanded(
@@ -226,10 +231,10 @@ class EnglishEntrycabbage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We have grown a lot of cabbages this year."),
+                                            "The icy coldness of the water revived her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمساڵ کەلەرمی زۆرمان بەرھەمھێناوە."),
+                                            "سەرمای تەزێنەری ئاوەکە هۆشی هێنایەوە بەر."),
                                   ],
                                 ),
                               ),
@@ -237,10 +242,10 @@ class EnglishEntrycabbage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages2("en-GB"),
+                                    onPressed: () => speakcoldnesss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages2("en-US"),
+                                    onPressed: () => speakcoldnesss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -256,11 +261,11 @@ class EnglishEntrycabbage extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -272,6 +277,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -327,18 +333,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabbage (derived forms: cabbages) 
-1. Any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers (= cultivated cabbage, Brassica oleracea)
+- Noun: coldness 
+1. The sensation produced by low temperatures (= cold)
+"he shivered from the coldness";
  
-2. Any of various types of cabbage (= chou)
- 
-3. [US, informal] The most common medium of exchange; functions as legal tender (= money, coin [US, informal], boodle [informal], bread [informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
- 
-4. [Brit, informal] (derogatory) a person whose body or brain has been damaged so that they cannot interact with the surrounding environment (= vegetable [informal])
+2. A lack of affection or enthusiasm (= coolness, frigidity, frigidness, iciness, chilliness)
+"a distressing coldness of tone and manner";
 
-- Verb: cabbage (derived forms: cabbages, cabbaging, cabbaged)
-Usage: informal
-1. Take by theft (= hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
+3. The absence of heat (= cold, low temperature, frigidity, frigidness)
+"the coldness made our breath visible";
 """,
   );
 
@@ -367,12 +370,37 @@ Usage: informal
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/vuDMiFwWTM4?t=',
+    startSeconds: 142,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3cxHwQl9pNM',
-    startSeconds: 331,
+    videoId: 'https://youtu.be/Gso2WrBcV2Q?t=',
+    startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +424,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lRI3yNHY7NE',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/gwxPqMgqBe8?t=',
+    startSeconds: 425,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +449,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Kbac8E8TZvs',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Li9ff4rQlck?t=',
+    startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +474,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'OBM2i6NrAFs',
-    startSeconds: 426,
+    videoId: 'https://youtu.be/ZKAWtNW-Xfk?t=',
+    startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +499,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VKhPYnhUBTo',
-    startSeconds: 841,
+    videoId: 'https://youtu.be/2horH-IeurA?t=',
+    startSeconds: 751,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +524,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W9CVzAl0qN8',
-    startSeconds: 77,
+    videoId: 'https://youtu.be/SvzTGwmRmgg?t=',
+    startSeconds: 797,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -512,106 +540,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tDRRJsreLvk',
-    startSeconds: 80,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Yos-oMxLV_M',
-    startSeconds: 145,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VcDYhHe7Cxo',
-    startSeconds: 227,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'RATQTsyH8XY',
-    startSeconds: 492,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

@@ -125,7 +125,8 @@ class EnglishEntrycold extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("If you stay out in the rain you'll catch cold!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If you stay out in the rain you'll catch cold!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcolds13(String languageCode) async {
@@ -133,7 +134,371 @@ class EnglishEntrycold extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't stand outside in the cold."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Don't stand outside in the cold."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds14(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She doesn't seem to feel the cold."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds15(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("His final request stopped her cold."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds16(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I can't just walk in there cold and give a speech."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds17(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds1700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds18(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds1800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds19(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds1900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds20(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds21(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds22(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds23(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds24(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds25(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds26(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds27(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds28(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds29(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds2900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds30(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds31(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds32(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds33(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds34(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds35(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds36(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds37(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds38(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds39(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds3900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds40(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds41(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds42(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds43(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds44(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds45(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds46(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds47(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds48(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds49(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds4900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds50(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds51(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds52(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds53(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds54(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds55(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds56(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds57(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolds58(String languageCode) async {
+    // DOPSUM: CHANGE speakcold
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolds5800"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -521,58 +886,148 @@ class EnglishEntrycold extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "If you stay out in the rain you'll catch cold!"),
-                          ExampleSentenceKurdish(
-                          text: "ئەگەر لە بەر بارانەکە بمێنیتەوە هەڵامەت دەگریت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcolds12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcolds12("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you stay out in the rain you'll catch cold!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر لە بەر بارانەکە بمێنیتەوە هەڵامەت دەگریت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolds12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolds12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٦. (ناو) سەرما؛ کەشی سارد"),
+                          const DefinitionKurdish(
+                              text: "٧. (ناو) سەرما؛ کەشی سارد"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Don't stand outside in the cold."),
-                          ExampleSentenceKurdish(
-                          text: "لە دەرەوە لە سەرماکە مەوەستە."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't stand outside in the cold."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە دەرەوە لە سەرماکە مەوەستە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolds13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolds13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She doesn't seem to feel the cold."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وا دەرناکەوێت هەست بە سەرماکە بکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolds14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolds14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcolds13("en-GB"),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (ھاوەڵکار) لەناکاو و بەتەواوی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His final request stopped her cold."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆتا داواکاری بە تەواوی وەستاندی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolds15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolds15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcolds13("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٩. (ھاوەڵکار) بەبێ ئامادەکاری"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can't just walk in there cold and give a speech."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانم بەبێ ئامادەکاری بچمە ئەوێ و وتارێک بدەم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolds16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolds16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),

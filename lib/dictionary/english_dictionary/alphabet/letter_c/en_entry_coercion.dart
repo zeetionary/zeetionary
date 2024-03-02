@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarthorse extends StatelessWidget {
+class EnglishEntrycoercion extends StatelessWidget {
   // blank divider
-  EnglishEntrycarthorse({super.key});
+  EnglishEntrycoercion({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarthorse(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercion(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carthorse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coercion"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He admired the strength of the carthorse as it pulled the plow."); // DOPSUM: CHANGE TEXT
+        "He claimed he had only acted under coercion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He claimed the police had used coercion, threats, and promises to obtain the statement illegally."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoercions13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoercion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoercions1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycarthorse extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carthorse"),
+                            EntryTitle(word: "coercion"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɑːthɔːs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəʊˈɜːʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarthorse("en-GB"),
+                              onPressed: () => speakcoercion("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːrthɔːrs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəʊˈɜːrʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarthorse("en-US"),
+                              onPressed: () => speakcoercion("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +192,11 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بارگین، پاڵانی، ئەسپی باری، بارگیر
+کوردی: زۆرەملی، بەکارهێنانی زۆر، زۆربەسەندن، زۆرلێ‌کردن، ناچارکردن، زۆری، گوشار، سەنگی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەسپێکی بەهێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەهات"),
+                                  "١. (ناو) زۆرلێ‌کردن لە کەسێک بەوەی شتێک کە نایەوێت بە بەکارهێنانی هەڕەشە و فشار"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +204,49 @@ class EnglishEntrycarthorse extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He admired the strength of the carthorse as it pulled the plow."),
+                                            "He claimed he had only acted under coercion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا."),
+                                            "بانگەشەی ئەوەی کرد کە تەنها لە ژێر فشاردا هەنگاوی نابوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carthorse", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "coercion", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarthorses1("en-GB"),
+                                    onPressed: () => speakcoercions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarthorses1("en-US"),
+                                    onPressed: () => speakcoercions1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He claimed the police had used coercion, threats, and promises to obtain the statement illegally."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانگەشەی ئەوەی کرد کە پۆلیس زۆرلێ‌کردن، هەڕەشە، و بەڵێنی بەکارهێنابوو بۆ وەرگرتنی لێدوان بە نایاسایی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcoercions2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcoercions2("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,8 +263,8 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +334,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carthorse (Derived forms: cart horses, carthorses)
-1. Draft horse kept for pulling carts (= cart horse, drayhorse)
+- Noun: coercion (Derived forms: coercions)
+1. The act of compelling by force of authority
+ 
+2. Using force to cause something to occur (= compulsion)
+"they didn't have to use coercion";
 """,
   );
 
@@ -339,8 +371,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTbKpSTYxPI?t=',
-    startSeconds: 724,
+    videoId: 'https://youtu.be/8MPoEsI5Iho',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +396,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B3s-UiERX_U?t=',
-    startSeconds: 7240,
+    videoId: 'https://youtu.be/cFLizWxe94w?t=',
+    startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +421,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0iFi_j2MpXI?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/HbUGTcdFIio?t=',
+    startSeconds: 2282,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +446,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uNFM5Sb3YfA?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/iDNZGw6uWZg?t=',
+    startSeconds: 457,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +471,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__42klRV4b0?t=',
-    startSeconds: 538,
+    videoId: 'https://youtu.be/DxREm3s1scA?t=',
+    startSeconds: 2543,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +496,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WS8lQDEgVcY?t=',
-    startSeconds: 12029,
+    videoId: 'https://youtu.be/s4Y3dlTDAxw?t=',
+    startSeconds: 736,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,33 +521,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a0y_zmtquh8?t=',
-    startSeconds: 629,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v4vefvHNOsY?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/vS7hMricwm0?t=',
+    startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

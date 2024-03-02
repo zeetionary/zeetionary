@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarthorse extends StatelessWidget {
+class EnglishEntrycohesion extends StatelessWidget {
   // blank divider
-  EnglishEntrycarthorse({super.key});
+  EnglishEntrycohesion({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarthorse(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesion(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carthorse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cohesion"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions1(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He admired the strength of the carthorse as it pulled the plow."); // DOPSUM: CHANGE TEXT
+        "The lack of cohesion within the party lost them votes in the election."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions2(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions3(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions4(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions5(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions6(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions7(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions8(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions9(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions10(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions11(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions12(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcohesions13(String languageCode) async {
+    // DOPSUM: CHANGE speakcohesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesions1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycarthorse extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carthorse"),
+                            EntryTitle(word: "cohesion"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɑːthɔːs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəʊˈhiːʒn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarthorse("en-GB"),
+                              onPressed: () => speakcohesion("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːrthɔːrs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəʊˈhiːʒn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarthorse("en-US"),
+                              onPressed: () => speakcohesion("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +191,9 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بارگین، پاڵانی، ئەسپی باری، بارگیر
+کوردی: یەک‌گرتوویی، ڕێک‌وپێکی، پێوەندی لۆژیکی، هاوگرتوویی، پێکەوەبەستراوی، یەکیەتی، یەکپارچەیی، یەک‌گیری، هاوڕێکی، یەک‌گرتن،	(فیزیک) پێوەلکان، پێکانووسان، پێکاچەسپان، پێکەوەنووسان، بەیەکالکان
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئەسپێکی بەهێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەهات"),
+                          const DefinitionKurdish(text: "١. (ناو) یەکگرتووی"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +201,21 @@ class EnglishEntrycarthorse extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He admired the strength of the carthorse as it pulled the plow."),
+                                            "The lack of cohesion within the party lost them votes in the election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا."),
+                                            "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەهۆی لە دەستدانی دەنگ لە هەڵبژاردنەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carthorse", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cohesion", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarthorses1("en-GB"),
+                                    onPressed: () => speakcohesions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarthorses1("en-US"),
+                                    onPressed: () => speakcohesions1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,8 +232,8 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +303,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carthorse (Derived forms: cart horses, carthorses)
-1. Draft horse kept for pulling carts (= cart horse, drayhorse)
+- Noun: cohesion (Derived forms: cohesions)
+1. The state of cohering or sticking together (= coherence, coherency, cohesiveness)
+ 
+2. (botany) the process in some plants of parts growing together that are usually separate (such as petals)
+ 
+3. (physics) the intermolecular force that holds together the molecules in a solid or liquid
+ 
+4. (linguistics) the grammatical and lexical linking within a text or sentence that holds a text together and gives it meaning.
+"While lexical cohesion is obviously achieved by the selection of vocabulary, the other types of cohesion are considered as grammatical cohesion."
 """,
   );
 
@@ -339,8 +344,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTbKpSTYxPI?t=',
-    startSeconds: 724,
+    videoId: 'https://youtu.be/3XwMRfkprqE?t=',
+    startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +369,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B3s-UiERX_U?t=',
-    startSeconds: 7240,
+    videoId: 'https://youtu.be/ckFS9Wr32Ic?t=',
+    startSeconds: 456,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +394,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0iFi_j2MpXI?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/Df0WVO-c3Sw?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +419,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uNFM5Sb3YfA?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/IsvHQon2IqQ?t=',
+    startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +444,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__42klRV4b0?t=',
-    startSeconds: 538,
+    videoId: 'https://youtu.be/qGqLxvuGwM0?t=',
+    startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +469,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WS8lQDEgVcY?t=',
-    startSeconds: 12029,
+    videoId: 'https://youtu.be/n6sjXkOOjSI?t=',
+    startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,33 +494,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a0y_zmtquh8?t=',
-    startSeconds: 629,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v4vefvHNOsY?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/_fnhy5xO9vQ?t=',
+    startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

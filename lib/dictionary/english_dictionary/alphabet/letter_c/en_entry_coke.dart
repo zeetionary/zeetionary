@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarthorse extends StatelessWidget {
+class EnglishEntrycoke extends StatelessWidget {
   // blank divider
-  EnglishEntrycarthorse({super.key});
+  EnglishEntrycoke({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarthorse(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcoke(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carthorse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coke"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He admired the strength of the carthorse as it pulled the plow."); // DOPSUM: CHANGE TEXT
+        "The patient was given coke to numb the pain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The furnace was fed with coke to produce heat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcokes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcokes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycarthorse extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carthorse"),
+                            EntryTitle(word: "coke"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɑːthɔːs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəʊk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarthorse("en-GB"),
+                              onPressed: () => speakcoke("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːrthɔːrs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəʊk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarthorse("en-US"),
+                              onPressed: () => speakcoke("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +192,11 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بارگین، پاڵانی، ئەسپی باری، بارگیر
+کوردی: 
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەسپێکی بەهێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەهات"),
+                                  "١. (ناو) کۆکاین؛ مادەیەکی بەهێز کە هەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان هەندێک جار وەک بەنج بەکاریدێنن"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +204,52 @@ class EnglishEntrycarthorse extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He admired the strength of the carthorse as it pulled the plow."),
+                                            "The patient was given coke to numb the pain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا."),
+                                            "نەخۆشەکە کۆکاینی پێدرا بۆ ڕەواندنەوەی ئازارەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carthorse", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "coke", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarthorses1("en-GB"),
+                                    onPressed: () => speakcokes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarthorses1("en-US"),
+                                    onPressed: () => speakcokes1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) مادەیەکی ڕەش کە کە لە خەڵووز درووست دەبێت و دەسووتێنرێت بۆ دابینکردنی گەرمی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The furnace was fed with coke to produce heat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کوورەکە خەڵووزی کۆکی تێکرا بۆ درووستکردنی گەرمی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcokes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcokes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,8 +267,8 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
-                        // YoutubeEmbeddednine(),
+                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
@@ -305,8 +337,17 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carthorse (Derived forms: cart horses, carthorses)
-1. Draft horse kept for pulling carts (= cart horse, drayhorse)
+- Noun: coke (Derived forms: cokes)
+1. Carbon fuel produced by distillation of coal
+ 
+2. [slang] A street name for cocaine (= blow [slang], nose candy [slang], snow [slang], C [slang])
+
+- Verb: coke (Derived forms: cokes, coked, coking)
+1. (chemistry) become coke
+"petroleum oils coke after distillation"
+
+- Noun: Coke (Derived forms: Cokes)
+1. Coca Cola is a trademarked cola (= Coca Cola)
 """,
   );
 
@@ -339,8 +380,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTbKpSTYxPI?t=',
-    startSeconds: 724,
+    videoId: 'https://youtu.be/8oIGvgs9FnM?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +405,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B3s-UiERX_U?t=',
-    startSeconds: 7240,
+    videoId: 'https://youtu.be/WWiW64zlYuw?t=',
+    startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +430,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0iFi_j2MpXI?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/itRi5aziaWU?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +455,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uNFM5Sb3YfA?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/NLw53N3zz1Y?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +480,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__42klRV4b0?t=',
-    startSeconds: 538,
+    videoId: 'https://youtu.be/-A6NPgARIrw?t=',
+    startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +505,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WS8lQDEgVcY?t=',
-    startSeconds: 12029,
+    videoId: 'https://youtu.be/qx3o1xiG81Y?t=',
+    startSeconds: 550,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,8 +530,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a0y_zmtquh8?t=',
-    startSeconds: 629,
+    videoId: 'https://youtu.be/rM-lf9ZwVek?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -514,8 +555,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v4vefvHNOsY?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/pIxdnnxqK6o?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -535,4 +576,53 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/1Qi4rrQoruQ?t=',
+    startSeconds: 2347,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/eYS3-ShEnbs?t=',
+    startSeconds: 318,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
 // end WORD_WEB

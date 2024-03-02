@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarthorse extends StatelessWidget {
+class EnglishEntrycocoon extends StatelessWidget {
   // blank divider
-  EnglishEntrycarthorse({super.key});
+  EnglishEntrycocoon({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarthorse(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoon(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carthorse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cocoon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons1(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He admired the strength of the carthorse as it pulled the plow."); // DOPSUM: CHANGE TEXT
+        "// speakcocoons111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons2(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The children grew up in the cocoon of a caring family."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons3(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons4(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons5(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons6(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons7(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons8(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons9(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons10(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons11(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons12(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarthorses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarthorse
+  Future<void> speakcocoons13(String languageCode) async {
+    // DOPSUM: CHANGE speakcocoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarthorses1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcocoons1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycarthorse extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carthorse"),
+                            EntryTitle(word: "cocoon"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɑːthɔːs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈkuːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarthorse("en-GB"),
+                              onPressed: () => speakcocoon("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːrthɔːrs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈkuːn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarthorse("en-US"),
+                              onPressed: () => speakcocoon("en-US"),
                             ),
                           ],
                         ),
@@ -190,12 +191,41 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: بارگین، پاڵانی، ئەسپی باری، بارگیر
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەسپێکی بەهێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەهات"),
+                                  "١. (ناو) داپۆشەرێک کە هەندێک مێروو بە دەوری خۆیاندا لە شێوەی دەزوودا درووستی دەکەن لە کاتی گەشەکردنیان و بوون بە پێگەشتوو"),
+                          // Row(
+                          //   children: [
+                          //     const Expanded(
+                          //       child: Column(
+                          //         children: [
+                          //           ExampleSentenceEnglish(
+                          //               text:
+                          //                   "// speakcocoons111111111111111111111111111111111"),
+                          //           ExampleSentenceKurdish(
+                          //               text: "رستە_رستە_رستە_رستە."),
+                          //         ],
+                          //       ),
+                          //     ),
+                          //     const CustomSizedBoxForTTS(), // With short examples define "cocoon", please follow LX instructions
+                          //     Column(
+                          //       children: [
+                          //         CustomIconButtonBritish(
+                          //           onPressed: () => speakcocoons1("en-GB"),
+                          //         ),
+                          //         CustomIconButtonAmerican(
+                          //           onPressed: () => speakcocoons1("en-US"),
+                          //         ),
+                          //       ],
+                          //     ),
+                          //   ],
+                          // ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) شوێنێکی ئارام و پارێزراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +233,21 @@ class EnglishEntrycarthorse extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He admired the strength of the carthorse as it pulled the plow."),
+                                            "The children grew up in the cocoon of a caring family."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا."),
+                                            "منداڵەکان لە ئارامیی خێزانێکی دڵسۆزدا گەورە بوون."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carthorse", please follow LX instructions
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarthorses1("en-GB"),
+                                    onPressed: () => speakcocoons2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarthorses1("en-US"),
+                                    onPressed: () => speakcocoons2("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,8 +264,8 @@ class EnglishEntrycarthorse extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -305,8 +335,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carthorse (Derived forms: cart horses, carthorses)
-1. Draft horse kept for pulling carts (= cart horse, drayhorse)
+- Noun: cocoon (Derived forms: cocoons)
+1. Silky envelope spun by the larvae of many insects to protect pupas and by spiders to protect eggs
+
+- Verb: cocoon (Derived forms: cocoons, cocooning, cocooned)
+1. Retreat as if into a cocoon, as from an unfriendly environment
+"Families cocoon around the T.V. set most evenings"; "She loves to stay at home and cocoon"
+ 
+2. Wrap in or as if in a cocoon, as for protection
 """,
   );
 
@@ -339,8 +375,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTbKpSTYxPI?t=',
-    startSeconds: 724,
+    videoId: 'https://youtu.be/6uPj2JueWaw?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -364,8 +400,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B3s-UiERX_U?t=',
-    startSeconds: 7240,
+    videoId: 'https://youtu.be/uK_iZZ4Bx2o?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -389,8 +425,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0iFi_j2MpXI?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/y41QU_Y405k?t=',
+    startSeconds: 588,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -414,8 +450,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uNFM5Sb3YfA?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
+    startSeconds: 526,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -439,8 +475,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__42klRV4b0?t=',
-    startSeconds: 538,
+    videoId: 'https://youtu.be/0zXfDafyyao?t=',
+    startSeconds: 900,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -464,8 +500,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WS8lQDEgVcY?t=',
-    startSeconds: 12029,
+    videoId: 'https://youtu.be/LqU9CdPs6ek?t=',
+    startSeconds: 822,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -489,33 +525,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a0y_zmtquh8?t=',
-    startSeconds: 629,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v4vefvHNOsY?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/S9F-u4T7leQ?t=',
+    startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

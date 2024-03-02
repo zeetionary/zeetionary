@@ -154,7 +154,7 @@ class EnglishEntrycitizensband extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈsɪtɪznz bænd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakCitizensband("en-GB"),
                             ),
@@ -162,7 +162,7 @@ class EnglishEntrycitizensband extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈsɪtɪznz bænd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakCitizensband("en-US"),
                             ),

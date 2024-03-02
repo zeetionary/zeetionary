@@ -30,7 +30,7 @@ class EnglishEntrycockatoo extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcockatoos111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "She taught her pet cockatoo to mimic her words."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcockatoos2(String languageCode) async {
@@ -154,7 +154,7 @@ class EnglishEntrycockatoo extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒkəˈtuː/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcockatoo("en-GB"),
                             ),
@@ -162,7 +162,7 @@ class EnglishEntrycockatoo extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːkətuː/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcockatoo("en-US"),
                             ),
@@ -191,10 +191,11 @@ class EnglishEntrycockatoo extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تووتی پۆپنە، تووتی پۆپەدار
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پێنناسە"),
+                              text:
+                                  "١. (ناو) باڵندەیەک کە لە خێزانی تووتییە و ڕیزە پەڕێکی لەسەر ملی هەیە کە فش دەبێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,9 +203,10 @@ class EnglishEntrycockatoo extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "// speakcockatoos111111111111111111111111111111111"),
+                                            "She taught her pet cockatoo to mimic her words."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "تووتییە پۆپنەدارەکەی فێرکرد کە لاسایی قسەکانی بکاتەوە."),
                                   ],
                                 ),
                               ),
@@ -303,9 +305,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakcockatoo EnglishEntrycockatoo
-WORD_WEB cockatoo haʊʊʊʊʊʊʊ4
+- Noun: cockatoo (Derived forms: cockatoos)
+1. White or light-coloured crested parrot of the Australian region; often kept as cage birds (= cocky [Austral])
 """,
   );
 
@@ -338,8 +339,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/4vPboQwBNh4?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +364,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/qLySnnYT5w8?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/cyOhhYJ8wXQ?t=',
+    startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/RV5soTnL7ag?t=',
+    startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/9huFAxLJ9pQ',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/yuVEnjrGBDs?t=',
+    startSeconds: 440,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/zTGLceUWsFo?t=',
+    startSeconds: 869,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,8 +514,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/mG1mowXRgio',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -534,5 +535,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-// speakcockatoos111111111111111111111111111111111
 // end WORD_WEB

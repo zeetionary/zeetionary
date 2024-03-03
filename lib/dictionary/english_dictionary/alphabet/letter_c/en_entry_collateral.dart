@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycollagen extends StatelessWidget {
+class EnglishEntrycollateral extends StatelessWidget {
   // blank divider
-  EnglishEntrycollagen({super.key});
+  EnglishEntrycollateral({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcollagen(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollateral(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("collagen"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collateral"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens1(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Collagen implants don't help the blemishes left by chicken pox or acne."); // DOPSUM: CHANGE TEXT
+        "We had put our house up as collateral for our bank loan."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens2(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens3(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens4(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens5(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens6(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens7(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens8(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens9(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens10(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens11(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens12(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens13(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollaterals13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollaterals1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycollagen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "collagen"),
+                            EntryTitle(word: "collateral"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒlədʒən/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈlætərəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcollagen("en-GB"),
+                              onPressed: () => speakcollateral("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːlədʒən/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈlætərəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcollagen("en-US"),
+                              onPressed: () => speakcollateral("en-US"),
                             ),
                           ],
                         ),
@@ -190,11 +190,12 @@ class EnglishEntrycollagen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی: 
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: شان‌بەشان، تەنیشت‌بەتەنیشت، ملەملە، مل‌بەمل، پێ‌بەپێ، هاوتەریب، هاوڕێک، لاوەکی، لابەلایی،	زیادی، سەربار،	خوێنی یان پشتی، لاخزم، بۆرەخزم، ناڕاستەوخۆ (خزمایەتی لە یەک تیرە، بەڵام دوور)،	دەستەبەرکراو،	بارمتەیی، بارمتە
+"""),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆلاجین؛ پڕۆتینێک کە لە ناو پێستدایە، و هەندێک جار زیاد دەخرێتە ناو پێست، بۆ باشترکردنی ڕواڵەت"),
+                              text:
+                                  "١. (ناو) سەروەتێک کە بەڵێن دەدەیت بیدەیت بە کەسێک ئەگەر نەتوانی پارەی قەرز بدەیتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,20 +203,21 @@ class EnglishEntrycollagen extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Collagen implants don't help the blemishes left by chicken pox or acne."),
+                                            "We had put our house up as collateral for our bank loan."),
                                     ExampleSentenceKurdish(
-                                        text: "داچاندنی کۆلاجین یارمەتیدەر نابێت لە لادانی نیشانەکانی دڕکەمێکوتە و ئاکنی."),
+                                        text:
+                                            "خانووەکەمان وەک بارمتە  بۆ قەرزە بانکییەکەمان دانا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collagen", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "collateral", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcollagens1("en-GB"),
+                                    onPressed: () => speakcollaterals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcollagens1("en-US"),
+                                    onPressed: () => speakcollaterals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,8 +305,23 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collagen (Derived forms: collagens)
-1. A fibrous scleroprotein in bone and cartilage and tendon and other connective tissue; yields gelatin on boiling
+- Adjective: collateral 
+1. Descended from a common ancestor but through different lines (= indirect)
+"cousins are collateral relatives";
+ 
+2. Serving to support or corroborate (= confirmative, confirming, confirmatory, corroborative, corroboratory, substantiating, substantiative, validating, validatory, verificatory, verifying)
+"collateral evidence";
+ 
+3. Additional but secondary; auxiliary;
+ 
+4. Situated or running side by side
+"collateral ridges of mountains"
+ 
+5. Occurring with or following as a consequence (= attendant, consequent, accompanying, concomitant, incidental, ensuant, resultant, sequent)
+"collateral target damage from a bombing run";
+
+- Noun: collateral (Derived forms: collaterals)
+1. A security pledged for the repayment of a loan
 """,
   );
 
@@ -337,8 +354,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4GqF4UH8fx8?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/vIEcLOpQlSU?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -362,8 +379,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JYn4ekYct_0?t=',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/EQv83fodDCw?t=',
+    startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -387,8 +404,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CtJs6n2ndl0?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/_7elavbyysM?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -412,8 +429,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5l9csiSI7SE?t=',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/UkttRk674gY',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -437,8 +454,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TsoYREVnVH8?t=',
-    startSeconds: 179,
+    videoId: 'https://youtu.be/btB__oHQ0sU?t=',
+    startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -462,8 +479,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pjoAY9TCyVY',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Qf4GSokTvEc?t=',
+    startSeconds: 475,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -487,8 +504,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JSgQEzuNLm8?t=',
-    startSeconds: 204,
+    videoId: 'https://youtu.be/4RS-3Ex04NU?t=',
+    startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

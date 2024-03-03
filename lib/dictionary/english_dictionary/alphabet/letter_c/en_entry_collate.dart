@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycollagen extends StatelessWidget {
+class EnglishEntrycollate extends StatelessWidget {
   // blank divider
-  EnglishEntrycollagen({super.key});
+  EnglishEntrycollate({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcollagen(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollate(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("collagen"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens1(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Collagen implants don't help the blemishes left by chicken pox or acne."); // DOPSUM: CHANGE TEXT
+        "He spent hours collating the data for the report."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens2(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The photocopier will collate the documents for you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens3(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens4(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens5(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens6(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens7(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens8(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens9(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens10(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens11(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens12(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollagens13(String languageCode) async {
-    // DOPSUM: CHANGE speakcollagen
+  Future<void> speakcollates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollagens1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollates1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycollagen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "collagen"),
+                            EntryTitle(word: "collate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒlədʒən/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈleɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcollagen("en-GB"),
+                              onPressed: () => speakcollate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːlədʒən/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈleɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcollagen("en-US"),
+                              onPressed: () => speakcollate("en-US"),
                             ),
                           ],
                         ),
@@ -190,11 +191,12 @@ class EnglishEntrycollagen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی: 
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: ڕێک کردن، هاوتا کردن، پێک‌گرتن
+"""),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆلاجین؛ پڕۆتینێک کە لە ناو پێستدایە، و هەندێک جار زیاد دەخرێتە ناو پێست، بۆ باشترکردنی ڕواڵەت"),
+                              text:
+                                  "١. (کردار) کۆکردنەوەی زانیاری لە سەرچاوەی جیاوازەوە بۆ لێکۆڵینەوە و بەراوردکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,20 +204,52 @@ class EnglishEntrycollagen extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Collagen implants don't help the blemishes left by chicken pox or acne."),
+                                            "He spent hours collating the data for the report."),
                                     ExampleSentenceKurdish(
-                                        text: "داچاندنی کۆلاجین یارمەتیدەر نابێت لە لادانی نیشانەکانی دڕکەمێکوتە و ئاکنی."),
+                                        text:
+                                            "چەندین کاتژمێری بەسەربرد بە کۆکردنەوەی داتا بۆ ڕاپۆرتەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collagen", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "collate", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcollagens1("en-GB"),
+                                    onPressed: () => speakcollates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcollagens1("en-US"),
+                                    onPressed: () => speakcollates1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) کۆکردنەوە و ڕێکخستنی پەڕەی ڕاپۆرتێک، کتێبێک، هتد بە ڕیزبەندی درووست"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The photocopier will collate the documents for you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەزگای فۆتۆکۆپییەکە بەڵگەنامەکانت بۆ ڕیزبەندی دەکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcollates2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcollates2("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,8 +337,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collagen (Derived forms: collagens)
-1. A fibrous scleroprotein in bone and cartilage and tendon and other connective tissue; yields gelatin on boiling
+- Verb: collate (Derived forms: collated, collates, collating)
+1. Compare critically; of texts
+ 
+2. To assemble in proper sequence
+"collate the papers"
 """,
   );
 
@@ -337,8 +374,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4GqF4UH8fx8?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/XZwH_GRbrp8?t=',
+    startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -362,8 +399,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JYn4ekYct_0?t=',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/ZSu4rCizyUM?t=',
+    startSeconds: 2423,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -387,8 +424,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CtJs6n2ndl0?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/1kG1D-e284A?t=',
+    startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -412,8 +449,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5l9csiSI7SE?t=',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/-pZ3YfZgjAw?t=',
+    startSeconds: 724,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -437,8 +474,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TsoYREVnVH8?t=',
-    startSeconds: 179,
+    videoId: 'https://youtu.be/Rxh_SVtyZqo?t=',
+    startSeconds: 10159,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -462,8 +499,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pjoAY9TCyVY',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/3kmXpMhZqOg?t=',
+    startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -487,8 +524,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JSgQEzuNLm8?t=',
-    startSeconds: 204,
+    videoId: 'https://youtu.be/mWNYE5yVOzk?t=',
+    startSeconds: 12906,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

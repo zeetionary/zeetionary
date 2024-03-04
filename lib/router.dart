@@ -3173,11 +3173,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonialist.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonist.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonize.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonization.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonnade.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colony.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colossal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colour.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6741,11 +6741,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-colonialist": (_) => MaterialPage(child: EnglishEntrycolonialist()),
   "/english-colonist": (_) => MaterialPage(child: EnglishEntrycolonist()),
   "/english-colonize": (_) => MaterialPage(child: EnglishEntrycolonize()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-colonization": (_) => MaterialPage(child: EnglishEntrycolonization()),
+  "/english-colonnade": (_) => MaterialPage(child: EnglishEntrycolonnade()),
+  "/english-colony": (_) => MaterialPage(child: EnglishEntrycolony()),
+  "/english-colossal": (_) => MaterialPage(child: EnglishEntrycolossal()),
+  "/english-colour": (_) => MaterialPage(child: EnglishEntrycolour()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

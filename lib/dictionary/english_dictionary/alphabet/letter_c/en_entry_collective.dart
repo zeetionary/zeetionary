@@ -10,124 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycollected extends StatelessWidget {
+class EnglishEntrycollective extends StatelessWidget {
   // blank divider
-  EnglishEntrycollected({super.key});
+  EnglishEntrycollective({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcollected(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollective(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("collected"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collective"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds1(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She appeared calm and collected."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcollecteds2(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His collected poems were published in 1928."); // DOPSUM: CHANGE TEXT
+        "MPs heaved a collective sigh of relief when the news was announced last night."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds3(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The austerities of wartime Europe were still fresh in the collective memory."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds4(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There has to be a balance between individual choice and collective responsibility."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds5(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The collective name for mast, boom and sails on a boat is the ‘rig’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds6(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds7(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds8(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds9(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds10(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds11(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds12(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcollecteds13(String languageCode) async {
-    // DOPSUM: CHANGE speakcollected
+  Future<void> speakcollectives12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollecteds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollectives13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollective
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollectives1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +152,22 @@ class EnglishEntrycollected extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "collected"),
+                            EntryTitle(word: "collective"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kəˈlektɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈlektɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcollected("en-GB"),
+                              onPressed: () => speakcollective("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kəˈlektɪd/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈlektɪv/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcollected("en-US"),
+                              onPressed: () => speakcollective("en-US"),
                             ),
                           ],
                         ),
@@ -192,10 +194,11 @@ class EnglishEntrycollected extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەسەرەخۆ، خوددار، ئارام، هێمن، مەند
+کوردی: کۆمەڵی، بەکۆمەڵ، بەگەل، کۆیی، هاوبەش، پێک(ە)وەیی، دەستەیی، جەماوەری، دابەش‌کراو، گشتی، گەلەمپەری، تێکڕایی،	(ئاماژە بە تێکڕای ئەندامانی) گروپ، کۆمەڵ، دەستە، چین،	زبارە، هەرەوەز، (ڕێزمان) ناوی کۆ
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) زۆر ئارام و لەسەرخۆ"),
+                              text:
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە هەموو ئەندامانی گرووپێک؛ کردنی شتێک لەلایەن هەموو ئەندامانی گرووپێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,29 +206,27 @@ class EnglishEntrycollected extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She appeared calm and collected."),
+                                            "MPs heaved a collective sigh of relief when the news was announced last night."),
                                     ExampleSentenceKurdish(
-                                        text: "ئارام و لەسەرخۆ دەرکەوت."),
+                                        text:
+                                            "ئەندامانی پەرلەمان هەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان هەڵکێشا کە هەواڵەکە دوێنێ شەو ڕاگەیەندرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collected", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "collective", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcollecteds1("en-GB"),
+                                    onPressed: () => speakcollectives1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcollecteds1("en-US"),
+                                    onPressed: () => speakcollectives1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵناو) تەواوی کارە کۆکراوەکانی یەک نووسەر"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -233,10 +234,10 @@ class EnglishEntrycollected extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "His collected poems were published in 1928."),
+                                            "The austerities of wartime Europe were still fresh in the collective memory."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆکراوەی کارەکانی لە ساڵی ١٩٢٨ بڵاوکرایەوە."),
+                                            "دۆخی سەختی ماوەی جەنگ لە ئەورووپا هێشتا تازە بوو لە یادەوەری هەمواندا."),
                                   ],
                                 ),
                               ),
@@ -244,15 +245,101 @@ class EnglishEntrycollected extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcollecteds2("en-GB"),
+                                    onPressed: () => speakcollectives2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcollecteds2("en-US"),
+                                    onPressed: () => speakcollectives2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There has to be a balance between individual choice and collective responsibility."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت هاوسەنگییەک هەبێت لە نێوان بڕیاری تاکەکەسی و بەرپرسیاریەتیی گشتگیر."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcollectives3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcollectives3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          // const DividerDefinition(),
+                          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) بۆ ئاماژەکردن بە تەواوی ئەندامانی گرووپێک"),
+                          // Row(
+                          // children: [
+                          // const Expanded(
+                          // child: Column(
+                          // children: [
+                          // ExampleSentenceEnglish(
+                          // text:
+                          // "The collective name for mast, boom and sails on a boat is the ‘rig’."),
+                          // ExampleSentenceKurdish(
+                          // text: "رستە_رستە_رستە_رستە."),
+                          // ],
+                          // ),
+                          // ),
+                          // const CustomSizedBoxForTTS(),
+                          // Column(
+                          // children: [
+                          // CustomIconButtonBritish(
+                          // onPressed: () => speakcollectives4("en-GB"),
+                          // ),
+                          // CustomIconButtonAmerican(
+                          // onPressed: () => speakcollectives4("en-US"),
+                          // ),
+                          // ],
+                          // ),
+                          // ],
+                          // ),
+                          // skipped_meaning
+                          // const DividerDefinition(),
+                          // const DefinitionKurdish(
+                          //     text: "٢. (ناو) کۆمەڵە کەسێک کە خاوەنداری بازرگانییەک یان کێڵگەیەک دەکەن و بەڕێوەی دەبەن"),
+                          // Row(
+                          //   children: [
+                          //     const Expanded(
+                          //       child: Column(
+                          //         children: [
+                          //           ExampleSentenceEnglish(
+                          //               text:
+                          //                   "speakcollectives500"),
+                          //           ExampleSentenceKurdish(
+                          //               text: "رستە_رستە_رستە_رستە."),
+                          //         ],
+                          //       ),
+                          //     ),
+                          //     const CustomSizedBoxForTTS(),
+                          //     Column(
+                          //       children: [
+                          //         CustomIconButtonBritish(
+                          //           onPressed: () => speakcollectives5("en-GB"),
+                          //         ),
+                          //         CustomIconButtonAmerican(
+                          //           onPressed: () => speakcollectives5("en-US"),
+                          //         ),
+                          //       ],
+                          //     ),
+                          //   ],
+                          // ),
                         ],
                       ),
                     ),
@@ -335,12 +422,17 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: collected 
-1. Brought together in one place (= gathered)
-"the collected works of Milton";
+- Adjective: collective 
+1. Done by or characteristic of individuals acting together (= corporate)
+"the collective mind";
  
-2. In full control of your faculties (= equanimous, poised, self-collected, self-contained, self-possessed)
-"the witness remained collected throughout the cross-examination";
+2. Set up on the principle of collectivism or ownership and production by the workers involved usually under the supervision of a government
+"collective farms"
+ 
+3. Forming a whole or aggregate
+
+- Noun: collective (Derived forms: collectives)
+1. Members of a cooperative enterprise
 """,
   );
 
@@ -373,8 +465,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yl17lyF5oDw?t=',
-    startSeconds: 133,
+    videoId: 'https://youtu.be/qkzghZe-utc?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -398,8 +490,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X_n_H0huNf0?t=',
-    startSeconds: 39,
+    videoId: 'https://youtu.be/bwQR4WnTYdQ?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -423,8 +515,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kBdfcR-8hEY?t=',
-    startSeconds: 2995,
+    videoId: 'https://youtu.be/n9XDIydPXsg?t=',
+    startSeconds: 488,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -448,8 +540,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fEkpAYhIcI4?t=',
-    startSeconds: 423,
+    videoId: 'https://youtu.be/qb1jjz7TMFk?t=',
+    startSeconds: 416,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -473,8 +565,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/99NA0m6FZRA?t=',
-    startSeconds: 149,
+    videoId: 'https://youtu.be/RR-kHw7kyXA?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +590,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1oa6VziZH78?t=',
-    startSeconds: 535,
+    videoId: 'https://youtu.be/PIiqu_c-XhU?t=',
+    startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +615,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z3UTpq3OBp0?t=',
-    startSeconds: 297,
+    videoId: 'https://youtu.be/3Mn9QMTmRDM?t=',
+    startSeconds: 2982,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -3152,27 +3152,27 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colleague.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collect.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collected.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collection.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collective.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collectively.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collector.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_college.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collide.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collier.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colliery.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collision.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colloquial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colloquialism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colloquially.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collude.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_collusion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonel.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonialism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonialist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_colonize.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6720,27 +6720,27 @@ final loggedInRoute = RouteMap(routes: {
   "/english-colleague": (_) => MaterialPage(child: EnglishEntrycolleague()),
   "/english-collect": (_) => MaterialPage(child: EnglishEntrycollect()),
   "/english-collected": (_) => MaterialPage(child: EnglishEntrycollected()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-collection": (_) => MaterialPage(child: EnglishEntrycollection()),
+  "/english-collective": (_) => MaterialPage(child: EnglishEntrycollective()),
+  "/english-collectively": (_) => MaterialPage(child: EnglishEntrycollectively()),
+  "/english-collector": (_) => MaterialPage(child: EnglishEntrycollector()),
+  "/english-college": (_) => MaterialPage(child: EnglishEntrycollege()),
+  "/english-collide": (_) => MaterialPage(child: EnglishEntrycollide()),
+  "/english-collier": (_) => MaterialPage(child: EnglishEntrycollier()),
+  "/english-colliery": (_) => MaterialPage(child: EnglishEntrycolliery()),
+  "/english-collision": (_) => MaterialPage(child: EnglishEntrycollision()),
+  "/english-colloquial": (_) => MaterialPage(child: EnglishEntrycolloquial()),
+  "/english-colloquialism": (_) => MaterialPage(child: EnglishEntrycolloquialism()),
+  "/english-colloquially": (_) => MaterialPage(child: EnglishEntrycolloquially()),
+  "/english-collude": (_) => MaterialPage(child: EnglishEntrycollude()),
+  "/english-collusion": (_) => MaterialPage(child: EnglishEntrycollusion()),
+  "/english-colon": (_) => MaterialPage(child: EnglishEntrycolon()),
+  "/english-colonel": (_) => MaterialPage(child: EnglishEntrycolonel()),
+  "/english-colonial": (_) => MaterialPage(child: EnglishEntrycolonial()),
+  "/english-colonialism": (_) => MaterialPage(child: EnglishEntrycolonialism()),
+  "/english-colonialist": (_) => MaterialPage(child: EnglishEntrycolonialist()),
+  "/english-colonist": (_) => MaterialPage(child: EnglishEntrycolonist()),
+  "/english-colonize": (_) => MaterialPage(child: EnglishEntrycolonize()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

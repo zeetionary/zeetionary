@@ -117,7 +117,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                                             "The accident brought his career to an abrupt end."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو"),
+                                            "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو."),
                                   ],
                                 ),
                               ),

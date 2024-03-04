@@ -144,7 +144,7 @@ class EnglishEntryabortive extends StatelessWidget {
                                             "There was an abortive attempt to overthrow the government."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەوڵێکی نەزۆک ھەبوو بۆ گۆڕینی حکومەت."),
+                                            "ھەوڵێکی نەزۆک ھەبوو بۆ ڕووخاندنی حکومەت."),
                                   ],
                                 ),
                               ),

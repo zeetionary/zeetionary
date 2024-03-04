@@ -3,100 +3,139 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryalert - replace speakAlert - replace alert - /əˈlɜːt/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryalert extends StatelessWidget {
-  EnglishEntryalert({super.key});
+class EnglishEntrycollection extends StatelessWidget {
+  // blank divider
+  EnglishEntrycollection({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlert(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollection(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collection"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert3524(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlert352(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollections1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Neighbours quickly alerted the emergency services."); // DOPSUM: CHANGE TEXT
+        "He wanted to share his vast art collection with the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert29637(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollections2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They had been alerted to the possibility of further price rises."); // DOPSUM: CHANGE TEXT
+        "He built up his collection over a period of ten years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert6277(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollections3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "More than 5 000 troops have been placed on (full) alert."); // DOPSUM: CHANGE TEXT
+        "The collection is rarely on view to the public."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert96526(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollections4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I get text alerts when I have used 80% of my mobile data."); // DOPSUM: CHANGE TEXT
+        "There was a collection of books on the floor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert34655(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollections5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Two alert scientists spotted the mistake."); // DOPSUM: CHANGE TEXT
+        "The first stage in research is data collection."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert3566(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollections6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We must be alert to the possibility of danger."); // DOPSUM: CHANGE TEXT
+        "Your suit will be ready for collection on Tuesday."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlert(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlert
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcollections7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The band has just released a collection of their greatest hits."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAlert(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlert
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcollections8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The total collection last week amounted to £250."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollections9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We will have a collection for charity at the end of the concert."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollections10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollections1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollections11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollections1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollections12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollections1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollections13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollection
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollections1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -118,26 +157,22 @@ class EnglishEntryalert extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alert"), // Find /əˈlɜːt/
+                            EntryTitle(word: "collection"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈlɜːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /kəˈlekʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlert("en-GB"),
+                              onPressed: () => speakcollection("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈlɜːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /kəˈlekʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlert("en-US"),
+                              onPressed: () => speakcollection("en-US"),
                             ),
                           ],
                         ),
@@ -164,12 +199,10 @@ class EnglishEntryalert extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گوێ‌قوڵاخ، وریا، چاوکراوە، زیت، وازر، ھۆشیار، ئاگادار، بەئاگا، ھایدار، قوت، زیرەک، بیرا، ئامادەباش، ڕەوش یان بارودۆخی تەنگەتاوی، باری نائاسایی، ئاگادارکردنەوە لە مەترسی یان کێشەیێ
+کوردی: خڕکردنەوە، کۆ، کۆکردنەوە، گردکردنەوە، گردوکۆ، کۆمەڵەکردن، کۆکراوە، کۆگەری، پێکەوەنان، کۆم‌کردن، سەریەک‌نان، کەڵەکەکردن،	کۆمەڵە،	وەرگرتن،	خڕکردنەوەی باربۆ و پیتاک؛ پیتاک، باربۆ (خڕەوەکراو)،	کۆما، لۆدە، کۆگا، کەڵەکە، کۆمەڵ، دەستە، ژمارە
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) وریاکردنەوەی کەسێک لەسەر بارودۆخێکی مەترسیدار، یان یەکێک کە پێویستە بەپەلە مامەڵەی لەگەڵ بکرێت"
-                                  ""),
+                              text: "١. (ناو) کۆکراوەی کۆمەڵە شتێکی هەمان جۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -177,23 +210,21 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."),
+                                            "He wanted to share his vast art collection with the world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
+                                            "دەیویست کۆکراوەی زەبەلاحی کارە هونەرییەکانی لەگەڵ جیهان هاوبەش بکات."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "collection", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert3524("en-GB"),
+                                    onPressed: () => speakcollections1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert3524(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections1("en-US"),
                                   ),
                                 ],
                               ),
@@ -207,10 +238,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Neighbours quickly alerted the emergency services."),
+                                            "He built up his collection over a period of ten years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
+                                            "کۆکراوەکەی لە ماوەی ١٠ ساڵدا بنیاتنا."),
                                   ],
                                 ),
                               ),
@@ -218,20 +249,16 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert352("en-GB"),
+                                    onPressed: () => speakcollections2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert352(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) ئاگادارکردنەوەی کەسێک لە شتێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -239,10 +266,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They had been alerted to the possibility of further price rises."),
+                                            "The collection is rarely on view to the public."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
+                                            "کۆکراوەکە بەدەگمەن بەڕووی خەڵکیدا کراوەیە."),
                                   ],
                                 ),
                               ),
@@ -250,20 +277,18 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert29637("en-GB"),
+                                    onPressed: () => speakcollections3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert29637(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) بارودۆخێک کە تێیدا خەڵکی ئاگادارکراون بۆ مەترسی"""),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) گرووپێک لە خەڵکی یان شت"),
                           Row(
                             children: [
                               const Expanded(
@@ -271,10 +296,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "More than 5 000 troops have been placed on (full) alert."),
+                                            "There was a collection of books on the floor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو."),
+                                            "کۆمەڵە کتێبێک لەسەر زەوییەکە کەوتبوون."),
                                   ],
                                 ),
                               ),
@@ -282,20 +307,16 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert6277("en-GB"),
+                                    onPressed: () => speakcollections4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert6277(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) ئاگادارکەرەوە بۆ شتێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -303,10 +324,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I get text alerts when I have used 80% of my mobile data."),
+                                            "There is always a strange collection of runners in the London Marathon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
+                                            "هەمیشە کۆمەڵە ڕاکەرێکی نامۆ لە ماراسۆنی لەندەن هەن."),
                                   ],
                                 ),
                               ),
@@ -314,20 +335,18 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert96526("en-GB"),
+                                    onPressed: () => speakcollections4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert96526(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی"""),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) بردنی شتێک لە شوێنێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,10 +354,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Two alert scientists spotted the mistake."),
+                                            "The first stage in research is data collection."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
+                                            "یەکەم قۆناغی توێژینەوە کۆکردنەوەی داتایە."),
                                   ],
                                 ),
                               ),
@@ -346,20 +365,16 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert34655("en-GB"),
+                                    onPressed: () => speakcollections5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert34655(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٦. (ھاوەڵناو) ئاگاداربوون لە شتێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -367,10 +382,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We must be alert to the possibility of danger."),
+                                            "Your suit will be ready for collection on Tuesday."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستە چاوکراوە بین بۆ مەترسی."),
+                                            "جلەکەت ئامادە دەبێت بۆ بردنەوە لە ڕۆژی سێشەممە."),
                                   ],
                                 ),
                               ),
@@ -378,12 +393,100 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert3566("en-GB"),
+                                    onPressed: () => speakcollections6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert3566(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcollections6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) کۆمەڵە چیرۆکێک، هۆنراوایەک، هتد کە پێکەوە لە یەک کتێبدا بڵاودەکرێنەوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The band has just released a collection of their greatest hits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باندەکە تازەگی کۆکراوەیەک لە بەناوبانگترین کارەکانیان بڵاوکردووەتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcollections7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcollections7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) کۆکردنەوەی پارە بۆ کاری خێرخوازی؛ ئەو پارەیەی کە کۆکراوەتەوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The total collection last week amounted to £250."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جڕکردنەوەی کۆتایی لە هەفتەی ڕابردوودا ٢٥٠ پاوەند بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcollections8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcollections8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We will have a collection for charity at the end of the concert."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتایی کۆنسێرتەکەدا پارە کۆکردنەوەمان دەبێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcollections9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcollections9("en-US"),
                                   ),
                                 ],
                               ),
@@ -394,21 +497,28 @@ class EnglishEntryalert extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -464,27 +574,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: alert (derived forms: alerts, alerting, alerted)
-1. Warn or arouse to a sense of danger or call to a state of preparedness (= alarm)
-"We alerted the new neighbours to the high rate of burglaries";
-
-
-- Adjective: alert (derived forms: alerter, alertest)
-1. Engaged in or accustomed to close observation (= watchful)
-"alert enough to spot the opportunity when it came"; "constantly alert and vigilant, like a sentinel on duty"; "caught by a couple of alert cops";
+- Noun: collection (Derived forms: collections)
+1. Several things grouped together or considered as a whole (= aggregation, accumulation, assemblage)
  
-2. Quick and energetic (= brisk, lively, merry, rattling, snappy [informal], spanking [informal], zippy [informal])
+2. A publication containing a variety of works (= compendium)
  
-3. Mentally perceptive and responsive (= alive, awake, on the ball)
-"an alert mind"; "alert to the problems";
-
-- Noun: alert (derived forms: alerts)
-1. Condition of heightened watchfulness or preparation for action (= qui vive)
-"bombers were put on alert during the crisis";
+3. Request for a sum of money (= solicitation, appeal, ingathering)
  
-2. A warning serves to make you more alert to danger (= alerting)
- 
-3. An automatic signal (usually a sound) warning of danger (= alarm, warning signal, alarum [archaic])
+4. The act of gathering something together (= collecting, assembling, aggregation)
 """,
   );
 
@@ -513,12 +610,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/shKWGMdvmJQ?t=',
+    startSeconds: 91,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Br9bUTdKu0U',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/FFRQfK6dxkQ?t=',
+    startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -542,8 +664,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'T8LlB3psUtM',
-    startSeconds: 257,
+    videoId: 'https://youtu.be/FypzgHwFGS0?t=',
+    startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -567,8 +689,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-5n7QMaGxgg',
-    startSeconds: 40,
+    videoId: 'https://youtu.be/D8gJTUTb_os?t=',
+    startSeconds: 543,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -592,8 +714,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bEb-0GzX0RY',
-    startSeconds: 91,
+    videoId: 'https://youtu.be/R0wa9IlCA_w?t=',
+    startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -617,8 +739,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SVEoC-gkbOU',
-    startSeconds: 427,
+    videoId: 'https://youtu.be/D4ZD96tA7lA?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -642,8 +764,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1HC3jZEnJNM',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/4RKOBJMpjeE?t=',
+    startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -663,104 +785,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4Ww6CwfyZVE',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eZnIUMAJtBo',
-    startSeconds: 2758,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VrKW58MS12g',
-    startSeconds: 1138,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PmlRbfSavbI',
-    startSeconds: 190,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

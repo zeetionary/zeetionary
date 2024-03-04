@@ -3,78 +3,140 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryagreement - replace speakAgreement - replace agreement - /əˈɡriːmənt/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryagreement extends StatelessWidget {
-  EnglishEntryagreement({super.key});
+class EnglishEntrycollision extends StatelessWidget {
+  // blank divider
+  EnglishEntrycollision({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgreement(String languageCode) async {
-    // DOPSUM: CHANGE speakAgreement
+  Future<void> speakcollision(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agreement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collision"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgre45669(String languageCode) async {
-    // DOPSUM: CHANGE speakAgreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had an agreement never to talk about work at home."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAgre35666(String languageCode) async {
-    // DOPSUM: CHANGE speakAgreement
+  Future<void> speakcollisions1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The agreement was signed during a meeting at the UN."); // DOPSUM: CHANGE TEXT
+        "Stewart was injured in a collision with another player."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgreem3544(String languageCode) async {
-    // DOPSUM: CHANGE speakAgreement
+  Future<void> speakcollisions2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "His car was in collision with a motorbike."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Is everybody in agreement now?"); // DOPSUM: CHANGE TEXT
+        .speak("I had a collision with a bus."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgreeme25699(String languageCode) async {
-    // DOPSUM: CHANGE speakAgreement
+  Future<void> speakcollisions4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You'll have to get your parents' agreement if you want to go on the trip."); // DOPSUM: CHANGE TEXT
+        "In his work we see the collision of two different ideas."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgreement(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAgreement
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agreement"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcollisions5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Australian food is an exciting collision of native, Asian and European cuisines."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAgreement(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAgreement
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agreement"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcollisions6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcollisions13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollision
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcollisions1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -91,24 +153,22 @@ class EnglishEntryagreement extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agreement"), // Find /əˈɡriːmənt/
+                            EntryTitle(word: "collision"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈɡriːmənt/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈlɪʒn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgreement("en-GB"),
+                              onPressed: () => speakcollision("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈɡriːmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /kəˈlɪʒn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgreement("en-US"),
+                              onPressed: () => speakcollision("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +195,10 @@ class EnglishEntryagreement extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێک‌کەوتن، ھاتنەڕێ، ڕالێ‌بوون، بەرایی(دان)، وتەوبڕە، پێک‌ھاتن، تەبایی، سازان، گونجان، یەک‌بیری، قایل‌بوون، قەبووڵ‌کردن، پەسندکردن، بڕیار، بەڵێنی، گفت، پەیمان، ڕێک‌کەوتن‌نامە، (ڕێزمان) یەک‌گیری، یەک‌گرتنەوە یەکان‌گیری (ھەبوونی ھەمان ژمارە، دۆخ، چاوگ و کەس)
+کوردی: لێک‌کەوتن، پێکاکێشان، بەیەکاکەوتن، پێک‌کەوتن، بەریەک‌کەوتن،	پێکادان، پێک‌دادان، لێک‌دان، لێک‌سرەواندن، کێشە، ناکۆکی، ناسازی، دژایەتی، ململانێ
 """),
                           const DefinitionKurdish(
-                              text: """١. (ناو) ڕێککەوتن"""),
+                              text: "١. (ناو) پێکدادان یان پیاکێشان"),
                           Row(
                             children: [
                               const Expanded(
@@ -146,23 +206,21 @@ class EnglishEntryagreement extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They had an agreement never to talk about work at home."),
+                                            "Stewart was injured in a collision with another player."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
+                                            "ستیوارت بریندار بوو لە پیاکێشانێک لەگەڵ یاریزانێکی دیکەدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "collision", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgre45669("en-GB"),
+                                    onPressed: () => speakcollisions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgre45669(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
+                                    onPressed: () => speakcollisions1("en-US"),
                                   ),
                                 ],
                               ),
@@ -176,10 +234,10 @@ class EnglishEntryagreement extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The agreement (= the document recording the agreement) was signed during a meeting at the UN."),
+                                            "His car was in collision with a motorbike."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
+                                            "ئۆتۆمبێلەکەی کێشای بە ماتۆڕێکدا."),
                                   ],
                                 ),
                               ),
@@ -187,29 +245,26 @@ class EnglishEntryagreement extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgre35666("en-GB"),
+                                    onPressed: () => speakcollisions2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgre35666(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
+                                    onPressed: () => speakcollisions2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) ھاوڕایی لەگەڵ کەسێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Is everybody in agreement now?"),
+                                        text: "I had a collision with a bus."),
                                     ExampleSentenceKurdish(
-                                        text: "ھەمووان ئێستا ھاوڕان؟"),
+                                        text:
+                                            "پیاکێشانێکم هەبوو لەگەڵ پاسێکدا."),
                                   ],
                                 ),
                               ),
@@ -217,20 +272,19 @@ class EnglishEntryagreement extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgreem3544("en-GB"),
+                                    onPressed: () => speakcollisions3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgreem3544(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
+                                    onPressed: () => speakcollisions3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) مۆڵەتپێدان بە شتێک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ناکۆکی توندی نێوان دوو کەس، یان دوو بیرۆکە، بۆچوون، هتد کە دژیەکن"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,10 +292,10 @@ class EnglishEntryagreement extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You'll have to get your parents' agreement if you want to go on the trip."),
+                                            "In his work we see the collision of two different ideas."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),
+                                            "لە کارەکەیدا بەرکەوتنی دوو بیرۆکە دەبینین."),
                                   ],
                                 ),
                               ),
@@ -249,12 +303,38 @@ class EnglishEntryagreement extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgreeme25699("en-GB"),
+                                    onPressed: () => speakcollisions4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgreeme25699(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
+                                    onPressed: () => speakcollisions4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Australian food is an exciting collision of native, Asian and European cuisines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنی ئوسترالی بەرکەوتەیەکی بەچێژی خواردنی ڕەسەن، ئاسیایی، و ئەورووپاییە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcollisions5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcollisions5("en-US"),
                                   ),
                                 ],
                               ),
@@ -265,14 +345,14 @@ class EnglishEntryagreement extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -280,6 +360,13 @@ class EnglishEntryagreement extends StatelessWidget {
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -335,21 +422,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: agreement (derived forms: agreements)
-1. The statement (oral or written) of an exchange of promises (= understanding)
-"they had an agreement that they would not interfere in each other's business";
-
-2. Compatibility of observations (= correspondence)
-"there was no agreement between theory and measurement";
-
-3. Harmony of people's opinions, actions or characters (= accord, concert)
-"the two parties were in agreement";
-
-4. The thing arranged or agreed to (= arrangement)
-
-5. The determination of grammatical inflection on the basis of word relations (= concord)
-
-6. The verbal act of agreeing
+- Noun: collision (Derived forms: collisions)
+1. (physics) a brief event in which two or more bodies come together (= hit)
+"the collision of the particles resulted in an exchange of energy and a change of direction";
+ 
+2. An accident resulting from violent impact of a moving object
+"three passengers were killed in the collision"; "the collision of the two ships resulted in a serious oil spill"
+ 
+3. A conflict of opposed ideas, attitudes or goals
+"a collision of interests"
 """,
   );
 
@@ -378,12 +459,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/SGbtLjIEVeo?t=',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sB3LqFDzurE',
-    startSeconds: 124,
+    videoId: 'https://youtu.be/lRsRd4zH46U?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -407,8 +513,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DiX3FqEIfaI',
-    startSeconds: 61,
+    videoId: 'https://youtu.be/eC2IPWLTGN8?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -432,8 +538,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xU6VwLLL4WE',
-    startSeconds: 36,
+    videoId: 'https://youtu.be/WXp6O1lqLvs?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -457,8 +563,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TnTOR-UCJIQ',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/TVgSeHMSXEU?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -482,8 +588,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4Be5zuYqngY',
-    startSeconds: 22,
+    videoId: 'https://youtu.be/IY4g_zG1Qj0?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -507,8 +613,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1yxeRrOtT7g',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/iM3oNcQx_uU?t=',
+    startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -528,52 +634,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'x09DaDHyqpQ',
-    startSeconds: 21,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3tnDjCA4peY',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
+// end WORD_WEB

@@ -3,100 +3,137 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryalert - replace speakAlert - replace alert - /əˈlɜːt/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryalert extends StatelessWidget {
-  EnglishEntryalert({super.key});
+class EnglishEntrycollege extends StatelessWidget {
+  // blank divider
+  EnglishEntrycollege({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlert(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcollege(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("college"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert3524(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlert352(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcolleges1(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Neighbours quickly alerted the emergency services."); // DOPSUM: CHANGE TEXT
+        "She wanted to go to college to become a nurse."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert29637(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcolleges2(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She's at college."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolleges3(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She's at college in Oxford."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolleges4(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They had been alerted to the possibility of further price rises."); // DOPSUM: CHANGE TEXT
+        "She was the first in her family to attend college."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert6277(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcolleges5(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "More than 5 000 troops have been placed on (full) alert."); // DOPSUM: CHANGE TEXT
+        "He's hoping to go to college next year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert96526(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcolleges6(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I get text alerts when I have used 80% of my mobile data."); // DOPSUM: CHANGE TEXT
+        "I graduated from college with an English degree."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert34655(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcolleges7(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Most students live in college."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolleges8(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Two alert scientists spotted the mistake."); // DOPSUM: CHANGE TEXT
+        "The history department is part of the College of Arts and Sciences."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert3566(String languageCode) async {
-    // DOPSUM: CHANGE speakAlert
+  Future<void> speakcolleges9(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We must be alert to the possibility of danger."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcolleges900"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlert(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlert
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolleges10(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolleges1000"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAlert(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlert
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolleges11(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolleges1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolleges12(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolleges1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolleges13(String languageCode) async {
+    // DOPSUM: CHANGE speakcollege
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolleges1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -118,26 +155,22 @@ class EnglishEntryalert extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alert"), // Find /əˈlɜːt/
+                            EntryTitle(word: "college"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈlɜːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒlɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlert("en-GB"),
+                              onPressed: () => speakcollege("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈlɜːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːlɪdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlert("en-US"),
+                              onPressed: () => speakcollege("en-US"),
                             ),
                           ],
                         ),
@@ -164,12 +197,11 @@ class EnglishEntryalert extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گوێ‌قوڵاخ، وریا، چاوکراوە، زیت، وازر، ھۆشیار، ئاگادار، بەئاگا، ھایدار، قوت، زیرەک، بیرا، ئامادەباش، ڕەوش یان بارودۆخی تەنگەتاوی، باری نائاسایی، ئاگادارکردنەوە لە مەترسی یان کێشەیێ
+کوردی: کۆلێژ،	خوێندنگای باڵا،	خوێندنگا، قوتاب‌خانە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) وریاکردنەوەی کەسێک لەسەر بارودۆخێکی مەترسیدار، یان یەکێک کە پێویستە بەپەلە مامەڵەی لەگەڵ بکرێت"
-                                  ""),
+                                  "١. (ناو) (لە بەریتانیا) شوێنێک کە خوێندکاران لە دوای قوتابخانە بۆی دەچن بۆ خوێندن یان وەرگرتنی ڕاهێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -177,10 +209,35 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."),
+                                            "She wanted to go to college to become a nurse."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
+                                            "دەیویست بچێتە کۆلێژ بۆ بوون بە پەرستار."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "college", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolleges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolleges1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's at college."),
+                                    ExampleSentenceKurdish(text: "لە کۆلێژە."),
                                   ],
                                 ),
                               ),
@@ -188,12 +245,67 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert3524("en-GB"),
+                                    onPressed: () => speakcolleges2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert3524(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcolleges2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's at college in Oxford."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە کۆلێژە لە ئۆکسفۆرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolleges3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolleges3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) (لە ئەمریکا) شوێنێکە کە خوێندکارا لە دوای قوتابخانە بۆی دەچن بۆ بەدەستهێنانی بڕوانامە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was the first in her family to attend college."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەم کەسی خێزانەکەی بوو بچێتە کۆلێژ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolleges4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolleges4("en-US"),
                                   ),
                                 ],
                               ),
@@ -207,10 +319,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Neighbours quickly alerted the emergency services."),
+                                            "He's hoping to go to college next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
+                                            "هیواخوازە ساڵی داهاتوو بچێتە کۆلێژ."),
                                   ],
                                 ),
                               ),
@@ -218,20 +330,16 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert352("en-GB"),
+                                    onPressed: () => speakcolleges5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert352(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcolleges5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) ئاگادارکردنەوەی کەسێک لە شتێک"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -239,10 +347,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They had been alerted to the possibility of further price rises."),
+                                            "I graduated from college with an English degree."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
+                                            "کۆلێژم بە بڕوانامەی ئینگلیزییەوە تەواو کرد."),
                                   ],
                                 ),
                               ),
@@ -250,20 +358,46 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert29637("en-GB"),
+                                    onPressed: () => speakcolleges6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert29637(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcolleges6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) بارودۆخێک کە تێیدا خەڵکی ئاگادارکراون بۆ مەترسی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) یەکێک لە دامەزراوە یان بەشەکانی زانکۆ"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Most students live in college."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی خوێندکاران لە کۆلێژ دەژین."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolleges7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolleges7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -271,10 +405,10 @@ class EnglishEntryalert extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "More than 5 000 troops have been placed on (full) alert."),
+                                            "The history department is part of the College of Arts and Sciences."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو."),
+                                            "بەشی مێژوو سەر بە کۆلێژی زانست و هونەرە."),
                                   ],
                                 ),
                               ),
@@ -282,108 +416,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert6277("en-GB"),
+                                    onPressed: () => speakcolleges8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert6277(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) ئاگادارکەرەوە بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I get text alerts when I have used 80% of my mobile data."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAlert96526("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert96526(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two alert scientists spotted the mistake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAlert34655("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert34655(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٦. (ھاوەڵناو) ئاگاداربوون لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must be alert to the possibility of danger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە چاوکراوە بین بۆ مەترسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAlert3566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert3566(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
+                                    onPressed: () => speakcolleges8("en-US"),
                                   ),
                                 ],
                               ),
@@ -394,21 +430,28 @@ class EnglishEntryalert extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -464,27 +507,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: alert (derived forms: alerts, alerting, alerted)
-1. Warn or arouse to a sense of danger or call to a state of preparedness (= alarm)
-"We alerted the new neighbours to the high rate of burglaries";
-
-
-- Adjective: alert (derived forms: alerter, alertest)
-1. Engaged in or accustomed to close observation (= watchful)
-"alert enough to spot the opportunity when it came"; "constantly alert and vigilant, like a sentinel on duty"; "caught by a couple of alert cops";
+- Noun: college (Derived forms: colleges)
+1. An institution of higher education created to educate and grant degrees; often a part of a university
  
-2. Quick and energetic (= brisk, lively, merry, rattling, snappy [informal], spanking [informal], zippy [informal])
+2. A complex of buildings in which an institution of higher education is housed
  
-3. Mentally perceptive and responsive (= alive, awake, on the ball)
-"an alert mind"; "alert to the problems";
-
-- Noun: alert (derived forms: alerts)
-1. Condition of heightened watchfulness or preparation for action (= qui vive)
-"bombers were put on alert during the crisis";
- 
-2. A warning serves to make you more alert to danger (= alerting)
- 
-3. An automatic signal (usually a sound) warning of danger (= alarm, warning signal, alarum [archaic])
+3. The body of faculty and students of a college
 """,
   );
 
@@ -513,12 +541,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/lWz-46NPqdk?t=',
+    startSeconds: 92,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Br9bUTdKu0U',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/WzSoPYDiefw?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -542,8 +595,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'T8LlB3psUtM',
-    startSeconds: 257,
+    videoId: 'https://youtu.be/OFq8jyqvlj0?t=',
+    startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -567,8 +620,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-5n7QMaGxgg',
-    startSeconds: 40,
+    videoId: 'https://youtu.be/uKFO_x8C2ek?t=',
+    startSeconds: 1587,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -592,8 +645,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bEb-0GzX0RY',
-    startSeconds: 91,
+    videoId: 'https://youtu.be/2xcWYu18a-w?t=',
+    startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -617,8 +670,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SVEoC-gkbOU',
-    startSeconds: 427,
+    videoId: 'https://youtu.be/TWg8KL2AXmc',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -642,8 +695,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1HC3jZEnJNM',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/b0yONlMjxjs?t=',
+    startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -663,104 +716,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4Ww6CwfyZVE',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eZnIUMAJtBo',
-    startSeconds: 2758,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VrKW58MS12g',
-    startSeconds: 1138,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PmlRbfSavbI',
-    startSeconds: 190,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

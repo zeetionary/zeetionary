@@ -3,87 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryanarchy - replace speakAnarchy - replace anarchy - /ˈænəki/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryanarchy extends StatelessWidget {
-  EnglishEntryanarchy({super.key});
+class EnglishEntrycolonel extends StatelessWidget {
+  // blank divider
+  EnglishEntrycolonel({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnarchy(String languageCode) async {
-    // DOPSUM: CHANGE speakAnarchy
+  Future<void> speakcolonel(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("colonel"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnarchy470(String languageCode) async {
-    // DOPSUM: CHANGE speakAnarchy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The overthrow of the military regime was followed by a period of anarchy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnarchy041(String languageCode) async {
-    // DOPSUM: CHANGE speakAnarchy
+  Future<void> speakcolonels1(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was complete anarchy in the classroom when their usual teacher was away."); // DOPSUM: CHANGE TEXT
+        "Colonel is the military rank between lieutenant-colonel and brigadier."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnarchy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnarchy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolonels2(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Yes, Colonel."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnarchy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnarchy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolonels3(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels300"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnarchy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnarchy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolonels4(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels400"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnarchy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnarchy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolonels5(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels500"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnarchy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnarchy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolonels6(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels600"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnarchy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnarchy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcolonels7(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolonels8(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolonels9(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolonels10(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolonels11(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolonels12(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcolonels13(String languageCode) async {
+    // DOPSUM: CHANGE speakcolonel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcolonels1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -105,27 +149,22 @@ class EnglishEntryanarchy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "anarchy"), // Find /ˈænəki/
-                            // divvviiider
+                            EntryTitle(word: "colonel"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈænəki/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkɜːnl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnarchy("en-GB"),
+                              onPressed: () => speakcolonel("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈænərki/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈkɜːrnl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnarchy("en-US"),
+                              onPressed: () => speakcolonel("en-US"),
                             ),
                           ],
                         ),
@@ -138,7 +177,7 @@ class EnglishEntryanarchy extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -151,95 +190,91 @@ class EnglishEntryanarchy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: بێ‌حکومەتی، بێ‌قانوونی، ئاڵۆزی، پاشاگەردانی، پشێوی، ناڕێکی، ئاژاوە، گەڕەلاوژە، حکومەت‌نەویستی
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پاشاگەردانی؛ بارودۆخێک کە تێیدا کەس‌بە‌کەس نییە و حکومەت بوونی نییە"
-                                  ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The overthrow of the military regime was followed by a period of anarchy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخاندنی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAnarchy470("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnarchy470(
-                                        // REPLACE: anarchy /ˈænərki/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was complete anarchy in the classroom when their usual teacher was away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAnarchy041("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnarchy041(
-                                        // REPLACE: anarchy /ˈænərki/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
+                                  "١. (ناو) ئەفسەرێکی پلەبەرز لە سوپا و هێزی ئاسمانیدا"),
+                          // Row(
+                          //   children: [
+                          //     const Expanded(
+                          //       child: Column(
+                          //         children: [
+                          //           ExampleSentenceEnglish(
+                          //               text:
+                          //                   "Colonel is the military rank between lieutenant-colonel and brigadier."),
+                          //           ExampleSentenceKurdish(
+                          //               text: "کۆلۆنێڵ پلەی سەربازییە لە نێوان ."),
+                          //         ],
+                          //       ),
+                          //     ),
+                          //     const CustomSizedBoxForTTS(), // With short examples define "colonel", please follow LX instructions
+                          //     Column(
+                          //       children: [
+                          //         CustomIconButtonBritish(
+                          //           onPressed: () => speakcolonels1("en-GB"),
+                          //         ),
+                          //         CustomIconButtonAmerican(
+                          //           onPressed: () => speakcolonels1("en-US"),
+                          //         ),
+                          //       ],
+                          //     ),
+                          //   ],
+                          // ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Yes, Colonel."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەڵێ، کۆلۆنێڵ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcolonels2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcolonels2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -295,10 +330,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: anarchy (derived forms: anarchies)
-1. A state of lawlessness and disorder (usually resulting from a failure of government) (= lawlessness)
- 
-2. Society run on the principles of anarchism
+- Noun: colonel (Derived forms: colonels)
+1. (military) a commissioned military officer in the United States Army or Air Force or Marines who ranks above a lieutenant colonel and below a brigadier general
 """,
   );
 
@@ -327,12 +360,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/J4hQFL5ICxY?t=',
+    startSeconds: 9,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a2TlD-b29FM',
-    startSeconds: 486,
+    videoId: 'https://youtu.be/SKmQvTkIxCk?t=',
+    startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -356,8 +414,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kElsSj8hky4',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    startSeconds: 1039,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -381,8 +439,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1UTjWy-vnOo',
-    startSeconds: 1018,
+    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    startSeconds: 418,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -406,8 +464,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'auPYOsBejK4',
-    startSeconds: 624,
+    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -431,8 +489,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mW-C7WE1xOs',
-    startSeconds: 157,
+    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    startSeconds: 755,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -456,8 +514,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sL-PL1hpnM0',
-    startSeconds: 157,
+    videoId: 'https://youtu.be/WtAoc3_1Ido?t=',
+    startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -477,77 +535,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dTq7Rn_K-e4',
-    startSeconds: 40,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MLIehuS4xyw',
-    startSeconds: 606,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mXpwgg5TxOU',
-    startSeconds: 315,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
+// end WORD_WEB

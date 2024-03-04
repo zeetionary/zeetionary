@@ -188,7 +188,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                             "This information will be amalgamated with information obtained earlier."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو"),
+                                            "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو."),
                                   ],
                                 ),
                               ),

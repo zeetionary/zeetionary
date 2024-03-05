@@ -10,125 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarton extends StatelessWidget {
+class EnglishEntrycommandant extends StatelessWidget {
   // blank divider
-  EnglishEntrycarton({super.key});
+  EnglishEntrycommandant({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarton(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandant(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commandant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants1(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He started drawing cartoons when he was still at school."); // DOPSUM: CHANGE TEXT
+        "// speakcommandants111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants2(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's the creator of a successful cartoon series."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants3(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The TV shows kids' cartoons on Saturday mornings."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants4(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants5(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants6(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants7(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants8(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants9(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants10(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants11(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants12(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcommandants13(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandants1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +149,22 @@ class EnglishEntrycarton extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carton"),
+                            EntryTitle(word: "commandant"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kɑːˈtuːn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒməndænt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarton("en-GB"),
+                              onPressed: () => speakcommandant("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kɑːrˈtuːn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːməndænt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarton("en-US"),
+                              onPressed: () => speakcommandant("en-US"),
                             ),
                           ],
                         ),
@@ -193,11 +191,10 @@ class EnglishEntrycarton extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کاریکاتۆر، کارتۆن، نەخشە 
+کوردی: 
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و ھەواڵ"),
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,87 +202,20 @@ class EnglishEntrycarton extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He started drawing cartoons when he was still at school."),
+                                            "// speakcommandants111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو."),
+                                        text: "رستە_رستە_رستە_رستە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carton", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "commandant", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcartons1("en-GB"),
+                                    onPressed: () => speakcommandants1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) زنجیرەیەک لە وێنەی کێشراو کە کە چیرۆکێک دەگێڕنەوە و زۆرجار لە ڕۆژنامەدا چاپدەکرێن"),
-                          const Row(
-                            children: [
-                              AlsoEnglishckb(word: "هەروەها: comic strip"),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's the creator of a successful cartoon series."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درووستکەری زنجیرە کارتۆنێکی سەرکەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) زنجیرە فیلمی کارتۆنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The TV shows kids' cartoons on Saturday mornings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەلەفیزیۆن فیلم کارتۆنی منداڵان لە بەیانییانی شەممە لێدەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons3("en-US"),
+                                    onPressed: () => speakcommandants1("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,8 +232,8 @@ class EnglishEntrycarton extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -373,13 +303,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cartoon (derived forms: cartoons)
-1. A humorous or satirical drawing published in a newspaper or magazine (= sketch)
- 
-2. A film made by photographing a series of cartoon drawings to give the illusion of movement when projected in rapid sequence (= animated cartoon, toon [informal])
-
-- Verb: cartoon (derived forms: cartooned, cartoons, cartooning)
-1. (art) draw cartoons of
+- Noun: commandant (Derived forms: commandants)
+1. (military) an officer in command of a military unit (= commanding officer, commander)
 """,
   );
 
@@ -412,8 +337,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'S4ffUc9oN9o',
-    startSeconds: 33,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -437,8 +362,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xy1yj5yASkE',
-    startSeconds: 22,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -462,8 +387,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y0-6hz9Q7c4',
-    startSeconds: 15,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -487,8 +412,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_flev6CaGaw',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -512,8 +437,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gsH1-7FHiLU',
-    startSeconds: 30,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -537,8 +462,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HxG24vALqNY',
-    startSeconds: 11,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -562,8 +487,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'd3b0vmK-ziY',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -583,29 +508,5 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6IzDQzlcRac',
-    startSeconds: 123,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
+// speakcommandants111111111111111111111111111111111
 // end WORD_WEB

@@ -10,125 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarton extends StatelessWidget {
+class EnglishEntrycomfortably extends StatelessWidget {
   // blank divider
-  EnglishEntrycarton({super.key});
+  EnglishEntrycomfortably({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarton(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortably(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("comfortably"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He started drawing cartoons when he was still at school."); // DOPSUM: CHANGE TEXT
+        "All the rooms were comfortably furnished."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's the creator of a successful cartoon series."); // DOPSUM: CHANGE TEXT
+        "If you're all sitting comfortably, then I'll begin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomfortablys300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomfortablys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The TV shows kids' cartoons on Saturday mornings."); // DOPSUM: CHANGE TEXT
+        "He can comfortably afford the extra expense."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They are comfortably ahead in the opinion polls."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcartons12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
+  Future<void> speakcomfortablys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomfortably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcartons13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarton
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcartons1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomfortablys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -151,22 +152,24 @@ class EnglishEntrycarton extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carton"),
+                            EntryTitle(word: "comfortably"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kɑːˈtuːn/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈkʌmftəbli/,  /ˈkʌmfətəbli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarton("en-GB"),
+                              onPressed: () => speakcomfortably("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kɑːrˈtuːn/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˈkʌmftəbli/,  /ˈkʌmfərtəbli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarton("en-US"),
+                              onPressed: () => speakcomfortably("en-US"),
                             ),
                           ],
                         ),
@@ -193,11 +196,10 @@ class EnglishEntrycarton extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کاریکاتۆر، کارتۆن، نەخشە 
+کوردی: بە ئاسوودەیی، ئاسوودە، بە ئاسانی، ئاسان
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و ھەواڵ"),
+                              text: "١. (ھاوەڵکار) بە ئاسوودەیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,35 +207,29 @@ class EnglishEntrycarton extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He started drawing cartoons when he was still at school."),
+                                            "All the rooms were comfortably furnished."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو."),
+                                            "هەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carton", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "comfortably", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcartons1("en-GB"),
+                                    onPressed: () =>
+                                        speakcomfortablys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons1("en-US"),
+                                    onPressed: () =>
+                                        speakcomfortablys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) زنجیرەیەک لە وێنەی کێشراو کە کە چیرۆکێک دەگێڕنەوە و زۆرجار لە ڕۆژنامەدا چاپدەکرێن"),
-                          const Row(
-                            children: [
-                              AlsoEnglishckb(word: "هەروەها: comic strip"),
-                            ],
-                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -241,10 +237,10 @@ class EnglishEntrycarton extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He's the creator of a successful cartoon series."),
+                                            "If you're all sitting comfortably, then I'll begin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "درووستکەری زنجیرە کارتۆنێکی سەرکەوتووە."),
+                                            "ئەگەر هەمووتان بە ئاسوودەیی دانیشطوون، ئەوا دەستپێ دەکەم."),
                                   ],
                                 ),
                               ),
@@ -252,18 +248,18 @@ class EnglishEntrycarton extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcartons2("en-GB"),
+                                    onPressed: () =>
+                                        speakcomfortablys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons2("en-US"),
+                                    onPressed: () =>
+                                        speakcomfortablys2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) زنجیرە فیلمی کارتۆنی"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -271,10 +267,10 @@ class EnglishEntrycarton extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The TV shows kids' cartoons on Saturday mornings."),
+                                            "You should be able to live comfortably on your allowance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەلەفیزیۆن فیلم کارتۆنی منداڵان لە بەیانییانی شەممە لێدەدات."),
+                                            "دەبێت بتوانیت بە ئاسوودەیی بژیت بە بڕانەکەت."),
                                   ],
                                 ),
                               ),
@@ -282,10 +278,74 @@ class EnglishEntrycarton extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcartons3("en-GB"),
+                                    onPressed: () =>
+                                        speakcomfortablys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons3("en-US"),
+                                    onPressed: () =>
+                                        speakcomfortablys3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵکار) بەبێ کێشە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He can comfortably afford the extra expense."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئاسانی دەتوانێت تێچووە زیادەکە دابین بکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcomfortablys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcomfortablys4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are comfortably ahead in the opinion polls."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئاسانی لە پێشەوەن لە ڕاپرسییەکاندا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcomfortablys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcomfortablys5("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,8 +362,8 @@ class EnglishEntrycarton extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -373,13 +433,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cartoon (derived forms: cartoons)
-1. A humorous or satirical drawing published in a newspaper or magazine (= sketch)
+- Adverb: comfortably 
+1. In mental comfort; without stress
+"he works comfortably on three continents"
  
-2. A film made by photographing a series of cartoon drawings to give the illusion of movement when projected in rapid sequence (= animated cartoon, toon [informal])
-
-- Verb: cartoon (derived forms: cartooned, cartoons, cartooning)
-1. (art) draw cartoons of
+2. In physical comfort
+"she could have been lying comfortably in bed getting the same relief"
+ 
+3. In financial comfort (= well)
+"she has been able to live comfortably since her husband died";
 """,
   );
 
@@ -412,8 +474,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'S4ffUc9oN9o',
-    startSeconds: 33,
+    videoId: 'https://youtu.be/43uTBB574g4?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -437,8 +499,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xy1yj5yASkE',
-    startSeconds: 22,
+    videoId: 'https://youtu.be/PXaLc9AYIcg?t=',
+    startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -462,8 +524,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y0-6hz9Q7c4',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/VRJzvJ5XPQI?t=',
+    startSeconds: 578,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -487,8 +549,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_flev6CaGaw',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/113_y7XO-Jw?t=',
+    startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -512,8 +574,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gsH1-7FHiLU',
-    startSeconds: 30,
+    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    startSeconds: 402,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -537,8 +599,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HxG24vALqNY',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/py4zetCEYzA?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -562,33 +624,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'd3b0vmK-ziY',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6IzDQzlcRac',
-    startSeconds: 123,
+    videoId: 'https://youtu.be/_NIqAUDskA8?t=',
+    startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -3196,11 +3196,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_combustible.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_combustion.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_come.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comeback.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comedown.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coming.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comedian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comedy.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6764,11 +6764,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-combustible": (_) => MaterialPage(child: EnglishEntrycombustible()),
   "/english-combustion": (_) => MaterialPage(child: EnglishEntrycombustion()),
   "/english-come": (_) => MaterialPage(child: EnglishEntrycome()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-comeback": (_) => MaterialPage(child: EnglishEntrycomeback()),
+  "/english-comedown": (_) => MaterialPage(child: EnglishEntrycomedown()),
+  "/english-coming": (_) => MaterialPage(child: EnglishEntrycoming()),
+  "/english-comedian": (_) => MaterialPage(child: EnglishEntrycomedian()),
+  "/english-comedy": (_) => MaterialPage(child: EnglishEntrycomedy()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

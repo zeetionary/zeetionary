@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycommandant extends StatelessWidget {
+class EnglishEntrycommemoration extends StatelessWidget {
   // blank divider
-  EnglishEntrycommandant({super.key});
+  EnglishEntrycommemoration({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcommandant(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemoration(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commandant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commemoration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants1(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations1(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was appointed as the new commandant."); // DOPSUM: CHANGE TEXT
+        "Protests and commemorations took place in several cities on the anniversary of the uprising."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants2(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations2(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants3(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations3(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants4(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations4(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants5(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations5(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants6(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations6(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants7(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations7(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants8(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations8(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants9(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations9(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants10(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations10(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants11(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations11(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants12(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations12(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants13(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommemorations13(String languageCode) async {
+    // DOPSUM: CHANGE speakcommemoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommemorations1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrycommandant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "commandant"),
+                            EntryTitle(word: "commemoration"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒməndænt/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˌmeməˈreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcommandant("en-GB"),
+                              onPressed: () => speakcommemoration("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːməndænt/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˌmeməˈreɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcommandant("en-US"),
+                              onPressed: () => speakcommemoration("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +191,10 @@ class EnglishEntrycommandant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: فەرماندار، فەرماندەر، سەرکردە
+کوردی: یادکردنەوە، بیرئانین
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئەفسەرێک کە بەرپرسی گرووپێکی سەربازی یان دامەزراوەیەکە"),
+                              text: "١. (ناو) ئاهەنگێک، چالاکییەک، هتد کە بۆ یادکردنەوەی شتێکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,20 +202,20 @@ class EnglishEntrycommandant extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She was appointed as the new commandant."),
+                                            "Protests and commemorations took place in several cities on the anniversary of the uprising."),
                                     ExampleSentenceKurdish(
-                                        text: "وەک فەرمانداری تازە دیاریکرا."),
+                                        text: "ناڕەزایی و یادکردنەوە ڕوویاندا لە ژمارەیەک شارد لە ساڵیادی ڕاپەڕینەکەدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commandant", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "commemoration", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommandants1("en-GB"),
+                                    onPressed: () => speakcommemorations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommandants1("en-US"),
+                                    onPressed: () => speakcommemorations1("en-US"),
                                   ),
                                 ],
                               ),
@@ -304,8 +303,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commandant (Derived forms: commandants)
-1. (military) an officer in command of a military unit (= commanding officer, commander)
+- Noun: commemoration (Derived forms: commemorations)
+1. A ceremony to honour the memory of someone or something (= memorialization, memorialisation [Brit])
+ 
+2. A recognition of meritorious service (= memorial, remembrance)
 """,
   );
 
@@ -338,8 +339,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ATQTAB36AI0?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/ZvGFV1WoVeo?t=',
+    startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +364,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3D3zLIQjngM?t=',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/_bUKua6T1_Y?t=',
+    startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WZ256UU8xJ0?t=',
-    startSeconds: 315,
+    videoId: 'https://youtu.be/SvvOrt9yeFM?t=',
+    startSeconds: 484,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fU_pilTk624?t=',
-    startSeconds: 879,
+    videoId: 'https://youtu.be/oKWMi4z4Jj4?t=',
+    startSeconds: 1784,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/maoXVwSIyPc?t=',
-    startSeconds: 194,
+    videoId: 'https://youtu.be/CJo3aRHOh6o?t=',
+    startSeconds: 469,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bnhF_Qw0dtk?t=',
-    startSeconds: 834,
+    videoId: 'https://youtu.be/HcgRRCw1rno?t=',
+    startSeconds: 431,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-_PU0cRZ9wg?t=',
-    startSeconds: 907,
+    videoId: 'https://youtu.be/TcSpBAZvMhI?t=',
+    startSeconds: 750,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycommandant extends StatelessWidget {
+class EnglishEntrycommandment extends StatelessWidget {
   // blank divider
-  EnglishEntrycommandant({super.key});
+  EnglishEntrycommandment({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcommandant(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandment(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commandant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commandment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants1(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments1(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was appointed as the new commandant."); // DOPSUM: CHANGE TEXT
+        "You shall keep the commandments of the Lord your God."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants2(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments2(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Someone brought to his notice the fifth commandment: honour thy father and mother."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants3(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments3(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants4(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments4(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants5(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments5(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants6(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments6(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants7(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments7(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants8(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments8(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants9(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments9(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants10(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments10(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants11(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments11(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants12(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments12(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommandants13(String languageCode) async {
-    // DOPSUM: CHANGE speakcommandant
+  Future<void> speakcommandments13(String languageCode) async {
+    // DOPSUM: CHANGE speakcommandment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommandants1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommandments1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntrycommandant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "commandant"),
+                            EntryTitle(word: "commandment"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒməndænt/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈmɑːndmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcommandant("en-GB"),
+                              onPressed: () => speakcommandment("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːməndænt/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈmændmənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcommandant("en-US"),
+                              onPressed: () => speakcommandment("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +192,11 @@ class EnglishEntrycommandant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: فەرماندار، فەرماندەر، سەرکردە
+کوردی: دەستوور، فەرمان، دەستوور یان فەرمانی خودا(یی)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەفسەرێک کە بەرپرسی گرووپێکی سەربازی یان دامەزراوەیەکە"),
+                                  "١. (ناو) دەستوورێکی خودا، بە تایبەتی ئەو دە فەرمانەی خودا بە ئیسرائیلییەکانی دا"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,20 +204,53 @@ class EnglishEntrycommandant extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She was appointed as the new commandant."),
+                                            "You shall keep the commandments of the Lord your God."),
                                     ExampleSentenceKurdish(
-                                        text: "وەک فەرمانداری تازە دیاریکرا."),
+                                        text:
+                                            "دەبێت پابەندی دەستووری خودای گەورەت بیت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commandant", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "commandment", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommandants1("en-GB"),
+                                    onPressed: () =>
+                                        speakcommandments1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommandants1("en-US"),
+                                    onPressed: () =>
+                                        speakcommandments1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Someone brought to his notice the fifth commandment: honour thy father and mother."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێک دەستووری پێنجەمی بەبیرهێنایەوە: ڕێزی دایک و باوکت بگرە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcommandments2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcommandments2("en-US"),
                                   ),
                                 ],
                               ),
@@ -304,8 +338,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commandant (Derived forms: commandants)
-1. (military) an officer in command of a military unit (= commanding officer, commander)
+- Noun: commandment (Derived forms: commandments)
+1. Something that is commanded
+ 
+2. A doctrine that is taught (= teaching, precept)
+"the commandments of religion";
 """,
   );
 
@@ -338,8 +375,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ATQTAB36AI0?t=',
-    startSeconds: 38,
+    videoId: 'https://youtu.be/hYE5Lipyh_Q?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +400,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3D3zLIQjngM?t=',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/wJa5Ch0O4BI?t=',
+    startSeconds: 1984,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +425,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WZ256UU8xJ0?t=',
-    startSeconds: 315,
+    videoId: 'https://youtu.be/1C3iFrC-dRw?t=',
+    startSeconds: 690,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +450,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fU_pilTk624?t=',
-    startSeconds: 879,
+    videoId: 'https://youtu.be/LKNfFm0QDXQ?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +475,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/maoXVwSIyPc?t=',
-    startSeconds: 194,
+    videoId: 'https://youtu.be/LKNfFm0QDXQ?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +500,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bnhF_Qw0dtk?t=',
-    startSeconds: 834,
+    videoId: 'https://youtu.be/db-lE_f2U5I?t=',
+    startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +525,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-_PU0cRZ9wg?t=',
-    startSeconds: 907,
+    videoId: 'https://youtu.be/MQ49UP04GZI?t=',
+    startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

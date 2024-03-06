@@ -3235,7 +3235,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_commission.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_commissioner.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_commit.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_commitment.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6803,7 +6803,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-commission": (_) => MaterialPage(child: EnglishEntrycommission()),
   "/english-commissioner": (_) => MaterialPage(child: EnglishEntrycommissioner()),
   "/english-commit": (_) => MaterialPage(child: EnglishEntrycommit()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-commitment": (_) => MaterialPage(child: EnglishEntrycommitment()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

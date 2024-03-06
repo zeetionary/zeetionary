@@ -48,7 +48,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company has shown a commitment to diversity over the years."); // DOPSUM: CHANGE TEXT
+        "He questioned the government's commitment to public services."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments4(String languageCode) async {
@@ -56,7 +56,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We're looking for a firm commitment from both sides."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments5(String languageCode) async {
@@ -64,7 +65,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They reaffirmed their commitment to work for peace."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments6(String languageCode) async {
@@ -72,7 +74,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has demonstrated exceptional commitment and dedication."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments7(String languageCode) async {
@@ -80,7 +83,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This post demands a high level of commitment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments8(String languageCode) async {
@@ -88,7 +92,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A career as an actor requires one hundred per cent commitment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments9(String languageCode) async {
@@ -96,7 +101,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was criticized for her lack of commitment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments10(String languageCode) async {
@@ -104,7 +110,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He's busy for the next month with filming commitments."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments11(String languageCode) async {
@@ -112,7 +119,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Women very often have to juggle work with their family commitments."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments12(String languageCode) async {
@@ -120,7 +128,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I don't want to take on any more commitments."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommitments13(String languageCode) async {
@@ -264,10 +273,10 @@ class EnglishEntrycommitment extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "The company has shown a commitment to diversity over the years."),
+                                                    "He questioned the government's commitment to public services."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کۆمپانیاکە بەڵێنیداوە کە لە ساڵانی داهاتوودا."),
+                                                    "گومانی خستە سەر پابەندی حکومەت بە خزمەتگوزارییە گشتییەکان."),
                                           ],
                                         ),
                                       ),
@@ -285,6 +294,293 @@ class EnglishEntrycommitment extends StatelessWidget {
                                         ],
                                       ),
                                     ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We're looking for a firm commitment from both sides."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە هیوای پابەندی پتەوین لە هەردوو لایەنەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcommitments4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcommitments4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "They reaffirmed their commitment to work for peace."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پابەندبوونیان بە کارکردن بۆ ئاشتی دووپاتکردەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcommitments5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcommitments5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (ناو) ویستی کارکردن بە سەختی و پێدانی وزە و کاتت بۆ کردنی کارێک یان چالاکییەک"),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He has demonstrated exceptional commitment and dedication."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پابەندی و لەخۆبوردوویی بێ‌وێنەی پیشانداوە بۆ کردنی کارەکە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcommitments6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcommitments6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "This post demands a high level of commitment."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەم پێگەیە بەرپرسیاریەتی زۆری دەوێت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcommitments7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcommitments7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  Column(
+                                    children: [
+                                      MyExpansionTile(
+                                        children: [
+                                          Row(
+                                            children: [
+                                              const Expanded(
+                                                child: Column(
+                                                  children: [
+                                                    ExampleSentenceEnglish(
+                                                        text:
+                                                            "A career as an actor requires one hundred per cent commitment."),
+                                                    ExampleSentenceKurdish(
+                                                        text:
+                                                            "کارکردن وەک ئەکتەرێک پێویستی بە پابەندی سەد لە سەدە."),
+                                                  ],
+                                                ),
+                                              ),
+                                              const CustomSizedBoxForTTS(),
+                                              Column(
+                                                children: [
+                                                  CustomIconButtonBritish(
+                                                    onPressed: () =>
+                                                        speakcommitments8(
+                                                            "en-GB"),
+                                                  ),
+                                                  CustomIconButtonAmerican(
+                                                    onPressed: () =>
+                                                        speakcommitments8(
+                                                            "en-US"),
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
+                                          const DividerSentences(),
+                                          Row(
+                                            children: [
+                                              const Expanded(
+                                                child: Column(
+                                                  children: [
+                                                    ExampleSentenceEnglish(
+                                                        text:
+                                                            "She was criticized for her lack of commitment."),
+                                                    ExampleSentenceKurdish(
+                                                        text:
+                                                            "ڕەخنەی لێ گیردرا بۆ کەمی خۆتەرخانکردنی."),
+                                                  ],
+                                                ),
+                                              ),
+                                              const CustomSizedBoxForTTS(),
+                                              Column(
+                                                children: [
+                                                  CustomIconButtonBritish(
+                                                    onPressed: () =>
+                                                        speakcommitments9(
+                                                            "en-GB"),
+                                                  ),
+                                                  CustomIconButtonAmerican(
+                                                    onPressed: () =>
+                                                        speakcommitments9(
+                                                            "en-US"),
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) شتێک کە بەڵێنت داوە یان ڕازی بوویت کە بیکەیت، یان ئەوەی دەبێت بیکەیت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's busy for the next month with filming commitments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ مانگی داهاتوو سەرقاڵە بە کاری وێنەگرتنی فیلمەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcommitments10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcommitments10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Women very often have to juggle work with their family commitments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنان زۆرجار دەبێت مامەڵە لەگەڵ کار و بەرپرسیاریەتی خێزانیدا بکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcommitments11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcommitments11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't want to take on any more commitments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەوێت هیچ بەرپرسیاریەتی دیکە لە ئەستۆ بگرم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcommitments12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcommitments12("en-US"),
                                   ),
                                 ],
                               ),

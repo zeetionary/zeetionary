@@ -3,85 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "barrister" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
-
-// replace barrister - replace EnglishEntrybarrister
-
-// replace speakBarrister - /ˈbærɪstə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybarrister extends StatelessWidget {
+class EnglishEntrycommiserate extends StatelessWidget {
 // blank divider
-  EnglishEntrybarrister({super.key});
+  EnglishEntrycommiserate({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarrister(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserate(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barrister"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commiserate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers1(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The barrister for the defendant picked up on the inconsistency."); // DOPSUM: CHANGE TEXT
+        "She commiserated with the losers on their defeat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers2(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarristers22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommiserates200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers3(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarristers33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommiserates300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers4(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarristers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommiserates400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers5(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarristers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommiserates500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers6(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarristers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommiserates600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarristers7(String languageCode) async {
-    // DOPSUM: CHANGE speakBarrister
+  Future<void> speakcommiserates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarristers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommiserates700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcommiserates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcommiserates800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcommiserates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcommiserates900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcommiserates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcommiserates1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcommiserates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcommiserates1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcommiserates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcommiserates1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcommiserates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcommiserate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcommiserates1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -104,22 +149,22 @@ class EnglishEntrybarrister extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "barrister"),
+                            EntryTitle(word: "commiserate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbærɪstə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈmɪzəreɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarrister("en-GB"),
+                              onPressed: () => speakcommiserate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbærɪstər/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈmɪzəreɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarrister("en-US"),
+                              onPressed: () => speakcommiserate("en-US"),
                             ),
                           ],
                         ),
@@ -132,7 +177,7 @@ class EnglishEntrybarrister extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -146,11 +191,11 @@ class EnglishEntrybarrister extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پارێزەر، ئەولەکار، ئاوکات
+کوردی: دڵسۆزیکردن، دڵدانەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پارێزەرێک لە بەریتانیا کە مافی ھەیە تانە بدات لە بڕیارێک بدات لە دادگای باڵا"),
+                                  "١. (کردار) دڵدانەوەی کەسێک کە کاتێک بێزار یان هیوابڕاون"),
                           Row(
                             children: [
                               const Expanded(
@@ -158,28 +203,28 @@ class EnglishEntrybarrister extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The barrister for the defendant picked up on the inconsistency."),
+                                            "She commiserated with the losers on their defeat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارێزەری بەرگریکارەکە کاردانەوەی ھەبوو بۆ دژبەیەکییەکە."),
+                                            "هاوسۆزی دەربڕی بۆ دۆڕاوەکان بەهۆی شکستەکەیان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "commiserate", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarristers1("en-GB"),
+                                    onPressed: () =>
+                                        speakcommiserates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarristers1("en-US"),
+                                    onPressed: () =>
+                                        speakcommiserates1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -190,16 +235,23 @@ class EnglishEntrybarrister extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -242,7 +294,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -252,12 +304,12 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: barrister (derived forms: barristers)
-Usage: Brit, Cdn
-1. (law) A lawyer who speaks in the higher courts of law on behalf of either the defence or prosecution
+- Verb: commiserate (Derived forms: commiserated, commiserates, commiserating)
+1. To feel or express sympathy or compassion (= sympathize, sympathise [Brit])
+"Commiserate with him, he knew that she herself would not care";
 """,
   );
 
@@ -286,12 +338,37 @@ Usage: Brit, Cdn
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/VFHiKAfPpGk?t=',
+    startSeconds: 517,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qg2nGY1aqlg',
-    startSeconds: 963,
+    videoId: 'https://youtu.be/_9rucsh5brg?t=',
+    startSeconds: 501,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -315,8 +392,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NG4Ws74RV04',
-    startSeconds: 205,
+    videoId: 'https://youtu.be/8411lsU1ArA?t=',
+    startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -340,8 +417,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lgYfRGDiPDs',
-    startSeconds: 138,
+    videoId: 'https://youtu.be/LT3OlQd9hCk?t=',
+    startSeconds: 225,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -365,8 +442,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'datRG-RokSU',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/R1T239zdTVo?t=',
+    startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +467,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '23MeWScevpk',
-    startSeconds: 247,
+    videoId: 'https://youtu.be/-Yz78dFgjKQ?t=',
+    startSeconds: 343,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +492,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'N0vbYBWzNMk',
-    startSeconds: 194,
+    videoId: 'https://youtu.be/0_KhihMIOG8?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -436,79 +513,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iDx_QEucMac',
-    startSeconds: 594,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'M1UGGZnHyf8',
-    startSeconds: 56,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'S0zRJuMzVrs',
-    startSeconds: 91,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end barrister// TODO Implement this library.
+// end WORD_WEB

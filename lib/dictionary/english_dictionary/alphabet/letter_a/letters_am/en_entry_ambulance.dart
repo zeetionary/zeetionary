@@ -111,7 +111,7 @@ class EnglishEntryambulance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ماشێنی فریاکەوتن، نەخۆش‌بەر، نەخۆش‌ھەڵگر، نەخۆش‌خانەی گەڕۆک
+کوردی: ئۆتۆمبێلی فریاکەوتن، نەخۆش‌بەر، نەخۆش‌ھەڵگر، نەخۆش‌خانەی گەڕۆک
 """),
                           const DefinitionKurdish(
                               text:

@@ -157,7 +157,7 @@ class EnglishEntryappliance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەزگا، ئامێر، کەرەسە، ئامراز، کەل‌وپەل، ھەجەت، بەکارھێنان، پیادەکردن، خستنەکار، کاربەندی، ماشێنی ئاگرکوژاندنەوە
+کوردی: دەزگا، ئامێر، کەرەسە، ئامراز، کەل‌وپەل، ھەجەت، بەکارھێنان، پیادەکردن، خستنەکار، کاربەندی، ئۆتۆمبێلی ئاگرکوژاندنەوە
 """),
                           const DefinitionKurdish(
                               text:

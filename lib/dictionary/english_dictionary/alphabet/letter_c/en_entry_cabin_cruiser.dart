@@ -194,7 +194,7 @@ class EnglishEntrycabincruiser extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کەشتی شەڕکەر، کەشتی جەنگی، بەلەمی ڕابواردن، (نافەرمی، ئەمریکا) ماشێنی چەرخەچی
+کوردی: کەشتی شەڕکەر، کەشتی جەنگی، بەلەمی ڕابواردن، (نافەرمی، ئەمریکا) ئۆتۆمبێلی چەرخەچی
 """),
                           const DefinitionKurdish(
                               text:

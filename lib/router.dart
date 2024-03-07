@@ -3255,22 +3255,22 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_communique.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_communism.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_communist.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_community.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_commute.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_commuter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_compact.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_compactly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_compactness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_companion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_companionship.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_company.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comparable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comparative.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comparatively.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_compare.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_comparison.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_compartment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_compass.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -6823,22 +6823,22 @@ final loggedInRoute = RouteMap(routes: {
   "/english-communique": (_) => MaterialPage(child: EnglishEntrycommunique()),
   "/english-communism": (_) => MaterialPage(child: EnglishEntrycommunism()),
   "/english-communist": (_) => MaterialPage(child: EnglishEntrycommunist()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-community": (_) => MaterialPage(child: EnglishEntrycommunity()),
+  "/english-commute": (_) => MaterialPage(child: EnglishEntrycommute()),
+  "/english-commuter": (_) => MaterialPage(child: EnglishEntrycommuter()),
+  "/english-compact": (_) => MaterialPage(child: EnglishEntrycompact()),
+  "/english-compactly": (_) => MaterialPage(child: EnglishEntrycompactly()),
+  "/english-compactness": (_) => MaterialPage(child: EnglishEntrycompactness()),
+  "/english-companion": (_) => MaterialPage(child: EnglishEntrycompanion()),
+  "/english-companionship": (_) => MaterialPage(child: EnglishEntrycompanionship()),
+  "/english-company": (_) => MaterialPage(child: EnglishEntrycompany()),
+  "/english-comparable": (_) => MaterialPage(child: EnglishEntrycomparable()),
+  "/english-comparative": (_) => MaterialPage(child: EnglishEntrycomparative()),
+  "/english-comparatively": (_) => MaterialPage(child: EnglishEntrycomparatively()),
+  "/english-compare": (_) => MaterialPage(child: EnglishEntrycompare()),
+  "/english-comparison": (_) => MaterialPage(child: EnglishEntrycomparison()),
+  "/english-compartment": (_) => MaterialPage(child: EnglishEntrycompartment()),
+  "/english-compass": (_) => MaterialPage(child: EnglishEntrycompass()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

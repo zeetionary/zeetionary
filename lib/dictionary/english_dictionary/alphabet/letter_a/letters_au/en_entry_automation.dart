@@ -161,7 +161,7 @@ class EnglishEntryautomation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ماشێنی‌کردن، خۆکارگێڕی، بەخۆکارکردن
+کوردی: ئۆتۆمبێلی‌کردن، خۆکارگێڕی، بەخۆکارکردن
 """),
                           const DefinitionKurdish(
                               text:

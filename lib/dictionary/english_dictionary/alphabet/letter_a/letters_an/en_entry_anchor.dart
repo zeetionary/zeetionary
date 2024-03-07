@@ -157,7 +157,7 @@ class EnglishEntryanchor extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەنگەر، پشت‌وپەنا، پشتیوان، وەستێنەی ماشێنی
+کوردی: لەنگەر، پشت‌وپەنا، پشتیوان، وەستێنەی ئۆتۆمبێلی
 """),
                           const DefinitionKurdish(
                               text:

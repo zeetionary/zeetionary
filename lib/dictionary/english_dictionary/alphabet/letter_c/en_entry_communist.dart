@@ -30,7 +30,7 @@ class EnglishEntrycommunist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcommunists111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "Demonstrators denounce the event as Communist propaganda."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommunists2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycommunist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunists200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If one country in a region became communist, others would follow."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommunists3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycommunist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunists300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The president of the new democracy is actually a former Communist."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommunists4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycommunist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunists400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Communists have ruled the country since 1959."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommunists5(String languageCode) async {
@@ -190,11 +193,11 @@ class EnglishEntrycommunist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پێنناسە"),
+                              text: "١. (ھاوەڵناو) پەیوەندیدار بە کۆمیونیزم"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,9 +205,10 @@ class EnglishEntrycommunist extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "// speakcommunists111111111111111111111111111111111"),
+                                            "Demonstrators denounce the event as Communist propaganda."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "خۆپیشاندەران سەرکۆنەی بۆنەکەیان وەک پڕوپاگەندەی کۆمیونیزم کرد."),
                                   ],
                                 ),
                               ),
@@ -216,6 +220,96 @@ class EnglishEntrycommunist extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcommunists1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) وڵاتێک، هتد کە سیستەمی کۆمیونیزمی هەیە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If one country in a region became communist, others would follow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر یەک وڵات لە هەرێمەکە ببێت بە کۆمیونیزم ئەوانی دیکە شوێنی دەکەون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcommunists2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcommunists2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) کەسێک کە باوەڕی بە کۆمیونیزم هەیە، بەتایبەتی کەسێک کە ئەندامی پارتێکی کۆمیونیستە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president of the new democracy is actually a former Communist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆکی وڵاتە دیموکراسییەکە لە ڕاستیدە کۆنە کۆمیونیستێکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcommunists3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcommunists3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Communists have ruled the country since 1959."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ساڵی ١٩٥٩ ـوە کۆمیونیستەکان حوکمی وڵاتەکەیان کردووە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcommunists4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcommunists4("en-US"),
                                   ),
                                 ],
                               ),
@@ -344,7 +438,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PJIIZm_JO_4?t=',
+    videoId: 'PJIIZm_JO_4',
     startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -369,7 +463,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l31zZHfSUjA?t=',
+    videoId: 'l31zZHfSUjA',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +488,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WRU5m3Q3gkw?t=',
+    videoId: 'WRU5m3Q3gkw',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +513,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VVq2pA6dm2A?t=',
+    videoId: 'VVq2pA6dm2A',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,8 +538,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: '1XwKXR-KEvk',
+    startSeconds: 1332,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +563,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'dHt3gqNfqbE',
+    startSeconds: 975,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -482,4 +576,37 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    r
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'opoGlCP20Co',
+    startSeconds: 69,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+// end WORD_WEB

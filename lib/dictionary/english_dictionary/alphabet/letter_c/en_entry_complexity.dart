@@ -3,84 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bonus" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace bonus - /ˈbəʊnəs/
 
 enum TtsState { playing }
 
-class EnglishEntrybonus extends StatelessWidget {
+class EnglishEntrycomplexity extends StatelessWidget {
 // blank divider
-  EnglishEntrybonus({super.key});
+  EnglishEntrycomplexity({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbonus(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexity(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bonus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("complexity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All employees get an annual bonus before the summer holidays."); // DOPSUM: CHANGE TEXT
+        "I was astonished by the size and complexity of the problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As a bonus, club members can get free tickets for all the family."); // DOPSUM: CHANGE TEXT
+        "Only now did he understand the full complexity of the problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The critics failed to understand the structural complexities of the novel's language."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexitys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexitys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexitys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexitys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexitys700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexitys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexitys800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexitys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexitys900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexitys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexitys1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexitys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexitys1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexitys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexitys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexitys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexitys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +151,22 @@ class EnglishEntrybonus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bonus"),
+                            EntryTitle(word: "complexity"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbəʊnəs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈpleksəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbonus("en-GB"),
+                              onPressed: () => speakcomplexity("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbəʊnəs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈpleksəti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbonus("en-US"),
+                              onPressed: () => speakcomplexity("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +179,7 @@ class EnglishEntrybonus extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,11 +193,10 @@ class EnglishEntrybonus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خەڵات، دەس‌خۆشانە، پاداشت، زیادی، سەرخراوە، سەربار، شتی زیادی، خاڵ
+کوردی: ئاڵۆزی، پێچەڵاوپێچی، سەختی، دژواری، ئاریشی، گرفتی
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"),
+                              text: "١. (ناو) ئاڵۆزی؛ پێکهاتوو لە بەشی زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -157,10 +204,38 @@ class EnglishEntrybonus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "All employees get an annual bonus before the summer holidays."),
+                                            "I was astonished by the size and complexity of the problem."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەموو کارمەندان بەخشیشێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
+                                            "سەرسام بووم بە ئەندازە و ئاڵۆزی کێشەکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "complexity", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcomplexitys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcomplexitys1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Only now did he understand the full complexity of the problem."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنها ئێستا لە ئاڵۆزی تەواوی کێشەکە تێدەگات."),
                                   ],
                                 ),
                               ),
@@ -168,10 +243,10 @@ class EnglishEntrybonus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss1("en-GB"),
+                                    onPressed: () => speakcomplexitys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss1("en-US"),
+                                    onPressed: () => speakcomplexitys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -180,7 +255,7 @@ class EnglishEntrybonus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ھەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
+                                  "٢. (ناو) لایەنەکانی کێشەیەک یان دۆخێک کە سەختن بۆ تێگەشتن"),
                           Row(
                             children: [
                               const Expanded(
@@ -188,10 +263,10 @@ class EnglishEntrybonus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "As a bonus, club members can get free tickets for all the family."),
+                                            "The critics failed to understand the structural complexities of the novel's language."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
+                                            "ڕەخنەگران نەیانتوانی لە ئاڵۆزی داڕشتنی زمانی ڕۆمانەکە تێبگەن."),
                                   ],
                                 ),
                               ),
@@ -199,10 +274,10 @@ class EnglishEntrybonus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss2("en-GB"),
+                                    onPressed: () => speakcomplexitys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss2("en-US"),
+                                    onPressed: () => speakcomplexitys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -218,11 +293,11 @@ class EnglishEntrybonus extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -234,6 +309,7 @@ class EnglishEntrybonus extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -276,7 +352,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -286,16 +362,14 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bonus (derived forms: bonuses)
-1. An additional payment (or other remuneration) to employees as a means of increasing output (= incentive)
+- Noun: complexity (Derived forms: complexities)
+1. The quality of being intricate and compounded (= complexness)
+"he enjoyed the complexity of modern computers";
  
-2. Anything that makes one feel encouraged (= fillip, shot in the arm)
-"his approval was an added bonus";
-
-3. A welcome unexpected event
+2. A development that complicates a situation (= complication, ramification)
 """,
   );
 
@@ -324,12 +398,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/o_ZuWbX-CyE?t=',
+    startSeconds: 156,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8HEfIJlcFbs',
-    startSeconds: 402,
+    videoId: 'https://youtu.be/AzanFEBnHhY?t=',
+    startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -353,8 +452,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '544DTGHIBM0',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/DFiViBIJoFA?t=',
+    startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +477,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_LUX70mXcEE',
-    startSeconds: 213,
+    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    startSeconds: 1152,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +502,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bFl3_J2gBu4',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    startSeconds: 1497,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +527,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WUjVPIEtJd0',
-    startSeconds: 453,
+    videoId: 'https://youtu.be/Unzc731iCUY?t=',
+    startSeconds: 2016,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +552,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W8uXhQnWgj4',
-    startSeconds: 888,
+    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,104 +573,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oD9BaNAH-eE',
-    startSeconds: 1093,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ALaTm6VzTBw',
-    startSeconds: 134,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gzF7aHxk4Y4',
-    startSeconds: 984,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0twDETh6QaI',
-    startSeconds: 713,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bonus
+// end WORD_WEB

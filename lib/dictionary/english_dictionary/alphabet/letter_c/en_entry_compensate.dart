@@ -10,126 +10,127 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycompass extends StatelessWidget {
+class EnglishEntrycompensate extends StatelessWidget {
 // blank divider
-  EnglishEntrycompass({super.key});
+  EnglishEntrycompensate({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcompass(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensate(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compensate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A compass shows you which direction is north."); // DOPSUM: CHANGE TEXT
+        "Nothing can compensate for the loss of a loved one."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People arrived from all points of the compass."); // DOPSUM: CHANGE TEXT
+        "The advantages of the plan more than compensate for the risks associated with it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You will need sharp scissors, a ruler, and a pair of compasses for making circles."); // DOPSUM: CHANGE TEXT
+        "She was so ashamed of her treatment of him that she felt she should compensate him in some way."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The discussion went beyond the compass of my brain."); // DOPSUM: CHANGE TEXT
+        "In the second experiment, the temperature was raised to compensate for this bias."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her lawyers say she should be compensated for the suffering she had been caused."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompensates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompensate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompensates1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +153,22 @@ class EnglishEntrycompass extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "compass"),
+                            EntryTitle(word: "compensate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkʌmpəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒmpenseɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcompass("en-GB"),
+                              onPressed: () => speakcompensate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkʌmpəs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːmpenseɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcompass("en-US"),
+                              onPressed: () => speakcompensate("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +195,11 @@ class EnglishEntrycompass extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لادۆز(ە)، پوسڵە، قیبلەنوێن، قیبلەنما،	پەڕگار، پەرگاڵ، پڕگار، جەغزینگ، بازنەکێش،	پانتایی، بەرینە، ڕاخستە، بوار، مەڵبەند، دەنگەوار؛ سنوور، سەرحەد، تخوب،	توانست، توانایی، هێز
+کوردی: تاوان دان، خەسارەت پێدان، تۆڵە کردنەوە، قەرەبوو کردن، بژاردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئامێرێک کە دەزییەکی هەیە هەمیشە ڕوو لە باکوور دەکات و بۆ دۆزینەوەی ئاراستە بەکاردێت"),
+                                  "١. (کردار) دابینکردنی شتێکی باش بۆ نەهێشتن یان کەمکردنەوەی کاریگەری خراپی شتێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,21 +207,21 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A compass shows you which direction is north."),
+                                            "Nothing can compensate for the loss of a loved one."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە."),
+                                            "هیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compass", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "compensate", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss1("en-GB"),
+                                    onPressed: () => speakcompensates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss1("en-US"),
+                                    onPressed: () => speakcompensates1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +235,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "People arrived from all points of the compass."),
+                                            "The advantages of the plan more than compensate for the risks associated with it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) خەڵکی لە هەموو ئاراستەکانەوە هاتن."),
+                                            "سوودەکانی پلانەکە زیاد لە پێویست قەرەبووی مەترسییەکان دەکاتەوە کە لەگەڵیدایە."),
                                   ],
                                 ),
                               ),
@@ -245,10 +246,38 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss2("en-GB"),
+                                    onPressed: () => speakcompensates2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss2("en-US"),
+                                    onPressed: () => speakcompensates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was so ashamed of her treatment of him that she felt she should compensate him in some way."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر شەرمەزار بوو بە مامەڵەکردن لەگەڵی کە هەستی کرد دەبێت بەشێوەیەک قەرەبووی بکاتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompensates3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompensates3("en-US"),
                                   ),
                                 ],
                               ),
@@ -257,7 +286,7 @@ class EnglishEntrycompass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پەرگاڵ؛ ئامێرێک کە لە دوو لاقی باریکی درێژ پێکهاتووە و بەکاردێت بۆ کێشانی بازنە یان پێوانی دووری لەسەر نەخشەیەک"),
+                                  "٢. (کردار) ڕاستکردنەوە یان هاوسەنگی ڕاگرتنی هەڵەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -265,10 +294,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You will need sharp scissors, a ruler, and a pair of compasses for making circles."),
+                                            "In the second experiment, the temperature was raised to compensate for this bias."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستیت بە مەقەستی تیژ، ڕاستەیەک، و جووتێک پەرگاڵ دەبێت بۆ کێشانی بازنە."),
+                                            "لە دووەم تاقیکردنەوەدا، پلەی گەرمی بەرزکرایەوە بۆ ڕاستکردنەوەی ئەم نادرووستییە."),
                                   ],
                                 ),
                               ),
@@ -276,10 +305,10 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss3("en-GB"),
+                                    onPressed: () => speakcompensates4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss3("en-US"),
+                                    onPressed: () => speakcompensates4("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,7 +316,8 @@ class EnglishEntrycompass extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) ڕێژەیەکی دیاریکراو"),
+                              text:
+                                  "٣. (کردار) پێدانی پارە بۆ قەرەبووکردنەوەی زیان، لەدەستدان، برین، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +325,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The discussion went beyond the compass of my brain."),
+                                            "Her lawyers say she should be compensated for the suffering she had been caused."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بابەتەکە زیاتر لە توانای مێشکم درێژەی کێشا."),
+                                            "پارێزەرەکانی دەڵێن دەبێت قەرەبوو بکرێتەوە بۆ ئەو ناڕەحەتییەی تووشی کراوە."),
                                   ],
                                 ),
                               ),
@@ -306,10 +336,10 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss4("en-GB"),
+                                    onPressed: () => speakcompensates5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss4("en-US"),
+                                    onPressed: () => speakcompensates5("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,25 +427,24 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compass 
-1. Navigational instrument for finding directions
+- Verb: compensate (Derived forms: compensated, compensates, compensating)
+1. Adjust for (= counterbalance, correct, make up, even out, even off, even up)
+"engineers will work to compensate the effects of air resistance";
  
-2. An area in which something acts or operates or has power or control: (= scope, range, reach, orbit, ambit)
-"within the compass of this article";
+2. Make amends for; pay compensation for (= recompense, repair, indemnify)
+"She was compensated for the loss of her arm in the accident";
  
-3. The limit of capability (= range, reach, grasp)
-"within the compass of education";
+3. Make up for shortcomings or a feeling of inferiority by exaggerating good qualities (= cover, overcompensate)
+"he is compensating for being a bad father";
  
-4. Drafting instrument used for drawing circles
-
-- Verb: compass 
-1. Travel around, either by plane or ship (= circumnavigate)
-"We compassed the earth";
+4. Make reparations or amends for (= right, redress, correct)
+"compensate a wrong done to the victims of the Holocaust";
  
-2. Get the meaning of something (= grok [N. Amer, informal], get the picture, comprehend, savvy, dig [informal], grasp, apprehend)
+5. Do or give something to somebody in return (= pay, pay off, make up)
+"Does she compensate you for the work you are doing?";
  
-3. [archaic] Bring about; accomplish (= Derived forms: compassing, compassed, compasses)
-"This writer attempts more than his talents can compass"
+6. Make payment to; compensate (= recompense, remunerate)
+"My efforts were not compensated";
 """,
   );
 
@@ -448,8 +477,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aY0OtOy6lcE?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/GIMVge5TYz4?t=',
+    startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -473,8 +502,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gn_yY6L8wy4?t=',
-    startSeconds: 19,
+    videoId: 'https://youtu.be/DMRMWLwvAGA?t=',
+    startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +527,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lNpHlmh_TBc',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/0ssySdK98zk?t=',
+    startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +552,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dp8VOG8Cgag?t=',
-    startSeconds: 82,
+    videoId: 'https://youtu.be/afpoNnOnD3k?t=',
+    startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -548,8 +577,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_cblY5cwwIA?t=',
-    startSeconds: 78,
+    videoId: 'https://youtu.be/uENndGyAJZ4?t=',
+    startSeconds: 2014,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -573,8 +602,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N_XVLi4jhCQ?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/H6M-o-Lg9-c?t=',
+    startSeconds: 435,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -598,8 +627,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WYfGkv6OTgk?t=',
-    startSeconds: 777,
+    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    startSeconds: 1011,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

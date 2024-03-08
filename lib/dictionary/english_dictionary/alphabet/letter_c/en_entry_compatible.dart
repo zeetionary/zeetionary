@@ -3,84 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bonus" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace bonus - /ˈbəʊnəs/
 
 enum TtsState { playing }
 
-class EnglishEntrybonus extends StatelessWidget {
+class EnglishEntrycompatible extends StatelessWidget {
 // blank divider
-  EnglishEntrybonus({super.key});
+  EnglishEntrycompatible({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbonus(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatible(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bonus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compatible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All employees get an annual bonus before the summer holidays."); // DOPSUM: CHANGE TEXT
+        "The new system will be compatible with existing equipment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As a bonus, club members can get free tickets for all the family."); // DOPSUM: CHANGE TEXT
+        "Are measures to protect the environment compatible with economic growth?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It was when we started living together that we found we just weren't compatible."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Are their two blood groups compatible?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompatibles500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompatibles600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcompatibles7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompatibles700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompatibles8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompatibles800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompatibles9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompatibles900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompatibles10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompatibles1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompatibles11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompatibles1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompatibles12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompatibles1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompatibles13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompatible
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompatibles1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +152,22 @@ class EnglishEntrybonus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bonus"),
+                            EntryTitle(word: "compatible"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbəʊnəs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈpætəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbonus("en-GB"),
+                              onPressed: () => speakcompatible("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbəʊnəs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈpætəbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbonus("en-US"),
+                              onPressed: () => speakcompatible("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +180,7 @@ class EnglishEntrybonus extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,11 +194,11 @@ class EnglishEntrybonus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خەڵات، دەس‌خۆشانە، پاداشت، زیادی، سەرخراوە، سەربار، شتی زیادی، خاڵ
+کوردی: سازاو، گونجاو، ڕاهاتوو، کۆک، ڕێک‌کەوتوو، جۆر، بۆبوو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"),
+                                  "١. (ھاوەڵناو) ئامێر کە دەکرێت پێکەوە بەکاربێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -157,21 +206,21 @@ class EnglishEntrybonus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "All employees get an annual bonus before the summer holidays."),
+                                            "The new system will be compatible with existing equipment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەموو کارمەندان بەخشیشێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
+                                            "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان هەیە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "compatible", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss1("en-GB"),
+                                    onPressed: () => speakcompatibles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss1("en-US"),
+                                    onPressed: () => speakcompatibles1("en-US"),
                                   ),
                                 ],
                               ),
@@ -180,7 +229,7 @@ class EnglishEntrybonus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ھەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
+                                  "٢. (ھاوەڵناو) بیرۆکە، بیردۆز، شت، هتد کە دەکرێت پێکەوە بەکاربێن بەبێ کێشە"),
                           Row(
                             children: [
                               const Expanded(
@@ -188,10 +237,10 @@ class EnglishEntrybonus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "As a bonus, club members can get free tickets for all the family."),
+                                            "Are measures to protect the environment compatible with economic growth?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
+                                            "ئایا هەنگاوەکان بۆ پاراستنی ژینگە لە سازاندان لەگەڵ گەشەی ئابووری؟"),
                                   ],
                                 ),
                               ),
@@ -199,10 +248,69 @@ class EnglishEntrybonus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss2("en-GB"),
+                                    onPressed: () => speakcompatibles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss2("en-US"),
+                                    onPressed: () => speakcompatibles2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are their two blood groups compatible (= can blood from one person be given to the other person)?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دوو گرووپە خوێنە پێکەوە دەگونجێن؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompatibles4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompatibles4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) گونجانی دوو کەس پێکەوە بەهۆی ئەوەی حەز، خولیاو، و بیرکردنەوەی وەک یەکیان هەیە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was when we started living together that we found we just weren't compatible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کاتەی پێکەوە دەستمان بە ژیان کرد زانیمان پێکەوە ناگونجێین."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompatibles3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompatibles3("en-US"),
                                   ),
                                 ],
                               ),
@@ -218,11 +326,11 @@ class EnglishEntrybonus extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -234,6 +342,7 @@ class EnglishEntrybonus extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -276,7 +385,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -286,16 +395,16 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bonus (derived forms: bonuses)
-1. An additional payment (or other remuneration) to employees as a means of increasing output (= incentive)
+- Adjective: compatible 
+1. Able to exist and perform in harmonious or agreeable combination (= simpatico [informal])
+"her deeds were compatible with her ideology"; "a compatible married couple";
  
-2. Anything that makes one feel encouraged (= fillip, shot in the arm)
-"his approval was an added bonus";
-
-3. A welcome unexpected event
+2. Capable of forming a homogeneous mixture that neither separates nor is altered by chemical interaction
+ 
+3. Capable of being used with or connected to other devices or components without modification
 """,
   );
 
@@ -324,12 +433,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/7Fjn4GRw8qE?t=',
+    startSeconds: 1161,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8HEfIJlcFbs',
-    startSeconds: 402,
+    videoId: 'https://youtu.be/QVoleJYgdM8?t=',
+    startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -353,8 +487,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '544DTGHIBM0',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/QcUey-DVYjk?t=',
+    startSeconds: 1101,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +512,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_LUX70mXcEE',
-    startSeconds: 213,
+    videoId: 'https://youtu.be/PXaLc9AYIcg?t=',
+    startSeconds: 2056,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +537,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bFl3_J2gBu4',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    startSeconds: 954,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +562,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WUjVPIEtJd0',
-    startSeconds: 453,
+    videoId: 'https://youtu.be/snFyGHu8gUs?t=',
+    startSeconds: 995,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +587,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W8uXhQnWgj4',
-    startSeconds: 888,
+    videoId: 'https://youtu.be/hDDTUb_1cQc?t=',
+    startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,104 +608,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oD9BaNAH-eE',
-    startSeconds: 1093,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ALaTm6VzTBw',
-    startSeconds: 134,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gzF7aHxk4Y4',
-    startSeconds: 984,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0twDETh6QaI',
-    startSeconds: 713,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bonus
+// end WORD_WEB

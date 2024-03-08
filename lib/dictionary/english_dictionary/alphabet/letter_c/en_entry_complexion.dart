@@ -3,84 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bonus" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace bonus - /ˈbəʊnəs/
 
 enum TtsState { playing }
 
-class EnglishEntrybonus extends StatelessWidget {
+class EnglishEntrycomplexion extends StatelessWidget {
 // blank divider
-  EnglishEntrybonus({super.key});
+  EnglishEntrycomplexion({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbonus(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexion(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bonus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("complexion"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All employees get an annual bonus before the summer holidays."); // DOPSUM: CHANGE TEXT
+        "Years of heavy drinking had given Alison a florid complexion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As a bonus, club members can get free tickets for all the family."); // DOPSUM: CHANGE TEXT
+        "Hughes helped change the complexion of Hollywood."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexions300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexions400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexions500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexions600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbonus
+  Future<void> speakcomplexions7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonuss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplexions700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexions8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexions800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexions9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexions900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexions10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexions1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexions11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexions1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexions12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexions1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplexions13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplexion
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplexions1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +150,22 @@ class EnglishEntrybonus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bonus"),
+                            EntryTitle(word: "complexion"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbəʊnəs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈplekʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbonus("en-GB"),
+                              onPressed: () => speakcomplexion("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbəʊnəs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈplekʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbonus("en-US"),
+                              onPressed: () => speakcomplexion("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +178,7 @@ class EnglishEntrybonus extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,11 +192,11 @@ class EnglishEntrybonus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خەڵات، دەس‌خۆشانە، پاداشت، زیادی، سەرخراوە، سەربار، شتی زیادی، خاڵ
+کوردی: شێوە، ڕواڵەت، ڕەنگ‌وڕوو، ڕەنگ، ڕوخسار، دەم‌وچاو، پێست،	ڕووکەش، ڕووکار، بیچم، ڕوخسار
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"),
+                                  "١. (ناو) ڕەنگی سرووشتی و شێوەی ڕووخساری کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -157,21 +204,21 @@ class EnglishEntrybonus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "All employees get an annual bonus before the summer holidays."),
+                                            "Years of heavy drinking had given Alison a florid complexion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەموو کارمەندان بەخشیشێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
+                                            "ساڵانێک لە خواردنەوە ڕواڵەتێکی سوورەوەبووی دابوو بە ئالیسن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "complexion", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss1("en-GB"),
+                                    onPressed: () => speakcomplexions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss1("en-US"),
+                                    onPressed: () => speakcomplexions1("en-US"),
                                   ),
                                 ],
                               ),
@@ -179,8 +226,7 @@ class EnglishEntrybonus extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ھەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
+                              text: "٢. (ناو) ڕواڵەتی گشتی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -188,10 +234,10 @@ class EnglishEntrybonus extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "As a bonus, club members can get free tickets for all the family."),
+                                            "Hughes helped change the complexion of Hollywood."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
+                                            "هیوس یارمەتیدەر بوو لە گۆڕینی وێنای هۆڵیوود."),
                                   ],
                                 ),
                               ),
@@ -199,10 +245,10 @@ class EnglishEntrybonus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss2("en-GB"),
+                                    onPressed: () => speakcomplexions2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss2("en-US"),
+                                    onPressed: () => speakcomplexions2("en-US"),
                                   ),
                                 ],
                               ),
@@ -218,11 +264,11 @@ class EnglishEntrybonus extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -234,6 +280,7 @@ class EnglishEntrybonus extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -276,7 +323,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -286,16 +333,25 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bonus (derived forms: bonuses)
-1. An additional payment (or other remuneration) to employees as a means of increasing output (= incentive)
+- Noun: complexion (Derived forms: complexions)
+1. The colouring of a person's face (= skin color [US], skin colour [Brit, Cdn])
  
-2. Anything that makes one feel encouraged (= fillip, shot in the arm)
-"his approval was an added bonus";
+2. A combination that results from coupling or interlinking
+"diphthongs are complexions of vowels"
+ 
+3. A point of view or general attitude or inclination
+"he altered the complexion of his times"; "a liberal political complexion"
+ 
+4. Texture and appearance of the skin of the face
+ 
+5. [archaic] A combination of elements (of dryness and warmth or of the four humours) that was once believed to determine a person's health and temperament
 
-3. A welcome unexpected event
+- Verb: complexion (Derived forms: complexioning, complexioned, complexions)
+1. Give a certain colour to
+"The setting sun complexioned the hills"
 """,
   );
 
@@ -324,12 +380,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    startSeconds: 537,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8HEfIJlcFbs',
-    startSeconds: 402,
+    videoId: 'https://youtu.be/QhMO5SSmiaA?t=',
+    startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -353,8 +434,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '544DTGHIBM0',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/1QlsK3m-zSw?t=',
+    startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +459,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_LUX70mXcEE',
-    startSeconds: 213,
+    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    startSeconds: 1138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +484,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bFl3_J2gBu4',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +509,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WUjVPIEtJd0',
-    startSeconds: 453,
+    videoId: 'https://youtu.be/zN2DYcKoa-I?t=',
+    startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +534,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W8uXhQnWgj4',
-    startSeconds: 888,
+    videoId: 'https://youtu.be/FzmxeHJBZf4?t=',
+    startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,104 +555,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oD9BaNAH-eE',
-    startSeconds: 1093,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ALaTm6VzTBw',
-    startSeconds: 134,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gzF7aHxk4Y4',
-    startSeconds: 984,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0twDETh6QaI',
-    startSeconds: 713,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bonus
+// end WORD_WEB

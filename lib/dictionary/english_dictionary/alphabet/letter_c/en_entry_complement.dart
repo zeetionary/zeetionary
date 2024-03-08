@@ -10,126 +10,127 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycompass extends StatelessWidget {
+class EnglishEntrycomplement extends StatelessWidget {
 // blank divider
-  EnglishEntrycompass({super.key});
+  EnglishEntrycomplement({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcompass(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplement(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("complement"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A compass shows you which direction is north."); // DOPSUM: CHANGE TEXT
+        "The team needs players who complement each other."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People arrived from all points of the compass."); // DOPSUM: CHANGE TEXT
+        "The flavours in the dish complement each other perfectly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You will need sharp scissors, a ruler, and a pair of compasses for making circles."); // DOPSUM: CHANGE TEXT
+        "This vegetable's natural sweetness is a perfect complement to salty or rich foods."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The discussion went beyond the compass of my brain."); // DOPSUM: CHANGE TEXT
+        "We've taken our full complement of trainees this year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the sentences ‘I'm angry’ and ‘He became a politician’, ‘angry’ and ‘politician’ are complements."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcomplements13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplements1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +153,22 @@ class EnglishEntrycompass extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "compass"),
+                            EntryTitle(word: "complement"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkʌmpəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒmplɪment/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcompass("en-GB"),
+                              onPressed: () => speakcomplement("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkʌmpəs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːmplɪment/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcompass("en-US"),
+                              onPressed: () => speakcomplement("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +195,10 @@ class EnglishEntrycompass extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لادۆز(ە)، پوسڵە، قیبلەنوێن، قیبلەنما،	پەڕگار، پەرگاڵ، پڕگار، جەغزینگ، بازنەکێش،	پانتایی، بەرینە، ڕاخستە، بوار، مەڵبەند، دەنگەوار؛ سنوور، سەرحەد، تخوب،	توانست، توانایی، هێز
+کوردی: تەواوکەر، ڕاپەڕێنەر، ڕەبەق‌کەر،	ژمارەی تەواو،	تێکڕا، هەموو، گشت،	(ڕێزمان) پاڵدراو، تەواوکەر 
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئامێرێک کە دەزییەکی هەیە هەمیشە ڕوو لە باکوور دەکات و بۆ دۆزینەوەی ئاراستە بەکاردێت"),
+                              text: "١. (کردار) تەواوکردنی شتێک بە باشترکردنی"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,21 +206,21 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A compass shows you which direction is north."),
+                                            "The team needs players who complement each other."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە."),
+                                            "تیمەکە پێویستی بە یاریزانانێکە کە تەواوکەری یەکترن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compass", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "complement", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss1("en-GB"),
+                                    onPressed: () => speakcomplements1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss1("en-US"),
+                                    onPressed: () => speakcomplements1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +234,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "People arrived from all points of the compass."),
+                                            "The flavours in the dish complement each other perfectly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) خەڵکی لە هەموو ئاراستەکانەوە هاتن."),
+                                            "تامەکانی خواردنەکە بە تەواوی یەکتر تەواو دەکەن."),
                                   ],
                                 ),
                               ),
@@ -245,10 +245,10 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss2("en-GB"),
+                                    onPressed: () => speakcomplements2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss2("en-US"),
+                                    onPressed: () => speakcomplements2("en-US"),
                                   ),
                                 ],
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrycompass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پەرگاڵ؛ ئامێرێک کە لە دوو لاقی باریکی درێژ پێکهاتووە و بەکاردێت بۆ کێشانی بازنە یان پێوانی دووری لەسەر نەخشەیەک"),
+                                  "٢. (ناو) شتێک کە تەواوکەری شتێکی دیکەیە بەوەی باشتری دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -265,10 +265,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You will need sharp scissors, a ruler, and a pair of compasses for making circles."),
+                                            "This vegetable's natural sweetness is a perfect complement to salty or rich foods."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستیت بە مەقەستی تیژ، ڕاستەیەک، و جووتێک پەرگاڵ دەبێت بۆ کێشانی بازنە."),
+                                            "شیرینی سرووشتی ئەم میوەیە تەواوکەرێکی بێ‌وێنەیە بۆ خواردنی شۆر یان تامدار."),
                                   ],
                                 ),
                               ),
@@ -276,10 +276,10 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss3("en-GB"),
+                                    onPressed: () => speakcomplements3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss3("en-US"),
+                                    onPressed: () => speakcomplements3("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,7 +287,8 @@ class EnglishEntrycompass extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) ڕێژەیەکی دیاریکراو"),
+                              text:
+                                  "٣. (ناو) ئەوپەڕی ڕێژەیەک یان بڕێک کە ڕێگەپێدراوە یان پێویستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +296,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The discussion went beyond the compass of my brain."),
+                                            "We've taken our full complement of trainees this year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بابەتەکە زیاتر لە توانای مێشکم درێژەی کێشا."),
+                                            "ئەمساڵ ژمارەی تەواوی ڕاهێنراوانمان وەرگرتووە."),
                                   ],
                                 ),
                               ),
@@ -306,10 +307,41 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss4("en-GB"),
+                                    onPressed: () => speakcomplements4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss4("en-US"),
+                                    onPressed: () => speakcomplements4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) وشەیەک یان زاراوەیەک، بەتایبەتی هاوەڵناوێک یان ناوێک، کە لە دوای کاری لێکدەر بەکاردێت، و پێناسەی بکەری کارەکە دەکات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the sentences ‘I'm angry’ and ‘He became a politician’, ‘angry’ and ‘politician’ are complements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕستەکانی 'I'm angry' و 'He became a politician', 'angry' و 'politician' تەواوکەرن/گوزارەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcomplements5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcomplements5("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,25 +429,31 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compass 
-1. Navigational instrument for finding directions
+- Noun: complement (Derived forms: complements)
+1. Something added to complete, embellish or make perfect (= accompaniment)
+"a fine wine is a perfect complement to the dinner";
  
-2. An area in which something acts or operates or has power or control: (= scope, range, reach, orbit, ambit)
-"within the compass of this article";
+2. A word or phrase used to complete a grammatical construction
  
-3. The limit of capability (= range, reach, grasp)
-"within the compass of education";
+3. A complete number or quantity
+"a full complement"
  
-4. Drafting instrument used for drawing circles
+4. Number needed to make up a whole force (= full complement)
+"a full complement of workers";
+ 
+5. One of a series of enzymes in the blood serum that are part of the immune response
+ 
+6. Either of two parts that mutually complete each other
+ 
+7. (logic) the opposite of a statement
+ 
+8. (geometry) the angle you need to add to a given angle to make a right angle
+ 
+9. (immunology) one of several blood proteins that work with antibodies during an immune response
 
-- Verb: compass 
-1. Travel around, either by plane or ship (= circumnavigate)
-"We compassed the earth";
- 
-2. Get the meaning of something (= grok [N. Amer, informal], get the picture, comprehend, savvy, dig [informal], grasp, apprehend)
- 
-3. [archaic] Bring about; accomplish (= Derived forms: compassing, compassed, compasses)
-"This writer attempts more than his talents can compass"
+- Verb: complement (Derived forms: complements, complementing, complemented)
+1. Make complete or perfect; supply what is wanting or form the complement to
+"I need some pepper to complement the sweet touch in the soup"
 """,
   );
 
@@ -448,8 +486,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aY0OtOy6lcE?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -473,8 +511,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gn_yY6L8wy4?t=',
-    startSeconds: 19,
+    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    startSeconds: 1422,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +536,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lNpHlmh_TBc',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    startSeconds: 1163,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +561,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dp8VOG8Cgag?t=',
-    startSeconds: 82,
+    videoId: 'https://youtu.be/6Xf858oNEak?t=',
+    startSeconds: 412,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -548,8 +586,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_cblY5cwwIA?t=',
-    startSeconds: 78,
+    videoId: 'https://youtu.be/MYUXUnilpFo?t=',
+    startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -573,8 +611,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N_XVLi4jhCQ?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/tExo3ovEBWQ?t=',
+    startSeconds: 1961,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -598,8 +636,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WYfGkv6OTgk?t=',
-    startSeconds: 777,
+    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
+    startSeconds: 2524,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

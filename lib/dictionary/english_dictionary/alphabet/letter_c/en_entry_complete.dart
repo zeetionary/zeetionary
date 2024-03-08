@@ -10,443 +10,577 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycase extends StatelessWidget {
-  // blank divider
-  EnglishEntrycase({super.key});
-  // blank divider
+class EnglishEntrycomplete extends StatelessWidget {
+// blank divider
+  EnglishEntrycomplete({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcase(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcomplete(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("case"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("complete"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases1(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In some cases people have had to wait several weeks for an appointment."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases2(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In most cases the increases have been marginal."); // DOPSUM: CHANGE TEXT
+        "You will receive payment for each complete day that you work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases3(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A Chinese New Year celebration would not be complete without fireworks."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("What should be done in such cases?"); // DOPSUM: CHANGE TEXT
+        .speak("You've made my life complete."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases4(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company only dismisses its employees in cases of gross misconduct."); // DOPSUM: CHANGE TEXT
+        "No trip to Moscow would be complete without a visit to Lenin's tomb."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases5(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In the case of banks, the law can limit activities."); // DOPSUM: CHANGE TEXT
+        "Our complete range of carpets is on display in our showroom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases6(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If that is the case, we need more staff."); // DOPSUM: CHANGE TEXT
+        "The report comes complete with diagrams and colour photographs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases7(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is simply not the case that prison conditions are improving."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases8(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I cannot make an exception in your case."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases9(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In your case, we are prepared to be lenient."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases10(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't underestimate the power of the pen, or in this case, the power of the keyboard."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases11(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They never solved the Jones murder case."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases12(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Four officers are investigating the case."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases13(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The case will be heard next week."); // DOPSUM: CHANGE TEXT
+        .speak("The job is almost complete."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases14(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Supreme Court heard the case yesterday."); // DOPSUM: CHANGE TEXT
+        "Ther ordering process is nearly complete."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases15(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Work on the office building will be complete at the end of the year."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Our lawyer didn't think we had a case."); // DOPSUM: CHANGE TEXT
+        .speak("We were in complete agreement."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases16(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The case against her was very weak."); // DOPSUM: CHANGE TEXT
+        .speak("They sat in complete silence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases17(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He successfully argued the case for accepting the agreement."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases18(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They try to make the case that this war is necessary."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases19(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The museum was full of stuffed animals in glass cases."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases20(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He put the binoculars back in their carrying case."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases21(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Let me carry your case for you."); // DOPSUM: CHANGE TEXT
+        .speak("He was a complete stranger to me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases22(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He is a complete fool!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes14(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They put their cases in the boot and drove off."); // DOPSUM: CHANGE TEXT
+        "The army remains in complete control of the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases23(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes15(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I felt a complete idiot."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes16(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Over 130 000 cases of cholera were reported in 2016."); // DOPSUM: CHANGE TEXT
+        "You are talking complete and utter rubbish."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases24(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes17(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The most serious cases were treated at the scene of the accident."); // DOPSUM: CHANGE TEXT
+        "The whole thing has been a complete waste of time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases25(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's a hopeless case."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcases26(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes18(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Latin nouns have case, number and gender."); // DOPSUM: CHANGE TEXT
+        "The cruise ship is really a floating village, complete with shops and cafes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases27(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes19(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She's just completed a master's degree in Law."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases28(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes20(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The work should be completed by December."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases29(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes21(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She successfully completed the London Marathon in April."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases30(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes22(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I've fully completed my training."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases31(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes23(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3131"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "2 000 shoppers completed our questionnaire."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases32(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes24(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3232"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Has the form been correctly completed?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases33(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes25(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3333"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I only need one more card to complete the set."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases34(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes26(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3434"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes2600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases35(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes27(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3535"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes2700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases36(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes28(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3636"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes2800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases37(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes29(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3737"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes2900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases38(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes30(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3838"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases39(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes31(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases3939"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases40(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes32(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4040"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases41(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes33(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4141"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases42(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes34(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4242"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases43(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes35(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4343"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases44(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes36(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4444"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases45(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes37(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4545"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases46(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes38(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4646"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases47(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes39(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4747"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes3900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases48(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes40(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4848"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes4000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases49(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes41(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases4949"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes4100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcases50(String languageCode) async {
-    // DOPSUM: CHANGE speakcase
+  Future<void> speakcompletes42(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases5050"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompletes4200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes43(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes44(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes45(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes46(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes47(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes48(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes49(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes4900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes50(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes51(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes52(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes53(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes54(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes55(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes56(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes57(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes58(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes59(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes5900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes60(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes61(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes62(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes63(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes64(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes65(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes66(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompletes67(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompletes6700"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -469,22 +603,22 @@ class EnglishEntrycase extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "case"),
+                            EntryTitle(word: "complete"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /keɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈpliːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcase("en-GB"),
+                              onPressed: () => speakcomplete("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /keɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈpliːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcase("en-US"),
+                              onPressed: () => speakcomplete("en-US"),
                             ),
                           ],
                         ),
@@ -511,10 +645,9 @@ class EnglishEntrycase extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بابەت، کەیس، نموونە، وێنە، میناک، کەیس یان بابەتی نەخۆشی، ئینستەنسی نەخۆشی، ئەنگاوتە، بەرکەوت، نەخۆش، ناساز، کردە، کار، چۆنیەتی، پرس، کێشە، دۆز، پرسگرێک، بابەت، مژار، دۆخ، بار، بارودۆخ، ڕەوش، کاودان، داواکاری، بەڵگەکان، بەڵگە، شایەت، بەڵگەھێنانەوە، ڕاستی، بوویەر، مەتەڵ، ڕاز، (ڕێزمان) دۆخ، کەس، پیاو، مرۆ، قوتو، سنووق، یەغدان، سیپ، مجری، جانتا، توورەکە، جزدان، جامەدان، بەرگ، کیف، ڕووپۆش، توێکڵ، توێخ، قاوغ، قاپووڕ، چوارچێوە (درگا و پەنجەرە)
+کوردی: تەواو، ڕەبەق، تەخت، ئازگار،	کۆتایی‌پێهاتوو، تەواوکراو، ڕاپەڕێنراو، سەرومڕ، بێ‌کەم‌وکوڕی، گشت، هەموو، یەکڕێ، سامەڵسا
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) دۆخێکی تایبەت"),
+                          const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو"),
                           Row(
                             children: [
                               const Expanded(
@@ -522,21 +655,21 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "In some cases people have had to wait several weeks for an appointment."),
+                                            "You will receive payment for each complete day that you work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک ھەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک."),
+                                            "پارە وەردەگریت بۆ هەر ڕۆژێک بە تەواوی کار دەکەیت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "case", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "complete", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases1("en-GB"),
+                                    onPressed: () => speakcompletes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases1("en-US"),
+                                    onPressed: () => speakcompletes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -550,10 +683,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "In most cases the increases have been marginal."),
+                                            "A Chinese New Year celebration would not be complete without fireworks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە زۆر حاڵەتدا زیادبوونەکان کەمێک بوونە."),
+                                            "ئاهەنگی ساڵی نوێی چینی تەواو نابێت بەبێ یاری ئاگرین."),
                                   ],
                                 ),
                               ),
@@ -561,10 +694,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases2("en-GB"),
+                                    onPressed: () => speakcompletes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases2("en-US"),
+                                    onPressed: () => speakcompletes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -581,10 +714,9 @@ class EnglishEntrycase extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "What should be done in such cases?"),
+                                                    "You've made my life complete."),
                                             ExampleSentenceKurdish(
-                                                text:
-                                                    "چی دەبێت بکردرێت لە دۆخێکی وەھادا؟"),
+                                                text: "ژیانمت کامڵ کردووە."),
                                           ],
                                         ),
                                       ),
@@ -593,11 +725,11 @@ class EnglishEntrycase extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcases3("en-GB"),
+                                                speakcompletes3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcases3("en-US"),
+                                                speakcompletes3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -611,10 +743,10 @@ class EnglishEntrycase extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "The company only dismisses its employees in cases of gross misconduct."),
+                                                    "No trip to Moscow would be complete without a visit to Lenin's tomb."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کۆمپانیاکە کارمەندانی دەردەکات تەنھا لە دۆخی ھەڵەی زەقدا."),
+                                                    "هیچ سەردانێک بۆ مۆسکۆ تەواو نییە بەبێ سەردانی گۆڕی لینین."),
                                           ],
                                         ),
                                       ),
@@ -623,11 +755,11 @@ class EnglishEntrycase extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcases4("en-GB"),
+                                                speakcompletes4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcases4("en-US"),
+                                                speakcompletes4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -641,10 +773,10 @@ class EnglishEntrycase extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "In the case of banks, the law can limit activities."),
+                                                    "Our complete range of carpets is on display in our showroom."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە حاڵەتی بانکەکاندا، یاسا دەکرێت چالاکییەکان سنووردار بکات."),
+                                                    "تەواوی جۆرەکانی مافوورەکانمان پیشاندراون لە ژووری نمایشەکەمان."),
                                           ],
                                         ),
                                       ),
@@ -653,11 +785,41 @@ class EnglishEntrycase extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcases5("en-GB"),
+                                                speakcompletes5("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcases5("en-US"),
+                                                speakcompletes5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The report comes complete with (= including) diagrams and colour photographs."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ڕاپۆرتەکە بە تەواوی هێڵکاری و وێنەی ڕەنگاوڕەنگی لەگەڵە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcompletes6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcompletes6("en-US"),
                                           ),
                                         ],
                                       ),
@@ -668,18 +830,17 @@ class EnglishEntrycase extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) دۆخی ڕاستی"),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) تەواوبوو"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "If that is the case (= if the situation described is true), we need more staff."),
+                                        text: "The job is almost complete."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ئەوە ڕاستییەکەیە، دەبێت ستافی زیاتر بگرین."),
+                                        text: "کارەکە بەنزیکەیی تەواوبووە."),
                                   ],
                                 ),
                               ),
@@ -687,10 +848,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases6("en-GB"),
+                                    onPressed: () => speakcompletes7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases6("en-US"),
+                                    onPressed: () => speakcompletes7("en-US"),
                                   ),
                                 ],
                               ),
@@ -704,10 +865,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It is simply not the case that prison conditions are improving."),
+                                            "Ther ordering process is nearly complete."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە سادەیی، ڕاستییەکە ئەوەیە دۆخی زانیدانەکان باشتر نابن."),
+                                            "پڕۆسەی داواکردن بەنزیکەیی تەواوبووە."),
                                   ],
                                 ),
                               ),
@@ -715,10 +876,38 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases7("en-GB"),
+                                    onPressed: () => speakcompletes8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases7("en-US"),
+                                    onPressed: () => speakcompletes8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Work on the office building will be complete at the end of the year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارکردن لە ئۆفیسەکە تەواو دەبێت لە کۆتایی ساڵدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompletes9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompletes9("en-US"),
                                   ),
                                 ],
                               ),
@@ -727,18 +916,16 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) دۆخێک کە تایبەتە بە کەسێک یان شتێک"),
+                                  "٣. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە شتێک، بۆ وتنی ئەوەی تا ئەوپەڕی ئاست ڕوویداوە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "I cannot make an exception in your case (= for you and not for others)."),
+                                        text: "We were in complete agreement."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم جیاکاری بکەم بۆ دۆخەکەی تۆ (وەک ئەوانی تر سەیرت دەکەم)."),
+                                        text: "لە ڕێکەوتنی تەواودا بووین."),
                                   ],
                                 ),
                               ),
@@ -746,10 +933,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases8("en-GB"),
+                                    onPressed: () => speakcompletes10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases8("en-US"),
+                                    onPressed: () => speakcompletes10("en-US"),
                                   ),
                                 ],
                               ),
@@ -762,11 +949,10 @@ class EnglishEntrycase extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "In your case, we are prepared to be lenient."),
+                                        text: "They sat in complete silence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ دۆخەکەی تۆ ئامادەین لێبووردە بین."),
+                                            "لە بێ دەنگی تەواودا دانیشتبوون."),
                                   ],
                                 ),
                               ),
@@ -774,10 +960,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases9("en-GB"),
+                                    onPressed: () => speakcompletes11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases9("en-US"),
+                                    onPressed: () => speakcompletes11("en-US"),
                                   ),
                                 ],
                               ),
@@ -787,6 +973,7 @@ class EnglishEntrycase extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
+                                  const DividerSentences(),
                                   Row(
                                     children: [
                                       const Expanded(
@@ -794,10 +981,9 @@ class EnglishEntrycase extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "Don't underestimate the power of the pen, or in this case, the power of the keyboard."),
+                                                    "He was a complete stranger to me."),
                                             ExampleSentenceKurdish(
-                                                text:
-                                                    "ھێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، ھێزی کیبۆرد."),
+                                                text: "تەواو نامۆ بوو لام."),
                                           ],
                                         ),
                                       ),
@@ -806,212 +992,26 @@ class EnglishEntrycase extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcases10("en-GB"),
+                                                speakcompletes12("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcases10("en-US"),
+                                                speakcompletes12("en-US"),
                                           ),
                                         ],
                                       ),
                                     ],
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) بابەتێک کە لە ژێر لێکۆڵینەوەدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They never solved the Jones murder case."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز کەیسی کوشتنی جۆنیان چارەسەرنەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Four officers are investigating the case."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوار ئەفسەر لێکۆڵینەوە لە کەیسەکە دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ناو) بابەتێک کە لە دادگایە و بڕیاری لەسەر دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case will be heard next week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکە ھەفتەی داھاتوو دانیشتنی بۆ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Supreme Court heard the case yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادگای باڵا (ئەمریکا) دوێنێ گوێی لە کەیسەکە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٦. (ناو) کۆمەڵێک لە ڕاستی، بۆچوون، ھتد کە لایەنگیری لایەکن لە دادگاییەک، گفتوگۆیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our lawyer didn't think we had a case (= had enough good arguments to win in a court of law)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارێزەرەکەمان ھەستی نەکرد کەوا دۆزێکمان ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case against her was very weak."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو دۆزەی دژی بوو زۆر لاواز بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
+                                  const DividerSentences(),
                                   Row(
                                     children: [
                                       const Expanded(
                                         child: Column(
                                           children: [
                                             ExampleSentenceEnglish(
-                                                text:
-                                                    "He successfully argued the case for accepting the agreement."),
+                                                text: "He is a complete fool!"),
                                             ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرکەوتووانە پشتگیری دۆزی پەسەندکردنی ڕێککەوتنەکەی کرد."),
+                                                text: "گەمژەیەکی تەواوە!"),
                                           ],
                                         ),
                                       ),
@@ -1020,11 +1020,11 @@ class EnglishEntrycase extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcases17("en-GB"),
+                                                speakcompletes13("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcases17("en-US"),
+                                                speakcompletes13("en-US"),
                                           ),
                                         ],
                                       ),
@@ -1038,10 +1038,10 @@ class EnglishEntrycase extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "They try to make the case that this war is necessary."),
+                                                    "The army remains in complete control of the country."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ھەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە."),
+                                                    "سوپا لە کۆنترۆڵی تەواوی وڵاتەکەدایە."),
                                           ],
                                         ),
                                       ),
@@ -1050,11 +1050,101 @@ class EnglishEntrycase extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcases18("en-GB"),
+                                                speakcompletes14("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcases18("en-US"),
+                                                speakcompletes14("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I felt a complete idiot."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هەستم بە گەوجێتییەکی تەواو کرد."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcompletes15("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcompletes15("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "You are talking complete and utter rubbish."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "قسەی تەواو و سەراپا بێ‌نرخ دەکەیت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcompletes16("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcompletes16("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The whole thing has been a complete waste of time."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هەموو شتەکە تەواو بەفیڕۆدانی کات بووە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcompletes17("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcompletes17("en-US"),
                                           ),
                                         ],
                                       ),
@@ -1067,7 +1157,7 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شتێک کە شتی تێدا ھەڵدەگریت بۆ پاراستنی یان ھەڵگرتنی"),
+                                  "٤. (ھاوەڵناو) لەخۆگرتنی شتێک وەک بەشێک یان تایبەتمەندییەکی زیادە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1075,10 +1165,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The museum was full of stuffed animals in glass cases."),
+                                            "The cruise ship is really a floating village, complete with shops and cafes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مۆزەخانەکە پڕ بوو لە ئاژەڵی منداڵان لەناو پارێزەری شووشەدا."),
+                                            "کەشتییە گەشتیارییەکە گوندێکی سەرئاوکەوتووە کە فرۆشگا و قاوەخانەی لێیە."),
                                   ],
                                 ),
                               ),
@@ -1086,46 +1176,17 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases19("en-GB"),
+                                    onPressed: () => speakcompletes18("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He put the binoculars back in their carrying case."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووربینەکەی خستە بەرگە ھەڵگرەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases20("en-US"),
+                                    onPressed: () => speakcompletes18("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٨. (ناو) جانتای سەفەرکردن"),
+                          const DefinitionKurdish(text: "٥. (کردار) تەواوکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1133,9 +1194,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Let me carry your case for you."),
+                                            "She's just completed a master's degree in Law."),
                                     ExampleSentenceKurdish(
-                                        text: "با جانتایەکەت بۆ ھەڵبگرم."),
+                                        text:
+                                            "تازەگی بڕوانامەی ماستەری لە یاسادا هێناوە/تەواوکردووە."),
                                   ],
                                 ),
                               ),
@@ -1143,10 +1205,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases21("en-GB"),
+                                    onPressed: () => speakcompletes19("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases21("en-US"),
+                                    onPressed: () => speakcompletes19("en-US"),
                                   ),
                                 ],
                               ),
@@ -1160,10 +1222,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They put their cases in the boot and drove off."),
+                                            "The work should be completed by December."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جانتاکانیان خستە سندووقی ئۆتۆمبێلەکە و ڕۆشتن."),
+                                            "کارەکە دەبێت تاوەکو کانوونی یەکەم تەواو بکرێت."),
                                   ],
                                 ),
                               ),
@@ -1171,40 +1233,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases22("en-GB"),
+                                    onPressed: () => speakcompletes20("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٩. (ناو) حاڵەتی نەخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Over 130 000 cases of cholera were reported in 2016."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەروو ١٣٠٠٠٠ حاڵەتی کۆلێرا لە ساڵی ٢٠١٦ تۆمارکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcases23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcases23("en-US"),
+                                    onPressed: () => speakcompletes20("en-US"),
                                   ),
                                 ],
                               ),
@@ -1218,10 +1250,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The most serious cases were treated at the scene of the accident."),
+                                            "She successfully completed the London Marathon in April."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خراپترین حاڵەتەکان لە شوێنی ڕووداوەکە چارەسەرکران."),
+                                            "بە سەرکەوتووی ماراسۆنی لەندەنی لە نیساندا تەواو کرد."),
                                   ],
                                 ),
                               ),
@@ -1229,10 +1261,38 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases24("en-GB"),
+                                    onPressed: () => speakcompletes21("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases24("en-US"),
+                                    onPressed: () => speakcompletes21("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've fully completed my training."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی ڕاهێنانەکەمم تەواو کردووە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompletes22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompletes22("en-US"),
                                   ),
                                 ],
                               ),
@@ -1241,16 +1301,18 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ناو) کەسێک کە باوەڕوایە چارەسەری چارەسەری تایبەتی بووێت"),
+                                  "٦. (کردار) نووسینی تەواوی ئەو زانیارییانەی داوات لێکراوە لەسەر فۆرمێک"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "He's a hopeless case."),
+                                        text:
+                                            "2 000 shoppers completed our questionnaire."),
                                     ExampleSentenceKurdish(
-                                        text: "کەسێکی بێ‌ھیوایە."),
+                                        text:
+                                            "٢٠٠٠ فرۆشیار ڕاپرسییەکەمانیان تەواوکرد."),
                                   ],
                                 ),
                               ),
@@ -1258,10 +1320,37 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases25("en-GB"),
+                                    onPressed: () => speakcompletes23("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases25("en-US"),
+                                    onPressed: () => speakcompletes23("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Has the form been correctly completed?"),
+                                    ExampleSentenceKurdish(
+                                        text: "فۆرمەکە بە تەواوی پڕکراوەتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompletes24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompletes24("en-US"),
                                   ),
                                 ],
                               ),
@@ -1270,7 +1359,7 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (ناو) شێوەی ناوێک، ھاوەڵناوێک، یان جێناوێک کە پەیوەندیی لەگەڵ وشەیەکی دیکە پیشان دەدات"),
+                                  "٧. (کردار) تەواوکردنی شتێک بەوەی هەموو بەشەکانی بۆ زیادبکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1278,10 +1367,10 @@ class EnglishEntrycase extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Latin nouns have case, number and gender."),
+                                            "I only need one more card to complete the set."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوە لاتینییەکان دۆخ و ژمارە و ڕەگەزیان ھەیە."),
+                                            "تەنها پێویستم بە یەک کارتی دیکەیە بۆ تەواوکردنی دەستەکە."),
                                   ],
                                 ),
                               ),
@@ -1289,10 +1378,10 @@ class EnglishEntrycase extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcases26("en-GB"),
+                                    onPressed: () => speakcompletes25("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcases26("en-US"),
+                                    onPressed: () => speakcompletes25("en-US"),
                                   ),
                                 ],
                               ),
@@ -1309,8 +1398,8 @@ class EnglishEntrycase extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -1367,7 +1456,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -1377,70 +1466,39 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: case (derived forms: cases)
-1. An occurrence of something (= instance, example)
-"it was a case of bad judgment";
+- Adjective: complete
+1. Having every necessary or normal part or component or step
+"a complete meal"; "a complete wardrobe"; "a complete set of the Britannica"; "a complete set of china"; "a complete defeat"; "a complete accounting"
  
-2. A special set of circumstances (= event)
-"it may rain in which case the picnic will be cancelled";
+2. Perfect in every respect; having all necessary qualities (= consummate)
+"a complete gentleman";
  
-3. (law) a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy (= lawsuit, suit, cause, causa)
+3. Highly skilled (= accomplished)
+"a complete musician";
  
-4. The actual state of things
-"that was not the case"
+4. Without qualification; used informally as an (often pejorative) intensifier (= arrant, consummate, double-dyed, everlasting, gross, perfect, pure, sodding, stark, staring, thorough, thoroughgoing, utter, unadulterated, rigorous)
+"a complete coward";
  
-5. A portable container for carrying several objects
-"the musicians left their instrument cases backstage"
- 
-6. A person requiring professional services
-"a typical case was the suburban housewife described by a marriage counsellor"
- 
-7. A person who is subjected to experimental or other observational procedures; someone who is an object of investigation (= subject, guinea pig)
-"the cases that we studied were drawn from two different communities";
- 
-8. A problem requiring investigation
-"Perry Mason solved the case of the missing heir"
- 
-9. A statement of facts and reasons used to support an argument
-"he stated his case clearly"
- 
-10. The quantity contained in a case (= caseful)
- 
-11. Nouns, pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence (= grammatical case)
- 
-12. A specific state of mind that is temporary
-"a case of the jitters"
- 
-13. A person of a specified kind (usually with many eccentricities) (= character, eccentric, type)
-"a mental case";
- 
-14. A specific size and style of type within a type family (= font, fount [Brit], typeface, face)
- 
-15. An enveloping structure or covering enclosing an animal or plant organ or part (= sheath)
- 
-16. The housing or outer covering of something (= shell, casing)
-"the clock has a walnut case";
+5. Having come or been brought to a conclusion (= concluded, ended, over, all over, terminated)
+"the harvesting was complete";
 
-17. The enclosing frame around a door or window opening (= casing)
-"the cases had rotted away and had to be replaced";
-
-18. (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers (= compositor's case, typesetter's case)
-"for English, a compositor will ordinarily have two such cases, the upper case containing the capitals and the lower case containing the small letters";
+- Verb: complete (Derived forms: completing, completes, completed)
+1. Come or bring to an end (= finish)
+"She completed the requirements for her Master's Degree";
  
-19. Bed linen consisting of a cover for a pillow (= pillowcase, slip, pillow slip)
-"the burglar carried his loot in a case";
-
-20. A glass container used to store and display items in a shop, museum or home (= display case, showcase, vitrine)
-
-- Verb: case (derived forms: cases, casing, cased)
-1. Look over, usually with the intention to rob
-"The men cased the housed"
+2. Bring to a whole, with all the necessary parts or elements
+"A child would complete the family"
  
-2. Enclose in, or as if in, a case (= encase, incase)
-"my feet were cased in mud";
+3. Carry out, fulfil (= dispatch, discharge)
+"complete one's duties";
+ 
+4. (football) complete a pass (= nail [informal])
+ 
+5. Write all the required information onto a form (= fill out, fill in, make out)
+"complete this questionnaire, please!";
 """,
   );
 
@@ -1473,8 +1531,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fi2jQMTU9b4',
-    startSeconds: 3,
+    videoId: 'https://youtu.be/JfqDvi8b4gg?t=',
+    startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1498,8 +1556,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hFZFjoX2cGg',
-    startSeconds: 703,
+    videoId: 'https://youtu.be/oMRGASj2v8c?t=',
+    startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1523,8 +1581,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tXjHb5QmDV0',
-    startSeconds: 542,
+    videoId: 'https://youtu.be/qzgyoAYeZRI?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1548,8 +1606,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nQ-Ua6NYago',
-    startSeconds: 55,
+    videoId: 'https://youtu.be/SqueozhXDv8?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1573,8 +1631,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QtrRtGC3G_I',
-    startSeconds: 123,
+    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    startSeconds: 1369,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1598,8 +1656,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7DKXMRMYDO4',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/8bWRjajx-LE?t=',
+    startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1623,33 +1681,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5tEc122j7LE',
-    startSeconds: 196,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mmGFrIWU0Cs',
-    startSeconds: 265,
+    videoId: 'https://youtu.be/_B7yY1AxOrw?t=',
+    startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,126 +10,129 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycompass extends StatelessWidget {
+class EnglishEntrycompetence extends StatelessWidget {
 // blank divider
-  EnglishEntrycompass({super.key});
+  EnglishEntrycompetence({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcompass(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetence(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("competence"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A compass shows you which direction is north."); // DOPSUM: CHANGE TEXT
+        "He gradually developed the competence to deal with the more difficult cases."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People arrived from all points of the compass."); // DOPSUM: CHANGE TEXT
+        "I'm afraid the work is beyond his competence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You will need sharp scissors, a ruler, and a pair of compasses for making circles."); // DOPSUM: CHANGE TEXT
+        "Students had questioned her competence as a teacher."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The discussion went beyond the compass of my brain."); // DOPSUM: CHANGE TEXT
+        "The judge has to act within the competence of the court."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The decisions come within the competence of the committee."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The syllabus lists the knowledge and competences required at this level."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He reached a reasonable level of competence in his English."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompasss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompass
+  Future<void> speakcompetences13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompetence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +155,22 @@ class EnglishEntrycompass extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "compass"),
+                            EntryTitle(word: "competence"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkʌmpəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒmpɪtəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcompass("en-GB"),
+                              onPressed: () => speakcompetence("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkʌmpəs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːmpɪtəns/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcompass("en-US"),
+                              onPressed: () => speakcompetence("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +197,10 @@ class EnglishEntrycompass extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لادۆز(ە)، پوسڵە، قیبلەنوێن، قیبلەنما،	پەڕگار، پەرگاڵ، پڕگار، جەغزینگ، بازنەکێش،	پانتایی، بەرینە، ڕاخستە، بوار، مەڵبەند، دەنگەوار؛ سنوور، سەرحەد، تخوب،	توانست، توانایی، هێز
+کوردی: توانایی، تواناداری، شیاوبوون، ڕایە، لێهاتوویی، سەردەرچوویی، زانایی، لێزانی، لێوەشاوەیی، شارەزایی، وەستایەتی
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئامێرێک کە دەزییەکی هەیە هەمیشە ڕوو لە باکوور دەکات و بۆ دۆزینەوەی ئاراستە بەکاردێت"),
+                              text: "١. (ناو) تونای کردنی شتێک بە باشی"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,21 +208,21 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A compass shows you which direction is north."),
+                                            "He gradually developed the competence to deal with the more difficult cases."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە."),
+                                            "کەم کەم توانای گەشەپێدا بۆ مامەڵەکردن لەگەڵ کەیسە زیاتر سەختەکان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compass", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "competence", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss1("en-GB"),
+                                    onPressed: () => speakcompetences1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss1("en-US"),
+                                    onPressed: () => speakcompetences1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +236,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "People arrived from all points of the compass."),
+                                            "I'm afraid the work is beyond his competence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) خەڵکی لە هەموو ئاراستەکانەوە هاتن."),
+                                            "بە داخەوەم کە کارەکە لە سەروو توانایەتی."),
                                   ],
                                 ),
                               ),
@@ -245,10 +247,38 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss2("en-GB"),
+                                    onPressed: () => speakcompetences2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss2("en-US"),
+                                    onPressed: () => speakcompetences2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Students had questioned her competence as a teacher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکاران گومانیان لە توانای وەک مامۆستایەک هەبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompetences3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompetences3("en-US"),
                                   ),
                                 ],
                               ),
@@ -257,7 +287,7 @@ class EnglishEntrycompass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پەرگاڵ؛ ئامێرێک کە لە دوو لاقی باریکی درێژ پێکهاتووە و بەکاردێت بۆ کێشانی بازنە یان پێوانی دووری لەسەر نەخشەیەک"),
+                                  "٢. (ناو) ئەو هێزەی کە کەسێک، دامەزراوەیەک، یان دادگایەک هەیەتی بۆ مامەڵەکردن لەگەڵ کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -265,10 +295,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You will need sharp scissors, a ruler, and a pair of compasses for making circles."),
+                                            "The judge has to act within the competence of the court."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستیت بە مەقەستی تیژ، ڕاستەیەک، و جووتێک پەرگاڵ دەبێت بۆ کێشانی بازنە."),
+                                            "دادوەرەکە دەبێت لە لە توانای دادگاکەدا هەنگاو بنێت."),
                                   ],
                                 ),
                               ),
@@ -276,10 +306,38 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss3("en-GB"),
+                                    onPressed: () => speakcompetences4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss3("en-US"),
+                                    onPressed: () => speakcompetences4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The decisions come within the competence of the committee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارەکان لە ئاستی توانای لیژنەکەدا بوون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompetences5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompetences5("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,7 +345,8 @@ class EnglishEntrycompass extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) ڕێژەیەکی دیاریکراو"),
+                              text:
+                                  "٣. (ناو) شارەزاییەک کە پێویستتە بۆ کارێکی یان ئەرکێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +354,10 @@ class EnglishEntrycompass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The discussion went beyond the compass of my brain."),
+                                            "The syllabus lists the knowledge and competences required at this level."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بابەتەکە زیاتر لە توانای مێشکم درێژەی کێشا."),
+                                            "پڕۆگرامی خوێندنەکە لێهاتووی و شارەزایی کردووە بە لیست کە بۆ ئەم ئاستە پێویستە."),
                                   ],
                                 ),
                               ),
@@ -306,10 +365,38 @@ class EnglishEntrycompass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss4("en-GB"),
+                                    onPressed: () => speakcompetences6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss4("en-US"),
+                                    onPressed: () => speakcompetences6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He reached a reasonable level of competence in his English."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشت بە ئاستێکی باشی شارەزایی لە ئینگلیزییەکەیدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompetences7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompetences7("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,25 +484,8 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compass 
-1. Navigational instrument for finding directions
- 
-2. An area in which something acts or operates or has power or control: (= scope, range, reach, orbit, ambit)
-"within the compass of this article";
- 
-3. The limit of capability (= range, reach, grasp)
-"within the compass of education";
- 
-4. Drafting instrument used for drawing circles
-
-- Verb: compass 
-1. Travel around, either by plane or ship (= circumnavigate)
-"We compassed the earth";
- 
-2. Get the meaning of something (= grok [N. Amer, informal], get the picture, comprehend, savvy, dig [informal], grasp, apprehend)
- 
-3. [archaic] Bring about; accomplish (= Derived forms: compassing, compassed, compasses)
-"This writer attempts more than his talents can compass"
+- Noun: competence (Derived forms: competences)
+1. The quality of being adequately or well qualified physically and intellectually (= competency)
 """,
   );
 
@@ -448,8 +518,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aY0OtOy6lcE?t=',
-    startSeconds: 18,
+    videoId: 'https://youtu.be/Hw1X5oFPgro?t=',
+    startSeconds: 1981,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -473,8 +543,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gn_yY6L8wy4?t=',
-    startSeconds: 19,
+    videoId: 'https://youtu.be/NQWkNXr2ujI?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +568,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lNpHlmh_TBc',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/mJpoSZB95SA?t=',
+    startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +593,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dp8VOG8Cgag?t=',
-    startSeconds: 82,
+    videoId: 'https://youtu.be/tlezBUdD53w?t=',
+    startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -548,8 +618,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_cblY5cwwIA?t=',
-    startSeconds: 78,
+    videoId: 'https://youtu.be/T8uc3NzU7J4?t=',
+    startSeconds: 518,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -573,8 +643,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N_XVLi4jhCQ?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/B8BnOEOOBa0?t=',
+    startSeconds: 362,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -598,8 +668,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WYfGkv6OTgk?t=',
-    startSeconds: 777,
+    videoId: 'https://youtu.be/zpFB2q_3pJo?t=',
+    startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

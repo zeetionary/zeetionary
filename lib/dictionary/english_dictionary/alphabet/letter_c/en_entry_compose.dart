@@ -3,86 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bore" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace bore - /bɔː(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybore extends StatelessWidget {
+class EnglishEntrycompose extends StatelessWidget {
 // blank divider
-  EnglishEntrybore({super.key});
+  EnglishEntrycompose({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbore(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompose(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bore"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compose"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores1(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm not boring you, am I?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbores2(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcomposes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I won't bore you with too many details."); // DOPSUM: CHANGE TEXT
+        "Mozart composed his last opera shortly before he died."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores3(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The drill is strong enough to bore through solid rock."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbores4(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcomposes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His blue eyes seemed to bore into her."); // DOPSUM: CHANGE TEXT
+        .speak("She composed a letter of protest."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores5(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcomposes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Ten people compose the committee."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I had to sit next to Michael at dinner - he's such a bore."); // DOPSUM: CHANGE TEXT
+        "I was so confused that I could hardly compose my thoughts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores6(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcomposes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbores66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomposes500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores7(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcomposes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbores77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomposes600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomposes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompose
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomposes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +152,22 @@ class EnglishEntrybore extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bore"),
+                            EntryTitle(word: "compose"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɔː(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈpəʊz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbore("en-GB"),
+                              onPressed: () => speakcompose("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɔːr/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈpəʊz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbore("en-US"),
+                              onPressed: () => speakcompose("en-US"),
                             ),
                           ],
                         ),
@@ -133,7 +180,7 @@ class EnglishEntrybore extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -147,37 +194,10 @@ class EnglishEntrybore extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قوڵکە، چاڵ، کون، مێمڵ، ڕیوڵ، ژیرەژاو، مرۆی وەڕەس‌کەر یان گەوج‌کەر، وشترە، وشتراو، قەڵبەزە
+کوردی: چڕین، خوێندن، دروست کردن، میزان کردن
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) بێزارکردنی کەسێک، بەتایبەی بە قسەی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm not boring you, am I?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بێزارت ناکەم، وایە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbores1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbores1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
+                              text: "١. (کردار) نووسینی میوزیک"),
                           Row(
                             children: [
                               const Expanded(
@@ -185,20 +205,21 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I won't bore you with too many details."),
+                                            "Mozart composed his last opera shortly before he died."),
                                     ExampleSentenceKurdish(
-                                        text: "سەرت نایەشێنم بە وردەکاری زۆر."),
+                                        text:
+                                            "مۆزارت کۆتا ئۆپێرای نووسی ماوەیەکی کەم پێش مردنی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "compose", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores2("en-GB"),
+                                    onPressed: () => speakcomposes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores2("en-US"),
+                                    onPressed: () => speakcomposes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -207,7 +228,7 @@ class EnglishEntrybore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) درووستکردنی چاڵێکی قووڵ بە ئامێرێک یان بە ھەڵکەندن"),
+                                  "٢. (کردار) نووسینی نامەیەک، هتد، زۆرجار بە وریایی زۆرەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -215,10 +236,9 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The drill is strong enough to bore through solid rock."),
+                                            "She composed a letter of protest."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "درێلەکە ھندە بەھێزە کە بە بەردی سەختدا بکەنێت."),
+                                        text: "نامەیەکی ناڕەزایی نووسی."),
                                   ],
                                 ),
                               ),
@@ -226,10 +246,10 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores3("en-GB"),
+                                    onPressed: () => speakcomposes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores3("en-US"),
+                                    onPressed: () => speakcomposes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,7 +258,7 @@ class EnglishEntrybore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ڕوانین بەشێوەیەک کە کەسێک ناڕەحەت دەکات"),
+                                  "٣. (کردار) پێکەوەنان بۆ درووستکردنی یەک شت"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,10 +266,9 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "His blue eyes seemed to bore into her."),
+                                            "Ten people compose the committee."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "چاوە شینەکانی وادیار بوون لێی زەقبووبن."),
+                                        text: "دە کەس لیژنەکە پێکدێنن."),
                                   ],
                                 ),
                               ),
@@ -257,10 +276,10 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores4("en-GB"),
+                                    onPressed: () => speakcomposes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores4("en-US"),
+                                    onPressed: () => speakcomposes3("en-US"),
                                   ),
                                 ],
                               ),
@@ -268,11 +287,8 @@ class EnglishEntrybore extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) ڕابردووی bear"),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) کەسێک کە زۆر بێزارکەرە، زۆرجار بەھۆی ئەوەی قسە زۆر دەکات"),
+                                  "٤. (کردار) کۆنترۆڵکردنی هەستەکانت و دەربڕینت"),
                           Row(
                             children: [
                               const Expanded(
@@ -280,10 +296,10 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I had to sit next to Michael at dinner - he's such a bore."),
+                                            "I was so confused that I could hardly compose my thoughts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە خواردنی نیوەڕۆ دەبوو لە تەنیشت مایکڵ دابنیشم، زۆر کەسێکی ڕیوڵە."),
+                                            "زۆر شڵەژاو بووم کە بە ئاستەنگ بیرکردنەوەکانمم کۆنترۆڵ دەکرد."),
                                   ],
                                 ),
                               ),
@@ -291,10 +307,10 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores5("en-GB"),
+                                    onPressed: () => speakcomposes4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores5("en-US"),
+                                    onPressed: () => speakcomposes4("en-US"),
                                   ),
                                 ],
                               ),
@@ -310,11 +326,11 @@ class EnglishEntrybore extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -326,6 +342,7 @@ class EnglishEntrybore extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -368,7 +385,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -378,24 +395,30 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bore 
-1. Be dull and cause to lose interest (= tire)
-"the long presentation bored her";
+- Verb: compose (Derived forms: composing, composes, composed)
+1. Form the substance of
+"Greed and ambition composed his personality"
  
-2. Make a hole, especially with a pointed power or hand tool (= drill)
-"carpenter bees are boring holes into the wall";
-
-- Noun: bore
-1. A person who evokes boredom (= dullard, meatball [N. Amer, informal])
+2. (music) write music (= write)
+"Beethoven composed nine symphonies";
  
-2. A high wave (often dangerous) caused by tidal flow (as by colliding tidal currents or in a narrow estuary) (= tidal bore, eagre [UK, dialect], aegir [non-standard], eager [UK, dialect])
+3. Produce a literary work (= write, pen, indite [archaic])
+"She composed a poem";
  
-3. Diameter of a tube or gun barrel (= gauge, caliber [US], calibre [Brit, Cdn])
+4. Put together out of existing material (= compile)
+"compose a list";
  
-4. (mining) a hole or passage made by a drill; usually made for exploratory purposes (= bore-hole, drill hole)
+5. Calm (someone, especially oneself); make quiet
+"She had to compose herself before she could reply to this terrible insult"
+ 
+6. Make up plans or basic details for (= frame, draw up)
+"compose a policy";
+ 
+7. Arrange to make a pleasing picture, artwork, etc.
+"You have composed the picture very well with a great background"
 """,
   );
 
@@ -424,12 +447,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/nWZMfPP34g8?t=',
+    startSeconds: 667,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DPZzrlFCD_I',
-    startSeconds: 201,
+    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    startSeconds: 2838,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +501,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QiKZYt9070U',
-    startSeconds: 388,
+    videoId: 'https://youtu.be/fez7X_oevNs?t=',
+    startSeconds: 359,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +526,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KQWGHE7NTUA',
-    startSeconds: 546,
+    videoId: 'https://youtu.be/jujiQQU_9Rs?t=',
+    startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -503,8 +551,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y4BQSPveKyE',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/Ex6Xw83rszo?t=',
+    startSeconds: 577,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -528,8 +576,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Xzv84ZdtlE0',
-    startSeconds: 115,
+    videoId: 'https://youtu.be/_SeOtpG_qmM?t=',
+    startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -553,8 +601,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4H5--Qy3h9Q',
-    startSeconds: 488,
+    videoId: 'https://youtu.be/8tT3FhOA4-g?t=',
+    startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,104 +622,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UvjSXBqQe4A',
-    startSeconds: 389,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3oIakJekCZU',
-    startSeconds: 195,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'p3TPPGb1X8A',
-    startSeconds: 510,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-ySwuQhruBo',
-    startSeconds: 274,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bore
+// end WORD_WEB

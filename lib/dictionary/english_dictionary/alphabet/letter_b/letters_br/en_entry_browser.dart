@@ -157,7 +157,7 @@ class EnglishEntrybrowser extends StatelessWidget {
                                             "What do you use as your default browser?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟."),
+                                            "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟"),
                                   ],
                                 ),
                               ),

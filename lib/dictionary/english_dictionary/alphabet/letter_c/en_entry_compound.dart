@@ -3,86 +3,136 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bore" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace bore - /bɔː(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybore extends StatelessWidget {
+class EnglishEntrycompound extends StatelessWidget {
 // blank divider
-  EnglishEntrybore({super.key});
+  EnglishEntrycompound({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbore(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompound(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bore"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compound"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores1(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm not boring you, am I?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbores2(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompounds1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I won't bore you with too many details."); // DOPSUM: CHANGE TEXT
+        "The air smelled like a compound of diesel and petrol fumes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores3(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompounds2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The drill is strong enough to bore through solid rock."); // DOPSUM: CHANGE TEXT
+        "Common salt is a compound of sodium and chlorine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores4(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His blue eyes seemed to bore into her."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbores5(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompounds3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I had to sit next to Michael at dinner - he's such a bore."); // DOPSUM: CHANGE TEXT
+        "A compound sentence contains two or more clauses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores6(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompounds4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbores66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The problems were compounded by severe food shortages."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbores7(String languageCode) async {
-    // DOPSUM: CHANGE speakbore
+  Future<void> speakcompounds5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbores77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His financial problems were compounded when he unexpectedly lost his job."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The DNA molecule is compounded from many smaller molecules."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Most tyres are made of rubber compounded with other chemicals and materials."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompounds800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompounds900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompounds1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompounds1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompounds1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompounds13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompound
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcompounds1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +155,22 @@ class EnglishEntrybore extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bore"),
+                            EntryTitle(word: "compound"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɔː(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒmpaʊnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbore("en-GB"),
+                              onPressed: () => speakcompound("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɔːr/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːmpaʊnd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbore("en-US"),
+                              onPressed: () => speakcompound("en-US"),
                             ),
                           ],
                         ),
@@ -133,7 +183,7 @@ class EnglishEntrybore extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -147,20 +197,53 @@ class EnglishEntrybore extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قوڵکە، چاڵ، کون، مێمڵ، ڕیوڵ، ژیرەژاو، مرۆی وەڕەس‌کەر یان گەوج‌کەر، وشترە، وشتراو، قەڵبەزە
+کوردی: پێکهاتە، داڕشتە، تێکەڵە، لێکدراو، ئاوێتە،	وشەی لێکدراو،	(ڕستە) ناسادە، لێکدراو،	پێکهاتە، پێکهێنراو، پێکهاتوو، ئاوێتە، ناوچەی دەورگیراو، حەوشە، دیواربەند
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بێزارکردنی کەسێک، بەتایبەی بە قسەی زۆر"),
+                                  "١. (ناو) شتێک کە تێکەڵەی دوو شت یان زیاترە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "I'm not boring you, am I?"),
+                                        text:
+                                            "The air smelled like a compound of diesel and petrol fumes."),
                                     ExampleSentenceKurdish(
-                                        text: "بێزارت ناکەم، وایە؟"),
+                                        text:
+                                            "هەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەهات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "compound", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompounds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompounds1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) مادەیەک کە لە کارلێکی کیمیایی دوو توخم یان زیاتر درووست دەبێت کە ڕێژەی جێگیر بەراورد بە یەکدی هەیە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Common salt is a compound of sodium and chlorine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێی ئاسایی ئاوێتەیەکی سۆدیۆم و کلۆرە."),
                                   ],
                                 ),
                               ),
@@ -168,10 +251,72 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores1("en-GB"),
+                                    onPressed: () => speakcompounds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores1("en-US"),
+                                    onPressed: () => speakcompounds2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) شتێک کە لە دوو بەش پێکهاتووە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A compound sentence contains two or more clauses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕستەیەکی لێکدراو لە دوو بڕگە یان زیاتر پێکدێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompounds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompounds3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) خراپترکردنی شتێکی شتێکی خراپ بە درووستکردنی کێشەی زیاتر"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The problems were compounded by severe food shortages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەکانی خراپتر بوون بە کەماسییەکی سەختی خواردن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompounds4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompounds4("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,9 +330,10 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I won't bore you with too many details."),
+                                            "His financial problems were compounded when he unexpectedly lost his job."),
                                     ExampleSentenceKurdish(
-                                        text: "سەرت نایەشێنم بە وردەکاری زۆر."),
+                                        text:
+                                            "کێشە داراییەکانی خراپتر بوون کە لەناکاو کارەکەی لەدەستدا."),
                                   ],
                                 ),
                               ),
@@ -195,10 +341,10 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores2("en-GB"),
+                                    onPressed: () => speakcompounds5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores2("en-US"),
+                                    onPressed: () => speakcompounds5("en-US"),
                                   ),
                                 ],
                               ),
@@ -206,8 +352,7 @@ class EnglishEntrybore extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) درووستکردنی چاڵێکی قووڵ بە ئامێرێک یان بە ھەڵکەندن"),
+                              text: "٥. (کردار) درووست بوو لە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -215,10 +360,10 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The drill is strong enough to bore through solid rock."),
+                                            "The DNA molecule is compounded from many smaller molecules."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "درێلەکە ھندە بەھێزە کە بە بەردی سەختدا بکەنێت."),
+                                            "گەردی دی‌ئێن‌ئەی پێکدێت لە ڕێژەیەکی زۆری بچووکتر لە گەرد."),
                                   ],
                                 ),
                               ),
@@ -226,10 +371,10 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores3("en-GB"),
+                                    onPressed: () => speakcompounds6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores3("en-US"),
+                                    onPressed: () => speakcompounds6("en-US"),
                                   ),
                                 ],
                               ),
@@ -237,8 +382,7 @@ class EnglishEntrybore extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) ڕوانین بەشێوەیەک کە کەسێک ناڕەحەت دەکات"),
+                              text: "٦. (کردار) تێکەڵکردن پێکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,10 +390,10 @@ class EnglishEntrybore extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "His blue eyes seemed to bore into her."),
+                                            "Most tyres are made of rubber compounded with other chemicals and materials."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوە شینەکانی وادیار بوون لێی زەقبووبن."),
+                                            "زۆر تایە لە لاستیک درووست دەکرێن کە تێکەڵکراوە لەگەڵ مادە و کیمیایی دیکە."),
                                   ],
                                 ),
                               ),
@@ -257,44 +401,10 @@ class EnglishEntrybore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbores4("en-GB"),
+                                    onPressed: () => speakcompounds7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbores4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (کردار) ڕابردووی bear"),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ناو) کەسێک کە زۆر بێزارکەرە، زۆرجار بەھۆی ئەوەی قسە زۆر دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had to sit next to Michael at dinner - he's such a bore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خواردنی نیوەڕۆ دەبوو لە تەنیشت مایکڵ دابنیشم، زۆر کەسێکی ڕیوڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbores5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbores5("en-US"),
+                                    onPressed: () => speakcompounds7("en-US"),
                                   ),
                                 ],
                               ),
@@ -310,11 +420,11 @@ class EnglishEntrybore extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -326,6 +436,7 @@ class EnglishEntrybore extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -368,7 +479,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -378,24 +489,42 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bore 
-1. Be dull and cause to lose interest (= tire)
-"the long presentation bored her";
+- Verb: compound (Derived forms: compounding, compounds, compounded)
+1. Make more intense, stronger, or more marked (= intensify, heighten, deepen)
+"The efforts were compounded";
  
-2. Make a hole, especially with a pointed power or hand tool (= drill)
-"carpenter bees are boring holes into the wall";
+2. Put or add together (= combine)
+"compound resources";
+ 
+3. Calculate principal and interest
+ 
+4. Create by mixing or combining
+ 
+5. Combine so as to form a whole; mix (= combine)
+"compound the ingredients";
 
-- Noun: bore
-1. A person who evokes boredom (= dullard, meatball [N. Amer, informal])
+- Noun: compound (Derived forms: compounds)
+1. A whole formed by a union of two or more elements or parts
  
-2. A high wave (often dangerous) caused by tidal flow (as by colliding tidal currents or in a narrow estuary) (= tidal bore, eagre [UK, dialect], aegir [non-standard], eager [UK, dialect])
+2. (chemistry) a substance formed by chemical union of two or more elements or ingredients in definite proportion by weight (= chemical compound)
  
-3. Diameter of a tube or gun barrel (= gauge, caliber [US], calibre [Brit, Cdn])
+3. An enclosure of residences and other buildings
  
-4. (mining) a hole or passage made by a drill; usually made for exploratory purposes (= bore-hole, drill hole)
+4. A word (as anthropology, kilocycle, builder) consisting of any of various combinations of words, combining forms, or affixes. (= compound word)
+"Also common in English is another type of verb-noun (or noun-verb) compound, in which an argument of the verb is incorporated into the verb, which is then usually turned into a gerund, such as breastfeeding, finger-pointing, etc.";
+
+- Adjective: compound 
+1. Consisting of two or more substances or ingredients or elements or parts
+"soap is a compound substance"; "housetop is a compound word"; "a blackberry is a compound fruit"
+ 
+2. (zoology) composed of many distinct individuals united to form a whole or colony (= colonial)
+"coral is a compound organism";
+ 
+3. (botany) composed of more than one part
+"compound leaves are composed of several lobes"; "compound flower heads"
 """,
   );
 
@@ -424,12 +553,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/XlwbarbttsI?t=',
+    startSeconds: 9,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DPZzrlFCD_I',
-    startSeconds: 201,
+    videoId: 'https://youtu.be/4EpI7UbQvUI?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +607,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QiKZYt9070U',
-    startSeconds: 388,
+    videoId: 'https://youtu.be/HrUmQ6uLSPI?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +632,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KQWGHE7NTUA',
-    startSeconds: 546,
+    videoId: 'https://youtu.be/0-K1pVcmVzk?t=',
+    startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -503,8 +657,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'y4BQSPveKyE',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/MVHZWLFXKPo?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -528,8 +682,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Xzv84ZdtlE0',
-    startSeconds: 115,
+    videoId: 'https://youtu.be/IaUmrzUPU1k?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -553,8 +707,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4H5--Qy3h9Q',
-    startSeconds: 488,
+    videoId: 'https://youtu.be/rjpFX1WEfZ0?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,104 +728,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UvjSXBqQe4A',
-    startSeconds: 389,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3oIakJekCZU',
-    startSeconds: 195,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'p3TPPGb1X8A',
-    startSeconds: 510,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-ySwuQhruBo',
-    startSeconds: 274,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bore
+// end WORD_WEB

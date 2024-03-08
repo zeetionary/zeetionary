@@ -355,7 +355,7 @@ class EnglishEntrybust extends StatelessWidget {
                                         text:
                                             "What is your bust measurement, Madam?"),
                                     ExampleSentenceKurdish(
-                                        text: "قیاسی سنگت چەندە، خاتوون؟."),
+                                        text: "قیاسی سنگت چەندە، خاتوون؟"),
                                   ],
                                 ),
                               ),

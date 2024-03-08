@@ -3,84 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bleat" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
-
-// replace bleat - /bliːt/
 
 enum TtsState { playing }
 
-class EnglishEntrybleat extends StatelessWidget {
+class EnglishEntrycomplicity extends StatelessWidget {
 // blank divider
-  EnglishEntrybleat({super.key});
+  EnglishEntrycomplicity({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbleat(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicity(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bleat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("complicity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats1(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The lamb gave a faint bleat."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbleats2(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicitys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She's always bleating (on) about how badly she's been treated."); // DOPSUM: CHANGE TEXT
+        "She is suspected of complicity in the fraud."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats3(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicitys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A goat was bleating afar."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplicitys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats4(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicitys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplicitys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats5(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicitys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplicitys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats6(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicitys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplicitys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats7(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomplicitys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomplicitys600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomplicitys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomplicity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomplicitys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +149,22 @@ class EnglishEntrybleat extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bleat"),
+                            EntryTitle(word: "complicity"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bliːt/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈplɪsəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbleat("en-GB"),
+                              onPressed: () => speakcomplicity("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bliːt/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈplɪsəti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbleat("en-US"),
+                              onPressed: () => speakcomplicity("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +177,7 @@ class EnglishEntrybleat extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,65 +191,10 @@ class EnglishEntrybleat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: باڕە، کاڕە، باقە، ما، باقەباق، باڕەباڕ، بالەبال، بۆڵە
+کوردی: هاودەستی، دەست‌تیابوون، بەشداری لە تاوان‌دا
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) دەنگی مەڕ یان بزن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The lamb gave a faint bleat."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرخەکە بەنزمی باعاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) باعاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A goat was bleating afar."),
-                                    ExampleSentenceKurdish(
-                                        text: "بزنێک لە دوورەوە دەیباعاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (کردار) بۆڵەبۆڵکردن"),
+                              text: "١. (ناو) بەژداری لە تاوانێک لەگەڵ کەسێکی دیکەدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,27 +202,25 @@ class EnglishEntrybleat extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She's always bleating (on) about how badly she's been treated."),
+                                            "She is suspected of complicity in the fraud."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە."),
+                                        text: "گومانی هاودەستی لێدەکرێت لە ساختەکارییەکەدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "complicity", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbleats2("en-GB"),
+                                    onPressed: () => speakcomplicitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats2("en-US"),
+                                    onPressed: () => speakcomplicitys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -242,9 +231,9 @@ class EnglishEntrybleat extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -258,6 +247,7 @@ class EnglishEntrybleat extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -300,7 +290,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -310,17 +300,11 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bleat (derived forms: bleats)
-1. The sound of sheep or goats (or any sound resembling this)
-
-- Verb: bleat (derived forms: bleating, bleated, bleats)
-1. Talk whiningly
- 
-2. Cry plaintively (= blate, blat [N. Amer, informal], baa)
-"The lambs were bleating";
+- Noun: complicity (Derived forms: complicities)
+1. Guilt as an accomplice in a crime or offence
 """,
   );
 
@@ -349,12 +333,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/rtAAjKBH9GU?t=',
+    startSeconds: 497,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'v5uon3iMlsk',
-    startSeconds: 340,
+    videoId: 'https://youtu.be/hzDDYwwDJ1E?t=',
+    startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +387,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rXo8mmVTXGQ',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/bnhF_Qw0dtk?t=',
+    startSeconds: 917,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +412,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'z5VOzFbD_6Q',
-    startSeconds: 374,
+    videoId: 'https://youtu.be/8lre5_-RvhQ?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +437,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ek-NqxUW0V8',
-    startSeconds: 84,
+    videoId: 'https://youtu.be/ymY7Zg8wLmo?t=',
+    startSeconds: 573,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +462,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XDYf4-fp5lQ',
-    startSeconds: 760,
+    videoId: 'https://youtu.be/ZipvszPdzB0?t=',
+    startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +487,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HFT7f7Uh0fI',
-    startSeconds: 802,
+    videoId: 'https://youtu.be/ASwBItUKzWo?t=',
+    startSeconds: 813,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,54 +508,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'EWJjiEACHWA',
-    startSeconds: 96,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hcBkY74BCfc',
-    startSeconds: 154,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bleat
+// end WORD_WEB

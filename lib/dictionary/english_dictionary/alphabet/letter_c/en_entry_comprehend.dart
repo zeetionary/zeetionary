@@ -3,84 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "bleat" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
-
-// replace bleat - /bliːt/
 
 enum TtsState { playing }
 
-class EnglishEntrybleat extends StatelessWidget {
+class EnglishEntrycomprehend extends StatelessWidget {
 // blank divider
-  EnglishEntrybleat({super.key});
+  EnglishEntrycomprehend({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbleat(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehend(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bleat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("comprehend"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats1(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The lamb gave a faint bleat."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbleats2(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehends1(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She's always bleating (on) about how badly she's been treated."); // DOPSUM: CHANGE TEXT
+        "The infinite distances of space are too great for the human mind to comprehend."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats3(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehends2(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A goat was bleating afar."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She could not comprehend how someone would risk people's lives in that way."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats4(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehends3(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomprehends300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats5(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehends4(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomprehends400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats6(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehends5(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomprehends500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbleats7(String languageCode) async {
-    // DOPSUM: CHANGE speakbleat
+  Future<void> speakcomprehends6(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomprehends600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends7(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends8(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends9(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends10(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends11(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends12(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcomprehends13(String languageCode) async {
+    // DOPSUM: CHANGE speakcomprehend
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcomprehends1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +150,22 @@ class EnglishEntrybleat extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bleat"),
+                            EntryTitle(word: "comprehend"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bliːt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒmprɪˈhend/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbleat("en-GB"),
+                              onPressed: () => speakcomprehend("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bliːt/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌkɑːmprɪˈhend/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbleat("en-US"),
+                              onPressed: () => speakcomprehend("en-US"),
                             ),
                           ],
                         ),
@@ -131,7 +178,7 @@ class EnglishEntrybleat extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -145,65 +192,10 @@ class EnglishEntrybleat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: باڕە، کاڕە، باقە، ما، باقەباق، باڕەباڕ، بالەبال، بۆڵە
+کوردی: تێگەیشتن، فام کردن، حاڵی بوون
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) دەنگی مەڕ یان بزن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The lamb gave a faint bleat."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرخەکە بەنزمی باعاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) باعاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A goat was bleating afar."),
-                                    ExampleSentenceKurdish(
-                                        text: "بزنێک لە دوورەوە دەیباعاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (کردار) بۆڵەبۆڵکردن"),
+                              text: "١. (کردار) تێگەشتن لە شتێک بە تەواوی"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,10 +203,38 @@ class EnglishEntrybleat extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She's always bleating (on) about how badly she's been treated."),
+                                            "The infinite distances of space are too great for the human mind to comprehend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە."),
+                                            "مەودا بێ‌کۆتاکانی ئاسمان زۆر گەورەترن لەوەی مێشکی مرۆڤ لێی تێ بگات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "comprehend", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcomprehends1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcomprehends1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She could not comprehend how someone would risk people's lives in that way."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیدەتوانی تێبگات چۆن کەسێک ژیانی خەڵکی دەخاتە مەترسییەوە بەو شێوەیە."),
                                   ],
                                 ),
                               ),
@@ -222,16 +242,15 @@ class EnglishEntrybleat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbleats2("en-GB"),
+                                    onPressed: () => speakcomprehends2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats2("en-US"),
+                                    onPressed: () => speakcomprehends2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -242,9 +261,9 @@ class EnglishEntrybleat extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -258,6 +277,7 @@ class EnglishEntrybleat extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -300,7 +320,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -310,17 +330,18 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bleat (derived forms: bleats)
-1. The sound of sheep or goats (or any sound resembling this)
-
-- Verb: bleat (derived forms: bleating, bleated, bleats)
-1. Talk whiningly
+- Verb: comprehend (Derived forms: comprehended, comprehending, comprehends)
+1. Get the meaning of something (= grok [N. Amer, informal], get the picture, savvy, dig [informal], grasp, compass, apprehend)
+"Do you comprehend the meaning of this letter?";
  
-2. Cry plaintively (= blate, blat [N. Amer, informal], baa)
-"The lambs were bleating";
+2. To become aware of through the senses (= perceive)
+"I could comprehend the ship coming over the horizon";
+ 
+3. Include in scope; include as part of something broader; have as one's sphere or territory (= embrace, encompass, cover)
+"This group comprehends a wide range of people from different backgrounds";
 """,
   );
 
@@ -349,12 +370,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/we97hWX9kjM?t=',
+    startSeconds: 141,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'v5uon3iMlsk',
-    startSeconds: 340,
+    videoId: 'https://youtu.be/zV5AJir80vQ?t=',
+    startSeconds: 2381,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -378,8 +424,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rXo8mmVTXGQ',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    startSeconds: 434,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -403,8 +449,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'z5VOzFbD_6Q',
-    startSeconds: 374,
+    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    startSeconds: 1040,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -428,8 +474,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ek-NqxUW0V8',
-    startSeconds: 84,
+    videoId: 'https://youtu.be/TyqFUIQ1bZw?t=',
+    startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -453,8 +499,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XDYf4-fp5lQ',
-    startSeconds: 760,
+    videoId: 'https://youtu.be/PcleLc3Ol9w?t=',
+    startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,8 +524,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HFT7f7Uh0fI',
-    startSeconds: 802,
+    videoId: 'https://youtu.be/Euj852jIfsg?t=',
+    startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,54 +545,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'EWJjiEACHWA',
-    startSeconds: 96,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hcBkY74BCfc',
-    startSeconds: 154,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end bleat
+// end WORD_WEB

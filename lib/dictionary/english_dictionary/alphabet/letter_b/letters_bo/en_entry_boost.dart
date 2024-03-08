@@ -445,7 +445,7 @@ class EnglishEntryboost extends StatelessWidget {
                                             "Motorists who operate diesel-powered vehicles would face a 1.5-cent-a-gallon boost in fuel taxes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو شۆفێرانەی کە ئامێری گوازەرەوەی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە."),
+                                            "ئەو شۆفێرانەی کە ئۆتۆمبێلی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە."),
                                   ],
                                 ),
                               ),

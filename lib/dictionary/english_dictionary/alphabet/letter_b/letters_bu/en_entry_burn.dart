@@ -950,7 +950,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "Your forehead's burning. Have you got a fever?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوچاوانت گڕی گرتووە. تات ھەیە؟."),
+                                            "ناوچاوانت گڕی گرتووە. تات ھەیە؟"),
                                   ],
                                 ),
                               ),

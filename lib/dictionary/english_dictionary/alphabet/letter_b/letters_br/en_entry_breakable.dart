@@ -157,7 +157,7 @@ class EnglishEntrybreakable extends StatelessWidget {
                                             "Do you have anything breakable in your bag?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھیچ شتێکی شکستەنیت پێیە لە جانتاکەدا؟."),
+                                            "ھیچ شتێکی شکستەنیت پێیە لە جانتاکەدا؟"),
                                   ],
                                 ),
                               ),

@@ -10,132 +10,130 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclick extends StatelessWidget {
-  // blank divider
-  EnglishEntryclick({super.key});
-  // blank divider
+class EnglishEntryconcede extends StatelessWidget {
+// blank divider
+  EnglishEntryconcede({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclick(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcede(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("click"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("concede"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks1(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes1(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Click here to add your opinion to the survey."); // DOPSUM: CHANGE TEXT
+        "He was forced to concede (that) there might be difficulties."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks2(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes2(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He reluctantly conceded the point to me."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconcedes3(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It must be conceded that different judges have different approaches to these cases."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconcedes4(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "After losing this decisive battle, the general was forced to concede."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconcedes5(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Click the OK button to start."); // DOPSUM: CHANGE TEXT
+        .speak("Injury forced Hicks to concede defeat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks3(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The door clicked shut."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks4(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He clicked his fingers at the waiter."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks5(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes6(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police officer clicked a pair of handcuffs around his wrists."); // DOPSUM: CHANGE TEXT
+        "The president was obliged to concede power to the army."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks6(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes7(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Suddenly it clicked—we'd been talking about different people."); // DOPSUM: CHANGE TEXT
+        "England conceded a goal immediately after half-time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks7(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes8(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We met at a party and clicked immediately."); // DOPSUM: CHANGE TEXT
+        "The firm should concede a significant salary increase to its employees."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks8(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes9(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The team don't seem to have clicked yet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks9(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes10(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A vast amount of information now available at the click of a mouse."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks10(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes11(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It only took me a couple of clicks to find what I was looking for."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks11(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes12(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The door closed with a click."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks12(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakconcedes13(String languageCode) async {
+    // DOPSUM: CHANGE speakconcede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks13(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -158,22 +156,22 @@ class EnglishEntryclick extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "click"),
+                            EntryTitle(word: "concede"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈsiːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclick("en-GB"),
+                              onPressed: () => speakconcede("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɪk/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈsiːd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclick("en-US"),
+                              onPressed: () => speakconcede("en-US"),
                             ),
                           ],
                         ),
@@ -200,11 +198,11 @@ class EnglishEntryclick extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (دەنگ) تەقە، تەق‌وکوت، قرتە، کرتە، چرکە، چرتە،	داگرتن (دوگمەی کۆمپیوتەر)، گیرە، بەند
+کوردی: واز لێهینان، بەخشین، پێدان، دان پێداهێنان، پشتڕاست کردنەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) ئەنجامدانیشتێک لەسەر کۆمپیوتەر بە پەنجەنان بە ماوسەکەدا"),
+                                  "١. (کردار) وتنی ئەوەی کە شتێک ڕاستە، لۆژیکییە، هتد لە دوای ئەوەی لە سەرەتادا دژی بوویت"),
                           Row(
                             children: [
                               const Expanded(
@@ -212,77 +210,21 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Click here to add your opinion to the survey."),
+                                            "He was forced to concede (that) there might be difficulties."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێرە گرتە بکە بۆ زیادکردنی بۆچوونت بۆ ڕاپرسییەکە."),
+                                            "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی هەبێت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "click", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "concede", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks1("en-GB"),
+                                    onPressed: () => speakconcedes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Click the OK button to start."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیک لە دووگمەی OK بکە بۆ دەستپێکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) درووستکردنی قرتەیەکی کورت و خێرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The door clicked shut."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە قرتەیەک گیرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks3("en-US"),
+                                    onPressed: () => speakconcedes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -296,10 +238,9 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He clicked his fingers at the waiter."),
+                                            "He reluctantly conceded the point to me."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "چەقەنەیەک لێدا بۆ گارسۆنەکە بە پەنجەکانی."),
+                                        text: "بە نابەدڵییەوە خاڵەکەی پێدام."),
                                   ],
                                 ),
                               ),
@@ -307,10 +248,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks4("en-GB"),
+                                    onPressed: () => speakconcedes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks4("en-US"),
+                                    onPressed: () => speakconcedes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -324,10 +265,10 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The police officer clicked a pair of handcuffs around his wrists."),
+                                            "It must be conceded that different judges have different approaches to these cases."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەفسەرە پۆلیسەکە کەلەپچەیەکی لە مەچەکەکانی ئاڵاند."),
+                                            "دەبێت ئەوە پەسەند بکرێت کە دادوەری جیاواز ڕێبازی جیاواز دەگرنە بەر بۆ ئەم کەیسانە."),
                                   ],
                                 ),
                               ),
@@ -335,10 +276,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks5("en-GB"),
+                                    onPressed: () => speakconcedes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks5("en-US"),
+                                    onPressed: () => speakconcedes3("en-US"),
                                   ),
                                 ],
                               ),
@@ -347,7 +288,7 @@ class EnglishEntryclick extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) (بۆ شتێک) کە لەناکاو ڕوون دەبێت و خەڵکی لێی تێ دەگەن"),
+                                  "٢. (کردار) داننان بە دۆڕان لە ڕکابەرییەک، هەڵبژاردنێک، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -355,10 +296,10 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Suddenly it clicked—we'd been talking about different people."),
+                                            "After losing this decisive battle, the general was forced to concede."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەناکاو ڕوونبووەوە، قسەمان لەسەر کەسی جیاواز دەکرد."),
+                                            "لە دوای دۆڕان لەم ڕووبەڕووبوونەوە گرنگە، ژەنەڕاڵەکە ناچارکرا دان بە شکست بنێت."),
                                   ],
                                 ),
                               ),
@@ -366,102 +307,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks6("en-GB"),
+                                    onPressed: () => speakconcedes4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) لەناکاو بوون بە هاوڕێ لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We met at a party and clicked immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئاهەنگێک یەکمان ناسی و دەستبەجێ بووین بە دۆست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (کردار) باش کارکردن پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team don't seem to have clicked yet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە وادەرناکەوێت هێشتا پێکەوە بگونجێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٦. (ناو) دەستنان بە دووگمەی ماوسی کۆمپیوتەردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A vast amount of information now available at the click of a mouse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە زانیاری بەردەستە ئێستا بە کلیکی ماوسێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks9("en-US"),
+                                    onPressed: () => speakconcedes4("en-US"),
                                   ),
                                 ],
                               ),
@@ -475,10 +324,10 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It only took me a couple of clicks to find what I was looking for."),
+                                            "Injury forced Hicks to concede defeat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆزینەوەی ئەوەی دەمویست تەنها چەند کلیکێکی پێچوو."),
+                                            "پێکان هیکسی ناچارکرد دان بە شکستدا بنێت."),
                                   ],
                                 ),
                               ),
@@ -486,10 +335,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks10("en-GB"),
+                                    onPressed: () => speakconcedes5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks10("en-US"),
+                                    onPressed: () => speakconcedes5("en-US"),
                                   ),
                                 ],
                               ),
@@ -497,16 +346,19 @@ class EnglishEntryclick extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) دەنگێکی تیژی کورت"),
+                              text:
+                                  "٣. (کردار) وازهێنان لە شتێک، بە تایبەتی بە نابەدڵانە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "The door closed with a click."),
+                                        text:
+                                            "The president was obliged to concede power to the army."),
                                     ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە قرتەیەک گیرا."),
+                                        text:
+                                            "سەرۆکەکە ناچارکرا دەسەڵات ڕادەستی سوپا بکات."),
                                   ],
                                 ),
                               ),
@@ -514,10 +366,66 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks11("en-GB"),
+                                    onPressed: () => speakconcedes6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks11("en-US"),
+                                    onPressed: () => speakconcedes6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "England conceded a goal immediately after half-time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئینگلتەرە گۆڵێکی دابەدەستەوە ڕاستەوخۆ لە دوای گێمی دووەم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconcedes7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconcedes7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The firm should concede a significant salary increase to its employees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە دەبێت زیادکردنێکی گەورەی مووچە بدات بە کارمەندانی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconcedes8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconcedes8("en-US"),
                                   ),
                                 ],
                               ),
@@ -534,7 +442,7 @@ class EnglishEntryclick extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -592,7 +500,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -602,43 +510,20 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: click (Derived forms: clicks)
-1. A short light metallic sound (= chink, clink)
+- Verb: concede (Derived forms: conceding, concedes, conceded)
+1. Admit (to a wrongdoing) (= profess, confess)
+"She conceded that she had taken the money";
  
-2. Depression of a button on a computer mouse (= mouse click)
-"a click on the right button for example";
+2. Be willing to admit or forced to agree (= yield, grant)
+"I concede you this much";
  
-3. A stop consonant made by the suction of air into the mouth (as in Bantu) (= suction stop)
+3. Give over; surrender or relinquish to the physical control of another (= yield, cede, grant)
  
-4. A hinged catch that fits into a notch of a ratchet to move a wheel forward or prevent it from moving backward (= pawl, detent, dog)
-
-- Verb: click (Derived forms: clicked, clicks, clicking)
-1. Move or strike with a noise (= snap)
-"he clicked on the light";
- 
-2. Make a clicking or ticking sound (= tick)
-"The clock clicked away";
- 
-3. Make a clicking sound repeatedly or uncontrollably (= chatter)
-"clicking teeth";
- 
-4. Cause to make a snapping sound (= snap, flick)
-"click your fingers";
- 
-5. Produce a click
-"Xhosa speakers click"
- 
-6. Make a clucking sounds, characteristic of hens (= cluck, clack)
- 
-7. Become clear or enter one's consciousness or emotions (= get through, dawn, come home, get across, sink in, penetrate, fall into place)
- 
-8. [informal] Immediately develop a good friendly relationship (with someone) (= hit it off [informal])
- 
-9. Depress a button on a computer mouse, usually to move the cursor or invoke some action
-"Click the third of three icons located in the top right hand part of the screen"
+4. Acknowledge defeat
+"The candidate conceded after enough votes had come in to show that he would lose"
 """,
   );
 
@@ -671,8 +556,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'EFO6Gqtmccc',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/MqyJZsGFZ3M?t=',
+    startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -696,8 +581,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'r87A-Ql2czg',
-    startSeconds: 101,
+    videoId: 'https://youtu.be/5zI9sG3pjVU?t=',
+    startSeconds: 960,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -721,8 +606,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FHJ3CMWnVxY',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/dzRNswfny3A?t=',
+    startSeconds: 1279,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -746,8 +631,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'khOUvmOQExc',
-    startSeconds: 164,
+    videoId: 'https://youtu.be/PwbgLteVwvs?t=',
+    startSeconds: 378,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -771,8 +656,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HDntl7yzzVI',
-    startSeconds: 1825,
+    videoId: 'https://youtu.be/kpcLiJezXQw?t=',
+    startSeconds: 634,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -796,8 +681,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '47MNn4bsmSw',
-    startSeconds: 3881,
+    videoId: 'https://youtu.be/LJ0Hfc8hvpE?t=',
+    startSeconds: 130,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -821,33 +706,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'cjLooycOwVc',
-    startSeconds: 176,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'omcNGrnt7Sg',
-    startSeconds: 93,
+    videoId: 'https://youtu.be/UOIFBKB4mIE?t=',
+    startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

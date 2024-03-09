@@ -10,128 +10,127 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycomprehensive extends StatelessWidget {
+class EnglishEntrycompulsive extends StatelessWidget {
 // blank divider
-  EnglishEntrycomprehensive({super.key});
+  EnglishEntrycompulsive({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcomprehensive(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsive(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("comprehensive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compulsive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives1(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "His family had been unaware of his compulsive gambling."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompulsives2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She went through periods of compulsive overeating."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompulsives3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The list is fairly comprehensive."); // DOPSUM: CHANGE TEXT
+        .speak("He was a compulsive gambler."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives2(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We offer you a comprehensive training in all aspects of the business."); // DOPSUM: CHANGE TEXT
+        "The book offers advice and help for compulsive eaters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives3(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He has written a fully comprehensive guide to Rome."); // DOPSUM: CHANGE TEXT
+        "I always find programmes about hospitals compulsive viewing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives4(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Is the school selective or comprehensive?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives5(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cricket team finished the season with a comprehensive victory over their rivals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives6(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They went to the local comprehensive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives7(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives8(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcompulsives13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompulsive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcomprehensives12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcomprehensives13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsives1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,23 +153,22 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "comprehensive"),
+                            EntryTitle(word: "compulsive"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkɒmprɪˈhensɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /kəmˈpʌlsɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcomprehensive("en-GB"),
+                              onPressed: () => speakcompulsive("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌkɑːmprɪˈhensɪv/"),
+                            const IPAofEnglish(text: "IpaUS: /kəmˈpʌlsɪv/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcomprehensive("en-US"),
+                              onPressed: () => speakcompulsive("en-US"),
                             ),
                           ],
                         ),
@@ -197,11 +195,11 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەرین، بەربڵاو، گشت‌لایەنە، هەمووگر، گشتگیر، هەمەلایەنە، سەراپاگیر، بەرفراوان، خوێندنگای ئامادەی گشتگیر، خوێندنگای کۆتایی گشتگیر
+کوردی: بەزۆری، زۆردارەکی، زۆرەکی، خۆنەویست، نەبڕاوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) گشتگیر؛ لەخۆگرتنی هەموو یان بە نزیکەیی هەموو وردەکاری، زانیاری، هتد"),
+                                  "١. (ھاوەڵناو) ڕەفتارێک یان شتێک کە سەختە کۆنترۆڵ بکرێت یان بوەستێنرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,22 +207,21 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The list is fairly comprehensive."),
+                                            "His family had been unaware of his compulsive gambling."),
                                     ExampleSentenceKurdish(
-                                        text: "لیستەکە تاڕادەیەک گشتگیرە."),
+                                        text:
+                                            "خێزانەکەی بێ‌ئاگا بووبوون لە قومارە نەبڕاوەکەی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprehensive", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "compulsive", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives1("en-GB"),
+                                    onPressed: () => speakcompulsives1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives1("en-US"),
+                                    onPressed: () => speakcompulsives1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +235,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We offer you a comprehensive training in all aspects of the business."),
+                                            "She went through periods of compulsive overeating."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنانێکی بەرفراوانت پێدەدەین لە هەموو لایەنەکانی بازرگانییەکەوە."),
+                                            "بە زۆرخۆریی کۆنترۆڵنەکراوی ماوە ماوەدا تێدەپەڕی."),
                                   ],
                                 ),
                               ),
@@ -249,12 +246,39 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives2("en-GB"),
+                                    onPressed: () => speakcompulsives2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives2("en-US"),
+                                    onPressed: () => speakcompulsives2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) کەسێک کە ناتوانێت خۆی کۆنترۆڵ بکات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was a compulsive gambler."),
+                                    ExampleSentenceKurdish(
+                                        text: "قومارکارێکی سەرسەخت بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompulsives3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompulsives3("en-US"),
                                   ),
                                 ],
                               ),
@@ -268,10 +292,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He has written a fully comprehensive guide to Rome."),
+                                            "The book offers advice and help for compulsive eaters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێبەرییەکی تاڕادەیەک گشتگیری بۆ ڕۆما نووسیوە."),
+                                            "کتێبەکە ڕاوێژ و یارمەتی دەدات بە کەسانی زۆرخۆر."),
                                   ],
                                 ),
                               ),
@@ -279,75 +303,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives3("en-GB"),
+                                    onPressed: () => speakcompulsives4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerDefinition(),
-                          // const DefinitionKurdish(
-                          //     text:
-                          //         "٢. (ھاوەڵناو) خوێندنگایەک یان سیستەمێکی خوێندن کە دیزاین کراوە بۆ منداڵانی هەموو توانا جیاوازەکان لە سەروو تەمەنی ١١ساڵییەوە"),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Column(
-                          //         children: [
-                          //           ExampleSentenceEnglish(
-                          //               text:
-                          //                   "Is the school selective or comprehensive?"),
-                          //           ExampleSentenceKurdish(
-                          //               text: "خوێندنگاکە."),
-                          //         ],
-                          //       ),
-                          //     ),
-                          //     const CustomSizedBoxForTTS(),
-                          //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakcomprehensives4("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakcomprehensives4("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵناو) بردنەوە یان شکست بە جیاوازییەکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cricket team finished the season with a comprehensive victory over their rivals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمە کریکتەکە وەرزەکەی تەواوکرد بە سەرکەوتنێکی گەورە بەسەر ڕکابەرەکانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives5("en-US"),
+                                    onPressed: () => speakcompulsives4("en-US"),
                                   ),
                                 ],
                               ),
@@ -356,7 +315,7 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) قوتابخانەیەک بۆ منداڵانی هەموو توانا جیاوازەکان کە لەلایەن حکومەتەوە خەرجی دەکرێت"),
+                                  "٣. (ھاوەڵناو) شتێک کە وات لێدەکات سەرنج بدەیت چونکە زۆر سەرنجڕاکێشە یان جێژبەخشە"),
                           Row(
                             children: [
                               const Expanded(
@@ -364,10 +323,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They went to the local comprehensive."),
+                                            "I always find programmes about hospitals compulsive viewing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چوونە قوتابخانەی گشتگیری خۆجێیی."),
+                                            "هەمیشە ئەو پڕۆگرامانەی سەبارەت بە نەخۆشخانەن بە سەیرکردنێکی دڵنیایی دەبینم (کە دەبێت سەیری بکەم)."),
                                   ],
                                 ),
                               ),
@@ -375,12 +334,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives6("en-GB"),
+                                    onPressed: () => speakcompulsives5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives6("en-US"),
+                                    onPressed: () => speakcompulsives5("en-US"),
                                   ),
                                 ],
                               ),
@@ -468,16 +425,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: comprehensive 
-1. Including all or everything
-"comprehensive coverage"; "a comprehensive history of the revolution"; "a comprehensive survey"; "a comprehensive education"
+- Adjective: compulsive 
+1. Caused by or suggestive of psychological compulsion
+"compulsive drinking"
  
-2. Broad in scope
-"a comprehensive survey of world affairs"
+2. Strongly motivated to succeed (= determined, driven)
 
-- Noun: comprehensive (Derived forms: comprehensives)
-1. An intensive examination testing a student's proficiency in some special field of knowledge (= comprehensive examination, comp)
-"she took her comprehensives in English literature";
+- Noun: compulsive (Derived forms: compulsives)
+1. A person with a compulsive disposition; someone who feels compelled to do certain things
 """,
   );
 
@@ -510,8 +465,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DfSnHyIryeY?t=',
-    startSeconds: 466,
+    videoId: 'https://youtu.be/OadokY8fcAA?t=',
+    startSeconds: 644,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -535,8 +490,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S4qvPouh1gE?t=',
-    startSeconds: 3529,
+    videoId: 'https://youtu.be/CLFaZcXUZ6o?t=',
+    startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -560,8 +515,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
-    startSeconds: 264,
+    videoId: 'https://youtu.be/ah2H1bhSFTQ',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -585,8 +540,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mCtSiImXpRo?t=',
-    startSeconds: 58,
+    videoId: 'https://youtu.be/zD5yZ2SqJbI',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -610,8 +565,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
-    startSeconds: 1151,
+    videoId: 'https://youtu.be/bvJrb_8dtd4?t=',
+    startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -635,8 +590,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_BbaiH17hOU?t=',
-    startSeconds: 98,
+    videoId: 'https://youtu.be/krQ7HYlO9t8?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -660,8 +615,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
-    startSeconds: 717,
+    videoId: 'https://youtu.be/ujviNfYAvDk?t=',
+    startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

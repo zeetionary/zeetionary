@@ -10,128 +10,127 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycomprehensive extends StatelessWidget {
+class EnglishEntrycon extends StatelessWidget {
 // blank divider
-  EnglishEntrycomprehensive({super.key});
+  EnglishEntrycon({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcomprehensive(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcon(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("comprehensive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("con"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives1(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons1(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The so-called bargain was just a big con!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcons2(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The list is fairly comprehensive."); // DOPSUM: CHANGE TEXT
+        .speak("The scheme was all a big con."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives2(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons3(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We offer you a comprehensive training in all aspects of the business."); // DOPSUM: CHANGE TEXT
+        "Look, I'm an officer, and cons don't speak to me like that, okay?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives3(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons4(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He has written a fully comprehensive guide to Rome."); // DOPSUM: CHANGE TEXT
+        "I was conned into buying a useless car."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives4(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons5(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Is the school selective or comprehensive?"); // DOPSUM: CHANGE TEXT
+        "He conned his way into the job using false references."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives5(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons6(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cricket team finished the season with a comprehensive victory over their rivals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives6(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons7(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They went to the local comprehensive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives7(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons8(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives8(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons9(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons10(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons11(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons12(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcomprehensives12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
+  Future<void> speakcons13(String languageCode) async {
+    // DOPSUM: CHANGE speakcon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcomprehensives13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcons1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,23 +153,22 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "comprehensive"),
+                            EntryTitle(word: "con"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkɒmprɪˈhensɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /kɒn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcomprehensive("en-GB"),
+                              onPressed: () => speakcon("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌkɑːmprɪˈhensɪv/"),
+                            const IPAofEnglish(text: "IpaUS: /kɑːn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcomprehensive("en-US"),
+                              onPressed: () => speakcon("en-US"),
                             ),
                           ],
                         ),
@@ -197,11 +195,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەرین، بەربڵاو، گشت‌لایەنە، هەمووگر، گشتگیر، هەمەلایەنە، سەراپاگیر، بەرفراوان، خوێندنگای ئامادەی گشتگیر، خوێندنگای کۆتایی گشتگیر
+کوردی: کەڵەک، فێڵ، فریو، دەسبڕی، زۆڵی (بۆ بەدەس‌هێنانی باوەڕی خەڵک)، فڕوفێڵاوی، درۆزنە، دژی، بە دژی، دەنگی دژایەتی
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) گشتگیر؛ لەخۆگرتنی هەموو یان بە نزیکەیی هەموو وردەکاری، زانیاری، هتد"),
+                              text: "١. (ناو) فێڵ؛ فێڵکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,22 +206,107 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The list is fairly comprehensive."),
+                                            "The so-called bargain was just a big con!"),
                                     ExampleSentenceKurdish(
-                                        text: "لیستەکە تاڕادەیەک گشتگیرە."),
+                                        text:
+                                            "ئەو بەناو ڕێکەوتە تەنها دەسبڕییەک بوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprehensive", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "con", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives1("en-GB"),
+                                    onPressed: () => speakcons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives1("en-US"),
+                                    onPressed: () => speakcons1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The scheme was all a big con."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکە هەمووی فێڵێکی گەورە بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcons2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ناو) تاوانبارێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Look, I'm an officer, and cons don't speak to me like that, okay?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ببینە، من ئەفسەرێکم، و تاوانباران بەو شێوەیە قسەم لەگەڵ ناکەن، تەواوە؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcons3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcons3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) فێڵکردن لە کەسێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was conned into buying a useless car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵەتێنرام بە کڕینی ئۆتۆمبێلێکی کۆن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcons4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcons4("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +320,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "We offer you a comprehensive training in all aspects of the business."),
+                                            "He conned his way into the job using false references."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنانێکی بەرفراوانت پێدەدەین لە هەموو لایەنەکانی بازرگانییەکەوە."),
+                                            "کارەکەی دەستکەوت بە فێڵ بە بەکارهێنانی ڕاسپاردن‌نامەی ناڕاست."),
                                   ],
                                 ),
                               ),
@@ -249,138 +331,10 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives2("en-GB"),
+                                    onPressed: () => speakcons5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has written a fully comprehensive guide to Rome."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێبەرییەکی تاڕادەیەک گشتگیری بۆ ڕۆما نووسیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerDefinition(),
-                          // const DefinitionKurdish(
-                          //     text:
-                          //         "٢. (ھاوەڵناو) خوێندنگایەک یان سیستەمێکی خوێندن کە دیزاین کراوە بۆ منداڵانی هەموو توانا جیاوازەکان لە سەروو تەمەنی ١١ساڵییەوە"),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Column(
-                          //         children: [
-                          //           ExampleSentenceEnglish(
-                          //               text:
-                          //                   "Is the school selective or comprehensive?"),
-                          //           ExampleSentenceKurdish(
-                          //               text: "خوێندنگاکە."),
-                          //         ],
-                          //       ),
-                          //     ),
-                          //     const CustomSizedBoxForTTS(),
-                          //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakcomprehensives4("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakcomprehensives4("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵناو) بردنەوە یان شکست بە جیاوازییەکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cricket team finished the season with a comprehensive victory over their rivals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمە کریکتەکە وەرزەکەی تەواوکرد بە سەرکەوتنێکی گەورە بەسەر ڕکابەرەکانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) قوتابخانەیەک بۆ منداڵانی هەموو توانا جیاوازەکان کە لەلایەن حکومەتەوە خەرجی دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They went to the local comprehensive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوونە قوتابخانەی گشتگیری خۆجێیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives6("en-US"),
+                                    onPressed: () => speakcons5("en-US"),
                                   ),
                                 ],
                               ),
@@ -468,16 +422,24 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: comprehensive 
-1. Including all or everything
-"comprehensive coverage"; "a comprehensive history of the revolution"; "a comprehensive survey"; "a comprehensive education"
+- Verb: con (Derived forms: conned, cons)
+1. [informal] Deprive of by deceit (= victimize, swindle, rook, goldbrick [N. Amer, informal], nobble [Brit, informal], diddle [informal], bunco [N. Amer, informal], defraud, scam [informal], mulct, hornswoggle [N. Amer, informal], short-change, victimise [Brit], grift [N. Amer, informal], ream [N. Amer, informal], bunko [N. Amer, informal])
+"He conned me out of my inheritance";
  
-2. Broad in scope
-"a comprehensive survey of world affairs"
+2. Conduct or direct the steering of a ship or plane (= conn [US])
+ 
+3. [archaic] Commit to memory; learn by heart (= memorize, memorise [Brit], learn)
 
-- Noun: comprehensive (Derived forms: comprehensives)
-1. An intensive examination testing a student's proficiency in some special field of knowledge (= comprehensive examination, comp)
-"she took her comprehensives in English literature";
+- Noun: con (Derived forms: cons)
+1. An argument opposed to a proposal
+ 
+2. [informal] A person serving a sentence in a jail or prison (= convict, inmate, yard bird [N. Amer, informal], yardbird [N. Amer, informal])
+ 
+3. [informal] A swindle in which you cheat at gambling or persuade a person to buy worthless property (= bunco [N. Amer, informal], bunco game [N. Amer, informal], bunko [N. Amer, informal], bunko game [N. Amer, informal], confidence trick, confidence game, con game [informal], hustle [informal], sting [informal], flimflam [informal])
+
+- Adverb: con
+1. In opposition to a proposition, opinion, etc.
+"much was written pro and con"
 """,
   );
 
@@ -510,8 +472,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DfSnHyIryeY?t=',
-    startSeconds: 466,
+    videoId: 'https://youtu.be/tdhSAYcXvrA?t=',
+    startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -535,8 +497,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S4qvPouh1gE?t=',
-    startSeconds: 3529,
+    videoId: 'https://youtu.be/5Z5-5xLGsk0?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -560,8 +522,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
-    startSeconds: 264,
+    videoId: 'https://youtu.be/arA5LS279Sw?t=',
+    startSeconds: 1485,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -585,8 +547,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mCtSiImXpRo?t=',
-    startSeconds: 58,
+    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
+    startSeconds: 1569,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -610,8 +572,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
-    startSeconds: 1151,
+    videoId: 'https://youtu.be/dfuPBC-v5NE?t=',
+    startSeconds: 421,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -635,8 +597,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_BbaiH17hOU?t=',
-    startSeconds: 98,
+    videoId: 'https://youtu.be/vb-p--iRFew?t=',
+    startSeconds: 511,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -660,8 +622,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
-    startSeconds: 717,
+    videoId: 'https://youtu.be/t1shnJT8NCY?t=',
+    startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,132 +10,135 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclick extends StatelessWidget {
-  // blank divider
-  EnglishEntryclick({super.key});
-  // blank divider
+class EnglishEntrycompromise extends StatelessWidget {
+// blank divider
+  EnglishEntrycompromise({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclick(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromise(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("click"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compromise"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks1(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromises1(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Click here to add your opinion to the survey."); // DOPSUM: CHANGE TEXT
+        "After lengthy talks the two sides finally reached a compromise."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks2(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromises2(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "In any relationship, you have to make compromises."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises3(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "This model represents the best compromise between price and quality."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises4(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It was a fair compromise between the two sides."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises5(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There is no prospect of compromise in sight."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises6(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Compromise is an inevitable part of life."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises7(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Neither side is prepared to compromise."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises8(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They were unwilling to compromise with the terrorists."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcompromises9(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Click the OK button to start."); // DOPSUM: CHANGE TEXT
+        .speak("I refuse to compromise my principles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks3(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The door clicked shut."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks4(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He clicked his fingers at the waiter."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks5(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromises10(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police officer clicked a pair of handcuffs around his wrists."); // DOPSUM: CHANGE TEXT
+        "If we back down on this issue, our reputation will be compromised."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks6(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromises11(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Suddenly it clicked—we'd been talking about different people."); // DOPSUM: CHANGE TEXT
+        "She had already compromised herself by accepting his invitation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks7(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromises12(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We met at a party and clicked immediately."); // DOPSUM: CHANGE TEXT
+        "The affair seriously compromised the party's prospects of electoral success."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclicks8(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
+  Future<void> speakcompromises13(String languageCode) async {
+    // DOPSUM: CHANGE speakcompromise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The team don't seem to have clicked yet."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks9(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A vast amount of information now available at the click of a mouse."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks10(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It only took me a couple of clicks to find what I was looking for."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks11(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The door closed with a click."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks12(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclicks13(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1300"); // DOPSUM: CHANGE TEXT
+        "Users perform tasks every day that can compromise the security of their computers."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -158,22 +161,22 @@ class EnglishEntryclick extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "click"),
+                            EntryTitle(word: "compromise"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒmprəmaɪz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclick("en-GB"),
+                              onPressed: () => speakcompromise("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɪk/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːmprəmaɪz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclick("en-US"),
+                              onPressed: () => speakcompromise("en-US"),
                             ),
                           ],
                         ),
@@ -200,11 +203,11 @@ class EnglishEntryclick extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (دەنگ) تەقە، تەق‌وکوت، قرتە، کرتە، چرکە، چرتە،	داگرتن (دوگمەی کۆمپیوتەر)، گیرە، بەند
+کوردی: ڕێک‌کەوتن، سازان، پێکهاتن، هاوکۆکی، تەبایی، ئاشتی، نێو(ان)گیری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) ئەنجامدانیشتێک لەسەر کۆمپیوتەر بە پەنجەنان بە ماوسەکەدا"),
+                                  "١. (ناو) سازان؛ ڕێکەوتنێک کە تێیدا دوو لایەن ئامادە دەبن دەستبەرداری هەندێک داواکاری ببن بۆ ئەوەی لە کۆتاییدا بگەن بە ڕیکەوتنێک بە دڵی هەردوولا"),
                           Row(
                             children: [
                               const Expanded(
@@ -212,77 +215,21 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Click here to add your opinion to the survey."),
+                                            "After lengthy talks the two sides finally reached a compromise."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێرە گرتە بکە بۆ زیادکردنی بۆچوونت بۆ ڕاپرسییەکە."),
+                                            "لە دوای گفروگۆی دوور و درێژ دوو لایەنەکە گەشتن بە سازان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "click", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "compromise", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks1("en-GB"),
+                                    onPressed: () => speakcompromises1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Click the OK button to start."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیک لە دووگمەی OK بکە بۆ دەستپێکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) درووستکردنی قرتەیەکی کورت و خێرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The door clicked shut."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە قرتەیەک گیرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks3("en-US"),
+                                    onPressed: () => speakcompromises1("en-US"),
                                   ),
                                 ],
                               ),
@@ -296,10 +243,10 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He clicked his fingers at the waiter."),
+                                            "In any relationship, you have to make compromises."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چەقەنەیەک لێدا بۆ گارسۆنەکە بە پەنجەکانی."),
+                                            "لە هەر ڕێکەوتنێکدا دەبێت بگەیت بە سازان."),
                                   ],
                                 ),
                               ),
@@ -307,10 +254,41 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks4("en-GB"),
+                                    onPressed: () => speakcompromises2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks4("en-US"),
+                                    onPressed: () => speakcompromises2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) چارەسەری کێشەیەک کە تێدا دوو شت یان زیاتر پێکەوە ناتوانن هەبن بەو شێوەیەی هەن، بۆیە کەمێک دەگۆڕدرێن بۆ ئەوەی پێکەوە هەبن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This model represents the best compromise between price and quality."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم نموونە باشترین نێوانگیرییە لە نێوان نرخ و کوالێتیدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompromises3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompromises3("en-US"),
                                   ),
                                 ],
                               ),
@@ -324,10 +302,10 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The police officer clicked a pair of handcuffs around his wrists."),
+                                            "It was a fair compromise between the two sides."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەفسەرە پۆلیسەکە کەلەپچەیەکی لە مەچەکەکانی ئاڵاند."),
+                                            "نێوانگیرییەکی باش بوو لە نێوان دوو لایەنەکەدا."),
                                   ],
                                 ),
                               ),
@@ -335,10 +313,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks5("en-GB"),
+                                    onPressed: () => speakcompromises4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks5("en-US"),
+                                    onPressed: () => speakcompromises4("en-US"),
                                   ),
                                 ],
                               ),
@@ -346,8 +324,7 @@ class EnglishEntryclick extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٦. (کردار) (بۆ شتێک) کە لەناکاو ڕوون دەبێت و خەڵکی لێی تێ دەگەن"),
+                              text: "٣. (ناو) کرداری گەشتن بە سازان"),
                           Row(
                             children: [
                               const Expanded(
@@ -355,10 +332,10 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Suddenly it clicked—we'd been talking about different people."),
+                                            "There is no prospect of compromise in sight."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەناکاو ڕوونبووەوە، قسەمان لەسەر کەسی جیاواز دەکرد."),
+                                            "هیچ هیوایەکی سازان لەبەرچاو نییە."),
                                   ],
                                 ),
                               ),
@@ -366,102 +343,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks6("en-GB"),
+                                    onPressed: () => speakcompromises5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) لەناکاو بوون بە هاوڕێ لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We met at a party and clicked immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئاهەنگێک یەکمان ناسی و دەستبەجێ بووین بە دۆست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (کردار) باش کارکردن پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team don't seem to have clicked yet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە وادەرناکەوێت هێشتا پێکەوە بگونجێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٦. (ناو) دەستنان بە دووگمەی ماوسی کۆمپیوتەردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A vast amount of information now available at the click of a mouse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە زانیاری بەردەستە ئێستا بە کلیکی ماوسێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks9("en-US"),
+                                    onPressed: () => speakcompromises5("en-US"),
                                   ),
                                 ],
                               ),
@@ -475,10 +360,9 @@ class EnglishEntryclick extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It only took me a couple of clicks to find what I was looking for."),
+                                            "Compromise is an inevitable part of life."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەی ئەوەی دەمویست تەنها چەند کلیکێکی پێچوو."),
+                                        text: "سازان بەشێکی دانەبڕاوی ژیانە."),
                                   ],
                                 ),
                               ),
@@ -486,10 +370,10 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks10("en-GB"),
+                                    onPressed: () => speakcompromises6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks10("en-US"),
+                                    onPressed: () => speakcompromises6("en-US"),
                                   ),
                                 ],
                               ),
@@ -497,16 +381,18 @@ class EnglishEntryclick extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) دەنگێکی تیژی کورت"),
+                              text: "٤. (کردار) گەشتن بە سازان"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "The door closed with a click."),
+                                        text:
+                                            "Neither side is prepared to compromise."),
                                     ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە قرتەیەک گیرا."),
+                                        text:
+                                            "هیچ لایەنێک ئامادە نییە بۆ سازان."),
                                   ],
                                 ),
                               ),
@@ -514,10 +400,194 @@ class EnglishEntryclick extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclicks11("en-GB"),
+                                    onPressed: () => speakcompromises7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks11("en-US"),
+                                    onPressed: () => speakcompromises7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were unwilling to compromise with the terrorists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادە نەبوون بسازێن لەگەڵ تیرۆریستان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompromises8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompromises8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) کردنی شتێک کە دژ بەوەیە کە بڕوات پێی هەیە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I refuse to compromise my principles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەتیدەکەمەوە دەستبەرداری بنچینەکانم بم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcompromises9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcompromises9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If we back down on this issue, our reputation will be compromised."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر لەم بابەتە پاشگەزبینەوە، ناوبانگمان لەکەدار دەبێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcompromises10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcompromises10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) هێنانی گومان یان مەترسی بۆ سەر خۆت/کەسێک/شتێک، بە تایبەتی بە ڕەفتارکردن بە شێوەیەک کە درووست نییە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had already compromised herself by accepting his invitation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشوەختە خۆی لەکەدار کردبوو بە پەسەندکردنی بانگهێشتەکەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcompromises11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcompromises11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The affair seriously compromised the party's prospects of electoral success."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە بە سەختی هیواکانی پارتەکەی بۆ سەرکەوتن لە هەڵبژاردندا لاوازکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcompromises12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcompromises12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٧. (کردار) خستنە مەترسی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Users perform tasks every day that can compromise the security of their computers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکارهێنەران هەموو ڕۆژێک ئەرکێک ئەنجام دەدەن کە دەکرێت سەلامەتی کۆمپیوتەرەکانیان بخاتە مەترسییەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcompromises13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcompromises13("en-US"),
                                   ),
                                 ],
                               ),
@@ -534,7 +604,7 @@ class EnglishEntryclick extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -592,7 +662,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -602,43 +672,24 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: click (Derived forms: clicks)
-1. A short light metallic sound (= chink, clink)
+- Verb: compromise (Derived forms: compromised, compromising, compromises)
+1. Make an accommodation in which both sides make concessions
+"nobody will get everything he wants; we all must compromise"
  
-2. Depression of a button on a computer mouse (= mouse click)
-"a click on the right button for example";
+2. Decide on a middle way between extremes or a balance between otherwise conflicting choices; settle for less than optimal
+"we won't compromise on safety";"
  
-3. A stop consonant made by the suction of air into the mouth (as in Bantu) (= suction stop)
- 
-4. A hinged catch that fits into a notch of a ratchet to move a wheel forward or prevent it from moving backward (= pawl, detent, dog)
+3. Expose or make liable to danger, suspicion, or disrepute
+"The nuclear secrets of the state were compromised by the spy"
 
-- Verb: click (Derived forms: clicked, clicks, clicking)
-1. Move or strike with a noise (= snap)
-"he clicked on the light";
+- Noun: compromise (Derived forms: compromises)
+1. A middle way between two extremes (= via media [formal], halfway house [Brit, informal])
  
-2. Make a clicking or ticking sound (= tick)
-"The clock clicked away";
- 
-3. Make a clicking sound repeatedly or uncontrollably (= chatter)
-"clicking teeth";
- 
-4. Cause to make a snapping sound (= snap, flick)
-"click your fingers";
- 
-5. Produce a click
-"Xhosa speakers click"
- 
-6. Make a clucking sounds, characteristic of hens (= cluck, clack)
- 
-7. Become clear or enter one's consciousness or emotions (= get through, dawn, come home, get across, sink in, penetrate, fall into place)
- 
-8. [informal] Immediately develop a good friendly relationship (with someone) (= hit it off [informal])
- 
-9. Depress a button on a computer mouse, usually to move the cursor or invoke some action
-"Click the third of three icons located in the top right hand part of the screen"
+2. An accommodation in which both sides make concessions (= halfway house [Brit, informal])
+"the newly elected congressmen rejected a compromise because they considered it 'business as usual'";
 """,
   );
 
@@ -671,8 +722,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'EFO6Gqtmccc',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    startSeconds: 312,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -696,8 +747,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'r87A-Ql2czg',
-    startSeconds: 101,
+    videoId: 'https://youtu.be/zZM57oTu9Ng?t=',
+    startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -721,8 +772,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FHJ3CMWnVxY',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/FSHITL5oedk?t=',
+    startSeconds: 915,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -746,8 +797,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'khOUvmOQExc',
-    startSeconds: 164,
+    videoId: 'https://youtu.be/oB-UjvNwpic?t=',
+    startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -771,8 +822,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HDntl7yzzVI',
-    startSeconds: 1825,
+    videoId: 'https://youtu.be/vS1NF56-1Dc?t=',
+    startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -796,8 +847,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '47MNn4bsmSw',
-    startSeconds: 3881,
+    videoId: 'https://youtu.be/tUR9UIscLGU?t=',
+    startSeconds: 1027,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -821,33 +872,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'cjLooycOwVc',
-    startSeconds: 176,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'omcNGrnt7Sg',
-    startSeconds: 93,
+    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    startSeconds: 708,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

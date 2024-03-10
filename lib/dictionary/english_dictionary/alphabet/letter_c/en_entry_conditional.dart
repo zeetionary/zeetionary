@@ -3,128 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycapitulation extends StatelessWidget {
-  // blank divider
-  EnglishEntrycapitulation({super.key});
-  // blank divider
+class EnglishEntryconditional extends StatelessWidget {
+// blank divider
+  EnglishEntryconditional({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcapitulation(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditional(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("capitulation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conditional"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals1(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "To withdraw the remaining troops would have been a humiliating capitulation."); // DOPSUM: CHANGE TEXT
+        "Payment is conditional upon delivery of the goods."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals2(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages."); // DOPSUM: CHANGE TEXT
+        "\"If I won a lot of money, I'd travel the world\" is an example of a conditional (sentence)."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals3(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In English, the conditional is expressed by \"would\"."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals4(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations5(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals5(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations6(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals6(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations7(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals7(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals8(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals9(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals10(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals11(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals12(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakconditionals13(String languageCode) async {
+    // DOPSUM: CHANGE speakconditional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconditionals1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -147,22 +151,22 @@ class EnglishEntrycapitulation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "capitulation"),
+                            EntryTitle(word: "conditional"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kəˌpɪtʃuˈleɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈdɪʃənl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcapitulation("en-GB"),
+                              onPressed: () => speakconditional("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kəˌpɪtʃuˈleɪʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈdɪʃənl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcapitulation("en-US"),
+                              onPressed: () => speakconditional("en-US"),
                             ),
                           ],
                         ),
@@ -175,7 +179,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -189,10 +193,10 @@ class EnglishEntrycapitulation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (پەیمان‌نامە) بەدەستەوەدان، ڕادەست(کردن، بە مەرجەوە)، کورتە، تایبەت‌مافی بیانی، پەیمان‌نامە
+کوردی: مەرجی، مەرج‌دار، بەرمەرج، بەشەرت، پێبەند، بەند,	ناڕوون، نادیار، نامەعلووم،	(ڕێزمان) مەرجی، مەرج‌دەربڕ، گەرینی، گومان‌داری، هەکانی، ڕستە یان دەستەوشەی مەرجی، قاڵبی مەرجی یان مەرج‌دەربڕ
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پەسەندکردنی شکست"),
+                              text: "١. (ھاوەڵناو) مەرجدار"),
                           Row(
                             children: [
                               const Expanded(
@@ -200,23 +204,23 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "To withdraw the remaining troops would have been a humiliating capitulation."),
+                                            "Payment is conditional upon delivery of the goods (= if the goods are not delivered, the money will not be paid)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر."),
+                                            "پارەدان مەرجدارە لەگەڵ گەشتنی کاڵاکان (کە کاڵاکان گەشتن ئەو کات پارە دەدەیت)."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitulation", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "conditional", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakcapitulations1("en-GB"),
+                                        speakconditionals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakcapitulations1("en-US"),
+                                        speakconditionals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,7 +229,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕێککەوتن لەسەر کردنی شتێک کە پێشووتر ڕەتتکردووەتەوە بیکەی"),
+                                  "٢. (ھاوەڵناو) (ڕێزمان) ئەوەی کە شتێک ڕووبدات یان ڕاست بێت بۆ ئەوەی شتێکی دیکە ڕووبدات یان ڕاست بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,10 +237,10 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages."),
+                                            "\"If I won a lot of money, I'd travel the world\" is an example of a conditional (sentence)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانووستانکاران دەبوو ھێڵێکی ھەستیار بکێشن لە نێوان ملکەچکردن بۆ ڕفێنەران و دەرکەوتن وەک خەمسارد بەرامبەر بارنتەکان."),
+                                            "\"ئەگەر پارەیەکی زۆر ببەمەوە بە جیهاندا گەشت دەکەم\" نموونەیەکی ڕستەی مەرجییە."),
                                   ],
                                 ),
                               ),
@@ -245,11 +249,43 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakcapitulations2("en-GB"),
+                                        speakconditionals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakcapitulations2("en-US"),
+                                        speakconditionals2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) ڕستەیەکی مەرجی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In English, the conditional is expressed by \"would\"."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئینگلیزیدا ڕستەی مەرجی بە \"would\" دەردەبڕدرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconditionals3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconditionals3("en-US"),
                                   ),
                                 ],
                               ),
@@ -265,9 +301,9 @@ class EnglishEntrycapitulation extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -324,7 +360,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,16 +370,17 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: capitulation (derived forms: capitulations)
-1. A document containing the terms of surrender
+- Adjective: conditional
+1. Imposing or depending on or containing a condition
+"conditional acceptance of the terms"; "lent conditional support"; "the conditional sale will not be complete until the full purchase price is paid"
  
-2. A summary that enumerates the main parts of a topic
- 
-3. The act of surrendering (usually under agreed conditions) (= fall, surrender)
-"they were protected until the capitulation of the fort";
+2. Qualified by reservations
+
+- Noun: conditional (Derived forms: conditionals)
+1. A statement that depends on a condition being true or false
 """,
   );
 
@@ -372,12 +409,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/LJNtfyq3TDE?t=',
+    startSeconds: 872,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4L77Qg53Rjw',
-    startSeconds: 281,
+    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    startSeconds: 1586,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -401,8 +463,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2kcx8pztu_Y',
-    startSeconds: 378,
+    videoId: 'https://youtu.be/XjEWkrYpFAE',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -426,8 +488,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pDPt2mow5t4',
-    startSeconds: 356,
+    videoId: 'https://youtu.be/Ljjiw9mC_Cg?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -451,8 +513,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '61souSkwDk4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/tcOLyvkBc48?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +538,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W3qZIPiWKc4',
-    startSeconds: 2429,
+    videoId: 'https://youtu.be/9uH8-Gj8XrM?t=',
+    startSeconds: 1348,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +563,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1giCVi7gEg8',
-    startSeconds: 700,
+    videoId: 'https://youtu.be/RRuovINxpPc?t=',
+    startSeconds: 384,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -517,81 +579,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BgPfDyrU_pQ',
-    startSeconds: 323,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'adyrmo4dh0g',
-    startSeconds: 230,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1tDgur8HcmU',
-    startSeconds: 1590,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

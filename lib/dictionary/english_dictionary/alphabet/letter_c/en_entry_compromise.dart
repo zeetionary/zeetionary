@@ -207,7 +207,7 @@ class EnglishEntrycompromise extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سازان؛ ڕێکەوتنێک کە تێیدا دوو لایەن ئامادە دەبن دەستبەرداری هەندێک داواکاری ببن بۆ ئەوەی لە کۆتاییدا بگەن بە ڕیکەوتنێک بە دڵی هەردوولا"),
+                                  "١. (ناو) سازان؛ ڕێککەوتنێک کە تێیدا دوو لایەن ئامادە دەبن دەستبەرداری هەندێک داواکاری ببن بۆ ئەوەی لە کۆتاییدا بگەن بە ڕیکەوتنێک بە دڵی هەردوولا"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,7 +246,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "In any relationship, you have to make compromises."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەر ڕێکەوتنێکدا دەبێت بگەیت بە سازان."),
+                                            "لە هەر ڕێککەوتنێکدا دەبێت بگەیت بە سازان."),
                                   ],
                                 ),
                               ),

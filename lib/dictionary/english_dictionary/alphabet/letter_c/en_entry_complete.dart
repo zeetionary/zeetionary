@@ -925,7 +925,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "We were in complete agreement."),
                                     ExampleSentenceKurdish(
-                                        text: "لە ڕێکەوتنی تەواودا بووین."),
+                                        text: "لە ڕێککەوتنی تەواودا بووین."),
                                   ],
                                 ),
                               ),

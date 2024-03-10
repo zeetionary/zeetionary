@@ -3,128 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycapitulation extends StatelessWidget {
-  // blank divider
-  EnglishEntrycapitulation({super.key});
-  // blank divider
+class EnglishEntrycondemnation extends StatelessWidget {
+// blank divider
+  EnglishEntrycondemnation({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcapitulation(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnation(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("capitulation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("condemnation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations1(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "To withdraw the remaining troops would have been a humiliating capitulation."); // DOPSUM: CHANGE TEXT
+        "There was widespread condemnation of the invasion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations2(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages."); // DOPSUM: CHANGE TEXT
+        "He issued a blanket condemnation of all terrorism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations3(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations4(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations5(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations5(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations6(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations6(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations7(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations7(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations8(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations9(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations10(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations11(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations12(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcapitulations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcapitulation
+  Future<void> speakcondemnations13(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemnation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitulations1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemnations1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -147,22 +150,22 @@ class EnglishEntrycapitulation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "capitulation"),
+                            EntryTitle(word: "condemnation"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kəˌpɪtʃuˈleɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒndemˈneɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcapitulation("en-GB"),
+                              onPressed: () => speakcondemnation("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kəˌpɪtʃuˈleɪʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌkɑːndemˈneɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcapitulation("en-US"),
+                              onPressed: () => speakcondemnation("en-US"),
                             ),
                           ],
                         ),
@@ -175,7 +178,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -189,10 +192,11 @@ class EnglishEntrycapitulation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (پەیمان‌نامە) بەدەستەوەدان، ڕادەست(کردن، بە مەرجەوە)، کورتە، تایبەت‌مافی بیانی، پەیمان‌نامە
+کوردی: مەحکوومیەت،	شەرمەزارکردن، بەگژداهاتن، ناپەسندکردن، مەحکووم‌کردن، ئیداناکردن، تاوانبارکردن، گوناهبارکردن، سەرکۆنەکردن
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پەسەندکردنی شکست"),
+                              text:
+                                  "١. (ناو) سەرکۆنەکردنی شتێک؛ وتنی ئەوەی شتێک زۆر خراپە"),
                           Row(
                             children: [
                               const Expanded(
@@ -200,32 +204,29 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "To withdraw the remaining troops would have been a humiliating capitulation."),
+                                            "There was widespread condemnation of the invasion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر."),
+                                            "ئیدانەی بەرفراوانی داگیرکارییەکە هەبوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitulation", follow LX strictly
+                              const CustomSizedBoxForTTS(), // With short examples define "condemnation", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakcapitulations1("en-GB"),
+                                        speakcondemnations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakcapitulations1("en-US"),
+                                        speakcondemnations1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ڕێککەوتن لەسەر کردنی شتێک کە پێشووتر ڕەتتکردووەتەوە بیکەی"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -233,10 +234,10 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages."),
+                                            "He issued a blanket condemnation of all terrorism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانووستانکاران دەبوو ھێڵێکی ھەستیار بکێشن لە نێوان ملکەچکردن بۆ ڕفێنەران و دەرکەوتن وەک خەمسارد بەرامبەر بارنتەکان."),
+                                            "سەرکۆنەی هەموو جۆرێکی تیرۆریزمی ڕاگەیاند."),
                                   ],
                                 ),
                               ),
@@ -245,11 +246,11 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakcapitulations2("en-GB"),
+                                        speakcondemnations2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakcapitulations2("en-US"),
+                                        speakcondemnations2("en-US"),
                                   ),
                                 ],
                               ),
@@ -265,9 +266,9 @@ class EnglishEntrycapitulation extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -324,7 +325,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,16 +335,22 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: capitulation (derived forms: capitulations)
-1. A document containing the terms of surrender
+- Noun: condemnation (Derived forms: condemnations)
+1. An expression of strong disapproval; pronouncing as wrong or morally culpable (= disapprobation)
+"his uncompromising condemnation of racism";
  
-2. A summary that enumerates the main parts of a topic
+2. (law) the act of condemning (as land forfeited for public use) or judging to be unfit for use (as a food product or an unsafe building)
  
-3. The act of surrendering (usually under agreed conditions) (= fall, surrender)
-"they were protected until the capitulation of the fort";
+3. An appeal to some supernatural power to inflict evil on some individual or group (= execration, curse)
+ 
+4. The condition of being strongly disapproved of
+"he deserved nothing but condemnation"
+ 
+5. (criminal law) a final judgment of guilty in a criminal case and the punishment that is imposed (= conviction, judgment of conviction, sentence)
+"the condemnation came as no surprise";
 """,
   );
 
@@ -372,12 +379,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    startSeconds: 146,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4L77Qg53Rjw',
-    startSeconds: 281,
+    videoId: 'https://youtu.be/7k6vpI-2yao?t=',
+    startSeconds: 1001,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -401,8 +433,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2kcx8pztu_Y',
-    startSeconds: 378,
+    videoId: 'https://youtu.be/1Y1kJpHBn50?t=',
+    startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -426,8 +458,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pDPt2mow5t4',
-    startSeconds: 356,
+    videoId: 'https://youtu.be/dPzAxmT0Qes?t=',
+    startSeconds: 560,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -451,8 +483,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '61souSkwDk4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/fmSXGKQYhN8?t=',
+    startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +508,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'W3qZIPiWKc4',
-    startSeconds: 2429,
+    videoId: 'https://youtu.be/-BmqCZMLjEE?t=',
+    startSeconds: 1554,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +533,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1giCVi7gEg8',
-    startSeconds: 700,
+    videoId: 'https://youtu.be/o-krxtaJ2-E?t=',
+    startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -517,81 +549,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BgPfDyrU_pQ',
-    startSeconds: 323,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'adyrmo4dh0g',
-    startSeconds: 230,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1tDgur8HcmU',
-    startSeconds: 1590,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

@@ -192,11 +192,11 @@ class EnglishEntrycollusion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیلان، سازوباز، کەین‌وبەین، هاودەستی، پێکەوەسازان، ڕێکەوتن بۆ خراپەکاری
+کوردی: پیلان، سازوباز، کەین‌وبەین، هاودەستی، پێکەوەسازان، ڕێککەوتن بۆ خراپەکاری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕێکەوتنی نهێنی، بەتایبەتی بۆ فریودانی کەسانی دیکە"),
+                                  "١. (ناو) ڕێککەوتنی نهێنی، بەتایبەتی بۆ فریودانی کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(

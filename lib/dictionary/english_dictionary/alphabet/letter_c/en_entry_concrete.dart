@@ -10,131 +10,127 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycompact extends StatelessWidget {
+class EnglishEntryconcrete extends StatelessWidget {
 // blank divider
-  EnglishEntrycompact({super.key});
+  EnglishEntryconcrete({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcompact(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcrete(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compact"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("concrete"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes1(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The device is small and compact and weighs only 10 grams."); // DOPSUM: CHANGE TEXT
+        "The bomb shelter has concrete walls that are three metres thick."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes2(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Don't walk on the concrete until it has set."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconcretes3(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They think she killed her husband, but they have no concrete evidence."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconcretes4(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The teacher used concrete objects to teach the children about shapes."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconcretes5(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Edinburgh is a compact city."); // DOPSUM: CHANGE TEXT
+        .speak("The garden had been concreted over."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes6(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The kitchen was compact but well equipped."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes7(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Computers have become much more compact over the last 15 years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes8(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The grey clouds had become more compact and the sky suddenly grew dark."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes9(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had a compact and muscular body."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes10(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He prefers a compact for city driving."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes11(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The support will continue under a compact which runs until 2010."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes12(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cars had compacted the snow until it was like ice."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakconcretes13(String languageCode) async {
+    // DOPSUM: CHANGE speakconcrete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcompacts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcompacts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcompacts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcretes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -157,24 +153,22 @@ class EnglishEntrycompact extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "compact"),
+                            EntryTitle(word: "concrete"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /kəmˈpækt/,  /ˈkɒmpækt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒŋkriːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcompact("en-GB"),
+                              onPressed: () => speakconcrete("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /kəmˈpækt/,  /ˈkɑːmpækt/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːnkriːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcompact("en-US"),
+                              onPressed: () => speakconcrete("en-US"),
                             ),
                           ],
                         ),
@@ -201,11 +195,11 @@ class EnglishEntrycompact extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەستێنراو، کەڵەکە، پەسواو، پەستاوتە، شێلانە، پاڵ‌یەکخراو، تێک‌ترنجاو، تێک‌نراو،	کورتە، پوختە،	پتەو، تۆکمە، سفت، گردوکۆ،	قوتو یان جێ‌بۆدرە،	ئۆتۆمبێلی کەم‌جێگر یان چکۆلانە، ئۆتۆمبێلی گردوکۆ یان قوتو(یی هەڵکەوتوو)، وتەوبڕە، گرێبەست، بەیابەست، قەراروبڕێ، ڕێک‌کەوتن‌نامە، پەیمان‌نامە
+کوردی: دروست‌کراو لە کۆنکرێت یان شفتە و بێتۆن،	بابەتی، بەردەس‌کەوتوو، هەست‌پێکراو، (بەرهەست)، ڕاست(ەقینە)، ناخەیاڵی، نائابستڕاکت، دەس‌لێدراو، مادی، ماکی، مەتریاڵی، دیار، تایبەتی، پۆزیتیڤ، بەرجەستە، بەرچاو،	ڕەق، شفتە، شەفتە، بێتۆن، کۆنکرێت
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) بچووکتر لەوەی ئاساییە بۆ ئەو شتانەی کە هەمان جۆرن"),
+                                  "١. (ناو) مادەی بیناسازی کە درووستکراوە لە تێکەڵەی چیمەنتۆ، خۆڵ، زیخی ورد، و ئاو"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,36 +207,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The device is small and compact and weighs only 10 grams."),
+                                            "Don't walk on the concrete until it has set."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنها ١٠ گرامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compact", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Edinburgh is a compact city."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئیدنبێرگ شارێکی تێک‌ترنجاوە."),
+                                            "لەسەر کۆنکرێتەکە ڕێ مەکە تاوەکو وشک دەبێتەوە."),
                                   ],
                                 ),
                               ),
@@ -250,10 +218,40 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts2("en-GB"),
+                                    onPressed: () => speakconcretes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts2("en-US"),
+                                    onPressed: () => speakconcretes2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) درووستکراو لە کۆنکرێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bomb shelter has concrete walls that are three metres thick."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەناگە بۆمبەکە دیواری کۆنکرێتی هەیە کە سێ مەتر پانە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // With short examples define "concrete", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconcretes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconcretes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,7 +260,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بەکارهێنان یان گرتنی تەنها جێگایەکی کەم"),
+                                  "٣. (ھاوەڵناو) پشتبەستوو بە ڕاستی، نەک شک و گومان"),
                           Row(
                             children: [
                               const Expanded(
@@ -270,10 +268,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The kitchen was compact but well equipped."),
+                                            "They think she killed her husband, but they have no concrete evidence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چێشتخانەکە ترنجاو بوو بەڵام باش سازکرابوو."),
+                                            "پێیان وایە بکوژەکە هاوژینەکەیەتی، بەڵام هیچ بەڵگەیەکی ڕاستییان نییە."),
                                   ],
                                 ),
                               ),
@@ -281,128 +279,10 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts3("en-GB"),
+                                    onPressed: () => speakconcretes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Computers have become much more compact over the last 15 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپیوتەرەکان لە ١٥ ساڵی ڕابردوودا زۆر بچووک بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ھاوەڵناو) بەشێوەیەک کە پێکەوەلکاون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The grey clouds had become more compact and the sky suddenly grew dark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هەورە خەڵۆمێشییەکان تەواو ترنجاو بووبوون و ئاسمان لەناکاو ڕەش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) کەسێکی بچووک و بەهێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a compact and muscular body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەستەیەکی پتەو و بە ماسولکەی هەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (ناو) ئۆتۆمبێلێکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He prefers a compact for city driving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە باش دەزانێت ئۆتۆمبێلێکی بچووک لێبخوڕێت لە شاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts7("en-US"),
+                                    onPressed: () => speakconcretes3("en-US"),
                                   ),
                                 ],
                               ),
@@ -411,7 +291,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) ڕێککەوتنێکی فەرمی لە نێوان دوو یان زیاتر لە کەس یان وڵاتدا"),
+                                  "٣. (ھاوەڵناو) شتێک کە دەتوانیت هەستی پێ بکەیت و بیبینیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -419,10 +299,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The support will continue under a compact which runs until 2010."),
+                                            "The teacher used concrete objects to teach the children about shapes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشتگیری بەردەوام دەبێت لە چوارچێوەی ڕێککەوتنێکدا کە تاوەکو ٢٠١٠ بەردەوام دەبێت."),
+                                            "مامۆستاکە شتی بەرجەستەی بەکاردەهێنا بۆ فێرکردنی منداڵەکان سەبارەت بە شێوەکان."),
                                   ],
                                 ),
                               ),
@@ -430,10 +310,10 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts8("en-GB"),
+                                    onPressed: () => speakconcretes4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts8("en-US"),
+                                    onPressed: () => speakconcretes4("en-US"),
                                   ),
                                 ],
                               ),
@@ -441,7 +321,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (کردار) پێکەوەلکاندنی شت"),
+                              text: "٥. (کردار) داپۆشین بە کۆنکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -449,10 +329,9 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Cars had compacted the snow until it was like ice."),
+                                            "The garden had been concreted over."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێل بەفرەکەیان ترنجاندبوو تاوەکو وەک سەهۆڵ بوو."),
+                                        text: "باخچەکە کۆنکرێت کرابوو."),
                                   ],
                                 ),
                               ),
@@ -460,10 +339,10 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts9("en-GB"),
+                                    onPressed: () => speakconcretes5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts9("en-US"),
+                                    onPressed: () => speakconcretes5("en-US"),
                                   ),
                                 ],
                               ),
@@ -551,35 +430,20 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: compact 
-1. Closely and firmly united or packed together
-"compact soil"; "compact clusters of flowers"
- 
-2. Having a short and solid form or stature (= heavyset, stocky, thick, thickset)
-"a wrestler of compact build";
- 
-3. Briefly giving the gist of something (= compendious, succinct, summary)
-"a compact style is brief and pithy";
+- Noun: concrete (Derived forms: concretes)
+1. A strong hard building material composed of sand and gravel and cement and water
 
-- Noun: compact (Derived forms: compacts)
-1. A small cosmetics case with a mirror; to be carried in a woman's purse (= powder compact)
+- Adjective: concrete 
+1. Capable of being perceived by the senses; not abstract or imaginary
+"concrete objects such as trees"
  
-2. A formal agreement between two or more parties to perform or not perform some action (= covenant, concordat)
- 
-3. A small and economical car (= compact car)
+2. Formed by the coalescence of particles
 
-- Verb: compact (Derived forms: compacts, compacted, compacting)
-1. Have the property of being packable or of compacting easily (= pack)
-"This powder compacts easily";
+- Verb: concrete (Derived forms: concreted, concretes, concreting)
+1. Cover with cement
+"concrete the walls"
  
-2. Compress into a wad (= pack, bundle, wad)
-"compact paper into the box";
- 
-3. Make more compact by or as if by pressing (= compress, pack together)
-"compact the data";
- 
-4. Bring together or compress (= compress, constrict, squeeze, contract, press)
-"she compacted her lips";
+2. Form into a solid mass; coalesce
 """,
   );
 
@@ -612,8 +476,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Gyhd1OJmZ0Q',
-    startSeconds: 534,
+    videoId: 'https://youtu.be/rWVAzS5duAs?t=',
+    startSeconds: 268,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -637,8 +501,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qywGR7xqOZc',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/Gxni8PnOTtY?t=',
+    startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -662,8 +526,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2srY-yxjWdQ',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/gMbUeO4iGhY?t=',
+    startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -687,8 +551,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'w6HYDdyzQ60',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/LDyzABbHcEY?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -712,8 +576,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lGSOWwUvJiU',
-    startSeconds: 1295,
+    videoId: 'https://youtu.be/CAkpwSyWGSo?t=',
+    startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -737,8 +601,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KQWGHE7NTUA',
-    startSeconds: 700,
+    videoId: 'https://youtu.be/_MsOXrprYXs?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -762,8 +626,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LfeEu4_vtfQ',
-    startSeconds: 861,
+    videoId: 'https://youtu.be/0HjgoyoVP7A?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

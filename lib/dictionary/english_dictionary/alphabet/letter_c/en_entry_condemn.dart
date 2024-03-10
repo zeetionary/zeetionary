@@ -10,131 +10,130 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycompact extends StatelessWidget {
+class EnglishEntrycondemn extends StatelessWidget {
 // blank divider
-  EnglishEntrycompact({super.key});
+  EnglishEntrycondemn({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcompact(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemn(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compact"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("condemn"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns1(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The device is small and compact and weighs only 10 grams."); // DOPSUM: CHANGE TEXT
+        "The government issued a statement condemning the killings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns2(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Edinburgh is a compact city."); // DOPSUM: CHANGE TEXT
+        .speak("She publicly condemned the deal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns3(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The kitchen was compact but well equipped."); // DOPSUM: CHANGE TEXT
+        "The action has been widely condemned by human rights groups."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns4(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Computers have become much more compact over the last 15 years."); // DOPSUM: CHANGE TEXT
+        "He was condemned to death for murder and later hanged."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns5(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The grey clouds had become more compact and the sky suddenly grew dark."); // DOPSUM: CHANGE TEXT
+        "She was condemned to hang for killing her husband."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns6(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was condemned to a life of hardship."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcondemns7(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The meat was condemned as unfit to eat."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcondemns8(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He had a compact and muscular body."); // DOPSUM: CHANGE TEXT
+        .speak("She is condemned out of her own mouth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns9(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He prefers a compact for city driving."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns10(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The support will continue under a compact which runs until 2010."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns11(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cars had compacted the snow until it was like ice."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns12(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcompacts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
+  Future<void> speakcondemns13(String languageCode) async {
+    // DOPSUM: CHANGE speakcondemn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcompacts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcompacts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -157,24 +156,22 @@ class EnglishEntrycompact extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "compact"),
+                            EntryTitle(word: "condemn"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /kəmˈpækt/,  /ˈkɒmpækt/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈdem/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcompact("en-GB"),
+                              onPressed: () => speakcondemn("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /kəmˈpækt/,  /ˈkɑːmpækt/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈdem/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcompact("en-US"),
+                              onPressed: () => speakcondemn("en-US"),
                             ),
                           ],
                         ),
@@ -201,11 +198,11 @@ class EnglishEntrycompact extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەستێنراو، کەڵەکە، پەسواو، پەستاوتە، شێلانە، پاڵ‌یەکخراو، تێک‌ترنجاو، تێک‌نراو،	کورتە، پوختە،	پتەو، تۆکمە، سفت، گردوکۆ،	قوتو یان جێ‌بۆدرە،	ئۆتۆمبێلی کەم‌جێگر یان چکۆلانە، ئۆتۆمبێلی گردوکۆ یان قوتو(یی هەڵکەوتوو)، وتەوبڕە، گرێبەست، بەیابەست، قەراروبڕێ، ڕێک‌کەوتن‌نامە، پەیمان‌نامە
+کوردی: مەحکووم کردن، ڕیسوا بوون، لە قاودان، سەرکۆنە کردن، سەرشۆڕ کردن، ئیدانە کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) بچووکتر لەوەی ئاساییە بۆ ئەو شتانەی کە هەمان جۆرن"),
+                                  "١. (کردار) سەرکۆنە کردنی شتێک؛ وتنی ئەوەی کە زۆر خراپە"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,78 +210,21 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The device is small and compact and weighs only 10 grams."),
+                                            "The government issued a statement condemning the killings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنها ١٠ گرامە."),
+                                            "حکومەت بەیاننامەیەکی بڵاوکردەوە و کوشتنەکانی ئیدانە کرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compact", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "condemn", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts1("en-GB"),
+                                    onPressed: () => speakcondemns1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Edinburgh is a compact city."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئیدنبێرگ شارێکی تێک‌ترنجاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵناو) بەکارهێنان یان گرتنی تەنها جێگایەکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kitchen was compact but well equipped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکە ترنجاو بوو بەڵام باش سازکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts3("en-US"),
+                                    onPressed: () => speakcondemns1("en-US"),
                                   ),
                                 ],
                               ),
@@ -298,10 +238,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Computers have become much more compact over the last 15 years."),
+                                            "She publicly condemned the deal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپیوتەرەکان لە ١٥ ساڵی ڕابردوودا زۆر بچووک بوونە."),
+                                            "بە فەرمی ڕێککەوتنەکەی سەرکۆنە کرد."),
                                   ],
                                 ),
                               ),
@@ -309,18 +249,16 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts4("en-GB"),
+                                    onPressed: () => speakcondemns2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts4("en-US"),
+                                    onPressed: () => speakcondemns2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ھاوەڵناو) بەشێوەیەک کە پێکەوەلکاون"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -328,10 +266,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The grey clouds had become more compact and the sky suddenly grew dark."),
+                                            "The action has been widely condemned by human rights groups."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەورە خەڵۆمێشییەکان تەواو ترنجاو بووبوون و ئاسمان لەناکاو ڕەش بوو."),
+                                            "هەنگاوەکە بە فراوانی لەلایەن گرووپەکانی مافی مرۆڤەوە سەرکۆنە کراوە."),
                                   ],
                                 ),
                               ),
@@ -339,10 +277,10 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts5("en-GB"),
+                                    onPressed: () => speakcondemns3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts5("en-US"),
+                                    onPressed: () => speakcondemns3("en-US"),
                                   ),
                                 ],
                               ),
@@ -350,7 +288,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) کەسێکی بچووک و بەهێز"),
+                              text: "٢. (کردار) سزادانی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -358,10 +296,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He had a compact and muscular body."),
+                                            "He was condemned to death for murder and later hanged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەستەیەکی پتەو و بە ماسولکەی هەبوو."),
+                                            "بە مەرگ سزادرا بۆ تاوانی کوشتن و دواتر هەڵواسرا."),
                                   ],
                                 ),
                               ),
@@ -369,18 +307,16 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts6("en-GB"),
+                                    onPressed: () => speakcondemns4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts6("en-US"),
+                                    onPressed: () => speakcondemns4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (ناو) ئۆتۆمبێلێکی بچووک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -388,10 +324,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He prefers a compact for city driving."),
+                                            "She was condemned to hang for killing her husband."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە باش دەزانێت ئۆتۆمبێلێکی بچووک لێبخوڕێت لە شاردا."),
+                                            "بە هەڵواسین سزادرا بۆ کوشتنی هاوسەرەکەی."),
                                   ],
                                 ),
                               ),
@@ -399,10 +335,10 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts7("en-GB"),
+                                    onPressed: () => speakcondemns5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts7("en-US"),
+                                    onPressed: () => speakcondemns5("en-US"),
                                   ),
                                 ],
                               ),
@@ -411,7 +347,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) ڕێککەوتنێکی فەرمی لە نێوان دوو یان زیاتر لە کەس یان وڵاتدا"),
+                                  "٣. (کردار) زۆرکردن لە کەسێک بۆ پەسەندکردنی دۆخێکی ناخۆش"),
                           Row(
                             children: [
                               const Expanded(
@@ -419,10 +355,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The support will continue under a compact which runs until 2010."),
+                                            "He was condemned to a life of hardship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشتگیری بەردەوام دەبێت لە چوارچێوەی ڕێککەوتنێکدا کە تاوەکو ٢٠١٠ بەردەوام دەبێت."),
+                                            "ژیانێکی سەختێتیی بە سەردا سەپێنرا."),
                                   ],
                                 ),
                               ),
@@ -430,10 +366,10 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts8("en-GB"),
+                                    onPressed: () => speakcondemns6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts8("en-US"),
+                                    onPressed: () => speakcondemns6("en-US"),
                                   ),
                                 ],
                               ),
@@ -441,7 +377,8 @@ class EnglishEntrycompact extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (کردار) پێکەوەلکاندنی شت"),
+                              text:
+                                  "٤. (کردار) بە فەرمی گوتنی ئەوەی شتێک بۆ بەکارهێنان سەلامەت نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -449,10 +386,10 @@ class EnglishEntrycompact extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Cars had compacted the snow until it was like ice."),
+                                            "The meat was condemned as unfit to eat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێل بەفرەکەیان ترنجاندبوو تاوەکو وەک سەهۆڵ بوو."),
+                                            "گۆشتەکە بە ناتەندرووست بۆ خواردن دانرا."),
                                   ],
                                 ),
                               ),
@@ -460,10 +397,41 @@ class EnglishEntrycompact extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts9("en-GB"),
+                                    onPressed: () => speakcondemns7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts9("en-US"),
+                                    onPressed: () => speakcondemns7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) وتن یان پیشاندانی ئەوەی کەسێک تاوانباری شتێکە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is condemned out of her own mouth (= her own words show that she is guilty)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قسەکانی گەواهی تاوانباریی دەدەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcondemns8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcondemns8("en-US"),
                                   ),
                                 ],
                               ),
@@ -551,35 +519,24 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: compact 
-1. Closely and firmly united or packed together
-"compact soil"; "compact clusters of flowers"
+- Verb: condemn (Derived forms: condemned, condemns, condemning)
+1. Express strong disapproval of (= reprobate, decry, objurgate, excoriate)
+"We condemn the racism in South Africa";
  
-2. Having a short and solid form or stature (= heavyset, stocky, thick, thickset)
-"a wrestler of compact build";
+2. Declare or judge unfit for use or habitation
+"The building was condemned by the inspector"
  
-3. Briefly giving the gist of something (= compendious, succinct, summary)
-"a compact style is brief and pithy";
-
-- Noun: compact (Derived forms: compacts)
-1. A small cosmetics case with a mirror; to be carried in a woman's purse (= powder compact)
+3. Compel or force into a particular state or activity
+"His devotion to his sick wife condemned him to a lonely existence"
  
-2. A formal agreement between two or more parties to perform or not perform some action (= covenant, concordat)
+4. Demonstrate the guilt of (someone)
+"Her strange behaviour condemned her"
  
-3. A small and economical car (= compact car)
-
-- Verb: compact (Derived forms: compacts, compacted, compacting)
-1. Have the property of being packable or of compacting easily (= pack)
-"This powder compacts easily";
+5. (law) pronounce a sentence on (somebody) in a court of law (= sentence, doom)
+"He was condemned to ten years in prison";
  
-2. Compress into a wad (= pack, bundle, wad)
-"compact paper into the box";
- 
-3. Make more compact by or as if by pressing (= compress, pack together)
-"compact the data";
- 
-4. Bring together or compress (= compress, constrict, squeeze, contract, press)
-"she compacted her lips";
+6. Appropriate (property) for public use
+"the county condemned the land to build a highway"
 """,
   );
 
@@ -612,8 +569,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Gyhd1OJmZ0Q',
-    startSeconds: 534,
+    videoId: 'https://youtu.be/xp4d3_abdiE?t=',
+    startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -637,8 +594,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qywGR7xqOZc',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/WCITs2SDoVc?t=',
+    startSeconds: 202,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -662,8 +619,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2srY-yxjWdQ',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Jw95MIATepo?t=',
+    startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -687,8 +644,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'w6HYDdyzQ60',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/ARomrjtLTQU?t=',
+    startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -712,8 +669,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lGSOWwUvJiU',
-    startSeconds: 1295,
+    videoId: 'https://youtu.be/3DxCHzPFbaU?t=',
+    startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -737,8 +694,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KQWGHE7NTUA',
-    startSeconds: 700,
+    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    startSeconds: 1123,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -762,8 +719,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LfeEu4_vtfQ',
-    startSeconds: 861,
+    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    startSeconds: 306,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

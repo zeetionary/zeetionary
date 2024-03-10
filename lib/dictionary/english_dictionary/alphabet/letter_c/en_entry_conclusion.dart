@@ -345,7 +345,7 @@ class EnglishEntryconclusion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ڕێکەوتنی فەرمی و کۆتایی شتێکی فەرمی"),
+                                  "٣. (ناو) ڕێککەوتنی فەرمی و کۆتایی شتێکی فەرمی"),
                           Row(
                             children: [
                               const Expanded(
@@ -356,7 +356,7 @@ class EnglishEntryconclusion extends StatelessWidget {
                                             "Negotiations led to the successful conclusion of a trade treaty between the two nations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانوستانەکان گەشتن بە کۆتایی پێهێنانی سەرکەوتووانەی ڕێکەوتنێکی بازرگانی لە نێوان دوو وڵاتەکە."),
+                                            "دانوستانەکان گەشتن بە کۆتایی پێهێنانی سەرکەوتووانەی ڕێککەوتنێکی بازرگانی لە نێوان دوو وڵاتەکە."),
                                   ],
                                 ),
                               ),

@@ -2120,7 +2120,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "The agreement came after several hours of negotiations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێکەوتنەکە ڕوویدا لەدوای چەند کاتژمێرێک لە دانوستان."),
+                                            "ڕێککەوتنەکە ڕوویدا لەدوای چەند کاتژمێرێک لە دانوستان."),
                                   ],
                                 ),
                               ),
@@ -2650,7 +2650,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "We need to come to an agreement on this issue."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پێویستە بگەین بە ڕێکەوتن لەسەر ئەم بابەتە."),
+                                                    "پێویستە بگەین بە ڕێککەوتن لەسەر ئەم بابەتە."),
                                           ],
                                         ),
                                       ),

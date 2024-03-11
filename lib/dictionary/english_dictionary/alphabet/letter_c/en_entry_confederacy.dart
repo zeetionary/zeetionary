@@ -10,124 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycone extends StatelessWidget {
+class EnglishEntryconfederacy extends StatelessWidget {
 // blank divider
-  EnglishEntrycone({super.key});
+  EnglishEntryconfederacy({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcone(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacy(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("confederacy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones1(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys1(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The construction crew placed traffic cones along the road to divert traffic."); // DOPSUM: CHANGE TEXT
+        "The confederacy of tribes was formed to resist the invading army."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones2(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys2(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children licked their ice cream cones as they walked through the park."); // DOPSUM: CHANGE TEXT
+        "The Confederacy's defeat resulted in the abolition of slavery and the reunification of the United States."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones3(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys3(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones4(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys4(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones5(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys5(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones6(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys6(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones7(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys7(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones8(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys8(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones9(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys9(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones10(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys10(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones11(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys11(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones12(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys12(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones13(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfederacys13(String languageCode) async {
+    // DOPSUM: CHANGE speakconfederacy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederacys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +150,22 @@ class EnglishEntrycone extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cone"),
+                            EntryTitle(word: "confederacy"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kəʊn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈfedərəsi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcone("en-GB"),
+                              onPressed: () => speakconfederacy("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kəʊn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈfedərəsi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcone("en-US"),
+                              onPressed: () => speakconfederacy("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +192,11 @@ class EnglishEntrycone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قوچەک، قووچکە، قوتکە،	ڕەحەتی‌ئاسا، نانە بەستەنی،	میوەی کاج، بەرەکاج، بەری کاژ،	شتی قوچکەئاسا،	قووچکەی ڕێگا(وبان) یان نەڕۆیشتن، کەللەی پاراستن (هات‌وچۆ)،	قووچکە یان نووچکەی گڕکان
+کوردی: یەک‌کەوتن، یەکێتی، هاوپەیمانی، هاوگرتوویی، یەک‌گرتوویی، فێدراسیۆن، کۆنفێدراسیۆن،	یەکێتی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شێوەیەک کە تەختە، خڕ، یان هێلکەیی هەیە و لایەلانی بەرەوە سەرەوە دەچن تاوەکو لە خاڵێک یەکدەگرن"),
+                                  "١. (ناو) هاوپەیمانییەک لە کۆمەڵە وڵاتێک، گرووپێک لە خەڵکی، یان پارتی سیاسی یەکدەگرن بە یەک ئامانج"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,21 +204,23 @@ class EnglishEntrycone extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The construction crew placed traffic cones along the road to divert traffic."),
+                                            "The confederacy of tribes was formed to resist the invading army."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمی بیناسازییەکە مۆتەی هاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی هاتووچۆ."),
+                                            "هاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cone", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "confederacy", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcones1("en-GB"),
+                                    onPressed: () =>
+                                        speakconfederacys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcones1("en-US"),
+                                    onPressed: () =>
+                                        speakconfederacys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -226,7 +228,8 @@ class EnglishEntrycone extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) شتێک کە شێوەی قووچەکی هەیە"),
+                              text:
+                                  "٢. (ناو) ئەو ١١ ویلایەتەی باشووری ئەمریکا کە لە ساڵانی ١٨٦٠-١٨٦١ ویلایەتە یەکگرتووەکانی ئەمریکایان جێهێشت و جەنگی ناوخۆییان دەستپێکرد بۆ پاراستنی کۆیلایەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -234,10 +237,10 @@ class EnglishEntrycone extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The children licked their ice cream cones as they walked through the park."),
+                                            "The Confederacy's defeat resulted in the abolition of slavery and the reunification of the United States."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان قووچەکە ئایس کرێمییەکانیان دەلێسایەوە کە بە پارکەکەدا پیاسەیان دەکرد."),
+                                            "شکستی کۆنفێدراسیۆن بوو بەهۆی کۆتایی هێنان بە کۆیلایەتی و یەکگرتنەوەی ویلایەتە یەکگرتووەکان."),
                                   ],
                                 ),
                               ),
@@ -245,10 +248,12 @@ class EnglishEntrycone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcones2("en-GB"),
+                                    onPressed: () =>
+                                        speakconfederacys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcones2("en-US"),
+                                    onPressed: () =>
+                                        speakconfederacys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -336,18 +341,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cone (Derived forms: cones)
-1. Any cone-shaped artifact
+- Noun: confederacy (Derived forms: confederacies)
+1. A union of political organizations (= confederation, federation)
  
-2. A shape whose base is a circle and whose sides taper up to a point (= conoid, cone shape)
+2. A group of conspirators banded together to achieve some harmful or illegal purpose (= conspiracy)
  
-3. Cone-shaped mass of ovule- or spore-bearing scales or bracts (= strobilus, strobile)
- 
-4. A visual receptor cell in the retina that is sensitive to bright light and to colour (= cone cell, retinal cone)
+3. A secret agreement between two or more people to perform an unlawful act (= conspiracy)
 
-- Verb: cone (Derived forms: coned, coning, cones)
-1. Make cone-shaped
-"cone a tire"
+- Noun: Confederacy
+1. The southern states that seceded from the United States in 1861 (= Confederate States, Confederate States of America, South, Dixie, Dixieland)
 """,
   );
 
@@ -380,8 +382,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dVwByx4qOfk?t=',
-    startSeconds: 64,
+    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    startSeconds: 1248,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -405,8 +407,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dNSk4coSpUc?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/ST3-xPjHhwU?t=',
+    startSeconds: 1596,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -430,8 +432,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
-    startSeconds: 1464,
+    videoId: 'https://youtu.be/yxllYB04hjg?t=',
+    startSeconds: 856,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -455,8 +457,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H9rO5sKzOiQ?t=',
-    startSeconds: 3272,
+    videoId: 'https://youtu.be/Y7FvR8hkr6w?t=',
+    startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -480,8 +482,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HsT3iI6dT5U?t=',
-    startSeconds: 3847,
+    videoId: 'https://youtu.be/wnBDK-QNZkM?t=',
+    startSeconds: 656,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -505,8 +507,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5bhefS70tgs?t=',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/f-ohZpWD4y4?t=',
+    startSeconds: 643,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -530,8 +532,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pfNwTHKQJ6I?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/R1FO9MqWugY?t=',
+    startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -3409,13 +3409,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conduction.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conductor.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cone.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confection.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confectioner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confectionery.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confederacy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confederate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confederation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confer.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7297,13 +7297,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-conduction": (_) => MaterialPage(child: EnglishEntryconduction()),
   "/english-conductor": (_) => MaterialPage(child: EnglishEntryconductor()),
   "/english-cone": (_) => MaterialPage(child: EnglishEntrycone()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-confection": (_) => MaterialPage(child: EnglishEntryconfection()),
+  "/english-confectioner": (_) => MaterialPage(child: EnglishEntryconfectioner()),
+  "/english-confectionery": (_) => MaterialPage(child: EnglishEntryconfectionery()),
+  "/english-confederacy": (_) => MaterialPage(child: EnglishEntryconfederacy()),
+  "/english-confederate": (_) => MaterialPage(child: EnglishEntryconfederate()),
+  "/english-confederation": (_) => MaterialPage(child: EnglishEntryconfederation()),
+  "/english-confer": (_) => MaterialPage(child: EnglishEntryconfer()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -10,124 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycone extends StatelessWidget {
+class EnglishEntryconfectioner extends StatelessWidget {
 // blank divider
-  EnglishEntrycone({super.key});
+  EnglishEntryconfectioner({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcone(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioner(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("confectioner"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones1(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners1(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The construction crew placed traffic cones along the road to divert traffic."); // DOPSUM: CHANGE TEXT
+        "The confectioner prepared a variety of chocolates for the holiday season."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones2(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners2(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children licked their ice cream cones as they walked through the park."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones3(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners3(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones4(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners4(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones5(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners5(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones6(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners6(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones7(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners7(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones8(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners8(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones9(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners9(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones10(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners10(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones11(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners11(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones12(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners12(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcones13(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
+  Future<void> speakconfectioners13(String languageCode) async {
+    // DOPSUM: CHANGE speakconfectioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcones1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfectioners1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +149,22 @@ class EnglishEntrycone extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cone"),
+                            EntryTitle(word: "confectioner"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kəʊn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈfekʃənə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcone("en-GB"),
+                              onPressed: () => speakconfectioner("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kəʊn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈfekʃənər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcone("en-US"),
+                              onPressed: () => speakconfectioner("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +191,11 @@ class EnglishEntrycone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قوچەک، قووچکە، قوتکە،	ڕەحەتی‌ئاسا، نانە بەستەنی،	میوەی کاج، بەرەکاج، بەری کاژ،	شتی قوچکەئاسا،	قووچکەی ڕێگا(وبان) یان نەڕۆیشتن، کەللەی پاراستن (هات‌وچۆ)،	قووچکە یان نووچکەی گڕکان
+کوردی: شیرینی‌فرۆش، شەکرچی، شیرینی‌فرۆش
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شێوەیەک کە تەختە، خڕ، یان هێلکەیی هەیە و لایەلانی بەرەوە سەرەوە دەچن تاوەکو لە خاڵێک یەکدەگرن"),
+                                  "١. (ناو) کەسێک یان بازرگانییەک کە کێک یان شیرینی دەفرۆشێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,51 +203,23 @@ class EnglishEntrycone extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The construction crew placed traffic cones along the road to divert traffic."),
+                                            "The confectioner prepared a variety of chocolates for the holiday season."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمی بیناسازییەکە مۆتەی هاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی هاتووچۆ."),
+                                            "شیرینی‌فرۆشەکە ژمارەیەکی جیاواز چکلێتی ئامادەکرد بۆ وەرزی پشوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cone", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "confectioner", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcones1("en-GB"),
+                                    onPressed: () =>
+                                        speakconfectioners1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) شتێک کە شێوەی قووچەکی هەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children licked their ice cream cones as they walked through the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان قووچەکە ئایس کرێمییەکانیان دەلێسایەوە کە بە پارکەکەدا پیاسەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcones2("en-US"),
+                                    onPressed: () =>
+                                        speakconfectioners1("en-US"),
                                   ),
                                 ],
                               ),
@@ -336,18 +307,8 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cone (Derived forms: cones)
-1. Any cone-shaped artifact
- 
-2. A shape whose base is a circle and whose sides taper up to a point (= conoid, cone shape)
- 
-3. Cone-shaped mass of ovule- or spore-bearing scales or bracts (= strobilus, strobile)
- 
-4. A visual receptor cell in the retina that is sensitive to bright light and to colour (= cone cell, retinal cone)
-
-- Verb: cone (Derived forms: coned, coning, cones)
-1. Make cone-shaped
-"cone a tire"
+- Noun: confectioner (Derived forms: confectioners)
+1. Someone who makes candies and other sweets (= candymaker)
 """,
   );
 
@@ -380,8 +341,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dVwByx4qOfk?t=',
-    startSeconds: 64,
+    videoId: 'https://youtu.be/mqxHzWJlqps?t=',
+    startSeconds: 605,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -405,8 +366,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dNSk4coSpUc?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/g09731mD-s8?t=',
+    startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -430,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
-    startSeconds: 1464,
+    videoId: 'https://youtu.be/dn_aaxZIA2o?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -455,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H9rO5sKzOiQ?t=',
-    startSeconds: 3272,
+    videoId: 'https://youtu.be/VPYhem4GRGY?t=',
+    startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -480,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HsT3iI6dT5U?t=',
-    startSeconds: 3847,
+    videoId: 'https://youtu.be/LCkneiz2JPo?t=',
+    startSeconds: 2328,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -505,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5bhefS70tgs?t=',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/Zhq20aCSh-s?t=',
+    startSeconds: 343,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -530,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pfNwTHKQJ6I?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/Xko6V36TMtk?t=',
+    startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

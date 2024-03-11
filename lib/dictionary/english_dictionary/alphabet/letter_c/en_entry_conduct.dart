@@ -10,133 +10,282 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychurch extends StatelessWidget {
-  // blank divider
-  EnglishEntrychurch({super.key});
-  // blank divider
+class EnglishEntryconduct extends StatelessWidget {
+// blank divider
+  EnglishEntryconduct({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchurch(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconduct(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("church"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conduct"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs1(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts1(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There are concerns about the way in which the firm conducts its activities."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts2(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The battalion had been preparing to conduct operations in the same area."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts3(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Police conducted a thorough search of the building."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts4(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Education was conducted separately for males and females."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts5(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We regularly conduct safety inspections."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts6(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "People have criticized the way she conducted her election campaign."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts7(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The orchestra was conducted by Mira Shapur."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts8(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The guide conducted us around the ruins of the ancient city."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts9(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He conducted her into his private office."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts10(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He always conducted himself as a gentleman."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts11(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They have conducted themselves in a very professional manner."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts12(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The procession moved into the church."); // DOPSUM: CHANGE TEXT
+        .speak("Copper conducts electricity well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs2(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts13(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was actively involved in church groups."); // DOPSUM: CHANGE TEXT
+        "The sport has a strict code of conduct."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs3(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The church is dedicated to St Paul."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchurchs4(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The church was consecrated in 1250."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchurchs5(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She sings in the church choir."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchurchs6(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts14(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are hiring the church hall for the party."); // DOPSUM: CHANGE TEXT
+        "Any allegation of criminal conduct has to be taken seriously."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs7(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They're in church."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchurchs8(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts15(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Lots of people still get married in church."); // DOPSUM: CHANGE TEXT
+        "He was arrested for disorderly conduct."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs9(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts16(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Catholic Church teaches that life begins at conception."); // DOPSUM: CHANGE TEXT
+        "The business conduct of this bank will be subject to UK rules."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs10(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts17(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Small evangelical churches often provide their members with a strong sense of community and family."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconducts1700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs11(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts18(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The Church has a duty to condemn violence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconducts1800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs12(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts19(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some people think the Church shouldn't interfere in politics."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconducts1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchurchs13(String languageCode) async {
-    // DOPSUM: CHANGE speakchurch
+  Future<void> speakconducts20(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurchs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconducts2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts21(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts22(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts23(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts24(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts25(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts26(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts27(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts28(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts29(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts2900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts30(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts3000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconducts31(String languageCode) async {
+    // DOPSUM: CHANGE speakconduct
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconducts3100"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -159,22 +308,22 @@ class EnglishEntrychurch extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "church"),
+                            EntryTitle(word: "conduct"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /tʃɜːtʃ/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈdʌkt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchurch("en-GB"),
+                              onPressed: () => speakconduct("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /tʃɜːrtʃ/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈdʌkt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchurch("en-US"),
+                              onPressed: () => speakconduct("en-US"),
                             ),
                           ],
                         ),
@@ -201,11 +350,11 @@ class EnglishEntrychurch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کلێسە، کلیسا،	ڕێ‌وڕەسمی کلێسەیی یان دینی، خواپەرستیم،	دین، ئایینزا،	کۆمەڵی دینی کریستیەنەکان، گروپی ئایین‌گەری
+کوردی: ڕەفتار، هەڵس‌وکەوت، ئاکار و کردار، ئاکار، ڕەوشت،	بەڕێوەبردن، هەڵسووڕاندن، جێبەجێ‌کردن، ڕێبەرایەتی، بەڕێ‌دابردن، گێڕان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کڵێسا؛ شوێنی مەسیحییەکان بۆ نوێژکردن، بۆنەی ئایینی، ھتد"),
+                                  "١. (کردار) ڕێکخستن یان ئەنجامدانی چالاکییەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,20 +362,21 @@ class EnglishEntrychurch extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The procession moved into the church."),
+                                            "There are concerns about the way in which the firm conducts its activities."),
                                     ExampleSentenceKurdish(
-                                        text: "قافڵەکە چوونە ناو کڵێساکە."),
+                                        text:
+                                            "نیگەرانی هەیە سەبارەت بەو شێوازەی کە کۆمپانیاکە چالاکییەکانی ئەنجام دەدات."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "church", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "conduct", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs1("en-GB"),
+                                    onPressed: () => speakconducts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs1("en-US"),
+                                    onPressed: () => speakconducts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -240,10 +390,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She was actively involved in church groups."),
+                                            "The battalion had been preparing to conduct operations in the same area."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە چووستییەوە بەژدار بوو لەناو گرووپەکانی کڵێسادا."),
+                                            "بەتالیۆنەکە ئامادەکارییان دەکرد بۆ ئەنجامدانی ئۆپەراسیۆن لە هەمان ناوچە."),
                                   ],
                                 ),
                               ),
@@ -251,10 +401,10 @@ class EnglishEntrychurch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs2("en-GB"),
+                                    onPressed: () => speakconducts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs2("en-US"),
+                                    onPressed: () => speakconducts2("en-US"),
                                   ),
                                 ],
                               ),
@@ -271,10 +421,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "The church is dedicated to St Paul."),
+                                                    "Police conducted a thorough search of the building."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کڵێساکە بۆ قەشە پاوڵ تەرخانکراوە."),
+                                                    "پۆلیس گەڕانێکی تەواوی بیناکەی ئەنجامدا."),
                                           ],
                                         ),
                                       ),
@@ -283,11 +433,11 @@ class EnglishEntrychurch extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakchurchs3("en-GB"),
+                                                speakconducts3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakchurchs3("en-US"),
+                                                speakconducts3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -301,12 +451,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "The church was consecrated in 1250."),
+                                                    "Education was conducted separately for males and females."),
                                             ExampleSentenceKurdish(
-                                              text: "کڵێساکە لە ١٢٥٠ پیرۆزکرا.",
-                                              note:
-                                                  "پیرۆزکردنی کڵێسا ئەوەیە کە بە فەرمی ڕادەگەیەنرێت کە تەنھا بینایەک نییە و کڵێسایەکی پیرۆزە و دەکرێت بۆ کاری ئایینی بەکاربێت.",
-                                            ),
+                                                text:
+                                                    "خوێندن بە جیایی بۆ پیاوان و ژنان ئەنجام دەدرا."),
                                           ],
                                         ),
                                       ),
@@ -315,11 +463,11 @@ class EnglishEntrychurch extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakchurchs4("en-GB"),
+                                                speakconducts4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakchurchs4("en-US"),
+                                                speakconducts4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -333,10 +481,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "She sings in the church choir."),
+                                                    "We regularly conduct safety inspections."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە کۆچڕی کڵێساکە گۆرانی دەڵێت."),
+                                                    "زوو زوو پشکنینی سەلامەتی ئەنجام دەدەین."),
                                           ],
                                         ),
                                       ),
@@ -345,11 +493,11 @@ class EnglishEntrychurch extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakchurchs5("en-GB"),
+                                                speakconducts5("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakchurchs5("en-US"),
+                                                speakconducts5("en-US"),
                                           ),
                                         ],
                                       ),
@@ -363,10 +511,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "We are hiring the church hall for the party."),
+                                                    "People have criticized the way she conducted her election campaign."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ھۆڵی کڵێساکە بۆ ئاھەنگەکە بەکرێ دەگرین."),
+                                                    "خەڵکی سەرکۆنەی شێوازی ئەنجامدانی کەمپینی هەڵبژاردنەکەی ئەویان کردووە."),
                                           ],
                                         ),
                                       ),
@@ -375,133 +523,48 @@ class EnglishEntrychurch extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakchurchs6("en-GB"),
+                                                speakconducts6("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakchurchs6("en-US"),
+                                                speakconducts6("en-US"),
                                           ),
                                         ],
                                       ),
                                     ],
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بۆنەیەک یان ئەو بۆنانەی لە کڵێسادا دەکرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They're in church."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە بۆنەی کڵێساکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lots of people still get married in church."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرکەس ھێشتا لە بۆنەیەکی کڵێسادا ھاوسەرگیری دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) گرووپێکی دیاریکراوی مەسیحییەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Catholic Church teaches that life begins at conception."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێسای کاسۆلیک ئەوە فێردەکات کە ژیان لە ئاوسبوونەوە دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Small evangelical churches often provide their members with a strong sense of community and family."),
-                                    ExampleSentenceKurdish(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
                                       text:
-                                          "ھەندێک کڵێسای ئینجیلی ھەستێکی بەھێزی کۆمەڵگە و خێزان لای ئەندامەکانیان درووست دەکەن.",
-                                      note:
-                                          "کڵێسای ئینجیلی کڵێسای ئەو کەسانەیە کە باوەڕیان بە گرنگی ئینجیل ھەیە لە ژیانی ڕۆژانەدا و ھەوڵدان بۆ ئەوەی کەسانی دیکەش شوێنیان بکەون",
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs10("en-US"),
+                                          "٢. (کردار) سەرپەرشتیکردنی کۆمەڵە کەسێک کە گۆرانی دەڵێن یان میوزیک دەژەنن"),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The orchestra was conducted by Mira Shapur."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئۆرکێستراکە لەلایەن میرا شاپوورەوە بەڕێوەدەبرا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakconducts7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakconducts7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -510,7 +573,7 @@ class EnglishEntrychurch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ئەو کەسانەی کە کڵێسا بەڕێوەدەبەن، یان دامەزراوە مەسیحییەکان"),
+                                  "٣. (کردار) ڕێنوێنی کەسێک بۆ شوێنێک یان بە دەوری شوێنێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -518,10 +581,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The Church has a duty to condemn violence."),
+                                            "The guide conducted us around the ruins of the ancient city."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کڵێسا دەبێت توندوتیژی سەرکۆنە بکات."),
+                                            "ڕێبەرەکە ڕێنوێنی کردین بە وێرانەکانی شارە دێرینەکەدا."),
                                   ],
                                 ),
                               ),
@@ -529,10 +592,10 @@ class EnglishEntrychurch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs11("en-GB"),
+                                    onPressed: () => speakconducts8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs11("en-US"),
+                                    onPressed: () => speakconducts8("en-US"),
                                   ),
                                 ],
                               ),
@@ -546,10 +609,10 @@ class EnglishEntrychurch extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Some people think the Church shouldn't interfere in politics."),
+                                            "He conducted her into his private office."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەندێک کەس باوەڕیان وایە کە کڵێسا دەبێت لە سیاسەت تێوەنەگلێت."),
+                                            "ڕێنوێنی کردە ئۆفیسە تایبەتەکەی."),
                                   ],
                                 ),
                               ),
@@ -557,10 +620,216 @@ class EnglishEntrychurch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs12("en-GB"),
+                                    onPressed: () => speakconducts9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs12("en-US"),
+                                    onPressed: () => speakconducts9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) ڕەفتارکردن بە شێوەیەکی دیاریکراو"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He always conducted himself as a gentleman."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەمیشە وەک جوامێرێک ڕەفتاری دەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have conducted themselves in a very professional manner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر پڕۆفیشناڵانە خۆیان نواندووە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٥. (کردار) گەیاندنی گەرمی یان کارەبا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Copper conducts electricity well."),
+                                    ExampleSentenceKurdish(
+                                        text: "مس بەباشی کارەبا دەگەیەنێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) ڕەفتاری کەسێک لە شوێنێک یان کاتێکی دیاریکراودا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sport has a strict code of conduct."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەرزشەکە ڕێسای توندی هەڵسوکەوتی هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Any allegation of criminal conduct has to be taken seriously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەر تۆمەتێکی هەڵسوکەوتی تاوانکاری دەبێت بە جدی بگیردرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was arrested for disorderly conduct."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکرا بۆ هەڵسووکەوتی ناڕێک‌وپێک."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) شێوازی ئەنجامدانی کارێک یان چالاکییەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The business conduct of this bank will be subject to UK rules."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاری بازرگانی ئەم بانکە دەکەوێتە ژێر یاسای بەریتانیاوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconducts16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconducts16("en-US"),
                                   ),
                                 ],
                               ),
@@ -577,8 +846,8 @@ class EnglishEntrychurch extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -635,7 +904,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -645,24 +914,33 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: church (derived forms: churches)
-1. One of the groups of Christians who have their own beliefs and forms of worship (= Christian church)
+- Verb: conduct (Derived forms: conducted, conducts, conducting)
+1. Direct the course of; manage or control (= carry on, deal)
+"You cannot conduct business like this";
  
-2. (church service) a place for public (especially Christian) worship (= church building)
-"the church was empty";
-
-3. A service conducted in a house of worship (= church service)
-"don't be late for church";
+2. (music) Have the leading position, as in the performance of a composition (= lead, direct)
+"Barenboim conducted the Chicago symphony for years"; "conduct an orchestra";
  
-4. The body of people who attend or belong to a particular local church
-"our church is hosting a picnic next week"
+3. Behave in a certain manner (= behave, acquit, bear, deport, comport, carry)
+"They conducted themselves well during these difficult times";
+ 
+4. Accompany somebody somewhere to show them the way (= lead, take, direct, guide)
+"He conducted us to the palace";
+ 
+5. Serve as the medium for transmission, allow movement of (= impart, transmit, convey, carry, channel)
+"Many metals conduct heat";
+ 
+6. (music) lead musicians in the performance of
+"she cannot conduct modern pieces"; "Bernstein conducted Mahler like no other conductor"
 
-- Verb: church (derived forms: churches, churched, churching)
-1. Perform a special church rite or service for
-"church a woman after childbirth"
+- Noun: conduct (Derived forms: conducts)
+1. Manner of acting or controlling yourself (= behavior [US], behaviour [Brit, Cdn], doings)
+ 
+2. (behavioral attributes) the way a person behaves toward other people (= demeanor [US], demeanour [Brit, Cdn], behavior [US], behaviour [Brit, Cdn], deportment)
+"her dignified conduct";
 """,
   );
 
@@ -695,8 +973,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nQ-Ua6NYago',
-    startSeconds: 512,
+    videoId: 'https://youtu.be/t6fIp7mMJ90?t=',
+    startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -720,8 +998,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '8t_qFivFGaM',
-    startSeconds: 89,
+    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    startSeconds: 661,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -745,8 +1023,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Vyb-sTrY_Y8',
-    startSeconds: 33,
+    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    startSeconds: 1217,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -770,8 +1048,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'm3OdHm7nuAM',
-    startSeconds: 121,
+    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -795,8 +1073,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FFom9ziEXVY',
-    startSeconds: 226,
+    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
+    startSeconds: 430,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -820,8 +1098,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'l71AX8p0UU8',
-    startSeconds: 310,
+    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -845,33 +1123,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '72BLZmT5Wbo',
-    startSeconds: 5,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'H_S2L0qOux0',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/NtUUW_pFs_8?t=',
+    startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

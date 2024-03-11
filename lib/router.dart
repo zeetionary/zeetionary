@@ -3400,15 +3400,15 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conditioner.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conditioning.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conditional.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conditionally.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_condolence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_condom.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_condone.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conducive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conduct.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conduction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conductor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cone.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7288,15 +7288,15 @@ final loggedInRoute = RouteMap(routes: {
   "/english-conditioner": (_) => MaterialPage(child: EnglishEntryconditioner()),
   "/english-conditioning": (_) => MaterialPage(child: EnglishEntryconditioning()),
   "/english-conditional": (_) => MaterialPage(child: EnglishEntryconditional()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-conditionally": (_) => MaterialPage(child: EnglishEntryconditionally()),
+  "/english-condolence": (_) => MaterialPage(child: EnglishEntrycondolence()),
+  "/english-condom": (_) => MaterialPage(child: EnglishEntrycondom()),
+  "/english-condone": (_) => MaterialPage(child: EnglishEntrycondone()),
+  "/english-conducive": (_) => MaterialPage(child: EnglishEntryconducive()),
+  "/english-conduct": (_) => MaterialPage(child: EnglishEntryconduct()),
+  "/english-conduction": (_) => MaterialPage(child: EnglishEntryconduction()),
+  "/english-conductor": (_) => MaterialPage(child: EnglishEntryconductor()),
+  "/english-cone": (_) => MaterialPage(child: EnglishEntrycone()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

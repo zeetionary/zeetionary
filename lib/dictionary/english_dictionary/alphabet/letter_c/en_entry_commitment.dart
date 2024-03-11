@@ -355,10 +355,73 @@ class EnglishEntrycommitment extends StatelessWidget {
                                       ),
                                     ],
                                   ),
-                                  const DividerDefinition(),
-                                  const DefinitionKurdish(
-                                      text:
-                                          "٢. (ناو) ویستی کارکردن بە سەختی و پێدانی وزە و کاتت بۆ کردنی کارێک یان چالاکییەک"),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ویستی کارکردن بە سەختی و پێدانی وزە و کاتت بۆ کردنی کارێک یان چالاکییەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has demonstrated exceptional commitment and dedication."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پابەندی و لەخۆبوردوویی بێ‌وێنەی پیشانداوە بۆ کردنی کارەکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcommitments6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcommitments6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This post demands a high level of commitment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم پێگەیە بەرپرسیاریەتی زۆری دەوێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcommitments7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcommitments7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
                                   Row(
                                     children: [
                                       const Expanded(
@@ -366,10 +429,10 @@ class EnglishEntrycommitment extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "He has demonstrated exceptional commitment and dedication."),
+                                                    "A career as an actor requires one hundred per cent commitment."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پابەندی و لەخۆبوردوویی بێ‌وێنەی پیشانداوە بۆ کردنی کارەکە."),
+                                                    "کارکردن وەک ئەکتەرێک پێویستی بە پابەندی سەد لە سەدە."),
                                           ],
                                         ),
                                       ),
@@ -378,11 +441,11 @@ class EnglishEntrycommitment extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcommitments6("en-GB"),
+                                                speakcommitments8("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcommitments6("en-US"),
+                                                speakcommitments8("en-US"),
                                           ),
                                         ],
                                       ),
@@ -396,10 +459,10 @@ class EnglishEntrycommitment extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "This post demands a high level of commitment."),
+                                                    "She was criticized for her lack of commitment."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم پێگەیە بەرپرسیاریەتی زۆری دەوێت."),
+                                                    "ڕەخنەی لێ گیردرا بۆ کەمی خۆتەرخانکردنی."),
                                           ],
                                         ),
                                       ),
@@ -408,82 +471,11 @@ class EnglishEntrycommitment extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakcommitments7("en-GB"),
+                                                speakcommitments9("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakcommitments7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  Column(
-                                    children: [
-                                      MyExpansionTile(
-                                        children: [
-                                          Row(
-                                            children: [
-                                              const Expanded(
-                                                child: Column(
-                                                  children: [
-                                                    ExampleSentenceEnglish(
-                                                        text:
-                                                            "A career as an actor requires one hundred per cent commitment."),
-                                                    ExampleSentenceKurdish(
-                                                        text:
-                                                            "کارکردن وەک ئەکتەرێک پێویستی بە پابەندی سەد لە سەدە."),
-                                                  ],
-                                                ),
-                                              ),
-                                              const CustomSizedBoxForTTS(),
-                                              Column(
-                                                children: [
-                                                  CustomIconButtonBritish(
-                                                    onPressed: () =>
-                                                        speakcommitments8(
-                                                            "en-GB"),
-                                                  ),
-                                                  CustomIconButtonAmerican(
-                                                    onPressed: () =>
-                                                        speakcommitments8(
-                                                            "en-US"),
-                                                  ),
-                                                ],
-                                              ),
-                                            ],
-                                          ),
-                                          const DividerSentences(),
-                                          Row(
-                                            children: [
-                                              const Expanded(
-                                                child: Column(
-                                                  children: [
-                                                    ExampleSentenceEnglish(
-                                                        text:
-                                                            "She was criticized for her lack of commitment."),
-                                                    ExampleSentenceKurdish(
-                                                        text:
-                                                            "ڕەخنەی لێ گیردرا بۆ کەمی خۆتەرخانکردنی."),
-                                                  ],
-                                                ),
-                                              ),
-                                              const CustomSizedBoxForTTS(),
-                                              Column(
-                                                children: [
-                                                  CustomIconButtonBritish(
-                                                    onPressed: () =>
-                                                        speakcommitments9(
-                                                            "en-GB"),
-                                                  ),
-                                                  CustomIconButtonAmerican(
-                                                    onPressed: () =>
-                                                        speakcommitments9(
-                                                            "en-US"),
-                                                  ),
-                                                ],
-                                              ),
-                                            ],
+                                                speakcommitments9("en-US"),
                                           ),
                                         ],
                                       ),
@@ -496,7 +488,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شتێک کە بەڵێنت داوە یان ڕازی بوویت کە بیکەیت، یان ئەوەی دەبێت بیکەیت"),
+                                  "٣. (ناو) شتێک کە بەڵێنت داوە یان ڕازی بوویت کە بیکەیت، یان ئەوەی دەبێت بیکەیت"),
                           Row(
                             children: [
                               const Expanded(

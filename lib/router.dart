@@ -3416,24 +3416,24 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confederate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confederation.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confer.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conference.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confess.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confession.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confessional.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confetti.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confidant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confide.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confidence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confident.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confidently.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confidential.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confidentiality.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confidentially.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_configuration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confine.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confined.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confinement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confines.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7304,24 +7304,24 @@ final loggedInRoute = RouteMap(routes: {
   "/english-confederate": (_) => MaterialPage(child: EnglishEntryconfederate()),
   "/english-confederation": (_) => MaterialPage(child: EnglishEntryconfederation()),
   "/english-confer": (_) => MaterialPage(child: EnglishEntryconfer()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-conference": (_) => MaterialPage(child: EnglishEntryconference()),
+  "/english-confess": (_) => MaterialPage(child: EnglishEntryconfess()),
+  "/english-confession": (_) => MaterialPage(child: EnglishEntryconfession()),
+  "/english-confessional": (_) => MaterialPage(child: EnglishEntryconfessional()),
+  "/english-confetti": (_) => MaterialPage(child: EnglishEntryconfetti()),
+  "/english-confidant": (_) => MaterialPage(child: EnglishEntryconfidant()),
+  "/english-confide": (_) => MaterialPage(child: EnglishEntryconfide()),
+  "/english-confidence": (_) => MaterialPage(child: EnglishEntryconfidence()),
+  "/english-confident": (_) => MaterialPage(child: EnglishEntryconfident()),
+  "/english-confidently": (_) => MaterialPage(child: EnglishEntryconfidently()),
+  "/english-confidential": (_) => MaterialPage(child: EnglishEntryconfidential()),
+  "/english-confidentiality": (_) => MaterialPage(child: EnglishEntryconfidentiality()),
+  "/english-confidentially": (_) => MaterialPage(child: EnglishEntryconfidentially()),
+  "/english-configuration": (_) => MaterialPage(child: EnglishEntryconfiguration()),
+  "/english-confine": (_) => MaterialPage(child: EnglishEntryconfine()),
+  "/english-confined": (_) => MaterialPage(child: EnglishEntryconfined()),
+  "/english-confinement": (_) => MaterialPage(child: EnglishEntryconfinement()),
+  "/english-confines": (_) => MaterialPage(child: EnglishEntryconfines()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

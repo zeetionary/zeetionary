@@ -10,126 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconfound extends StatelessWidget {
+class EnglishEntrycongenial extends StatelessWidget {
 // blank divider
-  EnglishEntryconfound({super.key});
+  EnglishEntrycongenial({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconfound(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenial(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("confound"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("congenial"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds1(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials1(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sudden rise in share prices has confounded economists."); // DOPSUM: CHANGE TEXT
+        "She found him congenial because they shared a love for science and reading."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds2(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials2(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A man has confounded doctors by recovering after he was officially declared dead."); // DOPSUM: CHANGE TEXT
+        "The job was particularly congenial to him because it allowed him to work independently."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds3(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials3(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The rise in share prices confounded expectations."); // DOPSUM: CHANGE TEXT
+        "The climate in the region was congenial for growing grapes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds4(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials4(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She confounded her critics and proved she could do the job."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds5(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials5(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds6(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials6(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds7(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials7(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds8(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials8(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds9(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials9(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds10(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials10(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds11(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials11(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds12(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials12(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds13(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakcongenials13(String languageCode) async {
+    // DOPSUM: CHANGE speakcongenial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcongenials1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +151,22 @@ class EnglishEntryconfound extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "confound"),
+                            EntryTitle(word: "congenial"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈfaʊnd/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈdʒiːniəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconfound("en-GB"),
+                              onPressed: () => speakcongenial("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈfaʊnd/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈdʒiːniəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconfound("en-US"),
+                              onPressed: () => speakcongenial("en-US"),
                             ),
                           ],
                         ),
@@ -194,10 +193,11 @@ class EnglishEntryconfound extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەرێشان کردن، مات و وڕکردن
+کوردی: خۆش، بەردڵ، لەبەردڵان، دڵ‌گوشاد، دڵ‌فەرێح، دڵگیر،	گونجاو، کارخۆش، هاوبیر، ڕێک‌کەوتوو، هاوخوو، پێکەوەهەڵکردوو
 """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) سەرلێ‌شێواندنی کەسێک"),
+                              text:
+                                  "١. (ھاوەڵناو) کەسێک کە خۆشە کاتی لەگەڵ بەسەر ببەیت بەهۆی ئەوەی حەز و خولیاکانی وەک تۆیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,49 +205,21 @@ class EnglishEntryconfound extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The sudden rise in share prices has confounded economists."),
+                                            "She found him congenial because they shared a love for science and reading."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرزبوونی لەناکاوی نرخی پشکەکان ئابووریناسانی سەرلێ‌شێواو کردووە ."),
+                                            "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی هاوبەشیان بۆ زانست و خوێندنەوە هەبوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confound", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "congenial", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds1("en-GB"),
+                                    onPressed: () => speakcongenials1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man has confounded doctors by recovering after he was officially declared dead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک سەری لە پزیشکەکان شێواندووە بە چاکبوونەوە لە دوای ئەوەی بە فەرمی بە مردوو دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds2("en-US"),
+                                    onPressed: () => speakcongenials1("en-US"),
                                   ),
                                 ],
                               ),
@@ -256,7 +228,7 @@ class EnglishEntryconfound extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) سەلماندنی ئەوەی کەسێک/شتێک هەڵەیە"),
+                                  "٢. (ھاوەڵناو) شوێنێک کە خۆشە بەهۆی ئەوەی دڵت پێی دەکرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -264,10 +236,10 @@ class EnglishEntryconfound extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The rise in share prices confounded expectations."),
+                                            "The job was particularly congenial to him because it allowed him to work independently."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            " بەرزبوونەوەی نرخی پشکەکان پێشبینییەکانی بە هەڵە خست."),
+                                            "کارەکە دڵگیر بوو لای چونکە دەیهێشت سەربەخۆ کار بکات."),
                                   ],
                                 ),
                               ),
@@ -275,16 +247,18 @@ class EnglishEntryconfound extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds3("en-GB"),
+                                    onPressed: () => speakcongenials2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds3("en-US"),
+                                    onPressed: () => speakcongenials2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ھاوەڵناو) گونجاو بۆ شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -292,10 +266,10 @@ class EnglishEntryconfound extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She confounded her critics and proved she could do the job."),
+                                            "The climate in the region was congenial for growing grapes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەخنەگرانیی خستە هەڵەوە و سەلماندی دەتوانێت کارەکە بکات."),
+                                            "ئاو و هەوای هەرێمەکە گونجاو بوو بۆ چاندنی ترێ."),
                                   ],
                                 ),
                               ),
@@ -303,10 +277,10 @@ class EnglishEntryconfound extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds4("en-GB"),
+                                    onPressed: () => speakcongenials3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds4("en-US"),
+                                    onPressed: () => speakcongenials3("en-US"),
                                   ),
                                 ],
                               ),
@@ -394,11 +368,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confound (Derived forms: confounded, confounding, confounds)
-1. Confuse or leave at a loss because of something complex or difficult to understand (= confuse, throw, fox, befuddle, fuddle, bedevil, discombobulate [informal], perplex, vex, stick, get, puzzle, mystify, baffle, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
-"These questions confound even the experts";
+- Adjective: congenial 
+1. Suitable to your needs
+"a congenial atmosphere to work in"; "two congenial spirits united...by mutual confidence and reciprocal virtues"
  
-2. Mistake one thing for another (= confuse)
+2. (used of plants) capable of cross-fertilization or of being grafted
 """,
   );
 
@@ -431,8 +405,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
-    startSeconds: 2180,
+    videoId: 'https://youtu.be/2OEwbocwYF8?t=',
+    startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -456,8 +430,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
-    startSeconds: 1223,
+    videoId: 'https://youtu.be/48cWFG-f2eA?t=',
+    startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -481,8 +455,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
-    startSeconds: 1055,
+    videoId: 'https://youtu.be/sZC6-u13-dM?t=',
+    startSeconds: 6196,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,8 +480,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
-    startSeconds: 5276,
+    videoId: 'https://youtu.be/KxY0H1POjfU?t=',
+    startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -531,8 +505,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5_HVUS1l0Y?t=',
-    startSeconds: 1187,
+    videoId: 'https://youtu.be/p_-VQM6ypnU?t=',
+    startSeconds: 904,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -556,8 +530,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CX0XP3d0q2Q?t=',
-    startSeconds: 790,
+    videoId: 'https://youtu.be/EexZjx3YOuQ?t=',
+    startSeconds: 1750,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -581,8 +555,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Udk8YHOy0EU?t=',
-    startSeconds: 876,
+    videoId: 'https://youtu.be/z0-Q3Jl7vng?t=',
+    startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

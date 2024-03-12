@@ -10,126 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconfound extends StatelessWidget {
+class EnglishEntryconfrontation extends StatelessWidget {
 // blank divider
-  EnglishEntryconfound({super.key});
+  EnglishEntryconfrontation({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconfound(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontation(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("confound"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("confrontation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds1(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations1(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sudden rise in share prices has confounded economists."); // DOPSUM: CHANGE TEXT
+        "She wanted to avoid another confrontation with her father."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds2(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations2(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A man has confounded doctors by recovering after he was officially declared dead."); // DOPSUM: CHANGE TEXT
+        "Confrontation between employers and unions has resulted in strike action."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds3(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations3(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The rise in share prices confounded expectations."); // DOPSUM: CHANGE TEXT
+        "His actions brought him into direct confrontation with the authorities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds4(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations4(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She confounded her critics and proved she could do the job."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds5(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations5(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds6(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations6(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds7(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations7(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds8(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations8(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds9(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations9(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds10(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations10(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds11(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations11(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds12(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations12(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconfounds13(String languageCode) async {
-    // DOPSUM: CHANGE speakconfound
+  Future<void> speakconfrontations13(String languageCode) async {
+    // DOPSUM: CHANGE speakconfrontation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfounds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfrontations1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +151,23 @@ class EnglishEntryconfound extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "confound"),
+                            EntryTitle(word: "confrontation"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈfaʊnd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒnfrʌnˈteɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconfound("en-GB"),
+                              onPressed: () => speakconfrontation("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈfaʊnd/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkɑːnfrənˈteɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconfound("en-US"),
+                              onPressed: () => speakconfrontation("en-US"),
                             ),
                           ],
                         ),
@@ -194,69 +194,11 @@ class EnglishEntryconfound extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەرێشان کردن، مات و وڕکردن
+کوردی: ڕووبەڕووبوونەوە، بەرەنگاری، بەرەنگاربوونەوە، بەرەوڕوو(کەوتن)
 """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) سەرلێ‌شێواندنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sudden rise in share prices has confounded economists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزبوونی لەناکاوی نرخی پشکەکان ئابووریناسانی سەرلێ‌شێواو کردووە ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confound", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man has confounded doctors by recovering after he was officially declared dead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک سەری لە پزیشکەکان شێواندووە بە چاکبوونەوە لە دوای ئەوەی بە فەرمی بە مردوو دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) سەلماندنی ئەوەی کەسێک/شتێک هەڵەیە"),
+                                  "١. (ناو) ڕووبەڕووبوونەوەی خەڵکی یان گرووپی جیاواز بەهۆی ئەوەی ناکۆکییان هەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -264,21 +206,23 @@ class EnglishEntryconfound extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The rise in share prices confounded expectations."),
+                                            "She wanted to avoid another confrontation with her father."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            " بەرزبوونەوەی نرخی پشکەکان پێشبینییەکانی بە هەڵە خست."),
+                                            "ویستی دوور بێت لە کێشەیەکی دیکە لەگەڵ باوکیدا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "confrontation", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds3("en-GB"),
+                                    onPressed: () =>
+                                        speakconfrontations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds3("en-US"),
+                                    onPressed: () =>
+                                        speakconfrontations1("en-US"),
                                   ),
                                 ],
                               ),
@@ -292,10 +236,10 @@ class EnglishEntryconfound extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She confounded her critics and proved she could do the job."),
+                                            "Confrontation between employers and unions has resulted in strike action."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەخنەگرانیی خستە هەڵەوە و سەلماندی دەتوانێت کارەکە بکات."),
+                                            "ڕووبەڕووبوونەوە لە نێوان خاوەن کاران و سەندیکاکاندا بووە بەهۆی مانگرتن."),
                                   ],
                                 ),
                               ),
@@ -303,10 +247,42 @@ class EnglishEntryconfound extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds4("en-GB"),
+                                    onPressed: () =>
+                                        speakconfrontations2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds4("en-US"),
+                                    onPressed: () =>
+                                        speakconfrontations2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His actions brought him into direct confrontation with the authorities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کردارەکانی گەیاندیان بە ڕووبەڕووبوونەوەی ڕاستەوخۆ لەگەڵ بەرپرسان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconfrontations3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconfrontations3("en-US"),
                                   ),
                                 ],
                               ),
@@ -394,11 +370,17 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confound (Derived forms: confounded, confounding, confounds)
-1. Confuse or leave at a loss because of something complex or difficult to understand (= confuse, throw, fox, befuddle, fuddle, bedevil, discombobulate [informal], perplex, vex, stick, get, puzzle, mystify, baffle, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
-"These questions confound even the experts";
+- Noun: confrontation (Derived forms: confrontations)
+1. A bold challenge
  
-2. Mistake one thing for another (= confuse)
+2. Discord resulting from a clash of ideas or opinions
+ 
+3. A hostile disagreement face-to-face (= encounter, showdown, face-off, smackdown [N. Amer, informal])
+ 
+4. The act of hostile groups opposing each other (= opposition)
+"the government was not ready for a confrontation with the unions";
+ 
+5. A focussed comparison; bringing together for a careful comparison
 """,
   );
 
@@ -431,8 +413,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
-    startSeconds: 2180,
+    videoId: 'https://youtu.be/vjtj6xwU3x4?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -456,8 +438,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
-    startSeconds: 1223,
+    videoId: 'https://youtu.be/65zfBD0V0eQ?t=',
+    startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -481,8 +463,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
-    startSeconds: 1055,
+    videoId: 'https://youtu.be/P28NJGD7D78?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,8 +488,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
-    startSeconds: 5276,
+    videoId: 'https://youtu.be/yvJoO9kNeoc?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -531,8 +513,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5_HVUS1l0Y?t=',
-    startSeconds: 1187,
+    videoId: 'https://youtu.be/QEbYo07jLoY?t=',
+    startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -556,8 +538,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CX0XP3d0q2Q?t=',
-    startSeconds: 790,
+    videoId: 'https://youtu.be/YZkXDuKto_Y?t=',
+    startSeconds: 919,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -581,8 +563,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Udk8YHOy0EU?t=',
-    startSeconds: 876,
+    videoId: 'https://youtu.be/s36hrId0rOo?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

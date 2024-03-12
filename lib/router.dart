@@ -3451,28 +3451,28 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_confusion.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congeal.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congenial.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congenially.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congenital.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congested.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congestion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conglomerate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conglomeration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congratulate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congratulation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congregate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congregation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congregational.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congress.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congressional.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congressman.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_congruent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conifer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coniferous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conjecture.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conjectural.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conjugal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conjunction.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7339,28 +7339,28 @@ final loggedInRoute = RouteMap(routes: {
   "/english-confusion": (_) => MaterialPage(child: EnglishEntryconfusion()),
   "/english-congeal": (_) => MaterialPage(child: EnglishEntrycongeal()),
   "/english-congenial": (_) => MaterialPage(child: EnglishEntrycongenial()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-congenially": (_) => MaterialPage(child: EnglishEntrycongenially()),
+  "/english-congenital": (_) => MaterialPage(child: EnglishEntrycongenital()),
+  "/english-congested": (_) => MaterialPage(child: EnglishEntrycongested()),
+  "/english-congestion": (_) => MaterialPage(child: EnglishEntrycongestion()),
+  "/english-conglomerate": (_) => MaterialPage(child: EnglishEntryconglomerate()),
+  "/english-conglomeration": (_) => MaterialPage(child: EnglishEntryconglomeration()),
+  "/english-congratulate": (_) => MaterialPage(child: EnglishEntrycongratulate()),
+  "/english-congratulation": (_) => MaterialPage(child: EnglishEntrycongratulation()),
+  "/english-congregate": (_) => MaterialPage(child: EnglishEntrycongregate()),
+  "/english-congregation": (_) => MaterialPage(child: EnglishEntrycongregation()),
+  "/english-congregational": (_) => MaterialPage(child: EnglishEntrycongregational()),
+  "/english-congress": (_) => MaterialPage(child: EnglishEntrycongress()),
+  "/english-congressional": (_) => MaterialPage(child: EnglishEntrycongressional()),
+  "/english-congressman": (_) => MaterialPage(child: EnglishEntrycongressman()),
+  "/english-congruent": (_) => MaterialPage(child: EnglishEntrycongruent()),
+  "/english-conical": (_) => MaterialPage(child: EnglishEntryconical()),
+  "/english-conifer": (_) => MaterialPage(child: EnglishEntryconifer()),
+  "/english-coniferous": (_) => MaterialPage(child: EnglishEntryconiferous()),
+  "/english-conjecture": (_) => MaterialPage(child: EnglishEntryconjecture()),
+  "/english-conjectural": (_) => MaterialPage(child: EnglishEntryconjectural()),
+  "/english-conjugal": (_) => MaterialPage(child: EnglishEntryconjugal()),
+  "/english-conjunction": (_) => MaterialPage(child: EnglishEntryconjunction()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

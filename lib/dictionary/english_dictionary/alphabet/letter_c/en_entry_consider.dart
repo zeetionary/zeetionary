@@ -10,126 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconservation extends StatelessWidget {
+class EnglishEntryconsider extends StatelessWidget {
 // blank divider
-  EnglishEntryconservation({super.key});
+  EnglishEntryconsider({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconservation(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsider(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conservation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("consider"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations1(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders1(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Road development in the area has been limited by conservation programmes."); // DOPSUM: CHANGE TEXT
+        "// speakconsiders111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations2(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders2(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Through the years they have made significant contributions to species conservation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations3(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders3(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government allocated funds for the conservation of ancient monuments in the region."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations4(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders4(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Energy conservation reduces your fuel bills and helps the environment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations5(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders5(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations6(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders6(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations7(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders7(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations8(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders8(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations9(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders9(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations10(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders10(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations11(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders11(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations12(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders12(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconservations13(String languageCode) async {
-    // DOPSUM: CHANGE speakconservation
+  Future<void> speakconsiders13(String languageCode) async {
+    // DOPSUM: CHANGE speakconsider
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiders1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +149,22 @@ class EnglishEntryconservation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "conservation"),
+                            EntryTitle(word: "consider"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkɒnsəˈveɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈsɪdə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconservation("en-GB"),
+                              onPressed: () => speakconsider("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌkɑːnsərˈveɪʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈsɪdər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconservation("en-US"),
+                              onPressed: () => speakconsider("en-US"),
                             ),
                           ],
                         ),
@@ -194,10 +191,10 @@ class EnglishEntryconservation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پاراستن، ئاگالێ‌بوون، ڕاگرتن، پاراستنی ژینگەی سروشتی یان سەرچاوە سروشتی‌یەکان، ژینگەپارێزی،	(فیزیک) پاراستن، مانەوە،	دەس‌پێوەگرتن، دەسگیرۆیی
+کوردی: 
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پاراستنی ژینگەی سرووشتی"),
+                              text: "١. (ھاوەڵناو) پێنناسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,119 +202,20 @@ class EnglishEntryconservation extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Road development in the area has been limited by conservation programmes."),
+                                            "// speakconsiders111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "پەرەپێدانی ڕێگا لە ناوچەکە سنووردار کراوە بە پڕۆگرامی پاراستنی ژینگەیی."),
+                                        text: "رستە_رستە_رستە_رستە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservation", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "consider", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations1("en-GB"),
+                                    onPressed: () => speakconsiders1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Through the years they have made significant contributions to species conservation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە درێژایی ساڵان کاری گرنگیان ئەنجام داوە بۆ پاراستنی چەشنەکانی ئاژەڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) پاراستنی فەرمی ئەو بینا و کەرەستانەی کە گرنگی مێژووی یان هونەرییان هەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government allocated funds for the conservation of ancient monuments in the region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنومێنتە کۆنەکان لە هەرێمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ڕێگری لە بەهەدەرچوون، لەناوچوون، یان ونبوونی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Energy conservation reduces your fuel bills and helps the environment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاراستنی وزە تێچووی سوتەمەنیت کەم دەکاتەوە و یارمەتی ژینگەش دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations4("en-US"),
+                                    onPressed: () => speakconsiders1("en-US"),
                                   ),
                                 ],
                               ),
@@ -405,12 +303,32 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conservation (Derived forms: conservations)
-1. An occurrence of improvement by virtue of preventing loss, injury or other change (= preservation)
+- Verb: consider (Derived forms: considered, considering, considers)
+1. Perceive or think about in a particular way; deem to be (= see, reckon, view, regard)
+"I consider her to be shallow";
  
-2. The preservation and careful management of the environment and of natural resources
+2. Give careful consideration to (= study)
+"consider the possibility of moving";
  
-3. (physics) the maintenance of a certain quantities unchanged during chemical reactions or physical transformations
+3. Focus on as an example (= take, look at)
+"Consider the following case";
+ 
+4. Show consideration for; take into account (= count, weigh)
+"You must consider her age"; "The judge considered the offender's youth and was lenient";
+ 
+5. Think about carefully; weigh (= debate, moot, turn over, deliberate)
+"They considered the possibility of a strike";
+ 
+6. Judge or regard; look upon (= think, believe, conceive)
+"I consider he is very smart";
+ 
+7. Look at attentively (= regard)
+ 
+8. Analyse carefully; study to find a solution (= view, look at)
+"consider a problem";
+ 
+9. Regard or treat with consideration, respect, and esteem
+"Please consider your family"
 """,
   );
 
@@ -443,8 +361,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
-    startSeconds: 1045,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +386,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dpCo8wWiHHw',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +411,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jwUyqXwobMo?t=',
-    startSeconds: 47,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +436,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VxCORJ8dN3Y?t=',
-    startSeconds: 32,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +461,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RD3rGK7-vug?t=',
-    startSeconds: 41,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +486,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OTK9JrKC6EY',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +511,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LbJJFnf-NWM?t=',
-    startSeconds: 103,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -614,4 +532,5 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
+// speakconsiders111111111111111111111111111111111
 // end WORD_WEB

@@ -10,131 +10,132 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclub extends StatelessWidget {
-  // blank divider
-  EnglishEntryclub({super.key});
-  // blank divider
+class EnglishEntryconscious extends StatelessWidget {
+// blank divider
+  EnglishEntryconscious({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclub(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconscious(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("club"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conscious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs1(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconsciouss1(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She's very conscious of the problems involved."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss2(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I am conscious of the fact that there's a limit to what we can achieve here."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss3(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He became acutely conscious of having failed his parents."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss4(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A patient who is not fully conscious should never be left alone."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss5(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She remained conscious throughout the operation."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss6(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They belong to the same golf club."); // DOPSUM: CHANGE TEXT
+        .speak("Try to keep the patient conscious."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs2(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconsciouss7(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Grandad is a member of the bowling club."); // DOPSUM: CHANGE TEXT
+        "I made a conscious effort to get there on time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs3(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconsciouss8(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She made a conscious decision to spend more time with her family."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss9(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They have become increasingly health-conscious."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconsciouss10(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("We had lunch at the golf club."); // DOPSUM: CHANGE TEXT
+        .speak("He's never been politically conscious."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs4(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconsciouss11(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The club have signed a new coach for next season."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsciouss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs5(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconsciouss12(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is expected to sign for a Premier League club next season."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsciouss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs6(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconsciouss13(String languageCode) async {
+    // DOPSUM: CHANGE speakconscious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I went to that new club that's just opened."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs7(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He's a member of several London clubs."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs8(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You could become a member of an investment club."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs9(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The victim was clubbed to death with a baseball bat."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs10(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs11(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs12(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs13(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsciouss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -157,22 +158,22 @@ class EnglishEntryclub extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "club"),
+                            EntryTitle(word: "conscious"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klʌb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒnʃəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclub("en-GB"),
+                              onPressed: () => speakconscious("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klʌb/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːnʃəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclub("en-US"),
+                              onPressed: () => speakconscious("en-US"),
                             ),
                           ],
                         ),
@@ -199,11 +200,10 @@ class EnglishEntryclub extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یانە، کۆڕ،	ناوەند، نێوەند، جەرگە، بنکە، مەکۆ، گاستین، یانەی شەوانە، تێڵا، داردەست، گۆپاڵ، تۆپز، کێتە، کوتەک، گورز
+کوردی: هۆشیار، ئاگادار، خەبەردار، بەسەرنج، وریا، بەئاگا، خۆئاگا، وریا،	بەمەبەست، ئەنقەست، خۆکردوو،	بیریار، هزرمەند،	هەستیار،	شەرمێون، پەشۆکاو، تاساو
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) دامەزراوەیەک بۆ ئەو کەسانەی کە هەمان خولیایان هەیە یان چالاکییەک پێکەوە دەکەن"),
+                              text: "١. (ھاوەڵناو) بائاگا لە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,20 +211,21 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They belong to the same golf club."),
+                                            "She's very conscious of the problems involved."),
                                     ExampleSentenceKurdish(
-                                        text: "سەر بە هەمان یانەی گۆڵفن."),
+                                        text:
+                                            "زۆر بەئاگایە لەو کێشانەی لە ڕێگان."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "club", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "conscious", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs1("en-GB"),
+                                    onPressed: () => speakconsciouss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs1("en-US"),
+                                    onPressed: () => speakconsciouss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +239,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Grandad is a member of the bowling club."),
+                                            "I am conscious of the fact that there's a limit to what we can achieve here."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باپیرە ئەندامی یانەیەکی بۆوڵینگە."),
+                                            "بە ئاگام لەو ڕاستییەی کە سنوورێک هەیە بۆ ئەوەی لێرە دەتوانین بەدەستی بهێنین."),
                                   ],
                                 ),
                               ),
@@ -249,71 +250,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs2("en-GB"),
+                                    onPressed: () => speakconsciouss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئەو بینا یان ژوورانەی کە یانەیەک بەکاریدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We had lunch at the golf club."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانی نیوەڕۆمان لە یانەی گۆڵفەکە خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) یانەیەکی پڕۆفیشناڵی وەرزشی کە یاریزانان و ڕاهێنەر و بەڕێوبەران و خاوەنەکان لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club have signed a new coach for next season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە ڕاهێنەرێکی تازەیان هێناوە بۆ وەرزی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs4("en-US"),
+                                    onPressed: () => speakconsciouss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -327,10 +267,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He is expected to sign for a Premier League club next season."),
+                                            "He became acutely conscious of having failed his parents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وا چاوەڕوان دەکرێت لە وەرزی دواتردا پەیوەندی بە یانەیەکی پریمەر لیگەوە بکات."),
+                                            "تەواو بەئاگا بوو لەوەی کە دایک و باوکی نائومێد کردووە."),
                                   ],
                                 ),
                               ),
@@ -338,10 +278,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs5("en-GB"),
+                                    onPressed: () => speakconsciouss3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs5("en-US"),
+                                    onPressed: () => speakconsciouss3("en-US"),
                                   ),
                                 ],
                               ),
@@ -350,7 +290,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شوێنێک کە تێیدا کەسانی گەنج دەچن بۆ گوێگرتن لە گۆرانی، سەماکردن، بینینی کۆمیدی، هتد"),
+                                  "٢. (ھاوەڵناو) هەبوونی توانای بەکارهێنانی هەستەکانت و هێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -358,10 +298,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I went to that new club that's just opened."),
+                                            "A patient who is not fully conscious should never be left alone."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چووم بۆ ئەو یانە تازە کە تازەگی کراوەتەوە."),
+                                            "نەخۆشێک کە تەواو بەئاگا نییە نابێت بە تەنها جێبهێڵدرێت."),
                                   ],
                                 ),
                               ),
@@ -369,10 +309,66 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs6("en-GB"),
+                                    onPressed: () => speakconsciouss4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs6("en-US"),
+                                    onPressed: () => speakconsciouss4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She remained conscious throughout the operation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ماوەی تەواوی نەشتەرگەرییەکە بە ئاگا هێڵدرایەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconsciouss5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconsciouss5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try to keep the patient conscious."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەوڵ بدە نەخۆشەکە بە بەئاگایی بهێڵەرەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconsciouss6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconsciouss6("en-US"),
                                   ),
                                 ],
                               ),
@@ -381,7 +377,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) دامەزراوەیەک و شوێنێک کە خەڵکی بۆی دەچن بۆ چاوپێکەوتن و مانەوە"),
+                                  "٣. (ھاوەڵناو) بە ئەنقەست؛ شتێک کە بە ئاگاییەوە دەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -389,10 +385,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He's a member of several London clubs."),
+                                            "I made a conscious effort to get there on time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندامی ژمارەیەک یانەی لەندەنە."),
+                                            "هەوڵێکی بەمەبەستم دا لەکاتی خۆیدا بگەمە ئەوێ."),
                                   ],
                                 ),
                               ),
@@ -400,10 +396,41 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs7("en-GB"),
+                                    onPressed: () => speakconsciouss7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs7("en-US"),
+                                    onPressed: () => speakconsciouss7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She made a conscious decision to spend more time with her family."),
+                                    ExampleSentenceKurdish(
+                                      text:
+                                          "بڕیارێکی بەمەبەستی دا کاتی زیاتر لەگەڵ خێزانەکەی بەسەر ببات.",
+                                      note:
+                                          "واتە خۆی بڕیارەکەی دا نەک ئەوەی بارودۆخی ژیان و کارەکەی وای خواستبێت",
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconsciouss8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconsciouss8("en-US"),
                                   ),
                                 ],
                               ),
@@ -412,7 +439,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) بازرگانییەک کە بە هەرزان کاڵا بە ئەندامانی دەدات"),
+                                  "٩. (ھاوەڵناو) حەزکردن لە شتێک بە تایبەتی یان ئەوەی کە گرنگە"),
                           Row(
                             children: [
                               const Expanded(
@@ -420,10 +447,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You could become a member of an investment club."),
+                                            "They have become increasingly health-conscious."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەکرێت ببیت بە ئەندامی دەستەیەکی وەبەرهێنان."),
+                                            "زیاتر و زیاتر هۆگربوونە بە تەندرووستی."),
                                   ],
                                 ),
                               ),
@@ -431,19 +458,16 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs8("en-GB"),
+                                    onPressed: () => speakconsciouss9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs8("en-US"),
+                                    onPressed: () => speakconsciouss9("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو، کردار) کوتەکێکی قورس؛ لێدان لە کەسێک بە کوتەک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -451,10 +475,9 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The victim was clubbed to death with a baseball bat."),
+                                            "He's never been politically conscious."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "قوربانییەکە بە دارێکی یاری بەیسبۆڵ بە کوتەک کوژرا."),
+                                        text: "هەرگیز هۆگر بە سیاسەت نەبووە ."),
                                   ],
                                 ),
                               ),
@@ -462,10 +485,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs9("en-GB"),
+                                    onPressed: () => speakconsciouss10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs9("en-US"),
+                                    onPressed: () => speakconsciouss10("en-US"),
                                   ),
                                 ],
                               ),
@@ -482,7 +505,7 @@ class EnglishEntryclub extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -540,7 +563,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -550,41 +573,18 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: club (Derived forms: clubs)
-1. A team of professional baseball players who play and travel together (= baseball club, ball club, nine)
-"each club played six home games with teams in its own division";
+- Adjective: conscious 
+1. Intentionally conceived (= witting)
+"a conscious policy";
  
-2. A formal association of people with similar interests (= social club, society, guild, gild, lodge, order)
-"he joined a golf club";
+2. Knowing and perceiving; having awareness of surroundings and sensations and thoughts
+"remained conscious during the operation"; "conscious of his faults"; "became conscious that he was being followed"
  
-3. Stout stick that is larger at one end
-"he carried a club in self defence"; "he felt as if he had been hit with a club"
- 
-4. A building that is occupied by a social club (= clubhouse)
-"the club needed a new roof";
- 
-5. Golf equipment used by a golfer to hit a golf ball (= golf club, golf-club)
- 
-6. A playing card in the minor suit that has one or more black trefoils on it
-"he led a small club"; "clubs were trumps"
- 
-7. A spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink (= cabaret, nightclub, night club, nightspot)
-"he played the drums at a jazz club"; "don't expect a good meal at a night club";
-
-- Verb: club (Derived forms: clubbed, clubbing, clubs)
-1. Unite with a common purpose
-"The two men clubbed together"
- 
-2. Gather and spend time together
-"They always club together"
- 
-3. Strike with a club or a bludgeon (= bludgeon)
- 
-4. Gather into a club-like mass
-"club hair"
+3. (followed by 'of') showing realization or recognition of something
+"few voters seem conscious of the issue's importance"; "conscious of having succeeded"; "the careful tread of one conscious of his alcoholic load"
 """,
   );
 
@@ -617,8 +617,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6haH4NLIOZ4',
-    startSeconds: 19,
+    videoId: 'https://youtu.be/_wNsZEqpKUA?t=',
+    startSeconds: 771,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -642,8 +642,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hcejpTayWv8',
-    startSeconds: 21,
+    videoId: 'https://youtu.be/9finqZJJNA8?t=',
+    startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -667,8 +667,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hwFP---m65w',
-    startSeconds: 79,
+    videoId: 'https://youtu.be/-Il7Er91P4U?t=',
+    startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -692,8 +692,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_ewShUU_MOc',
-    startSeconds: 354,
+    videoId: 'https://youtu.be/X5U9fei1uBU?t=',
+    startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -717,8 +717,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NdC5zVdUv1E',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/LgPvp-FWtK8?t=',
+    startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -742,8 +742,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3CKKrSvUXd4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/pYf1WIHhL98?t=',
+    startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -767,33 +767,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sa_8O-b6jRo',
-    startSeconds: 19,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'O_8D9d5Bewk',
-    startSeconds: 58,
+    videoId: 'https://youtu.be/dQegiS9RbIg?t=',
+    startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

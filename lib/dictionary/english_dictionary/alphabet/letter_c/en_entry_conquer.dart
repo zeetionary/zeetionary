@@ -10,131 +10,129 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclub extends StatelessWidget {
-  // blank divider
-  EnglishEntryclub({super.key});
-  // blank divider
+class EnglishEntryconquer extends StatelessWidget {
+// blank divider
+  EnglishEntryconquer({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclub(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquer(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("club"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conquer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs1(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers1(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They belong to the same golf club."); // DOPSUM: CHANGE TEXT
+        .speak("The Normans conquered England in 1066."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs2(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers2(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Grandad is a member of the bowling club."); // DOPSUM: CHANGE TEXT
+        "In 330 BC Persia was conquered by Alexander the Great."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs3(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers3(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The Roman empire offered citizenship to its conquered peoples."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconquers4(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The world champion conquered yet another challenger last night."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconquers5(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The only way to conquer a fear is to face it."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconquers6(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("We had lunch at the golf club."); // DOPSUM: CHANGE TEXT
+        .speak("Mount Everest was conquered in 1953."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs4(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers7(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The club have signed a new coach for next season."); // DOPSUM: CHANGE TEXT
+        "This is a British film which could conquer the US market."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs5(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers8(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is expected to sign for a Premier League club next season."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs6(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers9(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I went to that new club that's just opened."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs7(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers10(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He's a member of several London clubs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs8(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers11(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You could become a member of an investment club."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs9(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers12(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The victim was clubbed to death with a baseball bat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclubs10(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
+  Future<void> speakconquers13(String languageCode) async {
+    // DOPSUM: CHANGE speakconquer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs11(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs12(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclubs13(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -157,22 +155,22 @@ class EnglishEntryclub extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "club"),
+                            EntryTitle(word: "conquer"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klʌb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒŋkə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclub("en-GB"),
+                              onPressed: () => speakconquer("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klʌb/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːŋkər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclub("en-US"),
+                              onPressed: () => speakconquer("en-US"),
                             ),
                           ],
                         ),
@@ -199,11 +197,11 @@ class EnglishEntryclub extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یانە، کۆڕ،	ناوەند، نێوەند، جەرگە، بنکە، مەکۆ، گاستین، یانەی شەوانە، تێڵا، داردەست، گۆپاڵ، تۆپز، کێتە، کوتەک، گورز
+کوردی: سەرکەوتن بە سەر، پێرۆز بوون، داگیر کردن، زاڵ بوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دامەزراوەیەک بۆ ئەو کەسانەی کە هەمان خولیایان هەیە یان چالاکییەک پێکەوە دەکەن"),
+                                  "١. (کردار) کۆنترۆڵکردنی وڵاتێک یان شارێک و خەڵکەکەی بە هێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,20 +209,21 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They belong to the same golf club."),
+                                            "The Normans conquered England in 1066."),
                                     ExampleSentenceKurdish(
-                                        text: "سەر بە هەمان یانەی گۆڵفن."),
+                                        text:
+                                            "نۆرمانەکان لە ساڵی ١٠٦٦ ئینگلتەرەیان کۆنترۆڵ کرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "club", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "conquer", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs1("en-GB"),
+                                    onPressed: () => speakconquers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs1("en-US"),
+                                    onPressed: () => speakconquers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +237,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Grandad is a member of the bowling club."),
+                                            "In 330 BC Persia was conquered by Alexander the Great."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باپیرە ئەندامی یانەیەکی بۆوڵینگە."),
+                                            "لە ساڵی ٣٣٠ پ.ز پێرسیای داگیرکرا لەلایەن ئەسکەندەری مەزنەوە."),
                                   ],
                                 ),
                               ),
@@ -249,71 +248,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs2("en-GB"),
+                                    onPressed: () => speakconquers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئەو بینا یان ژوورانەی کە یانەیەک بەکاریدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We had lunch at the golf club."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانی نیوەڕۆمان لە یانەی گۆڵفەکە خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) یانەیەکی پڕۆفیشناڵی وەرزشی کە یاریزانان و ڕاهێنەر و بەڕێوبەران و خاوەنەکان لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club have signed a new coach for next season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە ڕاهێنەرێکی تازەیان هێناوە بۆ وەرزی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs4("en-US"),
+                                    onPressed: () => speakconquers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -327,10 +265,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He is expected to sign for a Premier League club next season."),
+                                            "The Roman empire offered citizenship to its conquered peoples."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وا چاوەڕوان دەکرێت لە وەرزی دواتردا پەیوەندی بە یانەیەکی پریمەر لیگەوە بکات."),
+                                            "ئیمپراتۆریەتی ڕۆم ناسنامەی دەدا بە کەسانی داگیرکراوی."),
                                   ],
                                 ),
                               ),
@@ -338,10 +276,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs5("en-GB"),
+                                    onPressed: () => speakconquers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs5("en-US"),
+                                    onPressed: () => speakconquers3("en-US"),
                                   ),
                                 ],
                               ),
@@ -350,7 +288,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شوێنێک کە تێیدا کەسانی گەنج دەچن بۆ گوێگرتن لە گۆرانی، سەماکردن، بینینی کۆمیدی، هتد"),
+                                  "٢. (کردار) بردنەوە لە کەسێک لە ڕکابەرییەک، پێشبڕکێیەک، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -358,10 +296,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I went to that new club that's just opened."),
+                                            "The world champion conquered yet another challenger last night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چووم بۆ ئەو یانە تازە کە تازەگی کراوەتەوە."),
+                                            "پاڵەوانی جیهان دوێنێ شەو ڕکابەرێکی دیکەشی تێکشکاند."),
                                   ],
                                 ),
                               ),
@@ -369,10 +307,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs6("en-GB"),
+                                    onPressed: () => speakconquers4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs6("en-US"),
+                                    onPressed: () => speakconquers4("en-US"),
                                   ),
                                 ],
                               ),
@@ -381,7 +319,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) دامەزراوەیەک و شوێنێک کە خەڵکی بۆی دەچن بۆ چاوپێکەوتن و مانەوە"),
+                                  "٣. (کردار) سەرکەوتن لە مامەڵەکردن لەگەڵ شتێک یان کۆنترۆڵکردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -389,10 +327,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He's a member of several London clubs."),
+                                            "The only way to conquer a fear is to face it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندامی ژمارەیەک یانەی لەندەنە."),
+                                            "تەنها ڕێگا بۆ زاڵبوون بەسەر ترسێک ڕووبەڕووبوونەوەیەتی."),
                                   ],
                                 ),
                               ),
@@ -400,19 +338,46 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs7("en-GB"),
+                                    onPressed: () => speakconquers5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs7("en-US"),
+                                    onPressed: () => speakconquers5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
+                          // Row(
+                          // children: [
+                          // const Expanded(
+                          // child: Column(
+                          // children: [
+                          // ExampleSentenceEnglish(
+                          // text:
+                          // "Mount Everest was conquered (= successfully climbed) in 1953."),
+                          // ExampleSentenceKurdish(
+                          // text: "چیای ئێڤرست لە ساڵی ١٩٥٣ ."),
+                          // ],
+                          // ),
+                          // ),
+                          // const CustomSizedBoxForTTS(),
+                          // Column(
+                          // children: [
+                          // CustomIconButtonBritish(
+                          // onPressed: () => speakconquers6("en-GB"),
+                          // ),
+                          // CustomIconButtonAmerican(
+                          // onPressed: () => speakconquers6("en-US"),
+                          // ),
+                          // ],
+                          // ),
+                          // ],
+                          // ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) بازرگانییەک کە بە هەرزان کاڵا بە ئەندامانی دەدات"),
+                                  "٤. (کردار) دەستکەوتنی ناوبانگ یان سەرکەوتنێکی زۆر لە شوێنێکی دیاریکراودا"),
                           Row(
                             children: [
                               const Expanded(
@@ -420,10 +385,10 @@ class EnglishEntryclub extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You could become a member of an investment club."),
+                                            "This is a British film which could conquer the US market."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەکرێت ببیت بە ئەندامی دەستەیەکی وەبەرهێنان."),
+                                            "ئەمە فیلمێکی بەریتانییە کە بازاڕی ئەمریکا داگیر دەکات."),
                                   ],
                                 ),
                               ),
@@ -431,41 +396,10 @@ class EnglishEntryclub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclubs8("en-GB"),
+                                    onPressed: () => speakconquers7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو، کردار) کوتەکێکی قورس؛ لێدان لە کەسێک بە کوتەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The victim was clubbed to death with a baseball bat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوربانییەکە بە دارێکی یاری بەیسبۆڵ بە کوتەک کوژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs9("en-US"),
+                                    onPressed: () => speakconquers7("en-US"),
                                   ),
                                 ],
                               ),
@@ -482,7 +416,7 @@ class EnglishEntryclub extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -540,7 +474,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -550,41 +484,18 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: club (Derived forms: clubs)
-1. A team of professional baseball players who play and travel together (= baseball club, ball club, nine)
-"each club played six home games with teams in its own division";
+- Verb: conquer (Derived forms: conquered, conquering, conquers)
+1. Bring under control by force or authority (= suppress, stamp down, subdue)
+"conquer one's desires";
  
-2. A formal association of people with similar interests (= social club, society, guild, gild, lodge, order)
-"he joined a golf club";
+2. Take possession of by force, as after an invasion (= appropriate, capture, seize)
+"The militia conquered the castle";
  
-3. Stout stick that is larger at one end
-"he carried a club in self defence"; "he felt as if he had been hit with a club"
- 
-4. A building that is occupied by a social club (= clubhouse)
-"the club needed a new roof";
- 
-5. Golf equipment used by a golfer to hit a golf ball (= golf club, golf-club)
- 
-6. A playing card in the minor suit that has one or more black trefoils on it
-"he led a small club"; "clubs were trumps"
- 
-7. A spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink (= cabaret, nightclub, night club, nightspot)
-"he played the drums at a jazz club"; "don't expect a good meal at a night club";
-
-- Verb: club (Derived forms: clubbed, clubbing, clubs)
-1. Unite with a common purpose
-"The two men clubbed together"
- 
-2. Gather and spend time together
-"They always club together"
- 
-3. Strike with a club or a bludgeon (= bludgeon)
- 
-4. Gather into a club-like mass
-"club hair"
+3. Overcome by conquest
+"conquer your fears"; "conquer a country"
 """,
   );
 
@@ -617,8 +528,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6haH4NLIOZ4',
-    startSeconds: 19,
+    videoId: 'https://youtu.be/t1o-NOnhdCU?t=',
+    startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -642,8 +553,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hcejpTayWv8',
-    startSeconds: 21,
+    videoId: 'https://youtu.be/pGjOlGDgPiU?t=',
+    startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -667,8 +578,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hwFP---m65w',
-    startSeconds: 79,
+    videoId: 'https://youtu.be/T8yKIuFc6uA?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -692,8 +603,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_ewShUU_MOc',
-    startSeconds: 354,
+    videoId: 'https://youtu.be/nVjLZA6RWjo?t=',
+    startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -717,8 +628,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NdC5zVdUv1E',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/O177L4pu2jg?t=',
+    startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -742,8 +653,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3CKKrSvUXd4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/2PeYDphtHYo?t=',
+    startSeconds: 1007,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -767,33 +678,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sa_8O-b6jRo',
-    startSeconds: 19,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'O_8D9d5Bewk',
-    startSeconds: 58,
+    videoId: 'https://youtu.be/mQ0Mj7gXUNw?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

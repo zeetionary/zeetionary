@@ -10,616 +10,523 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconsider extends StatelessWidget {
+class EnglishEntryconsideration extends StatelessWidget {
 // blank divider
-  EnglishEntryconsider({super.key});
+  EnglishEntryconsideration({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconsider(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsideration(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("consider"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("consideration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders1(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'd like some time to consider."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders2(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She is considering her options."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders3(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let us consider the facts."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders4(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations1(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are considering various possibilities."); // DOPSUM: CHANGE TEXT
+        "Careful consideration should be given to issues of health and safety."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders5(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations2(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Have you considered starting your own business?"); // DOPSUM: CHANGE TEXT
+        "Her ideas are worthy of serious consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders6(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was considering what to do next."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders7(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations3(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are considering her for the job of designer."); // DOPSUM: CHANGE TEXT
+        "After a few moments' consideration, he began to speak."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We're considering buying a new car."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I consider her a friend."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations4(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The award is considered a great honour."); // DOPSUM: CHANGE TEXT
+        "There needs to be a consideration of the legal issues involved."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He considers it his duty."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations5(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is widely considered to be the greatest player ever."); // DOPSUM: CHANGE TEXT
+        "The proposals are currently under consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations6(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Who do you consider to be responsible for the accident?"); // DOPSUM: CHANGE TEXT
+        "He pointed out several problems that required more detailed consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders14(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations7(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He considers himself an expert on the subject."); // DOPSUM: CHANGE TEXT
+        "A tribunal has decided the case needs further consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders15(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations8(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They will take any steps they consider necessary."); // DOPSUM: CHANGE TEXT
+        "Both options require thoughtful consideration of the costs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders16(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations9(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You should consider other people before you act."); // DOPSUM: CHANGE TEXT
+        "We will give your proposals serious consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders17(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations10(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He stood there, considering the painting."); // DOPSUM: CHANGE TEXT
+        "The government's decision was obviously motivated by political considerations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders18(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations11(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Time is another important consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders19(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations12(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Here are a few additional considerations that may help in making the correct decision."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders20(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations13(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their kindness and consideration will not be forgotten."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders21(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations14(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They showed no consideration whatsoever for my feelings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders22(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations15(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was shocked by his lack of consideration for others."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders23(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations16(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can buy the books for a small consideration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders24(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations17(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She agreed, for a small consideration, to arrange a meeting with the director."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders25(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations18(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations1800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders26(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations19(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders27(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations20(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders28(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations21(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders29(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations22(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders30(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations23(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders31(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations24(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders32(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations25(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders33(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations26(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders34(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations27(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders35(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations28(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders36(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations29(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations2900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders37(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations30(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders38(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations31(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders39(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations32(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders40(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations33(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders41(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations34(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders42(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations35(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders43(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations36(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders44(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations37(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders45(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations38(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders46(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations39(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations3900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders47(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations40(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders48(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations41(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders49(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations42(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders4900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders50(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations43(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders51(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations44(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders52(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations45(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders53(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations46(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders54(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations47(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders55(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations48(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders56(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations49(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations4900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders57(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations50(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders58(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations51(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders59(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations52(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders5900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders60(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations53(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders61(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations54(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders62(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations55(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders63(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations56(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders64(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations57(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders65(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations58(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders66(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations59(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations5900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders67(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations60(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations6000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsiders68(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
+  Future<void> speakconsiderations61(String languageCode) async {
+    // DOPSUM: CHANGE speakconsideration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders69(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders6900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders70(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders7000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders71(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders7100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders72(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders7200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsiders73(String languageCode) async {
-    // DOPSUM: CHANGE speakconsider
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsiders7300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsiderations6100"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -642,22 +549,22 @@ class EnglishEntryconsider extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "consider"),
+                            EntryTitle(word: "consideration"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈsɪdə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˌsɪdəˈreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconsider("en-GB"),
+                              onPressed: () => speakconsideration("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈsɪdər/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˌsɪdəˈreɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconsider("en-US"),
+                              onPressed: () => speakconsideration("en-US"),
                             ),
                           ],
                         ),
@@ -684,11 +591,11 @@ class EnglishEntryconsider extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕەچاوگرتن، ڕا دەربڕین، هەڵسەنگاندن، بیرکردنەوە
+کوردی: سەرنج، تێبینی، بال، بایەخ، وردبوونەوە، خوردبوونەوە، تێڕامان، قووڵ‌بوونەوە، تێ‌ڕوانین، بیرکردنەوە، سەرنج‌پێدان، ڕەچاوکردن، بایەخ‌پێدان، بەهێندگرتن، ڕاگرتنی دڵی خەڵک، بەتەنگەوەبوون، پەیجۆری، لێکدانەوە، لێکۆڵینەوە،	پرس، بابەت، مژار،	هۆ، بەڵگە،	پاداشت، دەس‌خۆشانە،	پارە،	گرنگایەتی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) بیرکردنەوە سەبارەت بە شتێک بە وریاییەوە"),
+                                  "١. (ناو) بیرکردنەوە بە وریاییەوە سەبارەت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -696,21 +603,23 @@ class EnglishEntryconsider extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I'd like some time to consider."),
+                                            "Careful consideration should be given to issues of health and safety."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستم بە هەندێک کاتە بۆ  بیرکردنەوە."),
+                                            "تێڕامانی ورد دەبێت بدرێت بە بابەتەکانی تەندرووستی و سەلامەتی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consider", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "consideration", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders1("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders1("en-US"),
+                                    onPressed: () =>
+                                        speakconsiderations1("en-US"),
                                   ),
                                 ],
                               ),
@@ -724,9 +633,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is considering her options."),
+                                            "Her ideas are worthy of serious consideration."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵبژاردەکانی ڕەچاو دەکات."),
+                                        text:
+                                            "بیرۆکەکانی شایەنی تێڕامانی وردن."),
                                   ],
                                 ),
                               ),
@@ -734,10 +644,12 @@ class EnglishEntryconsider extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders2("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders2("en-US"),
+                                    onPressed: () =>
+                                        speakconsiderations2("en-US"),
                                   ),
                                 ],
                               ),
@@ -754,10 +666,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "Let us consider the facts."),
+                                                    "After a few moments' consideration, he began to speak."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "با ڕاستییەکان هەڵبسەنگێنین."),
+                                                    "لە دوای ماوەیەک لە وردبوونەوە، دەستی بە قسەکردن کرد."),
                                           ],
                                         ),
                                       ),
@@ -766,11 +678,11 @@ class EnglishEntryconsider extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakconsiders3("en-GB"),
+                                                speakconsiderations3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakconsiders3("en-US"),
+                                                speakconsiderations3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -784,10 +696,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "We are considering various possibilities."),
+                                                    "There needs to be a consideration of the legal issues involved."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ژمارەیەک ئەگەر لەبەرچاو دەگرین."),
+                                                    "دەبێت تێ‌ڕوانینی بابەتە یاساییەکان هەبن کە دێنە ئاراوە."),
                                           ],
                                         ),
                                       ),
@@ -796,11 +708,11 @@ class EnglishEntryconsider extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakconsiders4("en-GB"),
+                                                speakconsiderations4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakconsiders4("en-US"),
+                                                speakconsiderations4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -814,10 +726,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "Have you considered starting your own business?"),
+                                                    "The proposals are currently under consideration (= being discussed)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بیرت لە دەستپێکردنی بازرگانی خۆت کردووەتەوە؟"),
+                                                    "پێشنیازەکان لە ئێستادا لە ژێر گفتوگۆدان."),
                                           ],
                                         ),
                                       ),
@@ -826,11 +738,11 @@ class EnglishEntryconsider extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakconsiders5("en-GB"),
+                                                speakconsiderations5("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakconsiders5("en-US"),
+                                                speakconsiderations5("en-US"),
                                           ),
                                         ],
                                       ),
@@ -844,10 +756,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "He was considering what to do next."),
+                                                    "He pointed out several problems that required more detailed consideration."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بیری لەوە دەکردەوە دواتر چی بکات."),
+                                                    "ئاماژەی بە ژمارەیەک کێشە کرد کە پێویستیان بە تێرامانی ورد هەبوو."),
                                           ],
                                         ),
                                       ),
@@ -856,11 +768,11 @@ class EnglishEntryconsider extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakconsiders6("en-GB"),
+                                                speakconsiderations6("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakconsiders6("en-US"),
+                                                speakconsiderations6("en-US"),
                                           ),
                                         ],
                                       ),
@@ -874,10 +786,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "We are considering her for the job of designer."),
+                                                    "A tribunal has decided the case needs further consideration."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەڵیدەسەنگێنین بۆ کاری دیزاینەری."),
+                                                    "دادگایەک بڕیاری داوە کەیسەکە پێویستی بە وردبوونەوەی زیاتر هەیە."),
                                           ],
                                         ),
                                       ),
@@ -886,11 +798,11 @@ class EnglishEntryconsider extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakconsiders7("en-GB"),
+                                                speakconsiderations7("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakconsiders7("en-US"),
+                                                speakconsiderations7("en-US"),
                                           ),
                                         ],
                                       ),
@@ -904,10 +816,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "We're considering buying a new car."),
+                                                    "Both options require thoughtful consideration of the costs."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەینەوە."),
+                                                    "هەردوو هەڵبژاردەکە پێویستیان بە ڕەچاوکردنی وردی تێچوو هەیە."),
                                           ],
                                         ),
                                       ),
@@ -916,11 +828,41 @@ class EnglishEntryconsider extends StatelessWidget {
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakconsiders8("en-GB"),
+                                                speakconsiderations8("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakconsiders8("en-US"),
+                                                speakconsiderations8("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We will give your proposals serious consideration."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "سەرنجی ورد دەدەین بە پێشنیازەکانت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakconsiderations9("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakconsiderations9("en-US"),
                                           ),
                                         ],
                                       ),
@@ -933,16 +875,18 @@ class EnglishEntryconsider extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بیرکردنەوە لە کەسێک/شتێک بەشێوەیەکی دیاریکراو"),
+                                  "٢. (ناو) شتێک کە دەبێت بیری لێبکرێتەوە کە پلان دادەنێیت یان بیر لە شتێک دەکەیتەوە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "I consider her a friend."),
+                                        text:
+                                            "The government's decision was obviously motivated by political considerations."),
                                     ExampleSentenceKurdish(
-                                        text: "وەک هاوڕێ سەیری دەکەم."),
+                                        text:
+                                            "بڕیارەکەی حکومەت بە ئاشکرایی بابەتی سیاسی لەپشتەوەبوو ."),
                                   ],
                                 ),
                               ),
@@ -950,10 +894,12 @@ class EnglishEntryconsider extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders9("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders9("en-US"),
+                                    onPressed: () =>
+                                        speakconsiderations10("en-US"),
                                   ),
                                 ],
                               ),
@@ -967,10 +913,9 @@ class EnglishEntryconsider extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The award is considered a great honour."),
+                                            "Time is another important consideration."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵاتەکە بە شانازییەکی گەورە دادەنرێت."),
+                                        text: "کات پرسێکی دیکەی گرنگە."),
                                   ],
                                 ),
                               ),
@@ -978,10 +923,12 @@ class EnglishEntryconsider extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders10("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders10("en-US"),
+                                    onPressed: () =>
+                                        speakconsiderations11("en-US"),
                                   ),
                                 ],
                               ),
@@ -994,9 +941,11 @@ class EnglishEntryconsider extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "He considers it his duty."),
+                                        text:
+                                            "Here are a few additional considerations that may help in making the correct decision."),
                                     ExampleSentenceKurdish(
-                                        text: "بە ئەرکی خۆی دایدەنا."),
+                                        text:
+                                            "ئەمانە چەند پرسێکی دیکەی زیادەن کە دەکرێت یارمەتیدەر بن لە گەشتن بە بڕیاری درووست."),
                                   ],
                                 ),
                               ),
@@ -1004,137 +953,12 @@ class EnglishEntryconsider extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders11("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She is widely considered to be the greatest player ever."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە بەرفراوانی وەک باشترین یاریزانی هەمیشەیی دادەنرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Who do you consider to be responsible for the accident?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کێ بە بەرپرسیار دەبینیت بۆ ڕووداوەکە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He considers himself an expert on the subject."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خۆی بە شارەزا لە بابەتەکەدا دادەنێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They will take any steps they consider necessary."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "هەر هەنگاوێک دەنێن کە بە پێویستی ببینن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                    onPressed: () =>
+                                        speakconsiderations12("en-US"),
                                   ),
                                 ],
                               ),
@@ -1143,7 +967,7 @@ class EnglishEntryconsider extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بیرکردنەوە لە شتێک، بەتایبەتی هەست و سۆزی کەسانی دیکە، و کاریگەربوون پێیان کە بڕیارێک دەدەیت"),
+                                  "٣. (ناو) خاسیەتی ڕەچاوکردنی هەست و سۆزی کەسانی دیکە و بیرکردنەوە لە حەز و ئاواتەکانیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -1151,10 +975,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You should consider other people before you act."),
+                                            "Their kindness and consideration will not be forgotten."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت بیر لە کەسانی دیکە بکەیتەوە پێش ئەوەی هەنگاو بنێیت."),
+                                            "میهرەبانی و دڵفراوانییان لەبیرناکرێن."),
                                   ],
                                 ),
                               ),
@@ -1162,10 +986,72 @@ class EnglishEntryconsider extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders16("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders16("en-US"),
+                                    onPressed: () =>
+                                        speakconsiderations13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They showed no consideration whatsoever for my feelings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیچ تێگەشتنێکیان بۆ هەستەکانم بە هیچ شێوەیەک پیشان نەدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconsiderations14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconsiderations14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was shocked by his lack of consideration for others."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆک بوو بە بێ‌هەستیی بۆ کەسانی دیکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconsiderations15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconsiderations15("en-US"),
                                   ),
                                 ],
                               ),
@@ -1173,7 +1059,8 @@ class EnglishEntryconsider extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) سەیرکردنی شتێک بە وریاییەوە"),
+                              text:
+                                  "٤. (ناو) خەڵاتێک یان پارەدانێک بۆ خزمەتگوزارییەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1181,10 +1068,10 @@ class EnglishEntryconsider extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He stood there, considering the painting."),
+                                            "You can buy the books for a small consideration."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەوێ وەستابوو و لە تابلۆکە ورد دەبووەوە."),
+                                            "دەتوانیت کتێبەکان بە پارەیەکی کەم بکڕیت."),
                                   ],
                                 ),
                               ),
@@ -1192,10 +1079,42 @@ class EnglishEntryconsider extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsiders17("en-GB"),
+                                    onPressed: () =>
+                                        speakconsiderations16("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsiders17("en-US"),
+                                    onPressed: () =>
+                                        speakconsiderations16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She agreed, for a small consideration, to arrange a meeting with the director."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕازی بوو لە بەرامبەر بەخشیشێکی کەمدا چاوپێکەوتنێک لەگەڵ بەڕێوبەر ڕێکبخات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconsiderations17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconsiderations17("en-US"),
                                   ),
                                 ],
                               ),
@@ -1283,32 +1202,21 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consider (Derived forms: considered, considering, considers)
-1. Perceive or think about in a particular way; deem to be (= see, reckon, view, regard)
-"I consider her to be shallow";
+- Noun: consideration (Derived forms: considerations)
+1. The process of giving careful thought to something
  
-2. Give careful consideration to (= study)
-"consider the possibility of moving";
+2. Information that should be kept in mind when making a decision (= circumstance, condition)
+"another consideration is the time it would take";
  
-3. Focus on as an example (= take, look at)
-"Consider the following case";
+3. A discussion of a topic (as in a meeting)
+"consideration of the traffic problem took more than an hour"
  
-4. Show consideration for; take into account (= count, weigh)
-"You must consider her age"; "The judge considered the offender's youth and was lenient";
+4. Kind and considerate regard for others (= considerateness, thoughtfulness)
+"he showed no consideration for her feelings";
  
-5. Think about carefully; weigh (= debate, moot, turn over, deliberate)
-"They considered the possibility of a strike";
+5. A fee charged in advance to retain the services of someone (= retainer)
  
-6. Judge or regard; look upon (= think, believe, conceive)
-"I consider he is very smart";
- 
-7. Look at attentively (= regard)
- 
-8. Analyse carefully; study to find a solution (= view, look at)
-"consider a problem";
- 
-9. Regard or treat with consideration, respect, and esteem
-"Please consider your family"
+6. A considerate and thoughtful act (= thoughtfulness)
 """,
   );
 
@@ -1341,8 +1249,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/xdE4amM65uc?t=',
+    startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1366,8 +1274,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
-    startSeconds: 558,
+    videoId: 'https://youtu.be/tUR9UIscLGU?t=',
+    startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1391,8 +1299,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 1733,
+    videoId: 'https://youtu.be/bp6kmcno9SI?t=',
+    startSeconds: 758,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1416,8 +1324,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t6fIp7mMJ90?t=',
-    startSeconds: 21,
+    videoId: 'https://youtu.be/V1GKxnM2L7w?t=',
+    startSeconds: 919,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1441,8 +1349,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
-    startSeconds: 293,
+    videoId: 'https://youtu.be/K_rDD9P0438?t=',
+    startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1466,8 +1374,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
-    startSeconds: 1088,
+    videoId: 'https://youtu.be/0zwNZJbM-Gw?t=',
+    startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1491,8 +1399,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
-    startSeconds: 153,
+    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

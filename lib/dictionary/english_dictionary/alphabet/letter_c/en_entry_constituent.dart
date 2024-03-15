@@ -10,130 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychatter extends StatelessWidget {
-  // blank divider
-  EnglishEntrychatter({super.key});
-  // blank divider
+class EnglishEntryconstituent extends StatelessWidget {
+// blank divider
+  EnglishEntryconstituent({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchatter(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituent(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chatter"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constituent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters1(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents1(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They chattered away happily for a while."); // DOPSUM: CHANGE TEXT
+        "She has the full support of her constituents."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters2(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He chattered excitedly to his friends."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchatters3(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her teeth chattered as she dressed."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchatters4(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents2(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The gun shot made the monkeys chatter in alarm."); // DOPSUM: CHANGE TEXT
+        "Vitamins are natural food constituents which are essential in helping to maintain good health."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters5(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents3(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Jane's constant chatter was beginning to annoy him."); // DOPSUM: CHANGE TEXT
+        "Let's look at the constituent parts of this sentence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters6(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents4(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I wish you'd stop wasting time in idle chatter."); // DOPSUM: CHANGE TEXT
+        "The process of breaking down food into its constituent elements begins."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters7(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents5(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He could hear the chatter of birds in the trees overhead."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters8(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents6(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters9(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents7(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters10(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents8(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters11(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents9(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters12(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents10(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters13(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstituents11(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstituents12(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstituents1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstituents13(String languageCode) async {
+    // DOPSUM: CHANGE speakconstituent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstituents1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -156,22 +152,22 @@ class EnglishEntrychatter extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chatter"),
+                            EntryTitle(word: "constituent"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃætə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈstɪtʃuənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchatter("en-GB"),
+                              onPressed: () => speakconstituent("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃætər/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈstɪtʃuənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchatter("en-US"),
+                              onPressed: () => speakconstituent("en-US"),
                             ),
                           ],
                         ),
@@ -198,11 +194,11 @@ class EnglishEntrychatter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زۆربڵەیی، چەقەسرۆیی، چەنەدان، قیژەقیژ، زیق‌وھەرا، گاڵەگاڵ، شەقەشەق، چۆقەچۆق
+کوردی: دەنگدەر،	پێکهێنەر، بەشی پێکهێنەر، سازێنە، سازا، بەشی بنەڕەتی، ڕەگەز، توخم، بەشی سەرەکی،	ئەندامی مەڵبەندی هەڵبژاردن،	دامەزرێنەر، سازەر، پێکهێنەر، بنیاتنەر،	دەنگدەر، هەڵبژێر،	خاوەنی مافی هەڵبژاردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) قسەکردن بەخێرایی و بەردەوامی لەسەر شتیانێک کە گرنگ نین"),
+                                  "١. (ناو) کەسێک کە لە مەڵبەندێکی هەڵبژاردندا دەژی و دەنگ دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,21 +206,88 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They chattered away happily for a while."),
+                                            "She has the full support of her constituents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵخۆشانە بۆ ماوەیەک قسەیان کرد."),
+                                            "پشتگیری تەواوی دەنگدەرەکانی هەیە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chatter", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "constituent", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters1("en-GB"),
+                                    onPressed: () =>
+                                        speakconstituents1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters1("en-US"),
+                                    onPressed: () =>
+                                        speakconstituents1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) یەکێک لەو بەشانەی کە شتێک پێکدەهێنێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Vitamins are natural food constituents which are essential in helping to maintain good health."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڤیتامینەکان پێکهێنەری سرووشتی خواردنن کە گرنگن لە یارمەتیدانی پاراستنی تەندرووستی باش."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconstituents2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconstituents2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ھاوەڵناو) کارکردن وەک پێکهێنەر"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's look at the constituent parts of this sentence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با بڕوانین لە بەشە پێکهێنەرەکانی ئەم ڕستە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconstituents3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconstituents3("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +301,10 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He chattered excitedly to his friends."),
+                                            "The process of breaking down food into its constituent elements begins."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ ھاوڕێکانی دەکرد."),
+                                            "پڕۆسەی شیکردنەوەی خۆراک بۆ بەشە پێکهێنەرەکانی دەستپێ دەکات."),
                                   ],
                                 ),
                               ),
@@ -249,192 +312,12 @@ class EnglishEntrychatter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters2("en-GB"),
+                                    onPressed: () =>
+                                        speakconstituents4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) کڕاندنی ددان بە یەکدا بەھۆی سەرما یان ترس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her teeth chattered as she dressed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ددانەکانی کڕەیان دەھات کە جلی لەبەردەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) درووستکردنی دەنگی زیق لەلایەن ئاژەڵانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gun shot made the monkeys chatter in alarm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی فیشەکەکە وای لە مەیموونەکان کرد دەست بە زیقەزیق بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) قسەی بەردەوام لەسەر ئەو شتانەی کە گرنگ نین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jane's constant chatter was beginning to annoy him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەنەدانی بەردەوامی جەین خەریک بوو دەستی بە بێزارکردنی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wish you'd stop wasting time in idle chatter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوادارم دەوەستایت لە قسەی ھیچ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ناو) دەنگی زیقی بەردەوامی ھەندێک ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could hear the chatter of birds in the trees overhead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیتوانی گوێی لە چریوەی باڵندە بێت لەسەر سەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. (ناو) دەنگی شت کە بەر یەکدی دەکەون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە واستابوون بۆ گەشتنی یارمەتی، شاخەوانە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters8("en-US"),
+                                    onPressed: () =>
+                                        speakconstituents4("en-US"),
                                   ),
                                 ],
                               ),
@@ -451,8 +334,8 @@ class EnglishEntrychatter extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -509,7 +392,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -519,29 +402,26 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chatter (derived forms: chatters, chattering, chattered)
-1. Noisy talk (= yak, yack [informal], yakety-yak, cackle, yackety-yak [informal], yatter [informal])
+- Noun: constituent (Derived forms: constituents)
+1. An artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system (= component, element)
+"a component or constituent element of a system";
  
-2. The rapid series of noises made by the parts of a machine (= chattering)
+2. A member of a constituency; a citizen who is represented in a government by officials for whom he or she votes
+"needs continued support by constituents to be re-elected"
  
-3. The high-pitched continuing noise made by animals (birds or monkeys) (= chattering)
+3. Something determined in relation to something that includes it (= part, portion, component part, component)
+"the animal constituent of plankton";
+ 
+4. (grammar) a word, phrase or clause forming part of a larger grammatical construction (= grammatical constituent)
+ 
+5. An abstract part of something (= component, element, factor, ingredient)
+"two constituents of a musical composition are melody and harmony";
 
-- Verb: chatter 
-1. Make a clicking sound repeatedly or uncontrollably (= click)
-"Chattering teeth";
- 
-2. Cut unevenly with a chattering tool
- 
-3. Talk socially without exchanging too much information (= chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chaffer, natter [informal], gossip, jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gas [informal], gab [informal])
-"the men were sitting in the cafe and chattering";
- 
-4. Speak (about unimportant matters) rapidly and incessantly (= piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, blab [informal], gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
- 
-5. Make noise as if chattering away
-"The magpies were chattering in the trees"
+- Adjective: constituent 
+1. Being a part of something, esp. part of the physical structure (= constitutional, constitutive, component)
 """,
   );
 
@@ -574,8 +454,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hZCVt28wN00',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    startSeconds: 944,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +479,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a_TSR_v07m0',
-    startSeconds: 223,
+    videoId: 'https://youtu.be/e-or_D-qNqM?t=',
+    startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +504,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-L7o6HtX8Vg',
-    startSeconds: 1474,
+    videoId: 'https://youtu.be/kNovwPIWr3Q?t=',
+    startSeconds: 612,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -649,8 +529,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IM31fgkxn2I',
-    startSeconds: 1014,
+    videoId: 'https://youtu.be/DxREm3s1scA?t=',
+    startSeconds: 1334,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -674,8 +554,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'RhWFy8fsDrc',
-    startSeconds: 1028,
+    videoId: 'https://youtu.be/EPYy_g8NzmI?t=',
+    startSeconds: 565,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -699,8 +579,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JQiJu6qhOV0',
-    startSeconds: 698,
+    videoId: 'https://youtu.be/S758wEniU0c?t=',
+    startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -724,33 +604,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MrS07wakoJo',
-    startSeconds: 1176,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sOwbxQQ-6Rw',
-    startSeconds: 507,
+    videoId: 'https://youtu.be/oJLA8iNUV-0?t=',
+    startSeconds: 1016,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,130 +10,130 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychatter extends StatelessWidget {
-  // blank divider
-  EnglishEntrychatter({super.key});
-  // blank divider
+class EnglishEntryconstitution extends StatelessWidget {
+// blank divider
+  EnglishEntryconstitution({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchatter(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitution(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chatter"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constitution"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters1(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions1(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They chattered away happily for a while."); // DOPSUM: CHANGE TEXT
+        "Britain does not have a written constitution."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters2(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He chattered excitedly to his friends."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchatters3(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her teeth chattered as she dressed."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakchatters4(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions2(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The gun shot made the monkeys chatter in alarm."); // DOPSUM: CHANGE TEXT
+        "The constitution stipulated that a general election must be held within 120 days."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters5(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions3(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Jane's constant chatter was beginning to annoy him."); // DOPSUM: CHANGE TEXT
+        "The constitution was suspended and the army was placed in full control."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters6(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions4(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I wish you'd stop wasting time in idle chatter."); // DOPSUM: CHANGE TEXT
+        "The new constitution will be adopted next year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters7(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions5(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He could hear the chatter of birds in the trees overhead."); // DOPSUM: CHANGE TEXT
+        "The child had a weak constitution and was always ill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters8(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions6(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."); // DOPSUM: CHANGE TEXT
+        "I have a strong constitution and my stomach can handle anything."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters9(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions7(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Scientists study the genetic constitution of cells to understand how genes influence cell behavior."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters10(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions8(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He recommended the constitution of a review committee."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters11(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions9(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters12(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions10(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchatters13(String languageCode) async {
-    // DOPSUM: CHANGE speakchatter
+  Future<void> speakconstitutions11(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchatters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstitutions12(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstitutions1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstitutions13(String languageCode) async {
+    // DOPSUM: CHANGE speakconstitution
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstitutions1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -156,22 +156,22 @@ class EnglishEntrychatter extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chatter"),
+                            EntryTitle(word: "constitution"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈtʃætə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒnstɪˈtjuːʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchatter("en-GB"),
+                              onPressed: () => speakconstitution("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈtʃætər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌkɑːnstɪˈtuːʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchatter("en-US"),
+                              onPressed: () => speakconstitution("en-US"),
                             ),
                           ],
                         ),
@@ -198,11 +198,11 @@ class EnglishEntrychatter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زۆربڵەیی، چەقەسرۆیی، چەنەدان، قیژەقیژ، زیق‌وھەرا، گاڵەگاڵ، شەقەشەق، چۆقەچۆق
+کوردی: قانوونی بنچینەیی (یا بنەڕەتی)، دەستوور،	پێکهاتن، دروس‌بوون، پێکهاتە، دامەزران، داڕێژران،	دامەزراندن، بنیاتنان، دروس‌کردن، پێکهێنان، سازاندن، داڕشتن،	سرشت، نیار،	پێکهاتە یان چوارچێوەی لەشی، تەندرووستی، بنگە، داروبار،	قانوون، یاسا، زاکوون، قەباڵە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) قسەکردن بەخێرایی و بەردەوامی لەسەر شتیانێک کە گرنگ نین"),
+                                  "١. (ناو) دەستوور؛ سیستەمی یاسادانان و بنچینە سەرەکییەکانی بەڕێوەبردنی وڵاتێک یان دامەزراوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,21 +210,23 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "They chattered away happily for a while."),
+                                            "Britain does not have a written constitution."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵخۆشانە بۆ ماوەیەک قسەیان کرد."),
+                                            "بەریتانیا دەستووری نووسراوی نییە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chatter", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "constitution", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters1("en-GB"),
+                                    onPressed: () =>
+                                        speakconstitutions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters1("en-US"),
+                                    onPressed: () =>
+                                        speakconstitutions1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +240,10 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He chattered excitedly to his friends."),
+                                            "The constitution stipulated that a general election must be held within 120 days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ ھاوڕێکانی دەکرد."),
+                                            "دەستوور دیاری دەکات کە هەڵبژاردنێکی گشتی دەبێت لە ١٢٠ ڕۆژدا ڕێکبخرێت."),
                                   ],
                                 ),
                               ),
@@ -249,103 +251,12 @@ class EnglishEntrychatter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters2("en-GB"),
+                                    onPressed: () =>
+                                        speakconstitutions2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) کڕاندنی ددان بە یەکدا بەھۆی سەرما یان ترس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her teeth chattered as she dressed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ددانەکانی کڕەیان دەھات کە جلی لەبەردەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) درووستکردنی دەنگی زیق لەلایەن ئاژەڵانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gun shot made the monkeys chatter in alarm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی فیشەکەکە وای لە مەیموونەکان کرد دەست بە زیقەزیق بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) قسەی بەردەوام لەسەر ئەو شتانەی کە گرنگ نین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jane's constant chatter was beginning to annoy him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەنەدانی بەردەوامی جەین خەریک بوو دەستی بە بێزارکردنی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters5("en-US"),
+                                    onPressed: () =>
+                                        speakconstitutions2("en-US"),
                                   ),
                                 ],
                               ),
@@ -359,10 +270,10 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "I wish you'd stop wasting time in idle chatter."),
+                                            "The constitution was suspended and the army was placed in full control."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھیوادارم دەوەستایت لە قسەی ھیچ."),
+                                            "دەستوور سڕکرا و سوپا لە کۆنترۆڵی تەواو دانرا."),
                                   ],
                                 ),
                               ),
@@ -370,19 +281,18 @@ class EnglishEntrychatter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters6("en-GB"),
+                                    onPressed: () =>
+                                        speakconstitutions3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters6("en-US"),
+                                    onPressed: () =>
+                                        speakconstitutions3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ناو) دەنگی زیقی بەردەوامی ھەندێک ئاژەڵ"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -390,10 +300,10 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He could hear the chatter of birds in the trees overhead."),
+                                            "The new constitution will be adopted next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەیتوانی گوێی لە چریوەی باڵندە بێت لەسەر سەری."),
+                                            "دەستوورە تازەکە ساڵی داهاتوو هەڵدەگیرێتەوە."),
                                   ],
                                 ),
                               ),
@@ -401,10 +311,12 @@ class EnglishEntrychatter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters7("en-GB"),
+                                    onPressed: () =>
+                                        speakconstitutions4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters7("en-US"),
+                                    onPressed: () =>
+                                        speakconstitutions4("en-US"),
                                   ),
                                 ],
                               ),
@@ -412,7 +324,7 @@ class EnglishEntrychatter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (ناو) دەنگی شت کە بەر یەکدی دەکەون"),
+                              text: "٢. (ناو) دۆخی تەندرووستی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -420,10 +332,10 @@ class EnglishEntrychatter extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."),
+                                            "The child had a weak constitution and was always ill."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە واستابوون بۆ گەشتنی یارمەتی، شاخەوانە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا."),
+                                            "منداڵەکە تەندرووستییەکی لاوازی هەبوو و هەمیشە نەخۆش بوو."),
                                   ],
                                 ),
                               ),
@@ -431,10 +343,106 @@ class EnglishEntrychatter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchatters8("en-GB"),
+                                    onPressed: () =>
+                                        speakconstitutions5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters8("en-US"),
+                                    onPressed: () =>
+                                        speakconstitutions5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have a strong constitution and my stomach can handle anything."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەندرووستییەکی بەهێزم هەیە و گەدەم بەرگەی هەموو شت دەگرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconstitutions6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconstitutions6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) شێوازی پێکهاتنی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists study the genetic constitution of cells to understand how genes influence cell behavior."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان لە شێوازی درووستبوونی جیناتی خانەکان دەکۆڵنەوە بۆ تێگەشتن لەوەی چۆن جینەکان کاریگەری لە ڕەفتاری خانەکان دەکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconstitutions7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconstitutions7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) درووستکردنی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He recommended the constitution of a review committee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشنیاری پێکهێنانی لینژنەیەکی چاودێری کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconstitutions8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconstitutions8("en-US"),
                                   ),
                                 ],
                               ),
@@ -451,8 +459,8 @@ class EnglishEntrychatter extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -509,7 +517,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -519,29 +527,21 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chatter (derived forms: chatters, chattering, chattered)
-1. Noisy talk (= yak, yack [informal], yakety-yak, cackle, yackety-yak [informal], yatter [informal])
+- Noun: constitution (Derived forms: constitutions)
+1. (law) law determining the fundamental political principles of a government (= fundamental law, organic law)
  
-2. The rapid series of noises made by the parts of a machine (= chattering)
+2. The act of forming or establishing something (= establishment, formation, organization, organisation [Brit])
+"the constitution of a PTA group last year";
  
-3. The high-pitched continuing noise made by animals (birds or monkeys) (= chattering)
+3. The way in which someone or something is composed (= composition, physical composition, makeup, make-up)
 
-- Verb: chatter 
-1. Make a clicking sound repeatedly or uncontrollably (= click)
-"Chattering teeth";
+- Noun: Constitution
+1. A United States 44-gun frigate that was one of the first three naval ships built by the United States; it won brilliant victories over British frigates during the War of 1812 and is without doubt the most famous ship in the history of the United States Navy; it has been rebuilt and is anchored in the Charlestown Navy Yard in Boston (= USS Constitution, Old Ironsides)
  
-2. Cut unevenly with a chattering tool
- 
-3. Talk socially without exchanging too much information (= chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chaffer, natter [informal], gossip, jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gas [informal], gab [informal])
-"the men were sitting in the cafe and chattering";
- 
-4. Speak (about unimportant matters) rapidly and incessantly (= piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, blab [informal], gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
- 
-5. Make noise as if chattering away
-"The magpies were chattering in the trees"
+2. (law) the constitution written at the Constitutional Convention in Philadelphia in 1787 and subsequently ratified by the original thirteen states (= United States Constitution, U.S. Constitution, US Constitution, Constitution of the United States)
 """,
   );
 
@@ -574,8 +574,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hZCVt28wN00',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/snOHLxoyAZ4?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +599,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a_TSR_v07m0',
-    startSeconds: 223,
+    videoId: 'https://youtu.be/_EPiGmeaO0E',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +624,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-L7o6HtX8Vg',
-    startSeconds: 1474,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 541,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -649,8 +649,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IM31fgkxn2I',
-    startSeconds: 1014,
+    videoId: 'https://youtu.be/nGrB-5ieeMU?t=',
+    startSeconds: 511,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -674,8 +674,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'RhWFy8fsDrc',
-    startSeconds: 1028,
+    videoId: 'https://youtu.be/D5mAhrkaMds?t=',
+    startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -699,8 +699,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JQiJu6qhOV0',
-    startSeconds: 698,
+    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -724,33 +724,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MrS07wakoJo',
-    startSeconds: 1176,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sOwbxQQ-6Rw',
-    startSeconds: 507,
+    videoId: 'https://youtu.be/WLeUt-jBE4Y?t=',
+    startSeconds: 95,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

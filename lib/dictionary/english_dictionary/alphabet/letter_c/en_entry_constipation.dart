@@ -3,47 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamend - replace speakAmend - replace amend - /əˈmend/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryamend extends StatelessWidget {
-  EnglishEntryamend({super.key});
+class EnglishEntryconstipation extends StatelessWidget {
+// blank divider
+  EnglishEntryconstipation({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmend(String languageCode) async {
-    // DOPSUM: CHANGE speakAmend
+  Future<void> speakconstipation(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amend"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constipation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmend466(String languageCode) async {
-    // DOPSUM: CHANGE speakAmend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Parliament will vote to amend the constitution."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAmend49996(String languageCode) async {
-    // DOPSUM: CHANGE speakAmend
+  Future<void> speakconstipations1(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "MPs were urged to amend the law to prevent another oil tanker disaster."); // DOPSUM: CHANGE TEXT
+        "Taking high doses of iron can cause constipation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmend(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmend
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amend"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakconstipations2(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Pregnant women can suffer terrible constipation."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations3(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations4(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations5(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations6(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations7(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations8(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations9(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations10(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations11(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations12(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconstipations13(String languageCode) async {
+    // DOPSUM: CHANGE speakconstipation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconstipations1300"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,27 +150,22 @@ class EnglishEntryamend extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amend"), // Find /əˈmend/
-                            // divvviiider
+                            EntryTitle(word: "constipation"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈmend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒnstɪˈpeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmend("en-GB"),
+                              onPressed: () => speakconstipation("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈmend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌkɑːnstɪˈpeɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmend("en-US"),
+                              onPressed: () => speakconstipation("en-US"),
                             ),
                           ],
                         ),
@@ -98,7 +178,7 @@ class EnglishEntryamend extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -111,8 +191,12 @@ class EnglishEntryamend extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (کردار) دەستکاریکردنی یاسایەک یان لێدوانێک بۆ چاککردنی ھەڵەیەک یان باشترکردنی"""),
+                          const KurdishVocabulary(text: """
+کوردی: قەبزی، سک‌گیری، زگ‌گیری، گیری، گیران، گرفت
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) نەتوانینی کردنە دەرەوەی پیسایی لە جەستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -120,30 +204,29 @@ class EnglishEntryamend extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Parliament will vote to amend the constitution."),
+                                            "Taking high doses of iron can cause constipation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەرلەمان دەنگ لەسەر ھەموارکردنی دەستوور دەدات."),
+                                            "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە هۆی قەبزی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples define "constipation", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmend466("en-GB"),
+                                    onPressed: () =>
+                                        speakconstipations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAmend466(// REPLACE: amend /əˈmend/
-                                            "en-US"),
+                                        speakconstipations1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
@@ -151,10 +234,10 @@ class EnglishEntryamend extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "MPs were urged to amend the law to prevent another oil tanker disaster."),
+                                            "Pregnant women can suffer terrible constipation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),
+                                            "ژنانی دووگیان دەکرێت ڕووبەڕووی قەبزی توند ببنەوە."),
                                   ],
                                 ),
                               ),
@@ -162,39 +245,44 @@ class EnglishEntryamend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmend49996("en-GB"),
+                                    onPressed: () =>
+                                        speakconstipations2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmend49996(
-                                        // REPLACE: amend /əˈmend/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakconstipations2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -237,7 +325,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -247,18 +335,13 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: amend (derived forms: amended, amending, amends)
-1. Make amendments to
-"amend the document"
+- Noun: constipation (Derived forms: constipations)
+1. Irregular and infrequent or difficult evacuation of the bowels; can be a symptom of intestinal obstruction or diverticulitis (= irregularity)
  
-2. To make better (= better, improve, ameliorate, meliorate, mend)
-"The editor amended the manuscript with his changes";
- 
-3. Set straight or right (= rectify, remediate, remedy, repair)
-"amend the inequities in salaries";
+2. The act of making something futile and useless (as by routine) (= stultification, impairment, deadening)
 """,
   );
 
@@ -287,12 +370,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    startSeconds: 1010,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-E4TUQ4THIE',
-    startSeconds: 2538,
+    videoId: 'https://youtu.be/XeHl5Y7m1xM?t=',
+    startSeconds: 429,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -316,8 +424,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ZFOwUrHA3q8',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/66VdylXI0nQ?t=',
+    startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -341,8 +449,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'x8LysT1ukjY',
-    startSeconds: 2659,
+    videoId: 'https://youtu.be/wPclF09XnDk?t=',
+    startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -366,8 +474,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'zQj3vzTSnlY',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/grViAbFlRIA?t=',
+    startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -391,8 +499,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ci1v0w8qNxw',
-    startSeconds: 63,
+    videoId: 'https://youtu.be/u_1sVri3b2w?t=',
+    startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -416,8 +524,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '_mqP7kd1H_Y',
-    startSeconds: 326,
+    videoId: 'https://youtu.be/fH-tFSUEmmk?t=',
+    startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -437,157 +545,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'uCM0Tvp6Dko',
-    startSeconds: 624,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3Kd2x1mXV_k',
-    startSeconds: 318,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AZnTIP9FRdI',
-    startSeconds: 151,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LtWXwj_ZXAI',
-    startSeconds: 83,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'eJ-WJssJgdg',
-    startSeconds: 4278,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'v-nblE8ps2M',
-    startSeconds: 690,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
-
-
-// TODO Implement this library.
+// end WORD_WEB

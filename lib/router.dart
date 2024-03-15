@@ -3558,19 +3558,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_constriction.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_construct.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_construction.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_constructive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_constructively.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consul.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consular.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consulate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consultant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consultation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consume.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consuming.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consumer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consumer_durables.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consumer_goods.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_consummate.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7446,19 +7446,19 @@ final loggedInRoute = RouteMap(routes: {
   "/english-constriction": (_) => MaterialPage(child: EnglishEntryconstriction()),
   "/english-construct": (_) => MaterialPage(child: EnglishEntryconstruct()),
   "/english-construction": (_) => MaterialPage(child: EnglishEntryconstruction()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-constructive": (_) => MaterialPage(child: EnglishEntryconstructive()),
+  "/english-constructively": (_) => MaterialPage(child: EnglishEntryconstructively()),
+  "/english-consul": (_) => MaterialPage(child: EnglishEntryconsul()),
+  "/english-consular": (_) => MaterialPage(child: EnglishEntryconsular()),
+  "/english-consulate": (_) => MaterialPage(child: EnglishEntryconsulate()),
+  "/english-consultant": (_) => MaterialPage(child: EnglishEntryconsultant()),
+  "/english-consultation": (_) => MaterialPage(child: EnglishEntryconsultation()),
+  "/english-consume": (_) => MaterialPage(child: EnglishEntryconsume()),
+  "/english-consuming": (_) => MaterialPage(child: EnglishEntryconsuming()),
+  "/english-consumer": (_) => MaterialPage(child: EnglishEntryconsumer()),
+  "/english-consumer-durables": (_) => MaterialPage(child: EnglishEntryconsumerdurables()),
+  "/english-consumer-goods": (_) => MaterialPage(child: EnglishEntryconsumergoods()),
+  "/english-consummate": (_) => MaterialPage(child: EnglishEntryconsummate()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

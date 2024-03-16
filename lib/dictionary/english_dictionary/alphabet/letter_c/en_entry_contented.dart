@@ -10,126 +10,122 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconsummate extends StatelessWidget {
+class EnglishEntrycontented extends StatelessWidget {
 // blank divider
-  EnglishEntryconsummate({super.key});
+  EnglishEntrycontented({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconsummate(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontented(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("consummate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contented"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates1(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was a consummate performer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was a contented man."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates2(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She played with consummate skill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates3(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The marriage lasted only a week and was never consummated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates4(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His goal was to consummate the project before the deadline."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates5(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates6(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates7(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontenteds13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontented
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontenteds1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,23 +148,22 @@ class EnglishEntryconsummate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "consummate"),
+                            EntryTitle(word: "contented"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /kənˈsʌmət/,  /ˈkɒnsəmət/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈtentɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconsummate("en-GB"),
+                              onPressed: () => speakcontented("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːnsəmət/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈtentɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconsummate("en-US"),
+                              onPressed: () => speakcontented("en-US"),
                             ),
                           ],
                         ),
@@ -195,121 +190,31 @@ class EnglishEntryconsummate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەواو، ڕەبەق، هەرەباش، بەرز،	پێگەیشتوو، ڕەسیدە،	لێزان، کارامە، پوختە، مامۆستا، شارەزا، وەستا
+کوردی: ڕازی، قایل، قانع، بێ‌نیاز، نیشانەی پێخۆش‌بوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پیشاندانی شارەزایی زۆر؛ تەواو"),
+                                  "١. (ھاوەڵناو) هەستکردن بە خۆشی و شادی، بەتایبەتی بەهۆی ئەوەی ژیانت باشە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "She was a consummate performer."),
+                                        text: "He was a contented man."),
                                     ExampleSentenceKurdish(
-                                        text: "نمایشکارێکی کارامە بوو."),
+                                        text: "پیاوێکی بە قەناعەت بوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consummate", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "contented", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates1("en-GB"),
+                                    onPressed: () => speakcontenteds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She played with consummate skill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شارەزایی تەواوەوە یاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) بە فەرمی ناساندنی هاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The marriage lasted only a week and was never consummated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هاوسەرگیرییەکە یەک هەفتەی خایاند و هەرگیز کامڵ نەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) تەواوکردنی یان کامڵکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His goal was to consummate the project before the deadline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی ئەوە بوو پڕۆژەکە تەواو بکات پێش دوامۆڵەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates4("en-US"),
+                                    onPressed: () => speakcontenteds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,21 +302,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consummate (Derived forms: consummating, consummates, consummated)
-1. Complete a marriage by having sexual intercourse
-"consummate a marriage"
- 
-2. Make perfect; bring to perfection
-
-- Adjective: consummate 
-1. Having or revealing supreme mastery or skill (= masterful, masterly, virtuoso)
-"a consummate artist"; "consummate skill";
- 
-2. Perfect in every respect; having all necessary qualities (= complete)
-"consummate happiness"; "a consummate performance";
- 
-3. Without qualification; used informally as an (often pejorative) intensifier (= arrant, complete, double-dyed, everlasting, gross, perfect, pure, sodding, stark, staring, thorough, thoroughgoing, utter, unadulterated, rigorous)
-"a consummate fool";
+- Adjective: contented 
+1. Satisfied or showing satisfaction with things as they are (= content)
+"a contented smile";
 """,
   );
 
@@ -444,8 +337,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OZ_xhkg32nk?t=',
-    startSeconds: 571,
+    videoId: 'https://youtu.be/bnnRIrxGGX8?t=',
+    startSeconds: 359,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +362,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/spr5smxuO5E?t=',
-    startSeconds: 184,
+    videoId: 'https://youtu.be/K0j2dlBMzUs?t=',
+    startSeconds: 1451,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +387,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LzDhpEInMIg?t=',
-    startSeconds: 288,
+    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    startSeconds: 4363,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,8 +412,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DDzJs126JrM?t=',
-    startSeconds: 714,
+    videoId: 'https://youtu.be/P8lFcp4GjaI?t=',
+    startSeconds: 818,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,8 +437,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS0oPwb3sag?t=',
-    startSeconds: 644,
+    videoId: 'https://youtu.be/1Ooogc0CJo0?t=',
+    startSeconds: 1191,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -569,8 +462,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/36erMl7IgRo?t=',
-    startSeconds: 731,
+    videoId: 'https://youtu.be/vWhYlu7ZfYM?t=',
+    startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -594,8 +487,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OBG50aoUwlI?t=',
-    startSeconds: 1409,
+    videoId: 'https://youtu.be/JtzFt7LMSn0?t=',
+    startSeconds: 247,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,126 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconsummate extends StatelessWidget {
+class EnglishEntrycontext extends StatelessWidget {
 // blank divider
-  EnglishEntryconsummate({super.key});
+  EnglishEntrycontext({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconsummate(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontext(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("consummate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("context"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates1(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was a consummate performer."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsummates2(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She played with consummate skill."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsummates3(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The marriage lasted only a week and was never consummated."); // DOPSUM: CHANGE TEXT
+        "The government must consider the context of the protests."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates4(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His goal was to consummate the project before the deadline."); // DOPSUM: CHANGE TEXT
+        "This kind of propaganda is used in many different contexts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates5(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His decision can only be understood in context."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates6(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I think it's important to put this into context."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates7(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You should be able to guess the meaning of the word from the context."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You need to look at the words in context."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This quotation has been taken out of context."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontexts800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontexts900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontexts1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsummates13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsummate
+  Future<void> speakcontexts11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsummates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontexts1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcontexts12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcontexts1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcontexts13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontext
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcontexts1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,23 +152,22 @@ class EnglishEntryconsummate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "consummate"),
+                            EntryTitle(word: "context"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /kənˈsʌmət/,  /ˈkɒnsəmət/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒntekst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconsummate("en-GB"),
+                              onPressed: () => speakcontext("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːnsəmət/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːntekst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconsummate("en-US"),
+                              onPressed: () => speakcontext("en-US"),
                             ),
                           ],
                         ),
@@ -195,11 +194,11 @@ class EnglishEntryconsummate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەواو، ڕەبەق، هەرەباش، بەرز،	پێگەیشتوو، ڕەسیدە،	لێزان، کارامە، پوختە، مامۆستا، شارەزا، وەستا
+کوردی: تەڤنار، تەونار، بوار، چوارچێوە، تان‌وپۆ، زەمینە، تەختار، دەق، پێکەوەچنراو،	هەل‌ومەرج، بارودۆخ، ڕەوش
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پیشاندانی شارەزایی زۆر؛ تەواو"),
+                                  "١. (ناو) دۆخێک کە تێیدا شتێک ڕوودەدات و یارمەتیدەر دەبێت لە تێگەشطن لێی"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,20 +206,21 @@ class EnglishEntryconsummate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She was a consummate performer."),
+                                            "The government must consider the context of the protests."),
                                     ExampleSentenceKurdish(
-                                        text: "نمایشکارێکی کارامە بوو."),
+                                        text:
+                                            "حکومەت دەبێت هەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consummate", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "context", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates1("en-GB"),
+                                    onPressed: () => speakcontexts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates1("en-US"),
+                                    onPressed: () => speakcontexts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +234,10 @@ class EnglishEntryconsummate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She played with consummate skill."),
+                                            "This kind of propaganda is used in many different contexts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە شارەزایی تەواوەوە یاری دەکرد."),
+                                            "ئەم جۆرە پڕوپاگەندەیە لە زۆر ڕەوشی جیاوازدا بەکاردێت."),
                                   ],
                                 ),
                               ),
@@ -245,19 +245,16 @@ class EnglishEntryconsummate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates2("en-GB"),
+                                    onPressed: () => speakcontexts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates2("en-US"),
+                                    onPressed: () => speakcontexts2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) بە فەرمی ناساندنی هاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -265,10 +262,10 @@ class EnglishEntryconsummate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The marriage lasted only a week and was never consummated."),
+                                            "His decision can only be understood in context."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسەرگیرییەکە یەک هەفتەی خایاند و هەرگیز کامڵ نەکرا."),
+                                            "وتارەکەی تەنها لە هەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
                                   ],
                                 ),
                               ),
@@ -276,18 +273,16 @@ class EnglishEntryconsummate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates3("en-GB"),
+                                    onPressed: () => speakcontexts3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates3("en-US"),
+                                    onPressed: () => speakcontexts3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) تەواوکردنی یان کامڵکردنی شتێک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +290,10 @@ class EnglishEntryconsummate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "His goal was to consummate the project before the deadline."),
+                                            "I think it's important to put this into context."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامانجی ئەوە بوو پڕۆژەکە تەواو بکات پێش دوامۆڵەت."),
+                                            "پێموایە گرنگە یەمە بخرێتە هەلومەرجی خۆیەوە."),
                                   ],
                                 ),
                               ),
@@ -306,14 +301,96 @@ class EnglishEntryconsummate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates4("en-GB"),
+                                    onPressed: () => speakcontexts4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates4("en-US"),
+                                    onPressed: () => speakcontexts4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ناو) ئەو وشانەی کە لە پێش یان پاشی وشەیەک دێن و یارمەتیدەر دەبن لە تێگەشتن لێی"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "You should be able to guess the meaning of the word from the context."),
+                          ExampleSentenceKurdish(
+                          text: "دەبێت لە واتای ڕستەکە تێبگەیت بەپێی بەستێنەکەی."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcontexts5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcontexts5("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "You need to look at the words in context."),
+                          ExampleSentenceKurdish(
+                          text: "دەبێت لە بەستێندا سەیری واتای وشەکە بکەیت."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcontexts6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcontexts6("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "This quotation has been taken out of context (= repeated without referring to the rest of the text)."),
+                          ExampleSentenceKurdish(
+                          text: "رستە_رستە_رستە_رستە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcontexts7("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcontexts7("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),
@@ -397,21 +474,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consummate (Derived forms: consummating, consummates, consummated)
-1. Complete a marriage by having sexual intercourse
-"consummate a marriage"
+- Noun: context (Derived forms: contexts)
+1. Discourse that surrounds a language unit and helps to determine its interpretation (= linguistic context, context of use)
  
-2. Make perfect; bring to perfection
-
-- Adjective: consummate 
-1. Having or revealing supreme mastery or skill (= masterful, masterly, virtuoso)
-"a consummate artist"; "consummate skill";
- 
-2. Perfect in every respect; having all necessary qualities (= complete)
-"consummate happiness"; "a consummate performance";
- 
-3. Without qualification; used informally as an (often pejorative) intensifier (= arrant, complete, double-dyed, everlasting, gross, perfect, pure, sodding, stark, staring, thorough, thoroughgoing, utter, unadulterated, rigorous)
-"a consummate fool";
+2. The set of facts or circumstances that surround a situation or event (= circumstance, setting)
+"the historical context";
 """,
   );
 
@@ -444,8 +511,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OZ_xhkg32nk?t=',
-    startSeconds: 571,
+    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
+    startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +536,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/spr5smxuO5E?t=',
-    startSeconds: 184,
+    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
+    startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +561,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LzDhpEInMIg?t=',
-    startSeconds: 288,
+    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
+    startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,8 +586,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DDzJs126JrM?t=',
-    startSeconds: 714,
+    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,8 +611,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS0oPwb3sag?t=',
-    startSeconds: 644,
+    videoId: 'https://youtu.be/SEZu7K5tGxw?t=',
+    startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -569,8 +636,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/36erMl7IgRo?t=',
-    startSeconds: 731,
+    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
+    startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -594,8 +661,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OBG50aoUwlI?t=',
-    startSeconds: 1409,
+    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

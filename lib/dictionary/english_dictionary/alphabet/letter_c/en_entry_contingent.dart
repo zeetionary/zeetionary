@@ -10,129 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycontext extends StatelessWidget {
+class EnglishEntrycontingent extends StatelessWidget {
 // blank divider
-  EnglishEntrycontext({super.key});
+  EnglishEntrycontingent({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcontext(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingent(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("context"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contingent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government must consider the context of the protests."); // DOPSUM: CHANGE TEXT
+        "The largest contingent was from the United States."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This kind of propaganda is used in many different contexts."); // DOPSUM: CHANGE TEXT
+        "A seven-strong French diplomatic contingent arrived in the capital city yesterday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His decision can only be understood in context."); // DOPSUM: CHANGE TEXT
+        "The French contingent in the UN peacekeeping force withdrew."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I think it's important to put this into context."); // DOPSUM: CHANGE TEXT
+        "All payments are contingent upon your timely completion of the work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You should be able to guess the meaning of the word from the context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need to look at the words in context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This quotation has been taken out of context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontingents13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontingent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontingents1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -155,22 +152,22 @@ class EnglishEntrycontext extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "context"),
+                            EntryTitle(word: "contingent"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒntekst/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈtɪndʒənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcontext("en-GB"),
+                              onPressed: () => speakcontingent("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːntekst/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈtɪndʒənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcontext("en-US"),
+                              onPressed: () => speakcontingent("en-US"),
                             ),
                           ],
                         ),
@@ -197,11 +194,11 @@ class EnglishEntrycontext extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەڤنار، تەونار، بوار، چوارچێوە، تان‌وپۆ، زەمینە، تەختار، دەق، پێکەوەچنراو،	هەل‌ومەرج، بارودۆخ، ڕەوش
+کوردی: نادیار، ڕێکەوتی،	ئەگەری، شیمانەیی، ڕێ‌تێچوو، لەوەدەچێ، ڕەنگە، لەوانەیە،	بەندە بە، بە مەرجی، بەستراوەتەوە بە،	ڕووداوی کت‌وپر یان نادیار،	گروپ، کۆمەڵ،	هێز، سەرباز،	شاندە، نێردراو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخێک کە تێیدا شتێک ڕوودەدات و یارمەتیدەر دەبێت لە تێگەشطن لێی"),
+                                  "١. (ناو) کۆمەڵە کەسێک لە چاوپێکەوتنێکدا کە خاڵێکی هاوبەشیان، بەتایبەتی ئەوەی کە  لە کوێوە هاتوون"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,21 +206,21 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The government must consider the context of the protests."),
+                                            "The largest contingent was from the United States."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت دەبێت هەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
+                                            "گەورەترین کۆمەڵە لە ئەمریکاوە بوون."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "context", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "contingent", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts1("en-GB"),
+                                    onPressed: () => speakcontingents1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts1("en-US"),
+                                    onPressed: () => speakcontingents1("en-US"),
                                   ),
                                 ],
                               ),
@@ -237,10 +234,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "This kind of propaganda is used in many different contexts."),
+                                            "A seven-strong French diplomatic contingent arrived in the capital city yesterday."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم جۆرە پڕوپاگەندەیە لە زۆر ڕەوشی جیاوازدا بەکاردێت."),
+                                            "حەوت کۆمەڵەی بەهێزی دیپلۆماسی فەرەنسی دوێنێ گەشتنە پایتەختەکە."),
                                   ],
                                 ),
                               ),
@@ -248,66 +245,10 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts2("en-GB"),
+                                    onPressed: () => speakcontingents2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His decision can only be understood in context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی تەنها لە هەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think it's important to put this into context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموایە گرنگە یەمە بخرێتە هەلومەرجی خۆیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts4("en-US"),
+                                    onPressed: () => speakcontingents2("en-US"),
                                   ),
                                 ],
                               ),
@@ -316,7 +257,7 @@ class EnglishEntrycontext extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو وشانەی کە لە پێش یان پاشی وشەیەک دێن و یارمەتیدەر دەبن لە تێگەشتن لێی"),
+                                  "٢. (ھاوەڵناو) یەکەیەکی سەربازی کە سەر بە سوپایەکی گەورەترە"),
                           Row(
                             children: [
                               const Expanded(
@@ -324,10 +265,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You should be able to guess the meaning of the word from the context."),
+                                            "The French contingent in the UN peacekeeping force withdrew."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت لە واتای ڕستەکە تێبگەیت بەپێی بەستێنەکەی."),
+                                            "یەکەی سەربازی فەرەنسا لە هێزی ئاشتیپارێزی نەتەوە یەکگرتووەکان کشایەوە."),
                                   ],
                                 ),
                               ),
@@ -335,16 +276,19 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts5("en-GB"),
+                                    onPressed: () => speakcontingents3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts5("en-US"),
+                                    onPressed: () => speakcontingents3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) پەیوەندیدار بە شتێک کە لەوانەیە ڕووبدات و لەوانەیە ڕوونەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -352,10 +296,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You need to look at the words in context."),
+                                            "All payments are contingent upon your timely completion of the work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت لە بەستێندا سەیری واتای وشەکە بکەیت."),
+                                            "هەموو پارەدانەکان دەوەستنەسەر تەواوکردنی ئیشەکەتان لەکاتی خۆیدا."),
                                   ],
                                 ),
                               ),
@@ -363,37 +307,10 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts6("en-GB"),
+                                    onPressed: () => speakcontingents4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This quotation has been taken out of context (= repeated without referring to the rest of the text)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم وتەیە لە بەستێن دەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts7("en-US"),
+                                    onPressed: () => speakcontingents4("en-US"),
                                   ),
                                 ],
                               ),
@@ -481,11 +398,22 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: context (Derived forms: contexts)
-1. Discourse that surrounds a language unit and helps to determine its interpretation (= linguistic context, context of use)
+- Adjective: contingent 
+1. Possible but not certain to occur
+"they had to plan for contingent expenses"
  
-2. The set of facts or circumstances that surround a situation or event (= circumstance, setting)
-"the historical context";
+2. Being determined by conditions or circumstances that follow (= contingent on, contingent upon, dependent on, dependent upon, depending on)
+"arms sales contingent on the approval of Congress";
+ 
+3. Uncertain because of uncontrollable circumstances
+"the results of confession were not contingent, they were certain"
+
+- Noun: contingent (Derived forms: contingents)
+1. A gathering of persons representative of some larger group
+"each nation sent a contingent of athletes to the Olympics"
+ 
+2. (military) a temporary military unit (= detail)
+"the peacekeeping force includes one British contingent";
 """,
   );
 
@@ -518,8 +446,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/52GV0a6ydDc?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +471,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
-    startSeconds: 574,
+    videoId: 'https://youtu.be/w4JXx-rz-2Q?t=',
+    startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +496,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
-    startSeconds: 197,
+    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    startSeconds: 1457,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +521,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
-    startSeconds: 141,
+    videoId: 'https://youtu.be/Q-nWA0WeF98?t=',
+    startSeconds: 1380,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -618,8 +546,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SEZu7K5tGxw?t=',
-    startSeconds: 200,
+    videoId: 'https://youtu.be/jxNM4DGBRMU?t=',
+    startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -643,8 +571,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/Zh4c5IrllBg?t=',
+    startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -668,8 +596,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/8MELKXZqMQo?t=',
+    startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

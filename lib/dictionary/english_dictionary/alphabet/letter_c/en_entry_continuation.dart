@@ -10,129 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycontext extends StatelessWidget {
+class EnglishEntrycontinuation extends StatelessWidget {
 // blank divider
-  EnglishEntrycontext({super.key});
+  EnglishEntrycontinuation({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcontext(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuation(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("context"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("continuation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government must consider the context of the protests."); // DOPSUM: CHANGE TEXT
+        "The years 2000–01 saw the continuation of the university’s planned expansion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This kind of propaganda is used in many different contexts."); // DOPSUM: CHANGE TEXT
+        "They are determined to ensure the continuation of the economic reform programme."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His decision can only be understood in context."); // DOPSUM: CHANGE TEXT
+        "Her new book is a continuation of her autobiography."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I think it's important to put this into context."); // DOPSUM: CHANGE TEXT
+        "There are plans to build a continuation of the bypass next year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You should be able to guess the meaning of the word from the context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need to look at the words in context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This quotation has been taken out of context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontinuations13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontinuation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuations1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -155,22 +152,22 @@ class EnglishEntrycontext extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "context"),
+                            EntryTitle(word: "continuation"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒntekst/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˌtɪnjuˈeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcontext("en-GB"),
+                              onPressed: () => speakcontinuation("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːntekst/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˌtɪnjuˈeɪʃn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcontext("en-US"),
+                              onPressed: () => speakcontinuation("en-US"),
                             ),
                           ],
                         ),
@@ -197,11 +194,9 @@ class EnglishEntrycontext extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەڤنار، تەونار، بوار، چوارچێوە، تان‌وپۆ، زەمینە، تەختار، دەق، پێکەوەچنراو،	هەل‌ومەرج، بارودۆخ، ڕەوش
+کوردی: درێژەدان، لەسەرڕۆیشتن، پێوەڕۆیشتن، مانەوە، بەردەوام‌کردن، دۆماندن، یەکبینەیی،	بەدواداڕۆیشتن، شوێن‌کەوتن،	تێهەڵ‌چوونەوە، دەس‌پێکردنەوە،	ڕاگرتنی کاتی دادگا، پشوو، وچان،	پاشکۆ، درێژە، پاشماوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) دۆخێک کە تێیدا شتێک ڕوودەدات و یارمەتیدەر دەبێت لە تێگەشطن لێی"),
+                          const DefinitionKurdish(text: "١. (ناو) بەردەوامێتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,21 +204,23 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The government must consider the context of the protests."),
+                                            "The years 2000–01 saw the continuation of the university’s planned expansion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت دەبێت هەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
+                                            "ساڵانی ٢٠٠٠-٢٠٠١ بەردەوامێتی بەرفراوانبوونی پلاندانراوی زانکۆکەی بەخۆوە بینی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "context", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "continuation", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts1("en-GB"),
+                                    onPressed: () =>
+                                        speakcontinuations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts1("en-US"),
+                                    onPressed: () =>
+                                        speakcontinuations1("en-US"),
                                   ),
                                 ],
                               ),
@@ -237,10 +234,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "This kind of propaganda is used in many different contexts."),
+                                            "They are determined to ensure the continuation of the economic reform programme."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم جۆرە پڕوپاگەندەیە لە زۆر ڕەوشی جیاوازدا بەکاردێت."),
+                                            "سوورن لەسەر دڵنیایی کردنەوە لە بەردەوامی پڕۆگرامی چاکسازیی ئابووری."),
                                   ],
                                 ),
                               ),
@@ -248,66 +245,12 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts2("en-GB"),
+                                    onPressed: () =>
+                                        speakcontinuations2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His decision can only be understood in context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی تەنها لە هەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think it's important to put this into context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموایە گرنگە یەمە بخرێتە هەلومەرجی خۆیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts4("en-US"),
+                                    onPressed: () =>
+                                        speakcontinuations2("en-US"),
                                   ),
                                 ],
                               ),
@@ -316,7 +259,7 @@ class EnglishEntrycontext extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو وشانەی کە لە پێش یان پاشی وشەیەک دێن و یارمەتیدەر دەبن لە تێگەشتن لێی"),
+                                  "٢. (ناو) شتێک کە بەردەوام دەبێت یان بە دوای شتێکی دیکەدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -324,10 +267,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You should be able to guess the meaning of the word from the context."),
+                                            "Her new book is a continuation of her autobiography."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت لە واتای ڕستەکە تێبگەیت بەپێی بەستێنەکەی."),
+                                            "کتێبە تازەکەی درێژەی خۆژین‌نامەکەیەتی."),
                                   ],
                                 ),
                               ),
@@ -335,16 +278,21 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts5("en-GB"),
+                                    onPressed: () =>
+                                        speakcontinuations3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts5("en-US"),
+                                    onPressed: () =>
+                                        speakcontinuations3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) شتێک کە گرێدراوە بە شتێکی دیکەوە و بەشێکی پێکدەهێنێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -352,10 +300,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You need to look at the words in context."),
+                                            "There are plans to build a continuation of the bypass next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت لە بەستێندا سەیری واتای وشەکە بکەیت."),
+                                            "پلان هەیە ساڵی داهاتوو درێژەی ڕێگا پشتێنەییەکە درووست بکرێت."),
                                   ],
                                 ),
                               ),
@@ -363,37 +311,12 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts6("en-GB"),
+                                    onPressed: () =>
+                                        speakcontinuations4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This quotation has been taken out of context (= repeated without referring to the rest of the text)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم وتەیە لە بەستێن دەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts7("en-US"),
+                                    onPressed: () =>
+                                        speakcontinuations4("en-US"),
                                   ),
                                 ],
                               ),
@@ -481,11 +404,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: context (Derived forms: contexts)
-1. Discourse that surrounds a language unit and helps to determine its interpretation (= linguistic context, context of use)
+- Noun: continuation (Derived forms: continuations)
+1. The act of continuing an activity without interruption (= continuance)
  
-2. The set of facts or circumstances that surround a situation or event (= circumstance, setting)
-"the historical context";
+2. A part added to a book or play that continues and extends it (= sequel)
+ 
+3. A Gestalt principle of organization holding that there is an innate tendency to perceive a line as continuing its established direction (= good continuation, law of continuation)
+ 
+4. The consequence of being lengthened in duration (= lengthiness, prolongation, protraction)
 """,
   );
 
@@ -518,8 +444,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +469,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
-    startSeconds: 574,
+    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +494,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
-    startSeconds: 197,
+    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +519,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
-    startSeconds: 141,
+    videoId: 'https://youtu.be/vx09_4cEzlM?t=',
+    startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -618,8 +544,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SEZu7K5tGxw?t=',
-    startSeconds: 200,
+    videoId: 'https://youtu.be/TfH85qWVilQ?t=',
+    startSeconds: 1971,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -643,8 +569,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/gHjbay54F4U?t=',
+    startSeconds: 1730,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -668,8 +594,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/zlm1aajH6gY?t=',
+    startSeconds: 624,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

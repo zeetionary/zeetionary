@@ -10,129 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycontext extends StatelessWidget {
+class EnglishEntrycontraceptive extends StatelessWidget {
 // blank divider
-  EnglishEntrycontext({super.key});
+  EnglishEntrycontraceptive({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcontext(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptive(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("context"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contraceptive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government must consider the context of the protests."); // DOPSUM: CHANGE TEXT
+        "There are several kinds of contraceptive pills available, and they act in slightly different ways."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This kind of propaganda is used in many different contexts."); // DOPSUM: CHANGE TEXT
+        "The clinic provides a free contraceptives upon request."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His decision can only be understood in context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I think it's important to put this into context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You should be able to guess the meaning of the word from the context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need to look at the words in context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This quotation has been taken out of context."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcontexts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
+  Future<void> speakcontraceptives13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontraceptives1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -155,22 +150,23 @@ class EnglishEntrycontext extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "context"),
+                            EntryTitle(word: "contraceptive"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkɒntekst/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɒntrəˈseptɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcontext("en-GB"),
+                              onPressed: () => speakcontraceptive("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkɑːntekst/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkɑːntrəˈseptɪv/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcontext("en-US"),
+                              onPressed: () => speakcontraceptive("en-US"),
                             ),
                           ],
                         ),
@@ -196,12 +192,12 @@ class EnglishEntrycontext extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: تەڤنار، تەونار، بوار، چوارچێوە، تان‌وپۆ، زەمینە، تەختار، دەق، پێکەوەچنراو،	هەل‌ومەرج، بارودۆخ، ڕەوش
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخێک کە تێیدا شتێک ڕوودەدات و یارمەتیدەر دەبێت لە تێگەشطن لێی"),
+                                  "١. (ھاوەڵناو) دەرمانێک یان ئامێرێک کە ڕێگری لە دووگاینی ژنان دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,105 +205,23 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The government must consider the context of the protests."),
+                                            "There are several kinds of contraceptive pills available, and they act in slightly different ways."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت دەبێت هەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
+                                            "ژمارەیەکی جیاواز لە حەپی دژە دووگیانی بەردەستن، و بەشێوەی کەمێک جیاواز کاردەکەن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "context", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "contraceptive", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts1("en-GB"),
+                                    onPressed: () =>
+                                        speakcontraceptives1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This kind of propaganda is used in many different contexts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم جۆرە پڕوپاگەندەیە لە زۆر ڕەوشی جیاوازدا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His decision can only be understood in context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی تەنها لە هەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think it's important to put this into context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموایە گرنگە یەمە بخرێتە هەلومەرجی خۆیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts4("en-US"),
+                                    onPressed: () =>
+                                        speakcontraceptives1("en-US"),
                                   ),
                                 ],
                               ),
@@ -316,7 +230,7 @@ class EnglishEntrycontext extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو وشانەی کە لە پێش یان پاشی وشەیەک دێن و یارمەتیدەر دەبن لە تێگەشتن لێی"),
+                                  "٢. (ناو) دەرمانێک یان ئامێرێک کە ڕێگری لە دووگیانی دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -324,10 +238,10 @@ class EnglishEntrycontext extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "You should be able to guess the meaning of the word from the context."),
+                                            "The clinic provides a free contraceptives upon request."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت لە واتای ڕستەکە تێبگەیت بەپێی بەستێنەکەی."),
+                                            "کلینکەکە دژەسکپڕی بێ‌بەرامبەر دابین دەکات لەگەڵ داواکردندا."),
                                   ],
                                 ),
                               ),
@@ -335,65 +249,12 @@ class EnglishEntrycontext extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts5("en-GB"),
+                                    onPressed: () =>
+                                        speakcontraceptives2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need to look at the words in context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لە بەستێندا سەیری واتای وشەکە بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This quotation has been taken out of context (= repeated without referring to the rest of the text)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم وتەیە لە بەستێن دەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts7("en-US"),
+                                    onPressed: () =>
+                                        speakcontraceptives2("en-US"),
                                   ),
                                 ],
                               ),
@@ -481,11 +342,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: context (Derived forms: contexts)
-1. Discourse that surrounds a language unit and helps to determine its interpretation (= linguistic context, context of use)
- 
-2. The set of facts or circumstances that surround a situation or event (= circumstance, setting)
-"the historical context";
+- Noun: contraceptive (Derived forms: contraceptives)
+1، An agent or device intended to prevent conception (= preventive, preventative, contraceptive device, prophylactic device, birth control device)
+
+- Adjective: contraceptive 
+1. Capable of preventing conception or impregnation (= prophylactic, antifertility)
+"contraceptive devices and medications";
 """,
   );
 
@@ -518,8 +380,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/ZgXXOOGBRZU?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +405,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
-    startSeconds: 574,
+    videoId: 'https://youtu.be/VsH8l3BEcIE?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +430,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
-    startSeconds: 197,
+    videoId: 'https://youtu.be/NAymBYWEato?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +455,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
-    startSeconds: 141,
+    videoId: 'https://youtu.be/AC7fbeNT_HQ?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -618,8 +480,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SEZu7K5tGxw?t=',
-    startSeconds: 200,
+    videoId: 'https://youtu.be/yRA0KMCEP2o?t=',
+    startSeconds: 777,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -643,8 +505,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
-    startSeconds: 70,
+    videoId: 'https://youtu.be/wrQYHeodRio?t=',
+    startSeconds: 601,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -668,8 +530,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/gbC4hCh3WMw?t=',
+    startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

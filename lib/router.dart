@@ -3617,20 +3617,20 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contraband.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contraception.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contraceptive.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contract.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contractual.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contraction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contradict.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contradiction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contradictory.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contraflow.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contraption.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrary.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrariness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrast.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contravene.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contravention.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contretemps.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7505,20 +7505,20 @@ final loggedInRoute = RouteMap(routes: {
   "/english-contraband": (_) => MaterialPage(child: EnglishEntrycontraband()),
   "/english-contraception": (_) => MaterialPage(child: EnglishEntrycontraception()),
   "/english-contraceptive": (_) => MaterialPage(child: EnglishEntrycontraceptive()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-contract": (_) => MaterialPage(child: EnglishEntrycontract()),
+  "/english-contractual": (_) => MaterialPage(child: EnglishEntrycontractual()),
+  "/english-contraction": (_) => MaterialPage(child: EnglishEntrycontraction()),
+  "/english-contradict": (_) => MaterialPage(child: EnglishEntrycontradict()),
+  "/english-contradiction": (_) => MaterialPage(child: EnglishEntrycontradiction()),
+  "/english-contradictory": (_) => MaterialPage(child: EnglishEntrycontradictory()),
+  "/english-contraflow": (_) => MaterialPage(child: EnglishEntrycontraflow()),
+  "/english-contraption": (_) => MaterialPage(child: EnglishEntrycontraption()),
+  "/english-contrary": (_) => MaterialPage(child: EnglishEntrycontrary()),
+  "/english-contrariness": (_) => MaterialPage(child: EnglishEntrycontrariness()),
+  "/english-contrast": (_) => MaterialPage(child: EnglishEntrycontrast()),
+  "/english-contravene": (_) => MaterialPage(child: EnglishEntrycontravene()),
+  "/english-contravention": (_) => MaterialPage(child: EnglishEntrycontravention()),
+  "/english-contretemps": (_) => MaterialPage(child: EnglishEntrycontretemps()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

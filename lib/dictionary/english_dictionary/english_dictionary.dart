@@ -3770,6 +3770,21 @@ class _DictionaryScreenEnglishState
     // "contraband",
     // "contraception",
     // "contraceptive",
+    // "contract",
+    // "contraction",
+    // "contractual",
+    // "contradict",
+    // "contradiction",
+    // "contradictory",
+    // "contraflow",
+    // "contralto",
+    // "contraption",
+    // "contrary",
+    // "contrariness",
+    // "contrast",
+    // "contravene",
+    // "contravention",
+    // "contretemps",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -4334,21 +4349,6 @@ class _DictionaryScreenEnglishState
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    "contralto",
     "cookie",
     "cruiser",
     "cypher",
@@ -19866,61 +19866,61 @@ class _DictionaryScreenEnglishState
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-contraceptive");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contract") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contract");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contractual") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contractual");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contraction") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contraction");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contradict") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contradict");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contradiction") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contradiction");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contradictory") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contradictory");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contraflow") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contraflow");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contraption") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contraption");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contrary") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contrary");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contrariness") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contrariness");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contrast") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contrast");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contravene") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contravene");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contravention") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contravention");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "contretemps") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-contretemps");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

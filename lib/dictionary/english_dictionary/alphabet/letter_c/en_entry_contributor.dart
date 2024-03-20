@@ -10,128 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconsole extends StatelessWidget {
+class EnglishEntrycontributor extends StatelessWidget {
 // blank divider
-  EnglishEntryconsole({super.key});
+  EnglishEntrycontributor({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconsole(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributor(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("console"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contributor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles1(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I am a contributor to several blogs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcontributors2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Nothing could console the children when their mother died."); // DOPSUM: CHANGE TEXT
+        "She was a long-time contributor to Time Magazine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles2(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She put a consoling arm around his shoulders."); // DOPSUM: CHANGE TEXT
+        "Older people are important contributors to the economy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles3(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Console yourself with the thought that you did your best."); // DOPSUM: CHANGE TEXT
+        "Sulphur dioxide is a major contributor to acid rain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles4(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I didn't like lying but I consoled myself that it was for a good cause."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles5(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A sound engineer's console looks as complicated as the cockpit of a jet aircraft."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles6(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's the only console that will run this game."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles7(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconsoles12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
+  Future<void> speakcontributors13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontributor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconsoles13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributors1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +152,23 @@ class EnglishEntryconsole extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "console"),
+                            EntryTitle(word: "contributor"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈsəʊl/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /kənˈtrɪbjətə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconsole("en-GB"),
+                              onPressed: () => speakcontributor("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈsəʊl/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈtrɪbjətər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconsole("en-US"),
+                              onPressed: () => speakcontributor("en-US"),
                             ),
                           ],
                         ),
@@ -195,12 +194,12 @@ class EnglishEntryconsole extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی: میزی فەرمان، تەختی فەرمان، تەخت یان میزی کۆنتڕۆڵ،	دۆڵاب، سنووق، میز (تەلەفیزیۆن، کامپیوتێر، ڤیدیۆ و هتد)
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: یارمەتی‌دەر، پیتاک‌دەر، کۆمەک‌کەر، دەسگر، بەخشەر، بەدەنگەوەبوو،	نووسەر، وتارنووس،	بەشداری‌کەر، بەشدار،	هۆ، مایە
+"""),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) دڵدانەوە؛ پێدانی ئاسوودەیی و هاوخەمی بە کەسێک کە دڵتەنگ یان نائومێدە"),
+                                  "١. (ناو) کەسێک کە وتار بۆ گۆڤار، کتێب یان وتارێک دەنووسێت، یان قسە دەکات لە پڕۆگرامێکی تەلەفیزیۆنی یان ڕادیۆیی، یان لە چاوپێکەوتنێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,21 +207,22 @@ class EnglishEntryconsole extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Nothing could console the children when their mother died."),
+                                            "I am a contributor to several blogs."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "هیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد."),
+                                        text: "لە ژمارەیەک بلۆگ نووسەرم."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "console", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "contributor", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles1("en-GB"),
+                                    onPressed: () =>
+                                        speakcontributors1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles1("en-US"),
+                                    onPressed: () =>
+                                        speakcontributors1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,10 +236,10 @@ class EnglishEntryconsole extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She put a consoling arm around his shoulders."),
+                                            "She was a long-time contributor to Time Magazine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستێکی هاوخەمی خستە سەر شانەکانی."),
+                                            "نووسەرێکی کۆنی گۆڤاری تایم بوو."),
                                   ],
                                 ),
                               ),
@@ -247,66 +247,12 @@ class EnglishEntryconsole extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles2("en-GB"),
+                                    onPressed: () =>
+                                        speakcontributors2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Console yourself with the thought that you did your best."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنەوایی خۆت بدە بەوەی هەرچی توانیت کردت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't like lying but I consoled myself that it was for a good cause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم بە درۆکرن نەبوو، بەڵام دڵی خۆم دایەوە بەوەی بۆ مەبەستێکی باش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles4("en-US"),
+                                    onPressed: () =>
+                                        speakcontributors2("en-US"),
                                   ),
                                 ],
                               ),
@@ -315,7 +261,7 @@ class EnglishEntryconsole extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕوویەکی تەخت کە هەموو دوگمە و کۆنترۆڵی ئامێرێک، هتد ـی تێدایە"),
+                                  "٢. (ناو) کەسێک یان شتێک کە پارە و کەلووپەل دەبەخشێت بۆ یارمەتیدانی یان پشتگیری شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -323,10 +269,10 @@ class EnglishEntryconsole extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A sound engineer's console looks as complicated as the cockpit of a jet aircraft."),
+                                            "Older people are important contributors to the economy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "میزی کۆنترۆڵی شارەزایەکی دەنگ وەک ژووری فڕۆکەوانی فڕۆکەیەک ئاڵۆزە."),
+                                            "کەسانی بەتەمەن بەخشەری گرنگن بە ئابووری."),
                                   ],
                                 ),
                               ),
@@ -334,10 +280,12 @@ class EnglishEntryconsole extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles5("en-GB"),
+                                    onPressed: () =>
+                                        speakcontributors3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles5("en-US"),
+                                    onPressed: () =>
+                                        speakcontributors3("en-US"),
                                   ),
                                 ],
                               ),
@@ -346,7 +294,7 @@ class EnglishEntryconsole extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئامێرێکی ئەلیکترۆنی بچووک بۆ یاریکردن"),
+                                  "٣. (ناو) شتێک کە یارمەتیدەری ڕوودانی شتێکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -354,10 +302,10 @@ class EnglishEntryconsole extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It's the only console that will run this game."),
+                                            "Sulphur dioxide is a major contributor to acid rain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها کۆنسۆڵە ئەم یارییە دەخوێنێتەوە."),
+                                            "ئۆکسیدی سلفەر هۆکارێکی گرنگی ترشە بارانە."),
                                   ],
                                 ),
                               ),
@@ -365,10 +313,12 @@ class EnglishEntryconsole extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles6("en-GB"),
+                                    onPressed: () =>
+                                        speakcontributors4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles6("en-US"),
+                                    onPressed: () =>
+                                        speakcontributors4("en-US"),
                                   ),
                                 ],
                               ),
@@ -456,18 +406,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: console (Derived forms: consoles)
-1. A small table fixed to a wall or designed to stand against a wall (= console table)
+- Noun: contributor (Derived forms: contributors)
+1. Someone who contributes (or promises to contribute) a sum of money (= subscriber)
  
-2. A scientific instrument consisting of displays and an input device that an operator can use to monitor and control a system (especially a computer system)
- 
-3. An ornamental scroll-shaped bracket (especially one used to support a wall fixture)
-"the bust of Napoleon stood on a console"
- 
-4. Housing for electronic instruments, as radio or television (= cabinet)
-
-- Verb: console (Derived forms: consoling, consoled, consoles)
-1. Give moral or emotional strength to (= comfort, soothe, solace)
+2. A writer whose work is published in a newspaper, magazine or as part of a book
 """,
   );
 
@@ -500,8 +442,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
-    startSeconds: 281,
+    videoId: 'https://youtu.be/-RjJtO51ykY?t=',
+    startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +467,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LfR4QfmwTAc?t=',
-    startSeconds: 344,
+    videoId: 'https://youtu.be/s3YTfhJmh1I?t=',
+    startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +492,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q_MJ6FaJGew',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/AxSQGOjh110?t=',
+    startSeconds: 2073,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +517,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dbA69i5UVGQ',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/gXR9D9ZXllg?t=',
+    startSeconds: 561,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +542,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bbi0kEaTgio?t=',
-    startSeconds: 75,
+    videoId: 'https://youtu.be/m5q-PIN3KSE?t=',
+    startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -625,8 +567,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4BHgN-eb9zg?t=',
-    startSeconds: 29,
+    videoId: 'https://youtu.be/yiER4rUrGN8?t=',
+    startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -650,8 +592,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9finqZJJNA8?t=',
-    startSeconds: 340,
+    videoId: 'https://youtu.be/0JeFvbOhHYk?t=',
+    startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

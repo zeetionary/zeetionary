@@ -3631,16 +3631,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contravene.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contravention.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contretemps.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contribute.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contribution.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contributor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contributory.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrite.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contritely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrition.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_contrivance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_control.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -7519,16 +7519,16 @@ final loggedInRoute = RouteMap(routes: {
   "/english-contravene": (_) => MaterialPage(child: EnglishEntrycontravene()),
   "/english-contravention": (_) => MaterialPage(child: EnglishEntrycontravention()),
   "/english-contretemps": (_) => MaterialPage(child: EnglishEntrycontretemps()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-contribute": (_) => MaterialPage(child: EnglishEntrycontribute()),
+  "/english-contribution": (_) => MaterialPage(child: EnglishEntrycontribution()),
+  "/english-contributor": (_) => MaterialPage(child: EnglishEntrycontributor()),
+  "/english-contributory": (_) => MaterialPage(child: EnglishEntrycontributory()),
+  "/english-contrite": (_) => MaterialPage(child: EnglishEntrycontrite()),
+  "/english-contritely": (_) => MaterialPage(child: EnglishEntrycontritely()),
+  "/english-contrition": (_) => MaterialPage(child: EnglishEntrycontrition()),
+  "/english-contrive": (_) => MaterialPage(child: EnglishEntrycontrive()),
+  "/english-contrivance": (_) => MaterialPage(child: EnglishEntrycontrivance()),
+  "/english-control": (_) => MaterialPage(child: EnglishEntrycontrol()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

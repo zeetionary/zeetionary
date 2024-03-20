@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrychassis extends StatelessWidget {
-  // blank divider
-  EnglishEntrychassis({super.key});
-  // blank divider
+class EnglishEntrycontritely extends StatelessWidget {
+// blank divider
+  EnglishEntrycontritely({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakchassis(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritely(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chassis"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contritely"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss1(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The car's lightweight chassis is made from aluminium sheets."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He contritely admitted his guilt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss2(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss3(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss4(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss5(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss6(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss7(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss8(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss9(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss10(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss11(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss12(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakchassiss13(String languageCode) async {
-    // DOPSUM: CHANGE speakchassis
+  Future<void> speakcontritelys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontritely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchassiss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontritelys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntrychassis extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "chassis"),
+                            EntryTitle(word: "contritely"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈʃæsi/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈtraɪtli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakchassis("en-GB"),
+                              onPressed: () => speakcontritely("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈʃæsi/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈtraɪtli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakchassis("en-US"),
+                              onPressed: () => speakcontritely("en-US"),
                             ),
                           ],
                         ),
@@ -191,11 +191,11 @@ class EnglishEntrychassis extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چوارچێوە، چێوە، لاشەبەست، لاشەبەند، پەیکەر، شاسی، داروبەند، لاشەی ماشێن، قاوخ (وەک تەلەفیزیۆن و ڕادیۆ)
+کوردی: بە پەشیمانی‌یەوە، بە داخەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) چوارچێوەی ئۆتۆمبێلێک، یان بەشی دەرەوەی ئامێرێکی ئەلیکترۆنی، بۆ نموونە کۆمپیوتەرێک"),
+                                  "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات زۆر بەداخەوەیت بۆ شتێکی خارپ کە کردووتە"),
                           Row(
                             children: [
                               const Expanded(
@@ -203,21 +203,21 @@ class EnglishEntrychassis extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The car's lightweight chassis is made from aluminium sheets."),
+                                            "He contritely admitted his guilt."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چوارچێوە سووکەکەی ئۆتۆمبێلەکە درووستکراوە لە پارچە ئەلەمنیۆم."),
+                                            "بە داخەوە دانی بە تاوانەکەیدا نا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chassis", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "contritely", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakchassiss1("en-GB"),
+                                    onPressed: () => speakcontritelys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakchassiss1("en-US"),
+                                    onPressed: () => speakcontritelys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,8 +234,8 @@ class EnglishEntrychassis extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -292,7 +292,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -302,16 +302,12 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: chassis (chassis) (derived forms: chassis)
-1. The skeleton of a motor vehicle consisting of a steel frame supported on springs that holds the body and motor
- 
-2. [informal] The physical body of a human being (= human body, physical body, material body, soma, build, figure, physique, anatomy, shape, bod [informal], frame, form, flesh)
-"Leonardo studied the chassis";
-
-3. A metal mounting for the circuit components of an electronic device
+- Adverb: contritely
+1. In a rueful manner (= ruefully, remorsefully)
+"'I made a big mistake,' he said contritely";
 """,
   );
 
@@ -344,8 +340,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4l8KWwL7ngg',
-    startSeconds: 30,
+    videoId: 'https://youtu.be/YUdkuncEhWA?t=',
+    startSeconds: 1362,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -369,8 +365,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LnFxH68T6cc',
-    startSeconds: 20,
+    videoId: 'https://youtu.be/6QzHtXP8t1w?t=',
+    startSeconds: 231,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +390,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2Wa8Ga3NB0M',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/t-wD0fVXI7k?t=',
+    startSeconds: 11381,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +415,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0IX_42pok70',
-    startSeconds: 84,
+    videoId: 'https://youtu.be/MYq5NfE7_WA?t=',
+    startSeconds: 1171,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +440,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7Fjn4GRw8qE',
-    startSeconds: 616,
+    videoId: 'https://youtu.be/925gGfejahI?t=',
+    startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +465,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iWS97BxuTaI',
-    startSeconds: 545,
+    videoId: 'https://youtu.be/7apgu2piKsw?t=',
+    startSeconds: 893,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,33 +490,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bMLbnsKGRfo',
-    startSeconds: 66,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'V7707zEX9X4',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/AAN7LXi4U-s?t=',
+    startSeconds: 11062,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

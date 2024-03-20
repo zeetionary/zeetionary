@@ -10,131 +10,134 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycommercial extends StatelessWidget {
+class EnglishEntrycontribute extends StatelessWidget {
 // blank divider
-  EnglishEntrycommercial({super.key});
+  EnglishEntrycontribute({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcommercial(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontribute(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commercial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contribute"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials1(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Do you wish to contribute?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcontributes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They have offices in the commercial heart of the city."); // DOPSUM: CHANGE TEXT
+        "Many people contributed generously to the appeal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials2(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is developing the commercial side of the organization."); // DOPSUM: CHANGE TEXT
+        "Come to the meeting if you feel you have something to contribute."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials3(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The movie was not a commercial success."); // DOPSUM: CHANGE TEXT
+        "Human error may have been a contributing factor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials4(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The data cannot be used for commercial purposes."); // DOPSUM: CHANGE TEXT
+        "Medical negligence was said to have contributed to her death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials5(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The newspaper is acting solely in its own commercial interests."); // DOPSUM: CHANGE TEXT
+        "US policy has contributed to the problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials6(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The decision has been made on a purely commercial basis."); // DOPSUM: CHANGE TEXT
+        "Unemployment contributes directly to homelessness."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials7(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their more recent music is far too commercial."); // DOPSUM: CHANGE TEXT
+        "Immigrants have contributed to British culture in many ways."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials8(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The marketing campaign is starting with four online commercials."); // DOPSUM: CHANGE TEXT
+        "Hall's work contributed greatly to our knowledge of the disease."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials9(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She began her career appearing in commercials."); // DOPSUM: CHANGE TEXT
+        "This book contributes little to our understanding of the subject."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials10(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The blog now has about 20 people contributing regularly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials11(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Associated Press contributed to this report."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcommercials12(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
+  Future<void> speakcontributes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcontribute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcommercials13(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She contributed a number of articles to the magazine."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -157,22 +160,23 @@ class EnglishEntrycommercial extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "commercial"),
+                            EntryTitle(word: "contribute"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kəˈmɜːʃl/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /kənˈtrɪbjuːt/,  /ˈkɒntrɪbjuːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcommercial("en-GB"),
+                              onPressed: () => speakcontribute("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kəˈmɜːrʃl/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈtrɪbjuːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcommercial("en-US"),
+                              onPressed: () => speakcontribute("en-US"),
                             ),
                           ],
                         ),
@@ -199,33 +203,31 @@ class EnglishEntrycommercial extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کارداری، بازرگانی، بازاڕداری،	بازاڕی، بەخێر، پڕقازانج، بەقازانج، پڕداهات،	تایبەتی (ڕادیۆ و تەلەفیزیۆن)،	(سووکانە) بازاڕی، ئایەخ، ڕەشۆکی، ئاگاداری بازرگانی، ڕیکلام، بانگەواز یان ڕاگەیاندنی کارداری
+کوردی: هاوکاری کردن، بەشداری کردن، یارمەتیدان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پەیوەندیدار بە کڕین و فرۆشتنی کەلوپەل و خزمەتگوزاری"),
+                                  "١. (کردار) پێدانی شتێک، بەتایبەتی پارە یان کەلووپەل، بۆ بەدەستهێنان یان بەخشین بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "They have offices in the commercial heart of the city."),
+                                        text: "Do you wish to contribute?"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفیسیان لە ناوجەرگەی شار هەیە."),
+                                        text: "دەتەوێت ببەخشیت؟"),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commercial", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "contribute", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials1("en-GB"),
+                                    onPressed: () => speakcontributes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials1("en-US"),
+                                    onPressed: () => speakcontributes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -239,10 +241,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is developing the commercial side of the organization."),
+                                            "Many people contributed generously to the appeal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لایەنی بازرگانی دامەزراوەکە گەشە پێدەدات."),
+                                            "زۆر کەس بە دڵفراوانانە پارەیان دا بۆ داواکارییەکەمان."),
                                   ],
                                 ),
                               ),
@@ -250,10 +252,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials2("en-GB"),
+                                    onPressed: () => speakcontributes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials2("en-US"),
+                                    onPressed: () => speakcontributes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,7 +264,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) شتێک کە قازانج دەکات، یان مەبەست لێی ئەوەیە قازانج بکات"),
+                                  "٢. (کردار) بوون بە یەکێک لە هۆکارەکانی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -270,10 +272,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The movie was not a commercial success (= did not make money)."),
+                                            "Human error may have been a contributing factor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە سەرکەوتنێکی بەقازانج نەبوو."),
+                                            "هەڵەی مرۆڤ دەکرێت یەکێک لە فاکتەرە سەبەبکارەکان بووبێت."),
                                   ],
                                 ),
                               ),
@@ -281,10 +283,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials3("en-GB"),
+                                    onPressed: () => speakcontributes4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials3("en-US"),
+                                    onPressed: () => speakcontributes4("en-US"),
                                   ),
                                 ],
                               ),
@@ -298,10 +300,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The data cannot be used for commercial purposes."),
+                                            "Medical negligence was said to have contributed to her death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داتاکە نابێت بۆ مەبەستی قازانج بەکاربێت."),
+                                            "هەڵەی تەندرووستی دەوترێت سەبەبکاری مردنەکەی بوو."),
                                   ],
                                 ),
                               ),
@@ -309,10 +311,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials4("en-GB"),
+                                    onPressed: () => speakcontributes5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials4("en-US"),
+                                    onPressed: () => speakcontributes5("en-US"),
                                   ),
                                 ],
                               ),
@@ -326,10 +328,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The newspaper is acting solely in its own commercial interests."),
+                                            "US policy has contributed to the problem."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژنامەکە تەنها بۆ قازانجی خۆی کاردەکات."),
+                                            "سیاسەتی ئەمریکا بووە بە هۆکاری کێشەکە."),
                                   ],
                                 ),
                               ),
@@ -337,10 +339,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials5("en-GB"),
+                                    onPressed: () => speakcontributes6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials5("en-US"),
+                                    onPressed: () => speakcontributes6("en-US"),
                                   ),
                                 ],
                               ),
@@ -354,10 +356,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The decision has been made on a purely commercial basis."),
+                                            "Unemployment contributes directly to homelessness."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بڕیارەکە تەنها لەسەر بنەمای قازانج دراوە."),
+                                            "بێکاری ڕاستەوخۆ هۆکارە بۆ بێلانەیی."),
                                   ],
                                 ),
                               ),
@@ -365,10 +367,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials6("en-GB"),
+                                    onPressed: () => speakcontributes7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials6("en-US"),
+                                    onPressed: () => speakcontributes7("en-US"),
                                   ),
                                 ],
                               ),
@@ -377,12 +379,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) زیاتر گرنگیدان بە لایەنی قازانج و ناوبانگ وەک لە کوالێتی"),
-                          const Row(
-                            children: [
-                              AlsoEnglishckb(word: "هەروەها: commercialized"),
-                            ],
-                          ),
+                                  "٣. (کردار) زیادکردن، بەهێزکردن، یان بەخشین بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -390,10 +387,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Their more recent music is far too commercial."),
+                                            "Immigrants have contributed to British culture in many ways."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تازەترین کاری میوزیکییان ئێجگار زۆر بازاڕییە."),
+                                            "پەنابەران لە زۆر لایەنەوە بەخشینیان بە کەلتووری بەریتانیا هەبووە."),
                                   ],
                                 ),
                               ),
@@ -401,41 +398,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials7("en-GB"),
+                                    onPressed: () => speakcontributes8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) ڕیکلامێک لەسەر تەلەفیزیۆن، ڕادیۆ، یان وێبسایتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The marketing campaign is starting with four online commercials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینی بەبازاڕکردنەکە دەستپێ دەکات بە ڕیکلامی ئینتەرنێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials8("en-US"),
+                                    onPressed: () => speakcontributes8("en-US"),
                                   ),
                                 ],
                               ),
@@ -449,10 +415,10 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She began her career appearing in commercials."),
+                                            "Hall's work contributed greatly to our knowledge of the disease."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستی بە کار کرد بە دەرکەوتن لە ڕیکلامدا."),
+                                            "کارەکانی هۆڵ زۆر یارمەتیدەری زانیاریمان لەسەر نەخۆشییەکە بوون."),
                                   ],
                                 ),
                               ),
@@ -460,10 +426,161 @@ class EnglishEntrycommercial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials9("en-GB"),
+                                    onPressed: () => speakcontributes9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials9("en-US"),
+                                    onPressed: () => speakcontributes9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This book contributes little to our understanding of the subject."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کتێبە یارمەتیدەرێکی بچووکە بۆ تێگەشتنمان لەسەر نەخۆشییەکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcontributes10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcontributes10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) نووسین بۆ ڕۆژنامەیەک، کتێبێک، وێبسایتێک، هتد یان پڕۆگرامێکی تەلەفیزیۆن یان ڕادیۆیی؛ قسەکردن لە کاتی گفتوگۆیەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blog now has about 20 people contributing regularly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلۆگەکە لە ئێستادا ٢٠ کەسی نووسەری بەردەوامی هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcontributes11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcontributes11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Associated Press contributed to this report."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەسۆوشیەیتید پرێس بەژدار بوو لە نووسینی ئەم ڕاپۆرتە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcontributes12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcontributes12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Come to the meeting if you feel you have something to contribute."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەرە بۆ کۆبوونەوەکە ئەگەر شتێکت هەیە بۆ گوتن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcontributes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcontributes3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She contributed a number of articles to the magazine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک وتاری بۆ گۆڤارەکە نووسی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcontributes13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcontributes13("en-US"),
                                   ),
                                 ],
                               ),
@@ -551,21 +668,18 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: commercial 
-1. Connected with or engaged in or sponsored by or used in commerce or commercial enterprises
-"commercial trucker"; "commercial TV"; "commercial diamonds"
+- Verb: contribute (Derived forms: contributed, contributes, contributing)
+1. Provide a particular quality or character (= lend, impart, bestow, add, bring)
+"Her presence contributes a certain cachet to the company";
  
-2. Of the kind or quality used in commerce; average or inferior (= commercial-grade)
-"commercial grade of beef";
+2. Provide a part of a whole amount; give towards some cause (= give, chip in [informal], kick in)
+"I contributed at the office";
  
-3. Profit oriented (= mercantile, mercenary, moneymaking)
-"a commercial book";
+3. Have the effect of making happen, or become more likely (= lead, conduce)
+"The use of computers in the classroom contributed to better writing";
  
-4. Of or relating to commercialism
-"a commercial attaché"; "commercial paper"; "commercial law"
-
-- Noun: commercial (Derived forms: commercials)
-1. A commercially sponsored ad on radio or television (= commercial message)
+4. Provide (= put up)
+"The city has to contribute half the required amount";
 """,
   );
 
@@ -598,8 +712,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2k-VOSyYoHk',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -623,8 +737,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IB1xMhjveQM',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -648,8 +762,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HYjHld318p0',
-    startSeconds: 203,
+    videoId: 'https://youtu.be/043CQXHfx10?t=',
+    startSeconds: 1301,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -673,8 +787,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'esfChb49_Rk',
-    startSeconds: 459,
+    videoId: 'https://youtu.be/NLw53N3zz1Y?t=',
+    startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -698,8 +812,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1nLHIM2IPRY',
-    startSeconds: 3002,
+    videoId: 'https://youtu.be/UtdotNbmjxU?t=',
+    startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -723,8 +837,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0f9GpMWdvWI',
-    startSeconds: 1327,
+    videoId: 'https://youtu.be/v01SxXui9XQ?t=',
+    startSeconds: 2615,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -748,8 +862,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 't9cJbEg3r1c',
-    startSeconds: 669,
+    videoId: 'https://youtu.be/SaOHTp07Vgw?t=',
+    startSeconds: 1252,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

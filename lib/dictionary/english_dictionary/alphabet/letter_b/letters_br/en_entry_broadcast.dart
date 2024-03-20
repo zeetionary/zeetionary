@@ -145,7 +145,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پرۆگرام، بەرنامە، بڵاوکردنەوە، وەشان، بەرنامەی تەلەفزیۆنی یان ڕادیۆیی
+کوردی: پرۆگرام، بەرنامە، بڵاوکردنەوە، وەشان، بەرنامەی تەلەفیزیۆنی یان ڕادیۆیی
 """),
                           const DefinitionKurdish(
                               text:

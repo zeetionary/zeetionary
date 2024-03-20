@@ -192,7 +192,7 @@ class EnglishEntrycompere extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێشکەش‌کار، بەڕێوەبەر (شانۆ، تەلەفزیۆن)
+کوردی: پێشکەش‌کار، بەڕێوەبەر (شانۆ، تەلەفیزیۆن)
 """),
                           const DefinitionKurdish(
                               text:

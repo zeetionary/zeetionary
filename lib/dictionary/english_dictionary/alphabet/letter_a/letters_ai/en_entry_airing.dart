@@ -111,7 +111,7 @@ class EnglishEntryairing extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ھەواگۆڕی، ھەواخۆری، لەبەر ھەوادا دانان، وشک‌کردنەوە، کزرکردنەوە، ھەڵخستن، دەربڕین، دەرنوو، بڵاوکردنەوەی تەلەفزیۆنی یا ڕادیۆیی
+کوردی: ھەواگۆڕی، ھەواخۆری، لەبەر ھەوادا دانان، وشک‌کردنەوە، کزرکردنەوە، ھەڵخستن، دەربڕین، دەرنوو، بڵاوکردنەوەی تەلەفیزیۆنی یا ڕادیۆیی
 """),
                           const DefinitionKurdish(
                               text:

@@ -30,7 +30,7 @@ class EnglishEntrycontretemps extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcontretempss111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "They have been ignoring me since our last contretemps."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcontretempss2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycontretemps extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontretempss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was a slight contretemps between Richard and some guy at the bar."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcontretempss3(String languageCode) async {
@@ -191,10 +192,11 @@ class EnglishEntrycontretemps extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕووداوی جەرگبڕ یا ناخۆش، کۆست، بوویەری دڵتەزێن، قەومینی تاڵ، جیاوازی، کێشمەکێش، ناکۆکی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پێنناسە"),
+                              text:
+                                  "١. (ناو) مشتومڕێکی بچووک؛ ڕووداوێکی ناخۆش یان شەرمهێنەر کە تێیدا خەڵکی ناکۆکن"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,9 +204,10 @@ class EnglishEntrycontretemps extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "// speakcontretempss111111111111111111111111111111111"),
+                                            "They have been ignoring me since our last contretemps."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "لەوتەی کۆتا مشتومڕمانەوە پشتگوێم دەخەن."),
                                   ],
                                 ),
                               ),
@@ -212,10 +215,42 @@ class EnglishEntrycontretemps extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcontretempss1("en-GB"),
+                                    onPressed: () =>
+                                        speakcontretempss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcontretempss1("en-US"),
+                                    onPressed: () =>
+                                        speakcontretempss1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a slight contretemps between Richard and some guy at the bar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگە دەنگێک لە نێوان ڕیچارد و پیاوێک لە باڕەکە هەبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcontretempss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcontretempss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,9 +338,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakcontretemps EnglishEntrycontretemps
-WORD_WEB contretemps haʊʊʊʊʊʊʊ4
+- Noun: contretemps 
+1. An awkward clash
+"he tried to smooth over his contretemps with the policeman"
 """,
   );
 
@@ -338,8 +373,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/P_qy_38vFCQ?t=',
+    startSeconds: 2844,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +398,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/kh7bv7tLRlc?t=',
+    startSeconds: 1153,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +423,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/1EUN4Kl0JF0?t=',
+    startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +448,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/u47WB14YGy4?t=',
+    startSeconds: 825,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +473,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Hbnkid_YXSg?t=',
+    startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +498,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/tIbme8ajcAc?t=',
+    startSeconds: 1296,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +523,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/tIbme8ajcAc?t=',
+    startSeconds: 1296,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -509,5 +544,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-// speakcontretempss111111111111111111111111111111111
 // end WORD_WEB

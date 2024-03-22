@@ -285,6 +285,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     duration: const Duration(milliseconds: 300),
                     child: Icon(
                       value.visible ? Icons.clear : Icons.menu,
+                      size: textSize + 7,
                       key: ValueKey<bool>(value.visible),
                     ),
                   );
@@ -312,7 +313,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               //   onPressed: () => toggleTheme(ref),
               // ),
               IconButton(
-                icon: const Icon(Icons.history),
+                icon: Icon(
+                  Icons.history,
+                  size: textSize + 7,
+                ),
                 onPressed: () {
                   Routemaster.of(context).push('/history-screen');
                   // Routemaster.of(context).pop('/history-screen');
@@ -320,7 +324,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 },
               ),
               IconButton(
-                icon: const Icon(Icons.favorite_border),
+                icon: Icon(
+                  Icons.favorite_border,
+                  size: textSize + 7,
+                ),
                 onPressed: () {
                   Routemaster.of(context).push('/bookmarks-screen');
                 },

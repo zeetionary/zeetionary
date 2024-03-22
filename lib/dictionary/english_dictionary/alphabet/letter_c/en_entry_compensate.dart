@@ -199,7 +199,7 @@ class EnglishEntrycompensate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) دابینکردنی شتێکی باش بۆ نەهێشتن یان کەمکردنەوەی کاریگەری خراپی شتێکی دیکە"),
+                                  "١. (کردار) دابینکردنی شتێکی باش بۆ نەھێشتن یان کەمکردنەوەی کاریگەری خراپی شتێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,7 +210,7 @@ class EnglishEntrycompensate extends StatelessWidget {
                                             "Nothing can compensate for the loss of a loved one."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە."),
+                                            "ھیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycompensate extends StatelessWidget {
                                             "She was so ashamed of her treatment of him that she felt she should compensate him in some way."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر شەرمەزار بوو بە مامەڵەکردن لەگەڵی کە هەستی کرد دەبێت بەشێوەیەک قەرەبووی بکاتەوە."),
+                                            "زۆر شەرمەزار بوو بە مامەڵەکردن لەگەڵی کە ھەستی کرد دەبێت بەشێوەیەک قەرەبووی بکاتەوە."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntrycompensate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) ڕاستکردنەوە یان هاوسەنگی ڕاگرتنی هەڵەیەک"),
+                                  "٢. (کردار) ڕاستکردنەوە یان ھاوسەنگی ڕاگرتنی ھەڵەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -317,7 +317,7 @@ class EnglishEntrycompensate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) پێدانی پارە بۆ قەرەبووکردنەوەی زیان، لەدەستدان، برین، هتد"),
+                                  "٣. (کردار) پێدانی پارە بۆ قەرەبووکردنەوەی زیان، لەدەستدان، برین، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -427,7 +427,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compensate (Derived forms: compensated, compensates, compensating)
+- Verb: compensate (derived forms: compensated, compensates, compensating)
 1. Adjust for (= counterbalance, correct, make up, even out, even off, even up)
 "engineers will work to compensate the effects of air resistance";
  
@@ -477,7 +477,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GIMVge5TYz4?t=',
+    videoId: 'GIMVge5TYz4',
     startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DMRMWLwvAGA?t=',
+    videoId: 'DMRMWLwvAGA',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ssySdK98zk?t=',
+    videoId: '0ssySdK98zk',
     startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/afpoNnOnD3k?t=',
+    videoId: 'afpoNnOnD3k',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +577,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uENndGyAJZ4?t=',
+    videoId: 'uENndGyAJZ4',
     startSeconds: 2014,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +602,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H6M-o-Lg9-c?t=',
+    videoId: 'H6M-o-Lg9-c',
     startSeconds: 435,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -627,7 +627,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    videoId: 'b4wRdoWpw0w',
     startSeconds: 1011,
     autoPlay: true,
     params: const YoutubePlayerParams(

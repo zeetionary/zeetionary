@@ -201,7 +201,7 @@ class EnglishEntrycollege extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) (لە بەریتانیا) شوێنێک کە خوێندکاران لە دوای قوتابخانە بۆی دەچن بۆ خوێندن یان وەرگرتنی ڕاهێنان"),
+                                  "١. (ناو) (لە بەریتانیا) شوێنێک کە خوێندکاران لە دوای قوتابخانە بۆی دەچن بۆ خوێندن یان وەرگرتنی ڕاھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -283,7 +283,7 @@ class EnglishEntrycollege extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) (لە ئەمریکا) شوێنێکە کە خوێندکارا لە دوای قوتابخانە بۆی دەچن بۆ بەدەستهێنانی بڕوانامە"),
+                                  "٢. (ناو) (لە ئەمریکا) شوێنێکە کە خوێندکارا لە دوای قوتابخانە بۆی دەچن بۆ بەدەستھێنانی بڕوانامە"),
                           Row(
                             children: [
                               const Expanded(
@@ -322,7 +322,7 @@ class EnglishEntrycollege extends StatelessWidget {
                                             "He's hoping to go to college next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیواخوازە ساڵی داهاتوو بچێتە کۆلێژ."),
+                                            "ھیواخوازە ساڵی داھاتوو بچێتە کۆلێژ."),
                                   ],
                                 ),
                               ),
@@ -408,7 +408,7 @@ class EnglishEntrycollege extends StatelessWidget {
                                             "The history department is part of the College of Arts and Sciences."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەشی مێژوو سەر بە کۆلێژی زانست و هونەرە."),
+                                            "بەشی مێژوو سەر بە کۆلێژی زانست و ھونەرە."),
                                   ],
                                 ),
                               ),
@@ -507,7 +507,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: college (Derived forms: colleges)
+- Noun: college (derived forms: colleges)
 1. An institution of higher education created to educate and grant degrees; often a part of a university
  
 2. A complex of buildings in which an institution of higher education is housed

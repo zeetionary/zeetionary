@@ -196,11 +196,11 @@ class EnglishEntryconclusion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆتایی، دوایی، ئاخر، دووماهی، دەرئەنجام،	ئەنجام، ئاکام، ئەنجام‌گیری، بۆدەرکەوتن،	بڕیار (دوایی)،	بەستن، گرێ‌دان، بڕینەوە، گرێبەست
+کوردی: کۆتایی، دوایی، ئاخر، دووماھی، دەرئەنجام،	ئەنجام، ئاکام، ئەنجام‌گیری، بۆدەرکەوتن،	بڕیار (دوایی)،	بەستن، گرێ‌دان، بڕینەوە، گرێبەست
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بڕیارێک کە داوتە لە دوای بیرکردنەوە لە هەموو ئەو زانیارییانەی کە پەیوەندیدارن بە دۆخەکە"),
+                                  "١. (ناو) بڕیارێک کە داوتە لە دوای بیرکردنەوە لە ھەموو ئەو زانیارییانەی کە پەیوەندیدارن بە دۆخەکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryconclusion extends StatelessWidget {
                                             "There is abundant evidence to support this conclusion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەڵگەی زۆر هەیە بۆ پشتگیری ئەم دەرەنجامە."),
+                                            "بەڵگەی زۆر ھەیە بۆ پشتگیری ئەم دەرەنجامە."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntryconclusion extends StatelessWidget {
                                             "Other studies have yielded the same conclusion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێکۆڵینەوەکانی دیکە گەشتوون بە هەمان دەرەنجام."),
+                                            "لێکۆڵینەوەکانی دیکە گەشتوون بە ھەمان دەرەنجام."),
                                   ],
                                 ),
                               ),
@@ -356,7 +356,7 @@ class EnglishEntryconclusion extends StatelessWidget {
                                             "Negotiations led to the successful conclusion of a trade treaty between the two nations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانوستانەکان گەشتن بە کۆتایی پێهێنانی سەرکەوتووانەی ڕێککەوتنێکی بازرگانی لە نێوان دوو وڵاتەکە."),
+                                            "دانوستانەکان گەشتن بە کۆتایی پێھێنانی سەرکەوتووانەی ڕێککەوتنێکی بازرگانی لە نێوان دوو وڵاتەکە."),
                                   ],
                                 ),
                               ),
@@ -455,7 +455,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conclusion (Derived forms: conclusions)
+- Noun: conclusion (derived forms: conclusions)
 1. A position, opinion or judgment reached after consideration (= decision, determination)
 "his conclusion took the evidence into account";
  
@@ -513,7 +513,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 1630,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lGSOWwUvJiU?t=',
+    videoId: 'lGSOWwUvJiU',
     startSeconds: 1900,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dskWEryAAHo?t=',
+    videoId: 'dskWEryAAHo',
     startSeconds: 148,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7LFkN7QGp2c?t=',
+    videoId: '7LFkN7QGp2c',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -638,7 +638,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U1KGRnWjllg?t=',
+    videoId: 'U1KGRnWjllg',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -663,7 +663,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9nvcb7Nydyg?t=',
+    videoId: '9nvcb7Nydyg',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(

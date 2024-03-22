@@ -192,11 +192,11 @@ class EnglishEntryconsortium extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوبەشداری، پێکەوەکاری، یەک‌گرتوویی دارایی (چەند کۆمپانی، بانک و هتد)،	کۆمەڵ
+کوردی: ھاوبەشداری، پێکەوەکاری، یەک‌گرتوویی دارایی (چەند کۆمپانی، بانک و ھتد)،	کۆمەڵ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گرووپێک خەڵک، وڵات، کۆمپانیا، هتد کە پێکەوە کاردەکەن لەسەر بابەتێک"),
+                                  "١. (ناو) گرووپێک خەڵک، وڵات، کۆمپانیا، ھتد کە پێکەوە کاردەکەن لەسەر بابەتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consortium (Derived forms: consortia, consortiums)
+- Noun: consortium (derived forms: consortia, consortiums)
 1. A group of individuals or companies formed to transact some specific business or to promote a common interest (= pool, syndicate)
  
 (law) a person's right to all the normal relationships with their spouse
@@ -342,7 +342,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8s6JMmGJ-dY?t=',
+    videoId: '8s6JMmGJ-dY',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -367,7 +367,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yd1JhZzoS6A?t=',
+    videoId: 'yd1JhZzoS6A',
     startSeconds: 364,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -392,7 +392,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VbOh4x2FfNs?t=',
+    videoId: 'VbOh4x2FfNs',
     startSeconds: 185,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +417,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gXvuJu1kt48?t=',
+    videoId: 'gXvuJu1kt48',
     startSeconds: 9028,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +442,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f66GfsKPTUg?t=',
+    videoId: 'f66GfsKPTUg',
     startSeconds: 980,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e1mJv9pxm7M?t=',
+    videoId: 'e1mJv9pxm7M',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DjC-fwPMp3g?t=',
+    videoId: 'DjC-fwPMp3g',
     startSeconds: 519,
     autoPlay: true,
     params: const YoutubePlayerParams(

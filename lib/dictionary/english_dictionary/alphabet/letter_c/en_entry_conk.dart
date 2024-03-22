@@ -236,7 +236,7 @@ class EnglishEntryconk extends StatelessWidget {
                                             "Her conk was red from the cold weather."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لووتی سووربووبوو بەهۆی کەشە ساردەکەوە."),
+                                            "لووتی سووربووبوو بەھۆی کەشە ساردەکەوە."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conk (Derived forms: conked, conks, conking)
+- Verb: conk (derived forms: conked, conks, conking)
 Usage: informal
 1. Stop because the engine stopped running (= stall)
 "The car conked in the driveway";
@@ -347,7 +347,7 @@ Usage: informal
  
 4. Pass out from weakness, physical or emotional distress due to a loss of blood supply to the brain (= faint, swoon, pass out)
 
-- Noun: conk (Derived forms: conks)
+- Noun: conk (derived forms: conks)
 Usage: Brit, informal (N. Amer: nose)
 1. The organ of smell and entrance to the respiratory tract; the prominent part of the face of man or other mammals (= nose, olfactory organ, beak [informal], honker [informal], hooter [informal], nozzle [informal], snoot [informal], snout [informal], schnozzle [informal], schnoz [informal])
 """,
@@ -382,7 +382,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mscDaDd1ipk?t=',
+    videoId: 'mscDaDd1ipk',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -407,7 +407,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ajbooXnvsE8?t=',
+    videoId: 'ajbooXnvsE8',
     startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y0Kn55XKXzE?t=',
+    videoId: 'Y0Kn55XKXzE',
     startSeconds: 557,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3-T5HshugKU?t=',
+    videoId: '3-T5HshugKU',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DEXeYIRJdws',
+    videoId: 'DEXeYIRJdws',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/On-bOrfQEgk?t=',
+    videoId: 'On-bOrfQEgk',
     startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yaNYPs8rH4s?t=',
+    videoId: 'yaNYPs8rH4s',
     startSeconds: 796,
     autoPlay: true,
     params: const YoutubePlayerParams(

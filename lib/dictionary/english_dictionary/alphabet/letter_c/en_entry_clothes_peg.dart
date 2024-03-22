@@ -208,7 +208,7 @@ class EnglishEntryclothespeg extends StatelessWidget {
                                             "She needed more clothes pegs to hang all the laundry."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستی بە جلگری زیاتر بوو بۆ ئەوەی هەموو جلەکان هەڵبواسێت."),
+                                            "پێویستی بە جلگری زیاتر بوو بۆ ئەوەی ھەموو جلەکان ھەڵبواسێت."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clothes peg (Derived forms: clothes pegs)
+- Noun: clothes peg (derived forms: clothes pegs)
 Usage: Brit (N. Amer: clothespin)
 1. Wood or plastic fastener; for holding clothes on a clothesline (= clothespin [N. Amer], clothes pin [N. Amer], peg [Brit])
 """,

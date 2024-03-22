@@ -191,7 +191,7 @@ class EnglishEntryconcoction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تێکەڵە، چێشتی مجێور،	تێکەڵ‌کردن، پێکەوەنان، لێکدان، گرتنەوە، دروست‌کردن، هەڵبەستن، ڕێکخستن، داهێنان،	ئامادەکاری، گەڵاڵەکاری
+کوردی: تێکەڵە، چێشتی مجێور،	تێکەڵ‌کردن، پێکەوەنان، لێکدان، گرتنەوە، دروست‌کردن، ھەڵبەستن، ڕێکخستن، داھێنان،	ئامادەکاری، گەڵاڵەکاری
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تێکەڵەیەکی نامۆ لە شت"),
@@ -205,7 +205,7 @@ class EnglishEntryconcoction extends StatelessWidget {
                                             "He gave me some of his herbal concoction when I had toothache."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک لە تێکەڵە ڕووەکییەکانیی داپێم کە ددانێشەم بوو."),
+                                            "ھەندێک لە تێکەڵە ڕووەکییەکانیی داپێم کە ددانێشەم بوو."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concoction (Derived forms: concoctions)
+- Noun: concoction (derived forms: concoctions)
 1. Any foodstuff made by combining different ingredients (= mixture, intermixture)
 "he volunteered to taste her latest concoction";
  
@@ -347,7 +347,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 492,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -372,7 +372,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 1070,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/idWpZ63isMo?t=',
+    videoId: 'idWpZ63isMo',
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CURLWPCxe-c?t=',
+    videoId: 'CURLWPCxe-c',
     startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UoSSCUMk-7I?t=',
+    videoId: 'UoSSCUMk-7I',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 1486,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XeHl5Y7m1xM?t=',
+    videoId: 'XeHl5Y7m1xM',
     startSeconds: 589,
     autoPlay: true,
     params: const YoutubePlayerParams(

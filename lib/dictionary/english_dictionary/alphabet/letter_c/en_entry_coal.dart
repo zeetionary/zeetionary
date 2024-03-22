@@ -267,7 +267,7 @@ class EnglishEntrycoal extends StatelessWidget {
                                                     "These men had spent their lives breathing coal dust."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم پیاوانە ژیانیان بەسەر بردووە بە هەڵمژینی تۆزی خەڵووز."),
+                                                    "ئەم پیاوانە ژیانیان بەسەر بردووە بە ھەڵمژینی تۆزی خەڵووز."),
                                           ],
                                         ),
                                       ),
@@ -323,7 +323,7 @@ class EnglishEntrycoal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پارچە خەڵووزێک، بەتایبەتی یەکێک کە هێشتا دەسووتێت"),
+                                  "٢. (ناو) پارچە خەڵووزێک، بەتایبەتی یەکێک کە ھێشتا دەسووتێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -433,12 +433,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coal (Derived forms: coals)
+- Noun: coal (derived forms: coals)
 1. Fossil fuel consisting of carbonized vegetable matter deposited in the Carboniferous period
  
 2. A hot fragment of wood or coal that is left from a fire and is glowing or smouldering (= ember)
 
-- Verb: coal (Derived forms: coaling, coaled, coals)
+- Verb: coal (derived forms: coaling, coaled, coals)
 1. Supply with coal
  
 2. Take in coal

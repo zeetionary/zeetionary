@@ -195,7 +195,7 @@ class EnglishEntryclockwise extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو، هاوەڵکار) بە ئاراستەی میلی کاتژمێر"),
+                                  "١. (ھاوەڵناو، ھاوەڵکار) بە ئاراستەی میلی کاتژمێر"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,7 +233,7 @@ class EnglishEntryclockwise extends StatelessWidget {
                                             "In our picture, clockwise from top left, are James Brown, Helen Taylor and Holly Jones."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە وێنەکەماندا بە ئاراستەی میلی کاتژمێر لە سەرەوە دەستە چەپ، جەیمس براون، هێلن تەیلەر، و هۆڵی جەونز."),
+                                            "لە وێنەکەماندا بە ئاراستەی میلی کاتژمێر لە سەرەوە دەستە چەپ، جەیمس براون، ھێلن تەیلەر، و ھۆڵی جەونز."),
                                   ],
                                 ),
                               ),

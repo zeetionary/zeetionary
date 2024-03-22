@@ -38,7 +38,8 @@ class EnglishEntryconfiscation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Penalties range from 3 months to 5 years in prison and the confiscation of property."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Penalties range from 3 months to 5 years in prison and the confiscation of property."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconfiscations3(String languageCode) async {
@@ -204,7 +205,8 @@ class EnglishEntryconfiscation extends StatelessWidget {
                                         text:
                                             "If found guilty of this crime they face heavy fines, confiscation of goods and even imprisonment."),
                                     ExampleSentenceKurdish(
-                                        text: "وەک وەک تاوانکار ئەم تاوانە بناسرێن ڕووبەڕووی بژێرەی توند، دەستبەسەرداگرتنی کەلوپەل و تەنانەت زیندانیش دەبنەوە."),
+                                        text:
+                                            "وەک وەک تاوانکار ئەم تاوانە بناسرێن ڕووبەڕووی بژێرەی توند، دەستبەسەرداگرتنی کەلوپەل و تەنانەت زیندانیش دەبنەوە."),
                                   ],
                                 ),
                               ),
@@ -212,10 +214,12 @@ class EnglishEntryconfiscation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconfiscations1("en-GB"),
+                                    onPressed: () =>
+                                        speakconfiscations1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconfiscations1("en-US"),
+                                    onPressed: () =>
+                                        speakconfiscations1("en-US"),
                                   ),
                                 ],
                               ),
@@ -223,30 +227,33 @@ class EnglishEntryconfiscation extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Penalties range from 3 months to 5 years in prison and the confiscation of property."),
-                          ExampleSentenceKurdish(
-                          text: "سزا لە نێوان ٣ مانگ بۆ ٥ ساڵ دەبێت لەگەڵ دەستبەسەرداگرتنی زەوی‌وزار."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconfiscations2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconfiscations2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Penalties range from 3 months to 5 years in prison and the confiscation of property."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سزا لە نێوان ٣ مانگ بۆ ٥ ساڵ دەبێت لەگەڵ دەستبەسەرداگرتنی زەوی‌وزار."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconfiscations2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconfiscations2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -330,7 +337,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confiscation (Derived forms: confiscations)
+- Noun: confiscation (derived forms: confiscations)
 1. Seizure of property by an authority (= arrogation)
 """,
   );
@@ -364,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vFYIIR55xbU?t=',
+    videoId: 'vFYIIR55xbU',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IXmEjiBC2sQ?t=',
+    videoId: 'IXmEjiBC2sQ',
     startSeconds: 628,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aqw1BxL2-Ik?t=',
+    videoId: 'aqw1BxL2-Ik',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQG1bHugZRA?t=',
+    videoId: 'ZQG1bHugZRA',
     startSeconds: 260,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GLXj3Mm-C-k?t=',
+    videoId: 'GLXj3Mm-C-k',
     startSeconds: 265,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lejDbulJN54?t=',
+    videoId: 'lejDbulJN54',
     startSeconds: 583,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O7kRQ5WCkpU?t=',
+    videoId: 'O7kRQ5WCkpU',
     startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(

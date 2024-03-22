@@ -198,7 +198,7 @@ class EnglishEntryclumsily extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵکار) بەشێوەیەک کە بە ئاگاییەوە نییە؛ بەشێوەیەکی هەڵەشانە"),
+                                  "١. (ھاوەڵکار) بەشێوەیەک کە بە ئاگاییەوە نییە؛ بەشێوەیەکی ھەڵەشانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntryclumsily extends StatelessWidget {
                                             "He tripped clumsily on the rug and fell flat on his face."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵەشانە لەسەر مافوورەکە کەوت و ڕاست لەسەر دەم کەوت."),
+                                            "ھەڵەشانە لەسەر مافوورەکە کەوت و ڕاست لەسەر دەم کەوت."),
                                   ],
                                 ),
                               ),

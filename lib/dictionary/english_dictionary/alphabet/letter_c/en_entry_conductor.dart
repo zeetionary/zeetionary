@@ -191,11 +191,11 @@ class EnglishEntryconductor extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەڕێوەبەر، کارگێڕ، هەڵسووڕێنەر،	ڕێبەر، سەرتیپی ئۆرکێسترا،	گەیێنەر،	شاگردشۆفیر، شۆفیریار، بلیت‌چی، بلیت‌کۆکەرەوە،	سەرۆک یان بەرپرسی شەمەندەفەر
+کوردی: بەڕێوەبەر، کارگێڕ، ھەڵسووڕێنەر،	ڕێبەر، سەرتیپی ئۆرکێسترا،	گەیێنەر،	شاگردشۆفیر، شۆفیریار، بلیت‌چی، بلیت‌کۆکەرەوە،	سەرۆک یان بەرپرسی شەمەندەفەر
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە لە پێشی ئۆرکێسترایەک، کۆمەڵێک گۆرانیبێژ، هتد دەوەستێت و نمایشەکە بەڕێوە دەبات"),
+                                  "١. (ناو) کەسێک کە لە پێشی ئۆرکێسترایەک، کۆمەڵێک گۆرانیبێژ، ھتد دەوەستێت و نمایشەکە بەڕێوە دەبات"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conductor (Derived forms: conductors)
+- Noun: conductor (derived forms: conductors)
 1. The person who leads a musical group (= music director, director, kapellmeister)
  
 2. A substance that readily conducts e.g. electricity and heat
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RiVfCDDpoxc?t=',
+    videoId: 'RiVfCDDpoxc',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 773,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LP6ppSM3xq4?t=',
+    videoId: 'LP6ppSM3xq4',
     startSeconds: 464,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IesIsKMjB4Y?t=',
+    videoId: 'IesIsKMjB4Y',
     startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KLGSLCaksdY?t=',
+    videoId: 'KLGSLCaksdY',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(

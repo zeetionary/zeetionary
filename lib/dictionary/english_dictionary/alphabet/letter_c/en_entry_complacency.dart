@@ -196,7 +196,7 @@ class EnglishEntrycomplacency extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەستی ڕازیبوون بە توانا و ئەو دۆخەی تێیدایت بەشێوەیەک کە هیچ هەوڵێک بۆ باشتربوون نادەیت"),
+                                  "١. (ناو) ھەستی ڕازیبوون بە توانا و ئەو دۆخەی تێیدایت بەشێوەیەک کە ھیچ ھەوڵێک بۆ باشتربوون نادەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycomplacency extends StatelessWidget {
                                             "What annoys me about these girls is their complacency - they seem to have no desire to expand their horizons."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چی دەربارەی ئەم کچانە بێزارم دەکات خەیاڵ‌تەختییانە، وادەردەکەون هیچ ئارەزوویان نەبێت ئاسۆیان فراوان بکەن."),
+                                            "چی دەربارەی ئەم کچانە بێزارم دەکات خەیاڵ‌تەختییانە، وادەردەکەون ھیچ ئارەزوویان نەبێت ئاسۆیان فراوان بکەن."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycomplacency extends StatelessWidget {
                                             "There's no room for complacency if we want to stay in this competition!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ مەجالێک بۆ خۆلاقایلی نییە ئەگەر بمانەوێت لەم ڕکابەرییەدا بمێنینەوە."),
+                                            "ھیچ مەجالێک بۆ خۆلاقایلی نییە ئەگەر بمانەوێت لەم ڕکابەرییەدا بمێنینەوە."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: complacency (Derived forms: complacencies)
+- Noun: complacency (derived forms: complacencies)
 1. The feeling you have when you are satisfied with yourself (= complacence, self-complacency, self-satisfaction)
 "his complacency was absolutely disgusting";
 """,
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q-nWA0WeF98?t=',
+    videoId: 'Q-nWA0WeF98',
     startSeconds: 791,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cWHt3lMUals?t=',
+    videoId: 'cWHt3lMUals',
     startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/72m0cK423-Q?t=',
+    videoId: '72m0cK423-Q',
     startSeconds: 358,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D8iMBvmBNgM?t=',
+    videoId: 'D8iMBvmBNgM',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LPBEPNmSlec?t=',
+    videoId: 'LPBEPNmSlec',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WvE4YBLK2Ic?t=',
+    videoId: 'WvE4YBLK2Ic',
     startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sG1nucaV_dQ?t=',
+    videoId: 'sG1nucaV_dQ',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(

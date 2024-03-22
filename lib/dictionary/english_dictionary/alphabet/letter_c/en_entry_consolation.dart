@@ -197,7 +197,7 @@ class EnglishEntryconsolation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شتێک کە وات لێدەکات هەست بە باشی بکەیت کە دڵتەنگ یان نائومێدیت"),
+                                  "١. (ناو) شتێک کە وات لێدەکات ھەست بە باشی بکەیت کە دڵتەنگ یان نائومێدیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryconsolation extends StatelessWidget {
                                             "The children were a great consolation to him when his wife died."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان دڵدانەوەی باشبوون کە هاوژینەکەی گیانی لەدەستدا."),
+                                            "منداڵەکان دڵدانەوەی باشبوون کە ھاوژینەکەی گیانی لەدەستدا."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryconsolation extends StatelessWidget {
                                             "At least you weren’t hurt—that’s one consolation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ نەبێت سەلامەتیت، ئەوە مایەی دڵدانەوەیە."),
+                                            "ھیچ نەبێت سەلامەتیت، ئەوە مایەی دڵدانەوەیە."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consolation (Derived forms: consolations)
+- Noun: consolation (derived forms: consolations)
 1. The comfort you feel when consoled in times of disappointment (= solace, solacement)
 "second place was no consolation to him";
  
@@ -407,7 +407,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/APmTcgniVlw?t=',
+    videoId: 'APmTcgniVlw',
     startSeconds: 225,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ro9WnhPNOhU?t=',
+    videoId: 'Ro9WnhPNOhU',
     startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LsNg-KrFxCA?t=',
+    videoId: 'LsNg-KrFxCA',
     startSeconds: 620,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JR3z8lq2cNM?t=',
+    videoId: 'JR3z8lq2cNM',
     startSeconds: 543,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6vWXjKXtLnU?t=',
+    videoId: '6vWXjKXtLnU',
     startSeconds: 470,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7GP_ymLQ-FU?t=',
+    videoId: '7GP_ymLQ-FU',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8uc3NzU7J4?t=',
+    videoId: 'T8uc3NzU7J4',
     startSeconds: 969,
     autoPlay: true,
     params: const YoutubePlayerParams(

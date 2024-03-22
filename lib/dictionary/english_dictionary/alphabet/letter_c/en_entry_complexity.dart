@@ -196,7 +196,7 @@ class EnglishEntrycomplexity extends StatelessWidget {
 کوردی: ئاڵۆزی، پێچەڵاوپێچی، سەختی، دژواری، ئاریشی، گرفتی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) ئاڵۆزی؛ پێکهاتوو لە بەشی زۆر"),
+                              text: "١. (ناو) ئاڵۆزی؛ پێکھاتوو لە بەشی زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntrycomplexity extends StatelessWidget {
                                             "Only now did he understand the full complexity of the problem."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها ئێستا لە ئاڵۆزی تەواوی کێشەکە تێدەگات."),
+                                            "تەنھا ئێستا لە ئاڵۆزی تەواوی کێشەکە تێدەگات."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: complexity (Derived forms: complexities)
+- Noun: complexity (derived forms: complexities)
 1. The quality of being intricate and compounded (= complexness)
 "he enjoyed the complexity of modern computers";
  
@@ -402,7 +402,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o_ZuWbX-CyE?t=',
+    videoId: 'o_ZuWbX-CyE',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +427,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AzanFEBnHhY?t=',
+    videoId: 'AzanFEBnHhY',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +452,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DFiViBIJoFA?t=',
+    videoId: 'DFiViBIJoFA',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +477,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    videoId: '3RkhZgRNC1k',
     startSeconds: 1152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 1497,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Unzc731iCUY?t=',
+    videoId: 'Unzc731iCUY',
     startSeconds: 2016,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(

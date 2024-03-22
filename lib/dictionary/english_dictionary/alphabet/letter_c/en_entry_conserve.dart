@@ -229,7 +229,7 @@ class EnglishEntryconserve extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بەکارهێنانی کەمترین ڕێژە لە شتێک بۆ ئەوەی بەشی زۆرترین ماوە بکات"),
+                                  "٢. (ناو) بەکارھێنانی کەمترین ڕێژە لە شتێک بۆ ئەوەی بەشی زۆرترین ماوە بکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntryconserve extends StatelessWidget {
                                             "Renewable energy resources can help conserve fossil fuels and reduce carbon emissions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرچاوەکانی وزەی نوێبووەوە دەکرێت یارمەتیدەر بن بۆ پاراستنی سووتەمەنی بەبەردبوو و کەمکردنەوەی دەرهاویشتەی کاربۆن."),
+                                            "سەرچاوەکانی وزەی نوێبووەوە دەکرێت یارمەتیدەر بن بۆ پاراستنی سووتەمەنی بەبەردبوو و کەمکردنەوەی دەرھاویشتەی کاربۆن."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryconserve extends StatelessWidget {
                                             "I'm not being lazy - I'm just conserving my energy for later."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەمەڵ نیم، تەنها وزەم بۆ داهاتوو هەڵدەگرم."),
+                                            "تەمەڵ نیم، تەنھا وزەم بۆ داھاتوو ھەڵدەگرم."),
                                   ],
                                 ),
                               ),
@@ -398,10 +398,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conserve (Derived forms: conserves)
+- Noun: conserve (derived forms: conserves)
 1. Fruit preserved by cooking with sugar (= preserve, conserves, preserves)
 
-- Verb: conserve (Derived forms: conserves)
+- Verb: conserve (derived forms: conserves)
 1. Keep constant through physical or chemical reactions or evolutionary change
 "Energy is conserved in this process"
  
@@ -445,7 +445,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    videoId: '-cPdImejxEQ',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T15gXm6ha_I?t=',
+    videoId: 'T15gXm6ha_I',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zJtJH46dyDE?t=',
+    videoId: 'zJtJH46dyDE',
     startSeconds: 920,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ir3eJ1t13fk?t=',
+    videoId: 'Ir3eJ1t13fk',
     startSeconds: 2782,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dcnPK1HYSqQ?t=',
+    videoId: 'dcnPK1HYSqQ',
     startSeconds: 830,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vMZfyEy_jpI?t=',
+    videoId: 'vMZfyEy_jpI',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lSoWxG30rb0?t=',
+    videoId: 'lSoWxG30rb0',
     startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(

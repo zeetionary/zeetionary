@@ -196,11 +196,11 @@ class EnglishEntryconcession extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێدان، بەدەستەوەدان، سپاردن،	ئیمتیاز، تایبەت‌ماف،	پەسندکردن، قەبووڵ(کردن)، خۆبەدەستەوەدان، مل‌نان، مل‌دان، مل‌کەچکردن،	سازان، گونجان، ڕێک‌کەوتن،	(لێ)داشکاندن، کەم‌کردنەوە، مایەدانان، لێدەرکردن، لێ‌فڕێدان،	ئیمتیاز یان مافی بەکارهێنان 
+کوردی: پێدان، بەدەستەوەدان، سپاردن،	ئیمتیاز، تایبەت‌ماف،	پەسندکردن، قەبووڵ(کردن)، خۆبەدەستەوەدان، مل‌نان، مل‌دان، مل‌کەچکردن،	سازان، گونجان، ڕێک‌کەوتن،	(لێ)داشکاندن، کەم‌کردنەوە، مایەدانان، لێدەرکردن، لێ‌فڕێدان،	ئیمتیاز یان مافی بەکارھێنان 
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شتێک کە ڕێگەی پێدەدەیت یان دەیکەیت، یان دەهێڵیت کەسێک شتێکی هەبێت، بۆ کۆتایی هێنان بە مشتومڕێک یان دۆخی سەخت هێوربکەیتەوە"),
+                                  "١. (ناو) شتێک کە ڕێگەی پێدەدەیت یان دەیکەیت، یان دەھێڵیت کەسێک شتێکی ھەبێت، بۆ کۆتایی ھێنان بە مشتومڕێک یان دۆخی سەخت ھێوربکەیتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryconcession extends StatelessWidget {
                                             "They remained unwilling to make any substantial concessions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نائامادە مانەوە بۆ هەر سازانێکی گەورە."),
+                                            "نائامادە مانەوە بۆ ھەر سازانێکی گەورە."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntryconcession extends StatelessWidget {
                                             "Tickets are £3; there is a £1 concession for students."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بلیت ٣ پاوەندە؛ ١ پاوەند داشکاندن بۆ خوێندکاران هەیە."),
+                                            "بلیت ٣ پاوەندە؛ ١ پاوەند داشکاندن بۆ خوێندکاران ھەیە."),
                                   ],
                                 ),
                               ),
@@ -348,7 +348,7 @@ class EnglishEntryconcession extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) مافێک یان سوودمەندییەک کە دەرێت بە کەسێک، دامەزراوەیەک، هتد، بەتایبەتی لەلایەن حکومەت یان خاوەن کارەوە"),
+                                  "٤. (ناو) مافێک یان سوودمەندییەک کە دەرێت بە کەسێک، دامەزراوەیەک، ھتد، بەتایبەتی لەلایەن حکومەت یان خاوەن کارەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -458,7 +458,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concession (Derived forms: concessions)
+- Noun: concession (derived forms: concessions)
 1. A contract granting the right to operate a subsidiary business (= grant)
 "he got the beer concession at the ball park";
  
@@ -500,7 +500,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 922,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D-qQneOnJl0?t=',
+    videoId: 'D-qQneOnJl0',
     startSeconds: 616,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YCKO1qgotHY?t=',
+    videoId: 'YCKO1qgotHY',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j4kI2h3iotA?t=',
+    videoId: 'j4kI2h3iotA',
     startSeconds: 2149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nNmRDRfnX6U?t=',
+    videoId: 'nNmRDRfnX6U',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -625,7 +625,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YHjr1EBmyIY?t=',
+    videoId: 'YHjr1EBmyIY',
     startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -650,7 +650,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tYrdMjVXyNg?t=',
+    videoId: 'tYrdMjVXyNg',
     startSeconds: 3953,
     autoPlay: true,
     params: const YoutubePlayerParams(

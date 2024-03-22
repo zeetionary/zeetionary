@@ -234,7 +234,7 @@ class EnglishEntrycontour extends StatelessWidget {
                                             "She traced the contours of his face with her finger."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەنجەیس هێنا بە قەراغەکانی ڕووخساریدا."),
+                                            "پەنجەیس ھێنا بە قەراغەکانی ڕووخساریدا."),
                                   ],
                                 ),
                               ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contour (Derived forms: contours)
+- Noun: contour (derived forms: contours)
 1. A line drawn on a map connecting points of equal height (= contour line)
  
 2. Any spatial attributes (especially as defined by outline) (= shape, form, configuration, conformation)
@@ -342,7 +342,7 @@ ${englishMeaningConst.text}
 3. A feature (or the order or arrangement of features) of anything having a complex structure
 "the contours of the melody"; "it defines a major contour of this administration"
 
-- Verb: contour (Derived forms: contours, contouring, contoured)
+- Verb: contour (derived forms: contours, contouring, contoured)
 1. Form the contours of
 """,
   );
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vZgTuZ_lDgg?t=',
+    videoId: 'vZgTuZ_lDgg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZLVPaPY4RHs?t=',
+    videoId: 'ZLVPaPY4RHs',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_2y4M6qCmNE?t=',
+    videoId: '_2y4M6qCmNE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    videoId: 'lVoGZiL-kns',
     startSeconds: 313,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CXvG2CBJ3SE?t=',
+    videoId: 'CXvG2CBJ3SE',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mvY7VtKvf7o?t=',
+    videoId: 'mvY7VtKvf7o',
     startSeconds: 546,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fd4LMl5i1nQ?t=',
+    videoId: 'Fd4LMl5i1nQ',
     startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(

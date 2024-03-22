@@ -193,7 +193,7 @@ class EnglishEntryconditional extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مەرجی، مەرج‌دار، بەرمەرج، بەشەرت، پێبەند، بەند,	ناڕوون، نادیار، نامەعلووم،	(ڕێزمان) مەرجی، مەرج‌دەربڕ، گەرینی، گومان‌داری، هەکانی، ڕستە یان دەستەوشەی مەرجی، قاڵبی مەرجی یان مەرج‌دەربڕ
+کوردی: مەرجی، مەرج‌دار، بەرمەرج، بەشەرت، پێبەند، بەند,	ناڕوون، نادیار، نامەعلووم،	(ڕێزمان) مەرجی، مەرج‌دەربڕ، گەرینی، گومان‌داری، ھەکانی، ڕستە یان دەستەوشەی مەرجی، قاڵبی مەرجی یان مەرج‌دەربڕ
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) مەرجدار"),
@@ -240,7 +240,7 @@ class EnglishEntryconditional extends StatelessWidget {
                                             "\"If I won a lot of money, I'd travel the world\" is an example of a conditional (sentence)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "\"ئەگەر پارەیەکی زۆر ببەمەوە بە جیهاندا گەشت دەکەم\" نموونەیەکی ڕستەی مەرجییە."),
+                                            "\"ئەگەر پارەیەکی زۆر ببەمەوە بە جیھاندا گەشت دەکەم\" نموونەیەکی ڕستەی مەرجییە."),
                                   ],
                                 ),
                               ),
@@ -379,7 +379,7 @@ ${englishMeaningConst.text}
  
 2. Qualified by reservations
 
-- Noun: conditional (Derived forms: conditionals)
+- Noun: conditional (derived forms: conditionals)
 1. A statement that depends on a condition being true or false
 """,
   );
@@ -413,7 +413,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJNtfyq3TDE?t=',
+    videoId: 'LJNtfyq3TDE',
     startSeconds: 872,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 1586,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XjEWkrYpFAE',
+    videoId: 'XjEWkrYpFAE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ljjiw9mC_Cg?t=',
+    videoId: 'Ljjiw9mC_Cg',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tcOLyvkBc48?t=',
+    videoId: 'tcOLyvkBc48',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9uH8-Gj8XrM?t=',
+    videoId: '9uH8-Gj8XrM',
     startSeconds: 1348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RRuovINxpPc?t=',
+    videoId: 'RRuovINxpPc',
     startSeconds: 384,
     autoPlay: true,
     params: const YoutubePlayerParams(

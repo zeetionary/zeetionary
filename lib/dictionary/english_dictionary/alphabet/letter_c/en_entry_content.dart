@@ -420,7 +420,7 @@ class EnglishEntrycontent extends StatelessWidget {
                                             "She picked up the glass and drank the contents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گڵاسەکەی هەڵگرت و ئەوەی لە ناوی بوو خواردییەوە."),
+                                            "گڵاسەکەی ھەڵگرت و ئەوەی لە ناوی بوو خواردییەوە."),
                                   ],
                                 ),
                               ),
@@ -470,7 +470,7 @@ class EnglishEntrycontent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئەو بابەتەی کتێبێک، وتارێک، پڕۆگرامێک، هتد باسی دەکات"),
+                                  "٣. (ناو) ئەو بابەتەی کتێبێک، وتارێک، پڕۆگرامێک، ھتد باسی دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -481,7 +481,7 @@ class EnglishEntrycontent extends StatelessWidget {
                                             "Her poetry has a good deal of political content."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هۆنراوەکانی ڕێژەیەکی زۆر لە ناوەڕۆکی سیاسییان تێدایە."),
+                                            "ھۆنراوەکانی ڕێژەیەکی زۆر لە ناوەڕۆکی سیاسییان تێدایە."),
                                   ],
                                 ),
                               ),
@@ -571,7 +571,7 @@ class EnglishEntrycontent extends StatelessWidget {
                                             "We plan to spend more on creating content for the website."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلانمان هەیە زیاتر خەرج بکەین لە درووستکردنی بابەت بۆ وێبسایتەکە."),
+                                            "پلانمان ھەیە زیاتر خەرج بکەین لە درووستکردنی بابەت بۆ وێبسایتەکە."),
                                   ],
                                 ),
                               ),
@@ -618,7 +618,7 @@ class EnglishEntrycontent extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (ناو) ئاسوودە بەوەی هەتە"),
+                              text: "٦. (ناو) ئاسوودە بەوەی ھەتە"),
                           Row(
                             children: [
                               const Expanded(
@@ -629,7 +629,7 @@ class EnglishEntrycontent extends StatelessWidget {
                                             "Not content with stealing my boyfriend (= not thinking that this was enough), she has turned all my friends against me."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەک ئەوەی ئاسوودە بووبێت بە دزینی دڵدارە کوڕەکەم، هەموو هاوڕێکانمی دژم هانداوە."),
+                                            "نەک ئەوەی ئاسوودە بووبێت بە دزینی دڵدارە کوڕەکەم، ھەموو ھاوڕێکانمی دژم ھانداوە."),
                                   ],
                                 ),
                               ),
@@ -732,7 +732,7 @@ class EnglishEntrycontent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) هەستی دڵخۆشی و ئاسوودەیی بەوەی هەتە"),
+                                  "٨. (ناو) ھەستی دڵخۆشی و ئاسوودەیی بەوەی ھەتە"),
                           Row(
                             children: [
                               const Expanded(
@@ -743,7 +743,7 @@ class EnglishEntrycontent extends StatelessWidget {
                                             "She stood for a moment looking with content at her husband."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ ساتێک وەستا بە ڕەزامەندییەوە لە هاوسەرەکەی ڕوانی."),
+                                            "بۆ ساتێک وەستا بە ڕەزامەندییەوە لە ھاوسەرەکەی ڕوانی."),
                                   ],
                                 ),
                               ),
@@ -763,7 +763,7 @@ class EnglishEntrycontent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) پەسەندکردن و ڕازیبوون بەوەی هەتە و هەوڵی باشتر نەدەیت"),
+                                  "٩. (کردار) پەسەندکردن و ڕازیبوون بەوەی ھەتە و ھەوڵی باشتر نەدەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -859,7 +859,7 @@ class EnglishEntrycontent extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Nothing would content her."),
                                     ExampleSentenceKurdish(
-                                        text: "هیچ هێوری نەدەکردەوە."),
+                                        text: "ھیچ ھێوری نەدەکردەوە."),
                                   ],
                                 ),
                               ),
@@ -958,7 +958,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: content (Derived forms: contents)
+- Noun: content (derived forms: contents)
 1. (usually plural) everything that is included in a collection and that is held or included in something (= contents)
 "he emptied the contents of his pockets"; "the two groups were similar in content";
  
@@ -977,11 +977,11 @@ ${englishMeaningConst.text}
 1. Satisfied or showing satisfaction with things as they are (= contented)
 "a content smile";
 
-- Noun: content (Derived forms: contents)
+- Noun: content (derived forms: contents)
 1. The state of being contented with your situation in life (= contentedness)
 "they could read to their hearts' content";
 
-- Verb: content (Derived forms: contents, contenting, contented)
+- Verb: content (derived forms: contents, contenting, contented)
 1. Satisfy in a limited way
 "He content[2]ed himself with one glass of beer per day"
  
@@ -1019,7 +1019,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1044,7 +1044,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 668,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1069,7 +1069,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j1BfO7VlIw4?t=',
+    videoId: 'j1BfO7VlIw4',
     startSeconds: 622,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1094,7 +1094,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y1sF6ZeASU0?t=',
+    videoId: 'y1sF6ZeASU0',
     startSeconds: 727,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1119,7 +1119,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oIdLlERQWsE?t=',
+    videoId: 'oIdLlERQWsE',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1144,7 +1144,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7nPknkgc-Ps?t=',
+    videoId: '7nPknkgc-Ps',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1169,7 +1169,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jaRcbpN_KlM?t=',
+    videoId: 'jaRcbpN_KlM',
     startSeconds: 1716,
     autoPlay: true,
     params: const YoutubePlayerParams(

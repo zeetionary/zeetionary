@@ -197,7 +197,7 @@ class EnglishEntrycoerce extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) زۆرکردن لە کەسێک بۆ ئەوەی شتێک بکات بە بەکارهێنانی هەڕەشە"),
+                                  "١. (کردار) زۆرکردن لە کەسێک بۆ ئەوەی شتێک بکات بە بەکارھێنانی ھەڕەشە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycoerce extends StatelessWidget {
                                             "She hadn’t coerced him in any way."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هیچ شێوەیەک زۆری لێ نەکردبوو."),
+                                            "بە ھیچ شێوەیەک زۆری لێ نەکردبوو."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrycoerce extends StatelessWidget {
                                             "They tried to coerce him to sign away his rights."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵیان دا زۆری لێ بکەن دەستبەرداری مافەکانی بێت."),
+                                            "ھەوڵیان دا زۆری لێ بکەن دەستبەرداری مافەکانی بێت."),
                                   ],
                                 ),
                               ),
@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coerce (Derived forms: coerced, coerces, coercing)
+- Verb: coerce (derived forms: coerced, coerces, coercing)
 1. To cause to do through pressure or necessity, by physical, moral or intellectual means (= hale [archaic], squeeze, pressure, force)
 "He coerced her for information";
 """,

@@ -211,7 +211,7 @@ class EnglishEntrycobbles extends StatelessWidget {
                                             "The cart rumbled over the cobbles."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "عەرەبانەکە زرمەی دەهات بەسەر خڕکەبەردەکاندا."),
+                                            "عەرەبانەکە زرمەی دەھات بەسەر خڕکەبەردەکاندا."),
                                   ],
                                 ),
                               ),
@@ -310,7 +310,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cobble (Derived forms: cobbles) 
+- Noun: cobble (derived forms: cobbles) 
 1. Rectangular paving stone with curved top; once used to make roads (= cobblestone, sett)
 """,
   );

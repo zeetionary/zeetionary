@@ -591,7 +591,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرنج، تێبینی، بال، بایەخ، وردبوونەوە، خوردبوونەوە، تێڕامان، قووڵ‌بوونەوە، تێ‌ڕوانین، بیرکردنەوە، سەرنج‌پێدان، ڕەچاوکردن، بایەخ‌پێدان، بەهێندگرتن، ڕاگرتنی دڵی خەڵک، بەتەنگەوەبوون، پەیجۆری، لێکدانەوە، لێکۆڵینەوە،	پرس، بابەت، مژار،	هۆ، بەڵگە،	پاداشت، دەس‌خۆشانە،	پارە،	گرنگایەتی
+کوردی: سەرنج، تێبینی، بال، بایەخ، وردبوونەوە، خوردبوونەوە، تێڕامان، قووڵ‌بوونەوە، تێ‌ڕوانین، بیرکردنەوە، سەرنج‌پێدان، ڕەچاوکردن، بایەخ‌پێدان، بەھێندگرتن، ڕاگرتنی دڵی خەڵک، بەتەنگەوەبوون، پەیجۆری، لێکدانەوە، لێکۆڵینەوە،	پرس، بابەت، مژار،	ھۆ، بەڵگە،	پاداشت، دەس‌خۆشانە،	پارە،	گرنگایەتی
 """),
                           const DefinitionKurdish(
                               text:
@@ -699,7 +699,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                                     "There needs to be a consideration of the legal issues involved."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەبێت تێ‌ڕوانینی بابەتە یاساییەکان هەبن کە دێنە ئاراوە."),
+                                                    "دەبێت تێ‌ڕوانینی بابەتە یاساییەکان ھەبن کە دێنە ئاراوە."),
                                           ],
                                         ),
                                       ),
@@ -759,7 +759,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                                     "He pointed out several problems that required more detailed consideration."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئاماژەی بە ژمارەیەک کێشە کرد کە پێویستیان بە تێرامانی ورد هەبوو."),
+                                                    "ئاماژەی بە ژمارەیەک کێشە کرد کە پێویستیان بە تێرامانی ورد ھەبوو."),
                                           ],
                                         ),
                                       ),
@@ -789,7 +789,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                                     "A tribunal has decided the case needs further consideration."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دادگایەک بڕیاری داوە کەیسەکە پێویستی بە وردبوونەوەی زیاتر هەیە."),
+                                                    "دادگایەک بڕیاری داوە کەیسەکە پێویستی بە وردبوونەوەی زیاتر ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -819,7 +819,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                                     "Both options require thoughtful consideration of the costs."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەردوو هەڵبژاردەکە پێویستیان بە ڕەچاوکردنی وردی تێچوو هەیە."),
+                                                    "ھەردوو ھەڵبژاردەکە پێویستیان بە ڕەچاوکردنی وردی تێچوو ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -967,7 +967,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) خاسیەتی ڕەچاوکردنی هەست و سۆزی کەسانی دیکە و بیرکردنەوە لە حەز و ئاواتەکانیان"),
+                                  "٣. (ناو) خاسیەتی ڕەچاوکردنی ھەست و سۆزی کەسانی دیکە و بیرکردنەوە لە حەز و ئاواتەکانیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -978,7 +978,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                             "Their kindness and consideration will not be forgotten."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "میهرەبانی و دڵفراوانییان لەبیرناکرێن."),
+                                            "میھرەبانی و دڵفراوانییان لەبیرناکرێن."),
                                   ],
                                 ),
                               ),
@@ -1008,7 +1008,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                             "They showed no consideration whatsoever for my feelings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ تێگەشتنێکیان بۆ هەستەکانم بە هیچ شێوەیەک پیشان نەدا."),
+                                            "ھیچ تێگەشتنێکیان بۆ ھەستەکانم بە ھیچ شێوەیەک پیشان نەدا."),
                                   ],
                                 ),
                               ),
@@ -1038,7 +1038,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                                             "She was shocked by his lack of consideration for others."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شۆک بوو بە بێ‌هەستیی بۆ کەسانی دیکە."),
+                                            "شۆک بوو بە بێ‌ھەستیی بۆ کەسانی دیکە."),
                                   ],
                                 ),
                               ),
@@ -1202,7 +1202,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consideration (Derived forms: considerations)
+- Noun: consideration (derived forms: considerations)
 1. The process of giving careful thought to something
  
 2. Information that should be kept in mind when making a decision (= circumstance, condition)
@@ -1249,7 +1249,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xdE4amM65uc?t=',
+    videoId: 'xdE4amM65uc',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1274,7 +1274,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tUR9UIscLGU?t=',
+    videoId: 'tUR9UIscLGU',
     startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1299,7 +1299,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bp6kmcno9SI?t=',
+    videoId: 'bp6kmcno9SI',
     startSeconds: 758,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1324,7 +1324,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V1GKxnM2L7w?t=',
+    videoId: 'V1GKxnM2L7w',
     startSeconds: 919,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1349,7 +1349,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K_rDD9P0438?t=',
+    videoId: 'K_rDD9P0438',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1374,7 +1374,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0zwNZJbM-Gw?t=',
+    videoId: '0zwNZJbM-Gw',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1399,7 +1399,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    videoId: '0sazcZ8wwZc',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -191,11 +191,11 @@ class EnglishEntryconfederation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆنفێدراسیۆن، هاوپەیمانی، یەکێتی، یەک‌کەوتوویی (بۆ پەرژەوەندی دوولایەنە)
+کوردی: کۆنفێدراسیۆن، ھاوپەیمانی، یەکێتی، یەک‌کەوتوویی (بۆ پەرژەوەندی دوولایەنە)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دامەزراوەیەک کە لە کۆمەڵێک وڵات، بازرگانی، هتد پێکهاتووە بۆ یارمەتیدانی یەکدی"),
+                                  "١. (ناو) دامەزراوەیەک کە لە کۆمەڵێک وڵات، بازرگانی، ھتد پێکھاتووە بۆ یارمەتیدانی یەکدی"),
                           Row(
                             children: [
                               const Expanded(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confederation (Derived forms: confederations)
+- Noun: confederation (derived forms: confederations)
 1. The state of being allied or confederated (= alliance)
  
 2. A union of political organizations (= confederacy, federation)
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1081,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gHjbay54F4U?t=',
+    videoId: 'gHjbay54F4U',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9uAOXQ8U4N8?t=',
+    videoId: '9uAOXQ8U4N8',
     startSeconds: 638,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ociHVDWxDaY?t=',
+    videoId: 'ociHVDWxDaY',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BlKVfJg4hHE?t=',
+    videoId: 'BlKVfJg4hHE',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v-Ymf_hTbUM?t=',
+    videoId: 'v-Ymf_hTbUM',
     startSeconds: 1648,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6lBBPSdnn_E?t=',
+    videoId: '6lBBPSdnn_E',
     startSeconds: 403,
     autoPlay: true,
     params: const YoutubePlayerParams(

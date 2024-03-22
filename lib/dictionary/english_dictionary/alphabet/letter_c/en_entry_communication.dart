@@ -201,11 +201,11 @@ class EnglishEntrycommunication extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕاگەیاندن، دانەزانین،	پێوەندی، تێکەڵی.	گەیاندن،	زانیاری، هەواڵ، پەیام، وەڵام، پێغام، میساژ،	گرتنەوە، ڕاگوێستن، تەشەنە (کردن) 
+کوردی: ڕاگەیاندن، دانەزانین،	پێوەندی، تێکەڵی.	گەیاندن،	زانیاری، ھەواڵ، پەیام، وەڵام، پێغام، میساژ،	گرتنەوە، ڕاگوێستن، تەشەنە (کردن) 
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دەربڕین و ئاڵوگۆڕی بیرۆکە و هەست و سۆز، یان پێدانی زانیاری"),
+                                  "١. (ناو) دەربڕین و ئاڵوگۆڕی بیرۆکە و ھەست و سۆز، یان پێدانی زانیاری"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,7 +246,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                                             "The campaign will appear across all communication channels."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمپینەکە لە هەموو ڕێگاکانی پەیوەندییەوە دەردەکەوێت."),
+                                            "کەمپینەکە لە ھەموو ڕێگاکانی پەیوەندییەوە دەردەکەوێت."),
                                   ],
                                 ),
                               ),
@@ -309,7 +309,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                                                     "I haven't had any communication with him for several years."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بۆ چەندین ساڵە هیچ گفتوگۆم لەگەڵیدا نەبووە."),
+                                                    "بۆ چەندین ساڵە ھیچ گفتوگۆم لەگەڵیدا نەبووە."),
                                           ],
                                         ),
                                       ),
@@ -339,7 +339,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                                                     "Letters are their only means of communication."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نامە تەنها ئامرازی گفتوگۆیانە."),
+                                                    "نامە تەنھا ئامرازی گفتوگۆیانە."),
                                           ],
                                         ),
                                       ),
@@ -395,7 +395,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕێگاکانی ناردنی زانیاری، بەتایبەتی موبایل، ڕادیۆ، کۆمپیوتەر، هتد، یان ڕێگا و سکەی شەمەندەفەر"),
+                                  "٢. (ناو) ڕێگاکانی ناردنی زانیاری، بەتایبەتی موبایل، ڕادیۆ، کۆمپیوتەر، ھتد، یان ڕێگا و سکەی شەمەندەفەر"),
                           Row(
                             children: [
                               const Expanded(
@@ -406,7 +406,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                                             "The new airport will improve communications between the islands."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فڕۆکەخانەکە تازەکە گواستنەوە لە نێوان دوورگەکاندا بەهێز دەکات."),
+                                            "فڕۆکەخانەکە تازەکە گواستنەوە لە نێوان دوورگەکاندا بەھێز دەکات."),
                                   ],
                                 ),
                               ),
@@ -436,7 +436,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                                             "Paris has good rail communications with other major cities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاریس ڕێگای ئاسنی باشی هاتووچۆی هەیە لەگەڵ شارەکانی دیکەدا."),
+                                            "پاریس ڕێگای ئاسنی باشی ھاتووچۆی ھەیە لەگەڵ شارەکانی دیکەدا."),
                                   ],
                                 ),
                               ),
@@ -458,7 +458,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) نامەیەک، پەیوەندییەکی تەلەفۆنی، هتد"),
+                                  "٣. (ناو) نامەیەک، پەیوەندییەکی تەلەفۆنی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -570,7 +570,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: communication (Derived forms: communications)
+- Noun: communication (derived forms: communications)
 1. The activity of communicating; the activity of conveying information (= communicating)
 "they could not act without official communication from Moscow";
  

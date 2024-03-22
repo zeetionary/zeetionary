@@ -267,7 +267,7 @@ class EnglishEntrycleavage extends StatelessWidget {
                                             "There is a marked cleavage between the parties about the government's defence policy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دووبەرەکییەکی زۆر هەیە لە نێوان پارتەکاندا لەسەر سیاسەتی بەرگری حکومەت."),
+                                            "دووبەرەکییەکی زۆر ھەیە لە نێوان پارتەکاندا لەسەر سیاسەتی بەرگری حکومەت."),
                                   ],
                                 ),
                               ),
@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cleavage (Derived forms: cleavages)
+- Noun: cleavage (derived forms: cleavages)
 1. The state of being split or cleft
 "there was a cleavage between the liberal and conservative members"
  

@@ -195,7 +195,7 @@ class EnglishEntryclockwork extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بەشێکی ئامێرێک کە لە ویل و سپرینگ پێکهاتووە و وەک کاتژمێر خۆکارانە کاردەکات"),
+                                  "١. (ناو) بەشێکی ئامێرێک کە لە ویل و سپرینگ پێکھاتووە و وەک کاتژمێر خۆکارانە کاردەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clockwork (Derived forms: clockworks)
+- Noun: clockwork (derived forms: clockworks)
 1. Any mechanism of geared wheels that is driven by a coiled spring; resembles the works of a mechanical clock 
 "the rocket launch went off like clockwork"
 """,

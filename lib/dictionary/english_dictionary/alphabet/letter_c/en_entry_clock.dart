@@ -270,7 +270,7 @@ class EnglishEntryclock extends StatelessWidget {
                                                     "The clock is right/wrong."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کاتژمێرەکە ڕاستە/هەڵەیە."),
+                                                    "کاتژمێرەکە ڕاستە/ھەڵەیە."),
                                           ],
                                         ),
                                       ),
@@ -359,7 +359,7 @@ class EnglishEntryclock extends StatelessWidget {
                                                     "The sound of a clock ticking somewhere in the house kept him awake."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەنگی کاتژمێرێک کە لە شوێنێکی ماڵەکەدا چرکەی داهات بە بێداری هێشتبوویەوە."),
+                                                    "دەنگی کاتژمێرێک کە لە شوێنێکی ماڵەکەدا چرکەی داھات بە بێداری ھێشتبوویەوە."),
                                           ],
                                         ),
                                       ),
@@ -424,7 +424,7 @@ class EnglishEntryclock extends StatelessWidget {
                                             "My car's only got 10,000 miles on the clock."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکەم تەنها ١٠,٠٠٠ میل چووە لەسەر گێچەکە."),
+                                            "ئۆتۆمبێلەکەم تەنھا ١٠,٠٠٠ میل چووە لەسەر گێچەکە."),
                                   ],
                                 ),
                               ),
@@ -646,10 +646,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clock (Derived forms: clocks)
+- Noun: clock (derived forms: clocks)
 1. A timepiece that shows the time of day
 
-- Verb: clock (Derived forms: clocks, clocking, clocked)
+- Verb: clock (derived forms: clocks, clocking, clocked)
 1. Measure the time or duration of an event or action or the person who performs an action in a certain period of time (= time)
 "he clocked the runners";
  

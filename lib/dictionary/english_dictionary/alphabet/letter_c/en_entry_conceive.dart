@@ -200,7 +200,7 @@ class EnglishEntryconceive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) گەڵاڵەکردنی بیرۆکەیەک، پلانێک، هتد لە مێشکتدا"),
+                                  "١. (کردار) گەڵاڵەکردنی بیرۆکەیەک، پلانێک، ھتد لە مێشکتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -296,7 +296,7 @@ class EnglishEntryconceive extends StatelessWidget {
                                             "I cannot conceive (= I do not believe) (that) he would wish to harm us."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم باوەڕ بکەم هیوای ئەوەی خواست زیانمان پێ بگەیەنێت."),
+                                            "ناتوانم باوەڕ بکەم ھیوای ئەوەی خواست زیانمان پێ بگەیەنێت."),
                                   ],
                                 ),
                               ),
@@ -380,7 +380,7 @@ class EnglishEntryconceive extends StatelessWidget {
                                             "Their first child was conceived on their wedding night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکەم منداڵیان چووە ڕەحمەوە لە شەوی هاوسەرگیرییەکەیان."),
+                                            "یەکەم منداڵیان چووە ڕەحمەوە لە شەوی ھاوسەرگیرییەکەیان."),
                                   ],
                                 ),
                               ),
@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conceive (Derived forms: conceived, conceives, conceiving)
+- Verb: conceive (derived forms: conceived, conceives, conceiving)
 1. Have the idea for (= gestate, conceptualize, conceptualise [Brit])
 "He conceived of a robot that would help paralysed patients"; "This library was well conceived";
  
@@ -520,7 +520,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ht0opT1Uz40?t=',
+    videoId: 'ht0opT1Uz40',
     startSeconds: 2343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6oJX9DsHa2M?t=',
+    videoId: '6oJX9DsHa2M',
     startSeconds: 5574,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8wZalVOqVRI?t=',
+    videoId: '8wZalVOqVRI',
     startSeconds: 1552,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q2hxlxWYTN0?t=',
+    videoId: 'Q2hxlxWYTN0',
     startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
+    videoId: 'kVOTPAxrrP4',
     startSeconds: 883,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KmVk58qJ6zw?t=',
+    videoId: 'KmVk58qJ6zw',
     startSeconds: 1610,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -670,7 +670,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x94BqWK1Ks4?t=',
+    videoId: 'x94BqWK1Ks4',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(

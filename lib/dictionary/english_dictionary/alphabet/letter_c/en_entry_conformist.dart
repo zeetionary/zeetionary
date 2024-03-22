@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
 2. Marked by convention and conformity to customs, rules or styles
 "underneath the radical image teenagers are surprisingly conformist"
 
-- Noun: conformist (Derived forms: conformists)
+- Noun: conformist (derived forms: conformists)
 1. (religion) someone who conforms to established standards of conduct (especially in religious matters)
 """,
   );
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AkHbB9GuCkE?t=',
+    videoId: 'AkHbB9GuCkE',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cGyj9M05LxA?t=',
+    videoId: 'cGyj9M05LxA',
     startSeconds: 527,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ga1_2Zy5__s?t=',
+    videoId: 'Ga1_2Zy5__s',
     startSeconds: 635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rzBPEXlWN6E?t=',
+    videoId: 'rzBPEXlWN6E',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4r6IbVN9f0U?t=',
+    videoId: '4r6IbVN9f0U',
     startSeconds: 1388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KcaVhMt71qE?t=',
+    videoId: 'KcaVhMt71qE',
     startSeconds: 2735,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gPZ4-CF_osk?t=',
+    videoId: 'gPZ4-CF_osk',
     startSeconds: 486,
     autoPlay: true,
     params: const YoutubePlayerParams(

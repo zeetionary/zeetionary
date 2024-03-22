@@ -201,7 +201,7 @@ class EnglishEntrycontradict extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) وتنی ئەوەی شتێک کە کەسێک گوتوویەتی هەڵەیە یان پێچەوانەکەی ڕاستە"),
+                                  "١. (کردار) وتنی ئەوەی شتێک کە کەسێک گوتوویەتی ھەڵەیە یان پێچەوانەکەی ڕاستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -212,7 +212,7 @@ class EnglishEntrycontradict extends StatelessWidget {
                                             "All evening her husband contradicted everything she said."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواوی ئێوارەکە هاوسەرەکەی ڕەتی قسەکانی دەکردەوە."),
+                                            "تەواوی ئێوارەکە ھاوسەرەکەی ڕەتی قسەکانی دەکردەوە."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycontradict extends StatelessWidget {
                                         text:
                                             "You've just contradicted yourself."),
                                     ExampleSentenceKurdish(
-                                        text: "هەر ئێستا ڕەتی خۆتت دایەوە."),
+                                        text: "ھەر ئێستا ڕەتی خۆتت دایەوە."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycontradict extends StatelessWidget {
                                             "If you're both going to lie, at least stick to the same story and don't contradict each other!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر هەردووکتان درۆ دەکەن، هێج نەبێت پابەندبن بە هەمان چیرۆکەوە یەکدی بە درۆ مەخەنەوە."),
+                                            "ئەگەر ھەردووکتان درۆ دەکەن، ھێج نەبێت پابەندبن بە ھەمان چیرۆکەوە یەکدی بە درۆ مەخەنەوە."),
                                   ],
                                 ),
                               ),
@@ -342,7 +342,7 @@ class EnglishEntrycontradict extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بەڵگە، گێڕانەوە، لێدوان، هتد کە هێندە جیاوازن کە ناکرێت هەموویان ڕاستبن"),
+                                  "٢. (کردار) بەڵگە، گێڕانەوە، لێدوان، ھتد کە ھێندە جیاوازن کە ناکرێت ھەموویان ڕاستبن"),
                           Row(
                             children: [
                               const Expanded(
@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: contradict (Derived forms: contradicted, contradicts, contradicting)
+- Verb: contradict (derived forms: contradicted, contradicts, contradicting)
 1. Deny the truth of (= negate, contravene)
  
 2. Be in contradiction with (= belie, negate)
@@ -520,7 +520,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    videoId: 'hS2x1zl4rn0',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sMldqGk-2mk?t=',
+    videoId: 'sMldqGk-2mk',
     startSeconds: 355,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SzR5XXOeKBo?t=',
+    videoId: 'SzR5XXOeKBo',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CL5ZykiqpC4?t=',
+    videoId: 'CL5ZykiqpC4',
     startSeconds: 3297,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uN84HhcdIws?t=',
+    videoId: 'uN84HhcdIws',
     startSeconds: 1204,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vIz9lgLjZtY?t=',
+    videoId: 'vIz9lgLjZtY',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -670,7 +670,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EDx5OFOiQ-I?t=',
+    videoId: 'EDx5OFOiQ-I',
     startSeconds: 1106,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -193,11 +193,11 @@ class EnglishEntrycommodity extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کەل‌وپەل، کاڵا، کوتاڵ، بابەت، شمەک، ماڵ، جنس، بەرهەم، بەروبۆ، شت‌ومەک، شت، کەل‌وپەل، شت‌ومەک، ویستەمەنی
+کوردی: کەل‌وپەل، کاڵا، کوتاڵ، بابەت، شمەک، ماڵ، جنس، بەرھەم، بەروبۆ، شت‌ومەک، شت، کەل‌وپەل، شت‌ومەک، ویستەمەنی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بەرهەمێک یان کەرەستەیەکی خاو کە دەکرێت بکڕدرێت و بفرۆشرێت"),
+                                  "١. (ناو) بەرھەمێک یان کەرەستەیەکی خاو کە دەکرێت بکڕدرێت و بفرۆشرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycommodity extends StatelessWidget {
                                             "Crude oil is the world's most important commodity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەوتی خاو گرنگترین بەرهەمی جیهانە."),
+                                            "نەوتی خاو گرنگترین بەرھەمی جیھانە."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycommodity extends StatelessWidget {
                                             "The country's most valuable commodities include iron and diamonds."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گرنگترین بەرهەمی وڵاتەکە ئاسن و ئەڵماسە."),
+                                            "گرنگترین بەرھەمی وڵاتەکە ئاسن و ئەڵماسە."),
                                   ],
                                 ),
                               ),
@@ -265,7 +265,7 @@ class EnglishEntrycommodity extends StatelessWidget {
                                         text:
                                             "Time is a very valuable commodity."),
                                     ExampleSentenceKurdish(
-                                        text: "کات گەوهەرێکی بەنرخە."),
+                                        text: "کات گەوھەرێکی بەنرخە."),
                                   ],
                                 ),
                               ),
@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commodity (Derived forms: commodities)
+- Noun: commodity (derived forms: commodities)
 1. A raw material or product that is bought and sold commercially in large quantities (= trade good, good)
  
 2. Something useful or valuable

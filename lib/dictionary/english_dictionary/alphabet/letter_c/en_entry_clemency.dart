@@ -192,10 +192,10 @@ class EnglishEntryclemency extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دڵنەرمی، لێخۆش‌بوون، بەخشین، جەبە، لێبوردن، لێبوردەیی،	مام‌ناوەندی، تاووساوی، ساوبوون، سازی، خۆشی (هەوا)
+کوردی: دڵنەرمی، لێخۆش‌بوون، بەخشین، جەبە، لێبوردن، لێبوردەیی،	مام‌ناوەندی، تاووساوی، ساوبوون، سازی، خۆشی (ھەوا)
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) میهرەبانی لە سزادانی کەسێکدا"),
+                              text: "١. (ناو) میھرەبانی لە سزادانی کەسێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -234,7 +234,7 @@ class EnglishEntryclemency extends StatelessWidget {
                                             "His lawyers appealed for clemency on the grounds of ill health."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارێزەرەکانی داوای میهرەبانییان کرد بەهۆکاری تەندرووستی خراپ."),
+                                            "پارێزەرەکانی داوای میھرەبانییان کرد بەھۆکاری تەندرووستی خراپ."),
                                   ],
                                 ),
                               ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clemency (Derived forms: clemencies)
+- Noun: clemency (derived forms: clemencies)
 1. Good weather with comfortable temperatures (= mildness)
  
 2. Leniency and compassion shown toward offenders by a person or agency charged with administering justice (= mercifulness, mercy)

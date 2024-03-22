@@ -195,7 +195,7 @@ class EnglishEntrycoldwar extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جەنگی سارد: پەیوەندی نێوان دوو وڵات کە دۆست نین بەڵام لە جەنگیشدا نین، زۆرجار بە پەیوەندی نێوان ئەمریکا و یەکێتی سۆڤیەت دەوترێت لە دوای جەنگی دووەمی جیهانی"),
+                                  "١. (ناو) جەنگی سارد: پەیوەندی نێوان دوو وڵات کە دۆست نین بەڵام لە جەنگیشدا نین، زۆرجار بە پەیوەندی نێوان ئەمریکا و یەکێتی سۆڤیەت دەوترێت لە دوای جەنگی دووەمی جیھانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -308,7 +308,7 @@ ${englishMeaningConst.text}
 - Noun: Cold War
 1. A state of political hostility that existed from 1945 until 1990 between countries led by the Soviet Union and countries led by the United States
 
-- Noun: cold war (Derived forms: cold wars)
+- Noun: cold war (derived forms: cold wars)
 1. A state of political hostility between countries using means short of armed warfare
 """,
   );

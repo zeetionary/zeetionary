@@ -192,7 +192,7 @@ class EnglishEntrycommendation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەسن(دان)، پیاهەڵدان، پیاهەڵوتن، ستایشت، پەسندکردن، تاریف‌دان
+کوردی: پەسن(دان)، پیاھەڵدان، پیاھەڵوتن، ستایشت، پەسندکردن، تاریف‌دان
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ستایش؛ پەسەندکردن"),
@@ -239,7 +239,7 @@ class EnglishEntrycommendation extends StatelessWidget {
                                             "There were 16 prize winners and 18 commendations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "١٦ براوەی خەڵات و ١٨ ڕێزلێنان هەبوون."),
+                                            "١٦ براوەی خەڵات و ١٨ ڕێزلێنان ھەبوون."),
                                   ],
                                 ),
                               ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commendation (Derived forms: commendations)
+- Noun: commendation (derived forms: commendations)
 1. An official award (as for bravery or service) usually given as formal public statement (= citation)
  
 2. A message expressing a favourable opinion (= approval)

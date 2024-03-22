@@ -206,7 +206,7 @@ class EnglishEntrycloistered extends StatelessWidget {
                                             "I came to appreciate the cloistered existence of the monks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان."),
+                                            "ھاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان."),
                                   ],
                                 ),
                               ),

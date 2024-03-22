@@ -191,7 +191,7 @@ class EnglishEntrycommemorate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بە یادگارڕاگرتن، چێژن گرتن، وەبیرهێنانەوە، شانازی کردن
+کوردی: بە یادگارڕاگرتن، چێژن گرتن، وەبیرھێنانەوە، شانازی کردن
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) یادکردنەوەی بۆنەیەک یان کەسێکی مردوو بە شتێک یان کارێکی تایبەت"),
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: commemorate (Derived forms: commemorating, commemorates, commemorated)
+- Verb: commemorate (derived forms: commemorating, commemorates, commemorated)
 1. Celebrate by some ceremony or observation (= mark)
 "The citizens commemorate the anniversary of the revolution with a march and a parade";
  

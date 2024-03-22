@@ -197,7 +197,7 @@ class EnglishEntrycomplaint extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شکات، سکاڵا، گازندە،	گلەیی، گلەیی و گناشت، کزەونزە، ئاهـ و نزوولە، بۆڵە، بۆڵەبۆڵ، خوتەخوت،	ناڕەزایەتی، عەیب، ئیراد، ڕەخنە،	دادخوازی، دادبەری، دادبردنەبەر،	نەخۆشی، دەرد، ئازار
+کوردی: شکات، سکاڵا، گازندە،	گلەیی، گلەیی و گناشت، کزەونزە، ئاھـ و نزوولە، بۆڵە، بۆڵەبۆڵ، خوتەخوت،	ناڕەزایەتی، عەیب، ئیراد، ڕەخنە،	دادخوازی، دادبەری، دادبردنەبەر،	نەخۆشی، دەرد، ئازار
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گازندە؛ سکاڵا"),
@@ -297,7 +297,7 @@ class EnglishEntrycomplaint extends StatelessWidget {
                                             "I can see no grounds for complaint."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هۆکارێک بۆ ناڕەزایی دەربڕین نابینم."),
+                                            "ھیچ ھۆکارێک بۆ ناڕەزایی دەربڕین نابینم."),
                                   ],
                                 ),
                               ),
@@ -354,7 +354,7 @@ class EnglishEntrycomplaint extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He has a minor skin complaint."),
                                     ExampleSentenceKurdish(
-                                        text: "نەخۆشییەکی بچووکی جەستەی هەیە."),
+                                        text: "نەخۆشییەکی بچووکی جەستەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: complaint (Derived forms: complaints)
+- Noun: complaint (derived forms: complaints)
 1. An often persistent bodily disorder or disease; a cause for complaining (= ailment, ill)
  
 2. (formerly) a loud cry (or repeated cries) of pain, rage or sorrow
@@ -524,7 +524,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FBqYlSVFIqY?t=',
+    videoId: 'FBqYlSVFIqY',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F5y4ndPLuuA?t=',
+    videoId: 'F5y4ndPLuuA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BD3my03ioio?t=',
+    videoId: 'BD3my03ioio',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WFPGvAnOAfA?t=',
+    videoId: 'WFPGvAnOAfA',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -624,7 +624,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4xGluGlQgdA?t=',
+    videoId: '4xGluGlQgdA',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -649,7 +649,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EI9A9RIt4zU?t=',
+    videoId: 'EI9A9RIt4zU',
     startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A0N9YF2jfiw?t=',
+    videoId: 'A0N9YF2jfiw',
     startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(

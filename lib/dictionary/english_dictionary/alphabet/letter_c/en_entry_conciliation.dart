@@ -192,11 +192,11 @@ class EnglishEntryconciliation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دڵدانەوە، دڵخۆشی‌دانەوە، دەڵاڵەت، دڵنەوایی، ژیرکردنەوە، ڕق‌ڕەوێنی، نەرم‌کردن، دڵ‌ڕاگرتن،	ئاشت‌کردنەوە، ڕێک‌خستنەوە، پێک‌هێنانەوە، یەک‌خستنەوە، ڕێک‌کەوتن،	گونجاندن، لواندن، ڕێک‌خستن،	نێوبژایەتی، کێشەڕەوێنی
+کوردی: دڵدانەوە، دڵخۆشی‌دانەوە، دەڵاڵەت، دڵنەوایی، ژیرکردنەوە، ڕق‌ڕەوێنی، نەرم‌کردن، دڵ‌ڕاگرتن،	ئاشت‌کردنەوە، ڕێک‌خستنەوە، پێک‌ھێنانەوە، یەک‌خستنەوە، ڕێک‌کەوتن،	گونجاندن، لواندن، ڕێک‌خستن،	نێوبژایەتی، کێشەڕەوێنی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پڕۆسەیەک کە ئامانج لێی کۆتایی هێنان بە مشتومڕێکەلە نێوان دوو کەس یان گرووپدا"),
+                                  "١. (ناو) پڕۆسەیەک کە ئامانج لێی کۆتایی ھێنان بە مشتومڕێکەلە نێوان دوو کەس یان گرووپدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconciliation extends StatelessWidget {
                                             "All attempts at conciliation failed and the dispute continued."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو هەوڵەکانی ئاشتکردنەوە شکستیان هێنا و مشتومڕەکە بەردەوام بوو."),
+                                            "ھەموو ھەوڵەکانی ئاشتکردنەوە شکستیان ھێنا و مشتومڕەکە بەردەوام بوو."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conciliation (Derived forms: conciliations)
+- Noun: conciliation (derived forms: conciliations)
 1. The state of manifesting goodwill and cooperation after being reconciled
 "there was a brief period of conciliation but the fighting soon resumed"
  
@@ -377,7 +377,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lI-SfXmeHhY?t=',
+    videoId: 'lI-SfXmeHhY',
     startSeconds: 1100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -402,7 +402,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/szcKtBWi52A?t=',
+    videoId: 'szcKtBWi52A',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +427,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cmje2_Mh26U?t=',
+    videoId: 'cmje2_Mh26U',
     startSeconds: 1073,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +452,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WOYutR57QdI?t=',
+    videoId: 'WOYutR57QdI',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +477,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9NkyIgBe5uw?t=',
+    videoId: '9NkyIgBe5uw',
     startSeconds: 1240,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lp9WevZImG4?t=',
+    videoId: 'Lp9WevZImG4',
     startSeconds: 1504,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L7hVrueqozo?t=',
+    videoId: 'L7hVrueqozo',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(

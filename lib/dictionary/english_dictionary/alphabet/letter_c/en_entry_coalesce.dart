@@ -192,11 +192,11 @@ class EnglishEntrycoalesce extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوپەیمانی کردن، یەک بوون
+کوردی: ھاوپەیمانی کردن، یەک بوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) یەکگرتن بۆ درووستکردنی مادەیەک، گرووپێک، هتد ـی گەورە"),
+                                  "١. (کردار) یەکگرتن بۆ درووستکردنی مادەیەک، گرووپێک، ھتد ـی گەورە"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coalesce (Derived forms: coalescing, coalesces, coalesced)
+- Verb: coalesce (derived forms: coalescing, coalesces, coalesced)
 1. Add together different elements (= blend, flux, mix, conflate, commingle, immix, fuse, meld, combine, merge)
 "The colours coalesce well";
  

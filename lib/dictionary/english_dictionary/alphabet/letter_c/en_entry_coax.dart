@@ -236,7 +236,7 @@ class EnglishEntrycoax extends StatelessWidget {
                                             "She never failed to coax good results out of her pupils."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز شکستی نەهێنا لەوەی ئەنجامی باش بەدەست بێنێت لە خوێندکارەکانی."),
+                                            "ھەرگیز شکستی نەھێنا لەوەی ئەنجامی باش بەدەست بێنێت لە خوێندکارەکانی."),
                                   ],
                                 ),
                               ),
@@ -363,11 +363,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coax (Derived forms: coaxing, coaxes, coaxed)
+- Verb: coax (derived forms: coaxing, coaxes, coaxed)
 1. Influence or urge by gentle urging, caressing, or flattering (= wheedle, cajole, palaver [informal, rare], blarney, sweet-talk [informal], inveigle)
 "He coaxed her into going along";
 
-- Noun: coax (Derived forms: coaxes)
+- Noun: coax (derived forms: coaxes)
 1. A transmission line for high-frequency signals (= coaxial cable, coax cable)
 """,
   );

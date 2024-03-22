@@ -192,7 +192,7 @@ class EnglishEntrycommonsense extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ژیری، هەستی هاوبەش، بیروهۆشی تەواو، دادگەری یان لێکدانەوەی دروست، عەقڵی سەلیم
+کوردی: ژیری، ھەستی ھاوبەش، بیروھۆشی تەواو، دادگەری یان لێکدانەوەی دروست، عەقڵی سەلیم
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycommonsense extends StatelessWidget {
                                             "For goodness' sake, just use your common sense!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ خاتری خودا، تەنها ژیریت بەکاربێنە."),
+                                            "بۆ خاتری خودا، تەنھا ژیریت بەکاربێنە."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycommonsense extends StatelessWidget {
                                             "It’s common sense to keep medicines away from children."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەوە بیروهۆشی تەواوە کە دەرمان لە منداڵان بەدووربگریت."),
+                                            "ئەوە بیروھۆشی تەواوە کە دەرمان لە منداڵان بەدووربگریت."),
                                   ],
                                 ),
                               ),

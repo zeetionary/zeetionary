@@ -196,7 +196,7 @@ class EnglishEntryclue extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرەداو، سەرەپەت، سەرەتا، سەرەتاڵ، سەرڕستە، سۆراغ، زانیاری، ئاگاداری، هەواڵ،	نیشانە، شەقڵ
+کوردی: سەرەداو، سەرەپەت، سەرەتا، سەرەتاڵ، سەرڕستە، سۆراغ، زانیاری، ئاگاداری، ھەواڵ،	نیشانە، شەقڵ
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryclue extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The burglar left no clues."),
                                     ExampleSentenceKurdish(
-                                        text: "دزەکە هیچ سەرەداوێکی جێنەهێشت."),
+                                        text: "دزەکە ھیچ سەرەداوێکی جێنەھێشت."),
                                   ],
                                 ),
                               ),
@@ -372,7 +372,7 @@ class EnglishEntryclue extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) وشە یان زانیاری کە ئاسانکاری دەکات لە زانینی وەڵامی پرسیارێک، مەتەڵێک، هتد"),
+                                  "٣. (ناو) وشە یان زانیاری کە ئاسانکاری دەکات لە زانینی وەڵامی پرسیارێک، مەتەڵێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -383,7 +383,7 @@ class EnglishEntryclue extends StatelessWidget {
                                             "‘You'll never guess who I saw today!’ ‘Give me a clue.’"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "'هەرگیز هەڵیناهێنی ئەمڕۆ چیم بینی!' 'سەرەداوێکم بدەرێ.'"),
+                                            "'ھەرگیز ھەڵیناھێنی ئەمڕۆ چیم بینی!' 'سەرەداوێکم بدەرێ.'"),
                                   ],
                                 ),
                               ),
@@ -482,14 +482,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clue (Derived forms: clues)
+- Noun: clue (derived forms: clues)
 1. A slight indication (= hint)
  
 2. Evidence that helps to solve a problem (= clew [archaic])
  
 3. A ball of yarn, cord or thread (= clew [archaic])
 
-- Verb: clue (Derived forms: clued, clueing, clues)
+- Verb: clue (derived forms: clued, clueing, clues)
 1. Roll into a ball (= clew [archaic])
  
 2. Provide with a clue; tell someone about something

@@ -191,10 +191,10 @@ class EnglishEntryconfusion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرلێ‌شێواوی، سەرگەردانی، سەرکوێری، گێژی، وڕی، کاسی، پەشۆکاوی، تاساوی، هێوان، واق‌وڕماوی، خەجڵان، واقمان، سەرسووڕمان، تێکچوون، شڵەژان، شڵەژاوی، شێوان، پشێوی، ئاژاوە، پاشاگەردانی،	هەڵە، شاشی، لێ‌شێوان
+کوردی: سەرلێ‌شێواوی، سەرگەردانی، سەرکوێری، گێژی، وڕی، کاسی، پەشۆکاوی، تاساوی، ھێوان، واق‌وڕماوی، خەجڵان، واقمان، سەرسووڕمان، تێکچوون، شڵەژان، شڵەژاوی، شێوان، پشێوی، ئاژاوە، پاشاگەردانی،	ھەڵە، شاشی، لێ‌شێوان
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) دۆخی شڵەژاوی؛ کە تێیدا نازانیت چی بکەیت، چی بڵێیت، واتای شتێک چییە، هتد"),
+                              text: "١. (ناو) دۆخی شڵەژاوی؛ کە تێیدا نازانیت چی بکەیت، چی بڵێیت، واتای شتێک چییە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntryconfusion extends StatelessWidget {
                                         text:
                                             "The announcement caused a lot of confusion."),
                                     ExampleSentenceKurdish(
-                                        text: "ڕاگەیاندنەکە بوو بەهۆی پەشۆکاوی زۆر."),
+                                        text: "ڕاگەیاندنەکە بوو بەھۆی پەشۆکاوی زۆر."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntryconfusion extends StatelessWidget {
                           text:
                           "There is some confusion about what the correct procedure should be."),
                           ExampleSentenceKurdish(
-                          text: "هەندێک سەرلێ‌شێواوی هەیە سەبارەت بەوەی کە ڕێکاری دروست دەبێت چی بێت.."),
+                          text: "ھەندێک سەرلێ‌شێواوی ھەیە سەبارەت بەوەی کە ڕێکاری دروست دەبێت چی بێت.."),
                           ],
                           ),
                           ),
@@ -314,7 +314,7 @@ class EnglishEntryconfusion extends StatelessWidget {
                           text:
                           "Fighting had broken out and all was chaos and confusion."),
                           ExampleSentenceKurdish(
-                          text: "شەڕ دەستی پێکردبوو و هەمووی پشێوی و سەرلێ‌شێواوی بوو."),
+                          text: "شەڕ دەستی پێکردبوو و ھەمووی پشێوی و سەرلێ‌شێواوی بوو."),
                           ],
                           ),
                           ),
@@ -440,7 +440,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confusion (Derived forms: confusions)
+- Noun: confusion (derived forms: confusions)
 1. Disorder resulting from a failure to behave predictably
 "the army retreated in confusion"
  
@@ -486,7 +486,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eJHlVR4_dEE?t=',
+    videoId: 'eJHlVR4_dEE',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vB2EtclQLRA',
+    videoId: 'vB2EtclQLRA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-A6NPgARIrw?t=',
+    videoId: '-A6NPgARIrw',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RyeTuXdfn7s?t=',
+    videoId: 'RyeTuXdfn7s',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cwYTcufdOww?t=',
+    videoId: 'cwYTcufdOww',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8l51ZiZVg_c?t=',
+    videoId: '8l51ZiZVg_c',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -636,7 +636,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DgnEtXsEzIo?t=',
+    videoId: 'DgnEtXsEzIo',
     startSeconds: 1565,
     autoPlay: true,
     params: const YoutubePlayerParams(

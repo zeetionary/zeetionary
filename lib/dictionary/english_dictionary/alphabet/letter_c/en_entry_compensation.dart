@@ -195,11 +195,11 @@ class EnglishEntrycompensation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قەرەبوو(کردنەوە)، زیان‌دانەوە، تۆڵەکردنەوە، پڕکردنەوە، تێهەڵێنان،	دەس‌پیاگێڕان، چاک‌کردنەوە،	بۆبژاردن، پێ‌بژاردن، بژاردن، بژێرە، زیان‌بایی، قەرەبووانە، تاوان، تاوانە،	حەق، حەق‌دەس، مووچە، پاداشت،	هاوسەنگی، پارسەنگی،	سازان، گونجان
+کوردی: قەرەبوو(کردنەوە)، زیان‌دانەوە، تۆڵەکردنەوە، پڕکردنەوە، تێھەڵێنان،	دەس‌پیاگێڕان، چاک‌کردنەوە،	بۆبژاردن، پێ‌بژاردن، بژاردن، بژێرە، زیان‌بایی، قەرەبووانە، تاوان، تاوانە،	حەق، حەق‌دەس، مووچە، پاداشت،	ھاوسەنگی، پارسەنگی،	سازان، گونجان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شتێک، بە زۆری پارە کە کەسێک وەک قەرەبوو پێت دەدات چونکە ئازاریان داویت، یان زیانیان پێگەیاندوویت، هتد"),
+                                  "١. (ناو) شتێک، بە زۆری پارە کە کەسێک وەک قەرەبوو پێت دەدات چونکە ئازاریان داویت، یان زیانیان پێگەیاندوویت، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -325,7 +325,7 @@ class EnglishEntrycompensation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) شتێک یان کۆمەڵە شتێک کە دۆخێکی خراپ باش دەکات لە دوای ئەوەی شتێکی خراپت بەسەرهاتووە"),
+                                  "٣. (ناو) شتێک یان کۆمەڵە شتێک کە دۆخێکی خراپ باش دەکات لە دوای ئەوەی شتێکی خراپت بەسەرھاتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ class EnglishEntrycompensation extends StatelessWidget {
                                             "I wish I were young again, but getting older has its compensations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهیوام دووبارە گەنج بوومایە، بەڵام چوونە تەمەندا سوودی خۆی هەیە."),
+                                            "بەھیوام دووبارە گەنج بوومایە، بەڵام چوونە تەمەندا سوودی خۆی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -437,7 +437,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compensation (Derived forms: compensations)
+- Noun: compensation (derived forms: compensations)
 1. Something (such as money) given or received as payment or reparation (as for a service or loss or injury)
  
 2. (psychiatry) a defence mechanism that conceals your undesirable shortcomings by exaggerating desirable behaviors
@@ -475,7 +475,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KJy7T24rhg0?t=',
+    videoId: 'KJy7T24rhg0',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1530,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 2933,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G3LZ-Jh2L6E?t=',
+    videoId: 'G3LZ-Jh2L6E',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bj6ulLJGPB8?t=',
+    videoId: 'Bj6ulLJGPB8',
     startSeconds: 1092,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wQSxY7TR6mI?t=',
+    videoId: 'wQSxY7TR6mI',
     startSeconds: 1124,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -625,7 +625,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t5k7feqZUD0?t=',
+    videoId: 't5k7feqZUD0',
     startSeconds: 499,
     autoPlay: true,
     params: const YoutubePlayerParams(

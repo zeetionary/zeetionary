@@ -264,7 +264,7 @@ class EnglishEntrycollision extends StatelessWidget {
                                         text: "I had a collision with a bus."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیاکێشانێکم هەبوو لەگەڵ پاسێکدا."),
+                                            "پیاکێشانێکم ھەبوو لەگەڵ پاسێکدا."),
                                   ],
                                 ),
                               ),
@@ -284,7 +284,7 @@ class EnglishEntrycollision extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ناکۆکی توندی نێوان دوو کەس، یان دوو بیرۆکە، بۆچوون، هتد کە دژیەکن"),
+                                  "٢. (ناو) ناکۆکی توندی نێوان دوو کەس، یان دوو بیرۆکە، بۆچوون، ھتد کە دژیەکن"),
                           Row(
                             children: [
                               const Expanded(
@@ -422,7 +422,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collision (Derived forms: collisions)
+- Noun: collision (derived forms: collisions)
 1. (physics) a brief event in which two or more bodies come together (= hit)
 "the collision of the particles resulted in an exchange of energy and a change of direction";
  

@@ -194,7 +194,7 @@ class EnglishEntryconcentration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆکردنەوە، خڕکردنەوە،	هۆش‌پێدان، سەرنج‌پێدان، تەواو گوێ‌پێدان،	خەستی، پەیتی، تیری،	خەست‌کردن(ەوە)، خەستاندن
+کوردی: کۆکردنەوە، خڕکردنەوە،	ھۆش‌پێدان، سەرنج‌پێدان، تەواو گوێ‌پێدان،	خەستی، پەیتی، تیری،	خەست‌کردن(ەوە)، خەستاندن
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryconcentration extends StatelessWidget {
                                             "This book requires a great deal of concentration."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم کتێبە پێویستی بە سەرنجی زۆر هەیە."),
+                                            "ئەم کتێبە پێویستی بە سەرنجی زۆر ھەیە."),
                                   ],
                                 ),
                               ),
@@ -261,7 +261,7 @@ class EnglishEntryconcentration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پڕۆسەی پێدانی هەوڵ و سەرنج بە شتێکی دیاریکراو"),
+                                  "٢. (ناو) پڕۆسەی پێدانی ھەوڵ و سەرنج بە شتێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ class EnglishEntryconcentration extends StatelessWidget {
                                             "The greatest concentration of traffic is in the city centre."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرترین چڕبوونەوەی هاتووچۆ لە سەنتەری شارە."),
+                                            "زۆرترین چڕبوونەوەی ھاتووچۆ لە سەنتەری شارە."),
                                   ],
                                 ),
                               ),
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concentration (Derived forms: concentrations)
+- Noun: concentration (derived forms: concentrations)
 1. The strength of a solution; number of molecules of a substance in a given volume
  
 2. The spatial property of being crowded together (= density, denseness, tightness, compactness)
@@ -452,7 +452,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oBcxuzdP3rs?t=',
+    videoId: 'oBcxuzdP3rs',
     startSeconds: 595,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +477,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 1075,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/60FM9WjkXtA?t=',
+    videoId: '60FM9WjkXtA',
     startSeconds: 313,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lRW6CYfhei0?t=',
+    videoId: 'lRW6CYfhei0',
     startSeconds: 716,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mRj1RKh4xyY?t=',
+    videoId: 'mRj1RKh4xyY',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +577,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-BeTq99LqUo?t=',
+    videoId: '-BeTq99LqUo',
     startSeconds: 718,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +602,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 1168,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -195,10 +195,10 @@ class EnglishEntrycomposition extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکهێنان، دانان، پێکەوەنان، دروس‌کردن، هەڵبەستن،	بەرهەم، شوێنەوار (ئآواز، هەڵبەست، کتێب و هتد)،	ئاوازدانان،	ئینشا (خوێندنگا)،	نووسین، نڤیسین،	پیت‌چنی،	ڕێکخستن،	سروشت، خۆڕسک، بوون،	شتی پێکهاتوو،	ڕێک‌کەوتن، سازان، قەراروبڕێ، قەرارومەدار،	کەرەسە یان مەتریاڵی دەسکرد
+کوردی: پێکھێنان، دانان، پێکەوەنان، دروس‌کردن، ھەڵبەستن،	بەرھەم، شوێنەوار (ئآواز، ھەڵبەست، کتێب و ھتد)،	ئاوازدانان،	ئینشا (خوێندنگا)،	نووسین، نڤیسین،	پیت‌چنی،	ڕێکخستن،	سروشت، خۆڕسک، بوون،	شتی پێکھاتوو،	ڕێک‌کەوتن، سازان، قەراروبڕێ، قەرارومەدار،	کەرەسە یان مەتریاڵی دەسکرد
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) بەشە جیاوازەکانی پێکهێنەری شتێک"),
+                              text: "١. (ناو) بەشە جیاوازەکانی پێکھێنەری شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycomposition extends StatelessWidget {
                                             "The overall composition of the Senate was Democrats 57 and Republicans 43."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکهاتەی گشتی ئەنجوومەنی پیران ٥٧ دیموکرات و ٤٣ کۆماری بوو."),
+                                            "پێکھاتەی گشتی ئەنجوومەنی پیران ٥٧ دیموکرات و ٤٣ کۆماری بوو."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycomposition extends StatelessWidget {
                                             "The two drugs are nearly identical in composition."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو دەرمانەکە بەنزیکەیی لێکچوون لە پێکهاتەدا."),
+                                            "دوو دەرمانەکە بەنزیکەیی لێکچوون لە پێکھاتەدا."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycomposition extends StatelessWidget {
                                             "Has household composition changed in the last decade?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دەیەی ڕابردوودا پێکهاتەی ماڵ گۆڕاوە؟"),
+                                            "لە دەیەی ڕابردوودا پێکھاتەی ماڵ گۆڕاوە؟"),
                                   ],
                                 ),
                               ),
@@ -323,7 +323,7 @@ class EnglishEntrycomposition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پارچە میوزیکێک یان کارێکی هونەری، یان هۆنراوەیەک"),
+                                  "٣. (ناو) پارچە میوزیکێک یان کارێکی ھونەری، یان ھۆنراوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ class EnglishEntrycomposition extends StatelessWidget {
                                             "This concerto is one of her earlier compositions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم کۆنسێرتۆیە یەکێکە لە بەرهەمەکانی سەرەتای."),
+                                            "ئەم کۆنسێرتۆیە یەکێکە لە بەرھەمەکانی سەرەتای."),
                                   ],
                                 ),
                               ),
@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: composition (Derived forms: compositions)
+- Noun: composition (derived forms: compositions)
 1. The spatial property resulting from the arrangement of parts in relation to each other and to the whole (= composing)
 "harmonious composition is essential in a serious work of art";
  
@@ -490,7 +490,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0pAz6LTdTrw?t=',
+    videoId: '0pAz6LTdTrw',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MzSktgpfD84?t=',
+    videoId: 'MzSktgpfD84',
     startSeconds: 384,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJNtfyq3TDE?t=',
+    videoId: 'LJNtfyq3TDE',
     startSeconds: 858,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BlU49dJhfcw?t=',
+    videoId: 'BlU49dJhfcw',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DmqFbgKWoao?t=',
+    videoId: 'DmqFbgKWoao',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DgnEtXsEzIo?t=',
+    videoId: 'DgnEtXsEzIo',
     startSeconds: 893,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dl4dSVf7kgY?t=',
+    videoId: 'Dl4dSVf7kgY',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SaOHTp07Vgw?t=',
+    videoId: 'SaOHTp07Vgw',
     startSeconds: 1506,
     autoPlay: true,
     params: const YoutubePlayerParams(

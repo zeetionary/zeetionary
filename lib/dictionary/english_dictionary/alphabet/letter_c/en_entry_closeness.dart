@@ -238,7 +238,7 @@ class EnglishEntrycloseness extends StatelessWidget {
                                             "Jefferson always felt a closeness to the land and to a rural way of life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جێفەرسن هەمیشە هەستی بە پەیوەندییەک بە خاکەکەوە دەکرد و بە شێوازی لادێیی ژیانکردن."),
+                                            "جێفەرسن ھەمیشە ھەستی بە پەیوەندییەک بە خاکەکەوە دەکرد و بە شێوازی لادێیی ژیانکردن."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycloseness extends StatelessWidget {
                                             "The closeness of their friendship was evident in how they always supported each other."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توندی هاوڕێیەتییان ئاشکرا بوو لە شێوەیەی کە هەمیشە پاڵپشتی یەکدییان دەکرد."),
+                                            "توندی ھاوڕێیەتییان ئاشکرا بوو لە شێوەیەی کە ھەمیشە پاڵپشتی یەکدییان دەکرد."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntrycloseness extends StatelessWidget {
                                             "All the emphasis on the closeness of the election may encourage more people to vote."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو ئەو سەرنجەی لەسەر ڕکابەرییەتی توندە لە هەڵبژاردنەکەدا وا لە خەڵکی زیاتر دەدات دەنگ بدەن."),
+                                            "ھەموو ئەو سەرنجەی لەسەر ڕکابەرییەتی توندە لە ھەڵبژاردنەکەدا وا لە خەڵکی زیاتر دەدات دەنگ بدەن."),
                                   ],
                                 ),
                               ),

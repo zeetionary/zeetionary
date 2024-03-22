@@ -197,7 +197,7 @@ class EnglishEntrycoloured extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) هەبوونی ڕەنگێکی دیاریکراو، یان ڕەنگی جیاواز"),
+                                  "١. (ھاوەڵناو) ھەبوونی ڕەنگێکی دیاریکراو، یان ڕەنگی جیاواز"),
                           Row(
                             children: [
                               const Expanded(
@@ -375,7 +375,7 @@ Usage: Brit, Cdn (US: colored)
 4. (used of colour) artificially produced; not natural (= bleached, colored [US], dyed)
 "a coloured blonde";
 
-- Noun: coloured (Derived forms: coloureds)
+- Noun: coloured (derived forms: coloureds)
 Usage: Brit, Cdn, offensive (US: colored)
 1. A non-white person, esp. a Black (= non-white)
 """,

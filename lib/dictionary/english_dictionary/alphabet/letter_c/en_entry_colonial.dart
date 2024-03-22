@@ -209,7 +209,7 @@ class EnglishEntrycolonial extends StatelessWidget {
                                             "Tunisia achieved independence from French colonial rule in 1956."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تونس سەربەخۆیی بەدەستهێنا لە دەسەڵاتی داگیرکەری فەرەنسا لە ١٩٥٦."),
+                                            "تونس سەربەخۆیی بەدەستھێنا لە دەسەڵاتی داگیرکەری فەرەنسا لە ١٩٥٦."),
                                   ],
                                 ),
                               ),
@@ -265,7 +265,7 @@ class EnglishEntrycolonial extends StatelessWidget {
                                             "He still thinks Britain is a great colonial power."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا وابیردەکاتەوە بەریتانیا دەسەڵاتێکی داگیرکەرە."),
+                                            "ھێشتا وابیردەکاتەوە بەریتانیا دەسەڵاتێکی داگیرکەرە."),
                                   ],
                                 ),
                               ),
@@ -405,7 +405,7 @@ ${englishMeaningConst.text}
  
 4. Of or relating to the style of architecture prevalent in America before independence
 
-- Noun: colonial (Derived forms: colonials)
+- Noun: colonial (derived forms: colonials)
 1. A resident of a colony
 """,
   );

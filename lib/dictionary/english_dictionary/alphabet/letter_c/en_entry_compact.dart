@@ -201,11 +201,11 @@ class EnglishEntrycompact extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەستێنراو، کەڵەکە، پەسواو، پەستاوتە، شێلانە، پاڵ‌یەکخراو، تێک‌ترنجاو، تێک‌نراو،	کورتە، پوختە،	پتەو، تۆکمە، سفت، گردوکۆ،	قوتو یان جێ‌بۆدرە،	ئۆتۆمبێلی کەم‌جێگر یان چکۆلانە، ئۆتۆمبێلی گردوکۆ یان قوتو(یی هەڵکەوتوو)، وتەوبڕە، گرێبەست، بەیابەست، قەراروبڕێ، ڕێک‌کەوتن‌نامە، پەیمان‌نامە
+کوردی: پەستێنراو، کەڵەکە، پەسواو، پەستاوتە، شێلانە، پاڵ‌یەکخراو، تێک‌ترنجاو، تێک‌نراو،	کورتە، پوختە،	پتەو، تۆکمە، سفت، گردوکۆ،	قوتو یان جێ‌بۆدرە،	ئۆتۆمبێلی کەم‌جێگر یان چکۆلانە، ئۆتۆمبێلی گردوکۆ یان قوتو(یی ھەڵکەوتوو)، وتەوبڕە، گرێبەست، بەیابەست، قەراروبڕێ، ڕێک‌کەوتن‌نامە، پەیمان‌نامە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) بچووکتر لەوەی ئاساییە بۆ ئەو شتانەی کە هەمان جۆرن"),
+                                  "١. (ھاوەڵناو) بچووکتر لەوەی ئاساییە بۆ ئەو شتانەی کە ھەمان جۆرن"),
                           Row(
                             children: [
                               const Expanded(
@@ -216,7 +216,7 @@ class EnglishEntrycompact extends StatelessWidget {
                                             "The device is small and compact and weighs only 10 grams."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنها ١٠ گرامە."),
+                                            "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنھا ١٠ گرامە."),
                                   ],
                                 ),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بەکارهێنان یان گرتنی تەنها جێگایەکی کەم"),
+                                  "٢. (ھاوەڵناو) بەکارھێنان یان گرتنی تەنھا جێگایەکی کەم"),
                           Row(
                             children: [
                               const Expanded(
@@ -331,7 +331,7 @@ class EnglishEntrycompact extends StatelessWidget {
                                             "The grey clouds had become more compact and the sky suddenly grew dark."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەورە خەڵۆمێشییەکان تەواو ترنجاو بووبوون و ئاسمان لەناکاو ڕەش بوو."),
+                                            "ھەورە خەڵۆمێشییەکان تەواو ترنجاو بووبوون و ئاسمان لەناکاو ڕەش بوو."),
                                   ],
                                 ),
                               ),
@@ -350,7 +350,7 @@ class EnglishEntrycompact extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) کەسێکی بچووک و بەهێز"),
+                              text: "٢. (ھاوەڵناو) کەسێکی بچووک و بەھێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -361,7 +361,7 @@ class EnglishEntrycompact extends StatelessWidget {
                                             "He had a compact and muscular body."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەستەیەکی پتەو و بە ماسولکەی هەبوو."),
+                                            "جەستەیەکی پتەو و بە ماسولکەی ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -452,7 +452,7 @@ class EnglishEntrycompact extends StatelessWidget {
                                             "Cars had compacted the snow until it was like ice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێل بەفرەکەیان ترنجاندبوو تاوەکو وەک سەهۆڵ بوو."),
+                                            "ئۆتۆمبێل بەفرەکەیان ترنجاندبوو تاوەکو وەک سەھۆڵ بوو."),
                                   ],
                                 ),
                               ),
@@ -561,14 +561,14 @@ ${englishMeaningConst.text}
 3. Briefly giving the gist of something (= compendious, succinct, summary)
 "a compact style is brief and pithy";
 
-- Noun: compact (Derived forms: compacts)
+- Noun: compact (derived forms: compacts)
 1. A small cosmetics case with a mirror; to be carried in a woman's purse (= powder compact)
  
 2. A formal agreement between two or more parties to perform or not perform some action (= covenant, concordat)
  
 3. A small and economical car (= compact car)
 
-- Verb: compact (Derived forms: compacts, compacted, compacting)
+- Verb: compact (derived forms: compacts, compacted, compacting)
 1. Have the property of being packable or of compacting easily (= pack)
 "This powder compacts easily";
  

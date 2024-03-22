@@ -193,7 +193,7 @@ class EnglishEntryconjunction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (ڕێزمان) پیت یان تیپی پێوەندی، پیتی پێکەوەبەست(ن) یان بەستنەوە، پیتی لێکدەر، وشەلێکدەر،	یەکخستن، دانەدەم، تێک‌هەڵکێشان، لێکدان، یەک‌گرتن، خستنەسەر، پێک‌بەستراوی، پێکەوبەستراوی، پێک‌بەستی، پێوەست‌بوون، 	(ئەستێرەوانی) جووت‌بوون،	هاوکاتی، هاوشوێنی 
+کوردی: (ڕێزمان) پیت یان تیپی پێوەندی، پیتی پێکەوەبەست(ن) یان بەستنەوە، پیتی لێکدەر، وشەلێکدەر،	یەکخستن، دانەدەم، تێک‌ھەڵکێشان، لێکدان، یەک‌گرتن، خستنەسەر، پێک‌بەستراوی، پێکەوبەستراوی، پێک‌بەستی، پێوەست‌بوون، 	(ئەستێرەوانی) جووت‌بوون،	ھاوکاتی، ھاوشوێنی 
 """),
                           const DefinitionKurdish(
                               text:
@@ -241,7 +241,7 @@ class EnglishEntryconjunction extends StatelessWidget {
                                             "The conjunction of low inflation and low unemployment came as a very pleasant surprise."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوکاتی هەڵاوسانی کەم و بێکاری نزم سوپرایزێکی زۆر خۆش بوو."),
+                                            "ھاوکاتی ھەڵاوسانی کەم و بێکاری نزم سوپرایزێکی زۆر خۆش بوو."),
                                   ],
                                 ),
                               ),
@@ -263,7 +263,7 @@ class EnglishEntryconjunction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) تێپەڕبوونی ئەستێرە، هەسارە، هتد نزیک لە یەکەوە وەک ئەوەی لە زەوییەوە دەبینرێت"),
+                                  "٢. (ناو) تێپەڕبوونی ئەستێرە، ھەسارە، ھتد نزیک لە یەکەوە وەک ئەوەی لە زەوییەوە دەبینرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -274,7 +274,7 @@ class EnglishEntryconjunction extends StatelessWidget {
                                             "Mars and Venus will be in exact conjunction on 1 September."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مەریخ و زوهرە لە جووتبوونی تەواودا دەبن لە ١ ـی ئەیلوول."),
+                                            "مەریخ و زوھرە لە جووتبوونی تەواودا دەبن لە ١ ـی ئەیلوول."),
                                   ],
                                 ),
                               ),
@@ -375,7 +375,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conjunction (Derived forms: conjunctions)
+- Noun: conjunction (derived forms: conjunctions)
 1. The temporal property of two things happening at the same time (= concurrence, coincidence, co-occurrence)
 "the interval determining the conjunction gate is adjustable";
  
@@ -420,7 +420,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zJtJH46dyDE?t=',
+    videoId: 'zJtJH46dyDE',
     startSeconds: 1159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8jNs5G88TiI?t=',
+    videoId: '8jNs5G88TiI',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/caVoqAfdkYQ?t=',
+    videoId: 'caVoqAfdkYQ',
     startSeconds: 1473,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VbOh4x2FfNs?t=',
+    videoId: 'VbOh4x2FfNs',
     startSeconds: 630,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ5GfDbjos8?t=',
+    videoId: 'iQ5GfDbjos8',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B5ytcg5pYEA?t=',
+    videoId: 'B5ytcg5pYEA',
     startSeconds: 1426,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YeAxxMZf1O4?t=',
+    videoId: 'YeAxxMZf1O4',
     startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(

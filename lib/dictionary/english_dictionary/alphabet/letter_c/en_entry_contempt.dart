@@ -197,11 +197,11 @@ class EnglishEntrycontempt extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سووکایەتی، سووکی‌پێکردن، ئابڕووبردن، شرت‌وشۆدەرهێنان،	سووکی، نزمی، چروکی، گوێ‌پێنەدان، بەهێندنەگرتن،	بێزاری،	بی‌ڕێزی، بێ‌حورمەتی،	سووکایەتی بە دادگا
+کوردی: سووکایەتی، سووکی‌پێکردن، ئابڕووبردن، شرت‌وشۆدەرھێنان،	سووکی، نزمی، چروکی، گوێ‌پێنەدان، بەھێندنەگرتن،	بێزاری،	بی‌ڕێزی، بێ‌حورمەتی،	سووکایەتی بە دادگا
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو هەستەی کە کەسێک هیچ نرخی نییە و شایەنی ڕێز نییە"),
+                                  "١. (ناو) ئەو ھەستەی کە کەسێک ھیچ نرخی نییە و شایەنی ڕێز نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,7 +295,7 @@ class EnglishEntrycontempt extends StatelessWidget {
                                             "He has a deep contempt for racists."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێ‌ڕێزییەکی زۆری بۆ ڕەگەزپەرستان هەیە."),
+                                            "بێ‌ڕێزییەکی زۆری بۆ ڕەگەزپەرستان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntrycontempt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) گرنگی نەدان بە یاسا، مەترسی، هتد"),
+                                  "٢. (ناو) گرنگی نەدان بە یاسا، مەترسی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -326,7 +326,7 @@ class EnglishEntrycontempt extends StatelessWidget {
                                             "The firefighters showed a contempt for their own safety."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاگرکوژێنەوەکان بەهێندنەگرتنیان بۆ سەلامەتی خۆیان پیشان دەدا."),
+                                            "ئاگرکوژێنەوەکان بەھێندنەگرتنیان بۆ سەلامەتی خۆیان پیشان دەدا."),
                                   ],
                                 ),
                               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contempt (Derived forms: contempts)
+- Noun: contempt (derived forms: contempts)
 1. Lack of respect accompanied by a feeling of intense dislike (= disdain, scorn, despite)
 "he was held in contempt";
  
@@ -524,7 +524,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QyL9P1ccy-w?t=',
+    videoId: 'QyL9P1ccy-w',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zad6v8ZHzdg?t=',
+    videoId: 'Zad6v8ZHzdg',
     startSeconds: 1188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pNuqON3U-qg?t=',
+    videoId: 'pNuqON3U-qg',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LQk4t5rUQXA?t=',
+    videoId: 'LQk4t5rUQXA',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -624,7 +624,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dl4dSVf7kgY?t=',
+    videoId: 'Dl4dSVf7kgY',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -649,7 +649,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d5CYQtKM9Ek?t=',
+    videoId: 'd5CYQtKM9Ek',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LKq7Hk8hdWw',
+    videoId: 'LKq7Hk8hdWw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

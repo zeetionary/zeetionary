@@ -235,7 +235,7 @@ class EnglishEntrycomparatively extends StatelessWidget {
                                             "It is comparatively easy to install and cheap to operate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەراوردکاری‌یانە ئاسانە بۆ دانانە و هەرزانە بۆ کارپێکردن."),
+                                            "بەراوردکاری‌یانە ئاسانە بۆ دانانە و ھەرزانە بۆ کارپێکردن."),
                                   ],
                                 ),
                               ),

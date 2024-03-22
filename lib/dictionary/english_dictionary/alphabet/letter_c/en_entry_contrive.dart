@@ -194,11 +194,11 @@ class EnglishEntrycontrive extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دانان، پلان داڕشتن، داهێنان
+کوردی: دانان، پلان داڕشتن، داھێنان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) توانای کردنی شتێک سەرەڕای بەرهەڵستی"),
+                                  "١. (کردار) توانای کردنی شتێک سەرەڕای بەرھەڵستی"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycontrive extends StatelessWidget {
                                             "She contrived to spend a couple of hours with him every Sunday evening."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانی هەموو ئێوارانێکی یەکشەممان چەند کاتژمێرێک لەگەڵی بەسەر ببات."),
+                                            "توانی ھەموو ئێوارانێکی یەکشەممان چەند کاتژمێرێک لەگەڵی بەسەر ببات."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycontrive extends StatelessWidget {
                                             "Somehow they contrived to live on her tiny income."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرچۆنێک بێت توانییان لەسەر داهاتە کەمەکە بژین."),
+                                            "ھەرچۆنێک بێت توانییان لەسەر داھاتە کەمەکە بژین."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrycontrive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) سەرکەوتوو لەوەی شتێک ڕووبدات سەرەڕای بەرهەڵستی"),
+                                  "٢. (کردار) سەرکەوتوو لەوەی شتێک ڕووبدات سەرەڕای بەرھەڵستی"),
                           Row(
                             children: [
                               const Expanded(
@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: contrive (Derived forms: contrived, contriving, contrives)
+- Verb: contrive (derived forms: contrived, contriving, contrives)
 1. Make or work out a plan for; devise (= plan, project, design)
 "They contrived to murder their boss";
  
@@ -439,7 +439,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
+    videoId: 'tkLZYEIslWM',
     startSeconds: 519,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AUGznByw9ws?t=',
+    videoId: 'AUGznByw9ws',
     startSeconds: 218,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_rLfENrnsoQ?t=',
+    videoId: '_rLfENrnsoQ',
     startSeconds: 600,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Pw_7vAK9k8?t=',
+    videoId: '2Pw_7vAK9k8',
     startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ens0WjAyOc?t=',
+    videoId: '0ens0WjAyOc',
     startSeconds: 3423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eQ3kaIOGIds?t=',
+    videoId: 'eQ3kaIOGIds',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-sMRm2LnN5Y?t=',
+    videoId: '-sMRm2LnN5Y',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(

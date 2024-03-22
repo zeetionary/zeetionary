@@ -260,7 +260,7 @@ class EnglishEntryconservation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پاراستنی فەرمی ئەو بینا و کەرەستانەی کە گرنگی مێژووی یان هونەرییان هەیە"),
+                                  "٢. (ناو) پاراستنی فەرمی ئەو بینا و کەرەستانەی کە گرنگی مێژووی یان ھونەرییان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -271,7 +271,7 @@ class EnglishEntryconservation extends StatelessWidget {
                                             "The government allocated funds for the conservation of ancient monuments in the region."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنومێنتە کۆنەکان لە هەرێمەکە."),
+                                            "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنومێنتە کۆنەکان لە ھەرێمەکە."),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntryconservation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ڕێگری لە بەهەدەرچوون، لەناوچوون، یان ونبوونی شتێک"),
+                                  "٣. (ناو) ڕێگری لە بەھەدەرچوون، لەناوچوون، یان ونبوونی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -405,7 +405,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conservation (Derived forms: conservations)
+- Noun: conservation (derived forms: conservations)
 1. An occurrence of improvement by virtue of preventing loss, injury or other change (= preservation)
  
 2. The preservation and careful management of the environment and of natural resources
@@ -443,7 +443,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 1045,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dpCo8wWiHHw',
+    videoId: 'dpCo8wWiHHw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jwUyqXwobMo?t=',
+    videoId: 'jwUyqXwobMo',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VxCORJ8dN3Y?t=',
+    videoId: 'VxCORJ8dN3Y',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RD3rGK7-vug?t=',
+    videoId: 'RD3rGK7-vug',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OTK9JrKC6EY',
+    videoId: 'OTK9JrKC6EY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LbJJFnf-NWM?t=',
+    videoId: 'LbJJFnf-NWM',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(

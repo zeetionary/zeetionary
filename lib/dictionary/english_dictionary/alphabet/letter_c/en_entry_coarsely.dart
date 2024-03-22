@@ -234,7 +234,7 @@ class EnglishEntrycoarsely extends StatelessWidget {
                                             "I had never heard anyone speak so coarsely before."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز پێشتر کەسم گوێ لێ نەبووبوو هێندە بێ‌ڕەوشتانە قسە بکات."),
+                                            "ھەرگیز پێشتر کەسم گوێ لێ نەبووبوو ھێندە بێ‌ڕەوشتانە قسە بکات."),
                                   ],
                                 ),
                               ),

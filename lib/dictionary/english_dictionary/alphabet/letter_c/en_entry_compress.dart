@@ -208,7 +208,7 @@ class EnglishEntrycompress extends StatelessWidget {
                                             "As more snow fell, the bottom layer was compressed into ice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە بەفری زیاتر کەوت، چینی خوارەوە پەستێورا بۆ سەهۆڵ."),
+                                            "کە بەفری زیاتر کەوت، چینی خوارەوە پەستێورا بۆ سەھۆڵ."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycompress extends StatelessWidget {
                                             "Rehearsal time will have to be compressed into two evenings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنان دەبێت کورتبکرێتەوە بۆ دوو شەو."),
+                                            "ڕاھێنان دەبێت کورتبکرێتەوە بۆ دوو شەو."),
                                   ],
                                 ),
                               ),
@@ -395,14 +395,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compress (Derived forms: compresses, compressed, compressing)
+- Verb: compress (derived forms: compresses, compressed, compressing)
 1. Make more compact by or as if by pressing (= compact, pack together)
 "compress the data";
  
 2. Bring together or compress (= constrict, squeeze, compact, contract, press)
 "she compressed her lips";
 
-- Noun: compress (Derived forms: compresses)
+- Noun: compress (derived forms: compresses)
 1. A cloth pad or dressing (with or without medication) applied firmly to some part of the body (to relieve discomfort or reduce fever)
 """,
   );
@@ -436,7 +436,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
+    videoId: 'e09xig209cQ',
     startSeconds: 730,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cqidD7kVnxY?t=',
+    videoId: 'cqidD7kVnxY',
     startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 1139,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    videoId: 'ZQvfHyfgBtA',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/737r0mRf0hY?t=',
+    videoId: '737r0mRf0hY',
     startSeconds: 676,
     autoPlay: true,
     params: const YoutubePlayerParams(

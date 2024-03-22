@@ -191,7 +191,7 @@ class EnglishEntrycondiment extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تام، بەهارات، ئاڵەت و زەردەچێوە، هەزوێڵە، دەرمانک
+کوردی: تام، بەھارات، ئاڵەت و زەردەچێوە، ھەزوێڵە، دەرمانک
 """),
                           const DefinitionKurdish(
                               text:
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condiment (Derived forms: condiments)
+- Noun: condiment (derived forms: condiments)
 1. A preparation (a sauce or relish or spice) to enhance flavour or enjoyment
 "mustard and ketchup are condiments"
 """,
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NpBIUejoxZI?t=',
+    videoId: 'NpBIUejoxZI',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    videoId: '3cxHwQl9pNM',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/biXxMLcKa2g?t=',
+    videoId: 'biXxMLcKa2g',
     startSeconds: 534,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IILklP-sj_0?t=',
+    videoId: 'IILklP-sj_0',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a5tU973I35w?t=',
+    videoId: 'a5tU973I35w',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iErqWGwso7o?t=',
+    videoId: 'iErqWGwso7o',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2dH3K6YKOUU',
+    videoId: '2dH3K6YKOUU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

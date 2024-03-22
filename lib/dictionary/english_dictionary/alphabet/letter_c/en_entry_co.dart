@@ -191,7 +191,7 @@ class EnglishEntryco extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لە لایەن، بە دەستی، بە هۆی
+کوردی: لە لایەن، بە دەستی، بە ھۆی
 """),
                           const DefinitionKurdish(
                               text:

@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
     text: """
 - Noun: colour supplement
 Usage: Brit, Cdn
-1. A magazine that is printed in colour and circulated with a newspaper (especially on weekends) (= Derived forms: colour supplements)
+1. A magazine that is printed in colour and circulated with a newspaper (especially on weekends) (= derived forms: colour supplements)
 """,
   );
 

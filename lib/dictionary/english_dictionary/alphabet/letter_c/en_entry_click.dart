@@ -378,7 +378,7 @@ class EnglishEntryclick extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) لەناکاو بوون بە هاوڕێ لەگەڵ کەسێک"),
+                                  "٤. (کردار) لەناکاو بوون بە ھاوڕێ لەگەڵ کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -389,7 +389,7 @@ class EnglishEntryclick extends StatelessWidget {
                                             "We met at a party and clicked immediately."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئاهەنگێک یەکمان ناسی و دەستبەجێ بووین بە دۆست."),
+                                            "لە ئاھەنگێک یەکمان ناسی و دەستبەجێ بووین بە دۆست."),
                                   ],
                                 ),
                               ),
@@ -419,7 +419,7 @@ class EnglishEntryclick extends StatelessWidget {
                                             "The team don't seem to have clicked yet."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمەکە وادەرناکەوێت هێشتا پێکەوە بگونجێن."),
+                                            "تیمەکە وادەرناکەوێت ھێشتا پێکەوە بگونجێن."),
                                   ],
                                 ),
                               ),
@@ -478,7 +478,7 @@ class EnglishEntryclick extends StatelessWidget {
                                             "It only took me a couple of clicks to find what I was looking for."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆزینەوەی ئەوەی دەمویست تەنها چەند کلیکێکی پێچوو."),
+                                            "دۆزینەوەی ئەوەی دەمویست تەنھا چەند کلیکێکی پێچوو."),
                                   ],
                                 ),
                               ),
@@ -605,7 +605,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: click (Derived forms: clicks)
+- Noun: click (derived forms: clicks)
 1. A short light metallic sound (= chink, clink)
  
 2. Depression of a button on a computer mouse (= mouse click)
@@ -615,7 +615,7 @@ ${englishMeaningConst.text}
  
 4. A hinged catch that fits into a notch of a ratchet to move a wheel forward or prevent it from moving backward (= pawl, detent, dog)
 
-- Verb: click (Derived forms: clicked, clicks, clicking)
+- Verb: click (derived forms: clicked, clicks, clicking)
 1. Move or strike with a noise (= snap)
 "he clicked on the light";
  

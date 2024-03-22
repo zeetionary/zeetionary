@@ -196,7 +196,7 @@ class EnglishEntrycocoon extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) داپۆشەرێک کە هەندێک مێروو بە دەوری خۆیاندا لە شێوەی دەزوودا درووستی دەکەن لە کاتی گەشەکردنیان و بوون بە پێگەشتوو"),
+                                  "١. (ناو) داپۆشەرێک کە ھەندێک مێروو بە دەوری خۆیاندا لە شێوەی دەزوودا درووستی دەکەن لە کاتی گەشەکردنیان و بوون بە پێگەشتوو"),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -335,10 +335,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cocoon (Derived forms: cocoons)
+- Noun: cocoon (derived forms: cocoons)
 1. Silky envelope spun by the larvae of many insects to protect pupas and by spiders to protect eggs
 
-- Verb: cocoon (Derived forms: cocoons, cocooning, cocooned)
+- Verb: cocoon (derived forms: cocoons, cocooning, cocooned)
 1. Retreat as if into a cocoon, as from an unfriendly environment
 "Families cocoon around the T.V. set most evenings"; "She loves to stay at home and cocoon"
  

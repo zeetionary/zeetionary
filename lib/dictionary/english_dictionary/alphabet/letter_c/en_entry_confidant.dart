@@ -196,7 +196,7 @@ class EnglishEntryconfidant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە متمانەت پێی هەیە و نهێنی و ژیانی کەسیتی لا باس دەکەیت"),
+                                  "١. (ناو) کەسێک کە متمانەت پێی ھەیە و نھێنی و ژیانی کەسیتی لا باس دەکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconfidant extends StatelessWidget {
                                             "There were times when a semi-stranger was a better confidante than a close friend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کات هەبوو کە کەسێکی تا ڕادەیەک نامۆ ڕازگرێکی باشتر بوو وەک لە کەسێکی نزیک ."),
+                                            "ھەندێک کات ھەبوو کە کەسێکی تا ڕادەیەک نامۆ ڕازگرێکی باشتر بوو وەک لە کەسێکی نزیک ."),
                                   ],
                                 ),
                               ),
@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confidant (Derived forms: confidants)
+- Noun: confidant (derived forms: confidants)
 1. Someone to whom private matters are confided (= intimate)
 """,
   );
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B3VHd2D-SLM?t=',
+    videoId: 'B3VHd2D-SLM',
     startSeconds: 675,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lOLUj1Y8FdU?t=',
+    videoId: 'lOLUj1Y8FdU',
     startSeconds: 889,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oL0umpPPe-8?t=',
+    videoId: 'oL0umpPPe-8',
     startSeconds: 870,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eC3OrjztLJ8?t=',
+    videoId: 'eC3OrjztLJ8',
     startSeconds: 429,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVDCqD0NYrE?t=',
+    videoId: 'kVDCqD0NYrE',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m_Z1B7cHOgE?t=',
+    videoId: 'm_Z1B7cHOgE',
     startSeconds: 1402,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kRO5jOa06Qw?t=',
+    videoId: 'kRO5jOa06Qw',
     startSeconds: 6215,
     autoPlay: true,
     params: const YoutubePlayerParams(

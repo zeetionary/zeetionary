@@ -196,7 +196,7 @@ class EnglishEntrycontamination extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پڕۆسە یان کاری پیسکردنی شتێک بە زیادکردنی مادەیەکی پیس یان یەکێک کە نەخۆشی هەڵدەگرێت"),
+                                  "١. (ناو) پڕۆسە یان کاری پیسکردنی شتێک بە زیادکردنی مادەیەکی پیس یان یەکێک کە نەخۆشی ھەڵدەگرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycontamination extends StatelessWidget {
                                             "Environmental contamination resulting from human activities is a major health concern."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیسبوونی ژینگەیی بەهۆی چالاکییەکانی مرۆڤەوە نیگەرانییەنی تەندرووستی گرنگە."),
+                                            "پیسبوونی ژینگەیی بەھۆی چالاکییەکانی مرۆڤەوە نیگەرانییەنی تەندرووستی گرنگە."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntrycontamination extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دانانی کاریگەری خراپ لەسەر بیرۆکە و هەلسوکەوتی خەڵکی"),
+                                  "٢. (ناو) دانانی کاریگەری خراپ لەسەر بیرۆکە و ھەلسوکەوتی خەڵکی"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntrycontamination extends StatelessWidget {
                                             "They feared cultural contamination from the influx of tourists."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە تێکچوونی کەلتووری دەترسان بەهۆی ژمارەی زۆری گەشتیارەوە."),
+                                            "لە تێکچوونی کەلتووری دەترسان بەھۆی ژمارەی زۆری گەشتیارەوە."),
                                   ],
                                 ),
                               ),
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contamination (Derived forms: contaminations)
+- Noun: contamination (derived forms: contaminations)
 1. The state of being contaminated (= taint)
  
 2. A substance that contaminates (= contaminant)
@@ -379,7 +379,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vZ1KmVmpC8o?t=',
+    videoId: 'vZ1KmVmpC8o',
     startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -404,7 +404,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6o9TF3BYAQ?t=',
+    videoId: 'v6o9TF3BYAQ',
     startSeconds: 2733,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8d2iNhUTd0U?t=',
+    videoId: '8d2iNhUTd0U',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i7lK4uS_qFM?t=',
+    videoId: 'i7lK4uS_qFM',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d5dcxHetggM?t=',
+    videoId: 'd5dcxHetggM',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WIT5_SMIaHE?t=',
+    videoId: 'WIT5_SMIaHE',
     startSeconds: 1138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zIADYkHIFDI?t=',
+    videoId: 'zIADYkHIFDI',
     startSeconds: 1263,
     autoPlay: true,
     params: const YoutubePlayerParams(

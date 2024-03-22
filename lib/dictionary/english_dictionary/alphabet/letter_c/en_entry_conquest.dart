@@ -198,7 +198,7 @@ class EnglishEntryconquest extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گرتنی شارێک، وڵاتێک، هتد بە هێز، یان ناوچەیەک کە بە هێز گیراوە"),
+                                  "١. (ناو) گرتنی شارێک، وڵاتێک، ھتد بە ھێز، یان ناوچەیەک کە بە ھێز گیراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntryconquest extends StatelessWidget {
                                             "The army made many conquests in the east."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سوپاکە زۆر داگیرکاری لە ڕۆژهەڵات ئەنجامدا."),
+                                            "سوپاکە زۆر داگیرکاری لە ڕۆژھەڵات ئەنجامدا."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryconquest extends StatelessWidget {
                                             "I'm just one of his many conquests."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "من تەنها یەکێکم لە فریودراوەکانی."),
+                                            "من تەنھا یەکێکم لە فریودراوەکانی."),
                                   ],
                                 ),
                               ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conquest (Derived forms: conquests)
+- Noun: conquest (derived forms: conquests)
 1. The act of conquering (= conquering, subjection, subjugation)
  
 2. Success in mastering something difficult
@@ -433,7 +433,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0CBZgo7GXoA?t=',
+    videoId: '0CBZgo7GXoA',
     startSeconds: 435,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2yp4TTj6FnA?t=',
+    videoId: '2yp4TTj6FnA',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xMwoTCVIzcs?t=',
+    videoId: 'xMwoTCVIzcs',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lsbcN9-jU1Y?t=',
+    videoId: 'lsbcN9-jU1Y',
     startSeconds: 695,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +583,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SY86xyG-hDY?t=',
+    videoId: 'SY86xyG-hDY',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(

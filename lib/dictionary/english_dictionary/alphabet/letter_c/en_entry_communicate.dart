@@ -200,11 +200,11 @@ class EnglishEntrycommunicate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: وتووێژکردن، پەیوەندی هەبوون، هات و چۆ کردن، دانووستان کردن
+کوردی: وتووێژکردن، پەیوەندی ھەبوون، ھات و چۆ کردن، دانووستان کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) ئاڵوگۆڕی زانیاری، هەواڵ، بیرۆکە، هەست و سۆز، هتد"),
+                                  "١. (کردار) ئاڵوگۆڕی زانیاری، ھەواڵ، بیرۆکە، ھەست و سۆز، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "We only communicate by email."),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها بە ئیمەیڵ گفتوگۆ دەکەین."),
+                                        text: "تەنھا بە ئیمەیڵ گفتوگۆ دەکەین."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
                                                     "In times of uncertainty, a leader must be able to communicate a message of hope."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە ماوەی دڵەخورپەدا، سەرکردە دەبێت پەیامێکی هیوا ببەخشێت."),
+                                                    "لە ماوەی دڵەخورپەدا، سەرکردە دەبێت پەیامێکی ھیوا ببەخشێت."),
                                           ],
                                         ),
                                       ),
@@ -421,7 +421,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) هەبوونی پەیوەندییەکی باش چونکە توانات هەیە باسی بیرکردنەوە، هەست، هت ـەکانی خۆت و کەسانی بکەیت"),
+                                  "٢. (کردار) ھەبوونی پەیوەندییەکی باش چونکە توانات ھەیە باسی بیرکردنەوە، ھەست، ھت ـەکانی خۆت و کەسانی بکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -484,7 +484,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) گواستنەوەی نەخۆشی لە کەسێک، ئاژەڵێک، هتد بۆ یەکێکی دیکە"),
+                                  "٣. (کردار) گواستنەوەی نەخۆشی لە کەسێک، ئاژەڵێک، ھتد بۆ یەکێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -596,7 +596,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: communicate (Derived forms: communicated, communicates, communicating)
+- Verb: communicate (derived forms: communicated, communicates, communicating)
 1. Transmit information (= pass on, pass, pass along, put across)
 "Please communicate this message to all employees";
  

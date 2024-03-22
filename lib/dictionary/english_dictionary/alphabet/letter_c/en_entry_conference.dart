@@ -211,7 +211,7 @@ class EnglishEntryconference extends StatelessWidget {
                                             "The hotel is used for exhibitions, conferences and social events."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هوتێلەکە بۆ پێشانگا، کۆنفرانس و بۆنەی کۆمەڵایەتی بەکاردێت."),
+                                            "ھوتێلەکە بۆ پێشانگا، کۆنفرانس و بۆنەی کۆمەڵایەتی بەکاردێت."),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntryconference extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆبوونەوەیەک کە تێیدا خەڵکی گفتووگۆی فەرمیان هەیە"),
+                                  "٢. (ناو) کۆبوونەوەیەک کە تێیدا خەڵکی گفتووگۆی فەرمیان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -453,14 +453,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conference (Derived forms: conferences)
+- Noun: conference (derived forms: conferences)
 1. A prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda)
  
 2. An association of sports teams that organizes matches for its members (= league)
  
 3. A discussion among participants who have an agreed (serious) topic (= group discussion)
 
-- Verb: conference (Derived forms: conferencing, conferences, conferenced)
+- Verb: conference (derived forms: conferencing, conferences, conferenced)
 1. Take part in a conference
 """,
   );
@@ -494,7 +494,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/meAr4Xcn_Jk?t=',
+    videoId: 'meAr4Xcn_Jk',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dyPyuOPmX7I?t=',
+    videoId: 'dyPyuOPmX7I',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zAkOvWSp5PM?t=',
+    videoId: 'zAkOvWSp5PM',
     startSeconds: 426,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zZM57oTu9Ng?t=',
+    videoId: 'zZM57oTu9Ng',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XZVHmRvfDHM?t=',
+    videoId: 'XZVHmRvfDHM',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -644,7 +644,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AOfIm5YZzVo?t=',
+    videoId: 'AOfIm5YZzVo',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(

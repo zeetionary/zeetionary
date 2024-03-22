@@ -194,7 +194,7 @@ class EnglishEntrycompatible extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سازاو، گونجاو، ڕاهاتوو، کۆک، ڕێک‌کەوتوو، جۆر، بۆبوو
+کوردی: سازاو، گونجاو، ڕاھاتوو، کۆک، ڕێک‌کەوتوو، جۆر، بۆبوو
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntrycompatible extends StatelessWidget {
                                             "The new system will be compatible with existing equipment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان هەیە."),
+                                            "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntrycompatible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بیرۆکە، بیردۆز، شت، هتد کە دەکرێت پێکەوە بەکاربێن بەبێ کێشە"),
+                                  "٢. (ھاوەڵناو) بیرۆکە، بیردۆز، شت، ھتد کە دەکرێت پێکەوە بەکاربێن بەبێ کێشە"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntrycompatible extends StatelessWidget {
                                             "Are measures to protect the environment compatible with economic growth?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئایا هەنگاوەکان بۆ پاراستنی ژینگە لە سازاندان لەگەڵ گەشەی ئابووری؟"),
+                                            "ئایا ھەنگاوەکان بۆ پاراستنی ژینگە لە سازاندان لەگەڵ گەشەی ئابووری؟"),
                                   ],
                                 ),
                               ),
@@ -288,7 +288,7 @@ class EnglishEntrycompatible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) گونجانی دوو کەس پێکەوە بەهۆی ئەوەی حەز، خولیاو، و بیرکردنەوەی وەک یەکیان هەیە"),
+                                  "٣. (ھاوەڵناو) گونجانی دوو کەس پێکەوە بەھۆی ئەوەی حەز، خولیاو، و بیرکردنەوەی وەک یەکیان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Fjn4GRw8qE?t=',
+    videoId: '7Fjn4GRw8qE',
     startSeconds: 1161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QVoleJYgdM8?t=',
+    videoId: 'QVoleJYgdM8',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QcUey-DVYjk?t=',
+    videoId: 'QcUey-DVYjk',
     startSeconds: 1101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PXaLc9AYIcg?t=',
+    videoId: 'PXaLc9AYIcg',
     startSeconds: 2056,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 954,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/snFyGHu8gUs?t=',
+    videoId: 'snFyGHu8gUs',
     startSeconds: 995,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hDDTUb_1cQc?t=',
+    videoId: 'hDDTUb_1cQc',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(

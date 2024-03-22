@@ -409,7 +409,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commonwealth (Derived forms: commonwealths)
+- Noun: commonwealth (derived forms: commonwealths)
 1. The official name of some states in the United States (Massachusetts and Pennsylvania and Virginia and Kentucky) and associated territories (Puerto Rico)
  
 2. A politically organized body of people under a single government (= state, nation, country, land, res publica, body politic)

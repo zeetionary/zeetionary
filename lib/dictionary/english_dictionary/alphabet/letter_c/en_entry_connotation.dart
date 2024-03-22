@@ -197,7 +197,7 @@ class EnglishEntryconnotation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) واتایەک کە وشەیەک یان دەستەواژەیەک کە دەکرێت هەیبێت هاوکات لەگەڵ واتای سەرەکییدا"),
+                                  "١. (ناو) واتایەک کە وشەیەک یان دەستەواژەیەک کە دەکرێت ھەیبێت ھاوکات لەگەڵ واتای سەرەکییدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconnotation extends StatelessWidget {
                                         text:
                                             "It is important to understand the power of connotation."),
                                     ExampleSentenceKurdish(
-                                        text: "گرنگە لە هێزی لاواتا تێبگەیت."),
+                                        text: "گرنگە لە ھێزی لاواتا تێبگەیت."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntryconnotation extends StatelessWidget {
                                             "That word has strong sexual connotations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو وشە لاواتای بەهێزی سێکسی هەیە."),
+                                            "ئەو وشە لاواتای بەھێزی سێکسی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconnotation extends StatelessWidget {
                                             "The word ‘foreign’ often has a pejorative connotation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وشەی 'بیانی' زۆرجار واتایەکی خراپی هەیە."),
+                                            "وشەی 'بیانی' زۆرجار واتایەکی خراپی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: connotation (Derived forms: connotations)
+- Noun: connotation (derived forms: connotations)
 1. What you must know in order to determine the reference of an expression (= intension)
  
 2. An idea that is implied or suggested
@@ -404,7 +404,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YLmDE_JYUNU?t=',
+    videoId: 'YLmDE_JYUNU',
     startSeconds: 648,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wao0_uB4Zw4?t=',
+    videoId: 'Wao0_uB4Zw4',
     startSeconds: 1826,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ht7MNqZT_hU?t=',
+    videoId: 'ht7MNqZT_hU',
     startSeconds: 1263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oHNRRGx-yOE?t=',
+    videoId: 'oHNRRGx-yOE',
     startSeconds: 433,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZTwekCKTklE?t=',
+    videoId: 'ZTwekCKTklE',
     startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j9h2-ZVDLB8?t=',
+    videoId: 'j9h2-ZVDLB8',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EMpaw46kr2w?t=',
+    videoId: 'EMpaw46kr2w',
     startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(

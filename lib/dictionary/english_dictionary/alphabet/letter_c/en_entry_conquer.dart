@@ -201,7 +201,7 @@ class EnglishEntryconquer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) کۆنترۆڵکردنی وڵاتێک یان شارێک و خەڵکەکەی بە هێز"),
+                                  "١. (کردار) کۆنترۆڵکردنی وڵاتێک یان شارێک و خەڵکەکەی بە ھێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -288,7 +288,7 @@ class EnglishEntryconquer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بردنەوە لە کەسێک لە ڕکابەرییەک، پێشبڕکێیەک، هتد"),
+                                  "٢. (کردار) بردنەوە لە کەسێک لە ڕکابەرییەک، پێشبڕکێیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -299,7 +299,7 @@ class EnglishEntryconquer extends StatelessWidget {
                                             "The world champion conquered yet another challenger last night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاڵەوانی جیهان دوێنێ شەو ڕکابەرێکی دیکەشی تێکشکاند."),
+                                            "پاڵەوانی جیھان دوێنێ شەو ڕکابەرێکی دیکەشی تێکشکاند."),
                                   ],
                                 ),
                               ),
@@ -330,7 +330,7 @@ class EnglishEntryconquer extends StatelessWidget {
                                             "The only way to conquer a fear is to face it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها ڕێگا بۆ زاڵبوون بەسەر ترسێک ڕووبەڕووبوونەوەیەتی."),
+                                            "تەنھا ڕێگا بۆ زاڵبوون بەسەر ترسێک ڕووبەڕووبوونەوەیەتی."),
                                   ],
                                 ),
                               ),
@@ -487,7 +487,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conquer (Derived forms: conquered, conquering, conquers)
+- Verb: conquer (derived forms: conquered, conquering, conquers)
 1. Bring under control by force or authority (= suppress, stamp down, subdue)
 "conquer one's desires";
  
@@ -528,7 +528,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t1o-NOnhdCU?t=',
+    videoId: 't1o-NOnhdCU',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pGjOlGDgPiU?t=',
+    videoId: 'pGjOlGDgPiU',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -578,7 +578,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8yKIuFc6uA?t=',
+    videoId: 'T8yKIuFc6uA',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -603,7 +603,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nVjLZA6RWjo?t=',
+    videoId: 'nVjLZA6RWjo',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -628,7 +628,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O177L4pu2jg?t=',
+    videoId: 'O177L4pu2jg',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -653,7 +653,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2PeYDphtHYo?t=',
+    videoId: '2PeYDphtHYo',
     startSeconds: 1007,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -678,7 +678,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mQ0Mj7gXUNw?t=',
+    videoId: 'mQ0Mj7gXUNw',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(

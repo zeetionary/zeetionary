@@ -212,7 +212,7 @@ class EnglishEntryconcentrationcamp extends StatelessWidget {
                                             "During World War II, millions of Jews were imprisoned in concentration camps."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ماوەی جەنگی دووەمی جیهانیدا، ملیۆنان جوو لە ئۆردوگا زۆرەملێیەکاندا زیندانی کران."),
+                                            "لە ماوەی جەنگی دووەمی جیھانیدا، ملیۆنان جوو لە ئۆردوگا زۆرەملێیەکاندا زیندانی کران."),
                                   ],
                                 ),
                               ),
@@ -313,7 +313,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concentration camp (Derived forms: concentration camps)
+- Noun: concentration camp (derived forms: concentration camps)
 1. A penal camp where political prisoners or prisoners of war are confined (usually under harsh conditions) (= stockade)
  
 2. A situation characterized by crowding and extremely harsh conditions
@@ -349,7 +349,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uru4RRJsQO8?t=',
+    videoId: 'uru4RRJsQO8',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -374,7 +374,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ms4NIB6xroc?t=',
+    videoId: 'Ms4NIB6xroc',
     startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hfkXSNo6jAg?t=',
+    videoId: 'hfkXSNo6jAg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jEcuoGOufbU?t=',
+    videoId: 'jEcuoGOufbU',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Fu-o-0kd7Y?t=',
+    videoId: '2Fu-o-0kd7Y',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LQILa44AeCU?t=',
+    videoId: 'LQILa44AeCU',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f52YHISJZN8?t=',
+    videoId: 'f52YHISJZN8',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(

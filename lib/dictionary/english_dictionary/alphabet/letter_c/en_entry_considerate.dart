@@ -197,7 +197,7 @@ class EnglishEntryconsiderate extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) گرنگیدان بە هەست و سۆزی کەسانی دیکە بۆ ئەوەی بێزاریان نەکەیت؛ میهرەبان و یارمەتیدەر"),
+                                  "١. (ھاوەڵناو) گرنگیدان بە ھەست و سۆزی کەسانی دیکە بۆ ئەوەی بێزاریان نەکەیت؛ میھرەبان و یارمەتیدەر"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconsiderate extends StatelessWidget {
                                             "She is always polite and considerate towards her employees."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە بەڕێز و میهرەبان بووە بەرامبەر کارمەندەکانی."),
+                                            "ھەمیشە بەڕێز و میھرەبان بووە بەرامبەر کارمەندەکانی."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryconsiderate extends StatelessWidget {
                                             "It wasn't very considerate of you to drink all the milk."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر لە دڵسۆزیت نەبوو کە هەموو شیرەکەت خواردەوە."),
+                                            "زۆر لە دڵسۆزیت نەبوو کە ھەموو شیرەکەت خواردەوە."),
                                   ],
                                 ),
                               ),
@@ -404,7 +404,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GYk4ymtQ1WM?t=',
+    videoId: 'GYk4ymtQ1WM',
     startSeconds: 444,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R4bQ5a-mbdU?t=',
+    videoId: 'R4bQ5a-mbdU',
     startSeconds: 1277,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qx3o1xiG81Y?t=',
+    videoId: 'qx3o1xiG81Y',
     startSeconds: 566,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rN9NzgryhMY?t=',
+    videoId: 'rN9NzgryhMY',
     startSeconds: 740,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mzPV9NJpiGU?t=',
+    videoId: 'mzPV9NJpiGU',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ka-f7PhLMwo?t=',
+    videoId: 'Ka-f7PhLMwo',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Oj9oFdIZCFs?t=',
+    videoId: 'Oj9oFdIZCFs',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(

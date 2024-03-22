@@ -195,7 +195,7 @@ class EnglishEntryconifer extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەر درەختێک کە میوەی وشکی ڕەق بەرهەمدێنێت کە شێوەی قووچەکی هەیە"),
+                                  "١. (ناو) ھەر درەختێک کە میوەی وشکی ڕەق بەرھەمدێنێت کە شێوەی قووچەکی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conifer (Derived forms: conifers)
+- Noun: conifer (derived forms: conifers)
 1. Any gymnospermous tree or shrub bearing cones (= coniferous tree)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VtziMzq-nnk?t=',
+    videoId: 'VtziMzq-nnk',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ryij01EbQkI?t=',
+    videoId: 'Ryij01EbQkI',
     startSeconds: 347,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZPr-a8kht2E?t=',
+    videoId: 'ZPr-a8kht2E',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y7gLvEYoBu0?t=',
+    videoId: 'y7gLvEYoBu0',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pDtpEiMyGT4?t=',
+    videoId: 'pDtpEiMyGT4',
     startSeconds: 517,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l0pHGj5L3iM?t=',
+    videoId: 'l0pHGj5L3iM',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EM81V9sgdos?t=',
+    videoId: 'EM81V9sgdos',
     startSeconds: 4547,
     autoPlay: true,
     params: const YoutubePlayerParams(

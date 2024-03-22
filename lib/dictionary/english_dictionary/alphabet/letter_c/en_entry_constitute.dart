@@ -196,7 +196,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکهێنان، دروستکردن، تێکەڵاو کردن
+کوردی: پێکھێنان، دروستکردن، تێکەڵاو کردن
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) دانان وەک شتێک"),
@@ -210,7 +210,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                                             "Does such an activity constitute a criminal offence?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چالاکی وەها بە یاساشکاندنی تاوانکاری دادەنرێت؟"),
+                                            "چالاکی وەھا بە یاساشکاندنی تاوانکاری دادەنرێت؟"),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                                             "Climate change constitutes a major threat to life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕانی ئاووهەوا هەڕەشەیەکی گەورەیە بۆ ژیان."),
+                                            "گۆڕانی ئاووھەوا ھەڕەشەیەکی گەورەیە بۆ ژیان."),
                                   ],
                                 ),
                               ),
@@ -285,7 +285,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) بوون بە پێکهێنەری شتێک"),
+                              text: "٢. (کردار) بوون بە پێکھێنەری شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -296,7 +296,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                                             "Female workers constitute the majority of the labour force."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کرێکارە ژنەکان زۆرینەی هێزی کار پێکدێنن."),
+                                            "کرێکارە ژنەکان زۆرینەی ھێزی کار پێکدێنن."),
                                   ],
                                 ),
                               ),
@@ -324,7 +324,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                                             "People under the age of 40 constitute the majority of the labour force."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەسانی خوار ٤٠ ساڵ زۆرینەی هێزی کار پێکدێنن."),
+                                            "کەسانی خوار ٤٠ ساڵ زۆرینەی ھێزی کار پێکدێنن."),
                                   ],
                                 ),
                               ),
@@ -344,7 +344,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) پێکهێنانی گرووپێک بە فەرمی یان یاسایی"),
+                                  "٣. (کردار) پێکھێنانی گرووپێک بە فەرمی یان یاسایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -454,7 +454,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: constitute (Derived forms: constituted, constitutes, constituting)
+- Verb: constitute (derived forms: constituted, constitutes, constituting)
 1. Form or compose (= represent, make up, comprise, be)
 "These constitute my entire belonging";
  
@@ -498,7 +498,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2GZrPR5Ajrs?t=',
+    videoId: '2GZrPR5Ajrs',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVQxvthAcLU?t=',
+    videoId: 'xVQxvthAcLU',
     startSeconds: 627,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JY5t6iUzajk?t=',
+    videoId: 'JY5t6iUzajk',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RAlI0pbMQiM?t=',
+    videoId: 'RAlI0pbMQiM',
     startSeconds: 687,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    videoId: '4IaOeVgZ-wc',
     startSeconds: 2843,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NG4Ws74RV04?t=',
+    videoId: 'NG4Ws74RV04',
     startSeconds: 1046,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -648,7 +648,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mICxKmCjF-4?t=',
+    videoId: 'mICxKmCjF-4',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(

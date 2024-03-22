@@ -192,11 +192,11 @@ class EnglishEntryconstituency extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مەڵبەندی هەڵبژاردن،	دەنگدەران، هەڵبژێران
+کوردی: مەڵبەندی ھەڵبژاردن،	دەنگدەران، ھەڵبژێران
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ناوچەیەک کە نوێنەری خۆی بۆ پەرلەمان هەڵدەبژێرێت؛ خەڵکی ناوچەیەکی وەها"),
+                                  "١. (ناو) ناوچەیەک کە نوێنەری خۆی بۆ پەرلەمان ھەڵدەبژێرێت؛ خەڵکی ناوچەیەکی وەھا"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconstituency extends StatelessWidget {
                                             "Unemployment is high in her constituency."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێ‌کاری زۆر هەیە لە مەڵبەندی هەڵبژاردنیدا."),
+                                            "بێ‌کاری زۆر ھەیە لە مەڵبەندی ھەڵبژاردنیدا."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntryconstituency extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) گرووپێکی دیاریکراو لە کۆمەڵگەدا کە ئەگەری هەیە پشتیوانی کەسێک، بیرۆکەیەک، بەرهەمێک، هتد بکەن"),
+                                  "٢. (ناو) گرووپێکی دیاریکراو لە کۆمەڵگەدا کە ئەگەری ھەیە پشتیوانی کەسێک، بیرۆکەیەک، بەرھەمێک، ھتد بکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntryconstituency extends StatelessWidget {
                                             "There is a strong constituency of support for his proposal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمەڵێکی زۆر لە پشتیوانی هەیە بۆ پێشنیارەکەی."),
+                                            "کۆمەڵێکی زۆر لە پشتیوانی ھەیە بۆ پێشنیارەکەی."),
                                   ],
                                 ),
                               ),
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: constituency (Derived forms: constituencies)
+- Noun: constituency (derived forms: constituencies)
 1. The body of voters who elect a representative for their area (= electorate [Austral, NZ])
  
 2. A district represented by one or more elected officials
@@ -379,7 +379,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mf4wwXM2o_M?t=',
+    videoId: 'Mf4wwXM2o_M',
     startSeconds: 416,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -404,7 +404,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_TdIBYJkINs?t=',
+    videoId: '_TdIBYJkINs',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m3Wf2GN2Pus?t=',
+    videoId: 'm3Wf2GN2Pus',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8uZhdZlY6qY?t=',
+    videoId: '8uZhdZlY6qY',
     startSeconds: 585,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IHXtHZpDvAo?t=',
+    videoId: 'IHXtHZpDvAo',
     startSeconds: 231,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TIq7nmXGLcw?t=',
+    videoId: 'TIq7nmXGLcw',
     startSeconds: 646,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zciZe3Gpa24?t=',
+    videoId: 'zciZe3Gpa24',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(

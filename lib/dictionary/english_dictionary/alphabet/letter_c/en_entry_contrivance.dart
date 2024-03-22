@@ -193,7 +193,7 @@ class EnglishEntrycontrivance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەزگا، ئامێر، ئامراز، ئاموور، وەسیلە، ماشێن،	پلان‌دانان، بەرنامەداڕێژی،	فێڵ، تەڵەکە، دهۆ،	داهێنەری، توانایی داهێنان
+کوردی: دەزگا، ئامێر، ئامراز، ئاموور، وەسیلە، ماشێن،	پلان‌دانان، بەرنامەداڕێژی،	فێڵ، تەڵەکە، دھۆ،	داھێنەری، توانایی داھێنان
 """),
                           const DefinitionKurdish(
                               text:
@@ -273,7 +273,7 @@ class EnglishEntrycontrivance extends StatelessWidget {
                                             "He used an ingenious contrivance to distract her and get her to sign the document without reading it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەڵەکەیەکی زیرەکانەی بەکارهێنا بۆ سەرقاڵکردنی و وای لێ بکات بەڵگەنامەکە واژۆ بکات بەبێ خوێندنەوەی."),
+                                            "تەڵەکەیەکی زیرەکانەی بەکارھێنا بۆ سەرقاڵکردنی و وای لێ بکات بەڵگەنامەکە واژۆ بکات بەبێ خوێندنەوەی."),
                                   ],
                                 ),
                               ),
@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contrivance (Derived forms: contrivances)
+- Noun: contrivance (derived forms: contrivances)
 1. A device or control that is very useful for a particular job (= appliance, contraption, convenience, gadget, gizmo [informal], gismo [informal], widget)
  
 2. The faculty of contriving; inventive skill
@@ -421,7 +421,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HKnrbjdDYd4?t=',
+    videoId: 'HKnrbjdDYd4',
     startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EqBhF9yNNAw?t=',
+    videoId: 'EqBhF9yNNAw',
     startSeconds: 589,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AFkJFvmPQGg?t=',
+    videoId: 'AFkJFvmPQGg',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9vd3iZDN_OI?t=',
+    videoId: '9vd3iZDN_OI',
     startSeconds: 590,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zO6dmua_B0k?t=',
+    videoId: 'zO6dmua_B0k',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vTcWJYUFsxg?t=',
+    videoId: 'vTcWJYUFsxg',
     startSeconds: 449,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kdVfv2HPZSQ?t=',
+    videoId: 'kdVfv2HPZSQ',
     startSeconds: 611,
     autoPlay: true,
     params: const YoutubePlayerParams(

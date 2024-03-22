@@ -192,11 +192,11 @@ class EnglishEntrycollusion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیلان، سازوباز، کەین‌وبەین، هاودەستی، پێکەوەسازان، ڕێککەوتن بۆ خراپەکاری
+کوردی: پیلان، سازوباز، کەین‌وبەین، ھاودەستی، پێکەوەسازان، ڕێککەوتن بۆ خراپەکاری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕێککەوتنی نهێنی، بەتایبەتی بۆ فریودانی کەسانی دیکە"),
+                                  "١. (ناو) ڕێککەوتنی نھێنی، بەتایبەتی بۆ فریودانی کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycollusion extends StatelessWidget {
                                             "The police were corrupt and were operating in collusion with the drug dealers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس گەندەڵ بوون بە هەماهەنگی لەگەڵ بازرگانانی مادە هۆشبەرەکان کاریان دەکرد."),
+                                            "پۆلیس گەندەڵ بوون بە ھەماھەنگی لەگەڵ بازرگانانی مادە ھۆشبەرەکان کاریان دەکرد."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycollusion extends StatelessWidget {
                                             "There was collusion between the two witnesses (= they gave the same false evidence)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەین‌وبەین هەبوو لە نێوان دوو شایەتحاڵەکەدا."),
+                                            "کەین‌وبەین ھەبوو لە نێوان دوو شایەتحاڵەکەدا."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collusion (Derived forms: collusions)
+- Noun: collusion (derived forms: collusions)
 1. Secret agreement
  
 2. Agreement on a secret plot (= connivance)

@@ -198,7 +198,7 @@ class EnglishEntrycommute extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) گەشتکردن بە پاس، شەمەندەفەر، ئۆتۆمبێل، هتد لە نێوان شوێنی کارکردن و ماڵەوەدا"),
+                                  "١. (کردار) گەشتکردن بە پاس، شەمەندەفەر، ئۆتۆمبێل، ھتد لە نێوان شوێنی کارکردن و ماڵەوەدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycommute extends StatelessWidget {
                                             "She commutes from Oxford to London every day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو ڕۆژێک لە ئۆکسفۆردەوە هاتووچۆی لەندەن دەکات."),
+                                            "ھەموو ڕۆژێک لە ئۆکسفۆردەوە ھاتووچۆی لەندەن دەکات."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycommute extends StatelessWidget {
                                             "The death sentence was commuted to life imprisonment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سزا مەرگەکەی گۆڕدرا بۆ زیندانی هەتاهەتایی."),
+                                            "سزا مەرگەکەی گۆڕدرا بۆ زیندانی ھەتاھەتایی."),
                                   ],
                                 ),
                               ),
@@ -288,7 +288,7 @@ class EnglishEntrycommute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئەو هاتووچۆیەی کە کەسێک ئەنجامی دەدات کە دەچێت بۆ سەر کار"),
+                                  "٣. (ناو) ئەو ھاتووچۆیەی کە کەسێک ئەنجامی دەدات کە دەچێت بۆ سەر کار"),
                           Row(
                             children: [
                               const Expanded(
@@ -299,7 +299,7 @@ class EnglishEntrycommute extends StatelessWidget {
                                             "I have only a short commute to work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتووچۆیەکی کورتم هەیە بۆ سەر کار."),
+                                            "ھاتووچۆیەکی کورتم ھەیە بۆ سەر کار."),
                                   ],
                                 ),
                               ),
@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: commute (Derived forms: commutes, commuted, commuting)
+- Verb: commute (derived forms: commutes, commuted, commuting)
 1. Travel back and forth regularly, as between one's place of work and home
  
 2. (mathematics) exchange positions without a change in value (= transpose)
@@ -411,7 +411,7 @@ ${englishMeaningConst.text}
 5. Exchange or replace with another, usually of the same kind or category (= change, exchange, convert)
 "He commuted his name";
 
-- Noun: commute (Derived forms: commutes)
+- Noun: commute (derived forms: commutes)
 1. A regular journey of some distance to and from your place of work
 "there is standing room only on the high-speed commute"
 """,

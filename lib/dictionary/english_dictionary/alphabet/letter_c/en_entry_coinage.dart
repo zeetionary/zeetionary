@@ -193,7 +193,7 @@ class EnglishEntrycoinage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لێدانی کۆین، سکە، وشە یان زاراوەی نوێ، وشەی داهێنراو یان داڕێژراو، وشەی داتاشراو، داڕشتن یان داهێنان،	وشەداڕشتن، وشەداتاشی
+کوردی: لێدانی کۆین، سکە، وشە یان زاراوەی نوێ، وشەی داھێنراو یان داڕێژراو، وشەی داتاشراو، داڕشتن یان داھێنان،	وشەداڕشتن، وشەداتاشی
 """),
                           const DefinitionKurdish(
                               text:
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coinage (Derived forms: coinages)
+- Noun: coinage (derived forms: coinages)
 1. Coins collectively (= mintage, specie, metal money)
  
 2. A newly invented word or phrase (= neologism, neology)

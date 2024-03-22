@@ -192,7 +192,7 @@ class EnglishEntrychainsmoker extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کەسێک کە یەک لەدوای یەک جگەرە دەکێشێت"""),
+١. (ناو) کەسێک کە یەک لە دوای یەک جگەرە دەکێشێت"""),
                           Row(
                             children: [
                               const Expanded(

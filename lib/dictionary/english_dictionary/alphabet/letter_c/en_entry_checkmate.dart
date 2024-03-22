@@ -270,7 +270,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
                                             "The chess player celebrated victory after putting his opponent's king in checkmate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاریزانە شەترەنجەکە ئاھەنگی بردنەوەی گێڕا لەدوای ئەوەی شای ڕکابەرەکەی خستە کش‌ومات کرد."),
+                                            "یاریزانە شەترەنجەکە ئاھەنگی بردنەوەی گێڕا لە دوای ئەوەی شای ڕکابەرەکەی خستە کش‌ومات کرد."),
                                   ],
                                 ),
                               ),

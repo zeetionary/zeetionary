@@ -195,11 +195,11 @@ class EnglishEntryconsistency extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سازان، گونجان، یەک‌گرتنەوە، یەک‌کەوتن، ڕێک‌کەوتن، یەک‌ڕەنگی، هاوڕێکی، یەکان‌گیری،	بەردەوام‌بوون، یەکبینەیی، لەسەرڕۆیشتن، درێژەدان، چەسپیوی، جێگیری، سەقام‌گیری، خۆڕاگری، پتەوی، تۆکمەیی، خۆگری، نەگۆڕی،	پێوەندی لۆژیکی،	خەستی، پەیتی، توندی
+کوردی: سازان، گونجان، یەک‌گرتنەوە، یەک‌کەوتن، ڕێک‌کەوتن، یەک‌ڕەنگی، ھاوڕێکی، یەکان‌گیری،	بەردەوام‌بوون، یەکبینەیی، لەسەرڕۆیشتن، درێژەدان، چەسپیوی، جێگیری، سەقام‌گیری، خۆڕاگری، پتەوی، تۆکمەیی، خۆگری، نەگۆڕی،	پێوەندی لۆژیکی،	خەستی، پەیتی، توندی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) خاسیەتی بەردەوام ڕەفتارکردن بە یەک شێواز یان هەبوونی هەمان بۆچوون، ستاندارد، هتد"),
+                                  "١. (ناو) خاسیەتی بەردەوام ڕەفتارکردن بە یەک شێواز یان ھەبوونی ھەمان بۆچوون، ستاندارد، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -292,7 +292,7 @@ class EnglishEntryconsistency extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئاستی خەستی، شلی، هتد ـی تێکەڵەیەک"),
+                                  "٢. (ناو) ئاستی خەستی، شلی، ھتد ـی تێکەڵەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -434,7 +434,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consistency (Derived forms: consistencies)
+- Noun: consistency (derived forms: consistencies)
 1. The property of holding together and retaining its shape (= consistence, substance, body)
 "when the dough has enough consistency it is ready to bake";
  
@@ -476,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    videoId: 'h4CyhQqAPpk',
     startSeconds: 565,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z8m0aKgyRII?t=',
+    videoId: 'z8m0aKgyRII',
     startSeconds: 240,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D_Y18GEjfNY?t=',
+    videoId: 'D_Y18GEjfNY',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rzd0mLf366I?t=',
+    videoId: 'Rzd0mLf366I',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/58XEfDtU0Z4?t=',
+    videoId: '58XEfDtU0Z4',
     startSeconds: 455,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g9QneAV4fVo?t=',
+    videoId: 'g9QneAV4fVo',
     startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ndqjxhi7uZs?t=',
+    videoId: 'ndqjxhi7uZs',
     startSeconds: 240,
     autoPlay: true,
     params: const YoutubePlayerParams(

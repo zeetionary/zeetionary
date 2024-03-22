@@ -204,7 +204,7 @@ class EnglishEntrycontest extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پێشبڕکیەک تێیدا خەڵکی هەوڵ دەدەن شتێک ببەنەوە"),
+                                  "١. (ناو) پێشبڕکیەک تێیدا خەڵکی ھەوڵ دەدەن شتێک ببەنەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -299,7 +299,7 @@ class EnglishEntrycontest extends StatelessWidget {
                                             "The New Zealanders are looking forward to future contests with South Africa."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیوزلەندییەکان بە ئاواتی ڕووبەڕووبوونەوەی داهاتوون لەگەڵ باشووری ئەفریقا."),
+                                            "نیوزلەندییەکان بە ئاواتی ڕووبەڕووبوونەوەی داھاتوون لەگەڵ باشووری ئەفریقا."),
                                   ],
                                 ),
                               ),
@@ -319,7 +319,7 @@ class EnglishEntrycontest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کێشمەکێشێک بۆ بەدەستهێنانی کۆنترۆڵ یان دەسەڵات"),
+                                  "٢. (ناو) کێشمەکێشێک بۆ بەدەستھێنانی کۆنترۆڵ یان دەسەڵات"),
                           Row(
                             children: [
                               const Expanded(
@@ -330,7 +330,7 @@ class EnglishEntrycontest extends StatelessWidget {
                                             "Both parties are predicting victory in this close contest."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو پارتەکە پێشبینی بردنەوە دەکەن لەم ڕکابەرییە توندەدا."),
+                                            "ھەردوو پارتەکە پێشبینی بردنەوە دەکەن لەم ڕکابەرییە توندەدا."),
                                   ],
                                 ),
                               ),
@@ -358,7 +358,7 @@ class EnglishEntrycontest extends StatelessWidget {
                                             "During the election contest newspapers are not allowed to publish public opinion polls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە ماوەی ڕکابەرایەتی هەڵبژاردندا ڕۆژنامەکان ڕێگەیان پێ نادرێت ڕاپرسیی بۆچوونی خەڵکی بڵاوبکەنەوە."),
+                                            "کە ماوەی ڕکابەرایەتی ھەڵبژاردندا ڕۆژنامەکان ڕێگەیان پێ نادرێت ڕاپرسیی بۆچوونی خەڵکی بڵاوبکەنەوە."),
                                   ],
                                 ),
                               ),
@@ -378,7 +378,7 @@ class EnglishEntrycontest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بەژداری کردن لە ڕکابەرێتییەک و هەوڵدان بۆ بردنەوەی"),
+                                  "٣. (کردار) بەژداری کردن لە ڕکابەرێتییەک و ھەوڵدان بۆ بردنەوەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -417,7 +417,7 @@ class EnglishEntrycontest extends StatelessWidget {
                                             "The party has decided not to contest this election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارتەکە بڕیاری داوە بەژداری هەڵبژاردن نەکات."),
+                                            "پارتەکە بڕیاری داوە بەژداری ھەڵبژاردن نەکات."),
                                   ],
                                 ),
                               ),
@@ -437,7 +437,7 @@ class EnglishEntrycontest extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) بە فەرمی وەستانەوە دژ بە بڕیارێک یان لێدوانێک چونکە پێتوایە هەڵەیە"),
+                                  "٤. (کردار) بە فەرمی وەستانەوە دژ بە بڕیارێک یان لێدوانێک چونکە پێتوایە ھەڵەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -575,12 +575,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contest (Derived forms: contests)
+- Noun: contest (derived forms: contests)
 1. An occasion on which a winner is selected from among two or more contestants (= competition)
  
 2. A struggle between rivals
 
-- Verb: contest (Derived forms: contests, contesting, contested)
+- Verb: contest (derived forms: contests, contesting, contested)
 1. To make the subject of dispute, contention, or litigation (= contend, repugn)
 "They contested the outcome of the race";
 """,
@@ -615,7 +615,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5XZv8kw4Nig?t=',
+    videoId: '5XZv8kw4Nig',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6UoUv6jyieM?t=',
+    videoId: '6UoUv6jyieM',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y1sF6ZeASU0?t=',
+    videoId: 'y1sF6ZeASU0',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U3k5NlVxnp8?t=',
+    videoId: 'U3k5NlVxnp8',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -715,7 +715,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pkl_UNHzdIE?t=',
+    videoId: 'pkl_UNHzdIE',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -740,7 +740,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 1355,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -765,7 +765,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AJWpvoXP5d4?t=',
+    videoId: 'AJWpvoXP5d4',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(

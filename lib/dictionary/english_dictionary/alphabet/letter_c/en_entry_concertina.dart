@@ -197,7 +197,7 @@ class EnglishEntryconcertina extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئامێرێکی میوزیکی کە بە هەردوو دەست دەیگریت و دەیپەستێنی و بەری دەدەیت بۆ درووستکردنی میوزیک"),
+                                  "١. (ناو) ئامێرێکی میوزیکی کە بە ھەردوو دەست دەیگریت و دەیپەستێنی و بەری دەدەیت بۆ درووستکردنی میوزیک"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryconcertina extends StatelessWidget {
                                             "The truck crashed into the tree and concertinaed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بارهەڵگرەکە کێشای بە درەختەکەدا و چوو بە یەکدا."),
+                                            "بارھەڵگرەکە کێشای بە درەختەکەدا و چوو بە یەکدا."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconcertina extends StatelessWidget {
                                             "Could we concertina the three meetings into one morning?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) دەتوانین سێ کۆبوونەوەکە بکەین بە یەک بەیانی؟"),
+                                            "(بەکارھێنانی خوازراوی) دەتوانین سێ کۆبوونەوەکە بکەین بە یەک بەیانی؟"),
                                   ],
                                 ),
                               ),
@@ -366,12 +366,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concertina (Derived forms: concertinas)
+- Noun: concertina (derived forms: concertinas)
 1. Coiled barbed wire used as an obstacle
  
 2. Free-reed instrument played like an accordion by pushing its ends together to force air through the reeds
 
-- Verb: concertina (Derived forms: concertinaed, concertinaing, concertinas)
+- Verb: concertina (derived forms: concertinaed, concertinaing, concertinas)
 1. Collapse like a concertina
 """,
   );
@@ -405,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d1rHsI-g3z4?t=',
+    videoId: 'd1rHsI-g3z4',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qr4MSVxfYBE?t=',
+    videoId: 'qr4MSVxfYBE',
     startSeconds: 616,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ja5Q75hf6QI?t=',
+    videoId: 'Ja5Q75hf6QI',
     startSeconds: 4649,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lqH_IThciys',
+    videoId: 'lqH_IThciys',
     // startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lqH_IThciys',
+    videoId: 'lqH_IThciys',
     // startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mmeFUHODz1s?t=',
+    videoId: 'mmeFUHODz1s',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uJRngS7EMpQ?t=',
+    videoId: 'uJRngS7EMpQ',
     startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(

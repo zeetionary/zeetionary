@@ -207,7 +207,7 @@ class EnglishEntryconsul extends StatelessWidget {
                                             "The British consul in Miami works closely with local authorities to support British nationals in times of need."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆنسوڵی بەریتانیا لە میامی لەنزیکەوە کاردەکات لەگەڵ بەرپرسە خۆجێییەکان بۆ یارمەتیدانی هاوڵاتییە بەریتانییەکان لە کاتی پێویستیدا."),
+                                            "کۆنسوڵی بەریتانیا لە میامی لەنزیکەوە کاردەکات لەگەڵ بەرپرسە خۆجێییەکان بۆ یارمەتیدانی ھاوڵاتییە بەریتانییەکان لە کاتی پێویستیدا."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntryconsul extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) لە ڕۆمی کۆندا یەکێک لەو دوو سەرکردە بوو کە هەر ساڵێک هەڵدەبژێردرا بۆ بەڕێوەبردنی کۆماری ڕۆم"),
+                                  "٢. (ناو) لە ڕۆمی کۆندا یەکێک لەو دوو سەرکردە بوو کە ھەر ساڵێک ھەڵدەبژێردرا بۆ بەڕێوەبردنی کۆماری ڕۆم"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryconsul extends StatelessWidget {
                                             "Together Pompey, Crassus and Caesar succeeded in getting Caesar elected consul."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆمپەی، کراسس، و سیزار پێکەوە سەرکەوتووبوون لە هەڵبژاردنی سیزار وەک کۆنسوڵ."),
+                                            "پۆمپەی، کراسس، و سیزار پێکەوە سەرکەوتووبوون لە ھەڵبژاردنی سیزار وەک کۆنسوڵ."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consul (Derived forms: consuls)
+- Noun: consul (derived forms: consuls)
 1. A diplomat appointed by a government to protect its commercial interests and help its citizens in a foreign country
 """,
   );
@@ -371,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ru7PWYXMQ8E?t=',
+    videoId: 'Ru7PWYXMQ8E',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
+    videoId: 'yRmOWcWdQAo',
     startSeconds: 568,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sfq2BYB8K54?t=',
+    videoId: 'sfq2BYB8K54',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZMu7_Xpp1SM?t=',
+    videoId: 'ZMu7_Xpp1SM',
     startSeconds: 702,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WIW10E1xAOI?t=',
+    videoId: 'WIW10E1xAOI',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3uDtrwNY0Zk?t=',
+    videoId: '3uDtrwNY0Zk',
     startSeconds: 842,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mSsmtfhwUEo?t=',
+    videoId: 'mSsmtfhwUEo',
     startSeconds: 643,
     autoPlay: true,
     params: const YoutubePlayerParams(

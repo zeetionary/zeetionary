@@ -195,7 +195,7 @@ class EnglishEntrycommune extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کۆمەڵێک کەس کە پێکەوە دەژین و ئەرک، کەلوپەل، هتد ـی هاوبەشیان هەیە"),
+                                  "١. (ناو) کۆمەڵێک کەس کە پێکەوە دەژین و ئەرک، کەلوپەل، ھتد ـی ھاوبەشیان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -232,7 +232,7 @@ class EnglishEntrycommune extends StatelessWidget {
                                             "She left her husband to join a women's commune."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسەرەکەی جێهێشت بۆ پەیوەندیکردن بە کمیونێکی ژنانەوە."),
+                                            "ھاوسەرەکەی جێھێشت بۆ پەیوەندیکردن بە کمیونێکی ژنانەوە."),
                                   ],
                                 ),
                               ),
@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commune (Derived forms: communes)
+- Noun: commune (derived forms: communes)
 1. The smallest administrative district of several European countries
  
 2. A body of people or families living together and sharing everything

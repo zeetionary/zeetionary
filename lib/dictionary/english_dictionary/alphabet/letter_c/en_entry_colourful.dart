@@ -192,7 +192,7 @@ class EnglishEntrycolourful extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕەنگاوڕەنگ، پڕڕەنگ، ڕەنگین،	بەتین، لەگوڕ، بەگوڕ، بەجۆش، ورووژێنەر، هەژێنەر، سەرنج‌ڕاکێش
+کوردی: ڕەنگاوڕەنگ، پڕڕەنگ، ڕەنگین،	بەتین، لەگوڕ، بەگوڕ، بەجۆش، ورووژێنەر، ھەژێنەر، سەرنج‌ڕاکێش
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕەنگاوڕەنگ"),
@@ -236,7 +236,7 @@ class EnglishEntrycolourful extends StatelessWidget {
                                             "The town, of course, has a very colourful history/past."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارۆچکەکە بەدڵنیاییەوە ڕابردوویەکی ڕەنگینی هەیە."),
+                                            "شارۆچکەکە بەدڵنیاییەوە ڕابردوویەکی ڕەنگینی ھەیە."),
                                   ],
                                 ),
                               ),

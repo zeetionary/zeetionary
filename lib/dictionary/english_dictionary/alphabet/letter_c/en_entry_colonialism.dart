@@ -195,7 +195,7 @@ class EnglishEntrycolonialism extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) داگیرکاری وڵاتانی دیکە لەلایەن وڵاتێکی بەهێزەوە"),
+                                  "١. (ناو) داگیرکاری وڵاتانی دیکە لەلایەن وڵاتێکی بەھێزەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colonialism (Derived forms: colonialisms)
+- Noun: colonialism (derived forms: colonialisms)
 1. Exploitation by a stronger country of weaker one; the use of the weaker country's resources to strengthen and enrich the stronger country
 "the attacks of Armata Corsa are aimed at symbolic targets of colonialism in Corsica"
 """,

@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colonnade (Derived forms: colonnades)
+- Noun: colonnade (derived forms: colonnades)
 1. Structure consisting of a row of evenly spaced columns
  
 2. A structure composed of a series of arches supported by columns (= arcade)

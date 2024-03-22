@@ -195,7 +195,7 @@ class EnglishEntrycoastguard extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دامەزراوەیەکی فەرمی سوپای ئەمریکا کە ئەرکیان پاراستنی سنوورە ئاوییەکانە بۆ یارمەتیدانی کەشتی و ئەو کەسانەی لە کێشەدان، و ئەو کەسانەی یاسا دەشکێنن؛ ئەندامێکی ئەم هێزە"),
+                                  "١. (ناو) دامەزراوەیەکی فەرمی سوپای ئەمریکا کە ئەرکیان پاراستنی سنوورە ئاوییەکانە بۆ یارمەتیدانی کەشتی و ئەو کەسانەی لە کێشەدان، و ئەو کەسانەی یاسا دەشکێنن؛ ئەندامێکی ئەم ھێزە"),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coastguard (Derived forms: coastguards)
+- Noun: coastguard (derived forms: coastguards)
 1. (military) a military service responsible for the safety of maritime traffic in coastal waters
 """,
   );

@@ -194,11 +194,11 @@ class EnglishEntrycompass extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لادۆز(ە)، پوسڵە، قیبلەنوێن، قیبلەنما،	پەڕگار، پەرگاڵ، پڕگار، جەغزینگ، بازنەکێش،	پانتایی، بەرینە، ڕاخستە، بوار، مەڵبەند، دەنگەوار؛ سنوور، سەرحەد، تخوب،	توانست، توانایی، هێز
+کوردی: لادۆز(ە)، پوسڵە، قیبلەنوێن، قیبلەنما،	پەڕگار، پەرگاڵ، پڕگار، جەغزینگ، بازنەکێش،	پانتایی، بەرینە، ڕاخستە، بوار، مەڵبەند، دەنگەوار؛ سنوور، سەرحەد، تخوب،	توانست، توانایی، ھێز
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئامێرێک کە دەزییەکی هەیە هەمیشە ڕوو لە باکوور دەکات و بۆ دۆزینەوەی ئاراستە بەکاردێت"),
+                                  "١. (ناو) ئامێرێک کە دەزییەکی ھەیە ھەمیشە ڕوو لە باکوور دەکات و بۆ دۆزینەوەی ئاراستە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycompass extends StatelessWidget {
                                             "People arrived from all points of the compass."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) خەڵکی لە هەموو ئاراستەکانەوە هاتن."),
+                                            "(بەکارھێنانی خوازراوی) خەڵکی لە ھەموو ئاراستەکانەوە ھاتن."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrycompass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پەرگاڵ؛ ئامێرێک کە لە دوو لاقی باریکی درێژ پێکهاتووە و بەکاردێت بۆ کێشانی بازنە یان پێوانی دووری لەسەر نەخشەیەک"),
+                                  "٢. (ناو) پەرگاڵ؛ ئامێرێک کە لە دوو لاقی باریکی درێژ پێکھاتووە و بەکاردێت بۆ کێشانی بازنە یان پێوانی دووری لەسەر نەخشەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -414,7 +414,7 @@ ${englishMeaningConst.text}
  
 2. Get the meaning of something (= grok [N. Amer, informal], get the picture, comprehend, savvy, dig [informal], grasp, apprehend)
  
-3. [archaic] Bring about; accomplish (= Derived forms: compassing, compassed, compasses)
+3. [archaic] Bring about; accomplish (= derived forms: compassing, compassed, compasses)
 "This writer attempts more than his talents can compass"
 """,
   );
@@ -448,7 +448,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aY0OtOy6lcE?t=',
+    videoId: 'aY0OtOy6lcE',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gn_yY6L8wy4?t=',
+    videoId: 'gn_yY6L8wy4',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lNpHlmh_TBc',
+    videoId: 'lNpHlmh_TBc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dp8VOG8Cgag?t=',
+    videoId: 'dp8VOG8Cgag',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_cblY5cwwIA?t=',
+    videoId: '_cblY5cwwIA',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N_XVLi4jhCQ?t=',
+    videoId: 'N_XVLi4jhCQ',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WYfGkv6OTgk?t=',
+    videoId: 'WYfGkv6OTgk',
     startSeconds: 777,
     autoPlay: true,
     params: const YoutubePlayerParams(

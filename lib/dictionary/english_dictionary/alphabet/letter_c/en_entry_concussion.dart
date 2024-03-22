@@ -196,7 +196,7 @@ class EnglishEntryconcussion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ماوەیەکی کاتی لە بێ‌ئاگایی کە ڕوودەدات بەهۆی بەرکەوتنی سەخت بە سەر"),
+                                  "١. (ناو) ماوەیەکی کاتی لە بێ‌ئاگایی کە ڕوودەدات بەھۆی بەرکەوتنی سەخت بە سەر"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconcussion extends StatelessWidget {
                                             "He was taken to hospital with concussion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بردرا بۆ نەخۆشخانە بەهۆی ڕاتڵەکانی مێشک."),
+                                            "بردرا بۆ نەخۆشخانە بەھۆی ڕاتڵەکانی مێشک."),
                                   ],
                                 ),
                               ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concussion (Derived forms: concussions)
+- Noun: concussion (derived forms: concussions)
 1. Injury to the brain caused by a blow; usually resulting in loss of consciousness
 
 2. Any violent blow
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TYv9dks4J24?t=',
+    videoId: 'TYv9dks4J24',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tIfXsxtnGr4?t=',
+    videoId: 'tIfXsxtnGr4',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X_vtc0lMYRw',
+    videoId: 'X_vtc0lMYRw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aNsq39XVftU?t=',
+    videoId: 'aNsq39XVftU',
     startSeconds: 1020,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tnAmddi52Y8?t=',
+    videoId: 'tnAmddi52Y8',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UXd4bbZ44iA?t=',
+    videoId: 'UXd4bbZ44iA',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/psGKsqgdQ5c?t=',
+    videoId: 'psGKsqgdQ5c',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(

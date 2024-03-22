@@ -192,11 +192,11 @@ class EnglishEntrycommiseration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەربڕینی هاوسۆزی،	خەم‌خۆری، هاوپەرۆشی، دڵسۆزی،	بەزەیی‌پیاهاتن، دڵ‌پێ‌سووتان
+کوردی: دەربڕینی ھاوسۆزی،	خەم‌خۆری، ھاوپەرۆشی، دڵسۆزی،	بەزەیی‌پیاھاتن، دڵ‌پێ‌سووتان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هاوسۆزی دەربڕین بۆ کەسێک کە شتێکی ناخۆشی بەسەرهاتووە"),
+                                  "١. (ناو) ھاوسۆزی دەربڕین بۆ کەسێک کە شتێکی ناخۆشی بەسەرھاتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycommiseration extends StatelessWidget {
                                         text:
                                             "I offered him my commiseration."),
                                     ExampleSentenceKurdish(
-                                        text: "هاوسۆزی خۆمم پێشکەش کرد."),
+                                        text: "ھاوسۆزی خۆمم پێشکەش کرد."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycommiseration extends StatelessWidget {
                                         text:
                                             "Commiserations to the losing team!"),
                                     ExampleSentenceKurdish(
-                                        text: "هاوسۆزی بۆ تیمی دۆڕاو!"),
+                                        text: "ھاوسۆزی بۆ تیمی دۆڕاو!"),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commiseration (Derived forms: commiserations)
+- Noun: commiseration (derived forms: commiserations)
 1. A feeling of sympathy and sorrow for the misfortunes of others (= pity, ruth, pathos)
 "the blind are too often objects of commiseration";
  

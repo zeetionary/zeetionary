@@ -191,7 +191,7 @@ class EnglishEntrycohesion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەک‌گرتوویی، ڕێک‌وپێکی، پێوەندی لۆژیکی، هاوگرتوویی، پێکەوەبەستراوی، یەکیەتی، یەکپارچەیی، یەک‌گیری، هاوڕێکی، یەک‌گرتن،	(فیزیک) پێوەلکان، پێکانووسان، پێکاچەسپان، پێکەوەنووسان، بەیەکالکان
+کوردی: یەک‌گرتوویی، ڕێک‌وپێکی، پێوەندی لۆژیکی، ھاوگرتوویی، پێکەوەبەستراوی، یەکیەتی، یەکپارچەیی، یەک‌گیری، ھاوڕێکی، یەک‌گرتن،	(فیزیک) پێوەلکان، پێکانووسان، پێکاچەسپان، پێکەوەنووسان، بەیەکالکان
 """),
                           const DefinitionKurdish(text: "١. (ناو) یەکگرتووی"),
                           Row(
@@ -204,7 +204,7 @@ class EnglishEntrycohesion extends StatelessWidget {
                                             "The lack of cohesion within the party lost them votes in the election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەهۆی لە دەستدانی دەنگ لە هەڵبژاردنەکە."),
+                                            "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەھۆی لە دەستدانی دەنگ لە ھەڵبژاردنەکە."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cohesion (Derived forms: cohesions)
+- Noun: cohesion (derived forms: cohesions)
 1. The state of cohering or sticking together (= coherence, coherency, cohesiveness)
  
 2. (botany) the process in some plants of parts growing together that are usually separate (such as petals)

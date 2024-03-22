@@ -191,7 +191,7 @@ class EnglishEntryconnivance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاودەستی، پیلان، لەبنەوەبڕی، لەبنەوەکاری، سازوباز
+کوردی: ھاودەستی، پیلان، لەبنەوەبڕی، لەبنەوەکاری، سازوباز
 """),
                           const DefinitionKurdish(
                               text:
@@ -206,7 +206,7 @@ class EnglishEntryconnivance extends StatelessWidget {
                                             "The crime was committed with the connivance of a police officer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تاوانەکە بە هاودەستی ئەفسەرێکی پۆلیس ئەنجامدرا."),
+                                            "تاوانەکە بە ھاودەستی ئەفسەرێکی پۆلیس ئەنجامدرا."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: connivance (Derived forms: connivances)
+- Noun: connivance (derived forms: connivances)
 1. Agreement on a secret plot (= collusion)
  
 2. (law) tacit approval of someone's wrongdoing (= secret approval, tacit consent)
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SnIS9Ozo7NM?t=',
+    videoId: 'SnIS9Ozo7NM',
     startSeconds: 606,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/htiedn0KXn0?t=',
+    videoId: 'htiedn0KXn0',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aFXAi4pGRpg?t=',
+    videoId: 'aFXAi4pGRpg',
     startSeconds: 462,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hlhMBykQxMo?t=',
+    videoId: 'hlhMBykQxMo',
     startSeconds: 1161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wqm9Yl1gGEY?t=',
+    videoId: 'Wqm9Yl1gGEY',
     startSeconds: 2491,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S8BFrOE5bvc?t=',
+    videoId: 'S8BFrOE5bvc',
     startSeconds: 1373,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TWFDQRnSNOk?t=',
+    videoId: 'TWFDQRnSNOk',
     startSeconds: 1366,
     autoPlay: true,
     params: const YoutubePlayerParams(

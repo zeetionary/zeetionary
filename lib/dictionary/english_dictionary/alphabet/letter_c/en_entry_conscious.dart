@@ -200,7 +200,7 @@ class EnglishEntryconscious extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هۆشیار، ئاگادار، خەبەردار، بەسەرنج، وریا، بەئاگا، خۆئاگا، وریا،	بەمەبەست، ئەنقەست، خۆکردوو،	بیریار، هزرمەند،	هەستیار،	شەرمێون، پەشۆکاو، تاساو
+کوردی: ھۆشیار، ئاگادار، خەبەردار، بەسەرنج، وریا، بەئاگا، خۆئاگا، وریا،	بەمەبەست، ئەنقەست، خۆکردوو،	بیریار، ھزرمەند،	ھەستیار،	شەرمێون، پەشۆکاو، تاساو
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بائاگا لە شتێک"),
@@ -242,7 +242,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                             "I am conscious of the fact that there's a limit to what we can achieve here."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ئاگام لەو ڕاستییەی کە سنوورێک هەیە بۆ ئەوەی لێرە دەتوانین بەدەستی بهێنین."),
+                                            "بە ئاگام لەو ڕاستییەی کە سنوورێک ھەیە بۆ ئەوەی لێرە دەتوانین بەدەستی بھێنین."),
                                   ],
                                 ),
                               ),
@@ -290,7 +290,7 @@ class EnglishEntryconscious extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) هەبوونی توانای بەکارهێنانی هەستەکانت و هێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
+                                  "٢. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی ھەستەکانت و ھێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -301,7 +301,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                             "A patient who is not fully conscious should never be left alone."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەخۆشێک کە تەواو بەئاگا نییە نابێت بە تەنها جێبهێڵدرێت."),
+                                            "نەخۆشێک کە تەواو بەئاگا نییە نابێت بە تەنھا جێبھێڵدرێت."),
                                   ],
                                 ),
                               ),
@@ -329,7 +329,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                             "She remained conscious throughout the operation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ماوەی تەواوی نەشتەرگەرییەکە بە ئاگا هێڵدرایەوە."),
+                                            "لە ماوەی تەواوی نەشتەرگەرییەکە بە ئاگا ھێڵدرایەوە."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                             "Try to keep the patient conscious."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ بدە نەخۆشەکە بە بەئاگایی بهێڵەرەوە."),
+                                            "ھەوڵ بدە نەخۆشەکە بە بەئاگایی بھێڵەرەوە."),
                                   ],
                                 ),
                               ),
@@ -388,7 +388,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                             "I made a conscious effort to get there on time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵێکی بەمەبەستم دا لەکاتی خۆیدا بگەمە ئەوێ."),
+                                            "ھەوڵێکی بەمەبەستم دا لەکاتی خۆیدا بگەمە ئەوێ."),
                                   ],
                                 ),
                               ),
@@ -450,7 +450,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                             "They have become increasingly health-conscious."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیاتر و زیاتر هۆگربوونە بە تەندرووستی."),
+                                            "زیاتر و زیاتر ھۆگربوونە بە تەندرووستی."),
                                   ],
                                 ),
                               ),
@@ -477,7 +477,7 @@ class EnglishEntryconscious extends StatelessWidget {
                                         text:
                                             "He's never been politically conscious."),
                                     ExampleSentenceKurdish(
-                                        text: "هەرگیز هۆگر بە سیاسەت نەبووە ."),
+                                        text: "ھەرگیز ھۆگر بە سیاسەت نەبووە ."),
                                   ],
                                 ),
                               ),
@@ -617,7 +617,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_wNsZEqpKUA?t=',
+    videoId: '_wNsZEqpKUA',
     startSeconds: 771,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9finqZJJNA8?t=',
+    videoId: '9finqZJJNA8',
     startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Il7Er91P4U?t=',
+    videoId: '-Il7Er91P4U',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X5U9fei1uBU?t=',
+    videoId: 'X5U9fei1uBU',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -717,7 +717,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LgPvp-FWtK8?t=',
+    videoId: 'LgPvp-FWtK8',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -742,7 +742,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pYf1WIHhL98?t=',
+    videoId: 'pYf1WIHhL98',
     startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -767,7 +767,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dQegiS9RbIg?t=',
+    videoId: 'dQegiS9RbIg',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(

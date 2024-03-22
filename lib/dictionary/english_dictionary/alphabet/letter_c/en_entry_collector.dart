@@ -206,7 +206,7 @@ class EnglishEntrycollector extends StatelessWidget {
                                             "His passion for Japanese art drove him to become a respected collector in the art community."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزی بۆ ژاپۆن گەیاندی بە بوون بە کۆکەرەوەیەکی بەناوبانگی جیهانی هونەری."),
+                                            "حەزی بۆ ژاپۆن گەیاندی بە بوون بە کۆکەرەوەیەکی بەناوبانگی جیھانی ھونەری."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collector (Derived forms: collectors)
+- Noun: collector (derived forms: collectors)
 1. A person who collects things (= aggregator)
  
 2. (tax) a person who is employed to collect payments (as for rent or taxes) (= gatherer, accumulator)

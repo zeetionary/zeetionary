@@ -192,11 +192,11 @@ class EnglishEntrycomposure extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قورسی، مەندی، سەنگینی، خودداری، لەسەرەخۆیی، ئارامی، هێمنی
+کوردی: قورسی، مەندی، سەنگینی، خودداری، لەسەرەخۆیی، ئارامی، ھێمنی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخی ئارامی و هەبوونی کۆنترۆڵ بەسەر هەستەکانت و ڕەفتارتدا"),
+                                  "١. (ناو) دۆخی ئارامی و ھەبوونی کۆنترۆڵ بەسەر ھەستەکانت و ڕەفتارتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycomposure extends StatelessWidget {
                                             "He maintained his composure despite a desperate desire to laugh."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێمنی خۆی پاراست سەرەڕای ئارەزووی زۆری بۆ پێکەنین."),
+                                            "ھێمنی خۆی پاراست سەرەڕای ئارەزووی زۆری بۆ پێکەنین."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: composure (Derived forms: composures)
+- Noun: composure (derived forms: composures)
 1. Steadiness of mind under stress (= calm, calmness, equanimity, collectedness, unflappability)
 "he accepted their problems with composure and she with equanimity";
 """,
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w8QswY5nUtE?t=',
+    videoId: 'w8QswY5nUtE',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6tBMONTir0U?t=',
+    videoId: '6tBMONTir0U',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dlYFMaHnnGk?t=',
+    videoId: 'dlYFMaHnnGk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 1418,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFkyxzJtiv4?t=',
+    videoId: 'EFkyxzJtiv4',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q-nWA0WeF98?t=',
+    videoId: 'Q-nWA0WeF98',
     startSeconds: 2005,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C9JaUR9MXGs?t=',
+    videoId: 'C9JaUR9MXGs',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(

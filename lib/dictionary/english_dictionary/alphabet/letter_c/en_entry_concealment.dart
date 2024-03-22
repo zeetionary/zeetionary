@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concealment (Derived forms: concealments)
+- Noun: concealment (derived forms: concealments)
 1. The condition of being concealed or hidden (= privacy, privateness, secrecy)
  
 2. A covering that serves to conceal or shelter something (= screen, cover, covert)
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qnGiWJDtYPc?t=',
+    videoId: 'qnGiWJDtYPc',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/axcPoS2sF0E?t=',
+    videoId: 'axcPoS2sF0E',
     startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5pgxzPoxv4w?t=',
+    videoId: '5pgxzPoxv4w',
     startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4kEil-H7490?t=',
+    videoId: '4kEil-H7490',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zrjp_F5FSjo?t=',
+    videoId: 'Zrjp_F5FSjo',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4MqK90Aq8bE?t=',
+    videoId: '4MqK90Aq8bE',
     startSeconds: 281,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gx6tG2W4pW0?t=',
+    videoId: 'gx6tG2W4pW0',
     startSeconds: 1023,
     autoPlay: true,
     params: const YoutubePlayerParams(

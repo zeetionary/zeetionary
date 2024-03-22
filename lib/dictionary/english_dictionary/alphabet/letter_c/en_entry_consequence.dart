@@ -212,7 +212,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                                         text:
                                             "Remember that actions have consequences."),
                                     ExampleSentenceKurdish(
-                                        text: "بیرت بێت کردار ئەنجامی هەیە."),
+                                        text: "بیرت بێت کردار ئەنجامی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                                             "Reform often produces unintended consequences."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاکسازی هەمیشە ئەنجامی نەخوازراو لەخۆدەگرێت."),
+                                            "چاکسازی ھەمیشە ئەنجامی نەخوازراو لەخۆدەگرێت."),
                                   ],
                                 ),
                               ),
@@ -331,7 +331,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                                             "This decision could have serious consequences for the industry."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بڕیارەکە دەکرێت ئەنجامی خراپی هەبێت بۆ پیشەسازییەکە."),
+                                            "بڕیارەکە دەکرێت ئەنجامی خراپی ھەبێت بۆ پیشەسازییەکە."),
                                   ],
                                 ),
                               ),
@@ -421,7 +421,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                                             "His work made him a person of some consequence in the art world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارەکەی کردی بە کەسێکی تا ڕادەیەک گرنگ لە جیهانی هونەردا."),
+                                            "کارەکەی کردی بە کەسێکی تا ڕادەیەک گرنگ لە جیھانی ھونەردا."),
                                   ],
                                 ),
                               ),
@@ -451,7 +451,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                                             "I'd never done anything of consequence in my life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز هیچ شتێکی گرنگم لە ژیانمدا نەکردووە."),
+                                            "ھەرگیز ھیچ شتێکی گرنگم لە ژیانمدا نەکردووە."),
                                   ],
                                 ),
                               ),
@@ -552,7 +552,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consequence (Derived forms: consequences)
+- Noun: consequence (derived forms: consequences)
 1. A phenomenon that follows and is caused by some previous phenomenon (= effect, outcome, result, event, issue, upshot)
 "his decision had depressing consequences for business";
 
@@ -592,7 +592,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xXMvtT2gwog?t=',
+    videoId: 'xXMvtT2gwog',
     startSeconds: 1090,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +617,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zpFB2q_3pJo?t=',
+    videoId: 'zpFB2q_3pJo',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X7flefV8tec?t=',
+    videoId: 'X7flefV8tec',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yPM77NPZyJo?t=',
+    videoId: 'yPM77NPZyJo',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o3vErUPfiwc?t=',
+    videoId: 'o3vErUPfiwc',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -717,7 +717,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/btNpJNtMviI?t=',
+    videoId: 'btNpJNtMviI',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -742,7 +742,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mwhROjklvcE?t=',
+    videoId: 'mwhROjklvcE',
     startSeconds: 5176,
     autoPlay: true,
     params: const YoutubePlayerParams(

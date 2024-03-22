@@ -192,11 +192,11 @@ class EnglishEntrycoercion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زۆرەملی، بەکارهێنانی زۆر، زۆربەسەندن، زۆرلێ‌کردن، ناچارکردن، زۆری، گوشار، سەنگی
+کوردی: زۆرەملی، بەکارھێنانی زۆر، زۆربەسەندن، زۆرلێ‌کردن، ناچارکردن، زۆری، گوشار، سەنگی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) زۆرلێ‌کردن لە کەسێک بەوەی شتێک کە نایەوێت بە بەکارهێنانی هەڕەشە و فشار"),
+                                  "١. (ناو) زۆرلێ‌کردن لە کەسێک بەوەی شتێک کە نایەوێت بە بەکارھێنانی ھەڕەشە و فشار"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycoercion extends StatelessWidget {
                                             "He claimed he had only acted under coercion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بانگەشەی ئەوەی کرد کە تەنها لە ژێر فشاردا هەنگاوی نابوو."),
+                                            "بانگەشەی ئەوەی کرد کە تەنھا لە ژێر فشاردا ھەنگاوی نابوو."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycoercion extends StatelessWidget {
                                             "He claimed the police had used coercion, threats, and promises to obtain the statement illegally."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بانگەشەی ئەوەی کرد کە پۆلیس زۆرلێ‌کردن، هەڕەشە، و بەڵێنی بەکارهێنابوو بۆ وەرگرتنی لێدوان بە نایاسایی."),
+                                            "بانگەشەی ئەوەی کرد کە پۆلیس زۆرلێ‌کردن، ھەڕەشە، و بەڵێنی بەکارھێنابوو بۆ وەرگرتنی لێدوان بە نایاسایی."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coercion (Derived forms: coercions)
+- Noun: coercion (derived forms: coercions)
 1. The act of compelling by force of authority
  
 2. Using force to cause something to occur (= compulsion)

@@ -488,7 +488,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coat (Derived forms: coats)
+- Noun: coat (derived forms: coats)
 1. An outer garment that has sleeves and covers the body from shoulder down; worn outdoors
  
 2. A thin layer covering something (= coating)
@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
  
 3. Growth of hair, wool or fur covering the body of an animal (= pelage)
 
-- Verb: coat (Derived forms: coated, coating, coats)
+- Verb: coat (derived forms: coated, coating, coats)
 1. Put a coat on; cover the surface of; furnish with a surface (= surface)
 "coat the cake with chocolate";
  

@@ -195,7 +195,7 @@ class EnglishEntrycollarbone extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەر یەک لەو دوو ئێسکەی کە لە خوارەوەی ملەوە بۆ شانەکان دەچن"),
+                                  "١. (ناو) ھەر یەک لەو دوو ئێسکەی کە لە خوارەوەی ملەوە بۆ شانەکان دەچن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycollarbone extends StatelessWidget {
                                             "The collarbone is easily fractured due to its location."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئێسکی چەڵەمە بە ئاسانی ئێشی پێدەگات بەهۆی شوێنکەیەوە."),
+                                            "ئێسکی چەڵەمە بە ئاسانی ئێشی پێدەگات بەھۆی شوێنکەیەوە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collarbone (Derived forms: collarbones)
+- Noun: collarbone (derived forms: collarbones)
 1. Bone linking the scapula and sternum (= clavicle)
 """,
   );

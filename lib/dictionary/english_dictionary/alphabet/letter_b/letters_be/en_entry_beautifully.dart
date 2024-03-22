@@ -147,7 +147,7 @@ class EnglishEntrybeautifully extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: باش، بەشێوەیێکی جوان
+کوردی: باش، بەشێوەیەکی جوان
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بەشێوەیەکی جوان"""),

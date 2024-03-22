@@ -202,7 +202,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یارمەتی، پیتاک، باروبۆ، باربوو، کۆمەک، یاریدە،	پێدان، بەخشین،	وتار، نووسراوە، نڤیسار، مژار، بابەت،	بەش، پشک،	ڕۆڵ،	بەشداری، تەڤلی‌بوون، هاوبەشی، پشکداری، دەس‌گرتن، پەلگرتن، یارمەتی‌دان،	حەول، تێکۆشان
+کوردی: یارمەتی، پیتاک، باروبۆ، باربوو، کۆمەک، یاریدە،	پێدان، بەخشین،	وتار، نووسراوە، نڤیسار، مژار، بابەت،	بەش، پشک،	ڕۆڵ،	بەشداری، تەڤلی‌بوون، ھاوبەشی، پشکداری، دەس‌گرتن، پەلگرتن، یارمەتی‌دان،	حەول، تێکۆشان
 """),
                           const DefinitionKurdish(
                               text:
@@ -217,7 +217,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                                             "All contributions will be gratefully received."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو بەخشینێک بە سوپاسەوە وەردەگیرێن."),
+                                            "ھەموو بەخشینێک بە سوپاسەوە وەردەگیرێن."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بڕە پارەیەک کە دەیدەیت بە خاوەنکارەکەت یان حکومەت بۆ پێدانی پارەی بیمەی تەندرووستیت، خانەنشینیت، هتد"),
+                                  "٢. (ناو) بڕە پارەیەک کە دەیدەیت بە خاوەنکارەکەت یان حکومەت بۆ پێدانی پارەی بیمەی تەندرووستیت، خانەنشینیت، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -343,7 +343,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                                             "He made a very positive contribution to the success of the project."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەژاربوونێکی ئەرێنییانەی بۆ سەرکەوتنی پڕۆژەکە هەبوو."),
+                                            "بەژاربوونێکی ئەرێنییانەی بۆ سەرکەوتنی پڕۆژەکە ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -373,7 +373,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                                             "This book represents a major contribution to our understanding of the Holocaust."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم کتێبە پشکێکی گرنگی هەبووە لە تێگەشتنمان بۆ هۆڵۆکۆست."),
+                                            "ئەم کتێبە پشکێکی گرنگی ھەبووە لە تێگەشتنمان بۆ ھۆڵۆکۆست."),
                                   ],
                                 ),
                               ),
@@ -403,7 +403,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                                             "He made a major contribution to peace in the region."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشکی گرنگی بۆ ئاشتی لە هەرێمەکەدا هەبوو."),
+                                            "پشکی گرنگی بۆ ئاشتی لە ھەرێمەکەدا ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -425,7 +425,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شتێک کە بەشێکە لە کتێبێک، گۆڤارێک، وێبسایتێک، گفتوگۆیەک، هتد"),
+                                  "٤. (ناو) شتێک کە بەشێکە لە کتێبێک، گۆڤارێک، وێبسایتێک، گفتوگۆیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -466,7 +466,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                                             "There are no contributions by scholars based in North America."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ بەژدارییەک لە پسپۆڕانی باکووری ئەمریکاوە نییە."),
+                                            "ھیچ بەژدارییەک لە پسپۆڕانی باکووری ئەمریکاوە نییە."),
                                   ],
                                 ),
                               ),
@@ -496,7 +496,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                                             "All contributions for the May issue must be received by Friday."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو نووسینەکان بۆ مانگی ئایار دەبێت تاوەکو هەینی پێشکەش بکرێن."),
+                                            "ھەموو نووسینەکان بۆ مانگی ئایار دەبێت تاوەکو ھەینی پێشکەش بکرێن."),
                                   ],
                                 ),
                               ),
@@ -630,7 +630,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contribution (Derived forms: contributions)
+- Noun: contribution (derived forms: contributions)
 1. The effort contributed by a person in bringing about a result (= part, share)
 "I am proud of my contribution in advancing the project";
  
@@ -674,7 +674,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Unzc731iCUY?t=',
+    videoId: 'Unzc731iCUY',
     startSeconds: 2870,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -699,7 +699,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IgF3OX8nT0w?t=',
+    videoId: 'IgF3OX8nT0w',
     startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -724,7 +724,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -749,7 +749,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 536,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -774,7 +774,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1s5iz6ml-qA?t=',
+    videoId: '1s5iz6ml-qA',
     startSeconds: 392,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -799,7 +799,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3PX2d3Zwutg?t=',
+    videoId: '3PX2d3Zwutg',
     startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -824,7 +824,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A0N9YF2jfiw?t=',
+    videoId: 'A0N9YF2jfiw',
     startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(

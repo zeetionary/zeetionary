@@ -432,7 +432,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clinic (Derived forms: clinics)
+- Noun: clinic (derived forms: clinics)
 1. A medical establishment run by a group of medical specialists
 
 2. Meeting for diagnosis of problems and instruction or remedial work in a particular activity

@@ -194,7 +194,7 @@ class EnglishEntryconstrain extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بە زۆر هاندان، زۆرەملی، داسەپاندن
+کوردی: بە زۆر ھاندان، زۆرەملی، داسەپاندن
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryconstrain extends StatelessWidget {
                                             "The evidence was so compelling that he felt constrained to accept it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەڵگەکە زۆر قایلکەر بوو کە هەستی بە ناچاری کرد پەسەندی بکات."),
+                                            "بەڵگەکە زۆر قایلکەر بوو کە ھەستی بە ناچاری کرد پەسەندی بکات."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconstrain extends StatelessWidget {
                                             "Research has been constrained by a lack of funds."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توێژینەوە سنووردارکراوە بەهۆی کەمی خەرجییەوە."),
+                                            "توێژینەوە سنووردارکراوە بەھۆی کەمی خەرجییەوە."),
                                   ],
                                 ),
                               ),
@@ -295,7 +295,7 @@ class EnglishEntryconstrain extends StatelessWidget {
                                             "There are a number of factors that constrain agricultural development."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک فاکتەر هەن کە گەشەی کشتوکاڵ سنووردار دەکەن."),
+                                            "ژمارەیەک فاکتەر ھەن کە گەشەی کشتوکاڵ سنووردار دەکەن."),
                                   ],
                                 ),
                               ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: constrain (Derived forms: constrained, constrains, constraining)
+- Verb: constrain (derived forms: constrained, constrains, constraining)
 1. Compel to behave in a certain way (= enforce, impose)
 "duty constrains one to act often contrary to one's desires or inclinations";
  
@@ -433,7 +433,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uhIdijSrnVc?t=',
+    videoId: 'uhIdijSrnVc',
     startSeconds: 593,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fTGiyCrK6yE?t=',
+    videoId: 'fTGiyCrK6yE',
     startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uRAoQOLUw-w?t=',
+    videoId: 'uRAoQOLUw-w',
     startSeconds: 963,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EzfnpJ6sAos?t=',
+    videoId: 'EzfnpJ6sAos',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UpHOkHxpTvQ?t=',
+    videoId: 'UpHOkHxpTvQ',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TfzEPtLPnP4?t=',
+    videoId: 'TfzEPtLPnP4',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +583,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oSRdG2p6eyQ?t=',
+    videoId: 'oSRdG2p6eyQ',
     startSeconds: 2377,
     autoPlay: true,
     params: const YoutubePlayerParams(

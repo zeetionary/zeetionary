@@ -193,11 +193,11 @@ class EnglishEntryconsensus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێک‌کەوتن، یەک‌کەوتن، پێک‌هاتن، هاودەنگی، هاوبیری، قایل‌بوون، یەکڕایی،	ڕەزامەندی، پێخۆش‌بوون،	بۆچوون بەکۆمەڵ، بۆچوونی گشتی، ڕای زۆربە، بۆچوونی زۆرینە
+کوردی: ڕێک‌کەوتن، یەک‌کەوتن، پێک‌ھاتن، ھاودەنگی، ھاوبیری، قایل‌بوون، یەکڕایی،	ڕەزامەندی، پێخۆش‌بوون،	بۆچوون بەکۆمەڵ، بۆچوونی گشتی، ڕای زۆربە، بۆچوونی زۆرینە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بۆچوونێک کە هەموو ئەندامانی گرووپێک پێی ڕازین"),
+                                  "١. (ناو) بۆچوونێک کە ھەموو ئەندامانی گرووپێک پێی ڕازین"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconsensus extends StatelessWidget {
                                             "There is a growing consensus of opinion on this issue."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکدەنگییەکی زیادبووی بۆچوون هەیە لەسەر ئەم بابەتە."),
+                                            "یەکدەنگییەکی زیادبووی بۆچوون ھەیە لەسەر ئەم بابەتە."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntryconsensus extends StatelessWidget {
                                             "There now exists a broad political consensus in favour of economic reform."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئێستادا هاودەنگی بەرفراوانی سیاسی هەیە لە بەرژەوەندی چاکسازیی ئابووری."),
+                                            "لە ئێستادا ھاودەنگی بەرفراوانی سیاسی ھەیە لە بەرژەوەندی چاکسازیی ئابووری."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntryconsensus extends StatelessWidget {
                                             "They have always governed by consensus."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە بە کۆدەنگی بەڕێوبەرایەتییان کردووە."),
+                                            "ھەمیشە بە کۆدەنگی بەڕێوبەرایەتییان کردووە."),
                                   ],
                                 ),
                               ),
@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consensus (Derived forms: consensuses)
+- Noun: consensus (derived forms: consensuses)
 1. Agreement in the judgment or opinion reached by a group as a whole
 "the lack of consensus reflected differences in theoretical positions"; "those rights and obligations are based on an unstated consensus"
  
@@ -400,7 +400,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JY5t6iUzajk?t=',
+    videoId: 'JY5t6iUzajk',
     startSeconds: 623,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 674,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IwJzsE8CvzQ?t=',
+    videoId: 'IwJzsE8CvzQ',
     startSeconds: 346,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TLRN_9G3qWY?t=',
+    videoId: 'TLRN_9G3qWY',
     startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C1oxhniG_Fc?t=',
+    videoId: 'C1oxhniG_Fc',
     startSeconds: 587,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6etTERFUlUI?t=',
+    videoId: '6etTERFUlUI',
     startSeconds: 432,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/caVoqAfdkYQ?t=',
+    videoId: 'caVoqAfdkYQ',
     startSeconds: 2345,
     autoPlay: true,
     params: const YoutubePlayerParams(

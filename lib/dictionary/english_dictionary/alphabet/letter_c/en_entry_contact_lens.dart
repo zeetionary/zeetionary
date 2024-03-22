@@ -191,7 +191,7 @@ class EnglishEntrycontactlens extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوێنەی چاو، هاوێنەی لێک‌کەوتەیی، عەدەسە
+کوردی: ھاوێنەی چاو، ھاوێنەی لێک‌کەوتەیی، عەدەسە
 """),
                           const DefinitionKurdish(
                               text:
@@ -206,7 +206,7 @@ class EnglishEntrycontactlens extends StatelessWidget {
                                             "I usually wear contact lenses, but I sometimes wear glasses when my eyes are tired."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرجار هاوێنەی چاو دادەنێم، بەڵام هەندێک جار چاویلکە لەچاودەکەم کە چاوەکانم ماندوون."),
+                                            "زۆرجار ھاوێنەی چاو دادەنێم، بەڵام ھەندێک جار چاویلکە لەچاودەکەم کە چاوەکانم ماندوون."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contact lens (= Derived forms: contact lenses)
+- Noun: contact lens (= derived forms: contact lenses)
 1. A thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication (= contact)
 """,
   );
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ZFtHzZqYDY?t=',
+    videoId: '0ZFtHzZqYDY',
     startSeconds: 664,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wqft8n4BupA?t=',
+    videoId: 'wqft8n4BupA',
     startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kq2WRc99on4',
+    videoId: 'kq2WRc99on4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mUzq_h1GCXE?t=',
+    videoId: 'mUzq_h1GCXE',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UhIdclSF_qs?t=',
+    videoId: 'UhIdclSF_qs',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lARePEQLsZo?t=',
+    videoId: 'lARePEQLsZo',
     startSeconds: 1199,
     autoPlay: true,
     params: const YoutubePlayerParams(

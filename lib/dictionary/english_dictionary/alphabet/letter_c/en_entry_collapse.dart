@@ -614,7 +614,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕووخان، داڕووخان، کەوتن، داتەپین، تێک‌تەپین، تیاچوون، لەنێوچوون، هەرەس‌هێنان، ڕمان، داڕمان، هەڕەمین، لێک‌هەڵوەشان، تێشکان، بەزین،	پێچوون، کزبوون، داچوون،	کەم‌بوونەوەی کت‌وپڕی نرخ،	(جوگڕافی) تلیسانەوە 
+کوردی: ڕووخان، داڕووخان، کەوتن، داتەپین، تێک‌تەپین، تیاچوون، لەنێوچوون، ھەرەس‌ھێنان، ڕمان، داڕمان، ھەڕەمین، لێک‌ھەڵوەشان، تێشکان، بەزین،	پێچوون، کزبوون، داچوون،	کەم‌بوونەوەی کت‌وپڕی نرخ،	(جوگڕافی) تلیسانەوە 
 """),
                           const DefinitionKurdish(text: "١. (کردار) ڕووخان"),
                           Row(
@@ -672,7 +672,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) لەهۆشچوون"),
+                          const DefinitionKurdish(text: "٢. (کردار) لەھۆشچوون"),
                           Row(
                             children: [
                               const Expanded(
@@ -683,7 +683,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "She collapsed and was rushed to hospital."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەهۆش خۆی چوو و گوازرایەوە بۆ نەخۆشخانە."),
+                                            "لەھۆش خۆی چوو و گوازرایەوە بۆ نەخۆشخانە."),
                                   ],
                                 ),
                               ),
@@ -711,7 +711,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "He collapsed in the street and died two hours later."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەسەر شەقامەکە بێهۆش بوو و دوای دوو کاتژمێر گیانی لەدەستدا."),
+                                            "لەسەر شەقامەکە بێھۆش بوو و دوای دوو کاتژمێر گیانی لەدەستدا."),
                                   ],
                                 ),
                               ),
@@ -731,7 +731,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) دانیشتن و حەسانەوە، بەتایبەتی لەدوای کارکردنی زۆر"),
+                                  "٣. (کردار) دانیشتن و حەسانەوە، بەتایبەتی لە دوای کارکردنی زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -762,7 +762,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) شکستهێنانی لەناکاو یان تەواوەتی"),
+                                  "٤. (کردار) شکستھێنانی لەناکاو یان تەواوەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -773,7 +773,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "Talks between management and unions have collapsed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانوستانی نێوان بەڕێوبەرایەتی و سەندیکاکان شکستیهێناوە."),
+                                            "دانوستانی نێوان بەڕێوبەرایەتی و سەندیکاکان شکستیھێناوە."),
                                   ],
                                 ),
                               ),
@@ -801,7 +801,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "All opposition to the plan has collapsed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو دژبەرییەک بەرامبەر پلانەکان شکستیان هێناوە."),
+                                            "ھەموو دژبەرییەک بەرامبەر پلانەکان شکستیان ھێناوە."),
                                   ],
                                 ),
                               ),
@@ -863,7 +863,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "The table collapses for easy storage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێزەکە دەنووشتێیەوە بۆ هەڵگرتنی ئاسان."),
+                                            "مێزەکە دەنووشتێیەوە بۆ ھەڵگرتنی ئاسان."),
                                   ],
                                 ),
                               ),
@@ -883,7 +883,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شکستهێنانی لەناکاوی شتێک، وەک دامەزراوەیەک، بازرگانییەک، هتد"),
+                                  "٧. (ناو) شکستھێنانی لەناکاوی شتێک، وەک دامەزراوەیەک، بازرگانییەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -922,7 +922,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "They thought their strategy would cause the collapse of the regime."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وایان دەفکری کە ستراتیژییەکەیان دەبێتە هۆی داڕمانی ڕژێمەکە."),
+                                            "وایان دەفکری کە ستراتیژییەکەیان دەبێتە ھۆی داڕمانی ڕژێمەکە."),
                                   ],
                                 ),
                               ),
@@ -950,7 +950,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "The war has led to the collapse of agriculture in the area."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەنگەکە بووە بەهۆی داڕمانی کشتوکاڵ لە ناوچەکە."),
+                                            "جەنگەکە بووە بەھۆی داڕمانی کشتوکاڵ لە ناوچەکە."),
                                   ],
                                 ),
                               ),
@@ -969,7 +969,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (ناو) داڕمانی بینایەک، هتد"),
+                              text: "٨. (ناو) داڕمانی بینایەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -980,7 +980,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "The walls were strengthened to protect them from collapse."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دیوارەکان بەهێز کران بۆ پاراستن لە داڕووخان."),
+                                            "دیوارەکان بەھێز کران بۆ پاراستن لە داڕووخان."),
                                   ],
                                 ),
                               ),
@@ -1000,7 +1000,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ناو) دۆخێکی تەندرووستی کە کەسێک لەناکاو زۆر نەخۆش دەکەوێت، یان لەهۆش دەچێت کە زۆر نەخۆش دەکەوێت"),
+                                  "٩. (ناو) دۆخێکی تەندرووستی کە کەسێک لەناکاو زۆر نەخۆش دەکەوێت، یان لەھۆش دەچێت کە زۆر نەخۆش دەکەوێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1011,7 +1011,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                                             "She was taken to hospital after her collapse at work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بردرا بۆ نەخۆشخانە لەدوای لەهۆشچوونی لەسەر کار."),
+                                            "بردرا بۆ نەخۆشخانە لە دوای لەھۆشچوونی لەسەر کار."),
                                   ],
                                 ),
                               ),
@@ -1168,7 +1168,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: collapse (Derived forms: collapsed, collapses, collapsing)
+- Verb: collapse (derived forms: collapsed, collapses, collapsing)
 1. Break down, literally or metaphorically (= fall in, cave in, give, give way, break, founder)
 "The wall collapsed"; "The business collapsed"; "The roof collapsed";
  
@@ -1187,7 +1187,7 @@ ${englishMeaningConst.text}
 7. Lose significance, effectiveness, or value
 "The school system is collapsing"; "The stock market collapsed"
 
-- Noun: collapse (Derived forms: collapses)
+- Noun: collapse (derived forms: collapses)
 1. An abrupt failure of function or complete physical exhaustion (= prostration)
 "the commander's collapse demoralized his men";
  

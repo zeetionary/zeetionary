@@ -240,7 +240,7 @@ class EnglishEntrycontrary extends StatelessWidget {
                                             "Contrary to the weather forecast, we had a fine day for the experiment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێچەوانەی پێشبینیی کەشووهەوا، ڕۆژێکی گونجاومان هەبوو بۆ تاقیکردنەوەکە ."),
+                                            "پێچەوانەی پێشبینیی کەشووھەوا، ڕۆژێکی گونجاومان ھەبوو بۆ تاقیکردنەوەکە ."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycontrary extends StatelessWidget {
                                             "Despite all the contrary evidence, they still believed that the Earth was flat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرەڕای هەموو بەڵگە دژەکان، هێشتا باوەڕیان وابوو زەوی تەختە."),
+                                            "سەرەڕای ھەموو بەڵگە دژەکان، ھێشتا باوەڕیان وابوو زەوی تەختە."),
                                   ],
                                 ),
                               ),
@@ -524,7 +524,7 @@ ${englishMeaningConst.text}
 3. In an opposing direction (= adverse)
 "a contrary wind";
 
-- Noun: contrary (Derived forms: contraries)
+- Noun: contrary (derived forms: contraries)
 1. A relation of direct opposition (= reverse, opposite)
  
 2. Exact opposition
@@ -567,7 +567,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 190,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b6zf5VkuiEQ?t=',
+    videoId: 'b6zf5VkuiEQ',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +617,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mwhROjklvcE?t=',
+    videoId: 'mwhROjklvcE',
     startSeconds: 1113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mhlpk5ZrYLM?t=',
+    videoId: 'Mhlpk5ZrYLM',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IwJzsE8CvzQ?t=',
+    videoId: 'IwJzsE8CvzQ',
     startSeconds: 995,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tExo3ovEBWQ?t=',
+    videoId: 'tExo3ovEBWQ',
     startSeconds: 149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -717,7 +717,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DmqFbgKWoao?t=',
+    videoId: 'DmqFbgKWoao',
     startSeconds: 847,
     autoPlay: true,
     params: const YoutubePlayerParams(

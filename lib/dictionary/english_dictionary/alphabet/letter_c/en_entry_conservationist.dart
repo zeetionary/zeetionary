@@ -239,7 +239,7 @@ class EnglishEntryconservationist extends StatelessWidget {
                                             "Some conservationists fear that 10% of the world's plant species may have disappeared by the end of the century."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ژینگەپارێز دەترسن لەوەی ١٠٪ ـی جۆرەکانی ڕووەکی جیهان تا کۆتایی سەدەکە نەمێنن."),
+                                            "ھەندێک ژینگەپارێز دەترسن لەوەی ١٠٪ ـی جۆرەکانی ڕووەکی جیھان تا کۆتایی سەدەکە نەمێنن."),
                                   ],
                                 ),
                               ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conservationist (Derived forms: conservationists)
+- Noun: conservationist (derived forms: conservationists)
 1. Someone who works to protect the environment from destruction or pollution (= environmentalist, eco-warrior [informal])
 """,
   );
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UWelcIFAPxE?t=',
+    videoId: 'UWelcIFAPxE',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q8y-RLkpsnk?t=',
+    videoId: 'q8y-RLkpsnk',
     startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NTb2Cpd6ktE?t=',
+    videoId: 'NTb2Cpd6ktE',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRNwHoc7bq0?t=',
+    videoId: 'yRNwHoc7bq0',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aJSD8XV3qzE?t=',
+    videoId: 'aJSD8XV3qzE',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/laxYhf-uOs4?t=',
+    videoId: 'laxYhf-uOs4',
     startSeconds: 678,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oVvmyBBl6K8?t=',
+    videoId: 'oVvmyBBl6K8',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -191,11 +191,11 @@ class EnglishEntrycommensurate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوڕێژە، هاوئەندازە، بەرامبەر، بەقەدیەک، تەراز، هاوتەراز، یەکسان، یک‌ڕادە، هاوپێوانە، خاوەنی پێوەرێکی هاوبەش
+کوردی: ھاوڕێژە، ھاوئەندازە، بەرامبەر، بەقەدیەک، تەراز، ھاوتەراز، یەکسان، یک‌ڕادە، ھاوپێوانە، خاوەنی پێوەرێکی ھاوبەش
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) یەکسان بە شتێک لە بڕ، قەبارە، گرنگی، کوالێتی، هتد"),
+                                  "١. (ھاوەڵناو) یەکسان بە شتێک لە بڕ، قەبارە، گرنگی، کوالێتی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycommensurate extends StatelessWidget {
                                             "Salary will be commensurate with experience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مووچە هاوڕێژە دەبێت لەگەڵ ئەزمووندا."),
+                                            "مووچە ھاوڕێژە دەبێت لەگەڵ ئەزمووندا."),
                                   ],
                                 ),
                               ),

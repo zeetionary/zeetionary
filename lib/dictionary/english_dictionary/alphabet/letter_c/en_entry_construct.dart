@@ -324,7 +324,7 @@ class EnglishEntryconstruct extends StatelessWidget {
                                             "For these experiments it is necessary to construct a model using data from other sources."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ ئەم تاقیکردنەوانە درووستکردنی نموونەیەک پێویستە بە بەکارهێنانی زانیاری لە سەرچاوەی دیکەوە."),
+                                            "بۆ ئەم تاقیکردنەوانە درووستکردنی نموونەیەک پێویستە بە بەکارھێنانی زانیاری لە سەرچاوەی دیکەوە."),
                                   ],
                                 ),
                               ),
@@ -383,7 +383,7 @@ class EnglishEntryconstruct extends StatelessWidget {
                                             "Marriage is a social construct that is found in most communities and cultures."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسەرگیری چەمکێکی کۆمەڵایەتییە کە لە زۆر کۆمەڵگە و کەلتووردا هەیە."),
+                                            "ھاوسەرگیری چەمکێکی کۆمەڵایەتییە کە لە زۆر کۆمەڵگە و کەلتووردا ھەیە."),
                                   ],
                                 ),
                               ),
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: construct (Derived forms: constructs, constructed, constructing)
+- Verb: construct (derived forms: constructs, constructed, constructing)
 1. Make by combining materials and parts (= build, make)
 "Some eccentric constructed an electric brassiere warmer";
  
@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
 6. Reassemble mentally (= reconstruct, retrace)
 "construct the events of 20 years ago";
 
-- Noun: construct (Derived forms: constructs)
+- Noun: construct (derived forms: constructs)
 1. An abstract or general idea inferred or derived from specific instances (= concept, conception)
 """,
   );
@@ -535,7 +535,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 1442,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 444,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVQxvthAcLU?t=',
+    videoId: 'xVQxvthAcLU',
     startSeconds: 576,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -610,7 +610,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 557,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -635,7 +635,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IgF3OX8nT0w?t=',
+    videoId: 'IgF3OX8nT0w',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -660,7 +660,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3Mn9QMTmRDM?t=',
+    videoId: '3Mn9QMTmRDM',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -685,7 +685,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vgp2gMQz8nY?t=',
+    videoId: 'vgp2gMQz8nY',
     startSeconds: 448,
     autoPlay: true,
     params: const YoutubePlayerParams(

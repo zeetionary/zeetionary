@@ -209,7 +209,7 @@ class EnglishEntryclerk extends StatelessWidget {
                                             "The sales clerk answered all our questions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فرۆشیارەکە وەڵامی هەموو پرسیارەکانمانی دایەوە."),
+                                            "فرۆشیارەکە وەڵامی ھەموو پرسیارەکانمانی دایەوە."),
                                   ],
                                 ),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntryclerk extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە یارمەتی ئەو کەسانە دەدات کە دەگەنە هوتێلێک یان جێی دەهێڵن"),
+                                  "٢. (ناو) کەسێک کە یارمەتی ئەو کەسانە دەدات کە دەگەنە ھوتێلێک یان جێی دەھێڵن"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,7 +268,7 @@ class EnglishEntryclerk extends StatelessWidget {
                                             "The hotel clerk greeted us warmly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێ‌ڕاگەیشتووی هوتێلەکە بە گەرمییەوە پێشوازی کردین."),
+                                            "پێ‌ڕاگەیشتووی ھوتێلەکە بە گەرمییەوە پێشوازی کردین."),
                                   ],
                                 ),
                               ),
@@ -288,7 +288,7 @@ class EnglishEntryclerk extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەسێک کە لە ئۆفیسێک کاری تۆمار و هەژمار دەکات لەگەڵ کارەکانی دیکە"),
+                                  "٣. (ناو) کەسێک کە لە ئۆفیسێک کاری تۆمار و ھەژمار دەکات لەگەڵ کارەکانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -397,12 +397,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clerk (Derived forms: clerks)
+- Noun: clerk (derived forms: clerks)
 1. An employee who performs clerical work (e.g., keeps records or accounts)
  
 2. A salesperson in a store (= salesclerk [N. Amer], shop clerk, shop assistant [Brit, Cdn])
 
-- Verb: clerk (Derived forms: clerks, clerking, clerked)
+- Verb: clerk (derived forms: clerks, clerking, clerked)
 1. Work as a clerk, as in the legal business
 """,
   );

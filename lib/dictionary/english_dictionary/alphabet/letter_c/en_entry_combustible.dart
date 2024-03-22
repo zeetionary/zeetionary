@@ -191,7 +191,7 @@ class EnglishEntrycombustible extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەسووتان‌هاتوو، بسووت، زووئاورگرتوو، گڕکێش،	جینگزی، سەرگەرم، زووتووڕە، فیشەکی، ئاڵەتی، هەڵتۆز، سەرتوند
+کوردی: لەسووتان‌ھاتوو، بسووت، زووئاورگرتوو، گڕکێش،	جینگزی، سەرگەرم، زووتووڕە، فیشەکی، ئاڵەتی، ھەڵتۆز، سەرتوند
 """),
                           const DefinitionKurdish(
                               text:
@@ -206,7 +206,7 @@ class EnglishEntrycombustible extends StatelessWidget {
                                             "Wood and coal are both combustible substances."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دار و خەڵووز هەردووکیان مادەی بسووتن."),
+                                            "دار و خەڵووز ھەردووکیان مادەی بسووتن."),
                                   ],
                                 ),
                               ),
@@ -310,7 +310,7 @@ ${englishMeaningConst.text}
 - Adjective: combustible 
 1. Capable of igniting and burning
 
-- Noun: combustible (Derived forms: combustibles)
+- Noun: combustible (derived forms: combustibles)
 1. A substance that can be burned to provide heat or power (= combustible material)
 """,
   );

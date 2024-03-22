@@ -199,7 +199,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کارداری، بازرگانی، بازاڕداری،	بازاڕی، بەخێر، پڕقازانج، بەقازانج، پڕداهات،	تایبەتی (ڕادیۆ و تەلەفیزیۆن)،	(سووکانە) بازاڕی، ئایەخ، ڕەشۆکی، ئاگاداری بازرگانی، ڕیکلام، بانگەواز یان ڕاگەیاندنی کارداری
+کوردی: کارداری، بازرگانی، بازاڕداری،	بازاڕی، بەخێر، پڕقازانج، بەقازانج، پڕداھات،	تایبەتی (ڕادیۆ و تەلەفیزیۆن)،	(سووکانە) بازاڕی، ئایەخ، ڕەشۆکی، ئاگاداری بازرگانی، ڕیکلام، بانگەواز یان ڕاگەیاندنی کارداری
 """),
                           const DefinitionKurdish(
                               text:
@@ -214,7 +214,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                                             "They have offices in the commercial heart of the city."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆفیسیان لە ناوجەرگەی شار هەیە."),
+                                            "ئۆفیسیان لە ناوجەرگەی شار ھەیە."),
                                   ],
                                 ),
                               ),
@@ -329,7 +329,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                                             "The newspaper is acting solely in its own commercial interests."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژنامەکە تەنها بۆ قازانجی خۆی کاردەکات."),
+                                            "ڕۆژنامەکە تەنھا بۆ قازانجی خۆی کاردەکات."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                                             "The decision has been made on a purely commercial basis."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بڕیارەکە تەنها لەسەر بنەمای قازانج دراوە."),
+                                            "بڕیارەکە تەنھا لەسەر بنەمای قازانج دراوە."),
                                   ],
                                 ),
                               ),
@@ -380,7 +380,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                                   "٣. (ھاوەڵناو) زیاتر گرنگیدان بە لایەنی قازانج و ناوبانگ وەک لە کوالێتی"),
                           const Row(
                             children: [
-                              AlsoEnglishckb(word: "هەروەها: commercialized"),
+                              AlsoEnglishckb(word: "ھەروەھا: commercialized"),
                             ],
                           ),
                           Row(
@@ -564,7 +564,7 @@ ${englishMeaningConst.text}
 4. Of or relating to commercialism
 "a commercial attaché"; "commercial paper"; "commercial law"
 
-- Noun: commercial (Derived forms: commercials)
+- Noun: commercial (derived forms: commercials)
 1. A commercially sponsored ad on radio or television (= commercial message)
 """,
   );

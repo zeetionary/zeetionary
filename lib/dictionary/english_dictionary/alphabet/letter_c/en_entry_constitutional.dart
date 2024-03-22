@@ -196,7 +196,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەپێی قانوونی بنچینەیی یان دەستوور، دەستوورانە، دەستوورمەند، دەستووری،	سەربە قانوونی بنچینەیی،	قانوونی، یاسایی،	سەربە پێکهاتەی لەشی، بنگەیی
+کوردی: بەپێی قانوونی بنچینەیی یان دەستوور، دەستوورانە، دەستوورمەند، دەستووری،	سەربە قانوونی بنچینەیی،	قانوونی، یاسایی،	سەربە پێکھاتەی لەشی، بنگەیی
 """),
                           const DefinitionKurdish(
                               text:
@@ -273,7 +273,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
                                         text:
                                             "Such a policy would not be constitutional."),
                                     ExampleSentenceKurdish(
-                                        text: "سیاسەتێکی وەها دەستووری نابێت."),
+                                        text: "سیاسەتێکی وەھا دەستووری نابێت."),
                                   ],
                                 ),
                               ),
@@ -416,7 +416,7 @@ ${englishMeaningConst.text}
 4. Sanctioned by or consistent with or operating under the law determining the fundamental political principles of a government
 "the constitutional right of free speech"; "constitutional government"; "constitutional guarantees"
 
-- Noun: constitutional (Derived forms: constitutionals)
+- Noun: constitutional (derived forms: constitutionals)
 1. A regular walk taken as a form of exercise
 """,
   );
@@ -450,7 +450,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 392,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z56j06plUgs?t=',
+    videoId: 'z56j06plUgs',
     startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VnXu22HZBNQ?t=',
+    videoId: 'VnXu22HZBNQ',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AxSQGOjh110?t=',
+    videoId: 'AxSQGOjh110',
     startSeconds: 2182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RVEm5Am-tYc?t=',
+    videoId: 'RVEm5Am-tYc',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GdkGRel48Q?t=',
+    videoId: '_GdkGRel48Q',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gHjbay54F4U?t=',
+    videoId: 'gHjbay54F4U',
     startSeconds: 667,
     autoPlay: true,
     params: const YoutubePlayerParams(

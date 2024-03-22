@@ -326,7 +326,7 @@ class EnglishEntrycompulsive extends StatelessWidget {
                                             "I always find programmes about hospitals compulsive viewing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە ئەو پڕۆگرامانەی سەبارەت بە نەخۆشخانەن بە سەیرکردنێکی دڵنیایی دەبینم (کە دەبێت سەیری بکەم)."),
+                                            "ھەمیشە ئەو پڕۆگرامانەی سەبارەت بە نەخۆشخانەن بە سەیرکردنێکی دڵنیایی دەبینم (کە دەبێت سەیری بکەم)."),
                                   ],
                                 ),
                               ),
@@ -431,7 +431,7 @@ ${englishMeaningConst.text}
  
 2. Strongly motivated to succeed (= determined, driven)
 
-- Noun: compulsive (Derived forms: compulsives)
+- Noun: compulsive (derived forms: compulsives)
 1. A person with a compulsive disposition; someone who feels compelled to do certain things
 """,
   );
@@ -465,7 +465,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OadokY8fcAA?t=',
+    videoId: 'OadokY8fcAA',
     startSeconds: 644,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CLFaZcXUZ6o?t=',
+    videoId: 'CLFaZcXUZ6o',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ah2H1bhSFTQ',
+    videoId: 'ah2H1bhSFTQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zD5yZ2SqJbI',
+    videoId: 'zD5yZ2SqJbI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bvJrb_8dtd4?t=',
+    videoId: 'bvJrb_8dtd4',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/krQ7HYlO9t8?t=',
+    videoId: 'krQ7HYlO9t8',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ujviNfYAvDk?t=',
+    videoId: 'ujviNfYAvDk',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(

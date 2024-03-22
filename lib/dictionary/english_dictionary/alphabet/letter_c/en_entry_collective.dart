@@ -194,11 +194,11 @@ class EnglishEntrycollective extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆمەڵی، بەکۆمەڵ، بەگەل، کۆیی، هاوبەش، پێک(ە)وەیی، دەستەیی، جەماوەری، دابەش‌کراو، گشتی، گەلەمپەری، تێکڕایی،	(ئاماژە بە تێکڕای ئەندامانی) گروپ، کۆمەڵ، دەستە، چین،	زبارە، هەرەوەز، (ڕێزمان) ناوی کۆ
+کوردی: کۆمەڵی، بەکۆمەڵ، بەگەل، کۆیی، ھاوبەش، پێک(ە)وەیی، دەستەیی، جەماوەری، دابەش‌کراو، گشتی، گەلەمپەری، تێکڕایی،	(ئاماژە بە تێکڕای ئەندامانی) گروپ، کۆمەڵ، دەستە، چین،	زبارە، ھەرەوەز، (ڕێزمان) ناوی کۆ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە هەموو ئەندامانی گرووپێک؛ کردنی شتێک لەلایەن هەموو ئەندامانی گرووپێک"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە ھەموو ئەندامانی گرووپێک؛ کردنی شتێک لەلایەن ھەموو ئەندامانی گرووپێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycollective extends StatelessWidget {
                                             "MPs heaved a collective sigh of relief when the news was announced last night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندامانی پەرلەمان هەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان هەڵکێشا کە هەواڵەکە دوێنێ شەو ڕاگەیەندرا."),
+                                            "ئەندامانی پەرلەمان ھەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان ھەڵکێشا کە ھەواڵەکە دوێنێ شەو ڕاگەیەندرا."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycollective extends StatelessWidget {
                                             "The austerities of wartime Europe were still fresh in the collective memory."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆخی سەختی ماوەی جەنگ لە ئەورووپا هێشتا تازە بوو لە یادەوەری هەمواندا."),
+                                            "دۆخی سەختی ماوەی جەنگ لە ئەورووپا ھێشتا تازە بوو لە یادەوەری ھەمواندا."),
                                   ],
                                 ),
                               ),
@@ -265,7 +265,7 @@ class EnglishEntrycollective extends StatelessWidget {
                                             "There has to be a balance between individual choice and collective responsibility."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت هاوسەنگییەک هەبێت لە نێوان بڕیاری تاکەکەسی و بەرپرسیاریەتیی گشتگیر."),
+                                            "دەبێت ھاوسەنگییەک ھەبێت لە نێوان بڕیاری تاکەکەسی و بەرپرسیاریەتیی گشتگیر."),
                                   ],
                                 ),
                               ),
@@ -431,7 +431,7 @@ ${englishMeaningConst.text}
  
 3. Forming a whole or aggregate
 
-- Noun: collective (Derived forms: collectives)
+- Noun: collective (derived forms: collectives)
 1. Members of a cooperative enterprise
 """,
   );

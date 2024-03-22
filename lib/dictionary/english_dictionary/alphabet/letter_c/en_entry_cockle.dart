@@ -195,7 +195,7 @@ class EnglishEntrycockle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سەدەفدارێکی بچووک کە دەخورێت و بەزۆری لە ئەورووپا هەیە"),
+                                  "١. (ناو) سەدەفدارێکی بچووک کە دەخورێت و بەزۆری لە ئەورووپا ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,12 +305,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cockle (Derived forms: cockles)
+- Noun: cockle (derived forms: cockles)
 1. Common edible European bivalve
  
 2. Common edible, burrowing European bivalve mollusk that has a strong, rounded shell with radiating ribs
 
-- Verb: cockle (Derived forms: cockles, cockling, cockled)
+- Verb: cockle (derived forms: cockles, cockling, cockled)
 1. Stir up (water) so as to form ripples (= ripple, ruffle, riffle, undulate)
  
 2. To gather something into small wrinkles or folds (= pucker, rumple, crumple, knit)

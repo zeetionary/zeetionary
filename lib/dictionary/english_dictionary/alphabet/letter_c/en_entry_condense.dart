@@ -207,7 +207,7 @@ class EnglishEntrycondense extends StatelessWidget {
                                             "Steam condenses into water when it cools."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵم دەبێت بە ئاو کە سارد دەبێتەوە."),
+                                            "ھەڵم دەبێت بە ئاو کە سارد دەبێتەوە."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycondense extends StatelessWidget {
                                             "The article was condensed into just two pages."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتارەکە بۆ تەنها سوو پەڕە کورتکرایەوە."),
+                                            "وتارەکە بۆ تەنھا سوو پەڕە کورتکرایەوە."),
                                   ],
                                 ),
                               ),
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: condense (Derived forms: condenses, condensed, condensing)
+- Verb: condense (derived forms: condenses, condensed, condensing)
 1. Undergo condensation; change from a gaseous to a liquid state and fall in drops (= distill [N. Amer], distil [Brit])
 "water condenses";
  
@@ -421,7 +421,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bFl3_J2gBu4?t=',
+    videoId: 'bFl3_J2gBu4',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ao2Jfm35XeE?t=',
+    videoId: 'ao2Jfm35XeE',
     startSeconds: 380,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 530,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UG61a5vjxuI?t=',
+    videoId: 'UG61a5vjxuI',
     startSeconds: 260,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7WRJtBzDhcU?t=',
+    videoId: '7WRJtBzDhcU',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rN9NzgryhMY?t=',
+    videoId: 'rN9NzgryhMY',
     startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5HbQZTw9s7Y?t=',
+    videoId: '5HbQZTw9s7Y',
     startSeconds: 1164,
     autoPlay: true,
     params: const YoutubePlayerParams(

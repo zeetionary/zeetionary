@@ -29,7 +29,7 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
           title: Text(
             'دڵنیایی‌ کردنەوە',
             style: TextStyle(
-              fontSize: textSize,
+              fontSize: textSize + 4,
             ),
             textDirection: TextDirection.rtl,
           ),

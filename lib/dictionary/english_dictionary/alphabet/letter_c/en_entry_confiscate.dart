@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confiscate (Derived forms: confiscates, confiscated, confiscating)
+- Verb: confiscate (derived forms: confiscates, confiscated, confiscating)
 1. Take temporary possession of as a security, by legal authority (= impound, attach, sequester, seize, sequestrate)
 "The police confiscated the stolen artwork";
 
@@ -371,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 1051,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TfaMLqEh1qM?t=',
+    videoId: 'TfaMLqEh1qM',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tKZ2ILu_EMc?t=',
+    videoId: 'tKZ2ILu_EMc',
     startSeconds: 1103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xuawdbizaeI?t=',
+    videoId: 'xuawdbizaeI',
     startSeconds: 343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3eDnKct5XAw?t=',
+    videoId: '3eDnKct5XAw',
     startSeconds: 416,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iVv_xiIx22Q?t=',
+    videoId: 'iVv_xiIx22Q',
     startSeconds: 1063,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lgCUhPmPjUQ?t=',
+    videoId: 'lgCUhPmPjUQ',
     startSeconds: 650,
     autoPlay: true,
     params: const YoutubePlayerParams(

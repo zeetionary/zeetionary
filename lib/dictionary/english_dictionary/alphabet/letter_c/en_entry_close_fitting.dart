@@ -206,7 +206,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
                                         text:
                                             "She wore a close-fitting dress to the party."),
                                     ExampleSentenceKurdish(
-                                        text: "جلی تەسکی بۆ ئاهەنگەکە پۆشی."),
+                                        text: "جلی تەسکی بۆ ئاھەنگەکە پۆشی."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: close-fitting (Derived forms: closest-fitting, closer-fitting) 
+- Adjective: close-fitting (derived forms: closest-fitting, closer-fitting) 
 1. Fitting closely but comfortably (= close, snug)
 "a close-fitting fit";
 """,

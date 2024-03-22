@@ -195,7 +195,7 @@ class EnglishEntrycobra extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ماری کوبرا؛ مارێکی ژەهراوی کە دەتوانێت پێستی پشتی ملی بڵاوبکاتەوە بۆ ئەوەی خۆی گەورەتر دەربخات. کوبراکان لە ئاسیا و ئەفریقا دەژین."),
+                                  "١. (ناو) ماری کوبرا؛ مارێکی ژەھراوی کە دەتوانێت پێستی پشتی ملی بڵاوبکاتەوە بۆ ئەوەی خۆی گەورەتر دەربخات. کوبراکان لە ئاسیا و ئەفریقا دەژین."),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycobra extends StatelessWidget {
                                         text:
                                             "The cobra's bite is highly venomous."),
                                     ExampleSentenceKurdish(
-                                        text: "گازی کوبرا تەواو ژەهراوییە."),
+                                        text: "گازی کوبرا تەواو ژەھراوییە."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cobra (Derived forms: cobras)
+- Noun: cobra (derived forms: cobras)
 1. Venomous Asiatic and African elapid snakes that can expand the skin of the neck into a hood
 
 - Noun: COBRA

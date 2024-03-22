@@ -197,7 +197,7 @@ class EnglishEntrycongratulate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) وتن بە کەسێک کە دڵخۆشیت بە سەرکەوتن و بەدەستهێنانەکانی"),
+                                  "١. (کردار) وتن بە کەسێک کە دڵخۆشیت بە سەرکەوتن و بەدەستھێنانەکانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycongratulate extends StatelessWidget {
                                             "I congratulated them all on their results."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیرۆزباییم لە هەموویان کرد بۆ ئەنجامەکانیان."),
+                                            "پیرۆزباییم لە ھەموویان کرد بۆ ئەنجامەکانیان."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycongratulate extends StatelessWidget {
                                             "I was just congratulating Sheryl on winning/on having won her race."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها دەمەوێت پیرۆزبایی لە شێریڵ بکەم بەهۆی بردنەوەی پێشبڕکێیەکەی."),
+                                            "تەنھا دەمەوێت پیرۆزبایی لە شێریڵ بکەم بەھۆی بردنەوەی پێشبڕکێیەکەی."),
                                   ],
                                 ),
                               ),
@@ -260,7 +260,7 @@ class EnglishEntrycongratulate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) هەستکردن بە شانازی بەهۆی بەدەستهێنانی شتێکی گرنگ"),
+                                  "٢. (کردار) ھەستکردن بە شانازی بەھۆی بەدەستھێنانی شتێکی گرنگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: congratulate (Derived forms: congratulated, congratulates, congratulating)
+- Verb: congratulate (derived forms: congratulated, congratulates, congratulating)
 1. Say something to someone that expresses praise (= compliment)
 "He congratulated her on her last physics paper";
  
@@ -414,7 +414,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YWHDDWCbpns?t=',
+    videoId: 'YWHDDWCbpns',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eoq6tswNwjA?t=',
+    videoId: 'eoq6tswNwjA',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s1SaD-gSZO4?t=',
+    videoId: 's1SaD-gSZO4',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RyeTuXdfn7s?t=',
+    videoId: 'RyeTuXdfn7s',
     startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4tZt5axOB80?t=',
+    videoId: '4tZt5axOB80',
     startSeconds: 240,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YMbWE-4u7w8?t=',
+    videoId: 'YMbWE-4u7w8',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yQ1IA117gKE?t=',
+    videoId: 'yQ1IA117gKE',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(

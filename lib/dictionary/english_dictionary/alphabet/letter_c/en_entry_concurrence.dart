@@ -192,7 +192,7 @@ class EnglishEntryconcurrence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێک‌کەوتن، سازبوون، پێک‌هاتن،	هاوکاتی،	(بیرکاری) پێک‌گەیشتن، گەیینەوە،	خاڵی پێک‌گەیشتن، جەمسەر
+کوردی: ڕێک‌کەوتن، سازبوون، پێک‌ھاتن،	ھاوکاتی،	(بیرکاری) پێک‌گەیشتن، گەیینەوە،	خاڵی پێک‌گەیشتن، جەمسەر
 """),
                           const DefinitionKurdish(text: "١. (ناو) ڕێککەوتن"),
                           Row(
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concurrence (Derived forms: concurrences)
+- Noun: concurrence (derived forms: concurrences)
 1. Agreement of results or opinions (= concurrency)
  
 2. Acting together, as agents, circumstances or events (= concurrency)
@@ -380,7 +380,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/me51ngAYAI0?t=',
+    videoId: 'me51ngAYAI0',
     startSeconds: 928,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -405,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wOvvBWSBwU0?t=',
+    videoId: 'wOvvBWSBwU0',
     startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gZvr92YcmGI?t=',
+    videoId: 'gZvr92YcmGI',
     startSeconds: 453,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fEbed_DvQZI?t=',
+    videoId: 'fEbed_DvQZI',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tS1mRpkrzEo?t=',
+    videoId: 'tS1mRpkrzEo',
     startSeconds: 1094,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RGS4-7WMWhI?t=',
+    videoId: 'RGS4-7WMWhI',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D2h2D1FU-MQ?t=',
+    videoId: 'D2h2D1FU-MQ',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(

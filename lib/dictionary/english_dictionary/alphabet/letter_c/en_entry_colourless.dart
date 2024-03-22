@@ -193,7 +193,7 @@ class EnglishEntrycolourless extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بێ‌ڕەنگ، کاڵ،	ڕەنگ‌پەڕیو، ڕەنگ‌هەڵبزرکاو،	ناسەرانج‌اکێش، وەڕەسکەر، جاڕسکەر
+کوردی: بێ‌ڕەنگ، کاڵ،	ڕەنگ‌پەڕیو، ڕەنگ‌ھەڵبزرکاو،	ناسەرانج‌اکێش، وەڕەسکەر، جاڕسکەر
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ ڕەنگ"),

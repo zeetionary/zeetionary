@@ -205,7 +205,7 @@ class EnglishEntrycoldhearted extends StatelessWidget {
                                             "The dictator's cold-hearted policies caused suffering for many."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە هۆی ئازار بۆ زۆر کەس."),
+                                            "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە ھۆی ئازار بۆ زۆر کەس."),
                                   ],
                                 ),
                               ),

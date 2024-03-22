@@ -246,7 +246,7 @@ class EnglishEntrycomment extends StatelessWidget {
                                     ),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ لێدوانێکت هەیە لەسەر هۆکاری کارەساتەکە؟"),
+                                            "ھیچ لێدوانێکت ھەیە لەسەر ھۆکاری کارەساتەکە؟"),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrycomment extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) ڕەخنە کە هەڵەی شتێک پیشان دەدات"),
+                              text: "٢. (ناو) ڕەخنە کە ھەڵەی شتێک پیشان دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -332,7 +332,7 @@ class EnglishEntrycomment extends StatelessWidget {
                                             "There was a lot of comment about his behaviour."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێدوانی زۆر هەبوو لەسەر هەڵسوکەوتی."),
+                                            "لێدوانی زۆر ھەبوو لەسەر ھەڵسوکەوتی."),
                                   ],
                                 ),
                               ),
@@ -449,7 +449,7 @@ class EnglishEntrycomment extends StatelessWidget {
                                                     "He said nothing when asked to comment on the allegations."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیچی نەوت کە پرسیاری لێکرا سەرنج بدات لەسەر تۆمەتەکان."),
+                                                    "ھیچی نەوت کە پرسیاری لێکرا سەرنج بدات لەسەر تۆمەتەکان."),
                                           ],
                                         ),
                                       ),
@@ -584,7 +584,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comment (Derived forms: comments)
+- Noun: comment (derived forms: comments)
 1. A statement that expresses a personal opinion, belief or adds information (= remark, input)
 "from time to time she contributed a personal comment on his account";
  
@@ -595,7 +595,7 @@ ${englishMeaningConst.text}
  
 4. (computer programming) a piece of explanatory text (which is not itself executed) in source code
 
-- Verb: comment (Derived forms: commenting, comments, commented)
+- Verb: comment (derived forms: commenting, comments, commented)
 1. Make or write a comment on (= notice, remark, point out)
 "he commented the paper of his colleague";
  

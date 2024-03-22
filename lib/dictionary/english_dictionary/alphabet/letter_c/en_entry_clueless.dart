@@ -235,7 +235,7 @@ class EnglishEntryclueless extends StatelessWidget {
                                             "Henry was a young and very clueless officer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێنری ئەفسەرێکی گەنج و زۆر نەزان بوو."),
+                                            "ھێنری ئەفسەرێکی گەنج و زۆر نەزان بوو."),
                                   ],
                                 ),
                               ),

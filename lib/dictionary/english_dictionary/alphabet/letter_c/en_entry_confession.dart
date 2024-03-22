@@ -196,7 +196,7 @@ class EnglishEntryconfession extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دانپیانان، پێ‌لێنان، درکاندن، چوونەژێر، پێ‌ناسین،	نامەی دانپیانان،	دەربڕین، هێنانەزمان، ڕاگەیاندن، دانەزانین
+کوردی: دانپیانان، پێ‌لێنان، درکاندن، چوونەژێر، پێ‌ناسین،	نامەی دانپیانان،	دەربڕین، ھێنانەزمان، ڕاگەیاندن، دانەزانین
 """),
                           const DefinitionKurdish(text: "١. (ناو) دانپیانان"),
                           Row(
@@ -265,7 +265,7 @@ class EnglishEntryconfession extends StatelessWidget {
                                             "It's difficult to believe it's a true confession after all her lies."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەختە باوەڕ بکەیت کە دانپیانانێکی درووستە لە دوای ئەو هەموو درۆکردنەی."),
+                                            "سەختە باوەڕ بکەیت کە دانپیانانێکی درووستە لە دوای ئەو ھەموو درۆکردنەی."),
                                   ],
                                 ),
                               ),
@@ -324,7 +324,7 @@ class EnglishEntryconfession extends StatelessWidget {
                                             "I've a confession to make—I lied about my age."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانپیانانێکم هەیە، درۆم کرد سەبارەت بە تەمەنم."),
+                                            "دانپیانانێکم ھەیە، درۆم کرد سەبارەت بە تەمەنم."),
                                   ],
                                 ),
                               ),
@@ -451,7 +451,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confession (Derived forms: confessions)
+- Noun: confession (derived forms: confessions)
 1. An admission of misdeeds or faults
  
 2. A written document acknowledging an offence and signed by the guilty party
@@ -493,7 +493,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ii50SWTJSoA?t=',
+    videoId: 'ii50SWTJSoA',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 1149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PmlRbfSavbI?t=',
+    videoId: 'PmlRbfSavbI',
     startSeconds: 422,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZoLU3-dhoY0?t=',
+    videoId: 'ZoLU3-dhoY0',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PqpCeiYycVM?t=',
+    videoId: 'PqpCeiYycVM',
     startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fGMCjELDyUY?t=',
+    videoId: 'fGMCjELDyUY',
     startSeconds: 1997,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OZ_xhkg32nk?t=',
+    videoId: 'OZ_xhkg32nk',
     startSeconds: 360,
     autoPlay: true,
     params: const YoutubePlayerParams(

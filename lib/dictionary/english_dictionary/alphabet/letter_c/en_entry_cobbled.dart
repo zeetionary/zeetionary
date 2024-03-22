@@ -206,7 +206,7 @@ class EnglishEntrycobbled extends StatelessWidget {
                                             "The streets of the main village are still cobbled."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێگاکانی گوندە سەرەکییەکە هێشتا خڕکەڕێژکراون."),
+                                            "ڕێگاکانی گوندە سەرەکییەکە ھێشتا خڕکەڕێژکراون."),
                                   ],
                                 ),
                               ),

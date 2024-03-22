@@ -195,7 +195,7 @@ class EnglishEntrycontributor extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یارمەتی‌دەر، پیتاک‌دەر، کۆمەک‌کەر، دەسگر، بەخشەر، بەدەنگەوەبوو،	نووسەر، وتارنووس،	بەشداری‌کەر، بەشدار،	هۆ، مایە
+کوردی: یارمەتی‌دەر، پیتاک‌دەر، کۆمەک‌کەر، دەسگر، بەخشەر، بەدەنگەوەبوو،	نووسەر، وتارنووس،	بەشداری‌کەر، بەشدار،	ھۆ، مایە
 """),
                           const DefinitionKurdish(
                               text:
@@ -305,7 +305,7 @@ class EnglishEntrycontributor extends StatelessWidget {
                                             "Sulphur dioxide is a major contributor to acid rain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆکسیدی سلفەر هۆکارێکی گرنگی ترشە بارانە."),
+                                            "ئۆکسیدی سلفەر ھۆکارێکی گرنگی ترشە بارانە."),
                                   ],
                                 ),
                               ),
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contributor (Derived forms: contributors)
+- Noun: contributor (derived forms: contributors)
 1. Someone who contributes (or promises to contribute) a sum of money (= subscriber)
  
 2. A writer whose work is published in a newspaper, magazine or as part of a book
@@ -442,7 +442,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-RjJtO51ykY?t=',
+    videoId: '-RjJtO51ykY',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3YTfhJmh1I?t=',
+    videoId: 's3YTfhJmh1I',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AxSQGOjh110?t=',
+    videoId: 'AxSQGOjh110',
     startSeconds: 2073,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gXR9D9ZXllg?t=',
+    videoId: 'gXR9D9ZXllg',
     startSeconds: 561,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m5q-PIN3KSE?t=',
+    videoId: 'm5q-PIN3KSE',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yiER4rUrGN8?t=',
+    videoId: 'yiER4rUrGN8',
     startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0JeFvbOhHYk?t=',
+    videoId: '0JeFvbOhHYk',
     startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(

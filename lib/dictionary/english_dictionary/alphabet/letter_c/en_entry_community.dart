@@ -203,7 +203,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆمەڵگا، جڤاک، کۆمەڵ،	دەستە، پوورە، کۆمەڵ، گروپ، تاقم،	خەڵک، گەل، ئۆمەت،	کەمینە،	هاوبەشی، شەریکی، هاوخاوەنایەتی، خاوەنداری هاوبەش،	یەکێتی، هەڤگرتوویی،	لێکچوون، هاوشێوەیی، نزیکایەتی،	هەستان و دانیشتن، هەڵس‌وکەوت،	(ژینگەناسی) کۆمەڵ، پوورە
+کوردی: کۆمەڵگا، جڤاک، کۆمەڵ،	دەستە، پوورە، کۆمەڵ، گروپ، تاقم،	خەڵک، گەل، ئۆمەت،	کەمینە،	ھاوبەشی، شەریکی، ھاوخاوەنایەتی، خاوەنداری ھاوبەش،	یەکێتی، ھەڤگرتوویی،	لێکچوون، ھاوشێوەیی، نزیکایەتی،	ھەستان و دانیشتن، ھەڵس‌وکەوت،	(ژینگەناسی) کۆمەڵ، پوورە
 """),
                           const DefinitionKurdish(
                               text:
@@ -246,7 +246,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                                             "It is hoped that the campaign will encourage members of the community to get active."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوای ئەوە هەیە کە کەمپینەکە هانی ئەندامانی کۆمەڵگاکە بدات چالاک بن."),
+                                            "ھیوای ئەوە ھەیە کە کەمپینەکە ھانی ئەندامانی کۆمەڵگاکە بدات چالاک بن."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                                                     "The library is open to all members of the community."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "قوتابخانەکە کراوەیە بۆ هەموو ئەندامانی کۆمەڵگاکە."),
+                                                    "قوتابخانەکە کراوەیە بۆ ھەموو ئەندامانی کۆمەڵگاکە."),
                                           ],
                                         ),
                                       ),
@@ -395,7 +395,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                                                     "He urged the international community to take decisive action to stop the conflict."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "داوای لە کۆمەڵگای نێودەوڵەتی کرد هەنگاو بنێن بۆ وەستاندنی پێکدادانەکە."),
+                                                    "داوای لە کۆمەڵگای نێودەوڵەتی کرد ھەنگاو بنێن بۆ وەستاندنی پێکدادانەکە."),
                                           ],
                                         ),
                                       ),
@@ -421,7 +421,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆمەڵە کەسێک کە سەر بە هەمان ئایین، ڕەگەز، پیشە، هتد ـن"),
+                                  "٢. (ناو) کۆمەڵە کەسێک کە سەر بە ھەمان ئایین، ڕەگەز، پیشە، ھتد ـن"),
                           Row(
                             children: [
                               const Expanded(
@@ -460,7 +460,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                                             "This is good news for the farming community."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە هەواڵێکی باشە بۆ دەستەی ئاژەڵداران."),
+                                            "ئەمە ھەواڵێکی باشە بۆ دەستەی ئاژەڵداران."),
                                   ],
                                 ),
                               ),
@@ -508,7 +508,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) هەستی بوون بە بەشێک لە گرووپێک لەو شوێنەی کە لێی دەژیت"),
+                                  "٣. (ناو) ھەستی بوون بە بەشێک لە گرووپێک لەو شوێنەی کە لێی دەژیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -519,7 +519,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                                             "There is a strong sense of community here."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستێکی بەهێزی پێکەوەیی لێرە هەیە."),
+                                            "ھەستێکی بەھێزی پێکەوەیی لێرە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -547,7 +547,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                                             "The town has a strong community spirit."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارؤچکەکە ڕۆحیەتێکی بەهێزی پێکەوەیی هەیە."),
+                                            "شارؤچکەکە ڕۆحیەتێکی بەھێزی پێکەوەیی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -567,7 +567,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) گرووپێک کە پێکەوە دەژین و هەموان بە هاوبەشی خاوەنداری ئەوە دەکەن کە هەیانە"),
+                                  "٤. (ناو) گرووپێک کە پێکەوە دەژین و ھەموان بە ھاوبەشی خاوەنداری ئەوە دەکەن کە ھەیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -677,7 +677,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: community (Derived forms: communities)
+- Noun: community (derived forms: communities)
 1. A group of people living in a particular local area
 "the team is drawn from all parts of the community"
  

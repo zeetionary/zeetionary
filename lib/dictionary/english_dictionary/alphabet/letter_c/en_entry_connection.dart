@@ -568,11 +568,11 @@ class EnglishEntryconnection extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکەوەبەستن، پێکبەستن، بەستن، پێکەوبەستراوی، هاوبەندی، هەڤبەندی، پێکبەندی، گرێدان، بەستنەوە، ئارا، هاوبەستی، پێک‌بەستنەوە، پێوەستی، پەیوەستی، تێکەڵی، پێوەندی،	درێژەپێدەر، درێژەی ڕێ یان سەفەر (فڕۆکە، شەمەندەفەر و پاس)،	هێڵ (تەلەفون)،	ناسیاو، شناس، دۆست،	مشتەری، کڕیار
+کوردی: پێکەوەبەستن، پێکبەستن، بەستن، پێکەوبەستراوی، ھاوبەندی، ھەڤبەندی، پێکبەندی، گرێدان، بەستنەوە، ئارا، ھاوبەستی، پێک‌بەستنەوە، پێوەستی، پەیوەستی، تێکەڵی، پێوەندی،	درێژەپێدەر، درێژەی ڕێ یان سەفەر (فڕۆکە، شەمەندەفەر و پاس)،	ھێڵ (تەلەفون)،	ناسیاو، شناس، دۆست،	مشتەری، کڕیار
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شتێک کە دوو ڕاستی، بیرۆکە، هتد پێکەوە دەبەستێتەوە"),
+                                  "١. (ناو) شتێک کە دوو ڕاستی، بیرۆکە، ھتد پێکەوە دەبەستێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -611,7 +611,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                             "His resignation must have some connection with the recent scandal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستلەکارکێشانەوەکەی دەبێت پەیوەندییەکی هەبووبێت بە ئابڕووچوونەکەی ئەم دواییە."),
+                                            "دەستلەکارکێشانەوەکەی دەبێت پەیوەندییەکی ھەبووبێت بە ئابڕووچوونەکەی ئەم دواییە."),
                                   ],
                                 ),
                               ),
@@ -642,7 +642,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                                     "He denied any connection to the scam."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نکۆڵی لە هەر پەیوەندییەک بە ساختەکارییەکەوە کرد."),
+                                                    "نکۆڵی لە ھەر پەیوەندییەک بە ساختەکارییەکەوە کرد."),
                                           ],
                                         ),
                                       ),
@@ -672,7 +672,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                                     "His death had no connection with drugs."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "مردنەکەی هیچ پەیوەندی بە مادەی هۆشبەرەوە نەبوو."),
+                                                    "مردنەکەی ھیچ پەیوەندی بە مادەی ھۆشبەرەوە نەبوو."),
                                           ],
                                         ),
                                       ),
@@ -732,7 +732,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                                     "She wanted to sever all her connections with the company."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ویستی هەموو پەیوەندییەکی بە کۆمپانیاکەوە بپچڕێنێت."),
+                                                    "ویستی ھەموو پەیوەندییەکی بە کۆمپانیاکەوە بپچڕێنێت."),
                                           ],
                                         ),
                                       ),
@@ -769,7 +769,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                             "I'm having problems with my internet connection."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کێشەم هەیە لە پەیوەندی ئینتەرنێتمدا."),
+                                            "کێشەم ھەیە لە پەیوەندی ئینتەرنێتمدا."),
                                   ],
                                 ),
                               ),
@@ -855,7 +855,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                             "A faulty connection caused the machine to stop."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێک‌بەستنەوەیەکی هەڵە بووە هۆکاری ئەوەی ئامێرەکە بوەستێت."),
+                                            "پێک‌بەستنەوەیەکی ھەڵە بووە ھۆکاری ئەوەی ئامێرەکە بوەستێت."),
                                   ],
                                 ),
                               ),
@@ -907,7 +907,7 @@ class EnglishEntryconnection extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شەمەندەفەرێک، پاسێک، یان فڕۆکەیەک کە گەشتیارێکی دەتوانێت سەری بکەوێت ڕاستەوخۆ لەدوای جێهێشتنی یەکێکی دیکە"),
+                                  "٤. (ناو) شەمەندەفەرێک، پاسێک، یان فڕۆکەیەک کە گەشتیارێکی دەتوانێت سەری بکەوێت ڕاستەوخۆ لە دوای جێھێشتنی یەکێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1011,7 +1011,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                             "There are good bus and train connections between the resort and major cities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گواستنەوەی باشی پاس و شەمەندەفەر هەیە لە نێوان سەیرانگاکە و شارە گرنگەکاندا."),
+                                            "گواستنەوەی باشی پاس و شەمەندەفەر ھەیە لە نێوان سەیرانگاکە و شارە گرنگەکاندا."),
                                   ],
                                 ),
                               ),
@@ -1107,7 +1107,7 @@ class EnglishEntryconnection extends StatelessWidget {
                                             "She is British but also has German connections."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەریتانییە بەڵام چەند خزمێکی ئەڵمانی هەیە."),
+                                            "بەریتانییە بەڵام چەند خزمێکی ئەڵمانی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1208,7 +1208,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: connection (Derived forms: connections)
+- Noun: connection (derived forms: connections)
 1. A relation between things or events (as in the case of one causing the other or sharing features with it) (= connexion [Brit], connectedness)
 "there was a connection between eating that pickle and having that nightmare";
  
@@ -1265,7 +1265,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0rZDz1hnM70?t=',
+    videoId: '0rZDz1hnM70',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1290,7 +1290,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iMiE90AnvFk?t=',
+    videoId: 'iMiE90AnvFk',
     startSeconds: 1083,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1315,7 +1315,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gn0905T5z94?t=',
+    videoId: 'gn0905T5z94',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1340,7 +1340,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1365,7 +1365,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1XKSo2mFC6c?t=',
+    videoId: '1XKSo2mFC6c',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1390,7 +1390,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wTAJSuhgZxA?t=',
+    videoId: 'wTAJSuhgZxA',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1415,7 +1415,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4zAkoXyhrdI?t=',
+    videoId: '4zAkoXyhrdI',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(

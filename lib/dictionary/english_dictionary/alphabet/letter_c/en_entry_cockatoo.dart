@@ -195,7 +195,7 @@ class EnglishEntrycockatoo extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) باڵندەیەک کە لە خێزانی تووتییە و ڕیزە پەڕێکی لەسەر ملی هەیە کە فش دەبێتەوە"),
+                                  "١. (ناو) باڵندەیەک کە لە خێزانی تووتییە و ڕیزە پەڕێکی لەسەر ملی ھەیە کە فش دەبێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cockatoo (Derived forms: cockatoos)
+- Noun: cockatoo (derived forms: cockatoos)
 1. White or light-coloured crested parrot of the Australian region; often kept as cage birds (= cocky [Austral])
 """,
   );

@@ -197,7 +197,7 @@ class EnglishEntrycompetence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: توانایی، تواناداری، شیاوبوون، ڕایە، لێهاتوویی، سەردەرچوویی، زانایی، لێزانی، لێوەشاوەیی، شارەزایی، وەستایەتی
+کوردی: توانایی، تواناداری، شیاوبوون، ڕایە، لێھاتوویی، سەردەرچوویی، زانایی، لێزانی، لێوەشاوەیی، شارەزایی، وەستایەتی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تونای کردنی شتێک بە باشی"),
@@ -267,7 +267,7 @@ class EnglishEntrycompetence extends StatelessWidget {
                                             "Students had questioned her competence as a teacher."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خوێندکاران گومانیان لە توانای وەک مامۆستایەک هەبوو."),
+                                            "خوێندکاران گومانیان لە توانای وەک مامۆستایەک ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntrycompetence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو هێزەی کە کەسێک، دامەزراوەیەک، یان دادگایەک هەیەتی بۆ مامەڵەکردن لەگەڵ کەسێک"),
+                                  "٢. (ناو) ئەو ھێزەی کە کەسێک، دامەزراوەیەک، یان دادگایەک ھەیەتی بۆ مامەڵەکردن لەگەڵ کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycompetence extends StatelessWidget {
                                             "The judge has to act within the competence of the court."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دادوەرەکە دەبێت لە لە توانای دادگاکەدا هەنگاو بنێت."),
+                                            "دادوەرەکە دەبێت لە لە توانای دادگاکەدا ھەنگاو بنێت."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntrycompetence extends StatelessWidget {
                                             "The syllabus lists the knowledge and competences required at this level."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پڕۆگرامی خوێندنەکە لێهاتووی و شارەزایی کردووە بە لیست کە بۆ ئەم ئاستە پێویستە."),
+                                            "پڕۆگرامی خوێندنەکە لێھاتووی و شارەزایی کردووە بە لیست کە بۆ ئەم ئاستە پێویستە."),
                                   ],
                                 ),
                               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: competence (Derived forms: competences)
+- Noun: competence (derived forms: competences)
 1. The quality of being adequately or well qualified physically and intellectually (= competency)
 """,
   );
@@ -518,7 +518,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hw1X5oFPgro?t=',
+    videoId: 'Hw1X5oFPgro',
     startSeconds: 1981,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NQWkNXr2ujI?t=',
+    videoId: 'NQWkNXr2ujI',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mJpoSZB95SA?t=',
+    videoId: 'mJpoSZB95SA',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tlezBUdD53w?t=',
+    videoId: 'tlezBUdD53w',
     startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8uc3NzU7J4?t=',
+    videoId: 'T8uc3NzU7J4',
     startSeconds: 518,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B8BnOEOOBa0?t=',
+    videoId: 'B8BnOEOOBa0',
     startSeconds: 362,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -668,7 +668,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zpFB2q_3pJo?t=',
+    videoId: 'zpFB2q_3pJo',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -193,7 +193,7 @@ class EnglishEntryconcept extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چەمک، بیر، هزر، بیرۆکە، بیرۆکەی گشتی
+کوردی: چەمک، بیر، ھزر، بیرۆکە، بیرۆکەی گشتی
 """),
                           const DefinitionKurdish(
                               text:
@@ -236,7 +236,7 @@ class EnglishEntryconcept extends StatelessWidget {
                                             "Not all companies have embraced the concept of diversity in the workplace."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو کۆمپانیایەک چەمکی هەمەڕەنگی لە شوێنی کاردا پەیڕەو نەکردووە."),
+                                            "ھەموو کۆمپانیایەک چەمکی ھەمەڕەنگی لە شوێنی کاردا پەیڕەو نەکردووە."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntryconcept extends StatelessWidget {
                                             "Teachers should have a clear concept of what a multiracial society is."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستایان دەبێت چەمکێکی ڕوونیان هەبێت کە کۆمەڵگایەکی فرەڕەهەند چییە."),
+                                            "مامۆستایان دەبێت چەمکێکی ڕوونیان ھەبێت کە کۆمەڵگایەکی فرەڕەھەند چییە."),
                                   ],
                                 ),
                               ),
@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concept (Derived forms: concepts)
+- Noun: concept (derived forms: concepts)
 1. An abstract or general idea inferred or derived from specific instances (= conception, construct)
 """,
   );
@@ -397,7 +397,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O4iGNXsqghs?t=',
+    videoId: 'O4iGNXsqghs',
     startSeconds: 584,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 910,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UuGpm01SPcA?t=',
+    videoId: 'UuGpm01SPcA',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XnbCSboujF4?t=',
+    videoId: 'XnbCSboujF4',
     startSeconds: 202,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qUNYPkroz18?t=',
+    videoId: 'qUNYPkroz18',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bXCOI_LQ_0o?t=',
+    videoId: 'bXCOI_LQ_0o',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k1AvNnJRMts?t=',
+    videoId: 'k1AvNnJRMts',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -195,7 +195,7 @@ class EnglishEntrycog extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) یەکێک لە ددانەکانی لێواری ویلێک کە دەگونجێت لەگەڵ ددانی دواتردا و دەبێتە هۆی جوڵەی"),
+                                  "١. (ناو) یەکێک لە ددانەکانی لێواری ویلێک کە دەگونجێت لەگەڵ ددانی دواتردا و دەبێتە ھۆی جوڵەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,13 +305,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cog (Derived forms: cogs)
+- Noun: cog (derived forms: cogs)
 1. A subordinate who performs an important but routine function
 "he was a small cog in a large machine"
  
 2. Tooth on the rim of gear wheel (= sprocket)
 
-- Verb: cog (Derived forms: cogged, cogs, cogging)
+- Verb: cog (derived forms: cogged, cogs, cogging)
 1. Roll steel ingots
  
 2. Join pieces of wood with cogs

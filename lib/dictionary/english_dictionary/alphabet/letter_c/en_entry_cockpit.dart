@@ -308,7 +308,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cockpit (Derived forms: cockpits)
+- Noun: cockpit (derived forms: cockpits)
 1. Compartment where the pilot sits while flying the aircraft
  
 2. A pit for cockfights

@@ -236,7 +236,7 @@ class EnglishEntrycontention extends StatelessWidget {
                                             "There is no contention between the two groups."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ ناکۆکی لە نێوان دوو گرووپەکەدا نییە."),
+                                            "ھیچ ناکۆکی لە نێوان دوو گرووپەکەدا نییە."),
                                   ],
                                 ),
                               ),
@@ -294,7 +294,7 @@ class EnglishEntrycontention extends StatelessWidget {
                                             "There is no evidence to support her contention."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ بەڵگەیەک نییە بۆ پشتیوانی لە بۆچوونەکەی."),
+                                            "ھیچ بەڵگەیەک نییە بۆ پشتیوانی لە بۆچوونەکەی."),
                                   ],
                                 ),
                               ),
@@ -393,7 +393,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contention (Derived forms: contentions)
+- Noun: contention (derived forms: contentions)
 1. A point asserted as part of an argument
  
 2. A contentious speech act; a dispute where there is strong disagreement (= controversy, contestation, disputation, disceptation, tilt, argument, arguing)
@@ -432,7 +432,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FYVvE4tr2BI?t=',
+    videoId: 'FYVvE4tr2BI',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 199,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JY5t6iUzajk?t=',
+    videoId: 'JY5t6iUzajk',
     startSeconds: 365,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5ueSUnUL3ek?t=',
+    videoId: '5ueSUnUL3ek',
     startSeconds: 587,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3fG8rNHUspU?t=',
+    videoId: '3fG8rNHUspU',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E4mWVBnb9no?t=',
+    videoId: 'E4mWVBnb9no',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VF70voVCcqg?t=',
+    videoId: 'VF70voVCcqg',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(

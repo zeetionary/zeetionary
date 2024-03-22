@@ -192,7 +192,7 @@ class EnglishEntrycondemnation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مەحکوومیەت،	شەرمەزارکردن، بەگژداهاتن، ناپەسندکردن، مەحکووم‌کردن، ئیداناکردن، تاوانبارکردن، گوناهبارکردن، سەرکۆنەکردن
+کوردی: مەحکوومیەت،	شەرمەزارکردن، بەگژداھاتن، ناپەسندکردن، مەحکووم‌کردن، ئیداناکردن، تاوانبارکردن، گوناھبارکردن، سەرکۆنەکردن
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycondemnation extends StatelessWidget {
                                             "There was widespread condemnation of the invasion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئیدانەی بەرفراوانی داگیرکارییەکە هەبوو."),
+                                            "ئیدانەی بەرفراوانی داگیرکارییەکە ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycondemnation extends StatelessWidget {
                                             "He issued a blanket condemnation of all terrorism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرکۆنەی هەموو جۆرێکی تیرۆریزمی ڕاگەیاند."),
+                                            "سەرکۆنەی ھەموو جۆرێکی تیرۆریزمی ڕاگەیاند."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condemnation (Derived forms: condemnations)
+- Noun: condemnation (derived forms: condemnations)
 1. An expression of strong disapproval; pronouncing as wrong or morally culpable (= disapprobation)
 "his uncompromising condemnation of racism";
  
@@ -383,7 +383,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -408,7 +408,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7k6vpI-2yao?t=',
+    videoId: '7k6vpI-2yao',
     startSeconds: 1001,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -433,7 +433,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Y1kJpHBn50?t=',
+    videoId: '1Y1kJpHBn50',
     startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dPzAxmT0Qes?t=',
+    videoId: 'dPzAxmT0Qes',
     startSeconds: 560,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fmSXGKQYhN8?t=',
+    videoId: 'fmSXGKQYhN8',
     startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-BmqCZMLjEE?t=',
+    videoId: '-BmqCZMLjEE',
     startSeconds: 1554,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o-krxtaJ2-E?t=',
+    videoId: 'o-krxtaJ2-E',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -203,7 +203,7 @@ class EnglishEntrycomplex extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) ئاڵۆز، پێکهاتوو لە ژمارەیەک بەش"),
+                                  "١. (ھاوەڵناو) ئاڵۆز، پێکھاتوو لە ژمارەیەک بەش"),
                           Row(
                             children: [
                               const Expanded(
@@ -214,7 +214,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                                             "Scientists need a better understanding of the complex interactions that cause hurricanes to intensify."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زاناکان پێویستییان بە تێگەشتنی زیاتر هەیە بۆ تێگەشتن لەو کارلێکە ئاڵۆزانەی کە دەبنە هۆی بەهێزبوونی گەردەلوولەکان."),
+                                            "زاناکان پێویستییان بە تێگەشتنی زیاتر ھەیە بۆ تێگەشتن لەو کارلێکە ئاڵۆزانەی کە دەبنە ھۆی بەھێزبوونی گەردەلوولەکان."),
                                   ],
                                 ),
                               ),
@@ -242,7 +242,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                                             "We live in an increasingly complex world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە جیهانێکی بەردەوام ئاڵۆزتربوودا دەژین."),
+                                            "لە جیھانێکی بەردەوام ئاڵۆزتربوودا دەژین."),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کۆمەڵە بینایەکی هاوشێوە لە هەمان شوێندا"),
+                                  "٣. (ناو) کۆمەڵە بینایەکی ھاوشێوە لە ھەمان شوێندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                                             "This is just one of a whole complex of issues."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە تەنها یەکێکە لە کۆمەڵە کێشەیەک."),
+                                            "ئەمە تەنھا یەکێکە لە کۆمەڵە کێشەیەک."),
                                   ],
                                 ),
                               ),
@@ -354,7 +354,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) کۆمەڵە باوەڕ و ترسێک کە دەکرێت ببێتە هۆکاری دڵتەنگی یان نەخۆشی دەروونی"),
+                                  "٥. (ناو) کۆمەڵە باوەڕ و ترسێک کە دەکرێت ببێتە ھۆکاری دڵتەنگی یان نەخۆشی دەروونی"),
                           Row(
                             children: [
                               const Expanded(
@@ -385,7 +385,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) هەستی نیگەرانی یان شەرمەزاری سەبارەت بە شتێک کە گرنگ نییە"),
+                                  "٦. (ناو) ھەستی نیگەرانی یان شەرمەزاری سەبارەت بە شتێک کە گرنگ نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -396,7 +396,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                                             "She has a complex about her big ears."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیگەرانییەکی هەیە سەبارەت بە گوێیە گەورەکانی."),
+                                            "نیگەرانییەکی ھەیە سەبارەت بە گوێیە گەورەکانی."),
                                   ],
                                 ),
                               ),
@@ -424,7 +424,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                                             "My parents never spoke about my height because they didn't want me to grow up with a complex."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دایک و باوکم هەرگیز سەبارەت بە باڵام قسەیان نەدەکرد چونکە نەیان دەویست شەرمەزاربم پێی."),
+                                            "دایک و باوکم ھەرگیز سەبارەت بە باڵام قسەیان نەدەکرد چونکە نەیان دەویست شەرمەزاربم پێی."),
                                   ],
                                 ),
                               ),
@@ -542,7 +542,7 @@ ${englishMeaningConst.text}
  
 4. A whole structure (as a building) made up of interconnected or related structures (= building complex)
 
-- Verb: complex (Derived forms: complexing, complexes, complexed)
+- Verb: complex (derived forms: complexing, complexes, complexed)
 1. (chemistry) form a complex with another substance
 """,
   );
@@ -576,7 +576,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
+    videoId: '8HEfIJlcFbs',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    videoId: '-L7o6HtX8Vg',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
+    videoId: '0ST4_hmop9Y',
     startSeconds: 1109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -651,7 +651,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pl8AJAt3TDg?t=',
+    videoId: 'Pl8AJAt3TDg',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -676,7 +676,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -701,7 +701,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PmlRbfSavbI?t=',
+    videoId: 'PmlRbfSavbI',
     startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -726,7 +726,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X3TAROotFfM',
+    videoId: 'X3TAROotFfM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

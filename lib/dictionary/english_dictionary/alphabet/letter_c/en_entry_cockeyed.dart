@@ -237,7 +237,7 @@ class EnglishEntrycockeyed extends StatelessWidget {
                                             "The government has dreamed up some cockeyed scheme for getting unemployed youngsters back into work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت خەونی بە هەندێک پلانی شکستخواردوو بینیوە بۆ ئەوەی گەنجانی بێ‌کار بهێنێتەوە سەر کار."),
+                                            "حکومەت خەونی بە ھەندێک پلانی شکستخواردوو بینیوە بۆ ئەوەی گەنجانی بێ‌کار بھێنێتەوە سەر کار."),
                                   ],
                                 ),
                               ),

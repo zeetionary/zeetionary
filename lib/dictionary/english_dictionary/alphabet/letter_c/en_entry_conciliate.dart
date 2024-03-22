@@ -191,11 +191,11 @@ class EnglishEntryconciliate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بێدەنگ کردن، هێور کردنەوە، ئاشت کردنەوە
+کوردی: بێدەنگ کردن، ھێور کردنەوە، ئاشت کردنەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) هێورکردنەوەی کەسێک بۆ کەمکردنەوەی تووڕەیی بە پێدانی شتێک یان میهرەبان بوون لەگەڵیان"),
+                                  "١. (کردار) ھێورکردنەوەی کەسێک بۆ کەمکردنەوەی تووڕەیی بە پێدانی شتێک یان میھرەبان بوون لەگەڵیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryconciliate extends StatelessWidget {
                                             "These changes have been made in an attempt to conciliate critics of the plan."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم گۆڕانکارییانە ئەنجام دراون بۆ هێورکردنەوەی دژبەرانی پلانەکە."),
+                                            "ئەم گۆڕانکارییانە ئەنجام دراون بۆ ھێورکردنەوەی دژبەرانی پلانەکە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conciliate (Derived forms: conciliating, conciliated, conciliates)
+- Verb: conciliate (derived forms: conciliating, conciliated, conciliates)
 1. Cause to be more favourably inclined; gain the good will of (= pacify, lenify, assuage, appease, mollify, placate, gentle, gruntle)
 "She managed to conciliate the angry customer";
  
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5U-yqm9H_Sg?t=',
+    videoId: '5U-yqm9H_Sg',
     startSeconds: 2598,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cvrYEJ4gG8U?t=',
+    videoId: 'cvrYEJ4gG8U',
     startSeconds: 425,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PZqFJoDlnQk?t=',
+    videoId: 'PZqFJoDlnQk',
     startSeconds: 619,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VkKUWNy6FUs?t=',
+    videoId: 'VkKUWNy6FUs',
     startSeconds: 922,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3JdLCR-_3JM?t=',
+    videoId: '3JdLCR-_3JM',
     startSeconds: 1120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rqmjdV0Oigg?t=',
+    videoId: 'rqmjdV0Oigg',
     startSeconds: 3008,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IcrACoirI3c?t=',
+    videoId: 'IcrACoirI3c',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(

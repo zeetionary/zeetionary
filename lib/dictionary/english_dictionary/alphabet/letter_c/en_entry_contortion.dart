@@ -194,7 +194,7 @@ class EnglishEntrycontortion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خواروخێچی، پێچ، چەپ‌وچیڕی، خواری، گێڕی، بادان، هەڵپێچان، پێچان، لوول‌کردن، تێک‌ئاڵاندن، چەوتان، پێچاندن، پێچ‌پێدان
+کوردی: خواروخێچی، پێچ، چەپ‌وچیڕی، خواری، گێڕی، بادان، ھەڵپێچان، پێچان، لوول‌کردن، تێک‌ئاڵاندن، چەوتان، پێچاندن، پێچ‌پێدان
 """),
                           const DefinitionKurdish(
                               text:
@@ -237,7 +237,7 @@ class EnglishEntrycontortion extends StatelessWidget {
                                             "Their bodies had suffered contortion as a result of malnutrition."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەستەیان تووشی گێڕی بووبوو بەهۆی کەم‌خۆراکییەوە."),
+                                            "جەستەیان تووشی گێڕی بووبوو بەھۆی کەم‌خۆراکییەوە."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycontortion extends StatelessWidget {
                                             "I cannot go through the mental contortions necessary to convince myself that all scientists are stupid."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم بە هەموو پێچ‌وپەنا هزرییەکاندا کە پێویستن تاوەک خۆم قایل بکەم کە هەموو زاناکان گەمژەن."),
+                                            "ناتوانم بە ھەموو پێچ‌وپەنا ھزرییەکاندا کە پێویستن تاوەک خۆم قایل بکەم کە ھەموو زاناکان گەمژەن."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycontortion extends StatelessWidget {
                                             "We had to go through all the usual contortions to get a ticket."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستبوو بە هەموو پێچ‌وپەنا هەمیشەییەکاندا بچین بۆ بەدەستخستنی بلیتێک."),
+                                            "پێویستبوو بە ھەموو پێچ‌وپەنا ھەمیشەییەکاندا بچین بۆ بەدەستخستنی بلیتێک."),
                                   ],
                                 ),
                               ),
@@ -395,7 +395,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contortion (Derived forms: contortions)
+- Noun: contortion (derived forms: contortions)
 1. The act of twisting or deforming the shape of something (e.g., yourself) (= deformation)
  
 2. A tortuous and twisted shape or position (= tortuosity, tortuousness, torsion, crookedness)
@@ -432,7 +432,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/epoqmzIwK6Y',
+    videoId: 'epoqmzIwK6Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8s3G77tC28w?t=',
+    videoId: '8s3G77tC28w',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fdPLSh5ZD2Q?t=',
+    videoId: 'fdPLSh5ZD2Q',
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MzcBwCmS_tc?t=',
+    videoId: 'MzcBwCmS_tc',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tDQ5asgpWn0',
+    videoId: 'tDQ5asgpWn0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9HRkMWHhnoQ?t=',
+    videoId: '9HRkMWHhnoQ',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_xYDxRZKK4?t=',
+    videoId: 'a_xYDxRZKK4',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -196,7 +196,7 @@ class EnglishEntryconstellation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گەلەئەستێرەیەک کە شێوەیەکی لە ئاسماندا هەیە و ناوێکی هەیە"),
+                                  "١. (ناو) گەلەئەستێرەیەک کە شێوەیەکی لە ئاسماندا ھەیە و ناوێکی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconstellation extends StatelessWidget {
                                             "The Little Bear constellation is still used by navigators at sea."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەلەئەستێرەی ورچی بچووک هێشتا لەلایەن کەشتیوانەکانەوە لە دەریادا بەکاردێت."),
+                                            "گەلەئەستێرەی ورچی بچووک ھێشتا لەلایەن کەشتیوانەکانەوە لە دەریادا بەکاردێت."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntryconstellation extends StatelessWidget {
                                             "At our annual ceremony we had a whole constellation of movie stars and directors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئاهەنگی ساڵانەمان گرووپێکی تەواو لە ئەستێرەکانی فیلم و دەرهێنەرانمان هەبوو."),
+                                            "لە ئاھەنگی ساڵانەمان گرووپێکی تەواو لە ئەستێرەکانی فیلم و دەرھێنەرانمان ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: constellation (Derived forms: constellations)
+- Noun: constellation (derived forms: constellations)
 1. A configuration of stars as seen from the earth
  
 2. An arrangement of parts or elements (= configuration)
@@ -378,7 +378,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AVzVzDXhGag?t=',
+    videoId: 'AVzVzDXhGag',
     startSeconds: 270,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -403,7 +403,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-OF8Ryy9kQw?t=',
+    videoId: '-OF8Ryy9kQw',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u6VrtiWouiE?t=',
+    videoId: 'u6VrtiWouiE',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J3Oj-V7lI0U?t=',
+    videoId: 'J3Oj-V7lI0U',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NUzDLpSkQTg?t=',
+    videoId: 'NUzDLpSkQTg',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 1053,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ShMRAN78598?t=',
+    videoId: 'ShMRAN78598',
     startSeconds: 1053,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -195,7 +195,7 @@ class EnglishEntrycoldblooded extends StatelessWidget {
 کوردی: 
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) بێ هەست و دڕندە"),
+                              text: "١. (ھاوەڵناو) بێ ھەست و دڕندە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycoldblooded extends StatelessWidget {
                                             "The author's novel featured a chilling portrayal of a cold-blooded killer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆمانی نووسەرەکە وێنایەکی تۆقێنەری بکوژێکی بێ هەست بوو."),
+                                            "ڕۆمانی نووسەرەکە وێنایەکی تۆقێنەری بکوژێکی بێ ھەست بوو."),
                                   ],
                                 ),
                               ),

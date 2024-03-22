@@ -198,7 +198,7 @@ class EnglishEntryclearance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خاوێن‌کردنەوە، سڕینەوە، پاکتاو، پاک‌کردنەوە،	دەس‌پێوەنان (کەل‌وپەل)،	مەودای ئازاد، مەودای پاراستن، مەودای پێویست، ماوەی پێویست، جێگا، مەودای تیاهەڵسووڕان،	(هاتووچۆ)، ڕێدان، ڕێگەدانی فەرمی، دەستوور (پێدان)،	کۆسپ‌لابردن یان ڕاپەڕاندن،	(تۆپێن و هاکی) لێدان، (تێ)هەڵدان
+کوردی: خاوێن‌کردنەوە، سڕینەوە، پاکتاو، پاک‌کردنەوە،	دەس‌پێوەنان (کەل‌وپەل)،	مەودای ئازاد، مەودای پاراستن، مەودای پێویست، ماوەی پێویست، جێگا، مەودای تیاھەڵسووڕان،	(ھاتووچۆ)، ڕێدان، ڕێگەدانی فەرمی، دەستوور (پێدان)،	کۆسپ‌لابردن یان ڕاپەڕاندن،	(تۆپێن و ھاکی) لێدان، (تێ)ھەڵدان
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی پاککردنەوە"),
@@ -269,7 +269,7 @@ class EnglishEntryclearance extends StatelessWidget {
                                             "There is not much clearance for vehicles passing under this bridge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر مەودا نییە بۆ بارهەڵگر بۆ تێپەڕبوون بە ژێر ئەم پردەدا."),
+                                            "زۆر مەودا نییە بۆ بارھەڵگر بۆ تێپەڕبوون بە ژێر ئەم پردەدا."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntryclearance extends StatelessWidget {
                                             "Always give cyclists plenty of clearance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە مەودای فراوان بدە بە پاسکیلسواران."),
+                                            "ھەمیشە مەودای فراوان بدە بە پاسکیلسواران."),
                                   ],
                                 ),
                               ),
@@ -376,7 +376,7 @@ class EnglishEntryclearance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) مۆڵەتی فەرمی بۆ کەسێک، کەشتییەک، یان فڕۆکەیەک کە بچێتە شوێنێکەوە یان جێیبهێڵێت"),
+                                  "٤. (ناو) مۆڵەتی فەرمی بۆ کەسێک، کەشتییەک، یان فڕۆکەیەک کە بچێتە شوێنێکەوە یان جێیبھێڵێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -514,7 +514,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clearance (Derived forms: clearances)
+- Noun: clearance (derived forms: clearances)
 1. The distance by which one thing clears another; the space between them
  
 2. Vertical space available to allow easy passage under something (= headroom, headway)

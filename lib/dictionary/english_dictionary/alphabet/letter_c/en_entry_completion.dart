@@ -192,7 +192,7 @@ class EnglishEntrycompletion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەواوکردن، بەسەرگەیاندن، دوایی(پێ‌هێنان)، ئەنجام، سەروبەندبەستن، پێک‌هێنان، خەلاس‌کردن، بردنەسەر، کردن، ڕاپەڕاندن، جێبەجێ‌کردن،	مۆرکردنی پەیمانی فرۆش، مۆرکردنی گرێبەست یان فرۆش‌نامە (بازرگانی)
+کوردی: تەواوکردن، بەسەرگەیاندن، دوایی(پێ‌ھێنان)، ئەنجام، سەروبەندبەستن، پێک‌ھێنان، خەلاس‌کردن، بردنەسەر، کردن، ڕاپەڕاندن، جێبەجێ‌کردن،	مۆرکردنی پەیمانی فرۆش، مۆرکردنی گرێبەست یان فرۆش‌نامە (بازرگانی)
 """),
                           const DefinitionKurdish(
                               text:
@@ -235,7 +235,7 @@ class EnglishEntrycompletion extends StatelessWidget {
                                             "The project is due for completion in the spring."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پڕۆژەکە بڕیارە تەواو بێت لە بەهاردا."),
+                                            "پڕۆژەکە بڕیارە تەواو بێت لە بەھاردا."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: completion (Derived forms: completions)
+- Noun: completion (derived forms: completions)
 1. A concluding action (= culmination, closing, windup, mop up)
  
 2. (American football) a successful forward pass (= pass completion)
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U91AUYttTyc?t=',
+    videoId: 'U91AUYttTyc',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/unk6n3_QdlM?t=',
+    videoId: 'unk6n3_QdlM',
     startSeconds: 1272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FgT3GCsJteA?t=',
+    videoId: 'FgT3GCsJteA',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pz52gPH3ou4?t=',
+    videoId: 'pz52gPH3ou4',
     startSeconds: 1331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wv43IN_cnyw?t=',
+    videoId: 'wv43IN_cnyw',
     startSeconds: 413,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6NOtF4l9i9g?t=',
+    videoId: '6NOtF4l9i9g',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jBnWZijMbMY?t=',
+    videoId: 'jBnWZijMbMY',
     startSeconds: 364,
     autoPlay: true,
     params: const YoutubePlayerParams(

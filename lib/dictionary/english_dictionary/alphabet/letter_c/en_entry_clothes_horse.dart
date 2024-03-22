@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clothes horse (Derived forms: clothes horses)
+- Noun: clothes horse (derived forms: clothes horses)
 1. A framework on which to hang clothes (as for drying)
  
 2. [informal] A man who is much concerned with his dress and appearance (= dandy, dude [informal], fop, gallant [archaic], beau [archaic], swell [informal], fashion plate)

@@ -201,7 +201,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەڵسەنگاندن، پێک‌گرتن، بەراوردکردن،	دژایەتی، پۆزبەری، لێک‌نەهاتن، یەک‌نەگرتنەوە، جیاوازی، ناکۆکی،	پێچەوانە، ئاوەژوو،	شتێکی جیاواز
+کوردی: ھەڵسەنگاندن، پێک‌گرتن، بەراوردکردن،	دژایەتی، پۆزبەری، لێک‌نەھاتن، یەک‌نەگرتنەوە، جیاوازی، ناکۆکی،	پێچەوانە، ئاوەژوو،	شتێکی جیاواز
 """),
                           const DefinitionKurdish(
                               text:
@@ -244,7 +244,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "There is an obvious contrast between the cultures of East and West."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جیاوازییەکی ئاشکرا هەیە لە نێوان کەلتووری ڕۆژهەڵات و ڕۆژئاوادا."),
+                                            "جیاوازییەکی ئاشکرا ھەیە لە نێوان کەلتووری ڕۆژھەڵات و ڕۆژئاوادا."),
                                   ],
                                 ),
                               ),
@@ -272,7 +272,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "In contrast, the south suffered very little hurricane damage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە بەرامبەردا، بەشی باشوور زیانێکی زۆر کەمی بەهۆی زریانەکانەوە بەرکەوت.."),
+                                            "لە بەرامبەردا، بەشی باشوور زیانێکی زۆر کەمی بەھۆی زریانەکانەوە بەرکەوت.."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "The situation when we arrived was in marked contrast to the news reports."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە گەشتین دۆخەکە لە جیاوازییەکی زەقدا بوو لەگەڵ ئەوەی لە هەواڵدا ڕەگەیەندرابوو."),
+                                            "کە گەشتین دۆخەکە لە جیاوازییەکی زەقدا بوو لەگەڵ ئەوەی لە ھەواڵدا ڕەگەیەندرابوو."),
                                   ],
                                 ),
                               ),
@@ -331,7 +331,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "The work you did today is quite a contrast to (= very much better/worse than) what you did last week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو کارەی ئەمڕۆ کردت تەواو جیاوازە لەوەی هەفتەی ڕابردوو کردت."),
+                                            "ئەو کارەی ئەمڕۆ کردت تەواو جیاوازە لەوەی ھەفتەی ڕابردوو کردت."),
                                   ],
                                 ),
                               ),
@@ -390,7 +390,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "The artist's use of contrast is masterly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکارهێنانی کۆنتراستی هونەرمەندەکە شارەزایانەیە."),
+                                            "بەکارھێنانی کۆنتراستی ھونەرمەندەکە شارەزایانەیە."),
                                   ],
                                 ),
                               ),
@@ -421,7 +421,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "Use this button to adjust the contrast."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم دووگمەیە بەکاربهێنە بۆ چاککردنی کۆنتراستەکە."),
+                                            "ئەم دووگمەیە بەکاربھێنە بۆ چاککردنی کۆنتراستەکە."),
                                   ],
                                 ),
                               ),
@@ -452,7 +452,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "The poem contrasts youth and age."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هۆنراوەکە جیاوازی نێوان گەنجی و پیری دەکات."),
+                                            "ھۆنراوەکە جیاوازی نێوان گەنجی و پیری دەکات."),
                                   ],
                                 ),
                               ),
@@ -480,7 +480,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                             "If you contrast some of her early writing with her later work, you can see just how much she improved."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر هەندێک لە نووسینەکانی سەرەتای بەراورد بکەیت لەگەڵ کارەکانی دواتریدا، دەتوانیت ببینیت چەندە باشتربووە."),
+                                            "ئەگەر ھەندێک لە نووسینەکانی سەرەتای بەراورد بکەیت لەگەڵ کارەکانی دواتریدا، دەتوانیت ببینیت چەندە باشتربووە."),
                                   ],
                                 ),
                               ),
@@ -613,7 +613,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contrast (Derived forms: contrasts)
+- Noun: contrast (derived forms: contrasts)
 1. The opposition or dissimilarity of things that are compared (= direct contrast)
 "by contrast"; "in contrast to";
  
@@ -626,7 +626,7 @@ ${englishMeaningConst.text}
  
 5. (photography) the range of optical density and tone on a photographic negative or print (or the extent to which adjacent areas on a television screen differ in brightness)
 
-- Verb: contrast (Derived forms: contrasts, contrasting, contrasted)
+- Verb: contrast (derived forms: contrasts, contrasting, contrasted)
 1. Put in opposition to show or emphasize differences
 "The middle school teacher contrasted her best student's work with that of her weakest student"
  
@@ -664,7 +664,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    videoId: 'r5cqa9V0mUo',
     startSeconds: 1603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -689,7 +689,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iKv4oc2zbeA?t=',
+    videoId: 'iKv4oc2zbeA',
     startSeconds: 853,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -714,7 +714,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rN9NzgryhMY?t=',
+    videoId: 'rN9NzgryhMY',
     startSeconds: 1002,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -739,7 +739,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UnY4i59Dp0s?t=',
+    videoId: 'UnY4i59Dp0s',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -764,7 +764,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jgfAimljT70?t=',
+    videoId: 'jgfAimljT70',
     startSeconds: 455,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -789,7 +789,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IjWQqNKYa6A?t=',
+    videoId: 'IjWQqNKYa6A',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -814,7 +814,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dl4dSVf7kgY?t=',
+    videoId: 'Dl4dSVf7kgY',
     startSeconds: 294,
     autoPlay: true,
     params: const YoutubePlayerParams(

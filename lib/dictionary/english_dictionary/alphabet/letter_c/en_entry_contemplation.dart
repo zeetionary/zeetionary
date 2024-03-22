@@ -195,7 +195,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بیرکردنەوە، تێڕامان، لێکۆڵینەوە، قووڵ‌بوونەوە، تێڕوانین، لەبەرچاوگرتن،	نیاز، مەبەست، خەیاڵ، چاوەڕوانی، تەماوەری، بەتەمابوون، بەهیوابوون،	چاولێ‌کردن، ڕوانین، تەمەشاکردن
+کوردی: بیرکردنەوە، تێڕامان، لێکۆڵینەوە، قووڵ‌بوونەوە، تێڕوانین، لەبەرچاوگرتن،	نیاز، مەبەست، خەیاڵ، چاوەڕوانی، تەماوەری، بەتەمابوون، بەھیوابوون،	چاولێ‌کردن، ڕوانین، تەمەشاکردن
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بیرکردنەوە بە قووڵی لە شتێک"),
@@ -291,7 +291,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) سەیرکردنی شتێک بە هێمنی و وریاییەوە"),
+                                  "٢. (ناو) سەیرکردنی شتێک بە ھێمنی و وریاییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contemplation (Derived forms: contemplations)
+- Noun: contemplation (derived forms: contemplations)
 1. A long and thoughtful observation
  
 2. A calm, lengthy, intent consideration (= reflection, reflexion [Brit], rumination, musing, thoughtfulness)
@@ -439,7 +439,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nfUD0WhE264?t=',
+    videoId: 'nfUD0WhE264',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__qtH1ly2Sg?t=',
+    videoId: '__qtH1ly2Sg',
     startSeconds: 130,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZAlrKsMf9C4?t=',
+    videoId: 'ZAlrKsMf9C4',
     startSeconds: 2322,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7q_LcqbvKI?t=',
+    videoId: 'q7q_LcqbvKI',
     startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DkGCZk3F2HI?t=',
+    videoId: 'DkGCZk3F2HI',
     startSeconds: 500,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UNLx326JQzE?t=',
+    videoId: 'UNLx326JQzE',
     startSeconds: 947,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yE-8iTNMlro?t=',
+    videoId: 'yE-8iTNMlro',
     startSeconds: 543,
     autoPlay: true,
     params: const YoutubePlayerParams(

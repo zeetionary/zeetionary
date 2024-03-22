@@ -195,7 +195,7 @@ class EnglishEntrycon extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کەڵەک، فێڵ، فریو، دەسبڕی، زۆڵی (بۆ بەدەس‌هێنانی باوەڕی خەڵک)، فڕوفێڵاوی، درۆزنە، دژی، بە دژی، دەنگی دژایەتی
+کوردی: کەڵەک، فێڵ، فریو، دەسبڕی، زۆڵی (بۆ بەدەس‌ھێنانی باوەڕی خەڵک)، فڕوفێڵاوی، درۆزنە، دژی، بە دژی، دەنگی دژایەتی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) فێڵ؛ فێڵکردن"),
@@ -209,7 +209,7 @@ class EnglishEntrycon extends StatelessWidget {
                                             "The so-called bargain was just a big con!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو بەناو ڕێکەوتە تەنها دەسبڕییەک بوو."),
+                                            "ئەو بەناو ڕێکەوتە تەنھا دەسبڕییەک بوو."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycon extends StatelessWidget {
                                         text: "The scheme was all a big con."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلانەکە هەمووی فێڵێکی گەورە بوو."),
+                                            "پلانەکە ھەمووی فێڵێکی گەورە بوو."),
                                   ],
                                 ),
                               ),
@@ -323,7 +323,7 @@ class EnglishEntrycon extends StatelessWidget {
                                             "He conned his way into the job using false references."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارەکەی دەستکەوت بە فێڵ بە بەکارهێنانی ڕاسپاردن‌نامەی ناڕاست."),
+                                            "کارەکەی دەستکەوت بە فێڵ بە بەکارھێنانی ڕاسپاردن‌نامەی ناڕاست."),
                                   ],
                                 ),
                               ),
@@ -422,7 +422,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: con (Derived forms: conned, cons)
+- Verb: con (derived forms: conned, cons)
 1. [informal] Deprive of by deceit (= victimize, swindle, rook, goldbrick [N. Amer, informal], nobble [Brit, informal], diddle [informal], bunco [N. Amer, informal], defraud, scam [informal], mulct, hornswoggle [N. Amer, informal], short-change, victimise [Brit], grift [N. Amer, informal], ream [N. Amer, informal], bunko [N. Amer, informal])
 "He conned me out of my inheritance";
  
@@ -430,7 +430,7 @@ ${englishMeaningConst.text}
  
 3. [archaic] Commit to memory; learn by heart (= memorize, memorise [Brit], learn)
 
-- Noun: con (Derived forms: cons)
+- Noun: con (derived forms: cons)
 1. An argument opposed to a proposal
  
 2. [informal] A person serving a sentence in a jail or prison (= convict, inmate, yard bird [N. Amer, informal], yardbird [N. Amer, informal])
@@ -472,7 +472,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tdhSAYcXvrA?t=',
+    videoId: 'tdhSAYcXvrA',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5Z5-5xLGsk0?t=',
+    videoId: '5Z5-5xLGsk0',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/arA5LS279Sw?t=',
+    videoId: 'arA5LS279Sw',
     startSeconds: 1485,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
+    videoId: '0ST4_hmop9Y',
     startSeconds: 1569,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dfuPBC-v5NE?t=',
+    videoId: 'dfuPBC-v5NE',
     startSeconds: 421,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vb-p--iRFew?t=',
+    videoId: 'vb-p--iRFew',
     startSeconds: 511,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t1shnJT8NCY?t=',
+    videoId: 't1shnJT8NCY',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(

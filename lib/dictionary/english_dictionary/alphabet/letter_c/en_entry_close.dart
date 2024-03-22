@@ -884,7 +884,7 @@ class EnglishEntryclose extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نزیک،	گەرم‌گوڕ، گیانی‌گیانی، بستە،	پێوەدراو، داخراو، گیراو، بەسراو، گرتی،	پێک‌نزیک، پاڵ‌بەپاڵ، لەپاڵ‌یەک‌دا، پۆڕ، کەڵەکەبڕک، سیکەنەسەرخان، چڕ، بە تەنگی یەکەوە، پێکەوەنووساو، پێکەوەچەسپاو، نزیک بە یەک،	چکۆلە، تەنگ‌وتەسک، بەرتەنگ،	بۆخاو، خاو، گەرم، قورس، ناخۆش، گنخاو، خەفە (هەوا)،	شاراوە، نادیار، نهێنی،	بەرچاوتەنگ، لەچەر، بەغیل، ڕژد،	سەخت، ڕشت، مجد، شێلگیر، لە پاڵ‌یەک‌دا، نزیک بە یەک، زۆر کورت، بەتەواوەتی، دەوروبەری، نزیکەی،	جێگای دەوردراو، دەوروبەر، حەوشە (کلێسا)،	بن‌بەست، بێ‌سەرەدەر، کوچکە (کۆڵان)
+کوردی: نزیک،	گەرم‌گوڕ، گیانی‌گیانی، بستە،	پێوەدراو، داخراو، گیراو، بەسراو، گرتی،	پێک‌نزیک، پاڵ‌بەپاڵ، لەپاڵ‌یەک‌دا، پۆڕ، کەڵەکەبڕک، سیکەنەسەرخان، چڕ، بە تەنگی یەکەوە، پێکەوەنووساو، پێکەوەچەسپاو، نزیک بە یەک،	چکۆلە، تەنگ‌وتەسک، بەرتەنگ،	بۆخاو، خاو، گەرم، قورس، ناخۆش، گنخاو، خەفە (ھەوا)،	شاراوە، نادیار، نھێنی،	بەرچاوتەنگ، لەچەر، بەغیل، ڕژد،	سەخت، ڕشت، مجد، شێلگیر، لە پاڵ‌یەک‌دا، نزیک بە یەک، زۆر کورت، بەتەواوەتی، دەوروبەری، نزیکەی،	جێگای دەوردراو، دەوروبەر، حەوشە (کلێسا)،	بن‌بەست، بێ‌سەرەدەر، کوچکە (کۆڵان)
 """),
                           const DefinitionKurdish(text: "١. (کردار) داخستن"),
                           Row(
@@ -1157,7 +1157,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) داخستنی فرۆشگایەک، کۆمپانیایەک، هتد بۆ ماوەیەک"),
+                                  "٣. (کردار) داخستنی فرۆشگایەک، کۆمپانیایەک، ھتد بۆ ماوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1168,7 +1168,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "The school was closed because of the heavy snow."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قوتابخانەکە داخرا بەهۆی بەفربارینی دژوار."),
+                                            "قوتابخانەکە داخرا بەھۆی بەفربارینی دژوار."),
                                   ],
                                 ),
                               ),
@@ -1227,7 +1227,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "The road was closed to traffic for two days."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕێگاکە بۆ دوو ڕۆژ بە ڕووی هاتوچۆدا داخرا."),
+                                                    "ڕێگاکە بۆ دوو ڕۆژ بە ڕووی ھاتوچۆدا داخرا."),
                                           ],
                                         ),
                                       ),
@@ -1283,7 +1283,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) وەستانی کۆمپانیایەک، فرۆشگایەک، هتد لە کارکردن"),
+                                  "٤. (کردار) وەستانی کۆمپانیایەک، فرۆشگایەک، ھتد لە کارکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1408,7 +1408,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) کۆتایی هاتن یان کۆتایی پێهێنان"),
+                                  "٥. (کردار) کۆتایی ھاتن یان کۆتایی پێھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -1447,7 +1447,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "The offer closes at the end of the week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆفەرەکە لە کۆتایی هەفتە تەواو دەبێت."),
+                                            "ئۆفەرەکە لە کۆتایی ھەفتە تەواو دەبێت."),
                                   ],
                                 ),
                               ),
@@ -1478,7 +1478,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "I will close with a few words about future events."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە چەند وتەیەکی کەم سەبارەت بە بۆنەکانی داهاتوو کۆتایی پێدێنم."),
+                                                    "بە چەند وتەیەکی کەم سەبارەت بە بۆنەکانی داھاتوو کۆتایی پێدێنم."),
                                           ],
                                         ),
                                       ),
@@ -1605,7 +1605,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "Right now we are trying to close the deal with our sponsors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئێستادا هەوڵ دەدەین ڕێککەوتنەکە لەگەڵ سپۆنسەرەکانمان کۆتایی پێبێنین."),
+                                            "لە ئێستادا ھەوڵ دەدەین ڕێککەوتنەکە لەگەڵ سپۆنسەرەکانمان کۆتایی پێبێنین."),
                                   ],
                                 ),
                               ),
@@ -1653,7 +1653,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) کۆتایی هێنان بە هەڵەیەک لە شتێکدا کە مەترسی لە سەلامتیدا درووست دەکات یان دژ بە کەسێک دەبێت"),
+                                  "٧. (کردار) کۆتایی ھێنان بە ھەڵەیەک لە شتێکدا کە مەترسی لە سەلامتیدا درووست دەکات یان دژ بە کەسێک دەبێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1664,7 +1664,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "The company acted quickly to close a security hole in its online systems."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە بە خێرایی هەنگاوی نا بۆ چارەسەری کێشەیەکی سەلامەتی لە سیستەمی ئۆنلاینیدا."),
+                                            "کۆمپانیاکە بە خێرایی ھەنگاوی نا بۆ چارەسەری کێشەیەکی سەلامەتی لە سیستەمی ئۆنلاینیدا."),
                                   ],
                                 ),
                               ),
@@ -1712,7 +1712,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) وەستان لە بەکارهێنانی پڕۆگرامێک یان فایلێکی کۆمپیوتەرێک"),
+                                  "٨. (کردار) وەستان لە بەکارھێنانی پڕۆگرامێک یان فایلێکی کۆمپیوتەرێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1784,7 +1784,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "These measures are aimed at closing the gap between rich and poor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم هەنگاوانە ئامانج لێیانە کە مەودای نێوان دەوڵەمەند و هەژار کەم بکاتەوە."),
+                                            "ئەم ھەنگاوانە ئامانج لێیانە کە مەودای نێوان دەوڵەمەند و ھەژار کەم بکاتەوە."),
                                   ],
                                 ),
                               ),
@@ -1812,7 +1812,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "The gap between the two top teams is closing all the time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جیاوازی نێوان دوو تیمەکە هەموو کات کەم دەبێتەوە."),
+                                            "جیاوازی نێوان دوو تیمەکە ھەموو کات کەم دەبێتەوە."),
                                   ],
                                 ),
                               ),
@@ -1931,7 +1931,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "At the close of trading, he had lost thousands of pounds on the stock market."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە کۆتایی مامەڵەدا، هەزاران پاوەندی لە بازاڕی پشکەکاندا زەرەرکردبوو."),
+                                                    "لە کۆتایی مامەڵەدا، ھەزاران پاوەندی لە بازاڕی پشکەکاندا زەرەرکردبوو."),
                                           ],
                                         ),
                                       ),
@@ -2023,7 +2023,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "I had no idea the beach was so close."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ زانیارییەکم نەبوو کەناراوەکە هێندە نزیک بوو."),
+                                            "ھیچ زانیارییەکم نەبوو کەناراوەکە ھێندە نزیک بوو."),
                                   ],
                                 ),
                               ),
@@ -2204,7 +2204,7 @@ class EnglishEntryclose extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Jo is a very close friend."),
                                     ExampleSentenceKurdish(
-                                        text: "جۆ هاوڕێیەکی گیانی بە گیانییە."),
+                                        text: "جۆ ھاوڕێیەکی گیانی بە گیانییە."),
                                   ],
                                 ),
                               ),
@@ -2328,7 +2328,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "There weren't many people at the funeral - just close family."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر کەس لە مەراسیمی ناشتنەکە نەبوون، تەنها ئەندامانی نزیکی خێزان بوون."),
+                                            "زۆر کەس لە مەراسیمی ناشتنەکە نەبوون، تەنھا ئەندامانی نزیکی خێزان بوون."),
                                   ],
                                 ),
                               ),
@@ -2359,7 +2359,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "Only close relatives were invited."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تەنها خزمانی نزیک بانگهێشتکران."),
+                                                    "تەنھا خزمانی نزیک بانگھێشتکران."),
                                           ],
                                         ),
                                       ),
@@ -2455,7 +2455,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "The college has close links with many other institutions."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کۆلێژەکە پەیوەندیی نزیکی هەیە لەگەڵ ژمارەیەکی زۆری دیکە لە پەیمانگا."),
+                                                    "کۆلێژەکە پەیوەندیی نزیکی ھەیە لەگەڵ ژمارەیەکی زۆری دیکە لە پەیمانگا."),
                                           ],
                                         ),
                                       ),
@@ -2485,7 +2485,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "Even their closest allies were shocked by the move."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تەنانەت نزیکترین هاوپەیمانەکانیشیان شۆک بوون بە جوڵەکە."),
+                                                    "تەنانەت نزیکترین ھاوپەیمانەکانیشیان شۆک بوون بە جوڵەکە."),
                                           ],
                                         ),
                                       ),
@@ -2676,7 +2676,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "The airline is close to collapse."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵە ئاسمانییەکە نزیکە لە داڕمان."),
+                                            "ھێڵە ئاسمانییەکە نزیکە لە داڕمان."),
                                   ],
                                 ),
                               ),
@@ -2801,7 +2801,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "There's a close resemblance between them (= they look very similar)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێکچوونێکی زۆر هەیە لە نێوانیان."),
+                                            "لێکچوونێکی زۆر ھەیە لە نێوانیان."),
                                   ],
                                 ),
                               ),
@@ -2829,7 +2829,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "This movie is about as close to perfect as you could wish for."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە تا بەرزترین ئاست کە هیوای پێ بخوازیت نزیکە لە بێ‌خەوشییەوە."),
+                                            "فیلمەکە تا بەرزترین ئاست کە ھیوای پێ بخوازیت نزیکە لە بێ‌خەوشییەوە."),
                                   ],
                                 ),
                               ),
@@ -2890,7 +2890,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "His feeling for her was close to hatred."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەستەکانی بۆی لە ڕقەوە نزیک بوو."),
+                                                    "ھەستەکانی بۆی لە ڕقەوە نزیک بوو."),
                                           ],
                                         ),
                                       ),
@@ -2920,7 +2920,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "We tried to match the colours, but this is the closest we could get."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەوڵماندا ڕەنگەکان بگونجێنین، بەڵام ئەمە نزیکترینە کە توانیمان بەدەستی بێنین."),
+                                                    "ھەوڵماندا ڕەنگەکان بگونجێنین، بەڵام ئەمە نزیکترینە کە توانیمان بەدەستی بێنین."),
                                           ],
                                         ),
                                       ),
@@ -2984,7 +2984,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "No one expected such a close finish."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ کەس پێشبینی کۆتاییەکی وەها سەختی نەدەکرد."),
+                                            "ھیچ کەس پێشبینی کۆتاییەکی وەھا سەختی نەدەکرد."),
                                   ],
                                 ),
                               ),
@@ -3132,7 +3132,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "The donor's identity is a close secret."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناسنامەی بەخشەرەکە نهێنییەکی پارێزراوە."),
+                                            "ناسنامەی بەخشەرەکە نھێنییەکی پارێزراوە."),
                                   ],
                                 ),
                               ),
@@ -3152,7 +3152,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٤. (ھاوەڵناو) گەرم بەشێوەیەکی ناخۆش بەهۆی ئەوەی زۆر هەوای خۆش نییە"),
+                                  "٢٤. (ھاوەڵناو) گەرم بەشێوەیەکی ناخۆش بەھۆی ئەوەی زۆر ھەوای خۆش نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -3223,7 +3223,7 @@ class EnglishEntryclose extends StatelessWidget {
                                             "She's always been very close with her money."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە چڕووک بووە سەبارەت بە پارەکانی."),
+                                            "ھەمیشە چڕووک بووە سەبارەت بە پارەکانی."),
                                   ],
                                 ),
                               ),
@@ -3397,7 +3397,7 @@ class EnglishEntryclose extends StatelessWidget {
                                                     "I couldn't get close enough to see."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هێندە نزیک نەبوومەوە کە بیبینم."),
+                                                    "ھێندە نزیک نەبوومەوە کە بیبینم."),
                                           ],
                                         ),
                                       ),
@@ -3560,7 +3560,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: close (Derived forms: closing, closed, closes)
+- Verb: close (derived forms: closing, closed, closes)
 1. Move so that an opening or passage is obstructed; make shut (= shut)
 "Close the door";
  
@@ -3610,7 +3610,7 @@ ${englishMeaningConst.text}
 17. Finish a game in baseball by protecting a lead
 "The relief pitcher closed with two runs in the second inning"
 
-- Adjective: close (Derived forms: closest, closer)
+- Adjective: close (derived forms: closest, closer)
 1. At or within a short distance in space or time or having elements near each other
 "close to noon"; "how close are we to town?"; "a close formation of ships"
  
@@ -3663,7 +3663,7 @@ ${englishMeaningConst.text}
 2. In an attentive manner (= closely, tight)
 "he remained close on his guard";
 
-- Noun: close (Derived forms: closes)
+- Noun: close (derived forms: closes)
 1. The temporal end; the concluding time (= stopping point, finale, finis, finish, last, conclusion)
 "they were playing better at the close of the season";
  

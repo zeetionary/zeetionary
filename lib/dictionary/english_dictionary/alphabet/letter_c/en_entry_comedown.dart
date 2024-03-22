@@ -206,7 +206,7 @@ class EnglishEntrycomedown extends StatelessWidget {
                                             "It was a sad comedown for a band that was so popular only a year ago."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆچوونێکی دڵشکێنەر بوو بۆ باندێک کە تەنها چەند ساڵی پێش زۆر ناودار بوو."),
+                                            "ڕۆچوونێکی دڵشکێنەر بوو بۆ باندێک کە تەنھا چەند ساڵی پێش زۆر ناودار بوو."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comedown (Derived forms: comedowns)
+- Noun: comedown (derived forms: comedowns)
 1. Decline to a lower status or level
 """,
   );

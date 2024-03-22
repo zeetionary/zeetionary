@@ -194,7 +194,7 @@ class EnglishEntrycoeducation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خوێندنی تێکەڵ، هاوفێری، هاوپەروەردە (کچ و کوڕ)
+کوردی: خوێندنی تێکەڵ، ھاوفێری، ھاوپەروەردە (کچ و کوڕ)
 """),
                           const DefinitionKurdish(
                               text:
@@ -239,7 +239,7 @@ class EnglishEntrycoeducation extends StatelessWidget {
                                             "She campaigned for coeducation and equal treatment of boys and girls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمپینی ئەنجامدا بۆ هاوفێری و مامەڵەی یەکسانی کوڕان و کچان."),
+                                            "کەمپینی ئەنجامدا بۆ ھاوفێری و مامەڵەی یەکسانی کوڕان و کچان."),
                                   ],
                                 ),
                               ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coeducation (Derived forms: coeducations)
+- Noun: coeducation (derived forms: coeducations)
 1. Education of men and women in the same institutions
 """,
   );

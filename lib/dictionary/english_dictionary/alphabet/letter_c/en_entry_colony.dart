@@ -199,7 +199,7 @@ class EnglishEntrycolony extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ناوچەیەک یان وڵاتێک کە لەلایەن یەکێکی دیکەی بەهێزترەوە بەڕێوەدەبرێت"),
+                                  "١. (ناو) ناوچەیەک یان وڵاتێک کە لەلایەن یەکێکی دیکەی بەھێزترەوە بەڕێوەدەبرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntrycolony extends StatelessWidget {
                                             "East Timor was a former Portuguese colony."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەیمووری ڕۆژهەڵات کۆلۆنییەکی کۆنی پرتوگال بوو."),
+                                            "تەیمووری ڕۆژھەڵات کۆلۆنییەکی کۆنی پرتوگال بوو."),
                                   ],
                                 ),
                               ),
@@ -258,7 +258,7 @@ class EnglishEntrycolony extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆمەڵە کەسێک کە کۆچ دەکەن بۆ ئەوەی بۆ هەمیشەیی لە کۆلۆنییەکدا بژین"),
+                                  "٢. (ناو) کۆمەڵە کەسێک کە کۆچ دەکەن بۆ ئەوەی بۆ ھەمیشەیی لە کۆلۆنییەکدا بژین"),
                           Row(
                             children: [
                               const Expanded(
@@ -289,7 +289,7 @@ class EnglishEntrycolony extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کۆمەڵێک کەس لە هەمان شوێنن یان هەمان کار یان یان خولیایان هەیە و لە شارێک یان وڵاتێکی دیاریکراودا، یان پێکەوە دەژین"),
+                                  "٣. (ناو) کۆمەڵێک کەس لە ھەمان شوێنن یان ھەمان کار یان یان خولیایان ھەیە و لە شارێک یان وڵاتێکی دیاریکراودا، یان پێکەوە دەژین"),
                           Row(
                             children: [
                               const Expanded(
@@ -429,7 +429,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colony (Derived forms: colonies)
+- Noun: colony (derived forms: colonies)
 1. A body of people who settle far from home but maintain ties with their homeland; inhabitants remain nationals of their home state but are not literally under the home state's system of government (= settlement)
 "the American colony in Paris";
  
@@ -442,7 +442,7 @@ ${englishMeaningConst.text}
  
 5. (microbiology) a group of organisms grown from a single parent cell
 
-- Noun: Colony (Derived forms: Colonies)
+- Noun: Colony (derived forms: Colonies)
 1. One of the 13 British colonies that formed the original states of the United States
 """,
   );

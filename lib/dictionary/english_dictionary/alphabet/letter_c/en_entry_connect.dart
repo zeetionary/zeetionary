@@ -588,7 +588,7 @@ class EnglishEntryconnect extends StatelessWidget {
                                             "The island is connected to the mainland by a bridge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوورگەکە بە پردێک بەستراوە بە هەرێمە سەرەکییەکەوە."),
+                                            "دوورگەکە بە پردێک بەستراوە بە ھەرێمە سەرەکییەکەوە."),
                                   ],
                                 ),
                               ),
@@ -619,7 +619,7 @@ class EnglishEntryconnect extends StatelessWidget {
                                                     "The rooms on this floor connect."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ژوورەکانی ئەم نهۆمە تێکەڵ دەبن."),
+                                                    "ژوورەکانی ئەم نھۆمە تێکەڵ دەبن."),
                                           ],
                                         ),
                                       ),
@@ -705,7 +705,7 @@ class EnglishEntryconnect extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بەستنی شتێک بە سەرچاوەی سەرەکی ئاو، کارەبا، غاز، هتد یان بە ئامێرێکی دیکەوە"),
+                                  "٢. (کردار) بەستنی شتێک بە سەرچاوەی سەرەکی ئاو، کارەبا، غاز، ھتد یان بە ئامێرێکی دیکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -772,7 +772,7 @@ class EnglishEntryconnect extends StatelessWidget {
                                             "Downstairs toilets were connected directly to the drains."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەوالێتەکانی نهۆمی خوارەوە ڕاستەوخۆ بەسترابوون بە زێرابەکانەوە."),
+                                            "تەوالێتەکانی نھۆمی خوارەوە ڕاستەوخۆ بەسترابوون بە زێرابەکانەوە."),
                                   ],
                                 ),
                               ),
@@ -858,7 +858,7 @@ class EnglishEntryconnect extends StatelessWidget {
                                             "Simply connect your device to the camera's Wi-Fi signal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها ئامێرەکەت پەیوەست بکە بە شەپۆلی وای‌فای کامێراکەت."),
+                                            "تەنھا ئامێرەکەت پەیوەست بکە بە شەپۆلی وای‌فای کامێراکەت."),
                                   ],
                                 ),
                               ),
@@ -878,7 +878,7 @@ class EnglishEntryconnect extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) درووستکردنی پەیوەندی لە نێوان خەڵکی، شت، ڕووداو، هتد"),
+                                  "٤. (کردار) درووستکردنی پەیوەندی لە نێوان خەڵکی، شت، ڕووداو، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -889,7 +889,7 @@ class EnglishEntryconnect extends StatelessWidget {
                                             "There was nothing to connect him with the crime."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ نەبوو بۆ تێوەگلاندنی لە تاوانەکەوە."),
+                                            "ھیچ نەبوو بۆ تێوەگلاندنی لە تاوانەکەوە."),
                                   ],
                                 ),
                               ),
@@ -965,7 +965,7 @@ class EnglishEntryconnect extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) گەشتنی فڕۆکەیەک، پاسێک، شەمەندەفەرێک، هتد کەمێک پێش ئەوەی یەکێکی دیکە بچێت بۆ ئەوەی گەشتیاران بە گۆڕانکاری بکەن"),
+                                  "٤. (کردار) گەشتنی فڕۆکەیەک، پاسێک، شەمەندەفەرێک، ھتد کەمێک پێش ئەوەی یەکێکی دیکە بچێت بۆ ئەوەی گەشتیاران بە گۆڕانکاری بکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1004,7 +1004,7 @@ class EnglishEntryconnect extends StatelessWidget {
                                             "There's a connecting flight at noon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەشتێکی پێکەوەبەست هەیە لە نیوەڕۆدا."),
+                                            "گەشتێکی پێکەوەبەست ھەیە لە نیوەڕۆدا."),
                                   ],
                                 ),
                               ),
@@ -1024,7 +1024,7 @@ class EnglishEntryconnect extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) دانانی کەسێک لەسەر هەمان هێڵی پەیوەندی بۆ ئەوەی قسەبکەن"),
+                                  "٦. (کردار) دانانی کەسێک لەسەر ھەمان ھێڵی پەیوەندی بۆ ئەوەی قسەبکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1194,7 +1194,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: connect (Derived forms: connecting, connects, connected)
+- Verb: connect (derived forms: connecting, connects, connected)
 1. Join together or make a link between two or more pieces (= link, tie, link up)
 "Can you connect the two loudspeakers?";
  
@@ -1259,7 +1259,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0Ths2-vspNA?t=',
+    videoId: '0Ths2-vspNA',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1284,7 +1284,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/upiiNyibfF0?t=',
+    videoId: 'upiiNyibfF0',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1309,7 +1309,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Nmaqp9Drco',
+    videoId: '-Nmaqp9Drco',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1334,7 +1334,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gFuEoxh5hd4?t=',
+    videoId: 'gFuEoxh5hd4',
     startSeconds: 386,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1359,7 +1359,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0SYKA00eFWY?t=',
+    videoId: '0SYKA00eFWY',
     startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1384,7 +1384,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H9rO5sKzOiQ?t=',
+    videoId: 'H9rO5sKzOiQ',
     startSeconds: 4141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1409,7 +1409,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-Or05EFLUM?t=',
+    videoId: 'r-Or05EFLUM',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(

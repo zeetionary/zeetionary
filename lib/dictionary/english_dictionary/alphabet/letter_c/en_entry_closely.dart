@@ -321,7 +321,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "He walked into the room, closely followed by the rest of the family."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتە ژوورەکەوە و نزیک لە دواییەوە ئەندامانی دیکەی خێزانەکەی بوون."),
+                                            "ھاتە ژوورەکەوە و نزیک لە دواییەوە ئەندامانی دیکەی خێزانەکەی بوون."),
                                   ],
                                 ),
                               ),
@@ -370,7 +370,7 @@ class EnglishEntryclosely extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (هاوەڵکار) هەبوونی پەیوەندییەکی بەهێز"),
+                              text: "٣. (ھاوەڵکار) ھەبوونی پەیوەندییەکی بەھێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -409,7 +409,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "The country's economy remains closely tied to oil."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئابووری وڵاتەکە هێشتا بە توندی پەیوەستە بە نەوتەوە."),
+                                            "ئابووری وڵاتەکە ھێشتا بە توندی پەیوەستە بە نەوتەوە."),
                                   ],
                                 ),
                               ),
@@ -468,7 +468,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "The Royal Navy was closely involved in the early development of wireless technology."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزی دەریایی شاهانەیی بە چڕی بەژدار بوو لە گەشەپێدانی سەرەتایی تەکنەلۆژیای وایەرلێس."),
+                                            "ھێزی دەریایی شاھانەیی بە چڕی بەژدار بوو لە گەشەپێدانی سەرەتایی تەکنەلۆژیای وایەرلێس."),
                                   ],
                                 ),
                               ),
@@ -496,7 +496,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "They collaborated closely together for the next four years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ سێ ساڵی دواتر لە نزیکەوە هاوئاهەنگ بوون."),
+                                            "بۆ سێ ساڵی دواتر لە نزیکەوە ھاوئاھەنگ بوون."),
                                   ],
                                 ),
                               ),
@@ -515,7 +515,7 @@ class EnglishEntryclosely extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (هاوەڵکار) بە وریاییەوە"),
+                              text: "٥. (ھاوەڵکار) بە وریاییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -526,7 +526,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "I sat and watched everyone very closely."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانیشتم و بە وریاییەوە لە هەموانم ڕوانی."),
+                                            "دانیشتم و بە وریاییەوە لە ھەموانم ڕوانی."),
                                   ],
                                 ),
                               ),
@@ -585,7 +585,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "She closely resembled her mother at the same age."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر لە دایکی دەچوو لە هەمان تەمەندا."),
+                                            "زۆر لە دایکی دەچوو لە ھەمان تەمەندا."),
                                   ],
                                 ),
                               ),
@@ -613,7 +613,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "It was an exciting game between two closely matched teams."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یارییەکی بەجۆش بوو لە نێوان دوو تیمە زۆر هاوشانەکەدا."),
+                                            "یارییەکی بەجۆش بوو لە نێوان دوو تیمە زۆر ھاوشانەکەدا."),
                                   ],
                                 ),
                               ),
@@ -633,7 +633,7 @@ class EnglishEntryclosely extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ھاوەڵکار) بە جۆرێک کە تەنها بە جیاوازییەکی کەم دەبرێتەوە"),
+                                  "٧. (ھاوەڵکار) بە جۆرێک کە تەنھا بە جیاوازییەکی کەم دەبرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -643,7 +643,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                         text:
                                             "It was a closely fought election."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵبژاردنێکی پڕ ڕکابەری بوو."),
+                                        text: "ھەڵبژاردنێکی پڕ ڕکابەری بوو."),
                                   ],
                                 ),
                               ),
@@ -673,7 +673,7 @@ class EnglishEntryclosely extends StatelessWidget {
                                             "He had a closely shaved head and a small, neat beard."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قژێکی زۆر بڕدراوی هەبوو لەگەڵ ڕیشێکی کورت و ڕێک‌وپێک."),
+                                            "قژێکی زۆر بڕدراوی ھەبوو لەگەڵ ڕیشێکی کورت و ڕێک‌وپێک."),
                                   ],
                                 ),
                               ),

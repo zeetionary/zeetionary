@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cobweb (Derived forms: cobwebs)
+- Noun: cobweb (derived forms: cobwebs)
 1. A fabric so delicate and transparent as to resemble a web of a spider
  
 2. Filaments from a web that was spun by a spider (= gossamer)

@@ -191,7 +191,7 @@ class EnglishEntryclimber extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیاهەڵگەڕ، پیاهەڵگژ،	شاخەوان
+کوردی: پیاھەڵگەڕ، پیاھەڵگژ،	شاخەوان
 """),
                           const DefinitionKurdish(
                               text:
@@ -205,7 +205,7 @@ class EnglishEntryclimber extends StatelessWidget {
                                         text:
                                             "Monkeys are efficient climbers."),
                                     ExampleSentenceKurdish(
-                                        text: "مەیموون پیاهەڵگژێکی زۆرباشە."),
+                                        text: "مەیموون پیاھەڵگژێکی زۆرباشە."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: climber (Derived forms: climbers)
+- Noun: climber (derived forms: climbers)
 1. A vine or climbing plant that readily grows up a support or over other plants
  
 2. Someone seeking social prominence by obsequious behaviour (= social climber)

@@ -197,7 +197,7 @@ class EnglishEntrycocktail extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) خواردنەوەیەک کە زۆرجار لە تێکەڵەی یەک جۆر یان زیاتر لە خواردنەوەی کحوولی بەهێز درووست دەکرێت لەگەڵ ئاوی میوەدا. دەکرێت بەبێ کحوولیش درووست بکرێت"),
+                                  "١. (ناو) خواردنەوەیەک کە زۆرجار لە تێکەڵەی یەک جۆر یان زیاتر لە خواردنەوەی کحوولی بەھێز درووست دەکرێت لەگەڵ ئاوی میوەدا. دەکرێت بەبێ کحوولیش درووست بکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycocktail extends StatelessWidget {
                                             "We were all in the bar sipping cocktails."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموومان لە باڕەکە بووین کۆکتەیلمان هەڵدەدا."),
+                                            "ھەموومان لە باڕەکە بووین کۆکتەیلمان ھەڵدەدا."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrycocktail extends StatelessWidget {
                                             "Cars produce a lethal cocktail of gasses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێل تێکەڵەیەک لە گازی ژەهراوی درووست دەکەن."),
+                                            "ئۆتۆمبێل تێکەڵەیەک لە گازی ژەھراوی درووست دەکەن."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cocktail (Derived forms: cocktails)
+- Noun: cocktail (derived forms: cocktails)
 1. A mixed drink, usually spirits mixed with fruit juice or other alcoholic drinks
  
 2. An appetizer served as a first course at a meal

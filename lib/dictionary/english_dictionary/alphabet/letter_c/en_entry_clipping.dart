@@ -227,7 +227,7 @@ class EnglishEntryclipping extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) وتارێک یان چیرۆکێک کە لە ڕۆژنامەیەک یان گۆڤارێکی دەبڕیت و هەڵیدەگریت"),
+                                  "٢. (ناو) وتارێک یان چیرۆکێک کە لە ڕۆژنامەیەک یان گۆڤارێکی دەبڕیت و ھەڵیدەگریت"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryclipping extends StatelessWidget {
                                             "She had kept all the press clippings about the murder."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو بڕشتە ڕۆژنامەوانییەکانی سەبارەت بە کوشتنەکە پاراست."),
+                                            "ھەموو بڕشتە ڕۆژنامەوانییەکانی سەبارەت بە کوشتنەکە پاراست."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipping (Derived forms: clippings)
+- Noun: clipping (derived forms: clippings)
 1. An excerpt cut from a newspaper or magazine (= newspaper clipping, press clipping, cutting, press cutting)
 "he searched through piles of letters and clippings";
  

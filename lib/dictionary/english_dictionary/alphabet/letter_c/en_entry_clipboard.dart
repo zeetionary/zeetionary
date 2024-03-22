@@ -195,7 +195,7 @@ class EnglishEntryclipboard extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە هەیە بپ ڕاگرتنی پەڕە"),
+                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
                           Row(
                             children: [
                               const Expanded(
@@ -225,7 +225,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                           ),
                           // skipped_meaning
                           // const DividerDefinition(),
-                          // const DefinitionKurdish(text: "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی هەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
+                          // const DefinitionKurdish(text: "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
                           // Row(
                           // children: [
                           // const Expanded(
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipboard (Derived forms: clipboards)
+- Noun: clipboard (derived forms: clipboards)
 1. A small writing board with a clip at the top for holding papers
 """,
   );

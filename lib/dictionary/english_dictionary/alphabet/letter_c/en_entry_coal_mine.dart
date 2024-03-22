@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coal mine (Derived forms: coal mines)
+- Noun: coal mine (derived forms: coal mines)
 1. A mine where coal is dug from the ground (= coalpit)
 """,
   );

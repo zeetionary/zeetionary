@@ -210,7 +210,7 @@ class EnglishEntrycompete extends StatelessWidget {
                                             "He's hoping to compete in the London marathon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوا دەخوازێت لە ماراسۆنی لەندەن ڕکابەری بکات."),
+                                            "ھیوا دەخوازێت لە ماراسۆنی لەندەن ڕکابەری بکات."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycompete extends StatelessWidget {
                                             "He is expected to compete for the title of world champion next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوەڕوان دەکرێت ساڵی داهاتوو ڕکابەری بکات بۆ نازناوی پاڵەوانی جیهان."),
+                                            "چاوەڕوان دەکرێت ساڵی داھاتوو ڕکابەری بکات بۆ نازناوی پاڵەوانی جیھان."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycompete extends StatelessWidget {
                                             "They simply cannot compete in the international market."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ئاشکرایی ناتوانن ڕکابەری بکەن لە بازاڕی جیهانیدا."),
+                                            "بە ئاشکرایی ناتوانن ڕکابەری بکەن لە بازاڕی جیھانیدا."),
                                   ],
                                 ),
                               ),
@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compete (Derived forms: competed, competes, competing)
+- Verb: compete (derived forms: competed, competes, competing)
 1. Seek or strive for the same thing as someone else; engage in a contest (= vie, contend)
 "Iran also faces Japan as they compete for the Asian seat";
 """,
@@ -459,7 +459,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1066,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +484,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rl8cnMPKQtE?t=',
+    videoId: 'Rl8cnMPKQtE',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +509,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o3vErUPfiwc?t=',
+    videoId: 'o3vErUPfiwc',
     startSeconds: 767,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +534,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YMbWE-4u7w8?t=',
+    videoId: 'YMbWE-4u7w8',
     startSeconds: 635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +559,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W3eFAvkoklU?t=',
+    videoId: 'W3eFAvkoklU',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +584,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mKpeN7xa3js?t=',
+    videoId: 'mKpeN7xa3js',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -609,7 +609,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/72MBACYaTBU?t=',
+    videoId: '72MBACYaTBU',
     startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(

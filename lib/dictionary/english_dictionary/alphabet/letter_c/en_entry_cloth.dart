@@ -209,7 +209,7 @@ class EnglishEntrycloth extends StatelessWidget {
                                             "They used to export cotton cloth."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جاران قوماشی لۆکەیان هەناردە دەکرد."),
+                                            "جاران قوماشی لۆکەیان ھەناردە دەکرد."),
                                   ],
                                 ),
                               ),
@@ -295,7 +295,7 @@ class EnglishEntrycloth extends StatelessWidget {
                                             "Place the dough in a bowl and cover with a clean cloth."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەویرەکە بکە دەفرێکەوە و بە قوماشێک دایپۆشە."),
+                                            "ھەویرەکە بکە دەفرێکەوە و بە قوماشێک دایپۆشە."),
                                   ],
                                 ),
                               ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloth (Derived forms: cloths)
+- Noun: cloth (derived forms: cloths)
 1. Artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers (= fabric, material, textile)
 "woven cloth originated in Mesopotamia around 5000 BC";
  

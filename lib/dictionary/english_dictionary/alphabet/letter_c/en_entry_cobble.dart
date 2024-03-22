@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cobble (Derived forms: cobbling, cobbles, cobbled)
+- Verb: cobble (derived forms: cobbling, cobbles, cobbled)
 1. Pave with cobblestones (= cobblestone)
  
 2. Repair or mend

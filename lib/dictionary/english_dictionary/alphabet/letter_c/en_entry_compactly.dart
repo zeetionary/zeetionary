@@ -237,7 +237,7 @@ class EnglishEntrycompactly extends StatelessWidget {
                                             "It is hoped that building more compactly will increase population densities in cities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوای ئەوە هەیە کە بنیاتنان بە ترنجاوانەتر چڕی دانیشتوان لە شارەکان زیاد دەکات."),
+                                            "ھیوای ئەوە ھەیە کە بنیاتنان بە ترنجاوانەتر چڕی دانیشتوان لە شارەکان زیاد دەکات."),
                                   ],
                                 ),
                               ),

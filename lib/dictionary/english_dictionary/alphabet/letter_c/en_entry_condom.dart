@@ -207,7 +207,7 @@ class EnglishEntrycondom extends StatelessWidget {
                                             "She insisted that her partner wear a condom every time they had sex."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێداگیر بوو لەسەر ئەوەی دۆستەکەی کۆندۆم بەکاربێنێت هەرکاتێک سێکسیان بکردایە."),
+                                            "پێداگیر بوو لەسەر ئەوەی دۆستەکەی کۆندۆم بەکاربێنێت ھەرکاتێک سێکسیان بکردایە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycondom extends StatelessWidget {
                                             "Using a condom is an effective method of contraception."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکارهێنانی کۆندۆم ڕێگایەکی کاریگەری دژەسکپڕییە."),
+                                            "بەکارھێنانی کۆندۆم ڕێگایەکی کاریگەری دژەسکپڕییە."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condom (Derived forms: condoms)
+- Noun: condom (derived forms: condoms)
 1. Contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse (= rubber [N. Amer, informal], safety, safe, prophylactic, franger [Austral, informal], French letter [Brit, archaic, informal], protective, johnny [Brit, informal])
 """,
   );
@@ -368,7 +368,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YihGGcq9d6s?t=',
+    videoId: 'YihGGcq9d6s',
     startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ddEWeVBFCDM?t=',
+    videoId: 'ddEWeVBFCDM',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vww9rk1USss',
+    videoId: 'vww9rk1USss',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LpfGV_3CxxI?t=',
+    videoId: 'LpfGV_3CxxI',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bru_PpOTuPc?t=',
+    videoId: 'bru_PpOTuPc',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kTaYet07Ioo?t=',
+    videoId: 'kTaYet07Ioo',
     startSeconds: 696,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wS4CW5rAq5Q',
+    videoId: 'wS4CW5rAq5Q',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

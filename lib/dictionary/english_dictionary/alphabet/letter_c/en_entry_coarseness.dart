@@ -196,7 +196,7 @@ class EnglishEntrycoarseness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) زبری، یان پێکهاتوو لە پارچەی گەورە"),
+                                  "١. (ناو) زبری، یان پێکھاتوو لە پارچەی گەورە"),
                           Row(
                             children: [
                               const Expanded(

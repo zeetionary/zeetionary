@@ -467,7 +467,7 @@ class EnglishEntrycompany extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕفێقایەتی، دۆستایەتی، دراو، ڕەفێق، هاوڕێ، دۆست،	میوان، میوانان،	دۆستان، ناسیاوان، دەستە، کۆڕ، تیپ، گروپ،	کۆڕی شانۆ یان هونەری،	کۆمپانی، کۆمپانیا، نێوکۆیی، شیرکەت،	(سەربازی) بڕەک، پەل، دەستە،	(کەشتی) کارکەران
+کوردی: ڕفێقایەتی، دۆستایەتی، دراو، ڕەفێق، ھاوڕێ، دۆست،	میوان، میوانان،	دۆستان، ناسیاوان، دەستە، کۆڕ، تیپ، گروپ،	کۆڕی شانۆ یان ھونەری،	کۆمپانی، کۆمپانیا، نێوکۆیی، شیرکەت،	(سەربازی) بڕەک، پەل، دەستە،	(کەشتی) کارکەران
 """),
                           const DefinitionKurdish(
                               text:
@@ -482,7 +482,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                             "It is the world's largest software company."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەورەترین کۆمپانیای نەرمامێرە لە جیهاندا."),
+                                            "گەورەترین کۆمپانیای نەرمامێرە لە جیھاندا."),
                                   ],
                                 ),
                               ),
@@ -510,7 +510,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                             "She runs her own TV production company."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیای بەرهەمهێنانی تەلەفیزیۆنی خۆی بەڕێوەدەبات."),
+                                            "کۆمپانیای بەرھەمھێنانی تەلەفیزیۆنی خۆی بەڕێوەدەبات."),
                                   ],
                                 ),
                               ),
@@ -599,7 +599,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                                     "He has shares in several companies."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پشكی لە ژمارەیەک کۆمپانیا هەیە."),
+                                                    "پشكی لە ژمارەیەک کۆمپانیا ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -629,7 +629,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                                     "She's been working for the same company for 15 years."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بۆ ١٥ ساڵە بۆ هەمان کۆمپانیا کاردەکات."),
+                                                    "بۆ ١٥ ساڵە بۆ ھەمان کۆمپانیا کاردەکات."),
                                           ],
                                         ),
                                       ),
@@ -682,7 +682,7 @@ class EnglishEntrycompany extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) لەگەڵ کەسێک بوون وەک لەوەی تەنها بیت"),
+                                  "٢. (ناو) لەگەڵ کەسێک بوون وەک لەوەی تەنھا بیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -720,7 +720,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                             "She enjoys her own company (= being by herself) when she is travelling."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەز دەکات تەنها بێت کە گەشت دەکات."),
+                                            "حەز دەکات تەنھا بێت کە گەشت دەکات."),
                                   ],
                                 ),
                               ),
@@ -747,7 +747,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                         text:
                                             "He's coming with me for company."),
                                     ExampleSentenceKurdish(
-                                        text: "لەگەڵمدا دێت بۆ هاوەڵی."),
+                                        text: "لەگەڵمدا دێت بۆ ھاوەڵی."),
                                   ],
                                 ),
                               ),
@@ -775,7 +775,7 @@ class EnglishEntrycompany extends StatelessWidget {
                                         text:
                                             "I didn't realize you had company."),
                                     ExampleSentenceKurdish(
-                                        text: "نەمزانی میوانت هەیە."),
+                                        text: "نەمزانی میوانت ھەیە."),
                                   ],
                                 ),
                               ),
@@ -959,7 +959,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: company (Derived forms: companies)
+- Noun: company (derived forms: companies)
 1. An institution created to conduct business
 "he only invests in large well-established companies"; "he started the company in his garage"
  
@@ -985,7 +985,7 @@ ${englishMeaningConst.text}
 9. A unit of firefighters including their equipment
 "a hook-and-ladder company"
 
-- Verb: company (Derived forms: companied, companying, companies)
+- Verb: company (derived forms: companied, companying, companies)
 1. Be a companion to somebody (= companion, accompany, keep company)
 """,
   );

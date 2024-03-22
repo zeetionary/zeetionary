@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commandant (Derived forms: commandants)
+- Noun: commandant (derived forms: commandants)
 1. (military) an officer in command of a military unit (= commanding officer, commander)
 """,
   );

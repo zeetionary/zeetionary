@@ -194,7 +194,7 @@ class EnglishEntrycommandeer extends StatelessWidget {
 // کوردی: 
 // """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) کۆنترۆڵکردنی شوێنێک، ئۆتۆمبێلێک، هتد لە کاتی جەنگدا و بەکارهێنانی بە مەبەستی سەربازی"),
+                              text: "١. (کردار) کۆنترۆڵکردنی شوێنێک، ئۆتۆمبێلێک، ھتد لە کاتی جەنگدا و بەکارھێنانی بە مەبەستی سەربازی"),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: commandeer (Derived forms: commandeering, commandeered, commandeers)
+- Verb: commandeer (derived forms: commandeering, commandeered, commandeers)
 1. (crime) take arbitrarily or by force (= hijack, highjack, pirate)
 "The Cubans commandeered the plane and flew it to Miami";
 """,

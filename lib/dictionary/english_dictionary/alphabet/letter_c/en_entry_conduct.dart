@@ -350,7 +350,7 @@ class EnglishEntryconduct extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕەفتار، هەڵس‌وکەوت، ئاکار و کردار، ئاکار، ڕەوشت،	بەڕێوەبردن، هەڵسووڕاندن، جێبەجێ‌کردن، ڕێبەرایەتی، بەڕێ‌دابردن، گێڕان
+کوردی: ڕەفتار، ھەڵس‌وکەوت، ئاکار و کردار، ئاکار، ڕەوشت،	بەڕێوەبردن، ھەڵسووڕاندن، جێبەجێ‌کردن، ڕێبەرایەتی، بەڕێ‌دابردن، گێڕان
 """),
                           const DefinitionKurdish(
                               text:
@@ -365,7 +365,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                             "There are concerns about the way in which the firm conducts its activities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیگەرانی هەیە سەبارەت بەو شێوازەی کە کۆمپانیاکە چالاکییەکانی ئەنجام دەدات."),
+                                            "نیگەرانی ھەیە سەبارەت بەو شێوازەی کە کۆمپانیاکە چالاکییەکانی ئەنجام دەدات."),
                                   ],
                                 ),
                               ),
@@ -393,7 +393,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                             "The battalion had been preparing to conduct operations in the same area."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەتالیۆنەکە ئامادەکارییان دەکرد بۆ ئەنجامدانی ئۆپەراسیۆن لە هەمان ناوچە."),
+                                            "بەتالیۆنەکە ئامادەکارییان دەکرد بۆ ئەنجامدانی ئۆپەراسیۆن لە ھەمان ناوچە."),
                                   ],
                                 ),
                               ),
@@ -514,7 +514,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                                     "People have criticized the way she conducted her election campaign."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "خەڵکی سەرکۆنەی شێوازی ئەنجامدانی کەمپینی هەڵبژاردنەکەی ئەویان کردووە."),
+                                                    "خەڵکی سەرکۆنەی شێوازی ئەنجامدانی کەمپینی ھەڵبژاردنەکەی ئەویان کردووە."),
                                           ],
                                         ),
                                       ),
@@ -643,7 +643,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                             "He always conducted himself as a gentleman."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە وەک جوامێرێک ڕەفتاری دەکرد."),
+                                            "ھەمیشە وەک جوامێرێک ڕەفتاری دەکرد."),
                                   ],
                                 ),
                               ),
@@ -731,7 +731,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                             "The sport has a strict code of conduct."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەرزشەکە ڕێسای توندی هەڵسوکەوتی هەیە."),
+                                            "وەرزشەکە ڕێسای توندی ھەڵسوکەوتی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -759,7 +759,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                             "Any allegation of criminal conduct has to be taken seriously."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەر تۆمەتێکی هەڵسوکەوتی تاوانکاری دەبێت بە جدی بگیردرێت."),
+                                            "ھەر تۆمەتێکی ھەڵسوکەوتی تاوانکاری دەبێت بە جدی بگیردرێت."),
                                   ],
                                 ),
                               ),
@@ -787,7 +787,7 @@ class EnglishEntryconduct extends StatelessWidget {
                                             "He was arrested for disorderly conduct."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستگیرکرا بۆ هەڵسووکەوتی ناڕێک‌وپێک."),
+                                            "دەستگیرکرا بۆ ھەڵسووکەوتی ناڕێک‌وپێک."),
                                   ],
                                 ),
                               ),
@@ -917,7 +917,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conduct (Derived forms: conducted, conducts, conducting)
+- Verb: conduct (derived forms: conducted, conducts, conducting)
 1. Direct the course of; manage or control (= carry on, deal)
 "You cannot conduct business like this";
  
@@ -936,7 +936,7 @@ ${englishMeaningConst.text}
 6. (music) lead musicians in the performance of
 "she cannot conduct modern pieces"; "Bernstein conducted Mahler like no other conductor"
 
-- Noun: conduct (Derived forms: conducts)
+- Noun: conduct (derived forms: conducts)
 1. Manner of acting or controlling yourself (= behavior [US], behaviour [Brit, Cdn], doings)
  
 2. (behavioral attributes) the way a person behaves toward other people (= demeanor [US], demeanour [Brit, Cdn], behavior [US], behaviour [Brit, Cdn], deportment)
@@ -973,7 +973,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t6fIp7mMJ90?t=',
+    videoId: 't6fIp7mMJ90',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -998,7 +998,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 661,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1023,7 +1023,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    videoId: '-L7o6HtX8Vg',
     startSeconds: 1217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1048,7 +1048,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1073,7 +1073,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
+    videoId: 'VS6tnF31zr4',
     startSeconds: 430,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1098,7 +1098,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    videoId: 'W2hRTTTpmr8',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1123,7 +1123,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NtUUW_pFs_8?t=',
+    videoId: 'NtUUW_pFs_8',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(

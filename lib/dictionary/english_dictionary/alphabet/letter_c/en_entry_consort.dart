@@ -192,11 +192,11 @@ class EnglishEntryconsort extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: هاوسەر (پادشا یان شاژن)،	ژن، مێرد، هاومل
+// کوردی: ھاوسەر (پادشا یان شاژن)،	ژن، مێرد، ھاومل
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) مێرد یان ژنی پاشایەک، شاژنێک، دەسەڵاتدارێک، هتد"),
+                                  "١. (ناو) مێرد یان ژنی پاشایەک، شاژنێک، دەسەڵاتدارێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryconsort extends StatelessWidget {
                                             "They claimed he had been consorting with drug dealers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بانگەشەی ئەوەی دەکرد کە ئەو تێکەڵ بە بازرگانانی مادەی هۆشبەر بووبوو."),
+                                            "بانگەشەی ئەوەی دەکرد کە ئەو تێکەڵ بە بازرگانانی مادەی ھۆشبەر بووبوو."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consort (Derived forms: consorted, consorts, consorting)
+- Verb: consort (derived forms: consorted, consorts, consorting)
 1. Keep company with; hang out with (= associate, affiliate, assort)
 "He consorts with strange people";
  
@@ -347,7 +347,7 @@ ${englishMeaningConst.text}
 3. Keep company (= run)
 "the heifers consort with the bulls to produce offspring";
 
-- Noun: consort (Derived forms: consorts)
+- Noun: consort (derived forms: consorts)
 1. The husband or wife of a reigning monarch
  
 2. A family of similar musical instruments playing together (= choir)
@@ -387,7 +387,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JyJvcrPeIDg',
+    videoId: 'JyJvcrPeIDg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +412,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PkvmhF4xW9o?t=',
+    videoId: 'PkvmhF4xW9o',
     startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z83I2tz5UzM?t=',
+    videoId: 'Z83I2tz5UzM',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vk9nbEdemPo?t=',
+    videoId: 'vk9nbEdemPo',
     startSeconds: 1020,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e2YshZZHQCE?t=',
+    videoId: 'e2YshZZHQCE',
     startSeconds: 363,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ccyEECQ2C0?t=',
+    videoId: '0ccyEECQ2C0',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ngNvakLYNto?t=',
+    videoId: 'ngNvakLYNto',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(

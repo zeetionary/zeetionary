@@ -197,7 +197,7 @@ class EnglishEntrycontext extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەڤنار، تەونار، بوار، چوارچێوە، تان‌وپۆ، زەمینە، تەختار، دەق، پێکەوەچنراو،	هەل‌ومەرج، بارودۆخ، ڕەوش
+کوردی: تەڤنار، تەونار، بوار، چوارچێوە، تان‌وپۆ، زەمینە، تەختار، دەق، پێکەوەچنراو،	ھەل‌ومەرج، بارودۆخ، ڕەوش
 """),
                           const DefinitionKurdish(
                               text:
@@ -212,7 +212,7 @@ class EnglishEntrycontext extends StatelessWidget {
                                             "The government must consider the context of the protests."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت دەبێت هەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
+                                            "حکومەت دەبێت ھەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycontext extends StatelessWidget {
                                             "His decision can only be understood in context."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتارەکەی تەنها لە هەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
+                                            "وتارەکەی تەنھا لە ھەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycontext extends StatelessWidget {
                                             "I think it's important to put this into context."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێموایە گرنگە یەمە بخرێتە هەلومەرجی خۆیەوە."),
+                                            "پێموایە گرنگە یەمە بخرێتە ھەلومەرجی خۆیەوە."),
                                   ],
                                 ),
                               ),
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: context (Derived forms: contexts)
+- Noun: context (derived forms: contexts)
 1. Discourse that surrounds a language unit and helps to determine its interpretation (= linguistic context, context of use)
  
 2. The set of facts or circumstances that surround a situation or event (= circumstance, setting)
@@ -518,7 +518,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
+    videoId: '8HEfIJlcFbs',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
+    videoId: 'Cxqca4RQd_M',
     startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
+    videoId: 'v6yg4ImnYwA',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SEZu7K5tGxw?t=',
+    videoId: 'SEZu7K5tGxw',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
+    videoId: 'CaaJyRvvaq8',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -668,7 +668,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
+    videoId: 'Fr-qagv7ig0',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(

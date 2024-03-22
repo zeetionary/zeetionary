@@ -197,7 +197,7 @@ class EnglishEntrycommunism extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) باوەڕ بە کۆمەڵگە کە چینی تێدا نییە و هەموو شتێک لەلایەن ئەندامانی کۆمەڵگەکەوە خاوەندارێتی دەکرێت و هەر کەسێک بەپێی توانای خۆی کار دەکات و ئەوەندە وەردەگرێت کە پێویستییەتی؛ سیستەمێکی حکومڕانی لەم شێوەیە"),
+                                  "١. (ناو) باوەڕ بە کۆمەڵگە کە چینی تێدا نییە و ھەموو شتێک لەلایەن ئەندامانی کۆمەڵگەکەوە خاوەندارێتی دەکرێت و ھەر کەسێک بەپێی توانای خۆی کار دەکات و ئەوەندە وەردەگرێت کە پێویستییەتی؛ سیستەمێکی حکومڕانی لەم شێوەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrycommunism extends StatelessWidget {
                                             "Even many who disliked communism saw merit in his ideas."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنانەت زۆرێک لەوانەشی باوەڕیان بە کۆمیونیزم نەبوو بەهاکەیان دەبینی  ."),
+                                            "تەنانەت زۆرێک لەوانەشی باوەڕیان بە کۆمیونیزم نەبوو بەھاکەیان دەبینی  ."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: communism (Derived forms: communisms)
+- Noun: communism (derived forms: communisms)
 1. A form of socialism that abolishes private ownership
  
 2. A political theory favouring collectivism in a classless society

@@ -194,7 +194,7 @@ class EnglishEntrycock extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کەڵەشێر، کەڵەباب، کووک،	نێر، جوڕەـ (لە لێکدانا)،	شێرە (ئا و هتد)،	چەخماخە، چەکوش (تفەنگ)،	ئامادەی تەقاندنەوە، دۆخی سوارکراو.	هەڵیت‌وپڵیت، حەلەق‌ومەلەق،	نافەرمی ڕووداری، ڕووهەڵماڵراوی،	براکەم، کاکە (بۆ پرسینی ناونیشان)،	نافەرمی کیر، کێر، چووک،	پێشەوا، سەرۆک، سەرگەورە، سەردەستە،	لاردانان (وەکوو کڵاو)
+کوردی: کەڵەشێر، کەڵەباب، کووک،	نێر، جوڕەـ (لە لێکدانا)،	شێرە (ئا و ھتد)،	چەخماخە، چەکوش (تفەنگ)،	ئامادەی تەقاندنەوە، دۆخی سوارکراو.	ھەڵیت‌وپڵیت، حەلەق‌ومەلەق،	نافەرمی ڕووداری، ڕووھەڵماڵراوی،	براکەم، کاکە (بۆ پرسینی ناونیشان)،	نافەرمی کیر، کێر، چووک،	پێشەوا، سەرۆک، سەرگەورە، سەردەستە،	لاردانان (وەکوو کڵاو)
 """),
                           const DefinitionKurdish(text: "١. (ناو) کەڵەشێر"),
                           Row(
@@ -224,7 +224,7 @@ class EnglishEntrycock extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) نێرینەی هەر باڵندەیەک"),
+                              text: "٢. (ناو) نێرینەی ھەر باڵندەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -422,7 +422,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cock (Derived forms: cocks)
+- Noun: cock (derived forms: cocks)
 1. Adult male chicken (= rooster)
  
 2. Adult male bird
@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
  
 6. [vulgar] Obscene term for penis
 
-- Verb: cock (Derived forms: cocked, cocking, cocks)
+- Verb: cock (derived forms: cocked, cocking, cocks)
 1. Tilt or slant to one side
 "cock one's head"
  

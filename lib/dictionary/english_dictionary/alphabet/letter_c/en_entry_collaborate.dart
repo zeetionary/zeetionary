@@ -193,11 +193,11 @@ class EnglishEntrycollaborate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاودەستی کردن، پێکەوە کار کردن
+کوردی: ھاودەستی کردن، پێکەوە کار کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) پێکەوە کارکردن لەگەڵ کەسێک بۆ بەدەستهێنان یان بەرهەمهێنانی شتێک"),
+                                  "١. (کردار) پێکەوە کارکردن لەگەڵ کەسێک بۆ بەدەستھێنان یان بەرھەمھێنانی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycollaborate extends StatelessWidget {
                                             "Researchers around the world are collaborating to develop a new vaccine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توێژەران لە جیهانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە."),
+                                            "توێژەران لە جیھانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntrycollaborate extends StatelessWidget {
                                             "He was accused of collaborating with the enemy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تۆمەتبارکرا بە هاودەستی لەگەڵ دووژمندا."),
+                                            "تۆمەتبارکرا بە ھاودەستی لەگەڵ دووژمندا."),
                                   ],
                                 ),
                               ),
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: collaborate (Derived forms: collaborated, collaborates, collaborating)
+- Verb: collaborate (derived forms: collaborated, collaborates, collaborating)
 1. Work together on a common enterprise or project (= join forces, cooperate, co-operate)
 "We collaborated with another research group";
  

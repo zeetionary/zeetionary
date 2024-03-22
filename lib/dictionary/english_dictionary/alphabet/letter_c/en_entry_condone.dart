@@ -207,7 +207,7 @@ class EnglishEntrycondone extends StatelessWidget {
                                             "Terrorism can never be condoned."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیرۆریزم نابێت هەرگیز چاوپۆشێ لێبکرێت."),
+                                            "تیرۆریزم نابێت ھەرگیز چاوپۆشێ لێبکرێت."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycondone extends StatelessWidget {
                                             "The college cannot condone any behaviour that involves illicit drugs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆلێژەکە هیچ هەڵسوکەوتێک چاوپۆشێ لێ ناکات کە پەیوەندیدارە بە مادەی هۆشبەری نایاسایی."),
+                                            "کۆلێژەکە ھیچ ھەڵسوکەوتێک چاوپۆشێ لێ ناکات کە پەیوەندیدارە بە مادەی ھۆشبەری نایاسایی."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: condone (Derived forms: condoned, condones, condoning)
+- Verb: condone (derived forms: condoned, condones, condoning)
 1. Excuse, overlook, or make allowances for; be lenient with (= excuse)
 "She condoned her husband's occasional infidelities";
 """,
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QhMO5SSmiaA?t=',
+    videoId: 'QhMO5SSmiaA',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j_y88KAPKW0?t=',
+    videoId: 'j_y88KAPKW0',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHUHgk8xCs0?t=',
+    videoId: 'GHUHgk8xCs0',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsMHr6Njwuc?t=',
+    videoId: 'tsMHr6Njwuc',
     startSeconds: 719,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F9sH-3AoF88?t=',
+    videoId: 'F9sH-3AoF88',
     startSeconds: 823,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jQO-OrjpybQ?t=',
+    videoId: 'jQO-OrjpybQ',
     startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TEdPKfPpDug?t=',
+    videoId: 'TEdPKfPpDug',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -193,11 +193,11 @@ class EnglishEntrycongenial extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خۆش، بەردڵ، لەبەردڵان، دڵ‌گوشاد، دڵ‌فەرێح، دڵگیر،	گونجاو، کارخۆش، هاوبیر، ڕێک‌کەوتوو، هاوخوو، پێکەوەهەڵکردوو
+کوردی: خۆش، بەردڵ، لەبەردڵان، دڵ‌گوشاد، دڵ‌فەرێح، دڵگیر،	گونجاو، کارخۆش، ھاوبیر، ڕێک‌کەوتوو، ھاوخوو، پێکەوەھەڵکردوو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) کەسێک کە خۆشە کاتی لەگەڵ بەسەر ببەیت بەهۆی ئەوەی حەز و خولیاکانی وەک تۆیە"),
+                                  "١. (ھاوەڵناو) کەسێک کە خۆشە کاتی لەگەڵ بەسەر ببەیت بەھۆی ئەوەی حەز و خولیاکانی وەک تۆیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycongenial extends StatelessWidget {
                                             "She found him congenial because they shared a love for science and reading."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی هاوبەشیان بۆ زانست و خوێندنەوە هەبوو."),
+                                            "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی ھاوبەشیان بۆ زانست و خوێندنەوە ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -228,7 +228,7 @@ class EnglishEntrycongenial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) شوێنێک کە خۆشە بەهۆی ئەوەی دڵت پێی دەکرێتەوە"),
+                                  "٢. (ھاوەڵناو) شوێنێک کە خۆشە بەھۆی ئەوەی دڵت پێی دەکرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntrycongenial extends StatelessWidget {
                                             "The job was particularly congenial to him because it allowed him to work independently."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارەکە دڵگیر بوو لای چونکە دەیهێشت سەربەخۆ کار بکات."),
+                                            "کارەکە دڵگیر بوو لای چونکە دەیھێشت سەربەخۆ کار بکات."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycongenial extends StatelessWidget {
                                             "The climate in the region was congenial for growing grapes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاو و هەوای هەرێمەکە گونجاو بوو بۆ چاندنی ترێ."),
+                                            "ئاو و ھەوای ھەرێمەکە گونجاو بوو بۆ چاندنی ترێ."),
                                   ],
                                 ),
                               ),
@@ -405,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2OEwbocwYF8?t=',
+    videoId: '2OEwbocwYF8',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/48cWFG-f2eA?t=',
+    videoId: '48cWFG-f2eA',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sZC6-u13-dM?t=',
+    videoId: 'sZC6-u13-dM',
     startSeconds: 6196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KxY0H1POjfU?t=',
+    videoId: 'KxY0H1POjfU',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p_-VQM6ypnU?t=',
+    videoId: 'p_-VQM6ypnU',
     startSeconds: 904,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EexZjx3YOuQ?t=',
+    videoId: 'EexZjx3YOuQ',
     startSeconds: 1750,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z0-Q3Jl7vng?t=',
+    videoId: 'z0-Q3Jl7vng',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(

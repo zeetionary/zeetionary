@@ -547,7 +547,7 @@ class EnglishEntryconcern extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بابەتی پێخۆش‌بوو، باسی بابەتی (دڵ)، بابەت یان پرسی جێی سەرنج،	هۆگری، دڵبەستەیی،	دەخڵ، پێوەندی، بەر،	سەرنج، ئاگاداری، ئاگالێ‌بوون، چاوبەسەرەوەبوون،	نیگەرانی، دڵەڕاوکێ، دڵ‌لەدوایی، ناڕەحەتی، مایەی نگەرانی،	کار و کاسپی، کار، ئەرک، پەیور،	بەرپرسایەتی،	کۆمپانیا، نێوکۆیی،	دامەزراوە کارداری یان پیشەسازی،	بەش، پشک
+کوردی: بابەتی پێخۆش‌بوو، باسی بابەتی (دڵ)، بابەت یان پرسی جێی سەرنج،	ھۆگری، دڵبەستەیی،	دەخڵ، پێوەندی، بەر،	سەرنج، ئاگاداری، ئاگالێ‌بوون، چاوبەسەرەوەبوون،	نیگەرانی، دڵەڕاوکێ، دڵ‌لەدوایی، ناڕەحەتی، مایەی نگەرانی،	کار و کاسپی، کار، ئەرک، پەیور،	بەرپرسایەتی،	کۆمپانیا، نێوکۆیی،	دامەزراوە کارداری یان پیشەسازی،	بەش، پشک
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) کاریگەری کردن لە کەسێک/شتێک"),
@@ -589,7 +589,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "Please pay attention because this information concerns all of you."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تکایە سەرنج بدەن چونکە ئەم زانیارییە پەیوەندی بە هەموانەوە هەیە."),
+                                            "تکایە سەرنج بدەن چونکە ئەم زانیارییە پەیوەندی بە ھەموانەوە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -617,7 +617,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "The letter is for both of us, but it mainly concerns you."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەکە بۆ هەردووکمانە، بەڵام زیاتر پەیوەندی بە تۆوە هەیە."),
+                                            "نامەکە بۆ ھەردووکمانە، بەڵام زیاتر پەیوەندی بە تۆوە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -647,7 +647,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "The story concerns the prince's efforts to rescue Pamina."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چیرۆکەکە دەربارەی هەوڵەکانی شازادەیە بۆ ڕزگارکردنی پامینا."),
+                                            "چیرۆکەکە دەربارەی ھەوڵەکانی شازادەیە بۆ ڕزگارکردنی پامینا."),
                                   ],
                                 ),
                               ),
@@ -811,7 +811,7 @@ class EnglishEntryconcern extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) نیگەرانی، بەتایبەتی وەک هەستێکی گشتگیر"),
+                                  "٥. (ناو) نیگەرانی، بەتایبەتی وەک ھەستێکی گشتگیر"),
                           Row(
                             children: [
                               const Expanded(
@@ -822,7 +822,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "Villagers expressed concern about the level of traffic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوندنشینەکان نیگەرانییان دەربڕی سەبارەت بە ئاستی هاتووچۆ."),
+                                            "گوندنشینەکان نیگەرانییان دەربڕی سەبارەت بە ئاستی ھاتووچۆ."),
                                   ],
                                 ),
                               ),
@@ -850,7 +850,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "There is growing concern about violence in the media."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیگەرانی گەشەسەندوو هەیە لەسەر توندوتیژی کە میدیادا."),
+                                            "نیگەرانی گەشەسەندوو ھەیە لەسەر توندوتیژی کە میدیادا."),
                                   ],
                                 ),
                               ),
@@ -878,7 +878,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "She hasn't been seen for four days and there is concern for her safety."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ چوار ڕۆژ دەبێت نەبینراوە و نیگەرانی هەیە بۆ سەلامەتیی."),
+                                            "بۆ چوار ڕۆژ دەبێت نەبینراوە و نیگەرانی ھەیە بۆ سەلامەتیی."),
                                   ],
                                 ),
                               ),
@@ -965,7 +965,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "I appreciate everyone's concern and help at this difficult time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵەڕاوکێ و یارمەتی هەموان بەرزدەنرخێنم لەم کاتە سەختەدا."),
+                                            "دڵەڕاوکێ و یارمەتی ھەموان بەرزدەنرخێنم لەم کاتە سەختەدا."),
                                   ],
                                 ),
                               ),
@@ -992,7 +992,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                         text:
                                             "Thanks for your concern and sympathy."),
                                     ExampleSentenceKurdish(
-                                        text: "سوپاس بۆ خەمخۆری و هاوسۆزیت."),
+                                        text: "سوپاس بۆ خەمخۆری و ھاوسۆزیت."),
                                   ],
                                 ),
                               ),
@@ -1012,7 +1012,7 @@ class EnglishEntryconcern extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شتێک کە گرنگە بۆ کەسێک، دامەزراوەیەک، هتد"),
+                                  "٧. (ناو) شتێک کە گرنگە بۆ کەسێک، دامەزراوەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1071,7 +1071,7 @@ class EnglishEntryconcern extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) شتێک کە بەرپرسیاریەتیتە، یان مافت هەیە بیزانیت"),
+                                  "٨. (ناو) شتێک کە بەرپرسیاریەتیتە، یان مافت ھەیە بیزانیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1108,7 +1108,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "How much money I make is none of your concern."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چەندە پارە قازانج دەکەم هیچ پەیوەندی پێتەوە نییە."),
+                                            "چەندە پارە قازانج دەکەم ھیچ پەیوەندی پێتەوە نییە."),
                                   ],
                                 ),
                               ),
@@ -1138,7 +1138,7 @@ class EnglishEntryconcern extends StatelessWidget {
                                             "It started slowly, but the company is now a going concern (= doing business effectively)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هێواشی دەستیپێکرد، بەڵام کۆمپانیاکە لە ئێستادا بازرگانییەکی تۆکمەیە."),
+                                            "بە ھێواشی دەستیپێکرد، بەڵام کۆمپانیاکە لە ئێستادا بازرگانییەکی تۆکمەیە."),
                                   ],
                                 ),
                               ),
@@ -1237,12 +1237,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: concern (Derived forms: concerned, concerns, concerning)
+- Verb: concern (derived forms: concerned, concerns, concerning)
 1. Be relevant to (= refer, pertain, relate, come to, bear on, touch, touch on, have to do with)
  
 2. Be on the mind of (= interest, occupy, worry)
 
-- Noun: concern (Derived forms: concerns)
+- Noun: concern (derived forms: concerns)
 1. Something that interests you because it is important or affects you
 "the safety of the ship is the captain's concern"
  
@@ -1288,7 +1288,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 462,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1313,7 +1313,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    videoId: 'a_TSR_v07m0',
     startSeconds: 278,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1338,7 +1338,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DTvS9lvRxZ8?t=',
+    videoId: 'DTvS9lvRxZ8',
     startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1363,7 +1363,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BxWw8AO4ZmI?t=',
+    videoId: 'BxWw8AO4ZmI',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1388,7 +1388,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AAGIi62-sAU?t=',
+    videoId: 'AAGIi62-sAU',
     startSeconds: 1594,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1413,7 +1413,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 1512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1438,7 +1438,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 890,
     autoPlay: true,
     params: const YoutubePlayerParams(

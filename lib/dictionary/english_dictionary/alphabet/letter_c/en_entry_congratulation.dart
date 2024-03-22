@@ -271,7 +271,7 @@ class EnglishEntrycongratulation extends StatelessWidget {
                                         text:
                                             "‘We're getting married!’ ‘Congratulations!’"),
                                     ExampleSentenceKurdish(
-                                        text: "'هاوسەرگیری دەکەین!' 'پیرۆزە!'"),
+                                        text: "'ھاوسەرگیری دەکەین!' 'پیرۆزە!'"),
                                   ],
                                 ),
                               ),
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: congratulation (Derived forms: congratulations)
+- Noun: congratulation (derived forms: congratulations)
 1. The act of acknowledging that someone has an occasion for celebration (= felicitation)
  
 2. (usually plural) an expression of pleasure at the success or good fortune of another (= felicitation)
@@ -409,7 +409,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 490,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -434,7 +434,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OcgxHjcvz4Y?t=',
+    videoId: 'OcgxHjcvz4Y',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -459,7 +459,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CvjoXdC-WkM?t=',
+    videoId: 'CvjoXdC-WkM',
     startSeconds: 395,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +484,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yWmeBoVXwrE?t=',
+    videoId: 'yWmeBoVXwrE',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +509,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vqfHv7gOML0?t=',
+    videoId: 'vqfHv7gOML0',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +534,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lhmKCkZusMo?t=',
+    videoId: 'lhmKCkZusMo',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +559,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hEdRBpjpgz0',
+    videoId: 'hEdRBpjpgz0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

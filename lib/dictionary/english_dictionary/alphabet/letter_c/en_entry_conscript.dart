@@ -262,7 +262,7 @@ class EnglishEntryconscript extends StatelessWidget {
                         text:
                         "Over half the army was composed of conscripts."),
                         ExampleSentenceKurdish(
-                        text: "سەروو نیوەی سوپاکە لە سەربازی زۆرەملێ پێکهاتبوو."),
+                        text: "سەروو نیوەی سوپاکە لە سەربازی زۆرەملێ پێکھاتبوو."),
                         ],
                         ),
                         ),
@@ -361,10 +361,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conscript (Derived forms: conscripts)
+- Noun: conscript (derived forms: conscripts)
 1. (military) someone who is drafted into military service (= draftee, inductee, selectee [US])
 
-- Verb: conscript (Derived forms: conscripting, conscripted, conscripts)
+- Verb: conscript (derived forms: conscripting, conscripted, conscripts)
 1. Enrol into service compulsorily
 "The men were conscripted"
 """,
@@ -399,7 +399,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    videoId: 'b4wRdoWpw0w',
     startSeconds: 1024,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TBE1pFBoiTY?t=',
+    videoId: 'TBE1pFBoiTY',
     startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ko6qiSKXAGA?t=',
+    videoId: 'ko6qiSKXAGA',
     startSeconds: 833,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fZ82h9tV5KQ?t=',
+    videoId: 'fZ82h9tV5KQ',
     startSeconds: 1025,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AIqxfBhlwx0?t=',
+    videoId: 'AIqxfBhlwx0',
     startSeconds: 614,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L7INxfISGFs?t=',
+    videoId: 'L7INxfISGFs',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(

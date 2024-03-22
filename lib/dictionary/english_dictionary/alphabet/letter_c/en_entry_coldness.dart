@@ -195,7 +195,7 @@ class EnglishEntrycoldness extends StatelessWidget {
 کوردی: ساردی،	ساردوسڕی، بێ‌مەیلی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) ساردوسڕی لە هەڵسوکەوتدا"),
+                              text: "١. (ناو) ساردوسڕی لە ھەڵسوکەوتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -234,7 +234,7 @@ class EnglishEntrycoldness extends StatelessWidget {
                                             "The icy coldness of the water revived her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرمای تەزێنەری ئاوەکە هۆشی هێنایەوە بەر."),
+                                            "سەرمای تەزێنەری ئاوەکە ھۆشی ھێنایەوە بەر."),
                                   ],
                                 ),
                               ),

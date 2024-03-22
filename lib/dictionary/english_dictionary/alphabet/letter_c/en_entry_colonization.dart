@@ -196,7 +196,7 @@ class EnglishEntrycolonization extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کاری داگیرکردنی ناوچەیەک یان وڵاتێک کە هی خۆت نییە و ناردنی خەڵکی خۆت بۆ نیشتەجێبوون لێی"),
+                                  "١. (ناو) کاری داگیرکردنی ناوچەیەک یان وڵاتێک کە ھی خۆت نییە و ناردنی خەڵکی خۆت بۆ نیشتەجێبوون لێی"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycolonization extends StatelessWidget {
                                             "European colonization of the Americas, with its cycle of war, disease and slavery, decimated the indigenous peoples."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆلۆنی‌سازی ئەورووپییەکان لە ئەمریکا، بە جەنگ، نەخۆشی، و کۆیلایەتی، کۆتایی بە دانیشتووانە ڕەسەنەکان هێنا."),
+                                            "کۆلۆنی‌سازی ئەورووپییەکان لە ئەمریکا، بە جەنگ، نەخۆشی، و کۆیلایەتی، کۆتایی بە دانیشتووانە ڕەسەنەکان ھێنا."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colonization (Derived forms: colonizations)
+- Noun: colonization (derived forms: colonizations)
 1. The act of colonizing; the establishment of colonies (= colonisation [Brit], settlement)
 "the British colonization of America";
 """,

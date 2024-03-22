@@ -193,7 +193,7 @@ class EnglishEntrycolleague extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوکار،	هاوڕێباز، هاوخەبات
+کوردی: ھاوکار،	ھاوڕێباز، ھاوخەبات
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کاری لەگەڵدا دەکەیت"),
@@ -207,7 +207,7 @@ class EnglishEntrycolleague extends StatelessWidget {
                                             "We were friends and colleagues for more than 20 years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوڕێ و هاوکار بووین بۆ زیاتر لە ٢٠ ساڵ."),
+                                            "ھاوڕێ و ھاوکار بووین بۆ زیاتر لە ٢٠ ساڵ."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycolleague extends StatelessWidget {
                                             "Scientists are now working with colleagues in Arizona to develop a model."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زاناکان لە ئێستادا لەگەڵ هاوپیشەکانیان کاردەکەن بۆ درووستکردنی نموونەیەک."),
+                                            "زاناکان لە ئێستادا لەگەڵ ھاوپیشەکانیان کاردەکەن بۆ درووستکردنی نموونەیەک."),
                                   ],
                                 ),
                               ),
@@ -263,7 +263,7 @@ class EnglishEntrycolleague extends StatelessWidget {
                                             "I've talked to colleagues at other universities about it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قسەم لەگەڵ هاوکاران لە زانکۆکانی دیکە کردووە سەبارەت بەوە."),
+                                            "قسەم لەگەڵ ھاوکاران لە زانکۆکانی دیکە کردووە سەبارەت بەوە."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colleague (Derived forms: colleagues)
+- Noun: colleague (derived forms: colleagues)
 1. An associate that one works with (= co-worker, fellow worker, workfellow, coworker)
  
 2. A person who is member of one's class or profession (= confrère, fellow)

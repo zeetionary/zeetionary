@@ -194,11 +194,11 @@ class EnglishEntryclinch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بزماری پەرچ،	گیرە، بەست،	باوەش، ئامێز، حمێز،	دەست لێ‌هەڵپێکان (لە شەڕەمشت‌دا)
+کوردی: بزماری پەرچ،	گیرە، بەست،	باوەش، ئامێز، حمێز،	دەست لێ‌ھەڵپێکان (لە شەڕەمشت‌دا)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) سەرکەوتن لە بەدەستهێنان یان بردنەوەی شتێک"),
+                                  "١. (کردار) سەرکەوتن لە بەدەستھێنان یان بردنەوەی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -396,7 +396,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clinch (Derived forms: clinching, clinches, clinched)
+- Verb: clinch (derived forms: clinching, clinches, clinched)
 1. Secure or fasten by flattening the ends of nails or bolts
 "The girder was clinched into the wall"
  
@@ -413,7 +413,7 @@ ${englishMeaningConst.text}
 6. Settle conclusively
 "clinch a deal"
 
-- Noun: clinch (Derived forms: clinches)
+- Noun: clinch (derived forms: clinches)
 1. (boxing) the act of one boxer holding onto the other to avoid being hit and to rest momentarily
  
 2. A small slip noose made with seizing (= clench)

@@ -211,7 +211,7 @@ class EnglishEntrycongressman extends StatelessWidget {
                                             "The congressman delivered a speech on the floor of the House of Representatives."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆنگرێسمانەکە وتارێکی پێشکەشکرد لە هۆڵی ئەنجوومەنی نوێنەران."),
+                                            "کۆنگرێسمانەکە وتارێکی پێشکەشکرد لە ھۆڵی ئەنجوومەنی نوێنەران."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntrycongressman extends StatelessWidget {
                                             "The congresswoman's speech on climate change was widely praised."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتاری ژنە کۆگرێسمانەکە لەسەر گۆڕانی ئاووهەوا بە بەرفراوانی ستایش کرا."),
+                                            "وتاری ژنە کۆگرێسمانەکە لەسەر گۆڕانی ئاووھەوا بە بەرفراوانی ستایش کرا."),
                                   ],
                                 ),
                               ),
@@ -342,7 +342,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: congressman (Derived forms: congressmen)
+- Noun: congressman (derived forms: congressmen)
 1. A member of the United States House of Representatives (= congresswoman, representative, congressperson)
 """,
   );
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VFR37y1-81M?t=',
+    videoId: 'VFR37y1-81M',
     startSeconds: 1196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4l8M3dQlUwg?t=',
+    videoId: '4l8M3dQlUwg',
     startSeconds: 815,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C-qYgs_yOXA?t=',
+    videoId: 'C-qYgs_yOXA',
     startSeconds: 10113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o1RS7D_szJo?t=',
+    videoId: 'o1RS7D_szJo',
     startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8tT3FhOA4-g?t=',
+    videoId: '8tT3FhOA4-g',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FghSUttp6Lc?t=',
+    videoId: 'FghSUttp6Lc',
     startSeconds: 833,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ajavsMbCapY?t=',
+    videoId: 'ajavsMbCapY',
     startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -192,7 +192,7 @@ class EnglishEntrycontingency extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێکەوتن، ڕوودان، هەڵکەوتن، پێش‌هاتن، ڕووداو،	لەوانەیی‌بوون، ڕەنگەیی، شیمانە، شیان، ئەگەر، ڕێ‌تێچوون،	ئەگەری ڕوودان یان ڕوونەدان،	(فەلسەفە) نەبوونی پێویستی
+کوردی: ڕێکەوتن، ڕوودان، ھەڵکەوتن، پێش‌ھاتن، ڕووداو،	لەوانەیی‌بوون، ڕەنگەیی، شیمانە، شیان، ئەگەر، ڕێ‌تێچوون،	ئەگەری ڕوودان یان ڕوونەدان،	(فەلسەفە) نەبوونی پێویستی
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycontingency extends StatelessWidget {
                                             "We must consider all possible contingencies."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت خۆمان بۆ هەموو ئەگەرەکان ئامادە بکەین."),
+                                            "دەبێت خۆمان بۆ ھەموو ئەگەرەکان ئامادە بکەین."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntrycontingency extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەندێک پارە کە هەڵیدەگریت بۆ پارەدانی زیاتر"),
+                                  "٢. (ناو) ھەندێک پارە کە ھەڵیدەگریت بۆ پارەدانی زیاتر"),
                           Row(
                             children: [
                               const Expanded(
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contingency (Derived forms: contingencies)
+- Noun: contingency (derived forms: contingencies)
 1. A possible event, occurrence or result (= eventuality, contingence)
  
 2. The state of being contingent on something
@@ -379,7 +379,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ5GfDbjos8?t=',
+    videoId: 'iQ5GfDbjos8',
     startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -404,7 +404,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BlacyJsokzo?t=',
+    videoId: 'BlacyJsokzo',
     startSeconds: 542,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z-wQnWUhX5Y?t=',
+    videoId: 'z-wQnWUhX5Y',
     startSeconds: 658,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h70kbIzPgig?t=',
+    videoId: 'h70kbIzPgig',
     startSeconds: 460,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/giDsW2NCDkE?t=',
+    videoId: 'giDsW2NCDkE',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x3KknaIxJ_g?t=',
+    videoId: 'x3KknaIxJ_g',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kRO5jOa06Qw?t=',
+    videoId: 'kRO5jOa06Qw',
     startSeconds: 4196,
     autoPlay: true,
     params: const YoutubePlayerParams(

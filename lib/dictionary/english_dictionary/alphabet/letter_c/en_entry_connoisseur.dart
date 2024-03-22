@@ -197,7 +197,7 @@ class EnglishEntryconnoisseur extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شارەزایەک لەسەر بابەتی جوانی، کوالێتی، یان شارەزایی هونەری، خواردن، یان میوزیک"),
+                                  "١. (ناو) شارەزایەک لەسەر بابەتی جوانی، کوالێتی، یان شارەزایی ھونەری، خواردن، یان میوزیک"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconnoisseur extends StatelessWidget {
                                             "Only the true connoisseur could tell the difference between these two wines."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها شارەزایەکی تەواو دەتوانێت جیاوازی ئەم دوو بیرە بکات."),
+                                            "تەنھا شارەزایەکی تەواو دەتوانێت جیاوازی ئەم دوو بیرە بکات."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryconnoisseur extends StatelessWidget {
                                             "He was also a connoisseur of Renaissance art."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارەزایەکی هونەری ڕێنیسانس بوو."),
+                                            "شارەزایەکی ھونەری ڕێنیسانس بوو."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: connoisseur (Derived forms: connoisseurs)
+- Noun: connoisseur (derived forms: connoisseurs)
 1. An expert able to appreciate a field; especially in the fine arts (= cognoscente)
 "the discriminating eye of the connoisseur";
 """,
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cvWzygnOAJ0?t=',
+    videoId: 'cvWzygnOAJ0',
     startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mYEBj5KIHVw?t=',
+    videoId: 'mYEBj5KIHVw',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KRkgIjfZRXc?t=',
+    videoId: 'KRkgIjfZRXc',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EkIbC5JqVck?t=',
+    videoId: 'EkIbC5JqVck',
     startSeconds: 130,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ihwAF-zahsA?t=',
+    videoId: 'ihwAF-zahsA',
     startSeconds: 634,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H-iM_JhNzIQ?t=',
+    videoId: 'H-iM_JhNzIQ',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vA_j6rjsBec?t=',
+    videoId: 'vA_j6rjsBec',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(

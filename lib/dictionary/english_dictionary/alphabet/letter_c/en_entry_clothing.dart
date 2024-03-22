@@ -391,7 +391,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clothing (Derived forms: clothings)
+- Noun: clothing (derived forms: clothings)
 1. A covering designed to be worn on a person's body (= article of clothing, vesture, wear, wearable, habiliment [archaic], togs [informal], threads [informal], duds [informal])
 "an article of clothing";
 """,

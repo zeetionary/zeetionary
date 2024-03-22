@@ -197,7 +197,7 @@ class EnglishEntrycompliment extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیاهەڵدان، تاریف(دان)، پەسن، ستایشت، دەستخۆشی،	ڕێز، حورمەت،	ڕووپامایی، زمان‌لووسی
+کوردی: پیاھەڵدان، تاریف(دان)، پەسن، ستایشت، دەستخۆشی،	ڕێز، حورمەت،	ڕووپامایی، زمان‌لووسی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ستایش و دەستخۆشی"),
@@ -287,7 +287,7 @@ class EnglishEntrycompliment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هیوای باش خواستن یان وتەی باش بەتایبەتی کاتێک کە پەسنی کەسێک دەدەیت یان دەستخۆشی لێ دەکەیت"),
+                                  "٢. (ناو) ھیوای باش خواستن یان وتەی باش بەتایبەتی کاتێک کە پەسنی کەسێک دەدەیت یان دەستخۆشی لێ دەکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -296,7 +296,7 @@ class EnglishEntrycompliment extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "My compliments to the chef!"),
                                     ExampleSentenceKurdish(
-                                        text: "دەستخۆشیم هەیە بۆ شێف!"),
+                                        text: "دەستخۆشیم ھەیە بۆ شێف!"),
                                   ],
                                 ),
                               ),
@@ -481,10 +481,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compliment (Derived forms: compliments)
+- Noun: compliment (derived forms: compliments)
 1. A remark (or act) expressing praise and admiration
 
-- Verb: compliment (congratulate) (Derived forms: compliments, complimented, complimenting)
+- Verb: compliment (congratulate) (derived forms: compliments, complimented, complimenting)
 1. Say something to someone that expresses praise
 "He complimented her on her last physics paper";
  
@@ -521,7 +521,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kGg44zdgHYM?t=',
+    videoId: 'kGg44zdgHYM',
     startSeconds: 635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wowU52JwKXI?t=',
+    videoId: 'wowU52JwKXI',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XnbCSboujF4?t=',
+    videoId: 'XnbCSboujF4',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -621,7 +621,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ea4Tq7HB7kU?t=',
+    videoId: 'ea4Tq7HB7kU',
     startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -646,7 +646,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J8ZOttyAs9Y?t=',
+    videoId: 'J8ZOttyAs9Y',
     startSeconds: 274,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -671,7 +671,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yWhU40m-6uU?t=',
+    videoId: 'yWhU40m-6uU',
     startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(

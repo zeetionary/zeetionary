@@ -237,7 +237,7 @@ class EnglishEntrycomplexion extends StatelessWidget {
                                             "Hughes helped change the complexion of Hollywood."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوس یارمەتیدەر بوو لە گۆڕینی وێنای هۆڵیوود."),
+                                            "ھیوس یارمەتیدەر بوو لە گۆڕینی وێنای ھۆڵیوود."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: complexion (Derived forms: complexions)
+- Noun: complexion (derived forms: complexions)
 1. The colouring of a person's face (= skin color [US], skin colour [Brit, Cdn])
  
 2. A combination that results from coupling or interlinking
@@ -349,7 +349,7 @@ ${englishMeaningConst.text}
  
 5. [archaic] A combination of elements (of dryness and warmth or of the four humours) that was once believed to determine a person's health and temperament
 
-- Verb: complexion (Derived forms: complexioning, complexioned, complexions)
+- Verb: complexion (derived forms: complexioning, complexioned, complexions)
 1. Give a certain colour to
 "The setting sun complexioned the hills"
 """,
@@ -384,7 +384,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 537,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -409,7 +409,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QhMO5SSmiaA?t=',
+    videoId: 'QhMO5SSmiaA',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -434,7 +434,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1QlsK3m-zSw?t=',
+    videoId: '1QlsK3m-zSw',
     startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -459,7 +459,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 1138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +484,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    videoId: 'qg2nGY1aqlg',
     startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +509,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zN2DYcKoa-I?t=',
+    videoId: 'zN2DYcKoa-I',
     startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +534,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FzmxeHJBZf4?t=',
+    videoId: 'FzmxeHJBZf4',
     startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coarsen (Derived forms: coarsening, coarsens, coarsened)
+- Verb: coarsen (derived forms: coarsening, coarsens, coarsened)
 1. Make or become coarse or coarser
 "coarsen the surface"; "Their minds coarsened"
  

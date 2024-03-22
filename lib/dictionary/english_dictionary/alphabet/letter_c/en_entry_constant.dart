@@ -200,7 +200,7 @@ class EnglishEntryconstant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: جێگیر، خۆگرتوو، چەسپیو، نەگۆڕ، بنگر، چەقیو، سەقام‌گیر، سەقام‌گرتوو، نەگۆڕ،	بەردەوام، یەکبینە، هەمیشەیی، لەسەریەک، یەکڕیز،	وەفادار، بەوەفا، بەئەمەگ، یەکلا، یەکڕوو، یەکڕەنگ، دڵسۆز،	شتی جێگیر و نەگۆڕ،	بڕ یان ژمارەیەکی جێگیر
+کوردی: جێگیر، خۆگرتوو، چەسپیو، نەگۆڕ، بنگر، چەقیو، سەقام‌گیر، سەقام‌گرتوو، نەگۆڕ،	بەردەوام، یەکبینە، ھەمیشەیی، لەسەریەک، یەکڕیز،	وەفادار، بەوەفا، بەئەمەگ، یەکلا، یەکڕوو، یەکڕەنگ، دڵسۆز،	شتی جێگیر و نەگۆڕ،	بڕ یان ژمارەیەکی جێگیر
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەردەوام ڕوودان"),
@@ -213,7 +213,7 @@ class EnglishEntryconstant extends StatelessWidget {
                                         text:
                                             "There were constant interruptions."),
                                     ExampleSentenceKurdish(
-                                        text: "پچڕانی بەردەوام هەبوو."),
+                                        text: "پچڕانی بەردەوام ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntryconstant extends StatelessWidget {
                                             "The ruined buildings serve as a constant reminder of the war."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بینا وێرانبووەکان بیرهێنەرەوەی بەردەوامی جەنگەکە بوون."),
+                                            "بینا وێرانبووەکان بیرھێنەرەوەی بەردەوامی جەنگەکە بوون."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ class EnglishEntryconstant extends StatelessWidget {
                                                     "This entrance is in constant use."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەروازەکە لە بەکارهێنانی بەردەوامدایە."),
+                                                    "دەروازەکە لە بەکارھێنانی بەردەوامدایە."),
                                           ],
                                         ),
                                       ),
@@ -483,7 +483,7 @@ class EnglishEntryconstant extends StatelessWidget {
                                             "The mathematician used the constant \"π\" in his calculations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بیرکاریزانەکە نەگۆڕی 'π' ـی بەکارهێنا لە شیکارییەکەی."),
+                                            "بیرکاریزانەکە نەگۆڕی 'π' ـی بەکارھێنا لە شیکارییەکەی."),
                                   ],
                                 ),
                               ),
@@ -594,7 +594,7 @@ ${englishMeaningConst.text}
  
 4. (of a number) having an unchanging value (= fixed)
 
-- Noun: constant (Derived forms: constants)
+- Noun: constant (derived forms: constants)
 1. A quantity that does not vary (= constant quantity, invariable)
  
 2. A number representing a quantity assumed to have a fixed value in a specified mathematical context
@@ -631,7 +631,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZvTxFsJMUPM?t=',
+    videoId: 'ZvTxFsJMUPM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1IY93VzCa-Y?t=',
+    videoId: '1IY93VzCa-Y',
     startSeconds: 604,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_spuxXnul0U?t=',
+    videoId: '_spuxXnul0U',
     startSeconds: 1248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -731,7 +731,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1306,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -756,7 +756,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -781,7 +781,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zad6v8ZHzdg?t=',
+    videoId: 'Zad6v8ZHzdg',
     startSeconds: 636,
     autoPlay: true,
     params: const YoutubePlayerParams(

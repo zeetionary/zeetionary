@@ -202,7 +202,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەڵێنی، خۆبەستەیی، دەربەستی، گفت، سۆز، پەیمان،	بەرپرسایەتی، خستنەئەستۆ، لەمل‌گرتن،	گوناهـکردن، تووش‌بوون (گوناهـ)، دەس‌تیابوون،	سپاردن، پێ‌سپاردن، دانەدەست، بەدەستەوەدان،	تایبەتی‌دان، تەرخان‌دان، تەرخان‌کردن،	بڕیاری دەس‌بەسەری یا گرتن،	کار،	وەفاداری، بەئەمەگی، باوەڕ
+کوردی: بەڵێنی، خۆبەستەیی، دەربەستی، گفت، سۆز، پەیمان،	بەرپرسایەتی، خستنەئەستۆ، لەمل‌گرتن،	گوناھـکردن، تووش‌بوون (گوناھـ)، دەس‌تیابوون،	سپاردن، پێ‌سپاردن، دانەدەست، بەدەستەوەدان،	تایبەتی‌دان، تەرخان‌دان، تەرخان‌کردن،	بڕیاری دەس‌بەسەری یا گرتن،	کار،	وەفاداری، بەئەمەگی، باوەڕ
 """),
                           const DefinitionKurdish(
                               text:
@@ -245,7 +245,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                                             "They have failed to honour their commitments."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شکستیان هێناوە پابەندی بەڵێنەکانیان بن."),
+                                            "شکستیان ھێناوە پابەندی بەڵێنەکانیان بن."),
                                   ],
                                 ),
                               ),
@@ -306,7 +306,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                                                     "We're looking for a firm commitment from both sides."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە هیوای پابەندی پتەوین لە هەردوو لایەنەوە."),
+                                                    "بە ھیوای پابەندی پتەوین لە ھەردوو لایەنەوە."),
                                           ],
                                         ),
                                       ),
@@ -499,7 +499,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                                             "He's busy for the next month with filming commitments."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ مانگی داهاتوو سەرقاڵە بە کاری وێنەگرتنی فیلمەوە."),
+                                            "بۆ مانگی داھاتوو سەرقاڵە بە کاری وێنەگرتنی فیلمەوە."),
                                   ],
                                 ),
                               ),
@@ -559,7 +559,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                                             "I don't want to take on any more commitments."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەوێت هیچ بەرپرسیاریەتی دیکە لە ئەستۆ بگرم."),
+                                            "نامەوێت ھیچ بەرپرسیاریەتی دیکە لە ئەستۆ بگرم."),
                                   ],
                                 ),
                               ),
@@ -660,7 +660,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commitment (Derived forms: commitments)
+- Noun: commitment (derived forms: commitments)
 1. The trait of sincere and steadfast fixity of purpose (= committedness)
 "a man of energy and commitment";
  

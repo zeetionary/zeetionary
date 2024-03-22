@@ -397,7 +397,7 @@ class EnglishEntrycommission extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێ‌سپاردن،	ئەرک، کار، پەیور، بەڵێنی، دەربەندی،	کار پێ‌سپاردن، ڕاسپاردەیی، ڕاسپێری، فەرمانبەری،	بریکاری، نوێنەرایەتی،	بەرپرسایەتی، دەسەڵات،	لیژنە، لێژنە،	دەڵاڵی، دەڵاڵانە، کارانە، دەسبایی، دەس‌بوها، کۆمیسیۆن، کۆمسیۆن،	(گوناهـ)کردن، دەس‌تیابوون،	بڕیار، دەستوور، فەرمان،	پۆست یا پلەوپایەی سەربازی
+کوردی: پێ‌سپاردن،	ئەرک، کار، پەیور، بەڵێنی، دەربەندی،	کار پێ‌سپاردن، ڕاسپاردەیی، ڕاسپێری، فەرمانبەری،	بریکاری، نوێنەرایەتی،	بەرپرسایەتی، دەسەڵات،	لیژنە، لێژنە،	دەڵاڵی، دەڵاڵانە، کارانە، دەسبایی، دەس‌بوھا، کۆمیسیۆن، کۆمسیۆن،	(گوناھـ)کردن، دەس‌تیابوون،	بڕیار، دەستوور، فەرمان،	پۆست یا پلەوپایەی سەربازی
 """),
                           const DefinitionKurdish(
                               text:
@@ -412,7 +412,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "The commission is expected to report its findings next month."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمسیۆنەکە چاوەڕێ دەکرێت مانگی داهاتوو دۆزینەوەکانی ئاشکرا بکات."),
+                                            "کۆمسیۆنەکە چاوەڕێ دەکرێت مانگی داھاتوو دۆزینەوەکانی ئاشکرا بکات."),
                                   ],
                                 ),
                               ),
@@ -440,7 +440,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "The election commission found that neither candidate received enough votes to avoid a run-off."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمسیۆنی هەڵبژاردنەکە دۆزییەوە هیچ یەک لە کاندیدەکان دەنگی پێویستییان بەدەستنەهێنابوو بۆ دوورکەوتنەوە لە ڕووبەڕووبوونەوەی دووەم."),
+                                            "کۆمسیۆنی ھەڵبژاردنەکە دۆزییەوە ھیچ یەک لە کاندیدەکان دەنگی پێویستییان بەدەستنەھێنابوو بۆ دوورکەوتنەوە لە ڕووبەڕووبوونەوەی دووەم."),
                                   ],
                                 ),
                               ),
@@ -471,7 +471,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                                     "The defendant will be brought to trial before a military commission."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "گومانلێ‌کراوەکە هێنرایە پێش کۆمسیۆنێکی سەربازی."),
+                                                    "گومانلێ‌کراوەکە ھێنرایە پێش کۆمسیۆنێکی سەربازی."),
                                           ],
                                         ),
                                       ),
@@ -501,7 +501,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                                     "She was also a member of the commission on religious education."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەروەها ئەندانی کۆمسیۆنی پەروەردەی ئایینی بوو."),
+                                                    "ھەروەھا ئەندانی کۆمسیۆنی پەروەردەی ئایینی بوو."),
                                           ],
                                         ),
                                       ),
@@ -531,7 +531,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                                     "The government appointed an independent commission to investigate the causes of the disaster."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "حکومەت کۆمسیۆنێکی سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە هۆکاری ڕووداوەکە."),
+                                                    "حکومەت کۆمسیۆنێکی سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە ھۆکاری ڕووداوەکە."),
                                           ],
                                         ),
                                       ),
@@ -561,7 +561,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                                     "The government has set up a joint commission to consider the problem."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "حکومەت کۆمسیۆنی هاوبەشێ پێکهێناوە بۆ لێکۆڵینەوە لە کارەساتەکە."),
+                                                    "حکومەت کۆمسیۆنی ھاوبەشێ پێکھێناوە بۆ لێکۆڵینەوە لە کارەساتەکە."),
                                           ],
                                         ),
                                       ),
@@ -598,7 +598,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "You get a 10 per cent commission on everything you sell."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "١٠ لە سەدی دەڵاڵانە وەردەگریت بۆ هەر شتێک کە دەیفرۆشیت."),
+                                            "١٠ لە سەدی دەڵاڵانە وەردەگریت بۆ ھەر شتێک کە دەیفرۆشیت."),
                                   ],
                                 ),
                               ),
@@ -626,7 +626,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "He earned £2 000 in commission last month."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مانگی ڕابردوو ٢٠٠٠ پاوەندی بە دەڵاڵانە بەدەستهێنا."),
+                                            "مانگی ڕابردوو ٢٠٠٠ پاوەندی بە دەڵاڵانە بەدەستھێنا."),
                                   ],
                                 ),
                               ),
@@ -646,7 +646,7 @@ class EnglishEntrycommission extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) بڕە پارەیەک کە داوا دەکرێت لەلایەن بانکێک، هتد بۆ خزمەتگوزارییەک"),
+                                  "٣. (ناو) بڕە پارەیەک کە داوا دەکرێت لەلایەن بانکێک، ھتد بۆ خزمەتگوزارییەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -751,7 +751,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "He resigned his commission when he got married."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وازی لە ئەفسەرێتییەکەی هێنا کە هاوسەرگیری کرد."),
+                                            "وازی لە ئەفسەرێتییەکەی ھێنا کە ھاوسەرگیری کرد."),
                                   ],
                                 ),
                               ),
@@ -814,7 +814,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "The king commissioned portraits from foreign artists."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاشا داوای پۆرترەیتی لە هونەرمەندە بیانییەکان کرد."),
+                                            "پاشا داوای پۆرترەیتی لە ھونەرمەندە بیانییەکان کرد."),
                                   ],
                                 ),
                               ),
@@ -835,7 +835,7 @@ class EnglishEntrycommission extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (کردار) هەڵبژاردنی کەسێک وەک ئەفسەر"),
+                              text: "٧. (کردار) ھەڵبژاردنی کەسێک وەک ئەفسەر"),
                           Row(
                             children: [
                               const Expanded(
@@ -846,7 +846,7 @@ class EnglishEntrycommission extends StatelessWidget {
                                             "He has just been commissioned (as a) pilot officer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تازەگی وەک ئەفسەرێکی فڕۆکەوان هەڵبژێردراوە."),
+                                            "تازەگی وەک ئەفسەرێکی فڕۆکەوان ھەڵبژێردراوە."),
                                   ],
                                 ),
                               ),
@@ -947,7 +947,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commission (Derived forms: commissions)
+- Noun: commission (derived forms: commissions)
 1. A special group delegated to consider some matter (= committee)
 "a commission is a group that keeps minutes and loses hours";
  
@@ -971,7 +971,7 @@ ${englishMeaningConst.text}
 9. A special assignment that is given to a person or group (= mission, charge)
 "a confidential commission to London";
 
-- Verb: commission (Derived forms: commissions, commissioning, commissioned)
+- Verb: commission (derived forms: commissions, commissioning, commissioned)
 1. Put into commission; equip for service; of ships
  
 2. Place an order for

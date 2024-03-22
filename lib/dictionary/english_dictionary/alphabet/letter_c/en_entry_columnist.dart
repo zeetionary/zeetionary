@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: columnist (Derived forms: columnists)
+- Noun: columnist (derived forms: columnists)
 1. A journalist who writes editorials (= editorialist)
 "the columnist got his information by visiting nightclubs";
 """,

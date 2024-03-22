@@ -192,11 +192,11 @@ class EnglishEntryconditioning extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕاهێنان، فێرکردن،	(دەروون‌ناسی) مەرجی‌کردن، فێرکردن، مەرجاندن،	گونجاندن، سازاندن، دەق‌پێدان، دەقاندن، لواندن
+کوردی: ڕاھێنان، فێرکردن،	(دەروون‌ناسی) مەرجی‌کردن، فێرکردن، مەرجاندن،	گونجاندن، سازاندن، دەق‌پێدان، دەقاندن، لواندن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کاریگەری، ڕاهێنان، یان ئەزموون کە کەسێک یان ئاژەڵێک هەیەتی کە ڕای دەهێنێت بۆ دۆخێکی دیاریکراو"),
+                                  "١. (ناو) کاریگەری، ڕاھێنان، یان ئەزموون کە کەسێک یان ئاژەڵێک ھەیەتی کە ڕای دەھێنێت بۆ دۆخێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntryconditioning extends StatelessWidget {
                                             "Conditioning starts as soon as boys are given guns to play with and girls are given dolls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنان دەستپێ دەکات هەرکە کوڕان چەکیان پێدەدرێت یاری پێبکەن و کچانیش بووکەڵە."),
+                                            "ڕاھێنان دەستپێ دەکات ھەرکە کوڕان چەکیان پێدەدرێت یاری پێبکەن و کچانیش بووکەڵە."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conditioning (Derived forms: conditionings)
+- Noun: conditioning (derived forms: conditionings)
 1. A learning process in which an organism's behaviour becomes dependent on the occurrence of a stimulus in its environment
 """,
   );
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SIX_u8o3uDc?t=',
+    videoId: 'SIX_u8o3uDc',
     startSeconds: 251,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fakd3d9q4JE?t=',
+    videoId: 'Fakd3d9q4JE',
     startSeconds: 677,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dvCdEx7CwsM?t=',
+    videoId: 'dvCdEx7CwsM',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uUEEbXf13mw?t=',
+    videoId: 'uUEEbXf13mw',
     startSeconds: 374,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQxBF_Qww0U?t=',
+    videoId: 'iQxBF_Qww0U',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8bshv_9HWw4?t=',
+    videoId: '8bshv_9HWw4',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K-yHWxGYIZg?t=',
+    videoId: 'K-yHWxGYIZg',
     startSeconds: 684,
     autoPlay: true,
     params: const YoutubePlayerParams(

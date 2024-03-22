@@ -212,7 +212,7 @@ class EnglishEntryconsultation extends StatelessWidget {
                                             "The decision was taken after close consultation with local residents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بڕیارەکە درا لەدوای ڕاوێژی نزیک لەگەڵ هاوڵاتییە خۆجێییەکان."),
+                                            "بڕیارەکە درا لە دوای ڕاوێژی نزیک لەگەڵ ھاوڵاتییە خۆجێییەکان."),
                                   ],
                                 ),
                               ),
@@ -275,7 +275,7 @@ class EnglishEntryconsultation extends StatelessWidget {
                                             "There have been extensive consultations between the two countries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆبوونەوەی چڕوپڕ لە نێوان دوو وڵاتەکەدا هەبووە."),
+                                            "کۆبوونەوەی چڕوپڕ لە نێوان دوو وڵاتەکەدا ھەبووە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ class EnglishEntryconsultation extends StatelessWidget {
                                             "The police chiefs will hold a consultation with all the relevant groups."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرپرسانی پۆلیس چاوپێکەوتنێک سازدەکەن لەگەڵ هەموو گرووپە پەیوەندیدارەکان."),
+                                            "بەرپرسانی پۆلیس چاوپێکەوتنێک سازدەکەن لەگەڵ ھەموو گرووپە پەیوەندیدارەکان."),
                                   ],
                                 ),
                               ),
@@ -368,7 +368,7 @@ class EnglishEntryconsultation extends StatelessWidget {
                                             "I had a consultation with a dermatologist."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بینینێکم لەگەڵ پزیشکێکی پێست هەبوو."),
+                                            "بینینێکم لەگەڵ پزیشکێکی پێست ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -389,7 +389,7 @@ class EnglishEntryconsultation extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) گەڕان بۆ زانیاری لە کتێبێک، هتد"),
+                              text: "٤. (ناو) گەڕان بۆ زانیاری لە کتێبێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consultation (Derived forms: consultations)
+- Noun: consultation (derived forms: consultations)
 1. A conference (usually with someone important) (= audience, interview)
 "he had a consultation with the judge";
  
@@ -542,7 +542,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n4bucphC9r4?t=',
+    videoId: 'n4bucphC9r4',
     startSeconds: 549,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZvGFV1WoVeo?t=',
+    videoId: 'ZvGFV1WoVeo',
     startSeconds: 355,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/apmF_FXcZKc?t=',
+    videoId: 'apmF_FXcZKc',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +617,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VK2405H3Hjk?t=',
+    videoId: 'VK2405H3Hjk',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8hK4UzAH0rk?t=',
+    videoId: '8hK4UzAH0rk',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9X5Vuh4U5Wo?t=',
+    videoId: '9X5Vuh4U5Wo',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q5NuH2J92n8?t=',
+    videoId: 'q5NuH2J92n8',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(

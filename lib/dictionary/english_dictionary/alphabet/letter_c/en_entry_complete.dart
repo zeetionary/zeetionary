@@ -645,7 +645,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەواو، ڕەبەق، تەخت، ئازگار،	کۆتایی‌پێهاتوو، تەواوکراو، ڕاپەڕێنراو، سەرومڕ، بێ‌کەم‌وکوڕی، گشت، هەموو، یەکڕێ، سامەڵسا
+کوردی: تەواو، ڕەبەق، تەخت، ئازگار،	کۆتایی‌پێھاتوو، تەواوکراو، ڕاپەڕێنراو، سەرومڕ، بێ‌کەم‌وکوڕی، گشت، ھەموو، یەکڕێ، سامەڵسا
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو"),
                           Row(
@@ -658,7 +658,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                             "You will receive payment for each complete day that you work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارە وەردەگریت بۆ هەر ڕۆژێک بە تەواوی کار دەکەیت."),
+                                            "پارە وەردەگریت بۆ ھەر ڕۆژێک بە تەواوی کار دەکەیت."),
                                   ],
                                 ),
                               ),
@@ -686,7 +686,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                             "A Chinese New Year celebration would not be complete without fireworks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاهەنگی ساڵی نوێی چینی تەواو نابێت بەبێ یاری ئاگرین."),
+                                            "ئاھەنگی ساڵی نوێی چینی تەواو نابێت بەبێ یاری ئاگرین."),
                                   ],
                                 ),
                               ),
@@ -746,7 +746,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                                     "No trip to Moscow would be complete without a visit to Lenin's tomb."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیچ سەردانێک بۆ مۆسکۆ تەواو نییە بەبێ سەردانی گۆڕی لینین."),
+                                                    "ھیچ سەردانێک بۆ مۆسکۆ تەواو نییە بەبێ سەردانی گۆڕی لینین."),
                                           ],
                                         ),
                                       ),
@@ -806,7 +806,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                                     "The report comes complete with (= including) diagrams and colour photographs."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕاپۆرتەکە بە تەواوی هێڵکاری و وێنەی ڕەنگاوڕەنگی لەگەڵە."),
+                                                    "ڕاپۆرتەکە بە تەواوی ھێڵکاری و وێنەی ڕەنگاوڕەنگی لەگەڵە."),
                                           ],
                                         ),
                                       ),
@@ -1071,7 +1071,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                                     "I felt a complete idiot."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەستم بە گەوجێتییەکی تەواو کرد."),
+                                                    "ھەستم بە گەوجێتییەکی تەواو کرد."),
                                           ],
                                         ),
                                       ),
@@ -1131,7 +1131,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                                     "The whole thing has been a complete waste of time."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەموو شتەکە تەواو بەفیڕۆدانی کات بووە."),
+                                                    "ھەموو شتەکە تەواو بەفیڕۆدانی کات بووە."),
                                           ],
                                         ),
                                       ),
@@ -1197,7 +1197,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                             "She's just completed a master's degree in Law."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تازەگی بڕوانامەی ماستەری لە یاسادا هێناوە/تەواوکردووە."),
+                                            "تازەگی بڕوانامەی ماستەری لە یاسادا ھێناوە/تەواوکردووە."),
                                   ],
                                 ),
                               ),
@@ -1281,7 +1281,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                             "I've fully completed my training."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە تەواوی ڕاهێنانەکەمم تەواو کردووە."),
+                                            "بە تەواوی ڕاھێنانەکەمم تەواو کردووە."),
                                   ],
                                 ),
                               ),
@@ -1359,7 +1359,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) تەواوکردنی شتێک بەوەی هەموو بەشەکانی بۆ زیادبکەیت"),
+                                  "٧. (کردار) تەواوکردنی شتێک بەوەی ھەموو بەشەکانی بۆ زیادبکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1370,7 +1370,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                                             "I only need one more card to complete the set."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها پێویستم بە یەک کارتی دیکەیە بۆ تەواوکردنی دەستەکە."),
+                                            "تەنھا پێویستم بە یەک کارتی دیکەیە بۆ تەواوکردنی دەستەکە."),
                                   ],
                                 ),
                               ),
@@ -1485,7 +1485,7 @@ ${englishMeaningConst.text}
 5. Having come or been brought to a conclusion (= concluded, ended, over, all over, terminated)
 "the harvesting was complete";
 
-- Verb: complete (Derived forms: completing, completes, completed)
+- Verb: complete (derived forms: completing, completes, completed)
 1. Come or bring to an end (= finish)
 "She completed the requirements for her Master's Degree";
  
@@ -1531,7 +1531,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JfqDvi8b4gg?t=',
+    videoId: 'JfqDvi8b4gg',
     startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1556,7 +1556,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oMRGASj2v8c?t=',
+    videoId: 'oMRGASj2v8c',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1581,7 +1581,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qzgyoAYeZRI?t=',
+    videoId: 'qzgyoAYeZRI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1606,7 +1606,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SqueozhXDv8?t=',
+    videoId: 'SqueozhXDv8',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1631,7 +1631,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 1369,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1656,7 +1656,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8bWRjajx-LE?t=',
+    videoId: '8bWRjajx-LE',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1681,7 +1681,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_B7yY1AxOrw?t=',
+    videoId: '_B7yY1AxOrw',
     startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(

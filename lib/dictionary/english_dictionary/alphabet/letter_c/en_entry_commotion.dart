@@ -192,7 +192,7 @@ class EnglishEntrycommotion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قەرقەشە، ژاوە، هەراوهوریا، گۆبەند، هۆسە، جەنجاڵی، هەنگامە، چەقەولوورە، گالەگورت،	پشێوی، ئاڵۆزی، ئاژاوە، بێ‌سەروسامانی، شێواوی
+کوردی: قەرقەشە، ژاوە، ھەراوھوریا، گۆبەند، ھۆسە، جەنجاڵی، ھەنگامە، چەقەولوورە، گالەگورت،	پشێوی، ئاڵۆزی، ئاژاوە، بێ‌سەروسامانی، شێواوی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دەنگەدەنگ و جەنجاڵی"),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commotion (Derived forms: commotions)
+- Noun: commotion (derived forms: commotions)
 1. A disorderly outburst or tumult (= disturbance, disruption, flutter, hurly burly, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
 "they were amazed by the furious commotion they had caused";
  

@@ -192,7 +192,7 @@ class EnglishEntrycoastline extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هێڵی کەناری
+کوردی: ھێڵی کەناری
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycoastline extends StatelessWidget {
                                             "Measures were taken to protect the coastline from the oil spillage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەنگاو نرا بۆ پاراستنی هێڵە کەنارییەکە لە ڕژانی نەوت."),
+                                            "ھەنگاو نرا بۆ پاراستنی ھێڵە کەنارییەکە لە ڕژانی نەوت."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coastline (Derived forms: coastlines)
+- Noun: coastline (derived forms: coastlines)
 1. The outline of a coast
 "the coastline is littered with testaments to the savageness of the waters"
 """,

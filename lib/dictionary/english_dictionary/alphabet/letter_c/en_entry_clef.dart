@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clef (Derived forms: clefs)
+- Noun: clef (derived forms: clefs)
 1. A musical notation written on a staff indicating the pitch of the notes following it
 """,
   );

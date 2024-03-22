@@ -191,10 +191,10 @@ class EnglishEntrycoconut extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گوێزهند، گوێزەڕەش، نارگیل،	درەخت یان داری گوێزهند یان نارگیل 
+کوردی: گوێزھند، گوێزەڕەش، نارگیل،	درەخت یان داری گوێزھند یان نارگیل 
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) گوێزهندی"),
+                              text: "١. (ناو) گوێزھندی"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrycoconut extends StatelessWidget {
                                         text:
                                             "She broke open the coconut and drank its sweet milk."),
                                     ExampleSentenceKurdish(
-                                        text: "گوێزهندییەکەی شکاند و شیرە شیرینەکەی خواردەوە."),
+                                        text: "گوێزھندییەکەی شکاند و شیرە شیرینەکەی خواردەوە."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coconut (Derived forms: coconuts)
+- Noun: coconut (derived forms: coconuts)
 1. Large hard-shelled oval nut with a fibrous husk containing thick white meat surrounding a central cavity filled (when fresh) with fluid or milk (= cocoanut)
  
 2. The edible white meat of a coconut; often shredded for use in e.g. cakes and curries (= coconut meat)

@@ -206,7 +206,7 @@ class EnglishEntrycombustion extends StatelessWidget {
                                             "Poisonous gases are produced during fossil fuel combustion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گازی ژەهراوی درووست دەبن لە کاتی سووتانی سووتەمەنی بەبەردبوو."),
+                                            "گازی ژەھراوی درووست دەبن لە کاتی سووتانی سووتەمەنی بەبەردبوو."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrycombustion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پڕۆسەی کیمیایی کە تێیدا مادە یەکدەگرێت لەگەڵ ئۆکسجندا لە هەوادا بۆ درووستکردنی گەرمی و ڕۆشنایی"),
+                                  "٢. (ناو) پڕۆسەی کیمیایی کە تێیدا مادە یەکدەگرێت لەگەڵ ئۆکسجندا لە ھەوادا بۆ درووستکردنی گەرمی و ڕۆشنایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycombustion extends StatelessWidget {
                                             "The ratio must be correct in order to achieve complete combustion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێژەکە دەبێت درووست بێت بۆ ئەوەی سووتانی تەواو بەدەست بهێندرێت."),
+                                            "ڕێژەکە دەبێت درووست بێت بۆ ئەوەی سووتانی تەواو بەدەست بھێندرێت."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: combustion (Derived forms: combustions)
+- Noun: combustion (derived forms: combustions)
 1. A process in which a substance reacts with oxygen to give heat and light (= burning)
  
 2. The act of burning something (= burning)

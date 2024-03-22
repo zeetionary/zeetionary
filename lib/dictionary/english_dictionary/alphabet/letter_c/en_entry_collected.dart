@@ -192,7 +192,7 @@ class EnglishEntrycollected extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەسەرەخۆ، خوددار، ئارام، هێمن، مەند
+کوردی: لەسەرەخۆ، خوددار، ئارام، ھێمن، مەند
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر ئارام و لەسەرخۆ"),

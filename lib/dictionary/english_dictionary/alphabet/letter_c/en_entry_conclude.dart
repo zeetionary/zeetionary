@@ -212,7 +212,7 @@ class EnglishEntryconclude extends StatelessWidget {
                                             "It is too early for us to conclude anything."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر زووە بۆمان هیچ گەڵاڵە بکەین."),
+                                            "زۆر زووە بۆمان ھیچ گەڵاڵە بکەین."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconclude extends StatelessWidget {
                                             "The report concluded (that) the cheapest option was to close the laboratory."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاپۆرتەکە بەو دەرەنجامە گەشت کە هەرزانترین هەڵبژاردە داخستنی تاقیگەکە بوو."),
+                                            "ڕاپۆرتەکە بەو دەرەنجامە گەشت کە ھەرزانترین ھەڵبژاردە داخستنی تاقیگەکە بوو."),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntryconclude extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) کۆتایی هاتن یان کۆتایی پێهێنان"),
+                                  "٢. (کردار) کۆتایی ھاتن یان کۆتایی پێھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntryconclude extends StatelessWidget {
                                             "This was how the negotiations finally concluded."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە ئەو شێوەیە بوو کە دانوستانەکان لە کۆتاییدا کۆتاییان پێهات."),
+                                            "ئەمە ئەو شێوەیە بوو کە دانوستانەکان لە کۆتاییدا کۆتاییان پێھات."),
                                   ],
                                 ),
                               ),
@@ -326,7 +326,7 @@ class EnglishEntryconclude extends StatelessWidget {
                                             "He concluded by wishing everyone a safe trip home."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بڕییەوە بە هیواخواستنی گەشتێکی سەلامەت بۆ ماڵەوە بۆ هەموان."),
+                                            "بڕییەوە بە ھیواخواستنی گەشتێکی سەلامەت بۆ ماڵەوە بۆ ھەموان."),
                                   ],
                                 ),
                               ),
@@ -354,7 +354,7 @@ class EnglishEntryconclude extends StatelessWidget {
                                             "The commission concluded its investigation last month."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمسیۆنەکە مانگی ڕابردوو کۆتایی بە لێکۆڵینەوەکانی هێنا."),
+                                            "کۆمسیۆنەکە مانگی ڕابردوو کۆتایی بە لێکۆڵینەوەکانی ھێنا."),
                                   ],
                                 ),
                               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conclude (Derived forms: concludes, concluding, concluded)
+- Verb: conclude (derived forms: concludes, concluding, concluded)
 1. Decide by reasoning; draw or come to a conclusion (= reason, reason out)
 "We concluded that it was cheaper to rent than to buy a house";
  
@@ -530,7 +530,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 758,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vyb-sTrY_Y8?t=',
+    videoId: 'Vyb-sTrY_Y8',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZLPSfyUPeiI?t=',
+    videoId: 'ZLPSfyUPeiI',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PjiJ1Kuk2tg?t=',
+    videoId: 'PjiJ1Kuk2tg',
     startSeconds: 480,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lGSOWwUvJiU?t=',
+    videoId: 'lGSOWwUvJiU',
     startSeconds: 816,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -655,7 +655,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-VRx0GRo-Ws?t=',
+    videoId: '-VRx0GRo-Ws',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -680,7 +680,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(

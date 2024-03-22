@@ -494,7 +494,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: باوەڕی، جێی‌باوەڕبوون، باوەڕپێ‌کراوی، متمانە، پشت‌گەرمی، پشت‌ئەستووری، دڵنیایی، بستەهی، بستەیی، یەک‌چاوبوونەوە،	لەخۆڕادیتن، لەخۆڕاپەڕموون، ڕاپەڕموون، خۆباوەڕی،	ڕاز، سڕ،	وێران، گوستاخی
+کوردی: باوەڕی، جێی‌باوەڕبوون، باوەڕپێ‌کراوی، متمانە، پشت‌گەرمی، پشت‌ئەستووری، دڵنیایی، بستەھی، بستەیی، یەک‌چاوبوونەوە،	لەخۆڕادیتن، لەخۆڕاپەڕموون، ڕاپەڕموون، خۆباوەڕی،	ڕاز، سڕ،	وێران، گوستاخی
 """),
                           const DefinitionKurdish(
                               text:
@@ -537,7 +537,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                             "The players all have confidence in their manager."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاریزانەکان هەموویان متمانەیان بە ڕاهێنەرەکەیان هەیە."),
+                                            "یاریزانەکان ھەموویان متمانەیان بە ڕاھێنەرەکەیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -627,7 +627,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                                     "She has the utmost confidence in her students' abilities."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "باوەڕی تەواوی بە توانای خوێندکارانی هەیە."),
+                                                    "باوەڕی تەواوی بە توانای خوێندکارانی ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -692,7 +692,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                             "He gained confidence when he went to college."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆباوەڕی بەدەستهێنا کە چووە کۆلێژ."),
+                                            "خۆباوەڕی بەدەستھێنا کە چووە کۆلێژ."),
                                   ],
                                 ),
                               ),
@@ -767,7 +767,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) هەستی دڵنیای سەبارەت بە شتێک"),
+                              text: "٣. (ناو) ھەستی دڵنیای سەبارەت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -778,7 +778,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                             "He said he wished that he shared her confidence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوتی بەهیوابوو کە ئەویش هەمان دڵنیایی ئەوی هەبوایە."),
+                                            "گوتی بەھیوابوو کە ئەویش ھەمان دڵنیایی ئەوی ھەبوایە."),
                                   ],
                                 ),
                               ),
@@ -860,7 +860,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) متمانە بە کەسێک کە زانیاری بە نهێنی بهێڵێت"),
+                                  "٤. (ناو) متمانە بە کەسێک کە زانیاری بە نھێنی بھێڵێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -901,7 +901,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                             "This is in the strictest confidence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە بە سڕێکی توندەوەیە (نابێت بە هیچ کەس بڵێیت)."),
+                                            "ئەمە بە سڕێکی توندەوەیە (نابێت بە ھیچ کەس بڵێیت)."),
                                   ],
                                 ),
                               ),
@@ -952,7 +952,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (ناو) نهێنییەک کە بە کەسێک دەیڵێیت"),
+                              text: "٦. (ناو) نھێنییەک کە بە کەسێک دەیڵێیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -962,7 +962,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                         text:
                                             "The girls exchanged confidences."),
                                     ExampleSentenceKurdish(
-                                        text: "کچەکان نهێنییان گۆڕییەوە."),
+                                        text: "کچەکان نھێنییان گۆڕییەوە."),
                                   ],
                                 ),
                               ),
@@ -990,7 +990,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Can you keep a confidence?"),
                                     ExampleSentenceKurdish(
-                                        text: "دەتوانیت نهێنییەک بپارێزیت؟"),
+                                        text: "دەتوانیت نھێنییەک بپارێزیت؟"),
                                   ],
                                 ),
                               ),
@@ -1091,7 +1091,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confidence (Derived forms: confidences)
+- Noun: confidence (derived forms: confidences)
 1. Freedom from doubt; belief in yourself and your abilities (= assurance, self-assurance, self-confidence, authority, sureness)
 "after that failure he lost his confidence"; "his self-confidence in his superiority did not make him popular";
  
@@ -1138,7 +1138,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    videoId: 'hS2x1zl4rn0',
     startSeconds: 1493,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1163,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 318,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1188,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 1681,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1213,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    videoId: 'ozsgl_sLnHQ',
     startSeconds: 4431,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1238,7 +1238,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GCjZzcpWPRM?t=',
+    videoId: 'GCjZzcpWPRM',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1263,7 +1263,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SAbQYy8hP3M?t=',
+    videoId: 'SAbQYy8hP3M',
     startSeconds: 774,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1288,7 +1288,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zQuFPxCb-_o?t=',
+    videoId: 'zQuFPxCb-_o',
     startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(

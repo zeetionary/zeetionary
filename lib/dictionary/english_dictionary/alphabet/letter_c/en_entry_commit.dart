@@ -472,11 +472,11 @@ class EnglishEntrycommit extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێسپاردن، تووش بوون، گیرۆدە بوون، بەرپرس بوون، ئەنجامدان، بەجێهێنان
+کوردی: پێسپاردن، تووش بوون، گیرۆدە بوون، بەرپرس بوون، ئەنجامدان، بەجێھێنان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) ئەنجامدانی شتێکی هەڵە یان نایاسایی"),
+                                  "١. (کردار) ئەنجامدانی شتێکی ھەڵە یان نایاسایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -606,7 +606,7 @@ class EnglishEntrycommit extends StatelessWidget {
                                                     "Was she capable of committing a crime?"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "توانای ئەنجامدانی تاوانی هەبوو؟"),
+                                                    "توانای ئەنجامدانی تاوانی ھەبوو؟"),
                                           ],
                                         ),
                                       ),
@@ -661,7 +661,7 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بەڵێندانی تەواو کە شتێک دەکەیت، پابەندی بەڵێنێک دەبیت، هتد"),
+                                  "٣. (کردار) بەڵێندانی تەواو کە شتێک دەکەیت، پابەندی بەڵێنێک دەبیت، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -728,7 +728,7 @@ class EnglishEntrycommit extends StatelessWidget {
                                             "Both sides committed themselves to settle the dispute peacefully."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو لایەن خۆیان پابەند دەکەن بە چارەسەری کێشەکە بە ئاشتییانە."),
+                                            "ھەردوو لایەن خۆیان پابەند دەکەن بە چارەسەری کێشەکە بە ئاشتییانە."),
                                   ],
                                 ),
                               ),
@@ -759,7 +759,7 @@ class EnglishEntrycommit extends StatelessWidget {
                                             "You don't have to commit yourself now—just think about it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویست ناکات ئێستا خۆت یەکلایی بکەیتەوە، تەنها بیری لێبکەوە."),
+                                            "پێویست ناکات ئێستا خۆت یەکلایی بکەیتەوە، تەنھا بیری لێبکەوە."),
                                   ],
                                 ),
                               ),
@@ -787,7 +787,7 @@ class EnglishEntrycommit extends StatelessWidget {
                                             "He had never committed himself to any ideology."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز خۆی پابەند بە هیچ ئایدۆلۆژیایەک نەکرد."),
+                                            "ھەرگیز خۆی پابەند بە ھیچ ئایدۆلۆژیایەک نەکرد."),
                                   ],
                                 ),
                               ),
@@ -807,7 +807,7 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) مانەوە لەگەڵ و بە تەواوی پشتگیری یەک کەس، دامەزراوە، هتد، یان پێدانی هەموو کات و توانا بە کارێک، چالاکییەک"),
+                                  "٥. (کردار) مانەوە لەگەڵ و بە تەواوی پشتگیری یەک کەس، دامەزراوە، ھتد، یان پێدانی ھەموو کات و توانا بە کارێک، چالاکییەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -897,7 +897,7 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) فەرمانکردن بە کەسێک کە بنێردرێت بۆ نەخۆشخانە زیندان، هتد"),
+                                  "٧. (کردار) فەرمانکردن بە کەسێک کە بنێردرێت بۆ نەخۆشخانە زیندان، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -939,7 +939,7 @@ class EnglishEntrycommit extends StatelessWidget {
                                             "The attackers were committed for trial at Bristol Crown Court."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێرشکارەکان نێردران بۆ دانیشتنی دادگا لە دادگای شاهانەی بریستۆڵ."),
+                                            "ھێرشکارەکان نێردران بۆ دانیشتنی دادگا لە دادگای شاھانەی بریستۆڵ."),
                                   ],
                                 ),
                               ),
@@ -959,7 +959,7 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٧. (کردار) فێربوونی شتێک هێندە باش کە وەک خۆی بیرت بێتەوە"),
+                                  "١٧. (کردار) فێربوونی شتێک ھێندە باش کە وەک خۆی بیرت بێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -970,7 +970,7 @@ class EnglishEntrycommit extends StatelessWidget {
                                             "She committed the instructions to memory."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێنماییەکانی بە بیروهۆشەوە لەبەرکرد."),
+                                            "ڕێنماییەکانی بە بیروھۆشەوە لەبەرکرد."),
                                   ],
                                 ),
                               ),
@@ -1099,7 +1099,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: commit (Derived forms: committing, commits, committed)
+- Verb: commit (derived forms: committing, commits, committed)
 1. Perform an act, usually with a negative connotation (= perpetrate, pull [informal])
 "commit a crime";
  

@@ -275,7 +275,7 @@ class EnglishEntrycontinental extends StatelessWidget {
                                             "Prices are often higher in Hawaii than in the continental United States."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نرخەکان زۆرجار بەرزترن لە هاوایی وەک لە بەشی سەرەکی ئەمریکا."),
+                                            "نرخەکان زۆرجار بەرزترن لە ھاوایی وەک لە بەشی سەرەکی ئەمریکا."),
                                   ],
                                 ),
                               ),
@@ -422,7 +422,7 @@ ${englishMeaningConst.text}
 4. Of or relating to or concerning the American colonies during and immediately after the American Revolutionary War
 "the Continental Army"; "the Continental Congress"
 
-- Noun: continental (Derived forms: continentals)
+- Noun: continental (derived forms: continentals)
 1. Someone from the European mainland
 """,
   );
@@ -456,7 +456,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g9QneAV4fVo?t=',
+    videoId: 'g9QneAV4fVo',
     startSeconds: 942,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lPNrtjboISg?t=',
+    videoId: 'lPNrtjboISg',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaLOiGEDPJQ?t=',
+    videoId: 'CaLOiGEDPJQ',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I-VZZFeg8dA?t=',
+    videoId: 'I-VZZFeg8dA',
     startSeconds: 927,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h42QVfrUVFw?t=',
+    videoId: 'h42QVfrUVFw',
     startSeconds: 531,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -197,7 +197,7 @@ class EnglishEntrycontinuoustense extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بەو کردارانەی کە لە دەمی بەردەوامیدان و بەکاردێن بۆ باسکردن لە چالاکییەک کە هێشتا بۆ ماوەیەک بەردەوامە"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بەو کردارانەی کە لە دەمی بەردەوامیدان و بەکاردێن بۆ باسکردن لە چالاکییەک کە ھێشتا بۆ ماوەیەک بەردەوامە"),
                           Row(
                             children: [
                               const Expanded(
@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: continuous tense (Derived forms: continuous tenses)
+- Noun: continuous tense (derived forms: continuous tenses)
 1. A tense of verbs used in describing action that is on-going (= progressive, progressive tense, imperfect, imperfect tense)
 """,
   );
@@ -343,7 +343,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O9S70oJAivI?t=',
+    videoId: 'O9S70oJAivI',
     startSeconds: 531,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5UD03yKfVI?t=',
+    videoId: 'H5UD03yKfVI',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IWMBsWprIS8?t=',
+    videoId: 'IWMBsWprIS8',
     startSeconds: 811,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tJXco4TwDyM?t=',
+    videoId: 'tJXco4TwDyM',
     startSeconds: 489,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/clsp3xQiVSE?t=',
+    videoId: 'clsp3xQiVSE',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k7Bdy2Zl58U?t=',
+    videoId: 'k7Bdy2Zl58U',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b0WF4n1OzT0?t=',
+    videoId: 'b0WF4n1OzT0',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(

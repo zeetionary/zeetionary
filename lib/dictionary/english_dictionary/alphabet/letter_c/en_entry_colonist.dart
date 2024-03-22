@@ -206,7 +206,7 @@ class EnglishEntrycolonist extends StatelessWidget {
                                             "The early colonists faced many hardships in the new world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆلۆنی‌نشینە سەرەتاییەکان ڕووبەڕووی سەختی زۆر بوونەوە لە جیهانە تازەکەدا."),
+                                            "کۆلۆنی‌نشینە سەرەتاییەکان ڕووبەڕووی سەختی زۆر بوونەوە لە جیھانە تازەکەدا."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colonist (Derived forms: colonists)
+- Noun: colonist (derived forms: colonists)
 1. A person who settles in a new colony or moves into new country (= settler)
 """,
   );

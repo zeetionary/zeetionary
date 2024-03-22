@@ -192,11 +192,11 @@ class EnglishEntrycompassion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دڵسۆزی، خەم‌خۆری، هاوسۆزی، بەپەرۆشی،	دڵ‌پێ‌سووتان، پێ‌گوناەبوون، لاگوناح‌بوون، بەزەیی (پیاهاتن)، ڕوحم
+کوردی: دڵسۆزی، خەم‌خۆری، ھاوسۆزی، بەپەرۆشی،	دڵ‌پێ‌سووتان، پێ‌گوناەبوون، لاگوناح‌بوون، بەزەیی (پیاھاتن)، ڕوحم
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) میهرەبانی و بەزەیی زۆر بۆ مرۆڤ و ئاژەڵ کە ئازار دەچێژم و حەزکردن بۆ یارمەتیدانیان"),
+                                  "١. (ناو) میھرەبانی و بەزەیی زۆر بۆ مرۆڤ و ئاژەڵ کە ئازار دەچێژم و حەزکردن بۆ یارمەتیدانیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycompassion extends StatelessWidget {
                                             "He was filled with overwhelming love and compassion for his wife."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پڕبوو لە خۆشەویستی و دڵسۆزی زۆر بۆ هاوژینەکەی."),
+                                            "پڕبوو لە خۆشەویستی و دڵسۆزی زۆر بۆ ھاوژینەکەی."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycompassion extends StatelessWidget {
                                             "I felt no compassion towards her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستم بە دڵ‌پێ‌سووتانێک نەدەکرد بۆی."),
+                                            "ھەستم بە دڵ‌پێ‌سووتانێک نەدەکرد بۆی."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compassion (Derived forms: compassions)
+- Noun: compassion (derived forms: compassions)
 1. A deep awareness of and sympathy for another's suffering (= compassionateness)
  
 2. The humane quality of understanding the suffering of others and wanting to do something about it (= pity)
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/164zsYk4x9o',
+    videoId: '164zsYk4x9o',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJEtyAiAQik?t=',
+    videoId: 'qJEtyAiAQik',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fb8QJa7VHmE?t=',
+    videoId: 'fb8QJa7VHmE',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dZ05ETUyrf4?t=',
+    videoId: 'dZ05ETUyrf4',
     startSeconds: 734,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AXsfI9Iqb4w?t=',
+    videoId: 'AXsfI9Iqb4w',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6L6XOpmuw5Q?t=',
+    videoId: '6L6XOpmuw5Q',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BygKqBM4V8g?t=',
+    videoId: 'BygKqBM4V8g',
     startSeconds: 836,
     autoPlay: true,
     params: const YoutubePlayerParams(

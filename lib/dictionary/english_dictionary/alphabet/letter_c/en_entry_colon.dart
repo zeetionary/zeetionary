@@ -197,7 +197,7 @@ class EnglishEntrycolon extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) نیشانەی (:) کە لە نووسیندا بەکاردێت بۆ ناساندنی لیستێک، کورتکراوەیەک، ڕوونکردنەوەیەک، هتد یان پێش وتنی ئەوەی کە کەسێک وتویەتی"),
+                                  "١. (ناو) نیشانەی (:) کە لە نووسیندا بەکاردێت بۆ ناساندنی لیستێک، کورتکراوەیەک، ڕوونکردنەوەیەک، ھتد یان پێش وتنی ئەوەی کە کەسێک وتویەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycolon extends StatelessWidget {
                                             "The colon is a versatile punctuation mark: it has several uses in writing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆلۆن نیشانەیەکی خاڵبەندی فرەکارە: ژمارەیەک ئەرکی هەیە لە نووسیندا."),
+                                            "کۆلۆن نیشانەیەکی خاڵبەندی فرەکارە: ژمارەیەک ئەرکی ھەیە لە نووسیندا."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycolon extends StatelessWidget {
                                             "The colon plays a crucial role in digestion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆلۆن ئەرکێکی گرنگی لە هەرسدا هەیە."),
+                                            "کۆلۆن ئەرکێکی گرنگی لە ھەرسدا ھەیە."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colon (Derived forms: colones, colons)
+- Noun: colon (derived forms: colones, colons)
 1. The part of the large intestine between the caecum and the rectum; it extracts moisture from food residues before they are excreted
  
 2. A punctuation mark (:) used after a word introducing a series or an example or an explanation (or after the salutation of a business letter)

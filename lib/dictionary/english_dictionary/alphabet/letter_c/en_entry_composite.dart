@@ -192,10 +192,10 @@ class EnglishEntrycomposite extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: پێکهاتوو، پێکهاتە، تێکەڵ، تێکڵاو، تێکەڵاو، لێکدراو، سەرجەم، تێکەڵە، ئاوێتە، شتێکی پێکهاتوو یان لێکدراو، شتێکی تێکەڵاو یان تێکەڵ
+// کوردی: پێکھاتوو، پێکھاتە، تێکەڵ، تێکڵاو، تێکەڵاو، لێکدراو، سەرجەم، تێکەڵە، ئاوێتە، شتێکی پێکھاتوو یان لێکدراو، شتێکی تێکەڵاو یان تێکەڵ
 // """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پێکهاتوو لە بەشی جیاواز"),
+                              text: "١. (ھاوەڵناو) پێکھاتوو لە بەشی جیاواز"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycomposite extends StatelessWidget {
                                             "The table was made of composite materials."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێزەکە لە مادەی تێکەڵاو پێکهاتبوو."),
+                                            "مێزەکە لە مادەی تێکەڵاو پێکھاتبوو."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrycomposite extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) شتێک کە لە تێکەڵەی مادەی جیاواز پێکهاتووە"),
+                                  "٢. (ناو) شتێک کە لە تێکەڵەی مادەی جیاواز پێکھاتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: composite (Derived forms: composites)
+- Noun: composite (derived forms: composites)
 1. A conceptual whole made up of complicated and related parts (= complex)
 "the composite of shopping malls, houses, and roads created a new town";
  
@@ -347,7 +347,7 @@ ${englishMeaningConst.text}
  
 2. (botany) of or relating to or belonging to the plant family Compositae
 
-- Verb: composite (Derived forms: compositing, composited, composites)
+- Verb: composite (derived forms: compositing, composited, composites)
 1. Combine to make a single picture
  
 2. Combine from multiple contributions
@@ -383,7 +383,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1RFwSXXVDKk',
+    videoId: '1RFwSXXVDKk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -408,7 +408,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A_OnSPXP3nk?t=',
+    videoId: 'A_OnSPXP3nk',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -433,7 +433,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7rS7in5COiw?t=',
+    videoId: '7rS7in5COiw',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZW0y3WUd4qo?t=',
+    videoId: 'ZW0y3WUd4qo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cSHVhN3EkxI?t=',
+    videoId: 'cSHVhN3EkxI',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IkegnkKuJGw?t=',
+    videoId: 'IkegnkKuJGw',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GoH1H9R6wtY?t=',
+    videoId: 'GoH1H9R6wtY',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HenRe5ms_GY?t=',
+    videoId: 'HenRe5ms_GY',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(

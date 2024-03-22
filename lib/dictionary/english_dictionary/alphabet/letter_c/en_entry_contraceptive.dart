@@ -342,7 +342,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contraceptive (Derived forms: contraceptives)
+- Noun: contraceptive (derived forms: contraceptives)
 1، An agent or device intended to prevent conception (= preventive, preventative, contraceptive device, prophylactic device, birth control device)
 
 - Adjective: contraceptive 
@@ -380,7 +380,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZgXXOOGBRZU?t=',
+    videoId: 'ZgXXOOGBRZU',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -405,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VsH8l3BEcIE?t=',
+    videoId: 'VsH8l3BEcIE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NAymBYWEato?t=',
+    videoId: 'NAymBYWEato',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AC7fbeNT_HQ?t=',
+    videoId: 'AC7fbeNT_HQ',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRA0KMCEP2o?t=',
+    videoId: 'yRA0KMCEP2o',
     startSeconds: 777,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wrQYHeodRio?t=',
+    videoId: 'wrQYHeodRio',
     startSeconds: 601,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gbC4hCh3WMw?t=',
+    videoId: 'gbC4hCh3WMw',
     startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -201,7 +201,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دروست‌کردن، دانان، سازکردن، بنیات‌نان، پێکەوەنان، دامەزراندن، سازاندن، خانووبەرە، خانوو، ماڵ، بینا، دەزگا،	پێکهێنان، پێکهاتە،	ڕاڤە، لێکدانەوە، بۆچوون،	واتا،	(ڕێزمان) لێکدان، ڕێکخستن، داڕشتن،	گۆڕان
+کوردی: دروست‌کردن، دانان، سازکردن، بنیات‌نان، پێکەوەنان، دامەزراندن، سازاندن، خانووبەرە، خانوو، ماڵ، بینا، دەزگا،	پێکھێنان، پێکھاتە،	ڕاڤە، لێکدانەوە، بۆچوون،	واتا،	(ڕێزمان) لێکدان، ڕێکخستن، داڕشتن،	گۆڕان
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسە یان شێوازی بنیاتنانی شتێک"),
@@ -245,7 +245,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                                             "Our new offices are still under construction (= being built)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆفیسە تازەکانمان هێشتا لە پڕۆسەی درووستکردندان."),
+                                            "ئۆفیسە تازەکانمان ھێشتا لە پڕۆسەی درووستکردندان."),
                                   ],
                                 ),
                               ),
@@ -308,7 +308,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                                             "Constructing a new building generates employment opportunities in the construction industry."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بنیاتنانی بینایەکی تازە هەلی کار دەڕەخسێنێت لە پیشەسازی بیناسازی."),
+                                            "بنیاتنانی بینایەکی تازە ھەلی کار دەڕەخسێنێت لە پیشەسازی بیناسازی."),
                                   ],
                                 ),
                               ),
@@ -340,7 +340,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                                             "The bridges are similar in construction."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پردەکان هاوشێوەن لە درووستکردندا."),
+                                            "پردەکان ھاوشێوەن لە درووستکردندا."),
                                   ],
                                 ),
                               ),
@@ -424,7 +424,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) شێوازی پێکەوەنانی وشە بۆ درووستکردنی ڕستە، زاراوە، هتد"),
+                                  "٥. (ناو) شێوازی پێکەوەنانی وشە بۆ درووستکردنی ڕستە، زاراوە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -435,7 +435,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                                             "The writer has used several complex grammatical constructions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسەرەکە ژمارەیەک داڕشتنی ڕێزمانی ئاڵۆزی بەکارهێناوە."),
+                                            "نووسەرەکە ژمارەیەک داڕشتنی ڕێزمانی ئاڵۆزی بەکارھێناوە."),
                                   ],
                                 ),
                               ),
@@ -468,7 +468,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                                             "How can they put such a damning construction on a perfectly innocent phrase?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چۆن دەتوانن واتایەکی هێندە خراپ لێکبدەنەوە لە زاراوەیەکی تەواو بێ مەبەست؟"),
+                                            "چۆن دەتوانن واتایەکی ھێندە خراپ لێکبدەنەوە لە زاراوەیەکی تەواو بێ مەبەست؟"),
                                   ],
                                 ),
                               ),
@@ -490,7 +490,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شێوازی تێگەشتن لە وشە، کردار، لێدوان، هتد لەلایەن کەسانی دیکەوە"),
+                                  "٧. (ناو) شێوازی تێگەشتن لە وشە، کردار، لێدوان، ھتد لەلایەن کەسانی دیکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -631,7 +631,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: construction (Derived forms: constructions)
+- Noun: construction (derived forms: constructions)
 1. The act of constructing something (= building)
 "during the construction we had to take a detour";
  
@@ -683,7 +683,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k1AvNnJRMts?t=',
+    videoId: 'k1AvNnJRMts',
     startSeconds: 406,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -708,7 +708,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kUa-JrisgrY',
+    videoId: 'kUa-JrisgrY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -733,7 +733,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EfVQzJVnxUM?t=',
+    videoId: 'EfVQzJVnxUM',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -758,7 +758,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/22W5tRWbUVI?t=',
+    videoId: '22W5tRWbUVI',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -783,7 +783,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dOe_6vuaR_s?t=',
+    videoId: 'dOe_6vuaR_s',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -808,7 +808,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_PpDwut_2Lw?t=',
+    videoId: '_PpDwut_2Lw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -833,7 +833,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZmaSEMKb8rU?t=',
+    videoId: 'ZmaSEMKb8rU',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -193,11 +193,11 @@ class EnglishEntrycommunion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاودڵی، دۆستایەتی، خۆشەویستی
+کوردی: ھاودڵی، دۆستایەتی، خۆشەویستی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پەیوەندییەکی نزیک لەگەڵ شتێک کە تێیدا هەست و سۆز دەگۆڕدرێتەوە"),
+                                  "١. (ناو) پەیوەندییەکی نزیک لەگەڵ شتێک کە تێیدا ھەست و سۆز دەگۆڕدرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrycommunion extends StatelessWidget {
                                             "He found spiritual communion with her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی ڕۆحی لەگەڵیدا دەدۆزییەوە."),
+                                            "ھەستی ڕۆحی لەگەڵیدا دەدۆزییەوە."),
                                   ],
                                 ),
                               ),
@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: communion (Derived forms: communions)
+- Noun: communion (derived forms: communions)
 1. The sharing of personal thoughts and feelings (= sharing)
  
 2. (Christianity) a group of Christians with a common religious faith who practice the same rites

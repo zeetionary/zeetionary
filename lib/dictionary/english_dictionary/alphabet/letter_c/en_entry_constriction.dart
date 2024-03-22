@@ -194,7 +194,7 @@ class EnglishEntryconstriction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەرتەنگی، سنوورداری، بەرتەسکی، بەند،	کرژبوون، کۆبوونەوە، تەنگ‌بوونەوە، تەنگاندن، هەڵقرچان، قرچ‌هەڵاتن، پێچرانەوە، وێکهاتن، چوونەیەک
+کوردی: بەرتەنگی، سنوورداری، بەرتەسکی، بەند،	کرژبوون، کۆبوونەوە، تەنگ‌بوونەوە، تەنگاندن، ھەڵقرچان، قرچ‌ھەڵاتن، پێچرانەوە، وێکھاتن، چوونەیەک
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توندبوون یان تەسکبوون"),
@@ -208,7 +208,7 @@ class EnglishEntryconstriction extends StatelessWidget {
                                             "He felt a constriction in his chest."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە توندبوون لە سنگیدا کرد."),
+                                            "ھەستی بە توندبوون لە سنگیدا کرد."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryconstriction extends StatelessWidget {
                                             "High blood pressure can be caused by many things, but one of the major causes is blood vessel constriction."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرزی فشاری خوێن دەکرێت بەهۆی زۆر شتەوە بێت، بەڵام یەکێک لە هۆکارە سەرەکییەکان تەسکبوونەوەی دەمارەکانی خوێن بێت."),
+                                            "بەرزی فشاری خوێن دەکرێت بەھۆی زۆر شتەوە بێت، بەڵام یەکێک لە ھۆکارە سەرەکییەکان تەسکبوونەوەی دەمارەکانی خوێن بێت."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntryconstriction extends StatelessWidget {
                                             "If you are talking about the workplace there are a lot of constrictions and limitations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر باسی شوێنی کار دەکەیت ئەوا ژمارەیەکی زۆر بەربەست و سنوورداری هەن."),
+                                            "ئەگەر باسی شوێنی کار دەکەیت ئەوا ژمارەیەکی زۆر بەربەست و سنوورداری ھەن."),
                                   ],
                                 ),
                               ),
@@ -401,7 +401,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: constriction (Derived forms: constrictions)
+- Noun: constriction (derived forms: constrictions)
 1. A narrowing that reduces the flow through a channel (= bottleneck, chokepoint)
  
 2. Tight or narrow compression (= coarctation)
@@ -442,7 +442,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/taiUjgCTX-Q?t=',
+    videoId: 'taiUjgCTX-Q',
     startSeconds: 2869,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yyv2gOHMGEc?t=',
+    videoId: 'yyv2gOHMGEc',
     startSeconds: 843,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tURHTuKHBZs?t=',
+    videoId: 'tURHTuKHBZs',
     startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFL6qRIJZ_Y?t=',
+    videoId: 'hFL6qRIJZ_Y',
     startSeconds: 6326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xmbw_F5p9Fs?t=',
+    videoId: 'Xmbw_F5p9Fs',
     startSeconds: 551,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h8mAnvg2NC4?t=',
+    videoId: 'h8mAnvg2NC4',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8jcNAPZ5is?t=',
+    videoId: 'T8jcNAPZ5is',
     startSeconds: 335,
     autoPlay: true,
     params: const YoutubePlayerParams(

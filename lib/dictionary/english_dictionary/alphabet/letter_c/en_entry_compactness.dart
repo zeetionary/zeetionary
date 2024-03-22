@@ -261,7 +261,7 @@ class EnglishEntrycompactness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک یان ئاژەڵێک کە جەستەیەکی بچووک و بەهێزی هەیە"),
+                                  "٢. (ناو) کەسێک یان ئاژەڵێک کە جەستەیەکی بچووک و بەھێزی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -272,7 +272,7 @@ class EnglishEntrycompactness extends StatelessWidget {
                                             "He had the natural compactness of a good football player."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پتەوی سرووشتی یاریزانێکی تۆپی پێی هەبوو."),
+                                            "پتەوی سرووشتی یاریزانێکی تۆپی پێی ھەبوو."),
                                   ],
                                 ),
                               ),

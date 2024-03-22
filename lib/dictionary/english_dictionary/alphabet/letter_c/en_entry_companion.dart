@@ -196,7 +196,7 @@ class EnglishEntrycompanion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوڕێ، دۆست، یار، ئاوەڵ، هاوەڵ، هەڤاڵ، هاودەم، هاونشین، هاونان،	شەریک، هاوکار،	تا، لف،	هەندبووک
+کوردی: ھاوڕێ، دۆست، یار، ئاوەڵ، ھاوەڵ، ھەڤاڵ، ھاودەم، ھاونشین، ھاونان،	شەریک، ھاوکار،	تا، لف،	ھەندبووک
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrycompanion extends StatelessWidget {
                                         text:
                                             "Geoff was my companion on the journey."),
                                     ExampleSentenceKurdish(
-                                        text: "جیۆف لە گەشتەکەدا هاودەمم بوو."),
+                                        text: "جیۆف لە گەشتەکەدا ھاودەمم بوو."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycompanion extends StatelessWidget {
                                             "Fear was the hostages' constant companion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ترس هاودەمی بەردەوامی بارمتەکان بوو."),
+                                            "ترس ھاودەمی بەردەوامی بارمتەکان بوو."),
                                   ],
                                 ),
                               ),
@@ -258,7 +258,7 @@ class EnglishEntrycompanion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە هەمان ئەزموونی تۆی هەیە"),
+                                  "٢. (ناو) کەسێک کە ھەمان ئەزموونی تۆی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -327,7 +327,7 @@ class EnglishEntrycompanion extends StatelessWidget {
                                             "She lived in the house as a companion to our grandmother."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ماڵەکەدا دەژیا وەک وەک هاوەڵێکی داپیرەمان."),
+                                            "لە ماڵەکەدا دەژیا وەک وەک ھاوەڵێکی داپیرەمان."),
                                   ],
                                 ),
                               ),
@@ -456,7 +456,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: companion (Derived forms: companions)
+- Noun: companion (derived forms: companions)
 1. A friend who is frequently in the company of another (= comrade, fellow, familiar, associate, yokefellow [N. Amer])
 "drinking companions";
  
@@ -464,7 +464,7 @@ ${englishMeaningConst.text}
  
 3. One paid to accompany, assist or live with another
 
-- Verb: companion (Derived forms: companions, companioning, companioned)
+- Verb: companion (derived forms: companions, companioning, companioned)
 1. Be a companion to somebody (= company, accompany, keep company)
 """,
   );

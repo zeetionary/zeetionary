@@ -235,7 +235,7 @@ class EnglishEntryclothe extends StatelessWidget {
                           // text:
                           // "Climbing plants clothed the courtyard walls."),
                           // ExampleSentenceKurdish(
-                          // text: "بەکارهێنانی خوازراوی ڕووەکی بەرزەفڕ."),
+                          // text: "بەکارھێنانی خوازراوی ڕووەکی بەرزەفڕ."),
                           // ],
                           // ),
                           // ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clothe (Derived forms: clothed, clothes, clothing)
+- Verb: clothe (derived forms: clothed, clothes, clothing)
 1. Provide with clothes or put clothes on (= dress, enclothe, garb, raiment [archaic], tog [informal], garment, habilitate [archaic], fit out, apparel)
 "Parents must feed and clothe their child";
  

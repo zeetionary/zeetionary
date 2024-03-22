@@ -197,7 +197,7 @@ class EnglishEntrycombination extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لێکدان، پێکەوەبەستن، پێکەوەبەستراوی، یەک‌گرتوویی، هەڤدودانین، تێکەڵ‌کردن، یەک‌گرتن، پێکهێنان،	هاوبەندی،	تێکەڵە، ئاوێتە،	کۆمەڵە، گروپ، کۆمەڵ،	یەک‌خستن، تێک‌هەڵکێشان،	ڕەمز، قوفڵی ڕەمزی، قوفڵی ژمارەیی
+کوردی: لێکدان، پێکەوەبەستن، پێکەوەبەستراوی، یەک‌گرتوویی، ھەڤدودانین، تێکەڵ‌کردن، یەک‌گرتن، پێکھێنان،	ھاوبەندی،	تێکەڵە، ئاوێتە،	کۆمەڵە، گروپ، کۆمەڵ،	یەک‌خستن، تێک‌ھەڵکێشان،	ڕەمز، قوفڵی ڕەمزی، قوفڵی ژمارەیی
 """),
                           const DefinitionKurdish(
                               text:
@@ -212,7 +212,7 @@ class EnglishEntrycombination extends StatelessWidget {
                                             "The tragedy was due to a combination of factors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تراژیدیاکە بەهۆی ئاوێتەی کۆمەڵێک فاکتەرەوە بوو."),
+                                            "تراژیدیاکە بەھۆی ئاوێتەی کۆمەڵێک فاکتەرەوە بوو."),
                                   ],
                                 ),
                               ),
@@ -242,7 +242,7 @@ class EnglishEntrycombination extends StatelessWidget {
                                             "They recommend reducing expenditure, increasing taxes, or a combination of the two."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمکردنەوەی خەرجی، زیادکردنی باج، یان تێکەڵ‌کردنێکی هەردووکیان پێشنیاز دەکەن."),
+                                            "کەمکردنەوەی خەرجی، زیادکردنی باج، یان تێکەڵ‌کردنێکی ھەردووکیان پێشنیاز دەکەن."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ class EnglishEntrycombination extends StatelessWidget {
                                             "The firm is working on a new product in combination with several overseas partners."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە لەسەر بەرهەمێکی تازە کار دەکات بە یەکگرتووی لەگەڵ هاوبەشە نێودەوڵەتییەکان."),
+                                            "کۆمپانیاکە لەسەر بەرھەمێکی تازە کار دەکات بە یەکگرتووی لەگەڵ ھاوبەشە نێودەوڵەتییەکان."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ class EnglishEntrycombination extends StatelessWidget {
                                             "The materials can be used singly or in combination."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مادەکان دەکرێت بە تەنهایی یان هاوبەشی بەکاربێن."),
+                                            "مادەکان دەکرێت بە تەنھایی یان ھاوبەشی بەکاربێن."),
                                   ],
                                 ),
                               ),
@@ -364,7 +364,7 @@ class EnglishEntrycombination extends StatelessWidget {
                                             "Combination of these methods allowed us to achieve highly consistent results."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکخستنی ئەم بیردۆزانە ڕێگەیان پێمان دا ئەنجامی تەواو جێگیر بەدەست بهێنین."),
+                                            "یەکخستنی ئەم بیردۆزانە ڕێگەیان پێمان دا ئەنجامی تەواو جێگیر بەدەست بھێنین."),
                                   ],
                                 ),
                               ),
@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: combination (Derived forms: combinations)
+- Noun: combination (derived forms: combinations)
 1. A collection of things that have been combined; an assemblage of separate parts or qualities
  
 2. A coordinated sequence of chess moves

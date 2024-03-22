@@ -191,11 +191,11 @@ class EnglishEntryconformity extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گونجان، یەک‌کەوتوویی، نەریت‌گیری، هاوشێوەیی، هاوچەشنی، هاوڕێڕەوی، سازان، دەق‌گرتن، کۆکی
+کوردی: گونجان، یەک‌کەوتوویی، نەریت‌گیری، ھاوشێوەیی، ھاوچەشنی، ھاوڕێڕەوی، سازان، دەق‌گرتن، کۆکی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەڵسوکەوت و ڕەفتار کە گونجاوە لەگەڵ یاسا پەسەندکراوەکانی کۆمەڵگادا"),
+                                  "١. (ناو) ھەڵسوکەوت و ڕەفتار کە گونجاوە لەگەڵ یاسا پەسەندکراوەکانی کۆمەڵگادا"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryconformity extends StatelessWidget {
                                             "Governments often invoke patriotism to enforce conformity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەتەکان زۆرجار هەستی نیشتیمانپەروەری دەورووژێنن بۆ پابەندکردن بە نەریت‌گیری."),
+                                            "حکومەتەکان زۆرجار ھەستی نیشتیمانپەروەری دەورووژێنن بۆ پابەندکردن بە نەریت‌گیری."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conformity (Derived forms: conformities)
+- Noun: conformity (derived forms: conformities)
 1. Correspondence in form or appearance (= conformance)
  
 2. Acting according to certain accepted standards (= conformation, compliance, abidance)
@@ -349,7 +349,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TSmEn1qfhnU?t=',
+    videoId: 'TSmEn1qfhnU',
     startSeconds: 773,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -374,7 +374,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rLd5TKiv5WY?t=',
+    videoId: 'rLd5TKiv5WY',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HccZjwwfmy8?t=',
+    videoId: 'HccZjwwfmy8',
     startSeconds: 1984,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p3BD-RKWn24?t=',
+    videoId: 'p3BD-RKWn24',
     startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tYrdMjVXyNg?t=',
+    videoId: 'tYrdMjVXyNg',
     startSeconds: 7214,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NPtBkw5uD-0?t=',
+    videoId: 'NPtBkw5uD-0',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gLEX4iS1qjw?t=',
+    videoId: 'gLEX4iS1qjw',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(

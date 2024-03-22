@@ -193,7 +193,7 @@ class EnglishEntrycommonplace extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئاسایی، عەدەتی، بەربڵاو،	هیچەکە، قسەی دووبارە، ئایەخ، ناگرنگ، پڕوپووچ، وەڕەسکەر، وەڕەزکەر، شەکەت‌کەر 
+کوردی: ئاسایی، عەدەتی، بەربڵاو،	ھیچەکە، قسەی دووبارە، ئایەخ، ناگرنگ، پڕوپووچ، وەڕەسکەر، وەڕەزکەر، شەکەت‌کەر 
 """),
                           const DefinitionKurdish(
                               text:
@@ -241,7 +241,7 @@ class EnglishEntrycommonplace extends StatelessWidget {
                                             "Traffic jams are a commonplace in big cities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قەرەباڵغی هاتووچۆ شتێکی ئاساییە لە شارە گەورەکان."),
+                                            "قەرەباڵغی ھاتووچۆ شتێکی ئاساییە لە شارە گەورەکان."),
                                   ],
                                 ),
                               ),
@@ -263,7 +263,7 @@ class EnglishEntrycommonplace extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) وتەیەک، هتد کە زۆر بەکارهاتووە و سەرنجڕاکێش نییە"),
+                                  "٣. (ناو) وتەیەک، ھتد کە زۆر بەکارھاتووە و سەرنجڕاکێش نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -384,7 +384,7 @@ ${englishMeaningConst.text}
 3. Repeated too often; overfamiliar through overuse (= banal, hackneyed, old-hat [informal], shopworn [N. Amer], stock, threadbare, timeworn, tired, trite, well-worn, shop-soiled [Brit])
 "his remarks were trite and commonplace";
 
-- Noun: commonplace (Derived forms: commonplaces)
+- Noun: commonplace (derived forms: commonplaces)
 1. A trite or obvious remark (= platitude, cliché, banality, bromide)
 """,
   );

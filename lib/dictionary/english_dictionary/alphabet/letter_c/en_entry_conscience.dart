@@ -197,7 +197,7 @@ class EnglishEntryconscience extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ویژدان، دەروون، سەرهەست، ناودڵ، دڵ‌ودەروون
+کوردی: ویژدان، دەروون، سەرھەست، ناودڵ، دڵ‌ودەروون
 """),
                           const DefinitionKurdish(
                               text:
@@ -267,7 +267,7 @@ class EnglishEntryconscience extends StatelessWidget {
                                             "At the end of each day, examine your conscience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆتایی هەموو ڕۆژێکدا لە ویژدانت بکۆڵەرەوە."),
+                                            "لە کۆتایی ھەموو ڕۆژێکدا لە ویژدانت بکۆڵەرەوە."),
                                   ],
                                 ),
                               ),
@@ -295,7 +295,7 @@ class EnglishEntryconscience extends StatelessWidget {
                                             "He felt his conscience telling him to apologize."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستیکرد ویژدانی پێی گوت داوای لێبووردن بکات."),
+                                            "ھەستیکرد ویژدانی پێی گوت داوای لێبووردن بکات."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntryconscience extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەستی تاوانباری سەبارەت بە شتێک کە کردووتە یان نەتتوانیوە بیکەیت"),
+                                  "٢. (ناو) ھەستی تاوانباری سەبارەت بە شتێک کە کردووتە یان نەتتوانیوە بیکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -326,7 +326,7 @@ class EnglishEntryconscience extends StatelessWidget {
                                             "I have a terrible conscience about it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستێکی تاوانباری خراپم هەیە دەربارەی."),
+                                            "ھەستێکی تاوانباری خراپم ھەیە دەربارەی."),
                                   ],
                                 ),
                               ),
@@ -354,7 +354,7 @@ class EnglishEntryconscience extends StatelessWidget {
                                             "He had no conscience about taking his brother's money."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هەستی تاوانباری نەبوو سەبارەت بە بردنی پارەی براکەی."),
+                                            "ھیچ ھەستی تاوانباری نەبوو سەبارەت بە بردنی پارەی براکەی."),
                                   ],
                                 ),
                               ),
@@ -374,7 +374,7 @@ class EnglishEntryconscience extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ڕاستیی ئەوەی بەو شێوەیە ڕەفتار بکەیت کە پێت درووستە ئەگەرچی ببێتە هۆی کێشە"),
+                                  "٣. (ناو) ڕاستیی ئەوەی بەو شێوەیە ڕەفتار بکەیت کە پێت درووستە ئەگەرچی ببێتە ھۆی کێشە"),
                           Row(
                             children: [
                               const Expanded(
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conscience (Derived forms: consciences)
+- Noun: conscience (derived forms: consciences)
 1. Motivation deriving logically from ethical or moral principles that govern a person's thoughts and actions (= scruples, moral sense, sense of right and wrong)
  
 2. Conformity to one's own sense of right conduct
@@ -524,7 +524,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h6c2UdV9LfM?t=',
+    videoId: 'h6c2UdV9LfM',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TfB9I2gjtdw?t=',
+    videoId: 'TfB9I2gjtdw',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hBmj4rs1KrI?t=',
+    videoId: 'hBmj4rs1KrI',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qQ01eLt_bxo?t=',
+    videoId: 'qQ01eLt_bxo',
     startSeconds: 944,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -624,7 +624,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y5F_ha7d-PI?t=',
+    videoId: 'Y5F_ha7d-PI',
     startSeconds: 493,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -649,7 +649,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Hq4CtLfnZs?t=',
+    videoId: '2Hq4CtLfnZs',
     startSeconds: 1088,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/65vK_gbsgwI?t=',
+    videoId: '65vK_gbsgwI',
     startSeconds: 320,
     autoPlay: true,
     params: const YoutubePlayerParams(

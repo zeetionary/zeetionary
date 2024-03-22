@@ -192,11 +192,11 @@ class EnglishEntrycomrade extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوڕێ، هەڤاڵ، ئاوەڵ، برادەر، هاوخەبات، هاوڕێباز
+کوردی: ھاوڕێ، ھەڤاڵ، ئاوەڵ، برادەر، ھاوخەبات، ھاوڕێباز
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە ئەندامی هەمان پارتی کۆمیونیست یان سۆسیالیستە لەگەڵ ئەو کەسەی قسە دەکات"),
+                                  "١. (ناو) کەسێک کە ئەندامی ھەمان پارتی کۆمیونیست یان سۆسیالیستە لەگەڵ ئەو کەسەی قسە دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycomrade extends StatelessWidget {
                                             "We must fight for our rights, comrades!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت بۆ مافەکانمان بجەنگین، هەڤاڵان!"),
+                                            "دەبێت بۆ مافەکانمان بجەنگین، ھەڤاڵان!"),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntrycomrade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هاوڕێیەک یان کەسێک کە کاری لەگەڵ دەکەیت، بە تایبەتی لە جەنگدا"),
+                                  "٢. (ناو) ھاوڕێیەک یان کەسێک کە کاری لەگەڵ دەکەیت، بە تایبەتی لە جەنگدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrycomrade extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "They were old army comrades."),
                                     ExampleSentenceKurdish(
-                                        text: "هاوخەباتی کۆنی سوپا بوون."),
+                                        text: "ھاوخەباتی کۆنی سوپا بوون."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comrade (Derived forms: comrades)
+- Noun: comrade (derived forms: comrades)
 1. A friend who is frequently in the company of another (= companion, fellow, familiar, associate, yokefellow [N. Amer])
 "comrades in arms";
  
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IlbDynTM0UA?t=',
+    videoId: 'IlbDynTM0UA',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ECZMKRxW7p4?t=',
+    videoId: 'ECZMKRxW7p4',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nYlhAsgoadQ?t=',
+    videoId: 'nYlhAsgoadQ',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0RXBqrJpYBc?t=',
+    videoId: '0RXBqrJpYBc',
     startSeconds: 1205,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OaXvEd5uu2w?t=',
+    videoId: 'OaXvEd5uu2w',
     startSeconds: 2305,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4hAE7xl6O5Y?t=',
+    videoId: '4hAE7xl6O5Y',
     startSeconds: 1269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 1375,
     autoPlay: true,
     params: const YoutubePlayerParams(

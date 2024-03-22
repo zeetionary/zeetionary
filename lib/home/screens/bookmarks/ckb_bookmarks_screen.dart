@@ -4,6 +4,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:zeetionary/constants.dart';
 
 class KurdishFavouritesScreen extends ConsumerStatefulWidget {
   // Callback function to notify the parent when favourites are cleared
@@ -49,30 +50,37 @@ class _KurdishFavouritesScreenState
   }
 
   @override
+  @override
   Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider) + 2;
 
     return Scaffold(
-      body: ListView(
-        children: kurdishfavourites.reversed.map(
-          (kurdishfavourite) {
-            final displayTitle = kurdishfavourite.split('-').first;
-            return Directionality(
-              textDirection: TextDirection.rtl,
-              child: ListTile(
-                title: Text(
-                  displayTitle,
-                  style: TextStyle(
-                    fontSize: textSize, // Set your desired font size
-                  ),
-                ),
-                trailing: const Icon(Icons.arrow_forward),
-                onTap: () => navigateToScreen(context, kurdishfavourite),
+      body: kurdishfavourites.isEmpty
+          ? const Center(
+              child: EmptyPageIcon(
+                text: 'هیچ دڵخوازت نییە',
               ),
-            );
-          },
-        ).toList(),
-      ),
+            )
+          : ListView(
+              children: kurdishfavourites.reversed.map(
+                (kurdishfavourite) {
+                  final displayTitle = kurdishfavourite.split('-').first;
+                  return Directionality(
+                    textDirection: TextDirection.rtl,
+                    child: ListTile(
+                      title: Text(
+                        displayTitle,
+                        style: TextStyle(
+                          fontSize: textSize, // Set your desired font size
+                        ),
+                      ),
+                      trailing: const Icon(Icons.arrow_forward),
+                      onTap: () => navigateToScreen(context, kurdishfavourite),
+                    ),
+                  );
+                },
+              ).toList(),
+            ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           _clearKurdishFavourites();
@@ -94,7 +102,7 @@ class _KurdishFavouritesScreenState
             child: Text(
               'دڵنیایی کردنەوە',
               style: TextStyle(
-                fontSize: textSize,
+                fontSize: textSize + 4,
               ),
             ),
           ),
@@ -169,6 +177,7 @@ class _KurdishFavouritesScreenState
   void navigateToScreen(BuildContext context, String word) {
     final screenRoutes = {
       "a": "/english-a",
+      "کوردی": "/english-a",
       "aback": "/english-aback",
       "abacus": "/english-abacus",
       "abandon": "/english-abandon",

@@ -192,7 +192,7 @@ class EnglishEntryconfection extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شیرینی،	مرەبا،	پێکهێنان، لێکدان، تێکەڵاندن،	تێکەڵە
+کوردی: شیرینی،	مرەبا،	پێکھێنان، لێکدان، تێکەڵاندن،	تێکەڵە
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntryconfection extends StatelessWidget {
                                             "Her confections are always as stunning to look at as they are delicious to eat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شیرینییەکانی هەمیشە سەرنجڕاکێشن بۆ سەیرکردن بەوپێیەی خۆشن بۆ خواردن."),
+                                            "شیرینییەکانی ھەمیشە سەرنجڕاکێشن بۆ سەیرکردن بەوپێیەی خۆشن بۆ خواردن."),
                                   ],
                                 ),
                               ),
@@ -337,12 +337,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confection (Derived forms: confections)
+- Noun: confection (derived forms: confections)
 1. A food rich in sugar (= sweet)
  
 2. The act of creating something (a medicine or drink or soup etc.) by compounding or mixing a variety of components (= concoction)
 
-- Verb: confection (Derived forms: confections, confectioning, confectioned)
+- Verb: confection (derived forms: confections, confectioning, confectioned)
 1. Make into a confection (= confect, comfit)
 """,
   );
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gYauYCNDvew?t=',
+    videoId: 'gYauYCNDvew',
     startSeconds: 488,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dzRNswfny3A?t=',
+    videoId: 'dzRNswfny3A',
     startSeconds: 1540,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fM57RNUpd10?t=',
+    videoId: 'fM57RNUpd10',
     startSeconds: 490,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bA6-VEVAzCE?t=',
+    videoId: 'bA6-VEVAzCE',
     startSeconds: 774,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IdWmulnsVQw?t=',
+    videoId: 'IdWmulnsVQw',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J44svaQc5WY?t=',
+    videoId: 'J44svaQc5WY',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tbu3Uqa9s1A?t=',
+    videoId: 'tbu3Uqa9s1A',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -192,11 +192,11 @@ class EnglishEntrycoma extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بوورانەوە، بێ‌هۆشی، لەسەرخۆچوون، ڤەپوورسین، لەپژ
+کوردی: بوورانەوە، بێ‌ھۆشی، لەسەرخۆچوون، ڤەپوورسین، لەپژ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخێکی قووڵی بێ‌هۆشی، زۆرجار بۆ ماوەیەکی زۆر بەردەوام دەبێت و بەهۆی نەخۆشی یان بریندارییەکی سەخت تووشی دەبیت"),
+                                  "١. (ناو) دۆخێکی قووڵی بێ‌ھۆشی، زۆرجار بۆ ماوەیەکی زۆر بەردەوام دەبێت و بەھۆی نەخۆشی یان بریندارییەکی سەخت تووشی دەبیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coma (Derived forms: comae, comas)
+- Noun: coma (derived forms: comae, comas)
 1. A state of deep and often prolonged unconsciousness; usually the result of disease or injury (= comatoseness)
  
 2. (botany) a usually terminal tuft of bracts (as in the pineapple) or tuft of hairs (especially on certain seeds)

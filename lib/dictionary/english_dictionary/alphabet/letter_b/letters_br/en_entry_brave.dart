@@ -378,7 +378,7 @@ class EnglishEntrybrave extends StatelessWidget {
                                             "She died after a brave fight against cancer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گیانی لەدەستدا لەدوای بەربەرەکانییەکی ئازایانە لەگەڵ شێرپەنجە."),
+                                            "گیانی لەدەستدا لە دوای بەربەرەکانییەکی ئازایانە لەگەڵ شێرپەنجە."),
                                   ],
                                 ),
                               ),

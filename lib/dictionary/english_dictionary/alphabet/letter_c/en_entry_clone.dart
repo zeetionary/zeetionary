@@ -194,11 +194,11 @@ class EnglishEntryclone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چونیەک، هاوشێوە، لێکچوو، کۆپی، هەرەو، وەکیەک
+کوردی: چونیەک، ھاوشێوە، لێکچوو، کۆپی، ھەرەو، وەکیەک
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئاژەڵێک یان ڕووەکێک کە بەشێوەیەکی سرووشتی یان دەستکرد لە خانەکانی ئاژەڵێک یان ڕووەکێک و بەم هۆیەش تەواو وەک یەکدی بن"),
+                                  "١. (ناو) ئاژەڵێک یان ڕووەکێک کە بەشێوەیەکی سرووشتی یان دەستکرد لە خانەکانی ئاژەڵێک یان ڕووەکێک و بەم ھۆیەش تەواو وەک یەکدی بن"),
                           Row(
                             children: [
                               const Expanded(
@@ -271,7 +271,7 @@ class EnglishEntryclone extends StatelessWidget {
                                             "Once they found that the PC clones were just as good, companies saved a lot."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاتێک کە زانییان کۆمپیوتەرە کۆپییەکان هەمان باشییان هەبوو، کۆمپانیاکان پارەیەکی زۆریان قازانج کرد."),
+                                            "کاتێک کە زانییان کۆمپیوتەرە کۆپییەکان ھەمان باشییان ھەبوو، کۆمپانیاکان پارەیەکی زۆریان قازانج کرد."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntryclone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) درووستکردنی لێکچوویەکی ئاژەڵێک یان ڕووەکێک بە بەکارهێنانی خانەکانی"),
+                                  "٤. (کردار) درووستکردنی لێکچوویەکی ئاژەڵێک یان ڕووەکێک بە بەکارھێنانی خانەکانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -401,14 +401,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clone (Derived forms: clones)
+- Noun: clone (derived forms: clones)
 1. A person who is almost identical to another (= ringer, dead ringer)
  
 2. A group of genetically identical cells or organisms derived from a single cell or individual by some kind of asexual reproduction (= clon)
  
 3. An unauthorized copy or imitation (= knockoff [informal])
 
-- Verb: clone (Derived forms: clones, cloned, cloning)
+- Verb: clone (derived forms: clones, cloned, cloning)
 1. Make multiple identical copies of
 "people can clone a sheep nowadays"
 """,

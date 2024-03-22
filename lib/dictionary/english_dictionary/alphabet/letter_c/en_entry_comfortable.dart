@@ -469,7 +469,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئاسوودە، تەناهـ، حەساوە، ڕاحەت، خۆش، خۆش‌گوزەران،	خەم‌ڕەوێن، ئاسوودەبەخش، مایەی دڵخۆشی،	زیاد، زۆر،	تەواو 
+کوردی: ئاسوودە، تەناھـ، حەساوە، ڕاحەت، خۆش، خۆش‌گوزەران،	خەم‌ڕەوێن، ئاسوودەبەخش، مایەی دڵخۆشی،	زیاد، زۆر،	تەواو 
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە ئاسوودەبەخشە"),
@@ -542,7 +542,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                                             "The hotel was comfortable enough."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هوتێلەکە بەشی پێویست ئاسوودەبەخش بوو."),
+                                            "ھوتێلەکە بەشی پێویست ئاسوودەبەخش بوو."),
                                   ],
                                 ),
                               ),
@@ -601,7 +601,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                                             "Please make yourself comfortable while I get some coffee."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تکایە ئاسوودە بە کە من هەندێک قاوە ئامادە دەکەم."),
+                                            "تکایە ئاسوودە بە کە من ھەندێک قاوە ئامادە دەکەم."),
                                   ],
                                 ),
                               ),
@@ -653,7 +653,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) هەبوونی متمانە و نەبوونی نیگەرانی سەبارەت بە شتێک"),
+                                  "٣. (ھاوەڵناو) ھەبوونی متمانە و نەبوونی نیگەرانی سەبارەت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -694,7 +694,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                                             "I didn't feel comfortable about accepting the money."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستمم بە ئاسوودەیی نەدەکرد سەبارەت بە پەسەندکردنی پارەکە."),
+                                            "ھەستمم بە ئاسوودەیی نەدەکرد سەبارەت بە پەسەندکردنی پارەکە."),
                                   ],
                                 ),
                               ),
@@ -724,7 +724,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                                             "She seems comfortable giving a speech without notes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەست بە ئاسوودەیی دەکات کە وتارێک بەبێ تێبینی بدات."),
+                                            "ھەست بە ئاسوودەیی دەکات کە وتارێک بەبێ تێبینی بدات."),
                                   ],
                                 ),
                               ),
@@ -754,7 +754,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                                             "I never feel very comfortable in her presence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەست بە ئاسوودەیی ناکەم لە پێشیدا."),
+                                            "ھەست بە ئاسوودەیی ناکەم لە پێشیدا."),
                                   ],
                                 ),
                               ),
@@ -776,7 +776,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) هەبوونی هێندە پارە کە ئەوەی دەتەوێت دەیکڕیت بەبێ گرنگیدان بە نرخەکەی"),
+                                  "٤. (ھاوەڵناو) ھەبوونی ھێندە پارە کە ئەوەی دەتەوێت دەیکڕیت بەبێ گرنگیدان بە نرخەکەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -814,7 +814,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He makes a comfortable living."),
                                     ExampleSentenceKurdish(
-                                        text: "ژیانێکی دەوڵەمەندانەی هەیە."),
+                                        text: "ژیانێکی دەوڵەمەندانەی ھەیە."),
                                   ],
                                 ),
                               ),

@@ -264,7 +264,7 @@ class EnglishEntryclot extends StatelessWidget {
                                             "He was rushed into hospital because his blood wasn't clotting properly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بردرا بۆ نەخۆشخانە بەهۆی ئەوەی خوێنی بە گونجاوی کڵۆی درووست نەدەکرد."),
+                                            "بردرا بۆ نەخۆشخانە بەھۆی ئەوەی خوێنی بە گونجاوی کڵۆی درووست نەدەکرد."),
                                   ],
                                 ),
                               ),
@@ -363,12 +363,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clot (Derived forms: clots)
+- Noun: clot (derived forms: clots)
 1. A lump of material formed from the content of a liquid (= coagulum)
  
 2. [Brit] An awkward stupid person (= lout, clod [informal], stumblebum [N. Amer, informal], goon [informal], oaf, lubber, lummox [informal], lump [informal], gawk, clodpole [archaic, informal], clodhopper [informal])
 
-- Verb: clot (Derived forms: clots, clotting, clotted)
+- Verb: clot (derived forms: clots, clotting, clotted)
 1. Change from a liquid to a thickened or solid state (= coagulate)
 "clotted blood";
  

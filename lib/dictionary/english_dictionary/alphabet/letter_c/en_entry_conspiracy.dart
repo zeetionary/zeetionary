@@ -192,7 +192,7 @@ class EnglishEntryconspiracy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیلان، سازوباز، کۆمپلۆ، کەین‌وبەین، هاودەستی، گەلەکۆمە
+کوردی: پیلان، سازوباز، کۆمپلۆ، کەین‌وبەین، ھاودەستی، گەلەکۆمە
 """),
                           const DefinitionKurdish(
                               text:
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conspiracy (Derived forms: conspiracies)
+- Noun: conspiracy (derived forms: conspiracies)
 1. A secret agreement between two or more people to perform an unlawful act (= confederacy)
  
 2. A plot to carry out some harmful or illegal act (especially a political plot) (= cabal)
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D5yuZbiElVg?t=',
+    videoId: 'D5yuZbiElVg',
     startSeconds: 234,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KlEG_VvmnZI?t=',
+    videoId: 'KlEG_VvmnZI',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xQ6mg67VcG0?t=',
+    videoId: 'xQ6mg67VcG0',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WRyFzj1ywzI?t=',
+    videoId: 'WRyFzj1ywzI',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/coZ_2ddVlpA?t=',
+    videoId: 'coZ_2ddVlpA',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LKqvgRAZjZg?t=',
+    videoId: 'LKqvgRAZjZg',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7LFkN7QGp2c?t=',
+    videoId: '7LFkN7QGp2c',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(

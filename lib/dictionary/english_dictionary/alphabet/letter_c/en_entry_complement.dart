@@ -195,7 +195,7 @@ class EnglishEntrycomplement extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەواوکەر، ڕاپەڕێنەر، ڕەبەق‌کەر،	ژمارەی تەواو،	تێکڕا، هەموو، گشت،	(ڕێزمان) پاڵدراو، تەواوکەر 
+کوردی: تەواوکەر، ڕاپەڕێنەر، ڕەبەق‌کەر،	ژمارەی تەواو،	تێکڕا، ھەموو، گشت،	(ڕێزمان) پاڵدراو، تەواوکەر 
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) تەواوکردنی شتێک بە باشترکردنی"),
@@ -299,7 +299,7 @@ class EnglishEntrycomplement extends StatelessWidget {
                                             "We've taken our full complement of trainees this year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمساڵ ژمارەی تەواوی ڕاهێنراوانمان وەرگرتووە."),
+                                            "ئەمساڵ ژمارەی تەواوی ڕاھێنراوانمان وەرگرتووە."),
                                   ],
                                 ),
                               ),
@@ -319,7 +319,7 @@ class EnglishEntrycomplement extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) وشەیەک یان زاراوەیەک، بەتایبەتی هاوەڵناوێک یان ناوێک، کە لە دوای کاری لێکدەر بەکاردێت، و پێناسەی بکەری کارەکە دەکات"),
+                                  "٣. (ناو) وشەیەک یان زاراوەیەک، بەتایبەتی ھاوەڵناوێک یان ناوێک، کە لە دوای کاری لێکدەر بەکاردێت، و پێناسەی بکەری کارەکە دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -429,7 +429,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: complement (Derived forms: complements)
+- Noun: complement (derived forms: complements)
 1. Something added to complete, embellish or make perfect (= accompaniment)
 "a fine wine is a perfect complement to the dinner";
  
@@ -451,7 +451,7 @@ ${englishMeaningConst.text}
  
 9. (immunology) one of several blood proteins that work with antibodies during an immune response
 
-- Verb: complement (Derived forms: complements, complementing, complemented)
+- Verb: complement (derived forms: complements, complementing, complemented)
 1. Make complete or perfect; supply what is wanting or form the complement to
 "I need some pepper to complement the sweet touch in the soup"
 """,
@@ -486,7 +486,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    videoId: 'lVoGZiL-kns',
     startSeconds: 316,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 1422,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 1163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6Xf858oNEak?t=',
+    videoId: '6Xf858oNEak',
     startSeconds: 412,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MYUXUnilpFo?t=',
+    videoId: 'MYUXUnilpFo',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tExo3ovEBWQ?t=',
+    videoId: 'tExo3ovEBWQ',
     startSeconds: 1961,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -636,7 +636,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
+    videoId: '-obKX-mqjXQ',
     startSeconds: 2524,
     autoPlay: true,
     params: const YoutubePlayerParams(

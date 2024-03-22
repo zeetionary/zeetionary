@@ -242,7 +242,7 @@ class EnglishEntryconservatism extends StatelessWidget {
                                             "There was a spectacular slide in support for Conservatism in Scotland."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕانێکی گەورە لە پشتگیری بۆ کۆنەپارێزی لە سکۆتلەندا هەبوو."),
+                                            "گۆڕانێکی گەورە لە پشتگیری بۆ کۆنەپارێزی لە سکۆتلەندا ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -376,7 +376,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conservatism (Derived forms: conservatisms)
+- Noun: conservatism (derived forms: conservatisms)
 1. A political or theological orientation advocating the preservation of the best in society and opposing radical changes (= conservativism)
 """,
   );
@@ -410,7 +410,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OCrxD19DHA8?t=',
+    videoId: 'OCrxD19DHA8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jXD0a-oOceM?t=',
+    videoId: 'jXD0a-oOceM',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fhX4710W_54',
+    videoId: 'fhX4710W_54',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pk4z0yo1u5M?t=',
+    videoId: 'pk4z0yo1u5M',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KWHwxIAfIcc?t=',
+    videoId: 'KWHwxIAfIcc',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ugJMk5-2vKI?t=',
+    videoId: 'ugJMk5-2vKI',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Qu3lPTsnHM?t=',
+    videoId: '4Qu3lPTsnHM',
     startSeconds: 522,
     autoPlay: true,
     params: const YoutubePlayerParams(

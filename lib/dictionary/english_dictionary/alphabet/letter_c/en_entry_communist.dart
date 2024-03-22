@@ -228,7 +228,7 @@ class EnglishEntrycommunist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) وڵاتێک، هتد کە سیستەمی کۆمیونیزمی هەیە"),
+                                  "٢. (ھاوەڵناو) وڵاتێک، ھتد کە سیستەمی کۆمیونیزمی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntrycommunist extends StatelessWidget {
                                             "If one country in a region became communist, others would follow."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر یەک وڵات لە هەرێمەکە ببێت بە کۆمیونیزم ئەوانی دیکە شوێنی دەکەون."),
+                                            "ئەگەر یەک وڵات لە ھەرێمەکە ببێت بە کۆمیونیزم ئەوانی دیکە شوێنی دەکەون."),
                                   ],
                                 ),
                               ),
@@ -259,7 +259,7 @@ class EnglishEntrycommunist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەسێک کە باوەڕی بە کۆمیونیزم هەیە، بەتایبەتی کەسێک کە ئەندامی پارتێکی کۆمیونیستە"),
+                                  "٣. (ناو) کەسێک کە باوەڕی بە کۆمیونیزم ھەیە، بەتایبەتی کەسێک کە ئەندامی پارتێکی کۆمیونیستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -401,7 +401,7 @@ ${englishMeaningConst.text}
 1. Relating to or marked by communism (= communistic, red [informal])
 "Communist Party"; "communist governments";
 
-- Noun: communist (Derived forms: communists)
+- Noun: communist (derived forms: communists)
 1. A socialist who advocates communism (= commie [informal], red [informal], commo [informal])
 
 - Noun: Communist

@@ -284,7 +284,7 @@ class EnglishEntrycoil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) وایەر، حەبل، قژ، هتد ـی پێچخواردوو"),
+                                  "٢. (ناو) وایەر، حەبل، قژ، ھتد ـی پێچخواردوو"),
                           Row(
                             children: [
                               const Expanded(
@@ -315,7 +315,7 @@ class EnglishEntrycoil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) یەک تاڵ لە وایەر، حەبل، قژ، هتد لە زنجیرەیەکدا"),
+                                  "٣. (ناو) یەک تاڵ لە وایەر، حەبل، قژ، ھتد لە زنجیرەیەکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -326,7 +326,7 @@ class EnglishEntrycoil extends StatelessWidget {
                                             "Shake the rope and let the coils unwind."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەبلەکە ڕاوەشێنە و بهێڵە پێچەکانی بکرێنەوە."),
+                                            "حەبلەکە ڕاوەشێنە و بھێڵە پێچەکانی بکرێنەوە."),
                                   ],
                                 ),
                               ),
@@ -425,7 +425,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coil (Derived forms: coiled, coiling, coils)
+- Verb: coil (derived forms: coiled, coiling, coils)
 1. To wind or move in a spiral course (= gyrate, spiral)
 "the muscles and nerves of his fine drawn body were coiling for action"; "black smoke coiling up into the sky";
  
@@ -434,7 +434,7 @@ ${englishMeaningConst.text}
  
 3. Wind around something in coils or loops (= loop, curl)
 
-- Noun: coil (Derived forms: coils)
+- Noun: coil (derived forms: coils)
 1. A structure consisting of something wound in a continuous series of loops (= spiral, volute, whorl, helix)
 "a coil of rope";
  

@@ -192,11 +192,11 @@ class EnglishEntrycone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قوچەک، قووچکە، قوتکە،	ڕەحەتی‌ئاسا، نانە بەستەنی،	میوەی کاج، بەرەکاج، بەری کاژ،	شتی قوچکەئاسا،	قووچکەی ڕێگا(وبان) یان نەڕۆیشتن، کەللەی پاراستن (هات‌وچۆ)،	قووچکە یان نووچکەی گڕکان
+کوردی: قوچەک، قووچکە، قوتکە،	ڕەحەتی‌ئاسا، نانە بەستەنی،	میوەی کاج، بەرەکاج، بەری کاژ،	شتی قوچکەئاسا،	قووچکەی ڕێگا(وبان) یان نەڕۆیشتن، کەللەی پاراستن (ھات‌وچۆ)،	قووچکە یان نووچکەی گڕکان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شێوەیەک کە تەختە، خڕ، یان هێلکەیی هەیە و لایەلانی بەرەوە سەرەوە دەچن تاوەکو لە خاڵێک یەکدەگرن"),
+                                  "١. (ناو) شێوەیەک کە تەختە، خڕ، یان ھێلکەیی ھەیە و لایەلانی بەرەوە سەرەوە دەچن تاوەکو لە خاڵێک یەکدەگرن"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycone extends StatelessWidget {
                                             "The construction crew placed traffic cones along the road to divert traffic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیمی بیناسازییەکە مۆتەی هاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی هاتووچۆ."),
+                                            "تیمی بیناسازییەکە مۆتەی ھاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی ھاتووچۆ."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrycone extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) شتێک کە شێوەی قووچەکی هەیە"),
+                              text: "٢. (ناو) شتێک کە شێوەی قووچەکی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cone (Derived forms: cones)
+- Noun: cone (derived forms: cones)
 1. Any cone-shaped artifact
  
 2. A shape whose base is a circle and whose sides taper up to a point (= conoid, cone shape)
@@ -345,7 +345,7 @@ ${englishMeaningConst.text}
  
 4. A visual receptor cell in the retina that is sensitive to bright light and to colour (= cone cell, retinal cone)
 
-- Verb: cone (Derived forms: coned, coning, cones)
+- Verb: cone (derived forms: coned, coning, cones)
 1. Make cone-shaped
 "cone a tire"
 """,
@@ -380,7 +380,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dVwByx4qOfk?t=',
+    videoId: 'dVwByx4qOfk',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -405,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dNSk4coSpUc?t=',
+    videoId: 'dNSk4coSpUc',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    videoId: '47MNn4bsmSw',
     startSeconds: 1464,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H9rO5sKzOiQ?t=',
+    videoId: 'H9rO5sKzOiQ',
     startSeconds: 3272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HsT3iI6dT5U?t=',
+    videoId: 'HsT3iI6dT5U',
     startSeconds: 3847,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5bhefS70tgs?t=',
+    videoId: '5bhefS70tgs',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pfNwTHKQJ6I?t=',
+    videoId: 'pfNwTHKQJ6I',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(

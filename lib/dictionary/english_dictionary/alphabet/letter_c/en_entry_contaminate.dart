@@ -260,7 +260,7 @@ class EnglishEntrycontaminate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دانانی کاریگەری خراپ لەسەر بیرۆکە و هەلسوکەوتی خەڵکی"),
+                                  "٢. (کردار) دانانی کاریگەری خراپ لەسەر بیرۆکە و ھەلسوکەوتی خەڵکی"),
                           Row(
                             children: [
                               const Expanded(
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: contaminate (Derived forms: contaminated, contaminates, contaminating)
+- Verb: contaminate (derived forms: contaminated, contaminates, contaminating)
 1. Make impure in a bad way; make something harmful, especially by the addition of some unwanted substance (= pollute, foul)
 "The industrial wastes contaminated the lake";
  
@@ -410,7 +410,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T48_SrFCdaQ?t=',
+    videoId: 'T48_SrFCdaQ',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    videoId: '0jltioeaEyY',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bbi0kEaTgio?t=',
+    videoId: 'Bbi0kEaTgio',
     startSeconds: 1243,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
+    videoId: 'l2FuvKTyRMQ',
     startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f8euUepDo5w?t=',
+    videoId: 'f8euUepDo5w',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QxZ_iPldGtI?t=',
+    videoId: 'QxZ_iPldGtI',
     startSeconds: 846,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C0M5tUQSaps?t=',
+    videoId: 'C0M5tUQSaps',
     startSeconds: 992,
     autoPlay: true,
     params: const YoutubePlayerParams(

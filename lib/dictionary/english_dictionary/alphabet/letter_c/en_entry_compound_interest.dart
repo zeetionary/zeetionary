@@ -195,11 +195,11 @@ class EnglishEntrycompoundinterest extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سوود یان بەهرەی ئاوێتە یان لێکدراو
+کوردی: سوود یان بەھرەی ئاوێتە یان لێکدراو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سوو کە حساب دەکرێت بە هەژمارکردنی ئەو بڕەی کە لە سەرەتادا بەکارهێنراوە و ئەو سووەی کە چووەتە سەری"),
+                                  "١. (ناو) سوو کە حساب دەکرێت بە ھەژمارکردنی ئەو بڕەی کە لە سەرەتادا بەکارھێنراوە و ئەو سووەی کە چووەتە سەری"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,7 +210,7 @@ class EnglishEntrycompoundinterest extends StatelessWidget {
                                             "Thanks to the power of compound interest, every €1 you invest in your 20s is worth €2 in your 30s and €4 in your 40s."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سوپاس بۆ هێزی سووی ئاوێتە، هەر یەک یۆرۆ کە لە تەمەنی ٢٠ ـەکانتدا دەیخەیتە سەرمایەوە دەبێت بە ٢ یۆرۆ لە ٣٠ ـیەکانتدا و و ٤ یۆرۆ لە ٤٠ ـەکانتدا."),
+                                            "سوپاس بۆ ھێزی سووی ئاوێتە، ھەر یەک یۆرۆ کە لە تەمەنی ٢٠ ـەکانتدا دەیخەیتە سەرمایەوە دەبێت بە ٢ یۆرۆ لە ٣٠ ـیەکانتدا و و ٤ یۆرۆ لە ٤٠ ـەکانتدا."),
                                   ],
                                 ),
                               ),
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OeJobV4jJG0?t=',
+    videoId: 'OeJobV4jJG0',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_NgA9dZC5qo?t=',
+    videoId: '_NgA9dZC5qo',
     startSeconds: 751,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pAAv7gWV6SU?t=',
+    videoId: 'pAAv7gWV6SU',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RyF40JydVNU?t=',
+    videoId: 'RyF40JydVNU',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Solb9uA-tgQ?t=',
+    videoId: 'Solb9uA-tgQ',
     startSeconds: 11821,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cQWlnTyOSig?t=',
+    videoId: 'cQWlnTyOSig',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O85OWBJ2ayo?t=',
+    videoId: 'O85OWBJ2ayo',
     startSeconds: 915,
     autoPlay: true,
     params: const YoutubePlayerParams(

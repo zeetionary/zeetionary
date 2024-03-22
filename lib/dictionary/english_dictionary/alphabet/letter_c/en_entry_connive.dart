@@ -207,7 +207,7 @@ class EnglishEntryconnive extends StatelessWidget {
                                             "She knew that if she said nothing she would be conniving in an injustice."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەیزانی ئەگەر هیچ نەڵێت ئەوا لە نادادپەروەرییەک تێوەدەگلێت."),
+                                            "دەیزانی ئەگەر ھیچ نەڵێت ئەوا لە نادادپەروەرییەک تێوەدەگلێت."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryconnive extends StatelessWidget {
                                             "The government was accused of having connived with the security forces to permit murder."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت تاوانبارکرا بە تێوەگلان لەگەڵ هێزەکانی ئاسایش بە ڕێگەدان بە کوشتن."),
+                                            "حکومەت تاوانبارکرا بە تێوەگلان لەگەڵ ھێزەکانی ئاسایش بە ڕێگەدان بە کوشتن."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: connive (Derived forms: connives, conniving, connived)
+- Verb: connive (derived forms: connives, conniving, connived)
 1. Encourage or assent to illegally or criminally
  
 2. Plot something harmful; scheme in an underhand manner (= scheme, intrigue)
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KuF3VnYdYZA?t=',
+    videoId: 'KuF3VnYdYZA',
     startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ccjr3kYRbIc?t=',
+    videoId: 'Ccjr3kYRbIc',
     startSeconds: 527,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0GQ1S9v6XXM?t=',
+    videoId: '0GQ1S9v6XXM',
     startSeconds: 658,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jyX4AbOWf9g?t=',
+    videoId: 'jyX4AbOWf9g',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MdVi4ZqYwyw?t=',
+    videoId: 'MdVi4ZqYwyw',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GinRfKa3sVs?t=',
+    videoId: 'GinRfKa3sVs',
     startSeconds: 231,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r8-jVs-KVbY?t=',
+    videoId: 'r8-jVs-KVbY',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(

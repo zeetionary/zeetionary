@@ -203,11 +203,11 @@ class EnglishEntrycontribute extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوکاری کردن، بەشداری کردن، یارمەتیدان
+کوردی: ھاوکاری کردن، بەشداری کردن، یارمەتیدان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) پێدانی شتێک، بەتایبەتی پارە یان کەلووپەل، بۆ بەدەستهێنان یان بەخشین بە شتێک"),
+                                  "١. (کردار) پێدانی شتێک، بەتایبەتی پارە یان کەلووپەل، بۆ بەدەستھێنان یان بەخشین بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -264,7 +264,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بوون بە یەکێک لە هۆکارەکانی شتێک"),
+                                  "٢. (کردار) بوون بە یەکێک لە ھۆکارەکانی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -275,7 +275,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "Human error may have been a contributing factor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵەی مرۆڤ دەکرێت یەکێک لە فاکتەرە سەبەبکارەکان بووبێت."),
+                                            "ھەڵەی مرۆڤ دەکرێت یەکێک لە فاکتەرە سەبەبکارەکان بووبێت."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "Medical negligence was said to have contributed to her death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵەی تەندرووستی دەوترێت سەبەبکاری مردنەکەی بوو."),
+                                            "ھەڵەی تەندرووستی دەوترێت سەبەبکاری مردنەکەی بوو."),
                                   ],
                                 ),
                               ),
@@ -331,7 +331,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "US policy has contributed to the problem."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سیاسەتی ئەمریکا بووە بە هۆکاری کێشەکە."),
+                                            "سیاسەتی ئەمریکا بووە بە ھۆکاری کێشەکە."),
                                   ],
                                 ),
                               ),
@@ -359,7 +359,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "Unemployment contributes directly to homelessness."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێکاری ڕاستەوخۆ هۆکارە بۆ بێلانەیی."),
+                                            "بێکاری ڕاستەوخۆ ھۆکارە بۆ بێلانەیی."),
                                   ],
                                 ),
                               ),
@@ -379,7 +379,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) زیادکردن، بەهێزکردن، یان بەخشین بە شتێک"),
+                                  "٣. (کردار) زیادکردن، بەھێزکردن، یان بەخشین بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -390,7 +390,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "Immigrants have contributed to British culture in many ways."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەنابەران لە زۆر لایەنەوە بەخشینیان بە کەلتووری بەریتانیا هەبووە."),
+                                            "پەنابەران لە زۆر لایەنەوە بەخشینیان بە کەلتووری بەریتانیا ھەبووە."),
                                   ],
                                 ),
                               ),
@@ -418,7 +418,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "Hall's work contributed greatly to our knowledge of the disease."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارەکانی هۆڵ زۆر یارمەتیدەری زانیاریمان لەسەر نەخۆشییەکە بوون."),
+                                            "کارەکانی ھۆڵ زۆر یارمەتیدەری زانیاریمان لەسەر نەخۆشییەکە بوون."),
                                   ],
                                 ),
                               ),
@@ -468,7 +468,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) نووسین بۆ ڕۆژنامەیەک، کتێبێک، وێبسایتێک، هتد یان پڕۆگرامێکی تەلەفیزیۆن یان ڕادیۆیی؛ قسەکردن لە کاتی گفتوگۆیەک"),
+                                  "٤. (کردار) نووسین بۆ ڕۆژنامەیەک، کتێبێک، وێبسایتێک، ھتد یان پڕۆگرامێکی تەلەفیزیۆن یان ڕادیۆیی؛ قسەکردن لە کاتی گفتوگۆیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -479,7 +479,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "The blog now has about 20 people contributing regularly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بلۆگەکە لە ئێستادا ٢٠ کەسی نووسەری بەردەوامی هەیە."),
+                                            "بلۆگەکە لە ئێستادا ٢٠ کەسی نووسەری بەردەوامی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -539,7 +539,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                             "Come to the meeting if you feel you have something to contribute."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەرە بۆ کۆبوونەوەکە ئەگەر شتێکت هەیە بۆ گوتن."),
+                                            "وەرە بۆ کۆبوونەوەکە ئەگەر شتێکت ھەیە بۆ گوتن."),
                                   ],
                                 ),
                               ),
@@ -668,7 +668,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: contribute (Derived forms: contributed, contributes, contributing)
+- Verb: contribute (derived forms: contributed, contributes, contributing)
 1. Provide a particular quality or character (= lend, impart, bestow, add, bring)
 "Her presence contributes a certain cachet to the company";
  
@@ -712,7 +712,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    videoId: 'rEdl2Uetpvo',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -737,7 +737,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -762,7 +762,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/043CQXHfx10?t=',
+    videoId: '043CQXHfx10',
     startSeconds: 1301,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -787,7 +787,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NLw53N3zz1Y?t=',
+    videoId: 'NLw53N3zz1Y',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -812,7 +812,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UtdotNbmjxU?t=',
+    videoId: 'UtdotNbmjxU',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -837,7 +837,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v01SxXui9XQ?t=',
+    videoId: 'v01SxXui9XQ',
     startSeconds: 2615,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -862,7 +862,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SaOHTp07Vgw?t=',
+    videoId: 'SaOHTp07Vgw',
     startSeconds: 1252,
     autoPlay: true,
     params: const YoutubePlayerParams(

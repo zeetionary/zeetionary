@@ -198,10 +198,10 @@ class EnglishEntrycomb extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شانە، ڕنەک، چلچنگ، کەڵکیت، دەفە، کوویشک، لیفە، ڕەنوونە، کەرکیت،	شانە هەنگوین،	پۆپە، کاکۆڵ،	شانەکردن، داهێنان، شی‌کردنەوە
+کوردی: شانە، ڕنەک، چلچنگ، کەڵکیت، دەفە، کوویشک، لیفە، ڕەنوونە، کەرکیت،	شانە ھەنگوین،	پۆپە، کاکۆڵ،	شانەکردن، داھێنان، شی‌کردنەوە
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) شانەی قژ داهێنان"),
+                              text: "١. (ناو) شانەی قژ داھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntrycomb extends StatelessWidget {
                                         text:
                                             "She ran a comb through her tangled hair."),
                                     ExampleSentenceKurdish(
-                                        text: "شانەیەکی بە قژە بژەکەیدا هێنا."),
+                                        text: "شانەیەکی بە قژە بژەکەیدا ھێنا."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycomb extends StatelessWidget {
                                             "He just had time to wash his face and drag a comb through his hair before going out."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها کاتی ئەوەی هەبوو ڕووخساری بشوات و شانایەک لە قژی بدات پێش ئەوەی بچێتە دەرەوە."),
+                                            "تەنھا کاتی ئەوەی ھەبوو ڕووخساری بشوات و شانایەک لە قژی بدات پێش ئەوەی بچێتە دەرەوە."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycomb extends StatelessWidget {
                                         text: "Your hair needs a good comb."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قژت پێویستی بە شانەکردنێکی باش هەیە."),
+                                            "قژت پێویستی بە شانەکردنێکی باش ھەیە."),
                                   ],
                                 ),
                               ),
@@ -350,7 +350,7 @@ class EnglishEntrycomb extends StatelessWidget {
                                             "She combed her hair and put on some lipstick."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قژی شانەکرد و هەندێک سووراوی کرد."),
+                                            "قژی شانەکرد و ھەندێک سووراوی کرد."),
                                   ],
                                 ),
                               ),
@@ -508,7 +508,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comb (Derived forms: combs)
+- Noun: comb (derived forms: combs)
 1. A flat device with narrow pointed teeth on one edge; disentangles or arranges hair
  
 2. The fleshy red crest on the head of the domestic fowl and other gallinaceous birds (= cockscomb, coxcomb)
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 5. The act of drawing a comb through hair (= combing)
 "his hair needed a comb";
 
-- Verb: comb (Derived forms: combing, combs, combed)
+- Verb: comb (derived forms: combing, combs, combed)
 1. Straighten with a comb
 "comb your hair"
  

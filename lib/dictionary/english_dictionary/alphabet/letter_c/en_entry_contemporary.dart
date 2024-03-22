@@ -198,10 +198,10 @@ class EnglishEntrycontemporary extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوچەرخ، هاوسەردەم، هاوڕۆژگار، هاوکات، هاودەم،	تازە، نوێ، نەو،	هاوتەمەن
+کوردی: ھاوچەرخ، ھاوسەردەم، ھاوڕۆژگار، ھاوکات، ھاودەم،	تازە، نوێ، نەو،	ھاوتەمەن
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) سەر بە هەمان کات و سەردەم"),
+                              text: "١. (ھاوەڵناو) سەر بە ھەمان کات و سەردەم"),
                           Row(
                             children: [
                               const Expanded(
@@ -212,7 +212,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                             "We have no contemporary account of the battle (= written near the time that it happened)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ سەرچاوەیەکی هاوسەردەمی شەڕەکەمان نییە."),
+                                            "ھیچ سەرچاوەیەکی ھاوسەردەمی شەڕەکەمان نییە."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                         text:
                                             "He was contemporary with Shakespeare."),
                                     ExampleSentenceKurdish(
-                                        text: "هاوسەردەم بوو لەگەڵ شکسپیر."),
+                                        text: "ھاوسەردەم بوو لەگەڵ شکسپیر."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                             "She used only strictly contemporary documents to research the book."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها بەڵگەنامەی هاوچەرخی بەکارهێنا بۆ لێکۆڵینەوە بۆ کتێبەکە."),
+                                            "تەنھا بەڵگەنامەی ھاوچەرخی بەکارھێنا بۆ لێکۆڵینەوە بۆ کتێبەکە."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                             "He is among the best-known contemporary artists."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەناو ناسراوترین هونەرمەندەکانی سەردەمە."),
+                                            "لەناو ناسراوترین ھونەرمەندەکانی سەردەمە."),
                                   ],
                                 ),
                               ),
@@ -367,7 +367,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                             "Try some contemporary colours on your kitchen walls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ڕەنگی سەردەمیانە تاقیبکەوە لەسەر دیواری چێشتخانەکەت."),
+                                            "ھەندێک ڕەنگی سەردەمیانە تاقیبکەوە لەسەر دیواری چێشتخانەکەت."),
                                   ],
                                 ),
                               ),
@@ -389,7 +389,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) کەسێک کە هاوسەردەم لەگەڵ کەسێکی دیکە دەژی یان ژیاوە"),
+                                  "٤. (ناو) کەسێک کە ھاوسەردەم لەگەڵ کەسێکی دیکە دەژی یان ژیاوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -400,7 +400,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                             "She and I were contemporaries at college."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "من و ئەو هاودەم بووین پێکەوە لە کۆلێژ."),
+                                            "من و ئەو ھاودەم بووین پێکەوە لە کۆلێژ."),
                                   ],
                                 ),
                               ),
@@ -430,7 +430,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                                             "He was a contemporary of Freud and may have known him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسەردەمی فرۆید بوو و ڕەنگە ناسیبێتی."),
+                                            "ھاوسەردەمی فرۆید بوو و ڕەنگە ناسیبێتی."),
                                   ],
                                 ),
                               ),
@@ -541,7 +541,7 @@ ${englishMeaningConst.text}
 3. Occurring in the same period of time (= contemporaneous)
 "the composer Salieri was contemporary with Mozart";
 
-- Noun: contemporary (Derived forms: contemporaries)
+- Noun: contemporary (derived forms: contemporaries)
 1. A person of nearly the same age as another (= coeval)
 """,
   );
@@ -575,7 +575,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hzmbCSHcSts?t=',
+    videoId: 'hzmbCSHcSts',
     startSeconds: 144,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yLUvvfw_06s?t=',
+    videoId: 'yLUvvfw_06s',
     startSeconds: 1012,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -625,7 +625,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tJuYL3nPINM?t=',
+    videoId: 'tJuYL3nPINM',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -650,7 +650,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lf-KVEXIoqM?t=',
+    videoId: 'lf-KVEXIoqM',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -675,7 +675,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kBdfcR-8hEY?t=',
+    videoId: 'kBdfcR-8hEY',
     startSeconds: 985,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -700,7 +700,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/29DjvorzUGg?t=',
+    videoId: '29DjvorzUGg',
     startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -725,7 +725,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5v13wrVEQ2M?t=',
+    videoId: '5v13wrVEQ2M',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(

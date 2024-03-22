@@ -195,7 +195,7 @@ class EnglishEntrycontraflow extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سیستەمێکی هاتووچۆی سەر ڕێگا کە بەکاردێت کاتێک سایدێکی ڕێگایەک داخراوە بۆ چاککردنەوە و سایدەکەی دیکە بۆ هەردوو ئاراستە بەکاردێت"),
+                                  "١. (ناو) سیستەمێکی ھاتووچۆی سەر ڕێگا کە بەکاردێت کاتێک سایدێکی ڕێگایەک داخراوە بۆ چاککردنەوە و سایدەکەی دیکە بۆ ھەردوو ئاراستە بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contraflow (Derived forms: contraflows)
+- Noun: contraflow (derived forms: contraflows)
 Usage: Brit
 1. The temporary division of one side of a motorway into two lanes, with one going in the opposite direction to usual; usually during roadworks while one side of the road is being maintained
 """,
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cXn6RptRVkk?t=',
+    videoId: 'cXn6RptRVkk',
     startSeconds: 434,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4vR_GWdKIzQ?t=',
+    videoId: '4vR_GWdKIzQ',
     startSeconds: 881,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u2PoTuonOn4?t=',
+    videoId: 'u2PoTuonOn4',
     startSeconds: 869,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sqN13FOCYDI?t=',
+    videoId: 'sqN13FOCYDI',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q_omfpzXv-g?t=',
+    videoId: 'Q_omfpzXv-g',
     startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u2Q3CKpo2mE?t=',
+    videoId: 'u2Q3CKpo2mE',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/reJm2jAS0jM?t=',
+    videoId: 'reJm2jAS0jM',
     startSeconds: 536,
     autoPlay: true,
     params: const YoutubePlayerParams(

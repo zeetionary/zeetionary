@@ -243,7 +243,7 @@ class EnglishEntrycontemplate extends StatelessWidget {
                                             "I have never contemplated living abroad."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز بیرم لە ژیان لە دەرەوەی وڵات نەکردووەتەوە."),
+                                            "ھەرگیز بیرم لە ژیان لە دەرەوەی وڵات نەکردووەتەوە."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ class EnglishEntrycontemplate extends StatelessWidget {
                                             "How could you even contemplate such an idea?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چۆن بیرکردنەوەیەکی وەها هەر بە مێشکتدا هات؟"),
+                                            "چۆن بیرکردنەوەیەکی وەھا ھەر بە مێشکتدا ھات؟"),
                                   ],
                                 ),
                               ),
@@ -366,7 +366,7 @@ class EnglishEntrycontemplate extends StatelessWidget {
                                             "I can't contemplate what it would be like to be alone."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم بیر لەوە بکەمەوە چۆن دەبێت تەنها بیت."),
+                                            "ناتوانم بیر لەوە بکەمەوە چۆن دەبێت تەنھا بیت."),
                                   ],
                                 ),
                               ),
@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: contemplate (Derived forms: contemplated, contemplates, contemplating)
+- Verb: contemplate (derived forms: contemplated, contemplates, contemplating)
 1. Look at thoughtfully; observe deep in thought
 "contemplate one's navel"
  
@@ -573,7 +573,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0zwNZJbM-Gw?t=',
+    videoId: '0zwNZJbM-Gw',
     startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rzd0mLf366I?t=',
+    videoId: 'Rzd0mLf366I',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pNuqON3U-qg?t=',
+    videoId: 'pNuqON3U-qg',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -648,7 +648,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u1FGxb2YlnY?t=',
+    videoId: 'u1FGxb2YlnY',
     startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -673,7 +673,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5fTd1aYzNHI?t=',
+    videoId: '5fTd1aYzNHI',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -698,7 +698,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zlg03lfBrEA?t=',
+    videoId: 'zlg03lfBrEA',
     startSeconds: 364,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -723,7 +723,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Udk8YHOy0EU?t=',
+    videoId: 'Udk8YHOy0EU',
     startSeconds: 792,
     autoPlay: true,
     params: const YoutubePlayerParams(

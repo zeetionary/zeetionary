@@ -192,7 +192,7 @@ class EnglishEntryconcur extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوبیر بوون، هاوڕا بوون، ڕێکەوتن، ڕازی بوون
+کوردی: ھاوبیر بوون، ھاوڕا بوون، ڕێکەوتن، ڕازی بوون
 """),
                           const DefinitionKurdish(text: "١. (کردار) ڕازی بوون"),
                           Row(
@@ -233,7 +233,7 @@ class EnglishEntryconcur extends StatelessWidget {
                                             "Scientists generally concur that climate change is a reality."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زاناکان بە گشتی کۆکن لەسەر ئەوەی گۆڕانی ئاوهەوا ڕاستییەکە."),
+                                            "زاناکان بە گشتی کۆکن لەسەر ئەوەی گۆڕانی ئاوھەوا ڕاستییەکە."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: concur (Derived forms: concurring, concurred, concurs)
+- Verb: concur (derived forms: concurring, concurred, concurs)
 1. Be in accord; be in agreement (= agree, hold, concord)
 "We concurred on the terms of the settlement";
  
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zv-IWMepX84?t=',
+    videoId: 'Zv-IWMepX84',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bh9lIfocRMk?t=',
+    videoId: 'Bh9lIfocRMk',
     startSeconds: 1139,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8zFEppGYEKA?t=',
+    videoId: '8zFEppGYEKA',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h51D4Osc8_g?t=',
+    videoId: 'h51D4Osc8_g',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HBhXvLlB-kY?t=',
+    videoId: 'HBhXvLlB-kY',
     startSeconds: 7195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n-gJM9_-QXg?t=',
+    videoId: 'n-gJM9_-QXg',
     startSeconds: 866,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NCPcbUqiLY0?t=',
+    videoId: 'NCPcbUqiLY0',
     startSeconds: 1042,
     autoPlay: true,
     params: const YoutubePlayerParams(

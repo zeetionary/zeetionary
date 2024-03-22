@@ -194,7 +194,7 @@ class EnglishEntrycollagen extends StatelessWidget {
 // کوردی: 
 // """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆلاجین؛ پڕۆتینێک کە لە ناو پێستدایە، و هەندێک جار زیاد دەخرێتە ناو پێست، بۆ باشترکردنی ڕواڵەت"),
+                              text: "١. (ناو) کۆلاجین؛ پڕۆتینێک کە لە ناو پێستدایە، و ھەندێک جار زیاد دەخرێتە ناو پێست، بۆ باشترکردنی ڕواڵەت"),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collagen (Derived forms: collagens)
+- Noun: collagen (derived forms: collagens)
 1. A fibrous scleroprotein in bone and cartilage and tendon and other connective tissue; yields gelatin on boiling
 """,
   );

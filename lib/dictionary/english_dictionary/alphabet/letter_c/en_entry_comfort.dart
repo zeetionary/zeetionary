@@ -398,7 +398,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەناهی، ئاسایش، ئاسوودەیی، حەساوەیی،	دڵنەوایی، دڵخۆشی، دڵدانەوە، خەم‌ڕەوێن، مایەی دڵخۆشی
+کوردی: تەناھی، ئاسایش، ئاسوودەیی، حەساوەیی،	دڵنەوایی، دڵخۆشی، دڵدانەوە، خەم‌ڕەوێن، مایەی دڵخۆشی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دۆخی ئاسوودەیی دوور لە ئازار"),
@@ -412,7 +412,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "The hotel offers a high standard of comfort and service."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هوتێلەکە ئاستێکی بەرزی ئاسوودەیی و خزمەت پێشکەش دەکات."),
+                                            "ھوتێلەکە ئاستێکی بەرزی ئاسوودەیی و خزمەت پێشکەش دەکات."),
                                   ],
                                 ),
                               ),
@@ -440,7 +440,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "I didn't want to leave the comfort of my bed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەمدەویست ئاسوودەیی جێخەوەکەم بە جێبهێڵم."),
+                                            "نەمدەویست ئاسوودەیی جێخەوەکەم بە جێبھێڵم."),
                                   ],
                                 ),
                               ),
@@ -471,7 +471,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                                     "They had enough money to live in comfort in their old age."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پارەی پێویستییان هەبوو کە لە ئاسوودەییدا بژین لە تەمەنی پیرییاندا."),
+                                                    "پارەی پێویستییان ھەبوو کە لە ئاسوودەییدا بژین لە تەمەنی پیرییاندا."),
                                           ],
                                         ),
                                       ),
@@ -537,7 +537,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "I tried to offer a few words of comfort."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵم دا هەندێک وشەی دڵنەوایی بڵێم."),
+                                            "ھەوڵم دا ھەندێک وشەی دڵنەوایی بڵێم."),
                                   ],
                                 ),
                               ),
@@ -593,7 +593,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "If it's any comfort to you, I'm in the same situation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر هیچ دڵدانەوەیک دەبێت بۆت، منیش لە هەمان دۆخدام."),
+                                            "ئەگەر ھیچ دڵدانەوەیک دەبێت بۆت، منیش لە ھەمان دۆخدام."),
                                   ],
                                 ),
                               ),
@@ -689,7 +689,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "The children have been a great comfort to me through all of this."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان دڵنەواییەکی گەورە بوون بەدرێژایی هەموو ئەەم."),
+                                            "منداڵەکان دڵنەواییەکی گەورە بوون بەدرێژایی ھەموو ئەەم."),
                                   ],
                                 ),
                               ),
@@ -745,7 +745,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "It was a comfort to her to know that I was never far away."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەم‌ڕەوێنییەک بوو بۆی کە دەیزانی هەرگیز زۆر دوور نەبووم."),
+                                            "خەم‌ڕەوێنییەک بوو بۆی کە دەیزانی ھەرگیز زۆر دوور نەبووم."),
                                   ],
                                 ),
                               ),
@@ -776,7 +776,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "The hotel has all modern comforts (/every modern comfort)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هوتێلەکە هەموو ئاسانکارییەکانی سەردەمی تێدایە."),
+                                            "ھوتێلەکە ھەموو ئاسانکارییەکانی سەردەمی تێدایە."),
                                   ],
                                 ),
                               ),
@@ -806,7 +806,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "The victim's widow was today being comforted by family and friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێوەژنی قوربانییەکە ئەمڕۆ لەلایەن خێزان و هاوڕێیانەوە دڵنەوایی دەکرا."),
+                                            "بێوەژنی قوربانییەکە ئەمڕۆ لەلایەن خێزان و ھاوڕێیانەوە دڵنەوایی دەکرا."),
                                   ],
                                 ),
                               ),
@@ -834,7 +834,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "The idea that he was not alone comforted him greatly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بیرکردنەوەی ئەوەی کە تەنها نەبوو زۆر ئاسوودەی دەکرد."),
+                                            "بیرکردنەوەی ئەوەی کە تەنھا نەبوو زۆر ئاسوودەی دەکرد."),
                                   ],
                                 ),
                               ),
@@ -862,7 +862,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                                             "She comforted herself with the thought that it would soon be spring."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵی خۆی دەدایەوە بەوەی زوو نابا بەهار دەبێت."),
+                                            "دڵی خۆی دەدایەوە بەوەی زوو نابا بەھار دەبێت."),
                                   ],
                                 ),
                               ),
@@ -961,7 +961,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comfort (Derived forms: comforts)
+- Noun: comfort (derived forms: comforts)
 1. A state of being relaxed and feeling no pain (= comfortableness)
 "he is a man who enjoys his comfort";
  
@@ -981,7 +981,7 @@ ${englishMeaningConst.text}
 7. Assistance, such as that provided to an enemy or to a known criminal
 "it gave comfort to the enemy"
 
-- Verb: comfort (Derived forms: comforts, comforted, comforting)
+- Verb: comfort (derived forms: comforts, comforted, comforting)
 1. Give moral or emotional strength to (= soothe, console, solace)
  
 2. Lessen pain or discomfort; alleviate (= ease)

@@ -307,7 +307,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                                             "It's good to be back in civilization after two weeks in a tent!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لەدوای دوو ھەفتە لە کوخێکدا!"),
+                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لە دوای دوو ھەفتە لە کوخێکدا!"),
                                   ],
                                 ),
                               ),

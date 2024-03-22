@@ -194,7 +194,7 @@ class EnglishEntryclimax extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئەوپەڕ، دوند، لووتکە، ترۆپک، چڵوک، دهار، کمت، پۆپە،	ئەوپەڕی خۆشی سێکسی، ئۆرگازم
+کوردی: ئەوپەڕ، دوند، لووتکە، ترۆپک، چڵوک، دھار، کمت، پۆپە،	ئەوپەڕی خۆشی سێکسی، ئۆرگازم
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گرنگترین یان خرووشێنەرترین کات"),
@@ -228,7 +228,7 @@ class EnglishEntryclimax extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) خرووشێنەرترین بەشی شانۆیەک، میوزیکێک، هتد کە زۆرجار لە کۆتاییدایە"),
+                                  "٢. (ناو) خرووشێنەرترین بەشی شانۆیەک، میوزیکێک، ھتد کە زۆرجار لە کۆتاییدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryclimax extends StatelessWidget {
                                             "The book’s powerful climax is the murder of Nancy by her lover Bill Sikes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کلایماکسی بەهێزی کتێبەکە کوشتنی نانسییە لەلایەن بیڵ سایکسی خۆشەویستییەوە."),
+                                            "کلایماکسی بەھێزی کتێبەکە کوشتنی نانسییە لەلایەن بیڵ سایکسی خۆشەویستییەوە."),
                                   ],
                                 ),
                               ),
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: climax (Derived forms: climaxes)
+- Noun: climax (derived forms: climaxes)
 1. The highest point of anything conceived of as growing, developing or unfolding (= flood tide)
 "the climax of the artist's career";
  
@@ -412,7 +412,7 @@ ${englishMeaningConst.text}
  
 5. Arrangement of clauses in ascending order of forcefulness
 
-- Verb: climax (Derived forms: climaxing, climaxes, climaxed)
+- Verb: climax (derived forms: climaxing, climaxes, climaxed)
 1. End, especially to reach a final or climactic stage (= culminate)
 "The meeting climaxed in a tearful embrace";
 """,

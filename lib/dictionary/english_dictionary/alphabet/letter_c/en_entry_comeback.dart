@@ -239,7 +239,7 @@ class EnglishEntrycomeback extends StatelessWidget {
                                             "The party's comeback was largely due to their promises to lower tax."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستانەوەی پارتەکە زیاتر بەهۆی بەڵێنیان بوو بۆ کەمکردنەوەی باج."),
+                                            "ھەستانەوەی پارتەکە زیاتر بەھۆی بەڵێنیان بوو بۆ کەمکردنەوەی باج."),
                                   ],
                                 ),
                               ),
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comeback (Derived forms: comebacks)
+- Noun: comeback (derived forms: comebacks)
 1. A quick reply to a question or remark (especially a witty or critical one) (= rejoinder, retort, return, riposte, replication, counter)
 "it brought a sharp comeback from the teacher";
  

@@ -193,11 +193,11 @@ class EnglishEntrycliff extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕەوەز، زنار، لاپاڵ، تەختەبەرد، زانک، لاپاڵ، نشووڤ، هەڵەت، هەزاربەهەزار، هەڵەمووت، هەڵدێر (بەتایبەت پاڵ دەریا)
+کوردی: ڕەوەز، زنار، لاپاڵ، تەختەبەرد، زانک، لاپاڵ، نشووڤ، ھەڵەت، ھەزاربەھەزار، ھەڵەمووت، ھەڵدێر (بەتایبەت پاڵ دەریا)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ناوچەیەکی بەرز لە تاشەبەرد کە لاپاڵێکی لێژ یان ستوونی هەیە و بەزۆری لەنزیک کەناراوێکە"),
+                                  "١. (ناو) ناوچەیەکی بەرز لە تاشەبەرد کە لاپاڵێکی لێژ یان ستوونی ھەیە و بەزۆری لەنزیک کەناراوێکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cliff (Derived forms: cliffs)
+- Noun: cliff (derived forms: cliffs)
 1. A steep high face of rock (= drop, drop-off)
 "he stood on a high cliff overlooking the town";
 """,

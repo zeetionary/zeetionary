@@ -201,7 +201,7 @@ class EnglishEntrycombine extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکەوەنان، پێکەوەلکاندن، یەک‌گرتن، یەک‌گرتویی،	هاوبەندی،	کارتێل، تراست،	دەزگای دوورینەوە
+کوردی: پێکەوەنان، پێکەوەلکاندن، یەک‌گرتن، یەک‌گرتویی،	ھاوبەندی،	کارتێل، تراست،	دەزگای دوورینەوە
 """),
                           const DefinitionKurdish(
                               text:
@@ -216,7 +216,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "Hydrogen and oxygen combine to form water."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو."),
+                                            "ھایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntrycombine extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) هەبوونی دوو خاسیەت یان زیاتر"),
+                              text: "٢. (کردار) ھەبوونی دوو خاسیەت یان زیاتر"),
                           Row(
                             children: [
                               const Expanded(
@@ -302,7 +302,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "We are still looking for someone who combines all the necessary qualities."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا بۆ کەسێک دەگەڕێین کە هەموو خاسیەتە پێویستەکانی تێدایە."),
+                                            "ھێشتا بۆ کەسێک دەگەڕێین کە ھەموو خاسیەتە پێویستەکانی تێدایە."),
                                   ],
                                 ),
                               ),
@@ -330,7 +330,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "This model combines a printer and scanner."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەمەکە کۆکەرەوەی پرینتەرێک و سکانەرێک."),
+                                            "بەرھەمەکە کۆکەرەوەی پرینتەرێک و سکانەرێک."),
                                   ],
                                 ),
                               ),
@@ -389,7 +389,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "The trip will combine business with pleasure."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەشتەکە هەم بازرگانی و هەم خۆشی دەبێت."),
+                                            "گەشتەکە ھەم بازرگانی و ھەم خۆشی دەبێت."),
                                   ],
                                 ),
                               ),
@@ -437,7 +437,7 @@ class EnglishEntrycombine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) یەکگرتن بۆ پێکەوە کارکردن یان هەنگانان"),
+                                  "٤. (کردار) یەکگرتن بۆ پێکەوە کارکردن یان ھەنگانان"),
                           Row(
                             children: [
                               const Expanded(
@@ -448,7 +448,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "They combined against a common enemy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دژ بە دووژمنێکی هاوبەش یەکیان گرت."),
+                                            "دژ بە دووژمنێکی ھاوبەش یەکیان گرت."),
                                   ],
                                 ),
                               ),
@@ -476,7 +476,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "You should try to combine exercise with a healthy diet."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت هەوڵ بدەیت ڕاهێنان تێکەڵ بە خواردنی تەندرووست بکەیت."),
+                                            "دەبێت ھەوڵ بدەیت ڕاھێنان تێکەڵ بە خواردنی تەندرووست بکەیت."),
                                   ],
                                 ),
                               ),
@@ -507,7 +507,7 @@ class EnglishEntrycombine extends StatelessWidget {
                                             "The farmer used a combine to harvest the wheat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جوتیارەکە دەڕاسەیەکی بەکارهێنا بۆ دوورینەوەی گەنمەکە."),
+                                            "جوتیارەکە دەڕاسەیەکی بەکارھێنا بۆ دوورینەوەی گەنمەکە."),
                                   ],
                                 ),
                               ),
@@ -606,7 +606,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: combine (Derived forms: combined, combines, combining)
+- Verb: combine (derived forms: combined, combines, combining)
 1. Put or add together (= compound)
 "combine resources";
  
@@ -627,7 +627,7 @@ ${englishMeaningConst.text}
 7. Add together different elements (= blend, flux, mix, conflate, commingle, immix, fuse, coalesce, meld, merge)
 "The colours combine well";
 
-- Noun: combine (Derived forms: combines)
+- Noun: combine (derived forms: combines)
 1. Harvester that heads and threshes and cleans grain while moving across the field
  
 2. A consortium of independent organizations formed to limit competition by controlling the production and distribution of a product or service (= trust, corporate trust, cartel)

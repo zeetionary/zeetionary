@@ -237,7 +237,7 @@ class EnglishEntryconjecture extends StatelessWidget {
                                             "What was going through the killer's mind is a matter for conjecture."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چی بە مێشکی بکووژەکەدا دەهات بابەتی گریمانەکردنە."),
+                                            "چی بە مێشکی بکووژەکەدا دەھات بابەتی گریمانەکردنە."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntryconjecture extends StatelessWidget {
                                     ),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها دەتوانین گریمانە بکەین سەبارەت بەوەی چی لە مێشکی بکوژەکەدا بوو."),
+                                            "تەنھا دەتوانین گریمانە بکەین سەبارەت بەوەی چی لە مێشکی بکوژەکەدا بوو."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conjecture (Derived forms: conjectures)
+- Noun: conjecture (derived forms: conjectures)
 1. A hypothesis that has been formed by speculating or conjecturing (usually with little hard evidence) (= speculation)
 "he dismissed it as mere conjecture";
  
@@ -377,7 +377,7 @@ ${englishMeaningConst.text}
  
 3. Reasoning that involves the formation of conclusions from incomplete evidence
 
-- Verb: conjecture (Derived forms: conjectured, conjectures, conjecturing)
+- Verb: conjecture (derived forms: conjectured, conjectures, conjecturing)
 1. To believe especially on uncertain or tentative grounds (= speculate, theorize, theorise [Brit], hypothesize, hypothesise [Brit], hypothecate, suppose)
 "Scientists conjectured that large dinosaurs lived in swamps";
 """,
@@ -412,7 +412,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1KgSp94nCZw?t=',
+    videoId: '1KgSp94nCZw',
     startSeconds: 768,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MqyJZsGFZ3M?t=',
+    videoId: 'MqyJZsGFZ3M',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xu6ZRWp9rA4?t=',
+    videoId: 'xu6ZRWp9rA4',
     startSeconds: 546,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uBQJ9iYUgoU?t=',
+    videoId: 'uBQJ9iYUgoU',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9GVMz4O5Qts?t=',
+    videoId: '9GVMz4O5Qts',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K_q-xnYRugQ?t=',
+    videoId: 'K_q-xnYRugQ',
     startSeconds: 1146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DHWYTwY0hiw?t=',
+    videoId: 'DHWYTwY0hiw',
     startSeconds: 1754,
     autoPlay: true,
     params: const YoutubePlayerParams(

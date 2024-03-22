@@ -392,7 +392,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: collide (Derived forms: colliding, collides, collided)
+- Verb: collide (derived forms: colliding, collides, collided)
 1. Crash together with violent impact (= clash)
 "The cars collided";
  

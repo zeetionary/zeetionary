@@ -210,7 +210,7 @@ class EnglishEntryclothes extends StatelessWidget {
                                             "I bought some new clothes for the trip."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک جلوبەرگی تازەم بۆ گەشتەکە کڕی."),
+                                            "ھەندێک جلوبەرگی تازەم بۆ گەشتەکە کڕی."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntryclothes extends StatelessWidget {
                                         text:
                                             "She has no clothes sense (= she does not know what clothes look attractive)."),
                                     ExampleSentenceKurdish(
-                                        text: "هیچ سەلیقەی پۆشینی نەبوو."),
+                                        text: "ھیچ سەلیقەی پۆشینی نەبوو."),
                                   ],
                                 ),
                               ),
@@ -419,7 +419,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clothes (Derived forms: clotheses)
+- Noun: clothes (derived forms: clotheses)
 1. Clothing in general (= apparel, wearing apparel, dress, gear [informal], toggery [informal])
 "he always bought his clothes at the same store";
 """,

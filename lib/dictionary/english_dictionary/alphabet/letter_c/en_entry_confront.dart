@@ -389,7 +389,7 @@ class EnglishEntryconfront extends StatelessWidget {
                                             "He confronted her with a choice between her career or their relationship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووبەڕووی کردەوە لەگەڵ هەڵبژاردنی کارەکەی یان پەیوەندییەکەیان."),
+                                            "ڕووبەڕووی کردەوە لەگەڵ ھەڵبژاردنی کارەکەی یان پەیوەندییەکەیان."),
                                   ],
                                 ),
                               ),
@@ -409,7 +409,7 @@ class EnglishEntryconfront extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) هەبوونی شتێک لە پێشت کە دەبێت مامەڵەی لەگەڵ بکەیت"),
+                                  "٥. (کردار) ھەبوونی شتێک لە پێشت کە دەبێت مامەڵەی لەگەڵ بکەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confront (Derived forms: confronts, confronted, confronting) 
+- Verb: confront (derived forms: confronts, confronted, confronting) 
 1. Oppose, as in hostility or a competition (= face)
 "You must confront your opponent"; "The two enemies finally confronted each other";
  
@@ -563,7 +563,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 862,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UuGpm01SPcA?t=',
+    videoId: 'UuGpm01SPcA',
     startSeconds: 514,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +613,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Js2UoMSumx4?t=',
+    videoId: 'Js2UoMSumx4',
     startSeconds: 739,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -638,7 +638,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fGMCjELDyUY?t=',
+    videoId: 'fGMCjELDyUY',
     startSeconds: 851,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -663,7 +663,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2xfh02FCrd4?t=',
+    videoId: '2xfh02FCrd4',
     startSeconds: 1166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -688,7 +688,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fS9ERUreev8?t=',
+    videoId: 'fS9ERUreev8',
     startSeconds: 349,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -713,7 +713,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QpZXz08eG84?t=',
+    videoId: 'QpZXz08eG84',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(

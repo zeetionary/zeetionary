@@ -263,7 +263,7 @@ class EnglishEntrycomputer extends StatelessWidget {
                                             "It's all stored on the computer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمووی لەسەر کۆمپیوتەرەکە کۆگاکراوە."),
+                                            "ھەمووی لەسەر کۆمپیوتەرەکە کۆگاکراوە."),
                                   ],
                                 ),
                               ),
@@ -390,7 +390,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: computer (Derived forms: computers)
+- Noun: computer (derived forms: computers)
 1. (computing) an electronic device for processing information and performing calculations; follows a program to perform sequences of mathematical and logical operations (= computing machine, computing device, data processor, electronic computer, information processing system)
  
 2. An expert at calculation (or at operating calculating machines) (= calculator, reckoner, figurer, estimator)
@@ -426,7 +426,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dfPW4eW6UXM?t=',
+    videoId: 'dfPW4eW6UXM',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VdN6yXZ3cLM?t=',
+    videoId: 'VdN6yXZ3cLM',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uOJCS1W1uzg?t=',
+    videoId: 'uOJCS1W1uzg',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F8_ME4VwTiw?t=',
+    videoId: 'F8_ME4VwTiw',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/04ht0kSJ0I4?t=',
+    videoId: '04ht0kSJ0I4',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CFd0nP-gEIA?t=',
+    videoId: 'CFd0nP-gEIA',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OEaKQ0pxQsg?t=',
+    videoId: 'OEaKQ0pxQsg',
     startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -197,11 +197,11 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەرین، بەربڵاو، گشت‌لایەنە، هەمووگر، گشتگیر، هەمەلایەنە، سەراپاگیر، بەرفراوان، خوێندنگای ئامادەی گشتگیر، خوێندنگای کۆتایی گشتگیر
+کوردی: بەرین، بەربڵاو، گشت‌لایەنە، ھەمووگر، گشتگیر، ھەمەلایەنە، سەراپاگیر، بەرفراوان، خوێندنگای ئامادەی گشتگیر، خوێندنگای کۆتایی گشتگیر
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) گشتگیر؛ لەخۆگرتنی هەموو یان بە نزیکەیی هەموو وردەکاری، زانیاری، هتد"),
+                                  "١. (ھاوەڵناو) گشتگیر؛ لەخۆگرتنی ھەموو یان بە نزیکەیی ھەموو وردەکاری، زانیاری، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -241,7 +241,7 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                             "We offer you a comprehensive training in all aspects of the business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنانێکی بەرفراوانت پێدەدەین لە هەموو لایەنەکانی بازرگانییەکەوە."),
+                                            "ڕاھێنانێکی بەرفراوانت پێدەدەین لە ھەموو لایەنەکانی بازرگانییەکەوە."),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                           // const DividerDefinition(),
                           // const DefinitionKurdish(
                           //     text:
-                          //         "٢. (ھاوەڵناو) خوێندنگایەک یان سیستەمێکی خوێندن کە دیزاین کراوە بۆ منداڵانی هەموو توانا جیاوازەکان لە سەروو تەمەنی ١١ساڵییەوە"),
+                          //         "٢. (ھاوەڵناو) خوێندنگایەک یان سیستەمێکی خوێندن کە دیزاین کراوە بۆ منداڵانی ھەموو توانا جیاوازەکان لە سەروو تەمەنی ١١ساڵییەوە"),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -356,7 +356,7 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) قوتابخانەیەک بۆ منداڵانی هەموو توانا جیاوازەکان کە لەلایەن حکومەتەوە خەرجی دەکرێت"),
+                                  "٣. (ناو) قوتابخانەیەک بۆ منداڵانی ھەموو توانا جیاوازەکان کە لەلایەن حکومەتەوە خەرجی دەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -475,7 +475,7 @@ ${englishMeaningConst.text}
 2. Broad in scope
 "a comprehensive survey of world affairs"
 
-- Noun: comprehensive (Derived forms: comprehensives)
+- Noun: comprehensive (derived forms: comprehensives)
 1. An intensive examination testing a student's proficiency in some special field of knowledge (= comprehensive examination, comp)
 "she took her comprehensives in English literature";
 """,
@@ -510,7 +510,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DfSnHyIryeY?t=',
+    videoId: 'DfSnHyIryeY',
     startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S4qvPouh1gE?t=',
+    videoId: 'S4qvPouh1gE',
     startSeconds: 3529,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
+    videoId: 'hRSGxw2AQnk',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mCtSiImXpRo?t=',
+    videoId: 'mCtSiImXpRo',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -610,7 +610,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
+    videoId: 'H1KP4ztKK0A',
     startSeconds: 1151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -635,7 +635,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_BbaiH17hOU?t=',
+    videoId: '_BbaiH17hOU',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -660,7 +660,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
+    videoId: 'kVOTPAxrrP4',
     startSeconds: 717,
     autoPlay: true,
     params: const YoutubePlayerParams(

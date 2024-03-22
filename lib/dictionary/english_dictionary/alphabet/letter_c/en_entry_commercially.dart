@@ -207,7 +207,7 @@ class EnglishEntrycommercially extends StatelessWidget {
                                             "The product is not yet commercially available."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەمەکە هێشتا لەلایەنی بازرگانییەوە بەردەست نییە."),
+                                            "بەرھەمەکە ھێشتا لەلایەنی بازرگانییەوە بەردەست نییە."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrycommercially extends StatelessWidget {
                                             "His invention was not commercially successful."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داهێنانەکەی لەلایەنی بازرگانییەوە سەرکەوتوو نەبوو."),
+                                            "داھێنانەکەی لەلایەنی بازرگانییەوە سەرکەوتوو نەبوو."),
                                   ],
                                 ),
                               ),

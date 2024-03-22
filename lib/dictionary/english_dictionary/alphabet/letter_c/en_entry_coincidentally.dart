@@ -193,7 +193,7 @@ class EnglishEntrycoincidentally extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەپێی ڕێکەوت، لە خۆوە، هەڵکەوتی، (خۆ)شانسی، بێ‌بەرنامە، هەرواڕووداو
+کوردی: بەپێی ڕێکەوت، لە خۆوە، ھەڵکەوتی، (خۆ)شانسی، بێ‌بەرنامە، ھەرواڕووداو
 """),
                           const DefinitionKurdish(
                               text:
@@ -208,7 +208,7 @@ class EnglishEntrycoincidentally extends StatelessWidget {
                                             "Coincidentally, they had both studied in Paris."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ڕێکەوت، هەردووکیان لە پاریس خوێندبوویان."),
+                                            "بە ڕێکەوت، ھەردووکیان لە پاریس خوێندبوویان."),
                                   ],
                                 ),
                               ),

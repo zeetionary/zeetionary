@@ -201,7 +201,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەکبینە، بەردەوام، هەمیشە، بێ‌پسانەوە، زنجیرەیی، لێک‌هەڵپێکراو، یەک‌سەرە، لەسەریەک،	پێکەوەبەستراو،	(ڕێزمان) بەردەوامی
+کوردی: یەکبینە، بەردەوام، ھەمیشە، بێ‌پسانەوە، زنجیرەیی، لێک‌ھەڵپێکراو، یەک‌سەرە، لەسەریەک،	پێکەوەبەستراو،	(ڕێزمان) بەردەوامی
 """),
                           const DefinitionKurdish(
                               text:
@@ -244,7 +244,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                                             "The rain has been almost continuous for weeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بارانەکە بەنزیکەیی بۆ چەند هەفتەیەکە بێ‌دابڕان بووە."),
+                                            "بارانەکە بەنزیکەیی بۆ چەند ھەفتەیەکە بێ‌دابڕان بووە."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                                                     "It was a week of almost continuous sunshine."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەفتەیەکی نەبڕاوە لە تیشکی خۆر بوو."),
+                                                    "ھەفتەیەکی نەبڕاوە لە تیشکی خۆر بوو."),
                                           ],
                                         ),
                                       ),
@@ -391,7 +391,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بەشێک لە ڕاستەهێڵێک یان ناوچەیەک بەبێ پچڕان"),
+                                  "٢. (ھاوەڵناو) بەشێک لە ڕاستەھێڵێک یان ناوچەیەک بەبێ پچڕان"),
                           Row(
                             children: [
                               const Expanded(
@@ -402,7 +402,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                                             "The accident caused a disruption in the continuous flow of traffic on the highway."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووداوەکە بوو بەهۆی پەککەوتنی جوڵەی بەردەوامی هاتووچۆ لەسەر ڕێگا خێراکە."),
+                                            "ڕووداوەکە بوو بەھۆی پەککەوتنی جوڵەی بەردەوامی ھاتووچۆ لەسەر ڕێگا خێراکە."),
                                   ],
                                 ),
                               ),
@@ -430,7 +430,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                                             "The eruption resulted in a continuous stream of lava flowing down the mountainside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەقینەکە بوو بەهۆی تەوژمێکی بەردەوامی شلەی گڕکان بە ڕووی چیاکەدا بچۆڕێتە خوارەوە."),
+                                            "تەقینەکە بوو بەھۆی تەوژمێکی بەردەوامی شلەی گڕکان بە ڕووی چیاکەدا بچۆڕێتە خوارەوە."),
                                   ],
                                 ),
                               ),
@@ -461,7 +461,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                                             "For four days the town suffered continuous attacks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ چوار ڕۆژ شارۆچکەکە ڕووبەڕووی هێرشی بەردەوام بووەوە."),
+                                            "بۆ چوار ڕۆژ شارۆچکەکە ڕووبەڕووی ھێرشی بەردەوام بووەوە."),
                                   ],
                                 ),
                               ),
@@ -489,7 +489,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                                             "The company said the reasons for closure were continuous losses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە وتی هۆکاری داخرانەکە زیانی بەردەوام بوو."),
+                                            "کۆمپانیاکە وتی ھۆکاری داخرانەکە زیانی بەردەوام بوو."),
                                   ],
                                 ),
                               ),
@@ -511,7 +511,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) پەیوەندیدار بەو کردارانەی کە لە دەمی بەردەوامیدان و بەکاردێن بۆ باسکردن لە چالاکییەک کە هێشتا بۆ ماوەیەک بەردەوامە"),
+                                  "٤. (ھاوەڵناو) پەیوەندیدار بەو کردارانەی کە لە دەمی بەردەوامیدان و بەکاردێن بۆ باسکردن لە چالاکییەک کە ھێشتا بۆ ماوەیەک بەردەوامە"),
                           Row(
                             children: [
                               const Expanded(
@@ -660,7 +660,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -685,7 +685,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
+    videoId: '0ST4_hmop9Y',
     startSeconds: 1180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -710,7 +710,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 1340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -735,7 +735,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    videoId: '0jltioeaEyY',
     startSeconds: 960,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -760,7 +760,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/unk6n3_QdlM?t=',
+    videoId: 'unk6n3_QdlM',
     startSeconds: 1003,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -785,7 +785,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IgF3OX8nT0w?t=',
+    videoId: 'IgF3OX8nT0w',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -810,7 +810,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CZ7pXbAU3Hc?t=',
+    videoId: 'CZ7pXbAU3Hc',
     startSeconds: 826,
     autoPlay: true,
     params: const YoutubePlayerParams(

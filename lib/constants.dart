@@ -590,6 +590,8 @@ class EntryTitle extends ConsumerStatefulWidget {
 
   @override
   ConsumerState<ConsumerStatefulWidget> createState() => _EntryTitleState();
+
+  // (zee; show title in left) https://chat.openai.com/c/e67ec761-23dc-43fa-a63f-058c027af846
 }
 
 class _EntryTitleState extends ConsumerState<EntryTitle>
@@ -617,7 +619,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
     // final currentTheme = ref.watch(themeNotifierProvider);
 
     // Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 8;
+    final textSize = ref.watch(textSizeProvider);
 
     return Expanded(
       child: Padding(
@@ -693,7 +695,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
                 return Text(
                   widget.word.substring(0, lettersCount),
                   style: TextStyle(
-                    fontSize: textSize,
+                    fontSize: textSize + 8,
                     // fontWeight: FontWeight.bold,
                     fontWeight: FontWeight.w700,
                     // color: Theme.of(context).primaryColor.withOpacity(0.9),
@@ -750,15 +752,15 @@ class AlsoEnglishckb extends ConsumerWidget {
       child: Directionality(
         textDirection: TextDirection.rtl,
         child: Text(
-        word,
-        textDirection: TextDirection.rtl,
-        style: TextStyle(
-          fontSize: textSize,
-          // color: Colors.yellow.withOpacity(0.7),
-          color: Theme.of(context).highlightColor,
+          word,
+          textDirection: TextDirection.rtl,
+          style: TextStyle(
+            fontSize: textSize,
+            // color: Colors.yellow.withOpacity(0.7),
+            color: Theme.of(context).highlightColor,
+          ),
         ),
       ),
-    ),
     );
   }
 }
@@ -787,7 +789,7 @@ class IPAofEnglish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 3;
+    final textSize = ref.watch(textSizeProvider);
 
     return Container(
       // height: 16,
@@ -805,7 +807,7 @@ class IPAofEnglish extends ConsumerWidget {
         },
         child: Text(
           text,
-          style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
+          style: TextStyle(fontSize: textSize + 2, fontWeight: FontWeight.w400),
         ),
       ),
     );
@@ -1365,7 +1367,7 @@ class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
     final textSize = ref.watch(textSizeProvider);
     return IntrinsicWidth(
       child: Container(
-        // height: 50,
+        height: textSize + 28,
         decoration: BoxDecoration(
           // color: Theme.of(context).primaryColor.withOpacity(0.04),
           border: Border.all(

@@ -192,7 +192,7 @@ class EnglishEntryclink extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (دەنگ) خرنگەخرنگ، خرنگ‌وهۆڕ، خڕینگە، زڕەزڕ، زڕوهۆڕ، زرنگەزرنگ، زرنگ‌وهۆڕ، شەقەشەق
+کوردی: (دەنگ) خرنگەخرنگ، خرنگ‌وھۆڕ، خڕینگە، زڕەزڕ، زڕوھۆڕ، زرنگەزرنگ، زرنگ‌وھۆڕ، شەقەشەق
 """),
                           const DefinitionKurdish(
                               text:
@@ -337,12 +337,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clink (Derived forms: clinks)
+- Noun: clink (derived forms: clinks)
 1. A short light metallic sound (= chink, click)
  
 2. [informal] A correctional institution used to detain persons who are in the lawful custody of the government (either accused persons awaiting trial or convicted persons serving a sentence) (= jail, jailhouse, gaol [Brit], slammer [informal], poky [informal], pokey [informal], prison, calaboose [US, Austral, informal])
 
-- Verb: clink (Derived forms: clinked, clinking, clinks)
+- Verb: clink (derived forms: clinked, clinking, clinks)
 1. Make a high sound typical of glass
 "champagne glasses clinked to make a toast"
  

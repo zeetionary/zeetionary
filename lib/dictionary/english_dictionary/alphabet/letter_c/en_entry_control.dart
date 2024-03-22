@@ -851,11 +851,11 @@ class EnglishEntrycontrol extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆنتڕۆڵ، مەهار(کاری)، ڕاگیری، ڕاگیرکاری، دەست‌بەسەرداگرتن، بەرگیری، پێش‌گیری، بەرگرتن، جڵەوگرتن،	چاودێری، چاوبەسەری، پێڕاگەیشتن، پشکنین،	دەسەڵات، ڕکێف، ئیختیار، دەس‌ڕۆیشتوویی، هێز،	سنوورداری، دیاری‌کراوی،	بەڕێ‌دابردن، هەڵسووڕاندن، بەڕێوەبردن،	(کامپیوتێر) کلیلی کۆنتڕۆڵ،	کلیل، دوگمە، قرتە، جەڕ، پێچ (تەلەفیزیۆن و ڕادیۆ)،	(لە ماشێن‌دا) فەرمان
+کوردی: کۆنتڕۆڵ، مەھار(کاری)، ڕاگیری، ڕاگیرکاری، دەست‌بەسەرداگرتن، بەرگیری، پێش‌گیری، بەرگرتن، جڵەوگرتن،	چاودێری، چاوبەسەری، پێڕاگەیشتن، پشکنین،	دەسەڵات، ڕکێف، ئیختیار، دەس‌ڕۆیشتوویی، ھێز،	سنوورداری، دیاری‌کراوی،	بەڕێ‌دابردن، ھەڵسووڕاندن، بەڕێوەبردن،	(کامپیوتێر) کلیلی کۆنتڕۆڵ،	کلیل، دوگمە، قرتە، جەڕ، پێچ (تەلەفیزیۆن و ڕادیۆ)،	(لە ماشێن‌دا) فەرمان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دەسەڵاتی بڕیاردان سەبارەت بە بەڕێوەبردنی وڵاتێک، ناوچەیەک، دامەزراوەیەک، هتد"),
+                                  "١. (ناو) دەسەڵاتی بڕیاردان سەبارەت بە بەڕێوەبردنی وڵاتێک، ناوچەیەک، دامەزراوەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -866,7 +866,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "The party expects to gain control of the council in the next election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارتەکە پێشبینی ئەوە دەکات لە هەڵبژاردنی داهاتوودا کۆنترۆڵی ئەنجوومەنەکە بکات."),
+                                            "پارتەکە پێشبینی ئەوە دەکات لە ھەڵبژاردنی داھاتوودا کۆنترۆڵی ئەنجوومەنەکە بکات."),
                                   ],
                                 ),
                               ),
@@ -983,7 +983,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "The founders eventually regained control of the company."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دامەزرێنەرەکان لەکۆتاییدا کۆنترۆڵی کۆمپانیاکەیان بەدەستهێنایەوە."),
+                                                    "دامەزرێنەرەکان لەکۆتاییدا کۆنترۆڵی کۆمپانیاکەیان بەدەستھێنایەوە."),
                                           ],
                                         ),
                                       ),
@@ -1013,7 +1013,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "The city is in the control of enemy forces."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "شارەکە لە کۆنترۆڵی هێزەکانی دوژمندایە."),
+                                                    "شارەکە لە کۆنترۆڵی ھێزەکانی دوژمندایە."),
                                           ],
                                         ),
                                       ),
@@ -1080,7 +1080,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "The teacher had no control over the children."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستاکە هیچ کۆنترۆڵی بەسەر منداڵەکاندا نەبوو."),
+                                            "مامۆستاکە ھیچ کۆنترۆڵی بەسەر منداڵەکاندا نەبوو."),
                                   ],
                                 ),
                               ),
@@ -1139,7 +1139,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "The event has been cancelled due to circumstances beyond our control."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بۆنەکە هەڵوەشێندراوەتەوە بەهۆی دۆخێکی بەدەر لە کۆنترۆڵ."),
+                                                    "بۆنەکە ھەڵوەشێندراوەتەوە بەھۆی دۆخێکی بەدەر لە کۆنترۆڵ."),
                                           ],
                                         ),
                                       ),
@@ -1199,7 +1199,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "He got so angry he lost control (= shouted and said or did things he would not normally do)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هێندە تووڕە بوو کۆنترۆڵی لەدەستدا."),
+                                                    "ھێندە تووڕە بوو کۆنترۆڵی لەدەستدا."),
                                           ],
                                         ),
                                       ),
@@ -1295,7 +1295,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "Price controls on food were ended."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سنووردارکردنی نرخی خۆراک کۆتایی پێهێندرا."),
+                                            "سنووردارکردنی نرخی خۆراک کۆتایی پێھێندرا."),
                                   ],
                                 ),
                               ),
@@ -1323,7 +1323,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "Many teenagers have poor impulse control."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر گەنج کۆنترۆڵی ماسوولکەی لاوازیان هەیە."),
+                                            "زۆر گەنج کۆنترۆڵی ماسوولکەی لاوازیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1414,7 +1414,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "New crime control measures have failed."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەنگاوە تازەکانی کۆنترۆڵی تاوان شکستیان هێناوە."),
+                                                    "ھەنگاوە تازەکانی کۆنترۆڵی تاوان شکستیان ھێناوە."),
                                           ],
                                         ),
                                       ),
@@ -1529,7 +1529,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) هەبوونی دەسەڵات بەسەر کەسێک، کۆمپانیایەک، وڵاتێک، هتد بەشێوەیەک کە توانات هەبێت بڕیار بدەیت چی بکەن یان چۆن کار بکەن"),
+                                  "٥. (کردار) ھەبوونی دەسەڵات بەسەر کەسێک، کۆمپانیایەک، وڵاتێک، ھتد بەشێوەیەک کە توانات ھەبێت بڕیار بدەیت چی بکەن یان چۆن کار بکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1659,7 +1659,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "Government forces have proved incapable of controlling the rebels."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیزەکانی حکومەت بێتوانا بوونە لە کۆنترۆڵکردنی یاخیبووەکان."),
+                                                    "ھیزەکانی حکومەت بێتوانا بوونە لە کۆنترۆڵکردنی یاخیبووەکان."),
                                           ],
                                         ),
                                       ),
@@ -1782,7 +1782,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "Many biological processes are controlled by hormones."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر پڕۆسەی زیندەوەران بە هۆرمۆن کۆنترۆڵ دەکرێن."),
+                                            "زۆر پڕۆسەی زیندەوەران بە ھۆرمۆن کۆنترۆڵ دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -1813,7 +1813,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                                     "Try to control your breathing."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەوڵ بدە هەناسەدانت کۆنترۆڵ بکەیت."),
+                                                    "ھەوڵ بدە ھەناسەدانت کۆنترۆڵ بکەیت."),
                                           ],
                                         ),
                                       ),
@@ -1910,7 +1910,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "Firefighters are still trying to control the blaze."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاگر کوژێنەرەوەکان هێشتا هەوڵ دەدەن ئاگرەکە کۆنترۆڵ بکەن."),
+                                            "ئاگر کوژێنەرەوەکان ھێشتا ھەوڵ دەدەن ئاگرەکە کۆنترۆڵ بکەن."),
                                   ],
                                 ),
                               ),
@@ -2139,7 +2139,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "I was so angry I couldn't control myself."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێندە تووڕە بووم نەمدەتوانی خۆم کۆنترۆڵ بکەم."),
+                                            "ھێندە تووڕە بووم نەمدەتوانی خۆم کۆنترۆڵ بکەم."),
                                   ],
                                 ),
                               ),
@@ -2167,7 +2167,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "He was finding it difficult to control his feelings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ئاستەنگی دەبینی هەستەکانی کۆنترۆڵ بکات."),
+                                            "بە ئاستەنگی دەبینی ھەستەکانی کۆنترۆڵ بکات."),
                                   ],
                                 ),
                               ),
@@ -2195,7 +2195,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                                             "You can learn to control your emotions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت فێربیت هەستەکانت کۆنترۆڵ بکەیت."),
+                                            "دەتوانیت فێربیت ھەستەکانت کۆنترۆڵ بکەیت."),
                                   ],
                                 ),
                               ),
@@ -2294,7 +2294,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: control (Derived forms: controls)
+- Noun: control (derived forms: controls)
 1. Power to direct or determine
 "under control"
  
@@ -2327,7 +2327,7 @@ ${englishMeaningConst.text}
 11. The economic policy of controlling or limiting or curbing prices or wages etc.
 "they wanted to repeal all the legislation that imposed economic controls"
 
-- Verb: control (Derived forms: controlled, controlling, controls)
+- Verb: control (derived forms: controlled, controlling, controls)
 1. Exercise authoritative control or power over (= command)
 "control the budget";
  
@@ -2389,7 +2389,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 973,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2414,7 +2414,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aWzlQ2N6qqg?t=',
+    videoId: 'aWzlQ2N6qqg',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2439,7 +2439,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j1BfO7VlIw4?t=',
+    videoId: 'j1BfO7VlIw4',
     startSeconds: 1174,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2464,7 +2464,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2489,7 +2489,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2ihOXaU0I8o?t=',
+    videoId: '2ihOXaU0I8o',
     startSeconds: 323,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2514,7 +2514,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MnExgQ81fhU?t=',
+    videoId: 'MnExgQ81fhU',
     startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2539,7 +2539,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(

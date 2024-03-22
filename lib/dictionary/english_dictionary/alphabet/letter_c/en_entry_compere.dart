@@ -196,7 +196,7 @@ class EnglishEntrycompere extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە کاری ناساندن دەکات بۆ بەژداربووانی پڕۆگرامێکی تەلەفیزیۆن، ڕادیۆ، هتد"),
+                                  "١. (ناو) کەسێک کە کاری ناساندن دەکات بۆ بەژداربووانی پڕۆگرامێکی تەلەفیزیۆن، ڕادیۆ، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compère (Derived forms: compered, comperes, compering, compèred, compères, compèring)
+- Noun: compère (derived forms: compered, comperes, compering, compèred, compères, compèring)
 Usage: Brit
 1. Someone who introduces television acts or cabarets etc (= compere)
 
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k1QqLCpXMIw?t=',
+    videoId: 'k1QqLCpXMIw',
     startSeconds: 278,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bY1dLvdInHE?t=',
+    videoId: 'bY1dLvdInHE',
     startSeconds: 1307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4NgftyUrOFk?t=',
+    videoId: '4NgftyUrOFk',
     // startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a1agVj2Pmz8?t=',
+    videoId: 'a1agVj2Pmz8',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oj3wXVlmiow?t=',
+    videoId: 'oj3wXVlmiow',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qrCAByzi7Zw?t=',
+    videoId: 'qrCAByzi7Zw',
     startSeconds: 333,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jgSgt9BInSM?t=',
+    videoId: 'jgSgt9BInSM',
     startSeconds: 4007,
     autoPlay: true,
     params: const YoutubePlayerParams(

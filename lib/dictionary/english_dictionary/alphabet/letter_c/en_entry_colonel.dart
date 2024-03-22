@@ -195,7 +195,7 @@ class EnglishEntrycolonel extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەفسەرێکی پلەبەرز لە سوپا و هێزی ئاسمانیدا"),
+                                  "١. (ناو) ئەفسەرێکی پلەبەرز لە سوپا و ھێزی ئاسمانیدا"),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colonel (Derived forms: colonels)
+- Noun: colonel (derived forms: colonels)
 1. (military) a commissioned military officer in the United States Army or Air Force or Marines who ranks above a lieutenant colonel and below a brigadier general
 """,
   );

@@ -196,7 +196,7 @@ class EnglishEntrycolourblind extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) نەبوونی توانای بینینی هەندێک ڕەنگ، وەک سەوز و سوور؛ بینینی ڕەش و سپی بە تەنها (ئەم جۆرەیان لە مرۆڤدا دەگمەنە)"),
+                                  "١. (ھاوەڵناو) نەبوونی توانای بینینی ھەندێک ڕەنگ، وەک سەوز و سوور؛ بینینی ڕەش و سپی بە تەنھا (ئەم جۆرەیان لە مرۆڤدا دەگمەنە)"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntrycolourblind extends StatelessWidget {
                                             "We aspire to a society whose institutions are colour-blind and whose citizens progress on their own merit."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هیوای کۆمەڵگەیەکین کە دامەزراوەکانی ڕەنگ کوێرن و هاوڵاتییەکانی بە لێهاتووی خۆیان دەچنە پێشەوە."),
+                                            "بە ھیوای کۆمەڵگەیەکین کە دامەزراوەکانی ڕەنگ کوێرن و ھاوڵاتییەکانی بە لێھاتووی خۆیان دەچنە پێشەوە."),
                                   ],
                                 ),
                               ),

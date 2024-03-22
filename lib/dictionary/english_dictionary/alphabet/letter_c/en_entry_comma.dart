@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comma (Derived forms: commas)
+- Noun: comma (derived forms: commas)
 1. A punctuation mark (,) used to indicate the separation of elements within the grammatical structure of a sentence
  
 2. Anglewing butterfly with a comma-shaped mark on the underside of each hind wing (= comma butterfly, Polygonia comma)

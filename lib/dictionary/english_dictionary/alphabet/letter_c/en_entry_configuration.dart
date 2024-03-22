@@ -249,7 +249,7 @@ class EnglishEntryconfiguration extends StatelessWidget {
                           ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) کەرەستە و پڕۆگرامی کە پێکهێنەری سیستەمی کۆمپیوتەرێکن و ئەو شێوەیەی کە ڕێکخراون بۆ کارکردن"),
+                          const DefinitionKurdish(text: "٢. (ناو) کەرەستە و پڕۆگرامی کە پێکھێنەری سیستەمی کۆمپیوتەرێکن و ئەو شێوەیەی کە ڕێکخراون بۆ کارکردن"),
                           Row(
                           children: [
                           const Expanded(
@@ -259,7 +259,7 @@ class EnglishEntryconfiguration extends StatelessWidget {
                           text:
                           "Performance will vary depending on your hardware and software configurations."),
                           ExampleSentenceKurdish(
-                          text: "ڕاپەڕاندن جیاواز دەبێت بەپێی ڕێکخستنی هاردوێر و نەرمامێرەکەت."),
+                          text: "ڕاپەڕاندن جیاواز دەبێت بەپێی ڕێکخستنی ھاردوێر و نەرمامێرەکەت."),
                           ],
                           ),
                           ),
@@ -358,7 +358,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: configuration (Derived forms: configurations)
+- Noun: configuration (derived forms: configurations)
 1. An arrangement of parts or elements (= constellation)
 "the outcome depends on the configuration of influences at the time";
  
@@ -396,7 +396,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LxdoC2sG1i4?t=',
+    videoId: 'LxdoC2sG1i4',
     startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 726,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ua4oFVz39vM?t=',
+    videoId: 'ua4oFVz39vM',
     startSeconds: 522,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/380Zqbi9luo?t=',
+    videoId: '380Zqbi9luo',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    videoId: 'ZQvfHyfgBtA',
     startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    videoId: 'ZQvfHyfgBtA',
     startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/twAP3buj9Og?t=',
+    videoId: 'twAP3buj9Og',
     startSeconds: 1051,
     autoPlay: true,
     params: const YoutubePlayerParams(

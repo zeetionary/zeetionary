@@ -192,11 +192,11 @@ class EnglishEntrycompanionship extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دانیشتن، دۆستایەتی، ڕفێقایەتی، ڕەفێقایەتی، یاوەرێتی، هاوڕێیی، هەڤاڵەتی، یارێتی
+کوردی: دانیشتن، دۆستایەتی، ڕفێقایەتی، ڕەفێقایەتی، یاوەرێتی، ھاوڕێیی، ھەڤاڵەتی، یارێتی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو هەستە خۆشەی کە هەتە ئەو کاتەی کە پەیوەندییەکی هاوڕێیانەت هەیە و تەنها نیت"),
+                                  "١. (ناو) ئەو ھەستە خۆشەی کە ھەتە ئەو کاتەی کە پەیوەندییەکی ھاوڕێیانەت ھەیە و تەنھا نیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycompanionship extends StatelessWidget {
                                             "She had only her cat for companionship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها پشیلەکەیی هەبوو بۆ یاوەرێتی."),
+                                            "تەنھا پشیلەکەیی ھەبوو بۆ یاوەرێتی."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: companionship (Derived forms: companionships)
+- Noun: companionship (derived forms: companionships)
 1. The state of being with someone (= company, fellowship, society)
 "he missed their companionship";
 """,

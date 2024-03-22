@@ -234,7 +234,7 @@ class EnglishEntrycommonly extends StatelessWidget {
                                             "This is one of the most commonly used methods."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە یەکێکە لە بیردۆزە باوە بەکارهێنراوەکان."),
+                                            "ئەمە یەکێکە لە بیردۆزە باوە بەکارھێنراوەکان."),
                                   ],
                                 ),
                               ),

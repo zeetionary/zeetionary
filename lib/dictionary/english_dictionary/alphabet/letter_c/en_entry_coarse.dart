@@ -193,7 +193,7 @@ class EnglishEntrycoarse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زبرە، زبر، زوور، ئاژین، درشت، گزم، زیق، گرناڵ، گرنجاوی، گەرووز، نەلووس،	ناشیرین، ناحەز، عەیب، جڵف، هەرزە، بێ‌ماریفەت، بێ‌ڕەوشت، بێ‌ڕەوشتانە،	توند، توندوتیژ،	ناخۆش
+کوردی: زبرە، زبر، زوور، ئاژین، درشت، گزم، زیق، گرناڵ، گرنجاوی، گەرووز، نەلووس،	ناشیرین، ناحەز، عەیب، جڵف، ھەرزە، بێ‌ماریفەت، بێ‌ڕەوشت، بێ‌ڕەوشتانە،	توند، توندوتیژ،	ناخۆش
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) زبر"),
                           Row(
@@ -267,7 +267,7 @@ class EnglishEntrycoarse extends StatelessWidget {
                                             "The teacher reminded the students to avoid using coarse language."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستاکە بەبیری خوێندکارانی هێناوە کە لە زمانی زبر بەدووربن."),
+                                            "مامۆستاکە بەبیری خوێندکارانی ھێناوە کە لە زمانی زبر بەدووربن."),
                                   ],
                                 ),
                               ),
@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: coarse (Derived forms: coarsest, coarser)
+- Adjective: coarse (derived forms: coarsest, coarser)
 1. Of textures that are rough to the touch or substances consisting of relatively large particles (= harsh)
 "coarse sand"; "a coarse weave"; "coarse meal";
  

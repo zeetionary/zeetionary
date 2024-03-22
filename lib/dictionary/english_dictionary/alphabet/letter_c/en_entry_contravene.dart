@@ -192,7 +192,7 @@ class EnglishEntrycontravene extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: سەرپێچی کردن لە، لادان، هەڵە کردن
+// کوردی: سەرپێچی کردن لە، لادان، ھەڵە کردن
 // """),
                           const DefinitionKurdish(
                               text:
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: contravene (Derived forms: contravened, contravenes, contravening)
+- Verb: contravene (derived forms: contravened, contravenes, contravening)
 1. Go against, as of rules and laws (= conflict, run afoul, infringe)
  
 2. Deny the truth of (= contradict, negate)
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PnO7pL-QWyc?t=',
+    videoId: 'PnO7pL-QWyc',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J_n1FZaKzF8?t=',
+    videoId: 'J_n1FZaKzF8',
     startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/evFdFFPk_tI?t=',
+    videoId: 'evFdFFPk_tI',
     startSeconds: 274,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pu5cqoSbeJA?t=',
+    videoId: 'pu5cqoSbeJA',
     startSeconds: 675,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a-i7K9tr7fg?t=',
+    videoId: 'a-i7K9tr7fg',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Er7dm5c-GVw?t=',
+    videoId: 'Er7dm5c-GVw',
     startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VjnjoHwxGVM?t=',
+    videoId: 'VjnjoHwxGVM',
     startSeconds: 5388,
     autoPlay: true,
     params: const YoutubePlayerParams(

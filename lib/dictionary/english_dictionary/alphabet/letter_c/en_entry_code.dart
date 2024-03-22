@@ -200,11 +200,11 @@ class EnglishEntrycode extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆد، یاسا و ڕێسا،	ڕێ‌وشوێن، نەریت، دەستوور، عورف،	هێما، ڕەمز، نیشانە،	قانوون، زاگۆن، زاکوون، یاسا،	(تەلەفون) کۆد،	(کۆمپیوتەر) بەرنامە، دەستوورەکان، کۆمەڵە دەستوور
+کوردی: کۆد، یاسا و ڕێسا،	ڕێ‌وشوێن، نەریت، دەستوور، عورف،	ھێما، ڕەمز، نیشانە،	قانوون، زاگۆن، زاکوون، یاسا،	(تەلەفون) کۆد،	(کۆمپیوتەر) بەرنامە، دەستوورەکان، کۆمەڵە دەستوور
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سیستەمێک لە وشە، پیت، ژمارە، یان سمبول کە ئاماژەن بە پەیامێک یان زانیاری تۆمار دەکەن بە شێوەی نهێنی بە کورتی"),
+                                  "١. (ناو) سیستەمێک لە وشە، پیت، ژمارە، یان سمبول کە ئاماژەن بە پەیامێک یان زانیاری تۆمار دەکەن بە شێوەی نھێنی بە کورتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycode extends StatelessWidget {
                                         text:
                                             "There are three codes for London."),
                                     ExampleSentenceKurdish(
-                                        text: "سێ کۆد بۆ لەندەن هەیە."),
+                                        text: "سێ کۆد بۆ لەندەن ھەیە."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntrycode extends StatelessWidget {
                                             "You only need to add a few lines of code."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستە تەنها چەند دێڕێکی کۆد بنووسیت."),
+                                            "پێویستە تەنھا چەند دێڕێکی کۆد بنووسیت."),
                                   ],
                                 ),
                               ),
@@ -377,7 +377,7 @@ class EnglishEntrycode extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) کۆمەڵێک ڕێسا و یاسا کە پەسەندکراوە لە کاتی ڕەفتارکردن و هەڵسوکەوتدا"),
+                                  "٤. (ناو) کۆمەڵێک ڕێسا و یاسا کە پەسەندکراوە لە کاتی ڕەفتارکردن و ھەڵسوکەوتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -435,7 +435,7 @@ class EnglishEntrycode extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) سیستەمێکی یاسا و پەیڕەوی نووسراو کە دیاری دەکات کە هەڵسوکەوتی پەسەندکراو لە دامەزراوەیەک یان وڵاتێک دیاری دەکات"),
+                                  "٥. (ناو) سیستەمێکی یاسا و پەیڕەوی نووسراو کە دیاری دەکات کە ھەڵسوکەوتی پەسەندکراو لە دامەزراوەیەک یان وڵاتێک دیاری دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -446,7 +446,7 @@ class EnglishEntrycode extends StatelessWidget {
                                             "The law includes amendments to the penal code."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاساکە هەمواری تێدا دەبێت بۆ یاسای سزادان."),
+                                            "یاساکە ھەمواری تێدا دەبێت بۆ یاسای سزادان."),
                                   ],
                                 ),
                               ),
@@ -476,7 +476,7 @@ class EnglishEntrycode extends StatelessWidget {
                                         text:
                                             "Each order is coded separately."),
                                     ExampleSentenceKurdish(
-                                        text: "هەر بڕیارێک بە جیایی کۆدکراوە."),
+                                        text: "ھەر بڕیارێک بە جیایی کۆدکراوە."),
                                   ],
                                 ),
                               ),
@@ -504,7 +504,7 @@ class EnglishEntrycode extends StatelessWidget {
                                             "Each story was coded into one of 31 categories for domestic news, while foreign news was separately coded by country."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەر بابەتێک کۆد کرا بە ٣١ بەشەوە بۆ هەواڵی ناوخۆیی، لە کاتێکدا هەواڵی دەرەکی بە جیایی بەپێی وڵات کۆدیان پێدرا."),
+                                            "ھەر بابەتێک کۆد کرا بە ٣١ بەشەوە بۆ ھەواڵی ناوخۆیی، لە کاتێکدا ھەواڵی دەرەکی بە جیایی بەپێی وڵات کۆدیان پێدرا."),
                                   ],
                                 ),
                               ),
@@ -603,14 +603,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: code (Derived forms: codes)
+- Noun: code (derived forms: codes)
 1. A set of rules, principles or laws (especially written ones) (= codification)
  
 2. A coding system used for transmitting messages requiring brevity or secrecy
  
 3. (computing) the symbolic arrangement of data or instructions in a computer program or the set of such instructions (= computer code)
 
-- Verb: code (Derived forms: coding, coded, codes)
+- Verb: code (derived forms: coding, coded, codes)
 1. Attach a code to
 "Code the pieces with numbers so that you can identify them later"
  

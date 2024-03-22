@@ -162,7 +162,7 @@ class EnglishEntrybooster extends StatelessWidget {
                                             "The booster separated after propelling the spacecraft into space."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مووشەکەکە جیابووەوە لەدوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان."),
+                                            "مووشەکەکە جیابووەوە لە دوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان."),
                                   ],
                                 ),
                               ),

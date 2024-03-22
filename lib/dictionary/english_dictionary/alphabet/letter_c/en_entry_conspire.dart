@@ -195,7 +195,7 @@ class EnglishEntryconspire extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیلانداڕشتن، هاوبەش بوون، شەریک بوون
+کوردی: پیلانداڕشتن، ھاوبەش بوون، شەریک بوون
 """),
                           const DefinitionKurdish(
                               text:
@@ -266,7 +266,7 @@ class EnglishEntryconspire extends StatelessWidget {
                                             "They deny conspiring together to smuggle drugs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نکۆڵی کرد لە پیلانگێڕان پێکەوە بۆ گواستنەوەی مادەی هۆشبەر."),
+                                            "نکۆڵی کرد لە پیلانگێڕان پێکەوە بۆ گواستنەوەی مادەی ھۆشبەر."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntryconspire extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) وادەرکەوتن وەک ئەوەی هەوڵی هێنانەئارای ڕووداوێکی خراپ دەدات"),
+                                  "٢. (کردار) وادەرکەوتن وەک ئەوەی ھەوڵی ھێنانەئارای ڕووداوێکی خراپ دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -324,7 +324,7 @@ class EnglishEntryconspire extends StatelessWidget {
                                             "Everything conspired to make her life a misery."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو شتێک وەها هەڵکەوت ژیانی تاڵ بکات."),
+                                            "ھەموو شتێک وەھا ھەڵکەوت ژیانی تاڵ بکات."),
                                   ],
                                 ),
                               ),
@@ -423,7 +423,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conspire (Derived forms: conspired, conspires, conspiring)
+- Verb: conspire (derived forms: conspired, conspires, conspiring)
 1. Engage in plotting or enter into a conspiracy, swear together (= cabal, complot [archaic], conjure, machinate)
 "They conspired to overthrow the government";
  
@@ -461,7 +461,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X977D6ApumA?t=',
+    videoId: 'X977D6ApumA',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y-SnB10ihD4?t=',
+    videoId: 'Y-SnB10ihD4',
     startSeconds: 714,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8aICVBnO4Us?t=',
+    videoId: '8aICVBnO4Us',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dz7HUEUVbf4?t=',
+    videoId: 'Dz7HUEUVbf4',
     startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lgCUhPmPjUQ?t=',
+    videoId: 'lgCUhPmPjUQ',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EgffyL600Zo?t=',
+    videoId: 'EgffyL600Zo',
     startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oHeehYYgl28?t=',
+    videoId: 'oHeehYYgl28',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(

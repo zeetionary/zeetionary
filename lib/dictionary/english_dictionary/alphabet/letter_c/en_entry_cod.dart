@@ -191,7 +191,7 @@ class EnglishEntrycod extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قەڵب، گزەتیاکراو، ساختە، هەڵبەستە، دەسکرد، زڕ، ناڕەسەن
+کوردی: قەڵب، گزەتیاکراو، ساختە، ھەڵبەستە، دەسکرد، زڕ، ناڕەسەن
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ماسییەکی گەورە کە لە ناوەوە سپییە و دەخورێت"),
@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cod (Derived forms: cod)
+- Noun: cod (derived forms: cod)
 1. Major food fish of Arctic and cold-temperate waters (= codfish)
  
 2. Lean white flesh of important North Atlantic food fish; usually baked or poached (= codfish)
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 Usage: Brit, informal
 1. Fraudulent; having a misleading appearance (= bogus, fake, phony [N. Amer], phoney)
 
-- Verb: cod (Derived forms: cods, codded, codding)
+- Verb: cod (derived forms: cods, codded, codding)
 Usage: Brit, informal
 1. Fool or hoax (gull, dupe, slang [archaic, informal], befool [archaic], fool, put on, take in, put one over [informal], put one across [informal])
 "The immigrant was codded because he trusted everyone";

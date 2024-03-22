@@ -207,7 +207,7 @@ class EnglishEntryclergy extends StatelessWidget {
                                             "All the local clergy were asked to attend the ceremony."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تواوی پیاوە ئاینییە خۆجێییەکان داوایان لێکرا بەژداری ئاهەنگەکە بن."),
+                                            "تواوی پیاوە ئاینییە خۆجێییەکان داوایان لێکرا بەژداری ئاھەنگەکە بن."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clergy (Derived forms: clergies)
+- Noun: clergy (derived forms: clergies)
 1. In Christianity, clergymen collectively (as distinguished from the laity) (= cloth)
 """,
   );

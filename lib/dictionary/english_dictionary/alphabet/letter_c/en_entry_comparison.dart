@@ -198,7 +198,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەراوردکاری، بەرهەڤ‌دان، هاوبەری، پێک‌گرتن، هەڵسەنگاندن،	لێکچواندن، شوبهاندن،	لێکچوون، لێکچوویی، هاوشێوەیی
+کوردی: بەراوردکاری، بەرھەڤ‌دان، ھاوبەری، پێک‌گرتن، ھەڵسەنگاندن،	لێکچواندن، شوبھاندن،	لێکچوون، لێکچوویی، ھاوشێوەیی
 """),
                           const DefinitionKurdish(text: "١. (ناو) بەراوردکاری"),
                           Row(
@@ -211,7 +211,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                                             "Comparison with other oil-producing countries is extremely interesting."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەراوردکاری لەگەڵ وڵاتانی دیکەی بەرهەمهێنەری نەوت سەرنجڕاکشە."),
+                                            "بەراوردکاری لەگەڵ وڵاتانی دیکەی بەرھەمھێنەری نەوت سەرنجڕاکشە."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                                             "The two situations bear no comparison (= they are not at all similar)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو دۆخەکە هیچ بەراوردکاری هەڵناگرن."),
+                                            "دوو دۆخەکە ھیچ بەراوردکاری ھەڵناگرن."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                                             "The films are too different for a fair comparison."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکان زۆر جیاوازن بۆ هەڵسەنگاندنێکی دادپەروەرانە."),
+                                            "فیلمەکان زۆر جیاوازن بۆ ھەڵسەنگاندنێکی دادپەروەرانە."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                                             "It is difficult to make a comparison with her previous book—they are completely different."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەختە هەڵسەنگاندن بکەیت لەگەڵ کتێبەکەی پێشوویدا، تەواو جیاوازن."),
+                                            "سەختە ھەڵسەنگاندن بکەیت لەگەڵ کتێبەکەی پێشوویدا، تەواو جیاوازن."),
                                   ],
                                 ),
                               ),
@@ -420,7 +420,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                                             "There is no published information that would allow a direct comparison with other regions or countries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ زانیارییەکی بڵاوکراوە نییە کە ڕێگا بە بەراوردکاری ڕاستەوخۆ بدات لەگەڵ هەرێم یان وڵاتانی دیکە."),
+                                            "ھیچ زانیارییەکی بڵاوکراوە نییە کە ڕێگا بە بەراوردکاری ڕاستەوخۆ بدات لەگەڵ ھەرێم یان وڵاتانی دیکە."),
                                   ],
                                 ),
                               ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comparison (Derived forms: comparisons)
+- Noun: comparison (derived forms: comparisons)
 1. The act of examining resemblances (= comparing)
 "they made a comparison of noise levels"; "the fractions selected for comparison must require pupils to consider both numerator and denominator";
  

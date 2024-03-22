@@ -196,11 +196,11 @@ class EnglishEntryconsume extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خواردن، خەرج کردن، دەکارهێنان، توانەوە، لە ناوچوون، مژتن
+کوردی: خواردن، خەرج کردن، دەکارھێنان، توانەوە، لە ناوچوون، مژتن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) بەکارهێنانی شتێک، بەتایبەتی سووتەمەنی، وزە، یان کات"),
+                                  "١. (کردار) بەکارھێنانی شتێک، بەتایبەتی سووتەمەنی، وزە، یان کات"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryconsume extends StatelessWidget {
                                             "25 per cent of the world’s population consumes 80 per cent of the planet’s resources."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "٢٥ لە سەدی دانیشتوانی جیهان ٨٠ لە سەدی سەرچاوەکانی زەوی بەکاردێنن."),
+                                            "٢٥ لە سەدی دانیشتوانی جیھان ٨٠ لە سەدی سەرچاوەکانی زەوی بەکاردێنن."),
                                   ],
                                 ),
                               ),
@@ -316,7 +316,7 @@ class EnglishEntryconsume extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (کردار) پێدانی هەستێکی زۆر بە کەسێک"),
+                              text: "٥. (کردار) پێدانی ھەستێکی زۆر بە کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -326,7 +326,7 @@ class EnglishEntryconsume extends StatelessWidget {
                                         text:
                                             "Carolyn was consumed with guilt."),
                                     ExampleSentenceKurdish(
-                                        text: "کارۆلین پڕ لە هەستی تاوان بوو."),
+                                        text: "کارۆلین پڕ لە ھەستی تاوان بوو."),
                                   ],
                                 ),
                               ),
@@ -381,7 +381,7 @@ class EnglishEntryconsume extends StatelessWidget {
                                         text:
                                             "The hotel was quickly consumed by fire."),
                                     ExampleSentenceKurdish(
-                                        text: "هوتێلەکە زوو بە ئاگر لەناوچوو."),
+                                        text: "ھوتێلەکە زوو بە ئاگر لەناوچوو."),
                                   ],
                                 ),
                               ),
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consume (Derived forms: consumes, consuming, consumed)
+- Verb: consume (derived forms: consumes, consuming, consumed)
 1. Use (resources or materials) over time in order to function (= eat up, use up, eat, deplete, exhaust, run through, wipe out)
 "this car consumes a lot of gas";
 
@@ -529,7 +529,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    videoId: '-cPdImejxEQ',
     startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D_Y18GEjfNY?t=',
+    videoId: 'D_Y18GEjfNY',
     startSeconds: 401,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -579,7 +579,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M6XiFKB7j0w?t=',
+    videoId: 'M6XiFKB7j0w',
     startSeconds: 472,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -604,7 +604,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6a4hMyiwBo?t=',
+    videoId: 'x6a4hMyiwBo',
     startSeconds: 763,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -629,7 +629,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -654,7 +654,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6_Vrg3zAKl4?t=',
+    videoId: '6_Vrg3zAKl4',
     startSeconds: 265,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -679,7 +679,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mRj1RKh4xyY?t=',
+    videoId: 'mRj1RKh4xyY',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(

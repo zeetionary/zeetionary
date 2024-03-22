@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colander (Derived forms: colanders)
+- Noun: colander (derived forms: colanders)
 1. Bowl-shaped strainer; used to wash or drain foods (= cullender [archaic])
 """,
   );

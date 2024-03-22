@@ -210,7 +210,7 @@ class EnglishEntrycommentary extends StatelessWidget {
                                             "Our reporters will give a running commentary (= a continuous one) on the election results as they are announced."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەیامنێرانمان شرۆڤەی بەردەوام لەسەر ئەنجامەکانی هەڵبژاردن دەدەن کە ڕادەگەیەنرێن."),
+                                            "پەیامنێرانمان شرۆڤەی بەردەوام لەسەر ئەنجامەکانی ھەڵبژاردن دەدەن کە ڕادەگەیەنرێن."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycommentary extends StatelessWidget {
                                             "He kept up a running commentary on everyone who came in or went out."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێدوانی بەردەوامی دەدا لەسەر هەموو ئەوانەی دەهاتنە ژوورەوە و دەچوونە دەرەوە."),
+                                            "لێدوانی بەردەوامی دەدا لەسەر ھەموو ئەوانەی دەھاتنە ژوورەوە و دەچوونە دەرەوە."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycommentary extends StatelessWidget {
                                             "The petty quarrels were a sad commentary on the state of the government."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەڕەدەمە بێهوودەکان ڕەخنەگرییەکی خەمناک بوون لەسەر دۆخی حکومەت."),
+                                            "شەڕەدەمە بێھوودەکان ڕەخنەگرییەکی خەمناک بوون لەسەر دۆخی حکومەت."),
                                   ],
                                 ),
                               ),
@@ -426,7 +426,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commentary (Derived forms: commentaries)
+- Noun: commentary (derived forms: commentaries)
 1. A written explanation or criticism or illustration that is added to a book or other textual material (= comment)
 "he wrote an extended commentary on the proposal";
 """,

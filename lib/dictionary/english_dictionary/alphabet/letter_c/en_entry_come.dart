@@ -865,7 +865,7 @@ class EnglishEntrycome extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاتن، گەیشتن، ڕۆیشتن، تۆواو
+کوردی: ھاتن، گەیشتن، ڕۆیشتن، تۆواو
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕۆشتن بۆ لای کەسێک یان شوێنێک"),
@@ -879,7 +879,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "He came into the room and shut the door."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتە ناو ژوورەکەوە و دەرگای داخست."),
+                                            "ھاتە ناو ژوورەکەوە و دەرگای داخست."),
                                   ],
                                 ),
                               ),
@@ -1081,7 +1081,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "They're coming to stay for a week."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دێن بۆ هەفتەیەک بمێننەوە."),
+                                                    "دێن بۆ ھەفتەیەک بمێننەوە."),
                                           ],
                                         ),
                                       ),
@@ -1109,7 +1109,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             ExampleSentenceEnglish(
                                                 text: "He came towards me."),
                                             ExampleSentenceKurdish(
-                                                text: "بەرەو لام هات."),
+                                                text: "بەرەو لام ھات."),
                                           ],
                                         ),
                                       ),
@@ -1139,7 +1139,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "I hope you can come to Australia to visit us."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بەهیواین بێیت بۆ ئوسترالیا بۆ سەردانمان."),
+                                                    "بەھیواین بێیت بۆ ئوسترالیا بۆ سەردانمان."),
                                           ],
                                         ),
                                       ),
@@ -1233,7 +1233,7 @@ class EnglishEntrycome extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "They came as far as the gate."),
                                     ExampleSentenceKurdish(
-                                        text: "تاوەکو دەروازەکە هاتن."),
+                                        text: "تاوەکو دەروازەکە ھاتن."),
                                   ],
                                 ),
                               ),
@@ -1321,7 +1321,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Have any letters come for me?"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیچ نامەیەکم پێگەشتووە؟"),
+                                                    "ھیچ نامەیەکم پێگەشتووە؟"),
                                           ],
                                         ),
                                       ),
@@ -1380,7 +1380,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "He came to England by ship."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە کەشتی هات بۆ ئینگلتەرە."),
+                                                    "بە کەشتی ھات بۆ ئینگلتەرە."),
                                           ],
                                         ),
                                       ),
@@ -1448,7 +1448,7 @@ class EnglishEntrycome extends StatelessWidget {
                                           "You can also say: 1. \"I've come about my book.\", 2. \"I've come to get my book.\"",
                                     ),
                                     ExampleSentenceKurdish(
-                                        text: "بۆ کتێبەکەم هاتووم."),
+                                        text: "بۆ کتێبەکەم ھاتووم."),
                                   ],
                                 ),
                               ),
@@ -1474,7 +1474,7 @@ class EnglishEntrycome extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He came looking for me."),
                                     ExampleSentenceKurdish(
-                                        text: "هات بۆم گەڕا."),
+                                        text: "ھات بۆم گەڕا."),
                                   ],
                                 ),
                               ),
@@ -1505,7 +1505,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "I've come for those books you promised me."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هاتووم بۆ ئەو کتێبانەی بەڵێنت پێمدا."),
+                                                    "ھاتووم بۆ ئەو کتێبانەی بەڵێنت پێمدا."),
                                           ],
                                         ),
                                       ),
@@ -1535,7 +1535,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "I've come to see Mrs Cooper."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هاتووم بۆ بینینی بەڕێز کووپەر."),
+                                                    "ھاتووم بۆ بینینی بەڕێز کووپەر."),
                                           ],
                                         ),
                                       ),
@@ -1570,7 +1570,7 @@ class EnglishEntrycome extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I've only come for an hour."),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها بۆ یەک کاتژمێر هاتووم."),
+                                        text: "تەنھا بۆ یەک کاتژمێر ھاتووم."),
                                   ],
                                 ),
                               ),
@@ -1597,7 +1597,7 @@ class EnglishEntrycome extends StatelessWidget {
                                         text:
                                             "Thanks for coming (= to my house, party, etc.)."),
                                     ExampleSentenceKurdish(
-                                        text: "سوپاس بۆ هاتنت."),
+                                        text: "سوپاس بۆ ھاتنت."),
                                   ],
                                 ),
                               ),
@@ -1628,7 +1628,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Ten thousand people came to hear him speak."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دە هەزار کەس هاتن بۆ گوێگرتن لێی."),
+                                                    "دە ھەزار کەس ھاتن بۆ گوێگرتن لێی."),
                                           ],
                                         ),
                                       ),
@@ -1716,7 +1716,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Come with me—I've got something to show you."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "وەرە لەگەڵم، شتێکم هەیە پیشانت بدەم."),
+                                                    "وەرە لەگەڵم، شتێکم ھەیە پیشانت بدەم."),
                                           ],
                                         ),
                                       ),
@@ -1746,7 +1746,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Please come to my party on September 10th."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تکایە وەرە بۆ ئاهەنگەکەم لە ١٠ـی ئەیلوول."),
+                                                    "تکایە وەرە بۆ ئاھەنگەکەم لە ١٠ـی ئەیلوول."),
                                           ],
                                         ),
                                       ),
@@ -1840,7 +1840,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "The company has come a long way (= made lot of progress) in the last 5 years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) کۆمپانیاکە بە زۆر شتدا تێپەڕێوە لە پێنج ساڵی ڕابردوودا."),
+                                            "(بەکارھێنانی خوازراوی) کۆمپانیاکە بە زۆر شتدا تێپەڕێوە لە پێنج ساڵی ڕابردوودا."),
                                   ],
                                 ),
                               ),
@@ -1871,7 +1871,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "He's come all the way from Tokyo."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە تۆکیۆوە ئەو هەموو ڕێگایەی بڕیوە."),
+                                                    "لە تۆکیۆوە ئەو ھەموو ڕێگایەی بڕیوە."),
                                           ],
                                         ),
                                       ),
@@ -1966,7 +1966,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "A huge wave came crashing over the sea wall."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەپۆلێکی گەورە هات و کێشای بە بەربەستی دەریاکەدا."),
+                                            "شەپۆلێکی گەورە ھات و کێشای بە بەربەستی دەریاکەدا."),
                                   ],
                                 ),
                               ),
@@ -1994,7 +1994,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "Questions came rushing into her head."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) پرسیار مێشکی خواردبوو."),
+                                            "(بەکارھێنانی خوازراوی) پرسیار مێشکی خواردبوو."),
                                   ],
                                 ),
                               ),
@@ -2025,7 +2025,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Don't expect me to come running every time you call."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "چاوەڕێ مەبە بە ڕاکردن بێم هەر کاتێک پەیوەندی دەکەیت."),
+                                                    "چاوەڕێ مەبە بە ڕاکردن بێم ھەر کاتێک پەیوەندی دەکەیت."),
                                           ],
                                         ),
                                       ),
@@ -2055,7 +2055,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "The children came running into the room."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "منداڵەکان بە ڕاکردن هاتنە ژوورەکە."),
+                                                    "منداڵەکان بە ڕاکردن ھاتنە ژوورەکە."),
                                           ],
                                         ),
                                       ),
@@ -2085,7 +2085,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "A crowd of men on horses carrying spears came charging down the road."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ژمارەیەک پیاو لەسەر ئەسپ و هەڵگرتنی ڕمەوە بە ڕێگاکەدا هێرشیان کرد."),
+                                                    "ژمارەیەک پیاو لەسەر ئەسپ و ھەڵگرتنی ڕمەوە بە ڕێگاکەدا ھێرشیان کرد."),
                                           ],
                                         ),
                                       ),
@@ -2120,7 +2120,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "The agreement came after several hours of negotiations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێککەوتنەکە ڕوویدا لەدوای چەند کاتژمێرێک لە دانوستان."),
+                                            "ڕێککەوتنەکە ڕوویدا لە دوای چەند کاتژمێرێک لە دانوستان."),
                                   ],
                                 ),
                               ),
@@ -2148,7 +2148,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "The rains came too late to do any good."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بارانەکە زۆر درەنگ ڕوویدا کە هیچ سوودێکی هەبێت."),
+                                            "بارانەکە زۆر درەنگ ڕوویدا کە ھیچ سوودێکی ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -2179,7 +2179,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Spring came late this year."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نەهار ئەمساڵ درەنگ هات."),
+                                                    "نەھار ئەمساڵ درەنگ ھات."),
                                           ],
                                         ),
                                       ),
@@ -2208,7 +2208,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                 text:
                                                     "The time has come (= now is the moment) to act."),
                                             ExampleSentenceKurdish(
-                                                text: "کاتی هەنگاونان هاتووە."),
+                                                text: "کاتی ھەنگاونان ھاتووە."),
                                           ],
                                         ),
                                       ),
@@ -2268,7 +2268,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "His resignation came as no surprise."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەستلەکارکێشانەوەی هیچ جێگەی سەرسامی نەبوو."),
+                                                    "دەستلەکارکێشانەوەی ھیچ جێگەی سەرسامی نەبوو."),
                                           ],
                                         ),
                                       ),
@@ -2358,7 +2358,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Come summer, people like to eat outdoors."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کە هاوین دێت، خەڵکی حەز دەکەن لە دەرەوە نان بخۆن."),
+                                                    "کە ھاوین دێت، خەڵکی حەز دەکەن لە دەرەوە نان بخۆن."),
                                           ],
                                         ),
                                       ),
@@ -2388,7 +2388,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Business improved as Christmas came nearer."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بازرگانی بەهێز بوو کە کریسمس نزیک بوویەوە."),
+                                                    "بازرگانی بەھێز بوو کە کریسمس نزیک بوویەوە."),
                                           ],
                                         ),
                                       ),
@@ -2418,7 +2418,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "At last, the time came to leave."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە کۆتاییدا کاتی ڕۆشتن هات."),
+                                                    "لە کۆتاییدا کاتی ڕۆشتن ھات."),
                                           ],
                                         ),
                                       ),
@@ -2444,7 +2444,7 @@ class EnglishEntrycome extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) لە پرسیاردا بەکاردێت بۆ هۆکار یان شێوازی ڕوودانی شتێک"),
+                                  "٨. (کردار) لە پرسیاردا بەکاردێت بۆ ھۆکار یان شێوازی ڕوودانی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -2480,7 +2480,7 @@ class EnglishEntrycome extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "How do you come to be so late?"),
                                     ExampleSentenceKurdish(
-                                        text: "چۆن هێندە درەنگ کەوتی؟"),
+                                        text: "چۆن ھێندە درەنگ کەوتی؟"),
                                   ],
                                 ),
                               ),
@@ -2499,7 +2499,7 @@ class EnglishEntrycome extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٩. (کردار) هەبوونی پێگەیەکی دیاریکراو"),
+                              text: "٩. (کردار) ھەبوونی پێگەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -2735,7 +2735,7 @@ class EnglishEntrycome extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (کردار) بەردەست یان هەبوون بەشێوەیەکی دیاریکراو"),
+                                  "١١. (کردار) بەردەست یان ھەبوون بەشێوەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -2805,7 +2805,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "New cars don't come cheap (= they are expensive)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئۆتۆمبێکی تازە هەرزان نین."),
+                                                    "ئۆتۆمبێکی تازە ھەرزان نین."),
                                           ],
                                         ),
                                       ),
@@ -2897,7 +2897,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "Everything will come right in the end."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو شتێک لە کۆتاییدا درووست دەبێت."),
+                                            "ھەموو شتێک لە کۆتاییدا درووست دەبێت."),
                                   ],
                                 ),
                               ),
@@ -2945,7 +2945,7 @@ class EnglishEntrycome extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٣. (کردار) گەشتنە قۆناغی باوەڕبوون، تێگەشتن، یان هەستکردن بە شتێک"),
+                                  "١٣. (کردار) گەشتنە قۆناغی باوەڕبوون، تێگەشتن، یان ھەستکردن بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -3012,7 +3012,7 @@ class EnglishEntrycome extends StatelessWidget {
                                         text:
                                             "They both came at the same time."),
                                     ExampleSentenceKurdish(
-                                        text: "پێکەوە ئاویان هاتەوە."),
+                                        text: "پێکەوە ئاویان ھاتەوە."),
                                   ],
                                 ),
                               ),
@@ -3098,7 +3098,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "They would have been married forty years come this June."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم حوزەیرانە دەگەشتن بە ٤٠ ساڵ لە هاوسەرگیری."),
+                                            "ئەم حوزەیرانە دەگەشتن بە ٤٠ ساڵ لە ھاوسەرگیری."),
                                   ],
                                 ),
                               ),
@@ -3126,7 +3126,7 @@ class EnglishEntrycome extends StatelessWidget {
                                             "Come next week she’ll have changed her mind."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تا هەفتەی داهاتوو بۆچوونی خۆی دەگۆڕێت."),
+                                            "تا ھەفتەی داھاتوو بۆچوونی خۆی دەگۆڕێت."),
                                   ],
                                 ),
                               ),
@@ -3225,7 +3225,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: come (Derived forms: come, comes, coming)
+- Verb: come (derived forms: come, comes, coming)
 1. Move toward, travel toward something or somebody or approach something or somebody (= come up)
 "He came singing down the road"; "Come with me to the Casbah"; "come down here!"; "come out of the closet!"; "come into the room";
 
@@ -3289,7 +3289,7 @@ ${englishMeaningConst.text}
 21. Have a certain priority
 "My family comes first"
 
-- Noun: come (Derived forms: comes) 
+- Noun: come (derived forms: comes) 
 Usage: informal
 1. The thick white fluid containing spermatozoa that is ejaculated by the male genital tract (= semen, seed, seminal fluid, ejaculate)
 """,

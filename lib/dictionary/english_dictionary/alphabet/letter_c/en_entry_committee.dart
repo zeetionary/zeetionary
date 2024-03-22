@@ -198,7 +198,7 @@ class EnglishEntrycommittee extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گرووپێک خەڵک کە هەڵبژێردراون، زۆرجار لەلایەن گرووپێکی گەورەترەوە، بۆ بڕیاردان یان مامەڵە لەگەڵ بابەتێکی دیاریکراو"),
+                                  "١. (ناو) گرووپێک خەڵک کە ھەڵبژێردراون، زۆرجار لەلایەن گرووپێکی گەورەترەوە، بۆ بڕیاردان یان مامەڵە لەگەڵ بابەتێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -391,7 +391,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: committee (Derived forms: committees)
+- Noun: committee (derived forms: committees)
 1. A special group delegated to consider some matter (= commission)
 "a committee is a group that keeps minutes and loses hours";
  

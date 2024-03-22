@@ -201,11 +201,11 @@ class EnglishEntryclimate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەوا، ئاو و هەوا، مەڵبەند، ئاقار، کەش، کەش‌وهەوا،	ڕەوش، بارودۆخ، هەل‌ومەرج، کەش، کەش‌وهەوا
+کوردی: ھەوا، ئاو و ھەوا، مەڵبەند، ئاقار، کەش، کەش‌وھەوا،	ڕەوش، بارودۆخ، ھەل‌ومەرج، کەش، کەش‌وھەوا
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئاو و هەوا؛ کەشووهەوای ساڵانە لە شوێنێکی دیاریکراودا"),
+                                  "١. (ناو) ئاو و ھەوا؛ کەشووھەوای ساڵانە لە شوێنێکی دیاریکراودا"),
                           Row(
                             children: [
                               const Expanded(
@@ -215,7 +215,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                         text: "The city has a cold climate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارەکە ئاو و هەوایەکی ساردی هەیە."),
+                                            "شارەکە ئاو و ھەوایەکی ساردی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -243,7 +243,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                             "Tomato flavour varies depending on climate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تامی تەماتە بەپێی ئاو و هەوا دەگۆڕێت."),
+                                            "تامی تەماتە بەپێی ئاو و ھەوا دەگۆڕێت."),
                                   ],
                                 ),
                               ),
@@ -274,7 +274,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                                     "Most climate scientists believe the earth will warm several more degrees in coming decades."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "زۆرێک لە زانایانی ئاو و هەوا باوەڕیان وایە زەوی چەند پلەیەکی دیکە گەرم دەبێت لە چەند دەیەی دادێدا."),
+                                                    "زۆرێک لە زانایانی ئاو و ھەوا باوەڕیان وایە زەوی چەند پلەیەکی دیکە گەرم دەبێت لە چەند دەیەی دادێدا."),
                                           ],
                                         ),
                                       ),
@@ -304,7 +304,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                                     "It is a region with diverse soils and climate."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەرێمێکە بە خاک و ئاو و هەوای جیاوازەوە."),
+                                                    "ھەرێمێکە بە خاک و ئاو و ھەوای جیاوازەوە."),
                                           ],
                                         ),
                                       ),
@@ -330,7 +330,7 @@ class EnglishEntryclimate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ناوچەیەک کە ئاو و هەوای دیاریکراوی هەیە"),
+                                  "٢. (ناو) ناوچەیەک کە ئاو و ھەوای دیاریکراوی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -341,7 +341,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                             "Little grows in such a dry climate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەم شت دەڕوێت لە کەشێکی وەها وشکدا."),
+                                            "کەم شت دەڕوێت لە کەشێکی وەھا وشکدا."),
                                   ],
                                 ),
                               ),
@@ -389,7 +389,7 @@ class EnglishEntryclimate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەشێک یان دۆخێک کە لە شوێنێکدا بوونی هەیە"),
+                                  "٣. (ناو) کەشێک یان دۆخێک کە لە شوێنێکدا بوونی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -428,7 +428,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                             "They hope this will provide the right climate for social change."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیواخوازن ئەمە کەشی لەبار بڕەخسێنێت بۆ گۆڕانی کۆمەڵایەتی."),
+                                            "ھیواخوازن ئەمە کەشی لەبار بڕەخسێنێت بۆ گۆڕانی کۆمەڵایەتی."),
                                   ],
                                 ),
                               ),
@@ -459,7 +459,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                                     "Such a move seems unlikely in the current political climate."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەنگاوێکی وەها ڕێی تێ ناچێت لە کەشی سیاسی ئێستادا."),
+                                                    "ھەنگاوێکی وەھا ڕێی تێ ناچێت لە کەشی سیاسی ئێستادا."),
                                           ],
                                         ),
                                       ),
@@ -624,7 +624,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: climate (Derived forms: climates)
+- Noun: climate (derived forms: climates)
 1. The weather in some location averaged over some long period of time (= clime)
 "the dank climate of southern Wales";
  

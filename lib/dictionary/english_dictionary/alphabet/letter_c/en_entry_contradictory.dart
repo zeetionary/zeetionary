@@ -194,11 +194,11 @@ class EnglishEntrycontradictory extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (وتە) دژبەیەک، پێکدژ، هاودژ، ناکۆک، پێک‌ناکۆک، دژ، یەک‌نەگرەوە، یەک‌ناگیر، چەواشە، جیاواز
+کوردی: (وتە) دژبەیەک، پێکدژ، ھاودژ، ناکۆک، پێک‌ناکۆک، دژ، یەک‌نەگرەوە، یەک‌ناگیر، چەواشە، جیاواز
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) بۆچوونێک، گێڕانەوەیەک، لێدوانێک، هتد ناکۆک یان دژبەرە لەگەڵ یەکێکی دیکەدا"),
+                                  "١. (ھاوەڵناو) بۆچوونێک، گێڕانەوەیەک، لێدوانێک، ھتد ناکۆک یان دژبەرە لەگەڵ یەکێکی دیکەدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -351,7 +351,7 @@ ${englishMeaningConst.text}
  
 4. Unable for both to exist or be true at the same time (= mutually exclusive)
 
-- Noun: contradictory (Derived forms: contradictories)
+- Noun: contradictory (derived forms: contradictories)
 1. Two propositions are contradictories if both cannot be true (or both cannot be false) at the same time
 """,
   );
@@ -385,7 +385,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IM31fgkxn2I?t=',
+    videoId: 'IM31fgkxn2I',
     startSeconds: 632,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -410,7 +410,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tTJeePNgOF8?t=',
+    videoId: 'tTJeePNgOF8',
     startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x-QcbOphxYs?t=',
+    videoId: 'x-QcbOphxYs',
     startSeconds: 769,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    videoId: 'E2rtQFAibEA',
     startSeconds: 7632,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hSNWkRw53Jo?t=',
+    videoId: 'hSNWkRw53Jo',
     startSeconds: 7828,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7nL-kgbbcBA?t=',
+    videoId: '7nL-kgbbcBA',
     startSeconds: 1498,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_F_iiepy1eM?t=',
+    videoId: '_F_iiepy1eM',
     startSeconds: 638,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -196,7 +196,7 @@ class EnglishEntryclump extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گورزە، دەسک، چەپک، کۆمەڵە، پۆل، کۆڕ، کۆما، گروپ، کۆمەڵ، هێشوو، خرمەخرم، تەپەتەپ، کوتەکوت، زرم‌وکوت، زرم‌وهۆڕ
+کوردی: گورزە، دەسک، چەپک، کۆمەڵە، پۆل، کۆڕ، کۆما، گروپ، کۆمەڵ، ھێشوو، خرمەخرم، تەپەتەپ، کوتەکوت، زرم‌وکوت، زرم‌وھۆڕ
 """),
                           const DefinitionKurdish(
                               text:
@@ -358,7 +358,7 @@ class EnglishEntryclump extends StatelessWidget {
                                             "As it started to rain, everyone clumped together in doorways."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە دەستی کرد بە باران، هەموان لە بەردەرگاکان کۆبوونەوە."),
+                                            "کە دەستی کرد بە باران، ھەموان لە بەردەرگاکان کۆبوونەوە."),
                                   ],
                                 ),
                               ),
@@ -457,7 +457,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clump (Derived forms: clumps)
+- Noun: clump (derived forms: clumps)
 1. A grouping of a number of similar things (= bunch, cluster, clustering)
 "a clump of trees";
  
@@ -466,7 +466,7 @@ ${englishMeaningConst.text}
  
 3. A heavy dull sound (as made by impact of heavy objects) (= thump, thumping, clunk, thud, clonk)
 
-- Verb: clump (Derived forms: clumped, clumping, clumps)
+- Verb: clump (derived forms: clumped, clumping, clumps)
 1. Make or move along with a sound as of a horse's hooves striking the ground (= clop, clunk, plunk)
  
 2. Come together as in a cluster or flock (= cluster, constellate, flock)

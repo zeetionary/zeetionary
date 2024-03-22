@@ -206,7 +206,7 @@ class EnglishEntryconman extends StatelessWidget {
                                             "The movie focuses on the friendship between a dim-witted stud and a petty conman."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە سەرنج دەخاتەسەر هاوڕێیەتی زەنەکێکی گەمژە و دەسبڕێکی هیچ‌وپووچ."),
+                                            "فیلمەکە سەرنج دەخاتەسەر ھاوڕێیەتی زەنەکێکی گەمژە و دەسبڕێکی ھیچ‌وپووچ."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conman (Derived forms: conmen)
+- Noun: conman (derived forms: conmen)
 1. A swindler who exploits the confidence of his victim (= confidence man, con artist)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 882,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V-4NPyqpTOA?t=',
+    videoId: 'V-4NPyqpTOA',
     startSeconds: 873,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tKZ2ILu_EMc?t=',
+    videoId: 'tKZ2ILu_EMc',
     startSeconds: 763,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_mqP7kd1H_Y?t=',
+    videoId: '_mqP7kd1H_Y',
     startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tcqiJAqjoxE?t=',
+    videoId: 'tcqiJAqjoxE',
     startSeconds: 2316,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/67APUeibJpc?t=',
+    videoId: '67APUeibJpc',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H6NUzanLUd4?t=',
+    videoId: 'H6NUzanLUd4',
     startSeconds: 144,
     autoPlay: true,
     params: const YoutubePlayerParams(

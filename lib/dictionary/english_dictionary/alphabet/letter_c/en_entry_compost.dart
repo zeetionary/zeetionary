@@ -196,7 +196,7 @@ class EnglishEntrycompost extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تێکەڵەیەک لە ڕووەک، میوە، هتد ـی مردوو کە زیاد دەکرێت بۆ خاک بۆ یارمەتیدانی گەشەی ڕووەک"),
+                                  "١. (ناو) تێکەڵەیەک لە ڕووەک، میوە، ھتد ـی مردوو کە زیاد دەکرێت بۆ خاک بۆ یارمەتیدانی گەشەی ڕووەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycompost extends StatelessWidget {
                                             "Restaurants should compost food waste whenever possible."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چێشتخانەکان دەبێت خواردنی بەفیڕۆدراو بکەن بە پەیین هەرکە بگونجێت."),
+                                            "چێشتخانەکان دەبێت خواردنی بەفیڕۆدراو بکەن بە پەیین ھەرکە بگونجێت."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 - Noun: compost 
 1. A mixture of decaying vegetation and manure; used as a fertilizer
 
-- Verb: compost (= Derived forms: composts, composting, composted)
+- Verb: compost (= derived forms: composts, composting, composted)
 1. Convert to compost
 "compost organic debris"
 """,
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dFqV7ThF4TI?t=',
+    videoId: 'dFqV7ThF4TI',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_xjvnaWw1qE?t=',
+    videoId: '_xjvnaWw1qE',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_hw61fYnx1I?t=',
+    videoId: '_hw61fYnx1I',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/weeXffl4VOA?t=',
+    videoId: 'weeXffl4VOA',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6nVnKMoPgl4?t=',
+    videoId: '6nVnKMoPgl4',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PWrxXkE_s3M?t=',
+    videoId: 'PWrxXkE_s3M',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7LnBpJkuhs?t=',
+    videoId: 'q7LnBpJkuhs',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(

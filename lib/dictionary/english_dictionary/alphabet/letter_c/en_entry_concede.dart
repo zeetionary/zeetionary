@@ -198,11 +198,11 @@ class EnglishEntryconcede extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: واز لێهینان، بەخشین، پێدان، دان پێداهێنان، پشتڕاست کردنەوە
+کوردی: واز لێھینان، بەخشین، پێدان، دان پێداھێنان، پشتڕاست کردنەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) وتنی ئەوەی کە شتێک ڕاستە، لۆژیکییە، هتد لە دوای ئەوەی لە سەرەتادا دژی بوویت"),
+                                  "١. (کردار) وتنی ئەوەی کە شتێک ڕاستە، لۆژیکییە، ھتد لە دوای ئەوەی لە سەرەتادا دژی بوویت"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntryconcede extends StatelessWidget {
                                             "He was forced to concede (that) there might be difficulties."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی هەبێت."),
+                                            "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -288,7 +288,7 @@ class EnglishEntryconcede extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) داننان بە دۆڕان لە ڕکابەرییەک، هەڵبژاردنێک، هتد"),
+                                  "٢. (کردار) داننان بە دۆڕان لە ڕکابەرییەک، ھەڵبژاردنێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -327,7 +327,7 @@ class EnglishEntryconcede extends StatelessWidget {
                                             "Injury forced Hicks to concede defeat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکان هیکسی ناچارکرد دان بە شکستدا بنێت."),
+                                            "پێکان ھیکسی ناچارکرد دان بە شکستدا بنێت."),
                                   ],
                                 ),
                               ),
@@ -347,7 +347,7 @@ class EnglishEntryconcede extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) وازهێنان لە شتێک، بە تایبەتی بە نابەدڵانە"),
+                                  "٣. (کردار) وازھێنان لە شتێک، بە تایبەتی بە نابەدڵانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -513,7 +513,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: concede (Derived forms: conceding, concedes, conceded)
+- Verb: concede (derived forms: conceding, concedes, conceded)
 1. Admit (to a wrongdoing) (= profess, confess)
 "She conceded that she had taken the money";
  
@@ -556,7 +556,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MqyJZsGFZ3M?t=',
+    videoId: 'MqyJZsGFZ3M',
     startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5zI9sG3pjVU?t=',
+    videoId: '5zI9sG3pjVU',
     startSeconds: 960,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dzRNswfny3A?t=',
+    videoId: 'dzRNswfny3A',
     startSeconds: 1279,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PwbgLteVwvs?t=',
+    videoId: 'PwbgLteVwvs',
     startSeconds: 378,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kpcLiJezXQw?t=',
+    videoId: 'kpcLiJezXQw',
     startSeconds: 634,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJ0Hfc8hvpE?t=',
+    videoId: 'LJ0Hfc8hvpE',
     startSeconds: 130,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UOIFBKB4mIE?t=',
+    videoId: 'UOIFBKB4mIE',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(

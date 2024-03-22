@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cockroach (Derived forms: cockroaches)
+- Noun: cockroach (derived forms: cockroaches)
 1. Any of numerous chiefly nocturnal insects; some are domestic pests (= roach)
 """,
   );

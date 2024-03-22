@@ -195,7 +195,7 @@ class EnglishEntryclimatic extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە ئاو و هەوای ناوچەیەکەوە"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە ئاو و ھەوای ناوچەیەکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclimatic extends StatelessWidget {
                                             "Some parts of the world seem to be experiencing climatic changes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک بەشی جیهان وادەردەکەون کە ڕووبەڕووی گۆڕانی ئاو و هەوا ببنەوە."),
+                                            "ھەندێک بەشی جیھان وادەردەکەون کە ڕووبەڕووی گۆڕانی ئاو و ھەوا ببنەوە."),
                                   ],
                                 ),
                               ),

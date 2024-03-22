@@ -195,7 +195,7 @@ class EnglishEntrycognac extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جۆرە خواردنەوەیەکی بەهێزی کحوولی بەتام کە لە ڕۆژئاوای فەرەنسا بەرهەمدێت؛ گڵاسێک لەم خواردنەوەیە"),
+                                  "١. (ناو) جۆرە خواردنەوەیەکی بەھێزی کحوولی بەتام کە لە ڕۆژئاوای فەرەنسا بەرھەمدێت؛ گڵاسێک لەم خواردنەوەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cognac (Derived forms: cognacs)
+- Noun: cognac (derived forms: cognacs)
 1. High quality grape brandy distilled in the Cognac district of France
 """,
   );

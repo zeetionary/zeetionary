@@ -191,7 +191,7 @@ class EnglishEntrycollectively extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکەوە، بەگەل، بەکۆمەڵانە، یەکڕێ، هەموو
+کوردی: پێکەوە، بەگەل، بەکۆمەڵانە، یەکڕێ، ھەموو
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە کۆمەڵ"),
@@ -205,7 +205,7 @@ class EnglishEntrycollectively extends StatelessWidget {
                                             "We have had a successful year, both collectively and individually."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ساڵێکی سەرکەوتوومان هەبووە، چی بە کۆمەڵ و چی بە تاک."),
+                                            "ساڵێکی سەرکەوتوومان ھەبووە، چی بە کۆمەڵ و چی بە تاک."),
                                   ],
                                 ),
                               ),

@@ -195,7 +195,7 @@ class EnglishEntryconception extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هێنانەبەرچاو، وێنا،	چەمک، بیر، هزر،	پلان،	بۆچوون، ڕا، دیتن،	دووگیانی، سکپڕی، ئاولەمە، ئاوەڵمە، کۆرپەلە،	تێگەیشتن، پێ‌پێبردن، پێزانین، سەرەندەرکردن
+کوردی: ھێنانەبەرچاو، وێنا،	چەمک، بیر، ھزر،	پلان،	بۆچوون، ڕا، دیتن،	دووگیانی، سکپڕی، ئاولەمە، ئاوەڵمە، کۆرپەلە،	تێگەیشتن، پێ‌پێبردن، پێزانین، سەرەندەرکردن
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntryconception extends StatelessWidget {
                                             "He has no conception of how difficult life is if you're unemployed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ تێگەشتنێکی نییە بۆ ئەوەی چەندە ژیان دەکرێت قورس بێت ئەگەر بێکار بیت."),
+                                            "ھیچ تێگەشتنێکی نییە بۆ ئەوەی چەندە ژیان دەکرێت قورس بێت ئەگەر بێکار بیت."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntryconception extends StatelessWidget {
                                             "You have no conception of what her life is like."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ تیگەشتنێکت نییە کە ژیانی دەکرێت چۆن بێت."),
+                                            "ھیچ تیگەشتنێکت نییە کە ژیانی دەکرێت چۆن بێت."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntryconception extends StatelessWidget {
                                             "The plan was brilliant in its conception but failed because of lack of money."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلانەکە لە گەڵاڵەکردنیدا بلیمەتانە بوو بەڵام شکستیهێنا بەهۆی کەمی پارەوە."),
+                                            "پلانەکە لە گەڵاڵەکردنیدا بلیمەتانە بوو بەڵام شکستیھێنا بەھۆی کەمی پارەوە."),
                                   ],
                                 ),
                               ),
@@ -317,7 +317,7 @@ class EnglishEntryconception extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پڕۆسەی پیتاندنی هێلکە لە جەستەی ژندا و دەستپێکردنی دووگیانی"),
+                                  "٣. (ناو) پڕۆسەی پیتاندنی ھێلکە لە جەستەی ژندا و دەستپێکردنی دووگیانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -328,7 +328,7 @@ class EnglishEntryconception extends StatelessWidget {
                                             "A child is born about 40 weeks after conception takes place."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵ لەدایک دەبێت نزیکەی ٤٠ هەفتە دوای ئەوەی دووگیانی ڕوودەدات."),
+                                            "منداڵ لەدایک دەبێت نزیکەی ٤٠ ھەفتە دوای ئەوەی دووگیانی ڕوودەدات."),
                                   ],
                                 ),
                               ),
@@ -427,7 +427,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conception (Derived forms: conceptions)
+- Noun: conception (derived forms: conceptions)
 1. An abstract or general idea inferred or derived from specific instances (= concept, construct)
  
 2. The act of becoming pregnant; fertilization of an ovum by a spermatozoon
@@ -468,7 +468,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    videoId: 'a_TSR_v07m0',
     startSeconds: 792,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pz52gPH3ou4?t=',
+    videoId: 'pz52gPH3ou4',
     startSeconds: 1331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lp5uh6ztGJo?t=',
+    videoId: 'Lp5uh6ztGJo',
     startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/53ivEr2Sd44?t=',
+    videoId: '53ivEr2Sd44',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRA0KMCEP2o?t=',
+    videoId: 'yRA0KMCEP2o',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HccZjwwfmy8?t=',
+    videoId: 'HccZjwwfmy8',
     startSeconds: 886,
     autoPlay: true,
     params: const YoutubePlayerParams(

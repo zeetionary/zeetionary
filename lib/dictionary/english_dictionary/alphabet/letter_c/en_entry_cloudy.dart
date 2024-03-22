@@ -193,10 +193,10 @@ class EnglishEntrycloudy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەوراوی، هەوروهەڵا، کەوەڕۆژ،	تاریک، لێڵ، تەڵخ، تەماوی، شێواو،	ناڕوون، نادیار
+کوردی: ھەوراوی، ھەوروھەڵا، کەوەڕۆژ،	تاریک، لێڵ، تەڵخ، تەماوی، شێواو،	ناڕوون، نادیار
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) کەشێکی هەوراوی"),
+                              text: "١. (ھاوەڵناو) کەشێکی ھەوراوی"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycloudy extends StatelessWidget {
                                             "It stayed cloudy for most of the day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ زۆرینەی ڕۆژەکە هەوراوی مایەوە."),
+                                            "بۆ زۆرینەی ڕۆژەکە ھەوراوی مایەوە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycloudy extends StatelessWidget {
                                             "Later it will become cloudy with rain in places."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دواتر هەوراوی دەبێت لەگەڵ باران لە ژمارەیەک شوێن."),
+                                            "دواتر ھەوراوی دەبێت لەگەڵ باران لە ژمارەیەک شوێن."),
                                   ],
                                 ),
                               ),
@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cloudy (Derived forms: cloudiest, cloudier) 
+- Adjective: cloudy (derived forms: cloudiest, cloudier) 
 1. (meteorology) full of or covered with clouds
 "cloudy skies"
  

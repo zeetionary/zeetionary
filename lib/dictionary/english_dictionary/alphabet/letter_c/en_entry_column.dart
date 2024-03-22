@@ -212,7 +212,7 @@ class EnglishEntrycolumn extends StatelessWidget {
                                             "The website has an attractive two-column format."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وێبسایتەکە شێوەیەکی دوو ستوونی هەیە."),
+                                            "وێبسایتەکە شێوەیەکی دوو ستوونی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrycolumn extends StatelessWidget {
                                             "Click on the name of your account in the left-hand column."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گرتە لەسەر ناوی هەژمارەکەت بکە لە ستوونی دەستە چەپ."),
+                                            "گرتە لەسەر ناوی ھەژمارەکەت بکە لە ستوونی دەستە چەپ."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntrycolumn extends StatelessWidget {
                                             "The last column contains the probability of each of those outcomes occurring."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ستوونی کۆتایی ئەگەری ڕوودانی هەریەکە لەو دەرئەنجامانە لەخۆدەگرێت."),
+                                            "ستوونی کۆتایی ئەگەری ڕوودانی ھەریەکە لەو دەرئەنجامانە لەخۆدەگرێت."),
                                   ],
                                 ),
                               ),
@@ -406,7 +406,7 @@ class EnglishEntrycolumn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ستوونێکی بەرزی سەخت کە پشتگیری بینایەک دەکات یان بۆ ڕازاندنەوەیە، یان بە تەنها وەک مۆنیومێنتێک دەوەستێت"),
+                                  "٤. (ناو) ستوونێکی بەرزی سەخت کە پشتگیری بینایەک دەکات یان بۆ ڕازاندنەوەیە، یان بە تەنھا وەک مۆنیومێنتێک دەوەستێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -544,7 +544,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: column (Derived forms: columns)
+- Noun: column (derived forms: columns)
 1. (architecture) a tall vertical cylindrical structure standing upright and used to support a structure (= pillar)
  
 2. A vertical array of numbers or other information

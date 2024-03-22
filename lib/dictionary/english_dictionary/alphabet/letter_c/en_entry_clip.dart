@@ -200,7 +200,7 @@ class EnglishEntryclip extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گیرە، گیرگە، بەست، تەوقە،	دەرزی، گوڵی سەرسنگ،	خەشاب، بڕینەوە، هەڵپاچین، پەڕتاوتن، کورت‌کردنەوە،	بەربرینگ (ئەو بڕە خوری‌یەی کە بە جارێ بڕدراوەتەوە)،	زللە، شەپڵاخە،	مشت،	تیکە، بڕشت، بڕگە (فیلم)،	هەنگاو یا جووڵەی توند و خێرا، ڕاتڵەکان
+کوردی: گیرە، گیرگە، بەست، تەوقە،	دەرزی، گوڵی سەرسنگ،	خەشاب، بڕینەوە، ھەڵپاچین، پەڕتاوتن، کورت‌کردنەوە،	بەربرینگ (ئەو بڕە خوری‌یەی کە بە جارێ بڕدراوەتەوە)،	زللە، شەپڵاخە،	مشت،	تیکە، بڕشت، بڕگە (فیلم)،	ھەنگاو یا جووڵەی توند و خێرا، ڕاتڵەکان
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کورتە ڤیدیۆیەک لە فیلمێک"),
@@ -326,7 +326,7 @@ class EnglishEntryclip extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He gave the hedge a clip."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵپاچینێکی پەرژینەکەی کرد."),
+                                        text: "ھەڵپاچینێکی پەرژینەکەی کرد."),
                                   ],
                                 ),
                               ),
@@ -630,7 +630,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clip (Derived forms: clips)
+- Noun: clip (derived forms: clips)
 1. A metal frame or container holding ammunition that feeds a repeating firearm (= cartridge holder, cartridge clip, magazine)
  
 2. An instance or single occasion for some event (= time)
@@ -645,7 +645,7 @@ ${englishMeaningConst.text}
 6. A sharp slanting blow
 "he gave me a clip on the ear"
 
-- Verb: clip (Derived forms: clips, clipping, clipped)
+- Verb: clip (derived forms: clips, clipping, clipped)
 1. Cut or sever by pinching or cutting with small strokes of scissors, pruning shears, etc. (= nip, nip off, snip, snip off)
 "clip off the flowers";
  

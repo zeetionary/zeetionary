@@ -199,7 +199,7 @@ class EnglishEntrycomparative extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) بڕیار لەسەردان یان هەڵسەنگاندن بە بەروارد بە شتێکی دیکە"),
+                                  "١. (ھاوەڵناو) بڕیار لەسەردان یان ھەڵسەنگاندن بە بەروارد بە شتێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntrycomparative extends StatelessWidget {
                                             "The company is a comparative newcomer to the software market (= other companies have been in business much longer)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە بە بەروارد تازەهاتووە بۆ بازاڕی نەرمامێر."),
+                                            "کۆمپانیاکە بە بەروارد تازەھاتووە بۆ بازاڕی نەرمامێر."),
                                   ],
                                 ),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrycomparative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پەیوەندیدار بە لێکۆڵینەوە لە شتەکان بۆ دۆزینەوەی خاڵی هاوبەش و جیاوازی"),
+                                  "٢. (ناو) پەیوەندیدار بە لێکۆڵینەوە لە شتەکان بۆ دۆزینەوەی خاڵی ھاوبەش و جیاوازی"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,7 +295,7 @@ class EnglishEntrycomparative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) پەیوەندیدار بە جۆری هاوەڵناوێک کە لە پلەی بەراورددایە"),
+                                  "٣. (ھاوەڵناو) پەیوەندیدار بە جۆری ھاوەڵناوێک کە لە پلەی بەراورددایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -327,7 +327,7 @@ class EnglishEntrycomparative extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) شێوەی بەراوردی هاوەڵناوێک"),
+                              text: "٤. (ناو) شێوەی بەراوردی ھاوەڵناوێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -446,7 +446,7 @@ ${englishMeaningConst.text}
 2. Estimated by comparison; not absolute or complete (= relative)
 "a comparative stranger";
 
-- Noun: comparative (Derived forms: comparatives)
+- Noun: comparative (derived forms: comparatives)
 1. The comparative form of an adjective or adverb (= comparative degree)
 "'faster' is the comparative of the adjective 'fast'"; "'less famous' is the comparative degree of the adjective 'famous'"; "'more surely' is the comparative of the adverb 'surely'";
 """,

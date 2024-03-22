@@ -195,7 +195,7 @@ class EnglishEntrycollar extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەخە، پێسیر، گوجو، دۆرک، بەرۆک، بەرکۆژە، ملشۆ، ملەوان، ملیوان،	ملڤان، قەڵاتە، قەڵانگ، ملوێنک، گوێرەوسار، ڕست، زۆڵ، کەڵێن، تەوق، تۆق،	گۆشتی مل،	بەست، ئاڵقە، بەند، لێک‌هەڵپێک، دەوربەست
+کوردی: یەخە، پێسیر، گوجو، دۆرک، بەرۆک، بەرکۆژە، ملشۆ، ملەوان، ملیوان،	ملڤان، قەڵاتە، قەڵانگ، ملوێنک، گوێرەوسار، ڕست، زۆڵ، کەڵێن، تەوق، تۆق،	گۆشتی مل،	بەست، ئاڵقە، بەند، لێک‌ھەڵپێک، دەوربەست
 """),
                           const DefinitionKurdish(
                               text:
@@ -238,7 +238,7 @@ class EnglishEntrycollar extends StatelessWidget {
                                             "She turned up her coat collar for extra warmth."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ملیوانی پاڵتاوەکەی هەڵکرد بۆ گەرمی زیاتر."),
+                                            "ملیوانی پاڵتاوەکەی ھەڵکرد بۆ گەرمی زیاتر."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycollar extends StatelessWidget {
                                             "The dog slipped its collar and ran off."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەگەکە لە قەڵاتەکەی دەرچوو و هەڵهات."),
+                                            "سەگەکە لە قەڵاتەکەی دەرچوو و ھەڵھات."),
                                   ],
                                 ),
                               ),
@@ -289,7 +289,7 @@ class EnglishEntrycollar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) گرتنی کەسێک و ڕاگرتنی بەشێوەیەک کە هەڵنەیەت"),
+                                  "٣. (کردار) گرتنی کەسێک و ڕاگرتنی بەشێوەیەک کە ھەڵنەیەت"),
                           Row(
                             children: [
                               const Expanded(
@@ -430,7 +430,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collar (Derived forms: collars) 
+- Noun: collar (derived forms: collars) 
 1. A band that fits around the neck and is usually folded over (= neckband)
  
 2. (zoology) an encircling band or marking around the neck of any animal
@@ -452,7 +452,7 @@ ${englishMeaningConst.text}
 9. [informal] The act of apprehending (especially apprehending a criminal) (= apprehension, arrest, catch, pinch, taking into custody)
 "the policeman on the beat got credit for the collar";
 
-- Verb: collar (Derived forms: collaring, collared, collars)
+- Verb: collar (derived forms: collaring, collared, collars)
 1. [informal] Take into custody (= nail [informal], apprehend, arrest, pick up, nab [informal], cop [informal], pinch [Brit, informal], nick [Brit, informal])
 "the police collared the suspected criminals";
  

@@ -204,7 +204,8 @@ class EnglishEntrycockerel extends StatelessWidget {
                                         text:
                                             "She raised a flock of hens and a cockerel."),
                                     ExampleSentenceKurdish(
-                                        text: "گرووپێک لە مریشک و باڕە کەڵەبابێکی بەخێودەکرد."),
+                                        text:
+                                            "گرووپێک لە مریشک و باڕە کەڵەبابێکی بەخێودەکرد."),
                                   ],
                                 ),
                               ),
@@ -303,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cockerel (Derived forms: cockerels)
+- Noun: cockerel (derived forms: cockerels)
 1. A young domestic cock; not older than one year
 """,
   );

@@ -240,7 +240,7 @@ class EnglishEntryconfuse extends StatelessWidget {
                                             "Seeing the two of them together totally confused me."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بینینی هەردووکیان ثیکەوە بە تەواوی سەرلێ‌شێواوی کردم."),
+                                            "بینینی ھەردووکیان ثیکەوە بە تەواوی سەرلێ‌شێواوی کردم."),
                                   ],
                                 ),
                               ),
@@ -260,7 +260,7 @@ class EnglishEntryconfuse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بە هەڵە زانینی ئەوەی کە کەسێک/شتێک لە ڕاستیدا کەسێک/شتێکی ترە"),
+                                  "٢. (کردار) بە ھەڵە زانینی ئەوەی کە کەسێک/شتێک لە ڕاستیدا کەسێک/شتێکی ترە"),
                           Row(
                             children: [
                               const Expanded(
@@ -327,7 +327,7 @@ class EnglishEntryconfuse extends StatelessWidget {
                                             "I sometimes confuse Jane with her sister."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک جار جەین لەگەڵ خوشکەکەی تێکەڵ دەکەم."),
+                                            "ھەندێک جار جەین لەگەڵ خوشکەکەی تێکەڵ دەکەم."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntryconfuse extends StatelessWidget {
                                             "His comments only served to confuse the issue further."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێدوانەکانی تەنها ئەوەبوون زیاتر بەبەتەکە ئاڵۆز بکەن."),
+                                            "لێدوانەکانی تەنھا ئەوەبوون زیاتر بەبەتەکە ئاڵۆز بکەن."),
                                   ],
                                 ),
                               ),
@@ -385,7 +385,7 @@ class EnglishEntryconfuse extends StatelessWidget {
                                             "I will try to be brief and avoid further confusing the issue."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ دەدەم کورت‌خایەن بم و بابەتەکە زیاتر ئاڵۆز نەکەم."),
+                                            "ھەوڵ دەدەم کورت‌خایەن بم و بابەتەکە زیاتر ئاڵۆز نەکەم."),
                                   ],
                                 ),
                               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confuse (Derived forms: confused, confuses, confusing)
+- Verb: confuse (derived forms: confused, confuses, confusing)
 1. Mistake one thing for another (= confound)
 "you are confusing me with the other candidate";
  
@@ -531,7 +531,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TbNuuLdQjX4?t=',
+    videoId: 'TbNuuLdQjX4',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RR_JOLFJmgM?t=',
+    videoId: 'RR_JOLFJmgM',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TjwZPtjtGJg?t=',
+    videoId: 'TjwZPtjtGJg',
     startSeconds: 966,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nyf7wNn5fw8?t=',
+    videoId: 'nyf7wNn5fw8',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/raSeaAeryWE?t=',
+    videoId: 'raSeaAeryWE',
     startSeconds: 967,
     autoPlay: true,
     params: const YoutubePlayerParams(

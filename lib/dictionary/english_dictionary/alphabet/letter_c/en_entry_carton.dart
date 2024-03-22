@@ -231,7 +231,7 @@ class EnglishEntrycarton extends StatelessWidget {
                                   "٢. (ناو) زنجیرەیەک لە وێنەی کێشراو کە کە چیرۆکێک دەگێڕنەوە و زۆرجار لە ڕۆژنامەدا چاپدەکرێن"),
                           const Row(
                             children: [
-                              AlsoEnglishckb(word: "هەروەها: comic strip"),
+                              AlsoEnglishckb(word: "ھەروەھا: comic strip"),
                             ],
                           ),
                           Row(

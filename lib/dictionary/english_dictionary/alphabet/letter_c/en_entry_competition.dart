@@ -200,7 +200,7 @@ class EnglishEntrycompetition extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێشبڕکێ، پێش‌بەزین، مل‌ملانێ، هاوملی، زۆرە(ئە)زمێ، ڕکەبەری، بەرامبەرکێ، تەنگەشە، کێبڕکێ، کێ‌بەرکێ، بەربەرەکێ، هاوچاوی، ڕقەبەرایەتی، بەربەرەکایەتی،	نەیاران، هەڤرکان، ڕکەبەران
+کوردی: پێشبڕکێ، پێش‌بەزین، مل‌ملانێ، ھاوملی، زۆرە(ئە)زمێ، ڕکەبەری، بەرامبەرکێ، تەنگەشە، کێبڕکێ، کێ‌بەرکێ، بەربەرەکێ، ھاوچاوی، ڕقەبەرایەتی، بەربەرەکایەتی،	نەیاران، ھەڤرکان، ڕکەبەران
 """),
                           const DefinitionKurdish(
                               text:
@@ -337,7 +337,7 @@ class EnglishEntrycompetition extends StatelessWidget {
                                                     "The competition is open to all readers of the magazine."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕکابەرییەکە کراوەیە بۆ هەموو خوێنەرانی گۆڤارەکە."),
+                                                    "ڕکابەرییەکە کراوەیە بۆ ھەموو خوێنەرانی گۆڤارەکە."),
                                           ],
                                         ),
                                       ),
@@ -363,7 +363,7 @@ class EnglishEntrycompetition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دۆخێک کە خەڵکی یان کۆمەڵێک ڕێکخراو کێبڕکێ لەگەڵ یەکتر دەکەن بۆ شتێک کە هەموویان ناتوانن هەیان بێت"),
+                                  "٢. (ناو) دۆخێک کە خەڵکی یان کۆمەڵێک ڕێکخراو کێبڕکێ لەگەڵ یەکتر دەکەن بۆ شتێک کە ھەموویان ناتوانن ھەیان بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -374,7 +374,7 @@ class EnglishEntrycompetition extends StatelessWidget {
                                             "The government said the new laws would enhance competition among banks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت گوتی کە یاسا نوێیەکان ڕکابەری بەهێز دەکات لە نێوان بانکەکاندا."),
+                                            "حکومەت گوتی کە یاسا نوێیەکان ڕکابەری بەھێز دەکات لە نێوان بانکەکاندا."),
                                   ],
                                 ),
                               ),
@@ -598,7 +598,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: competition (Derived forms: competitions)
+- Noun: competition (derived forms: competitions)
 1. A business relation in which two parties compete to gain customers
 "business competition can be fiendish at times"
  
@@ -641,7 +641,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1I8Rfb-oi54?t=',
+    videoId: '1I8Rfb-oi54',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -666,7 +666,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mxYbJ5uoJFg?t=',
+    videoId: 'mxYbJ5uoJFg',
     startSeconds: 446,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -691,7 +691,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iLGn64to7uU?t=',
+    videoId: 'iLGn64to7uU',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -716,7 +716,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-Or05EFLUM?t=',
+    videoId: 'r-Or05EFLUM',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -741,7 +741,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rWGfdldxt7g?t=',
+    videoId: 'rWGfdldxt7g',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -766,7 +766,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UeUPILGGIls',
+    videoId: 'UeUPILGGIls',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -791,7 +791,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5bhefS70tgs?t=',
+    videoId: '5bhefS70tgs',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(

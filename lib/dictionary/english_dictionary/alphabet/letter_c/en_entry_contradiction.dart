@@ -194,11 +194,11 @@ class EnglishEntrycontradiction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکدژی، هاوناکۆکی، یەک‌نەگرتنەوە، هاودژی، دژبەیەک‌بوون، دژایەتی، دژبەری، پۆزبەری، بەرهەڵستی، ناکۆکی، جیاوازی،	پێشێل‌کردن، شکاندن،	ڕەت‌کردنەوە، بەرپەرچ(دانەوە)، لە ڕوودا وەرگەڕانەوە، نەلێکردن، نکۆڵی (لێکردن)، حاشا (لێکردن)، بەدرۆخستنەوە، ڕەددانەوە،	دژی، پێچەوانەی
+کوردی: پێکدژی، ھاوناکۆکی، یەک‌نەگرتنەوە، ھاودژی، دژبەیەک‌بوون، دژایەتی، دژبەری، پۆزبەری، بەرھەڵستی، ناکۆکی، جیاوازی،	پێشێل‌کردن، شکاندن،	ڕەت‌کردنەوە، بەرپەرچ(دانەوە)، لە ڕوودا وەرگەڕانەوە، نەلێکردن، نکۆڵی (لێکردن)، حاشا (لێکردن)، بەدرۆخستنەوە، ڕەددانەوە،	دژی، پێچەوانەی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) یەکنەگرتنەوەی/جیاوازیی گێڕانەوە، بۆچوون، ڕاستی، هتد"),
+                                  "١. (ناو) یەکنەگرتنەوەی/جیاوازیی گێڕانەوە، بۆچوون، ڕاستی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -291,7 +291,7 @@ class EnglishEntrycontradiction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) وتنی ئەوەی شتێک کە کەسێک گوتوویەتی هەڵەیە "),
+                                  "٢. (ناو) وتنی ئەوەی شتێک کە کەسێک گوتوویەتی ھەڵەیە "),
                           Row(
                             children: [
                               const Expanded(
@@ -302,7 +302,7 @@ class EnglishEntrycontradiction extends StatelessWidget {
                                             "Now you say you both left at ten—that's a contradiction of your last statement."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئێستا دەڵێیت هەردووکتان لە دە ڕۆشتن، ئەوە پێچەوانەی لێدوانی پێشووترتە."),
+                                            "ئێستا دەڵێیت ھەردووکتان لە دە ڕۆشتن، ئەوە پێچەوانەی لێدوانی پێشووترتە."),
                                   ],
                                 ),
                               ),
@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contradiction (Derived forms: contradictions)
+- Noun: contradiction (derived forms: contradictions)
 1. Opposition between two conflicting forces or ideas
  
 2. (logic) a statement that is necessarily false (= contradiction in terms)
@@ -443,7 +443,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1KgSp94nCZw?t=',
+    videoId: '1KgSp94nCZw',
     startSeconds: 602,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Tuk04k5YLwk?t=',
+    videoId: 'Tuk04k5YLwk',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QWz07MktCKg?t=',
+    videoId: 'QWz07MktCKg',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vCZId5-lmbk?t=',
+    videoId: 'vCZId5-lmbk',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H4G2NXsuYyM?t=',
+    videoId: 'H4G2NXsuYyM',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o1RS7D_szJo?t=',
+    videoId: 'o1RS7D_szJo',
     startSeconds: 791,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8X1xYpPmKvA?t=',
+    videoId: '8X1xYpPmKvA',
     startSeconds: 6921,
     autoPlay: true,
     params: const YoutubePlayerParams(

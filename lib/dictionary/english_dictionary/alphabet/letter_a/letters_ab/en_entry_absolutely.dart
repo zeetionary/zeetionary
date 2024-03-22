@@ -110,7 +110,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مسۆگەرانە، بێ‌گومان، سەداسەد، یەک‌پارچە، ڕەھایانە، بەشێوەیێکی ڕەھا، بێ‌مەرج، بێ‌شەرت‌ومەرج، بێ‌ئەملاوئەولا، بێ‌چەندوچۆن، بەتەواوەتی
+کوردی: مسۆگەرانە، بێ‌گومان، سەداسەد، یەک‌پارچە، ڕەھایانە، بەشێوەیەکی ڕەھا، بێ‌مەرج، بێ‌شەرت‌ومەرج، بێ‌ئەملاوئەولا، بێ‌چەندوچۆن، بەتەواوەتی
 """),
                           const DefinitionKurdish(
                               text:

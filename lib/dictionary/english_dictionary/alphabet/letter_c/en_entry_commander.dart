@@ -204,7 +204,7 @@ class EnglishEntrycommander extends StatelessWidget {
                                         text:
                                             "General Eisenhower was Supreme Allied Commander in Western Europe."),
                                     ExampleSentenceKurdish(
-                                        text: "ژەنەراڵ ئایزنهاوەر فەرمانداری باڵای هاوپەیمانان بوو لە ڕۆژئاوای ئەورووپا."),
+                                        text: "ژەنەراڵ ئایزنھاوەر فەرمانداری باڵای ھاوپەیمانان بوو لە ڕۆژئاوای ئەورووپا."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commander (Derived forms: commanders)
+- Noun: commander (derived forms: commanders)
 1. (military) an officer in command of a military unit (= commanding officer, commandant)
  
 2. Someone in an official position of authority who can command or control others

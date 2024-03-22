@@ -192,11 +192,11 @@ class EnglishEntryclientele extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: مشتەری‌یەکان، هاتووچۆکەران، مشتەریە هەمیشەیی‌یەکان (هی دووکان، فرۆشگا، خواردنگە، ڕێکخراوە و هتد)
+// کوردی: مشتەری‌یەکان، ھاتووچۆکەران، مشتەریە ھەمیشەیی‌یەکان (ھی دووکان، فرۆشگا، خواردنگە، ڕێکخراوە و ھتد)
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەواوی کڕیارانی چێشتخانەیەک، فرۆشگایەک، دامەزراوەیەک، هتد، یان تەواوی ئەو کەسانەی خزمەتگوزارییەک بەکاردێنن، بۆ نموونە کە پارێزەرێک کاریان بۆ دەکات"),
+                                  "١. (ناو) تەواوی کڕیارانی چێشتخانەیەک، فرۆشگایەک، دامەزراوەیەک، ھتد، یان تەواوی ئەو کەسانەی خزمەتگوزارییەک بەکاردێنن، بۆ نموونە کە پارێزەرێک کاریان بۆ دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryclientele extends StatelessWidget {
                                             "It takes time to build (up) a clientele."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاتی پێدەچێت کە موشتەری هەمیشەیی درووست بکەیت."),
+                                            "کاتی پێدەچێت کە موشتەری ھەمیشەیی درووست بکەیت."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntryclientele extends StatelessWidget {
                                             "The restaurant has a large regular clientele."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چێشتخانەکە موشتەری هەمیشەیی زۆری هەیە."),
+                                            "چێشتخانەکە موشتەری ھەمیشەیی زۆری ھەیە."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clientele (Derived forms: clienteles)
+- Noun: clientele (derived forms: clienteles)
 1. Customers collectively (= patronage, business)
 "they have an upper class clientele";
 """,

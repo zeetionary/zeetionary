@@ -196,7 +196,7 @@ class EnglishEntryclearing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ناوچەیەکی کراوە لە دارستانێکدا کە هیچ داری تێدا نییە"),
+                                  "١. (ناو) ناوچەیەکی کراوە لە دارستانێکدا کە ھیچ داری تێدا نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryclearing extends StatelessWidget {
                                             "We made camp that night in a clearing in the woods."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو شەوە کەمپمان هەڵدا لە ڕووتایی دارستانەکە."),
+                                            "ئەو شەوە کەمپمان ھەڵدا لە ڕووتایی دارستانەکە."),
                                   ],
                                 ),
                               ),
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clearing (Derived forms: clearings)
+- Noun: clearing (derived forms: clearings)
 1. A tract of land with few or no trees in the middle of a wooded area (= glade)
  
 2. The act of freeing from suspicion

@@ -194,11 +194,11 @@ class EnglishEntryconsciousness extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هۆشیاری، ئاگاداری، بەئاگایی، هۆش، خەبەر، بیروهۆش، خۆئاگایی، خۆئاگاداری، وریایی،	ویژدان
+کوردی: ھۆشیاری، ئاگاداری، بەئاگایی، ھۆش، خەبەر، بیروھۆش، خۆئاگایی، خۆئاگاداری، وریایی،	ویژدان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخی هەبوونی توانای بەکارهێنانی هەستەکانت و هێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
+                                  "١. (ناو) دۆخی ھەبوونی توانای بەکارھێنانی ھەستەکانت و ھێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntryconsciousness extends StatelessWidget {
                                             "She did not regain consciousness and died the next day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هۆشی بەبەر نەهاتەوە و ڕۆژی دواتر گیانی لەدەستدا."),
+                                            "ھۆشی بەبەر نەھاتەوە و ڕۆژی دواتر گیانی لەدەستدا."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntryconsciousness extends StatelessWidget {
                                             "I can't remember any more—I must have lost consciousness."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چیتر بیرم نایەتەوە، دەکرێت هۆشم لەدەست دابێت."),
+                                            "چیتر بیرم نایەتەوە، دەکرێت ھۆشم لەدەست دابێت."),
                                   ],
                                 ),
                               ),
@@ -261,7 +261,7 @@ class EnglishEntryconsciousness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دۆخی بەئاگایی، تێگەشتن و هەستکردن بە شت"),
+                                  "٢. (ناو) دۆخی بەئاگایی، تێگەشتن و ھەستکردن بە شت"),
                           Row(
                             children: [
                               const Expanded(
@@ -272,7 +272,7 @@ class EnglishEntryconsciousness extends StatelessWidget {
                                             "They have succeeded in raising consciousness on many issues."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرکەوتوو بوون لەسەر زیادکردنی هۆشیاری لەسەر زۆر بابەت."),
+                                            "سەرکەوتوو بوون لەسەر زیادکردنی ھۆشیاری لەسەر زۆر بابەت."),
                                   ],
                                 ),
                               ),
@@ -302,7 +302,7 @@ class EnglishEntryconsciousness extends StatelessWidget {
                                             "The memory remained deep in his consciousness."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یادەوەرییەکە بە قووڵی لە بیروهۆشیدا مایەوە."),
+                                            "یادەوەرییەکە بە قووڵی لە بیروھۆشیدا مایەوە."),
                                   ],
                                 ),
                               ),
@@ -441,7 +441,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 1509,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1KgSp94nCZw?t=',
+    videoId: '1KgSp94nCZw',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J8ZOttyAs9Y?t=',
+    videoId: 'J8ZOttyAs9Y',
     startSeconds: 392,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BDh46oosdms?t=',
+    videoId: 'BDh46oosdms',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    videoId: 'y4DTW4B3Sjs',
     startSeconds: 553,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qr4MSVxfYBE?t=',
+    videoId: 'qr4MSVxfYBE',
     startSeconds: 789,
     autoPlay: true,
     params: const YoutubePlayerParams(

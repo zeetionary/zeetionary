@@ -198,12 +198,12 @@ class EnglishEntrycloakroom extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ژوورێک لە بینایەکی گشتیدا کە جانتا، قەمسەڵە، هتد تێدا جێدەهێڵدرێت لەکاتێکدا خاوەنەکانیان لە بیناکەدان"),
+                                  "١. (ناو) ژوورێک لە بینایەکی گشتیدا کە جانتا، قەمسەڵە، ھتد تێدا جێدەھێڵدرێت لەکاتێکدا خاوەنەکانیان لە بیناکەدان"),
                           const Row(
                             children: [
                               AlsoEnglish(
                                   word:
-                                      "هەروەها: checkroom، coat check، coatroom"),
+                                      "ھەروەھا: checkroom، coat check، coatroom"),
                             ],
                           ),
                           Row(
@@ -346,7 +346,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloakroom (Derived forms: cloakrooms)
+- Noun: cloakroom (derived forms: cloakrooms)
 1. A private lounge off of a legislative chamber
  
 2. A room where coats and other articles can be left temporarily (= coatroom [N. Amer], hatcheck [US])

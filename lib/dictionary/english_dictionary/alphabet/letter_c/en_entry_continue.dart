@@ -757,7 +757,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                                             "Police have not yet made any arrests, but investigations continue."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس هێشتا کەسیان دەستگیر نەکردووە، بەڵام لێکۆڵینەوەکان بەردەوامن."),
+                                            "پۆلیس ھێشتا کەسیان دەستگیر نەکردووە، بەڵام لێکۆڵینەوەکان بەردەوامن."),
                                   ],
                                 ),
                               ),
@@ -1091,7 +1091,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                                                     "We will continue to work closely with our international partners on this."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بەردەوام دەبین لە کارکردن لە نزیکەوە لەسەر ئەمە لەگەڵ هاوپەیمانە نێودەوڵەتییەکانمان."),
+                                                    "بەردەوام دەبین لە کارکردن لە نزیکەوە لەسەر ئەمە لەگەڵ ھاوپەیمانە نێودەوڵەتییەکانمان."),
                                           ],
                                         ),
                                       ),
@@ -1121,7 +1121,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                                                     "He continued to ignore everything I was saying."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بەردەوام بوو لە پشتگوێ خستنی هەر شتێک من دەموت."),
+                                                    "بەردەوام بوو لە پشتگوێ خستنی ھەر شتێک من دەموت."),
                                           ],
                                         ),
                                       ),
@@ -1181,7 +1181,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                                                     "He continued his work in secret."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە نهێنی لە کارەکەی بەردەوام بوو."),
+                                                    "بە نھێنی لە کارەکەی بەردەوام بوو."),
                                           ],
                                         ),
                                       ),
@@ -1425,7 +1425,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                                     ),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چیرۆکەکە بەردەوام دەبێت لە چاپی داهاتوومان."),
+                                            "چیرۆکەکە بەردەوام دەبێت لە چاپی داھاتوومان."),
                                   ],
                                 ),
                               ),
@@ -1611,7 +1611,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: continue (Derived forms: continued, continues, continuing)
+- Verb: continue (derived forms: continued, continues, continuing)
 1. Resume or proceed in a certain state, condition, or activity (= go on, proceed, go along, keep)
 "We continued to work into the night";
 
@@ -1673,7 +1673,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1698,7 +1698,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 714,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1723,7 +1723,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VACpBe5PZDU?t=',
+    videoId: 'VACpBe5PZDU',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1748,7 +1748,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H7hfOr9Y8BY?t=',
+    videoId: 'H7hfOr9Y8BY',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1773,7 +1773,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R8MAW6N1Jhk?t=',
+    videoId: 'R8MAW6N1Jhk',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1798,7 +1798,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dhgEpr87Yac',
+    videoId: 'dhgEpr87Yac',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1823,7 +1823,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1IY93VzCa-Y?t=',
+    videoId: '1IY93VzCa-Y',
     startSeconds: 651,
     autoPlay: true,
     params: const YoutubePlayerParams(

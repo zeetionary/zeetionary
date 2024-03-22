@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commissioner (Derived forms: commissioners)
+- Noun: commissioner (derived forms: commissioners)
 1. A government administrator
  
 2. A member of a commission

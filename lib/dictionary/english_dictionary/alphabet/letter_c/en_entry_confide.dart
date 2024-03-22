@@ -192,11 +192,11 @@ class EnglishEntryconfide extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئەسپاردن، بە نهێنی وتن، متمانە کردن
+کوردی: ئەسپاردن، بە نھێنی وتن، متمانە کردن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) وتنی نهێنی و زانیاری کەسی بە کەسێک کە ناتەوێت کەسانی دیکە پێی بزانن"),
+                                  "١. (کردار) وتنی نھێنی و زانیاری کەسی بە کەسێک کە ناتەوێت کەسانی دیکە پێی بزانن"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconfide extends StatelessWidget {
                                             "She confided all her secrets to her best friend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو نهێنییەکانی بە باشترین هاوڕێی دەگوت."),
+                                            "ھەموو نھێنییەکانی بە باشترین ھاوڕێی دەگوت."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntryconfide extends StatelessWidget {
                                             "He confided to me that he had applied for another job."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو نهێنییەی پێ وتم کە داخوازی کارێکی دیکەی کردووە."),
+                                            "ئەو نھێنییەی پێ وتم کە داخوازی کارێکی دیکەی کردووە."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confide (Derived forms: confided, confiding, confides)
+- Verb: confide (derived forms: confided, confiding, confides)
 1. Reveal in private; tell confidentially
  
 2. Confer a trust upon (= entrust, intrust [archaic], trust, commit)
@@ -370,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MITeeIbCatY?t=',
+    videoId: 'MITeeIbCatY',
     startSeconds: 628,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NuBt9A2iMGA?t=',
+    videoId: 'NuBt9A2iMGA',
     startSeconds: 384,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ilj8fZroRw0?t=',
+    videoId: 'ilj8fZroRw0',
     startSeconds: 3202,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f2kEGj-S1Tc?t=',
+    videoId: 'f2kEGj-S1Tc',
     startSeconds: 480,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OCK914ETc4g?t=',
+    videoId: 'OCK914ETc4g',
     startSeconds: 635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/do20JDmfFQw?t=',
+    videoId: 'do20JDmfFQw',
     startSeconds: 611,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rxalEnZ7uok?t=',
+    videoId: 'rxalEnZ7uok',
     startSeconds: 1276,
     autoPlay: true,
     params: const YoutubePlayerParams(

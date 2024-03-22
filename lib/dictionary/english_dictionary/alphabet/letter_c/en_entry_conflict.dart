@@ -200,7 +200,7 @@ class EnglishEntryconflict extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تێک‌هەڵچوون، پێکادان، لێکدان، شەڕ، شەڕوکێشە، کێشە، مشت‌ومڕ، جوڕڕە، کێشمەکێش، ناکۆکی، ململانێ، کێشەوبەرە، دژبەری، دژایەتی، یەک‌نەگرتنەوە، جیاوازی
+کوردی: تێک‌ھەڵچوون، پێکادان، لێکدان، شەڕ، شەڕوکێشە، کێشە، مشت‌ومڕ، جوڕڕە، کێشمەکێش، ناکۆکی، ململانێ، کێشەوبەرە، دژبەری، دژایەتی، یەک‌نەگرتنەوە، جیاوازی
 """),
                           const DefinitionKurdish(
                               text:
@@ -243,7 +243,7 @@ class EnglishEntryconflict extends StatelessWidget {
                                             "His task will be to resolve potential conflicts between the British and Scottish governments."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەرکی چارەسەری هەر ناکۆکییەکە کە دەکرێت درووست ببێت لە نێوان حکومەتەکانی بەریتانیا و سکۆتلەندا."),
+                                            "ئەرکی چارەسەری ھەر ناکۆکییەکە کە دەکرێت درووست ببێت لە نێوان حکومەتەکانی بەریتانیا و سکۆتلەندا."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntryconflict extends StatelessWidget {
                                             "She found herself in conflict with her parents over her future career."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆی لە ناکۆکیدا بینییەوە لەگەڵ دایک و باوکی سەبارەت بە کاری داهاتووی."),
+                                            "خۆی لە ناکۆکیدا بینییەوە لەگەڵ دایک و باوکی سەبارەت بە کاری داھاتووی."),
                                   ],
                                 ),
                               ),
@@ -330,7 +330,7 @@ class EnglishEntryconflict extends StatelessWidget {
                                             "Hopes of ending the conflict in the region are fading."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیوای کۆتایی هێنان بە پێکدادان لە هەرێمەکە ئاوا دەبێت."),
+                                            "ھیوای کۆتایی ھێنان بە پێکدادان لە ھەرێمەکە ئاوا دەبێت."),
                                   ],
                                 ),
                               ),
@@ -358,7 +358,7 @@ class EnglishEntryconflict extends StatelessWidget {
                                             "A conflict between the two countries could easily spread across the whole region."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکدادانێک لە نێوان دوو وڵاتەکەدا دەکرێت بە ئاسانی بە هەرێمەکەدا بڵاوببێتەوە."),
+                                            "پێکدادانێک لە نێوان دوو وڵاتەکەدا دەکرێت بە ئاسانی بە ھەرێمەکەدا بڵاوببێتەوە."),
                                   ],
                                 ),
                               ),
@@ -378,7 +378,7 @@ class EnglishEntryconflict extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) دۆخێک کە تێیدا بیرۆکە، بۆچوون، هەست، و هیوا کە پێکەوە ناگونجێن پێکەوەن"),
+                                  "٣. (ناو) دۆخێک کە تێیدا بیرۆکە، بۆچوون، ھەست، و ھیوا کە پێکەوە ناگونجێن پێکەوەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -437,7 +437,7 @@ class EnglishEntryconflict extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) دژبوونی بیرۆکە، باوەڕ، چیرۆک، هتد و ئەوەی کە پێکەوە نەگونجێن"),
+                                  "٤. (کردار) دژبوونی بیرۆکە، باوەڕ، چیرۆک، ھتد و ئەوەی کە پێکەوە نەگونجێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -476,7 +476,7 @@ class EnglishEntryconflict extends StatelessWidget {
                                             "There are several major areas where their interests conflict."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک لایەنی گرنگ هەن کە بەرژەوەندییەکانیان دژ بە یەکن."),
+                                            "ژمارەیەک لایەنی گرنگ ھەن کە بەرژەوەندییەکانیان دژ بە یەکن."),
                                   ],
                                 ),
                               ),
@@ -575,7 +575,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conflict (Derived forms: conflicts)
+- Noun: conflict (derived forms: conflicts)
 1. An open clash between two opposing groups (or individuals) (= struggle, battle)
 "the harder the conflict the more glorious the triumph";
  
@@ -596,7 +596,7 @@ ${englishMeaningConst.text}
 7. A disagreement or argument about something important (= dispute, difference, difference of opinion)
 "the familiar conflict between Republicans and Democrats";
 
-- Verb: conflict (Derived forms: conflicts, conflicting, conflicted)
+- Verb: conflict (derived forms: conflicts, conflicting, conflicted)
 1. Be in disagreement or be incompatible
 "The two proposals conflict!"
  
@@ -634,7 +634,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J1aeEdtGeKQ?t=',
+    videoId: 'J1aeEdtGeKQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -659,7 +659,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/61IJ8bmsosI?t=',
+    videoId: '61IJ8bmsosI',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -684,7 +684,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5J8CS8-BVfE',
+    videoId: '5J8CS8-BVfE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -709,7 +709,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fhS6Q27LbUc?t=',
+    videoId: 'fhS6Q27LbUc',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -734,7 +734,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PUY8eXfng-w?t=',
+    videoId: 'PUY8eXfng-w',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -759,7 +759,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B6L9mS9ti6o?t=',
+    videoId: 'B6L9mS9ti6o',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -784,7 +784,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RHgRZax3Xws?t=',
+    videoId: 'RHgRZax3Xws',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -196,7 +196,7 @@ class EnglishEntrycoke extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کۆکاین؛ مادەیەکی بەهێز کە هەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان هەندێک جار وەک بەنج بەکاریدێنن"),
+                                  "١. (ناو) کۆکاین؛ مادەیەکی بەھێز کە ھەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان ھەندێک جار وەک بەنج بەکاریدێنن"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,16 +337,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coke (Derived forms: cokes)
+- Noun: coke (derived forms: cokes)
 1. Carbon fuel produced by distillation of coal
  
 2. [slang] A street name for cocaine (= blow [slang], nose candy [slang], snow [slang], C [slang])
 
-- Verb: coke (Derived forms: cokes, coked, coking)
+- Verb: coke (derived forms: cokes, coked, coking)
 1. (chemistry) become coke
 "petroleum oils coke after distillation"
 
-- Noun: Coke (Derived forms: Cokes)
+- Noun: Coke (derived forms: Cokes)
 1. Coca Cola is a trademarked cola (= Coca Cola)
 """,
   );

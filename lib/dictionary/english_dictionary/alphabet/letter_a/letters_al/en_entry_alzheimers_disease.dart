@@ -66,7 +66,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "Alzheimer's disease"), // Find /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/
+                                    "Alzheimer's diseaseeeeeeeeeeeeeeeeeeeeeeeee"), // Find /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/
                             // divvviiider
                           ],
                         ),

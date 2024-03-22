@@ -194,11 +194,11 @@ class EnglishEntryconfidentiality extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نهێنی‌بوون، تایبەتی‌بوون، ڕازداری، قسەقوتدەری، ڕازداری، سڕپۆشی
+کوردی: نھێنی‌بوون، تایبەتی‌بوون، ڕازداری، قسەقوتدەری، ڕازداری، سڕپۆشی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخێک کە تێیدا چآوەڕێی ئەوە لە کەسێک دەکەیت شتێک بە نهێنی بهێڵێتەوە"),
+                                  "١. (ناو) دۆخێک کە تێیدا چآوەڕێی ئەوە لە کەسێک دەکەیت شتێک بە نھێنی بھێڵێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconfidentiality extends StatelessWidget {
                                         text:
                                             "They signed a confidentiality agreement."),
                                     ExampleSentenceKurdish(
-                                        text: "نهێنییەکی سڕپۆشییان واژۆکرد."),
+                                        text: "نھێنییەکی سڕپۆشییان واژۆکرد."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryconfidentiality extends StatelessWidget {
                                             "All letters will be treated with complete confidentiality."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو نامەکان بە سڕپۆشی تەواوە مامەڵەیان لەگەڵ دەکرێت."),
+                                            "ھەموو نامەکان بە سڕپۆشی تەواوە مامەڵەیان لەگەڵ دەکرێت."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confidentiality (Derived forms: confidentialities)
+- Noun: confidentiality (derived forms: confidentialities)
 1. The state of being secret
 "you must respect the confidentiality of your client's communications"
  
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x-QcbOphxYs?t=',
+    videoId: 'x-QcbOphxYs',
     startSeconds: 933,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PQl82pAgnLo?t=',
+    videoId: 'PQl82pAgnLo',
     startSeconds: 357,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X1ncuW-bLsw?t=',
+    videoId: 'X1ncuW-bLsw',
     startSeconds: 2276,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3PKLHP6lilw?t=',
+    videoId: '3PKLHP6lilw',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uY7dK9KnpgI?t=',
+    videoId: 'uY7dK9KnpgI',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j1jkilao3MQ?t=',
+    videoId: 'j1jkilao3MQ',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QxCRRcWSt4I?t=',
+    videoId: 'QxCRRcWSt4I',
     startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(

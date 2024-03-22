@@ -193,11 +193,11 @@ class EnglishEntrycohabitation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوژینی، پێکەوەژیان
+کوردی: ھاوژینی، پێکەوەژیان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پێکەوەژیان و هەبوونی سێکس لەگەڵ هاوژینێکدا بەبێ پەیوەندی هاوسەرگیری"),
+                                  "١. (ناو) پێکەوەژیان و ھەبوونی سێکس لەگەڵ ھاوژینێکدا بەبێ پەیوەندی ھاوسەرگیری"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycohabitation extends StatelessWidget {
                                             "There have been great changes in the patterns of marriage, divorce and cohabitation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕانکاری زۆر ڕوویداوە لە شێوازی هاوسەرگیری، جیابوونەوە، و پێکەوەژیان."),
+                                            "گۆڕانکاری زۆر ڕوویداوە لە شێوازی ھاوسەرگیری، جیابوونەوە، و پێکەوەژیان."),
                                   ],
                                 ),
                               ),
@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cohabitation (Derived forms: cohabitations)
+- Noun: cohabitation (derived forms: cohabitations)
 1. The act of living together and having a sexual relationship (especially without being married)
 """,
   );

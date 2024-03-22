@@ -196,11 +196,11 @@ class EnglishEntrycontemplative extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: (کەسێکی) بیرکەرەوە، بیریار، بیرمەند، تێڕاماو، ئەهلی تێڕامان، تێڕاماوی دینی
+کوردی: (کەسێکی) بیرکەرەوە، بیریار، بیرمەند، تێڕاماو، ئەھلی تێڕامان، تێڕاماوی دینی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) بیرکردنەوە بە هێمنی و قووڵی سەبارەت بە شتێک"),
+                                  "١. (ھاوەڵناو) بیرکردنەوە بە ھێمنی و قووڵی سەبارەت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -343,7 +343,7 @@ ${englishMeaningConst.text}
 1. Deeply or seriously thoughtful (= brooding, broody, meditative, musing, pensive, pondering, reflective, ruminative)
 "Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a contemplative melancholy young man";
 
-- Noun: contemplative (Derived forms: contemplatives)
+- Noun: contemplative (derived forms: contemplatives)
 1. A person devoted to the contemplative life
 """,
   );
@@ -377,7 +377,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5obktsi8XdI?t=',
+    videoId: '5obktsi8XdI',
     startSeconds: 959,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -402,7 +402,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Solb9uA-tgQ?t=',
+    videoId: 'Solb9uA-tgQ',
     startSeconds: 5845,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +427,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I2MpwzX_FPc?t=',
+    videoId: 'I2MpwzX_FPc',
     startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +452,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/On-bOrfQEgk?t=',
+    videoId: 'On-bOrfQEgk',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +477,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8-6RGFbPkkg?t=',
+    videoId: '8-6RGFbPkkg',
     startSeconds: 1934,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RnpTFms6DCA?t=',
+    videoId: 'RnpTFms6DCA',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fajfkO_X0l0?t=',
+    videoId: 'fajfkO_X0l0',
     startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(

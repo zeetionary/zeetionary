@@ -195,7 +195,7 @@ class EnglishEntryconfetti extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پارچە کاغەزی بچووک کە خەڵکی زۆرجار لە ئاهەنگی هاوسەرگیری یان بۆنەی دیکەدا هەڵیدەدەن"),
+                                  "١. (ناو) پارچە کاغەزی بچووک کە خەڵکی زۆرجار لە ئاھەنگی ھاوسەرگیری یان بۆنەی دیکەدا ھەڵیدەدەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryconfetti extends StatelessWidget {
                                             "Confetti showered down on the newly-weds."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەخشانە دەباریە سەر تازە هاوسەرەکاندا."),
+                                            "پەخشانە دەباریە سەر تازە ھاوسەرەکاندا."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confetti (Derived forms: confettis)
+- Noun: confetti (derived forms: confettis)
 1. Small pieces or streamers of coloured paper that are thrown around on festive occasions (as at a wedding)
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D-2799Y07Zc?t=',
+    videoId: 'D-2799Y07Zc',
     startSeconds: 338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/576HwhU6PMM?t=',
+    videoId: '576HwhU6PMM',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a7wC2M0b5u0?t=',
+    videoId: 'a7wC2M0b5u0',
     startSeconds: 405,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zJ5rFV5b9Xs?t=',
+    videoId: 'zJ5rFV5b9Xs',
     startSeconds: 240,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/okAAL53Rj_0?t=',
+    videoId: 'okAAL53Rj_0',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mdeMkg_5m9w?t=',
+    videoId: 'mdeMkg_5m9w',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(

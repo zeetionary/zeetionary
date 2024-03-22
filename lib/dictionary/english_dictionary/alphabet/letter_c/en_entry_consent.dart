@@ -297,7 +297,7 @@ class EnglishEntryconsent extends StatelessWidget {
                                             "At any time during the study, parents could withdraw their consent."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەر کاتێکی توێژینەوەکەدا دایکان و باوکان دەکرێت مۆڵەتەکەیان بکشێننەوە."),
+                                            "لە ھەر کاتێکی توێژینەوەکەدا دایکان و باوکان دەکرێت مۆڵەتەکەیان بکشێننەوە."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntryconsent extends StatelessWidget {
                                             "She was chosen as leader by common consent (= everyone agreed to the choice)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک سەرکردە هەڵبژێردرا بە کۆدەنگیی گشتگیر."),
+                                            "وەک سەرکردە ھەڵبژێردرا بە کۆدەنگیی گشتگیر."),
                                   ],
                                 ),
                               ),
@@ -543,11 +543,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consent (Derived forms: consents)
+- Noun: consent (derived forms: consents)
 1. Permission for something to happen
 "he indicated his consent"
 
-- Verb: consent (Derived forms: consented, consenting, consents)
+- Verb: consent (derived forms: consented, consenting, consents)
 1. Give an affirmative reply to; respond favourably to (= accept, go for)
 """,
   );
@@ -581,7 +581,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ruEBhINMU2U?t=',
+    videoId: 'ruEBhINMU2U',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4qWt2qZ59w8?t=',
+    videoId: '4qWt2qZ59w8',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b7wdQ6iz4HQ?t=',
+    videoId: 'b7wdQ6iz4HQ',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Eu_VexVpZhM',
+    videoId: 'Eu_VexVpZhM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g6o1eTHC99U?t=',
+    videoId: 'g6o1eTHC99U',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_8yRoDhe5cU?t=',
+    videoId: '_8yRoDhe5cU',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -731,7 +731,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DUbwgatjZqM?t=',
+    videoId: 'DUbwgatjZqM',
     startSeconds: 356,
     autoPlay: true,
     params: const YoutubePlayerParams(

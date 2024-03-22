@@ -192,11 +192,11 @@ class EnglishEntryconsummation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێگەیشتوویی، پێگەیشتن، تەواوی، ڕەبەقی، تەواوکردن، ڕاپەڕاندن، هێنانەدی، بەدی‌هاتن، ئەوپەڕ،	کامڵکردن، پێکبڕان، پێک‌گەیشتن، جووت‌بوون، بوونەزاوا، چوونەپەردە (بە کردنی سێکس)
+کوردی: پێگەیشتوویی، پێگەیشتن، تەواوی، ڕەبەقی، تەواوکردن، ڕاپەڕاندن، ھێنانەدی، بەدی‌ھاتن، ئەوپەڕ،	کامڵکردن، پێکبڕان، پێک‌گەیشتن، جووت‌بوون، بوونەزاوا، چوونەپەردە (بە کردنی سێکس)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کرداری بە فەرمی ناساندنی هاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
+                                  "١. (ناو) کرداری بە فەرمی ناساندنی ھاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconsummation extends StatelessWidget {
                                             "The consummation of their marriage was a private and intimate moment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کامڵکردنی هاوسەرگیرییەکەیان ساتێکی تایبەت و کەسی بوو."),
+                                            "کامڵکردنی ھاوسەرگیرییەکەیان ساتێکی تایبەت و کەسی بوو."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntryconsummation extends StatelessWidget {
                                             "The consummation of the sale was delayed due to legal issues."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواوکردنی فرۆشتنەکە دواخرا بەهۆی کێشەی یاساییەوە."),
+                                            "تەواوکردنی فرۆشتنەکە دواخرا بەھۆی کێشەی یاساییەوە."),
                                   ],
                                 ),
                               ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consummation (Derived forms: consummations)
+- Noun: consummation (derived forms: consummations)
 1. The completion of marriage by sexual intercourse
  
 2. The act of bringing to completion or fruition
@@ -376,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HeLLnz6fDPY?t=',
+    videoId: 'HeLLnz6fDPY',
     startSeconds: 790,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -401,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tZ8ZF8VsfU0?t=',
+    videoId: 'tZ8ZF8VsfU0',
     startSeconds: 850,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U_sZdX3tFFU?t=',
+    videoId: 'U_sZdX3tFFU',
     startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ca12k2qbUQM?t=',
+    videoId: 'ca12k2qbUQM',
     startSeconds: 1087,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9z-wAAX8eVY?t=',
+    videoId: '9z-wAAX8eVY',
     startSeconds: 320,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R0LUN1Z47EM?t=',
+    videoId: 'R0LUN1Z47EM',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ffKoZXt-BM?t=',
+    videoId: '4ffKoZXt-BM',
     startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(

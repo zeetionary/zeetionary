@@ -193,11 +193,11 @@ class EnglishEntrycondensation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چڕی، چڕبوونەوە،	شتی چڕەوەبوو،	تۆڵا، شلان (پڕۆسەی گۆڕینی گاز (یان هەڵم) بۆ شلە)، چڕکردنەوە، چڕاندن،	خەست‌کردنەوە، خەستاندن،	کورت‌کردنەوە، کورتەنووسی، کورتە، پوختە،	ئارەق،	هەڵم 
+کوردی: چڕی، چڕبوونەوە،	شتی چڕەوەبوو،	تۆڵا، شلان (پڕۆسەی گۆڕینی گاز (یان ھەڵم) بۆ شلە)، چڕکردنەوە، چڕاندن،	خەست‌کردنەوە، خەستاندن،	کورت‌کردنەوە، کورتەنووسی، کورتە، پوختە،	ئارەق،	ھەڵم 
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دڵۆپە ئاو کە لەسەر ڕوویەک درووست دەبێت کاتێک هەڵم سارد دەبێتەوە"),
+                                  "١. (ناو) دڵۆپە ئاو کە لەسەر ڕوویەک درووست دەبێت کاتێک ھەڵم سارد دەبێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntrycondensation extends StatelessWidget {
                                             "Condensation formed on the lid of the pot as the steam from the boiling water cooled."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵۆپە ئاو لەسەر سەقاپەکە درووست بوو کە هەڵمی ئاوە گەرمەکە ساردبوویەوە."),
+                                            "دڵۆپە ئاو لەسەر سەقاپەکە درووست بوو کە ھەڵمی ئاوە گەرمەکە ساردبوویەوە."),
                                   ],
                                 ),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrycondensation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پڕۆسەی کورتکردنەوەی کتێبێک، هتد بە کابردنی هەر شتێک کە پێویست نییە"),
+                                  "٣. (ناو) پڕۆسەی کورتکردنەوەی کتێبێک، ھتد بە کابردنی ھەر شتێک کە پێویست نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condensation (Derived forms: condensations)
+- Noun: condensation (derived forms: condensations)
 1. (psychoanalysis) an unconscious process whereby two ideas or images combine into a single symbol; especially in dreams
  
 2. The process of changing from a gaseous to a liquid or solid state
@@ -419,7 +419,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fcTzzN86qqA?t=',
+    videoId: 'fcTzzN86qqA',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pon4Zux5MaQ?t=',
+    videoId: 'Pon4Zux5MaQ',
     startSeconds: 908,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D6V85qfsu3g?t=',
+    videoId: 'D6V85qfsu3g',
     startSeconds: 1135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MBsQOTvWL3Q?t=',
+    videoId: 'MBsQOTvWL3Q',
     startSeconds: 357,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ht0IbFNbfSY?t=',
+    videoId: 'Ht0IbFNbfSY',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Is0q0a_SJpk?t=',
+    videoId: 'Is0q0a_SJpk',
     startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/If4Gh-nbGho?t=',
+    videoId: 'If4Gh-nbGho',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -194,7 +194,7 @@ class EnglishEntrycoincidence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەڵکەوت، ڕێکەوت، پێکەوەڕوودان، پێکەوەقەومان، بەیەکەوەڕوودان، هاوڕووداوی، جووت‌بوون،	یەک‌گرتنەوە، جۆربوون، گونجان، کۆکی، سازان، ڕێک‌کەوتن، یەک‌کەوتن،	لێکچوون، وەک‌یەکی، دەقاودەقی، یەکسانی، هاوشێوەیی
+کوردی: ھەڵکەوت، ڕێکەوت، پێکەوەڕوودان، پێکەوەقەومان، بەیەکەوەڕوودان، ھاوڕووداوی، جووت‌بوون،	یەک‌گرتنەوە، جۆربوون، گونجان، کۆکی، سازان، ڕێک‌کەوتن، یەک‌کەوتن،	لێکچوون، وەک‌یەکی، دەقاودەقی، یەکسانی، ھاوشێوەیی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕێکەوت؛ ڕوودانی دوو شت پێکەوە"),
@@ -238,7 +238,7 @@ class EnglishEntrycoincidence extends StatelessWidget {
                                             "It's not a coincidence that none of the directors are women (= it did not happen by chance)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ ڕێککەوت نییە هیچ کام لە بەڕێوبەرەکان ژن نین."),
+                                            "ھیچ ڕێککەوت نییە ھیچ کام لە بەڕێوبەرەکان ژن نین."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycoincidence extends StatelessWidget {
                                             "By coincidence, we both went to the same school."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ڕێکەوت، هەردووکمان ڕۆشتینە هەمان قوتابخانە."),
+                                            "بە ڕێکەوت، ھەردووکمان ڕۆشتینە ھەمان قوتابخانە."),
                                   ],
                                 ),
                               ),
@@ -290,7 +290,7 @@ class EnglishEntrycoincidence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بوونی شت لە پێکەوە لە هەمان کاتدا"),
+                                  "٢. (ناو) بوونی شت لە پێکەوە لە ھەمان کاتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -402,7 +402,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coincidence (Derived forms: coincidences)
+- Noun: coincidence (derived forms: coincidences)
 1. An event that might have been arranged although it was really accidental (= happenstance)
  
 2. The quality of occupying the same position or area in space

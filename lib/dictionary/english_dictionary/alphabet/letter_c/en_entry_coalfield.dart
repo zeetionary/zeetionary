@@ -191,7 +191,7 @@ class EnglishEntrycoalfield extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خەڵووزەڵان، خەڵووزان، ناوچەی خەڵووز لێ‌هەڵکەوتوو، خەڵووزستان
+کوردی: خەڵووزەڵان، خەڵووزان، ناوچەی خەڵووز لێ‌ھەڵکەوتوو، خەڵووزستان
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ناوچەیەک کە ڕێژەیەکی زۆر خەڵووزی تێدایە"),
@@ -204,7 +204,7 @@ class EnglishEntrycoalfield extends StatelessWidget {
                                         text:
                                             "The coalfield provided jobs for many local residents."),
                                     ExampleSentenceKurdish(
-                                        text: "خەڵووزەڵانەکە کاری بۆ ژمارەیەکی زۆر لە هاوڵاتیان ڕەخساند."),
+                                        text: "خەڵووزەڵانەکە کاری بۆ ژمارەیەکی زۆر لە ھاوڵاتیان ڕەخساند."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coalfield (Derived forms: coalfields)
+- Noun: coalfield (derived forms: coalfields)
 1. A region where there is coal underground
 """,
   );

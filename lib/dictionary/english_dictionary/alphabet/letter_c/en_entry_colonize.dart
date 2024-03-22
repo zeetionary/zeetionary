@@ -257,7 +257,7 @@ class EnglishEntrycolonize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) هەبوون، ژیان، یان گەشەکردن لە ناوچەیەکدا بە ڕێژەیەکی زۆر"),
+                                  "٢. (کردار) ھەبوون، ژیان، یان گەشەکردن لە ناوچەیەکدا بە ڕێژەیەکی زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -395,7 +395,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: colonize (Derived forms: colonized, colonizing, colonizes)
+- Verb: colonize (derived forms: colonized, colonizing, colonizes)
 1. Settle as a colony; of countries in the developing world (= colonise [Brit])
 "Europeans colonized Africa in the 17th century";
  

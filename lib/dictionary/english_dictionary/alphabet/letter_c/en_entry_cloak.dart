@@ -296,7 +296,7 @@ class EnglishEntrycloak extends StatelessWidget {
                                             "The meeting was cloaked in mystery."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوپێکەوتنەکە بە نهێنی هێڵدرایەوە."),
+                                            "چاوپێکەوتنەکە بە نھێنی ھێڵدرایەوە."),
                                   ],
                                 ),
                               ),
@@ -395,12 +395,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloak (Derived forms: cloaks)
+- Noun: cloak (derived forms: cloaks)
 1. Anything that covers or conceals
  
 2. A loose outer garment
 
-- Verb: cloak (Derived forms: cloaked, cloaking, cloaks)
+- Verb: cloak (derived forms: cloaked, cloaking, cloaks)
 1. Hide under a false appearance (= dissemble, mask)
 "He cloaked his disappointment";
  

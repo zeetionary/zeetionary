@@ -194,7 +194,7 @@ class EnglishEntrycocky extends StatelessWidget {
 کوردی: زۆردڵنیا، تەواو خاترجەم،	لەخۆبایی، لەخۆڕازی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) هەبوونی متمانە بە خۆت بەشێوەیەک کە کەسانی دیکە بێزار دەکات"),
+                              text: "١. (ھاوەڵناو) ھەبوونی متمانە بە خۆت بەشێوەیەک کە کەسانی دیکە بێزار دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrycocky extends StatelessWidget {
                                         text:
                                             "Let's not get too cocky—things could still go wrong."),
                                     ExampleSentenceKurdish(
-                                        text: "با هێندە لەخۆبایی نەبین، شتەکان دەکرێت بگۆڕێن."),
+                                        text: "با ھێندە لەخۆبایی نەبین، شتەکان دەکرێت بگۆڕێن."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrycocky extends StatelessWidget {
                           text:
                           "When I got my first job I was just a cocky teenager."),
                           ExampleSentenceKurdish(
-                          text: "کە یەکەم کارمم وەرگرت تەنها گەنجێکی لەخۆڕازی بووم."),
+                          text: "کە یەکەم کارمم وەرگرت تەنھا گەنجێکی لەخۆڕازی بووم."),
                           ],
                           ),
                           ),
@@ -330,11 +330,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cocky (Derived forms: cockiest, cockier)
+- Adjective: cocky (derived forms: cockiest, cockier)
 1. Overly self-confident or self-assertive
 "a very cocky young man"
 
-- Noun: cocky (Derived forms: cockies)
+- Noun: cocky (derived forms: cockies)
 Usage: Austral
 1. White or light-coloured crested parrot of the Australian region; often kept as cage birds (= cockatoo)
 """,

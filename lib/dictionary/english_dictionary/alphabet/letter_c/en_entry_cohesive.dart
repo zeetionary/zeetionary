@@ -192,7 +192,7 @@ class EnglishEntrycohesive extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوڕێک، ڕێک‌وپێک، یەک‌گرتوو، یەک‌گرتوو، یەکخەر، یەکپێگر، پێکانووسێن، پێکەوەچەسپێن، پێکەوەلکێن، پێکەوەبەست، گرێدەر
+کوردی: ھاوڕێک، ڕێک‌وپێک، یەک‌گرتوو، یەک‌گرتوو، یەکخەر، یەکپێگر، پێکانووسێن، پێکەوەچەسپێن، پێکەوەلکێن، پێکەوەبەست، گرێدەر
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) یەکگرتوو و کارکردن پێکەوە"),
@@ -206,7 +206,7 @@ class EnglishEntrycohesive extends StatelessWidget {
                                             "The project team's cohesive efforts resulted in a successful outcome."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵی یەکگرتووی تیمی پڕۆژەکە ئەنجامێکی سەرکەوتووانەی لێکەوتەوە."),
+                                            "ھەوڵی یەکگرتووی تیمی پڕۆژەکە ئەنجامێکی سەرکەوتووانەی لێکەوتەوە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycohesive extends StatelessWidget {
                                             "The cohesive power of the team was evident in their strong bond."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزی یەکخەری تیمەکە لە پەیوەندی بەهێزیاندا دیاربوو."),
+                                            "ھێزی یەکخەری تیمەکە لە پەیوەندی بەھێزیاندا دیاربوو."),
                                   ],
                                 ),
                               ),

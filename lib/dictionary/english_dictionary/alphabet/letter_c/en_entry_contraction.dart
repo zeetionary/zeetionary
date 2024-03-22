@@ -195,7 +195,7 @@ class EnglishEntrycontraction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چوونەیەک، هاتنەیەک، هاوکێشی، یەک‌ترکێشی، چرچ‌هەڵاتن، کرژبوون، هەڵقرچان، کۆبوونەوە، کۆوەبوون، وێکهاتن، چکۆلەبوونەوە، تێک‌ترنجان، هەڵقرچاندن، کرژاندن، وێکهێنان،	کورتە، وشەی کورتەوەکراو، تێک‌هەڵکێشراو، شێوەی کورتەوەبووی وشەیێ،	ژانەبوون، ژان‌وبرک، ژان‌وژۆ (مناڵ‌بوون)،	بێ‌بازاڕی، کەسادی،	(نەخۆشی) تووش‌بوون، دوچاربوون، گرتن، پیاپێ‌کران
+کوردی: چوونەیەک، ھاتنەیەک، ھاوکێشی، یەک‌ترکێشی، چرچ‌ھەڵاتن، کرژبوون، ھەڵقرچان، کۆبوونەوە، کۆوەبوون، وێکھاتن، چکۆلەبوونەوە، تێک‌ترنجان، ھەڵقرچاندن، کرژاندن، وێکھێنان،	کورتە، وشەی کورتەوەکراو، تێک‌ھەڵکێشراو، شێوەی کورتەوەبووی وشەیێ،	ژانەبوون، ژان‌وبرک، ژان‌وژۆ (مناڵ‌بوون)،	بێ‌بازاڕی، کەسادی،	(نەخۆشی) تووش‌بوون، دوچاربوون، گرتن، پیاپێ‌کران
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی بچووکبوونەوە"),
@@ -239,7 +239,7 @@ class EnglishEntrycontraction extends StatelessWidget {
                                             "The sudden contraction of the markets left them with a lot of unwanted stock."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داتەپینی لەناکاوی بازاڕ هێشتیانیەوە بە سەرمایەیەکی زۆری نەویستراو."),
+                                            "داتەپینی لەناکاوی بازاڕ ھێشتیانیەوە بە سەرمایەیەکی زۆری نەویستراو."),
                                   ],
                                 ),
                               ),
@@ -272,7 +272,7 @@ class EnglishEntrycontraction extends StatelessWidget {
                                             "The contractions started coming every five minutes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژانکردنەکە هەر پێنج خولەکێک دەستی پێدەکرد."),
+                                            "ژانکردنەکە ھەر پێنج خولەکێک دەستی پێدەکرد."),
                                   ],
                                 ),
                               ),
@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contraction (Derived forms: contractions)
+- Noun: contraction (derived forms: contractions)
 1. (physiology) a shortening or tensing of a part or organ (especially of a muscle or muscle fibre) (= muscular contraction, muscle contraction)
  
 2. The process or result of becoming smaller or pressed together (= compression, condensation)
@@ -480,7 +480,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NfEJUPnqxk0?t=',
+    videoId: 'NfEJUPnqxk0',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TxW6_E3uLuo?t=',
+    videoId: 'TxW6_E3uLuo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rKaoNaoqemM?t=',
+    videoId: 'rKaoNaoqemM',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fs_PtSaC9Ik?t=',
+    videoId: 'fs_PtSaC9Ik',
     startSeconds: 144,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FPzGAksFCbs',
+    videoId: 'FPzGAksFCbs',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qu0kbc5Umk4?t=',
+    videoId: 'qu0kbc5Umk4',
     startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i6ZkvUFBLSA?t=',
+    videoId: 'i6ZkvUFBLSA',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(

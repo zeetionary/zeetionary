@@ -199,7 +199,7 @@ class EnglishEntryclosure extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) داخرانی قوتابخانەیەک، نەخۆشخانەیەک، کارگەیەک، هتد بۆ هەمیشەیی"),
+                                  "١. (ناو) داخرانی قوتابخانەیەک، نەخۆشخانەیەک، کارگەیەک، ھتد بۆ ھەمیشەیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,7 +210,7 @@ class EnglishEntryclosure extends StatelessWidget {
                                             "Spending cuts could mean the closure of the village school."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمکردنەوەی خەرجی دەکرێت ببێتەهۆی داخرانی قوتابخانەی گوندەکە."),
+                                            "کەمکردنەوەی خەرجی دەکرێت ببێتەھۆی داخرانی قوتابخانەی گوندەکە."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryclosure extends StatelessWidget {
                                             "The factory is under threat of closure."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک کارگە لە ژێر هەڕەشەی داخستنن."),
+                                            "ژمارەیەک کارگە لە ژێر ھەڕەشەی داخستنن."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryclosure extends StatelessWidget {
                                             "The accident caused the complete closure of the road."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووداوەکە بوو بەهۆی داخرانی تەواوی ڕێگاکە."),
+                                            "ڕووداوەکە بوو بەھۆی داخرانی تەواوی ڕێگاکە."),
                                   ],
                                 ),
                               ),
@@ -288,7 +288,7 @@ class EnglishEntryclosure extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) هەستی ئەوەی کە دۆخێکی ناخۆش یان سەخت کۆتایی هاتووە یان بەشێوەیەکی گونجاو مامەڵەی لەگەڵ کراوە"),
+                                  "٣. (ناو) ھەستی ئەوەی کە دۆخێکی ناخۆش یان سەخت کۆتایی ھاتووە یان بەشێوەیەکی گونجاو مامەڵەی لەگەڵ کراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -327,7 +327,7 @@ class EnglishEntryclosure extends StatelessWidget {
                                             "People who lose family members need closure, not false hope."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو کەسانەی ئەندامێکی خێزان لەدەست دەدەن پێویستییان بە سوکناییە، نەک هیوای ساختە."),
+                                            "ئەو کەسانەی ئەندامێکی خێزان لەدەست دەدەن پێویستییان بە سوکناییە، نەک ھیوای ساختە."),
                                   ],
                                 ),
                               ),
@@ -426,7 +426,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: closure (Derived forms: closures)
+- Noun: closure (derived forms: closures)
 1. Approaching a particular destination; a coming closer; a narrowing of a gap (= closing)
 "the ship's rapid rate of closure gave them little time to avoid a collision";
  
@@ -444,7 +444,7 @@ ${englishMeaningConst.text}
 7. Termination of operations (= closedown, closing, shutdown)
 "they regretted the closure of the day care centre";
 
-- Verb: closure (Derived forms: closures, closured, closuring)
+- Verb: closure (derived forms: closures, closured, closuring)
 1. Terminate debate by calling for a vote (= cloture [N. Amer])
 "debate was closured";
 """,

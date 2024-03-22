@@ -198,7 +198,7 @@ class EnglishEntryconfrontation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕووبەڕووبوونەوەی خەڵکی یان گرووپی جیاواز بەهۆی ئەوەی ناکۆکییان هەیە"),
+                                  "١. (ناو) ڕووبەڕووبوونەوەی خەڵکی یان گرووپی جیاواز بەھۆی ئەوەی ناکۆکییان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryconfrontation extends StatelessWidget {
                                             "Confrontation between employers and unions has resulted in strike action."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووبەڕووبوونەوە لە نێوان خاوەن کاران و سەندیکاکاندا بووە بەهۆی مانگرتن."),
+                                            "ڕووبەڕووبوونەوە لە نێوان خاوەن کاران و سەندیکاکاندا بووە بەھۆی مانگرتن."),
                                   ],
                                 ),
                               ),
@@ -370,7 +370,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confrontation (Derived forms: confrontations)
+- Noun: confrontation (derived forms: confrontations)
 1. A bold challenge
  
 2. Discord resulting from a clash of ideas or opinions
@@ -413,7 +413,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vjtj6xwU3x4?t=',
+    videoId: 'vjtj6xwU3x4',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/65zfBD0V0eQ?t=',
+    videoId: '65zfBD0V0eQ',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P28NJGD7D78?t=',
+    videoId: 'P28NJGD7D78',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yvJoO9kNeoc?t=',
+    videoId: 'yvJoO9kNeoc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QEbYo07jLoY?t=',
+    videoId: 'QEbYo07jLoY',
     startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YZkXDuKto_Y?t=',
+    videoId: 'YZkXDuKto_Y',
     startSeconds: 919,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s36hrId0rOo?t=',
+    videoId: 's36hrId0rOo',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(

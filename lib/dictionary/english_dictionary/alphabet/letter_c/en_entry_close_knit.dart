@@ -195,7 +195,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کۆمەڵە کەسێک کە پەیوەندی نزیک لە نێوانیاندا هەیە و بەژداری کار و چالاکی یەکدی دەکەن"),
+                                  "١. (ناو) کۆمەڵە کەسێک کە پەیوەندی نزیک لە نێوانیاندا ھەیە و بەژداری کار و چالاکی یەکدی دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
                                             "The community was close-knit, with everyone knowing each other."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمەڵگەکە تەباب بوون و هەموویان یەکدییان دەناسی."),
+                                            "کۆمەڵگەکە تەباب بوون و ھەموویان یەکدییان دەناسی."),
                                   ],
                                 ),
                               ),

@@ -274,7 +274,7 @@ class EnglishEntrycongregation extends StatelessWidget {
                                             "Large congregations of birds may cause public harm."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێژەیەکی زۆر لە باڵندە ڕەنگە ببنە هۆی زیانی گشتی."),
+                                            "ڕێژەیەکی زۆر لە باڵندە ڕەنگە ببنە ھۆی زیانی گشتی."),
                                   ],
                                 ),
                               ),
@@ -375,7 +375,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: congregation (Derived forms: congregations)
+- Noun: congregation (derived forms: congregations)
 1. A group of people who adhere to a common faith and habitually attend a given church (= fold, faithful)
  
 2. An assemblage of people, animals or things collected together
@@ -414,7 +414,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ys9xNutx7VA?t=',
+    videoId: 'ys9xNutx7VA',
     startSeconds: 451,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NKfy8JhT_B8?t=',
+    videoId: 'NKfy8JhT_B8',
     startSeconds: 905,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V2ec7EE0pB8?t=',
+    videoId: 'V2ec7EE0pB8',
     startSeconds: 668,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bj6ulLJGPB8?t=',
+    videoId: 'Bj6ulLJGPB8',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZT3X1fYFViE?t=',
+    videoId: 'ZT3X1fYFViE',
     startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L7LwnlfYAaQ',
+    videoId: 'L7LwnlfYAaQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jA8kELbga2s',
+    videoId: 'jA8kELbga2s',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

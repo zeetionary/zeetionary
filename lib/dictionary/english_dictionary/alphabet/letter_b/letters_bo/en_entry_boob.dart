@@ -227,7 +227,7 @@ class EnglishEntryboob extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"),
+                                  "١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لە دوای منداڵبوون"),
                           Row(
                             children: [
                               const Expanded(

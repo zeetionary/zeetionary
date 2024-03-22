@@ -193,11 +193,11 @@ class EnglishEntryconsolidation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پتەوی، تۆکمەیی، داکوتان، چەسپاندن، بەهێزکردن، پێزداری، جێگیرکردن، تۆکماندن، پتەواندن، سەقام‌گیرکردن، توندکردن،	لێکدان، یەک‌خستن، تێک‌خستن، تێک‌هەڵکێشان، کردنەیەک، یەک‌گرتن، بوونەیەک، یەک‌بوون
+کوردی: پتەوی، تۆکمەیی، داکوتان، چەسپاندن، بەھێزکردن، پێزداری، جێگیرکردن، تۆکماندن، پتەواندن، سەقام‌گیرکردن، توندکردن،	لێکدان، یەک‌خستن، تێک‌خستن، تێک‌ھەڵکێشان، کردنەیەک، یەک‌گرتن، بوونەیەک، یەک‌بوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کار یان پڕۆسەی پتەوکردنی دەسەڵات یان بەهێزکردنی سەرکەوتن"),
+                                  "١. (ناو) کار یان پڕۆسەی پتەوکردنی دەسەڵات یان بەھێزکردنی سەرکەوتن"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconsolidation extends StatelessWidget {
                                             "Putin announced one of the most sweeping consolidations of presidential power since the fall of communism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆتین یەکێک لە کاریگەرترین کارەکانی بەهێزکردنی دەسەڵاتی سەرۆکایەتی ڕاگەیاند لەوەتەی کەوتنی کۆمیونیزمەوە."),
+                                            "پۆتین یەکێک لە کاریگەرترین کارەکانی بەھێزکردنی دەسەڵاتی سەرۆکایەتی ڕاگەیاند لەوەتەی کەوتنی کۆمیونیزمەوە."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntryconsolidation extends StatelessWidget {
                                             "The consolidation of Japan's banking industry resulted in fewer but more stable banks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکخستنی پیشەسازی بانکی ژاپۆن بووە بەهۆی بوونی بانکی کەمتر بەڵام جێگیرتر."),
+                                            "یەکخستنی پیشەسازی بانکی ژاپۆن بووە بەھۆی بوونی بانکی کەمتر بەڵام جێگیرتر."),
                                   ],
                                 ),
                               ),
@@ -342,7 +342,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consolidation (Derived forms: consolidations)
+- Noun: consolidation (derived forms: consolidations)
 1. Combining into a solid mass
  
 2. The act of combining into an integral whole (= integration)
@@ -382,7 +382,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FARXrLsBNJY?t=',
+    videoId: 'FARXrLsBNJY',
     startSeconds: 353,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -407,7 +407,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4oTa1BabYpE?t=',
+    videoId: '4oTa1BabYpE',
     startSeconds: 775,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4_jkeWgtZ18?t=',
+    videoId: '4_jkeWgtZ18',
     startSeconds: 338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BNpk_OGEGlA?t=',
+    videoId: 'BNpk_OGEGlA',
     startSeconds: 884,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UX4KklvCDmg?t=',
+    videoId: 'UX4KklvCDmg',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zCyZHB7NdPE?t=',
+    videoId: 'zCyZHB7NdPE',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZZ3F3zWiEmc?t=',
+    videoId: 'ZZ3F3zWiEmc',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -237,7 +237,7 @@ class EnglishEntrycommandment extends StatelessWidget {
                                             "Someone brought to his notice the fifth commandment: honour thy father and mother."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەسێک دەستووری پێنجەمی بەبیرهێنایەوە: ڕێزی دایک و باوکت بگرە."),
+                                            "کەسێک دەستووری پێنجەمی بەبیرھێنایەوە: ڕێزی دایک و باوکت بگرە."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commandment (Derived forms: commandments)
+- Noun: commandment (derived forms: commandments)
 1. Something that is commanded
  
 2. A doctrine that is taught (= teaching, precept)

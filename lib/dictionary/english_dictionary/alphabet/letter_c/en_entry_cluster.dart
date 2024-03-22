@@ -198,11 +198,11 @@ class EnglishEntrycluster extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هێشوو، بۆڵ، کۆمەڵ، کۆمەڵە، کۆڕ، پۆل، دەسک، چەپک، دەستە، گروپ، ڕەوە، گەلە، کۆما، لۆدە، ڕیز
+کوردی: ھێشوو، بۆڵ، کۆمەڵ، کۆمەڵە، کۆڕ، پۆل، دەسک، چەپک، دەستە، گروپ، ڕەوە، گەلە، کۆما، لۆدە، ڕیز
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ژمارەیەک لە شت کە هەمان جۆرن و پێکەوە دەردەکەون"),
+                                  "١. (ناو) ژمارەیەک لە شت کە ھەمان جۆرن و پێکەوە دەردەکەون"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntrycluster extends StatelessWidget {
                                             "The telescope is focused on a dense cluster of stars at the edge of the galaxy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەلیسکۆبەکە سەرنجی لەسەر هێشوویەکی چڕ لە ئەستێرەیە لە کەناری گەلە ئەستێرەکەدا."),
+                                            "تەلیسکۆبەکە سەرنجی لەسەر ھێشوویەکی چڕ لە ئەستێرەیە لە کەناری گەلە ئەستێرەکەدا."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntrycluster extends StatelessWidget {
                                             "There was a cluster of fans around him, asking for autographs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گرووپێک لە هەوادار لە دەوری بوون و داوای ئیمزایان لێ دەکرد."),
+                                            "گرووپێک لە ھەوادار لە دەوری بوون و داوای ئیمزایان لێ دەکرد."),
                                   ],
                                 ),
                               ),
@@ -358,7 +358,7 @@ class EnglishEntrycluster extends StatelessWidget {
                                             "The /str/ at the beginning of \"stray\" is a cluster."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "/str/ ـەکەی سەرەتای \"stray\" هێشوویەکە."),
+                                            "/str/ ـەکەی سەرەتای \"stray\" ھێشوویەکە."),
                                   ],
                                 ),
                               ),
@@ -515,7 +515,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cluster (Derived forms: clusters)
+- Noun: cluster (derived forms: clusters)
 1. A grouping of a number of similar things (= bunch, clump, clustering)
 "a cluster of admirers";
  
@@ -525,7 +525,7 @@ ${englishMeaningConst.text}
  
 4. (astronomy) a group of galaxies or stars that are gravitationally bound
 
-- Verb: cluster (Derived forms: clustering, clusters, clustered)
+- Verb: cluster (derived forms: clustering, clusters, clustered)
 1. Come together as in a cluster or flock (= constellate, flock, clump)
 "The poets cluster in this town every summer";
  

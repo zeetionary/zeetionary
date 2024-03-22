@@ -645,7 +645,7 @@ class EnglishEntrycollect extends StatelessWidget {
                                             "He started to collect art seriously soon after the turn of the century."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دوای سەرەتای سەدەکەوە دەستی بە کۆکردنەوەی کاری هونەری کرد."),
+                                            "لە دوای سەرەتای سەدەکەوە دەستی بە کۆکردنەوەی کاری ھونەری کرد."),
                                   ],
                                 ),
                               ),
@@ -675,7 +675,7 @@ class EnglishEntrycollect extends StatelessWidget {
                                             "In spite of their efforts a large pool of liquid continued to collect."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرەڕای هەوڵەکانیان ڕێژەیەکی زۆر لە شلە بەردەوام بوو لە کۆبوونەوە."),
+                                            "سەرەڕای ھەوڵەکانیان ڕێژەیەکی زۆر لە شلە بەردەوام بوو لە کۆبوونەوە."),
                                   ],
                                 ),
                               ),
@@ -730,7 +730,7 @@ class EnglishEntrycollect extends StatelessWidget {
                                         text:
                                             "It’s amazing how she collects friends."),
                                     ExampleSentenceKurdish(
-                                        text: "دۆزینەوەی هاوڕێی سەرسوڕهێنەرە."),
+                                        text: "دۆزینەوەی ھاوڕێی سەرسوڕھێنەرە."),
                                   ],
                                 ),
                               ),
@@ -818,7 +818,7 @@ class EnglishEntrycollect extends StatelessWidget {
                                                     "She's gone to collect her son from school."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕۆشتووە بۆ هێنانەوەی منداڵەکەی لە قوتابخانە."),
+                                                    "ڕۆشتووە بۆ ھێنانەوەی منداڵەکەی لە قوتابخانە."),
                                           ],
                                         ),
                                       ),
@@ -848,7 +848,7 @@ class EnglishEntrycollect extends StatelessWidget {
                                                     "Someone will be at the airport to collect you."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کەسێک لە فڕۆکەخانە هەڵتدەگرێت."),
+                                                    "کەسێک لە فڕۆکەخانە ھەڵتدەگرێت."),
                                           ],
                                         ),
                                       ),
@@ -1072,7 +1072,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: collect (Derived forms: collects, collecting, collected)
+- Verb: collect (derived forms: collects, collecting, collected)
 1. Get or gather together (a large number of something) (= roll up, accumulate, pile up, amass, compile, hoard)
 "She collected a small fortune";
  
@@ -1087,7 +1087,7 @@ ${englishMeaningConst.text}
 5. Go to meet, esp. to then take somewhere in a vehicle (= pick up, gather up, call for)
 "She collected the children at the day care centre";
 
-- Noun: collect (Derived forms: collects)
+- Noun: collect (derived forms: collects)
 1. A short prayer generally preceding the lesson in the Church of Rome or the Church of England
 
 - Adjective: collect  

@@ -200,7 +200,7 @@ class EnglishEntrycomedy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شانۆیەک، فیلمێک، یان درامایەک کە پێکەنیناوییە و زۆرجار کۆتاییەکی خۆشی هەیە"),
+                                  "١. (ناو) شانۆیەک، فیلمێک، یان درامایەک کە پێکەنیناوییە و زۆرجار کۆتاییەکی خۆشی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -287,7 +287,7 @@ class EnglishEntrycomedy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) نمایشێکی پڕۆفیشناڵانە کە نوکتە، کورتە نمایش، هتد ـی تێدایە و ئامانجیەتی پێکەنیناوی بێت"),
+                                  "٢. (ناو) نمایشێکی پڕۆفیشناڵانە کە نوکتە، کورتە نمایش، ھتد ـی تێدایە و ئامانجیەتی پێکەنیناوی بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -454,7 +454,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comedy (Derived forms: comedies)
+- Noun: comedy (derived forms: comedies)
 1. Light and humorous drama with a happy ending
  
 2. A comic incident or series of incidents (= drollery, clowning, funniness)

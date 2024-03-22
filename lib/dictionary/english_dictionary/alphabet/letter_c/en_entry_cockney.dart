@@ -195,7 +195,7 @@ class EnglishEntrycockney extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دانیشتووان یان شێوازی قسەکردنی دانیشتووانی ڕۆژهەڵاتی لەندەن"),
+                                  "١. (ناو) دانیشتووان یان شێوازی قسەکردنی دانیشتووانی ڕۆژھەڵاتی لەندەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycockney extends StatelessWidget {
                                             "You won't hear much real cockney spoken unless you go to the East End."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێت لە قسەکردنی ڕاستی کۆکنی نابێت مەگەر ئەوەی بچیتە ڕۆژهەڵاتی لەندەن."),
+                                            "گوێت لە قسەکردنی ڕاستی کۆکنی نابێت مەگەر ئەوەی بچیتە ڕۆژھەڵاتی لەندەن."),
                                   ],
                                 ),
                               ),
@@ -309,10 +309,10 @@ ${englishMeaningConst.text}
 1. Characteristic of Cockneys or their dialect
 "cockney vowels"
 
-- Noun: cockney (Derived forms: cockneys)
+- Noun: cockney (derived forms: cockneys)
 1. The nonstandard dialect of natives of the east end of London
 
-- Noun: Cockney (Derived forms: Cockneys)
+- Noun: Cockney (derived forms: Cockneys)
 1. A native of the east end of London
 
 - Adjective: Cockney

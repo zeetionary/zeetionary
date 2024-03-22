@@ -195,7 +195,7 @@ class EnglishEntryconsummate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەواو، ڕەبەق، هەرەباش، بەرز،	پێگەیشتوو، ڕەسیدە،	لێزان، کارامە، پوختە، مامۆستا، شارەزا، وەستا
+کوردی: تەواو، ڕەبەق، ھەرەباش، بەرز،	پێگەیشتوو، ڕەسیدە،	لێزان، کارامە، پوختە، مامۆستا، شارەزا، وەستا
 """),
                           const DefinitionKurdish(
                               text:
@@ -257,7 +257,7 @@ class EnglishEntryconsummate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بە فەرمی ناساندنی هاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
+                                  "٢. (کردار) بە فەرمی ناساندنی ھاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
                           Row(
                             children: [
                               const Expanded(
@@ -268,7 +268,7 @@ class EnglishEntryconsummate extends StatelessWidget {
                                             "The marriage lasted only a week and was never consummated."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسەرگیرییەکە یەک هەفتەی خایاند و هەرگیز کامڵ نەکرا."),
+                                            "ھاوسەرگیرییەکە یەک ھەفتەی خایاند و ھەرگیز کامڵ نەکرا."),
                                   ],
                                 ),
                               ),
@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consummate (Derived forms: consummating, consummates, consummated)
+- Verb: consummate (derived forms: consummating, consummates, consummated)
 1. Complete a marriage by having sexual intercourse
 "consummate a marriage"
  
@@ -444,7 +444,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OZ_xhkg32nk?t=',
+    videoId: 'OZ_xhkg32nk',
     startSeconds: 571,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/spr5smxuO5E?t=',
+    videoId: 'spr5smxuO5E',
     startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LzDhpEInMIg?t=',
+    videoId: 'LzDhpEInMIg',
     startSeconds: 288,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DDzJs126JrM?t=',
+    videoId: 'DDzJs126JrM',
     startSeconds: 714,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS0oPwb3sag?t=',
+    videoId: 'VS0oPwb3sag',
     startSeconds: 644,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/36erMl7IgRo?t=',
+    videoId: '36erMl7IgRo',
     startSeconds: 731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OBG50aoUwlI?t=',
+    videoId: 'OBG50aoUwlI',
     startSeconds: 1409,
     autoPlay: true,
     params: const YoutubePlayerParams(

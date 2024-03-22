@@ -192,11 +192,11 @@ class EnglishEntryconfederacy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەک‌کەوتن، یەکێتی، هاوپەیمانی، هاوگرتوویی، یەک‌گرتوویی، فێدراسیۆن، کۆنفێدراسیۆن،	یەکێتی
+کوردی: یەک‌کەوتن، یەکێتی، ھاوپەیمانی، ھاوگرتوویی، یەک‌گرتوویی، فێدراسیۆن، کۆنفێدراسیۆن،	یەکێتی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هاوپەیمانییەک لە کۆمەڵە وڵاتێک، گرووپێک لە خەڵکی، یان پارتی سیاسی یەکدەگرن بە یەک ئامانج"),
+                                  "١. (ناو) ھاوپەیمانییەک لە کۆمەڵە وڵاتێک، گرووپێک لە خەڵکی، یان پارتی سیاسی یەکدەگرن بە یەک ئامانج"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntryconfederacy extends StatelessWidget {
                                             "The confederacy of tribes was formed to resist the invading army."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە."),
+                                            "ھاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntryconfederacy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو ١١ ویلایەتەی باشووری ئەمریکا کە لە ساڵانی ١٨٦٠-١٨٦١ ویلایەتە یەکگرتووەکانی ئەمریکایان جێهێشت و جەنگی ناوخۆییان دەستپێکرد بۆ پاراستنی کۆیلایەتی"),
+                                  "٢. (ناو) ئەو ١١ ویلایەتەی باشووری ئەمریکا کە لە ساڵانی ١٨٦٠-١٨٦١ ویلایەتە یەکگرتووەکانی ئەمریکایان جێھێشت و جەنگی ناوخۆییان دەستپێکرد بۆ پاراستنی کۆیلایەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntryconfederacy extends StatelessWidget {
                                             "The Confederacy's defeat resulted in the abolition of slavery and the reunification of the United States."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شکستی کۆنفێدراسیۆن بوو بەهۆی کۆتایی هێنان بە کۆیلایەتی و یەکگرتنەوەی ویلایەتە یەکگرتووەکان."),
+                                            "شکستی کۆنفێدراسیۆن بوو بەھۆی کۆتایی ھێنان بە کۆیلایەتی و یەکگرتنەوەی ویلایەتە یەکگرتووەکان."),
                                   ],
                                 ),
                               ),
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confederacy (Derived forms: confederacies)
+- Noun: confederacy (derived forms: confederacies)
 1. A union of political organizations (= confederation, federation)
  
 2. A group of conspirators banded together to achieve some harmful or illegal purpose (= conspiracy)
@@ -382,7 +382,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 1248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -407,7 +407,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ST3-xPjHhwU?t=',
+    videoId: 'ST3-xPjHhwU',
     startSeconds: 1596,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yxllYB04hjg?t=',
+    videoId: 'yxllYB04hjg',
     startSeconds: 856,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y7FvR8hkr6w?t=',
+    videoId: 'Y7FvR8hkr6w',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wnBDK-QNZkM?t=',
+    videoId: 'wnBDK-QNZkM',
     startSeconds: 656,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f-ohZpWD4y4?t=',
+    videoId: 'f-ohZpWD4y4',
     startSeconds: 643,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R1FO9MqWugY?t=',
+    videoId: 'R1FO9MqWugY',
     startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(

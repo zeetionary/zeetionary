@@ -206,7 +206,7 @@ class EnglishEntrycondenser extends StatelessWidget {
                                             "The refrigerator's condenser works to cool the air inside, keeping the food fresh."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فرێزەری بەفرگرەکە کار دەکات بۆ ئەوەی هەوای ناوەوە سارد بکات و خواردنەکان بە تازەیی بهێڵێت."),
+                                            "فرێزەری بەفرگرەکە کار دەکات بۆ ئەوەی ھەوای ناوەوە سارد بکات و خواردنەکان بە تازەیی بھێڵێت."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condenser (Derived forms: condensers)
+- Noun: condenser (derived forms: condensers)
 1. An electrical device characterized by its capacity to store an electric charge (= capacitor, capacitance, electrical condenser)
  
 2. An apparatus that converts vapour into liquid
@@ -345,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Nr1AgIfajI?t=',
+    videoId: '4Nr1AgIfajI',
     startSeconds: 699,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_-mBeYC2KGc?t=',
+    videoId: '_-mBeYC2KGc',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T9dJ_cE5Asw?t=',
+    videoId: 'T9dJ_cE5Asw',
     startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2horH-IeurA?t=',
+    videoId: '2horH-IeurA',
     startSeconds: 612,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TILjzuBGkRc?t=',
+    videoId: 'TILjzuBGkRc',
     startSeconds: 199,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CGAhWgkKlHI?t=',
+    videoId: 'CGAhWgkKlHI',
     startSeconds: 358,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8PTjPzw9VhY?t=',
+    videoId: '8PTjPzw9VhY',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(

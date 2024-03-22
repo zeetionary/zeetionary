@@ -193,7 +193,7 @@ class EnglishEntrycongeal extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: بە سەهۆڵ کردن، ڕەقوپتەو کردن
+// کوردی: بە سەھۆڵ کردن، ڕەقوپتەو کردن
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) خەست یان ڕەق بوون"),
@@ -263,7 +263,7 @@ class EnglishEntrycongeal extends StatelessWidget {
                                             "The bitterness and tears had congealed into hatred."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) تاڵی و فرمێسکەکانی بووبوون بە ڕق."),
+                                            "(بەکارھێنانی خوازراوی) تاڵی و فرمێسکەکانی بووبوون بە ڕق."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: congeal (Derived forms: congealed, congealing, congeals)
+- Verb: congeal (derived forms: congealed, congealing, congeals)
 1. Become gelatinous (= jell, set)
 "the liquid congealed after we added the enzyme";
 """,
@@ -397,7 +397,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
+    videoId: '0ST4_hmop9Y',
     startSeconds: 780,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    videoId: '1Gxrwh4zGPg',
     startSeconds: 1453,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qoHnwOHLiMk?t=',
+    videoId: 'qoHnwOHLiMk',
     startSeconds: 320,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/07MdzMu2nS8?t=',
+    videoId: '07MdzMu2nS8',
     startSeconds: 931,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yTRHtiR02iY?t=',
+    videoId: 'yTRHtiR02iY',
     startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ppi0khS0s_8?t=',
+    videoId: 'ppi0khS0s_8',
     startSeconds: 1179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UpHOkHxpTvQ?t=',
+    videoId: 'UpHOkHxpTvQ',
     startSeconds: 542,
     autoPlay: true,
     params: const YoutubePlayerParams(

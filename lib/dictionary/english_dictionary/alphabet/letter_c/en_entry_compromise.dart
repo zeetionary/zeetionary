@@ -203,11 +203,11 @@ class EnglishEntrycompromise extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێک‌کەوتن، سازان، پێکهاتن، هاوکۆکی، تەبایی، ئاشتی، نێو(ان)گیری
+کوردی: ڕێک‌کەوتن، سازان، پێکھاتن، ھاوکۆکی، تەبایی، ئاشتی، نێو(ان)گیری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سازان؛ ڕێککەوتنێک کە تێیدا دوو لایەن ئامادە دەبن دەستبەرداری هەندێک داواکاری ببن بۆ ئەوەی لە کۆتاییدا بگەن بە ڕیکەوتنێک بە دڵی هەردوولا"),
+                                  "١. (ناو) سازان؛ ڕێککەوتنێک کە تێیدا دوو لایەن ئامادە دەبن دەستبەرداری ھەندێک داواکاری ببن بۆ ئەوەی لە کۆتاییدا بگەن بە ڕیکەوتنێک بە دڵی ھەردوولا"),
                           Row(
                             children: [
                               const Expanded(
@@ -246,7 +246,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "In any relationship, you have to make compromises."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەر ڕێککەوتنێکدا دەبێت بگەیت بە سازان."),
+                                            "لە ھەر ڕێککەوتنێکدا دەبێت بگەیت بە سازان."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) چارەسەری کێشەیەک کە تێدا دوو شت یان زیاتر پێکەوە ناتوانن هەبن بەو شێوەیەی هەن، بۆیە کەمێک دەگۆڕدرێن بۆ ئەوەی پێکەوە هەبن"),
+                                  "٢. (ناو) چارەسەری کێشەیەک کە تێدا دوو شت یان زیاتر پێکەوە ناتوانن ھەبن بەو شێوەیەی ھەن، بۆیە کەمێک دەگۆڕدرێن بۆ ئەوەی پێکەوە ھەبن"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,7 +335,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "There is no prospect of compromise in sight."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هیوایەکی سازان لەبەرچاو نییە."),
+                                            "ھیچ ھیوایەکی سازان لەبەرچاو نییە."),
                                   ],
                                 ),
                               ),
@@ -392,7 +392,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "Neither side is prepared to compromise."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ لایەنێک ئامادە نییە بۆ سازان."),
+                                            "ھیچ لایەنێک ئامادە نییە بۆ سازان."),
                                   ],
                                 ),
                               ),
@@ -440,7 +440,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) کردنی شتێک کە دژ بەوەیە کە بڕوات پێی هەیە"),
+                                  "٥. (کردار) کردنی شتێک کە دژ بەوەیە کە بڕوات پێی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -501,7 +501,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) هێنانی گومان یان مەترسی بۆ سەر خۆت/کەسێک/شتێک، بە تایبەتی بە ڕەفتارکردن بە شێوەیەک کە درووست نییە"),
+                                  "٦. (کردار) ھێنانی گومان یان مەترسی بۆ سەر خۆت/کەسێک/شتێک، بە تایبەتی بە ڕەفتارکردن بە شێوەیەک کە درووست نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -512,7 +512,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "She had already compromised herself by accepting his invitation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێشوەختە خۆی لەکەدار کردبوو بە پەسەندکردنی بانگهێشتەکەی."),
+                                            "پێشوەختە خۆی لەکەدار کردبوو بە پەسەندکردنی بانگھێشتەکەی."),
                                   ],
                                 ),
                               ),
@@ -542,7 +542,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "The affair seriously compromised the party's prospects of electoral success."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بابەتەکە بە سەختی هیواکانی پارتەکەی بۆ سەرکەوتن لە هەڵبژاردندا لاوازکرد."),
+                                            "بابەتەکە بە سەختی ھیواکانی پارتەکەی بۆ سەرکەوتن لە ھەڵبژاردندا لاوازکرد."),
                                   ],
                                 ),
                               ),
@@ -574,7 +574,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                                             "Users perform tasks every day that can compromise the security of their computers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکارهێنەران هەموو ڕۆژێک ئەرکێک ئەنجام دەدەن کە دەکرێت سەلامەتی کۆمپیوتەرەکانیان بخاتە مەترسییەوە."),
+                                            "بەکارھێنەران ھەموو ڕۆژێک ئەرکێک ئەنجام دەدەن کە دەکرێت سەلامەتی کۆمپیوتەرەکانیان بخاتە مەترسییەوە."),
                                   ],
                                 ),
                               ),
@@ -675,7 +675,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compromise (Derived forms: compromised, compromising, compromises)
+- Verb: compromise (derived forms: compromised, compromising, compromises)
 1. Make an accommodation in which both sides make concessions
 "nobody will get everything he wants; we all must compromise"
  
@@ -685,7 +685,7 @@ ${englishMeaningConst.text}
 3. Expose or make liable to danger, suspicion, or disrepute
 "The nuclear secrets of the state were compromised by the spy"
 
-- Noun: compromise (Derived forms: compromises)
+- Noun: compromise (derived forms: compromises)
 1. A middle way between two extremes (= via media [formal], halfway house [Brit, informal])
  
 2. An accommodation in which both sides make concessions (= halfway house [Brit, informal])
@@ -722,7 +722,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 312,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -747,7 +747,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zZM57oTu9Ng?t=',
+    videoId: 'zZM57oTu9Ng',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -772,7 +772,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FSHITL5oedk?t=',
+    videoId: 'FSHITL5oedk',
     startSeconds: 915,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -797,7 +797,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oB-UjvNwpic?t=',
+    videoId: 'oB-UjvNwpic',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -822,7 +822,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vS1NF56-1Dc?t=',
+    videoId: 'vS1NF56-1Dc',
     startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -847,7 +847,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tUR9UIscLGU?t=',
+    videoId: 'tUR9UIscLGU',
     startSeconds: 1027,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -872,7 +872,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 708,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -712,7 +712,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "I don't have much contact with my uncle."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێندە تێکەڵیم لەگەڵ مامم/خاڵم نییە."),
+                                            "ھێندە تێکەڵیم لەگەڵ مامم/خاڵم نییە."),
                                   ],
                                 ),
                               ),
@@ -831,7 +831,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                                     "There is little contact between the two organizations."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پەیوەندیی کەم هەیە لە نێوان دوو دامەزراوەکەدا."),
+                                                    "پەیوەندیی کەم ھەیە لە نێوان دوو دامەزراوەکەدا."),
                                           ],
                                         ),
                                       ),
@@ -898,7 +898,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "She always avoided contact with the press."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە دووردەکەوتەوە لە بینینی ڕۆژنامەنووسان."),
+                                            "ھەمیشە دووردەکەوتەوە لە بینینی ڕۆژنامەنووسان."),
                                   ],
                                 ),
                               ),
@@ -926,7 +926,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "He'd prefer a job where he doesn't have to be in direct contact with the public."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارێکی پێخۆشە کە پێویست نەکات تێکەڵی ڕاستەوخۆی لەگەڵ خەڵکیدا هەبێت."),
+                                            "کارێکی پێخۆشە کە پێویست نەکات تێکەڵی ڕاستەوخۆی لەگەڵ خەڵکیدا ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -982,7 +982,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "Children should be brought into contact with poetry at an early age."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵان دەبێت لە تەمەنێکی کەمدا بە هۆنراوە ئاشنا بکرێن."),
+                                            "منداڵان دەبێت لە تەمەنێکی کەمدا بە ھۆنراوە ئاشنا بکرێن."),
                                   ],
                                 ),
                               ),
@@ -1013,7 +1013,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "Even the US, which has no embassy there, is beginning to forge contacts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنانەت ئەمریکاش، کە هیچ باڵیۆزخانەی لەوێ نییە، خەریکە دەست دەکات بە درووستکردنی پەیوەندی."),
+                                            "تەنانەت ئەمریکاش، کە ھیچ باڵیۆزخانەی لەوێ نییە، خەریکە دەست دەکات بە درووستکردنی پەیوەندی."),
                                   ],
                                 ),
                               ),
@@ -1041,7 +1041,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "The company has maintained trade contacts with India."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە پەیوەندیی بازرگانیی لەگەڵ هندستان پاراستووە."),
+                                            "کۆمپانیاکە پەیوەندیی بازرگانیی لەگەڵ ھندستان پاراستووە."),
                                   ],
                                 ),
                               ),
@@ -1072,7 +1072,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "I've made some useful contacts in journalism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ناسیاویم پەیداکردووە لە ڕۆنامەوانیدا."),
+                                            "ھەندێک ناسیاویم پەیداکردووە لە ڕۆنامەوانیدا."),
                                   ],
                                 ),
                               ),
@@ -1100,7 +1100,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "She has several contacts in New York."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ناسیاوی لە نیویۆرک درووستکردووە."),
+                                            "ھەندێک ناسیاوی لە نیویۆرک درووستکردووە."),
                                   ],
                                 ),
                               ),
@@ -1127,7 +1127,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                         text:
                                             "He has a contact at the White House."),
                                     ExampleSentenceKurdish(
-                                        text: "ناسیاوێکی لە کۆشكی سپی هەیە."),
+                                        text: "ناسیاوێکی لە کۆشكی سپی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1155,7 +1155,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "He used his contacts to get his son a publishing job."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناسیاوەکانی بەکارهێنا بۆ دەستخستنی کارێکی بڵاوکردنەوە بۆ کوڕەکەی."),
+                                            "ناسیاوەکانی بەکارھێنا بۆ دەستخستنی کارێکی بڵاوکردنەوە بۆ کوڕەکەی."),
                                   ],
                                 ),
                               ),
@@ -1244,7 +1244,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                                     "This substance should not come into contact with food."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم مادەیە نابێت بەرکەوتنی بە خواردن هەبێت."),
+                                                    "ئەم مادەیە نابێت بەرکەوتنی بە خواردن ھەبێت."),
                                           ],
                                         ),
                                       ),
@@ -1400,7 +1400,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                             "I've been trying to contact you all day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواوی ڕۆژەکە هەوڵم داوە پەیوەندیت پێوە بکەم."),
+                                            "تەواوی ڕۆژەکە ھەوڵم داوە پەیوەندیت پێوە بکەم."),
                                   ],
                                 ),
                               ),
@@ -1459,7 +1459,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                                     "Anyone interested is requested to contact a member of the committee."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەرکەس خوازیارە دەتوانێت پەیوەندی بە ئەندامێکی لیژنەکەوە بکات."),
+                                                    "ھەرکەس خوازیارە دەتوانێت پەیوەندی بە ئەندامێکی لیژنەکەوە بکات."),
                                           ],
                                         ),
                                       ),
@@ -1519,7 +1519,7 @@ class EnglishEntrycontact extends StatelessWidget {
                                                     "Please do not hesitate to contact me if you have any questions."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تکایە دوودڵ مەبە لە پەیوەندیکردن پێمەوە ئەگەر هەر پرسیارێکت هەیە."),
+                                                    "تکایە دوودڵ مەبە لە پەیوەندیکردن پێمەوە ئەگەر ھەر پرسیارێکت ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -1624,7 +1624,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contact (Derived forms: contacts)
+- Noun: contact (derived forms: contacts)
 1. Close interaction
 "they kept in daily contact"; "they claimed that they had been in contact with extraterrestrial beings"
  
@@ -1651,7 +1651,7 @@ ${englishMeaningConst.text}
  
 9. A thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication (= contact lens)
 
-- Verb: contact (Derived forms: contacting, contacts, contacted)
+- Verb: contact (derived forms: contacting, contacts, contacted)
 1. Be in or establish communication with (= reach, get through, get hold of)
 "He never contacted his children after he emigrated to Australia";
  
@@ -1689,7 +1689,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s0JXJwgHMVs?t=',
+    videoId: 's0JXJwgHMVs',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1714,7 +1714,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQGfOrVyiTQ?t=',
+    videoId: 'ZQGfOrVyiTQ',
     startSeconds: 786,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1739,7 +1739,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/reSFhA53VGg?t=',
+    videoId: 'reSFhA53VGg',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1764,7 +1764,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TDDqzapYwDY?t=',
+    videoId: 'TDDqzapYwDY',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1789,7 +1789,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 1035,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1814,7 +1814,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xreA0vkHMBY?t=',
+    videoId: 'xreA0vkHMBY',
     startSeconds: 1979,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1839,7 +1839,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X2FS0s95o_Q?t=',
+    videoId: 'X2FS0s95o_Q',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(

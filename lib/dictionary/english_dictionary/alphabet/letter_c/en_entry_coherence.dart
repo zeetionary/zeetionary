@@ -191,11 +191,11 @@ class EnglishEntrycoherence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەک‌گرتوویی، پێوەندی لۆژیکی، پێکەوەبەستراوی، یەکیەتی، یەکپارچەیی، یەک‌گیری، هاوڕێکی، یەک‌گرتن،	پێوەلکان، پێکانووسان، پێکەوەنووسان، پێکالکان، بەیەکالکان (فیزیک)
+کوردی: یەک‌گرتوویی، پێوەندی لۆژیکی، پێکەوەبەستراوی، یەکیەتی، یەکپارچەیی، یەک‌گیری، ھاوڕێکی، یەک‌گرتن،	پێوەلکان، پێکانووسان، پێکەوەنووسان، پێکالکان، بەیەکالکان (فیزیک)
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەو دۆخەی کە هەموو بەشەکانی شتێک پێکەوە دەگونجێن"),
+                                  "١. (ناو) ئەو دۆخەی کە ھەموو بەشەکانی شتێک پێکەوە دەگونجێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coherence (Derived forms: coherences)
+- Noun: coherence (derived forms: coherences)
 1. Logical, orderly, and consistent relation of parts (= coherency)
  
 2. The state of cohering or sticking together (= coherency, cohesion, cohesiveness)

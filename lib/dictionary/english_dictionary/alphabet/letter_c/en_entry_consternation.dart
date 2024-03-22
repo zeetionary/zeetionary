@@ -197,7 +197,7 @@ class EnglishEntryconsternation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەستی دڵتەنگی و نیگەرانی و لە دوای شتێکی لەناکاوی ناخۆشت پێگەشتووە"),
+                                  "١. (ناو) ھەستی دڵتەنگی و نیگەرانی و لە دوای شتێکی لەناکاوی ناخۆشت پێگەشتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconsternation extends StatelessWidget {
                                             "The announcement of her retirement caused consternation among tennis fans."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاگەیاندنی وازهێنانی بوو بەهۆی پەشۆکان لەناو هەوادارانی تێنسدا."),
+                                            "ڕاگەیاندنی وازھێنانی بوو بەھۆی پەشۆکان لەناو ھەوادارانی تێنسدا."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consternation (Derived forms: consternations)
+- Noun: consternation (derived forms: consternations)
 1. Fear resulting from the awareness of danger (= alarm, dismay)
 """,
   );
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fz5KrLjCZ1U?t=',
+    videoId: 'fz5KrLjCZ1U',
     startSeconds: 554,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iZQJQYqhAgY?t=',
+    videoId: 'iZQJQYqhAgY',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5slOG0bYZck?t=',
+    videoId: '5slOG0bYZck',
     startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZFIQp9GiGsU?t=',
+    videoId: 'ZFIQp9GiGsU',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pm5xxlajTW0?t=',
+    videoId: 'pm5xxlajTW0',
     startSeconds: 4423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kU0KkaCQFhI?t=',
+    videoId: 'kU0KkaCQFhI',
     startSeconds: 215,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rGFmEJcTwwQ?t=',
+    videoId: 'rGFmEJcTwwQ',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(

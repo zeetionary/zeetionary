@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comedian (Derived forms: comedians)
+- Noun: comedian (derived forms: comedians)
 1. A professional performer who tells jokes and performs comical acts (= comic, funnyman)
  
 2. An actor in a comedy

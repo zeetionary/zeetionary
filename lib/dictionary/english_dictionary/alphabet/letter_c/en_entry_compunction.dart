@@ -192,11 +192,11 @@ class EnglishEntrycompunction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەشیمانی، پاشگەزی، ڤەرگەڕ، ناڕەحەتی ویژدان یان دەروون، داخ، ئاخ‌وداخ(هەڵکێشان)، هەست بە گوناهـ، بەگوناهزانی، پێ‌گوناهـی
+کوردی: پەشیمانی، پاشگەزی، ڤەرگەڕ، ناڕەحەتی ویژدان یان دەروون، داخ، ئاخ‌وداخ(ھەڵکێشان)، ھەست بە گوناھـ، بەگوناھزانی، پێ‌گوناھـی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) هەستکردن بە تاوان سەبارەت بە شتێک"),
+                                  "١. (ھاوەڵناو) ھەستکردن بە تاوان سەبارەت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycompunction extends StatelessWidget {
                                             "He had lied to her without compunction."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "درۆی لەگەڵ کرد بەبێ هیچ پەشیمانییەک."),
+                                            "درۆی لەگەڵ کرد بەبێ ھیچ پەشیمانییەک."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycompunction extends StatelessWidget {
                                             "She felt no compunction about leaving her job."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بەبێ هیچ پەشیمانییەک نەکرد سەبارەت بە وازهێنان لە کارەکەی."),
+                                            "ھەستی بەبێ ھیچ پەشیمانییەک نەکرد سەبارەت بە وازھێنان لە کارەکەی."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compunction (Derived forms: compunctions)
+- Noun: compunction (derived forms: compunctions)
 1. A feeling of deep regret (usually for some misdeed) (= remorse, self-reproach)
 """,
   );
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    videoId: 'E2rtQFAibEA',
     startSeconds: 8110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H7haxkYwAaU?t=',
+    videoId: 'H7haxkYwAaU',
     startSeconds: 1822,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nlnhnb9phBY?t=',
+    videoId: 'nlnhnb9phBY',
     startSeconds: 2291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LFaTLCqBi4A?t=',
+    videoId: 'LFaTLCqBi4A',
     startSeconds: 660,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CCUOBDrk_u8?t=',
+    videoId: 'CCUOBDrk_u8',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/33XkJi0bJ4Y?t=',
+    videoId: '33XkJi0bJ4Y',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GGm0FQ6i74U?t=',
+    videoId: 'GGm0FQ6i74U',
     startSeconds: 1787,
     autoPlay: true,
     params: const YoutubePlayerParams(

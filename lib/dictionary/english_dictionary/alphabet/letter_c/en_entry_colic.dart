@@ -206,7 +206,7 @@ class EnglishEntrycolic extends StatelessWidget {
                                             "The baby's persistent crying was due to colic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گریانی بەردەوامی منداڵەکە بەهۆی ژانەزگ بوو."),
+                                            "گریانی بەردەوامی منداڵەکە بەھۆی ژانەزگ بوو."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colic (Derived forms: colics)
+- Noun: colic (derived forms: colics)
 1. Acute abdominal pain (especially in infants) (= intestinal colic, gripes, griping)
 """,
   );

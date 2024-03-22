@@ -194,7 +194,7 @@ class EnglishEntryconglomeration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تۆپەڵە، تۆپەڵک، کۆمەڵە، کۆمەڵکە، تێکەڵە، یەکگرتن، خڕاندن، خڕکردن، خڕهەڵدان، خڕەوەبوویی، گڵۆڵاندن، تۆپڵاخەکردن، تۆپەڵاندن، گڵۆڵەکراوی
+کوردی: تۆپەڵە، تۆپەڵک، کۆمەڵە، کۆمەڵکە، تێکەڵە، یەکگرتن، خڕاندن، خڕکردن، خڕھەڵدان، خڕەوەبوویی، گڵۆڵاندن، تۆپڵاخەکردن، تۆپەڵاندن، گڵۆڵەکراوی
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryconglomeration extends StatelessWidget {
                                             "There was a strange conglomeration of objects on the mantelpiece."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تێکەڵەیەکی نامۆ لە شت هەبوو لەسەر سەرکوورەکە."),
+                                            "تێکەڵەیەکی نامۆ لە شت ھەبوو لەسەر سەرکوورەکە."),
                                   ],
                                 ),
                               ),
@@ -342,7 +342,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conglomeration (Derived forms: conglomerations)
+- Noun: conglomeration (derived forms: conglomerations)
 1. A rounded spherical form (= conglobation)
  
 2. A sum total of many heterogenous things taken together (= aggregate, congeries)
@@ -380,7 +380,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zrjp_F5FSjo?t=',
+    videoId: 'Zrjp_F5FSjo',
     startSeconds: 610,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -405,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ii3Avr8SqiM?t=',
+    videoId: 'Ii3Avr8SqiM',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ht7MNqZT_hU?t=',
+    videoId: 'ht7MNqZT_hU',
     startSeconds: 1399,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L_Guz73e6fw?t=',
+    videoId: 'L_Guz73e6fw',
     startSeconds: 8257,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Md-SSKlhBGY?t=',
+    videoId: 'Md-SSKlhBGY',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MRjh4XVO4TE?t=',
+    videoId: 'MRjh4XVO4TE',
     startSeconds: 1863,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5gQWm5skyfc?t=',
+    videoId: '5gQWm5skyfc',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -194,7 +194,7 @@ class EnglishEntrycoalition extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوبەندی، هەڤال‌بەندی، هاوپەیمانی، هاوپەیمانی کاتی (نێوان پارتە سیاسی‌یەکان بە مەبەستی دامەزراندنی حکومەتێ)،	حکومەتی هاوبەندی،	تێک‌هەڵکێشان، کردنەیەک
+کوردی: ھاوبەندی، ھەڤال‌بەندی، ھاوپەیمانی، ھاوپەیمانی کاتی (نێوان پارتە سیاسی‌یەکان بە مەبەستی دامەزراندنی حکومەتێ)،	حکومەتی ھاوبەندی،	تێک‌ھەڵکێشان، کردنەیەک
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntrycoalition extends StatelessWidget {
                                             "The two parties have formed a coalition."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو پارتەکە هاوپەیمانێتییەکیان درووستکردووە."),
+                                            "دوو پارتەکە ھاوپەیمانێتییەکیان درووستکردووە."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycoalition extends StatelessWidget {
                                             "The two parties governed in coalition for four years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو پارتەکە بۆ چوار ساڵ بە هاوپەیمانی حکومڕانییان کرد."),
+                                            "دوو پارتەکە بۆ چوار ساڵ بە ھاوپەیمانی حکومڕانییان کرد."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycoalition extends StatelessWidget {
                                                     "They didn't rule out coalition with the Social Democrats."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەگەری هاوپەیمانییان لەگەڵ سۆشیال دیموکراتەکان نەخستەلاوە."),
+                                                    "ئەگەری ھاوپەیمانییان لەگەڵ سۆشیال دیموکراتەکان نەخستەلاوە."),
                                           ],
                                         ),
                                       ),
@@ -298,7 +298,7 @@ class EnglishEntrycoalition extends StatelessWidget {
                                                     "By forming a coalition, the rebels and the opposition parties defeated the government."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە درووستکردنی هاوپەیمانییەک یاخیبووان و پارتە ئۆپۆزسیۆنەکان شکستیان بە حکومەت هێنا."),
+                                                    "بە درووستکردنی ھاوپەیمانییەک یاخیبووان و پارتە ئۆپۆزسیۆنەکان شکستیان بە حکومەت ھێنا."),
                                           ],
                                         ),
                                       ),
@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coalition (Derived forms: coalitions)
+- Noun: coalition (derived forms: coalitions)
 1. An organization of people (or countries) involved in a pact or treaty (= alliance, alignment, alinement [non-standard])
  
 2. The state of being combined into one body (= fusion)

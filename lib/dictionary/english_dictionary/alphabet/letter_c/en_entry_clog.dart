@@ -208,7 +208,7 @@ class EnglishEntryclog extends StatelessWidget {
                                             "The narrow streets were clogged with traffic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەقامە تەسکەکان بە هاتووچۆ گیرابوون."),
+                                            "شەقامە تەسکەکان بە ھاتووچۆ گیرابوون."),
                                   ],
                                 ),
                               ),
@@ -392,7 +392,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clog (Derived forms: clogged, clogs, clogging)
+- Verb: clog (derived forms: clogged, clogs, clogging)
 1. Become or cause to become obstructed (= choke off, clog up, back up, congest, choke, foul)
 "The leaves clog our drains in the Fall";
  
@@ -409,7 +409,7 @@ ${englishMeaningConst.text}
  
 6. (dancing) dance a clog dance
 
-- Noun: clog (Derived forms: clogs)
+- Noun: clog (derived forms: clogs)
 1. Footwear usually with wooden soles (= geta, patten, sabot)
  
 2. Any object that acts as a hindrance or obstruction

@@ -38,7 +38,8 @@ class EnglishEntrycomplicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The issue is complicated by the fact that a vital document is missing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The issue is complicated by the fact that a vital document is missing."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcomplicates3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycomplicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("These events will greatly complicate the situation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These events will greatly complicate the situation."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcomplicates4(String languageCode) async {
@@ -191,10 +193,11 @@ class EnglishEntrycomplicate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) ئاڵۆزکردنی شت و سەختکردنی بۆ تێگەشتن"),
+                              text:
+                                  "١. (کردار) ئاڵۆزکردنی شت و سەختکردنی بۆ تێگەشتن"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +207,8 @@ class EnglishEntrycomplicate extends StatelessWidget {
                                         text:
                                             "I do not wish to complicate the task more than is necessary."),
                                     ExampleSentenceKurdish(
-                                        text: "نامەوێت ئەرکەکە زیاتر لەوەی پێویستە ئاڵۆز بکەم."),
+                                        text:
+                                            "نامەوێت ئەرکەکە زیاتر لەوەی پێویستە ئاڵۆز بکەم."),
                                   ],
                                 ),
                               ),
@@ -223,57 +227,59 @@ class EnglishEntrycomplicate extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The issue is complicated by the fact that a vital document is missing."),
-                          ExampleSentenceKurdish(
-                          text: "بابەتەکە ئاڵۆز بووە بەوەی کە بەڵگەنامەیەکی گرنگ ونە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcomplicates2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcomplicates2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The issue is complicated by the fact that a vital document is missing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە ئاڵۆز بووە بەوەی کە بەڵگەنامەیەکی گرنگ ونە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcomplicates2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcomplicates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "These events will greatly complicate the situation."),
-                          ExampleSentenceKurdish(
-                          text: "ئەم ڕووداوانە بە ئاستێکی زۆر دۆخەکە ئاڵۆز دەکەن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcomplicates3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcomplicates3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These events will greatly complicate the situation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڕووداوانە بە ئاستێکی زۆر دۆخەکە ئاڵۆز دەکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcomplicates3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcomplicates3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -357,7 +363,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: complicate (Derived forms: complicating, complicates, complicated)
+- Verb: complicate (derived forms: complicating, complicates, complicated)
 1. Make more complicated (= perplex)
 "There was a new development that complicated the matter";
  
@@ -395,7 +401,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    videoId: 'W2hRTTTpmr8',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +426,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1jm3K9cm3vI?t=',
+    videoId: '1jm3K9cm3vI',
     startSeconds: 1284,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +451,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jxNM4DGBRMU?t=',
+    videoId: 'jxNM4DGBRMU',
     startSeconds: 663,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +476,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l9HfiYOmsPk?t=',
+    videoId: 'l9HfiYOmsPk',
     startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +501,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eFReTj2KsM0?t=',
+    videoId: 'eFReTj2KsM0',
     startSeconds: 527,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +526,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YJQSuUZdcV4?t=',
+    videoId: 'YJQSuUZdcV4',
     startSeconds: 3226,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +551,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fsjvwQclGLo?t=',
+    videoId: 'fsjvwQclGLo',
     startSeconds: 277,
     autoPlay: true,
     params: const YoutubePlayerParams(

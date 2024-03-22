@@ -195,7 +195,7 @@ class EnglishEntrycoexistence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخی پێکەوەبوونی لە هەمان کات یان شوێندا"),
+                                  "١. (ناو) دۆخی پێکەوەبوونی لە ھەمان کات یان شوێندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coexistence (Derived forms: coexistences)
+- Noun: coexistence (derived forms: coexistences)
 1. Existing peacefully together
 """,
   );

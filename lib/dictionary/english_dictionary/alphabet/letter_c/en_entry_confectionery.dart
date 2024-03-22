@@ -196,7 +196,7 @@ class EnglishEntryconfectionery extends StatelessWidget {
 کوردی: شیرینی، شیرینی‌مەنی، شیرینی‌خانە، شیرینی‌فرۆشی، نوقڵ و شیرینی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) شیرینی، چکلێت، هتد"),
+                              text: "١. (ناو) شیرینی، چکلێت، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntryconfectionery extends StatelessWidget {
                                             "The children are not allowed to bring confectionery or crisps into school, only fruit."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان ڕێگەیان پێنادرێت شیرینی یان چپسی پەتاتە بهێنن بۆ قوتابخانە، تەنها میوە دێنن."),
+                                            "منداڵەکان ڕێگەیان پێنادرێت شیرینی یان چپسی پەتاتە بھێنن بۆ قوتابخانە، تەنھا میوە دێنن."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confectionery (Derived forms: confectioneries)
+- Noun: confectionery (derived forms: confectioneries)
 1. Candy and other sweets considered collectively (= candy [N. Amer])
 "the business decided to concentrate on confectionery and soft drinks";
  
@@ -408,7 +408,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HPtlS8BLatM?t=',
+    videoId: 'HPtlS8BLatM',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -433,7 +433,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lhoRAY7LmcY?t=',
+    videoId: 'lhoRAY7LmcY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MVDz_YiSf4M?t=',
+    videoId: 'MVDz_YiSf4M',
     startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ffzbfO0c5Qs?t=',
+    videoId: 'ffzbfO0c5Qs',
     startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kJQlmI8ETBg?t=',
+    videoId: 'kJQlmI8ETBg',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6lfb9PbJA6M?t=',
+    videoId: '6lfb9PbJA6M',
     startSeconds: 387,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DVCfmJQPwvw?t=',
+    videoId: 'DVCfmJQPwvw',
     startSeconds: 335,
     autoPlay: true,
     params: const YoutubePlayerParams(

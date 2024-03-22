@@ -398,11 +398,11 @@ class EnglishEntrycompare extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەراوردکاری، بەرهەڤ‌دان، هاوبەری، پێک‌گرتن، هەڵسەنگاندن
+کوردی: بەراوردکاری، بەرھەڤ‌دان، ھاوبەری، پێک‌گرتن، ھەڵسەنگاندن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) بەراوردکردنی شت یان کەس بۆ زانینی خاڵی هاوبەش و جیاوازی"),
+                                  "١. (کردار) بەراوردکردنی شت یان کەس بۆ زانینی خاڵی ھاوبەش و جیاوازی"),
                           Row(
                             children: [
                               const Expanded(
@@ -617,7 +617,7 @@ class EnglishEntrycompare extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) هاوشێوەی شتێک یان کەسێکی دیکە"),
+                              text: "٢. (کردار) ھاوشێوەی شتێک یان کەسێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -687,7 +687,7 @@ class EnglishEntrycompare extends StatelessWidget {
                                                     "The region's wines compare well with those from elsewhere in Germany."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "شەرابەکانی هەرێمەکە باشن بەراورد بە ئەوانەی دیکەی شوێنەکانی دیکەی ئەڵمانیا."),
+                                                    "شەرابەکانی ھەرێمەکە باشن بەراورد بە ئەوانەی دیکەی شوێنەکانی دیکەی ئەڵمانیا."),
                                           ],
                                         ),
                                       ),
@@ -717,7 +717,7 @@ class EnglishEntrycompare extends StatelessWidget {
                                                     "Few things compare with the joy of walking on a bright spring morning."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کەم شت بەراورد دەکرێن بە پیاسەیەکی بەیانیانی ڕۆشنی بەهار."),
+                                                    "کەم شت بەراورد دەکرێن بە پیاسەیەکی بەیانیانی ڕۆشنی بەھار."),
                                           ],
                                         ),
                                       ),
@@ -747,7 +747,7 @@ class EnglishEntrycompare extends StatelessWidget {
                                                     "These mountains do not compare with the Himalayas."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم چیایانە بەراورد ناکرێن بە زنجیرەکانی هێمالایا."),
+                                                    "ئەم چیایانە بەراورد ناکرێن بە زنجیرەکانی ھێمالایا."),
                                           ],
                                         ),
                                       ),
@@ -777,7 +777,7 @@ class EnglishEntrycompare extends StatelessWidget {
                                                     "Nothing compares with the sight of your child swimming for the first time."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هیچ بەراورد نابێت بە بینینی منداڵەکەت کە بۆ یەکەمجار مەلە دەکات."),
+                                                    "ھیچ بەراورد نابێت بە بینینی منداڵەکەت کە بۆ یەکەمجار مەلە دەکات."),
                                           ],
                                         ),
                                       ),
@@ -870,7 +870,7 @@ class EnglishEntrycompare extends StatelessWidget {
                                             "Some observers compare the situation to that of the early 1980s."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک لە توێژەران دۆخەکەیان بەوەی ساڵانی سەرەتای ١٩٨٠ ـکان بەراورد دەکەن."),
+                                            "ھەندێک لە توێژەران دۆخەکەیان بەوەی ساڵانی سەرەتای ١٩٨٠ ـکان بەراورد دەکەن."),
                                   ],
                                 ),
                               ),
@@ -969,7 +969,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compare (Derived forms: comparing, compared, compares)
+- Verb: compare (derived forms: comparing, compared, compares)
 1. Examine and note the similarities or differences of
 "John compared his haircut to his friend's"; "We compared notes after we had both seen the movie"
  
@@ -981,7 +981,7 @@ ${englishMeaningConst.text}
  
 4. To form the comparative or superlative form on an adjective or adverb
 
-- Noun: compare (Derived forms: compares)
+- Noun: compare (derived forms: compares)
 1. Qualities that are comparable (= comparison, equivalence, comparability)
 "beyond compare";
 """,

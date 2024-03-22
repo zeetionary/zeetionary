@@ -197,7 +197,7 @@ class EnglishEntryconservatory extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ژوورێک یان هەندێک جار بینایەک دیوار و سەربانی شووشەی هەیە و بەکاردێت بۆ دانیشتن و ڕوانین لە خۆر، و بۆ پاراستنی ڕووەک لە کەشی سارد"),
+                                  "١. (ناو) ژوورێک یان ھەندێک جار بینایەک دیوار و سەربانی شووشەی ھەیە و بەکاردێت بۆ دانیشتن و ڕوانین لە خۆر، و بۆ پاراستنی ڕووەک لە کەشی سارد"),
                           Row(
                             children: [
                               const Expanded(
@@ -230,7 +230,7 @@ class EnglishEntryconservatory extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) قوتابخانە یان کۆلێژێک تێیدا خەڵکی ڕاهێنانیان لەسەر میوزیک و شانۆ پێدەکرێت"),
+                                  "٢. (ناو) قوتابخانە یان کۆلێژێک تێیدا خەڵکی ڕاھێنانیان لەسەر میوزیک و شانۆ پێدەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -241,7 +241,7 @@ class EnglishEntryconservatory extends StatelessWidget {
                                             "She studied piano at the conservatory from a young age."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئامۆژگاکە هونەرییەکە پیانۆی خوێند لە تەمەنی گەنجییەوە."),
+                                            "لە ئامۆژگاکە ھونەرییەکە پیانۆی خوێند لە تەمەنی گەنجییەوە."),
                                   ],
                                 ),
                               ),
@@ -342,7 +342,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conservatory (Derived forms: conservatories)
+- Noun: conservatory (derived forms: conservatories)
 1. The faculty and students of a school specializing in one of the fine arts
  
 2. A schoolhouse with special facilities for fine arts (= conservatoire)
@@ -380,7 +380,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-ItV_e_mNT4?t=',
+    videoId: '-ItV_e_mNT4',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -405,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TfaMLqEh1qM?t=',
+    videoId: 'TfaMLqEh1qM',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0e8woEkKmG8?t=',
+    videoId: '0e8woEkKmG8',
     startSeconds: 2242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dlp_MgVJCYc?t=',
+    videoId: 'dlp_MgVJCYc',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zLxi1kzpkQY?t=',
+    videoId: 'zLxi1kzpkQY',
     startSeconds: 254,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c2z9zFBcZKU?t=',
+    videoId: 'c2z9zFBcZKU',
     startSeconds: 643,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cLIOw966fQY',
+    videoId: 'cLIOw966fQY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

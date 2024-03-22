@@ -196,7 +196,7 @@ class EnglishEntrycoffer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سندووقێکی بەهێزی گەورە کە لە کۆندا بۆ هەڵگرتنی پارە بەکاردەهات"),
+                                  "١. (ناو) سندووقێکی بەھێزی گەورە کە لە کۆندا بۆ ھەڵگرتنی پارە بەکاردەھات"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycoffer extends StatelessWidget {
                                             "She stored her jewelry in a wooden coffer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خشڵەکانی لە سندووقێکی داریندا هەڵگرت."),
+                                            "خشڵەکانی لە سندووقێکی داریندا ھەڵگرت."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntrycoffer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو پارەیەی کە حکومەتێک، دامەزراوەیەک، هتد هەیەتی"),
+                                  "٢. (ناو) ئەو پارەیەی کە حکومەتێک، دامەزراوەیەک، ھتد ھەیەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coffer (Derived forms: coffers)
+- Noun: coffer (derived forms: coffers)
 1. An ornamental sunken panel in a ceiling or dome (= caisson, lacunar)
  
 2. A chest especially for storing valuables

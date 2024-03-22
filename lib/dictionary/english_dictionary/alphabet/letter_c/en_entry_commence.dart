@@ -231,7 +231,7 @@ Widget build(BuildContext context) {
                         text:
                         "I will be on leave during the week commencing 15 February."),
                         ExampleSentenceKurdish(
-                        text: "لە مۆڵەتدا دەبم لە ماوەی هەفتەکەدا لە ١٥ ـی شوباتەوە."),
+                        text: "لە مۆڵەتدا دەبم لە ماوەی ھەفتەکەدا لە ١٥ ـی شوباتەوە."),
                         ],
                         ),
                         ),
@@ -384,7 +384,7 @@ Future<void> stopSpeaking() async {
 // Create an instance of EnglishMeaningConst with the desired text
 final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
   text: """
-- Verb: commence (Derived forms: commenced, commencing, commences)
+- Verb: commence (derived forms: commenced, commencing, commences)
 1. Take the first step or steps in carrying out an action (= get down, begin, get, start out, start, set about, set out)
  
 2. Set in motion, cause to start (= begin, lead off, start)

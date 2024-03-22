@@ -194,7 +194,7 @@ class EnglishEntrycommemoration extends StatelessWidget {
 کوردی: یادکردنەوە، بیرئانین
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) ئاهەنگێک، چالاکییەک، هتد کە بۆ یادکردنەوەی شتێکە"),
+                              text: "١. (ناو) ئاھەنگێک، چالاکییەک، ھتد کە بۆ یادکردنەوەی شتێکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commemoration (Derived forms: commemorations)
+- Noun: commemoration (derived forms: commemorations)
 1. A ceremony to honour the memory of someone or something (= memorialization, memorialisation [Brit])
  
 2. A recognition of meritorious service (= memorial, remembrance)

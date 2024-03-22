@@ -237,7 +237,7 @@ class EnglishEntrycoffee extends StatelessWidget {
                                             "Would you get some coffee when you go shopping?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک قاوە دێنیت کە دەچیتە بازاڕکردن؟"),
+                                            "ھەندێک قاوە دێنیت کە دەچیتە بازاڕکردن؟"),
                                   ],
                                 ),
                               ),
@@ -478,7 +478,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coffee (Derived forms: coffees)
+- Noun: coffee (derived forms: coffees)
 1. A beverage consisting of an infusion of ground coffee beans (= java [N. Amer, informal], joe [N. Amer, informal])
 "he ordered a cup of coffee";
  

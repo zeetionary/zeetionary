@@ -191,7 +191,7 @@ class EnglishEntrycoincidental extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بەپێی ڕێکەوت، لە خۆوە، هەڵکەوتی، (خۆ)شانسی، بێ‌بەرنامە، هەرواڕووداو
+کوردی: بەپێی ڕێکەوت، لە خۆوە، ھەڵکەوتی، (خۆ)شانسی، بێ‌بەرنامە، ھەرواڕووداو
 """),
                           const DefinitionKurdish(
                               text:

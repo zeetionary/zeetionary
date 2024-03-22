@@ -192,11 +192,11 @@ class EnglishEntrycompilation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نووسین، دانان، ڕێکخستن، ئامادەکردن، ئامادەکاری، بەرهەڤ‌کاری،	کۆکردنەوە، خڕکردنەوە،	کۆمەڵە
+کوردی: نووسین، دانان، ڕێکخستن، ئامادەکردن، ئامادەکاری، بەرھەڤ‌کاری،	کۆکردنەوە، خڕکردنەوە،	کۆمەڵە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کۆکراوەیەکم بەتایبەتی هی پارچە میوزیک یان نووسین، کە لە سەرچاوەی جیاوازەوە وەرگیراون و کۆکراونەتەوە"),
+                                  "١. (ناو) کۆکراوەیەکم بەتایبەتی ھی پارچە میوزیک یان نووسین، کە لە سەرچاوەی جیاوازەوە وەرگیراون و کۆکراونەتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compilation (Derived forms: compilations)
+- Noun: compilation (derived forms: compilations)
 1. Something that is compiled (as into a single book or file) (= digest)
  
 2. The act of compiling (as into a single book, file or list) (= compiling)
@@ -378,7 +378,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/44HXLCsdIk8?t=',
+    videoId: '44HXLCsdIk8',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -403,7 +403,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k4vRFodAqWo?t=',
+    videoId: 'k4vRFodAqWo',
     startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9UHIWVtAdhY?t=',
+    videoId: '9UHIWVtAdhY',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lDeFSOUHdH4?t=',
+    videoId: 'lDeFSOUHdH4',
     startSeconds: 1185,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Urgvf8d2PA?t=',
+    videoId: '7Urgvf8d2PA',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UG61a5vjxuI?t=',
+    videoId: 'UG61a5vjxuI',
     startSeconds: 610,
     autoPlay: true,
     params: const YoutubePlayerParams(

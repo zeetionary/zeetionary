@@ -205,7 +205,7 @@ class EnglishEntryconjuror extends StatelessWidget {
                                             "It’s a mystery to me how the conjuror made that rabbit appear."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نهێنییەکە لام کە چۆن سیحربازەکە وایکرد ئەو کەروێشکە دەربکەوێت."),
+                                            "نھێنییەکە لام کە چۆن سیحربازەکە وایکرد ئەو کەروێشکە دەربکەوێت."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conjuror (Derived forms: conjurors)
+- Noun: conjuror (derived forms: conjurors)
 1. Someone who performs magic tricks to amuse an audience (= magician, prestidigitator, conjurer, illusionist)
  
 2. A witch doctor who practices conjury (= conjurer, conjure man)
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DTQA2ONgOlE?t=',
+    videoId: 'DTQA2ONgOlE',
     startSeconds: 2579,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5QjUlc-8GJU?t=',
+    videoId: '5QjUlc-8GJU',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9hDDwBEobtk?t=',
+    videoId: '9hDDwBEobtk',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m2nyEyGtUjw?t=',
+    videoId: 'm2nyEyGtUjw',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fy-ZPq3EpRk?t=',
+    videoId: 'Fy-ZPq3EpRk',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j_QMsRn_Fuw?t=',
+    videoId: 'j_QMsRn_Fuw',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/syOvelxWcbA?t=',
+    videoId: 'syOvelxWcbA',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -195,7 +195,7 @@ class EnglishEntryclosedshop extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کارگەیەک، بازرگانییەک، هتد کە هەموو کارمەندانی دەبێت سەر بە یەک سەندیکا بن"),
+                                  "١. (ناو) کارگەیەک، بازرگانییەک، ھتد کە ھەموو کارمەندانی دەبێت سەر بە یەک سەندیکا بن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclosedshop extends StatelessWidget {
                                             "Working in a closed shop had advantages and disadvantages."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارکردن لە دامەزراوەی داخراودا دەکرێت سوود و زیانی خۆی هەبێت."),
+                                            "کارکردن لە دامەزراوەی داخراودا دەکرێت سوود و زیانی خۆی ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: closed shop (Derived forms: closed shops)
+- Noun: closed shop (derived forms: closed shops)
 1. A company that hires only union members
 """,
   );

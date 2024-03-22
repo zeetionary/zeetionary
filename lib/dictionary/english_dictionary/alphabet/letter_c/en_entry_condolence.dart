@@ -192,7 +192,7 @@ class EnglishEntrycondolence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوخەمی، دڵدانەوە، دڵنەوایی، دڵخۆشی‌دانەوە، هاوسۆزی، خەم‌خۆری،	سەرەخۆشی، پرسە
+کوردی: ھاوخەمی، دڵدانەوە، دڵنەوایی، دڵخۆشی‌دانەوە، ھاوسۆزی، خەم‌خۆری،	سەرەخۆشی، پرسە
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycondolence extends StatelessWidget {
                                             "Our condolences go to his wife and family."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوخەمیمان هەیە بۆ هاوژین و خێزانەکەی."),
+                                            "ھاوخەمیمان ھەیە بۆ ھاوژین و خێزانەکەی."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycondolence extends StatelessWidget {
                                             "Dignitaries from all over the world came to offer their condolences."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شکۆمەندان لە هەموو جیهانەوە هاتن بۆ پێشکەشکردنی هاوخەمییان."),
+                                            "شکۆمەندان لە ھەموو جیھانەوە ھاتن بۆ پێشکەشکردنی ھاوخەمییان."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condolence (Derived forms: condolences)
+- Noun: condolence (derived forms: condolences)
 1. An expression of sympathy with another's grief (= commiseration)
 "they sent their condolences";
 """,
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xRyPWG9PTm4?t=',
+    videoId: 'xRyPWG9PTm4',
     startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8tT3FhOA4-g?t=',
+    videoId: '8tT3FhOA4-g',
     startSeconds: 866,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vS7hMricwm0?t=',
+    videoId: 'vS7hMricwm0',
     startSeconds: 420,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yiER4rUrGN8?t=',
+    videoId: 'yiER4rUrGN8',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GyD8aTwrGo8?t=',
+    videoId: 'GyD8aTwrGo8',
     startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__edp8NgPx0?t=',
+    videoId: '__edp8NgPx0',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lo1HRGl1CvE?t=',
+    videoId: 'lo1HRGl1CvE',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

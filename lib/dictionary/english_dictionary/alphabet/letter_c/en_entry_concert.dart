@@ -192,7 +192,7 @@ class EnglishEntryconcert extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆنسێرت، ئاهەنگ،	ڕێک‌کەوتن، پێکهاتن، سازان، گونجان، کۆکی، هاوکۆکی
+کوردی: کۆنسێرت، ئاھەنگ،	ڕێک‌کەوتن، پێکھاتن، سازان، گونجان، کۆکی، ھاوکۆکی
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کۆنسێرت؛ نمایشێکی گشتی میوزیکی"),
@@ -332,13 +332,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concert (Derived forms: concerts)
+- Noun: concert (derived forms: concerts)
 1. A performance of music by players or singers not involving theatrical staging
  
 2. Harmony of people's opinions, actions or characters (= agreement, accord)
 "the two parties were in concert";
 
-- Verb: concert (Derived forms: concerts, concerting, concerted)
+- Verb: concert (derived forms: concerts, concerting, concerted)
 1. Contrive (a plan) by mutual agreement
  
 2. Settle by agreement
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5AgiGDQmMLs?t=',
+    videoId: '5AgiGDQmMLs',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Va3NWThh3ks?t=',
+    videoId: 'Va3NWThh3ks',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kyetm0ZWDsM?t=',
+    videoId: 'Kyetm0ZWDsM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mkk07RUh9fM?t=',
+    videoId: 'Mkk07RUh9fM',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bm6PKuye4zc?t=',
+    videoId: 'bm6PKuye4zc',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MY8AB1wYOtg?t=',
+    videoId: 'MY8AB1wYOtg',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EwUuAAn7z6Y?t=',
+    videoId: 'EwUuAAn7z6Y',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(

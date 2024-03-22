@@ -195,7 +195,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زۆر، سەنگی، هەڵپێچان، پشتەملە، پشتەملێ، تەنگەتاو، جەور، ناچارکردن، زۆرەملێ، زۆری، زۆردارەکی، بەدەس خۆنەبوو
+کوردی: زۆر، سەنگی، ھەڵپێچان، پشتەملە، پشتەملێ، تەنگەتاو، جەور، ناچارکردن، زۆرەملێ، زۆری، زۆردارەکی، بەدەس خۆنەبوو
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                                             "You are under no compulsion to pay immediately."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەژێر هیچ زۆرەملێیەکدا نیت کە زوو پارە بدەیت."),
+                                            "لەژێر ھیچ زۆرەملێیەکدا نیت کە زوو پارە بدەیت."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                                             "There are no compulsions on students to attend classes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ فشار لەسەر خوێندکاران نییە بچنە وانەکانەوە."),
+                                            "ھیچ فشار لەسەر خوێندکاران نییە بچنە وانەکانەوە."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) حەزێکی زۆر بۆ کردنی شتێک، بە تایبەتی شتێکی گەمژانە، مەترسیدار، یان هەڵە"),
+                                  "٢. (ناو) حەزێکی زۆر بۆ کردنی شتێک، بە تایبەتی شتێکی گەمژانە، مەترسیدار، یان ھەڵە"),
                           Row(
                             children: [
                               const Expanded(
@@ -297,7 +297,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                                             "He felt a great compulsion to tell her everything."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە هاندەرێکی زۆر کرد کە هەموو شتێکی پێ بڵێت."),
+                                            "ھەستی بە ھاندەرێکی زۆر کرد کە ھەموو شتێکی پێ بڵێت."),
                                   ],
                                 ),
                               ),
@@ -325,7 +325,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                                             "He felt a great compulsion to drive too fast."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە پاڵنەرێکی بەهێز کرد کە خێرا لێبخوڕێت."),
+                                            "ھەستی بە پاڵنەرێکی بەھێز کرد کە خێرا لێبخوڕێت."),
                                   ],
                                 ),
                               ),
@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compulsion (Derived forms: compulsions)
+- Noun: compulsion (derived forms: compulsions)
 1. An urge to do or say something that might be better left undone or unsaid (= irresistible impulse)
 "he felt a compulsion to babble on about the accident";
  
@@ -465,7 +465,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
+    videoId: 'Sbp_EeBk-As',
     startSeconds: 1074,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 1245,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TDJfNgGcbTI?t=',
+    videoId: 'TDJfNgGcbTI',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PhQksV8fbKw?t=',
+    videoId: 'PhQksV8fbKw',
     startSeconds: 2839,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xRVtFbBxkzU?t=',
+    videoId: 'xRVtFbBxkzU',
     startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZhZy_r11Rx4?t=',
+    videoId: 'ZhZy_r11Rx4',
     startSeconds: 337,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wmTXqRf5V-Y?t=',
+    videoId: 'wmTXqRf5V-Y',
     startSeconds: 839,
     autoPlay: true,
     params: const YoutubePlayerParams(

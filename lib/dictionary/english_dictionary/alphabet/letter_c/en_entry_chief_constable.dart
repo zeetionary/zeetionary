@@ -205,7 +205,7 @@ class EnglishEntrychiefconstable extends StatelessWidget {
                                             "He was appointed as acting chief constable following the retirement of his predecessor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک بەڕێوبەری کاربەڕێکەری پۆلیس دانرا لەدوای خانەنشینبوونی ئەوەی پێشووتری."),
+                                            "وەک بەڕێوبەری کاربەڕێکەری پۆلیس دانرا لە دوای خانەنشینبوونی ئەوەی پێشووتری."),
                                   ],
                                 ),
                               ),

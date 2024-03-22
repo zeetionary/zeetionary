@@ -206,7 +206,7 @@ class EnglishEntryconsequential extends StatelessWidget {
                                             "We need to act now to avoid a recession and the consequential damage that would follow."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت ئێستا هەنگاو بنێین بۆ ڕێگری لە قەیرانێک و زیانی لێوەبووی کە بە دوایدا دێت."),
+                                            "دەبێت ئێستا ھەنگاو بنێین بۆ ڕێگری لە قەیرانێک و زیانی لێوەبووی کە بە دوایدا دێت."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntryconsequential extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) گرنگ؛ هەبوونی ئەنجامی گرنگ"),
+                              text: "٢. (ھاوەڵناو) گرنگ؛ ھەبوونی ئەنجامی گرنگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryconsequential extends StatelessWidget {
                                             "The report discusses a number of consequential matters that are yet to be decided."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاپۆرتەکە باس لە ژمارەیەک لە بابەتی گرنگ دەکات کە هێشتا بڕیاریان لەسەر دەدرێت."),
+                                            "ڕاپۆرتەکە باس لە ژمارەیەک لە بابەتی گرنگ دەکات کە ھێشتا بڕیاریان لەسەر دەدرێت."),
                                   ],
                                 ),
                               ),
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 764,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AoOeTBD1iEQ',
+    videoId: 'AoOeTBD1iEQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3oBCtTv6yOw?t=',
+    videoId: '3oBCtTv6yOw',
     startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DBG1Wgg32Ok?t=',
+    videoId: 'DBG1Wgg32Ok',
     startSeconds: 234,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jxNM4DGBRMU?t=',
+    videoId: 'jxNM4DGBRMU',
     startSeconds: 918,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/plHRRFHZ_f0?t=',
+    videoId: 'plHRRFHZ_f0',
     startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jm6CnP8CsCw?t=',
+    videoId: 'Jm6CnP8CsCw',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(

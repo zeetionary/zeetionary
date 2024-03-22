@@ -195,7 +195,7 @@ class EnglishEntrycogwheel extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ویلێک کە زنجیرەیەک لە ددانی هەیە و هەریەکیان دەگونجێت لەگەڵ ئەوەی دواتریدا و یارمەتی دەدات لە جوڵاندا"),
+                                  "١. (ناو) ویلێک کە زنجیرەیەک لە ددانی ھەیە و ھەریەکیان دەگونجێت لەگەڵ ئەوەی دواتریدا و یارمەتی دەدات لە جوڵاندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cogwheel (Derived forms: cogwheels)
+- Noun: cogwheel (derived forms: cogwheels)
 1. A toothed wheel that engages another toothed mechanism in order to change the speed or direction of transmitted motion (= gear, gear wheel, geared wheel)
 """,
   );

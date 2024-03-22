@@ -233,7 +233,7 @@ class EnglishEntryclod extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Don't be such a clod!"),
                                     ExampleSentenceKurdish(
-                                        text: "هێندە گەمژە مەبە!"),
+                                        text: "ھێندە گەمژە مەبە!"),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clod (Derived forms: clods)
+- Noun: clod (derived forms: clods)
 1. A compact mass (= ball, glob, lump, clump, chunk)
 "a clod of mud caught him on the shoulder";
  

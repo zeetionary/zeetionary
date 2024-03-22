@@ -194,11 +194,11 @@ class EnglishEntrycollaboration extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یارمەتی‌دان، هاوکاری، کاربرا، ئالیکاری، زبارە، هەرەوەز،	سیخوڕی، شۆفاری، وڵات‌فرۆشی، خەیانەت، هاودەستی لەگەڵ دوژمن
+کوردی: یارمەتی‌دان، ھاوکاری، کاربرا، ئالیکاری، زبارە، ھەرەوەز،	سیخوڕی، شۆفاری، وڵات‌فرۆشی، خەیانەت، ھاودەستی لەگەڵ دوژمن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کارکردن لەگەڵ کەسێک یان گرووپێک بۆ بەرهەمهێنان یان درووستکردنی شتێک"),
+                                  "١. (ناو) کارکردن لەگەڵ کەسێک یان گرووپێک بۆ بەرھەمھێنان یان درووستکردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                                             "It was a collaboration that produced extremely useful results."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوکارییەک بوو ئەنجامی تەواو بەسوودی بەرهەمهێنا."),
+                                            "ھاوکارییەک بوو ئەنجامی تەواو بەسوودی بەرھەمھێنا."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                                             "She wrote the book in collaboration with one of her students."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کتێبەکەی بە هاوکاری لەگەڵ یەکێک لە خوێندکارەکانی نووسی."),
+                                            "کتێبەکەی بە ھاوکاری لەگەڵ یەکێک لە خوێندکارەکانی نووسی."),
                                   ],
                                 ),
                               ),
@@ -260,7 +260,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) شتێک کە بە هاوکاری بەرهەمهاتووە"),
+                              text: "٢. (ناو) شتێک کە بە ھاوکاری بەرھەمھاتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -271,7 +271,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                                             "This mission was a collaboration between the National Space Agency of Japan and NASA."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم ئەرکە هاوبەشییەک بوو لە نێوان دەزگای ئاسمانەوانی نیشتیمانی ژاپۆن و ناسا بوو."),
+                                            "ئەم ئەرکە ھاوبەشییەک بوو لە نێوان دەزگای ئاسمانەوانی نیشتیمانی ژاپۆن و ناسا بوو."),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کاری یەرمەتیدانی هێزی داگیرکەری دووژمن لە کاتی جەنگدا"),
+                                  "٣. (ناو) کاری یەرمەتیدانی ھێزی داگیرکەری دووژمن لە کاتی جەنگدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -304,7 +304,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                                             "She was accused of collaboration."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هاودەستی لەگەڵ دووژمن تۆمەتبارکرا."),
+                                            "بە ھاودەستی لەگەڵ دووژمن تۆمەتبارکرا."),
                                   ],
                                 ),
                               ),
@@ -405,7 +405,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collaboration (Derived forms: collaborations)
+- Noun: collaboration (derived forms: collaborations)
 1. Act of working jointly (= coaction)
 "they worked either in collaboration or independently";
  

@@ -208,7 +208,7 @@ class EnglishEntrycling extends StatelessWidget {
                                         text:
                                             "Leaves still clung to the branches."),
                                     ExampleSentenceKurdish(
-                                        text: "گەڵا هێشتا لکاون بە لقەکانەوە."),
+                                        text: "گەڵا ھێشتا لکاون بە لقەکانەوە."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ class EnglishEntrycling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) مانەوە نزیک لە کەسێک، بەتایبەتی بەهۆی ئەوەی لە ڕووی دەروونییەوە پێویستت پێیانە"),
+                                  "٣. (کردار) مانەوە نزیک لە کەسێک، بەتایبەتی بەھۆی ئەوەی لە ڕووی دەروونییەوە پێویستت پێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -350,7 +350,7 @@ class EnglishEntrycling extends StatelessWidget {
                                             "After her mother's death, Sara clung to her aunt more than ever."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دوای مەرگی دایکی، سارا زیاتر لە هەر کات لە نزیک پووری دەمایەوە."),
+                                            "لە دوای مەرگی دایکی، سارا زیاتر لە ھەر کات لە نزیک پووری دەمایەوە."),
                                   ],
                                 ),
                               ),
@@ -449,7 +449,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cling (Derived forms: clings, clinging, clung)
+- Verb: cling (derived forms: clings, clinging, clung)
 1. Come or be in close contact with; stick or hold together and resist separation (= cleave, adhere, stick, cohere)
 "The dress clings to her body";
  
@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
 3. Hold on tightly or tenaciously (= hang)
 "The child clung to his mother's apron";
 
-- Noun: cling (Derived forms: clings)
+- Noun: cling (derived forms: clings)
 1. Fruit (especially peach) whose flesh adheres strongly to the pit (= clingstone)
 """,
   );

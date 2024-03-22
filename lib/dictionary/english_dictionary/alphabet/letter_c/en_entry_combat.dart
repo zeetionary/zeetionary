@@ -195,7 +195,7 @@ class EnglishEntrycombat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: شەڕ، جەنگ، هەرڤ، سواژ، مەیدان‌داری، نەبەرد، خەبات، شەڕوکێشە پێک‌هەڵپڕژان پێکادان ئاوقەی یەک‌بوون بەگژیەک‌داچوون تێک‌هەڵچوون
+// کوردی: شەڕ، جەنگ، ھەرڤ، سواژ، مەیدان‌داری، نەبەرد، خەبات، شەڕوکێشە پێک‌ھەڵپڕژان پێکادان ئاوقەی یەک‌بوون بەگژیەک‌داچوون تێک‌ھەڵچوون
 // """),
                           const DefinitionKurdish(
                               text:
@@ -236,7 +236,7 @@ class EnglishEntrycombat extends StatelessWidget {
                                             "Knightly combats were only a very small part of medieval warfare."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووبەڕووبوونەوەی سوارەکان تەنها بەشێکی کەمی جەنگی سەردەمانی ناوەڕاست بوو."),
+                                            "ڕووبەڕووبوونەوەی سوارەکان تەنھا بەشێکی کەمی جەنگی سەردەمانی ناوەڕاست بوو."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrycombat extends StatelessWidget {
                                             "The soldiers are in combat with rebel forces."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەربازەکان لە شەڕدان لەگەڵ هێزە یاخییەکان."),
+                                            "سەربازەکان لە شەڕدان لەگەڵ ھێزە یاخییەکان."),
                                   ],
                                 ),
                               ),
@@ -295,7 +295,7 @@ class EnglishEntrycombat extends StatelessWidget {
                                             "Measures to combat violent crime have been proposed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەنگاو پێشنیاز کراوە بۆ ڕێگری لە تاوانی توندوتیژی."),
+                                            "ھەنگاو پێشنیاز کراوە بۆ ڕێگری لە تاوانی توندوتیژی."),
                                   ],
                                 ),
                               ),
@@ -353,7 +353,7 @@ class EnglishEntrycombat extends StatelessWidget {
                                             "The security forces were unwilling to combat the insurgents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزەکانی ئاسایش نائامادە بوون شەڕ دژ بە یاخیبووان بکەن."),
+                                            "ھێزەکانی ئاسایش نائامادە بوون شەڕ دژ بە یاخیبووان بکەن."),
                                   ],
                                 ),
                               ),
@@ -452,13 +452,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: combat (Derived forms: combats)
+- Noun: combat (derived forms: combats)
 1. (military) an engagement fought between two military forces (= armed combat)
  
 2. The act of fighting; any contest or struggle (= fight, fighting, scrap)
 "a combat broke out at the hockey game";
 
-- Verb: combat (Derived forms: combatting, combatted, combated, combating, combats)
+- Verb: combat (derived forms: combatting, combatted, combated, combating, combats)
 1. Fight against; clash with (= battle)
 "The Kurds are combating Iraqi troops in Northern Iraq"; "We must combat the prejudices against other races";
 """,

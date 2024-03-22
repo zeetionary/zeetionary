@@ -193,11 +193,11 @@ class EnglishEntrycomparable extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەبەراوردهاتوو، پێک‌گیراو، هەڵدەسەنگێنرێ،	هاوشێوە، لێک‌چوو
+کوردی: لەبەراوردھاتوو، پێک‌گیراو، ھەڵدەسەنگێنرێ،	ھاوشێوە، لێک‌چوو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) هاوشێوە لەگەڵ شتێک/کەسێکی دیکە"),
+                                  "١. (ھاوەڵناو) ھاوشێوە لەگەڵ شتێک/کەسێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycomparable extends StatelessWidget {
                                             "A comparable house in the south of the city would cost twice as much."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خانوویەکی هاوشێوە لە باشووری شارەکە دوو هێندەی تێدەچێت."),
+                                            "خانوویەکی ھاوشێوە لە باشووری شارەکە دوو ھێندەی تێدەچێت."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycomparable extends StatelessWidget {
                                             "The situation in the US is not directly comparable to that in the UK."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆخەکە لە ئەمریکا ڕاستەوخۆ هاوشێوە نییە لەگەڵ ئەوەی بەریتانیا."),
+                                            "دۆخەکە لە ئەمریکا ڕاستەوخۆ ھاوشێوە نییە لەگەڵ ئەوەی بەریتانیا."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrycomparable extends StatelessWidget {
                                             "The two machines are comparable in size."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو ئامێرەکە هاوشێوەن لە قەبارەدا."),
+                                            "دوو ئامێرەکە ھاوشێوەن لە قەبارەدا."),
                                   ],
                                 ),
                               ),

@@ -192,11 +192,11 @@ class EnglishEntrycommuter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاتووچۆکەری ڕۆژانە، ڕێبواری هەر ڕۆژە
+کوردی: ھاتووچۆکەری ڕۆژانە، ڕێبواری ھەر ڕۆژە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە هەموو ڕۆژێکی کارکردن هاتووچۆ دەکات بۆ سەر کارەکەی"),
+                                  "١. (ناو) کەسێک کە ھەموو ڕۆژێکی کارکردن ھاتووچۆ دەکات بۆ سەر کارەکەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycommuter extends StatelessWidget {
                                             "The five o’clock train is always packed with commuters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەمەندەفەری کاتژمێر پێنج هەمیشە پڕە لە هاتووچۆکەرانی ڕۆژانە."),
+                                            "شەمەندەفەری کاتژمێر پێنج ھەمیشە پڕە لە ھاتووچۆکەرانی ڕۆژانە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycommuter extends StatelessWidget {
                                             "Commuter services are under a greater strain than ever before."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خزمەتگووزارییەکانی هاتووچۆ زیاتر لە هەر کاتێکی دیکە لەژێر پەستانی زیاترن."),
+                                            "خزمەتگووزارییەکانی ھاتووچۆ زیاتر لە ھەر کاتێکی دیکە لەژێر پەستانی زیاترن."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commuter (Derived forms: commuters)
+- Noun: commuter (derived forms: commuters)
 1. A passenger train that is ridden primarily by passengers who travel regularly from one place to another (= commuter train)
  
 3. Someone who travels regularly from home in a suburb to work in a city

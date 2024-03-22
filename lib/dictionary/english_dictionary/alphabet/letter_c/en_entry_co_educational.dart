@@ -191,10 +191,11 @@ class EnglishEntrycoeducational extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خوێندنی تێکەڵ، هاوفێری، هاوپەروەردە (کچ و کوڕ)
+کوردی: خوێندنی تێکەڵ، ھاوفێری، ھاوپەروەردە (کچ و کوڕ)
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) سیستەمی خوێندن کە تێیدا کچ و کوڕ پێکەوە دەخوێنن"),
+                              text:
+                                  "١. (ھاوەڵناو) سیستەمی خوێندن کە تێیدا کچ و کوڕ پێکەوە دەخوێنن"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +205,8 @@ class EnglishEntrycoeducational extends StatelessWidget {
                                         text:
                                             "The school has now made the decision to go fully co-educational."),
                                     ExampleSentenceKurdish(
-                                        text: "قوتابخانەکە بڕیاریداوە بە تەواوی ببێت بە سیستەمی تێکەڵاو."),
+                                        text:
+                                            "قوتابخانەکە بڕیاریداوە بە تەواوی ببێت بە سیستەمی تێکەڵاو."),
                                   ],
                                 ),
                               ),
@@ -212,10 +214,12 @@ class EnglishEntrycoeducational extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcoeducationals1("en-GB"),
+                                    onPressed: () =>
+                                        speakcoeducationals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcoeducationals1("en-US"),
+                                    onPressed: () =>
+                                        speakcoeducationals1("en-US"),
                                   ),
                                 ],
                               ),

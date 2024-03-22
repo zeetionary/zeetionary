@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clergyman (Derived forms: clergymen)
+- Noun: clergyman (derived forms: clergymen)
 1. A member of the clergy and a spiritual leader of the Christian Church (= reverend, man of the cloth)
 """,
   );

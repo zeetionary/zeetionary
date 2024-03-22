@@ -194,7 +194,7 @@ class EnglishEntryclout extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مشت، لێدان، پێاکێشان،	(خاڵی) نیشانە، ئامانج،	هێز، دەسەڵات، کاریگەری، دەس‌ڕۆیشتوویی،	ناڵ،	کۆنە، پەڕۆکۆن
+کوردی: مشت، لێدان، پێاکێشان،	(خاڵی) نیشانە، ئامانج،	ھێز، دەسەڵات، کاریگەری، دەس‌ڕۆیشتوویی،	ناڵ،	کۆنە، پەڕۆکۆن
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دەسەڵات و کاریگەری"),
@@ -208,7 +208,7 @@ class EnglishEntryclout extends StatelessWidget {
                                             "I knew his opinion carried a lot of clout with them."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەمزانی بۆچوونی کاریگەری زۆری هەیە لەسەریان."),
+                                            "دەمزانی بۆچوونی کاریگەری زۆری ھەیە لەسەریان."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntryclout extends StatelessWidget {
                                             "The companies used their clout to influence policy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکان دەسەڵاتیان بەکارهێنا بۆ کاریگەری لەسەر سیاسەتەکان."),
+                                            "کۆمپانیاکان دەسەڵاتیان بەکارھێنا بۆ کاریگەری لەسەر سیاسەتەکان."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntryclout extends StatelessWidget {
                                         text:
                                             "He gives the ball an almighty clout."),
                                     ExampleSentenceKurdish(
-                                        text: "لێدانێکی بەهێزی لە تۆپەکە دا."),
+                                        text: "لێدانێکی بەھێزی لە تۆپەکە دا."),
                                   ],
                                 ),
                               ),
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 4. (boxing) a blow with the fist (= punch, poke, lick, biff [informal], slug, dong [Austral, NZ, informal])
 "I gave him a clout on his nose";
 
-- Verb: clout (Derived forms: clouts, clouting, clouted)
+- Verb: clout (derived forms: clouts, clouting, clouted)
 1. Strike hard, especially with the fist
 "He clouted his attacker"
 """,

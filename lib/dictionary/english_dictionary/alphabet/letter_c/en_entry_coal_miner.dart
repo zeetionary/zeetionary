@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coal miner (Derived forms: coal miners)
+- Noun: coal miner (derived forms: coal miners)
 1. Someone who works in a coal mine (= collier, pitman)
 """,
   );

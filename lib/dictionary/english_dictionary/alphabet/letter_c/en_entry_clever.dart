@@ -238,7 +238,7 @@ class EnglishEntryclever extends StatelessWidget {
                                         text:
                                             "They're not clever enough to find the code."),
                                     ExampleSentenceKurdish(
-                                        text: "هێندە زیرەک نین کۆدەکە بزانن."),
+                                        text: "ھێندە زیرەک نین کۆدەکە بزانن."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntryclever extends StatelessWidget {
                                                     "Judy has never been very clever, but she tries hard."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "جودی هێندە هێژا نەبووە، بەڵام بە سەختی هەوڵ دەدات."),
+                                                    "جودی ھێندە ھێژا نەبووە، بەڵام بە سەختی ھەوڵ دەدات."),
                                           ],
                                         ),
                                       ),
@@ -324,7 +324,7 @@ class EnglishEntryclever extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) هەبوونی شارەزایی"),
+                              text: "٢. (ھاوەڵناو) ھەبوونی شارەزایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,7 +335,7 @@ class EnglishEntryclever extends StatelessWidget {
                                             "He's always been clever at chess."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە لە شەترەنجدا شارەزا بووە."),
+                                            "ھەمیشە لە شەترەنجدا شارەزا بووە."),
                                   ],
                                 ),
                               ),
@@ -383,7 +383,7 @@ class EnglishEntryclever extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) هەبوونی زیرەکی یان شارەزایی لە بیرکردنەوە لە بیرۆکەیەک، کێشان و دانانی دیزاینێک، هتد"),
+                                  "٣. (ھاوەڵناو) ھەبوونی زیرەکی یان شارەزایی لە بیرکردنەوە لە بیرۆکەیەک، کێشان و دانانی دیزاینێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -420,7 +420,7 @@ class EnglishEntryclever extends StatelessWidget {
                                             "Admitting her mistake may have been quite a clever move on her part."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داننان بە هەڵەکەی ڕەنگە کردارێکی ئاقڵانە بووبێت لەلایەن ئەوەوە."),
+                                            "داننان بە ھەڵەکەی ڕەنگە کردارێکی ئاقڵانە بووبێت لەلایەن ئەوەوە."),
                                   ],
                                 ),
                               ),
@@ -451,7 +451,7 @@ class EnglishEntryclever extends StatelessWidget {
                                                     "It was clever of him to have spotted the mistake."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە زرنگیی ئەو بوو کە بە هەڵەکەی زانی."),
+                                                    "لە زرنگیی ئەو بوو کە بە ھەڵەکەی زانی."),
                                           ],
                                         ),
                                       ),
@@ -615,7 +615,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: clever (Derived forms: cleverer, cleverest)
+- Adjective: clever (derived forms: cleverer, cleverest)
 1. Mentally quick and resourceful (= apt)
 "you are a clever man...you reason well and your wit is bold";
  

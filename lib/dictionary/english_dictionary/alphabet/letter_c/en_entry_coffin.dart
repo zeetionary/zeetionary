@@ -204,7 +204,7 @@ class EnglishEntrycoffin extends StatelessWidget {
                                         text:
                                             "A procession of mourners slowly followed the coffin."),
                                     ExampleSentenceKurdish(
-                                        text: "کاروانێک لە شیوەنگێڕان بە هێواشی بە دوای تابووتەکەوە بوون."),
+                                        text: "کاروانێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەوە بوون."),
                                   ],
                                 ),
                               ),
@@ -303,10 +303,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coffin (Derived forms: coffins)
+- Noun: coffin (derived forms: coffins)
 1. Box in which a corpse is buried or cremated (= casket)
 
-- Verb: coffin (Derived forms: coffined, coffins, coffining)
+- Verb: coffin (derived forms: coffined, coffins, coffining)
 1. Place into a coffin
 "her body was coffined"
 """,

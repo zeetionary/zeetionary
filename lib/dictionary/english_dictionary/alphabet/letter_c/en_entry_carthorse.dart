@@ -195,7 +195,7 @@ class EnglishEntrycarthorse extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئەسپێکی بەهێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەهات"),
+                                  "١. (ناو) ئەسپێکی بەھێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەھات"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carthorse (Derived forms: cart horses, carthorses)
+- Noun: carthorse (derived forms: cart horses, carthorses)
 1. Draft horse kept for pulling carts (= cart horse, drayhorse)
 """,
   );

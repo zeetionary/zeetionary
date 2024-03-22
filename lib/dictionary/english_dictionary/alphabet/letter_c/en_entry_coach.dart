@@ -345,11 +345,11 @@ class EnglishEntrycoach extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پاس (بۆ شارەوشار)،	(شەمەندەفەر) عەڕەبانە، واگۆن،	گالیسکە، ڕاهێنەر یان مامۆستای تایبەتی
+کوردی: پاس (بۆ شارەوشار)،	(شەمەندەفەر) عەڕەبانە، واگۆن،	گالیسکە، ڕاھێنەر یان مامۆستای تایبەتی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕاهێنەری تیمێکی وەرزشی یان کەسێک"),
+                                  "١. (ناو) ڕاھێنەری تیمێکی وەرزشی یان کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -360,7 +360,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                             "He is a former college football coach."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆنە ڕاهێنەرێکی تۆپی پێیە لە کۆلێژ."),
+                                            "کۆنە ڕاھێنەرێکی تۆپی پێیە لە کۆلێژ."),
                                   ],
                                 ),
                               ),
@@ -386,7 +386,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Who's the team coach?"),
                                     ExampleSentenceKurdish(
-                                        text: "ڕاهێنەری تیمەکە کێیە؟"),
+                                        text: "ڕاھێنەری تیمەکە کێیە؟"),
                                   ],
                                 ),
                               ),
@@ -412,7 +412,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "See you tomorrow, Coach."),
                                     ExampleSentenceKurdish(
-                                        text: "سبەی دەتبینمەوە، ڕاهێنەر."),
+                                        text: "سبەی دەتبینمەوە، ڕاھێنەر."),
                                   ],
                                 ),
                               ),
@@ -443,7 +443,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                             "He credited his success to his acting coach's guidance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرکەوتنی گەڕاندەوە بۆ ڕێنمایی ڕاهێنەری نمایشی."),
+                                            "سەرکەوتنی گەڕاندەوە بۆ ڕێنمایی ڕاھێنەری نمایشی."),
                                   ],
                                 ),
                               ),
@@ -466,7 +466,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                   "٣. (ناو) کەسێک کە پارەی پێ دەدەیت بۆ ئەوەی ڕاوێژت پێ بدات لەسەر باشترکردنی ژیانت"),
                           const Row(
                             children: [
-                              AlsoEnglishckb(word: "هەروەها: life coach"),
+                              AlsoEnglishckb(word: "ھەروەھا: life coach"),
                             ],
                           ),
                           Row(
@@ -587,7 +587,7 @@ class EnglishEntrycoach extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) گالیسکەیەکی داخراو کە لە کۆندا بە ڕاکێشانی ئەسپ بۆ گواستنەوە بەکاردەهات"),
+                                  "٦. (ناو) گالیسکەیەکی داخراو کە لە کۆندا بە ڕاکێشانی ئەسپ بۆ گواستنەوە بەکاردەھات"),
                           Row(
                             children: [
                               const Expanded(
@@ -615,7 +615,7 @@ class EnglishEntrycoach extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) هەرزانترین جێگاکانی ناو فڕۆکە"),
+                              text: "٧. (ناو) ھەرزانترین جێگاکانی ناو فڕۆکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -626,7 +626,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                             "Even the company's director flies coach most of the time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنانەت بەڕێوبەری کۆمپانیاکە زۆرجار لە جێگای هەرزان دەفڕێت."),
+                                            "تەنانەت بەڕێوبەری کۆمپانیاکە زۆرجار لە جێگای ھەرزان دەفڕێت."),
                                   ],
                                 ),
                               ),
@@ -646,7 +646,7 @@ class EnglishEntrycoach extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) ڕاهێنەری کردنی تیمێک یان کەسێک بۆ یاری وەرزشی، کردنی شتێک بە باشتر، هتد"),
+                                  "٨. (کردار) ڕاھێنەری کردنی تیمێک یان کەسێک بۆ یاری وەرزشی، کردنی شتێک بە باشتر، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -657,7 +657,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                             "He has coached the team for five years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێنج ساڵە ڕاهێنەری تیمەکەی کردووە."),
+                                            "پێنج ساڵە ڕاھێنەری تیمەکەی کردووە."),
                                   ],
                                 ),
                               ),
@@ -685,7 +685,7 @@ class EnglishEntrycoach extends StatelessWidget {
                                             "She has coached hundreds of young singers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنەری بە سەدا گۆرانیبێژی گەنج کردووە."),
+                                            "ڕاھێنەری بە سەدا گۆرانیبێژی گەنج کردووە."),
                                   ],
                                 ),
                               ),
@@ -843,7 +843,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coach (Derived forms: coaches)
+- Noun: coach (derived forms: coaches)
 1. (sport) someone in charge of training an athlete or a team (= manager, handler)
  
 2. (singing) a person who gives private instruction (as in singing, acting, etc.) (= private instructor, tutor)
@@ -855,7 +855,7 @@ ${englishMeaningConst.text}
  
 5. A carriage pulled by four horses with one driver (= four-in-hand, coach-and-four)
 
-- Verb: coach (Derived forms: coaches, coaching, coached)
+- Verb: coach (derived forms: coaches, coaching, coached)
 1. Teach and supervise (someone); act as a trainer or coach (to), as in sports (= train)
 "She is coaching the crew";
  

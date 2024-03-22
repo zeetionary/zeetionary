@@ -194,7 +194,7 @@ Widget build(BuildContext context) {
 // کوردی: 
 // """),
                         const DefinitionKurdish(
-                            text: "١. (ناو) کەسێک کە بە ناوچەیەکدا دەگەڕێت و بەرهەمەکانی کۆمپانیایەک دەفرۆشێت"),
+                            text: "١. (ناو) کەسێک کە بە ناوچەیەکدا دەگەڕێت و بەرھەمەکانی کۆمپانیایەک دەفرۆشێت"),
                         Row(
                           children: [
                             const Expanded(
@@ -303,7 +303,7 @@ Future<void> stopSpeaking() async {
 // Create an instance of EnglishMeaningConst with the desired text
 final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
   text: """
-- Noun: commercial traveller (Derived forms: commercial travellers)
+- Noun: commercial traveller (derived forms: commercial travellers)
 Usage: Brit, Cdn (US: commercial traveler) 
 1. A salesman who travels to call on customers (= traveling salesman [US], travelling salesman [Brit, Cdn], commercial traveler [US], roadman, bagman, drummer [N. Amer, informal])
 """,

@@ -195,7 +195,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوکات بوون، هاوڕێک بوون
+کوردی: ھاوکات بوون، ھاوڕێک بوون
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                                             "It's a pity our trips to New York don't coincide."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جێگەی داخە گەشتەکانمان بۆ نیویۆرک هاوکات نابن."),
+                                            "جێگەی داخە گەشتەکانمان بۆ نیویۆرک ھاوکات نابن."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                                             "The strike was timed to coincide with the party conference."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مانگرتنەکە ڕێکخرا بۆ ئەوەی هاوکات بێت لەگەڵ کۆنفرانسی پارتەکەدا."),
+                                            "مانگرتنەکە ڕێکخرا بۆ ئەوەی ھاوکات بێت لەگەڵ کۆنفرانسی پارتەکەدا."),
                                   ],
                                 ),
                               ),
@@ -258,7 +258,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) لێکچوون لە شێوە، بۆچوون، بیرکردنەوە، هتد"),
+                                  "٢. (کردار) لێکچوون لە شێوە، بۆچوون، بیرکردنەوە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -269,7 +269,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                                             "The interests of employers and employees do not always coincide."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرژەوەندییەکانی خاوەن کاران هەمیشە یەکنین لەگەڵ ئەوانەی کرێکاران."),
+                                            "بەرژەوەندییەکانی خاوەن کاران ھەمیشە یەکنین لەگەڵ ئەوانەی کرێکاران."),
                                   ],
                                 ),
                               ),
@@ -383,7 +383,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                                             "The present position of the house coincides with that of an earlier dwelling."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شوێنی ئێستای خانووەکە هاوشوێنە لەگەڵ خانوویەکی دیکەی پێشووتر."),
+                                            "شوێنی ئێستای خانووەکە ھاوشوێنە لەگەڵ خانوویەکی دیکەی پێشووتر."),
                                   ],
                                 ),
                               ),
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coincide (Derived forms: coincided, coinciding, coincides)
+- Verb: coincide (derived forms: coincided, coinciding, coincides)
 1. Go with, fall together (= co-occur, cooccur)
  
 2. Happen simultaneously (= concur)

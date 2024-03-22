@@ -206,7 +206,7 @@ class EnglishEntrycommemorative extends StatelessWidget {
                                             "Everyone who takes part in the race will get a commemorative medal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرکەسێک کە لە پێشبڕکێکە بەژدار دەبێت مەدالیایەکی یادەوەری وەردەگرێت."),
+                                            "ھەرکەسێک کە لە پێشبڕکێکە بەژدار دەبێت مەدالیایەکی یادەوەری وەردەگرێت."),
                                   ],
                                 ),
                               ),
@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
 1. Intended as a commemoration (= commemorating, memorial)
 "a commemorative plaque";
 
-- Noun: commemorative (Derived forms: commemoratives)
+- Noun: commemorative (derived forms: commemoratives)
 1. An object (such as a coin or postage stamp) made to mark an event or honour a person
 """,
   );

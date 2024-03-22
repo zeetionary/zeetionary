@@ -667,7 +667,7 @@ class EnglishEntryclimb extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پیاهەڵگەران، سەرکەوتن، چوونەسەرێ، پیاهەڵگژان،	چوونەپێش، پێشڤەچوون، پێشکەوتن،	زۆربوون،	سەرەولێژی، سینەکێش، تەلان
+کوردی: پیاھەڵگەران، سەرکەوتن، چوونەسەرێ، پیاھەڵگژان،	چوونەپێش، پێشڤەچوون، پێشکەوتن،	زۆربوون،	سەرەولێژی، سینەکێش، تەلان
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرکەوتن بەسەر شتێکدا"),
@@ -794,7 +794,7 @@ class EnglishEntryclimb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) سەرکەوتن بە چیاکان و هەڵگژان بە قەدپاڵەکان وەک حەزێک"),
+                                  "٢. (کردار) سەرکەوتن بە چیاکان و ھەڵگژان بە قەدپاڵەکان وەک حەزێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -805,7 +805,7 @@ class EnglishEntryclimb extends StatelessWidget {
                                             "He likes to go climbing most weekends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزدەکات زۆرینەی کۆتایی هەفتە بچێت بۆ پیاهەڵگژان."),
+                                            "حەزدەکات زۆرینەی کۆتایی ھەفتە بچێت بۆ پیاھەڵگژان."),
                                   ],
                                 ),
                               ),
@@ -825,7 +825,7 @@ class EnglishEntryclimb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) پیاهەڵگژان؛ بە ئاستەنگ چوونە شوێنێک بە بەکارهێنانی دەست و قاچ"),
+                                  "٣. (کردار) پیاھەڵگژان؛ بە ئاستەنگ چوونە شوێنێک بە بەکارھێنانی دەست و قاچ"),
                           Row(
                             children: [
                               const Expanded(
@@ -861,7 +861,7 @@ class EnglishEntryclimb extends StatelessWidget {
                                         text:
                                             "The boys climbed over the wall."),
                                     ExampleSentenceKurdish(
-                                        text: "کوڕەکان هەڵگژان بە دیوارەکەدا."),
+                                        text: "کوڕەکان ھەڵگژان بە دیوارەکەدا."),
                                   ],
                                 ),
                               ),
@@ -921,7 +921,7 @@ class EnglishEntryclimb extends StatelessWidget {
                                                     "He climbed into the truck and drove off."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "چووە سەر بارهەڵگرەکە و بۆ دوور لێیخوڕی."),
+                                                    "چووە سەر بارھەڵگرەکە و بۆ دوور لێیخوڕی."),
                                           ],
                                         ),
                                       ),
@@ -1046,7 +1046,7 @@ class EnglishEntryclimb extends StatelessWidget {
                                                     "The dollar has been climbing all week."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تەواوی هەفتەکە نرخی دۆلار بەرزبووەتەوە."),
+                                                    "تەواوی ھەفتەکە نرخی دۆلار بەرزبووەتەوە."),
                                           ],
                                         ),
                                       ),
@@ -1072,7 +1072,7 @@ class EnglishEntryclimb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) چوونە پێگەیەکی بەرزتر لە هێڵکارییەکدا، خشتەیەک، کۆمەڵگە یان دامەزراوەیەک"),
+                                  "٥. (کردار) چوونە پێگەیەکی بەرزتر لە ھێڵکارییەکدا، خشتەیەک، کۆمەڵگە یان دامەزراوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1167,7 +1167,7 @@ class EnglishEntryclimb extends StatelessWidget {
                                         text:
                                             "The sun climbed higher in the sky."),
                                     ExampleSentenceKurdish(
-                                        text: "خۆر زیاتر بە ئاسماندا هەڵهات."),
+                                        text: "خۆر زیاتر بە ئاسماندا ھەڵھات."),
                                   ],
                                 ),
                               ),
@@ -1197,7 +1197,7 @@ class EnglishEntryclimb extends StatelessWidget {
                                             "The road gradually climbs up from the town."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێگاکە کەم کەم دەست بە هەڵگژان دەکات لە شارۆچکەکەوە."),
+                                            "ڕێگاکە کەم کەم دەست بە ھەڵگژان دەکات لە شارۆچکەکەوە."),
                                   ],
                                 ),
                               ),
@@ -1247,7 +1247,7 @@ class EnglishEntryclimb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ناو) سەرکەوتن بە چیادا یان هەڵگژان بە قەدپاڵەکانیدا"),
+                                  "٩. (ناو) سەرکەوتن بە چیادا یان ھەڵگژان بە قەدپاڵەکانیدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -1446,7 +1446,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: climb (Derived forms: climbing, climbed, climbs)
+- Verb: climb (derived forms: climbing, climbed, climbs)
 1. Go upward with gradual or continuous progress (= climb up, mount, go up)
 "Did you ever climb up the hill behind your house?";
  
@@ -1464,7 +1464,7 @@ ${englishMeaningConst.text}
 6. Increase in value or to a higher point (= rise, go up)
 "prices climbed steeply";
 
-- Noun: climb (Derived forms: climbs)
+- Noun: climb (derived forms: climbs)
 1. An upward slope or grade (as in a road) (= ascent, acclivity, rise, raise, upgrade [N. Amer])
 "the car couldn't make it up the climb";
  

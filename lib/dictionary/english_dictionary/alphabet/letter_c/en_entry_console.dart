@@ -196,11 +196,11 @@ class EnglishEntryconsole extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: میزی فەرمان، تەختی فەرمان، تەخت یان میزی کۆنتڕۆڵ،	دۆڵاب، سنووق، میز (تەلەفیزیۆن، کامپیوتێر، ڤیدیۆ و هتد)
+// کوردی: میزی فەرمان، تەختی فەرمان، تەخت یان میزی کۆنتڕۆڵ،	دۆڵاب، سنووق، میز (تەلەفیزیۆن، کامپیوتێر، ڤیدیۆ و ھتد)
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) دڵدانەوە؛ پێدانی ئاسوودەیی و هاوخەمی بە کەسێک کە دڵتەنگ یان نائومێدە"),
+                                  "١. (کردار) دڵدانەوە؛ پێدانی ئاسوودەیی و ھاوخەمی بە کەسێک کە دڵتەنگ یان نائومێدە"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntryconsole extends StatelessWidget {
                                             "Nothing could console the children when their mother died."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد."),
+                                            "ھیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntryconsole extends StatelessWidget {
                                             "She put a consoling arm around his shoulders."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستێکی هاوخەمی خستە سەر شانەکانی."),
+                                            "دەستێکی ھاوخەمی خستە سەر شانەکانی."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconsole extends StatelessWidget {
                                             "Console yourself with the thought that you did your best."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دڵنەوایی خۆت بدە بەوەی هەرچی توانیت کردت."),
+                                            "دڵنەوایی خۆت بدە بەوەی ھەرچی توانیت کردت."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntryconsole extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕوویەکی تەخت کە هەموو دوگمە و کۆنترۆڵی ئامێرێک، هتد ـی تێدایە"),
+                                  "٢. (ناو) ڕوویەکی تەخت کە ھەموو دوگمە و کۆنترۆڵی ئامێرێک، ھتد ـی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -357,7 +357,7 @@ class EnglishEntryconsole extends StatelessWidget {
                                             "It's the only console that will run this game."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها کۆنسۆڵە ئەم یارییە دەخوێنێتەوە."),
+                                            "تەنھا کۆنسۆڵە ئەم یارییە دەخوێنێتەوە."),
                                   ],
                                 ),
                               ),
@@ -456,7 +456,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: console (Derived forms: consoles)
+- Noun: console (derived forms: consoles)
 1. A small table fixed to a wall or designed to stand against a wall (= console table)
  
 2. A scientific instrument consisting of displays and an input device that an operator can use to monitor and control a system (especially a computer system)
@@ -466,7 +466,7 @@ ${englishMeaningConst.text}
  
 4. Housing for electronic instruments, as radio or television (= cabinet)
 
-- Verb: console (Derived forms: consoling, consoled, consoles)
+- Verb: console (derived forms: consoling, consoled, consoles)
 1. Give moral or emotional strength to (= comfort, soothe, solace)
 """,
   );
@@ -500,7 +500,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
+    videoId: 'e09xig209cQ',
     startSeconds: 281,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LfR4QfmwTAc?t=',
+    videoId: 'LfR4QfmwTAc',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q_MJ6FaJGew',
+    videoId: 'Q_MJ6FaJGew',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dbA69i5UVGQ',
+    videoId: 'dbA69i5UVGQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bbi0kEaTgio?t=',
+    videoId: 'Bbi0kEaTgio',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -625,7 +625,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4BHgN-eb9zg?t=',
+    videoId: '4BHgN-eb9zg',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -650,7 +650,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9finqZJJNA8?t=',
+    videoId: '9finqZJJNA8',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -195,7 +195,7 @@ class EnglishEntrycompetitor extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نەیار، هەڤرک، ڕکابەر
+کوردی: نەیار، ھەڤرک، ڕکابەر
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
@@ -237,7 +237,7 @@ class EnglishEntrycompetitor extends StatelessWidget {
                                             "There are six remaining competitors for the grand prize of £50 000."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەش ڕکابەری ماوە هەن بۆ خەڵاتی زەبەلاحی ٥٠,٠٠٠ پاوەند."),
+                                            "شەش ڕکابەری ماوە ھەن بۆ خەڵاتی زەبەلاحی ٥٠,٠٠٠ پاوەند."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycompetitor extends StatelessWidget {
                                             "We produce cheaper goods than our competitors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەلوپەلی هەرزان درووست دەکەین بەراورد بە ڕکابەرەکانمان."),
+                                            "کەلوپەلی ھەرزان درووست دەکەین بەراورد بە ڕکابەرەکانمان."),
                                   ],
                                 ),
                               ),
@@ -423,7 +423,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: competitor (Derived forms: competitors)
+- Noun: competitor (derived forms: competitors)
 1. The contestant you hope to defeat (= rival, challenger, competition, contender)
 "he had respect for his competitors";
  
@@ -462,7 +462,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gv4Af83KFrE?t=',
+    videoId: 'Gv4Af83KFrE',
     startSeconds: 1420,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    videoId: '1Gxrwh4zGPg',
     startSeconds: 860,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JCcl--4PhF4?t=',
+    videoId: 'JCcl--4PhF4',
     startSeconds: 734,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iN8zmmCRqUA?t=',
+    videoId: 'iN8zmmCRqUA',
     startSeconds: 702,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/05gCLHlpzTU?t=',
+    videoId: '05gCLHlpzTU',
     startSeconds: 533,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Unzc731iCUY?t=',
+    videoId: 'Unzc731iCUY',
     startSeconds: 1037,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +612,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    videoId: 'b_rjBWmc1iQ',
     startSeconds: 1026,
     autoPlay: true,
     params: const YoutubePlayerParams(

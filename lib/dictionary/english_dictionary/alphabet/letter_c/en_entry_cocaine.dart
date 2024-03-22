@@ -195,7 +195,7 @@ class EnglishEntrycocaine extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کۆکاین؛ مادەیەکی بەهێز کە هەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان هەندێک جار وەک بەنج بەکاریدێنن"),
+                                  "١. (ناو) کۆکاین؛ مادەیەکی بەھێز کە ھەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان ھەندێک جار وەک بەنج بەکاریدێنن"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cocaine (Derived forms: cocaines)
+- Noun: cocaine (derived forms: cocaines)
 1. A narcotic (alkaloid) extracted from coca leaves; used as a surface anaesthetic or taken for pleasure; can become powerfully addictive (= cocain)
 """,
   );

@@ -634,7 +634,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                         text: "She always wears dark colours."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە ڕەنگی تاریک لەبەر دەکات؟"),
+                                            "ھەمیشە ڕەنگی تاریک لەبەر دەکات؟"),
                                   ],
                                 ),
                               ),
@@ -751,7 +751,7 @@ class EnglishEntrycolour extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بە هەموو ڕەنگەکانەوە نەک تەنها ڕەش و سپی"),
+                                  "٢. (ناو) بە ھەموو ڕەنگەکانەوە نەک تەنھا ڕەش و سپی"),
                           Row(
                             children: [
                               const Expanded(
@@ -878,7 +878,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                             "The fresh air brought colour to their cheeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوا پاکەکە گەشانەوەی دا بە گۆنایان."),
+                                            "ھەوا پاکەکە گەشانەوەی دا بە گۆنایان."),
                                   ],
                                 ),
                               ),
@@ -906,7 +906,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                             "Colour flooded her face when she thought of what had happened."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سوور هەڵگەڕا کە زانی چی ڕوویداوە."),
+                                            "سوور ھەڵگەڕا کە زانی چی ڕوویداوە."),
                                   ],
                                 ),
                               ),
@@ -1016,7 +1016,7 @@ class EnglishEntrycolour extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) ئەو ڕەنگانەی کە لەسەر ئاڵا، جل، هتد بەکاردێن"),
+                                  "٧. (ناو) ئەو ڕەنگانەی کە لەسەر ئاڵا، جل، ھتد بەکاردێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1054,7 +1054,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                             "There are people of different political colours on the committee."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) خەڵکی لە ڕەنگە جیاوازەکانی سیاسەتەوە لە لیژنەکەن."),
+                                            "(بەکارھێنانی خوازراوی) خەڵکی لە ڕەنگە جیاوازەکانی سیاسەتەوە لە لیژنەکەن."),
                                   ],
                                 ),
                               ),
@@ -1073,7 +1073,7 @@ class EnglishEntrycolour extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (کردار) ڕەنگکردن بە بۆیە، پێنووس، هتد"),
+                              text: "٨. (کردار) ڕەنگکردن بە بۆیە، پێنووس، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1084,7 +1084,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                             "The children love to draw and colour."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکان حەزیان بە وێنەکێشان و ڕەنگکردن هەیە."),
+                                            "منداڵەکان حەزیان بە وێنەکێشان و ڕەنگکردن ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1159,7 +1159,7 @@ class EnglishEntrycolour extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) سوورهەڵگەڕان بەهۆی شەرمەزارییەوە"),
+                                  "٩. (کردار) سوورھەڵگەڕان بەھۆی شەرمەزارییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1170,7 +1170,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                             "Everyone in the room stared at Gerry, and he coloured slightly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموان لە ژوورەکەدا لە گێرییان دەڕوانی، و کەمێک سوورهەڵگەڕا."),
+                                            "ھەموان لە ژوورەکەدا لە گێرییان دەڕوانی، و کەمێک سوورھەڵگەڕا."),
                                   ],
                                 ),
                               ),
@@ -1196,7 +1196,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She coloured at his remarks."),
                                     ExampleSentenceKurdish(
-                                        text: "سوورهەڵگەڕا بە لێدوانەکانی."),
+                                        text: "سوورھەڵگەڕا بە لێدوانەکانی."),
                                   ],
                                 ),
                               ),
@@ -1255,7 +1255,7 @@ class EnglishEntrycolour extends StatelessWidget {
                                             "Don't let your judgement be coloured by personal feelings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مەهێڵە بڕیارەکانی کاریگەر بن بە هەستی کەسیت."),
+                                            "مەھێڵە بڕیارەکانی کاریگەر بن بە ھەستی کەسیت."),
                                   ],
                                 ),
                               ),
@@ -1354,7 +1354,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colour (Derived forms: colours)
+- Noun: colour (derived forms: colours)
 Usage: Brit, Cdn (US: color)
 1. A visual attribute of things that results from the light they emit, transmit or reflect (= color [US], coloring [US], colouring [Brit, Cdn])
 "a white colour is made up of many different wavelengths of light";
@@ -1376,7 +1376,7 @@ Usage: Brit, Cdn (US: color)
  
 7. The appearance of objects (or light sources) described in terms of a person's perception of their hue and lightness (or brightness) and saturation (= color [US])
 
-- Verb: colour (Derived forms: colouring, colours, coloured)
+- Verb: colour (derived forms: colouring, colours, coloured)
 Usage: Brit, Cdn (US: color)
 1. Add colour to (= color [US], colorize [US], colorise [Brit], colourise [Brit], colourize [Brit, Cdn], color in [US], colour in [Brit, Cdn])
 "The child coloured the drawings"; "Fall coloured the trees"; "The child coloured in the drawings";

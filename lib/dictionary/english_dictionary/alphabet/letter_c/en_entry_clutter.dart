@@ -211,7 +211,7 @@ class EnglishEntryclutter extends StatelessWidget {
                                             "Don't clutter the page with too many diagrams."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەڕەکە مەشێوێنە بە ژمارەیەکی زۆر لە هێڵکاری."),
+                                            "پەڕەکە مەشێوێنە بە ژمارەیەکی زۆر لە ھێڵکاری."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntryclutter extends StatelessWidget {
                                             "I don't want all these files cluttering up my desk."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نامەوێت ئەم هەموو فایلە مێزەکەم شپرزە بکەن."),
+                                            "نامەوێت ئەم ھەموو فایلە مێزەکەم شپرزە بکەن."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntryclutter extends StatelessWidget {
                                                     "Try not to clutter your head with trivia."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "(بەکارهێنانی خوازراوی) هەوڵ بدە مێشکت بە شتی زیادە سەرقاڵ نەکەیت."),
+                                                    "(بەکارھێنانی خوازراوی) ھەوڵ بدە مێشکت بە شتی زیادە سەرقاڵ نەکەیت."),
                                           ],
                                         ),
                                       ),
@@ -300,7 +300,7 @@ class EnglishEntryclutter extends StatelessWidget {
                                                     "I don't want all these boxes cluttering up the place."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نامەوێت هەموو ئەم سندووقانە شوێنەکە شپرزە بکەن."),
+                                                    "نامەوێت ھەموو ئەم سندووقانە شوێنەکە شپرزە بکەن."),
                                           ],
                                         ),
                                       ),
@@ -337,7 +337,7 @@ class EnglishEntryclutter extends StatelessWidget {
                                             "There's always so much clutter on your desk!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە شپرزەییەکی زۆر هەیە لەسەر مێزەکەت!"),
+                                            "ھەمیشە شپرزەییەکی زۆر ھەیە لەسەر مێزەکەت!"),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntryclutter extends StatelessWidget {
                                             "The garage is in such a clutter that we can't find anything."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەراجەکە لە بێ‌سەروبەرەییەکی وەهادایە کە ناتوانین هیچ بدۆزینەوە."),
+                                            "گەراجەکە لە بێ‌سەروبەرەییەکی وەھادایە کە ناتوانین ھیچ بدۆزینەوە."),
                                   ],
                                 ),
                               ),
@@ -464,12 +464,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clutter (Derived forms: clutters)
+- Noun: clutter (derived forms: clutters)
 1. A confused multitude of things (= jumble, muddle, fuddle, mare's nest, welter, smother, scramble)
  
 2. Unwanted echoes that interfere with the observation of signals on a radar screen
 
-- Verb: clutter (Derived forms: cluttered, cluttering, clutters)
+- Verb: clutter (derived forms: cluttered, cluttering, clutters)
 1. Fill a space in a disorderly way (= clutter up)
 """,
   );

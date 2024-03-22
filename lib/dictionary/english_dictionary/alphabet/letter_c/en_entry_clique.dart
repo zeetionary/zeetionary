@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clique (Derived forms: cliques)
+- Noun: clique (derived forms: cliques)
 1. An exclusive circle of people with a common purpose (= coterie, ingroup, inner circle, pack, camp)
 """,
   );

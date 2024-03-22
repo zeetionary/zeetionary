@@ -191,7 +191,7 @@ class EnglishEntryclippers extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نینۆکبڕ، نینۆکگیر،	دەزگا یان ئۆتۆمبێلی سەرکورت‌کردنەوە، ئۆتۆمبێلی سەر،	مقەستی هەڵپاچین،	برینگ
+کوردی: نینۆکبڕ، نینۆکگیر،	دەزگا یان ئۆتۆمبێلی سەرکورت‌کردنەوە، ئۆتۆمبێلی سەر،	مقەستی ھەڵپاچین،	برینگ
 """),
                           const DefinitionKurdish(
                               text:
@@ -206,7 +206,7 @@ class EnglishEntryclippers extends StatelessWidget {
                                             "He used the nail clippers to trim his fingernails."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نینۆکبڕەکەی بەکارهێنا بۆ بڕینی نینۆکەکانی."),
+                                            "نینۆکبڕەکەی بەکارھێنا بۆ بڕینی نینۆکەکانی."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clippers (Derived forms: clippers)
+- Noun: clippers (derived forms: clippers)
 1. (electronics) a nonlinear electronic circuit whose output is limited in amplitude; used to limit the instantaneous amplitude of a waveform (to clip off the peaks of a waveform) (= limiter)
 "a clipper introduces amplitude distortion";
  

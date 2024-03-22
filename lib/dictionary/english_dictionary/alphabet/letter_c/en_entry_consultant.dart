@@ -194,7 +194,7 @@ class EnglishEntryconsultant extends StatelessWidget {
 // کوردی: 
 // """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کەسێک کە زانیارییەکی زۆری هەیە لەسەر بابەتێک و بە کرێ دەگیرێت بۆ ڕاوێژپێدان"),
+                              text: "١. (ناو) کەسێک کە زانیارییەکی زۆری ھەیە لەسەر بابەتێک و بە کرێ دەگیرێت بۆ ڕاوێژپێدان"),
                           Row(
                             children: [
                               const Expanded(
@@ -249,7 +249,7 @@ class EnglishEntryconsultant extends StatelessWidget {
                           ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) پزیشکێکی پسپۆڕ لە بەرزترین ئاستدا کە ڕاهێنانی تایبەتی لە بەشێکی دیاریکراوی چارەسەردا وەرگرتووە"),
+                          const DefinitionKurdish(text: "٢. (ناو) پزیشکێکی پسپۆڕ لە بەرزترین ئاستدا کە ڕاھێنانی تایبەتی لە بەشێکی دیاریکراوی چارەسەردا وەرگرتووە"),
                           Row(
                           children: [
                           const Expanded(
@@ -358,7 +358,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consultant (Derived forms: consultants)
+- Noun: consultant (derived forms: consultants)
 1. An expert who gives advice (= adviser, advisor)
 """,
   );
@@ -392,7 +392,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a7nrDN15NPE?t=',
+    videoId: 'a7nrDN15NPE',
     startSeconds: 527,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +417,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vZE0j_WCRvI',
+    videoId: 'vZE0j_WCRvI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +442,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HsHDU7xsSho?t=',
+    videoId: 'HsHDU7xsSho',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RAIWrDmVhIg?t=',
+    videoId: 'RAIWrDmVhIg',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4gR_k4ryAgs?t=',
+    videoId: '4gR_k4ryAgs',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uycf36nenys?t=',
+    videoId: 'uycf36nenys',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S8jEvJ92VlE?t=',
+    videoId: 'S8jEvJ92VlE',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(

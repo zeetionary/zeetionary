@@ -194,7 +194,7 @@ class EnglishEntrycollude extends StatelessWidget {
 کوردی: کەین‌وبەین کردن، سازان کردن
 """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) کارکردن پێکەوە بە نایاسایی و نهێنی بۆ فریودانی کەسانی دیکە"),
+                              text: "١. (کردار) کارکردن پێکەوە بە نایاسایی و نھێنی بۆ فریودانی کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: collude (Derived forms: colluded, colluding, colludes)
+- Verb: collude (derived forms: colluded, colluding, colludes)
 1. Act in unison or agreement and in secret towards a deceitful or illegal purpose (= conspire)
 "The two companies colluded to cause the value of the stock to fall";
 """,

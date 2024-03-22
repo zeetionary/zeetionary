@@ -196,7 +196,7 @@ class EnglishEntrycommando extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سەربازێک یان گرووپێک سەرباز کە ڕاهێنراون ئەرکی خێرا لە ناوچەی دووژمندا ئەنجام بدەن"),
+                                  "١. (ناو) سەربازێک یان گرووپێک سەرباز کە ڕاھێنراون ئەرکی خێرا لە ناوچەی دووژمندا ئەنجام بدەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycommando extends StatelessWidget {
                                             "He was an experienced commando with 13 years in the Special Forces."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆماندۆیەک بوو بە ئەزموونی ١٣ لە هێزە تایبەتەکاندا."),
+                                            "کۆماندۆیەک بوو بە ئەزموونی ١٣ لە ھێزە تایبەتەکاندا."),
                                   ],
                                 ),
                               ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commando (Derived forms: commandos)
+- Noun: commando (derived forms: commandos)
 1. (military) a member of a military unit trained as shock troops for hit-and-run raids (= ranger)
  
 2. (military) an amphibious military unit trained for raids into enemy territory

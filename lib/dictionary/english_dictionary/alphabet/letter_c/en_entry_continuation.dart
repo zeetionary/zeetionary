@@ -194,7 +194,7 @@ class EnglishEntrycontinuation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: درێژەدان، لەسەرڕۆیشتن، پێوەڕۆیشتن، مانەوە، بەردەوام‌کردن، دۆماندن، یەکبینەیی،	بەدواداڕۆیشتن، شوێن‌کەوتن،	تێهەڵ‌چوونەوە، دەس‌پێکردنەوە،	ڕاگرتنی کاتی دادگا، پشوو، وچان،	پاشکۆ، درێژە، پاشماوە
+کوردی: درێژەدان، لەسەرڕۆیشتن، پێوەڕۆیشتن، مانەوە، بەردەوام‌کردن، دۆماندن، یەکبینەیی،	بەدواداڕۆیشتن، شوێن‌کەوتن،	تێھەڵ‌چوونەوە، دەس‌پێکردنەوە،	ڕاگرتنی کاتی دادگا، پشوو، وچان،	پاشکۆ، درێژە، پاشماوە
 """),
                           const DefinitionKurdish(text: "١. (ناو) بەردەوامێتی"),
                           Row(
@@ -292,7 +292,7 @@ class EnglishEntrycontinuation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) شتێک کە گرێدراوە بە شتێکی دیکەوە و بەشێکی پێکدەهێنێت"),
+                                  "٣. (ناو) شتێک کە گرێدراوە بە شتێکی دیکەوە و بەشێکی پێکدەھێنێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -303,7 +303,7 @@ class EnglishEntrycontinuation extends StatelessWidget {
                                             "There are plans to build a continuation of the bypass next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلان هەیە ساڵی داهاتوو درێژەی ڕێگا پشتێنەییەکە درووست بکرێت."),
+                                            "پلان ھەیە ساڵی داھاتوو درێژەی ڕێگا پشتێنەییەکە درووست بکرێت."),
                                   ],
                                 ),
                               ),
@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: continuation (Derived forms: continuations)
+- Noun: continuation (derived forms: continuations)
 1. The act of continuing an activity without interruption (= continuance)
  
 2. A part added to a book or play that continues and extends it (= sequel)
@@ -444,7 +444,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    videoId: '0jltioeaEyY',
     startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    videoId: 'Cln0J87vulU',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    videoId: 'b4wRdoWpw0w',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vx09_4cEzlM?t=',
+    videoId: 'vx09_4cEzlM',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TfH85qWVilQ?t=',
+    videoId: 'TfH85qWVilQ',
     startSeconds: 1971,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gHjbay54F4U?t=',
+    videoId: 'gHjbay54F4U',
     startSeconds: 1730,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zlm1aajH6gY?t=',
+    videoId: 'zlm1aajH6gY',
     startSeconds: 624,
     autoPlay: true,
     params: const YoutubePlayerParams(

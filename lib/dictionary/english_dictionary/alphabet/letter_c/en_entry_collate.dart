@@ -192,7 +192,7 @@ class EnglishEntrycollate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێک کردن، هاوتا کردن، پێک‌گرتن
+کوردی: ڕێک کردن، ھاوتا کردن، پێک‌گرتن
 """),
                           const DefinitionKurdish(
                               text:
@@ -227,7 +227,7 @@ class EnglishEntrycollate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) کۆکردنەوە و ڕێکخستنی پەڕەی ڕاپۆرتێک، کتێبێک، هتد بە ڕیزبەندی درووست"),
+                                  "٢. (کردار) کۆکردنەوە و ڕێکخستنی پەڕەی ڕاپۆرتێک، کتێبێک، ھتد بە ڕیزبەندی درووست"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: collate (Derived forms: collated, collates, collating)
+- Verb: collate (derived forms: collated, collates, collating)
 1. Compare critically; of texts
  
 2. To assemble in proper sequence

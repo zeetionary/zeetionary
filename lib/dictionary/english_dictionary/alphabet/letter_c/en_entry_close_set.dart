@@ -29,8 +29,7 @@ class EnglishEntrycloseset extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He had close-set eyes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had close-set eyes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclosesets2(String languageCode) async {
@@ -191,7 +190,7 @@ class EnglishEntrycloseset extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر نزیک لە یەکدی"),
@@ -201,10 +200,9 @@ class EnglishEntrycloseset extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "He had close-set eyes."),
+                                        text: "He had close-set eyes."),
                                     ExampleSentenceKurdish(
-                                        text: "چاوی زۆر نزیک لە یەکدی هەبوو."),
+                                        text: "چاوی زۆر نزیک لە یەکدی ھەبوو."),
                                   ],
                                 ),
                               ),

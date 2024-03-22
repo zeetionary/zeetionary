@@ -193,11 +193,11 @@ class EnglishEntrycloset extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کومێد، دۆڵاب (دیواری)، گەنجینە،	پاشخان، خەڵوەتی،	ژوورۆچکە، دیوی چکۆلە، دیوۆچکە،	کۆن دەستاو، نهێنی، سەربەستە، لە بنەوە، پەنامەکی
+کوردی: کومێد، دۆڵاب (دیواری)، گەنجینە،	پاشخان، خەڵوەتی،	ژوورۆچکە، دیوی چکۆلە، دیوۆچکە،	کۆن دەستاو، نھێنی، سەربەستە، لە بنەوە، پەنامەکی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆڵابێک یان ژوورێکی بچووک کە بۆ هەڵگرتنی شت بەکاردێت، بەتایبەتی جلوبەرگ"),
+                                  "١. (ناو) دۆڵابێک یان ژوورێکی بچووک کە بۆ ھەڵگرتنی شت بەکاردێت، بەتایبەتی جلوبەرگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycloset extends StatelessWidget {
                                             "She has a walk-in closet for all her clothes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆڵابێکی گەورەی هەبوو بۆ هەموو جلەکانی."),
+                                            "دۆڵابێکی گەورەی ھەبوو بۆ ھەموو جلەکانی."),
                                   ],
                                 ),
                               ),
@@ -228,7 +228,7 @@ class EnglishEntrycloset extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) ئەو کەسانەی کە هەندێک ڕاستی لەسەر خۆیان بە نهێنی دەهێڵنەوە"),
+                                  "٢. (ھاوەڵناو) ئەو کەسانەی کە ھەندێک ڕاستی لەسەر خۆیان بە نھێنی دەھێڵنەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntrycloset extends StatelessWidget {
                                             "I suspect he's a closet fascist."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گومانم هەیە لە بنەوە فاشیستێک بێت."),
+                                            "گومانم ھەیە لە بنەوە فاشیستێک بێت."),
                                   ],
                                 ),
                               ),
@@ -259,7 +259,7 @@ class EnglishEntrycloset extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) دانانی کەسێک بە تەنها لە ژوورێکدا بۆ ئەوەی بە نهێنی قسە لەگەڵ کەسێک بکات یان تەنها بێت"),
+                                  "٣. (کردار) دانانی کەسێک بە تەنھا لە ژوورێکدا بۆ ئەوەی بە نھێنی قسە لەگەڵ کەسێک بکات یان تەنھا بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: closet (Derived forms: closets)
+- Noun: closet (derived forms: closets)
 1. A small room (or recess) or cabinet used for storage space (= cupboard)
  
 2. A tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes (= wardrobe, press)
@@ -378,7 +378,7 @@ ${englishMeaningConst.text}
  
 4. [archaic] A room or building equipped with one or more toilets (= toilet, lavatory, lav [informal], can [N. Amer, informal], john [informal], bathroom, water closet [Brit, archaic], W.C. [Brit], loo [Brit, informal], bog [Brit, informal], jacks [Ireland, informal])
 
-- Verb: closet (Derived forms: closeted, closeting, closets)
+- Verb: closet (derived forms: closeted, closeting, closets)
 1. Confine to a small space, as for intensive work
 """,
   );

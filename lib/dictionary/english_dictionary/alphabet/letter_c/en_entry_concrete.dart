@@ -195,7 +195,7 @@ class EnglishEntryconcrete extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دروست‌کراو لە کۆنکرێت یان شفتە و بێتۆن،	بابەتی، بەردەس‌کەوتوو، هەست‌پێکراو، (بەرهەست)، ڕاست(ەقینە)، ناخەیاڵی، نائابستڕاکت، دەس‌لێدراو، مادی، ماکی، مەتریاڵی، دیار، تایبەتی، پۆزیتیڤ، بەرجەستە، بەرچاو،	ڕەق، شفتە، شەفتە، بێتۆن، کۆنکرێت
+کوردی: دروست‌کراو لە کۆنکرێت یان شفتە و بێتۆن،	بابەتی، بەردەس‌کەوتوو، ھەست‌پێکراو، (بەرھەست)، ڕاست(ەقینە)، ناخەیاڵی، نائابستڕاکت، دەس‌لێدراو، مادی، ماکی، مەتریاڵی، دیار، تایبەتی، پۆزیتیڤ، بەرجەستە، بەرچاو،	ڕەق، شفتە، شەفتە، بێتۆن، کۆنکرێت
 """),
                           const DefinitionKurdish(
                               text:
@@ -240,7 +240,7 @@ class EnglishEntryconcrete extends StatelessWidget {
                                             "The bomb shelter has concrete walls that are three metres thick."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەناگە بۆمبەکە دیواری کۆنکرێتی هەیە کە سێ مەتر پانە."),
+                                            "پەناگە بۆمبەکە دیواری کۆنکرێتی ھەیە کە سێ مەتر پانە."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntryconcrete extends StatelessWidget {
                                             "They think she killed her husband, but they have no concrete evidence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێیان وایە بکوژەکە هاوژینەکەیەتی، بەڵام هیچ بەڵگەیەکی ڕاستییان نییە."),
+                                            "پێیان وایە بکوژەکە ھاوژینەکەیەتی، بەڵام ھیچ بەڵگەیەکی ڕاستییان نییە."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntryconcrete extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) شتێک کە دەتوانیت هەستی پێ بکەیت و بیبینیت"),
+                                  "٣. (ھاوەڵناو) شتێک کە دەتوانیت ھەستی پێ بکەیت و بیبینیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -302,7 +302,7 @@ class EnglishEntryconcrete extends StatelessWidget {
                                             "The teacher used concrete objects to teach the children about shapes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستاکە شتی بەرجەستەی بەکاردەهێنا بۆ فێرکردنی منداڵەکان سەبارەت بە شێوەکان."),
+                                            "مامۆستاکە شتی بەرجەستەی بەکاردەھێنا بۆ فێرکردنی منداڵەکان سەبارەت بە شێوەکان."),
                                   ],
                                 ),
                               ),
@@ -430,7 +430,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concrete (Derived forms: concretes)
+- Noun: concrete (derived forms: concretes)
 1. A strong hard building material composed of sand and gravel and cement and water
 
 - Adjective: concrete 
@@ -439,7 +439,7 @@ ${englishMeaningConst.text}
  
 2. Formed by the coalescence of particles
 
-- Verb: concrete (Derived forms: concreted, concretes, concreting)
+- Verb: concrete (derived forms: concreted, concretes, concreting)
 1. Cover with cement
 "concrete the walls"
  
@@ -476,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rWVAzS5duAs?t=',
+    videoId: 'rWVAzS5duAs',
     startSeconds: 268,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gxni8PnOTtY?t=',
+    videoId: 'Gxni8PnOTtY',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gMbUeO4iGhY?t=',
+    videoId: 'gMbUeO4iGhY',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LDyzABbHcEY?t=',
+    videoId: 'LDyzABbHcEY',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CAkpwSyWGSo?t=',
+    videoId: 'CAkpwSyWGSo',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_MsOXrprYXs?t=',
+    videoId: '_MsOXrprYXs',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0HjgoyoVP7A?t=',
+    videoId: '0HjgoyoVP7A',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

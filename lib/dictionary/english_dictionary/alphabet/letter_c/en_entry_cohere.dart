@@ -193,11 +193,11 @@ class EnglishEntrycohere extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێوەنووسان، چەسپین، پێوەندی هەبوون
+کوردی: پێوەنووسان، چەسپین، پێوەندی ھەبوون
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) هەبوونی پەیوەندی لۆژیکی لە نێوان بیرۆەک، ڕستە، هتد بەشێوەیەک کە تەواوکەری یەکدی بن"),
+                                  "١. (کردار) ھەبوونی پەیوەندی لۆژیکی لە نێوان بیرۆەک، ڕستە، ھتد بەشێوەیەک کە تەواوکەری یەکدی بن"),
                           Row(
                             children: [
                               const Expanded(
@@ -365,7 +365,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cohere (Derived forms: cohered, coheres, cohering)
+- Verb: cohere (derived forms: cohered, coheres, cohering)
 1. Come or be in close contact with; stick or hold together and resist separation (= cling, cleave, adhere, stick)
 "The sushi rice grains cohere";
  

@@ -237,7 +237,7 @@ class EnglishEntrycitizenship extends StatelessWidget {
                                             "You can apply for citizenship after five years' residency."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت داوای مافی ھاوڵاتیبوون بکەیت لەدوای پێنج ساڵ بوون بە دانیشتوو."),
+                                            "دەتوانیت داوای مافی ھاوڵاتیبوون بکەیت لە دوای پێنج ساڵ بوون بە دانیشتوو."),
                                   ],
                                 ),
                               ),

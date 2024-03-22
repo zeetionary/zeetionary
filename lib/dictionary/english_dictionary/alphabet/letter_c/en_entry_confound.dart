@@ -256,7 +256,7 @@ class EnglishEntryconfound extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) سەلماندنی ئەوەی کەسێک/شتێک هەڵەیە"),
+                                  "٢. (کردار) سەلماندنی ئەوەی کەسێک/شتێک ھەڵەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntryconfound extends StatelessWidget {
                                             "The rise in share prices confounded expectations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            " بەرزبوونەوەی نرخی پشکەکان پێشبینییەکانی بە هەڵە خست."),
+                                            " بەرزبوونەوەی نرخی پشکەکان پێشبینییەکانی بە ھەڵە خست."),
                                   ],
                                 ),
                               ),
@@ -295,7 +295,7 @@ class EnglishEntryconfound extends StatelessWidget {
                                             "She confounded her critics and proved she could do the job."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەخنەگرانیی خستە هەڵەوە و سەلماندی دەتوانێت کارەکە بکات."),
+                                            "ڕەخنەگرانیی خستە ھەڵەوە و سەلماندی دەتوانێت کارەکە بکات."),
                                   ],
                                 ),
                               ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confound (Derived forms: confounded, confounding, confounds)
+- Verb: confound (derived forms: confounded, confounding, confounds)
 1. Confuse or leave at a loss because of something complex or difficult to understand (= confuse, throw, fox, befuddle, fuddle, bedevil, discombobulate [informal], perplex, vex, stick, get, puzzle, mystify, baffle, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
 "These questions confound even the experts";
  
@@ -431,7 +431,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    videoId: 'qg2nGY1aqlg',
     startSeconds: 2180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
+    videoId: 'fn--IVarumw',
     startSeconds: 1223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
+    videoId: 'H1KP4ztKK0A',
     startSeconds: 1055,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    videoId: 'b_rjBWmc1iQ',
     startSeconds: 5276,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5_HVUS1l0Y?t=',
+    videoId: 'H5_HVUS1l0Y',
     startSeconds: 1187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CX0XP3d0q2Q?t=',
+    videoId: 'CX0XP3d0q2Q',
     startSeconds: 790,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Udk8YHOy0EU?t=',
+    videoId: 'Udk8YHOy0EU',
     startSeconds: 876,
     autoPlay: true,
     params: const YoutubePlayerParams(

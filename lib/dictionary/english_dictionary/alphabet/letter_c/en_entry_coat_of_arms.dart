@@ -205,7 +205,7 @@ class EnglishEntrycoatofarms extends StatelessWidget {
                                             "The royal coat of arms is displayed on official documents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دروشمی شاهانەیی لە بەڵگەنامە فەرمییەکان دەدرێت."),
+                                            "دروشمی شاھانەیی لە بەڵگەنامە فەرمییەکان دەدرێت."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coat of arms (Derived forms: coats of arms)
+- Noun: coat of arms (derived forms: coats of arms)
 1. (heraldry) the official symbols of a family, state, etc. (= arms, blazon, blazonry)
 """,
   );

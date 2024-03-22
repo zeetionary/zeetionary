@@ -603,7 +603,7 @@ class EnglishEntrycontract extends StatelessWidget {
                                             "All employees have a written contract of employment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو کارمەندان گرێبەستێکی نووسراوی وەرگرتنیان هەیە."),
+                                            "ھەموو کارمەندان گرێبەستێکی نووسراوی وەرگرتنیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -662,7 +662,7 @@ class EnglishEntrycontract extends StatelessWidget {
                                                     "I was on a three-year contract that expired last week."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "گرێدراو بە گرێبەستێکی سێ ساڵە بووم کە هەفتەی ڕابردوو تەواو بوو."),
+                                                    "گرێدراو بە گرێبەستێکی سێ ساڵە بووم کە ھەفتەی ڕابردوو تەواو بوو."),
                                           ],
                                         ),
                                       ),
@@ -692,7 +692,7 @@ class EnglishEntrycontract extends StatelessWidget {
                                                     "She is under contract to (= has a contract to work for) a major American computer firm."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "گرێبەستی لەگەڵ کۆمپانیایەکی گەورەی کۆمپیوتەری ئەمریکی هەیە."),
+                                                    "گرێبەستی لەگەڵ کۆمپانیایەکی گەورەی کۆمپیوتەری ئەمریکی ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -758,7 +758,7 @@ class EnglishEntrycontract extends StatelessWidget {
                                             "She took out a contract on her ex-husband."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێککەوتنێکی بۆ کوشتنی هاوسەری پێشووی ئەنجامدا."),
+                                            "ڕێککەوتنێکی بۆ کوشتنی ھاوسەری پێشووی ئەنجامدا."),
                                   ],
                                 ),
                               ),
@@ -987,7 +987,7 @@ class EnglishEntrycontract extends StatelessWidget {
                                             "He can't work for them because he is contracted with another company."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانێت کاریان بۆ بکات چونکە گرێبەستی لەگەڵ کۆمپانیایەکی دیکە هەیە."),
+                                            "ناتوانێت کاریان بۆ بکات چونکە گرێبەستی لەگەڵ کۆمپانیایەکی دیکە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1018,7 +1018,7 @@ class EnglishEntrycontract extends StatelessWidget {
                                             "She has contracted to work 20 hours a week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێککەوتنی کردووە ٢٠ کاتژمێر لە هەفتەیەکدا کار بکات."),
+                                            "ڕێککەوتنی کردووە ٢٠ کاتژمێر لە ھەفتەیەکدا کار بکات."),
                                   ],
                                 ),
                               ),
@@ -1117,14 +1117,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contract (Derived forms: contracts)
+- Noun: contract (derived forms: contracts)
 1. A binding agreement between two or more persons that is enforceable by law
  
 2. (contract bridge) the highest bid becomes the contract setting the number of tricks that the bidder must make (= declaration)
  
 3. A variety of bridge in which the bidder receives points toward game only for the number of tricks he bid (= contract bridge)
 
-- Verb: contract (Derived forms: contracts, contracting, contracted)
+- Verb: contract (derived forms: contracts, contracting, contracted)
 1. Enter into a contractual arrangement (= undertake)
  
 2. Engage by written agreement (= sign, sign on, sign up)
@@ -1182,7 +1182,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    videoId: '4J0xFUyz1nw',
     startSeconds: 655,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1207,7 +1207,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 432,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1232,7 +1232,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 840,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1257,7 +1257,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    videoId: 'Cln0J87vulU',
     startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1282,7 +1282,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K-CrEi0ymMg?t=',
+    videoId: 'K-CrEi0ymMg',
     startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1307,7 +1307,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X3TAROotFfM?t=',
+    videoId: 'X3TAROotFfM',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1332,7 +1332,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8FpPSMIB4uA?t=',
+    videoId: '8FpPSMIB4uA',
     startSeconds: 726,
     autoPlay: true,
     params: const YoutubePlayerParams(

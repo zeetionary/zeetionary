@@ -191,11 +191,11 @@ class EnglishEntrycogent extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەکلایی‌کەرەوە، بڕێنەرەوە، بڕا، بەبڕشت، سەلمێنە، پێ‌سەلمێنەر، قایلکەر،پتەو، تۆکمە، بەهێز، بەبڕشت
+کوردی: یەکلایی‌کەرەوە، بڕێنەرەوە، بڕا، بەبڕشت، سەلمێنە، پێ‌سەلمێنەر، قایلکەر،پتەو، تۆکمە، بەھێز، بەبڕشت
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) دەربڕین بە بەهێزی و ڕوونی بەشێوەیەک کە کاریگەری هەیە لەسەر ئەوەی خەڵکی باوەڕ بە چی دەکەن"),
+                                  "١. (ھاوەڵناو) دەربڕین بە بەھێزی و ڕوونی بەشێوەیەک کە کاریگەری ھەیە لەسەر ئەوەی خەڵکی باوەڕ بە چی دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycogent extends StatelessWidget {
                                             "She put forward some cogent reasons for abandoning the plan."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک هۆکاری قایلکەری گوت بۆ وازهێنان لە پلانەکە."),
+                                            "ھەندێک ھۆکاری قایلکەری گوت بۆ وازھێنان لە پلانەکە."),
                                   ],
                                 ),
                               ),

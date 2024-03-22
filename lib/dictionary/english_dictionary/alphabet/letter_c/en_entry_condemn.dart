@@ -269,7 +269,7 @@ class EnglishEntrycondemn extends StatelessWidget {
                                             "The action has been widely condemned by human rights groups."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەنگاوەکە بە فراوانی لەلایەن گرووپەکانی مافی مرۆڤەوە سەرکۆنە کراوە."),
+                                            "ھەنگاوەکە بە فراوانی لەلایەن گرووپەکانی مافی مرۆڤەوە سەرکۆنە کراوە."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycondemn extends StatelessWidget {
                                             "He was condemned to death for murder and later hanged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە مەرگ سزادرا بۆ تاوانی کوشتن و دواتر هەڵواسرا."),
+                                            "بە مەرگ سزادرا بۆ تاوانی کوشتن و دواتر ھەڵواسرا."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntrycondemn extends StatelessWidget {
                                             "She was condemned to hang for killing her husband."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هەڵواسین سزادرا بۆ کوشتنی هاوسەرەکەی."),
+                                            "بە ھەڵواسین سزادرا بۆ کوشتنی ھاوسەرەکەی."),
                                   ],
                                 ),
                               ),
@@ -378,7 +378,7 @@ class EnglishEntrycondemn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) بە فەرمی گوتنی ئەوەی شتێک بۆ بەکارهێنان سەلامەت نییە"),
+                                  "٤. (کردار) بە فەرمی گوتنی ئەوەی شتێک بۆ بەکارھێنان سەلامەت نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -420,7 +420,7 @@ class EnglishEntrycondemn extends StatelessWidget {
                                             "She is condemned out of her own mouth (= her own words show that she is guilty)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قسەکانی گەواهی تاوانباریی دەدەن."),
+                                            "قسەکانی گەواھی تاوانباریی دەدەن."),
                                   ],
                                 ),
                               ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: condemn (Derived forms: condemned, condemns, condemning)
+- Verb: condemn (derived forms: condemned, condemns, condemning)
 1. Express strong disapproval of (= reprobate, decry, objurgate, excoriate)
 "We condemn the racism in South Africa";
  
@@ -569,7 +569,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xp4d3_abdiE?t=',
+    videoId: 'xp4d3_abdiE',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WCITs2SDoVc?t=',
+    videoId: 'WCITs2SDoVc',
     startSeconds: 202,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jw95MIATepo?t=',
+    videoId: 'Jw95MIATepo',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -644,7 +644,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ARomrjtLTQU?t=',
+    videoId: 'ARomrjtLTQU',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -669,7 +669,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3DxCHzPFbaU?t=',
+    videoId: '3DxCHzPFbaU',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -694,7 +694,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 1123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -719,7 +719,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    videoId: 'y4DTW4B3Sjs',
     startSeconds: 306,
     autoPlay: true,
     params: const YoutubePlayerParams(

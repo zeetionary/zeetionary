@@ -563,7 +563,7 @@ class EnglishEntrycold extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سارد، ساردایی، بێ‌هەست، ساردوسڕ، بێ‌سۆز، وشک (هەڵس‌وکەوت)،	کەم (بۆن)،	ساردمەزاج، سارد (سێکسی)،	مردوو، بێ‌هۆش، لەسەرخۆچوو، دوور (لە کایەی مناڵان‌دا)،	کت‌وپڕ و بەتەواوەتی، تەواو، بەتەواوی،	بێ‌ئامادەیی، لەخۆوە،	سەرما، هەوای سارد، ساردی،	هەڵامەت، سەرمابوون، پەژیک، پەرسیو
+کوردی: سارد، ساردایی، بێ‌ھەست، ساردوسڕ، بێ‌سۆز، وشک (ھەڵس‌وکەوت)،	کەم (بۆن)،	ساردمەزاج، سارد (سێکسی)،	مردوو، بێ‌ھۆش، لەسەرخۆچوو، دوور (لە کایەی مناڵان‌دا)،	کت‌وپڕ و بەتەواوەتی، تەواو، بەتەواوی،	بێ‌ئامادەیی، لەخۆوە،	سەرما، ھەوای سارد، ساردی،	ھەڵامەت، سەرمابوون، پەژیک، پەرسیو
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) سارد"),
                           Row(
@@ -722,7 +722,7 @@ class EnglishEntrycold extends StatelessWidget {
                                         text: "It's cold chicken for lunch."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مریشكی سارد بۆ نانی نیوەڕۆ هەیە."),
+                                            "مریشكی سارد بۆ نانی نیوەڕۆ ھەیە."),
                                   ],
                                 ),
                               ),
@@ -742,7 +742,7 @@ class EnglishEntrycold extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) کەسێکی ساردوسڕ کە هاوڕێیانە نییە"),
+                                  "٣. (ھاوەڵناو) کەسێکی ساردوسڕ کە ھاوڕێیانە نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -828,7 +828,7 @@ class EnglishEntrycold extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ھاوەڵناو) بێهۆش"),
+                          const DefinitionKurdish(text: "٥. (ھاوەڵناو) بێھۆش"),
                           Row(
                             children: [
                               const Expanded(
@@ -838,7 +838,7 @@ class EnglishEntrycold extends StatelessWidget {
                                         text:
                                             "He was knocked out cold in the second round."),
                                     ExampleSentenceKurdish(
-                                        text: "لە دووەم دەوراندا بێهۆشخرا."),
+                                        text: "لە دووەم دەوراندا بێھۆشخرا."),
                                   ],
                                 ),
                               ),
@@ -858,7 +858,7 @@ class EnglishEntrycold extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) نەخۆشییەکی باو کە کار لە قوڕگ و لووت دەکات و دەبێتە هۆی کۆکە، پژمە، هتد"),
+                                  "٦. (ناو) نەخۆشییەکی باو کە کار لە قوڕگ و لووت دەکات و دەبێتە ھۆی کۆکە، پژمە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -867,7 +867,7 @@ class EnglishEntrycold extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I've got a cold."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵامەتم گرتووە."),
+                                        text: "ھەڵامەتم گرتووە."),
                                   ],
                                 ),
                               ),
@@ -895,7 +895,7 @@ class EnglishEntrycold extends StatelessWidget {
                                             "If you stay out in the rain you'll catch cold!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر لە بەر بارانەکە بمێنیتەوە هەڵامەت دەگریت."),
+                                            "ئەگەر لە بەر بارانەکە بمێنیتەوە ھەڵامەت دەگریت."),
                                   ],
                                 ),
                               ),
@@ -952,7 +952,7 @@ class EnglishEntrycold extends StatelessWidget {
                                             "She doesn't seem to feel the cold."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وا دەرناکەوێت هەست بە سەرماکە بکات."),
+                                            "وا دەرناکەوێت ھەست بە سەرماکە بکات."),
                                   ],
                                 ),
                               ),
@@ -1111,7 +1111,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cold (Derived forms: coldest, colder)
+- Adjective: cold (derived forms: coldest, colder)
 1. Having a low or inadequate temperature or feeling a sensation of coldness or having been made cold by e.g. ice or refrigeration
 "a cold climate"; "a cold room"; "dinner has gotten cold"; "cold fingers"; "if you are cold, turn up the heat"; "a cold beer"
  
@@ -1150,7 +1150,7 @@ ${englishMeaningConst.text}
 13. Lacking the warmth of life
 "cold in his grave"
 
-- Noun: cold (Derived forms: colds)
+- Noun: cold (derived forms: colds)
 1. A mild viral infection involving the nose and respiratory passages (but not the lungs) (= common cold)
 "will they never find a cure for the common cold?";
  

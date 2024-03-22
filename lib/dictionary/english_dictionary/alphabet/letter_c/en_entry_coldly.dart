@@ -194,7 +194,7 @@ class EnglishEntrycoldly extends StatelessWidget {
 کوردی: بە ساردی‌یەوە
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵکار) بەبێ پیشاندانی هەست"),
+                              text: "١. (ھاوەڵکار) بەبێ پیشاندانی ھەست"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycoldly extends StatelessWidget {
                                             "\"That's your problem,\" she said coldly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بێ هەستانە وتی 'ئەوە کێشەی خۆتە.'"),
+                                            "بێ ھەستانە وتی 'ئەوە کێشەی خۆتە.'"),
                                   ],
                                 ),
                               ),

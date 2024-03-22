@@ -524,7 +524,7 @@ class EnglishEntrycommand extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەستوور، فەرمان، فەروار،	(کۆمپیوتەر) دەستوور، فەرمان،	فەرمانداری، فەرماندەری، سەرکردایەتی،	کەرت، یەکینە، یەکە،	کاربەدەستان، فەرماندەران، سەرکردەکان،	دەسەڵات، سەردەستی، باڵادەستی، زاڵی، سواری، کۆنتڕۆڵ، چاودێری، هێزپێ‌شکان
+کوردی: دەستوور، فەرمان، فەروار،	(کۆمپیوتەر) دەستوور، فەرمان،	فەرمانداری، فەرماندەری، سەرکردایەتی،	کەرت، یەکینە، یەکە،	کاربەدەستان، فەرماندەران، سەرکردەکان،	دەسەڵات، سەردەستی، باڵادەستی، زاڵی، سواری، کۆنتڕۆڵ، چاودێری، ھێزپێ‌شکان
 """),
                           const DefinitionKurdish(
                               text:
@@ -751,7 +751,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "The police arrived and took command of the situation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس هات و کۆنترۆڵی دۆخەکەی گرتە دەست."),
+                                            "پۆلیس ھات و کۆنترۆڵی دۆخەکەی گرتە دەست."),
                                   ],
                                 ),
                               ),
@@ -782,7 +782,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                                     "In 1939 he assumed command of all French naval forces."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "لە ساڵی ١٩٣٩ سەرکردایەتی هەموو هێزی دەریایی فەرەنسای گرتە دەست."),
+                                                    "لە ساڵی ١٩٣٩ سەرکردایەتی ھەموو ھێزی دەریایی فەرەنسای گرتە دەست."),
                                           ],
                                         ),
                                       ),
@@ -841,7 +841,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                                     "For the first time in years, she felt in command of her life."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بۆ یەکەم جار لە چەندین ساڵدا، هەستی کرد خاوەنی ژیانی خۆیەتی."),
+                                                    "بۆ یەکەم جار لە چەندین ساڵدا، ھەستی کرد خاوەنی ژیانی خۆیەتی."),
                                           ],
                                         ),
                                       ),
@@ -871,7 +871,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                                     "She has lost command of her senses."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەسەڵاتی داوە بە هەستەکانی."),
+                                                    "دەسەڵاتی داوە بە ھەستەکانی."),
                                           ],
                                         ),
                                       ),
@@ -907,7 +907,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "She has an excellent command of French."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زانیاری باشی زمانی فەرەنسی هەیە."),
+                                            "زانیاری باشی زمانی فەرەنسی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -935,7 +935,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "Applicants will be expected to have (a) good command of English."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داخوازیکاران چاوەڕێی ئەوەیان لێ دەکرێت زانیاری باشی ئینگلیزییان هەبێت."),
+                                            "داخوازیکاران چاوەڕێی ئەوەیان لێ دەکرێت زانیاری باشی ئینگلیزییان ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -1041,7 +1041,7 @@ class EnglishEntrycommand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) سەرکردایەتی لە سوپا، هێزی دەریایی، هتد"),
+                                  "٦. (کردار) سەرکردایەتی لە سوپا، ھێزی دەریایی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1052,7 +1052,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "In March 1942 he was appointed to command US naval forces in Europe."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ساڵی ١٩٤٢ دیاریکرا بۆ سەرکردایەتی هێزە دەریاییەکانی ئەمریکا لە ئەورووپا."),
+                                            "لە ساڵی ١٩٤٢ دیاریکرا بۆ سەرکردایەتی ھێزە دەریاییەکانی ئەمریکا لە ئەورووپا."),
                                   ],
                                 ),
                               ),
@@ -1080,7 +1080,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "He was the officer commanding the troops in the Western region."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو ئەفسەرە بوو کە سەرکردایەتی هێزەکانی لە هەرێمی ڕۆژئاوا دەکرد."),
+                                            "ئەو ئەفسەرە بوو کە سەرکردایەتی ھێزەکانی لە ھەرێمی ڕۆژئاوا دەکرد."),
                                   ],
                                 ),
                               ),
@@ -1100,7 +1100,7 @@ class EnglishEntrycommand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) وەرگرتنی شتێک بەهۆی ئەوەی شایەنیت"),
+                                  "٧. (کردار) وەرگرتنی شتێک بەھۆی ئەوەی شایەنیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1111,7 +1111,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "She was able to command the respect of the class."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانی ڕێزی پۆلەکە بەدەست بهێنێت."),
+                                            "توانی ڕێزی پۆلەکە بەدەست بھێنێت."),
                                   ],
                                 ),
                               ),
@@ -1169,7 +1169,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "The hotel commands a fine view of the valley."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هوتێلەکە بەسەر دیمەنێکی جوانی دۆڵەکەدا دەڕوانێت."),
+                                            "ھوتێلەکە بەسەر دیمەنێکی جوانی دۆڵەکەدا دەڕوانێت."),
                                   ],
                                 ),
                               ),
@@ -1189,7 +1189,7 @@ class EnglishEntrycommand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) هەبوونی کۆنترۆڵی شتێک؛ هەبوونی شتێک لە بەردەستدا بۆ بەکارهێنان"),
+                                  "٩. (کردار) ھەبوونی کۆنترۆڵی شتێک؛ ھەبوونی شتێک لە بەردەستدا بۆ بەکارھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -1200,7 +1200,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                             "The party was no longer able to command a majority in Parliament."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارتەکە چیتر نەیدەتوانی زۆرینەی لە پەرلەماندا هەبێت."),
+                                            "پارتەکە چیتر نەیدەتوانی زۆرینەی لە پەرلەماندا ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -1299,7 +1299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: command (Derived forms: commands)
+- Noun: command (derived forms: commands)
 1. An authoritative direction or instruction to do something (= bid, bidding, dictation)
  
 2. (military) a military unit or region under the control of a single officer
@@ -1318,7 +1318,7 @@ ${englishMeaningConst.text}
  
 7. (computing) a line of code written as part of a computer program (= instruction, statement, program line)
 
-- Verb: command (Derived forms: commanded, commanding, commands)
+- Verb: command (derived forms: commanded, commanding, commands)
 1. Be in command of
 "The general commanded a huge army"
  

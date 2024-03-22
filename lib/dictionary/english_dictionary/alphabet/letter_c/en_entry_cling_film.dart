@@ -195,7 +195,7 @@ class EnglishEntryclingfilm extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) نایلۆن بۆ پێچانەوەی خواردن و هێشتنەوەی بە خاوێنی"),
+                                  "١. (ھاوەڵناو) نایلۆن بۆ پێچانەوەی خواردن و ھێشتنەوەی بە خاوێنی"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclingfilm extends StatelessWidget {
                                             "I've put some cling film over the salad."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک بەرگەخۆراکم لە زەڵاتەکە پێچاوە."),
+                                            "ھەندێک بەرگەخۆراکم لە زەڵاتەکە پێچاوە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cling film (Derived forms: clingfilms, cling films)
+- Noun: cling film (derived forms: clingfilms, cling films)
 Usage: Brit (N. Amer: Saran Wrap) 
 1. A thin plastic film that sticks to itself; used for wrapping food (= clingfilm [Brit], Saran Wrap [N. Amer])
 """,

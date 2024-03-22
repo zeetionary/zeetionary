@@ -198,7 +198,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قانوونی بنچینەیی (یا بنەڕەتی)، دەستوور،	پێکهاتن، دروس‌بوون، پێکهاتە، دامەزران، داڕێژران،	دامەزراندن، بنیاتنان، دروس‌کردن، پێکهێنان، سازاندن، داڕشتن،	سرشت، نیار،	پێکهاتە یان چوارچێوەی لەشی، تەندرووستی، بنگە، داروبار،	قانوون، یاسا، زاکوون، قەباڵە
+کوردی: قانوونی بنچینەیی (یا بنەڕەتی)، دەستوور،	پێکھاتن، دروس‌بوون، پێکھاتە، دامەزران، داڕێژران،	دامەزراندن، بنیاتنان، دروس‌کردن، پێکھێنان، سازاندن، داڕشتن،	سرشت، نیار،	پێکھاتە یان چوارچێوەی لەشی، تەندرووستی، بنگە، داروبار،	قانوون، یاسا، زاکوون، قەباڵە
 """),
                           const DefinitionKurdish(
                               text:
@@ -243,7 +243,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                                             "The constitution stipulated that a general election must be held within 120 days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستوور دیاری دەکات کە هەڵبژاردنێکی گشتی دەبێت لە ١٢٠ ڕۆژدا ڕێکبخرێت."),
+                                            "دەستوور دیاری دەکات کە ھەڵبژاردنێکی گشتی دەبێت لە ١٢٠ ڕۆژدا ڕێکبخرێت."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                                             "The new constitution will be adopted next year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستوورە تازەکە ساڵی داهاتوو هەڵدەگیرێتەوە."),
+                                            "دەستوورە تازەکە ساڵی داھاتوو ھەڵدەگیرێتەوە."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                                             "The child had a weak constitution and was always ill."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکە تەندرووستییەکی لاوازی هەبوو و هەمیشە نەخۆش بوو."),
+                                            "منداڵەکە تەندرووستییەکی لاوازی ھەبوو و ھەمیشە نەخۆش بوو."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                                             "I have a strong constitution and my stomach can handle anything."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەندرووستییەکی بەهێزم هەیە و گەدەم بەرگەی هەموو شت دەگرێت."),
+                                            "تەندرووستییەکی بەھێزم ھەیە و گەدەم بەرگەی ھەموو شت دەگرێت."),
                                   ],
                                 ),
                               ),
@@ -386,7 +386,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) شێوازی پێکهاتنی شتێک"),
+                              text: "٣. (ناو) شێوازی پێکھاتنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -429,7 +429,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                                             "He recommended the constitution of a review committee."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێشنیاری پێکهێنانی لینژنەیەکی چاودێری کرد."),
+                                            "پێشنیاری پێکھێنانی لینژنەیەکی چاودێری کرد."),
                                   ],
                                 ),
                               ),
@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: constitution (Derived forms: constitutions)
+- Noun: constitution (derived forms: constitutions)
 1. (law) law determining the fundamental political principles of a government (= fundamental law, organic law)
  
 2. The act of forming or establishing something (= establishment, formation, organization, organisation [Brit])
@@ -574,7 +574,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/snOHLxoyAZ4?t=',
+    videoId: 'snOHLxoyAZ4',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_EPiGmeaO0E',
+    videoId: '_EPiGmeaO0E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -624,7 +624,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 541,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -649,7 +649,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nGrB-5ieeMU?t=',
+    videoId: 'nGrB-5ieeMU',
     startSeconds: 511,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D5mAhrkaMds?t=',
+    videoId: 'D5mAhrkaMds',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -699,7 +699,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -724,7 +724,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WLeUt-jBE4Y?t=',
+    videoId: 'WLeUt-jBE4Y',
     startSeconds: 95,
     autoPlay: true,
     params: const YoutubePlayerParams(

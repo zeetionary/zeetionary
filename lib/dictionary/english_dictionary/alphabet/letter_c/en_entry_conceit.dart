@@ -208,7 +208,7 @@ class EnglishEntryconceit extends StatelessWidget {
                                             "I can say without conceit that I have talent."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانم بەبێ پۆز بڵێم بەهرەم هەیە."),
+                                            "دەتوانم بەبێ پۆز بڵێم بەھرەم ھەیە."),
                                   ],
                                 ),
                               ),
@@ -228,7 +228,7 @@ class EnglishEntryconceit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بیرکەیەکی هونەرییانە، یان خەیاڵاوییانە"),
+                                  "٢. (ناو) بیرکەیەکی ھونەرییانە، یان خەیاڵاوییانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryconceit extends StatelessWidget {
                                             "The director’s brilliant conceit was to film this tale in black and white."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بیرۆکەی بلیمەتانەی دەرهێنەرەکە ئەوەبوو چیرۆکەکە بە ڕەش و سپی وێنە بگرن."),
+                                            "بیرۆکەی بلیمەتانەی دەرھێنەرەکە ئەوەبوو چیرۆکەکە بە ڕەش و سپی وێنە بگرن."),
                                   ],
                                 ),
                               ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conceit (Derived forms: conceits)
+- Noun: conceit (derived forms: conceits)
 1. Feelings of excessive pride (= amour propre, self-love, vanity)
  
 2. An elaborate poetic image or a far-fetched comparison of very dissimilar things
@@ -413,7 +413,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ysTPxUZnZaU?t=',
+    videoId: 'ysTPxUZnZaU',
     startSeconds: 637,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sz3aopl4OhI?t=',
+    videoId: 'sz3aopl4OhI',
     startSeconds: 945,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j6tbG6b6xRg?t=',
+    videoId: 'j6tbG6b6xRg',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dGpJRvawgNI?t=',
+    videoId: 'dGpJRvawgNI',
     startSeconds: 708,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t70wcV3gJ68?t=',
+    videoId: 't70wcV3gJ68',
     startSeconds: 524,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nQ-Ua6NYago',
+    videoId: 'nQ-Ua6NYago',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MJBfn07gZ30?t=',
+    videoId: 'MJBfn07gZ30',
     startSeconds: 277,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -199,7 +199,7 @@ class EnglishEntryconfine extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) هێشتنەوەی شتێک/کەسێک لە چوارچێوەی چالاکییەک، بابەتێک، ناوچەیەک، هتد"),
+                                  "١. (کردار) ھێشتنەوەی شتێک/کەسێک لە چوارچێوەی چالاکییەک، بابەتێک، ناوچەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -317,7 +317,7 @@ class EnglishEntryconfine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) مانەوە لە جێگای نووستندا کورسی کارەبایی، هتد"),
+                                  "٣. (کردار) مانەوە لە جێگای نووستندا کورسی کارەبایی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -328,7 +328,7 @@ class EnglishEntryconfine extends StatelessWidget {
                                             "She was confined to bed with the flu."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە جێگای نووستندا مایەوە بەهۆی هەڵامەتەوە."),
+                                            "لە جێگای نووستندا مایەوە بەھۆی ھەڵامەتەوە."),
                                   ],
                                 ),
                               ),
@@ -427,7 +427,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confine (Derived forms: confined, confines, confining)
+- Verb: confine (derived forms: confined, confines, confining)
 1. Place limits on (extent, amount or access) (= restrict, trammel, limit, bound, throttle)
 "confine the use of this parking lot";
  
@@ -472,7 +472,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lfkjm2YRG-Q?t=',
+    videoId: 'lfkjm2YRG-Q',
     startSeconds: 421,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F3rncxf4Or8?t=',
+    videoId: 'F3rncxf4Or8',
     startSeconds: 945,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2horH-IeurA?t=',
+    videoId: '2horH-IeurA',
     startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/--jhKVdZOJM?t=',
+    videoId: '--jhKVdZOJM',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/px4hHXA2vJw?t=',
+    videoId: 'px4hHXA2vJw',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5jjdErDkDZE?t=',
+    videoId: '5jjdErDkDZE',
     startSeconds: 2113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8DBhTXM_Br4?t=',
+    videoId: '8DBhTXM_Br4',
     startSeconds: 1823,
     autoPlay: true,
     params: const YoutubePlayerParams(

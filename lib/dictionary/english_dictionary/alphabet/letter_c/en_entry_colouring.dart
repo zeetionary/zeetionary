@@ -208,7 +208,7 @@ class EnglishEntrycolouring extends StatelessWidget {
                                             "This contains no artificial colouring or flavouring."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە هیچ ڕەنگ یان تامێکی دەستکردی تێدا نییە."),
+                                            "ئەمە ھیچ ڕەنگ یان تامێکی دەستکردی تێدا نییە."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycolouring extends StatelessWidget {
                                             "Their colouring is so totally different that you would never think they were sisters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەنگیان ئەوەندە زۆر جیاواز بوو کە هەرگیز نەتدەزانی خوشکن."),
+                                            "ڕەنگیان ئەوەندە زۆر جیاواز بوو کە ھەرگیز نەتدەزانی خوشکن."),
                                   ],
                                 ),
                               ),
@@ -258,7 +258,7 @@ class EnglishEntrycolouring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئەو ڕەنگانەی لە شتێکدا بوونیان هەیە، بەتایبەت لە ڕووەک یان ئاژەڵێکدا"),
+                                  "٣. (ناو) ئەو ڕەنگانەی لە شتێکدا بوونیان ھەیە، بەتایبەت لە ڕووەک یان ئاژەڵێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colouring (Derived forms: colourings)
+- Noun: colouring (derived forms: colourings)
 Usage: Brit, Cdn (US: coloring)
 1. A digestible substance used to give colour to food (= coloring [US], food coloring [US], food colouring [Brit, Cdn], food color [US], food colour [Brit, Cdn])
 "colouring made from vegetable dyes";

@@ -194,7 +194,7 @@ class EnglishEntrycoercive extends StatelessWidget {
 کوردی: زۆردارانە، زۆرەملێ‌یانە، زۆرەملی‌یانە، بە زۆر، سەرکوت‌کەرانە، زۆردارەکی، سەپێنەر، داپڵۆسێنەر
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) بەکارهێنانی فشار و هەڕەشە"),
+                              text: "١. (ھاوەڵناو) بەکارھێنانی فشار و ھەڕەشە"),
                           Row(
                             children: [
                               const Expanded(

@@ -195,7 +195,7 @@ class EnglishEntrycoleslaw extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پارچەی کەلەرم، گەزەر، پیاز، هتد کە لەگەڵ مایۆنیز تێکەڵ دەکرێت و لەگەڵ گۆشت و زەڵاتەدا دەخورێت "),
+                                  "١. (ناو) پارچەی کەلەرم، گەزەر، پیاز، ھتد کە لەگەڵ مایۆنیز تێکەڵ دەکرێت و لەگەڵ گۆشت و زەڵاتەدا دەخورێت "),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coleslaw (Derived forms: coleslaws)
+- Noun: coleslaw (derived forms: coleslaws)
 1. Basically shredded cabbage (= slaw [N. Amer])
 """,
   );

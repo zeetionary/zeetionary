@@ -196,7 +196,7 @@ class EnglishEntrycliche extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) زاراوایەک یان بیرۆکەیەک کە هێندە زۆر بەکارهاتووە کە چی دیکە واتای زۆری نییە و سەرنجڕاکێش نییە"),
+                                  "١. (ھاوەڵناو) زاراوایەک یان بیرۆکەیەک کە ھێندە زۆر بەکارھاتووە کە چی دیکە واتای زۆری نییە و سەرنجڕاکێش نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntrycliche extends StatelessWidget {
                                             "My wedding day - and I know it's a cliché - was just the happiest day of my life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژی هاوسەرگیرییەکەم، و ئەزانم بووە بە کلیشێ، خۆشترین ڕۆژی ژیانم بوو."),
+                                            "ڕۆژی ھاوسەرگیرییەکەم، و ئەزانم بووە بە کلیشێ، خۆشترین ڕۆژی ژیانم بوو."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cliché (Derived forms: clichés)
+- Noun: cliché (derived forms: clichés)
 1. A trite or obvious remark (= platitude, banality, commonplace, bromide)
 """,
   );

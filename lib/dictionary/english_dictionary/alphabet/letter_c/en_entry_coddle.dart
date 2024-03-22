@@ -225,7 +225,7 @@ class EnglishEntrycoddle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) کوڵاندنی هێلکە لە ئاودا کەمێک لە ژێر پلەی کوڵان"),
+                                  "٢. (کردار) کوڵاندنی ھێلکە لە ئاودا کەمێک لە ژێر پلەی کوڵان"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrycoddle extends StatelessWidget {
                                             "He liked his eggs coddled rather than fried."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزی بەوە بوو هێلکەکانی نیوەکوڵ بن وەک لەوەی برژاو بن."),
+                                            "حەزی بەوە بوو ھێلکەکانی نیوەکوڵ بن وەک لەوەی برژاو بن."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coddle (Derived forms: coddled, coddling, coddles)
+- Verb: coddle (derived forms: coddled, coddling, coddles)
 1. Treat with excessive indulgence (= pamper, featherbed, cosset, cocker [rare], baby, mollycoddle, spoil, indulge, nanny [informal])
 "grandparents often coddle the children";
  

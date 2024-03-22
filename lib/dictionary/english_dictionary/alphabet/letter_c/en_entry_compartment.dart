@@ -196,7 +196,7 @@ class EnglishEntrycompartment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) یەکێک لە بەشە جیاوازەکانی شتێک هەیەتی بۆ پاراستنی شت تێیدا"),
+                                  "١. (ناو) یەکێک لە بەشە جیاوازەکانی شتێک ھەیەتی بۆ پاراستنی شت تێیدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycompartment extends StatelessWidget {
                                         text:
                                             "The desk has a secret compartment."),
                                     ExampleSentenceKurdish(
-                                        text: "مێزەکە کەرتێکی نهێنی هەیە."),
+                                        text: "مێزەکە کەرتێکی نھێنی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compartment (Derived forms: compartments)
+- Noun: compartment (derived forms: compartments)
 1. A space into which an area is subdivided
  
 2. A partitioned section, chamber, or separate room within a larger enclosed area
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pSG30dvdeEE?t=',
+    videoId: 'pSG30dvdeEE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jAHgJCZ13fA?t=',
+    videoId: 'jAHgJCZ13fA',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGCn-_Ru754?t=',
+    videoId: 'MGCn-_Ru754',
     startSeconds: 251,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ABnqyM5EDQ',
+    videoId: '4ABnqyM5EDQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AX8wrW-2OgU',
+    videoId: 'AX8wrW-2OgU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wJbhMgOXass?t=',
+    videoId: 'wJbhMgOXass',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vxj75C2N6TQ?t=',
+    videoId: 'vxj75C2N6TQ',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(

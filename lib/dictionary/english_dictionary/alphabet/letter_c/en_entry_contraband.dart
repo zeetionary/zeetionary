@@ -195,7 +195,7 @@ class EnglishEntrycontraband extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) کەلوپەل کە بەشێوەی نایاسایی لە سنووری وڵاتێکەوە هاتووچۆی پێدەکرێت"),
+                                  "١. (ھاوەڵناو) کەلوپەل کە بەشێوەی نایاسایی لە سنووری وڵاتێکەوە ھاتووچۆی پێدەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycontraband extends StatelessWidget {
                                             "The lorry contained thousands of pounds worth of contraband."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لۆرییەکە بە بەهای هەزاران پاوەند مادەی قاچاغی تێدابوو."),
+                                            "لۆرییەکە بە بەھای ھەزاران پاوەند مادەی قاچاغی تێدابوو."),
                                   ],
                                 ),
                               ),
@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
 1. Distributed or sold illicitly (= bootleg, black, black-market, smuggled)
 "the contraband economy pays no taxes";
 
-- Noun: contraband (Derived forms: contrabands)
+- Noun: contraband (derived forms: contrabands)
 1. Goods whose importation, exportation or possession is prohibited by law
 """,
   );
@@ -343,7 +343,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SoH5f4MEuQQ?t=',
+    videoId: 'SoH5f4MEuQQ',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HYbbmatf6w4?t=',
+    videoId: 'HYbbmatf6w4',
     startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-BRT0kd5-a8',
+    videoId: '-BRT0kd5-a8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FJvjjU0jieM?t=',
+    videoId: 'FJvjjU0jieM',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iU_PZVbJ62I',
+    videoId: 'iU_PZVbJ62I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 1250,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sAiTuitN5b8?t=',
+    videoId: 'sAiTuitN5b8',
     startSeconds: 347,
     autoPlay: true,
     params: const YoutubePlayerParams(

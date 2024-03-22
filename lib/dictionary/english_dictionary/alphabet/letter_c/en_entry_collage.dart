@@ -226,7 +226,7 @@ class EnglishEntrycollage extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هونەری درووستکردنی کالاژ"),
+                              text: "٢. (ناو) ھونەری درووستکردنی کالاژ"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collage (Derived forms: collages)
+- Noun: collage (derived forms: collages)
 1. A paste-up made by sticking together pieces of paper or photographs to form an artistic image (= montage)
 "he used his computer to make a collage of pictures superimposed on a map";
  

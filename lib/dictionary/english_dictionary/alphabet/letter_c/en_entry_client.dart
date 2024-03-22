@@ -192,7 +192,7 @@ class EnglishEntryclient extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: مشتەری، هاتووچۆکەر، موەکەل، ڕاوێژخواز
+// کوردی: مشتەری، ھاتووچۆکەر، موەکەل، ڕاوێژخواز
 // """),
                           const DefinitionKurdish(
                               text:
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: client (Derived forms: clients)
+- Noun: client (derived forms: clients)
 1. (law) a person who seeks the advice of a lawyer
  
 2. Someone who pays for goods or services (= customer)

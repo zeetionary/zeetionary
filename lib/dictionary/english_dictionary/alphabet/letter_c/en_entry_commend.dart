@@ -191,7 +191,7 @@ Widget build(BuildContext context) {
                       children: [
                         const DividerDefinition(),
                         const KurdishVocabulary(text: """
-کوردی: ستایش کردن، تاریف کردن، پێهەڵگوتن
+کوردی: ستایش کردن، تاریف کردن، پێھەڵگوتن
 """),
                         const DefinitionKurdish(
                             text: "١. (کردار) ستایشکردنی کەسێک/شتێک، بە تایبەتی بە گشتی"),
@@ -286,7 +286,7 @@ Widget build(BuildContext context) {
                         text:
                         "The movie has little to commend it (= it has few good qualities)."),
                         ExampleSentenceKurdish(
-                        text: "فیلمەکە پیاهەڵدانی کەمی دەوێت."),
+                        text: "فیلمەکە پیاھەڵدانی کەمی دەوێت."),
                         ],
                         ),
                         ),
@@ -341,7 +341,7 @@ Widget build(BuildContext context) {
                         text:
                         "His outspoken behaviour did not commend itself to his colleagues."),
                         ExampleSentenceKurdish(
-                        text: "هەڵسوکەوتی ڕاشکاوانەی پەسەند نەبوو لای هاوکارەکانی."),
+                        text: "ھەڵسوکەوتی ڕاشکاوانەی پەسەند نەبوو لای ھاوکارەکانی."),
                         ],
                         ),
                         ),
@@ -468,7 +468,7 @@ Future<void> stopSpeaking() async {
 // Create an instance of EnglishMeaningConst with the desired text
 final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
   text: """
-- Verb: commend (Derived forms: commending, commends, commended)
+- Verb: commend (derived forms: commending, commends, commended)
 1. Express approbation of
  
 2. Present as worthy of regard, kindness, or confidence

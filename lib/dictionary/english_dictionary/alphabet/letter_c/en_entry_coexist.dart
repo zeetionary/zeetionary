@@ -196,7 +196,7 @@ class EnglishEntrycoexist extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) پێکەوەبوون لە هەمان کات یان شوێندا"),
+                                  "١. (کردار) پێکەوەبوون لە ھەمان کات یان شوێندا"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycoexist extends StatelessWidget {
                                             "The illness frequently coexists with other chronic diseases."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەخۆشییەکە زۆرجار هاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا."),
+                                            "نەخۆشییەکە زۆرجار ھاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycoexist extends StatelessWidget {
                                             "English speakers now coexist peacefully with their Spanish-speaking neighbours."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاخێوەرانی ئینگلیزی ئێستا بە ئاشتییانە هەڵدەکەن لەگەڵ ئاخێوەرە ئیسپانییەکانی دراوسێیاندا."),
+                                            "ئاخێوەرانی ئینگلیزی ئێستا بە ئاشتییانە ھەڵدەکەن لەگەڵ ئاخێوەرە ئیسپانییەکانی دراوسێیاندا."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coexist (Derived forms: coexisting, coexisted, coexists)
+- Verb: coexist (derived forms: coexisting, coexisted, coexists)
 1. Exist together (= cohabit)
  
 2. Coexist peacefully, as of nations

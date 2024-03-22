@@ -191,7 +191,7 @@ Widget build(BuildContext context) {
                       children: [
                         const DividerDefinition(),
                         const KurdishVocabulary(text: """
-کوردی: دەسپێک، سەرەتا، بەرایی،	ئاهەنگی دەرچوون، ڕێ‌وڕەسمی لە خوێندن‌بوونەوە
+کوردی: دەسپێک، سەرەتا، بەرایی،	ئاھەنگی دەرچوون، ڕێ‌وڕەسمی لە خوێندن‌بوونەوە
 """),
                         const DefinitionKurdish(
                             text: "١. (ناو) دەستپێکردن"),
@@ -303,7 +303,7 @@ Future<void> stopSpeaking() async {
 // Create an instance of EnglishMeaningConst with the desired text
 final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
   text: """
-- Noun: commencement (Derived forms: commencements)
+- Noun: commencement (derived forms: commencements)
 1. The time when something begins (= beginning, first, outset, get-go [N. Amer], start, kickoff, starting time, showtime, offset)
  
 2. An academic exercise in which diplomas are conferred (= commencement exercise, commencement ceremony, graduation, graduation exercise)

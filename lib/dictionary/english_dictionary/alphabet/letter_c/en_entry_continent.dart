@@ -200,7 +200,7 @@ class EnglishEntrycontinent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە کۆنترۆڵکردنی هەستەکانت، بەتایبەتی حەزی سێکسی"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە کۆنترۆڵکردنی ھەستەکانت، بەتایبەتی حەزی سێکسی"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntrycontinent extends StatelessWidget {
                                             "In some cultures, being continent until marriage is highly valued."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەندێک کەلتووردا، مانەوە بە داوێنپاکی تاوەکو هاوسەرگیری زۆر نرخدارە."),
+                                            "لە ھەندێک کەلتووردا، مانەوە بە داوێنپاکی تاوەکو ھاوسەرگیری زۆر نرخدارە."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrycontinent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) هەبوونی توانای میز و پیسایی کردن"),
+                                  "٢. (ھاوەڵناو) ھەبوونی توانای میز و پیسایی کردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -242,7 +242,7 @@ class EnglishEntrycontinent extends StatelessWidget {
                                             "Some people struggle with continent issues as they age."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەس کێشەیان هەیە لەگەڵ میزڕاگرتن کە تەمەن دەکەن."),
+                                            "ھەندێک کەس کێشەیان ھەیە لەگەڵ میزڕاگرتن کە تەمەن دەکەن."),
                                   ],
                                 ),
                               ),
@@ -329,7 +329,7 @@ class EnglishEntrycontinent extends StatelessWidget {
                                             "Wolves are still found on the continent of Europe."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گورگ هێشتا لە کیشوەری ئەورووپا هەیە."),
+                                            "گورگ ھێشتا لە کیشوەری ئەورووپا ھەیە."),
                                   ],
                                 ),
                               ),
@@ -359,7 +359,7 @@ class EnglishEntrycontinent extends StatelessWidget {
                                         text:
                                             "They planned to spend the summer on the Continent."),
                                     ExampleSentenceKurdish(
-                                        text: "پلانیان بوو هاوین لە ئەورووپا."),
+                                        text: "پلانیان بوو ھاوین لە ئەورووپا."),
                                   ],
                                 ),
                               ),
@@ -458,7 +458,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: continent (Derived forms: continents)
+- Noun: continent (derived forms: continents)
 1. One of the large landmasses of the earth
 "there are seven continents"; "pioneers had to cross the continent on foot"
 
@@ -503,7 +503,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1607,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -578,7 +578,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VRJzvJ5XPQI?t=',
+    videoId: 'VRJzvJ5XPQI',
     startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -603,7 +603,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 625,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -628,7 +628,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EjidrUoHvPs?t=',
+    videoId: 'EjidrUoHvPs',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -653,7 +653,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lPNrtjboISg?t=',
+    videoId: 'lPNrtjboISg',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(

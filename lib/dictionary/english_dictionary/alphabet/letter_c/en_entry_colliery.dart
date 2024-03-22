@@ -204,7 +204,7 @@ class EnglishEntrycolliery extends StatelessWidget {
                                             "The colliery employed hundreds of workers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کانە خەڵووزەکە سەدان کرێکاری هەبوو."),
+                                            "کانە خەڵووزەکە سەدان کرێکاری ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colliery (Derived forms: collieries)
+- Noun: colliery (derived forms: collieries)
 1. A workplace consisting of a coal mine plus all the buildings and equipment connected with it (= pit)
 """,
   );

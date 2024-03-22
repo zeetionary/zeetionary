@@ -205,7 +205,7 @@ class EnglishEntrycompiler extends StatelessWidget {
                                             "The dictionary compiler researched the meanings of words."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆکەرەوەی فەرهەنگەکە لێکۆڵینەوەی لە واتای وشەکان کرد."),
+                                            "کۆکەرەوەی فەرھەنگەکە لێکۆڵینەوەی لە واتای وشەکان کرد."),
                                   ],
                                 ),
                               ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compiler (Derived forms: compilers)
+- Noun: compiler (derived forms: compilers)
 1. A person who compiles information (as for reference purposes)
  
 2. (computing) a program that decodes instructions written in a higher order language and produces an assembly language program (= compiling program)
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxREm3s1scA?t=',
+    videoId: 'DxREm3s1scA',
     startSeconds: 4746,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0fWdU8JCT6Y?t=',
+    videoId: '0fWdU8JCT6Y',
     startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7J7X7aZvMXQ?t=',
+    videoId: '7J7X7aZvMXQ',
     startSeconds: 1649,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hSMqOUb-MEU?t=',
+    videoId: 'hSMqOUb-MEU',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WB1WLlKmlcQ?t=',
+    videoId: 'WB1WLlKmlcQ',
     startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3EPTfOTC4Jw?t=',
+    videoId: '3EPTfOTC4Jw',
     startSeconds: 1102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cdiD-9MMpb0?t=',
+    videoId: 'cdiD-9MMpb0',
     startSeconds: 8905,
     autoPlay: true,
     params: const YoutubePlayerParams(

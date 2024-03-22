@@ -311,12 +311,12 @@ ${englishMeaningConst.text}
 1. Composed of heterogeneous elements gathered into a mass
 "the conglomerate peoples of New England"
 
-- Noun: conglomerate (Derived forms: conglomerates)
+- Noun: conglomerate (derived forms: conglomerates)
 1. A composite rock made up of particles of varying size (= pudding stone)
  
 2. A group of diverse companies under common ownership and run as a single organization (= empire)
 
-- Verb: conglomerate (Derived forms: conglomerated, conglomerates, conglomerating)
+- Verb: conglomerate (derived forms: conglomerated, conglomerates, conglomerating)
 1. Collect in one place, esp. growing to a large number or quantity (= accumulate, cumulate, pile up, gather, amass)
  
 2. Combine together into a larger corporation
@@ -352,7 +352,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qFJFoH6zk5I?t=',
+    videoId: 'qFJFoH6zk5I',
     startSeconds: 639,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -377,7 +377,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UG61a5vjxuI?t=',
+    videoId: 'UG61a5vjxuI',
     startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -402,7 +402,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K3v5wFMQRqs?t=',
+    videoId: 'K3v5wFMQRqs',
     startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +427,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJzOoPwqVM8?t=',
+    videoId: 'qJzOoPwqVM8',
     startSeconds: 218,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +452,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4DglJhWNYZc?t=',
+    videoId: '4DglJhWNYZc',
     startSeconds: 488,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +477,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eXaIpTj3vOs?t=',
+    videoId: 'eXaIpTj3vOs',
     startSeconds: 1203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UtTQsw6CB8M?t=',
+    videoId: 'UtTQsw6CB8M',
     startSeconds: 395,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -193,7 +193,7 @@ class EnglishEntrycoming extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاتن، گەیشتن، دوایی، داهاتوو، دادێ، دواتر
+کوردی: ھاتن، گەیشتن، دوایی، داھاتوو، دادێ، دواتر
 """),
                           const DefinitionKurdish(
                               text:
@@ -208,7 +208,7 @@ class EnglishEntrycoming extends StatelessWidget {
                                             "With the coming of modern technology, many jobs were lost."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەگەڵ هاتنی تەکنەلۆژیای سەردەم، زۆر کار لەدەستچوون."),
+                                            "لەگەڵ ھاتنی تەکنەلۆژیای سەردەم، زۆر کار لەدەستچوون."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycoming extends StatelessWidget {
                                             "Her coming meant that the department could complete the project on time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاتنی واتای ئەوەبوو کە بەشەکە دەتوانێت پڕۆژەکە لەکاتی خۆیدا تەواو بکات."),
+                                            "ھاتنی واتای ئەوەبوو کە بەشەکە دەتوانێت پڕۆژەکە لەکاتی خۆیدا تەواو بکات."),
                                   ],
                                 ),
                               ),

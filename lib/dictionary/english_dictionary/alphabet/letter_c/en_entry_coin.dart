@@ -212,7 +212,7 @@ class EnglishEntrycoin extends StatelessWidget {
                                             "They flipped a coin to see who should go first."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سکەیەکیان هەڵدا بۆ ئەوەی بزانن کێ یەکەمجار دەچێت."),
+                                            "سکەیەکیان ھەڵدا بۆ ئەوەی بزانن کێ یەکەمجار دەچێت."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrycoin extends StatelessWidget {
                                             "A coin toss has decided the lucky winner."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵدانی سکەیەک براوە بەبەختەکەی دیاریکردووە."),
+                                            "ھەڵدانی سکەیەک براوە بەبەختەکەی دیاریکردووە."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ class EnglishEntrycoin extends StatelessWidget {
                                                     "Very few old 5p coins are still in circulation."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕێژەیەکی کەم لە سکەی ٥ پێنسی هێشتا لە بازاڕدان."),
+                                                    "ڕێژەیەکی کەم لە سکەی ٥ پێنسی ھێشتا لە بازاڕدان."),
                                           ],
                                         ),
                                       ),
@@ -357,7 +357,7 @@ class EnglishEntrycoin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) داهێنانی زاراوەیەک، وشەیەک، هتد"),
+                                  "٢. (کردار) داھێنانی زاراوەیەک، وشەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -368,7 +368,7 @@ class EnglishEntrycoin extends StatelessWidget {
                                             "He was the first to coin the motto ‘Make Love, Not War’."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکەم کەس بوو درووشمی 'خۆشەویستی بچێنن، نەک جەنگ' دابهێنێت."),
+                                            "یەکەم کەس بوو درووشمی 'خۆشەویستی بچێنن، نەک جەنگ' دابھێنێت."),
                                   ],
                                 ),
                               ),
@@ -396,7 +396,7 @@ class EnglishEntrycoin extends StatelessWidget {
                                             "Few people have any idea who coined the famous phrase."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەم کەس زانیارییان هەیە لەسەر ئەوەی کێ دەستەواژە بەناوبانگەکەی داهێنا."),
+                                            "کەم کەس زانیارییان ھەیە لەسەر ئەوەی کێ دەستەواژە بەناوبانگەکەی داھێنا."),
                                   ],
                                 ),
                               ),
@@ -495,12 +495,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coin (Derived forms: coins)
+- Noun: coin (derived forms: coins)
 1. A flat metal piece (usually a disc) used as money
  
 2. [US, informal] The most common medium of exchange; functions as legal tender (= money, boodle [informal], bread [informal], cabbage [US, informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
 
-- Verb: coin (Derived forms: coined, coining, coins)
+- Verb: coin (derived forms: coined, coining, coins)
 1. Make up
 "coin phrases or words"
  

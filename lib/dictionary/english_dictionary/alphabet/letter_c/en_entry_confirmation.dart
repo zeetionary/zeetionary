@@ -198,7 +198,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕاگەیاندنێک، نامەیەک، هتد کە شتێک ڕاست و درووستە"),
+                                  "١. (ناو) ڕاگەیاندنێک، نامەیەک، ھتد کە شتێک ڕاست و درووستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
                                             "I'm still waiting for confirmation of the test results."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا چاوەڕێی پشتڕاستکردنەوەی ئەنجامی تاقیکردنەوەکانم."),
+                                            "ھێشتا چاوەڕێی پشتڕاستکردنەوەی ئەنجامی تاقیکردنەوەکانم."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
                                             "You will receive written confirmation of our decision in the next few days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشتڕاستکردنەوەی نووسراومانت پێدەگات سەبارەت بە بڕیارەکەمان لە چەند ڕۆژی داهاتوودا."),
+                                            "پشتڕاستکردنەوەی نووسراومانت پێدەگات سەبارەت بە بڕیارەکەمان لە چەند ڕۆژی داھاتوودا."),
                                   ],
                                 ),
                               ),
@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confirmation (Derived forms: confirmations)
+- Noun: confirmation (derived forms: confirmations)
 1. Additional proof that something that was believed (some fact, hypothesis or theory) is correct (= verification, check, substantiation)
 "fossils provided further confirmation of the evolutionary theory";
  
@@ -442,7 +442,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    videoId: 'a_TSR_v07m0',
     startSeconds: 731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PkUg89kLLBE?t=',
+    videoId: 'PkUg89kLLBE',
     startSeconds: 1211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    videoId: 'qg2nGY1aqlg',
     startSeconds: 1211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7nPknkgc-Ps?t=',
+    videoId: '7nPknkgc-Ps',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CZ7pXbAU3Hc?t=',
+    videoId: 'CZ7pXbAU3Hc',
     startSeconds: 429,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ykbhn_PKge4?t=',
+    videoId: 'ykbhn_PKge4',
     startSeconds: 990,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qzEoBrr9gRA?t=',
+    videoId: 'qzEoBrr9gRA',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(

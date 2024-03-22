@@ -197,7 +197,7 @@ class EnglishEntryconfinement extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دۆخی مانەوە بە زۆرلێکردن لە شوێنێکی داخراو، زیندانێک، هتد"),
+                                  "١. (ناو) دۆخی مانەوە بە زۆرلێکردن لە شوێنێکی داخراو، زیندانێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntryconfinement extends StatelessWidget {
                                             "The prisoner was kept in solitary confinement for several weeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیندانییەکە بۆ چەند هەفتەیەک لە زیندانی تاکەکەسی هێڵدرایەوە."),
+                                            "زیندانییەکە بۆ چەند ھەفتەیەک لە زیندانی تاکەکەسی ھێڵدرایەوە."),
                                   ],
                                 ),
                               ),
@@ -371,7 +371,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: confinement (Derived forms: confinements)
+- Noun: confinement (derived forms: confinements)
 1. Concluding state of pregnancy; from the onset of contractions to the birth of a child (= parturiency, labor [US], labour [Brit, Cdn], lying-in, travail [literary], childbed [archaic])
 "she was in confinement for six hours";
  
@@ -414,7 +414,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f7QWMUCMYOE?t=',
+    videoId: 'f7QWMUCMYOE',
     startSeconds: 1317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gjySnrspD7E?t=',
+    videoId: 'gjySnrspD7E',
     startSeconds: 3392,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aCPNlZ7bvRc?t=',
+    videoId: 'aCPNlZ7bvRc',
     startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l554kV12Wuo?t=',
+    videoId: 'l554kV12Wuo',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cMBrvHsFD_8?t=',
+    videoId: 'cMBrvHsFD_8',
     startSeconds: 2183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XHXLbp7x3MM?t=',
+    videoId: 'XHXLbp7x3MM',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fM9hYzJnao0?t=',
+    videoId: 'fM9hYzJnao0',
     startSeconds: 790,
     autoPlay: true,
     params: const YoutubePlayerParams(

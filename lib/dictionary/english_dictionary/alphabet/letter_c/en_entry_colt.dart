@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colt (Derived forms: colts)
+- Noun: colt (derived forms: colts)
 1. A young male horse under the age of four
 
 - Noun: Colt 

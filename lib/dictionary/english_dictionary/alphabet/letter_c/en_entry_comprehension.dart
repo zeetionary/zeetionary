@@ -208,7 +208,7 @@ class EnglishEntrycomprehension extends StatelessWidget {
                                             "His behaviour was completely beyond comprehension (= impossible to understand)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵسوکەوتی تەواو لە دەرەوەی توانای تێگەشتن بوو."),
+                                            "ھەڵسوکەوتی تەواو لە دەرەوەی توانای تێگەشتن بوو."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycomprehension extends StatelessWidget {
                                             "She had no comprehension of what was involved."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ تێگەشتنی نەبوو بۆ ئەوەی چی ڕوویدابوو."),
+                                            "ھیچ تێگەشتنی نەبوو بۆ ئەوەی چی ڕوویدابوو."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycomprehension extends StatelessWidget {
                                         text:
                                             "He showed a total lack of comprehension."),
                                     ExampleSentenceKurdish(
-                                        text: "هیچ تێگەشتنی نەبوو."),
+                                        text: "ھیچ تێگەشتنی نەبوو."),
                                   ],
                                 ),
                               ),
@@ -289,7 +289,7 @@ class EnglishEntrycomprehension extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕاهێنانێک کە خوێندکاران ڕادەهێنێت لە زمانێک تێبگەن"),
+                                  "٢. (ناو) ڕاھێنانێک کە خوێندکاران ڕادەھێنێت لە زمانێک تێبگەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -300,7 +300,7 @@ class EnglishEntrycomprehension extends StatelessWidget {
                                             "We did a listening comprehension."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنانێکی فێرکاری گوێگرتنمان ئەنجامدا."),
+                                            "ڕاھێنانێکی فێرکاری گوێگرتنمان ئەنجامدا."),
                                   ],
                                 ),
                               ),
@@ -401,7 +401,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comprehension (Derived forms: comprehensions)
+- Noun: comprehension (derived forms: comprehensions)
 1. An ability to understand the meaning or importance of something (or the knowledge acquired as a result)
 "how you can do that is beyond my comprehension"; "he was famous for his comprehension of American literature"
  
@@ -439,7 +439,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xjmXzYdxuTQ?t=',
+    videoId: 'xjmXzYdxuTQ',
     startSeconds: 1301,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RAlI0pbMQiM?t=',
+    videoId: 'RAlI0pbMQiM',
     startSeconds: 336,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Udk8YHOy0EU?t=',
+    videoId: 'Udk8YHOy0EU',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dGpJRvawgNI?t=',
+    videoId: 'dGpJRvawgNI',
     startSeconds: 1446,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xGQM80YrT1A?t=',
+    videoId: 'xGQM80YrT1A',
     startSeconds: 2820,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Slz8dnwYvEA?t=',
+    videoId: 'Slz8dnwYvEA',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8cJSRC1VAJo?t=',
+    videoId: '8cJSRC1VAJo',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

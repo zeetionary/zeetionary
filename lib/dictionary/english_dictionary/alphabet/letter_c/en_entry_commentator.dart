@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: commentator (Derived forms: commentators)
+- Noun: commentator (derived forms: commentators)
 1. An expert who observes and comments on something (= observer)
  
 2. A writer who reports and analyses events of the day (= reviewer)

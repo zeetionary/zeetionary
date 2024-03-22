@@ -211,7 +211,7 @@ class EnglishEntryconservative extends StatelessWidget {
                                             "The southern state's inhabitants tend to be socially conservative."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانیشتوانی ویلایەتەکانی باشوور مەیلی ئەوەیان هەیە لە ڕووی کۆمەڵایەتییەوە کۆنەپارێز بن."),
+                                            "دانیشتوانی ویلایەتەکانی باشوور مەیلی ئەوەیان ھەیە لە ڕووی کۆمەڵایەتییەوە کۆنەپارێز بن."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntryconservative extends StatelessWidget {
                                             "Her style of dress was never conservative."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شێوازی جلوبەرگی هەرگیز کۆنەپارێز نەبوو."),
+                                            "شێوازی جلوبەرگی ھەرگیز کۆنەپارێز نەبوو."),
                                   ],
                                 ),
                               ),
@@ -361,7 +361,7 @@ class EnglishEntryconservative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) ئەندامێکی پارتی پارێزگارانی بەریتانیا یان پارتێکی هاوشێوە لە وڵاتێکی دیکە"),
+                                  "٥. (ناو) ئەندامێکی پارتی پارێزگارانی بەریتانیا یان پارتێکی ھاوشێوە لە وڵاتێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -486,10 +486,10 @@ ${englishMeaningConst.text}
 5. Conforming to the standards and conventions of the middle class (= bourgeois, materialistic, bourgie [N. Amer, informal], bougie [N. Amer, informal])
 "a conservative mentality";
 
-- Noun: conservative (Derived forms: conservatives)
+- Noun: conservative (derived forms: conservatives)
 1. A person who is reluctant to accept changes and new ideas (= conservativist)
 
-- Noun: Conservative (Derived forms: Conservatives)
+- Noun: Conservative (derived forms: Conservatives)
 1. A member of a Conservative Party
 
 - Adjective: Conservative
@@ -527,7 +527,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/heIQzMZampA?t=',
+    videoId: 'heIQzMZampA',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KSXKzPOcYDU?t=',
+    videoId: 'KSXKzPOcYDU',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +577,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1136,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +602,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nGrB-5ieeMU?t=',
+    videoId: 'nGrB-5ieeMU',
     startSeconds: 215,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -627,7 +627,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f5NJQiY9AuY?t=',
+    videoId: 'f5NJQiY9AuY',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -652,7 +652,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m6kcANnAJSo?t=',
+    videoId: 'm6kcANnAJSo',
     startSeconds: 278,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -677,7 +677,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 786,
     autoPlay: true,
     params: const YoutubePlayerParams(

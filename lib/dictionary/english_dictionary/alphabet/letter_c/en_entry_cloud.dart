@@ -336,10 +336,10 @@ class EnglishEntrycloud extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەور، عەور،	کۆمەڵ، کەڵەکە، تۆپەڵە، چڕایی، ڕەشایی، پۆل،	لکە، پەڵە، پنکە، پنۆک، لێڵی، تەڵخی، ڕەگە،	نەڕوونی، یەکلایی‌نەکرا(نە)وەیی،	سێبەر
+کوردی: ھەور، عەور،	کۆمەڵ، کەڵەکە، تۆپەڵە، چڕایی، ڕەشایی، پۆل،	لکە، پەڵە، پنکە، پنۆک، لێڵی، تەڵخی، ڕەگە،	نەڕوونی، یەکلایی‌نەکرا(نە)وەیی،	سێبەر
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) هەور یان تۆپەڵە هەور"),
+                              text: "١. (ناو) ھەور یان تۆپەڵە ھەور"),
                           Row(
                             children: [
                               const Expanded(
@@ -350,7 +350,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "Dark clouds were gathering in the west."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوری ڕەش لە ڕۆژئاوا کۆدەبوونەوە."),
+                                            "ھەوری ڕەش لە ڕۆژئاوا کۆدەبوونەوە."),
                                   ],
                                 ),
                               ),
@@ -376,7 +376,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The sun went behind a cloud."),
                                     ExampleSentenceKurdish(
-                                        text: "خۆر کەوتە پشتی تۆپەڵە هەورێک."),
+                                        text: "خۆر کەوتە پشتی تۆپەڵە ھەورێک."),
                                   ],
                                 ),
                               ),
@@ -407,7 +407,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                                     "It was scorching and there wasn't a cloud in the sky."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "زۆر گەرم بوو و هیچ هەورێک لە ئاسماندا نەبوو."),
+                                                    "زۆر گەرم بوو و ھیچ ھەورێک لە ئاسماندا نەبوو."),
                                           ],
                                         ),
                                       ),
@@ -437,7 +437,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                                     "The plane was flying in cloud most of the way."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "فڕۆکەکە زۆرینەی ماوەکە لە ناو هەوردا گەشتی دەکرد."),
+                                                    "فڕۆکەکە زۆرینەی ماوەکە لە ناو ھەوردا گەشتی دەکرد."),
                                           ],
                                         ),
                                       ),
@@ -474,7 +474,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "The bees flew out of their hives, forming a thick black cloud."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێشەنگەکان لە پوورەهەنگەکەیان فڕین و تۆپەڵێکی ڕەشی گەورەیان درووستکرد."),
+                                            "مێشەنگەکان لە پوورەھەنگەکەیان فڕین و تۆپەڵێکی ڕەشی گەورەیان درووستکرد."),
                                   ],
                                 ),
                               ),
@@ -532,7 +532,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "Her father's illness cast a cloud over her wedding day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەخۆشییەکەی باوکی خەمناکییەکی کێشا بەسەر ڕۆژی هاوسەرگیرییەکەیدا."),
+                                            "نەخۆشییەکەی باوکی خەمناکییەکی کێشا بەسەر ڕۆژی ھاوسەرگیرییەکەیدا."),
                                   ],
                                 ),
                               ),
@@ -552,7 +552,7 @@ class EnglishEntrycloud extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) تۆڕێک لە سێرڤەر کە تێیدا زانیاری و نەرمامێر کۆگا کراون و بەکارهێنەران لە ڕێگەی ئینتەرنێتەوە بەکاریدێنن"),
+                                  "٤. (ناو) تۆڕێک لە سێرڤەر کە تێیدا زانیاری و نەرمامێر کۆگا کراون و بەکارھێنەران لە ڕێگەی ئینتەرنێتەوە بەکاریدێنن"),
                           Row(
                             children: [
                               const Expanded(
@@ -563,7 +563,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "All the photographs are kept on the cloud rather than on hard drives."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو وێنەکان لەسەر کلاود پارێزراون نەک لەسەر هارد درایڤ."),
+                                            "ھەموو وێنەکان لەسەر کلاود پارێزراون نەک لەسەر ھارد درایڤ."),
                                   ],
                                 ),
                               ),
@@ -593,7 +593,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                         text:
                                             "Doubts were beginning to cloud my mind."),
                                     ExampleSentenceKurdish(
-                                        text: "گومان هزرمیان تەڵخ کردبوو."),
+                                        text: "گومان ھزرمیان تەڵخ کردبوو."),
                                   ],
                                 ),
                               ),
@@ -641,7 +641,7 @@ class EnglishEntrycloud extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) پیشاندانی دڵتەنگی، ترس، تووڕەیی، هتد یان وا بکەیت کەسێک ئەم هەستانە پیشان بدات"),
+                                  "٦. (کردار) پیشاندانی دڵتەنگی، ترس، تووڕەیی، ھتد یان وا بکەیت کەسێک ئەم ھەستانە پیشان بدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -652,7 +652,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "Her face clouded over with anger."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووخساری هاواری دەکرد لە تووڕەییدا."),
+                                            "ڕووخساری ھاواری دەکرد لە تووڕەییدا."),
                                   ],
                                 ),
                               ),
@@ -729,7 +729,7 @@ class EnglishEntrycloud extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) پڕبوون لە هەور یان تۆپەڵە هەور"),
+                                  "٨. (کردار) پڕبوون لە ھەور یان تۆپەڵە ھەور"),
                           Row(
                             children: [
                               const Expanded(
@@ -740,7 +740,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "That day, the skies had clouded and it had become cool."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو ڕۆژە، ئاسمان هەوراوی بووبوو و ساردبووبوو."),
+                                            "ئەو ڕۆژە، ئاسمان ھەوراوی بووبوو و ساردبووبوو."),
                                   ],
                                 ),
                               ),
@@ -768,7 +768,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                             "The sky clouded over and it started to rain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاسمان پڕ لە هەور بوو و دەستی بە باران کرد."),
+                                            "ئاسمان پڕ لە ھەور بوو و دەستی بە باران کرد."),
                                   ],
                                 ),
                               ),
@@ -853,7 +853,7 @@ class EnglishEntrycloud extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Steam had clouded the mirror."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵم ئاوێنەکەی تەڵخ کردبوو."),
+                                        text: "ھەڵم ئاوێنەکەی تەڵخ کردبوو."),
                                   ],
                                 ),
                               ),
@@ -952,7 +952,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloud (Derived forms: clouds)
+- Noun: cloud (derived forms: clouds)
 1. A visible mass of water or ice particles suspended at a considerable altitude
  
 2. Any collection of particles (e.g., smoke or dust) or gases that is visible
@@ -971,7 +971,7 @@ ${englishMeaningConst.text}
  
 7. (internet) the internet for connection to remote servers regarded as a space for processing and storage, the focus of cloud computing
 
-- Verb: cloud (Derived forms: clouded, clouding, clouds)
+- Verb: cloud (derived forms: clouded, clouding, clouds)
 1. Make cloudy (= overcast)
 "Fall weather often clouds our beaches";
  

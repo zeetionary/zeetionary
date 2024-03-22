@@ -213,7 +213,7 @@ class EnglishEntrycoast extends StatelessWidget {
                                             "They plan to swim around the coast of Ireland."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلانیان هەیە مەلە بە کەنارەکانی ئێرلەندادا بکەن."),
+                                            "پلانیان ھەیە مەلە بە کەنارەکانی ئێرلەندادا بکەن."),
                                   ],
                                 ),
                               ),
@@ -376,7 +376,7 @@ class EnglishEntrycoast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) سەرکەتووبوون لە شتێک بەبێ هەوڵدانی زۆر"),
+                                  "٤. (کردار) سەرکەتووبوون لە شتێک بەبێ ھەوڵدانی زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -406,7 +406,7 @@ class EnglishEntrycoast extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (کردار) هەوڵدانی کەم بۆ کردنی شتێک"),
+                              text: "٥. (کردار) ھەوڵدانی کەم بۆ کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -417,7 +417,7 @@ class EnglishEntrycoast extends StatelessWidget {
                                             "You're just coasting—it's time to work hard now."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها کڵاوات دەکەیت، کاتی ئەوەیە ڕەنج بدەیت."),
+                                            "تەنھا کڵاوات دەکەیت، کاتی ئەوەیە ڕەنج بدەیت."),
                                   ],
                                 ),
                               ),
@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coast (Derived forms: coasts)
+- Noun: coast (derived forms: coasts)
 1. The shore of a sea or ocean (= seashore, seacoast, sea-coast)
  
 2. A slope down which sleds may coast
@@ -528,7 +528,7 @@ ${englishMeaningConst.text}
 4. The act of moving smoothly along a surface while remaining in contact with it (= slide, glide)
 "the children lined up for a coast down the snowy slope";
 
-- Verb: coast (Derived forms: coasts, coasting, coasted)
+- Verb: coast (derived forms: coasts, coasting, coasted)
 1. Move easily forward without applying more power
  
 2. Succeed with little effort

@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 - Adjective: combatant
 1. Engaging in or ready for combat
 
-- Noun: combatant (Derived forms: combatants)
+- Noun: combatant (derived forms: combatants)
 1. Someone who fights (or is fighting) (= battler, belligerent, fighter, scrapper)
 """,
   );

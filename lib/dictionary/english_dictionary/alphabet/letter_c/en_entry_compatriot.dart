@@ -191,11 +191,11 @@ class EnglishEntrycompatriot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاونیشتمان، هاونیشتمانی، هاوڕێ، هەڤاڵ
+کوردی: ھاونیشتمان، ھاونیشتمانی، ھاوڕێ، ھەڤاڵ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هاونیشتیمانی؛ کەسێک کە لە هەمان وڵاتی کەسێکی دیکە لەدایکبووە، یان ناسنامەی هەمان وڵاتی هەیە"),
+                                  "١. (ناو) ھاونیشتیمانی؛ کەسێک کە لە ھەمان وڵاتی کەسێکی دیکە لەدایکبووە، یان ناسنامەی ھەمان وڵاتی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycompatriot extends StatelessWidget {
                                             "He played against one of his compatriots in the semi-final."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دژ بە یەکێک لە هاونیشتیمانییەکانی یاریکرد لە نیوەی کۆتاییدا."),
+                                            "دژ بە یەکێک لە ھاونیشتیمانییەکانی یاریکرد لە نیوەی کۆتاییدا."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compatriot (Derived forms: compatriots)
+- Noun: compatriot (derived forms: compatriots)
 1. A person from your own country (= paisano [US])
 """,
   );
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 962,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I4HkRbfVzNQ?t=',
+    videoId: 'I4HkRbfVzNQ',
     startSeconds: 1590,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x94BqWK1Ks4?t=',
+    videoId: 'x94BqWK1Ks4',
     startSeconds: 323,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/udNXMAflbU8?t=',
+    videoId: 'udNXMAflbU8',
     startSeconds: 1145,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BvArUcf-1V4?t=',
+    videoId: 'BvArUcf-1V4',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YDvXOHjV4UM?t=',
+    videoId: 'YDvXOHjV4UM',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F3rncxf4Or8?t=',
+    videoId: 'F3rncxf4Or8',
     startSeconds: 1149,
     autoPlay: true,
     params: const YoutubePlayerParams(

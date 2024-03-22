@@ -192,11 +192,11 @@ class EnglishEntryclove extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: داری مێخەک،	گەردە یان هاڕاوەی مێخەک،	گوڵی وشکەوەبووی داری مێخەک، دەنک، دانە، قاش
+کوردی: داری مێخەک،	گەردە یان ھاڕاوەی مێخەک،	گوڵی وشکەوەبووی داری مێخەک، دەنک، دانە، قاش
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گوڵی هاڕاوەی دارێکی خولگەیی کە لە خۆراکدا وەک توونی بەکاردێت"),
+                                  "١. (ناو) گوڵی ھاڕاوەی دارێکی خولگەیی کە لە خۆراکدا وەک توونی بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clove (Derived forms: cloves)
+- Noun: clove (derived forms: cloves)
 1. Spice from dried unopened flower bud of the clove tree; used whole or ground
  
 2. Aromatic flower bud of a clove tree; yields a spice

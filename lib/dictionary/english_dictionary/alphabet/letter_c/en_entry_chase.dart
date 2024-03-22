@@ -688,7 +688,7 @@ class EnglishEntrychase extends StatelessWidget {
                                             "The thieves were caught by police after a short chase."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دزەکان لەلایەن پۆلیسەوە گیران لەدوای بەدواکەوتنێکی کورت."),
+                                            "دزەکان لەلایەن پۆلیسەوە گیران لە دوای بەدواکەوتنێکی کورت."),
                                   ],
                                 ),
                               ),

@@ -191,7 +191,7 @@ class EnglishEntrycollateral extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شان‌بەشان، تەنیشت‌بەتەنیشت، ملەملە، مل‌بەمل، پێ‌بەپێ، هاوتەریب، هاوڕێک، لاوەکی، لابەلایی،	زیادی، سەربار،	خوێنی یان پشتی، لاخزم، بۆرەخزم، ناڕاستەوخۆ (خزمایەتی لە یەک تیرە، بەڵام دوور)،	دەستەبەرکراو،	بارمتەیی، بارمتە
+کوردی: شان‌بەشان، تەنیشت‌بەتەنیشت، ملەملە، مل‌بەمل، پێ‌بەپێ، ھاوتەریب، ھاوڕێک، لاوەکی، لابەلایی،	زیادی، سەربار،	خوێنی یان پشتی، لاخزم، بۆرەخزم، ناڕاستەوخۆ (خزمایەتی لە یەک تیرە، بەڵام دوور)،	دەستەبەرکراو،	بارمتەیی، بارمتە
 """),
                           const DefinitionKurdish(
                               text:
@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 5. Occurring with or following as a consequence (= attendant, consequent, accompanying, concomitant, incidental, ensuant, resultant, sequent)
 "collateral target damage from a bombing run";
 
-- Noun: collateral (Derived forms: collaterals)
+- Noun: collateral (derived forms: collaterals)
 1. A security pledged for the repayment of a loan
 """,
   );

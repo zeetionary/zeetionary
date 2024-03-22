@@ -226,7 +226,7 @@ class EnglishEntrycob extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) ئەسپێکی بەهێزی قاچ کورت"),
+                              text: "٢. (ناو) ئەسپێکی بەھێزی قاچ کورت"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cob (Derived forms: cobs)
+- Noun: cob (derived forms: cobs)
 1. Nut of any of several trees of the genus Corylus (= hazelnut, filbert, cobnut)
  
 2. Stocky short-legged harness horse

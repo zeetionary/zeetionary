@@ -233,7 +233,7 @@ class EnglishEntrycompute extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "That just doesn't compute."),
                                     ExampleSentenceKurdish(
-                                        text: "ئەوە هەر ڕێی تێناچێت."),
+                                        text: "ئەوە ھەر ڕێی تێناچێت."),
                                   ],
                                 ),
                               ),
@@ -360,7 +360,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compute (Derived forms: computed, computes, computing)
+- Verb: compute (derived forms: computed, computes, computing)
 1. (mathematics) make a mathematical calculation or computation (= calculate, cipher, cypher, work out, reckon, figure [N. Amer])
 "you can compute the area of a square if you know the length of its sides";
  
@@ -398,7 +398,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y2gXe8Wl-9c?t=',
+    videoId: 'y2gXe8Wl-9c',
     startSeconds: 527,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G0SpzIIHEaE?t=',
+    videoId: 'G0SpzIIHEaE',
     startSeconds: 573,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4I-p8vjQ95s?t=',
+    videoId: '4I-p8vjQ95s',
     startSeconds: 679,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3PX2d3Zwutg?t=',
+    videoId: '3PX2d3Zwutg',
     startSeconds: 1064,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-UrdExQW0cs?t=',
+    videoId: '-UrdExQW0cs',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hw1X5oFPgro?t=',
+    videoId: 'Hw1X5oFPgro',
     startSeconds: 448,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YFoDphBJ2Zg?t=',
+    videoId: 'YFoDphBJ2Zg',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(

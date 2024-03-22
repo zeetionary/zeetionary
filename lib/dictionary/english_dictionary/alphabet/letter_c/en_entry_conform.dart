@@ -198,7 +198,7 @@ class EnglishEntryconform extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) ڕەفتارکردن بە هەمان شێوەی زۆرینەی گرووپێک یان کۆمەڵگەیەک"),
+                                  "١. (کردار) ڕەفتارکردن بە ھەمان شێوەی زۆرینەی گرووپێک یان کۆمەڵگەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntryconform extends StatelessWidget {
                                             "There is considerable pressure on teenagers to conform."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فشاری زۆر لەسەر گەنجان هەیە بۆ چاولێکەری."),
+                                            "فشاری زۆر لەسەر گەنجان ھەیە بۆ چاولێکەری."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntryconform extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) پابەندبوون بە یاسایەک، هتد"),
+                              text: "٢. (کردار) پابەندبوون بە یاسایەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntryconform extends StatelessWidget {
                                             "Wordsworth changed the ideas of his poem to conform with his later religious and political opinions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وێردسوێرس بیرۆکەکانی هۆنراوەکانی گۆڕی بۆ گونجان لەگەڵ بۆچوونە ئایینی و سیاسییەکانی دواتریدا."),
+                                            "وێردسوێرس بیرۆکەکانی ھۆنراوەکانی گۆڕی بۆ گونجان لەگەڵ بۆچوونە ئایینی و سیاسییەکانی دواتریدا."),
                                   ],
                                 ),
                               ),
@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conform (Derived forms: conforming, conforms, conformed)
+- Verb: conform (derived forms: conforming, conforms, conformed)
 1. Be similar, be in line with
  
 2. Adapt or conform oneself to new or different conditions (= adjust, adapt)
@@ -434,7 +434,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A3Vufrpb260?t=',
+    videoId: 'A3Vufrpb260',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -459,7 +459,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JWxkRlvPTBE?t=',
+    videoId: 'JWxkRlvPTBE',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +484,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jk7NYEhai0g?t=',
+    videoId: 'Jk7NYEhai0g',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +509,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3dx_Bm3yeJo?t=',
+    videoId: '3dx_Bm3yeJo',
     startSeconds: 229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +534,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/60FM9WjkXtA?t=',
+    videoId: '60FM9WjkXtA',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +559,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_0MutuU6eks?t=',
+    videoId: '_0MutuU6eks',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +584,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wv43IN_cnyw?t=',
+    videoId: 'wv43IN_cnyw',
     startSeconds: 518,
     autoPlay: true,
     params: const YoutubePlayerParams(

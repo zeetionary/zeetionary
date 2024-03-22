@@ -192,11 +192,11 @@ class EnglishEntrycontagion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گرتنەوە، داگرتن، تووش‌بوون، تەشەنە(کردن)، بڵاوبوونەوە، تەنینەوە،	نەخۆشی بگرەوە، پەتا، درم، ئاهۆ،	بڵاوبوونەوە، تەنینەوە
+کوردی: گرتنەوە، داگرتن، تووش‌بوون، تەشەنە(کردن)، بڵاوبوونەوە، تەنینەوە،	نەخۆشی بگرەوە، پەتا، درم، ئاھۆ،	بڵاوبوونەوە، تەنینەوە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بڵاوبوونەوەی نەخۆشی بەهۆی پەیوەندی نزیک لە نێوان خەڵکیدا؛ نەخۆشییەک کە بەم شێوەیە بڵاودەبێتەوە"),
+                                  "١. (ناو) بڵاوبوونەوەی نەخۆشی بەھۆی پەیوەندی نزیک لە نێوان خەڵکیدا؛ نەخۆشییەک کە بەم شێوەیە بڵاودەبێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycontagion extends StatelessWidget {
                                         text: "There is no risk of contagion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ مەترسی تووشبوون/بڵاوبوونەوە نییە."),
+                                            "ھیچ مەترسی تووشبوون/بڵاوبوونەوە نییە."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycontagion extends StatelessWidget {
                                             "Social media has been cited as a factor in the contagion of political extremism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تۆڕە کۆمەڵایەتییەکان وەک فاکتەرێک ناوهێنراوە لە بڵاوبوونەوەی توندوتیژی سیاسیدا."),
+                                            "تۆڕە کۆمەڵایەتییەکان وەک فاکتەرێک ناوھێنراوە لە بڵاوبوونەوەی توندوتیژی سیاسیدا."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: contagion (Derived forms: contagions)
+- Noun: contagion (derived forms: contagions)
 1. Any disease easily transmitted by contact (=contagious disease)
  
 2. An incident in which an infectious disease is transmitted (= infection, transmission)
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OgFcz6klaeg?t=',
+    videoId: 'OgFcz6klaeg',
     startSeconds: 387,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 6965,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ5GfDbjos8?t=',
+    videoId: 'iQ5GfDbjos8',
     startSeconds: 244,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zHfha18xbtg?t=',
+    videoId: 'zHfha18xbtg',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FUrrk4QSnXM?t=',
+    videoId: 'FUrrk4QSnXM',
     startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qm4cAaAFhEs?t=',
+    videoId: 'Qm4cAaAFhEs',
     startSeconds: 385,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dV2GCizOk3A?t=',
+    videoId: 'dV2GCizOk3A',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(

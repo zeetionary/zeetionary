@@ -208,7 +208,7 @@ class EnglishEntrycomic extends StatelessWidget {
                                             "The play is both comic and tragic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شانۆکە هەم کۆمیدی و هەم تراژیدیایە."),
+                                            "شانۆکە ھەم کۆمیدی و ھەم تراژیدیایە."),
                                   ],
                                 ),
                               ),
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 2. (drama) of or relating to or characteristic of comedy
 "comic hero"
 
-- Noun: comic (Derived forms: comics)
+- Noun: comic (derived forms: comics)
 1. A professional performer who tells jokes and performs comical acts (= comedian, funnyman)
 """,
   );

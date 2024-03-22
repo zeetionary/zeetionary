@@ -237,7 +237,7 @@ class EnglishEntrycondescension extends StatelessWidget {
                                             "She gave me some friendly advice without a trace of condescension."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ڕاوێژی هاوڕێیانەی پێمدا بەبێ قەترەیەک لە فەخرفرۆشی."),
+                                            "ھەندێک ڕاوێژی ھاوڕێیانەی پێمدا بەبێ قەترەیەک لە فەخرفرۆشی."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condescension (Derived forms: condescensions)
+- Noun: condescension (derived forms: condescensions)
 1. The trait of displaying arrogance by patronizing those considered inferior (= superciliousness, disdainfulness)
  
 2. A communication that indicates lack of respect by patronizing the recipient (= disdain, patronage)
@@ -378,7 +378,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HI1V5WJDey0?t=',
+    videoId: 'HI1V5WJDey0',
     startSeconds: 1327,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -403,7 +403,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xm6Y3Rl9u1Q?t=',
+    videoId: 'Xm6Y3Rl9u1Q',
     startSeconds: 381,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tCGH5Q1BXus?t=',
+    videoId: 'tCGH5Q1BXus',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6nQ9zxSUfaQ?t=',
+    videoId: '6nQ9zxSUfaQ',
     startSeconds: 1037,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y5uuOKyq_nk?t=',
+    videoId: 'Y5uuOKyq_nk',
     startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wGsL3YsjDEc?t=',
+    videoId: 'wGsL3YsjDEc',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/owckyXFVV48?t=',
+    videoId: 'owckyXFVV48',
     startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(

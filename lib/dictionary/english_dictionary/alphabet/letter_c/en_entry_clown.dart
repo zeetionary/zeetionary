@@ -208,7 +208,7 @@ class EnglishEntryclown extends StatelessWidget {
                                             "Robert was always the class clown (= he did silly things to make the other students laugh)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) ڕۆبێرت هەمیشە گاڵتەجاڕی پۆلەکە بوو."),
+                                            "(بەکارھێنانی خوازراوی) ڕۆبێرت ھەمیشە گاڵتەجاڕی پۆلەکە بوو."),
                                   ],
                                 ),
                               ),
@@ -228,7 +228,7 @@ class EnglishEntryclown extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە پێتوایە خراپە بەهۆی ئەوەی گەمژانە ڕەفتار دەکات"),
+                                  "٢. (ناو) کەسێک کە پێتوایە خراپە بەھۆی ئەوەی گەمژانە ڕەفتار دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -270,7 +270,7 @@ class EnglishEntryclown extends StatelessWidget {
                                             "Left alone, the class threw books, pulled faces, and generally clowned around."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر بە تەنها بن، پۆلەکە کتێب دەهاوێژن، گاڵتە دەکەن، بەشێوەیەکی گشتی دەبن بە گاڵتەجاڕ."),
+                                            "ئەگەر بە تەنھا بن، پۆلەکە کتێب دەھاوێژن، گاڵتە دەکەن، بەشێوەیەکی گشتی دەبن بە گاڵتەجاڕ."),
                                   ],
                                 ),
                               ),
@@ -369,12 +369,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clown (Derived forms: clowns)
+- Noun: clown (derived forms: clowns)
 1. A rude or vulgar fool (= buffoon)
  
 2. A person who amuses others by ridiculous behaviour (= buffoon, goof [informal], goofball [N. Amer, informal], merry andrew [archaic], droll [archaic])
 
-- Verb: clown (Derived forms: clowns, clowned, clowning)
+- Verb: clown (derived forms: clowns, clowned, clowning)
 1. Act as or like a clown (= clown around, antic [archaic])
 """,
   );

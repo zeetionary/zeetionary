@@ -195,7 +195,7 @@ class EnglishEntrycomponent extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دروسکەر، پێکهێنەر، پێکنەر، سازێنە، سازکەر، سازندە، دامەزرێنەر، پارچە، تیکە، توخم، کەرت، بەش (پێکهێنەر)
+کوردی: دروسکەر، پێکھێنەر، پێکنەر، سازێنە، سازکەر، سازندە، دامەزرێنەر، پارچە، تیکە، توخم، کەرت، بەش (پێکھێنەر)
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrycomponent extends StatelessWidget {
                                             "Nitrogen is the main component of air."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نایترۆجین پێکهێنەری سەرەکی هەوایە."),
+                                            "نایترۆجین پێکھێنەری سەرەکی ھەوایە."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycomponent extends StatelessWidget {
                                             "The country still lacks the basic components of a real democratic system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وڵاتەکە هێشتا کەماسی هەیە لە نەبوونی پێکهێنەرە سەرەکییەکانی سیستەمێکی دیموکراسیدا."),
+                                            "وڵاتەکە ھێشتا کەماسی ھەیە لە نەبوونی پێکھێنەرە سەرەکییەکانی سیستەمێکی دیموکراسیدا."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycomponent extends StatelessWidget {
                                             "Individual components for the car can be very expensive."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارچە تاکەکانی ئۆتۆمبێل دەکرێت زۆر گران‌بەها بن."),
+                                            "پارچە تاکەکانی ئۆتۆمبێل دەکرێت زۆر گران‌بەھا بن."),
                                   ],
                                 ),
                               ),
@@ -325,7 +325,7 @@ class EnglishEntrycomponent extends StatelessWidget {
                                             "Break the problem down into its component parts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کێشەکە شیبکەرەوە بۆ بەشە پێکهێنەرەکانی."),
+                                            "کێشەکە شیبکەرەوە بۆ بەشە پێکھێنەرەکانی."),
                                   ],
                                 ),
                               ),
@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: component (Derived forms: components)
+- Noun: component (derived forms: components)
 1. An abstract part of something (= constituent, element, factor, ingredient)
 "jealousy was a component of his character";
  
@@ -470,7 +470,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WZ3xzVHT0mc',
+    videoId: 'WZ3xzVHT0mc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7uhBsfJay9Q?t=',
+    videoId: '7uhBsfJay9Q',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 1020,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVQxvthAcLU?t=',
+    videoId: 'xVQxvthAcLU',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/toVfvRhWbj8?t=',
+    videoId: 'toVfvRhWbj8',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X3TAROotFfM?t=',
+    videoId: 'X3TAROotFfM',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/toVfvRhWbj8?t=',
+    videoId: 'toVfvRhWbj8',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(

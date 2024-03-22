@@ -195,7 +195,7 @@ class EnglishEntrycomet extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەنێکی گەورەی سەهۆڵ و خۆڵ کە بە دەوری خەردا دەسووڕێتەوە و وەک ئەستێرەیەکی کلکدار دەردەکەوێت"),
+                                  "١. (ناو) تەنێکی گەورەی سەھۆڵ و خۆڵ کە بە دەوری خەردا دەسووڕێتەوە و وەک ئەستێرەیەکی کلکدار دەردەکەوێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: comet (Derived forms: comets)
+- Noun: comet (derived forms: comets)
 1, (astronomy) a relatively small extraterrestrial body consisting of a frozen mass that travels around the sun in a highly elliptical orbit
 """,
   );

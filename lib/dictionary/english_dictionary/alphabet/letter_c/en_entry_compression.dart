@@ -206,7 +206,7 @@ class EnglishEntrycompression extends StatelessWidget {
                                             "Tectonic forces caused compression in the earth’s crust."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزی تەکتۆنی دەبێتە هۆی پەستان لە کرۆکی زەویدا."),
+                                            "ھێزی تەکتۆنی دەبێتە ھۆی پەستان لە کرۆکی زەویدا."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycompression extends StatelessWidget {
                                             "The compression of the play into a single three-hour drama required careful editing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمکردنەوەی شانۆکە بۆ درامایەکی سێ کاتژمێری پێویستی بە دەستکاری ورد هەیە."),
+                                            "کەمکردنەوەی شانۆکە بۆ درامایەکی سێ کاتژمێری پێویستی بە دەستکاری ورد ھەیە."),
                                   ],
                                 ),
                               ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compression (Derived forms: compressions)
+- Noun: compression (derived forms: compressions)
 1. An increase in the density of something (= compaction, concretion, densification)
  
 2. The process or result of becoming smaller or pressed together (= condensation, contraction)
@@ -381,7 +381,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1pZqiuaZYGY?t=',
+    videoId: '1pZqiuaZYGY',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -406,7 +406,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iiBLQPiRjRc?t=',
+    videoId: 'iiBLQPiRjRc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -431,7 +431,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7JGM_4lumXM?t=',
+    videoId: '7JGM_4lumXM',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VXIu3oo8z4c?t=',
+    videoId: 'VXIu3oo8z4c',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/toVfvRhWbj8?t=',
+    videoId: 'toVfvRhWbj8',
     startSeconds: 276,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4RlBVzUCYek?t=',
+    videoId: '4RlBVzUCYek',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-7bIDbaU_zQ?t=',
+    videoId: '-7bIDbaU_zQ',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(

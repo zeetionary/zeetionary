@@ -197,7 +197,7 @@ class EnglishEntrycompound extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکهاتە، داڕشتە، تێکەڵە، لێکدراو، ئاوێتە،	وشەی لێکدراو،	(ڕستە) ناسادە، لێکدراو،	پێکهاتە، پێکهێنراو، پێکهاتوو، ئاوێتە، ناوچەی دەورگیراو، حەوشە، دیواربەند
+کوردی: پێکھاتە، داڕشتە، تێکەڵە، لێکدراو، ئاوێتە،	وشەی لێکدراو،	(ڕستە) ناسادە، لێکدراو،	پێکھاتە، پێکھێنراو، پێکھاتوو، ئاوێتە، ناوچەی دەورگیراو، حەوشە، دیواربەند
 """),
                           const DefinitionKurdish(
                               text:
@@ -212,7 +212,7 @@ class EnglishEntrycompound extends StatelessWidget {
                                             "The air smelled like a compound of diesel and petrol fumes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەهات."),
+                                            "ھەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەھات."),
                                   ],
                                 ),
                               ),
@@ -232,7 +232,7 @@ class EnglishEntrycompound extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) مادەیەک کە لە کارلێکی کیمیایی دوو توخم یان زیاتر درووست دەبێت کە ڕێژەی جێگیر بەراورد بە یەکدی هەیە"),
+                                  "٢. (ناو) مادەیەک کە لە کارلێکی کیمیایی دوو توخم یان زیاتر درووست دەبێت کە ڕێژەی جێگیر بەراورد بە یەکدی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -263,7 +263,7 @@ class EnglishEntrycompound extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) شتێک کە لە دوو بەش پێکهاتووە"),
+                                  "٣. (ھاوەڵناو) شتێک کە لە دوو بەش پێکھاتووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -492,7 +492,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compound (Derived forms: compounding, compounds, compounded)
+- Verb: compound (derived forms: compounding, compounds, compounded)
 1. Make more intense, stronger, or more marked (= intensify, heighten, deepen)
 "The efforts were compounded";
  
@@ -506,7 +506,7 @@ ${englishMeaningConst.text}
 5. Combine so as to form a whole; mix (= combine)
 "compound the ingredients";
 
-- Noun: compound (Derived forms: compounds)
+- Noun: compound (derived forms: compounds)
 1. A whole formed by a union of two or more elements or parts
  
 2. (chemistry) a substance formed by chemical union of two or more elements or ingredients in definite proportion by weight (= chemical compound)
@@ -557,7 +557,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XlwbarbttsI?t=',
+    videoId: 'XlwbarbttsI',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4EpI7UbQvUI?t=',
+    videoId: '4EpI7UbQvUI',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +607,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HrUmQ6uLSPI?t=',
+    videoId: 'HrUmQ6uLSPI',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -632,7 +632,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0-K1pVcmVzk?t=',
+    videoId: '0-K1pVcmVzk',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -657,7 +657,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MVHZWLFXKPo?t=',
+    videoId: 'MVHZWLFXKPo',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -682,7 +682,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IaUmrzUPU1k?t=',
+    videoId: 'IaUmrzUPU1k',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -707,7 +707,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rjpFX1WEfZ0?t=',
+    videoId: 'rjpFX1WEfZ0',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

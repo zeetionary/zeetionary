@@ -194,7 +194,7 @@ class EnglishEntrycompel extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ناچار کردن، هان دان، داڵدە دان
+کوردی: ناچار کردن، ھان دان، داڵدە دان
 """),
                           const DefinitionKurdish(
                               text:
@@ -237,7 +237,7 @@ class EnglishEntrycompel extends StatelessWidget {
                                             "I feel compelled to write and tell you how much I enjoyed your book."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەست بە ناچاری دەکەم کە بۆت بنووسم و پێت بڵێم چەندە چێژم لە کتێبەکەت بینی."),
+                                            "ھەست بە ناچاری دەکەم کە بۆت بنووسم و پێت بڵێم چەندە چێژم لە کتێبەکەت بینی."),
                                   ],
                                 ),
                               ),
@@ -265,7 +265,7 @@ class EnglishEntrycompel extends StatelessWidget {
                                             "The court has powers to compel witnesses to attend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دادگاکان دەسەڵاتیان هەیە شایەتحاڵەکان بانگ بکەن."),
+                                            "دادگاکان دەسەڵاتیان ھەیە شایەتحاڵەکان بانگ بکەن."),
                                   ],
                                 ),
                               ),
@@ -284,7 +284,7 @@ class EnglishEntrycompel extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) بوون بە هۆکاری کاردانەوەیەک"),
+                              text: "٢. (کردار) بوون بە ھۆکاری کاردانەوەیەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,7 +295,7 @@ class EnglishEntrycompel extends StatelessWidget {
                                             "He spoke with an authority that compelled the attention of the whole crowd."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هێزێکی وەهاوە قسەیکرد کە سەرنجی تەواوی جەماوەرەکەی ڕاکێشا."),
+                                            "بە ھێزێکی وەھاوە قسەیکرد کە سەرنجی تەواوی جەماوەرەکەی ڕاکێشا."),
                                   ],
                                 ),
                               ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compel (Derived forms: compels, compelling, compelled)
+- Verb: compel (derived forms: compels, compelling, compelled)
 1. Force somebody to do something (= oblige, obligate)
 "We compel all students to fill out this form";
  
@@ -432,7 +432,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2-WISvX-SKI?t=',
+    videoId: '2-WISvX-SKI',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SjTUAKjr_1w?t=',
+    videoId: 'SjTUAKjr_1w',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EuarZ_DB6Zs?t=',
+    videoId: 'EuarZ_DB6Zs',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BztMgcNgobk?t=',
+    videoId: 'BztMgcNgobk',
     startSeconds: 972,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_2LApgOJe5k?t=',
+    videoId: '_2LApgOJe5k',
     startSeconds: 725,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XHXLbp7x3MM?t=',
+    videoId: 'XHXLbp7x3MM',
     startSeconds: 793,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gPHdypbzUU8?t=',
+    videoId: 'gPHdypbzUU8',
     startSeconds: 680,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -194,11 +194,11 @@ class EnglishEntrycommunal extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوبەش، شەریکی، شەریکە، شەریکانە، هاوبەشانە، بۆهەموو، گشتی، کۆمۆنیستی،	کۆمەڵی، خۆجێیی، کەمینەیی، فیرقەیی
+کوردی: ھاوبەش، شەریکی، شەریکە، شەریکانە، ھاوبەشانە، بۆھەموو، گشتی، کۆمۆنیستی،	کۆمەڵی، خۆجێیی، کەمینەیی، فیرقەیی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) شتێک کە بەکاردێت، یان هی کۆمەڵە کەسێکە"),
+                                  "١. (ھاوەڵناو) شتێک کە بەکاردێت، یان ھی کۆمەڵە کەسێکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycommunal extends StatelessWidget {
                                             "As a student he tried communal living for a few years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک خوێندکارێک هەوڵیدا بە ژیانی هاوبەش بژی بۆ چەند ساڵێک."),
+                                            "وەک خوێندکارێک ھەوڵیدا بە ژیانی ھاوبەش بژی بۆ چەند ساڵێک."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,7 @@ class EnglishEntrycommunal extends StatelessWidget {
                                             "The gardens surrounding the building were communal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو باخچانەی دەوری بیناکەیان دابوو هاوبەش بوون."),
+                                            "ئەو باخچانەی دەوری بیناکەیان دابوو ھاوبەش بوون."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycommunal extends StatelessWidget {
                                             "Communal riots/disturbances have once again broken out between the two ethnic groups."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاژاوەی ناوخۆیی جارێکی تر دووبارە سەریهەڵداوە لە نێوان گرووپە کەمینەکاندا."),
+                                            "ئاژاوەی ناوخۆیی جارێکی تر دووبارە سەریھەڵداوە لە نێوان گرووپە کەمینەکاندا."),
                                   ],
                                 ),
                               ),

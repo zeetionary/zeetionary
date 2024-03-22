@@ -47,7 +47,8 @@ class EnglishEntrycommunicative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The communicative ability of the whale is thought to be highly developed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The communicative ability of the whale is thought to be highly developed."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcommunicatives4(String languageCode) async {
@@ -197,7 +198,7 @@ class EnglishEntrycommunicative extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) هەبوونی ئامادەیی بۆ پێدانی زانیاری بە کەسانی دیکە"),
+                                  "١. (ھاوەڵناو) ھەبوونی ئامادەیی بۆ پێدانی زانیاری بە کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +237,8 @@ class EnglishEntrycommunicative extends StatelessWidget {
                                         text:
                                             "He wasn’t very communicative and kept things to himself."),
                                     ExampleSentenceKurdish(
-                                        text: "زۆر ڕووخۆش نەبوو و شتی بۆ خۆی دەپاراست."),
+                                        text:
+                                            "زۆر ڕووخۆش نەبوو و شتی بۆ خۆی دەپاراست."),
                                   ],
                                 ),
                               ),
@@ -256,32 +258,37 @@ class EnglishEntrycommunicative extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵناو) پەیوەندیدار بە توانای پەیوەندیکردن"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) پەیوەندیدار بە توانای پەیوەندیکردن"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The communicative ability of the whale is thought to be highly developed."),
-                          ExampleSentenceKurdish(
-                          text: "توانای پەیوەندی نەگەنگ وابیردەکرێتەوە زۆر گەشەکردوو بێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcommunicatives3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcommunicatives3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The communicative ability of the whale is thought to be highly developed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانای پەیوەندی نەگەنگ وابیردەکرێتەوە زۆر گەشەکردوو بێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakcommunicatives3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakcommunicatives3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),

@@ -194,7 +194,7 @@ class EnglishEntrycompatibility extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گونجان، سازان، کۆک‌بوون، ڕاهاتن، ڕێک‌کەوتن، جۆربوون، بۆبوون
+کوردی: گونجان، سازان، کۆک‌بوون، ڕاھاتن، ڕێک‌کەوتن، جۆربوون، بۆبوون
 """),
                           const DefinitionKurdish(
                               text:
@@ -231,7 +231,7 @@ class EnglishEntrycompatibility extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) توانای پێکەوە بەکارهێنانی ئامێر پێکەوە"),
+                                  "٢. (ناو) توانای پێکەوە بەکارھێنانی ئامێر پێکەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -343,7 +343,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: compatibility (Derived forms: compatibilities)
+- Noun: compatibility (derived forms: compatibilities)
 1. A feeling of sympathetic understanding
  
 2. Capability of existing or performing in harmonious or congenial combination
@@ -379,7 +379,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VbD9LrDR6IQ?t=',
+    videoId: 'VbD9LrDR6IQ',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -404,7 +404,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NF6lu6IzIo8',
+    videoId: 'NF6lu6IzIo8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4rOVwUi6pCg?t=',
+    videoId: '4rOVwUi6pCg',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QjPqAZaUtBU?t=',
+    videoId: 'QjPqAZaUtBU',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lCYiZhZypp4?t=',
+    videoId: 'lCYiZhZypp4',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M2JHMte6oiM?t=',
+    videoId: 'M2JHMte6oiM',
     startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n7lM36yFh2Y?t=',
+    videoId: 'n7lM36yFh2Y',
     startSeconds: 614,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zZN4Rvb8EuU?t=',
+    videoId: 'zZN4Rvb8EuU',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(

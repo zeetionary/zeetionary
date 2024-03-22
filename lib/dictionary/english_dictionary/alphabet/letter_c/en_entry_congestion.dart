@@ -193,10 +193,10 @@ class EnglishEntrycongestion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شلوقی، ئاپۆرە، چڕەبەندان، قەرەباڵغی، پاڵەپەستۆ، تێک‌چڕژان، ڕێبەندان،	خوێن‌تێزان، پڕخوێنی، هەڵازران، سووربوونەوە،	(لووت) گیران، کپ‌بوون
+کوردی: شلوقی، ئاپۆرە، چڕەبەندان، قەرەباڵغی، پاڵەپەستۆ، تێک‌چڕژان، ڕێبەندان،	خوێن‌تێزان، پڕخوێنی، ھەڵازران، سووربوونەوە،	(لووت) گیران، کپ‌بوون
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) قەرەباڵغ و پڕ لە هاتووچۆ"),
+                              text: "١. (ناو) قەرەباڵغ و پڕ لە ھاتووچۆ"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycongestion extends StatelessWidget {
                                             "Parking near the school causes severe traffic congestion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەستانی ئۆتۆمبێل لە نزیک قوتابخانەکە دەبێتە هۆی قەرەباڵغی هاتووچۆی زۆر."),
+                                            "وەستانی ئۆتۆمبێل لە نزیک قوتابخانەکە دەبێتە ھۆی قەرەباڵغی ھاتووچۆی زۆر."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycongestion extends StatelessWidget {
                                             "Better public transport would help ease traffic congestion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گواستنەوەی گشتی باشتر یارمەتیدەر دەبێت لە کەمکردنەوەی قەرەباڵغی هاتووچۆ."),
+                                            "گواستنەوەی گشتی باشتر یارمەتیدەر دەبێت لە کەمکردنەوەی قەرەباڵغی ھاتووچۆ."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycongestion extends StatelessWidget {
                                             "This spray helps to ease nasal congestion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سپراییەکە دەىێتە هۆی بەربوونی گیرانی لووت."),
+                                            "سپراییەکە دەىێتە ھۆی بەربوونی گیرانی لووت."),
                                   ],
                                 ),
                               ),
@@ -365,7 +365,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: congestion (Derived forms: congestions)
+- Noun: congestion (derived forms: congestions)
 1. Excessive accumulation of blood or other fluid in a body part
  
 2. Excessive crowding (= over-crowding)
@@ -402,7 +402,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uEN-71R4gjQ',
+    videoId: 'uEN-71R4gjQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +427,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YwWd8fLvih0?t=',
+    videoId: 'YwWd8fLvih0',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +452,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1N9PEE7U0AA?t=',
+    videoId: '1N9PEE7U0AA',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +477,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1clR57hmchg',
+    videoId: '1clR57hmchg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U5eV9HJtOYw',
+    videoId: 'U5eV9HJtOYw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bp6kmcno9SI?t=',
+    videoId: 'bp6kmcno9SI',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/onKCSNe3xlU?t=',
+    videoId: 'onKCSNe3xlU',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(

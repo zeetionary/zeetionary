@@ -521,7 +521,7 @@ class EnglishEntrycommon extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوبەش، هەڤپار، هەڤپشک، خەڵکی ڕەمەکی، گشتی، گەلەمپەری، هەموو، گشت، تێکڕا، پێکەوەیی،	ئاسایی، بێ‌پلەوپایە، عەدەتی،	باو، بەبڕەو، داب،	زۆر، فرە، گەلێ،	سادە، ناتایبەتی،	ڕەمەکی، بازاڕی،	سووک، هیچەکە،	بێ‌ڕەوشت، چیمەن، مێرگ، باخی گشتی
+کوردی: ھاوبەش، ھەڤپار، ھەڤپشک، خەڵکی ڕەمەکی، گشتی، گەلەمپەری، ھەموو، گشت، تێکڕا، پێکەوەیی،	ئاسایی، بێ‌پلەوپایە، عەدەتی،	باو، بەبڕەو، داب،	زۆر، فرە، گەلێ،	سادە، ناتایبەتی،	ڕەمەکی، بازاڕی،	سووک، ھیچەکە،	بێ‌ڕەوشت، چیمەن، مێرگ، باخی گشتی
 """),
                           const DefinitionKurdish(
                               text:
@@ -594,7 +594,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                                     "Heart disease was the most common cause of death in those aged over 85."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نەخۆشی دڵ باوترین هۆکاری مردن بوو لە کەسانی تەمەن سەروو ٨٥ ساڵدا."),
+                                                    "نەخۆشی دڵ باوترین ھۆکاری مردن بوو لە کەسانی تەمەن سەروو ٨٥ ساڵدا."),
                                           ],
                                         ),
                                       ),
@@ -654,7 +654,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                                     "Allergies to milk are quite common in childhood."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەستیاری بە شیر زۆر باوە لە منداڵیدا."),
+                                                    "ھەستیاری بە شیر زۆر باوە لە منداڵیدا."),
                                           ],
                                         ),
                                       ),
@@ -710,7 +710,7 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) شتێک کە بوونی هەیە لە دوو کەس یان زیاتردا، یان لە ژمارەیەک کەسدا"),
+                                  "٢. (ناو) شتێک کە بوونی ھەیە لە دوو کەس یان زیاتردا، یان لە ژمارەیەک کەسدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -721,7 +721,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                             "They share a common interest in photography."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خولیایەکی هاوبەشیان هەیە بۆ وێنەگرتن."),
+                                            "خولیایەکی ھاوبەشیان ھەیە بۆ وێنەگرتن."),
                                   ],
                                 ),
                               ),
@@ -749,7 +749,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                             "We are working together for a common purpose."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ ئامانجێکی هاوبەش کار دەکەین."),
+                                            "بۆ ئامانجێکی ھاوبەش کار دەکەین."),
                                   ],
                                 ),
                               ),
@@ -780,7 +780,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                                     "This decision was taken for the common good (= the advantage of everyone)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم بڕیارە بۆ چاکەی هەموان درا."),
+                                                    "ئەم بڕیارە بۆ چاکەی ھەموان درا."),
                                           ],
                                         ),
                                       ),
@@ -810,7 +810,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                                     "This attitude is common to most young men in the armed services."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەم هەڵسوکەوتە گشتییە لەناو زۆرینەی پیاوانی گەنجی سوپادا."),
+                                                    "ئەم ھەڵسوکەوتە گشتییە لەناو زۆرینەی پیاوانی گەنجی سوپادا."),
                                           ],
                                         ),
                                       ),
@@ -875,7 +875,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                             "In most people's eyes she was nothing more than a common criminal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ڕوانگەی زۆر کەسەەو تەنها تاوانبارێکی ئاسایی بوو."),
+                                            "لە ڕوانگەی زۆر کەسەەو تەنھا تاوانبارێکی ئاسایی بوو."),
                                   ],
                                 ),
                               ),
@@ -906,7 +906,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                                     "It's only common decency to let her know what's happening (= people would expect it)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەوە تەنها دابودەستووری چاوەڕواکراوە کە پێی بڵێیت چی ڕوودەدات."),
+                                                    "ئەوە تەنھا دابودەستووری چاوەڕواکراوە کە پێی بڵێیت چی ڕوودەدات."),
                                           ],
                                         ),
                                       ),
@@ -962,7 +962,7 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) ئاژەڵێک یان ڕووەکێک کە بە ژمارەی زۆر بوونی هەیە و دەگمەن نییە"),
+                                  "٤. (ھاوەڵناو) ئاژەڵێک یان ڕووەکێک کە بە ژمارەی زۆر بوونی ھەیە و دەگمەن نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -993,7 +993,7 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ھاوەڵناو) تایبەت بە کەسێکی کە لە چینی خوارەوەیە و هەڵسوکەوتی باشی نییە"),
+                                  "٥. (ھاوەڵناو) تایبەت بە کەسێکی کە لە چینی خوارەوەیە و ھەڵسوکەوتی باشی نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1032,7 +1032,7 @@ class EnglishEntrycommon extends StatelessWidget {
                                             "I wish you wouldn't use that word—it sounds so common."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهیوابووم ئەو وشەیە بەکارنەهێنیت، زۆر عەشایەرانەیە."),
+                                            "بەھیوابووم ئەو وشەیە بەکارنەھێنیت، زۆر عەشایەرانەیە."),
                                   ],
                                 ),
                               ),
@@ -1080,7 +1080,7 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) ناوچەیەک لە گوندێک یان شارۆچکەیەک کە هەموو کەس دەتوانێت بەکاریبێنێت"),
+                                  "٦. (ناو) ناوچەیەک لە گوندێک یان شارۆچکەیەک کە ھەموو کەس دەتوانێت بەکاریبێنێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1190,7 +1190,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: common (Derived forms: commonest, commoner) 
+- Adjective: common (derived forms: commonest, commoner) 
 1. Shared by or having the same connection with two or more parties (= mutual)
 "a common friend";
  
@@ -1218,7 +1218,7 @@ ${englishMeaningConst.text}
 9. To be expected; standard
 "common decency"
 
-- Noun: common (Derived forms: commons)
+- Noun: common (derived forms: commons)
 1. A piece of open land for recreational use in an urban area (= park, commons, green)
 "they went for a walk in the common";
 """,

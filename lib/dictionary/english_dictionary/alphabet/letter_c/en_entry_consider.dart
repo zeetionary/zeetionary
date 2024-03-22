@@ -684,7 +684,7 @@ class EnglishEntryconsider extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕەچاوگرتن، ڕا دەربڕین، هەڵسەنگاندن، بیرکردنەوە
+کوردی: ڕەچاوگرتن، ڕا دەربڕین، ھەڵسەنگاندن، بیرکردنەوە
 """),
                           const DefinitionKurdish(
                               text:
@@ -699,7 +699,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                             "I'd like some time to consider."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستم بە هەندێک کاتە بۆ  بیرکردنەوە."),
+                                            "پێویستم بە ھەندێک کاتە بۆ  بیرکردنەوە."),
                                   ],
                                 ),
                               ),
@@ -726,7 +726,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                         text:
                                             "She is considering her options."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵبژاردەکانی ڕەچاو دەکات."),
+                                        text: "ھەڵبژاردەکانی ڕەچاو دەکات."),
                                   ],
                                 ),
                               ),
@@ -757,7 +757,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                                     "Let us consider the facts."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "با ڕاستییەکان هەڵبسەنگێنین."),
+                                                    "با ڕاستییەکان ھەڵبسەنگێنین."),
                                           ],
                                         ),
                                       ),
@@ -877,7 +877,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                                     "We are considering her for the job of designer."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەڵیدەسەنگێنین بۆ کاری دیزاینەری."),
+                                                    "ھەڵیدەسەنگێنین بۆ کاری دیزاینەری."),
                                           ],
                                         ),
                                       ),
@@ -942,7 +942,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I consider her a friend."),
                                     ExampleSentenceKurdish(
-                                        text: "وەک هاوڕێ سەیری دەکەم."),
+                                        text: "وەک ھاوڕێ سەیری دەکەم."),
                                   ],
                                 ),
                               ),
@@ -1027,7 +1027,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                                     "She is widely considered to be the greatest player ever."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە بەرفراوانی وەک باشترین یاریزانی هەمیشەیی دادەنرێت."),
+                                                    "بە بەرفراوانی وەک باشترین یاریزانی ھەمیشەیی دادەنرێت."),
                                           ],
                                         ),
                                       ),
@@ -1117,7 +1117,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                                     "They will take any steps they consider necessary."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەر هەنگاوێک دەنێن کە بە پێویستی ببینن."),
+                                                    "ھەر ھەنگاوێک دەنێن کە بە پێویستی ببینن."),
                                           ],
                                         ),
                                       ),
@@ -1143,7 +1143,7 @@ class EnglishEntryconsider extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بیرکردنەوە لە شتێک، بەتایبەتی هەست و سۆزی کەسانی دیکە، و کاریگەربوون پێیان کە بڕیارێک دەدەیت"),
+                                  "٣. (کردار) بیرکردنەوە لە شتێک، بەتایبەتی ھەست و سۆزی کەسانی دیکە، و کاریگەربوون پێیان کە بڕیارێک دەدەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1154,7 +1154,7 @@ class EnglishEntryconsider extends StatelessWidget {
                                             "You should consider other people before you act."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت بیر لە کەسانی دیکە بکەیتەوە پێش ئەوەی هەنگاو بنێیت."),
+                                            "دەبێت بیر لە کەسانی دیکە بکەیتەوە پێش ئەوەی ھەنگاو بنێیت."),
                                   ],
                                 ),
                               ),
@@ -1283,7 +1283,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: consider (Derived forms: considered, considering, considers)
+- Verb: consider (derived forms: considered, considering, considers)
 1. Perceive or think about in a particular way; deem to be (= see, reckon, view, regard)
 "I consider her to be shallow";
  
@@ -1341,7 +1341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
+    videoId: 'e09xig209cQ',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1366,7 +1366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
+    videoId: 'Cxqca4RQd_M',
     startSeconds: 558,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1391,7 +1391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1733,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1416,7 +1416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t6fIp7mMJ90?t=',
+    videoId: 't6fIp7mMJ90',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1441,7 +1441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1466,7 +1466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1088,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1491,7 +1491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(

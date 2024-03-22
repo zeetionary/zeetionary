@@ -206,7 +206,7 @@ class EnglishEntrycockup extends StatelessWidget {
                                             "So, it was delivered to the wrong place? What a cock-up!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەواتە، بۆ ناونیشانێکی هەڵە نێردرا؟ چی سەهوویەک!"),
+                                            "کەواتە، بۆ ناونیشانێکی ھەڵە نێردرا؟ چی سەھوویەک!"),
                                   ],
                                 ),
                               ),

@@ -196,7 +196,7 @@ class EnglishEntrycohabit extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) ژیانکردن پێکەوە و هەبوونی پەیوەندی سێکسی بەبێ هاوسەرگیری"),
+                                  "١. (کردار) ژیانکردن پێکەوە و ھەبوونی پەیوەندی سێکسی بەبێ ھاوسەرگیری"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycohabit extends StatelessWidget {
                                             "She refused to cohabit with him before the wedding."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەتیکردەوە پێش هاوسەرگیرییەکە لەگەڵی بژی."),
+                                            "ڕەتیکردەوە پێش ھاوسەرگیرییەکە لەگەڵی بژی."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycohabit extends StatelessWidget {
                                             "About 23 percent of men and women aged 25 to 34 told researchers they had previously cohabited with a partner without it leading to marriage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نزیکەی ٢٣ لە سەدی پیاوان و ٢٥ بۆ ٣٤ لە سەدی ژنان بە توێژەرانیان گوت کە پێشووتر لەگەڵ هاوسەرێک ژیاون بەبێ کۆتایی هاتن بە هاوسەرگیری."),
+                                            "نزیکەی ٢٣ لە سەدی پیاوان و ٢٥ بۆ ٣٤ لە سەدی ژنان بە توێژەرانیان گوت کە پێشووتر لەگەڵ ھاوسەرێک ژیاون بەبێ کۆتایی ھاتن بە ھاوسەرگیری."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cohabit (Derived forms: cohabited, cohabits, cohabiting)
+- Verb: cohabit (derived forms: cohabited, cohabits, cohabiting)
 1. Share living quarters; usually said of people who are not married and live together as a couple (= live together, shack up [informal])
  
 2. Exist together (= coexist)

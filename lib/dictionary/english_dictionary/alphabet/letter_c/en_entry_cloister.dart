@@ -195,7 +195,7 @@ class EnglishEntrycloister extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕێڕەوێکی سەرداپۆشراو کە قەوسی هەیە لە دەوری باخچەیەکی لاکێشە یان چوارگۆشەیە، بەتایبەتی لە کڵێسایەک یان خانەقای ڕەبەنانە"),
+                                  "١. (ناو) ڕێڕەوێکی سەرداپۆشراو کە قەوسی ھەیە لە دەوری باخچەیەکی لاکێشە یان چوارگۆشەیە، بەتایبەتی لە کڵێسایەک یان خانەقای ڕەبەنانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,12 +305,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cloister (Derived forms: cloisters)
+- Noun: cloister (derived forms: cloisters)
 1. Residence that is a place of religious seclusion (such as a monastery) (= religious residence)
  
 2. (religion) a courtyard with covered walks (as in religious institutions)
 
-- Verb: cloister (Derived forms: cloistered, cloistering, cloisters)
+- Verb: cloister (derived forms: cloistered, cloistering, cloisters)
 1. Surround with a cloister, as of a garden
  
 2. Surround with a cloister

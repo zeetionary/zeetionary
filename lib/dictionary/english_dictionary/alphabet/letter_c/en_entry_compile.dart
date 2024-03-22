@@ -197,7 +197,7 @@ class EnglishEntrycompile extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) بەرهەمهێنانی کتێبێک، لیستێک، ڕاپۆرتێک، هتد بە کۆکردنەوەی وتار، گۆرانی، بابەت، هتد لە سەرچاوەی جیاوازەوە؛ کۆکردنەوەی زانیاری بۆ درووستکردنی کتێبێک، لیستێک، ڕاپۆرتێک، هتد"),
+                                  "١. (کردار) بەرھەمھێنانی کتێبێک، لیستێک، ڕاپۆرتێک، ھتد بە کۆکردنەوەی وتار، گۆرانی، بابەت، ھتد لە سەرچاوەی جیاوازەوە؛ کۆکردنەوەی زانیاری بۆ درووستکردنی کتێبێک، لیستێک، ڕاپۆرتێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycompile extends StatelessWidget {
                                             "We are trying to compile a list of suitable people for the job."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ دەدەین لیستێکی کەسانی گونجاو بۆ کارەکە پێکەوە بنێین ."),
+                                            "ھەوڵ دەدەین لیستێکی کەسانی گونجاو بۆ کارەکە پێکەوە بنێین ."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycompile extends StatelessWidget {
                                             "We're compiling some facts and figures for a documentary on the subject."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک زانیاری و ژمارە کۆدەکەینەوە بۆ دۆکیومێنتارییەک لەسەر بابەتەکە."),
+                                            "ھەندێک زانیاری و ژمارە کۆدەکەینەوە بۆ دۆکیومێنتارییەک لەسەر بابەتەکە."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrycompile extends StatelessWidget {
                                             "It took years to compile this dictionary."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ساڵانێکی پێچوو ئەم فەرهەنگە بنووسرێتەوە."),
+                                            "ساڵانێکی پێچوو ئەم فەرھەنگە بنووسرێتەوە."),
                                   ],
                                 ),
                               ),
@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: compile (Derived forms: compiling, compiles, compiled)
+- Verb: compile (derived forms: compiling, compiles, compiled)
 1. Get or gather together (a large number of something) (= roll up, collect, accumulate, pile up, amass, hoard)
 "She compiled a small fortune";
  
@@ -403,7 +403,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D8tPkb98Fkk?t=',
+    videoId: 'D8tPkb98Fkk',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +428,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/57nZ7LaVAH0?t=',
+    videoId: '57nZ7LaVAH0',
     startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +453,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vORV4D6Af88?t=',
+    videoId: 'vORV4D6Af88',
     startSeconds: 560,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U6OhuqD4w1k?t=',
+    videoId: 'U6OhuqD4w1k',
     startSeconds: 1824,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJ0Hfc8hvpE?t=',
+    videoId: 'LJ0Hfc8hvpE',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mscDaDd1ipk?t=',
+    videoId: 'mscDaDd1ipk',
     startSeconds: 678,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gQmiqmxJMtA?t=',
+    videoId: 'gQmiqmxJMtA',
     startSeconds: 2869,
     autoPlay: true,
     params: const YoutubePlayerParams(

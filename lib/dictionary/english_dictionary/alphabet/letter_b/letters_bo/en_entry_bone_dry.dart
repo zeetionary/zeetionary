@@ -158,7 +158,7 @@ class EnglishEntrybonedry extends StatelessWidget {
                                             "The ground was bone dry after the drought."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زەوییەکە وشک‌وبرینگ بوو لەدوای وشکەساڵییەکە."),
+                                            "زەوییەکە وشک‌وبرینگ بوو لە دوای وشکەساڵییەکە."),
                                   ],
                                 ),
                               ),

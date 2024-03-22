@@ -194,11 +194,11 @@ class EnglishEntrycomprise extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گرتنە خۆ ، لەخۆ گرتن، پێکهێنان
+کوردی: گرتنە خۆ ، لەخۆ گرتن، پێکھێنان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) هەبوونی شتێک وەک پێکهێنەر، بەشێک، یان ئەندامێک"),
+                                  "١. (کردار) ھەبوونی شتێک وەک پێکھێنەر، بەشێک، یان ئەندامێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycomprise extends StatelessWidget {
                                             "The committee is comprised of representatives from both the public and private sectors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لیژنەکە پێکهاتووە لە نوێنەرانی هەردوو کەرتی گشتی و تایبەتەوە."),
+                                            "لیژنەکە پێکھاتووە لە نوێنەرانی ھەردوو کەرتی گشتی و تایبەتەوە."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycomprise extends StatelessWidget {
                                     ),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وڵاتەکە لە ٢٠ ویلایەت پێکهاتووە."),
+                                            "وڵاتەکە لە ٢٠ ویلایەت پێکھاتووە."),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntrycomprise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بوون بە پێکهێنەر، بەشێک، یان ئەندامی شتێک"),
+                                  "٢. (کردار) بوون بە پێکھێنەر، بەشێک، یان ئەندامی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycomprise extends StatelessWidget {
                                             "Older people comprise a large proportion of those living in poverty."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەسانی بەتەمەن ڕێژەیەکی زۆر لەوانە پێکدێنن کە لە هەژاریدا دەژین."),
+                                            "کەسانی بەتەمەن ڕێژەیەکی زۆر لەوانە پێکدێنن کە لە ھەژاریدا دەژین."),
                                   ],
                                 ),
                               ),
@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: comprise (Derived forms: comprised, comprises, comprising)
+- Verb: comprise (derived forms: comprised, comprises, comprising)
 1. Be composed of (= consist)
 "The land he conquered comprised several provinces";
  
@@ -438,7 +438,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_0RTH57v66I?t=',
+    videoId: '_0RTH57v66I',
     startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    videoId: 'b_rjBWmc1iQ',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 1645,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/thR7IhHV554?t=',
+    videoId: 'thR7IhHV554',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qk97w6ZmV90?t=',
+    videoId: 'qk97w6ZmV90',
     startSeconds: 832,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ5GfDbjos8?t=',
+    videoId: 'iQ5GfDbjos8',
     startSeconds: 342,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +588,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gQmiqmxJMtA?t=',
+    videoId: 'gQmiqmxJMtA',
     startSeconds: 5190,
     autoPlay: true,
     params: const YoutubePlayerParams(

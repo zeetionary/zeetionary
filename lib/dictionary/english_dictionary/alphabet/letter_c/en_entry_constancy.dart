@@ -196,7 +196,7 @@ class EnglishEntryconstancy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) خاسیەتی مانەوە بە هەمان شێوە و نەگۆڕان"),
+                                  "١. (ناو) خاسیەتی مانەوە بە ھەمان شێوە و نەگۆڕان"),
                           Row(
                             children: [
                               const Expanded(
@@ -226,7 +226,7 @@ class EnglishEntryconstancy extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هەبوونی وەفاداری"),
+                              text: "٢. (ناو) ھەبوونی وەفاداری"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: constancy (Derived forms: constancies)
+- Noun: constancy (derived forms: constancies)
 1. The quality of being enduring and free from change or variation (= stability)
 "early mariners relied on the constancy of the trade winds";
  
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QcUey-DVYjk?t=',
+    videoId: 'QcUey-DVYjk',
     startSeconds: 683,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MJBfn07gZ30?t=',
+    videoId: 'MJBfn07gZ30',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GKD1vDAPkFQ?t=',
+    videoId: 'GKD1vDAPkFQ',
     startSeconds: 338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N__4blAmLg4?t=',
+    videoId: 'N__4blAmLg4',
     startSeconds: 684,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WhLKH9WkMyc?t=',
+    videoId: 'WhLKH9WkMyc',
     startSeconds: 394,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YSWd21z2qqE?t=',
+    videoId: 'YSWd21z2qqE',
     startSeconds: 805,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3d6vqlLM3Hw?t=',
+    videoId: '3d6vqlLM3Hw',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(

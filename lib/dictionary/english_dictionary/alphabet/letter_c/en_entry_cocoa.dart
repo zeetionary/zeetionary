@@ -192,11 +192,11 @@ class EnglishEntrycocoa extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کاکاو،	هاڕاوەی کاکاو،	دار کاکاو،	شیر کاکاو،	ئارەق یان خواردنەوەی کاکاو،	پیاڵەی کاکاو
+کوردی: کاکاو،	ھاڕاوەی کاکاو،	دار کاکاو،	شیر کاکاو،	ئارەق یان خواردنەوەی کاکاو،	پیاڵەی کاکاو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هاڕاوەیەکی قاوەیی کە لە دانی کاکاو درووست دەکرێت، کە بەکاردێت بۆ درووستکردنی چکلێت و بەخشینی تامی چکلێت بە خواردن"),
+                                  "١. (ناو) ھاڕاوەیەکی قاوەیی کە لە دانی کاکاو درووست دەکرێت، کە بەکاردێت بۆ درووستکردنی چکلێت و بەخشینی تامی چکلێت بە خواردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrycocoa extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) خواردنەوەیەک کە درووست دەکرێت بە تێکەڵکردنی هاڕاوەی کاکاو و شیر ئاو ، زۆرجار شەکریش"),
+                                  "٢. (ناو) خواردنەوەیەک کە درووست دەکرێت بە تێکەڵکردنی ھاڕاوەی کاکاو و شیر ئاو ، زۆرجار شەکریش"),
                           Row(
                             children: [
                               const Expanded(
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cocoa (Derived forms: cocoas)
+- Noun: cocoa (derived forms: cocoas)
 1. A beverage made from cocoa powder and milk and sugar; usually drunk hot (= chocolate, hot chocolate, drinking chocolate, cacao)
  
 2. Powder of ground roasted cacao beans with most of the fat removed (= cacao)

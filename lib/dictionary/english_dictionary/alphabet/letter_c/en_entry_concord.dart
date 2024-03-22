@@ -191,7 +191,7 @@ class EnglishEntryconcord extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ڕێک‌کەوتن، پێکهاتن، سازان، یەک‌کەوتن، گونجان، کۆکی، تەبایی، ئاشتی، پەیمان‌نامە،	(ڕێزمان) یەک‌گرتنەوە، یەک‌گیری، یەکان‌گیری، هاوگیری
+کوردی: ڕێک‌کەوتن، پێکھاتن، سازان، یەک‌کەوتن، گونجان، کۆکی، تەبایی، ئاشتی، پەیمان‌نامە،	(ڕێزمان) یەک‌گرتنەوە، یەک‌گیری، یەکان‌گیری، ھاوگیری
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئاشتی و ڕێککەوتن"),
@@ -304,14 +304,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: concord (Derived forms: concords)
+- Noun: concord (derived forms: concords)
 1. A harmonious state of things in general and of their properties (as of colours and sounds); congruity of parts with one another and with the whole (= harmony, concordance, symphony)
  
 2. The determination of grammatical inflection on the basis of word relations (= agreement)
  
 3. Agreement of opinions (= harmony, concordance)
 
-- Verb: concord (Derived forms: concording, concorded, concords)
+- Verb: concord (derived forms: concording, concorded, concords)
 1. Go well together (= harmonize, harmonise [Brit], consort, accord, fit in, agree)
 "Their ideas concorded";
  
@@ -324,7 +324,7 @@ ${englishMeaningConst.text}
 4. Be in accord; be in agreement (= agree, hold, concur)
 "Both philosophers concord on this point";
 
-- Noun: Concord (Derived forms: Concords)
+- Noun: Concord (derived forms: Concords)
 1. Slipskin grape; a purple table grape of the northeastern United States (= Concord grape)
  
 2. Town in eastern Massachusetts near Boston where the first battle of the American Revolution was fought for the cache of arms stored there
@@ -364,7 +364,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pBZ8o-lmAsg?t=',
+    videoId: 'pBZ8o-lmAsg',
     startSeconds: 282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JZTTRRTWSPQ?t=',
+    videoId: 'JZTTRRTWSPQ',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qyH17Gub9To?t=',
+    videoId: 'qyH17Gub9To',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxMI9Avy588?t=',
+    videoId: 'DxMI9Avy588',
     startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d5E2AQKuCyU?t=',
+    videoId: 'd5E2AQKuCyU',
     startSeconds: 6893,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pRXJ0DWsB9A?t=',
+    videoId: 'pRXJ0DWsB9A',
     startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UdTxL2K8QM8?t=',
+    videoId: 'UdTxL2K8QM8',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(

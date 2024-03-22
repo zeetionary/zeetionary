@@ -207,7 +207,7 @@ class EnglishEntryconstipation extends StatelessWidget {
                                             "Taking high doses of iron can cause constipation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە هۆی قەبزی."),
+                                            "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە ھۆی قەبزی."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: constipation (Derived forms: constipations)
+- Noun: constipation (derived forms: constipations)
 1. Irregular and infrequent or difficult evacuation of the bowels; can be a symptom of intestinal obstruction or diverticulitis (= irregularity)
  
 2. The act of making something futile and useless (as by routine) (= stultification, impairment, deadening)
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 1010,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XeHl5Y7m1xM?t=',
+    videoId: 'XeHl5Y7m1xM',
     startSeconds: 429,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/66VdylXI0nQ?t=',
+    videoId: '66VdylXI0nQ',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wPclF09XnDk?t=',
+    videoId: 'wPclF09XnDk',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/grViAbFlRIA?t=',
+    videoId: 'grViAbFlRIA',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u_1sVri3b2w?t=',
+    videoId: 'u_1sVri3b2w',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fH-tFSUEmmk?t=',
+    videoId: 'fH-tFSUEmmk',
     startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(

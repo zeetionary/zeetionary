@@ -196,7 +196,7 @@ class EnglishEntrycolonialist extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە داگیرکاری وڵاتانی دیکە لەلایەن وڵاتێکی بەهێزەوە"),
+                                  "١. (ھاوەڵناو) پەیوەندیدار بە داگیرکاری وڵاتانی دیکە لەلایەن وڵاتێکی بەھێزەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycolonialist extends StatelessWidget {
                                             "The colonialist powers of the 19th century included Britain, France, and Spain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزە داگیرکەرەکانی سەدەی ١٩ بریتی بوون لە بەریتانیا، فەرەنسا، ئیسپانیا."),
+                                            "ھێزە داگیرکەرەکانی سەدەی ١٩ بریتی بوون لە بەریتانیا، فەرەنسا، ئیسپانیا."),
                                   ],
                                 ),
                               ),
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colonialist (Derived forms: colonialists)
+- Noun: colonialist (derived forms: colonialists)
 1. A believer in colonialism
 """,
   );

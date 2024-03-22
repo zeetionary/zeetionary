@@ -195,11 +195,11 @@ class EnglishEntrycontainer extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەفر، جێ، قاپ، کاسە، هەڵگر،	سنووق، قوتو
+کوردی: دەفر، جێ، قاپ، کاسە، ھەڵگر،	سنووق، قوتو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) سنووقێک، کاسەیەک، بوتڵێک، هتد کە شتی تێدا هەڵدەگیرێت یان دەگوازرێتەوە"),
+                                  "١. (ناو) سنووقێک، کاسەیەک، بوتڵێک، ھتد کە شتی تێدا ھەڵدەگیرێت یان دەگوازرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,7 +210,7 @@ class EnglishEntrycontainer extends StatelessWidget {
                                             "Food will last longer if kept in an airtight container."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خواردن زیاتر دەمێنێتەوە ئەگەر دەفرێکی ھەوانەکێش هەڵبگیردرێت."),
+                                            "خواردن زیاتر دەمێنێتەوە ئەگەر دەفرێکی ھەوانەکێش ھەڵبگیردرێت."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycontainer extends StatelessWidget {
                                             "These women carry heavy containers of water over long distances."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم ژنانە ئاو هەڵگری قورس بۆ دووری زۆر هەڵدەگرن."),
+                                            "ئەم ژنانە ئاو ھەڵگری قورس بۆ دووری زۆر ھەڵدەگرن."),
                                   ],
                                 ),
                               ),
@@ -325,7 +325,7 @@ class EnglishEntrycontainer extends StatelessWidget {
                                             "Planting bulbs in containers is a great alternative if you don't have a garden."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕوواندنی سەلکە ڕووەک لە گۆزەدا هەڵبژاردەیەکی باشە ئەگەر باخچەت نییە."),
+                                            "ڕوواندنی سەلکە ڕووەک لە گۆزەدا ھەڵبژاردەیەکی باشە ئەگەر باخچەت نییە."),
                                   ],
                                 ),
                               ),
@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: container (Derived forms: containers)
+- Noun: container (derived forms: containers)
 1. Any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)
  
 2. (computing) a virtualized isolated operating system user space instance (running on the same kernel as other instances, as opposed to virtualization at the level of an entire machine)
@@ -462,7 +462,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VJ1lNcw3Rbw?t=',
+    videoId: 'VJ1lNcw3Rbw',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cITI_nd-2EI?t=',
+    videoId: 'cITI_nd-2EI',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/20127MrzYeI?t=',
+    videoId: '20127MrzYeI',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +537,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QTJFZrZmuAk?t=',
+    videoId: 'QTJFZrZmuAk',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 369,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 833,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +612,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EHJNGdFll4o?t=',
+    videoId: 'EHJNGdFll4o',
     startSeconds: 814,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -637,7 +637,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/olHw-8py9K0?t=',
+    videoId: 'olHw-8py9K0',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -235,7 +235,7 @@ class EnglishEntryconjure extends StatelessWidget {
                                             "In an instant, the magician had conjured (up) a dove from his hat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە چەقەنەیەکدا، سیحربازەکە کۆترێکی لە کڵاوەکەیەوە دەرهێنا."),
+                                            "لە چەقەنەیەکدا، سیحربازەکە کۆترێکی لە کڵاوەکەیەوە دەرھێنا."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: conjure (Derived forms: conjured, conjuring, conjures)
+- Verb: conjure (derived forms: conjured, conjuring, conjures)
 1. Summon into action or bring into existence, often as if by magic (= raise, conjure up, invoke, evoke, stir, call down, arouse, bring up, put forward, call forth)
 "he conjured wild birds in the air"; "conjure up the spectre of unemployment";
  
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XEZfGlyLQnA?t=',
+    videoId: 'XEZfGlyLQnA',
     startSeconds: 612,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    videoId: '4J0xFUyz1nw',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dNKQYjsxgPU?t=',
+    videoId: 'dNKQYjsxgPU',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0yv6smozK9M?t=',
+    videoId: '0yv6smozK9M',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8PJGIEz5YJ4?t=',
+    videoId: '8PJGIEz5YJ4',
     startSeconds: 1449,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hGLY5MAAFO4?t=',
+    videoId: 'hGLY5MAAFO4',
     startSeconds: 1271,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KUd7nJJtM6M?t=',
+    videoId: 'KUd7nJJtM6M',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(

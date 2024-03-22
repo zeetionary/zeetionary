@@ -195,11 +195,11 @@ class EnglishEntryconfess extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دان پیداهێنان، درکاندن
+کوردی: دان پیداھێنان، درکاندن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) داننان بەوەی شتێکی نایاسایی یان هەڵەت کردووە"),
+                                  "١. (کردار) داننان بەوەی شتێکی نایاسایی یان ھەڵەت کردووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -322,7 +322,7 @@ class EnglishEntryconfess extends StatelessWidget {
                                             "I must confess to knowing nothing about golf."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبێت دان بەوەدا بنێم هیچ لەسەر گۆڵف نازانم."),
+                                            "دەبێت دان بەوەدا بنێم ھیچ لەسەر گۆڵف نازانم."),
                                   ],
                                 ),
                               ),
@@ -421,7 +421,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confess (Derived forms: confesses, confessing, confessed)
+- Verb: confess (derived forms: confesses, confessing, confessed)
 1. Admit to the truth, particularly in the context of sins or crimes committed (= squeal, fink [N. Amer, informal])
  
 2. Admit (to a wrongdoing) (= concede, profess)
@@ -460,7 +460,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UuGpm01SPcA?t=',
+    videoId: 'UuGpm01SPcA',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ii50SWTJSoA?t=',
+    videoId: 'ii50SWTJSoA',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L9Mu93VJLcc?t=',
+    videoId: 'L9Mu93VJLcc',
     startSeconds: 1009,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5R65skWdg7Y?t=',
+    videoId: '5R65skWdg7Y',
     startSeconds: 2047,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R0wa9IlCA_w',
+    videoId: 'R0wa9IlCA_w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IILklP-sj_0?t=',
+    videoId: 'IILklP-sj_0',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -610,7 +610,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ByBKJyh7S8?t=',
+    videoId: '4ByBKJyh7S8',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -236,7 +236,7 @@ class EnglishEntryconstrict extends StatelessWidget {
                                             "He hated wearing a tie - he felt it constricted his breathing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕقی لە بەستنی بۆینباخ بوو، پێی وابوو هەناسەدانی توند دەکات."),
+                                            "ڕقی لە بەستنی بۆینباخ بوو، پێی وابوو ھەناسەدانی توند دەکات."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntryconstrict extends StatelessWidget {
                                             "Film-makers of the time were constricted by the censors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەمهێنەرانی ئەو کاتی فیلم سنوورداربوون بەهۆی سانسۆرەکانەوە."),
+                                            "بەرھەمھێنەرانی ئەو کاتی فیلم سنوورداربوون بەھۆی سانسۆرەکانەوە."),
                                   ],
                                 ),
                               ),
@@ -393,7 +393,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: constrict (Derived forms: constricted, constricting, constricts)
+- Verb: constrict (derived forms: constricted, constricting, constricts)
 1. Bring together or compress (= compress, squeeze, compact, contract, press)
 "she constricted her lips";
  
@@ -431,7 +431,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_VBNW98c_bU?t=',
+    videoId: '_VBNW98c_bU',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wPQzenQMxKs?t=',
+    videoId: 'wPQzenQMxKs',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jGEYGevx13s?t=',
+    videoId: 'jGEYGevx13s',
     startSeconds: 653,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PhQksV8fbKw?t=',
+    videoId: 'PhQksV8fbKw',
     startSeconds: 1406,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B5ytcg5pYEA?t=',
+    videoId: 'B5ytcg5pYEA',
     startSeconds: 1436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fcmpqSLlgzk?t=',
+    videoId: 'fcmpqSLlgzk',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/udI0QnkMRi4?t=',
+    videoId: 'udI0QnkMRi4',
     startSeconds: 392,
     autoPlay: true,
     params: const YoutubePlayerParams(

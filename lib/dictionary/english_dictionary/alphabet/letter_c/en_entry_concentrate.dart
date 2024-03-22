@@ -204,7 +204,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                                         text:
                                             "I can't concentrate with all that noise going on."),
                                     ExampleSentenceKurdish(
-                                        text: "ناتوانم سەرنج بدەم بەو هەموو دەنگەدەنگەی هەیە."),
+                                        text: "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           text:
                           "I struggled to concentrate on my job because I was worried about my son."),
                           ExampleSentenceKurdish(
-                          text: "نەمدەتوانی بیروهۆشـ بدەم بە کارەکەم بەهۆی ئەوەی نیگەران بووم سەبارەت بە کوڕەکەم."),
+                          text: "نەمدەتوانی بیروھۆشـ بدەم بە کارەکەم بەھۆی ئەوەی نیگەران بووم سەبارەت بە کوڕەکەم."),
                           ],
                           ),
                           ),
@@ -258,7 +258,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           text:
                           "She tried to concentrate on reading her book but couldn't."),
                           ExampleSentenceKurdish(
-                          text: "هەوڵی دەدا سەرنج بخاتە سەر خوێندنەوە بەڵام نەیدەتوانی."),
+                          text: "ھەوڵی دەدا سەرنج بخاتە سەر خوێندنەوە بەڵام نەیدەتوانی."),
                           ],
                           ),
                           ),
@@ -285,7 +285,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           text:
                           "I decided to concentrate all my efforts on finding somewhere to live."),
                           ExampleSentenceKurdish(
-                          text: "بڕیارم تەواوی هەوڵم بدەم بۆ ئەوەی شوێنێک بدۆزمەوە بۆ ژیان."),
+                          text: "بڕیارم تەواوی ھەوڵم بدەم بۆ ئەوەی شوێنێک بدۆزمەوە بۆ ژیان."),
                           ],
                           ),
                           ),
@@ -367,7 +367,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           text:
                           "Singapore has a much smaller and more geographically concentrated population than Australia."),
                           ExampleSentenceKurdish(
-                          text: "سنگاپوور دانیشتوانێکی بچووکتر و لە ڕووی جوگرافییەوە چڕتری هەیە لە ئوسترالیا."),
+                          text: "سنگاپوور دانیشتوانێکی بچووکتر و لە ڕووی جوگرافییەوە چڕتری ھەیە لە ئوسترالیا."),
                           ],
                           ),
                           ),
@@ -385,7 +385,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) مادەیەک کە خەستکراوەتەوە بەهۆی ئەوەی ئاو و مادەکانی دیکەی لێ دەرکراوە"),
+                          const DefinitionKurdish(text: "٣. (ناو) مادەیەک کە خەستکراوەتەوە بەھۆی ئەوەی ئاو و مادەکانی دیکەی لێ دەرکراوە"),
                           Row(
                           children: [
                           const Expanded(
@@ -494,7 +494,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: concentrate (Derived forms: concentrates, concentrating, concentrated)
+- Verb: concentrate (derived forms: concentrates, concentrating, concentrated)
 1. Hold attention and exert mental effort on something (= focus, center [US], centre [Brit, Cdn], pore, rivet, pore over)
 "Please concentrate on your studies and not on your hobbies";
  
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 9. (cooking) cook until very little liquid is left (= reduce, boil down)
 "The cook concentrated the sauce by boiling it for a long time";
 
-- Noun: concentrate (Derived forms: concentrates)
+- Noun: concentrate (derived forms: concentrates)
 1. The desired mineral that is left after impurities have been removed from mined ore (= dressed ore)
 
 2. A concentrated form of a foodstuff; the bulk is reduced by removing water
@@ -556,7 +556,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nANGQ_9wD-0?t=',
+    videoId: 'nANGQ_9wD-0',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DEFD9TSHg_A?t=',
+    videoId: 'DEFD9TSHg_A',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    videoId: '1Gxrwh4zGPg',
     startSeconds: 1023,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 1068,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9wY7u3bVnDs?t=',
+    videoId: '9wY7u3bVnDs',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CmhFPjE6U8k?t=',
+    videoId: 'CmhFPjE6U8k',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PGPVpil2UmE?t=',
+    videoId: 'PGPVpil2UmE',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(

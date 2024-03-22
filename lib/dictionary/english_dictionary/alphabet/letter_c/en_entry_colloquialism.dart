@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: colloquialism (Derived forms: colloquialisms)
+- Noun: colloquialism (derived forms: colloquialisms)
 1. A colloquial expression; characteristic of spoken or written communication that seeks to imitate informal speech
 """,
   );

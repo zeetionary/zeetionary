@@ -203,7 +203,7 @@ class EnglishEntryclub extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دامەزراوەیەک بۆ ئەو کەسانەی کە هەمان خولیایان هەیە یان چالاکییەک پێکەوە دەکەن"),
+                                  "١. (ناو) دامەزراوەیەک بۆ ئەو کەسانەی کە ھەمان خولیایان ھەیە یان چالاکییەک پێکەوە دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntryclub extends StatelessWidget {
                                         text:
                                             "They belong to the same golf club."),
                                     ExampleSentenceKurdish(
-                                        text: "سەر بە هەمان یانەی گۆڵفن."),
+                                        text: "سەر بە ھەمان یانەی گۆڵفن."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) یانەیەکی پڕۆفیشناڵی وەرزشی کە یاریزانان و ڕاهێنەر و بەڕێوبەران و خاوەنەکان لەخۆدەگرێت"),
+                                  "٣. (ناو) یانەیەکی پڕۆفیشناڵی وەرزشی کە یاریزانان و ڕاھێنەر و بەڕێوبەران و خاوەنەکان لەخۆدەگرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -302,7 +302,7 @@ class EnglishEntryclub extends StatelessWidget {
                                             "The club have signed a new coach for next season."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یانەکە ڕاهێنەرێکی تازەیان هێناوە بۆ وەرزی تازە."),
+                                            "یانەکە ڕاھێنەرێکی تازەیان ھێناوە بۆ وەرزی تازە."),
                                   ],
                                 ),
                               ),
@@ -350,7 +350,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شوێنێک کە تێیدا کەسانی گەنج دەچن بۆ گوێگرتن لە گۆرانی، سەماکردن، بینینی کۆمیدی، هتد"),
+                                  "٤. (ناو) شوێنێک کە تێیدا کەسانی گەنج دەچن بۆ گوێگرتن لە گۆرانی، سەماکردن، بینینی کۆمیدی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -412,7 +412,7 @@ class EnglishEntryclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) بازرگانییەک کە بە هەرزان کاڵا بە ئەندامانی دەدات"),
+                                  "٦. (ناو) بازرگانییەک کە بە ھەرزان کاڵا بە ئەندامانی دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -423,7 +423,7 @@ class EnglishEntryclub extends StatelessWidget {
                                             "You could become a member of an investment club."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەکرێت ببیت بە ئەندامی دەستەیەکی وەبەرهێنان."),
+                                            "دەکرێت ببیت بە ئەندامی دەستەیەکی وەبەرھێنان."),
                                   ],
                                 ),
                               ),
@@ -553,7 +553,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: club (Derived forms: clubs)
+- Noun: club (derived forms: clubs)
 1. A team of professional baseball players who play and travel together (= baseball club, ball club, nine)
 "each club played six home games with teams in its own division";
  
@@ -574,7 +574,7 @@ ${englishMeaningConst.text}
 7. A spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink (= cabaret, nightclub, night club, nightspot)
 "he played the drums at a jazz club"; "don't expect a good meal at a night club";
 
-- Verb: club (Derived forms: clubbed, clubbing, clubs)
+- Verb: club (derived forms: clubbed, clubbing, clubs)
 1. Unite with a common purpose
 "The two men clubbed together"
  

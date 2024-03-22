@@ -214,7 +214,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "We have yet to confirm the identities of the victims."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێشتا خەریکین ناسنامەی قوربانییەکان پشتڕاست دەکەینەوە."),
+                                            "ھێشتا خەریکین ناسنامەی قوربانییەکان پشتڕاست دەکەینەوە."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "The authorities refused to confirm any details."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرپرسان ڕەتیان کردەوە هیچ وردەکارییەک پشتڕاست بکەنەوە."),
+                                            "بەرپرسان ڕەتیان کردەوە ھیچ وردەکارییەک پشتڕاست بکەنەوە."),
                                   ],
                                 ),
                               ),
@@ -318,7 +318,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بە فەرمیکردن یان دڵنیایی کردنەوە لە بۆچوونێک، ڕێککەوتنێک، هتد"),
+                                  "٢. (کردار) بە فەرمیکردن یان دڵنیایی کردنەوە لە بۆچوونێک، ڕێککەوتنێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -329,7 +329,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "Has everyone confirmed (that) they’re coming?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموان دڵنیاییان کردووە کە دێن؟"),
+                                            "ھەموان دڵنیاییان کردووە کە دێن؟"),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "It has been confirmed that the meeting will take place next week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشتڕاستکراوە کە چاوپێکەوتنەکە هەفتەی داهاتوو دەبێت."),
+                                            "پشتڕاستکراوە کە چاوپێکەوتنەکە ھەفتەی داھاتوو دەبێت."),
                                   ],
                                 ),
                               ),
@@ -444,7 +444,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "This latest tragedy merely confirms my view that the law must be tightened."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم تراژیدیایەی کۆتایی تەنها ئەوەیە بۆچوونەکانم پشتڕاست دەکاتەوە کە یاساکە دەبێت توندبکرێتەوە."),
+                                            "ئەم تراژیدیایەی کۆتایی تەنھا ئەوەیە بۆچوونەکانم پشتڕاست دەکاتەوە کە یاساکە دەبێت توندبکرێتەوە."),
                                   ],
                                 ),
                               ),
@@ -543,7 +543,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: confirm (Derived forms: confirming, confirms, confirmed)
+- Verb: confirm (derived forms: confirming, confirms, confirmed)
 1. Establish or strengthen as with new evidence or facts (= corroborate, sustain, substantiate, support, affirm)
 "his story confirmed my doubts";
  
@@ -587,7 +587,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 1109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +612,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 483,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -637,7 +637,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 1296,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -662,7 +662,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eaeISOjtTVY?t=',
+    videoId: 'eaeISOjtTVY',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -687,7 +687,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uSW5zEWY15c?t=',
+    videoId: 'uSW5zEWY15c',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -712,7 +712,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FgT3GCsJteA?t=',
+    videoId: 'FgT3GCsJteA',
     startSeconds: 1500,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -737,7 +737,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2_XiKIvXVEw?t=',
+    videoId: '2_XiKIvXVEw',
     startSeconds: 1320,
     autoPlay: true,
     params: const YoutubePlayerParams(

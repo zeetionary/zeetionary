@@ -206,7 +206,7 @@ class EnglishEntrycollapsible extends StatelessWidget {
                                             "We brought collapsible chairs to the outdoor concert."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کورسی نووشتاوەمان هێنا بۆ کۆنسێرتە دەرەکییەکە."),
+                                            "کورسی نووشتاوەمان ھێنا بۆ کۆنسێرتە دەرەکییەکە."),
                                   ],
                                 ),
                               ),

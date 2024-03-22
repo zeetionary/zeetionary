@@ -192,7 +192,7 @@ class EnglishEntryconsignment extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: بار، کەل‌وپەل، ناردەمەنی،	ناردن، بەڕێ‌کردن، هەناردن
+کوردی: بار، کەل‌وپەل، ناردەمەنی،	ناردن، بەڕێ‌کردن، ھەناردن
 """),
                           const DefinitionKurdish(
                               text:
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consignment (Derived forms: consignments)
+- Noun: consignment (derived forms: consignments)
 1. Goods carried by a large vehicle (= cargo, lading, freight, load, loading, payload, shipment)
  
 2. The official act of consigning a person to confinement (as in a prison or mental hospital) (= commitment, committal)
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GBEsNZQSSWs?t=',
+    videoId: 'GBEsNZQSSWs',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZkmETpMdv_8?t=',
+    videoId: 'ZkmETpMdv_8',
     startSeconds: 553,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S6wJEI0PrlE?t=',
+    videoId: 'S6wJEI0PrlE',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L7shkkdJeYQ?t=',
+    videoId: 'L7shkkdJeYQ',
     startSeconds: 1670,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W1Mrh3RoCD8?t=',
+    videoId: 'W1Mrh3RoCD8',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/araGXT3IifE?t=',
+    videoId: 'araGXT3IifE',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GrZi2pHnoQg?t=',
+    videoId: 'GrZi2pHnoQg',
     startSeconds: 834,
     autoPlay: true,
     params: const YoutubePlayerParams(

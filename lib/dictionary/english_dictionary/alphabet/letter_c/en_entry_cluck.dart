@@ -228,7 +228,7 @@ class EnglishEntrycluck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دەرکردنی چەند دەنگێکی بچووک بە زمانت بۆ پیشاندانی هاوخەمی بۆ کەسێک یان ئەوەی بیردەکەیتەوە شتێک خراپە"),
+                                  "٢. (کردار) دەرکردنی چەند دەنگێکی بچووک بە زمانت بۆ پیشاندانی ھاوخەمی بۆ کەسێک یان ئەوەی بیردەکەیتەوە شتێک خراپە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntrycluck extends StatelessWidget {
                                             "The teacher clucked sympathetically at the child's story."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستاکە هاوخەمی دەربڕی بۆ چیرۆکی منداڵەکە."),
+                                            "مامۆستاکە ھاوخەمی دەربڕی بۆ چیرۆکی منداڵەکە."),
                                   ],
                                 ),
                               ),
@@ -368,10 +368,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cluck (Derived forms: clucks)
+- Noun: cluck (derived forms: clucks)
 1. The sound made by a hen (as in calling her chicks) (= clucking)
 
-- Verb: cluck (Derived forms: clucks, clucking, clucked)
+- Verb: cluck (derived forms: clucks, clucking, clucked)
 1. Make a clucking sounds, characteristic of hens (= click, clack)
 """,
   );

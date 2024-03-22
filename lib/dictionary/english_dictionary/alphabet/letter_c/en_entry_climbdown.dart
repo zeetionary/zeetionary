@@ -195,7 +195,7 @@ class EnglishEntryclimbdown extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) داننان بە هەڵەدا یان گۆڕینی بۆچوونت لە مشتومڕێکدا"),
+                                  "١. (ناو) داننان بە ھەڵەدا یان گۆڕینی بۆچوونت لە مشتومڕێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclimbdown extends StatelessWidget {
                                             "Saying she was wrong was a difficult climbdown for Sarah."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتنی ئەوەی کە هەڵە بوو کورتان-سوڕانێکی سەخت بوو بۆ سارا."),
+                                            "وتنی ئەوەی کە ھەڵە بوو کورتان-سوڕانێکی سەخت بوو بۆ سارا."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: climbdown (Derived forms: climbdowns)
+- Noun: climbdown (derived forms: climbdowns)
 1. A retraction of a previously held position (= withdrawal, backdown) 
 """,
   );

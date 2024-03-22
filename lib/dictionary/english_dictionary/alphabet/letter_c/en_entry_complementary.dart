@@ -345,7 +345,7 @@ ${englishMeaningConst.text}
  
 2. Acting as or providing a complement (something that completes the whole) (= complemental, completing)
 
-- Noun: complementary (Derived forms: complementaries)
+- Noun: complementary (derived forms: complementaries)
 1. Either one of two chromatic colours that when mixed together give white (in the case of lights) or grey (in the case of pigments) (= complementary color [US], complementary colour [Brit, Cdn])
 "yellow and blue are complementaries";
 """,
@@ -380,7 +380,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hvXEmcuaXrY?t=',
+    videoId: 'hvXEmcuaXrY',
     startSeconds: 190,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -405,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PBfxwJqj4PY?t=',
+    videoId: 'PBfxwJqj4PY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EEk6FbzXgn0?t=',
+    videoId: 'EEk6FbzXgn0',
     startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4cNNGpT3v6U',
+    videoId: '4cNNGpT3v6U',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    videoId: 'a9m3GD0DbPY',
     startSeconds: 1522,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tILIeNjbH1E?t=',
+    videoId: 'tILIeNjbH1E',
     startSeconds: 355,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/esJkln9wAEg?t=',
+    videoId: 'esJkln9wAEg',
     startSeconds: 1041,
     autoPlay: true,
     params: const YoutubePlayerParams(

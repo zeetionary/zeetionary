@@ -191,11 +191,11 @@ class EnglishEntryclover extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەمەن، شەودەر، نەفەل، سێپەڕە، شەوەر، هندەکۆ
+کوردی: سەمەن، شەودەر، نەفەل، سێپەڕە، شەوەر، ھندەکۆ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ڕووەکێکی دەشتەکی بچووک کە بەزۆری سێ گەڵای هەیە لەسەر هەر قەدێک و گوڵی مۆر، پەمەیی، و سپی کە لە شێوەی تۆپدان لە شێوەیەدا"),
+                                  "١. (ناو) ڕووەکێکی دەشتەکی بچووک کە بەزۆری سێ گەڵای ھەیە لەسەر ھەر قەدێک و گوڵی مۆر، پەمەیی، و سپی کە لە شێوەی تۆپدان لە شێوەیەدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clover (Derived forms: clovers)
+- Noun: clover (derived forms: clovers)
 1. A plant of the genus Trifolium (= trefoil)
 """,
   );

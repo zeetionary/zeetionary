@@ -193,11 +193,11 @@ class EnglishEntryconsonant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نەبزوێن، ڕێک‌کەوتوو، کۆک، هاودەنگ، گونجاو، شیاو
+کوردی: نەبزوێن، ڕێک‌کەوتوو، کۆک، ھاودەنگ، گونجاو، شیاو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) دەنگی نەبزوێن؛ دەنگێک کە درووست دەکرێت بە تەواو وەستاندنی جوڵەی هەوا لە دەم یان لوتدا"),
+                                  "١. (ناو) دەنگی نەبزوێن؛ دەنگێک کە درووست دەکرێت بە تەواو وەستاندنی جوڵەی ھەوا لە دەم یان لوتدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconsonant extends StatelessWidget {
                                             "Don't you hate the way she speaks, pronouncing each single consonant so precisely?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕقت لەو شێوەیە نییە کە قسە دەکات و هەر دەنگێکی نەبزوێن بە تەواوی دەخوێنێتەوە؟"),
+                                            "ڕقت لەو شێوەیە نییە کە قسە دەکات و ھەر دەنگێکی نەبزوێن بە تەواوی دەخوێنێتەوە؟"),
                                   ],
                                 ),
                               ),
@@ -228,7 +228,7 @@ class EnglishEntryconsonant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پیتێکی ئەلفوبێ کە ئاماژە بە دەنگێکی نەبزوێن دەکات، بۆ نموونە b، d، f، h، p، هتد"),
+                                  "٢. (ناو) پیتێکی ئەلفوبێ کە ئاماژە بە دەنگێکی نەبزوێن دەکات، بۆ نموونە b، d، f، h، p، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryconsonant extends StatelessWidget {
                                             "She's has an unpronounceable name that seems to be all consonants."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوێکی نەخوێنراوەی هەیە کە وەها دەردەکەوێت هەمووی نەبزوێن بێت."),
+                                            "ناوێکی نەخوێنراوەی ھەیە کە وەھا دەردەکەوێت ھەمووی نەبزوێن بێت."),
                                   ],
                                 ),
                               ),
@@ -259,7 +259,7 @@ class EnglishEntryconsonant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) هاودەنگ لەگەڵ شتێک، یان ئەوەی هەمان شت بێت"),
+                                  "٣. (ھاوەڵناو) ھاودەنگ لەگەڵ شتێک، یان ئەوەی ھەمان شت بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consonant (Derived forms: consonants)
+- Noun: consonant (derived forms: consonants)
 1. A speech sound that is not a vowel
  
 2. A letter of the alphabet standing for a spoken consonant
@@ -411,7 +411,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xreA0vkHMBY?t=',
+    videoId: 'xreA0vkHMBY',
     startSeconds: 781,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -436,7 +436,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6ziKkSig0jM?t=',
+    videoId: '6ziKkSig0jM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oDVAhDyHZaA?t=',
+    videoId: 'oDVAhDyHZaA',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rCXmOBDDWDI?t=',
+    videoId: 'rCXmOBDDWDI',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J-K5OjAkiEA?t=',
+    videoId: 'J-K5OjAkiEA',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S-4rhjO6xYg?t=',
+    videoId: 'S-4rhjO6xYg',
     startSeconds: 361,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
+    videoId: 'H1KP4ztKK0A',
     startSeconds: 392,
     autoPlay: true,
     params: const YoutubePlayerParams(

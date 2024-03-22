@@ -194,10 +194,10 @@ class EnglishEntryclench extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: پەرچ (سەری بزمار)،	ئاوقە، ئامباز، هەڕا،	باوەش‌پیاکردن
+// کوردی: پەرچ (سەری بزمار)،	ئاوقە، ئامباز، ھەڕا،	باوەش‌پیاکردن
 // """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) توندکردنی دەست، ددان، هتد"),
+                              text: "١. (کردار) توندکردنی دەست، ددان، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -293,7 +293,7 @@ class EnglishEntryclench extends StatelessWidget {
                                             "With a knife clenched in his teeth, he climbed up the tree to cut some coconuts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە چەقۆیەکەوە گیربوو لە ددانی، بەسەر دارەکەدا سەرکەوت بۆ بڕینی هەندێک گوێزهیندی."),
+                                            "بە چەقۆیەکەوە گیربوو لە ددانی، بەسەر دارەکەدا سەرکەوت بۆ بڕینی ھەندێک گوێزھیندی."),
                                   ],
                                 ),
                               ),
@@ -392,13 +392,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clench (Derived forms: clenches)
+- Noun: clench (derived forms: clenches)
 1. A small slip noose made with seizing (= clinch)
  
 2. The act of grasping (= clasp, clutch, clutches, grasp, grip, hold)
 "he released his clench on my arm";
 
-- Verb: clench (Derived forms: clenched, clenching, clenches)
+- Verb: clench (derived forms: clenched, clenching, clenches)
 1. Hold in a tight grasp (= clinch)
 "clench a steering wheel";
  

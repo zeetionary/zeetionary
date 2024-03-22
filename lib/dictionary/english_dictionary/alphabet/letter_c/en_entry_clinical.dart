@@ -194,7 +194,7 @@ class EnglishEntryclinical extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرجێیی، کلینیکاڵ،	سەربە نەخۆش‌خانەی تایبەتی،	ناهاوسۆز، بێ‌هەست، نادڵسۆز، ناخەمخۆر، لەسەرەخۆ، هێمن، ئارام، سادە، نەڕازاوە
+کوردی: سەرجێیی، کلینیکاڵ،	سەربە نەخۆش‌خانەی تایبەتی،	ناھاوسۆز، بێ‌ھەست، نادڵسۆز، ناخەمخۆر، لەسەرەخۆ، ھێمن، ئارام، سادە، نەڕازاوە
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryclinical extends StatelessWidget {
                                             "There is no clinical reason for his symptoms."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هۆکارێکی تەندرووستی نییە بۆ نیشانەکانی."),
+                                            "ھیچ ھۆکارێکی تەندرووستی نییە بۆ نیشانەکانی."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntryclinical extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) بەبێ هەست و هاوسۆزی"),
+                              text: "٢. (ھاوەڵناو) بەبێ ھەست و ھاوسۆزی"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntryclinical extends StatelessWidget {
                                             "How can you be so cold and clinical about your son’s accident?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چۆن دەتوانیت هێندە خەمسارد و بێ‌هەست بیت بەرامبەر ڕووداوی کوڕەکەت."),
+                                            "چۆن دەتوانیت ھێندە خەمسارد و بێ‌ھەست بیت بەرامبەر ڕووداوی کوڕەکەت."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntryclinical extends StatelessWidget {
                                             "Everything in the nursery was white and clinical and there were no pictures on the walls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو شتێک لە دایەنگەکە سپی و سادە بوو هیچ وێنەیەک لەسەر دیوارەکە نەبوو."),
+                                            "ھەموو شتێک لە دایەنگەکە سپی و سادە بوو ھیچ وێنەیەک لەسەر دیوارەکە نەبوو."),
                                   ],
                                 ),
                               ),

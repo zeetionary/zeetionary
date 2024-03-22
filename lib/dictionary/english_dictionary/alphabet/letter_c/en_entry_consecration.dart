@@ -230,7 +230,7 @@ class EnglishEntryconsecration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بە فەرمی دیاریکردنی کەسێک وەک قەشە، هتد"),
+                                  "٢. (ناو) بە فەرمی دیاریکردنی کەسێک وەک قەشە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -375,7 +375,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: consecration (Derived forms: consecrations)
+- Noun: consecration (derived forms: consecrations)
 1. A solemn commitment of your life or your time to some cherished purpose (to a service or a goal)
 "his consecration to study"
  
@@ -413,7 +413,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kDolrCz_ynk?t=',
+    videoId: 'kDolrCz_ynk',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uJh9l64OMtU?t=',
+    videoId: 'uJh9l64OMtU',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T1OkK7P4bng?t=',
+    videoId: 'T1OkK7P4bng',
     startSeconds: 4705,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yfoCcEWkpDQ?t=',
+    videoId: 'yfoCcEWkpDQ',
     startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UL2TtTkAvn0?t=',
+    videoId: 'UL2TtTkAvn0',
     startSeconds: 2737,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RRhjqqe750A?t=',
+    videoId: 'RRhjqqe750A',
     startSeconds: 534,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +563,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NbfscLZUQZs?t=',
+    videoId: 'NbfscLZUQZs',
     startSeconds: 2636,
     autoPlay: true,
     params: const YoutubePlayerParams(

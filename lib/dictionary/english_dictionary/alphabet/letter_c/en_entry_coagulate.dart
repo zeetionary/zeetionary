@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
 1. Transformed from a liquid into a soft semisolid or solid mass (= coagulated, curdled, grumous, grumose)
 "coagulate blood";
 
-- Verb: coagulate (Derived forms: coagulating, coagulates, coagulated)
+- Verb: coagulate (derived forms: coagulating, coagulates, coagulated)
 1. Change from a liquid to a thickened or solid state (= clot)
 "coagulated blood";
  

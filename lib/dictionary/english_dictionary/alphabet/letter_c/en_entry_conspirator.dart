@@ -194,7 +194,8 @@ class EnglishEntryconspirator extends StatelessWidget {
 // کوردی: پیلان‌گێڕ، بەشدار لە پیلان‌دا
 // """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پیلان‌گێڕ؛ کەسێک کە بەژدارە لە پیلانێکدا"),
+                              text:
+                                  "١. (ناو) پیلان‌گێڕ؛ کەسێک کە بەژدارە لە پیلانێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +205,8 @@ class EnglishEntryconspirator extends StatelessWidget {
                                         text:
                                             "The emperor pardoned five of the conspirators."),
                                     ExampleSentenceKurdish(
-                                        text: "ئیمپراتۆر لە پێنج لە پیلانگێڕەکان خۆشبوو."),
+                                        text:
+                                            "ئیمپراتۆر لە پێنج لە پیلانگێڕەکان خۆشبوو."),
                                   ],
                                 ),
                               ),
@@ -212,10 +214,12 @@ class EnglishEntryconspirator extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconspirators1("en-GB"),
+                                    onPressed: () =>
+                                        speakconspirators1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconspirators1("en-US"),
+                                    onPressed: () =>
+                                        speakconspirators1("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conspirator (Derived forms: conspirators)
+- Noun: conspirator (derived forms: conspirators)
 1. A member of a conspiracy (= coconspirator, plotter, machinator)
 """,
   );
@@ -337,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/USL6P8haroY?t=',
+    videoId: 'USL6P8haroY',
     startSeconds: 633,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/63tQ7yGmsmI?t=',
+    videoId: '63tQ7yGmsmI',
     startSeconds: 610,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KlEG_VvmnZI?t=',
+    videoId: 'KlEG_VvmnZI',
     startSeconds: 270,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j4kI2h3iotA?t=',
+    videoId: 'j4kI2h3iotA',
     startSeconds: 3179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bV9ppvY8Nx4?t=',
+    videoId: 'bV9ppvY8Nx4',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QMiOMNIRs3k?t=',
+    videoId: 'QMiOMNIRs3k',
     startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q4vdACLx-hQ?t=',
+    videoId: 'q4vdACLx-hQ',
     startSeconds: 776,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -197,7 +197,7 @@ class EnglishEntryclumsiness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) هەڵەشەیی؛ کردنی شت بە نائاگاییەوە"),
+                                  "١. (ھاوەڵناو) ھەڵەشەیی؛ کردنی شت بە نائاگاییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntryclumsiness extends StatelessWidget {
                                             "With her usual clumsiness, she had opened her mouth and upset everyone."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هەڵەشەیی پیشەییانەی، دەمی کردەوە و هەموانی بێزارکرد."),
+                                            "بە ھەڵەشەیی پیشەییانەی، دەمی کردەوە و ھەموانی بێزارکرد."),
                                   ],
                                 ),
                               ),

@@ -195,7 +195,7 @@ class EnglishEntrycommiserate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) دڵدانەوەی کەسێک کە کاتێک بێزار یان هیوابڕاون"),
+                                  "١. (کردار) دڵدانەوەی کەسێک کە کاتێک بێزار یان ھیوابڕاون"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycommiserate extends StatelessWidget {
                                             "She commiserated with the losers on their defeat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسۆزی دەربڕی بۆ دۆڕاوەکان بەهۆی شکستەکەیان."),
+                                            "ھاوسۆزی دەربڕی بۆ دۆڕاوەکان بەھۆی شکستەکەیان."),
                                   ],
                                 ),
                               ),
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: commiserate (Derived forms: commiserated, commiserates, commiserating)
+- Verb: commiserate (derived forms: commiserated, commiserates, commiserating)
 1. To feel or express sympathy or compassion (= sympathize, sympathise [Brit])
 "Commiserate with him, he knew that she herself would not care";
 """,

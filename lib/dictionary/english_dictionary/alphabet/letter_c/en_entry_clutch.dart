@@ -203,7 +203,7 @@ class EnglishEntryclutch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گرتن، دەس یان چنگ لێ‌گیرکردن، گیرخستن، بەرنەدان،	چنگ،	باوەش، حمێز، ئامێز،	کڵاچ، پێدالی کڵاچ (ماشێن)، دەس‌بەسەراگرتن، کۆنتڕۆڵ، مەهار، هێز، دەسەڵات، جووچکە پێکەوەبووەکان، جووچکە پێکەوە سەرجووقاندووەکان،	ڕاوکە، ڕامکە،	دەستە، کۆمەڵە، کۆما، لۆدە، کۆگا، ڕان، مێگەڵ، ڕەوە
+کوردی: گرتن، دەس یان چنگ لێ‌گیرکردن، گیرخستن، بەرنەدان،	چنگ،	باوەش، حمێز، ئامێز،	کڵاچ، پێدالی کڵاچ (ماشێن)، دەس‌بەسەراگرتن، کۆنتڕۆڵ، مەھار، ھێز، دەسەڵات، جووچکە پێکەوەبووەکان، جووچکە پێکەوە سەرجووقاندووەکان،	ڕاوکە، ڕامکە،	دەستە، کۆمەڵە، کۆما، لۆدە، کۆگا، ڕان، مێگەڵ، ڕەوە
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گرتنی کەسێک/شتێک بە توندی"),
@@ -243,7 +243,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                             "She stood there, the flowers still clutched in her hand."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەوێ وەستابوو، و گوڵەکان هێشتا لەناو دەستی بوون."),
+                                            "لەوێ وەستابوو، و گوڵەکان ھێشتا لەناو دەستی بوون."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntryclutch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) گرتنی شتێک لەناکاو، بەتایبەتی بەهۆی ئەوەی دەترسیت یان لە ئازاردایت"),
+                                  "٢. (کردار) گرتنی شتێک لەناکاو، بەتایبەتی بەھۆی ئەوەی دەترسیت یان لە ئازاردایت"),
                           Row(
                             children: [
                               const Expanded(
@@ -358,7 +358,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                             "Put it into first gear and let the clutch out slowly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بیخە گێڕی یەک و بەهێواشی کلاچەکە بەربدە."),
+                                            "بیخە گێڕی یەک و بەھێواشی کلاچەکە بەربدە."),
                                   ],
                                 ),
                               ),
@@ -436,7 +436,7 @@ class EnglishEntryclutch extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (ناو) هێز و دەسەڵات"),
+                              text: "٦. (ناو) ھێز و دەسەڵات"),
                           Row(
                             children: [
                               const Expanded(
@@ -446,7 +446,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                         text:
                                             "He managed to escape from their clutches."),
                                     ExampleSentenceKurdish(
-                                        text: "توانی لە کۆنترۆڵیان هەڵبێت."),
+                                        text: "توانی لە کۆنترۆڵیان ھەڵبێت."),
                                   ],
                                 ),
                               ),
@@ -473,7 +473,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                         text:
                                             "She fell into the clutches of the rebel forces."),
                                     ExampleSentenceKurdish(
-                                        text: "کەوتە ژێر چنگی هێزە یاخییەکان."),
+                                        text: "کەوتە ژێر چنگی ھێزە یاخییەکان."),
                                   ],
                                 ),
                               ),
@@ -503,7 +503,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                             "She felt the sudden clutch of fear."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە تارمایی لەناکاوی ترس کرد."),
+                                            "ھەستی بە تارمایی لەناکاوی ترس کرد."),
                                   ],
                                 ),
                               ),
@@ -523,7 +523,7 @@ class EnglishEntryclutch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) ژمارەیەک هێلکە کە باڵندەیەک لە یەک کاتدا دەیانکات"),
+                                  "٨. (ناو) ژمارەیەک ھێلکە کە باڵندەیەک لە یەک کاتدا دەیانکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -534,7 +534,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                             "The female lays a clutch of about seven eggs, laying one egg each day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێینەکە حەوت هێلکە بەنزیکەیی دەکات، یەک هێلکە بۆ هەر ڕۆژێک."),
+                                            "مێینەکە حەوت ھێلکە بەنزیکەیی دەکات، یەک ھێلکە بۆ ھەر ڕۆژێک."),
                                   ],
                                 ),
                               ),
@@ -565,7 +565,7 @@ class EnglishEntryclutch extends StatelessWidget {
                                             "Miami succeeds in clutch situations better than any other team."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "میامی سەردەکەوێت لە دۆخە هەستیارەکاندا باشتر لە هەر تیمێکی دیکە."),
+                                            "میامی سەردەکەوێت لە دۆخە ھەستیارەکاندا باشتر لە ھەر تیمێکی دیکە."),
                                   ],
                                 ),
                               ),
@@ -664,7 +664,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: clutch (Derived forms: clutched, clutching, clutches)
+- Verb: clutch (derived forms: clutched, clutching, clutches)
 1. Take hold of; grab (= seize, prehend [archaic])
 "She clutched her purse";
  
@@ -674,7 +674,7 @@ ${englishMeaningConst.text}
 3. Affect (= seize, get hold of)
 "Fear clutched the prisoners";
 
-- Noun: clutch (Derived forms: clutches)
+- Noun: clutch (derived forms: clutches)
 1. A coupling that connects or disconnects driving and driven parts of a driving mechanism
 "this year's model has an improved clutch"
  

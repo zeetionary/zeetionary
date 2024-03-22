@@ -194,7 +194,7 @@ class EnglishEntryconfederate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوپەیمان، یەک‌گرتوو، یەک‌کەوتوو، پیلان‌گێڕ، هاودەست، هاوکار، بەشدار لە تاوان‌دا
+کوردی: ھاوپەیمان، یەک‌گرتوو، یەک‌کەوتوو، پیلان‌گێڕ، ھاودەست، ھاوکار، بەشدار لە تاوان‌دا
 """),
                           const DefinitionKurdish(
                               text:
@@ -209,7 +209,7 @@ class EnglishEntryconfederate extends StatelessWidget {
                                             "Rokovssky was his confederate in the assassination plot."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆکۆڤسکی هاودەستی بوو لە پلانی تیرۆرکردنەکەدا."),
+                                            "ڕۆکۆڤسکی ھاودەستی بوو لە پلانی تیرۆرکردنەکەدا."),
                                   ],
                                 ),
                               ),
@@ -274,7 +274,7 @@ class EnglishEntryconfederate extends StatelessWidget {
                                             "The confederate states collaborated on a trade agreement to benefit all members."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وڵاتە هاوپەیمانەکان پێکەوە کاریان کرد لەسەر ڕێکەوتنی بازرگانی بۆ سوودمەندی هەموو لایەنەکان."),
+                                            "وڵاتە ھاوپەیمانەکان پێکەوە کاریان کرد لەسەر ڕێکەوتنی بازرگانی بۆ سوودمەندی ھەموو لایەنەکان."),
                                   ],
                                 ),
                               ),
@@ -411,12 +411,12 @@ ${englishMeaningConst.text}
 - Adjective: confederate 
 1. United in a confederacy or league (= allied, confederative)
 
-- Noun: confederate (Derived forms: confederating, confederates, confederated)
+- Noun: confederate (derived forms: confederating, confederates, confederated)
 1. Someone who assists in a plot (= collaborator, henchman, partner in crime)
  
 2. A person who joins with another in carrying out some plan (especially an unethical or illegal plan) (= accomplice)
 
-- Verb: confederate (Derived forms: confederating, confederates, confederated)
+- Verb: confederate (derived forms: confederating, confederates, confederated)
 1. Form a group or unite (= band together, band)
 "The groups confederated";
  
@@ -426,7 +426,7 @@ ${englishMeaningConst.text}
 1. Of or having to do with the southern Confederacy during the American Civil War
 "Confederate soldiers"
 
-- Noun: Confederate (Derived forms: Confederates)
+- Noun: Confederate (derived forms: Confederates)
 1. A supporter of the Confederate States of America
 """,
   );
@@ -460,7 +460,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 845,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xoyLYumj7tI?t=',
+    videoId: 'xoyLYumj7tI',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bcdEFos9YQQ?t=',
+    videoId: 'bcdEFos9YQQ',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7OeeHz0uNdM?t=',
+    videoId: '7OeeHz0uNdM',
     startSeconds: 3436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p-L0WIQsi5o?t=',
+    videoId: 'p-L0WIQsi5o',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P1HiB84S4UI?t=',
+    videoId: 'P1HiB84S4UI',
     startSeconds: 486,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -610,7 +610,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O6BODAJVYc8?t=',
+    videoId: 'O6BODAJVYc8',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(

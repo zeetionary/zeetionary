@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: commentate (Derived forms: commentating, commentates, commentated)
+- Verb: commentate (derived forms: commentating, commentates, commentated)
 1. Make a commentary on
  
 2. Serve as a commentator, as in sportscasting

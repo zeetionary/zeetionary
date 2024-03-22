@@ -266,7 +266,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
                                             "More liaison between the old manager and the new one should ensure greater continuity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاویاهەنگی زیاتری نێوان بەڕێوبەرە کۆنەکە و دانە تازەکە دەبێت دڵنیایی زیاتر لە بەردەوامی بدات."),
+                                            "ھاویاھەنگی زیاتری نێوان بەڕێوبەرە کۆنەکە و دانە تازەکە دەبێت دڵنیایی زیاتر لە بەردەوامی بدات."),
                                   ],
                                 ),
                               ),
@@ -325,7 +325,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
                                             "There are obvious continuities between diet and health."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەیوەندیی ئاشکرا لە نێوان خۆراکی ڕۆژانە و تەندرووستی هەیە."),
+                                            "پەیوەندیی ئاشکرا لە نێوان خۆراکی ڕۆژانە و تەندرووستی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -353,7 +353,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
                                             "There is often a lack of continuity between one government and the next."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرجار کەمیی یەکگرتووی لە نێوان حکومەتێک و ئەوەی دواتری هەیە."),
+                                            "زۆرجار کەمیی یەکگرتووی لە نێوان حکومەتێک و ئەوەی دواتری ھەیە."),
                                   ],
                                 ),
                               ),
@@ -452,7 +452,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: continuity (Derived forms: continuities)
+- Noun: continuity (derived forms: continuities)
 1. Uninterrupted connection or union
  
 2. A detailed script used in making a film in order to avoid discontinuities from shot to shot
@@ -490,7 +490,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6btmJSRueE?t=',
+    videoId: 'x6btmJSRueE',
     startSeconds: 276,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0zXfDafyyao?t=',
+    videoId: '0zXfDafyyao',
     startSeconds: 516,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WfVF-Ec4naQ?t=',
+    videoId: 'WfVF-Ec4naQ',
     startSeconds: 284,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/onMm0DLg8CE?t=',
+    videoId: 'onMm0DLg8CE',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/90MNvA5ozcI?t=',
+    videoId: '90MNvA5ozcI',
     startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TOtEKat_sHE?t=',
+    videoId: 'TOtEKat_sHE',
     startSeconds: 610,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G2r_I1G_mfA?t=',
+    videoId: 'G2r_I1G_mfA',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(

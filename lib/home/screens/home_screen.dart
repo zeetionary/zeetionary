@@ -73,7 +73,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider); // Get text size and add 3
 
     // final user = ref.watch(userProvider)!;
     // final currentTheme = ref.watch(themeNotifierProvider);
@@ -166,7 +166,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                           title: Text(
                             "Quiz",
                             style: TextStyle(
-                              fontSize: textSize,
+                              fontSize: textSize + 3,
                               color: Theme.of(context).primaryColor,
                             ),
                           ),
@@ -185,7 +185,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                           title: Text(
                             "TTS",
                             style: TextStyle(
-                              fontSize: textSize,
+                              fontSize: textSize + 3,
                               color: Theme.of(context).primaryColor,
                             ),
                           ),
@@ -206,7 +206,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   title: Text(
                     "Settings",
                     style: TextStyle(
-                      fontSize: textSize,
+                      fontSize: textSize + 3,
                       color: Theme.of(context).primaryColor,
                     ),
                   ),
@@ -222,7 +222,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 //   title: Text(
                 //     'Log out',
                 //     style: TextStyle(
-                //       fontSize: textSize,
+                //       fontSize: textSize + 3,
                 //       color: Pallete.redColor,
                 //     ),
                 //   ),
@@ -346,7 +346,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         ),
         bottomNavigationBar: BottomNavyBar(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-          containerHeight: 60,
+          containerHeight: textSize + 50,
           // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           selectedIndex: _currentIndex,
           showElevation: false,
@@ -362,10 +362,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           },
           items: <BottomNavyBarItem>[
             BottomNavyBarItem(
-              icon: Image.asset(
-                'assets/images/uk_one.png',
-                width: 24,
-              ),
+              icon:
+                  Image.asset('assets/images/uk_one.png', width: textSize + 8),
               // title: const Text('English'),
               title: Text(
                 'English',
@@ -373,7 +371,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   // backgroundColor: Theme.of(context).primaryColor,
                   color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
-                  fontSize: 14,
+                  fontSize: textSize - 1,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
@@ -385,7 +383,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             BottomNavyBarItem(
               icon: Image.asset(
                 'assets/images/kurd_one.png',
-                width: 24,
+                width: textSize + 8,
               ),
               // title: const Text('English'),
               title: Text(
@@ -393,7 +391,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 style: TextStyle(
                   color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
-                  fontSize: 14,
+                  fontSize: textSize - 1,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
@@ -403,6 +401,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             BottomNavyBarItem(
               icon: Icon(
                 Icons.book,
+                size: textSize + 7,
                 color: Theme.of(context).primaryColor,
               ),
               title: Text(
@@ -410,7 +409,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 style: TextStyle(
                   color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
-                  fontSize: 14,
+                  fontSize: textSize - 1,
                   // fontWeight: FontWeight.bold,
                 ),
               ),

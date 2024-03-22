@@ -206,7 +206,7 @@ class EnglishEntrycommunique extends StatelessWidget {
                                             "The leaders attending the conference have issued a joint communiqué."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو سەرکردانەی بەژادری کۆنفرانسەکە دەکەن دەبێت بەیاننامەیەکی هاوبەش دەربکەن."),
+                                            "ئەو سەرکردانەی بەژادری کۆنفرانسەکە دەکەن دەبێت بەیاننامەیەکی ھاوبەش دەربکەن."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: communiqué (Derived forms: communiqués)
+- Noun: communiqué (derived forms: communiqués)
 1. An official report (usually sent in haste) (= dispatch, despatch [Brit])
 """,
   );

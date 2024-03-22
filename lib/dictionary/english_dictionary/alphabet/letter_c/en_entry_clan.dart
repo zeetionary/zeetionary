@@ -208,7 +208,7 @@ class EnglishEntryclan extends StatelessWidget {
                                             "He became clan chief after his father's death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بوو بە سەرگەورەی تایەفەکەی لەدوای مەرگی باوکی."),
+                                            "بوو بە سەرگەورەی تایەفەکەی لە دوای مەرگی باوکی."),
                                   ],
                                 ),
                               ),

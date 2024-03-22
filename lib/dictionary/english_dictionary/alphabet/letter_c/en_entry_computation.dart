@@ -192,7 +192,7 @@ class EnglishEntrycomputation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ژماردن، ژمێرە، ئەژمار، لێکدانەوە، هەڵسەنگاندن، قەبڵاندن، مەزنە
+کوردی: ژماردن، ژمێرە، ئەژمار، لێکدانەوە، ھەڵسەنگاندن، قەبڵاندن، مەزنە
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntrycomputation extends StatelessWidget {
                                             "All the statistical computations were performed by the new software system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو خەمڵاندنە ئامارییەکان ئەنجامدارن بە سیستەمە نەرمامێرە تازەکە."),
+                                            "ھەموو خەمڵاندنە ئامارییەکان ئەنجامدارن بە سیستەمە نەرمامێرە تازەکە."),
                                   ],
                                 ),
                               ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: computation (Derived forms: computations)
+- Noun: computation (derived forms: computations)
 1. The procedure of calculating; determining something by mathematical or logical methods (= calculation, computing)
  
 2. Problem solving that involves numbers or quantities (= calculation, figuring, reckoning)
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IgF3OX8nT0w?t=',
+    videoId: 'IgF3OX8nT0w',
     startSeconds: 305,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GVsUOuSjvcg?t=',
+    videoId: 'GVsUOuSjvcg',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZA-tUyM_y7s?t=',
+    videoId: 'ZA-tUyM_y7s',
     startSeconds: 2221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nykOeWgQcHM?t=',
+    videoId: 'nykOeWgQcHM',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w7398u8G588?t=',
+    videoId: 'w7398u8G588',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RcEo6OLmLnU?t=',
+    videoId: 'RcEo6OLmLnU',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-UrdExQW0cs?t=',
+    videoId: '-UrdExQW0cs',
     startSeconds: 308,
     autoPlay: true,
     params: const YoutubePlayerParams(

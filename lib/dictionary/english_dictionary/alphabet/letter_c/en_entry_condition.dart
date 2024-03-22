@@ -652,7 +652,7 @@ class EnglishEntrycondition extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مەرج، شەرت،	ڕەوش، لۆر، بار، دۆخ، کاودان، بارودۆخ، هەل‌ومەرج، مەرەد، چۆنیەتی، لەشوولار،	لەش‌ساغی، سڵامەتی، ساغی،	نەخۆشی، ناسازی،	(کۆمەڵایەتی) پلەوپایە، پێگە، هەل‌ومەرج، بارودۆخ، کاودان، دەست‌ودار
+کوردی: مەرج، شەرت،	ڕەوش، لۆر، بار، دۆخ، کاودان، بارودۆخ، ھەل‌ومەرج، مەرەد، چۆنیەتی، لەشوولار،	لەش‌ساغی، سڵامەتی، ساغی،	نەخۆشی، ناسازی،	(کۆمەڵایەتی) پلەوپایە، پێگە، ھەل‌ومەرج، بارودۆخ، کاودان، دەست‌ودار
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەو دۆخەی شتێکی تێدایە"),
@@ -721,7 +721,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "The car is still in excellent condition."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکە هێشتا لە دۆخێکی یەکجارباشە."),
+                                            "ئۆتۆمبێلەکە ھێشتا لە دۆخێکی یەکجارباشە."),
                                   ],
                                 ),
                               ),
@@ -808,7 +808,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "You are in no condition (= too ill/sick, etc.) to go anywhere."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دۆخێکی وەهادا نیت بچیتە هیچ شوێنێک."),
+                                            "لە دۆخێکی وەھادا نیت بچیتە ھیچ شوێنێک."),
                                   ],
                                 ),
                               ),
@@ -855,7 +855,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) نەخۆشییەک کە ماوەیەکی زۆرە هەتە بەهۆی ئەوەی چارەسەر ناکرێت"),
+                                  "٣. (ناو) نەخۆشییەک کە ماوەیەکی زۆرە ھەتە بەھۆی ئەوەی چارەسەر ناکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -866,7 +866,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "Does your child have any kind of medical condition that we should know about?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکەت هیچ نەخۆشییەکی تەندرووستی هەیە کە پێویست بکات بیزانین؟"),
+                                            "منداڵەکەت ھیچ نەخۆشییەکی تەندرووستی ھەیە کە پێویست بکات بیزانین؟"),
                                   ],
                                 ),
                               ),
@@ -894,7 +894,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "She has a serious health condition."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەخۆشییەکی تەندرووستی سەختی هەیە."),
+                                            "نەخۆشییەکی تەندرووستی سەختی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -942,7 +942,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) هەلومەرج؛ ئەو دۆخەی تێیدا خەڵکی دەژین، کاردەکەن، یان ئیشەکانیان دەکەن"),
+                                  "٤. (ناو) ھەلومەرج؛ ئەو دۆخەی تێیدا خەڵکی دەژین، کاردەکەن، یان ئیشەکانیان دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -953,7 +953,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "They were working under appalling conditions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەلومەرجی زۆر خراپدا کاریان دەکرد."),
+                                            "لە ھەلومەرجی زۆر خراپدا کاریان دەکرد."),
                                   ],
                                 ),
                               ),
@@ -981,7 +981,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "He grew up in conditions of poverty."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەلومەرجی نەداریدا گەورە بوو."),
+                                            "لە ھەلومەرجی نەداریدا گەورە بوو."),
                                   ],
                                 ),
                               ),
@@ -1040,7 +1040,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "The boat sank in adverse weather conditions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەلەمە نغرۆبوو لە دۆخی کەشووهەوای نەلەباردا."),
+                                            "بەلەمە نغرۆبوو لە دۆخی کەشووھەوای نەلەباردا."),
                                   ],
                                 ),
                               ),
@@ -1153,7 +1153,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "The officials spoke on condition of anonymity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرپرسەکان بە مەرجی نهێنیبوون قسەیان کردووە."),
+                                            "بەرپرسەکان بە مەرجی نھێنیبوون قسەیان کردووە."),
                                   ],
                                 ),
                               ),
@@ -1214,7 +1214,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                                     "They have agreed to a ceasefire provided their conditions are met."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بە ئاگربەست ڕازیبوونە ئەگەر مەرجەکانیان بەدیبهێندرێت."),
+                                                    "بە ئاگربەست ڕازیبوونە ئەگەر مەرجەکانیان بەدیبھێندرێت."),
                                           ],
                                         ),
                                       ),
@@ -1300,7 +1300,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) دۆخێک کە مەرجە بوونی هەبێت بۆ ئەوەی دۆخێکی تر درووست ببێت"),
+                                  "٧. (ناو) دۆخێک کە مەرجە بوونی ھەبێت بۆ ئەوەی دۆخێکی تر درووست ببێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1339,7 +1339,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "We are working to create the conditions for peace."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کار دەکەین بۆ خولقاندنی هەلومەرجی ئاشتی."),
+                                            "کار دەکەین بۆ خولقاندنی ھەلومەرجی ئاشتی."),
                                   ],
                                 ),
                               ),
@@ -1387,7 +1387,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) دۆخی کۆمەڵە کەسێک بەهۆی دۆخیان لە ژیاندا، کێشەکانیان، هتد"),
+                                  "٨. (ناو) دۆخی کۆمەڵە کەسێک بەھۆی دۆخیان لە ژیاندا، کێشەکانیان، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1398,7 +1398,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "He spoke angrily about the condition of the urban poor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە تووڕەییەوە قسەیکرد دژ بە دۆخی هەژارانی گوندنشین."),
+                                            "بە تووڕەییەوە قسەیکرد دژ بە دۆخی ھەژارانی گوندنشین."),
                                   ],
                                 ),
                               ),
@@ -1418,7 +1418,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) ڕاهێنانی کەسێک کە بە شێوەیەکی دیاریکراو ڕەفتار بکات یان بە دۆخێکی دیاریکراو ڕابێت"),
+                                  "٩. (کردار) ڕاھێنانی کەسێک کە بە شێوەیەکی دیاریکراو ڕەفتار بکات یان بە دۆخێکی دیاریکراو ڕابێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1457,7 +1457,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "The rats had been conditioned to ring a bell when they wanted food."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مشکەکان ڕاهێنرابوون کە زەنگێک لێ بدەن کە خواردنیان بوێت."),
+                                            "مشکەکان ڕاھێنرابوون کە زەنگێک لێ بدەن کە خواردنیان بوێت."),
                                   ],
                                 ),
                               ),
@@ -1477,7 +1477,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (کردار) هەبوونی کاریگەرییەکی گرنگ لەسەر کەسێک/شتێک"),
+                                  "١٠. (کردار) ھەبوونی کاریگەرییەکی گرنگ لەسەر کەسێک/شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1508,7 +1508,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (کردار) پاراستنی شتێک بە تەندرووست، بۆ نموونە قژت یان پێست؛ بەکارهێنانی شتێک، بۆ نموونە کرێم، کە بە تەندرووست دەیهێڵێت"),
+                                  "١١. (کردار) پاراستنی شتێک بە تەندرووست، بۆ نموونە قژت یان پێست؛ بەکارھێنانی شتێک، بۆ نموونە کرێم، کە بە تەندرووست دەیھێڵێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1519,7 +1519,7 @@ class EnglishEntrycondition extends StatelessWidget {
                                             "He conditions his beard with oil to keep it soft."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕیشی بە زەیت بە چەور دەکات بۆ هێشتنەوەی بە نەرمی."),
+                                            "ڕیشی بە زەیت بە چەور دەکات بۆ ھێشتنەوەی بە نەرمی."),
                                   ],
                                 ),
                               ),
@@ -1618,7 +1618,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: condition (Derived forms: conditions)
+- Noun: condition (derived forms: conditions)
 1. A state at a particular time (= status)
 "a condition of disrepair";
  
@@ -1640,7 +1640,7 @@ ${englishMeaningConst.text}
  
 8. The procedure that is varied in order to estimate a variable's effect by comparison with a control condition (= experimental condition)
 
-- Verb: condition (Derived forms: conditions, conditioned, conditioning)
+- Verb: condition (derived forms: conditions, conditioned, conditioning)
 1. Establish a conditioned response
  
 2. Develop (a child's or animal's) behaviour by instruction and practice; especially to teach self-control (= discipline, train, check)
@@ -1685,7 +1685,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kqzRXtXSuF8?t=',
+    videoId: 'kqzRXtXSuF8',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1710,7 +1710,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3pbTmXsfiYk?t=',
+    videoId: '3pbTmXsfiYk',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1735,7 +1735,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QrWzFYsBCb8?t=',
+    videoId: 'QrWzFYsBCb8',
     startSeconds: 413,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1760,7 +1760,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dwEKqAwoz0Y?t=',
+    videoId: 'dwEKqAwoz0Y',
     startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1785,7 +1785,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
+    videoId: 'e09xig209cQ',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1810,7 +1810,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1835,7 +1835,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1701,
     autoPlay: true,
     params: const YoutubePlayerParams(

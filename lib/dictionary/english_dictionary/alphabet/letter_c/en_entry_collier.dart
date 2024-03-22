@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collier (Derived forms: colliers) 
+- Noun: collier (derived forms: colliers) 
 1. Someone who works in a coal mine (= coal miner, pitman)
  
 2. A coal ship

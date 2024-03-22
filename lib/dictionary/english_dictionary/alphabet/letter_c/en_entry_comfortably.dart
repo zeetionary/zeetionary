@@ -210,7 +210,7 @@ class EnglishEntrycomfortably extends StatelessWidget {
                                             "All the rooms were comfortably furnished."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا."),
+                                            "ھەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrycomfortably extends StatelessWidget {
                                             "If you're all sitting comfortably, then I'll begin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر هەمووتان بە ئاسوودەیی دانیشطوون، ئەوا دەستپێ دەکەم."),
+                                            "ئەگەر ھەمووتان بە ئاسوودەیی دانیشطوون، ئەوا دەستپێ دەکەم."),
                                   ],
                                 ),
                               ),

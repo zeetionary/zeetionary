@@ -197,7 +197,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هەڵەشە، لەرزۆک، دەس‌خاو، دەس‌گران، تەپ، تەپلۆس، داوەشاو، دەس‌سست، سست‌وپەلەشت، سستەپەلە، خاو، خرس، کنگ‌گران، خاووخلیچک،	ناشی، ناشارەزا، زلحۆ، پەڵحە،	(زلەو)نالەبار، زل، ناقۆڵا، ناجۆر، قەبە، بارناخۆش، کارناخۆش
+کوردی: ھەڵەشە، لەرزۆک، دەس‌خاو، دەس‌گران، تەپ، تەپلۆس، داوەشاو، دەس‌سست، سست‌وپەلەشت، سستەپەلە، خاو، خرس، کنگ‌گران، خاووخلیچک،	ناشی، ناشارەزا، زلحۆ، پەڵحە،	(زلەو)نالەبار، زل، ناقۆڵا، ناجۆر، قەبە، بارناخۆش، کارناخۆش
 """),
                           const DefinitionKurdish(
                               text:
@@ -212,7 +212,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                                             "I spilt your coffee. Sorry—that was clumsy of me."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قاوەکەتم ڕژاند، ببوورە، لە هەڵەشەییم بوو."),
+                                            "قاوەکەتم ڕژاند، ببوورە، لە ھەڵەشەییم بوو."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                                             "That's the third glass you've smashed this week - you're so clumsy!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەوە سێیەم گڵاسە ئەم هەفتەیە دەیشکێنیت، زۆر هەڵەشەیت!"),
+                                            "ئەوە سێیەم گڵاسە ئەم ھەفتەیە دەیشکێنیت، زۆر ھەڵەشەیت!"),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                                             "She made a clumsy attempt to apologize."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵێکی لەرزۆکی دا بۆ لێبووردنخوازی."),
+                                            "ھەوڵێکی لەرزۆکی دا بۆ لێبووردنخوازی."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                                             "Her clumsy handling of the situation only made it worse."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامەڵەی سستی سستەپەلەی بۆ دۆخەکە تەنها خراپتری کرد."),
+                                            "مامەڵەی سستی سستەپەلەی بۆ دۆخەکە تەنھا خراپتری کرد."),
                                   ],
                                 ),
                               ),
@@ -347,7 +347,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) شتێک کە دیزاینێکی هەیە کە ئاسان نییە بۆ بەکارهێنان و گواستنەوە"),
+                                  "٣. (ھاوەڵناو) شتێک کە دیزاینێکی ھەیە کە ئاسان نییە بۆ بەکارھێنان و گواستنەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -358,7 +358,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                                             "The first mobile phones were heavy and clumsy to use, but nowadays they are much easier to handle."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکەمین موبایلەکان قورس و قەبە بوون بۆ بەکارهێنان، بەڵام ئێستا زۆر ئاسانترن بۆ بەکارهێنان."),
+                                            "یەکەمین موبایلەکان قورس و قەبە بوون بۆ بەکارھێنان، بەڵام ئێستا زۆر ئاسانترن بۆ بەکارھێنان."),
                                   ],
                                 ),
                               ),
@@ -378,7 +378,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) زۆر گران بۆ تێگەشتن یان بەکارهێنان بە ئاسانی"),
+                                  "٤. (ھاوەڵناو) زۆر گران بۆ تێگەشتن یان بەکارھێنان بە ئاسانی"),
                           Row(
                             children: [
                               const Expanded(
@@ -488,7 +488,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: clumsy (Derived forms: clumsier, clumsiest)
+- Adjective: clumsy (derived forms: clumsier, clumsiest)
 1. Lacking grace in movement or posture (= gawky, clunky [informal], ungainly, unwieldy, klutzy [N. Amer, informal])
 "clumsy fingers";
  

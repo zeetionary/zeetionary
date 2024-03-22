@@ -202,7 +202,7 @@ class EnglishEntrycollection extends StatelessWidget {
 کوردی: خڕکردنەوە، کۆ، کۆکردنەوە، گردکردنەوە، گردوکۆ، کۆمەڵەکردن، کۆکراوە، کۆگەری، پێکەوەنان، کۆم‌کردن، سەریەک‌نان، کەڵەکەکردن،	کۆمەڵە،	وەرگرتن،	خڕکردنەوەی باربۆ و پیتاک؛ پیتاک، باربۆ (خڕەوەکراو)،	کۆما، لۆدە، کۆگا، کەڵەکە، کۆمەڵ، دەستە، ژمارە
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) کۆکراوەی کۆمەڵە شتێکی هەمان جۆر"),
+                              text: "١. (ناو) کۆکراوەی کۆمەڵە شتێکی ھەمان جۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -213,7 +213,7 @@ class EnglishEntrycollection extends StatelessWidget {
                                             "He wanted to share his vast art collection with the world."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەیویست کۆکراوەی زەبەلاحی کارە هونەرییەکانی لەگەڵ جیهان هاوبەش بکات."),
+                                            "دەیویست کۆکراوەی زەبەلاحی کارە ھونەرییەکانی لەگەڵ جیھان ھاوبەش بکات."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntrycollection extends StatelessWidget {
                                             "There is always a strange collection of runners in the London Marathon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە کۆمەڵە ڕاکەرێکی نامۆ لە ماراسۆنی لەندەن هەن."),
+                                            "ھەمیشە کۆمەڵە ڕاکەرێکی نامۆ لە ماراسۆنی لەندەن ھەن."),
                                   ],
                                 ),
                               ),
@@ -405,7 +405,7 @@ class EnglishEntrycollection extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) کۆمەڵە چیرۆکێک، هۆنراوایەک، هتد کە پێکەوە لە یەک کتێبدا بڵاودەکرێنەوە"),
+                                  "٤. (ناو) کۆمەڵە چیرۆکێک، ھۆنراوایەک، ھتد کە پێکەوە لە یەک کتێبدا بڵاودەکرێنەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -447,7 +447,7 @@ class EnglishEntrycollection extends StatelessWidget {
                                             "The total collection last week amounted to £250."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جڕکردنەوەی کۆتایی لە هەفتەی ڕابردوودا ٢٥٠ پاوەند بوو."),
+                                            "جڕکردنەوەی کۆتایی لە ھەفتەی ڕابردوودا ٢٥٠ پاوەند بوو."),
                                   ],
                                 ),
                               ),
@@ -574,7 +574,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: collection (Derived forms: collections)
+- Noun: collection (derived forms: collections)
 1. Several things grouped together or considered as a whole (= aggregation, accumulation, assemblage)
  
 2. A publication containing a variety of works (= compendium)

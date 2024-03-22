@@ -207,7 +207,7 @@ class EnglishEntrycommonlaw extends StatelessWidget {
                                             "She studied common law before specializing in tax law."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاسای نەنووسراوی خوێند پێش ئەوەی شارەزایی لە یاسای باجدا بهێنێت."),
+                                            "یاسای نەنووسراوی خوێند پێش ئەوەی شارەزایی لە یاسای باجدا بھێنێت."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntrycommonlaw extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) ژن و پیاوێک کە ماوەیەکی زۆر بەبێ هاوسەرگیری پێکەوە ژیاون و لە هەندێک وڵات بە هاوژین دادەنرێن"),
+                                  "٢. (ھاوەڵناو) ژن و پیاوێک کە ماوەیەکی زۆر بەبێ ھاوسەرگیری پێکەوە ژیاون و لە ھەندێک وڵات بە ھاوژین دادەنرێن"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntrycommonlaw extends StatelessWidget {
                                             "She lives with her common-law husband and their three children."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەگەڵ هاوسەرە عورفییەکەی/نائایینییەکەی و سێ منداڵەکەیدا دەژی."),
+                                            "لەگەڵ ھاوسەرە عورفییەکەی/نائایینییەکەی و سێ منداڵەکەیدا دەژی."),
                                   ],
                                 ),
                               ),

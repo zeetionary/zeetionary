@@ -193,7 +193,7 @@ class EnglishEntrycommonground extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لایەنی هاوبەش یان لێکچوو
+کوردی: لایەنی ھاوبەش یان لێکچوو
 """),
                           const DefinitionKurdish(
                               text:
@@ -208,7 +208,7 @@ class EnglishEntrycommonground extends StatelessWidget {
                                             "Despite our disagreements, we have been able to find some common ground."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرەڕای ناکۆکییەکانمان، توانیومانە خاڵی هاوبەش بدۆزینەوە لە نێوانماندا."),
+                                            "سەرەڕای ناکۆکییەکانمان، توانیومانە خاڵی ھاوبەش بدۆزینەوە لە نێوانماندا."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycommonground extends StatelessWidget {
                                             "We found ourselves on common ground on the question of education."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەشتین بە خاڵی هاوبەش لە بارەی بابەتی پەروەردەوە."),
+                                            "گەشتین بە خاڵی ھاوبەش لە بارەی بابەتی پەروەردەوە."),
                                   ],
                                 ),
                               ),

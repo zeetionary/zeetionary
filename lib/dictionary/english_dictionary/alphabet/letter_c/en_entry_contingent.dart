@@ -194,11 +194,11 @@ class EnglishEntrycontingent extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: نادیار، ڕێکەوتی،	ئەگەری، شیمانەیی، ڕێ‌تێچوو، لەوەدەچێ، ڕەنگە، لەوانەیە،	بەندە بە، بە مەرجی، بەستراوەتەوە بە،	ڕووداوی کت‌وپر یان نادیار،	گروپ، کۆمەڵ،	هێز، سەرباز،	شاندە، نێردراو
+کوردی: نادیار، ڕێکەوتی،	ئەگەری، شیمانەیی، ڕێ‌تێچوو، لەوەدەچێ، ڕەنگە، لەوانەیە،	بەندە بە، بە مەرجی، بەستراوەتەوە بە،	ڕووداوی کت‌وپر یان نادیار،	گروپ، کۆمەڵ،	ھێز، سەرباز،	شاندە، نێردراو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کۆمەڵە کەسێک لە چاوپێکەوتنێکدا کە خاڵێکی هاوبەشیان، بەتایبەتی ئەوەی کە  لە کوێوە هاتوون"),
+                                  "١. (ناو) کۆمەڵە کەسێک لە چاوپێکەوتنێکدا کە خاڵێکی ھاوبەشیان، بەتایبەتی ئەوەی کە  لە کوێوە ھاتوون"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycontingent extends StatelessWidget {
                                             "A seven-strong French diplomatic contingent arrived in the capital city yesterday."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەوت کۆمەڵەی بەهێزی دیپلۆماسی فەرەنسی دوێنێ گەشتنە پایتەختەکە."),
+                                            "حەوت کۆمەڵەی بەھێزی دیپلۆماسی فەرەنسی دوێنێ گەشتنە پایتەختەکە."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycontingent extends StatelessWidget {
                                             "The French contingent in the UN peacekeeping force withdrew."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکەی سەربازی فەرەنسا لە هێزی ئاشتیپارێزی نەتەوە یەکگرتووەکان کشایەوە."),
+                                            "یەکەی سەربازی فەرەنسا لە ھێزی ئاشتیپارێزی نەتەوە یەکگرتووەکان کشایەوە."),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycontingent extends StatelessWidget {
                                             "All payments are contingent upon your timely completion of the work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو پارەدانەکان دەوەستنەسەر تەواوکردنی ئیشەکەتان لەکاتی خۆیدا."),
+                                            "ھەموو پارەدانەکان دەوەستنەسەر تەواوکردنی ئیشەکەتان لەکاتی خۆیدا."),
                                   ],
                                 ),
                               ),
@@ -408,7 +408,7 @@ ${englishMeaningConst.text}
 3. Uncertain because of uncontrollable circumstances
 "the results of confession were not contingent, they were certain"
 
-- Noun: contingent (Derived forms: contingents)
+- Noun: contingent (derived forms: contingents)
 1. A gathering of persons representative of some larger group
 "each nation sent a contingent of athletes to the Olympics"
  
@@ -446,7 +446,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/52GV0a6ydDc?t=',
+    videoId: '52GV0a6ydDc',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w4JXx-rz-2Q?t=',
+    videoId: 'w4JXx-rz-2Q',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 1457,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q-nWA0WeF98?t=',
+    videoId: 'Q-nWA0WeF98',
     startSeconds: 1380,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jxNM4DGBRMU?t=',
+    videoId: 'jxNM4DGBRMU',
     startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zh4c5IrllBg?t=',
+    videoId: 'Zh4c5IrllBg',
     startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8MELKXZqMQo?t=',
+    videoId: '8MELKXZqMQo',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(

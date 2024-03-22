@@ -195,7 +195,7 @@ class EnglishEntryclosedown extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کردە یان پڕۆسەی وەستاندنی کارەکانی بازرگانییەک، سیستەمێک، پیشەسازییەک، هتد بۆ ماوەیەکی کاتی یان هەمیشەیی"),
+                                  "١. (ناو) کردە یان پڕۆسەی وەستاندنی کارەکانی بازرگانییەک، سیستەمێک، پیشەسازییەک، ھتد بۆ ماوەیەکی کاتی یان ھەمیشەیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntryclosedown extends StatelessWidget {
                                             "The partial government close-down is now in a 20th day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـهەمین ڕۆژی دایە."),
+                                            "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـھەمین ڕۆژی دایە."),
                                   ],
                                 ),
                               ),
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: close-down (Derived forms: close-downs)
+- Noun: close-down (derived forms: close-downs)
 1. Termination of operations (= closure, closing, shutdown)
 "they regretted the closedown of the day care centre";
 """,

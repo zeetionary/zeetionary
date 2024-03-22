@@ -720,7 +720,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                       text:
                                           "He has 1 200 men under his command.",
                                       note:
-                                          "Also: He has command of 1  200 men.",
+                                          "also: He has command of 1  200 men.",
                                     ),
                                     ExampleSentenceKurdish(
                                         text: "١٢٠٠ کەسی لە ژێر فەرماندایە."),

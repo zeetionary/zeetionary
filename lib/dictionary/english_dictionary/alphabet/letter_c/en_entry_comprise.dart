@@ -263,7 +263,7 @@ class EnglishEntrycomprise extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                       text: "The country comprises 20 states.",
                                       note:
-                                          "Also: The country is comprised of twenty states.",
+                                          "also: The country is comprised of twenty states.",
                                     ),
                                     ExampleSentenceKurdish(
                                         text:

@@ -1421,7 +1421,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                                       text:
                                           "The story continues in our next issue.",
                                       note:
-                                          "Also: The story will be continued in our next issue.",
+                                          "also: The story will be continued in our next issue.",
                                     ),
                                     ExampleSentenceKurdish(
                                         text:

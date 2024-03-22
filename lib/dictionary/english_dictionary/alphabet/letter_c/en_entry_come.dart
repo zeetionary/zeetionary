@@ -905,7 +905,7 @@ class EnglishEntrycome extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She comes to work by bus."),
                                     ExampleSentenceKurdish(
-                                        text: "بە پاس دێت بە کار."),
+                                        text: "بە پاس دێت بۆ کار."),
                                   ],
                                 ),
                               ),
@@ -2537,7 +2537,7 @@ class EnglishEntrycome extends StatelessWidget {
                                         text:
                                             "She came second (= received the second highest score) in the exam."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text: "دووەم بوو لە تاقیکردنەوەکەدا."),
                                   ],
                                 ),
                               ),

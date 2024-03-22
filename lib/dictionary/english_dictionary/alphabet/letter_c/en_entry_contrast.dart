@@ -510,7 +510,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                                       text:
                                           "Her actions contrasted sharply with her promises.",
                                       note:
-                                          "Also: Her actions and her promises contrasted sharply.",
+                                          "also: Her actions and her promises contrasted sharply.",
                                     ),
                                     ExampleSentenceKurdish(
                                         text:

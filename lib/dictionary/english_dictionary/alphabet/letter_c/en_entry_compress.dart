@@ -234,7 +234,7 @@ class EnglishEntrycompress extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                       text: "She compressed her lips.",
                                       note:
-                                          "Also: Her lips compressed into a thin line.",
+                                          "also: Her lips compressed into a thin line.",
                                     ),
                                     ExampleSentenceKurdish(
                                         text: "لێوەکانی لێک توندکرد."),

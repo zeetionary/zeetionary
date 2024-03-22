@@ -266,7 +266,7 @@ class EnglishEntryconjecture extends StatelessWidget {
                                       text:
                                           "We can only conjecture about what was in the killer's mind.",
                                       note:
-                                          "Also: We can only conjecture what was in the killer’s mind.",
+                                          "also: We can only conjecture what was in the killer’s mind.",
                                     ),
                                     ExampleSentenceKurdish(
                                         text:

@@ -631,7 +631,7 @@ class EnglishEntrycommit extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (کردار) خۆکوشتن بە ئەنقەست"),
+                              text: "٢. (کردار) خۆکوشتن بە ئەنقەست"),
                           Row(
                             children: [
                               const Expanded(
@@ -959,7 +959,7 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٧. (کردار) فێربوونی شتێک ھێندە باش کە وەک خۆی بیرت بێتەوە"),
+                                  "٩. (کردار) فێربوونی شتێک ھێندە باش کە وەک خۆی بیرت بێتەوە"),
                           Row(
                             children: [
                               const Expanded(

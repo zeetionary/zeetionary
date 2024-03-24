@@ -10,128 +10,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconvention extends StatelessWidget {
+class EnglishEntryconverge extends StatelessWidget {
 // blank divider
-  EnglishEntryconvention({super.key});
+  EnglishEntryconverge({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconvention(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverge(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("convention"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("converge"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges1(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is a young woman who enjoys flouting conventions."); // DOPSUM: CHANGE TEXT
+        "Thousands of supporters converged on London for the rally."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges2(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "By convention the deputy leader was always a woman."); // DOPSUM: CHANGE TEXT
+        "The animals usually converge around the waterhole in the mornings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges3(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Convention demands that a club member should resign in such a situation."); // DOPSUM: CHANGE TEXT
+        "There was a signpost where the two paths converged."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges4(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Dallas is one of the top convention cities in the United States."); // DOPSUM: CHANGE TEXT
+        "The aims of the two developments can and should converge."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges5(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He addressed the annual Republican convention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges6(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was at the Democratic convention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges7(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The party's annual convention will be held on April 6."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges8(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Most countries have adhered to the convention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges9(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This is forbidden under the Convention on Human Rights."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges10(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges11(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges12(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconverges13(String languageCode) async {
+    // DOPSUM: CHANGE speakconverge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverges1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +152,22 @@ class EnglishEntryconvention extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "convention"),
+                            EntryTitle(word: "converge"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈvenʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈvɜːdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconvention("en-GB"),
+                              onPressed: () => speakconverge("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈvenʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈvɜːrdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconvention("en-US"),
+                              onPressed: () => speakconverge("en-US"),
                             ),
                           ],
                         ),
@@ -195,12 +193,11 @@ class EnglishEntryconvention extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: دانیشتن، کۆبوونەوە، کۆنگرە، کۆنفڕانس، کۆمبین، جڤین، کۆڕبەستن،	بڕیارنامە، ڕێک‌کەوتن‌نامە، پەیمان، پەیمان‌نامە،	نەریت، عورف، دەستوور، باوە، ڕێ‌وشوێن (کۆمەڵایەتی)، کەڤنەشۆپ، داب‌ونەریت، ڕێ‌وڕەسم، دەستوور، شێواز یا ڕێچکەی ترادیسۆناڵ
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی: بەرەو یەکبوون، هاو خاڵ بوون
+// """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) شێوازی ئەنجامدانی شتێک کە زۆرینەی کۆمەڵگایەک پێی ڕازین و بە باشی دادەنێن"),
+                              text: "١. (کردار) گەشتن بە هەمان خاڵ"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,21 +205,21 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is a young woman who enjoys flouting conventions."),
+                                            "Thousands of supporters converged on London for the rally."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژنێکی گەنجە کە حەزی بە شکاندنی نەریتەکانە."),
+                                            "هەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convention", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "converge", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions1("en-GB"),
+                                    onPressed: () => speakconverges1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions1("en-US"),
+                                    onPressed: () => speakconverges1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,10 +233,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "By convention the deputy leader was always a woman."),
+                                            "The animals usually converge around the waterhole in the mornings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەپێی عورف جێگری سەرۆک هەمیشە ژنێک."),
+                                            "ئاژەڵەکان زۆرجار بەیانییان لە دەوری گۆلەکە کۆدەبنەوە."),
                                   ],
                                 ),
                               ),
@@ -247,16 +244,18 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions2("en-GB"),
+                                    onPressed: () => speakconverges2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions2("en-US"),
+                                    onPressed: () => speakconverges2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (کردار) گەشتنی دوو ڕێگا بە یەکدی"),
                           Row(
                             children: [
                               const Expanded(
@@ -264,10 +263,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Convention demands that a club member should resign in such a situation."),
+                                            "There was a signpost where the two paths converged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستوور وا دەخوازێت ئەندامێکی یانەکە لە دۆخێکی وەهادا دەستلەکاربکێشێتەوە."),
+                                            "نیشانەڕێیەک هەبوو لەو دوو شوێنەی دوو ڕێگاکە بە یەکدی دەگەشتن."),
                                   ],
                                 ),
                               ),
@@ -275,10 +274,10 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions3("en-GB"),
+                                    onPressed: () => speakconverges3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions3("en-US"),
+                                    onPressed: () => speakconverges3("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,7 +286,7 @@ class EnglishEntryconvention extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆبوونەوەیەکی گەورەی ئەندامانی پیشەیەک، پارتێکی سیاسی، هتد"),
+                                  "٣. (کردار) بوون بە یەک یان هاوشێوەبوونی بیرۆکە، سیاسەت، ئامانج، هتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +294,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Dallas is one of the top convention cities in the United States."),
+                                            "The aims of the two developments can and should converge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دالاس یەکێکە لە باشترین شاری کۆنفرانسەکانی ئەمریکا."),
+                                            "ئامانجی هەردوو گەشەپێدانەکە دەکرێت و دەبێت یەکبن."),
                                   ],
                                 ),
                               ),
@@ -306,151 +305,14 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions4("en-GB"),
+                                    onPressed: () => speakconverges4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions4("en-US"),
+                                    onPressed: () => speakconverges4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He addressed the annual Republican convention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەی بۆ کۆنگرەی ساڵانەی کۆمارییەکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was at the Democratic convention."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کۆنگرەی دیموکراتەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The party's annual convention will be held on April 6."),
-                          ExampleSentenceKurdish(
-                          text: "کۆبوونەوەی ساڵانەی پارتەکە لە ٦ ـی نیسان ڕێکدەخرێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconventions7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconventions7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) ڕێککەوتنێکی فەرمی"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Most countries have adhered to the convention."),
-                          ExampleSentenceKurdish(
-                          text: "زۆرینەی وڵاتەکان پابەندی پەیماننامەکە بوونە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconventions8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconventions8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "This is forbidden under the Convention on Human Rights."),
-                          ExampleSentenceKurdish(
-                          text: "ئەمە قەدەغەیە بەپێی پەیماننامەی مافەکانی مرۆڤ."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconventions9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconventions9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
                           ),
                         ],
                       ),
@@ -534,18 +396,17 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convention (Derived forms: conventions)
-1. A large formal assembly
-"political convention"
+- Verb: converge (Derived forms: converged, converges, converging)
+1. Be adjacent or come together (= meet)
+"The lines converge at this point";
  
-2. Something regarded as a normative example (= normal, pattern, rule, formula)
-"the convention of not naming the main character";
+2. (mathematics) approach a limit as the number of terms increases without limit
  
-3. (diplomacy) an international agreement
+3. Move or draw together at a certain location
+"The crowd converged on the movie star"
  
-4. Orthodoxy as a consequence of being conventional (= conventionality, conventionalism)
- 
-5. The act of convening (= convening)
+4. Come together so as to form a single product
+"Social forces converged to bring the Fascists back to power"
 """,
   );
 
@@ -578,8 +439,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
-    startSeconds: 734,
+    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    startSeconds: 594,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -603,8 +464,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
-    startSeconds: 1083,
+    videoId: 'https://youtu.be/GVsUOuSjvcg?t=',
+    startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -628,8 +489,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
-    startSeconds: 2448,
+    videoId: 'https://youtu.be/3Mn9QMTmRDM?t=',
+    startSeconds: 2575,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -653,8 +514,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YpqaWQiyQRA?t=',
-    startSeconds: 352,
+    videoId: 'https://youtu.be/Ot4kxYlx1Zw?t=',
+    startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -678,8 +539,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wrsUbwKGuko?t=',
-    startSeconds: 508,
+    videoId: 'https://youtu.be/6HEheIozS5c?t=',
+    startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -703,8 +564,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VNZ0so0LCoM?t=',
-    startSeconds: 1168,
+    videoId: 'https://youtu.be/hCsPV0eiqxg?t=',
+    startSeconds: 199,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -728,8 +589,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JFqiSr9A-Go?t=',
-    startSeconds: 417,
+    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
+    startSeconds: 2280,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

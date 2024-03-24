@@ -10,128 +10,129 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconvention extends StatelessWidget {
+class EnglishEntryconventional extends StatelessWidget {
 // blank divider
-  EnglishEntryconvention({super.key});
+  EnglishEntryconventional({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconvention(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventional(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("convention"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conventional"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She is a young woman who enjoys flouting conventions."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconventions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "By convention the deputy leader was always a woman."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconventions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Convention demands that a club member should resign in such a situation."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconventions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Dallas is one of the top convention cities in the United States."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconventions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He addressed the annual Republican convention."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconventions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals1(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She was at the Democratic convention."); // DOPSUM: CHANGE TEXT
+        .speak("She's very conventional in her views."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals2(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The party's annual convention will be held on April 6."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They rejected what they saw as the hypocrisy of conventional society."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals3(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Most countries have adhered to the convention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can use a microwave or cook it in a conventional oven."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals4(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This is forbidden under the Convention on Human Rights."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her face is not beautiful in conventional terms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals5(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Raising such a large amount of money from conventional sources would be difficult."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals6(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Conventional treatments for this condition have been only partially successful."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals7(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A conventional war would still cause unacceptable devastation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconventions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
+  Future<void> speakconventionals8(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconventionals9(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconventionals900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconventionals10(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconventionals1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconventionals11(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconventionals1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconventionals12(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconventionals1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconventionals13(String languageCode) async {
+    // DOPSUM: CHANGE speakconventional
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakconventionals1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +155,22 @@ class EnglishEntryconvention extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "convention"),
+                            EntryTitle(word: "conventional"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈvenʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈvenʃənl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconvention("en-GB"),
+                              onPressed: () => speakconventional("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈvenʃn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈvenʃənl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconvention("en-US"),
+                              onPressed: () => speakconventional("en-US"),
                             ),
                           ],
                         ),
@@ -196,11 +197,11 @@ class EnglishEntryconvention extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دانیشتن، کۆبوونەوە، کۆنگرە، کۆنفڕانس، کۆمبین، جڤین، کۆڕبەستن،	بڕیارنامە، ڕێک‌کەوتن‌نامە، پەیمان، پەیمان‌نامە،	نەریت، عورف، دەستوور، باوە، ڕێ‌وشوێن (کۆمەڵایەتی)، کەڤنەشۆپ، داب‌ونەریت، ڕێ‌وڕەسم، دەستوور، شێواز یا ڕێچکەی ترادیسۆناڵ
+کوردی: باو، داب، ئاسایی، بەپێی دەستووری کۆن، خاوەن عورف، خۆماڵی،	نەریتی،	لەمێژینە، کۆن،	ناناوکی، نانێوکی، ئاسایی (چەک‌وچۆڵ)،	پەیمانی، پەیمان‌نامەیی،	کۆبوونەوەیی، کونگرەیی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شێوازی ئەنجامدانی شتێک کە زۆرینەی کۆمەڵگایەک پێی ڕازین و بە باشی دادەنێن"),
+                                  "١. (ھاوەڵناو) بەپێی ئەوەی باوە و دابونەریتە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,21 +209,23 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is a young woman who enjoys flouting conventions."),
+                                            "She's very conventional in her views."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژنێکی گەنجە کە حەزی بە شکاندنی نەریتەکانە."),
+                                            "زۆر پابەند بە دەستوورە لە ڕوانگەکانییەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convention", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "conventional", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions1("en-GB"),
+                                    onPressed: () =>
+                                        speakconventionals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions1("en-US"),
+                                    onPressed: () =>
+                                        speakconventionals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,10 +239,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "By convention the deputy leader was always a woman."),
+                                            "They rejected what they saw as the hypocrisy of conventional society."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەپێی عورف جێگری سەرۆک هەمیشە ژنێک."),
+                                            "ئەوەی ڕەتکردەوە کە بە دووڕووی کۆمەڵگای خاوەن عورف ناوزەدی کرد."),
                                   ],
                                 ),
                               ),
@@ -247,38 +250,12 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions2("en-GB"),
+                                    onPressed: () =>
+                                        speakconventionals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Convention demands that a club member should resign in such a situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوور وا دەخوازێت ئەندامێکی یانەکە لە دۆخێکی وەهادا دەستلەکاربکێشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions3("en-US"),
+                                    onPressed: () =>
+                                        speakconventionals2("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,7 +264,7 @@ class EnglishEntryconvention extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆبوونەوەیەکی گەورەی ئەندامانی پیشەیەک، پارتێکی سیاسی، هتد"),
+                                  "٢. (ھاوەڵناو) بەو شێوەیەی کە باوە و بۆ ماوەیەکی زۆر کراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +272,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Dallas is one of the top convention cities in the United States."),
+                                            "You can use a microwave or cook it in a conventional oven."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دالاس یەکێکە لە باشترین شاری کۆنفرانسەکانی ئەمریکا."),
+                                            "دەتوانیت مایکرۆوەیڤێک بەکاربهێنیت یان بە فڕنی ئاسایی لێی بنێیت."),
                                   ],
                                 ),
                               ),
@@ -306,10 +283,12 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions4("en-GB"),
+                                    onPressed: () =>
+                                        speakconventionals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions4("en-US"),
+                                    onPressed: () =>
+                                        speakconventionals3("en-US"),
                                   ),
                                 ],
                               ),
@@ -323,10 +302,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He addressed the annual Republican convention."),
+                                            "Her face is not beautiful in conventional terms."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قسەی بۆ کۆنگرەی ساڵانەی کۆمارییەکان کرد."),
+                                            "لەلایەنە بوەکانەوە ڕووخساری جوان نییە."),
                                   ],
                                 ),
                               ),
@@ -334,10 +313,12 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions5("en-GB"),
+                                    onPressed: () =>
+                                        speakconventionals4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions5("en-US"),
+                                    onPressed: () =>
+                                        speakconventionals4("en-US"),
                                   ),
                                 ],
                               ),
@@ -351,9 +332,10 @@ class EnglishEntryconvention extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She was at the Democratic convention."),
+                                            "Raising such a large amount of money from conventional sources would be difficult."),
                                     ExampleSentenceKurdish(
-                                        text: "لە کۆنگرەی دیموکراتەکان بوو."),
+                                        text:
+                                            "کۆکردنەوەی پارەیەکی وەها زۆر بە ڕێگا باوەکان سەخت دەبێت."),
                                   ],
                                 ),
                               ),
@@ -361,96 +343,81 @@ class EnglishEntryconvention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconventions6("en-GB"),
+                                    onPressed: () =>
+                                        speakconventionals5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions6("en-US"),
+                                    onPressed: () =>
+                                        speakconventionals5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The party's annual convention will be held on April 6."),
-                          ExampleSentenceKurdish(
-                          text: "کۆبوونەوەی ساڵانەی پارتەکە لە ٦ ـی نیسان ڕێکدەخرێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconventions7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconventions7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) ڕێککەوتنێکی فەرمی"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) شێوازەکانی چارەسەری تەندرووستی بە دەرمانی ڕۆژئاوایی، وەک بەکارهێنانی دەوای دەستکرد و نەشتەرگەری"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Most countries have adhered to the convention."),
-                          ExampleSentenceKurdish(
-                          text: "زۆرینەی وڵاتەکان پابەندی پەیماننامەکە بوونە."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Conventional treatments for this condition have been only partially successful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چارەسەرە باوەکانی ئەم نەخۆشییە تا ڕادەیەک سەرکەوتوو بوونە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconventionals6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconventionals6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconventions8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconventions8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ھاوەڵناو) چەکێک کە ئەتۆمی نییە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "This is forbidden under the Convention on Human Rights."),
-                          ExampleSentenceKurdish(
-                          text: "ئەمە قەدەغەیە بەپێی پەیماننامەی مافەکانی مرۆڤ."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconventions9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconventions9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A conventional war would still cause unacceptable devastation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەنگێکی نا ئەتۆمی هێشتا کاولکاری قەبووڵ‌نەکراو لێدەکەوێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconventionals7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconventionals7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -534,18 +501,26 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convention (Derived forms: conventions)
-1. A large formal assembly
-"political convention"
+- Adjective: conventional 
+1. Following accepted customs and proprieties
+"conventional wisdom"; "she had strayed from the path of conventional behaviour"; "conventional forms of address"
  
-2. Something regarded as a normative example (= normal, pattern, rule, formula)
-"the convention of not naming the main character";
+2. Conforming with accepted standards (= established)
+"a conventional view of the world";
  
-3. (diplomacy) an international agreement
+3. (fine arts) represented in simplified or symbolic form (= formal, schematic)
  
-4. Orthodoxy as a consequence of being conventional (= conventionality, conventionalism)
+4. In accord with or being a tradition or practice accepted from the past
+"a conventional church wedding with the bride in traditional white"; "the conventional handshake"
  
-5. The act of convening (= convening)
+5. Rigidly formal or bound by convention (= ceremonious)
+"their conventional greetings did not seem heartfelt";
+ 
+6. (weapons) using energy for propulsion or destruction that is not nuclear energy
+"conventional warfare"; "conventional weapons"
+ 
+7. Unimaginative and conformist (= mainstream)
+"conventional attitudes";
 """,
   );
 
@@ -578,8 +553,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
-    startSeconds: 734,
+    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    startSeconds: 408,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -603,8 +578,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
-    startSeconds: 1083,
+    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -628,8 +603,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
-    startSeconds: 2448,
+    videoId: 'https://youtu.be/Bg_tJvCA8zw?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -653,8 +628,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YpqaWQiyQRA?t=',
-    startSeconds: 352,
+    videoId: 'https://youtu.be/m6kcANnAJSo?t=',
+    startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -678,8 +653,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wrsUbwKGuko?t=',
-    startSeconds: 508,
+    videoId: 'https://youtu.be/k7YVxLLIuGM?t=',
+    startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -703,8 +678,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VNZ0so0LCoM?t=',
-    startSeconds: 1168,
+    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    startSeconds: 984,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -728,8 +703,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JFqiSr9A-Go?t=',
-    startSeconds: 417,
+    videoId: 'https://youtu.be/QcUey-DVYjk?t=',
+    startSeconds: 1497,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

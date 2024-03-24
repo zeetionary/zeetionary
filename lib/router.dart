@@ -3657,13 +3657,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conveniently.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_convent.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_convention.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conventional.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conventionally.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_converge.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_convergence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_convergent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conversation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_conversational.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8204,13 +8204,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-conveniently": (_) => MaterialPage(child: EnglishEntryconveniently()),
   "/english-convent": (_) => MaterialPage(child: EnglishEntryconvent()),
   "/english-convention": (_) => MaterialPage(child: EnglishEntryconvention()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-conventional": (_) => MaterialPage(child: EnglishEntryconventional()),
+  "/english-conventionally": (_) => MaterialPage(child: EnglishEntryconventionally()),
+  "/english-converge": (_) => MaterialPage(child: EnglishEntryconverge()),
+  "/english-convergence": (_) => MaterialPage(child: EnglishEntryconvergence()),
+  "/english-convergent": (_) => MaterialPage(child: EnglishEntryconvergent()),
+  "/english-conversation": (_) => MaterialPage(child: EnglishEntryconversation()),
+  "/english-conversational": (_) => MaterialPage(child: EnglishEntryconversational()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

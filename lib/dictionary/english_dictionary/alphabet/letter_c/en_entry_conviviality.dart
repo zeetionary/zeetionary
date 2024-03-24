@@ -10,126 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconversion extends StatelessWidget {
+class EnglishEntryconviviality extends StatelessWidget {
 // blank divider
-  EnglishEntryconversion({super.key});
+  EnglishEntryconviviality({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconversion(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconviviality(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conversion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conviviality"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys1(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Conversion to gas central heating will save you a lot of money."); // DOPSUM: CHANGE TEXT
+        "He was known for his conviviality as a host."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys2(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Consult the conversion table to figure out the weight in kilos."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys3(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are no charges for currency conversion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys4(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Late in life she experienced a religious conversion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys5(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys6(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys7(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys8(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys9(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys10(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys11(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys12(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvivialitys13(String languageCode) async {
+    // DOPSUM: CHANGE speakconviviality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvivialitys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +149,22 @@ class EnglishEntryconversion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "conversion"),
+                            EntryTitle(word: "conviviality"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈvɜːʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˌvɪviˈæləti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconversion("en-GB"),
+                              onPressed: () => speakconviviality("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈvɜːrʒn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˌvɪviˈæləti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconversion("en-US"),
+                              onPressed: () => speakconviviality("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +191,11 @@ class EnglishEntryconversion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، هەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، هەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
+کوردی: دۆستایەتی، بەزم‌وڕەزم، بەزم، گەرم وگوڕی، لەدڵەوەنزیکی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارهێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
+                                  "١. (ناو) کەشێک یان کەسایەتییەکی دۆستانە و دڵشاد"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,108 +203,23 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Conversion to gas central heating will save you a lot of money."),
+                                            "He was known for his conviviality as a host."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە."),
+                                            "وەک خاوەنماڵ بۆ دۆستایەتییەکەی ناسراوبوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversion", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "conviviality", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions1("en-GB"),
+                                    onPressed: () =>
+                                        speakconvivialitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Consult the conversion table to figure out the weight in kilos."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خشتەی گۆڕینەکە بڕوانە بۆ زانینی کێشەکە بە کیلۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are no charges for currency conversion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) پڕۆسە یان ئەزموونی گۆڕینی باوەڕ یان ئایینی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Late in life she experienced a religious conversion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی ژیانیدا بە گۆڕینی ئاییندا تێپەڕبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions4("en-US"),
+                                    onPressed: () =>
+                                        speakconvivialitys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -395,25 +307,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-1. Noun: conversion (Derived forms: conversions)
-An event that results in a transformation (= transition, changeover)
+- Noun: conviviality (Derived forms: convivialities)
+1. A jovial nature (= joviality)
  
-2. A change in the units or form of an expression:
- 
-3. A successful free throw or try for point after a touchdown
- 
-4. A spiritual enlightenment causing a person to lead a new life (= rebirth, spiritual rebirth)
- 
-5. (psychiatry) a defence mechanism represses emotional conflicts which are then converted into physical symptoms that have no organic basis
- 
-6. A change of religion
-"his conversion to the Catholic faith"
- 
-7. Interchange of subject and predicate of a proposition
- 
-8. Act of exchanging one type of money or security for another
- 
-9. The act of changing from one use, function or purpose to another
+2. A boisterous celebration; a merry festivity (= merrymaking, jollification)
 """,
   );
 
@@ -446,8 +343,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
-    startSeconds: 322,
+    videoId: 'https://youtu.be/e6csatGWw0s?t=',
+    startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +368,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7JDYiLz9Mo?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/BhrmGARFEVc?t=',
+    startSeconds: 281,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +393,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
-    startSeconds: 304,
+    videoId: 'https://youtu.be/f6aTCjiA4m8?t=',
+    startSeconds: 878,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,8 +418,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HL4RQb-ROA?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/I8DlXa_933Y?t=',
+    startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -546,8 +443,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c9_20kflptY?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/V2uBQyaTGII?t=',
+    startSeconds: 658,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +468,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hhvjKAQv2cs?t=',
-    startSeconds: 1750,
+    videoId: 'https://youtu.be/OBSFOVpfVTI?t=',
+    startSeconds: 463,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +493,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1eYZnCx-02g?t=',
-    startSeconds: 232,
+    videoId: 'https://youtu.be/t8FRMG8nyIE?t=',
+    startSeconds: 1515,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

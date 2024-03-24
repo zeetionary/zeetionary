@@ -10,126 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconversion extends StatelessWidget {
+class EnglishEntryconvict extends StatelessWidget {
 // blank divider
-  EnglishEntryconversion({super.key});
+  EnglishEntryconvict({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconversion(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvict(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conversion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("convict"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts1(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He was convicted of fraud."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakconvicts2(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Conversion to gas central heating will save you a lot of money."); // DOPSUM: CHANGE TEXT
+        "There wasn’t enough evidence to convict her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts3(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Consult the conversion table to figure out the weight in kilos."); // DOPSUM: CHANGE TEXT
+        "He was convicted of the murder of two teenagers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts4(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There are no charges for currency conversion."); // DOPSUM: CHANGE TEXT
+        "The novel begins with Pip’s meeting with an escaped convict from the prison ship."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts5(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Late in life she experienced a religious conversion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts6(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts7(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts8(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts9(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts10(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts11(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts12(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvicts13(String languageCode) async {
+    // DOPSUM: CHANGE speakconvict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakconversions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvicts1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +151,22 @@ class EnglishEntryconversion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "conversion"),
+                            EntryTitle(word: "convict"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈvɜːʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈvɪkt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconversion("en-GB"),
+                              onPressed: () => speakconvict("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈvɜːrʒn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈvɪkt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconversion("en-US"),
+                              onPressed: () => speakconvict("en-US"),
                             ),
                           ],
                         ),
@@ -194,33 +193,31 @@ class EnglishEntryconversion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، هەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، هەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
+کوردی: خەتابار، گوناهبار، تاوانبار، زیندانی، مەحکووم، سزالەسەر
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارهێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
+                                  "١. (کردار) بە فەرمی گوتن و بڕیاردانی ئەوەی کەسێک تاوانبارە لە دادگادا"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Conversion to gas central heating will save you a lot of money."),
+                                        text: "He was convicted of fraud."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە."),
+                                        text: "بە ساختەکاری تۆمەتبارکرا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversion", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "convict", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions1("en-GB"),
+                                    onPressed: () => speakconvicts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions1("en-US"),
+                                    onPressed: () => speakconvicts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +231,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Consult the conversion table to figure out the weight in kilos."),
+                                            "There wasn’t enough evidence to convict her."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە خشتەی گۆڕینەکە بڕوانە بۆ زانینی کێشەکە بە کیلۆ."),
+                                            "بەڵگەی پێویست نەبوو بۆ تاوانبارکردنی."),
                                   ],
                                 ),
                               ),
@@ -245,10 +242,10 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions2("en-GB"),
+                                    onPressed: () => speakconvicts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions2("en-US"),
+                                    onPressed: () => speakconvicts2("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,10 +259,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "There are no charges for currency conversion."),
+                                            "He was convicted of the murder of two teenagers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
+                                            "بە کوشتنی دوو گەنج تۆمەتبارکرا."),
                                   ],
                                 ),
                               ),
@@ -273,10 +270,10 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions3("en-GB"),
+                                    onPressed: () => speakconvicts3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions3("en-US"),
+                                    onPressed: () => speakconvicts3("en-US"),
                                   ),
                                 ],
                               ),
@@ -285,7 +282,7 @@ class EnglishEntryconversion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پڕۆسە یان ئەزموونی گۆڕینی باوەڕ یان ئایینی کەسێک"),
+                                  "٢. (ناو) کەسێک کە وەک تۆمەتباری تاوانێک ناسێنراوە و نێردراوە بۆ زیندان"),
                           Row(
                             children: [
                               const Expanded(
@@ -293,10 +290,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Late in life she experienced a religious conversion."),
+                                            "The novel begins with Pip’s meeting with an escaped convict from the prison ship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆتایی ژیانیدا بە گۆڕینی ئاییندا تێپەڕبوو."),
+                                            "ڕۆمانەکە دەست پێدەکات بە بینینی پیپ لەگەڵ تاوانبارێکی هەڵهاتوو لە زیندانییە کەشتییە."),
                                   ],
                                 ),
                               ),
@@ -304,10 +301,10 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions4("en-GB"),
+                                    onPressed: () => speakconvicts4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions4("en-US"),
+                                    onPressed: () => speakconvicts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -395,25 +392,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-1. Noun: conversion (Derived forms: conversions)
-An event that results in a transformation (= transition, changeover)
+- Verb: convict (Derived forms: convicted, convicting, convicts)
+1. (law) find or declare guilty
+"The man was convicted of fraud and sentenced"
+
+- Noun: convict (Derived forms: convicts)
+1. A person serving a sentence in a jail or prison (= con [informal], inmate, yard bird [N. Amer, informal], yardbird [N. Amer, informal])
  
-2. A change in the units or form of an expression:
- 
-3. A successful free throw or try for point after a touchdown
- 
-4. A spiritual enlightenment causing a person to lead a new life (= rebirth, spiritual rebirth)
- 
-5. (psychiatry) a defence mechanism represses emotional conflicts which are then converted into physical symptoms that have no organic basis
- 
-6. A change of religion
-"his conversion to the Catholic faith"
- 
-7. Interchange of subject and predicate of a proposition
- 
-8. Act of exchanging one type of money or security for another
- 
-9. The act of changing from one use, function or purpose to another
+2. A person who has been convicted of a criminal offence
 """,
   );
 
@@ -446,8 +432,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
-    startSeconds: 322,
+    videoId: 'https://youtu.be/raSeaAeryWE?t=',
+    startSeconds: 2446,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +457,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7JDYiLz9Mo?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/nGrB-5ieeMU?t=',
+    startSeconds: 458,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +482,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
-    startSeconds: 304,
+    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    startSeconds: 1051,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,8 +507,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HL4RQb-ROA?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/380Zqbi9luo?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -546,8 +532,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c9_20kflptY?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/wrsUbwKGuko?t=',
+    startSeconds: 2693,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +557,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hhvjKAQv2cs?t=',
-    startSeconds: 1750,
+    videoId: 'https://youtu.be/kBdfcR-8hEY?t=',
+    startSeconds: 2258,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +582,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1eYZnCx-02g?t=',
-    startSeconds: 232,
+    videoId: 'https://youtu.be/aTMsfOcHiJg?t=',
+    startSeconds: 373,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

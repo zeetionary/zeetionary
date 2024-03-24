@@ -10,126 +10,127 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconversion extends StatelessWidget {
+class EnglishEntryconvince extends StatelessWidget {
 // blank divider
-  EnglishEntryconversion({super.key});
+  EnglishEntryconvince({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconversion(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvince(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conversion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("convince"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces1(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Conversion to gas central heating will save you a lot of money."); // DOPSUM: CHANGE TEXT
+        "Are the prime minister's assurances enough to convince the public?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces2(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Consult the conversion table to figure out the weight in kilos."); // DOPSUM: CHANGE TEXT
+        "She has managed to convince even the sceptics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces3(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There are no charges for currency conversion."); // DOPSUM: CHANGE TEXT
+        "I’d convinced myself (that) I was right."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces4(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Late in life she experienced a religious conversion."); // DOPSUM: CHANGE TEXT
+        "Will the president be able to convince voters that he deserves a second term?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces5(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I've been trying to convince him to see a doctor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces6(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces7(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces8(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces9(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces10(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces11(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces12(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvinces13(String languageCode) async {
+    // DOPSUM: CHANGE speakconvince
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvinces1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +153,22 @@ class EnglishEntryconversion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "conversion"),
+                            EntryTitle(word: "convince"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈvɜːʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈvɪns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconversion("en-GB"),
+                              onPressed: () => speakconvince("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈvɜːrʒn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈvɪns/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconversion("en-US"),
+                              onPressed: () => speakconvince("en-US"),
                             ),
                           ],
                         ),
@@ -193,12 +194,11 @@ class EnglishEntryconversion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، هەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، هەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی: ڕازی کردن
+// """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارهێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
+                              text: "١. (کردار) ڕازیکردن بەوەی شتێک ڕاستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,21 +206,21 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Conversion to gas central heating will save you a lot of money."),
+                                            "Are the prime minister's assurances enough to convince the public?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە."),
+                                            "دڵنیاییەکانی سەرۆک وەزیران بەسن بۆ ڕازیکردنی خەڵکی؟"),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversion", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "convince", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions1("en-GB"),
+                                    onPressed: () => speakconvinces1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions1("en-US"),
+                                    onPressed: () => speakconvinces1("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +234,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Consult the conversion table to figure out the weight in kilos."),
+                                            "She has managed to convince even the sceptics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە خشتەی گۆڕینەکە بڕوانە بۆ زانینی کێشەکە بە کیلۆ."),
+                                            "توانیویەتی تەنانەت گومان‌دارانیش ڕازی بکات."),
                                   ],
                                 ),
                               ),
@@ -245,10 +245,10 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions2("en-GB"),
+                                    onPressed: () => speakconvinces2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions2("en-US"),
+                                    onPressed: () => speakconvinces2("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,10 +262,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "There are no charges for currency conversion."),
+                                            "I’d convinced myself (that) I was right."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
+                                            "قەناعەتم بە خۆم کردبوو کە ڕاستم."),
                                   ],
                                 ),
                               ),
@@ -273,10 +273,38 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions3("en-GB"),
+                                    onPressed: () => speakconvinces3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions3("en-US"),
+                                    onPressed: () => speakconvinces3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Will the president be able to convince voters that he deserves a second term?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک دەتوانێت دەنگدەران قایل بکات کە شایەنی خولی دووەمە؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakconvinces4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakconvinces4("en-US"),
                                   ),
                                 ],
                               ),
@@ -284,8 +312,7 @@ class EnglishEntryconversion extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) پڕۆسە یان ئەزموونی گۆڕینی باوەڕ یان ئایینی کەسێک"),
+                              text: "٢. (کردار) ڕازیکردن بۆ کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -293,10 +320,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Late in life she experienced a religious conversion."),
+                                            "I've been trying to convince him to see a doctor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆتایی ژیانیدا بە گۆڕینی ئاییندا تێپەڕبوو."),
+                                            "هەوڵم داوە ڕازی بکەم کە دکتۆرێک ببینێت."),
                                   ],
                                 ),
                               ),
@@ -304,10 +331,10 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions4("en-GB"),
+                                    onPressed: () => speakconvinces5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions4("en-US"),
+                                    onPressed: () => speakconvinces5("en-US"),
                                   ),
                                 ],
                               ),
@@ -395,25 +422,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-1. Noun: conversion (Derived forms: conversions)
-An event that results in a transformation (= transition, changeover)
- 
-2. A change in the units or form of an expression:
- 
-3. A successful free throw or try for point after a touchdown
- 
-4. A spiritual enlightenment causing a person to lead a new life (= rebirth, spiritual rebirth)
- 
-5. (psychiatry) a defence mechanism represses emotional conflicts which are then converted into physical symptoms that have no organic basis
- 
-6. A change of religion
-"his conversion to the Catholic faith"
- 
-7. Interchange of subject and predicate of a proposition
- 
-8. Act of exchanging one type of money or security for another
- 
-9. The act of changing from one use, function or purpose to another
+- Verb: convince (Derived forms: convinced, convinces, convincing)
+1. Make (someone) agree, understand, or realize the truth or validity of something (= convert, win over)
+"He had finally convinced several customers of the advantages of his product";
 """,
   );
 
@@ -446,8 +457,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
-    startSeconds: 322,
+    videoId: 'https://youtu.be/_wNsZEqpKUA?t=',
+    startSeconds: 358,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +482,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7JDYiLz9Mo?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 654,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +507,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
-    startSeconds: 304,
+    videoId: 'https://youtu.be/D0x2dgpBDzc?t=',
+    startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,8 +532,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HL4RQb-ROA?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/6Op9Bkpeu4s?t=',
+    startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -546,8 +557,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c9_20kflptY?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/AzeL_8bdrQA?t=',
+    startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +582,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hhvjKAQv2cs?t=',
-    startSeconds: 1750,
+    videoId: 'https://youtu.be/Vyb-sTrY_Y8?t=',
+    startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +607,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1eYZnCx-02g?t=',
-    startSeconds: 232,
+    videoId: 'https://youtu.be/_mu1kQqkl1E?t=',
+    startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

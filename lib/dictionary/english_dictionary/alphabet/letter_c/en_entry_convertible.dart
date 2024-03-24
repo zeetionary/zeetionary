@@ -10,126 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryconversion extends StatelessWidget {
+class EnglishEntryconvertible extends StatelessWidget {
 // blank divider
-  EnglishEntryconversion({super.key});
+  EnglishEntryconvertible({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakconversion(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertible(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conversion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("convertible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles1(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Conversion to gas central heating will save you a lot of money."); // DOPSUM: CHANGE TEXT
+        "The bonds are convertible into ordinary shares."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles2(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Consult the conversion table to figure out the weight in kilos."); // DOPSUM: CHANGE TEXT
+        "She drove her white convertible Mercedes with the roof down."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles3(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are no charges for currency conversion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles4(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Late in life she experienced a religious conversion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles5(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles6(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles7(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles8(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles9(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles10(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles11(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles12(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakconversions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconversion
+  Future<void> speakconvertibles13(String languageCode) async {
+    // DOPSUM: CHANGE speakconvertible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconversions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvertibles1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -152,22 +150,22 @@ class EnglishEntryconversion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "conversion"),
+                            EntryTitle(word: "convertible"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kənˈvɜːʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /kənˈvɜːtəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakconversion("en-GB"),
+                              onPressed: () => speakconvertible("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kənˈvɜːrʒn/"),
+                            const IPAofEnglish(text: "IpaUS: /kənˈvɜːrtəbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakconversion("en-US"),
+                              onPressed: () => speakconvertible("en-US"),
                             ),
                           ],
                         ),
@@ -194,11 +192,11 @@ class EnglishEntryconversion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، هەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، هەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
+کوردی: لەگۆڕین‌هاتوو، دەگۆڕێت، ماشێنی سەر(یان میچ)قەدکراو، ماشێنی میچ‌نووشتاو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارهێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
+                                  "١. (ھاوەڵناو) کە دەکرێت بگۆڕێت بۆ جۆر یان بەکارهێنانێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,77 +204,23 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Conversion to gas central heating will save you a lot of money."),
+                                            "The bonds are convertible into ordinary shares."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە."),
+                                            "بۆندەکان دەکرێت بگۆڕدرێن بۆ پشکی ئاسایی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversion", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "convertible", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions1("en-GB"),
+                                    onPressed: () =>
+                                        speakconvertibles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Consult the conversion table to figure out the weight in kilos."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خشتەی گۆڕینەکە بڕوانە بۆ زانینی کێشەکە بە کیلۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are no charges for currency conversion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions3("en-US"),
+                                    onPressed: () =>
+                                        speakconvertibles1("en-US"),
                                   ),
                                 ],
                               ),
@@ -285,7 +229,7 @@ class EnglishEntryconversion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پڕۆسە یان ئەزموونی گۆڕینی باوەڕ یان ئایینی کەسێک"),
+                                  "٢. (ھاوەڵناو، ناو) ئۆتۆمبێلێک کە سەرەکەی دەکرێت دابخرێت و هەڵبدرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -293,10 +237,10 @@ class EnglishEntryconversion extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Late in life she experienced a religious conversion."),
+                                            "She drove her white convertible Mercedes with the roof down."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کۆتایی ژیانیدا بە گۆڕینی ئاییندا تێپەڕبوو."),
+                                            "مارسیدزە سپییە میچ‌نووشتاوەکەی بە سەری هەڵدراوەوە لێدەخوڕی."),
                                   ],
                                 ),
                               ),
@@ -304,10 +248,12 @@ class EnglishEntryconversion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconversions4("en-GB"),
+                                    onPressed: () =>
+                                        speakconvertibles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions4("en-US"),
+                                    onPressed: () =>
+                                        speakconvertibles2("en-US"),
                                   ),
                                 ],
                               ),
@@ -395,25 +341,22 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-1. Noun: conversion (Derived forms: conversions)
-An event that results in a transformation (= transition, changeover)
+- Noun: convertible (Derived forms: convertibles)
+1. A car with a top that can be folded or removed (= soft top, ragtop [informal], cabrio [informal], cabriolet)
  
-2. A change in the units or form of an expression:
+2. A corporate security (usually bonds or preferred stock) that can be exchanged for another form of security (usually common stock) (= convertible security)
  
-3. A successful free throw or try for point after a touchdown
+3. A sofa that can be converted into a bed (= sofa bed, hide-a-bed [N. Amer], couch bed [N. Amer])
+
+- Adjective: convertible 
+1. Designed to be changed from one use or form to another
+"a convertible sofa"; "a convertible coupe"
  
-4. A spiritual enlightenment causing a person to lead a new life (= rebirth, spiritual rebirth)
+2. Capable of being changed in substance as if by alchemy (= transformable, translatable, transmutable)
+"ideas convertible into reality";
  
-5. (psychiatry) a defence mechanism represses emotional conflicts which are then converted into physical symptoms that have no organic basis
- 
-6. A change of religion
-"his conversion to the Catholic faith"
- 
-7. Interchange of subject and predicate of a proposition
- 
-8. Act of exchanging one type of money or security for another
- 
-9. The act of changing from one use, function or purpose to another
+3. Capable of being exchanged for or replaced by something of equal value (= exchangeable)
+"convertible securities";
 """,
   );
 
@@ -446,8 +389,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
-    startSeconds: 322,
+    videoId: 'https://youtu.be/13AeuXNDPlo?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +414,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q7JDYiLz9Mo?t=',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/Uxun9n5R9pk?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +439,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
-    startSeconds: 304,
+    videoId: 'https://youtu.be/-kgtxKnxhpw?t=',
+    startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,8 +464,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HL4RQb-ROA?t=',
-    startSeconds: 17,
+    videoId: 'https://youtu.be/ShMRAN78598?t=',
+    startSeconds: 393,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -546,8 +489,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c9_20kflptY?t=',
-    startSeconds: 693,
+    videoId: 'https://youtu.be/Ua48ElgQi_Y?t=',
+    startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +514,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hhvjKAQv2cs?t=',
-    startSeconds: 1750,
+    videoId: 'https://youtu.be/9UFxhCqWqco?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +539,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1eYZnCx-02g?t=',
-    startSeconds: 232,
+    videoId: 'https://youtu.be/FZrrfGfI3uM?t=',
+    startSeconds: 653,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

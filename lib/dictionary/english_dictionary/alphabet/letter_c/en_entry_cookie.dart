@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclod extends StatelessWidget {
-  // blank divider
-  EnglishEntryclod({super.key});
-  // blank divider
+class EnglishEntrycookie extends StatelessWidget {
+// blank divider
+  EnglishEntrycookie({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclod(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookie(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clod"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cookie"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods1(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies1(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their hoofs threw up clods of earth as they galloped across the field."); // DOPSUM: CHANGE TEXT
+        "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods2(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies2(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't be such a clod!"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She's a smart/tough cookie."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods3(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies3(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods4(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies4(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods5(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies5(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods6(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies6(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods7(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies7(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods8(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies8(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods9(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies9(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods10(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies10(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods11(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies11(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods12(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies12(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods13(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookies13(String languageCode) async {
+    // DOPSUM: CHANGE speakcookie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntryclod extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clod"),
+                            EntryTitle(word: "cookie"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɒd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkʊki/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclod("en-GB"),
+                              onPressed: () => speakcookie("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɑːd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkʊki/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclod("en-US"),
+                              onPressed: () => speakcookie("en-US"),
                             ),
                           ],
                         ),
@@ -190,11 +191,10 @@ class EnglishEntryclod extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: کڵۆ، کوڵۆ، کەستەک، ئەنگوتک، گونک، گڵمتک، کەرسەک
-"""),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) پارچەیەکی بچووک لە خۆڵ یان قوڕ"),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                          const DefinitionKurdish(text: "١. (ناو) بسکیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,21 +202,21 @@ class EnglishEntryclod extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Their hoofs threw up clods of earth as they galloped across the field."),
+                                            "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا."),
+                                            "ئەگەر سێ ژەم لە ڕۆژێکدا بخۆیت، پێویستت بەوە نییە بسکیت و چبسی پەتاتە بخۆیت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clod", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cookie", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclods1("en-GB"),
+                                    onPressed: () => speakcookies1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclods1("en-US"),
+                                    onPressed: () => speakcookies1("en-US"),
                                   ),
                                 ],
                               ),
@@ -224,16 +224,16 @@ class EnglishEntryclod extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) کەسێکی گەمژە"),
+                              text: "٢. (ناو) کەسێکی زیرەک یان جیڕ"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Don't be such a clod!"),
+                                        text: "She's a smart/tough cookie."),
                                     ExampleSentenceKurdish(
-                                        text: "ھێندە گەمژە مەبە!"),
+                                        text: "کەسێکی زیرەکە/جیڕە."),
                                   ],
                                 ),
                               ),
@@ -241,10 +241,10 @@ class EnglishEntryclod extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclods2("en-GB"),
+                                    onPressed: () => speakcookies2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclods2("en-US"),
+                                    onPressed: () => speakcookies2("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,7 +261,7 @@ class EnglishEntryclod extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -319,7 +319,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -329,14 +329,15 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clod (derived forms: clods)
-1. A compact mass (= ball, glob, lump, clump, chunk)
-"a clod of mud caught him on the shoulder";
+- Noun: cookie 
+1. [N. Amer] Any of various small flat sweet cakes (= cooky [N. Amer, informal], biscuit [Brit], bikky [Brit, informal], bikkie [Brit, informal], bicky [Brit, informal])
  
-2. [informal] An awkward stupid person (= lout, stumblebum [N. Amer, informal], goon [informal], oaf, lubber, lummox [informal], lump [informal], gawk, clot [Brit], clodpole [archaic, informal], clodhopper [informal])
+2. [N. Amer] The cook on a ranch or at a camp (= cooky [N. Amer, informal])
+ 
+3. A short line of text that a web site puts on your computer's hard drive when you access the web site
 """,
   );
 
@@ -369,8 +370,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'F0HBwfOBF40',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/1xu-wj5EZHE?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +395,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VZ6_8WJ3mh8',
-    startSeconds: 384,
+    videoId: 'https://youtu.be/6G9PSJqE0Hw?t=',
+    startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +420,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'G2yFknYhDVQ',
-    startSeconds: 28,
+    videoId: 'https://youtu.be/UKnA7KjyGyA?t=',
+    startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +445,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kAPSjt6TqCo',
-    startSeconds: 761,
+    videoId: 'https://youtu.be/zgCO25Ute0s?t=',
+    startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +470,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iFaYR3yZmC0',
-    startSeconds: 164,
+    videoId: 'https://youtu.be/rEdl2Uetpvo',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +495,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aGGLHCibGtU',
-    startSeconds: 482,
+    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    startSeconds: 793,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,33 +520,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KvvMivy3GGc',
-    startSeconds: 230,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SgOLT0GuQBk',
-    startSeconds: 484,
+    videoId: 'https://youtu.be/Ru5eWlxOK6w?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

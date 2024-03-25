@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclod extends StatelessWidget {
-  // blank divider
-  EnglishEntryclod({super.key});
-  // blank divider
+class EnglishEntrycooker extends StatelessWidget {
+// blank divider
+  EnglishEntrycooker({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclod(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcooker(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clod"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cooker"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods1(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their hoofs threw up clods of earth as they galloped across the field."); // DOPSUM: CHANGE TEXT
+        "She set the house on fire by leaving a chip pan on the cooker."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods2(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't be such a clod!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods3(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods4(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods5(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods6(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods7(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods8(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods9(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods10(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods11(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods12(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods13(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcooker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +149,22 @@ class EnglishEntryclod extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clod"),
+                            EntryTitle(word: "cooker"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɒd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkʊkə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclod("en-GB"),
+                              onPressed: () => speakcooker("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɑːd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkʊkər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclod("en-US"),
+                              onPressed: () => speakcooker("en-US"),
                             ),
                           ],
                         ),
@@ -190,11 +190,12 @@ class EnglishEntryclod extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: کڵۆ، کوڵۆ، کەستەک، ئەنگوتک، گونک، گڵمتک، کەرسەک
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پارچەیەکی بچووک لە خۆڵ یان قوڕ"),
+                              text:
+                                  "١. (ناو) ئامێرێکی گەورە بۆ خواردن لێنان کە فڕن و چاوی گازی یان کارەبایی لەسەرەوە هەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,49 +203,21 @@ class EnglishEntryclod extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Their hoofs threw up clods of earth as they galloped across the field."),
+                                            "She set the house on fire by leaving a chip pan on the cooker."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا."),
+                                            "ئاگری لە خانووەکە بەردا بە جێهێشتنی تاوەیەک لەسەر غازەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clod", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cooker", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclods1("en-GB"),
+                                    onPressed: () => speakcookers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) کەسێکی گەمژە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't be such a clod!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە گەمژە مەبە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclods2("en-US"),
+                                    onPressed: () => speakcookers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,14 +235,14 @@ class EnglishEntryclod extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
-                        // YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
+                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeleven(),
+                        YoutubeEmbeddedtwelve(),
+                        YoutubeEmbeddedthirteen(),
+                        YoutubeEmbeddeddfourteen(),
+                        YoutubeEmbeddedfifteen(),
                         // YoutubeEmbeddeddsixteen(),
                         // YoutubeEmbeddeddseventeen(),
                         // YoutubeEmbeddeddeighteen(),
@@ -319,7 +292,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -329,14 +302,11 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clod (derived forms: clods)
-1. A compact mass (= ball, glob, lump, clump, chunk)
-"a clod of mud caught him on the shoulder";
- 
-2. [informal] An awkward stupid person (= lout, stumblebum [N. Amer, informal], goon [informal], oaf, lubber, lummox [informal], lump [informal], gawk, clot [Brit], clodpole [archaic, informal], clodhopper [informal])
+- Noun: cooker (Derived forms: cookers)
+1. A utensil for cooking
 """,
   );
 
@@ -369,8 +339,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'F0HBwfOBF40',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/pdCMwXabrJE?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +364,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VZ6_8WJ3mh8',
-    startSeconds: 384,
+    videoId: 'https://youtu.be/GNto5ZNvIsY?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +389,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'G2yFknYhDVQ',
-    startSeconds: 28,
+    videoId: 'https://youtu.be/n6dj3J1uxW8?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +414,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kAPSjt6TqCo',
-    startSeconds: 761,
+    videoId: 'https://youtu.be/yAT7wjWxzJ0?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +439,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iFaYR3yZmC0',
-    startSeconds: 164,
+    videoId: 'https://youtu.be/K9XEayoEnwg?t=',
+    startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +464,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aGGLHCibGtU',
-    startSeconds: 482,
+    videoId: 'https://youtu.be/h8FkbFoRCzc?t=',
+    startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,8 +489,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KvvMivy3GGc',
-    startSeconds: 230,
+    videoId: 'https://youtu.be/6iK973mpomQ',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,8 +514,233 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SgOLT0GuQBk',
-    startSeconds: 484,
+    videoId: 'https://youtu.be/nRDz_l5LZ18?t=',
+    startSeconds: 666,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/k2BILG5OwzA?t=',
+    startSeconds: 840,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/aF6VYoHXjWY?t=',
+    startSeconds: 145,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/48FXSpa31MI?t=',
+    startSeconds: 385,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/GMQ7g2EJMoM?t=',
+    startSeconds: 239,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/sT8Rw8tFInQ?t=',
+    startSeconds: 376,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  YoutubeEmbeddedthirteen({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/kJEKTNOxUYQ?t=',
+    startSeconds: 324,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddeddfourteen extends StatelessWidget {
+  YoutubeEmbeddeddfourteen({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/SXIE_RZNemI?t=',
+    startSeconds: 256,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfifteen extends StatelessWidget {
+  YoutubeEmbeddedfifteen({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/lmUwWFbpNfM?t=',
+    startSeconds: 944,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddeddsixteen extends StatelessWidget {
+  YoutubeEmbeddeddsixteen({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

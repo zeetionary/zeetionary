@@ -10,128 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycook extends StatelessWidget {
+class EnglishEntrycooking extends StatelessWidget {
 // blank divider
-  EnglishEntrycook({super.key});
+  EnglishEntrycooking({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcook(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcooking(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cook"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cooking"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcooks1(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcookings1(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Where did you learn to cook?"); // DOPSUM: CHANGE TEXT
+        .speak("My husband does all the cooking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcooks2(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Add the onion and cook for three minutes."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks3(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He cooked lunch for me."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks4(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "While the pasta is cooking, prepare the sauce."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks5(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Turn the fish over so that it cooks evenly."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks6(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Everyone is being very secretive—there's something cooking."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks7(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("John is a very good cook."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks8(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Who was the cook?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcooks9(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcookings2(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She was employed as a cook in a hotel."); // DOPSUM: CHANGE TEXT
+        .speak("We always use olive oil for cooking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcooks10(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcookings3(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooks1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They serve good French cooking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcooks11(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcookings4(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooks1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her cooking is wonderful."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcooks12(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcookings5(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooks1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookings500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcooks13(String languageCode) async {
-    // DOPSUM: CHANGE speakcook
+  Future<void> speakcookings6(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooks1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookings600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings7(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings8(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings9(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings10(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings11(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings12(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookings13(String languageCode) async {
+    // DOPSUM: CHANGE speakcooking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcookings1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +151,22 @@ class EnglishEntrycook extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cook"),
+                            EntryTitle(word: "cooking"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kʊk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkʊkɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcook("en-GB"),
+                              onPressed: () => speakcooking("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kʊk/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkʊkɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcook("en-US"),
+                              onPressed: () => speakcooking("en-US"),
                             ),
                           ],
                         ),
@@ -196,32 +193,32 @@ class EnglishEntrycook extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئاشپەز، چێشت‌کەر، نان‌کەر، چێشت‌لێنەر
+کوردی: لێنان، سازکردن، دروس‌کردن، پەزان
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) ئامادەکردنی خواردن، بە کوڵاندن یان برژاندن"),
+                              text: "١. (ناو) پڕۆسەی ئامادەکردنی خواردن"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Where did you learn to cook?"),
+                                        text:
+                                            "My husband does all the cooking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کوێ فێری خواردن لێنان بوویت؟"),
+                                            "هاوسەرەکەم هەموو کاری چێشتلێنان دەکات."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cook", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cooking", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcooks1("en-GB"),
+                                    onPressed: () => speakcookings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks1("en-US"),
+                                    onPressed: () => speakcookings1("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,10 +232,10 @@ class EnglishEntrycook extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Add the onion and cook for three minutes."),
+                                            "We always use olive oil for cooking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیازەکان زیاد بکە و بۆ سێ خولەک لێی بنێ."),
+                                            "هەمیشە ڕۆزی زەیتوون بۆ چێشتلێنان بەکاردێنین."),
                                   ],
                                 ),
                               ),
@@ -246,38 +243,10 @@ class EnglishEntrycook extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcooks2("en-GB"),
+                                    onPressed: () => speakcookings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text: "He cooked lunch for me.",
-                                      note: "also: He cooked me lunch.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنی نیوەڕۆی بۆ ئامادەکردم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks3("en-US"),
+                                    onPressed: () => speakcookings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -286,7 +255,7 @@ class EnglishEntrycook extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) ئامادەبوونی خواردنی لە کاتی لێناندا"),
+                                  "٢. (ناو) خواردنێک کە بەشێوەیەکی دیاریکراو درووستکراوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -294,10 +263,10 @@ class EnglishEntrycook extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "While the pasta is cooking, prepare the sauce."),
+                                            "They serve good French cooking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە پاستاکە پێدەگات، ساسەکە ئامادە بکە."),
+                                            "خواردنی فەرەنسی باش پێشکەش دەکەن."),
                                   ],
                                 ),
                               ),
@@ -305,10 +274,10 @@ class EnglishEntrycook extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcooks4("en-GB"),
+                                    onPressed: () => speakcookings3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks4("en-US"),
+                                    onPressed: () => speakcookings3("en-US"),
                                   ),
                                 ],
                               ),
@@ -321,11 +290,9 @@ class EnglishEntrycook extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Turn the fish over so that it cooks evenly."),
+                                        text: "Her cooking is wonderful."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "ماسییەکە هەڵبگێڕەوە بۆ ئەوەی بە یەکسانی ببرژێت."),
+                                        text: "خواردنەکەی نایابە."),
                                   ],
                                 ),
                               ),
@@ -333,125 +300,10 @@ class EnglishEntrycook extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcooks5("en-GB"),
+                                    onPressed: () => speakcookings4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (کردار) بەنهێنی پلان بۆ دانراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone is being very secretive—there's something cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هەموان زۆر نهێنی‌گرن، دەبێت شتێک لە گۆڕێدا بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) کەسێک کە خواردن لێدەنێت یان پیشەکەی خواردن لێنانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "John is a very good cook (= he cooks well)."),
-                                    ExampleSentenceKurdish(
-                                        text: "جۆن چێشتلێنەرێکی زۆر باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who was the cook (= who cooked the food)?"),
-                                    ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was employed as a cook in a hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک چێشتلێنەرێک لە هوتێلێک کاری پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks9("en-US"),
+                                    onPressed: () => speakcookings4("en-US"),
                                   ),
                                 ],
                               ),
@@ -539,24 +391,16 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cook (Derived forms: cooked, cooks, cooking)
-1. (of food) combine or process (e.g. heat) to make ready for eating (= fix [informal], ready, make, prepare)
-"Cook me dinner, please";
+- Noun: cooking (Derived forms: cookings)
+1. The skill, practice or tradition of preparing food (= cookery)
+"Indian cooking"; "he took cooking classes";
  
-2. Transform and make suitable for consumption by heating
-"These potatoes have to cook for 20 minutes"
- 
-3. Transform by heating
-"The apothecary cooked the medicinal mixture in a big iron kettle"
- 
-4. [informal] Tamper, with the purpose of deception (= fudge, manipulate, fake, falsify, wangle [informal], misrepresent, spoof [informal])
-"cook the books";
+2. The act of preparing something (as food) by the application of heat (= cookery, preparation)
+"cooking can be a great art";
 
-- Noun: cook (Derived forms: cooks)
-1. Someone who cooks food
-
-- Noun: Cook (Derived forms: Cooks)
-1. English navigator who claimed the east coast of Australia for Britain and discovered several Pacific islands (1728-1779) (= James Cook, Captain Cook, Captain James Cook)
+- Adjective: cooking 
+1. In progress, happening or planned
+"The project took a few days to gain momentum, but by the end of the week, things were really cooking"
 """,
   );
 
@@ -589,8 +433,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JoGjIRVY9t4?t=',
-    startSeconds: 1582,
+    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -614,8 +458,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vcCvMfpm-2s?t=',
-    startSeconds: 1387,
+    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -639,8 +483,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9Y1XazyDiwc?t=',
-    startSeconds: 48,
+    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -664,8 +508,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MwIRIcdDLBQ?t=',
-    startSeconds: 87,
+    videoId: 'https://youtu.be/VvJm4pQZ04s?t=',
+    startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -689,8 +533,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nITZooG6ij8?t=',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/X5oD_thIk3c?t=',
+    startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -714,8 +558,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
-    startSeconds: 1974,
+    videoId: 'https://youtu.be/olHw-8py9K0?t=',
+    startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -739,8 +583,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vyb-sTrY_Y8?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/AZ6oJ8SuYBA?t=',
+    startSeconds: 95,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

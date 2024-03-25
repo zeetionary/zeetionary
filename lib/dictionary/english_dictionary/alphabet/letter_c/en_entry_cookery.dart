@@ -10,123 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclod extends StatelessWidget {
-  // blank divider
-  EnglishEntryclod({super.key});
-  // blank divider
+class EnglishEntrycookery extends StatelessWidget {
+// blank divider
+  EnglishEntrycookery({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclod(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookery(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clod"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cookery"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods1(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I'm going on a cookery course."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcookerys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their hoofs threw up clods of earth as they galloped across the field."); // DOPSUM: CHANGE TEXT
+        "Before he leaves home, he needs to learn some basic cookery."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods2(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't be such a clod!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods3(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods4(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods5(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods6(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods7(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods8(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods9(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods10(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods11(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclods12(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
+  Future<void> speakcookerys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakclods13(String languageCode) async {
-    // DOPSUM: CHANGE speakclod
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclods1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookerys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +150,22 @@ class EnglishEntryclod extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clod"),
+                            EntryTitle(word: "cookery"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /klɒd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkʊkəri/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclod("en-GB"),
+                              onPressed: () => speakcookery("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /klɑːd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkʊkəri/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclod("en-US"),
+                              onPressed: () => speakcookery("en-US"),
                             ),
                           ],
                         ),
@@ -191,49 +192,49 @@ class EnglishEntryclod extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کڵۆ، کوڵۆ، کەستەک، ئەنگوتک، گونک، گڵمتک، کەرسەک
+کوردی: پەزان، ئاشپەزی، دەس‌وپوخت، هونەری چێشت‌لێنان
 """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) پارچەیەکی بچووک لە خۆڵ یان قوڕ"),
+                              text:
+                                  "١. (ناو) هونەر یان چالاکی لێنان و ئامادەکردنی خواردن"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Their hoofs threw up clods of earth as they galloped across the field."),
+                                        text: "I'm going on a cookery course."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا."),
+                                            "بەژداری کۆرسێکی چێشتلێنان دەکەم."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clod", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cookery", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclods1("en-GB"),
+                                    onPressed: () => speakcookerys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclods1("en-US"),
+                                    onPressed: () => speakcookerys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) کەسێکی گەمژە"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Don't be such a clod!"),
+                                        text:
+                                            "Before he leaves home, he needs to learn some basic cookery."),
                                     ExampleSentenceKurdish(
-                                        text: "ھێندە گەمژە مەبە!"),
+                                        text:
+                                            "پێش ئەوەی ماڵ جێبهێڵێت، دەبێت فێری چەند چێشتلێنانێکی سەرەتایی ببێت."),
                                   ],
                                 ),
                               ),
@@ -241,10 +242,10 @@ class EnglishEntryclod extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclods2("en-GB"),
+                                    onPressed: () => speakcookerys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclods2("en-US"),
+                                    onPressed: () => speakcookerys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,7 +262,7 @@ class EnglishEntryclod extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -319,7 +320,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -329,14 +330,15 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clod (derived forms: clods)
-1. A compact mass (= ball, glob, lump, clump, chunk)
-"a clod of mud caught him on the shoulder";
+- Noun: cookery (Derived forms: cookeries)
+1. The act of preparing something (as food) by the application of heat (= cooking, preparation)
+"people are needed who have experience in cookery";
  
-2. [informal] An awkward stupid person (= lout, stumblebum [N. Amer, informal], goon [informal], oaf, lubber, lummox [informal], lump [informal], gawk, clot [Brit], clodpole [archaic, informal], clodhopper [informal])
+2. The skill, practice or tradition of preparing food (= cooking)
+"Indian cookery"; "he took cookery classes";
 """,
   );
 
@@ -369,8 +371,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'F0HBwfOBF40',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/1ecTZVzjFVM?t=',
+    startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -394,8 +396,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VZ6_8WJ3mh8',
-    startSeconds: 384,
+    videoId: 'https://youtu.be/Xi28pEbMdTw?t=',
+    startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -419,8 +421,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'G2yFknYhDVQ',
-    startSeconds: 28,
+    videoId: 'https://youtu.be/74tZ-yOOPy0?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -444,8 +446,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kAPSjt6TqCo',
-    startSeconds: 761,
+    videoId: 'https://youtu.be/_F_iiepy1eM?t=',
+    startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -469,8 +471,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iFaYR3yZmC0',
-    startSeconds: 164,
+    videoId: 'https://youtu.be/pmLCSnX6Mh0?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -494,8 +496,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aGGLHCibGtU',
-    startSeconds: 482,
+    videoId: 'https://youtu.be/NqYN7LvJlOU?t=',
+    startSeconds: 349,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -519,8 +521,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KvvMivy3GGc',
-    startSeconds: 230,
+    videoId: 'https://youtu.be/JgA6GWAtIAo?t=',
+    startSeconds: 594,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -544,8 +546,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'SgOLT0GuQBk',
-    startSeconds: 484,
+    videoId: 'https://youtu.be/ddxPYgU0ZZk?t=',
+    startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

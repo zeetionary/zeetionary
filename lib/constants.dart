@@ -753,6 +753,7 @@ class AlsoEnglishckb extends ConsumerWidget {
         textDirection: TextDirection.rtl,
         child: Text(
           word,
+          textAlign: TextAlign.right,
           textDirection: TextDirection.rtl,
           style: TextStyle(
             fontSize: textSize,

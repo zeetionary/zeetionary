@@ -181,7 +181,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Just stay cool and don't panic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools19(String languageCode) async {
@@ -189,7 +190,7 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has a cool head."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools20(String languageCode) async {
@@ -197,7 +198,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He forced himself to count to ten and act cool."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools21(String languageCode) async {
@@ -205,7 +207,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They gave the prime minister a cool reception."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools22(String languageCode) async {
@@ -213,7 +216,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has been cool towards me ever since we had that argument."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools23(String languageCode) async {
@@ -221,7 +225,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The car cost a cool thirty thousand."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools24(String languageCode) async {
@@ -229,7 +234,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Glass contracts as it cools."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools25(String languageCode) async {
@@ -237,7 +243,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Melt the chocolate and allow it to cool slightly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools26(String languageCode) async {
@@ -245,7 +252,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The evening breeze cooled her face."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools27(String languageCode) async {
@@ -253,7 +261,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I think we should wait until tempers have cooled."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools28(String languageCode) async {
@@ -261,7 +270,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Relations between them have definitely cooled."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools29(String languageCode) async {
@@ -269,7 +279,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her enthusiasm for the idea had cooled considerably."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools30(String languageCode) async {
@@ -277,7 +288,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He loved the cool of the early morning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools31(String languageCode) async {
@@ -285,7 +297,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The best time to water your plants is during the relative cool of morning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools32(String languageCode) async {
@@ -293,7 +306,8 @@ class EnglishEntrycool extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcools3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He really lost his cool when he heard about what happened."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcools33(String languageCode) async {
@@ -1318,6 +1332,442 @@ class EnglishEntrycool extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcools17("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٧. (ھاوەڵناو) لەسەرەخۆ"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Just stay cool and don't panic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنها لەسەرەخۆ بمێنەوە و مەپەشۆکێ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools18("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools18("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has a cool head (= he stays calm in an emergency)."),
+                                    ExampleSentenceKurdish(
+                                        text: "مێشکێکی لەسەرەخۆی هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools19("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He forced himself to count to ten and act cool."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆری لە خۆی کرد تاوەکو دە بژمێرێت و هێمنانە ڕەفتار بکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools20("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools20("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٨. (ھاوەڵناو) سارد و سڕ؛ بەشێوەیەک کە هاوڕێیانە و گەرموگوڕ نییە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They gave the prime minister a cool reception."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشوازییەکی سارد و سڕیان لە سەرۆک وەزیران کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools21("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools21("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has been cool towards me ever since we had that argument."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سارد و سڕ بووە لەگەڵم لەوەتەی ئەو مشتومڕەمان هەبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools22("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (ھاوەڵناو) بۆ بڕە پارەیەک کە ئێجگار زۆرە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car cost a cool thirty thousand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە سی هەزار دۆلەری قەبەی تێدەچێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools23("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools23("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٠. (کردار) فێنک بوون یان فێنک کردن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Glass contracts as it cools."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گڵاس دەچێتەوە یەک کە سارد دەبێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools24("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Melt the chocolate and allow it to cool slightly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چکلێتەکە بتاوێنەوە و بهێڵە کەمێک فێنک بێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The evening breeze cooled her face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شنەبای ئێوارەکە ڕووخساری فێنک کردەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools26("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١١. (کردار) هێوربوونەوە، ئارام بوونەوە، کەمتر بەجۆش"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think we should wait until tempers have cooled."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێموایە دەبێت چاوەڕێ بین تاوەکو تووڕەییەکان هێور دەبنەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools27("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools27("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Relations between them have definitely cooled (= they are not as friendly with each other as they were)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندییەکانی نێوانیان بەدڵنیاییەوە سارد بووەتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools28("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her enthusiasm for the idea had cooled considerably."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆشوخرۆشی بۆ بیرۆکەکە زۆر کەمی کردبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools29("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools29("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٢. (ناو) هەوا یان شوێنی فێنک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He loved the cool of the early morning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی بە فێنکی بەیانییە شەبەقەکە بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools30("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools30("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The best time to water your plants is during the relative cool of morning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین کات بۆ ئاودانی ڕووەکەکانت لە ماوەی دەمی فێنکی بەیانییە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools31("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools31("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٣. (ناو) توانای کەسێک بۆ مانەوە بە لەسەرەخۆیی و ئارامی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He really lost his cool when he heard about what happened."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواو هێمنی خۆی لەدەستدا کە زانی چی ڕوویداوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcools32("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcools32("en-US"),
                                   ),
                                 ],
                               ),

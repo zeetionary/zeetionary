@@ -3707,13 +3707,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coordination.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coordinator.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cop.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cop_out.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cope.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_copious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_copiously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_copper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_copse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_copulate.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8254,13 +8254,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-coordination": (_) => MaterialPage(child: EnglishEntrycoordination()),
   "/english-coordinator": (_) => MaterialPage(child: EnglishEntrycoordinator()),
   "/english-cop": (_) => MaterialPage(child: EnglishEntrycop()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cop-out": (_) => MaterialPage(child: EnglishEntrycopout()),
+  "/english-cope": (_) => MaterialPage(child: EnglishEntrycope()),
+  "/english-copious": (_) => MaterialPage(child: EnglishEntrycopious()),
+  "/english-copiously": (_) => MaterialPage(child: EnglishEntrycopiously()),
+  "/english-copper": (_) => MaterialPage(child: EnglishEntrycopper()),
+  "/english-copse": (_) => MaterialPage(child: EnglishEntrycopse()),
+  "/english-copulate": (_) => MaterialPage(child: EnglishEntrycopulate()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

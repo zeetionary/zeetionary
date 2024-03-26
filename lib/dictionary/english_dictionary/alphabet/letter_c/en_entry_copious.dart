@@ -10,127 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycop extends StatelessWidget {
+class EnglishEntrycopious extends StatelessWidget {
 // blank divider
-  EnglishEntrycop({super.key});
+  EnglishEntrycopious({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcop(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopious(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cop"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("copious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops1(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Somebody call the cops!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I took copious notes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops2(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Lots of children play cops and robbers."); // DOPSUM: CHANGE TEXT
+        "She supports her theory with copious evidence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops3(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He copped all the hassle after the accident."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops4(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She copped an Emmy award last year for her performance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops5(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He seems to have copped the blame for the whole mess."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops6(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Cop a load of this!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops7(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cop hold of that, would you - I can't carry both myself."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops8(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcops800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops9(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcops900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops10(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcops1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops11(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcops1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops12(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcops1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcops13(String languageCode) async {
-    // DOPSUM: CHANGE speakcop
+  Future<void> speakcopiouss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcopious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcops1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopiouss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -153,22 +149,22 @@ class EnglishEntrycop extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cop"),
+                            EntryTitle(word: "copious"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kɒp/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkəʊpiəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcop("en-GB"),
+                              onPressed: () => speakcopious("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kɑːp/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkəʊpiəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcop("en-US"),
+                              onPressed: () => speakcopious("en-US"),
                             ),
                           ],
                         ),
@@ -194,32 +190,31 @@ class EnglishEntrycop extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                          const KurdishVocabulary(text: """
+کوردی: زۆر فرە، زۆروزەبەن، زەعف، یەکجار، زەبەن، بێ‌هەژمار، لێشاو، فراوان، گەلێک،	پڕکار، پڕنووس (نووسەر)، بەرهەم‌زۆر،	بەربڵاو، فراوان، بەرفرەه
+"""),
                           const DefinitionKurdish(
-                              text: "١. (ناو) ئەفسەری پۆلیس"),
+                              text: "١. (ھاوەڵناو) ڕێژەیەکی زۆر"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Somebody call the cops!"),
+                                        text: "I took copious notes."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک پەیوەندی بە پۆلیسەوە بکات!"),
+                                        text: "تێبینی زۆرم وەرگرت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cop", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "copious", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcops1("en-GB"),
+                                    onPressed: () => speakcopiouss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcops1("en-US"),
+                                    onPressed: () => speakcopiouss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +228,10 @@ class EnglishEntrycop extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Lots of children play cops and robbers."),
+                                            "She supports her theory with copious evidence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر منداڵ یاری پۆلیس و دز دەکەن."),
+                                            "بە بەڵگەی زۆرەوە پشتگیری بیردۆزەکەی دەکات."),
                                   ],
                                 ),
                               ),
@@ -244,155 +239,10 @@ class EnglishEntrycop extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcops2("en-GB"),
+                                    onPressed: () => speakcopiouss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcops2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) بەسەرهاتن یان وەرگرتنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He copped all the hassle after the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی بەڵای دوای ڕووداوەکەی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She copped an Emmy award last year for her performance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ڕابردوو خەڵاتێکی ئێمی وەرگرت بۆ نمایشەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He seems to have copped the blame for the whole mess."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وا دەردەکەوێت لۆمەی تەواوی کێشەکەی وەرگرتبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (کردار) تێبینی کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cop a load of this! (= Listen to this)"),
-                                    ExampleSentenceKurdish(
-                                        text: "گوێ بۆ ئەمە ڕابگرە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (کردار) گرتنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cop hold of that, would you - I can't carry both myself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بگرە، دەیگریت؟ ناتوانم خۆم هەردووکیان هەڵبگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops7("en-US"),
+                                    onPressed: () => speakcopiouss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -480,19 +330,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cop (Derived forms: cops)
-Usage: informal
-1. Uncomplimentary term for a policeman (= bull [US, informal], copper [Brit, informal], pig [informal], rozzer [Brit, informal], bizzy [UK, dialect, informal], fed [Brit, informal], peeler [Brit, archaic])
-
-- Verb: cop (Derived forms: copping, cops, copped)
-Usage: informal
-1. Take by theft (= hook [informal], snitch [informal], thieve, knock off [informal], glom [N. Amer, informal], pilfer, cabbage [informal], purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
-"Someone copped my wallet!";
+- Adjective: copious
+1. Large in number or quantity (especially of discourse) (= voluminous)
+"she took copious notes";
  
-2. Take into custody (= collar [informal], nail [informal], apprehend, arrest, pick up, nab [informal], pinch [Brit, informal], nick [Brit, informal])
-"the police copped the suspected criminals";
- 
-3. [N. Amer, informal] Admit or acknowledge a wrongdoing or error (= make a clean breast of, own up, fess up [informal], own, cop to [N. Amer, informal], come clean [informal], fess [informal])
+2. Affording an abundant supply (= ample, plenteous, plentiful, rich)
+"copious provisions";
 """,
   );
 
@@ -525,8 +368,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YIp9bEV2-GI?t=',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    startSeconds: 1304,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +393,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VwPGtn9qJZ4?t=',
-    startSeconds: 736,
+    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
+    startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +418,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t68chqjlDC8?t=',
-    startSeconds: 141,
+    videoId: 'https://youtu.be/qJl1p0W5-y4?t=',
+    startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +443,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oAEJsE-TUvQ?t=',
-    startSeconds: 286,
+    videoId: 'https://youtu.be/s_2QTY0V3Yc?t=',
+    startSeconds: 622,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -625,8 +468,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4HWHxbvNOY8?t=',
-    startSeconds: 56,
+    videoId: 'https://youtu.be/0vZvPtI5Uk8?t=',
+    startSeconds: 639,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -650,8 +493,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/65CFesU4KVQ?t=',
-    startSeconds: 72,
+    videoId: 'https://youtu.be/UhofrrMdLns?t=',
+    startSeconds: 404,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -675,8 +518,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uN84HhcdIws?t=',
-    startSeconds: 303,
+    videoId: 'https://youtu.be/ZrR0VbqNdW8?t=',
+    startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

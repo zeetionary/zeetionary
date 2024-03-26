@@ -10,124 +10,125 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclipboard extends StatelessWidget {
-  // blank divider
-  EnglishEntryclipboard({super.key});
-  // blank divider
+class EnglishEntrycordial extends StatelessWidget {
+// blank divider
+  EnglishEntrycordial({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclipboard(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordial(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clipboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cordial"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards1(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials1(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Add your name to the list on the clipboard."); // DOPSUM: CHANGE TEXT
+        "The talks took place in a cordial atmosphere."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards2(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials2(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Use the clipboard to copy and paste information from websites."); // DOPSUM: CHANGE TEXT
+        "The government wisely maintained cordial relations with the Russians."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards3(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials3(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the summer, it's nice to relax with a tall glass of chilled lemon cordial."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards4(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials4(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards5(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials5(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards6(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials6(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards7(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials7(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards8(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials8(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards9(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials9(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards10(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials10(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards11(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials11(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards12(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials12(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards13(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordials13(String languageCode) async {
+    // DOPSUM: CHANGE speakcordial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordials1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +151,22 @@ class EnglishEntryclipboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clipboard"),
+                            EntryTitle(word: "cordial"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪpbɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɔːdiəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclipboard("en-GB"),
+                              onPressed: () => speakcordial("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪpbɔːrd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɔːrdʒəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclipboard("en-US"),
+                              onPressed: () => speakcordial("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +193,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەختی گیرەدار، تەختەی لەسەرکێشانەوە
+کوردی: خۆش، دۆستانە، گەرم، گەرم‌وگوڕ، توند، قووڵ، لە دڵەوە،	شەربەت، خۆشاو، شیراو،	دەرمانی تام‌شیرین
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
+                              text: "١. (ھاوەڵناو) خۆش و هاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,31 +204,27 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Add your name to the list on the clipboard."),
+                                            "The talks took place in a cordial atmosphere."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
+                                            "گفتوگۆکان لە کەشێکی گەرموگوڕدا ڕوویاندا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cordial", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards1("en-GB"),
+                                    onPressed: () => speakcordials1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards1("en-US"),
+                                    onPressed: () => speakcordials1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // skipped_meaning
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -236,9 +232,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
+                                            "The government wisely maintained cordial relations with the Russians."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "حکومەت ژیرانە پەیوەندی گەرموگوڕی هێشتەوە لەگەڵ ڕووسەکاندا."),
                                   ],
                                 ),
                               ),
@@ -246,10 +243,41 @@ class EnglishEntryclipboard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards2("en-GB"),
+                                    onPressed: () => speakcordials2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards2("en-US"),
+                                    onPressed: () => speakcordials2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) خواردنەوەیەک کە کحولی تێدا نییە و لە ئاوی میوە درووست دەکرێت و ئاوی تێدەکرێت؛ گڵاسێک شەربەت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the summer, it's nice to relax with a tall glass of chilled lemon cordial."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە هاویندا خۆشە بحەسێیتەوە بە گڵاسێکی درێژ لە شەربەتی میوەی کەلەتەزێن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcordials3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcordials3("en-US"),
                                   ),
                                 ],
                               ),
@@ -266,7 +294,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -324,7 +352,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,11 +362,23 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipboard (derived forms: clipboards)
-1. A small writing board with a clip at the top for holding papers
+- Adjective: cordial 
+1. Diffusing warmth and friendliness (= affable, amiable, genial)
+"cordial relations"; "a cordial greeting";
+ 
+2. Politely warm and friendly
+"a cordial handshake"
+ 
+3. Sincerely or intensely felt
+"a cordial regard for his visitor's comfort"; "a cordial abhorrence of waste"
+
+- Noun: cordial (Derived forms: cordials)
+1. Strong highly flavoured sweet liquor usually drunk after a meal (= liqueur)
+ 
+2. [Brit] Sweet uncarbonated fruit-flavoured soft drink (= squash [Brit])
 """,
   );
 
@@ -371,8 +411,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aB4pxWGlRm0',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/aTMsfOcHiJg?t=',
+    startSeconds: 765,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +436,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vPEPj2jRwWc',
-    startSeconds: 1698,
+    videoId: 'https://youtu.be/1KDITAnnP5E?t=',
+    startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +461,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'onJF7AggKnM',
-    startSeconds: 89,
+    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    startSeconds: 1534,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +486,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QhRFFRNHxf4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/rbrL40XHlPQ?t=',
+    startSeconds: 266,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +511,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7eM7pb5M5DU',
-    startSeconds: 1106,
+    videoId: 'https://youtu.be/gGPwqVVaWjk?t=',
+    startSeconds: 199,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +536,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drhDGeNauuo',
-    startSeconds: 1294,
+    videoId: 'https://youtu.be/bHVOqTIeT1k?t=',
+    startSeconds: 474,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,33 +561,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xj7vukZT9sI',
-    startSeconds: 810,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qtlPTE-UmY4',
-    startSeconds: 245,
+    videoId: 'https://youtu.be/Uh4QGey2zTk?t=',
+    startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

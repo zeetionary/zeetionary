@@ -10,124 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclipboard extends StatelessWidget {
-  // blank divider
-  EnglishEntryclipboard({super.key});
-  // blank divider
+class EnglishEntrycordon extends StatelessWidget {
+// blank divider
+  EnglishEntrycordon({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclipboard(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordon(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clipboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cordon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards1(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons1(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Add your name to the list on the clipboard."); // DOPSUM: CHANGE TEXT
+        "Demonstrators broke through the police cordon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards2(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons2(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Use the clipboard to copy and paste information from websites."); // DOPSUM: CHANGE TEXT
+        "Police officers threw a cordon around his car to protect him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards3(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons3(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards4(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons4(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards5(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons5(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards6(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons6(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards7(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons7(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards8(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons8(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards9(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons9(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards10(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons10(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards11(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons11(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards12(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons12(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards13(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordons13(String languageCode) async {
+    // DOPSUM: CHANGE speakcordon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordons1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +150,22 @@ class EnglishEntryclipboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clipboard"),
+                            EntryTitle(word: "cordon"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪpbɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɔːdn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclipboard("en-GB"),
+                              onPressed: () => speakcordon("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪpbɔːrd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɔːrdn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclipboard("en-US"),
+                              onPressed: () => speakcordon("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +192,11 @@ class EnglishEntryclipboard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەختی گیرەدار، تەختەی لەسەرکێشانەوە
+کوردی: هێڵ یان ڕیزی پۆلیس، بازنەی پۆلیس، سەرباز و هتد، ئاڵقەی پۆلیس، ئاڵقە(بەندان)ی گەماڕۆ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
+                                  "١. (ناو) ڕیزێک یان بازنەیەک لە ئەفسەری پۆلیس یان سەرباز کە شوێنێک دەپارێزن یان ڕێگری لە خەڵک دەکەن بچنە شوێنێک یان شوێنێک جێبهێڵن"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,31 +204,27 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Add your name to the list on the clipboard."),
+                                            "Demonstrators broke through the police cordon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
+                                            "خۆپیشاندەران بە ڕیزی پۆلیسەکاندا تێپەڕین."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cordon", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards1("en-GB"),
+                                    onPressed: () => speakcordons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards1("en-US"),
+                                    onPressed: () => speakcordons1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // skipped_meaning
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -236,9 +232,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
+                                            "Police officers threw a cordon around his car to protect him."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "ئەفسەرانی پۆلیس بازنەیەکیان بە دەوری ئۆتۆمبێلەکەیدا درووستکرد بۆ پاراستنی."),
                                   ],
                                 ),
                               ),
@@ -246,10 +243,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards2("en-GB"),
+                                    onPressed: () => speakcordons2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards2("en-US"),
+                                    onPressed: () => speakcordons2("en-US"),
                                   ),
                                 ],
                               ),
@@ -266,7 +263,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -324,7 +321,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,11 +331,21 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipboard (derived forms: clipboards)
-1. A small writing board with a clip at the top for holding papers
+- Noun: cordon (Derived forms: cordons)
+1. A series of sentinels or of military posts enclosing or guarding some place or thing
+ 
+2. Cord or ribbon worn as an insignia of honour or rank
+ 
+3. Adornment consisting of an ornamental ribbon or cord
+ 
+4. A line of police, troops, guards, tape, etc. around an area to prevent entry by other people
+
+- Verb: cordon (Derived forms: cordoned, cordons, cordoning)
+1. Separate with a line of police, troops, guards, marker objects, cord or tape
+"cordon off the area"
 """,
   );
 
@@ -371,8 +378,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aB4pxWGlRm0',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/SUc87t6yIF8?t=',
+    startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +403,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vPEPj2jRwWc',
-    startSeconds: 1698,
+    videoId: 'https://youtu.be/mtDOr9UY-yk?t=',
+    startSeconds: 10499,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +428,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'onJF7AggKnM',
-    startSeconds: 89,
+    videoId: 'https://youtu.be/fHEsGKZm4C8?t=',
+    startSeconds: 481,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +453,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QhRFFRNHxf4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/-NEpFZihzj0?t=',
+    startSeconds: 832,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +478,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7eM7pb5M5DU',
-    startSeconds: 1106,
+    videoId: 'https://youtu.be/SKs_2eDAwuI?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +503,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drhDGeNauuo',
-    startSeconds: 1294,
+    videoId: 'https://youtu.be/TZH-K0theTg?t=',
+    startSeconds: 1621,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,33 +528,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xj7vukZT9sI',
-    startSeconds: 810,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qtlPTE-UmY4',
-    startSeconds: 245,
+    videoId: 'https://youtu.be/YV2cfbMefi8?t=',
+    startSeconds: 1173,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

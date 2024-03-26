@@ -10,124 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclipboard extends StatelessWidget {
-  // blank divider
-  EnglishEntryclipboard({super.key});
-  // blank divider
+class EnglishEntrycordially extends StatelessWidget {
+// blank divider
+  EnglishEntrycordially({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclipboard(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordially(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clipboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cordially"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards1(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Add your name to the list on the clipboard."); // DOPSUM: CHANGE TEXT
+        "You are cordially invited to a celebration for Mr Michael Brown on his retirement."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards2(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Use the clipboard to copy and paste information from websites."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They cordially detest each other."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards3(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards4(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards5(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards6(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards7(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards8(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards9(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards10(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards11(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards12(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards13(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcordiallys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcordially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcordiallys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +150,22 @@ class EnglishEntryclipboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clipboard"),
+                            EntryTitle(word: "cordially"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪpbɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɔːdiəli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclipboard("en-GB"),
+                              onPressed: () => speakcordially("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪpbɔːrd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɔːrdʒəli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclipboard("en-US"),
+                              onPressed: () => speakcordially("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +192,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەختی گیرەدار، تەختەی لەسەرکێشانەوە
+کوردی:  گەرم‌وگوڕانە، لە دڵەوە، بە گەرمی
 """),
                           const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
+                              text: "١. (ھاوەڵکار) بەشێوەیەکی خۆش و هاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,31 +203,29 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Add your name to the list on the clipboard."),
+                                            "You are cordially invited to a celebration for Mr Michael Brown on his retirement."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
+                                            "لە دڵەوە بانگهێشت کراویت بۆ ئاهەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "cordially", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards1("en-GB"),
+                                    onPressed: () => speakcordiallys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards1("en-US"),
+                                    onPressed: () => speakcordiallys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // skipped_meaning
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
+                              text: "٢. (ھاوەڵکار) ئێجگار زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -236,9 +233,9 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
+                                            "They cordially detest each other."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text: "ئێجگار زۆر ڕقیان لە یەکە."),
                                   ],
                                 ),
                               ),
@@ -246,10 +243,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards2("en-GB"),
+                                    onPressed: () => speakcordiallys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards2("en-US"),
+                                    onPressed: () => speakcordiallys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -266,7 +263,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -324,7 +321,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,11 +331,12 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipboard (derived forms: clipboards)
-1. A small writing board with a clip at the top for holding papers
+- Adverb: cordially 
+1. In a hearty manner (= heartily, warmly)
+"'Yes,' the children chorused cordially";
 """,
   );
 
@@ -371,8 +369,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aB4pxWGlRm0',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/Y8hi6A5MPVY?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +394,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vPEPj2jRwWc',
-    startSeconds: 1698,
+    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    startSeconds: 10524,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +419,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'onJF7AggKnM',
-    startSeconds: 89,
+    videoId: 'https://youtu.be/bj1uS1TuI-g?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +444,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QhRFFRNHxf4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/lscFJ0peRGA?t=',
+    startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +469,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7eM7pb5M5DU',
-    startSeconds: 1106,
+    videoId: 'https://youtu.be/PnxdtgOFwZ0?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +494,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drhDGeNauuo',
-    startSeconds: 1294,
+    videoId: 'https://youtu.be/i_37D4fG8Hw?t=',
+    startSeconds: 661,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,33 +519,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xj7vukZT9sI',
-    startSeconds: 810,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qtlPTE-UmY4',
-    startSeconds: 245,
+    videoId: 'https://youtu.be/nC5ghtpeL6I?t=',
+    startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

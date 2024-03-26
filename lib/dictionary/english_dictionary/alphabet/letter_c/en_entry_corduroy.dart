@@ -10,124 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclipboard extends StatelessWidget {
-  // blank divider
-  EnglishEntryclipboard({super.key});
-  // blank divider
+class EnglishEntrycorduroy extends StatelessWidget {
+// blank divider
+  EnglishEntrycorduroy({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclipboard(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroy(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clipboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("corduroy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards1(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Add your name to the list on the clipboard."); // DOPSUM: CHANGE TEXT
+        "He wore a comfortable corduroy jacket on chilly evenings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards2(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Use the clipboard to copy and paste information from websites."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards3(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards4(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards5(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards6(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards7(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards8(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards9(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards10(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards11(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards12(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards13(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcorduroys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcorduroy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorduroys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +149,22 @@ class EnglishEntryclipboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clipboard"),
+                            EntryTitle(word: "corduroy"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪpbɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɔːdərɔɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclipboard("en-GB"),
+                              onPressed: () => speakcorduroy("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪpbɔːrd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɔːrdərɔɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclipboard("en-US"),
+                              onPressed: () => speakcorduroy("en-US"),
                             ),
                           ],
                         ),
@@ -191,12 +190,12 @@ class EnglishEntryclipboard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: تەختی گیرەدار، تەختەی لەسەرکێشانەوە
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
+                                  "١. (ناو) جۆرە قوماشێکی نەرمی بەهێزی لۆکە کە شێوەی هێڵی بەرزبووی لەسەرە و بەکاردێت بۆ درووستکردنی جل"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,52 +203,21 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Add your name to the list on the clipboard."),
+                                            "He wore a comfortable corduroy jacket on chilly evenings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
+                                            "چاکەتێکی کودەری ئاسوودەبەخشێ لەبەردەکرد لە شەوانی ساردا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "corduroy", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards1("en-GB"),
+                                    onPressed: () => speakcorduroys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // skipped_meaning
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
-                                    ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards2("en-US"),
+                                    onPressed: () => speakcorduroys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -266,7 +234,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -324,7 +292,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,11 +302,16 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipboard (derived forms: clipboards)
-1. A small writing board with a clip at the top for holding papers
+- Noun: corduroy (Derived forms: corduroys)
+1. A cut pile fabric with vertical ribs; usually made of cotton (= cord)
+ 
+2. A road made of logs laid crosswise
+
+- Verb: corduroy (Derived forms: corduroying, corduroyed, corduroys)
+1. Build (a road) from logs laid side by side
 """,
   );
 
@@ -371,8 +344,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aB4pxWGlRm0',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/ZMu7_Xpp1SM?t=',
+    startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +369,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vPEPj2jRwWc',
-    startSeconds: 1698,
+    videoId: 'https://youtu.be/PlBaIvxsqys?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +394,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'onJF7AggKnM',
-    startSeconds: 89,
+    videoId: 'https://youtu.be/PIZIB8XdtqY?t=',
+    startSeconds: 438,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +419,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QhRFFRNHxf4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/3LN3__G2yGo?t=',
+    startSeconds: 432,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +444,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7eM7pb5M5DU',
-    startSeconds: 1106,
+    videoId: 'https://youtu.be/-Il7Er91P4U?t=',
+    startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +469,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drhDGeNauuo',
-    startSeconds: 1294,
+    videoId: 'https://youtu.be/ZkmETpMdv_8?t=',
+    startSeconds: 746,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,33 +494,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xj7vukZT9sI',
-    startSeconds: 810,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qtlPTE-UmY4',
-    startSeconds: 245,
+    videoId: 'https://youtu.be/ZeWTbzP6KGQ?t=',
+    startSeconds: 396,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

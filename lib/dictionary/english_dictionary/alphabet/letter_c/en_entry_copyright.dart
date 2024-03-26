@@ -10,124 +10,129 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryclipboard extends StatelessWidget {
-  // blank divider
-  EnglishEntryclipboard({super.key});
-  // blank divider
+class EnglishEntrycopyright extends StatelessWidget {
+// blank divider
+  EnglishEntrycopyright({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakclipboard(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyright(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clipboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("copyright"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards1(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights1(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Add your name to the list on the clipboard."); // DOPSUM: CHANGE TEXT
+        "Copyright expires seventy years after the death of the author."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards2(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights2(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Use the clipboard to copy and paste information from websites."); // DOPSUM: CHANGE TEXT
+        "They were sued for breach/infringement of copyright."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards3(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights3(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The songs remain in copyright."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards4(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights4(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His work is now out of copyright."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards5(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights5(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Who owns the copyright on this song?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards6(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights6(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Even though he has copyrighted the design, that hasn't prevented companies from copying it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards7(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights7(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards8(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights8(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards9(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights9(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards10(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights10(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards11(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights11(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards12(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights12(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakclipboards13(String languageCode) async {
-    // DOPSUM: CHANGE speakclipboard
+  Future<void> speakcopyrights13(String languageCode) async {
+    // DOPSUM: CHANGE speakcopyright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclipboards1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -150,22 +155,22 @@ class EnglishEntryclipboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "clipboard"),
+                            EntryTitle(word: "copyright"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈklɪpbɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒpiraɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakclipboard("en-GB"),
+                              onPressed: () => speakcopyright("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈklɪpbɔːrd/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːpiraɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakclipboard("en-US"),
+                              onPressed: () => speakcopyright("en-US"),
                             ),
                           ],
                         ),
@@ -192,11 +197,11 @@ class EnglishEntryclipboard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تەختی گیرەدار، تەختەی لەسەرکێشانەوە
+کوردی: مافی بڵاوکردنەوە، مافی وەشان، مافی لێ‌هەڵگرتنەوە، مافی چاپ و دانان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
+                                  "١. (ناو) هەبوونی مافی بڵاوکردنەوەی شتێک بە شێوەی یاسایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,31 +209,27 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Add your name to the list on the clipboard."),
+                                            "Copyright expires seventy years after the death of the author."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
+                                            "مافی بڵاوکردنەوە حەفتا ساڵ لە دوای گیان لەدەستدانی نووسەر کۆتایی دێت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // With short examples define "copyright", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards1("en-GB"),
+                                    onPressed: () => speakcopyrights1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards1("en-US"),
+                                    onPressed: () => speakcopyrights1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // skipped_meaning
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -236,9 +237,10 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
+                                            "They were sued for breach/infringement of copyright."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "سکاڵایان لەسەر تۆمارکرا بۆ پێشێلکردنی مافی بڵاوکردنەوە."),
                                   ],
                                 ),
                               ),
@@ -246,10 +248,152 @@ class EnglishEntryclipboard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards2("en-GB"),
+                                    onPressed: () => speakcopyrights2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards2("en-US"),
+                                    onPressed: () => speakcopyrights2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The songs remain in copyright."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆرانییەکان مافی بڵاوکردنەوەیان ماوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcopyrights3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcopyrights3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His work is now out of copyright."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکەی مافی بڵاوکردنەوەی لەدەستداوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcopyrights4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcopyrights4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who owns the copyright on this song?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێ خاوەنی مافی بڵاوکردنەوەی ئەم گۆرانییەیە؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcopyrights5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcopyrights5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) وەرگرتنی مافی بڵاوکردنەوە بۆ شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Even though he has copyrighted the design, that hasn't prevented companies from copying it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەرچی مافی بڵاوکردنەوەی بۆ دیزاینەکە وەرگرتووە، ئەوە ڕێگری لە کۆمپانیاکان نەکردووە کۆپی بکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcopyrights6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcopyrights6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر بەرهەمێک لەلایەن نووسەرێکەوە مافی بەرگرتنەوەی بۆ وەربگیرێت، پاراستنەکە تاوەکو ٧٠ ساڵ دوای مردنی بەردەوام دەبێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcopyrights7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcopyrights7("en-US"),
                                   ),
                                 ],
                               ),
@@ -266,7 +410,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
@@ -324,7 +468,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -334,11 +478,15 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: clipboard (derived forms: clipboards)
-1. A small writing board with a clip at the top for holding papers
+- Noun: copyright (Derived forms: copyrights)
+1. A document granting exclusive right to publish and sell literary, musical or artistic work (= right of first publication)
+
+- Verb: copyright (Derived forms: copyrighting, copyrighted, copyrights)
+1. Secure a copyright on a written work
+"did you copyright your manuscript?"
 """,
   );
 
@@ -371,8 +519,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'aB4pxWGlRm0',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    startSeconds: 1545,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -396,8 +544,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vPEPj2jRwWc',
-    startSeconds: 1698,
+    videoId: 'https://youtu.be/nQJDr8NIeMw?t=',
+    startSeconds: 244,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -421,8 +569,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'onJF7AggKnM',
-    startSeconds: 89,
+    videoId: 'https://youtu.be/zItV3TbP5XA?t=',
+    startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -446,8 +594,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QhRFFRNHxf4',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/SH7rgUcLix4?t=',
+    startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -471,8 +619,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '7eM7pb5M5DU',
-    startSeconds: 1106,
+    videoId: 'https://youtu.be/_3mZLMx5spM?t=',
+    startSeconds: 799,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,8 +644,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'drhDGeNauuo',
-    startSeconds: 1294,
+    videoId: 'https://youtu.be/ndHOav52t7k?t=',
+    startSeconds: 566,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -521,33 +669,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xj7vukZT9sI',
-    startSeconds: 810,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qtlPTE-UmY4',
-    startSeconds: 245,
+    videoId: 'https://youtu.be/KZbzIf_C6Y4?t=',
+    startSeconds: 2443,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

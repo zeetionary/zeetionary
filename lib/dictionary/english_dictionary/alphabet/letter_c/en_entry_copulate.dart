@@ -30,7 +30,7 @@ class EnglishEntrycopulate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcopulates111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "Birds copulate during mating season to fertilize eggs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcopulates2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycopulate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopulates200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Insects copulate quickly, often in mid-air."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcopulates3(String languageCode) async {
@@ -154,7 +155,7 @@ class EnglishEntrycopulate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɒpjuleɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcopulate("en-GB"),
                             ),
@@ -162,7 +163,7 @@ class EnglishEntrycopulate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːpjuleɪt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcopulate("en-US"),
                             ),
@@ -191,10 +192,10 @@ class EnglishEntrycopulate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گان کردن، نزیکی کردن، جووت بوون
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پێنناسە"),
+                              text: "١. (کردار) ئەنجامدانی سێکس"),
                           Row(
                             children: [
                               const Expanded(
@@ -202,9 +203,10 @@ class EnglishEntrycopulate extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "// speakcopulates111111111111111111111111111111111"),
+                                            "Birds copulate during mating season to fertilize eggs."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی هێلکە."),
                                   ],
                                 ),
                               ),
@@ -216,6 +218,34 @@ class EnglishEntrycopulate extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcopulates1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Insects copulate quickly, often in mid-air."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێرووەکان زوو جووت دەبن، زۆرجار لە حەوادا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcopulates2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcopulates2("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,9 +333,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakcopulate EnglishEntrycopulate
-WORD_WEB copulate haʊʊʊʊʊʊʊ4
+- Verb: copulate (Derived forms: copulating, copulates, copulated)
+1. Engage in sexual intercourse (= mate, pair, couple)
+"Birds copulate in the spring";
 """,
   );
 
@@ -338,8 +368,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Cmk4YHnegsE?t=',
+    startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +393,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/dVykWl3wDjI?t=',
+    startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +418,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/4ELREyQF7Ko?t=',
+    startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +443,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/4Z6HbsO28CM?t=',
+    startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +468,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/24siOrlwx9g?t=',
+    startSeconds: 476,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +493,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/qp8AofxW3XA?t=',
+    startSeconds: 464,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +518,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/OWr8pdcNN9M?t=',
+    startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -509,5 +539,4 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-// speakcopulates111111111111111111111111111111111
 // end WORD_WEB

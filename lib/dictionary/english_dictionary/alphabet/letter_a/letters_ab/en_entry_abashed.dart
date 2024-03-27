@@ -3,19 +3,153 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
 class EnglishEntryabashed extends StatelessWidget {
-  EnglishEntryabashed({super.key});
+  const EnglishEntryabashed({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: Padding(
+          padding:
+              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          child: Column(
+            children: [
+              const EntryAndIPA(),
+              const CustomTabBar(
+                tabs: [
+                  UkIconForTab(),
+                  KurdIconForTab(),
+                  VideoIconForTab(),
+                ],
+              ),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    const EnglishMeaning(),
+                    KurdishMeaning(),
+                    const YoutubeVideos(),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "abashed");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  IpaUK({
+    super.key,
+  });
+
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbashed(String languageCode) async {
-    // DOPSUM: CHANGE speakAbashed
+  Future<void> speakabashed(String languageCode) async {
+    // DOPSUM: CHANGE speakabashed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Abashed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abashed"); // DOPSUM: CHANGE TEXT
   }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IPAofEnglish(text: "IpaUK: /əˈbæʃt/"),
+        CustomIconButtonBritish(
+          onPressed: () => speakabashed("en-GB"),
+        ),
+      ],
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  IpaUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabashed(String languageCode) async {
+    // DOPSUM: CHANGE speakabashed
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abashed"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IPAofEnglish(text: "IpaUS: /əˈbæʃt/"),
+        CustomIconButtonAmerican(
+          onPressed: () => speakabashed("en-US"),
+        ),
+      ],
+    );
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speak25476(String languageCode) async {
     // DOPSUM: CHANGE speakAbashed
@@ -28,63 +162,7 @@ class EnglishEntryabashed extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(
-                                word: "abashed"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈbæʃt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakAbashed("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbæʃt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakAbashed("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
+    return SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -126,21 +204,7 @@ class EnglishEntryabashed extends StatelessWidget {
                           ),
                         ],
                       ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedend(),
-                      ],
-                    ), // DOPSUM: FROM YOUTUBE BELOW
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
+                    );
   }
 }
 
@@ -173,7 +237,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -183,7 +247,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: abashed
@@ -271,4 +335,40 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        // YoutubeEmbeddedtwo(),
+        // YoutubeEmbeddedthree(),
+        // YoutubeEmbeddedfour(),
+        // YoutubeEmbeddedfive(),
+        // YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB

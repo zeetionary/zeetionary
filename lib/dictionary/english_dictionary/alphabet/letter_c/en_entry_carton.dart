@@ -229,11 +229,7 @@ class EnglishEntrycarton extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرەیەک لە وێنەی کێشراو کە کە چیرۆکێک دەگێڕنەوە و زۆرجار لە ڕۆژنامەدا چاپدەکرێن"),
-                          const Row(
-                            children: [
-                              AlsoEnglishckb(word: "ھەروەھا: comic strip"),
-                            ],
-                          ),
+                          const AlsoEnglishckb(word: "ھەروەھا: comic strip"),
                           Row(
                             children: [
                               const Expanded(

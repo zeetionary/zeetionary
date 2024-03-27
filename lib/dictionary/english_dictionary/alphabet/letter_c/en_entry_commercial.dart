@@ -378,11 +378,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) زیاتر گرنگیدان بە لایەنی قازانج و ناوبانگ وەک لە کوالێتی"),
-                          const Row(
-                            children: [
-                              AlsoEnglishckb(word: "ھەروەھا: commercialized"),
-                            ],
-                          ),
+                          const AlsoEnglishckb(word: "ھەروەھا: commercialized"),
                           Row(
                             children: [
                               const Expanded(

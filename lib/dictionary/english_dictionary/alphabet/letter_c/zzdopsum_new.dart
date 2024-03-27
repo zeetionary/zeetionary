@@ -11,23 +11,20 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrydopsum1 extends StatelessWidget {
-// blank divider
   const EnglishEntrydopsum1({super.key});
-// blank divider
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
-              EntryAndIPA(),
+              const EntryAndIPA(),
               const CustomTabBar(
                 tabs: [
                   UkIconForTab(),
@@ -38,7 +35,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     KurdishMeaning(),
                     const YoutubeVideos(),
                   ],
@@ -53,7 +50,46 @@ class EnglishEntrydopsum1 extends StatelessWidget {
 }
 
 class EntryAndIPA extends StatelessWidget {
-  EntryAndIPA({
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "dopsum1");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  IpaUK({
     super.key,
   });
 
@@ -69,37 +105,41 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Row(
-                children: [
-                  EntryTitle(word: "dopsum1"),
-                ],
-              ),
-              Row(
-                children: [
-                  const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1("en-GB"),
-                  ),
-                ],
-              ),
-              Row(
-                children: [
-                  const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ],
-      ),
+    return Row(
+      children: [
+        const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+        CustomIconButtonBritish(
+          onPressed: () => speakdopsum1("en-GB"),
+        ),
+      ],
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  IpaUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakdopsum1(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+        CustomIconButtonAmerican(
+          onPressed: () => speakdopsum1("en-US"),
+        ),
+      ],
     );
   }
 }
@@ -506,6 +546,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     );
   }
 }
+// speakdopsum1s111111111111111111111111111111111
 
 class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
@@ -543,7 +584,6 @@ class YoutubeVideos extends StatelessWidget {
   }
 }
 
-// speakdopsum1s111111111111111111111111111111111
 // end WORD_WEB
 
 // eeeeeeeeeeeeeeeeeeeeeeeeee

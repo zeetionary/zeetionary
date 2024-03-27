@@ -464,11 +464,7 @@ class EnglishEntrycoach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە پارەی پێ دەدەیت بۆ ئەوەی ڕاوێژت پێ بدات لەسەر باشترکردنی ژیانت"),
-                          const Row(
-                            children: [
-                              AlsoEnglishckb(word: "ھەروەھا: life coach"),
-                            ],
-                          ),
+                          const AlsoEnglishckb(word: "ھەروەھا: life coach"),
                           Row(
                             children: [
                               const Expanded(

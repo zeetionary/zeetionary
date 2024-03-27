@@ -1,23 +1,155 @@
-// replace these: EnglishEntryabandonment - speakAbandonment - /əˈbændənmənt/ - abandonment
-
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
 class EnglishEntryabandonment extends StatelessWidget {
-  EnglishEntryabandonment({super.key});
+  const EnglishEntryabandonment({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: Padding(
+          padding:
+              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          child: Column(
+            children: [
+              const EntryAndIPA(),
+              const CustomTabBar(
+                tabs: [
+                  UkIconForTab(),
+                  KurdIconForTab(),
+                  VideoIconForTab(),
+                ],
+              ),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    const EnglishMeaning(),
+                    KurdishMeaning(),
+                    const YoutubeVideos(),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "abandonment");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  IpaUK({
+    super.key,
+  });
+
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbandonment(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandonment
+  Future<void> speakabandonment(String languageCode) async {
+    // DOPSUM: CHANGE speakabandonment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
   }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IPAofEnglish(text: "IpaUK: /əˈbændənmənt/"),
+        CustomIconButtonBritish(
+          onPressed: () => speakabandonment("en-GB"),
+        ),
+      ],
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  IpaUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabandonment(String languageCode) async {
+    // DOPSUM: CHANGE speakabandonment
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IPAofEnglish(text: "IpaUS: /əˈbændənmənt/"),
+        CustomIconButtonAmerican(
+          onPressed: () => speakabandonment("en-US"),
+        ),
+      ],
+    );
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakAba12(String languageCode) async {
     // DOPSUM: CHANGE speakAbandonment
@@ -30,68 +162,7 @@ class EnglishEntryabandonment extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(
-                                word:
-                                    "abandonment"), // DOPSUM: CHANGE WORD ENTRY
-
-                            //   '(noun - derived forms:  Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈbændənmənt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakAbandonment("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbændənmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakAbandonment("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
+    return SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -133,22 +204,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                           ),
                         ],
                       ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedend(),
-                      ],
-                    ), // DOPSUM: FROM YOUTUBE BELOW
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
+                    );
   }
 }
 
@@ -181,7 +237,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -191,7 +247,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: abandonment (derived forms:  abandonments)
@@ -304,4 +360,40 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        // YoutubeEmbeddedthree(),
+        // YoutubeEmbeddedfour(),
+        // YoutubeEmbeddedfive(),
+        // YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB

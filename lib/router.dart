@@ -3730,11 +3730,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_corkscrew.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_corn.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_corncob.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cornflour.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_corn_on_the_cob.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cornea.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_corned_beef.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_corner.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8277,11 +8277,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-corkscrew": (_) => MaterialPage(child: EnglishEntrycorkscrew()),
   "/english-corn": (_) => MaterialPage(child: EnglishEntrycorn()),
   "/english-corncob": (_) => MaterialPage(child: EnglishEntrycorncob()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cornflour": (_) => MaterialPage(child: EnglishEntrycornflour()),
+  "/english-corn-on-the-cob": (_) => MaterialPage(child: EnglishEntrycornonthecob()),
+  "/english-cornea": (_) => MaterialPage(child: EnglishEntrycornea()),
+  "/english-corned-beef": (_) => MaterialPage(child: EnglishEntrycornedbeef()),
+  "/english-corner": (_) => MaterialPage(child: EnglishEntrycorner()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

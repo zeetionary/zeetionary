@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryaback extends StatelessWidget {
-  const EnglishEntryaback({super.key});
+class EnglishEntrycorpulent extends StatelessWidget {
+  const EnglishEntrycorpulent({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "aback");
+    return const EntryTitle(word: "corpulent");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakaback(String languageCode) async {
-    // DOPSUM: CHANGE speakaback
+  Future<void> speakcorpulent(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("corpulent"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /əˈbæk/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkɔːpjələnt/"),
         CustomIconButtonBritish(
-          onPressed: () => speakaback("en-GB"),
+          onPressed: () => speakcorpulent("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakaback(String languageCode) async {
-    // DOPSUM: CHANGE speakaback
+  Future<void> speakcorpulent(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("corpulent"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /əˈbæk/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkɔːrpjələnt/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakaback("en-US"),
+          onPressed: () => speakcorpulent("en-US"),
         ),
       ],
     );
@@ -151,13 +151,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speak1256935(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
+  Future<void> speakcorpulents1(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was completely taken aback by his anger."); // DOPSUM: CHANGE TEXT
+        "He is a short, somewhat corpulent, man."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents2(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents3(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents4(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents5(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents6(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents7(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents8(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents9(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents10(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents11(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents12(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcorpulents13(String languageCode) async {
+    // DOPSUM: CHANGE speakcorpulent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcorpulents1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -169,31 +265,29 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
+کوردی: قەڵەو، گۆشتن، بەخۆوە
 """),
-          const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"
-                  ""),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) قەڵەو "),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "She was completely taken aback by his anger."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو تووشی شۆک بوو بە توڕەییەکەی."),
+                        text:
+                            "He is a short, somewhat corpulent, man."),
+                    ExampleSentenceKurdish(text: "پیاوێکی کورتی کەمێک قەڵەوە (گردەڵە)."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "corpulent", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speak1256935("en-GB"),
+                    onPressed: () => speakcorpulents1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speak1256935("en-US"),
+                    onPressed: () => speakcorpulents1("en-US"),
                   ),
                 ],
               ),
@@ -247,12 +341,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-Adverb: aback
-1. Having the wind against the forward side of the sails
-"the ship came up into the wind with all yards aback"
- 
-2. By surprise
-"taken aback by the caustic remarks"
+- Adjective: corpulent 
+1. Excessively fat (= obese, weighty, rotund, lardy [informal], overweight, porky [informal])
+"a corpulent man";
 """,
   );
 
@@ -285,8 +376,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AwodL8z2EtE',
-    startSeconds: 1373,
+    videoId: 'https://youtu.be/Yc28bsBxJnA?t=',
+    startSeconds: 1139,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -310,8 +401,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4VSx2E7WE50',
-    startSeconds: 224,
+    videoId: 'https://youtu.be/3WgKx9-eh-U?t=',
+    startSeconds: 216,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -335,8 +426,108 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Y4E8qEDi_xg',
-    startSeconds: 29,
+    videoId: 'https://youtu.be/uplxc5lB7cQ?t=',
+    startSeconds: 12561,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/qJOmDMHQby4?t=',
+    startSeconds: 730,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/5fgERVbtADo?t=',
+    startSeconds: 117,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/ozG8xfVWtrY?t=',
+    startSeconds: 468,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/u7sK8Wy9uT4?t=',
+    startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -367,10 +558,10 @@ class YoutubeVideos extends StatelessWidget {
       children: [
         YoutubeEmbeddedone(),
         YoutubeEmbeddedtwo(),
-        // YoutubeEmbeddedthree(),
-        // YoutubeEmbeddedfour(),
-        // YoutubeEmbeddedfive(),
-        // YoutubeEmbeddedsix(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        YoutubeEmbeddedfive(),
+        YoutubeEmbeddedsix(),
         // YoutubeEmbeddedseven(),
         // YoutubeEmbeddedeight(),
         // YoutubeEmbeddednine(),

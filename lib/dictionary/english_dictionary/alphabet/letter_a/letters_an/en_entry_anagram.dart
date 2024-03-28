@@ -148,7 +148,7 @@ class EnglishEntryanagram extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: (زمانەوانی) وشاوەژوو، پاش‌وپێش‌خستە
 """),
                           DefinitionKurdish(

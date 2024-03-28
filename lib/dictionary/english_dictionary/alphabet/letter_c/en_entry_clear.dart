@@ -874,7 +874,7 @@ class EnglishEntryclear extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "This is a clear case of fraud."),
                                     ExampleSentenceKurdish(
-                                        text: "ئەمە کەسێکی ڕوونی دەستبڕییە."),
+                                        text: "ئەمە کەیسێکی ڕوونی دەستبڕییە."),
                                   ],
                                 ),
                               ),
@@ -2543,7 +2543,8 @@ class EnglishEntryclear extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣٣. (ھاوەڵکار) پێنناسە"),
+                              text:
+                                  "٣٣. (ھاوەڵکار) دووربوون لە کەسێک یان شتێک"),
                           Row(
                             children: [
                               const Expanded(

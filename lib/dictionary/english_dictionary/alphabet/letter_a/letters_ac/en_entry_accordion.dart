@@ -82,7 +82,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: (میوزیک) ئاکۆردیەن، ئاکاردیۆن
 """),
                           DefinitionKurdish(

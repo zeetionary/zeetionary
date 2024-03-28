@@ -105,7 +105,7 @@ class EnglishEntryadverbial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: ئاوەڵ‌کاری، سەربە ئاوەڵ‌کار، کار ئاوەڵ‌کار دەکا
 """),
                           DefinitionKurdish(

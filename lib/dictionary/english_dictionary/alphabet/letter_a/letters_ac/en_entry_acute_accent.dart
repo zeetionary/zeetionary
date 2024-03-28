@@ -107,7 +107,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: زەبر یان ھێزی سووک، نیشانەیێ (´) لەسەر بزوێنێ کە دەبێ گۆ بکرێ، وەکوو e لە وشەکانی fiancé یان café دا
 """),
                           DefinitionKurdish(

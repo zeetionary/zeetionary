@@ -105,7 +105,7 @@ class EnglishEntryadder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: بەرگیر (مار)، مارگیسک، بۆ ناوی مارە ھاوشێوە یان پێوەندی‌دارەکان بەکاردێنرێ
 """),
                           DefinitionKurdish(

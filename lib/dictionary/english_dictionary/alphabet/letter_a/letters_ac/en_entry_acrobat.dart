@@ -105,7 +105,7 @@ class EnglishEntryacrobat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: تەناف‌باز، جامباز
 """),
                           DefinitionKurdish(

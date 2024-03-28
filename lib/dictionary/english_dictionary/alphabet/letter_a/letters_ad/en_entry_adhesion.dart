@@ -105,7 +105,7 @@ class EnglishEntryadhesion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: پیانووسان، پیالکان، پێکانووسان، پیاچەسپان، پێدانووسان، جۆش‌خواردن، چەسپان، لچکان، گرتن، پشتیوانی، لایەنگری، داژداری، وەفاداری، بەئەمەگی، دڵسۆزی
 """),
                           DefinitionKurdish(

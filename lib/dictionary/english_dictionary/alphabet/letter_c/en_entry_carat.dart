@@ -234,7 +234,7 @@ class EnglishEntrycarat extends StatelessWidget {
                                             "The jeweler explained that 14-carat gold contains 58.5% pure gold."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زەڕەنگەرەکە ڕووینیکردەوە کە ئاڵتوونی عەیارە ١٤ ڕێژەی ٥٨,٥٪ی ئاڵتوونی تەواوە."),
+                                            "زەڕەنگەرەکە ڕوونیکردەوە کە ئاڵتوونی عەیارە ١٤ ڕێژەی ٥٨,٥٪ی ئاڵتوونی تەواوە."),
                                   ],
                                 ),
                               ),

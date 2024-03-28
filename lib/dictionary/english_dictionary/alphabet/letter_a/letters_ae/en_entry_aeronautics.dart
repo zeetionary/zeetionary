@@ -106,7 +106,7 @@ class EnglishEntryaeronautics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: فڕینەوانی، زانستی فڕین، زانستی ئاسمان‌گەڕی
 """),
                           DefinitionKurdish(

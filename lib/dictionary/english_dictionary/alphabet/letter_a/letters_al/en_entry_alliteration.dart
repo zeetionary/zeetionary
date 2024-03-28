@@ -108,7 +108,7 @@ class EnglishEntryalliteration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: ھاوپیتی، لێکچوون یان ھاوچەشنی دەنگی
 """),
                           DefinitionKurdish(

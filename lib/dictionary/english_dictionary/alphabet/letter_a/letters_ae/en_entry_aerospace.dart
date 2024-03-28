@@ -105,7 +105,7 @@ class EnglishEntryaerospace extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: ھەواـ بۆشایی (= سازگەری یا سەنعەتی دروس‌کردنی ئەو فڕۆکە و کەل‌وپەل و دەزگایانەی کە بۆ بۆشایی یان ئاسمان دەنێردرێن)
 """),
                           DefinitionKurdish(

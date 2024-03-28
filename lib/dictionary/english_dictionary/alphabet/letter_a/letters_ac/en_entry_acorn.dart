@@ -105,7 +105,7 @@ class EnglishEntryacorn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: (بەر یان دەنکەکەی) بەڕوو، کۆپەک
 """),
                           DefinitionKurdish(

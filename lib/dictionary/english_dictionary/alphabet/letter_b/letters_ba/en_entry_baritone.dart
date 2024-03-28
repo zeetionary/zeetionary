@@ -143,7 +143,7 @@ class EnglishEntrybaritone extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: بن‌گڕ، ژێربۆڕ یان ژێرگڕ، بەریتۆن
 """),
                           DefinitionKurdish(

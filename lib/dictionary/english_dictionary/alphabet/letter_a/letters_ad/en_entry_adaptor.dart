@@ -107,7 +107,7 @@ class EnglishEntryadaptor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DefinitionKurdish(text: """
+                          KurdishVocabulary(text: """
 کوردی: پێکبەست، بەستەر، گونجێنەر، (کارەبا) گونجێنە، ئاداپتۆر
 """),
                           DefinitionKurdish(
